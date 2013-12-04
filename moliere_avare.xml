@@ -28,7 +28,7 @@
 <text>
 	<front>
 		<docTitle>
-			<titlePart type="main">L´AVARE</titlePart>
+			<titlePart type="main">L'AVARE</titlePart>
 			<titlePart type="sub">COMÉDIE</titlePart>
 		</docTitle> 
 		<docDate value="1669">M. DC. LXIX. AVEC PRIVILÈGE DU ROI.</docDate>
@@ -46,7 +46,7 @@
 		<performance>
 			<premiere date="1668-09-09" location="Théâtre du Palais-Royal">Représentée pour la première fois à Paris sur le Théâtre du Palais-Royal le 9e du mois de septembre 1668 par la Troupe du Roi.</premiere>
 		</performance>
-		<castList><head>Personnages </head>
+		<castList><head>acteurs</head>
 			<castItem><role id="HARPAGON" civil="M" type="H" statut="bourgeois" age="A" stat_amour="Mariane">HARPAGON</role>, père de Cléante et d´Élise, et amoureux de Mariane.</castItem>
 			<castItem><role id="CLEANTE" civil="M" type="H" statut="bourgeois" age="A" stat_amour="Mariane">CLÉANTE</role>, fils d´Harpagon, amant de Mariane.</castItem>
 			<castItem><role id="ÉLISE" civil="F" type="H" statut="bourgeois" age="A" stat_amour="Valère">ÉLISE</role>, fille d´Harpagon, amante de Valère. </castItem>
@@ -66,8 +66,8 @@
 <set location="Paris" country="France" periode="XVIIème" link="">La scène est à Paris. </set>
 </front>
 <body>
-<div1 type="acte" n="1"><head>ACTE I</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Valère, Élise.</head>
+<div1 type="acte" n="1"><head>ACTE PREMIER</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Valère, Élise.</head>
 <sp who="VALERE"><speaker>VALÈRE.</speaker>
 <note type="L">Foi : est la créance (croyance) qu'on donne au paroles de hommes. (.) Signifie encore serment, parole qu'on donne de faire quelque chose, et qu'on se promet d'exécuter. [F]</note>
 <note type="L">Feux : vifs sentiments amoureux.</note>
@@ -1518,10 +1518,11 @@
 	<s id="4">Heureux qui peut avoir un domestique de la sorte ! </s>
 </p>
 </sp>
+	<p>Fin du Premier Acte.</p>
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Cléante, La Flèche.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Cléante, La Flèche.</head>
 <sp who="CLEANTE"><speaker>CLÉANTE.</speaker>
 <p id="1">
 	<s id="1">Ah ! </s>
@@ -2441,10 +2442,11 @@
 	<s id="2">Le ladre a été ferme à toutes mes attaques ; mais il ne me faut pas pourtant quitter la négociation ; et j´ai l´autre côté, en tout cas, d´où je suis assurée de tirer bonne récompense. </s>
 </p>
 </sp>
+<p>Fin du Second Acte.</p>
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III </head>
-<div2 type="scene" n="1"><head>SCÈNE I. Harpagon, Cléante, Élise, Valère, Dame Claude, Maître Jacques, Brindavoine, La Merluche.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Harpagon, Cléante, Élise, Valère, Dame Claude, Maître Jacques, Brindavoine, La Merluche.</head>
 <sp who="HARPAGON"><speaker>HARPAGON.</speaker>
 <p id="1">
 	<s id="1">Allons, venez çà tous, que je vous distribue mes ordres pour tantôt et règle à chacun son emploi. </s>
@@ -3603,10 +3605,11 @@
 	<s id="1">Ô fils impertinent, as-tu envie de me ruiner ? </s>
 </p>
 </sp>
+<p>Fin du Troisième Acte.</p>
 </div2>
 </div1>
 <div1 type="acte" n="4"><head>ACTE IV</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Cléante, Mariane, Élise, Frosine.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Cléante, Mariane, Élise, Frosine.</head>
 <sp who="CLEANTE"><speaker>CLÉANTE.</speaker>
 <p id="1">
 	<s id="1">Rentrons ici, nous serons beaucoup mieux. </s>
@@ -4534,10 +4537,11 @@
 	<s id="27">Je veux faire pendre tout le monde ; et si je ne retrouve mon argent, je me pendrai moi-même après. </s>
 </p>
 </sp>
+	<p>Fin du Quatrième Acte.</p>
 </div2>
 </div1>
 <div1 type="acte" n="5"><head>ACTE V</head>
-<div2 type="scene" n="1"><head>SCÈNE I. Harpagon, Le Commissaire, son Clerc.</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Harpagon, Le Commissaire, son Clerc.</head>
 <sp who="COMMISSAIRE"><speaker>LE COMMISSAIRE.</speaker>
 <p id="1">
 	<s id="1">Laissez-moi faire : je sais mon métier, Dieu merci. </s>
@@ -5668,6 +5672,7 @@
 	<s id="1">Et moi, voir ma chère cassette. </s>
 </p>
 </sp>
+	<p>fin</p>
 </div2>
 </div1>
 </body>
