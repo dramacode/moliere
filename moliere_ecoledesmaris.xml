@@ -11,7 +11,7 @@
 		</publicationStmp>
 		<SourceDesc>
 			<genre>Comédie</genre>
-			<inspiration>moeurs françaises</inspiration>
+			<inspiration>mœurs françaises</inspiration>
 			<structure>Trois actes</structure>
 			<type>vers</type>
 			<periode>1671-1680</periode>
@@ -27,18 +27,18 @@
 	<front>
 		<docTitle>
 			<titlePart type="main">L'ÉCOLE DES MARIS,</titlePart>
-			<titlePart type="sub">COMÉDIE,</titlePart>
+			<titlePart type="sub" rend="i">COMÉDIE,</titlePart>
 		</docTitle> 
 		<docAuthor id='MOLIERE' bio='moliere'>De I. B. P. Molière</docAuthor>
 		<performance>
-			<premiere date='1661-06-24' location='Théâtre du Palais-Royal'>REPRÉSENTÉE SUR LE <lb/> Théâtre du Palais Royal.</premiere>
+			<premiere date='1661-06-24' location='Théâtre du Palais-Royal' rend="i">REPRÉSENTÉE SUR LE <lb/> Théâtre du Palais Royal.</premiere>
 		</performance>
 		<docImprint>
 			<privilege id='16**-**-**'></privilege>
 			<acheveImprime id='16**-**-**'></acheveImprime>
 			<printer id='LUYNE'>À PARIS, <lb/>Chez GUILLAUME DE LUYNE, <lb/>Libraire Juré, au Palais, à la Salle des <lb/>Merciers, à la Justice.</printer>
 		</docImprint>
-		<docDate value='1661'>M. DC. LXI. <lb/>AVEC PRIVILÈGE DU ROI.</docDate>
+		<docDate value='1661'>M. DC. LXI. <lb/><hi rend="i">AVEC PRIVILÈGE DU ROI</hi>.</docDate>
 		<div1>
 			<head>A MONSEIGNEUR <lb/>LE DUC <lb/>D'ORLÉANS,<lb/> FRÈRE UNIQUE <lb/>DU ROI</head>
 			<p>Monseigneur,</p>
@@ -61,7 +61,7 @@
 				choses, et tout ce que j’ai prétendu dans cette Épître, c’est de justifier mon action
 				à toute la France, et d’avoir cette gloire de vous dire à vous-même, MONSEIGNEUR,
 				avec toute la soumission possible, que je suis,</p>
-			<p>De Votre Altesse Royale, <lb/>Le très humble, très obéissant, <lb/>et très fidèle serviteur, <lb/>J.-B. P. MOLIÈRE.</p>
+			<p><hi rend="indent">De Votre Altesse Royale</hi>, <lb/><hi rend="right">Le très humble, très obéissant, <lb/>et très fidèle serviteur, <lb/>J.-B. P. MOLIÈRE.</hi></p>
 		</div1>
 		<castList>
 			<head>Les Personnages.</head>
@@ -190,17 +190,17 @@
 </sp>
 </div2>
 <div2 type="scene" n="2"><head>SCÈNE II. Léonor, Isabelle, Lisette, Ariste, Sganarelle.</head>
-<sp who="LEONOR"><speaker>léonor à Isabelle.</speaker>
+	<sp who="LEONOR"><speaker>léonor <hi rend="i">à Isabelle</hi>.</speaker>
 	<l id="75">Je me charge de tout, en cas que l'on vous gronde.</l>
 </sp>
-<sp who="LISETTE"><speaker>lisette à Isabelle.</speaker>
+	<sp who="LISETTE"><speaker>lisette <hi rend="i">à Isabelle</hi>.</speaker>
 	<l id="76">Toujours dans une chambre à ne point voir le monde ?</l>
 </sp>
 <sp who="ISABELLE"><speaker>isabelle.</speaker>
 	<l id="77" part="i">Il est ainsi bâti.</l>
 </sp>
 <sp who="LEONOR"><speaker>léonor.</speaker>
-	<l id="77" part="f">Je vous en plains ma soeur.</l>
+	<l id="77" part="f">Je vous en plains ma sœur.</l>
 </sp>
 <sp who="LISETTE"><speaker>lisette.</speaker>
 	<l id="78">Bien vous prend que son frère ait toute une autre humeur,</l>
@@ -219,7 +219,7 @@
 	<l id="84" part="f">Où donc allez-vous, qu'il ne vous en déplaise,</l>
 </sp>
 <sp who="LEONOR"><speaker>léonor.</speaker>
-	<l id="85">Nous ne savons encore, et je pressais ma soeur</l>
+	<l id="85">Nous ne savons encore, et je pressais ma sœur</l>
 	<l id="86">De venir du beau temps respirer la douceur :</l>
 	<l id="87" part="i">Mais…</l>
 </sp>
@@ -255,7 +255,7 @@
 	<l id="96">Et je sais l'intérêt enfin, que j'y dois prendre.</l>
 </sp>
 <sp who="ARISTE"><speaker>ariste.</speaker>
-	<l id="97">À celles de sa soeur, ai-je un moindre intérêt ?</l>
+	<l id="97">À celles de sa sœur, ai-je un moindre intérêt ?</l>
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
 	<l id="98">Mon Dieu, chacun raisonne, et fait comme il lui plaît.</l>
@@ -318,11 +318,11 @@
 	<l id="136">Et vous m'obligerez de ne nous en plus faire.</l>
 </sp>
 <sp who="LEONOR"><speaker>léonor.</speaker>
-	<l id="137">Voulez-vous que mon coeur, vous parle net aussi ?</l>
-	<l id="138">J'ignore de quel oeil, elle voit tout ceci,</l>
+	<l id="137">Voulez-vous que mon cœur, vous parle net aussi ?</l>
+	<l id="138">J'ignore de quel œil, elle voit tout ceci,</l>
 	<l id="139">Mais je sais ce qu'en moi ferait la défiance,</l>
 	<l id="140">Et quoiqu'un même sang nous ait donné naissance ;</l>
-	<l id="141">Nous sommes bien peu soeurs, s'il faut que chaque jour</l>
+	<l id="141">Nous sommes bien peu sœurs, s'il faut que chaque jour</l>
 	<l id="142">Vos manières d'agir lui donnent de l'amour.</l>
 </sp>
 <sp who="LISETTE"><speaker>lisette.</speaker>
@@ -361,7 +361,7 @@
 	<l id="171">C'est une étrange chose à vous parler sans feinte,</l>
 	<l id="172">Qu'une femme qui n'est sage que par contrainte ;</l>
 	<l id="173">En vain sur tous ses pas nous prétendons régner,</l>
-	<l id="174">Je trouve que le coeur est ce qu'il faut gagner,</l>
+	<l id="174">Je trouve que le cœur est ce qu'il faut gagner,</l>
 	<l id="175">Et je ne tiendrais moi, quelque soin qu'on se donne,</l>
 	<l id="176">Mon honneur guère sûr aux mains d'une personne ;</l>
 	<l id="177">À qui, dans les désirs qui pourraient l'assaillir,</l>
@@ -386,7 +386,7 @@
 	<l id="191">Et l'École du monde en l'air dont il faut vivre ;</l>
 	<l id="192">Instruit mieux à mon gré que ne fait aucun livre :</l>
 	<l id="193">Elle aime à dépenser en habits, linge, et noeuds ;</l>
-	<l id="194">Que voulez-vous, je tâche à contenter ses voeux,</l>
+	<l id="194">Que voulez-vous, je tâche à contenter ses vœux,</l>
 	<l id="195">Et ce sont des plaisirs qu'on peut dans nos familles,</l>
 	<l id="196">Lorsque l'on a du bien, permettre aux jeunes filles,</l>
 	<l id="197">Un ordre paternel l'oblige à m'épouser ;</l>
@@ -472,7 +472,7 @@
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
 	<l id="228" part="f">Et vous verrez ces visites muguettes,</l>
-	<l id="229">D'un oeil à témoigner de n'en être point soûl ?</l>
+	<l id="229">D'un œil à témoigner de n'en être point soûl ?</l>
 </sp>
 <sp who="ARISTE"><speaker>ariste.</speaker>
 	<l id="230" part="i">Cela s'entend :</l>
@@ -540,7 +540,7 @@
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
 	<l id="265">N'est-ce pas quelque chose enfin de surprenant,</l>
-	<l id="266">Que la corruption des moeurs de maintenant.</l>
+	<l id="266">Que la corruption des mœurs de maintenant.</l>
 </sp>
 <sp who="VALERE"><speaker>valère.</speaker>
 	<l id="267">Je voudrais l'accoster, s'il est en ma puissance,</l>
@@ -556,7 +556,7 @@
 	<l id="272" part="f">Il ne voit pas que c'est lui qu'on salue.</l>
 </sp>
 <sp who="ERGASTE"><speaker>ergaste.</speaker>
-	<l id="273">Son mauvais oeil, peut-être, est de ce côté-ci :</l>
+	<l id="273">Son mauvais œil, peut-être, est de ce côté-ci :</l>
 	<l id="274" part="i">Passons du côté droit.</l>
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
@@ -721,7 +721,7 @@
 	<l id="345">Elle ne sait donc pas encor que vous l'aimez ?</l>
 </sp>
 <sp who="VALERE"><speaker>valère.</speaker>
-	<l id="346">C'est un point dont mes voeux ne sont point informés,</l>
+	<l id="346">C'est un point dont mes vœux ne sont point informés,</l>
 	<l id="347">Partout où ce farouche a conduit cette belle,</l>
 	<l id="348">Elle m'a toujours vu comme une ombre après elle,</l>
 	<l id="349">Et mes regards aux siens ont tâché chaque jour,</l>
@@ -742,7 +742,7 @@
 	<l id="357" part="f">C'est ce qu'il faut trouver,</l>
 	<l id="358">Entrons un peu chez vous afin d'y mieux rêver.</l>
 </sp>
-<p>Fin du premier Acte.</p>
+<p rend="i">Fin du premier Acte.</p>
 </div2>
 </div1>
 <div1 type="acte" n="2"><head>ACTE II</head>
@@ -751,7 +751,7 @@
 	<l id="359">Va je sais la maison, et connais la personne,</l>
 	<l id="360">Aux marques seulement, que ta bouche me donne ;</l>
 </sp>
-<sp who="ISABELLE"><speaker>isabelle, à part.</speaker>
+	<sp who="ISABELLE"><speaker>isabelle, <hi rend="i">à part</hi>.</speaker>
 	<l id="361">Ô Ciel, sois-moi propice, et seconde en ce jour,</l>
 	<l id="362">Le stratagème adroit, d'une innocente amour.</l>
 </sp>
@@ -867,7 +867,7 @@
 	<l id="397" part="i">Voulez-vous m'écouter.</l>
 </sp>
 <sp who="VALERE"><speaker>valère.</speaker>
-	<l id="397" part="f">Sans doute, et de grand coeur ;</l>
+	<l id="397" part="f">Sans doute, et de grand cœur ;</l>
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
 	<l id="398">Savez-vous, dites-moi, que je suis le tuteur,</l>
@@ -917,7 +917,7 @@
 	<l id="412">Elle vient de m'en faire entière confidence ;</l>
 	<l id="413">Et de plus m'a chargé de vous donner avis,</l>
 	<l id="414">Que depuis que par vous, tous ses pas sont suivis ;</l>
-	<l id="415">Son coeur qu'avec excès votre poursuite outrage,</l>
+	<l id="415">Son cœur qu'avec excès votre poursuite outrage,</l>
 	<l id="416">N'a que trop de vos yeux entendu le langage ;</l>
 	<l id="417">Que vos secrets désirs, lui sont assez connus,</l>
 	<l id="418">Et que c'est vous donner des soucis superflus ;</l>
@@ -931,12 +931,12 @@
 	<l id="422">Oui, vous venir donner cet avis franc, et net,</l>
 	<l id="423">Et qu'ayant vu l'ardeur dont votre âme est blessée,</l>
 	<l id="424">Elle vous eût plutôt fait savoir sa pensée ;</l>
-	<l id="425">Si son coeur avait eu dans son émotion,</l>
+	<l id="425">Si son cœur avait eu dans son émotion,</l>
 	<l id="426">À qui pouvoir donner cette commission ;</l>
 	<l id="427">Mais qu'enfin les douleurs d'une contrainte extrême,</l>
 	<l id="428">L'on réduite à vouloir se servir de moi-même ;</l>
 	<l id="429">Pour vous rendre averti, comme je vous ai dit,</l>
-	<l id="430">Qu'à tout autre que moi son coeur est interdit ;</l>
+	<l id="430">Qu'à tout autre que moi son cœur est interdit ;</l>
 	<l id="431">Que vous avez assez joué de la prunelle,</l>
 	<l id="432">Et que si vous avez tant soit peu de cervelle,</l>
 	<l id="433">Vous prendrez d'autres soins, adieu jusqu'au revoir,</l>
@@ -945,7 +945,7 @@
 <sp who="VALERE"><speaker>valère.</speaker>
 	<l id="435">Ergaste, que dis-tu, d'une telle aventure ?</l>
 </sp>
-<sp who="SGANARELLE"><speaker>sganarelle, à part.</speaker>
+	<sp who="SGANARELLE"><speaker>sganarelle, <hi rend="i">à part</hi>.</speaker>
 	<l id="436" part="i">Le voilà bien surpris ;</l>
 </sp>
 <sp who="ERGASTE"><speaker>ergaste.</speaker>
@@ -955,7 +955,7 @@
 	<l id="439">Et qu'enfin cet avis n'est pas d'une personne,</l>
 	<l id="440">Qui veuille voir cesser l'amour qu'elle vous donne.</l>
 </sp>
-<sp who="SGANARELLE"><speaker>sganarelle, à part.</speaker>
+	<sp who="SGANARELLE"><speaker>sganarelle, <hi rend="i">à part</hi>.</speaker>
 	<l id="441" part="i">Il en tient comme il faut.</l>
 </sp>
 <sp who="VALERE"><speaker>valère.</speaker>
@@ -969,7 +969,7 @@
 	<l id="444">Il ne s'attendait pas, sans doute à ce message ;</l>
 	<l id="445">Appelons Isabelle, elle montre le fruit,</l>
 	<l id="446">Que l'éducation dans une âme produit,</l>
-	<l id="447">La vertu fait ses soins, et son coeur s'y consomme,</l>
+	<l id="447">La vertu fait ses soins, et son cœur s'y consomme,</l>
 	<l id="448">Jusques à s'offenser des seuls regards d'un homme.</l>
 </sp>
 </div2>
@@ -989,7 +989,7 @@
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
 	<l id="453" part="f">Un plein effet</l>
 	<l id="454">A suivi tes discours, et ton homme a son fait ;</l>
-	<l id="455">Il me voulait nier que son coeur fût malade ;</l>
+	<l id="455">Il me voulait nier que son cœur fût malade ;</l>
 	<l id="456">Mais lorsque de ta part j'ai marqué l'ambassade,</l>
 	<l id="457">Il est resté d'abord, et muet, et confus,</l>
 	<l id="458">Et je ne pense pas qu'il y revienne plus.</l>
@@ -1011,7 +1011,7 @@
 	<l id="468">Qui renferme une lettre en poulet cachetée,</l>
 	<l id="469">J'ai voulu sans tarder lui rejeter le tout ;</l>
 	<l id="470">Mais ses pas de la rue avaient gagné le bout,</l>
-	<l id="471">Et je m'en sens le coeur tout gros de fâcherie.</l>
+	<l id="471">Et je m'en sens le cœur tout gros de fâcherie.</l>
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
 	<l id="472">Voyez un peu la ruse et la friponnerie.</l>
@@ -1025,7 +1025,7 @@
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
 	<l id="476" part="f">Au contraire mignonne,</l>
 	<l id="477">C'est me faire mieux voir ton amour et ta foi,</l>
-	<l id="478">Et mon coeur avec joie accepte cet emploi,</l>
+	<l id="478">Et mon cœur avec joie accepte cet emploi,</l>
 	<l id="479">Tu m'obliges par là plus que je ne puis dire.</l>
 </sp>
 <sp who="ISABELLE"><speaker>isabelle.</speaker>
@@ -1049,7 +1049,7 @@
 	<l id="487">Et je trouve à propos que toute cachetée</l>
 	<l id="488">Cette lettre lui soit promptement reportée,</l>
 	<l id="489">Afin que d'autant mieux il connaisse aujourd'hui,</l>
-	<l id="490">Le mépris éclatant que mon coeur fait de lui,</l>
+	<l id="490">Le mépris éclatant que mon cœur fait de lui,</l>
 	<l id="491">Que ses feux désormais perdent toute espérance,</l>
 	<l id="492">Et n'entreprennent plus pareille extravagance.</l>
 </sp>
@@ -1072,7 +1072,7 @@
 </div2>
 <div2 type="scene" n="4"><head>SCÈNE IV. Sganarelle, Ergaste</head>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
-	<l id="503">Dans quel ravissement est-ce que mon coeur nage,</l>
+	<l id="503">Dans quel ravissement est-ce que mon cœur nage,</l>
 	<l id="504">Lorsque je vois en elle une fille si sage ;</l>
 	<l id="505">C'est un trésor d'honneur que j'ai dans ma maison.</l>
 	<l id="506">Prendre un regard d'amour pour une trahison,</l>
@@ -1109,10 +1109,10 @@
 </sp>
 <sp who="VALERE"><speaker>valère.</speaker>
 <stage>Lettre.</stage>
-	<p id="2">
+	<p id="2" rend="i">
 		<s id="1">Cette lettre vous surprendra, sans doute, et l'on peut trouver bien hardi pour moi, et le dessein de vous l'écrire, et la manière de vous la faire tenir ; mais je me vois dans un état à ne plus garder de mesures ; la juste horreur d'un mariage, dont je suis menacée dans six jours, me fait hasarder toutes choses, et dans la résolution de m'en affranchir par quelque voie que ce soit, j'ai cru que je devais plutôt vous choisir que le désespoir. </s>
 		<s id='2'>Ne croyez pas pourtant que vous soyez redevable de tout à ma mauvaise destinée, ce n'est pas la contrainte où je me trouve qui a fait naître les sentiments que j'ai pour vous ; mais c'est elle qui en précipite le témoignage, et qui me fait passer sur des formalités où la bienséance du sexe oblige. </s>
-		<s id='3'>Il ne tiendra qu'à vous que je sois à vous bien tôt, et j'attends seulement que vous m'ayez marqué les intentions de votre amour, pour vous faire savoir la résolution que j'ai prise ; mais surtout songez que le temps presse, et que deux coeurs qui s'aiment doivent s'entendre à demi-mot.
+		<s id='3'>Il ne tiendra qu'à vous que je sois à vous bien tôt, et j'attends seulement que vous m'ayez marqué les intentions de votre amour, pour vous faire savoir la résolution que j'ai prise ; mais surtout songez que le temps presse, et que deux cœurs qui s'aiment doivent s'entendre à demi-mot.
 		</s>
 </p>
 </sp>
@@ -1156,7 +1156,7 @@
 </sp>
 <sp who="VALERE"><speaker>valère.</speaker>
 	<l id="553">Oui, oui, votre mérite à qui chacun se rend,</l>
-	<l id="554">Est à mes voeux, Monsieur, un obstacle trop grand,</l>
+	<l id="554">Est à mes vœux, Monsieur, un obstacle trop grand,</l>
 	<l id="555">Et c'est folie à moi, dans mon ardeur fidèle,</l>
 	<l id="556">De prétendre avec vous à l'amour d'Isabelle.</l>
 </sp>
@@ -1165,8 +1165,8 @@
 </sp>
 <sp who="VALERE"><speaker>valère.</speaker>
 	<l id="557" part="f">Aussi n'aurais-je pas</l>
-	<l id="558">Abandonné mon coeur à suivre ses appas,</l>
-	<l id="559">Si j'avais pu savoir que ce coeur misérable,</l>
+	<l id="558">Abandonné mon cœur à suivre ses appas,</l>
+	<l id="559">Si j'avais pu savoir que ce cœur misérable,</l>
 	<l id="560">Dût trouver un rival comme vous redoutable.</l>
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
@@ -1194,7 +1194,7 @@
 	<l id="569">Monsieur, que vous demande un misérable Amant,</l>
 	<l id="570">Dont vous seul aujourd'hui causez tout le tourment.</l>
 	<l id="571">Je vous conjure donc d'assurer Isabelle,</l>
-	<l id="572">Que si depuis trois mois mon coeur brûle pour elle,</l>
+	<l id="572">Que si depuis trois mois mon cœur brûle pour elle,</l>
 	<l id="573">Cet amour est sans tâche, et n'a jamais pensé,</l>
 	<l id="574">À rien dont son honneur ait lieu d'être offensé.</l>
 </sp>
@@ -1204,7 +1204,7 @@
 <sp who="VALERE"><speaker>valère.</speaker>
 	<l id="575" part="f">Que ne dépendant que du choix de mon âme,</l>
 	<l id="576">Tous mes desseins étaient de l'obtenir pour femme,</l>
-	<l id="577">Si les destins en vous qui captivez son coeur,</l>
+	<l id="577">Si les destins en vous qui captivez son cœur,</l>
 	<l id="578">N'opposaient un obstacle à cette juste ardeur.</l>
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
@@ -1245,7 +1245,7 @@
 	<l id="598">À rien dont ton honneur ait lieu d'être offensé,</l>
 	<l id="599">Et que ne dépendant que du choix de son âme,</l>
 	<l id="600">Tous ses désirs étaient de t'obtenir pour femme,</l>
-	<l id="601">Si les destins en moi qui captive ton coeur,</l>
+	<l id="601">Si les destins en moi qui captive ton cœur,</l>
 	<l id="602">N'opposaient un obstacle à cette juste ardeur,</l>
 	<l id="603">Que quoi qu'on puisse faire il ne te faut pas croire,</l>
 	<l id="604">Que jamais tes appas sortent de sa mémoire :</l>
@@ -1256,7 +1256,7 @@
 	<l id="609">Ce sont ses propres mots, et loin de le blâmer,</l>
 	<l id="610">Je le trouve honnête homme, et le plains de t'aimer.</l>
 </sp>
-<sp who="ISABELLE"><speaker>isabelle bas.</speaker>
+	<sp who="ISABELLE"><speaker>isabelle <hi rend="i">bas</hi>.</speaker>
 	<l id="611">Ses feux ne trompent point ma secrète croyance,</l>
 	<l id="612">Et toujours ses regards m'en ont dit l'innocence.</l>
 </sp>
@@ -1312,7 +1312,7 @@
 	<l id="639">Car c'est encor depuis sa lettre méprisée,</l>
 	<l id="640">Qu'il a dit ce dessein qui m'a scandalisée,</l>
 	<l id="641">Et son amour conserve ainsi que je l'ai su,</l>
-	<l id="642">La croyance qu'il est dans mon coeur bien reçu,</l>
+	<l id="642">La croyance qu'il est dans mon cœur bien reçu,</l>
 	<l id="643">Que je fuis votre hymen, quoi que le monde en croie,</l>
 	<l id="644">Et me verrais tirer de vos mains avec joie.</l>
 </sp>
@@ -1325,7 +1325,7 @@
 	<l id="647">Croyez par ces beaux mots que le traître vous joue,</l>
 	<l id="648">Je suis bien malheureuse, il faut que je l'avoue.</l>
 	<l id="649">Qu'avecque tous mes soins pour vivre dans l'honneur,</l>
-	<l id="650">Et rebuter les voeux d'un lâche suborneur,</l>
+	<l id="650">Et rebuter les vœux d'un lâche suborneur,</l>
 	<l id="651">Il faille être exposée aux fâcheuses surprises,</l>
 	<l id="652">De voir faire sur moi d'infâmes entreprises.</l>
 </sp>
@@ -1359,7 +1359,7 @@
 </sp>
 <sp who="ISABELLE"><speaker>isabelle.</speaker>
 	<l id="669" part="f">Mais tout cela d'un ton</l>
-	<l id="670">Qui marque que mon coeur lui parle tout de bon.</l>
+	<l id="670">Qui marque que mon cœur lui parle tout de bon.</l>
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
 	<l id="671">Va je n'oublierai rien, je t'en donne assurance.</l>
@@ -1370,7 +1370,7 @@
 	<l id="674">Je languis quand je suis un moment sans vous voir.</l>
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
-	<l id="675">Va pouponne, mon coeur, je reviens tout à l'heure.</l>
+	<l id="675">Va pouponne, mon cœur, je reviens tout à l'heure.</l>
 	<l id="676">Est-il une personne, et plus sage et meilleure,</l>
 	<l id="677">Ah ! que je suis heureux, et que j'ai de plaisir,</l>
 	<l id="678">De trouver une femme au gré de mon désir,</l>
@@ -1410,7 +1410,7 @@
 	<l id="696">Ne dissimulons point, je la tiens d'Isabelle,</l>
 	<l id="697">Qui vous mande par moi, pour la dernière fois,</l>
 	<l id="698">Qu'elle vous a fait voir assez quel est son choix,</l>
-	<l id="699">Que son coeur tout à moi d'un tel projet s'offense,</l>
+	<l id="699">Que son cœur tout à moi d'un tel projet s'offense,</l>
 	<l id="700">Qu'elle mourrait plutôt qu'en souffrir l'insolence ;</l>
 	<l id="701">Et que vous causerez de terribles éclats,</l>
 	<l id="702">Si vous ne mettez fin à tout cet embarras.</l>
@@ -1424,10 +1424,10 @@
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
 	<l id="707">Si ? vous en doutez donc, et prenez pour des feintes,</l>
 	<l id="708">Tout ce que de sa part je vous ai fait de plaintes ?</l>
-	<l id="709">Voulez-vous qu'elle-même elle explique son coeur,</l>
+	<l id="709">Voulez-vous qu'elle-même elle explique son cœur,</l>
 	<l id="710">J'y consens volontiers pour vous tirer d'erreur,</l>
 	<l id="711">Suivez-moi, vous verrez s'il est rien que j'avance,</l>
-	<l id="712">Et si son jeune coeur entre nous deux balance.</l>
+	<l id="712">Et si son jeune cœur entre nous deux balance.</l>
 </sp>
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX. Isabelle, Sganarelle, Valère.</head>
@@ -1438,7 +1438,7 @@
 	<l id="716">M'obliger à l'aimer, et souffrir ses visites ?</l>
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
-	<l id="717">Non mamie, et ton coeur pour cela m'est trop cher ;</l>
+	<l id="717">Non mamie, et ton cœur pour cela m'est trop cher ;</l>
 	<l id="718">Mais il prend mes avis pour des contes en l'air,</l>
 	<l id="719">Croit que c'est moi qui parle et te fais par adresse,</l>
 	<l id="720">Pleine pour lui de haine, et pour moi de tendresse,</l>
@@ -1447,7 +1447,7 @@
 </sp>
 <sp who="ISABELLE"><speaker>isabelle.</speaker>
 	<l id="723">Quoi mon âme à vos yeux ne se montre pas toute,</l>
-	<l id="724">Et de mes voeux encor vous pouvez être en doute ?</l>
+	<l id="724">Et de mes vœux encor vous pouvez être en doute ?</l>
 </sp>
 <sp who="VALERE"><speaker>valère.</speaker>
 	<l id="725">Oui tout ce que Monsieur, de votre part m'a dit,</l>
@@ -1455,7 +1455,7 @@
 	<l id="727">J'ai douté, je l'avoue, et cet arrêt suprême,</l>
 	<l id="728">Qui décide du sort de mon amour extrême,</l>
 	<l id="729">Doit m'être assez touchant pour ne pas s'offenser,</l>
-	<l id="730">Que mon coeur par deux fois le fasse prononcer.</l>
+	<l id="730">Que mon cœur par deux fois le fasse prononcer.</l>
 </sp>
 <sp who="ISABELLE"><speaker>isabelle.</speaker>
 	<l id="731">Non non, un tel arrêt ne doit pas vous surprendre,</l>
@@ -1465,14 +1465,14 @@
 	<l id="735">Oui je veux bien qu'on sache, et j'en dois être crue,</l>
 	<l id="736">Que le sort offre ici deux objets à ma vue,</l>
 	<l id="737">Qui m'inspirant pour eux différents sentiments,</l>
-	<l id="738">De mon coeur agité font tous les mouvements.</l>
+	<l id="738">De mon cœur agité font tous les mouvements.</l>
 	<l id="739">L'un par un juste choix où l'honneur m'intéresse,</l>
 	<l id="740">A toute mon estime et toute ma tendresse ;</l>
 	<l id="741">Et l'autre pour le prix de son affection,</l>
 	<l id="742">A toute ma colère et mon aversion :</l>
 	<l id="743">La présence de l'un m'est agréable et chère,</l>
 	<l id="744">J'en reçois dans mon âme une allégresse entière,</l>
-	<l id="745">Et l'autre par sa vue inspire dans mon coeur</l>
+	<l id="745">Et l'autre par sa vue inspire dans mon cœur</l>
 	<l id="746">De secrets mouvements, et de haine et d'horreur.</l>
 	<l id="747">Me voir femme de l'un est toute mon envie,</l>
 	<l id="748">Et plutôt qu'être à l'autre, on m'ôterait la vie ;</l>
@@ -1494,7 +1494,7 @@
 </sp>
 <sp who="ISABELLE"><speaker>isabelle.</speaker>
 	<l id="757" part="f">Je sais qu'il est honteux</l>
-	<l id="758">Aux filles d'expliquer si librement leurs voeux.</l>
+	<l id="758">Aux filles d'expliquer si librement leurs vœux.</l>
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
 	<l id="759" part="i">Point point.</l>
@@ -1518,7 +1518,7 @@
 	<l id="765" part="f">Que sans plus de soupirs,</l>
 	<l id="766">Il conclue un hymen qui fait tous mes désirs,</l>
 	<l id="767">Et reçoive en ce lieu, la foi que je lui donne,</l>
-	<l id="768">De n'écouter jamais les voeux d'autre personne.</l>
+	<l id="768">De n'écouter jamais les vœux d'autre personne.</l>
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
 	<l id="769">Hé, hé, mon petit nez, pauvre petit bouchon,</l>
@@ -1565,9 +1565,9 @@
 	<l id="788" part="i">Mais…</l>
 </sp>
 <sp who="VALERE"><speaker>valère.</speaker>
-	<l id="788" part="f">Non vous n'entendrez de mon coeur plainte aucune,</l>
+	<l id="788" part="f">Non vous n'entendrez de mon cœur plainte aucune,</l>
 	<l id="789">Madame, assurément rend justice à tous deux ;</l>
-	<l id="790">Et je vais travailler à contenter ses voeux !</l>
+	<l id="790">Et je vais travailler à contenter ses vœux !</l>
 	<l id="791" part="i">Adieu.</l>
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
@@ -1605,7 +1605,7 @@
 <sp who="ISABELLE"><speaker>isabelle.</speaker>
 	<l id="802">Ô ciel, inspire-moi ce qui peut le parer !</l>
 </sp>
-<p>Fin du second Acte.</p>
+<p rend="i">Fin du second Acte.</p>
 </div2>
 </div1>
 <div1 type="acte" n="3"><head>ACTE III</head>
@@ -1648,7 +1648,7 @@
 </sp>
 <sp who="ISABELLE"><speaker>isabelle.</speaker>
 	<l id="817" part="f">Un secret surprenant ;</l>
-	<l id="818">C'est ma soeur qui m'oblige à sortir maintenant ;</l>
+	<l id="818">C'est ma sœur qui m'oblige à sortir maintenant ;</l>
 	<l id="819">Et qui pour un dessein dont je l'ai fort blâmée,</l>
 	<l id="820">M'a demandé ma chambre où je l'ai renfermée.</l>
 </sp>
@@ -1671,7 +1671,7 @@
 	<l id="827">Me dire absolument qu'elle perdra la vie,</l>
 	<l id="828">Si son âme n'obtient l'effet de son envie,</l>
 	<l id="829">Que depuis plus d'un an d'assez vives ardeurs,</l>
-	<l id="830">Dans un secret commerce entretenaient leurs coeurs ;</l>
+	<l id="830">Dans un secret commerce entretenaient leurs cœurs ;</l>
 	<l id="831">Et que même ils s'étaient, leur flamme étant nouvelle,</l>
 	<l id="832">Donné de s'épouser une foi mutuelle…</l>
 </sp>
@@ -1695,7 +1695,7 @@
 </sp>
 <sp who="ISABELLE"><speaker>isabelle.</speaker>
 	<l id="843" part="f">Moi j'en suis courroucée ;</l>
-	<l id="844">Quoi ma soeur, ai-je dit, êtes vous insensée,</l>
+	<l id="844">Quoi ma sœur, ai-je dit, êtes vous insensée,</l>
 	<l id="845">Ne rougissez-vous point d'avoir pris tant d'amour,</l>
 	<l id="846">Pour ces sortes de gens qui changent chaque jour,</l>
 	<l id="847">D'oublier votre sexe, et tromper l'espérance,</l>
@@ -1712,7 +1712,7 @@
 	<l id="854">A tant versé de pleurs, tant poussé de soupirs,</l>
 	<l id="855">Tant dit qu'au désespoir je porterais son âme,</l>
 	<l id="856">Si je lui refusais ce qu'exige sa flamme ;</l>
-	<l id="857">Qu'à céder malgré moi mon coeur s'est vu réduit ;</l>
+	<l id="857">Qu'à céder malgré moi mon cœur s'est vu réduit ;</l>
 	<l id="858">Et pour justifier cette intrigue de nuit,</l>
 	<l id="859">Où me faisait du sang relâcher la tendresse,</l>
 	<l id="860">J'allais faire avec moi venir coucher Lucrèce ;</l>
@@ -1758,9 +1758,9 @@
 	<l id="885">Il en tient le bonhomme, avec tout son Phébus,</l>
 	<l id="886">Et je n'en voudrais pas tenir vingt bons écus.</l>
 </sp>
-<sp who="ISABELLE"><speaker>isabelle, dans la maison.</speaker>
+	<sp who="ISABELLE"><speaker>isabelle, <hi rend="i">dans la maison</hi>.</speaker>
 	<l id="887">Oui, de vos déplaisirs l'atteinte m'est sensible,</l>
-	<l id="888">Mais ce que vous voulez, ma soeur, m'est impossible ;</l>
+	<l id="888">Mais ce que vous voulez, ma sœur, m'est impossible ;</l>
 	<l id="889">Mon honneur qui m'est cher, y court trop de hasard ;</l>
 	<l id="890">Adieu, retirez-vous avant qu'il soit plus tard.</l>
 </sp>
@@ -1810,7 +1810,7 @@
 	<l id="907" part="f">Entrez en assurance !</l>
 	<l id="908">De votre argus dupé, je brave la puissance,</l>
 	<l id="909">Et devant qu'il vous pût ôter à mon ardeur,</l>
-	<l id="910">Mon bras de mille coups lui percerait le coeur.</l>
+	<l id="910">Mon bras de mille coups lui percerait le cœur.</l>
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
 	<l id="911">Ah je te promets bien, que je n'ai pas envie,</l>
@@ -1819,12 +1819,12 @@
 	<l id="914">Et que si j'en suis cru, tu seras son époux ;</l>
 	<l id="915">Oui, faisons-le surprendre avec cette effrontée,</l>
 	<l id="916">La mémoire du Père, à bon droit respectée ;</l>
-	<l id="917">Jointe au grand intérêt que je prends à la soeur,</l>
+	<l id="917">Jointe au grand intérêt que je prends à la sœur,</l>
 	<l id="918">Veut que du moins on tâche à lui rendre l'honneur ;</l>
 	<l id="919" part="i">Holà.</l>
 </sp>
 </div2>
-<div2 type="scene" n="4"><head>SCÈNE IV. Sganarelle, Le Commissaire, Notaire, et Suite.</head>
+	<div2 type="scene" n="4"><head>SCÈNE IV. Sganarelle, Le Commissaire, Notaire, <hi rend="i">et Suite</hi>.</head>
 <sp who="COMMISSAIRE"><speaker>le commissaire.</speaker>
 	<l id="919" part="m">Qu'est-ce ?</l>
 </sp>
@@ -1865,7 +1865,7 @@
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
 	<l id="931">Cela s'en va sans dire, entrez dans cette porte,</l>
-	<l id="932">Et sans bruit ayez l'oeil que personne n'en sorte ;</l>
+	<l id="932">Et sans bruit ayez l'œil que personne n'en sorte ;</l>
 	<l id="933">Vous serez pleinement contenté de vos soins,</l>
 	<l id="934">Mais ne vous laissez pas graisser la pâte au moins.</l>
 </sp>
@@ -1929,7 +1929,7 @@
 	<l id="958">Allez mon frère aîné cela vous sied fort bien,</l>
 	<l id="959">Et je ne voudrais pas pour vingt bonnes pistoles,</l>
 	<l id="960">Que vous n'eussiez ce fruit de vos maximes folles.</l>
-	<l id="961">On voit ce qu'en deux soeurs nos leçons ont produit,</l>
+	<l id="961">On voit ce qu'en deux sœurs nos leçons ont produit,</l>
 	<l id="962">L'une fuit ce galant, et l'autre le poursuit.</l>
 </sp>
 <sp who="ARISTE"><speaker>ariste.</speaker>
@@ -1971,7 +1971,7 @@
 	<l id="977">Mon Dieu je ne veux rien, suivez-moi seulement,</l>
 	<l id="978">Votre esprit tout à l'heure aura contentement,</l>
 	<l id="979">Vous verrez si j'impose, et si leur foi donnée,</l>
-	<l id="980">N'avait pas joint leurs coeurs depuis plus d'une année.</l>
+	<l id="980">N'avait pas joint leurs cœurs depuis plus d'une année.</l>
 </sp>
 <sp who="ARISTE"><speaker>ariste.</speaker>
 	<l id="981">L'apparence qu'ainsi sans m'en faire avertir,</l>
@@ -1993,7 +1993,7 @@
 </sp>
 <sp who="ARISTE"><speaker>ariste.</speaker>
 	<l id="995">Moi je n'aurai jamais cette faiblesse extrême,</l>
-	<l id="996">De vouloir posséder un coeur malgré lui-même ;</l>
+	<l id="996">De vouloir posséder un cœur malgré lui-même ;</l>
 	<l id="997" part="i">Mais je ne saurais croire enfin…</l>
 </sp>
 <sp who="SGANARELLE"><speaker>sganarelle.</speaker>
@@ -2004,7 +2004,7 @@
 <div2 type="scene" n="6"><head>SCÈNE VI. Le Commissaire, Le Notaire, Sganarelle, Ariste.</head>
 <sp who="COMMISSAIRE"><speaker>le commissaire.</speaker>
 	<l id="999">Il ne faut mettre ici nulle force en usage,</l>
-	<l id="1000">Messieurs, et si vos voeux ne vont qu'au mariage,</l>
+	<l id="1000">Messieurs, et si vos vœux ne vont qu'au mariage,</l>
 	<l id="1001">Vos transports en ce lieu s'y peuvent apaiser,</l>
 	<l id="1002">Tous deux également tendent à s'épouser,</l>
 	<l id="1003">Et Valère déjà sur ce qui vous regarde,</l>
@@ -2019,7 +2019,7 @@
 </sp>
 </div2>
 <div2 type="scene" n="7"><head>SCÈNE VII. Le Commissaire, Valère, Le Notaire, Sganarelle, Ariste.</head>
-<sp who="VALERE"><speaker>valère, à la fenêtre.</speaker>
+	<sp who="VALERE"><speaker>valère, <hi rend="i">à la fenêtre</hi>.</speaker>
 	<l id="1007">Non, Messieurs, et personne ici n'aura l'entrée,</l>
 	<l id="1008">Que cette volonté ne m'ait été montrée,</l>
 	<l id="1009">Vous savez qui je suis, et j'ai fait mon devoir,</l>
@@ -2143,8 +2143,8 @@
 	<l id="1055">Léonor, sans courroux, j'ai sujet de me plaindre,</l>
 	<l id="1056">Vous savez si jamais j'ai voulu vous contraindre,</l>
 	<l id="1057">Et si plus de cent fois je n'ai pas protesté</l>
-	<l id="1058">De laisser à vos voeux leur pleine liberté ;</l>
-	<l id="1059">Cependant votre coeur méprisant mon suffrage,</l>
+	<l id="1058">De laisser à vos vœux leur pleine liberté ;</l>
+	<l id="1059">Cependant votre cœur méprisant mon suffrage,</l>
 	<l id="1060">De foi comme d'amour à mon insu s'engage ;</l>
 	<l id="1061">Je ne me repens pas de mon doux traitement,</l>
 	<l id="1062">Mais votre procédé me touche assurément,</l>
@@ -2156,7 +2156,7 @@
 	<l id="1066">Mais croyez que je suis de même que toujours ;</l>
 	<l id="1067">Que rien ne peut pour vous altérer mon estime,</l>
 	<l id="1068">Que toute autre amitié me paraîtrait un crime,</l>
-	<l id="1069">Et que si vous voulez satisfaire mes voeux,</l>
+	<l id="1069">Et que si vous voulez satisfaire mes vœux,</l>
 	<l id="1070">Un saint noeud dès demain nous unira nous deux.</l>
 </sp>
 <sp who="ARISTE"><speaker>ariste.</speaker>
@@ -2174,7 +2174,7 @@
 </div2>
 <div2 type="scene" n="9"><head>SCÈNE IX. Isabelle, Valère, Le Commissaire, Le Notaire, Ergaste, Lisette, Léonor, Sganarelle, Ariste.</head>
 <sp who="ISABELLE"><speaker>isabelle.</speaker>
-	<l id="1077">Ma soeur, je vous demande un généreux pardon,</l>
+	<l id="1077">Ma sœur, je vous demande un généreux pardon,</l>
 	<l id="1078">Si de mes libertés j'ai taché votre nom ;</l>
 	<l id="1079">Le pressant embarras d'une surprise extrême,</l>
 	<l id="1080">M'a tantôt inspiré ce honteux stratagème :</l>
@@ -2183,9 +2183,9 @@
 	<l id="1083">Pour vous je ne veux point, Monsieur, vous faire excuse,</l>
 	<l id="1084">Je vous sers beaucoup plus que je ne vous abuse ;</l>
 	<l id="1085">Le Ciel pour être joints ne nous fit pas tous deux,</l>
-	<l id="1086">Je me suis reconnue indigne de vos voeux,</l>
+	<l id="1086">Je me suis reconnue indigne de vos vœux,</l>
 	<l id="1087">Et j'ai bien mieux aimé me voir aux mains d'un autre,</l>
-	<l id="1088">Que ne pas mériter un coeur comme le vôtre.</l>
+	<l id="1088">Que ne pas mériter un cœur comme le vôtre.</l>
 </sp>
 <sp who="VALERE"><speaker>valère.</speaker>
 	<l id="1089">Pour moi je mets ma gloire et mon bien souverain</l>
@@ -2219,7 +2219,7 @@
 	<l id="1107">La meilleure est toujours en malice féconde,</l>
 	<l id="1108">C'est un sexe engendré pour damner tout le monde ;</l>
 	<l id="1109">J'y renonce à jamais, à ce sexe trompeur,</l>
-	<l id="1110">Et je le donne tout au Diable de bon coeur.</l>
+	<l id="1110">Et je le donne tout au Diable de bon cœur.</l>
 </sp>
 <sp who="ERGASTE"><speaker>ergaste.</speaker>
 	<l id="1111" part="i">Bon.</l>
