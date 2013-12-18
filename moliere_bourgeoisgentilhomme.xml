@@ -32,52 +32,44 @@
   <text>
     <front>
       <docTitle>
-        <titlePart type="main">LE BOURGEOIS GENTILHOMME</titlePart>
-        <titlePart type="sub">COMÉDIE BALLET</titlePart>
+        <titlePart type="main">LE <lb/>BOURGEOIS<lb/> GENTILHOMME</titlePart>
+        <titlePart type="sub">COMÉDIE-BALLET</titlePart>
       </docTitle>
-      <docDate value="1670">1670</docDate>
-      <docAuthor id="MOLIERE" bio="moliere">Molière</docAuthor>
-      <docImprint>
+      <premiere date="1670-11-23" location="Théâtre du Palais-Royal">FAITE À CHAMBORD, <lb/>Pour le Divertissement du Roi,</premiere>
+      <docAuthor id="MOLIERE" bio="moliere">Par J. B. P. MOLIÈRE</docAuthor>
+      <docImprint>Et se vend pour l'Auteur <lb/> À PARIS, <lb/> Chez PIERRE LE MONNIER, au Palais, vis-à-vis <lb/> la Porte de l'Église de la Sainte-Chapelle, <lb/> à l'Image Saint-Louis, et au Feu Divin.
         <privilege date=""><head/>
-
 		</privilege>
         <acheveImprime id=""/>
       </docImprint>
-      <performance>
-
-			<premiere date="1670-11-23" location="Théâtre du Palais-Royal">Faite à Chambord, pour le divertissement du roi au mois d’octobre 1670 et représentée en public, à Paris, pour la première fois, sur le Théâtre du Palais-Royal, le 23e novembre de la même année 1670 par la Troupe du Roi.
-
-</premiere>
-
-		</performance>
+      <docDate value="1671">M. DC. LXXI.</docDate>
+      <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
       <castList>
-        <head>PERSONNAGES</head>
-        <castItem><role xml:id="MONSIEUR-JOURDAIN" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">MONSIEUR JOURDAIN</role>, bourgeois.</castItem>
-        <castItem><role xml:id="MADAME-JOURDAIN" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME JOURDAIN</role>, sa femme.</castItem>
-        <castItem><role xml:id="LUCILE" civil="F" type="H" statut="bourgeois" age="A" stat_amour="amoureux">LUCILE</role>, fille de M. Jourdain.</castItem>
-        <castItem><role xml:id="NICOLE" civil="F" type="H" statut="servante" age="A" stat_amour="néant">NICOLE</role>, servante.</castItem>
-        <castItem><role xml:id="CLEONTE" civil="M" type="H" statut="bourgeois" age="A" stat_amour="amoureux">CLÉONTE</role>, amoureux de Lucile.</castItem>
-        <castItem><role xml:id="COVIELLE" civil="M" type="H" statut="valet" age="A" stat_amour="néant">COVIELLE</role>, valet de Cléonte.</castItem>
-        <castItem><role xml:id="DORANTE" civil="M" type="H" statut="comte" age="A" stat_amour="amoureux">DORANTE</role>, comte, amant de Dorimène.</castItem>
-        <castItem><role xml:id="DORIMENE" civil="F" type="H" statut="marquis" age="A" stat_amour="néant">DORIMÈNE</role>, marquise.</castItem>
-        <castItem><role xml:id="MAITRE-DE-MUSIQUE" civil="M" type="H" statut="maître de mmusique" age="A" stat_amour="néant">MAÎTRE DE MUSIQUE</role>.</castItem>
-        <castItem><role xml:id="ELEVE-DU-MAITRE-DE-MUSIQUE" civil="M" type="H" statut="élève" age="A" stat_amour="néant">ÉLÈVE du MAÎTRE de MUSIQUE</role>Elève du Maître de musique.</castItem>
-        <castItem><role xml:id="MAITRE-A-DANSER" civil="M" type="H" statut="maître à danser" age="A" stat_amour="néant">MAÎTRE À DANSER</role>.</castItem>
-        <castItem><role xml:id="MAITRE-D-ARMES" civil="M" type="H" statut="’maître d’armes" age="A" stat_amour="néant">MAÎTRE D’ARMES</role>.</castItem>
-        <castItem><role xml:id="MAITRE-DE-PHILOSOPHIE" civil="M" type="H" statut="philosophe" age="A" stat_amour="néant">MAÎTRE DE PHOLOSOPHIE</role>.</castItem>
-        <castItem><role xml:id="MAITRE-TAILLEUR" civil="M" type="H" statut="tailleur" age="A" stat_amour="néant">MAÎTRE TAILLEUR</role>.</castItem>
-        <castItem><role xml:id="GARCON-TAILLEUR" civil="M" type="H" statut="tailleur" age="A" stat_amour="néant">Garçon TAILLEUR</role>.</castItem>
-        <castItem><role xml:id="DEUX-LAQUAIS" civil="G" type="H" statut="laquais" age="A" stat_amour="néant">DEUX LAQUAIS</role>.</castItem>
-        <castItem><role xml:id="PLUSIEURS-MUSICIENS" civil="G" type="H" statut="musicien" age="A" stat_amour="néant">PLUSIEURS MUSICIENS</role>, musiciennes, joueurs d’instruments, danseurs.</castItem>
-        <castItem><role xml:id="CUISINIER-TAILLEURS" civil="G" type="H" statut="tailleur" age="A" stat_amour="néant">CUISINIERS</role>, garçons tailleurs, et autres personnages des intermèdes et du ballet.</castItem>
-      </castList>
-      <set location="Paris" country="France" periode="XVIIème" link="">La scène est à Paris.</set>
+        <head rend="sc">acteurs</head>
+        <castItem><role xml:id="MONSIEUR-JOURDAIN" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">monsieur jourdain</role>, Bourgeois.</castItem>
+        <castItem><role xml:id="MADAME-JOURDAIN" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">madame jourdain</role>, sa Femme.</castItem>
+        <castItem><role xml:id="LUCILE" civil="F" type="H" statut="bourgeois" age="A" stat_amour="amoureux">lucile</role>, Fille de Monsieur Jourdain.</castItem>
+        <castItem><role xml:id="NICOLE" civil="F" type="H" statut="servante" age="A" stat_amour="néant">nicole</role>, Servante.</castItem>
+        <castItem><role xml:id="CLEONTE" civil="M" type="H" statut="bourgeois" age="A" stat_amour="amoureux">cléonte</role>, Amoureux de Lucile.</castItem>
+        <castItem><role xml:id="COVIELLE" civil="M" type="H" statut="valet" age="A" stat_amour="néant">covielle</role>, Valet de Cléonte.</castItem>
+        <castItem><role xml:id="DORANTE" civil="M" type="H" statut="comte" age="A" stat_amour="amoureux">dorante</role>, Comte, Amant de Dorimène.</castItem>
+        <castItem><role xml:id="DORIMENE" civil="F" type="H" statut="marquis" age="A" stat_amour="néant">dorimène</role>, Marquise.</castItem>
+        <castItem><role xml:id="MAITRE-DE-MUSIQUE" civil="M" type="H" statut="maître de mmusique" age="A" stat_amour="néant">maître de musique.</role>.</castItem>
+        <castItem><role xml:id="ELEVE-DU-MAITRE-DE-MUSIQUE" civil="M" type="H" statut="élève" age="A" stat_amour="néant">élève du maître de musique.</role></castItem>
+        <castItem><role xml:id="MAITRE-A-DANSER" civil="M" type="H" statut="maître à danser" age="A" stat_amour="néant">maître à danser.</role>.</castItem>
+        <castItem><role xml:id="MAITRE-D-ARMES" civil="M" type="H" statut="’maître d’armes" age="A" stat_amour="néant">maître d'armes.</role>.</castItem>
+        <castItem><role xml:id="MAITRE-DE-PHILOSOPHIE" civil="M" type="H" statut="philosophe" age="A" stat_amour="néant">maître de philosophie.</role>.</castItem>
+        <castItem><role xml:id="MAITRE-TAILLEUR" civil="M" type="H" statut="tailleur" age="A" stat_amour="néant">maître tailleur.</role>.</castItem>
+        <castItem><role xml:id="GARCON-TAILLEUR" civil="M" type="H" statut="tailleur" age="A" stat_amour="néant">garçon tailleur.</role>.</castItem>
+        <castItem><role xml:id="DEUX-LAQUAIS" civil="G" type="H" statut="laquais" age="A" stat_amour="néant">deux laquais.</role>.</castItem>
+        <castItem type="list">plusieurs musiciens, musiciennes, joueurs d’instruments, danseurs, cuisiniers, garçons tailleurs, <hi rend="n">Et autres Personnages des Intermèdes et du Ballet</hi>.</castItem></castList>
+      <set location="Paris" country="France" periode="XVIIème" link="">La Scène est à Paris.</set>
     </front>
     <body>
       <head>LE BOURGEOIS GENTILHOMME <lb/>COMÉDIE-BALLET</head>
+      <stage>L’Ouverture se fait par un grand assemblage d’Instruments ; et dans le milieu du Théâtre, on voit un Élève du Maître de Musique, qui compose sur une Table, un Air que le Bourgeois a demandé pour une Sérénade.</stage>
       <div1>
         <head>ACTE PREMIER.</head>        
-          <stage>L’Ouverture se fait par un grand assemblage d’Instruments ; et dans le milieu du Théâtre, on voit un Élève du Maître de Musique, qui compose sur une Table, un Air que le Bourgeois a demandé pour une Sérénade.</stage>
         <div2>
           <head>SCÈNE PREMIÈRE.</head>
           <stage>Maître de musique, Maître à Danser, trois Musiciens, deux Violons, quatre Danseurs</stage>
