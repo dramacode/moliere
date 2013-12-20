@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--<?xml-stylesheet type="text/xsl" href="http://svn.code.sf.net/p/algone/code/teipub/tei2html.xsl"?>-->
-<!--odt2tei: 2013-12-20T11:26:02+01:00-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="bourgeois-gentilhomme-livret-tei" xml:lang="fr">
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- Pb, renuméroter des vers -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,8 +46,8 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <body>
-      <pb/>
+    <front>
+      <titlePage>
       <head>LIVRET DU « BOURGEOIS GENTILHOMME » ,</head>
       <p rend="doctitle i">Comédie-Ballet,</p>
       <p rend="doctitle">Donné par le <hi rend="sc">roi</hi> à toute sa Cour dans le Château de Chambord, au mois d’Octobre 1670.</p>
@@ -56,6 +55,9 @@
       <docImprint>Chez ROBERT BALLARD, seul Imprimeur du Roi pour la Musique.</docImprint>
       <docDate>M. DC. LXX.</docDate>
       <docImprint>AVEC PRIVILÈGE DE SA MAJESTÉ.</docImprint>
+      </titlePage>
+    </front>
+    <body>
       <div>
         <head>LIVRET DU « BOURGEOIS GENTILHOMME »</head>
       </div>
@@ -68,7 +70,7 @@
         <div>
           <head>DANS LE PREMIER ACTE.</head>
           <stage>Un Élève du Maître de Musique compose sur une table un Air que le Bourgeois a demandé pour une Sérénade.</stage>
-          <stage>L’Élève de Musique, Monsieur Gaye.</stage>
+          <stage>L’Élève de Musique, <hi rend= "i">Monsieur Gaye</hi>.</stage>
           <stage>Une Musicienne est priée de chanter l’air qu’a composé l’Élève.</stage>
           <sp who="la musicienne">
             <speaker>la musicienne, <hi rend="i">Mlle Hilaire.</hi></speaker>
@@ -77,8 +79,8 @@
             <l n="3" xml:id="l3">Si vous traitez ainsi, belle Iris, qui vous aime,</l>
             <l n="4" xml:id="l4">Hélas ! que pourrez-vous faire à vos ennemis ?</l>
             <stage>Après avoir fait chanter cet air au Bourgeois, on lui fait entendre dans un Dialogue un petit essai des diverses passions que peut exprimer la Musique : Il entre pour cela un Musicien et deux Violons.</stage>
-            <stage>Le Musicien, M. Langez</stage>
-            <stage>Les deux Violons. Les Sieurs Laquaisse et Marchand.</stage>
+            <stage>Le Musicien, <hi rend="i">M. Langez</hi></stage>
+            <stage>Les deux Violons. <hi rend="i">Les Sieurs Laquaisse et Marchand</hi>.</stage>
             <label>DIALOGUE EN MUSIQUE.</label>
           </sp>
           <sp who="mademoiselle hilaire">
@@ -174,16 +176,16 @@
             <l n="42" xml:id="l42"><space/><space/>Ah ! qu’il est doux d’aimer</l>
             <l n="43" xml:id="l43"><space/><space/>Quand deux cœurs sont fidèles.</l>
             <stage>Ensuite de ce Dialogue le Maître à danser lui fait voir aussi un petit essai des plus beaux mouvements, et des plus belles attitudes dont une danse puisse être variée.</stage>
-            <stage>Quatre danseurs, Messieurs la Pierre, Favier, S. André et Foignard cadet.</stage>
+            <stage><hi rend="i">Quatre danseurs</hi>, Messieurs la Pierre, Favier, S. André et Foignard cadet.</stage>
             <stage>Un Maître Tailleur lui vient apporter un habit, qui lui fait vêtir en cadence par six garçons Tailleurs.</stage>
-            <stage>Les six garçons Tailleurs. Messieurs Dolivet, le Chantre, Bonnart, Isaac, Magny et S. André.</stage>
+            <stage><hi rend="i">Les six garçons Tailleurs</hi>. Messieurs Dolivet, le Chantre, Bonnart, Isaac, Magny et S. André.</stage>
             <stage>Le Bourgeois étant habillé leur donne de quoi boire, et les garçons Tailleurs s’en réjouissent par une danse.</stage>
           </sp>
         </div>
         <div>
           <head>DANS LE SECOND ACTE.</head>
           <stage>Une femme de qualité vient dîner chez le Bourgeois, qui pour la mieux regarder lui fait ouïr à table quelques Chansons à boire, qui sont chantées par trois Musiciens qu’il a fait venir.</stage>
-          <stage>Les trois Musiciens.</stage>
+          <stage rend="i">Les trois Musiciens.</stage>
           <stage>Messieurs Blondel, la Grille, et Morel.</stage>
           <label>PREMIÈRE CHANSON À BOIRE.</label>
           <sp who="mm">
@@ -231,11 +233,11 @@
           <head>DANS LE TROISIÈME ACTE</head>
           <stage>Le Bourgeois qui veut donner sa fille au fils du Grand Turc, est annobli auparavant par une cérémonie Turque, qui se fait en danse, et en Musique.</stage>
           <stage>Les Acteurs de la cérémonie sont</stage>
-          <stage>Un Mufti représenté par le Seigneur Chiacheron.</stage>
-          <stage>Douze Turcs Musiciens assistants à la cérémonie. Messieurs le Gros, Estival, Blondel, Gingant l’aîné, Rebel, Gillet, Fernon cadet, Hédoüin, Bernard, Deschamps, Langez et Gaye.</stage>
-          <stage>Quatre Derviches.</stage>
+          <stage><hi rend="i">Un Mufti</hi> représenté par le Seigneur Chiacheron.</stage>
+          <stage><hi rend="i">Douze Turcs Musiciens assistants à la cérémonie</hi>. Messieurs le Gros, Estival, Blondel, Gingant l’aîné, Rebel, Gillet, Fernon cadet, Hédoüin, Bernard, Deschamps, Langez et Gaye.</stage>
+          <stage rend="i">Quatre Dervis.</stage>
           <stage>Messieurs Morel, Gingant cadet, Noblet, et Philbert.</stage>
-          <stage>Six Turcs dansant.</stage>
+          <stage><hi rend="i">Six Turcs dansant</hi>.</stage>
           <stage>Messieurs Beauchamp, Dolivet, la Pierre, Favier, Mayeu, Chicanneau.</stage>
           <stage>Le MUFTI invoque Mahomet avec les douze Turcs, et les quatre Derviches après, on lui amène le Bourgeois auquel il chante ces paroles.</stage>
           <sp who="le mufti">
@@ -330,11 +332,11 @@
           <div>
             <head>PREMIÈRE ENTRÉE</head>
             <stage>Un homme vient donner les Livres du Ballet, qui d’abord est fatigué par une multitude de gens de Provinces différentes, qui crient en Musique pour en avoir, et par trois importuns qu’il trouve toujours sous ses pas.</stage>
-            <stage>Le donneur de Livre, Monsieur Dolivet.</stage>
+            <stage><hi rend="i">Le donneur de Livre</hi>, Monsieur Dolivet.</stage>
             <stage>Spectateur Musiciens.</stage>
-            <stage>MM. le Gros, homme du bel air, Estival, Hedouin, Gaye Gascon, Morel, Gingant l’aîné, Gingant cadet, Gascon, Blondel, vieux babillard, Langez, vieille babillarde, Fernon, homme du bel air, Deschamps, Gillet, Philbert, Suisse, Bernard, Noblet, Rebel, homme du bel air.</stage>
+            <stage>MM. le Gros, <hi rend="i">homme du bel air</hi>, Estival, Hedouin, Gaye <hi rend="i">Gascon</hi>, Morel, Gingant l’aîné, Gingant cadet, <hi rend="i">Gascon</hi>, Blondel, <hi rend="i">vieux babillard</hi>, Langez, <hi rend="i">vieille babillarde</hi>, Fernon, <hi rend="i">homme du bel air</hi>, Deschamps, Gillet, Philbert, <hi rend="i">Suisse</hi>, Bernard, Noblet, Rebel, <hi rend="i">homme du bel air</hi>.</stage>
             <stage>Quatre Pages de la Musique.</stage>
-            <stage>Filles coquettes.</stage>
+            <stage rend="i">Filles coquettes.</stage>
             <stage>Jeannot, Pierrot, Renier, Un Page de la Chapelle.</stage>
             <label>DIALOGUE DES GENS</label>
             <stage>Qui en Musique demandent des Livres.</stage>
@@ -429,7 +431,7 @@
               <l n="163" xml:id="l163"><space/><space/>Franc animal.</l>
             </sp>
             <sp who="hommes">
-              <speaker>Hommes, et Femmes du bel air.</speaker>
+              <speaker>Hommes, <hi rend="i n">et</hi> Femmes du bel air.</speaker>
               <l n="164" xml:id="l164"><space/><space/>Ah quel bruit !</l>
               <l n="165" xml:id="l165"><space/><space/>Quel fracas !</l>
               <l n="166" xml:id="l166"><space/><space/>Quel chaos !</l>
@@ -513,12 +515,12 @@
           </div>
           <div>
             <head>SECONDE ENTRÉE.</head>
-            <stage>Les trois importuns.</stage>
+            <stage rend="i">Les trois importuns.</stage>
             <stage>Messieurs S. André, la Pierre, et Favier.</stage>
           </div>
           <div>
             <head>TROISIÈME ENTRÉE.</head>
-            <stage>Espagnols chantant.</stage>
+            <stage rend="i">Espagnols chantant.</stage>
             <stage>MM. Martin, Morel, et Gillet</stage>
             <sp who="monsieur morel">
               <speaker>Monsieur Morel.</speaker>
@@ -539,14 +541,14 @@
               <l n="230" xml:id="l230"><space/><space/>Vivir de Lugolpe fuerte</l>
               <l n="231" xml:id="l231"><space/><space/>Es de mi salud primor.</l>
               <l n="232" xml:id="l232"><space/><space/>Se que, etc.</l>
-              <stage>Six Espagnols dansant.</stage>
+              <stage rend="i">Six Espagnols dansant.</stage>
               <stage>Messieurs Dolivet, le Chantre, Bonnart, Lestang, Isaac, Joubert.</stage>
-              <stage>Deux Espagnols dansant ensemble.</stage>
+              <stage rend="i">Deux Espagnols dansant ensemble.</stage>
               <stage>MM. Beauchamp, et Chicanneau.</stage>
-              <stage>Trois Musiciens Espagnols.</stage>
+              <stage rend="i">Trois Musiciens Espagnols.</stage>
             </sp>
             <sp who="monsieur morel">
-              <speaker>Monsieur Morel, Espagnol chantant.</speaker>
+              <speaker>Monsieur Morel, <hi rend="i">Espagnol chantant</hi>.</speaker>
               <l n="233" xml:id="l233"><space/><space/>Ay que locura, contanto rigor</l>
               <l n="234" xml:id="l234"><space/><space/>Quexarse deamor</l>
               <l n="235" xml:id="l235"><space/><space/>Del nino bonito</l>
@@ -555,14 +557,14 @@
               <l n="238" xml:id="l238"><space/><space/>Ay que locura.</l>
             </sp>
             <sp who="monsieur gillet">
-              <speaker>Monsieur Gillet, Espagnol chantant.</speaker>
+              <speaker>Monsieur Gillet, <hi rend="i">Espagnol chantant</hi>.</speaker>
               <l n="239" xml:id="l239"><space/><space/>El dolor solicita,</l>
               <l n="240" xml:id="l240"><space/><space/>El que al dolor se da</l>
               <l n="241" xml:id="l241"><space/><space/>Y nadie deamor muere</l>
               <l n="242" xml:id="l242"><space/><space/>Sino quien no saue amar.</l>
             </sp>
             <sp who="messieurs morel">
-              <speaker>Messieurs Morel, et Gillet. <hi rend="i">Espagnols.</hi></speaker>
+              <speaker>Messieurs Morel, <hi rend="i n">et</hi> Gillet. <hi rend="i">Espagnols.</hi></speaker>
               <l n="243" xml:id="l243"><space/><space/>Dulce muerte es el amor</l>
               <l n="244" xml:id="l244"><space/><space/>Con correspondencia ygual,</l>
               <l n="245" xml:id="l245"><space/><space/>Y si esta gozamos oy,</l>
@@ -587,11 +589,8 @@
             <head>QUATRIÈME ENTRÉE.</head>
             <stage>Italiens.</stage>
             <stage>Une Musicienne Italienne fait le premier récit, dont voici les paroles.</stage>
-            <sp who="la musicienne italienne">
-              <speaker>La Musicienne Italienne.</speaker>
-            </sp>
-            <sp who="mademoiselle hilaire">
-              <speaker>Mademoiselle Hilaire.</speaker>
+            <sp who="la musicienne-italienne">
+              <speaker> La Musicienne Italienne. <lb/> Mademoiselle Hilaire.</speaker>
               <l n="255" xml:id="l255"><space/><space/>Di rigori armata il seno</l>
               <l n="256" xml:id="l256"><space/><space/>Contro amor mi ribellai,</l>
               <l n="257" xml:id="l257"><space/><space/>Ma fui vinta in un baleno</l>
@@ -604,28 +603,25 @@
               <l n="264" xml:id="l264"><space/><space/>El’ sanarmi é tirannia.</l>
               <l n="265" xml:id="l265"><space/><space/>Ahi che più giova, é piace</l>
               <l n="266" xml:id="l266"><space/><space/>Quanto amor é più vivace.</l>
+            </sp>
               <stage>Après l’air que la Musicienne a chanté, deux Scaramouches, deux Trivelins, et un Arlequin, représentent une nuit à la manière des Comédiens Italiens en cadence.</stage>
-              <stage>Les deux Scaramouches.</stage>
+              <stage rend="i">Les deux Scaramouches.</stage>
               <stage>Messieurs Beauchamp et Mayeu.</stage>
-              <stage>Les deux Trivelins.</stage>
+              <stage rend="i">Les deux Trivelins.</stage>
               <stage>Messieurs Magny, et Foignard cadet.</stage>
-              <stage>Arlequin.</stage>
+              <stage rend="i">Arlequin.</stage>
               <stage>Le Seigneur Dominique.</stage>
               <stage>Un Musicien Italien se joint à Mademoiselle Hilaire, et chante avec elle les paroles qui suivent.</stage>
-            </sp>
             <sp who="le musicien italien">
-              <speaker>Le Musicien Italien.</speaker>
-            </sp>
-            <sp who="monsieur gaye">
-              <speaker>Monsieur gaye</speaker>
+              <speaker>Le Musicien Italien. <lb/>Monsieur gaye</speaker>
               <l n="267" xml:id="l267"><space/><space/>Bel tempo che vola</l>
               <l n="268" xml:id="l268"><space/><space/>Rapiscé il contento,</l>
               <l n="269" xml:id="l269"><space/><space/>D’amor ne la scola</l>
               <l n="270" xml:id="l270"><space/><space/>Si coglie il momento.</l>
             </sp>
-            <sp who="mlle hilaire">
-              <speaker>Mlle Hilaire.</speaker>
-              <l n="271" xml:id="l271"><space/><space/>Insin che florida</l>
+            <sp who="mademoiselle-hilaire">
+              <speaker>Mademoiselle Hilaire.</speaker>
+              <l n="271" xml:id="l271"><space/><space/>Infin che florida</l>
               <l n="272" xml:id="l272"><space/><space/>Ride l’età</l>
               <l n="273" xml:id="l273"><space/><space/>Che pur tropp’horrida</l>
               <l n="274" xml:id="l274"><space/><space/>Da noi sen và.</l>
@@ -664,13 +660,13 @@
             <stage>Messieurs la Grille, et Noblet.</stage>
             <label>MENUETS</label>
             <label>PREMIER MENUET</label>
-            <sp who="chante par m">
-              <speaker>Chanté par M. Noblet.</speaker>
+            <sp who="M. Noblet">
+              <speaker><hi rend="i">Chanté par</hi> M. Noblet.</speaker>
               <l n="288" xml:id="l288">Ah ! qu’il fait beau dans ces bocages,</l>
               <l n="289" xml:id="l289">Ah ! que le Ciel donne un beau jour.</l>
             </sp>
             <sp who="m. de la grille">
-              <speaker>M. de la Grille, chantant.</speaker>
+              <speaker>M. de la Grille, <hi rend="i">chantant</hi>.</speaker>
               <l n="290" xml:id="l290">Le Rossignol, sous ces tendres feuillages</l>
               <l n="291" xml:id="l291"><space/><space/>Chante aux Échos leur doux retour :</l>
               <l n="292" xml:id="l292"><space/><space/>Le beau Séjour,</l>
@@ -693,9 +689,9 @@
               <l n="305" xml:id="l305"><space/><space/>Si tu le veux,</l>
               <l n="306" xml:id="l306"><space/><space/>Être comme eux.</l>
               <stage>Six autres Français viennent après vêtus galamment à la Poitevine, trois en hommes, et trois en femmes, accompagnés de huit Flûtes et Hautbois.</stage>
-              <stage>Les trois hommes.</stage>
+              <stage rend="i">Les trois hommes.</stage>
               <stage>Messieurs la Pierre, Favier, et S. André.</stage>
-              <stage>Les trois Femmes.</stage>
+              <stage rend="i">Les trois Femmes.</stage>
               <stage>MM. Faure, Foignard, et Favier le jeune.</stage>
               <stage>Les huit Flûtes.</stage>
               <stage>Les Sieurs Descouteaux, Piesche le fils, Philidor, Boutet, du Clos, Plumet, Fossart, et Nicolas Hotterre.</stage>
