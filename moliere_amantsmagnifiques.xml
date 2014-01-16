@@ -110,15 +110,16 @@
 
 <div1 type='acte' n='1'><head>PREMIER INTERMÈDE</head>
 
-<div2 type='scene' n='1'><head></head>
-
 <stage>Le théâtre s'ouvre à l'agréable bruit de quantité d'instruments, et d'abord il offre aux yeux une vaste mer, bordée de chaque côté de quatre grands rochers, dont le sommet porte chacun un Fleuve, accoudé sur les marques de ces sortes de déités. Au pied de ces rochers sont douze Tritons de chaque côté, et dans le milieu de la mer quatre Amours montés sur des dauphins, et derrière eux le dieu Éole, élevé au-dessus des ondes sur un petit nuage. Éole commande aux vents de se retirer, et, tandis que les Amours, les Tritons, et les Fleuves lui répondent, la mer se calme, et du milieu des ondes on voit s'élever une île. Huit Pêcheurs sortent du fond de la mer avec des nacres de perles et des branches de corail, et, après une danse agréable, vont se placer chacun sur un rocher au-dessous d'un Fleuve. Le choeur de la musique annonce la venue de Neptune, et, tandis que ce dieu danse avec sa suite, les Pêcheurs, les Tritons et les Fleuves accompagnent ses pas de gestes différents et de bruit de conques de perles. Tout ce spectacle est une magnifique galanterie, dont l'un des princes régale sur la mer la promenade des princesses.</stage>
 
-<stage>Première entrée de ballet : Neptune et six dieux marins.</stage> <stage>Deuxième entrée de ballet : Huit pêcheurs de corail.</stage>
+<label rend="sc">première entrée de ballet</label>
+<stage>Neptune et six dieux marins.</stage>
+<label rend="sc">deuxième entrée de ballet</label>
+<stage>Huit pêcheurs de corail.</stage>
 
-<stage>Vers chantés.</stage>
+<stage rend="i">Vers chantés.</stage>
 
-<sp who='EOLE'><speaker>Récit d'ÉOLE.</speaker>
+<sp who='EOLE'><speaker>récit d'éole</speaker>
 
 	<l id='1'>Vents, qui troublez les plus beaux jours,</l>
 
@@ -130,7 +131,7 @@
 
 </sp>
 
-<sp who='UN-TRITON'><speaker>Un TRITON</speaker>
+<sp who='UN-TRITON'><speaker>un triton</speaker>
 
 	<l id='5'>Quels beaux yeux ont percé nos demeures humides ?</l>
 
@@ -138,7 +139,7 @@
 
 </sp>
 
-<sp who='TOUS-LES-TRITONS'><speaker>Tous les TRITONS.</speaker>
+<sp who='TOUS-LES-TRITONS'><speaker>tous les tritons</speaker>
 
 	<l id='7'>Allons tous au-devant de ces divinités,</l>
 
@@ -146,19 +147,19 @@
 
 </sp>
 
-<sp who='UN-AMOUR'><speaker>Un AMOUR.</speaker>
+<sp who='UN-AMOUR'><speaker>un amour</speaker>
 
 	<l id='9'>Ah ! que ces princesses sont belles !</l>
 
 </sp>
 
-<sp who='UN-AUTRE-AMOUR'><speaker>Un autre AMOUR.</speaker>
+<sp who='UN-AUTRE-AMOUR'><speaker>un autre amour</speaker>
 
 	<l id='10'>Quels sont les coeurs qui ne s'y rendraient pas ?</l>
 
 </sp>
 
-<sp who='UN-AUTRE-AMOUR'><speaker>Un autre AMOUR.</speaker>
+	<sp who='UN-AUTRE-AMOUR'><speaker>un autre amour</speaker>
 
 	<l id='11'>La plus belle des Immortelles,</l>
 
@@ -166,7 +167,7 @@
 
 </sp>
 
-<sp who='CHOEUR'><speaker>CHOEUR.</speaker>
+<sp who='CHOEUR'><speaker>choeur</speaker>
 
 	<l id='13'>Allons tous au-devant de ces divinités,</l>
 
@@ -174,7 +175,7 @@
 
 </sp>
 
-<sp who='UN-TRITON'><speaker>Un TRITON</speaker>
+<sp who='UN-TRITON'><speaker>un triton</speaker>
 
 	<l id='15'>Quel noble spectacle s'avance !</l>
 
@@ -186,7 +187,7 @@
 
 </sp>
 
-<sp who='CHOEUR'><speaker>CHOEUR.</speaker>
+	<sp who='CHOEUR'><speaker>choeur</speaker>
 
 	<l id='19'>Redoublons nos concerts,</l>
 
@@ -194,7 +195,7 @@
 
 	<l id='21'>Notre réjouissance.</l>
 
-	<l id='22'>Pour le Roi, représentant Neptune.</l>
+		<stage>Pour le Roi, représentant Neptune.</stage>
 
 	<l id='23'>Le Ciel, entre les dieux les plus considérés,</l>
 
@@ -236,7 +237,7 @@
 
 	<l id='42'>Et chez moi la vertu ne fait jamais naufrage.</l>
 
-	<l id='43'>Pour MONSIEUR LE GRAND, représentant un dieu marin.</l>
+	<stage>Pour MONSIEUR LE GRAND, représentant un dieu marin.</stage>
 
 	<l id='44'>L'empire où nous vivons est fertile en trésors,</l>
 
@@ -246,7 +247,7 @@
 
 	<l id='47'>Il ne faut rien qu'avoir la faveur de NEPTUNE.</l>
 
-	<l id='48'>Pour le marquis DE VILLEROI, représentant un dieu marin.</l>
+	<stage>Pour le marquis DE VILLEROI, représentant un dieu marin.</stage>
 
 	<l id='49'>Sur la foi de ce dieu de l'empire flottant</l>
 
@@ -256,23 +257,21 @@
 
 	<l id='52'>Mais le NEPTUNE est constant.</l>
 
-	<l id='53'>Pour le marquis DE RASSENT, représentant un dieu marin.</l>
+	<stage>Pour le marquis DE RASSENT, représentant un dieu marin.</stage>
 
 	<l id='54'>Voguez sur cette mer d'un zèle inébranlable :</l>
 
 	<l id='55'>C'est le moyen d'avoir NEPTUNE favorable.</l>
 
 </sp>
-
-</div2>
-
+<label>LES AMANTS MAGNIFIQUES, <lb/><hi rend="sc i">comédie</hi></label>
 </div1>
 
-<div1 type='acte' n='2'><head>ACTE I</head>
+<div1 type='acte' n='2'>
+	<head>ACTE PREMIER</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE Sostrate, Clitidas.</head>
 
-<div2 type='scene' n='1'><head>SCÈNE I. Sostrate, Clitidas.</head>
-
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='1'>
 
@@ -282,7 +281,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='2'>
 
@@ -292,7 +291,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='3'>
 
@@ -302,7 +301,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='4'>
 
@@ -312,7 +311,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='5'>
 
@@ -322,7 +321,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='6'>
 
@@ -334,7 +333,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='7'>
 
@@ -344,7 +343,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='8'>
 
@@ -358,7 +357,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='9'>
 
@@ -368,7 +367,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='10'>
 
@@ -378,7 +377,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='11'>
 
@@ -390,7 +389,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='12'>
 
@@ -400,7 +399,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='13'>
 
@@ -414,7 +413,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='14'>
 
@@ -424,7 +423,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='15'>
 
@@ -436,7 +435,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='16'>
 
@@ -446,7 +445,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='17'>
 
@@ -460,7 +459,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='18'>
 
@@ -470,7 +469,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='19'>
 
@@ -480,7 +479,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='20'>
 
@@ -490,7 +489,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='21'>
 
@@ -502,7 +501,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='22'>
 
@@ -512,7 +511,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='23'>
 
@@ -532,7 +531,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='24'>
 
@@ -544,7 +543,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='25'>
 
@@ -554,7 +553,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='26'>
 
@@ -566,7 +565,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='27'>
 
@@ -578,7 +577,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='28'>
 
@@ -588,7 +587,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <note>Brennus : nom celtique qui s'appliquait à tout chef gaulois. On connaît surtout sous ce nom un général gaulois Sénonais qui vainquit les Romains près de l'Allia et se rendit maître de Rome en 390 avant JC.</note>
 
@@ -602,7 +601,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='30'>
 
@@ -614,7 +613,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='31'>
 
@@ -626,7 +625,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='32'>
 
@@ -636,7 +635,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='33'>
 
@@ -648,7 +647,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='34'>
 
@@ -660,7 +659,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='35'>
 
@@ -670,7 +669,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='36'>
 
@@ -680,7 +679,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='37'>
 
@@ -690,7 +689,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='38'>
 
@@ -702,7 +701,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='39'>
 
@@ -720,7 +719,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='40'>
 
@@ -734,7 +733,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='41'>
 
@@ -748,7 +747,7 @@
 
 <div2 type='scene' n='2'><head>SCÈNE II. Aristione, Iphicrate, Timoclès, Sostrate, Anaxarque, Cléon, Clitidas.</head>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='1'>
 
@@ -760,7 +759,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='2'>
 
@@ -770,7 +769,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='3'>
 
@@ -784,7 +783,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='4'>
 
@@ -794,7 +793,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='5'>
 
@@ -804,7 +803,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='6'>
 
@@ -814,7 +813,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='7'>
 
@@ -824,7 +823,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='8'>
 
@@ -834,7 +833,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='9'>
 
@@ -844,7 +843,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <note>Malencontre : malheur, disgrâce ; cas fortuit et désavantageux qui se produit, c'est à dire, par mauvais fortune. [F] </note>
 
@@ -857,7 +856,7 @@
 	<s id='3'>Cette nuit, j'ai songé de poisson mort, et d'oeufs cassés, et j'ai appris du seigneur Anaxarque que les oeufs cassés et le poisson mort signifient malencontre.</s>
 </p>
 </sp>
-<sp who='ANAXARQUE'><speaker>ANAXARQUE.</speaker>
+<sp who='ANAXARQUE'><speaker>anaxarque.</speaker>
 <p id='11'>
 	<s id='1'>Je remarque une chose : que Clitidas n'aurait rien à dire s'il ne parlait de moi.</s>
 
@@ -865,14 +864,14 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='12'>
 
 	<s id='1'>C'est qu'il y a tant de choses à dire de vous, qu'on n'en saurait parler assez.</s>
 </p>
 </sp>
-<sp who='ANAXARQUE'><speaker>ANAXARQUE.</speaker>
+<sp who='ANAXARQUE'><speaker>anaxarque.</speaker>
 <p id='13'>
 	<s id='1'>Vous pourriez prendre d'autres matières, puisque je vous en ai prié.</s>
 
@@ -880,7 +879,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='14'>
 
@@ -891,7 +890,7 @@
 	<s id='3'>Et s'il est écrit dans les astres que je sois enclin à parler de vous, comment voulez-vous que je résiste à ma destinée ?</s>
 </p>
 </sp>
-<sp who='ANAXARQUE'><speaker>ANAXARQUE.</speaker>
+<sp who='ANAXARQUE'><speaker>anaxarque.</speaker>
 <p id='15'>
 	<s id='1'>Avec tout le respect, Madame, que je vous dois, il y a une chose qui est fâcheuse dans votre Cour, que tout le monde y prenne liberté de parler, et que le plus honnête homme y soit exposé aux railleries du premier méchant plaisant.</s>
 
@@ -899,7 +898,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='16'>
 
@@ -909,7 +908,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='17'>
 
@@ -919,14 +918,14 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='18'>
 
 	<s id='1'>Avec tout le respect que je dois à Madame, il y a une chose qui m'étonne dans l'astrologie : comment des gens qui savent tous les secrets des Dieux, et qui possèdent des connaissances à se mettre au-dessus de tous les hommes, aient besoin de faire leur cour, et de demander quelque chose.</s>
 </p>
 </sp>
-<sp who='ANAXARQUE'><speaker>ANAXARQUE.</speaker>
+<sp who='ANAXARQUE'><speaker>anaxarque.</speaker>
 <p id='19'>
 	<s id='1'>Vous devriez gagner un peu mieux votre argent, et donner à Madame de meilleures plaisanteries.</s>
 
@@ -934,7 +933,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='20'>
 
@@ -950,7 +949,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='21'>
 
@@ -962,7 +961,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS, se parlant à lui-même.</speaker>
+	<sp who='CLITIDAS'><speaker>clitidas, <hi rend="i">se parlant à lui-même</hi></speaker>
 
 <p id='22'>
 
@@ -980,7 +979,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='23'>
 
@@ -990,7 +989,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='24'>
 
@@ -1000,7 +999,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='25'>
 
@@ -1010,7 +1009,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='26'>
 
@@ -1020,7 +1019,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='27'>
 
@@ -1030,7 +1029,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='28'>
 
@@ -1046,7 +1045,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='29'>
 
@@ -1056,7 +1055,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='30'>
 
@@ -1066,7 +1065,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='31'>
 
@@ -1076,7 +1075,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='32'>
 
@@ -1086,7 +1085,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='33'>
 
@@ -1098,7 +1097,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='34'>
 
@@ -1110,7 +1109,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <note>Galimatias : discours obscur, et embrouillé, où on ne comprend rien, où les paroles sont mises confusément, et sans ordre ; et où il n'y a rien de naturel. [F]</note>
 
@@ -1132,7 +1131,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='36'>
 
@@ -1142,7 +1141,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='37'>
 
@@ -1152,7 +1151,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='38'>
 
@@ -1164,7 +1163,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='39'>
 
@@ -1174,7 +1173,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='40'>
 
@@ -1184,7 +1183,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='41'>
 
@@ -1194,7 +1193,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='42'>
 
@@ -1204,7 +1203,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='43'>
 
@@ -1214,7 +1213,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='44'>
 
@@ -1230,7 +1229,7 @@
 
 <div2 type='scene' n='3'><head>SCÈNE III. Iphicrate, Timoclès, Clitidas, Sostrate.</head>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='1'>
 
@@ -1240,7 +1239,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='2'>
 
@@ -1250,7 +1249,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='3'>
 
@@ -1260,7 +1259,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='4'>
 
@@ -1270,7 +1269,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='5'>
 
@@ -1280,7 +1279,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='6'>
 
@@ -1290,7 +1289,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='7'>
 
@@ -1300,7 +1299,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='8'>
 
@@ -1310,7 +1309,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='9'>
 
@@ -1324,7 +1323,7 @@
 
 <div2 type='scene' n='4'><head>SCÈNE IV. Iphicrate, Timoclès, Clitidas</head>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='1'>
 
@@ -1334,7 +1333,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='2'>
 
@@ -1344,7 +1343,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='3'>
 
@@ -1354,7 +1353,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='3'>
 
@@ -1364,7 +1363,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='4'>
 
@@ -1374,7 +1373,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='5'>
 
@@ -1384,7 +1383,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='6'>
 
@@ -1400,7 +1399,7 @@
 
 <div2 type='scene' n='5'><head>SCÈNE V. Ériphile, Cléonice</head>
 
-<sp who='CLÉONICE'><speaker>CLÉONICE.</speaker>
+<sp who='CLÉONICE'><speaker>cléonice.</speaker>
 
 <p id='1'>
 
@@ -1410,7 +1409,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='2'>
 
@@ -1424,7 +1423,7 @@
 
 </sp>
 
-<sp who='CLÉONICE'><speaker>CLÉONICE.</speaker>
+<sp who='CLÉONICE'><speaker>cléonice.</speaker>
 
 <p id='3'>
 
@@ -1438,7 +1437,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='4'>
 
@@ -1450,7 +1449,7 @@
 
 </sp>
 
-<sp who='CLÉONICE'><speaker>CLÉONICE.</speaker>
+<sp who='CLÉONICE'><speaker>cléonice.</speaker>
 
 <p id='5'>
 
@@ -1460,7 +1459,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='6'>
 
@@ -1470,7 +1469,7 @@
 
 </sp>
 
-<sp who='CLÉONICE'><speaker>CLÉONICE.</speaker>
+<sp who='CLÉONICE'><speaker>cléonice.</speaker>
 
 <p id='7'>
 
@@ -1480,7 +1479,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='8'>
 
@@ -1490,7 +1489,7 @@
 
 </sp>
 
-<sp who='CLÉONICE'><speaker>CLÉONICE.</speaker>
+<sp who='CLÉONICE'><speaker>cléonice.</speaker>
 
 <p id='9'>
 
@@ -1500,7 +1499,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='10'>
 
@@ -1511,22 +1510,21 @@
 </sp>
 
 </div2>
-
-<div2 type='scene' n='6'><head>SECOND INTERMÈDE.</head>
+</div1>
+	<div1 type="acte">
+<head>SECOND INTERMÈDE.</head>
 
 <stage>La confidente de la jeune princesse lui produit trois danseurs, sous le nom de Pantomimes, c'est-à-dire qui expriment par leurs gestes toutes sortes de choses. La Princesse les voit danser, et les reçoit à son service.</stage>
 
-<stage>Entrée de ballet de trois Pantomimes</stage>
-
-</div2>
+<label rend="sc">entrée de ballet</label>
+<stage>De trois Pantomimes.</stage>
 
 </div1>
-
 <div1 type='acte' n='2'><head>ACTE II</head>
 
-<div2 type='scene' n='1'><head>SCÈNE I. Ériphile, Cléonice, Clitidas.</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Ériphile, Cléonice, Clitidas.</head>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='1'>
 
@@ -1538,7 +1536,7 @@
 
 </sp>
 
-<sp who='CLÉONICE'><speaker>CLÉONICE.</speaker>
+<sp who='CLÉONICE'><speaker>cléonice.</speaker>
 
 <p id='2'>
 
@@ -1548,7 +1546,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='3'>
 
@@ -1560,11 +1558,7 @@
 
 </sp>
 
-</div2>
-
-<div2 type='scene' n='2'><head>SCÈNE II. Ériphile, Clitidas.</head>
-
-<sp who='CLÉONICE'><speaker>CLÉONICE, en allant au devant de Clitidas.</speaker>
+<sp who='CLÉONICE'><speaker>cléonice.</speaker>
 
 <p id='4'>
 
@@ -1574,7 +1568,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='5'>
 
@@ -1586,9 +1580,9 @@
 
 </div2>
 
-<div2 type='scene' n='3'><head>SCÈNE III. Ériphile, Clitidas.</head>
+<div2 type='scene' n='2'><head>SCÈNE II. Ériphile, Clitidas.</head>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS, fait semblant de chanter.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas, <hi rend="i">fait semblant de chanter</hi>.</speaker>
 
 <p id='1'>
 
@@ -1598,7 +1592,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE, à Clitidas qui feint de vouloir s'éloigner.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='2'>
 
@@ -1608,7 +1602,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='3'>
 
@@ -1618,7 +1612,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='4'>
 
@@ -1630,7 +1624,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='5'>
 
@@ -1640,7 +1634,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='6'>
 
@@ -1650,7 +1644,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='7'>
 
@@ -1662,7 +1656,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <note>Pénée : Fleuve de Thessalie, avait sa source au noeud du Pinde et des monts Cambuniens,  sur les confins de la Thessalie et de la Macédoine, parcourait dans son cours sinueux une partie de la Thessalie, coulait entre l'Olympe et l'Ossa, arrosant la vallée de Tempé, (?) et se jetait dans le golfe Thermaïque. [B]</note>
 
@@ -1674,7 +1668,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='9'>
 
@@ -1686,7 +1680,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='10'>
 
@@ -1696,7 +1690,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='11'>
 
@@ -1708,7 +1702,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='12'>
 
@@ -1718,7 +1712,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='13'>
 
@@ -1728,7 +1722,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='14'>
 
@@ -1738,11 +1732,11 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='15'>
 
-	<s id='1'>En vérité, c'est un homme qui me revient, un homme fait comme je veux que les hommes soient faits : ne prenant point des manières bruyantes et des tons de voix assommants ; sage et posé en toutes choses ; ne parlant jamais que bien à propos ; point prompt à décider ; point du tout exagérateur incommode ; et, quelques beaux vers que nos poètes lui aient récités, je ne lui ai jamais ouï dire : « Voilà qui est plus beau que tout ce qu'a jamais fait Homère. » </s>
+	<s id='1'>En vérité, c'est un homme qui me revient, un homme fait comme je veux que les hommes soient faits : ne prenant point des manières bruyantes et des tons de voix assommants ; sage et posé en toutes choses ; ne parlant jamais que bien à propos ; point prompt à décider ; point du tout exagérateur incommode ; et, quelques beaux vers que nos poètes lui aient récités, je ne lui ai jamais ouï dire : <hi rend="i">Voilà qui est plus beau que tout ce qu'a jamais fait Homère.</hi></s>
 
 	<s id='2'>Enfin c'est un homme pour qui je me sens de l'inclination ; et si j'étais princesse, il ne serait pas malheureux.</s>
 
@@ -1750,7 +1744,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='16'>
 
@@ -1760,7 +1754,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <note>Régal : un festin, une fête, une réjouissance, un appareil de plaisirs pour divertir, ou honorer quelqu'un. [F]</note>
 
@@ -1774,7 +1768,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='18'>
 
@@ -1788,7 +1782,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='19'>
 
@@ -1798,7 +1792,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='20'>
 
@@ -1808,7 +1802,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='21'>
 
@@ -1818,7 +1812,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='22'>
 
@@ -1828,7 +1822,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='23'>
 
@@ -1838,7 +1832,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='24'>
 
@@ -1848,7 +1842,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='25'>
 
@@ -1858,7 +1852,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='26'>
 
@@ -1868,7 +1862,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='27'>
 
@@ -1878,7 +1872,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='28'>
 
@@ -1888,7 +1882,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='29'>
 
@@ -1900,7 +1894,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='30'>
 
@@ -1914,7 +1908,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='31'>
 
@@ -1924,7 +1918,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='32'>
 
@@ -1936,7 +1930,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='33'>
 
@@ -1946,7 +1940,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='34'>
 
@@ -1956,7 +1950,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='35'>
 
@@ -1966,7 +1960,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='36'>
 
@@ -1976,7 +1970,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='37'>
 
@@ -1988,7 +1982,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='38'>
 
@@ -1998,7 +1992,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='39'>
 
@@ -2008,7 +2002,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='40'>
 
@@ -2020,7 +2014,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='41'>
 
@@ -2034,7 +2028,7 @@
 
 <div2 type='scene' n='3'><head>SCÈNE III. Sostrate, Ériphile.</head>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='1'>
 
@@ -2044,7 +2038,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='2'>
 
@@ -2054,7 +2048,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='3'>
 
@@ -2064,7 +2058,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='4'>
 
@@ -2076,7 +2070,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='5'>
 
@@ -2086,7 +2080,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='6'>
 
@@ -2096,7 +2090,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='7'>
 
@@ -2106,7 +2100,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='8'>
 
@@ -2116,7 +2110,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='9'>
 
@@ -2126,7 +2120,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='10'>
 
@@ -2136,7 +2130,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='11'>
 
@@ -2146,7 +2140,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='12'>
 
@@ -2156,7 +2150,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='13'>
 
@@ -2166,7 +2160,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='14'>
 
@@ -2180,7 +2174,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='15'>
 
@@ -2190,7 +2184,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='16'>
 
@@ -2202,7 +2196,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='17'>
 
@@ -2214,7 +2208,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='18'>
 
@@ -2224,7 +2218,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='19'>
 
@@ -2234,7 +2228,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='20'>
 
@@ -2244,7 +2238,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='21'>
 
@@ -2256,7 +2250,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='22'>
 
@@ -2272,7 +2266,7 @@
 
 <div2 type='scene' n='4'><head>SCÈNE IV. Chorèbe, Sostrate, Ériphile</head>
 
-<sp who='CHOREBE'><speaker>CHORÈBE.</speaker>
+<sp who='CHOREBE'><speaker>chorèbe.</speaker>
 <p id='1'>
 	<s id='1'>Madame, voilà la Princesse qui vient vous prendre ici, pour aller au bois de Diane.</s>
 
@@ -2280,7 +2274,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='2'>
 
@@ -2296,7 +2290,7 @@
 
 <div2 type='scene' n='5'><head>SCÈNE V. Aristione, Iphicrate, Timoclès, Anaxarque, Clitidas, Sostrate, Ériphile.</head>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='1'>
 
@@ -2306,7 +2300,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='2'>
 
@@ -2316,7 +2310,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='3'>
 
@@ -2329,30 +2323,29 @@
 </sp>
 
 </div2>
-
+<label rend="i">Fin du Second Acte.</label>
 </div1>
 
-<div1 type='acte' n='3'><head>TROISIÈME INTERMÈDE</head>
-
-<div2 type='scene' n='1'><head>PROLOGUE.</head>
+<div1 type='acte'><head>TROISIÈME INTERMÈDE</head>
 
 <stage>Le théâtre est une forêt, où la Princesse est invitée d'aller ; une nymphe lui en fait les honneurs en chantant, et, pour la divertir, on lui joue une petite comédie en musique, dont voici le sujet. Un Berger se plaint à deux bergers, ses amis, des froideurs de celle qu'il aime ; les deux amis le consolent ; et, comme la bergère aimée arrive, tous trois se retirent pour l'observer. Après quelque plainte amoureuse, elle se repose sur un gazon, et s'abandonne aux douceurs du sommeil. L'amant fait approcher ses amis pour contempler les grâces de sa bergère et invite toutes choses à contribuer à son repos. La bergère, en s'éveillant, voit son berger à ses pieds, se plaint de sa poursuite ; mais, considérant sa constance, elle lui accorde sa demande, et consent d'en être aimée en présence des deux bergers amis. Deux satyres arrivant se plaignent de son changement et, étant touchés de cette disgrâce, cherchent leur consolation dans le vin.</stage>
-	<castList><head>PERSONNAGES DE LA PASTORALE.</head>
+	<castList><head>LES PERSONNAGES DE LA PASTORALE</head>
 		
-		<castItem><role id="NYMPHE" civil="M">La NYMPHE de la vallée de Tempé</role>.</castItem> 
+		<castItem><role id="NYMPHE" civil="M" rend="sc">la nymphe de la vallée de tempé</role>.</castItem> 
 		
-		<castItem><role id="TIRCIS" civil="M">TIRCIS</role>.</castItem> 
+		<castItem><role id="TIRCIS" civil="M" rend="sc">tircis</role>.</castItem> 
 		
-		<castItem><role id="LYCASTE" civil="M">LICASTE</role>.</castItem> 
+		<castItem><role id="LYCASTE" civil="M" rend="sc">licaste</role>.</castItem> 
 		
-		<castItem><role id="MÉNANDRE" civil="M">MÉNANDRE</role>.</castItem> 
+		<castItem><role id="MÉNANDRE" civil="M" rend="sc">ménandre</role>.</castItem> 
 		
-		<castItem><role id="CALISTE" civil="M">CALISTE</role>.</castItem> 
+		<castItem><role id="CALISTE" civil="M" rend="sc">caliste</role>.</castItem> 
 		
-		<castItem><role id="DEUX-SATYRES" civil="G">DEUX SATYRES</role>.</castItem> 
+		<castItem><role id="DEUX-SATYRES" civil="G">Deux Satyres</role>.</castItem> 
 		
 	</castList>
-<sp who='LA-NYMPHE-de-TEMPÉ'><speaker>LA NYMPHE de TEMPÉ.</speaker>
+<div2 type='scene' n='1'><head>PROLOGUE.</head>
+<sp who='LA-NYMPHE-de-TEMPÉ'><speaker>la nymphe de tempé.</speaker>
 
 	<l id='56'>Venez, grande Princesse, avec tous vos appas.</l>
 
@@ -2370,9 +2363,9 @@
 
 </div2>
 
-<div2 type='scene' n='2'><head>SCÈNE I.</head>
+<div2 type='scene' n='2'><head>SCÈNE PREMIÈRE</head>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='62'>Vous chantez sous ces feuillages,</l>
 
@@ -2392,123 +2385,123 @@
 
 </div2>
 
-<div2 type='scene' n='3'><head>SCÈNE II. Lycaste, Ménandre, Tircis.</head>
+<div2 type='scene' n='3'><head>SCÈNE DEUXIÈME. Lycaste, Ménandre, Tircis.</head>
 
-<sp who='LYCASTE'><speaker>LYCASTE.</speaker>
+<sp who='LYCASTE'><speaker>lycaste.</speaker>
 
 	<l id='69'>Hé quoi ! Toujours languissant, sombre et triste ?</l>
 
 </sp>
 
-<sp who='MENANDRE'><speaker>MÉNANDRE.</speaker>
+<sp who='MENANDRE'><speaker>ménandre.</speaker>
 
 	<l id='70'>Hé quoi ! Toujours aux pleurs abandonné ?</l>
 
 </sp>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='71'>Toujours adorant Caliste, Et toujours infortuné.</l>
 
 </sp>
 
-<sp who='LYCASTE'><speaker>LYCASTE.</speaker>
+<sp who='LYCASTE'><speaker>lycaste.</speaker>
 
 	<l id='72'>Dompte, dompte, Berger, l'ennui qui te possède.</l>
 
 </sp>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='73' pat='i'>Eh ! Le moyen ? Hélas !</l>
 
 </sp>
 
-<sp who='MENANDRE'><speaker>MÉNANDRE.</speaker>
+<sp who='MENANDRE'><speaker>ménandre.</speaker>
 
 	<l id='73' part='f'>Fais, fais-toi quelque effort.</l>
 
 </sp>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='74'>Eh ! Le moyen, hélas ! Quand le mal est trop fort ?</l>
 
 </sp>
 
-<sp who='LYCASTE'><speaker>LYCASTE.</speaker>
+<sp who='LYCASTE'><speaker>lycaste.</speaker>
 
 	<l id='75' part='i'>Ce mal trouvera son remède.</l>
 
 </sp>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='75' part='f'>Je ne guérirai qu'à ma mort.</l>
 
 </sp>
 
-<sp who='LYCASTE_MENANDRE'><speaker>LYCASTE et MÉNANDRE.</speaker>
+<sp who='LYCASTE_MENANDRE'><speaker>lycaste <hi rend="i">et</hi> ménandre.</speaker>
 
 	<l id='76' part='i'>Ah ! Tircis !</l>
 
 </sp>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='76' part='f'>Ah ! Bergers !</l>
 
 </sp>
 
-<sp who='LYCASTE_MENANDRE'><speaker>LYCASTE et MÉNANDRE.</speaker>
+	<sp who='LYCASTE_MENANDRE'><speaker>lycaste <hi rend="i">et</hi> ménandre.</speaker>
 
 	<l id='77'>Prends sur toi plus d'empire.</l>
 
 </sp>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='78'>Rien ne me peut plus secourir.</l>
 
 </sp>
 
-<sp who='LYCASTE_MENANDRE'><speaker>LYCASTE et MÉNANDRE.</speaker>
+<sp who='LYCASTE_MENANDRE'><speaker>lycaste et ménandre.</speaker>
 
 	<l id='79'>C'est trop, c'est trop céder.</l>
 
 </sp>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='80'>C'est trop, c'est trop souffrir.</l>
 
 </sp>
 
-<sp who='LYCASTE_MENANDRE'><speaker>LYCASTE et MÉNANDRE.</speaker>
+<sp who='LYCASTE_MENANDRE'><speaker>lycaste et ménandre.</speaker>
 
 	<l id='81' part='i'>Quelle faiblesse !</l>
 
 </sp>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='81' part='f'>Quel martyre !</l>
 
 </sp>
 
-<sp who='LYCASTE_MENANDRE'><speaker>LYCASTE et MÉNANDRE.</speaker>
+<sp who='LYCASTE_MENANDRE'><speaker>lycaste et ménandre.</speaker>
 
 	<l id='82'>Il faut prendre courage.</l>
 
 </sp>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='83'>Il faut plutôt mourir.</l>
 
 </sp>
 
-<sp who='LYCASTE'><speaker>LYCASTE.</speaker>
+<sp who='LYCASTE'><speaker>lycaste.</speaker>
 
 	<l id='84'>Il n'est point de bergère</l>
 
@@ -2522,7 +2515,7 @@
 
 </sp>
 
-<sp who='MENANDRE'><speaker>MÉNANDRE.</speaker>
+<sp who='MENANDRE'><speaker>ménandre.</speaker>
 
 	<l id='89'>Il est, dans les affaires</l>
 
@@ -2536,7 +2529,7 @@
 
 </sp>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='94'>Je la vois, la cruelle,</l>
 
@@ -2552,9 +2545,9 @@
 
 </div2>
 
-<div2 type='scene' n='4'><head>SCÈNE III.</head>
+<div2 type='scene' n='4'><head>SCÈNE TROISIÈME</head>
 
-<sp who='CALISTE'><speaker>CALISTE.</speaker>
+<sp who='CALISTE'><speaker>caliste.</speaker>
 
 	<l id='99'>Ah ! Que sur notre coeur</l>
 
@@ -2618,9 +2611,9 @@
 
 </div2>
 
-<div2 type='scene' n='5'><head>SCÈNE IV. Caliste, endormie, Tircis, Lycaste, Ménandre</head>
+<div2 type='scene' n='5'><head>SCÈNE QUATRIÈME. Caliste, Tircis, Lycaste, Ménandre</head>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='128'>Vers ma belle ennemie</l>
 
@@ -2632,7 +2625,7 @@
 
 </sp>
 
-<sp who='TIRCIS_LYCASTE_MENANDRE'><speaker>TOUS TROIS.</speaker>
+<sp who='TIRCIS_LYCASTE_MENANDRE'><speaker>tous trois.</speaker>
 
 	<l id='132'>Dormez, dormez, beaux yeux, adorables vainqueurs,</l>
 
@@ -2642,7 +2635,7 @@
 
 </sp>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='135'>Silence, petits oiseaux ;</l>
 
@@ -2654,7 +2647,7 @@
 
 </sp>
 
-<sp who='TIRCIS_LYCASTE_MENANDRE'><speaker>TOUS TROIS.</speaker>
+<sp who='TIRCIS_LYCASTE_MENANDRE'><speaker>tous trois.</speaker>
 
 	<l id='139'>Dormez, dormez, beaux yeux, adorables vainqueurs,</l>
 
@@ -2664,7 +2657,7 @@
 
 </sp>
 
-<sp who='CALISTE'><speaker>CALISTE.</speaker>
+<sp who='CALISTE'><speaker>caliste.</speaker>
 
 	<l id='142'>Ah ! Quelle peine extrême !</l>
 
@@ -2672,7 +2665,7 @@
 
 </sp>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='144'>Que voulez-vous qu'on suive, hélas !</l>
 
@@ -2680,13 +2673,13 @@
 
 </sp>
 
-<sp who='CALISTE'><speaker>CALISTE.</speaker>
+<sp who='CALISTE'><speaker>caliste.</speaker>
 
 	<l id='146'>Berger, que voulez-vous ?</l>
 
 </sp>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='147'>Mourir, belle Bergère,</l>
 
@@ -2700,13 +2693,15 @@
 
 </sp>
 
-<sp who='CALISTE'><speaker>CALISTE.</speaker>
+<sp who='CALISTE'><speaker>caliste.</speaker>
 
 	<l id='152'>Ah ! Tircis, ôtez-vous, j'ai peur que dans ce jour</l>
 
 	<l id='153'>La pitié dans mon coeur n'introduise l'amour.</l>
+</sp>
+<sp who="LYCASTE_MENANDRE">
 
-	<l id='154'>Lycaste et Ménandre, l'un après l'autre.</l>
+	<speaker>Lycaste <hi rend="i">et</hi> Ménandre, l'un après l'autre.</speaker>
 
 	<l id='155'>Soit amour, soit pitié,</l>
 
@@ -2724,7 +2719,7 @@
 
 </sp>
 
-<sp who='CALISTE'><speaker>CALISTE.</speaker>
+<sp who='CALISTE'><speaker>caliste.</speaker>
 
 	<l id='162'>C'est trop, c'est trop de rigueur.</l>
 
@@ -2738,7 +2733,7 @@
 
 </sp>
 
-<sp who='TIRCIS'><speaker>TIRCIS.</speaker>
+<sp who='TIRCIS'><speaker>tircis.</speaker>
 
 	<l id='167'>Ô Ciel ! Bergers ! </l>
 
@@ -2750,13 +2745,13 @@
 
 </sp>
 
-<sp who='LYCASTE'><speaker>LYCASTE.</speaker>
+<sp who='LYCASTE'><speaker>lycaste.</speaker>
 
 	<l id='171'>Digne prix de la foi !</l>
 
 </sp>
 
-<sp who='MENANDRE'><speaker>MÉNANDRE.</speaker>
+<sp who='MENANDRE'><speaker>ménandre.</speaker>
 
 	<l id='172'>Ô sort digne d'envie !</l>
 
@@ -2764,9 +2759,9 @@
 
 </div2>
 
-<div2 type='scene' n='6'><head>SCÈNE V. Deux Satyres, Tircis, Lycaste, Caliste, Ménandre.</head>
+<div2 type='scene' n='6'><head>SCÈNE CINQUIÈME. Deux Satyres, Tircis, Lycaste, Caliste, Ménandre.</head>
 
-<sp who='PREMIER-SATYRE'><speaker>PREMIER SATYRE.</speaker>
+<sp who='PREMIER-SATYRE'><speaker>premier satyre.</speaker>
 
 	<l id='173'>Quoi ? Tu me fuis, ingrate, et je te vois ici</l>
 
@@ -2774,7 +2769,7 @@
 
 </sp>
 
-<sp who='DEUXIEME-SATYRE'><speaker>DEUXIÈME SATYRE.</speaker>
+<sp who='DEUXIEME-SATYRE'><speaker>deuxième satyre.</speaker>
 
 	<l id='175'>Quoi ? Mes soins n'ont rien pu sur ton indifférence,</l>
 
@@ -2782,7 +2777,7 @@
 
 </sp>
 
-<sp who='CALISTE'><speaker>CALISTE.</speaker>
+<sp who='CALISTE'><speaker>caliste.</speaker>
 
 	<l id='177'>Le destin le veut ainsi ;</l>
 
@@ -2790,7 +2785,7 @@
 
 </sp>
 
-<sp who='PREMIER-SATYRE'><speaker>PREMIER SATYRE.</speaker>
+<sp who='PREMIER-SATYRE'><speaker>premier satyre.</speaker>
 
 	<l id='179'>Aux amants qu'on pousse à bout</l>
 
@@ -2804,7 +2799,7 @@
 
 </sp>
 
-<sp who='DEUXIEME-SATYRE'><speaker>DEUXIÈME SATYRE.</speaker>
+<sp who='DEUXIEME-SATYRE'><speaker>deuxième satyre.</speaker>
 
 	<l id='184'>Notre amour n'a pas toujours</l>
 
@@ -2818,7 +2813,7 @@
 
 </sp>
 
-<sp who='TOUS'><speaker>TOUS.</speaker>
+<sp who='TOUS'><speaker>tous.</speaker>
 
 	<l id='189'>Champêtres Divinités,</l>
 
@@ -2831,15 +2826,16 @@
 	<l id='193'>Et tracez sur les herbettes</l>
 
 	<l id='194'>L'image de nos chansons.</l>
-
+	
+<label>PREMIÈRE ENTRÉE DE BALLET</label>
 <stage>En même temps, six dryades et six faunes sortent de leurs demeures, et font ensemble une danse agréable, qui, s'ouvrant tout d'un coup, laisse voir un berger et une bergère, qui font en musique une petite scène d'un dépit amoureux.</stage>
 
 </sp>
 
 </div2>
 
-<div2 type='scene' n='7'><head>SCÈNE DE DÉPIT AMOUREUX. Climène, Philinte.</head>
-<sp who='PHILINTE'><speaker>PHILINTE.</speaker>
+<div2 type='scene' n='7'><head>DÉPIT AMOUREUX. Climène, Philinte.</head>
+<sp who='PHILINTE'><speaker>philinte.</speaker>
 	<l id='195'>Quand je plaisais à tes yeux,</l>
 
 	<l id='196'>J'étais content de ma vie,</l>
@@ -2848,7 +2844,7 @@
 
 	<l id='198'>Dont le sort me fît envie.</l>
 </sp>
-<sp who='CLIMENE'><speaker>CLIMÈNE.</speaker>
+<sp who='CLIMENE'><speaker>climène.</speaker>
 	<l id='199'>Lorsqu'à toute autre personne</l>
 
 	<l id='200'>Me préférait ton ardeur,</l>
@@ -2857,17 +2853,17 @@
 
 	<l id='202'>Pour régner dessus ton coeur.</l>
 </sp>
-<sp who='PHILINTE'><speaker>PHILINTE.</speaker>
+<sp who='PHILINTE'><speaker>philinte.</speaker>
 	<l id='203'>Une autre a guéri mon âme</l>
 
 	<l id='204'>Des feux que j'avais pour toi.</l>
 </sp>
-<sp who='CLIMENE'><speaker>CLIMÈNE.</speaker>
+<sp who='CLIMENE'><speaker>climène.</speaker>
 	<l id='205'>Un autre a vengé ma flamme</l>
 
 	<l id='206'>Des faiblesses de ta foi.</l>
 </sp>
-<sp who='PHILINTE'><speaker>PHILINTE.</speaker>
+<sp who='PHILINTE'><speaker>philinte.</speaker>
 	<l id='207'>Cloris, qu'on vante si fort,</l>
 
 	<l id='208'>M'aime d'une ardeur fidèle ;</l>
@@ -2876,7 +2872,7 @@
 
 	<l id='210'>Je mourrais content pour elle.</l>
 </sp>
-<sp who='CLIMENE'><speaker>CLIMÈNE.</speaker>
+<sp who='CLIMENE'><speaker>climène.</speaker>
 	<l id='211'>Myrtil, si digne d'envie,</l>
 
 	<l id='212'>Me chérit plus que le jour,</l>
@@ -2885,7 +2881,7 @@
 
 	<l id='214'>Pour lui montrer mon amour.</l>
 </sp>
-<sp who='PHILINTE'><speaker>PHILINTE.</speaker>
+<sp who='PHILINTE'><speaker>philinte.</speaker>
 	<l id='215'>Mais si d'une douce ardeur</l>
 
 	<l id='216'>Quelque renaissante trace</l>
@@ -2894,7 +2890,7 @@
 
 	<l id='218'>Pour te remettre en sa place... ?</l>
 </sp>
-<sp who='CLIMENE'><speaker>CLIMÈNE.</speaker>
+<sp who='CLIMENE'><speaker>climène.</speaker>
 	<l id='219'>Bien qu'avec pleine tendresse</l>
 
 	<l id='220'>Myrtil me puisse chérir,</l>
@@ -2905,7 +2901,7 @@
 
 </sp>
 
-<sp who='TOUS-DEUX'><speaker>TOUS DEUX ensemble.</speaker>
+<sp who='TOUS-DEUX'><speaker>tous deux ensemble.</speaker>
 
 	<l id='223'>Ah ! Plus que jamais aimons-nous,</l>
 
@@ -2913,7 +2909,8 @@
 
 </sp>
 
-<sp who='TOUS-LES-ACTEURS'><speaker>TOUS LES ACTEURS de la comédie chantent.</speaker>
+<sp who='TOUS-LES-ACTEURS'><speaker>tous les acteurs</speaker>
+	<stage>De la Comédie chantent.</stage>
 
 	<l id='225'>Amants, que vos querelles</l>
 
@@ -2930,12 +2927,12 @@
 	<l id='231'>Amants, que vos querelles</l>
 
 	<l id='232'>Sont aimables et belles, etc.</l>
-
+<label>DEUXIÈME ENTRÉE DE BALLET</label>
 <stage>Les faunes et les dryades recommencent leur danse, que les bergères et bergers musiciens entremêlent de leurs chansons, tandis que trois petites dryades et trois petits faunes font paraître dans l'enfoncement du théâtre, tout ce qui se passe sur le devant.</stage>
 
 </sp>
 
-<sp who='BERGERS_BERGERES'><speaker>Les BERGERS et BERGÈRES</speaker>
+<sp who='BERGERS_BERGERES'><speaker>les bergers, et bergères</speaker>
 
 	<l id='233'>Jouissons, jouissons des plaisirs innocents</l>
 
@@ -2971,19 +2968,19 @@
 
 <div1 type='acte' n='4'><head>ACTE III</head>
 
-<div2 type='scene' n='1'><head>SCÈNE I. Aristione, Iphicrate, Timoclès, Anaxarque, Clitidas, Ériphile, Sostrate, Suite.</head>
+	<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Aristione, Iphicrate, Timoclès, Anaxarque, Clitidas, Ériphile, Sostrate, <hi rend="i n">suite</hi>.</head>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='1'>
 
-	<s id='1'>Les mêmes paroles toujours se présentent à dire, il faut toujours s'écrier : « Voilà qui est admirable, il ne se peut rien de plus beau, cela passe tout ce qu'on a jamais vu. » </s>
+	<s id='1'>Les mêmes paroles toujours se présentent à dire, il faut toujours s'écrier : <hi rend="i">Voilà qui est admirable, il ne se peut rien de plus beau, cela passe tout ce qu'on a jamais vu.</hi></s>
 
 </p>
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='2'>
 
@@ -2993,7 +2990,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='3'>
 
@@ -3005,7 +3002,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='4'>
 
@@ -3015,7 +3012,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='5'>
 
@@ -3029,7 +3026,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='5'>
 
@@ -3043,7 +3040,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='6'>
 
@@ -3053,7 +3050,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='7'>
 
@@ -3063,7 +3060,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='8'>
 
@@ -3073,7 +3070,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='9'>
 
@@ -3083,7 +3080,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='10'>
 
@@ -3093,7 +3090,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='11'>
 
@@ -3103,7 +3100,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='12'>
 
@@ -3115,7 +3112,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='13'>
 
@@ -3125,7 +3122,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='14'>
 
@@ -3135,7 +3132,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='15'>
 
@@ -3145,7 +3142,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='16'>
 
@@ -3155,7 +3152,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='17'>
 
@@ -3165,7 +3162,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='18'>
 
@@ -3175,7 +3172,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='19'>
 
@@ -3185,7 +3182,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='20'>
 
@@ -3195,7 +3192,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='21'>
 
@@ -3205,7 +3202,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='22'>
 
@@ -3215,7 +3212,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='23'>
 
@@ -3231,7 +3228,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='24'>
 
@@ -3241,7 +3238,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='25'>
 
@@ -3251,14 +3248,14 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='26'>
 
 	<s id='1'>Laissons cela : nous trouverons moyen de terminer l'irrésolution de ma fille.</s>
 </p>
 </sp>
-<sp who='ANAXARQUE'><speaker>ANAXARQUE.</speaker>
+<sp who='ANAXARQUE'><speaker>anaxarque.</speaker>
 <p id='27'>
 	<s id='1'>En est-il un meilleur, Madame, pour terminer les choses au contentement de tout le monde, que les lumières que le Ciel peut donner sur ce mariage ? </s>
 
@@ -3272,7 +3269,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='27'>
 
@@ -3282,7 +3279,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='28'>
 
@@ -3292,7 +3289,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='29'>
 
@@ -3302,14 +3299,14 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='30'>
 
 	<s id='1'>Ma fille, vous avez une petite incrédulité qui ne vous quitte point.</s>
 </p>
 </sp>
-<sp who='ANAXARQUE'><speaker>ANAXARQUE.</speaker>
+<sp who='ANAXARQUE'><speaker>anaxarque.</speaker>
 <p id='31'>
 	<s id='1'>Les épreuves, Madame, que tout le monde a vues de l'infaillibilité de mes prédictions sont les cautions suffisantes des promesses que je puis faire. </s>
 
@@ -3319,14 +3316,14 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='32'>
 
 	<s id='1'>Le Ciel, Anaxarque, me marquera les deux fortunes qui m'attendent ?</s>
 </p>
 </sp>
-<sp who='ANAXARQUE'><speaker>ANAXARQUE.</speaker>
+<sp who='ANAXARQUE'><speaker>anaxarque.</speaker>
 <p id='33'>
 	<s id='1'>Oui, Madame, les félicités qui vous suivront, si vous épousez l'un, et les disgrâces qui vous accompagneront, si vous épousez l'autre.</s>
 
@@ -3334,7 +3331,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='34'>
 
@@ -3344,14 +3341,14 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='35'>
 
 	<s id='1'>Voilà mon astrologue embarrassé.</s>
 </p>
 </sp>
-<sp who='ANAXARQUE'><speaker>ANAXARQUE.</speaker>
+<sp who='ANAXARQUE'><speaker>anaxarque.</speaker>
 <p id='36'>
 	<s id='1'>Il faudrait vous faire, Madame, une longue discussion des principes de l'astrologie pour vous faire comprendre cela.</s>
 
@@ -3359,7 +3356,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='37'>
 
@@ -3369,7 +3366,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='38'>
 
@@ -3379,7 +3376,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='39'>
 
@@ -3389,7 +3386,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='40'>
 
@@ -3399,7 +3396,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='41'>
 
@@ -3409,7 +3406,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='42'>
 
@@ -3419,7 +3416,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='43'>
 
@@ -3429,7 +3426,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='44'>
 
@@ -3439,7 +3436,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='45'>
 
@@ -3451,7 +3448,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='46'>
 
@@ -3461,7 +3458,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='47'>
 
@@ -3482,7 +3479,7 @@
 	<s id='8'>Quel dieu l'a révélée, ou quelle expérience l'a pu former de l'observation de ce grand nombre d'astres qu'on n'a pu voir encore deux fois dans la même disposition ?</s>
 </p>
 </sp>
-<sp who='ANAXARQUE'><speaker>ANAXARQUE.</speaker>
+<sp who='ANAXARQUE'><speaker>anaxarque.</speaker>
 <p id='48'>
 	<s id='1'>Il ne sera pas difficile de vous le faire concevoir.</s>
 
@@ -3490,7 +3487,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='49'>
 
@@ -3500,7 +3497,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='50'>
 
@@ -3510,7 +3507,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='51'>
 
@@ -3520,7 +3517,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='52'>
 
@@ -3530,7 +3527,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='53'>
 
@@ -3540,7 +3537,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='54'>
 
@@ -3550,7 +3547,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='55'>
 
@@ -3560,7 +3557,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='56'>
 
@@ -3572,7 +3569,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='57'>
 
@@ -3584,7 +3581,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='58'>
 
@@ -3596,7 +3593,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='59'>
 
@@ -3606,7 +3603,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='60'>
 
@@ -3621,20 +3618,21 @@
 </sp>
 
 </div2>
-
-<div2 type='scene' n='2'><head>QUATRIÈME INTERMÈDE.</head>
+<label rend="i">Fin du troisième Acte.</label>
+</div1>
+<div1 type="acte">
+<head>QUATRIÈME INTERMÈDE.</head>
 
 <stage>Le théâtre représente une grotte, où les Princesses vont se promener, et dans le temps qu'elles y entrent, huit Statues, portant chacune un flambeau à la main, font une danse variée de plusieurs belles attitudes où elles demeurent par intervalles.</stage>
-
-</div2>
-
+<label>ENTRÉE DE BALLET</label>
+<stage>De huit Statues.</stage>
 </div1>
 
 <div1 type='acte' n='5'><head>ACTE IV</head>
 
-<div2 type='scene' n='1'><head>SCÈNE I. Aristione, Ériphile</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Aristione, Ériphile</head>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='1'>
 
@@ -3648,7 +3646,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='2'>
 
@@ -3658,7 +3656,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='3'>
 
@@ -3670,7 +3668,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='4'>
 
@@ -3680,7 +3678,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='5'>
 
@@ -3692,7 +3690,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='6'>
 
@@ -3702,7 +3700,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='7'>
 
@@ -3722,9 +3720,9 @@
 
 </div2>
 
-<div2 type='scene' n='2'><head>SCÈNE II. Venus, accompagnée de quatre petits Amours, dans une machine, Aristione, Ériphile.</head>
+	<div2 type='scene' n='2'><head>SCÈNE II. Vénus <hi rend="i">accompagnée de quatre petits Amours dans une machine</hi>, Aristione, Ériphile.</head>
 
-<sp who='VENUS'><speaker>VÉNUS.</speaker>
+<sp who='VENUS'><speaker>vénus.</speaker>
 
 	<l id='246'>Princesse, dans tes soins brille un zèle exemplaire.</l>
 
@@ -3748,7 +3746,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='1'>
 
@@ -3766,14 +3764,14 @@
 
 <div2 type='scene' n='3'><head>SCÈNE III. Anaxarque, Cléon</head>
 
-<sp who='CLEON'><speaker>CLÉON.</speaker>
+<sp who='CLEON'><speaker>cléon.</speaker>
 
 <p id='1'>
 
 	<s id='1'>Voilà la Princesse qui s'en va : ne voulez-vous pas lui parler ?</s>
 </p>
 </sp>
-<sp who='ANAXARQUE'><speaker>ANAXARQUE.</speaker>
+<sp who='ANAXARQUE'><speaker>anaxarque.</speaker>
 <p id='2'>
 	<s id='1'>Attendons que sa fille soit séparée d'elle : c'est un esprit que je redoute, et qui n'est pas de trempe à se laisser mener, ainsi que celui de sa mère. </s>
 
@@ -3789,14 +3787,14 @@
 
 </sp>
 
-<sp who='CLEON'><speaker>CLÉON.</speaker>
+<sp who='CLEON'><speaker>cléon.</speaker>
 
 <p id='3'>
 
 	<s id='1'>Mais pour lequel des deux princes au moins dressez-vous tout cet artifice ?</s>
 </p>
 </sp>
-<sp who='ANAXARQUE'><speaker>ANAXARQUE.</speaker>
+<sp who='ANAXARQUE'><speaker>anaxarque.</speaker>
 <p id='4'>
 	<s id='1'>Tous deux ont recherché mon assistance, et je leur promets à tous deux la faveur de mon art ; mais les présents du prince Iphicrate et les promesses qu'il m'a faites l'emportent de beaucoup sur tout ce qu'a pu faire l'autre. </s>
 
@@ -3820,7 +3818,7 @@
 
 <div2 type='scene' n='4'><head>SCÈNE IV. Ériphile, Cléonice, Sostrate.</head>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='1'>
 
@@ -3832,7 +3830,7 @@
 
 </sp>
 
-<sp who='CLÉONICE'><speaker>CLÉONICE.</speaker>
+<sp who='CLÉONICE'><speaker>cléonice.</speaker>
 
 <p id='2'>
 
@@ -3842,7 +3840,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='3'>
 
@@ -3854,7 +3852,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='4'>
 
@@ -3864,7 +3862,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='5'>
 
@@ -3892,7 +3890,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='6'>
 
@@ -3914,7 +3912,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='7'>
 
@@ -3924,7 +3922,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='8'>
 
@@ -3936,7 +3934,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='9'>
 
@@ -3950,7 +3948,7 @@
 
 <div2 type='scene' n='5'><head>SCÈNE V. Cléonice, Ériphile.</head>
 
-<sp who='CLÉONICE'><speaker>CLÉONICE.</speaker>
+<sp who='CLÉONICE'><speaker>cléonice.</speaker>
 
 <p id='1'>
 
@@ -3960,31 +3958,29 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='2'>
 
 	<s id='1'>Oui, Cléonice, qu'ils fassent tout ce qu'ils voudront, pourvu qu'ils me laissent à mes pensées.</s>
 
 </p>
-
-<stage>Cinquième intermède</stage>
-
-<stage>Quatre Pantomimes... Quatre Pantomimes, pour épreuve de leur adresse, ajustent leurs gestes et leurs pas aux inquiétudes de la jeune Princesse.</stage>
-
-<stage>Entrée de ballet de quatre Pantomimes</stage>
-
 </sp>
-
 </div2>
+</div1>
+<div1 type="acte">
+<head>CINQUIÈME INTERMÈDE</head>
+
+<stage>Quatre Pantomimes, pour épreuve de leur adresse, ajustent leurs gestes et leurs pas aux inquiétudes de la jeune Princesse.</stage>
+<label>ENTRÉE DE BALLET</label>
+<stage>De quatre Pantomimes.</stage>
 
 </div1>
-
 <div1 type='acte' n='5'><head>ACTE V</head>
 
-<div2 type='scene' n='1'><head>SCÈNE I. Clitidas, Ériphile.</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Clitidas, Ériphile.</head>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='1'>
 
@@ -4004,7 +4000,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='2'>
 
@@ -4016,7 +4012,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='3'>
 
@@ -4026,7 +4022,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='4'>
 
@@ -4036,7 +4032,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='5'>
 
@@ -4046,7 +4042,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='6'>
 
@@ -4058,7 +4054,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='7'>
 
@@ -4068,7 +4064,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='8'>
 
@@ -4078,7 +4074,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='9'>
 
@@ -4088,7 +4084,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='10'>
 
@@ -4098,7 +4094,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='11'>
 
@@ -4108,7 +4104,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='12'>
 
@@ -4118,7 +4114,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='13'>
 
@@ -4128,7 +4124,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='14'>
 
@@ -4140,7 +4136,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='15'>
 
@@ -4150,7 +4146,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='16'>
 
@@ -4160,7 +4156,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='17'>
 
@@ -4170,7 +4166,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='18'>
 
@@ -4182,7 +4178,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='19'>
 
@@ -4198,7 +4194,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='20'>
 
@@ -4210,7 +4206,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='21'>
 
@@ -4220,7 +4216,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='22'>
 
@@ -4230,7 +4226,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='23'>
 
@@ -4244,7 +4240,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='24'>
 
@@ -4256,7 +4252,7 @@
 
 </sp>
 
-<sp who='CLITIDAS'><speaker>CLITIDAS.</speaker>
+<sp who='CLITIDAS'><speaker>clitidas.</speaker>
 
 <p id='25'>
 
@@ -4270,7 +4266,7 @@
 
 <div2 type='scene' n='2'><head>SCÈNE II. Aristione, Sostrate, Ériphile, Clitidas.</head>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='1'>
 
@@ -4284,7 +4280,7 @@
 
 </sp>
 
-<sp who='ÉRIPHILE'><speaker>ÉRIPHILE.</speaker>
+<sp who='ÉRIPHILE'><speaker>ériphile.</speaker>
 
 <p id='2'>
 
@@ -4294,7 +4290,7 @@
 
 </sp>
 
-<sp who='SOSTRATE'><speaker>SOSTRATE.</speaker>
+<sp who='SOSTRATE'><speaker>sostrate.</speaker>
 
 <p id='3'>
 
@@ -4310,7 +4306,7 @@
 
 <div2 type='scene' n='3'><head>SCÈNE III. Cléonice, Aristione, Sostrate, Ériphile, Clitidas.</head>
 
-<sp who='CLÉONICE'><speaker>CLÉONICE.</speaker>
+<sp who='CLÉONICE'><speaker>cléonice.</speaker>
 
 <p id='1'>
 
@@ -4326,7 +4322,7 @@
 
 <div2 type='scene' n='4'><head>SCÈNE IV. Iphicrate, Timoclès, Cléonice, Aristione, Sostrate, Ériphile, Clitidas.</head>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='1'>
 
@@ -4336,7 +4332,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='2'>
 
@@ -4346,7 +4342,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='3'>
 
@@ -4356,7 +4352,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='4'>
 
@@ -4366,7 +4362,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='5'>
 
@@ -4376,7 +4372,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='6'>
 
@@ -4388,7 +4384,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='7'>
 
@@ -4398,7 +4394,7 @@
 
 </sp>
 
-<sp who='IPHICRATE'><speaker>IPHICRATE.</speaker>
+<sp who='IPHICRATE'><speaker>iphicrate.</speaker>
 
 <p id='8'>
 
@@ -4408,7 +4404,7 @@
 
 </sp>
 
-<sp who='TIMOCLES'><speaker>TIMOCLÈS.</speaker>
+<sp who='TIMOCLES'><speaker>timoclès.</speaker>
 
 <p id='9'>
 
@@ -4418,7 +4414,7 @@
 
 </sp>
 
-<sp who='ARISTIONE'><speaker>ARISTIONE.</speaker>
+<sp who='ARISTIONE'><speaker>aristione.</speaker>
 
 <p id='10'>
 
@@ -4427,14 +4423,14 @@
 	<s id='2'>Allons-y de ce pas, et couronnons par ce pompeux spectacle cette merveilleuse journée.</s>
 
 </p>
-
-<stage>Sixième intermède ; Qui est la solennité des Jeux pythiens.</stage>
-
-<stage>Le théâtre est une grande salle, en manière d'amphithéâtre, ouverte d'une grande arcade dans le fond, au-dessus de laquelle est une tribune fermée d'un rideau ; et dans l'éloignement paroît un autel pour le sacrifice. Six hommes, presque nus, portant chacun une hache sur l'épaule, comme ministres du sacrifice, entrent par le portique, au son des violons, et sont suivis de deux Sacrificateurs musiciens, et d'une Prêtresse musicienne.</stage>
-
 </sp>
-
-<sp who='LA-PRÊTRESSE'><speaker>LA PRÊTRESSE.</speaker>
+</div2>
+</div1>
+<div1 type="acte">
+<head>SIXIÈME INTERMÈDE</head>
+<stage rend="sc">qui est la solennité des jeux pythiens</stage>
+<stage>Le théâtre est une grande salle, en manière d'amphithéâtre, ouverte d'une grande arcade dans le fond, au-dessus de laquelle est une tribune fermée d'un rideau ; et dans l'éloignement paroît un autel pour le sacrifice. Six hommes, presque nus, portant chacun une hache sur l'épaule, comme ministres du sacrifice, entrent par le portique, au son des violons, et sont suivis de deux Sacrificateurs musiciens, et d'une Prêtresse musicienne, et leur suite.</stage>
+<sp who='LA-PRÊTRESSE'><speaker>la prêtresse.</speaker>
 
 	<l id='256'>Chantez, peuples, chantez, en mille et mille lieux,</l>
 
@@ -4448,7 +4444,7 @@
 
 </sp>
 
-<sp who='UNE-GRECQUE-2'><speaker>UNE GRECQUE.</speaker>
+<sp who='UNE-GRECQUE-2'><speaker>une grecque.</speaker>
 
 	<l id='261'>À ce dieu plein de force, à ce dieu plein d'appas</l>
 
@@ -4456,7 +4452,7 @@
 
 </sp>
 
-<sp who='AUTRE-GRECQUE-1'><speaker>AUTRE GRECQUE.</speaker>
+<sp who='AUTRE-GRECQUE-1'><speaker>autre grecque.</speaker>
 
 	<l id='262' part='f'>Il n'est rien ici-bas</l>
 
@@ -4464,7 +4460,7 @@
 
 </sp>
 
-<sp who='AUTRE-GRECQUE-2'><speaker>AUTRE GRECQUE.</speaker>
+<sp who='AUTRE-GRECQUE-2'><speaker>autre grecque.</speaker>
 
 	<l id='264'>Toute la terre est triste</l>
 
@@ -4472,7 +4468,7 @@
 
 </sp>
 
-<sp who='TOUS-ENSEMBLE'><speaker>TOUS ENSEMBLE.</speaker>
+<sp who='CHOEUR'><speaker>le choeur.</speaker>
 
 	<l id='265' part='f'>Poussons à sa mémoire</l>
 
@@ -4481,28 +4477,19 @@
 	<l id='267'>Que du haut de sa gloire</l>
 
 	<l id='268'>Il écoute nos chants.</l>
-
-<stage>Première entrée de ballet.</stage>
-
-<stage>Les six hommes portant les haches font entre eux une danse ornée de toutes les attitudes que peuvent exprimer des gens qui étudient leur force, puis ils se retirent aux deux côtés du théâtre pour faire place à six voltigeurs.</stage>
-
-<stage>Deuxième entrée de ballet</stage>
-
-<stage>Six voltigeurs en cadence font paraître leur adresse sur des chevaux de bois, qui sont apportés par des esclaves.</stage>
-
-<stage>Troisième entrée de ballet</stage>
-
-<stage>Quatre conducteurs d'esclaves amènent, en cadence, douze esclaves qui dansent en marquant la joie qu'ils ont d'avoir recouvré la liberté.</stage>
-
-<stage>Quatrième entrée de ballet</stage>
-
-<stage>Quatre femmes et quatre hommes armés à la grecque font ensemble une manière de jeu pour les armes.</stage>
-
-<stage>La tribune s'ouvre. Un héraut, six trompettes et un timbalier se mêlant à tous les instruments, annonce, avec un grand bruit, la venue d'Apollon.</stage>
-
 </sp>
 
-<sp who='LE-CHOEUR'><speaker>LE CHOEUR.</speaker>
+<label>PREMIÈRE ENTRÉE DE BALLET</label>
+
+<stage>Les six hommes portant les haches font entre eux une danse ornée de toutes les attitudes que peuvent exprimer des gens qui étudient leur force, puis ils se retirent aux deux côtés du théâtre pour faire place à six voltigeurs.</stage>
+<label>DEUXIÈME ENTRÉE DE BALLET</label>
+<stage>Six voltigeurs en cadence font paraître leur adresse sur des chevaux de bois, qui sont apportés par des esclaves.</stage>
+<label>TROISIÈME ENTRÉE DE BALLET</label>
+<stage>Quatre conducteurs d'esclaves amènent, en cadence, douze esclaves qui dansent en marquant la joie qu'ils ont d'avoir recouvré la liberté.</stage>
+<label>QUATRIÈME ENTRÉE DE BALLET</label>
+<stage>Quatre femmes et quatre hommes armés à la grecque font ensemble une manière de jeu pour les armes. <lb/>La tribune s'ouvre. Un héraut, six trompettes et un timbalier se mêlant à tous les instruments, annonce, avec un grand bruit, la venue d'Apollon.</stage>
+
+<sp who='CHOEUR'><speaker>le choeur.</speaker>
 
 	<l id='269'>Ouvrons tous nos yeux</l>
 
@@ -4517,19 +4504,13 @@
 	<l id='274'>Où voit-on des dieux</l>
 
 	<l id='275'>Qui soient faits de même ?</l>
-
-<stage>Apollon, au bruit des trompettes et des violons, entre par le portique, précédé de six jeunes gens, qui portent des lauriers entrelacés autour d'un bâton et un soleil d'or au-dessus, avec la devise royale en manière de trophée. </stage>
-
-<stage>Les six jeunes gens, pour danser avec Apollon, donnent leur trophée à tenir aux six hommes qui portent les haches, et commencent avec Apollon une danse héroïque, à laquelle se joignent, en diverses manières, les six hommes portant les trophées, les quatre femmes armées, avec leurs timbres, et les quatre hommes armés, avec leurs tambours, tandis que les six trompettes, le timbalier, les Sacrificateurs, la Prêtresse, et le choeur de musique accompagnent tout cela, en s'y mêlant par diverses reprises : ce qui finit la fête des jeux Pythiens, et tout le divertissement.</stage>
-
-<stage>Cinquième entrée de ballet</stage>
-
 </sp>
 
-<sp who='APOLLON'><speaker>APOLLON et six jeunes gens de sa suite.</speaker>
-
-	<l id='276'>Pour le Roi, représentant le Soleil.</l>
-
+<stage>Apollon, au bruit des trompettes et des violons, entre par le portique, précédé de six jeunes gens, qui portent des lauriers entrelacés autour d'un bâton et un soleil d'or au-dessus, avec la devise royale en manière de trophée. Les six jeunes gens, pour danser avec Apollon, donnent leur trophée à tenir aux six hommes qui portent les haches, et commencent avec Apollon une danse héroïque, à laquelle se joignent, en diverses manières, les six hommes portant les trophées, les quatre femmes armées, avec leurs timbres, et les quatre hommes armés, avec leurs tambours, tandis que les six trompettes, le timbalier, les Sacrificateurs, la Prêtresse, et le choeur de musique accompagnent tout cela, en s'y mêlant par diverses reprises : ce qui finit la fête des jeux Pythiens, et tout le divertissement.</stage>
+<label>CINQUIÈME ET DERNIÈRE ENTRÉE DE BALLET</label>
+<sp who='APOLLON'><speaker>apollon, et six jeunes gens de sa suite.</speaker>
+	<stage>Choeur de Musique</stage>
+	<stage>Pour <hi rend="sc">le roi</hi>, Représentant le <hi rend="sc">soleil</hi>.</stage>
 	<l id='277'>Je suis la source des clartés,</l>
 
 	<l id='278'>Et les astres les plus vantés,</l>
@@ -4558,7 +4539,7 @@
 
 	<l id='290'>J'arrête les douces caresses !</l>
 
-	<l id='291'>Pour Monsieur le Grand, suivant d'Apollon.</l>
+	<stage>Pour m. <hi rend="sc">le grand</hi>, Suivant d'<hi rend="sc">apollon</hi>.</stage>
 
 	<l id='292'>Bien qu'auprès du soleil tout autre éclat s'efface,</l>
 
@@ -4568,7 +4549,7 @@
 
 	<l id='295'>Que l'on s'en tient toujours le plus près que l'on peut.</l>
 
-	<l id='296'>Pour le marquis de Villeroi, suivant d'Apollon.</l>
+	<stage>Pour <hi rend="sc">le marquis de villeroy</hi>, suivant d'<hi rend="sc">apollon</hi>.</stage>
 
 	<l id='297'>De notre maître incomparable</l>
 
@@ -4578,16 +4559,14 @@
 
 	<l id='300'>Le suit parmi les eaux, le suit parmi les feux.</l>
 
-	<l id='301'>Pour le marquis de Rassent, suivant d'Apollon.</l>
+	<stage>Pour <hi rend="sc">le marquis de rassent</hi>, suivant d'<hi rend="sc">apollon</hi>.</stage>
 
 	<l id='302'>Je ne serai pas vain quand je ne croirai pas</l>
 
 	<l id='303'>Qu'un autre mieux que moi suive partout ses pas.</l>
 
 </sp>
-
-</div2>
-
+	<label rend="sc">fin</label>
 </div1>
 
 </body>
