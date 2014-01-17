@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<!--<?xml-stylesheet type="text/xsl" href="http://svn.code.sf.net/p/algone/code/teipub/tei2html.xsl"?>-->
-<!--odt2tei: 2014-01-17T11:19:22+01:00-->
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><!--<?xml-stylesheet type="text/xsl" href="http://svn.code.sf.net/p/algone/code/teipub/tei2html.xsl"?>-->
+<!--odt2tei: 2014-01-16T17:21:58+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="amants-magnifiques-livret" xml:lang="">
   <teiHeader>
     <fileDesc>
@@ -47,37 +46,39 @@
     </profileDesc>
   </teiHeader>
   <text>
+    <front>
+      <titlePage>  
+        <docTitle>
+          <titlePart>LE DIVERTISSEMENT ROYAL,</titlePart> <titlePart>Mêlé de Comédie, de Musique, et d’Entrée de Ballet.</titlePart></docTitle>
+        <docImprint>À PARIS,</docImprint>
+        <docImprint>Par ROBERT BALLARD, seul Imprimeur du Roi pour la Musique.</docImprint>
+        <docDate>M. DC. LXX.</docDate>
+        <docImprint>Avec Privilège de sa Majesté.</docImprint></titlePage>
+    </front>
     <body>
-      <pb/>
-      <head>LE DIVERTISSEMENT ROYAL, Mêlé de Comédie, de Musique, et d’Entrée de Ballet.</head>
-      <docImprint>À PARIS,</docImprint>
-      <docImprint>Par ROBERT BALLARD, seul Imprimeur du Roi pour la Musique.</docImprint>
-      <docDate>M. DC. LXX.</docDate>
-      <docImprint>Avec Privilège de sa Majesté.</docImprint>
-      <div>
         <head>LE DIVERTISSEMENT ROYAL.</head>
         <div>
-          <head>AVANT-PROPOS.</head>
+          <head>AVANT-PROPOS</head>
           <p>Le ROI qui ne veut que des choses extraordinaires dans tout ce qu’il entreprend, s’est proposé de donner à sa Cour un Divertissement qui fût composé de tous ceux que le Théâtre peut fournir ; et pour embrasser cette vaste Idée, et enchaîner ensemble tant de choses diverses, SA MAJESTÉ a choisi pour sujet deux Princes Rivaux, qui dans le champêtre séjour de la Vallée de Tempé, où l’on doit célébrer la Fête des Jeux Pythiens, régalent à l’envi une jeune Princesse et sa Mère, de toutes les galanteries dont ils se peuvent aviser.</p>
         </div>
         <div>
           <head>PREMIER INTERMÈDE.</head>
           <stage>Le Théâtre s’ouvre à l’agréable bruit de quantité d’Instruments, et d’abord il offre aux yeux une vaste Mer, bordée de chaque côté de quatre grands Rochers, dont le sommet porte chacun un Fleuve, accoudé sur les marques de ces sortes de Déités. Au pied de ces Rochers sont douze Tritons de chaque côté, et dans le milieu de la Mer quatre Amours montés sur des Dauphins, et derrière eux le Dieu Éole élevé au dessus des Ondes sur un petit nuage. Éole commande aux Vents de se retirer, et tandis que les Amours, les Tritons, et les Fleuves lui répondent, la Mer se calme, et du milieu des Ondes on voit s’élever une Île. Huit Pêcheurs sortent du fond de la Mer avec des nacres de Perles, et des branches de Corail, et après une Danse agréable vont se placer chacun sur un Rocher au dessous d’un Fleuve. Le Chœur de la Musique annonce la venue de Neptune, et tandis que ce Dieu danse avec sa suite, les Pêcheurs, les Tritons, et les Fleuves accompagnent ses pas de gestes différents, et de bruits de conques de Perles. Tout ce Spectacle est une Magnifique Galanterie, dont l’un des Princes régale sur la Mer la promenade des Princesses.</stage>
-          <stage>NEPTUNE. LE ROI.</stage>
-          <stage>Six Dieux Marins. Monsieur le Grand, le Marquis de Villeroy, le Marquis de Rassent, M. Beauchamp, les Sieurs Favier, et la Pierre.</stage>
-          <stage>Huit Fleuves. Messieurs Beaumont, Fernon l’aîné, Noblet, Serignan, David, Aurat, Devellois, et Gillet.</stage>
-          <stage>Douze Tritons. Messieurs le Gros, Hedouin, Don, Gingan l’aîné, Gingan le cadet, Fernon le cadet, Rebel, Langez, Deschamps, Morel, et deux Pages de la Musique de la Chapelle.</stage>
-          <stage>Quatre Amours. Quatre Pages de la Musique de la Chambre.</stage>
-          <stage>Éole. Monsieur Estival.</stage>
-          <stage>Huit Pêcheurs. Messieurs Jouan, Chicanneau, Pezan l’aîné, Magny, Joubert, Mayeux, la Montagne, et Lestang.</stage>
-        </div>
-      </div>
-      <div type="label">
-        <head>RÉCIT D’ÉOLE.</head>
+          <castList>
+            <castItem><role>NEPTUNE.</role> <actor>LE ROI.</actor></castItem>
+            <castItem><role>Six Dieux Marins.</role> <actor>M. le Grand, le Marquis de Villeroy, le Marquis de Rassent, M. Beauchamp, les Sieurs Favier, et la Pierre.</actor></castItem>
+            <castItem><role>Huit Fleuves.</role> <actor>MM. Beaumont, Fernon l’aîné, Noblet, Serignan, David, Aurat, Devellois, et Gillet.</actor></castItem>
+            <castItem><role>Douze Tritons.</role> <actor>MM. le Gros, Hedouin, Don, Gingan l’aîné, Gingan le cadet, Fernon le cadet, Rebel, Langez, Deschamps, Morel, et deux Pages de la Musique de la Chapelle.</actor></castItem>
+            <castItem> <role>Quatre Amours.</role> <actor>Quatre Pages de la Musique de la Chambre.</actor></castItem>
+            <castItem><role>Éole.</role> <actor>M. Estival.</actor></castItem>
+            <castItem> <role>Huit Pêcheurs.</role> <actor>MM. Jouan, Chicanneau, Pezan l’aîné, Magny, Joubert, Mayeux, la Montagne, et Lestang.</actor></castItem></castList>
+        <sp who="eole">
+          <speaker>Récit d'Éole.</speaker>
         <l n="1" xml:id="l1">Vents, qui troublez les plus beaux jours,</l>
         <l n="2" xml:id="l2">Rentrez dans vos grottes profondes ;</l>
         <l n="3" xml:id="l3">Et laissez régner sur les ondes</l>
         <l n="4" xml:id="l4">Les Zéphires et les Amours.</l>
+        </sp>
         <sp who="un triton">
           <speaker>Un Triton.</speaker>
           <l n="5" xml:id="l5">Quels beaux yeux ont percé nos demeures humides ?</l>
@@ -152,35 +153,36 @@
           <stage>Pour le Marquis de Rassent.</stage>
           <l n="50" xml:id="l50">Voguez sur cette Mer d’un zèle inébranlable,</l>
           <l n="51" xml:id="l51">C’est le moyen d’avoir Neptune favorable.</l>
+        </sp>
+        </div>
           <div>
-            <head>LE PREMIER ACTE</head>
-            <stage>de la Comédie.</stage>
-            <stage>Qui se passe dans l’agréable solitude de la Vallée de Tempé.</stage>
+            <head>LE PREMIER ACTE de la Comédie</head>
+            <stage rend="i">Qui se passe dans l’agréable solitude de la Vallée de Tempé.</stage>
           </div>
           <div>
             <head>SECOND INTERMÈDE.</head>
             <stage>La confidente de la jeune Princesse lui produit trois Danseurs, sous le nom de Pantomimes ; c’est-à-dire qui expriment par leurs gestes toutes sortes de choses. La Princesse les voit danser, et les reçoit à son service.</stage>
-            <stage>Trois Pantomimes. Messieurs Beauchamp, S. André, et Favier.</stage>
+            <castList>
+              <castItem><role>Trois Pantomimes.</role> <actor>MM. Beauchamp, Saint-André, et Favier.</actor></castItem>
+            </castList>
           </div>
           <div>
-            <head>LE SECOND ACTE.</head>
-            <stage>de la Comédie.</stage>
+            <head>LE SECOND ACTE de la Comédie</head>
           </div>
           <div>
             <head>TROISIÈME INTERMÈDE.</head>
             <stage>Le Théâtre est une Forêt, où la Princesse est invitée d’aller, une Nymphe lui en fait les honneurs en chantant, et pour la divertir on lui joue une petite Comédie en Musique, dont voici le sujet : Un Berger se plaint à deux Bergers ses amis des froideurs de celle qu’il aime, les deux amis le consolent ; et comme la Bergère aimée arrive, tous trois se retirent pour l’observer, après quelque plainte amoureuse elle se repose sur un gazon, et s’abandonne aux douceurs du sommeil ; l’Amant fait approcher ses amis pour contempler les grâces de sa Bergère, et invite toutes choses à contribuer à son repos ; La Bergère en s’éveillant, voit son Berger à ses pieds, se plaint de sa poursuite : Mais considérant sa constance elle lui accorde sa demande, et content d’en être aimée en présence des deux Bergers amis : Deux Satyres arrivant se plaignent de son changement, et étant touchés de cette disgrâce, cherchent leur consolation dans le vin.</stage>
-          </div>
-        </sp>
-      </div>
-      <div type="label">
-        <head>LES PERSONNAGES DE LA PASTORALE.</head>
-        <stage>La Nymphe de la Vallée de Tempé. Mad<hi rend="sup">lle</hi> des-Fronteaux.</stage>
-        <stage>Tircis. M. Gaye. Lycaste. M. Langez.</stage>
-        <stage>Ménandre. M. Fernon le cadet.</stage>
-        <stage>Caliste. Mad<hi rend="sup">lle</hi> Hylaire.</stage>
-        <stage>Deux Satyres. Messieurs Estival, et Morel.</stage>
-        <div>
-          <head>PROLOGUE.</head>
+        <castList>
+          <head>LES PERSONNAGES DE LA PASTORALE.</head> 
+          <castItem><role>La Nymphe de la Vallée de Tempé.</role> <actor>Mlle Des-Fronteaux.</actor></castItem>
+          <castItem><role>Tircis.</role> <actor>M. Gaye.</actor></castItem>
+          <castItem><role>Lycaste.</role> <actor>M. Langez.</actor></castItem>
+          <castItem><role>Ménandre.</role> <actor>M. Fernon le cadet.</actor></castItem>
+          <castItem><role>Caliste.</role> <actor>Mlle Hilaire.</actor></castItem>
+          <castItem><role>Deux Satyres.</role> <actor>MM. Estival, et Morel.</actor></castItem>
+        </castList>
+          <div type="scene" xml:id="prologue">
+            <head>PROLOGUE.</head>
           <sp who="la nymphe de tempe">
             <speaker>LA NYMPHE DE TEMPÉ.</speaker>
             <l n="52" xml:id="l52">Venez grande Princesse avec tous vos appas,</l>
@@ -189,8 +191,10 @@
             <l n="55" xml:id="l55">Ne cherchez point l’éclat des Fêtes de la Cour,</l>
             <l n="56" xml:id="l56">On ne sent ici que l’amour,</l>
             <l n="57" xml:id="l57">Ce n’est que d’amour qu’on y chante.</l>
-            <p rend="scene">SCÈNE PREMIÈRE.</p>
           </sp>
+          </div>
+          <div type="scene">
+            <head>SCÈNE PREMIÈRE.</head>
           <sp who="tircis">
             <speaker>TIRCIS.</speaker>
             <l n="58" xml:id="l58">Vous chantez sous ces feuillages,</l>
@@ -200,9 +204,11 @@
             <l n="62" xml:id="l62">Les échos de ces bocages :</l>
             <l n="63" xml:id="l63">Hélas ! petits oiseaux, hélas !</l>
             <l n="64" xml:id="l64">Si vous aviez mes maux vous ne chanteriez pas.</l>
-            <p rend="scene">SCÈNE DEUXIÈME.</p>
-            <stage>LICASTE, MÉNANDRE, TIRCIS.</stage>
           </sp>
+          </div>
+            <div type="scene">
+            <head>SCÈNE DEUXIÈME.</head>
+            <stage>LICASTE, MÉNANDRE, TIRCIS.</stage>
           <sp who="licaste">
             <speaker>LICASTE.</speaker>
             <l n="65" xml:id="l65">Hé quoi toujours languissant, sombre, et triste ?</l>
@@ -303,11 +309,13 @@
             <l n="97" xml:id="l97">Gardon d’être vu d’elle,</l>
             <l n="98" xml:id="l98">L’Ingrate, hélas !</l>
             <l n="99" xml:id="l99">N’y viendrait pas.</l>
-            <p rend="scene">SCENE TROISIÈME.</p>
           </sp>
+            </div>
+            <div type="scene">
+            <head>SCENE TROISIÈME.</head>
           <sp who="caliste">
             <speaker>CALISTE.</speaker>
-            <l n="100" xml:id="l100">Ah que sur notre cœur</l>
+            <lg><l n="100" xml:id="l100">Ah que sur notre cœur</l>
             <l n="101" xml:id="l101">La sévère Loi de l’honneur</l>
             <l n="102" xml:id="l102">Prend un cruel empire !</l>
             <l n="103" xml:id="l103">Je ne fais voir que rigueurs pour Tircis,</l>
@@ -315,30 +323,32 @@
             <l n="105" xml:id="l105">De sa langueur en secret je soupire,</l>
             <l n="106" xml:id="l106">Et voudrais bien soulager son martyre,</l>
             <l n="107" xml:id="l107">C’est à vous seuls que je dis,</l>
-            <l n="108" xml:id="l108">Arbres, n’allez pas le redire.</l>
-            <l n="109" xml:id="l109">Puisque le Ciel a voulu nous former</l>
+            <l n="108" xml:id="l108">Arbres, n’allez pas le redire.</l></lg>
+            <lg><l n="109" xml:id="l109">Puisque le Ciel a voulu nous former</l>
             <l n="110" xml:id="l110">Avec un cœur qu’Amour peut enflammer,</l>
             <l n="111" xml:id="l111">Quelle rigueur impitoyable</l>
             <l n="112" xml:id="l112">Contre des traits si doux nous force à nous armer,</l>
             <l n="113" xml:id="l113">Et pourquoi sans être blâmable</l>
             <l n="114" xml:id="l114">Ne peut-on pas aimer</l>
-            <l n="115" xml:id="l115">Ce que l’on trouve aimable.</l>
-            <l n="116" xml:id="l116">Hélas ! que vous êtes heureux</l>
+            <l n="115" xml:id="l115">Ce que l’on trouve aimable.</l></lg>
+            <lg><l n="116" xml:id="l116">Hélas ! que vous êtes heureux</l>
             <l n="117" xml:id="l117">Innocents Animaux de vivre sans contrainte,</l>
             <l n="118" xml:id="l118">Et de pouvoir suivre sans crainte</l>
             <l n="119" xml:id="l119">Les doux emportements de vos cœurs amoureux :</l>
             <l n="120" xml:id="l120">Hélas ! petits oiseaux que vous êtes heureux</l>
             <l n="121" xml:id="l121">De ne sentir nulle contrainte,</l>
             <l n="122" xml:id="l122">Et de pouvoir suivre sans crainte</l>
-            <l n="123" xml:id="l123">Les doux emportements de vos cœurs amoureux.</l>
-            <l n="124" xml:id="l124">Mais le sommeil sur ma paupière</l>
+            <l n="123" xml:id="l123">Les doux emportements de vos cœurs amoureux.</l></lg>
+            <lg><l n="124" xml:id="l124">Mais le sommeil sur ma paupière</l>
             <l n="125" xml:id="l125">Verse de ses Pavots l’agréable fraîcheur,</l>
             <l n="126" xml:id="l126">Donnons-nous à lui toute entière,</l>
             <l n="127" xml:id="l127">Nous n’avons point de Loi sévère</l>
-            <l n="128" xml:id="l128">Qui défende à nos sens d’en goûter la douceur.</l>
-            <p rend="scene">SCÈNE QUATRIÈME.</p>
-            <stage>TIRCIS, LICASTE, MÉNANDRE.</stage>
+            <l n="128" xml:id="l128">Qui défende à nos sens d’en goûter la douceur.</l></lg>
           </sp>
+          </div>
+            <div type="scene">
+            <head>SCÈNE QUATRIÈME.</head>
+            <stage>TIRCIS, LICASTE, MÉNANDRE.</stage>
           <sp who="tircis">
             <speaker>TIRCIS.</speaker>
             <l n="129" xml:id="l129">Vers ma belle ennemie</l>
@@ -393,7 +403,7 @@
             <l n="154" xml:id="l154">La pitié dans mon cœur n’introduise l’amour.</l>
           </sp>
           <sp who="licaste">
-            <speaker>LICASTE, ET MÉNANDRE, <hi rend="i">l’un après l’autre.</hi></speaker>
+            <speaker>LICASTE, <hi rend="i">et</hi> MÉNANDRE, <hi rend="i">l’un après l’autre.</hi></speaker>
             <l n="155" xml:id="l155">Soit par amour, soit pitié ;</l>
             <l n="156" xml:id="l156">Il sied bien d’être tendre ;</l>
             <l n="157" xml:id="l157">C’est par trop vous défendre</l>
@@ -422,16 +432,18 @@
           <sp who="menandre">
             <speaker>MÉNANDRE</speaker>
             <l n="170" xml:id="l170">Ô sort digne d’envie !</l>
-            <p rend="scene">SCÈNE CINQUIÈME.</p>
-            <stage>DEUX SATYRES, TIRCIS, LICASTE, CALISTE.</stage>
           </sp>
-          <sp who="ier satyre">
-            <speaker>I<hi rend="sup">er</hi> SATYRE.</speaker>
+            </div>
+            <div type="scene">
+            <head>SCÈNE CINQUIÈME.</head>
+            <stage>DEUX SATYRES, TIRCIS, LICASTE, CALISTE.</stage>
+          <sp who="premier satyre">
+            <speaker>PREMIER SATYRE.</speaker>
             <l n="171" xml:id="l171">Quoi tu me fuis ingrate, et je te vois ici</l>
             <l n="172" xml:id="l172">De ce Berger à moi faire une préférence ?</l>
           </sp>
-          <sp who="iie satyre">
-            <speaker>II<hi rend="sup">e</hi> SATYRE.</speaker>
+          <sp who="deuxième satyre">
+            <speaker>DEUXIÈME SATYRE.</speaker>
             <l n="173" xml:id="l173">Quoi mes soins n’ont rien pu sur ton indifférence,</l>
             <l n="174" xml:id="l174">Et pour ce Langoureux ton cœur s’est adouci ?</l>
           </sp>
@@ -464,10 +476,12 @@
             <l n="190" xml:id="l190">Mêlez vos pas à nos sons,</l>
             <l n="191" xml:id="l191">Et tracez sur les herbettes</l>
             <l n="192" xml:id="l192">L’image de nos chansons.</l>
-            <stage>En même temps six Dryades et six Faunes sortent de leurs demeures, et font ensemble une danse agréable, qui s’ouvrant tout d’un coup, laisse voir un Berger et une Bergère qui font en Musique une petite Scène d’un dépit amoureux.</stage>
-            <p rend="scene"><hi rend="i">DÉPIT AMOUREUX</hi>.</p>
-            <stage>CLIMÈNE, PHILINTE.</stage>
           </sp>
+            <stage>En même temps six Dryades et six Faunes sortent de leurs demeures, et font ensemble une danse agréable, qui s’ouvrant tout d’un coup, laisse voir un Berger et une Bergère qui font en Musique une petite Scène d’un dépit amoureux.</stage>
+            </div>
+            <div type="scene">
+              <head><hi rend="i">DÉPIT AMOUREUX</hi>.</head>
+            <stage>CLIMÈNE, PHILINTE.</stage>
           <sp who="philinte">
             <speaker>PHILINTE.</speaker>
             <l n="193" xml:id="l193">Quand je plaisais à tes yeux</l>
@@ -528,65 +542,74 @@
           <sp who="tous les acteurs">
             <speaker>TOUS LES ACTEURS</speaker>
             <stage>de la Comédie chantent.</stage>
-            <l n="223" xml:id="l223">Amants que vos querelles</l>
+            <lg><l n="223" xml:id="l223">Amants que vos querelles</l>
             <l n="224" xml:id="l224">Sont aimables et belles,</l>
             <l n="225" xml:id="l225">Qu’on y voit succéder</l>
-            <l n="226" xml:id="l226">De plaisirs, de tendresse,</l>
-            <l n="227" xml:id="l227">Querellez-vous sans cesse</l>
-            <l n="228" xml:id="l228">Pour vous raccommoder.</l>
-            <l n="229" xml:id="l229">Amants que vos querelles</l>
-            <l n="230" xml:id="l230">Sont aimables et belles, etc.</l>
+            <l n="226" xml:id="l226">De plaisirs, de tendresse,</l></lg>
+            <lg><l n="227" xml:id="l227">Querellez-vous sans cesse</l>
+            <l n="228" xml:id="l228">Pour vous raccommoder.</l></lg>
+            <lg><l n="229" xml:id="l229">Amants que vos querelles</l>
+            <l n="230" xml:id="l230">Sont aimables et belles, etc.</l></lg>
             <stage>Les Faunes et les Dryades recommencent leur danse, que les Bergères et Bergers Musiciens entremêlent de leurs Chansons, tandis que trois petites Dryades, et trois petits Faunes, font paraître dans l’enfoncement du Théâtre tout ce qui se passe sur le devant.</stage>
           </sp>
           <sp who="les bergers">
             <speaker>LES BERGERS, ET BERGÈRES.</speaker>
-            <l n="231" xml:id="l231">Jouissons, jouissons des plaisirs innocents</l>
+            <lg><l n="231" xml:id="l231">Jouissons, jouissons des plaisirs innocents</l>
             <l n="232" xml:id="l232">Dont les feux de l’Amour, savent charmer nos sens,</l>
             <l n="233" xml:id="l233">Des grandeurs, qui voudra se soucie,</l>
             <l n="234" xml:id="l234">Tous ces honneurs dont on a tant d’envie,</l>
             <l n="235" xml:id="l235">Ont des chagrins qui sont trop cuisants :</l>
             <l n="236" xml:id="l236">Jouissons, jouissons des plaisirs innocents</l>
-            <l n="237" xml:id="l237">Dont les feux de l’Amour savent charmer nos sens.</l>
-            <l n="238" xml:id="l238">En aimant tout nous plaît dans la vie,</l>
+            <l n="237" xml:id="l237">Dont les feux de l’Amour savent charmer nos sens.</l></lg>
+            <lg><l n="238" xml:id="l238">En aimant tout nous plaît dans la vie,</l>
             <l n="239" xml:id="l239">Deux cœurs unis de leur sort sont contents,</l>
             <l n="240" xml:id="l240">Cette ardeur de plaisirs suivie,</l>
             <l n="241" xml:id="l241">De tous nos jours fait d’éternels printemps :</l>
-            <stage>Six Dryades. Les Sieurs Arnald, Noblet, Lestang, Favier le cadet, Foignard l’aîné, et Isaac.</stage>
-            <stage>Six Faunes. Messieurs Beauchamp, S. André, Magny, Joubert, Favier l’aîné, et Mayeu.</stage>
-            <stage>Un Berger Musicien. M. Blondel.</stage>
-            <stage>Une Bergère Musicienne. Mad<hi rend="sup">lle</hi> de S. Christophe.</stage>
-            <stage>Trois petites Dryades. Les Sieurs Bouilland, Vaignard, et Thibauld.</stage>
-            <stage>Trois petits Faunes. Les Sieurs la Montagne, Daluseau, et Foignard.</stage>
+            <l n="242" xml:id="l242">Jouissons, jouissons des plaisirs innocents</l>
+            <l n="243" xml:id="l243">Dont les feux de l’Amour, savent charmer nos sens,</l></lg>
           </sp>
+            <castList>
+              <castItem><role>Six Dryades.</role> <actor>Les Sieurs Arnald, Noblet, Lestang, Favier le cadet, Foignard l’aîné, et Isaac.</actor></castItem>
+              <castItem><role>Six Faunes.</role> <actor>MM. Beauchamp, Saint-André, Magny, Joubert, Favier l’aîné, et Mayeu.</actor></castItem>
+              <castItem><role>Un Berger Musicien.</role> <actor>M. Blondel.</actor></castItem>
+              <castItem><role>Une Bergère Musicienne.</role> <actor>Mlle de Saint-Christophe.</actor></castItem>
+              <castItem><role>Trois petites Dryades.</role> <actor>Les Sieurs Bouilland, Vaignard, et Thibauld.</actor></castItem>
+              <castItem><role>Trois petits Faunes.</role> <actor>Les Sieurs la Montagne, Daluseau, et Foignard.</actor></castItem>
+            </castList>
+            </div>
         </div>
         <div>
-          <head>LE TROISIÈME ACTE</head>
-          <stage>de la Comédie.</stage>
+          <head>LE TROISIÈME ACTE de la Comédie.</head>
         </div>
         <div>
           <head>QUATRIÈME INTERMÈDE.</head>
           <stage>Le Théâtre représente une Grotte où les Princesses vont se promener, et dans le temps qu’elles y entrent huit Statues portant chacune un flambeau à la main, font une danse variée de plusieurs belles attitudes, où elles demeurent par intervalles.</stage>
-          <stage>Huit Statues. Messieurs Dolivet, le Chantre, S. André, Magny, Lestang, Foignard l’aîné, Dolivet fils, et Foignard le cadet.</stage>
+          <castList>
+            <castItem><role>Huit Statues.</role><actor>MM. Dolivet, le Chantre, Saint-André, Magny, Lestang, Foignard l’aîné, Dolivet fils, et Foignard le cadet.</actor></castItem>
+          </castList>
         </div>
         <div>
-          <head>LE QUATRIÈME ACTE</head>
-          <stage>de la Comédie.</stage>
+          <head>LE QUATRIÈME ACTE de la Comédie.</head>
         </div>
         <div>
           <head>CINQUIÈME INTERMÈDE.</head>
           <stage>Quatre Pantomimes pour épreuve de leur adresse, ajustent leurs gestes et leurs pas aux inquiétudes de la jeune Princesse.</stage>
-          <stage>Quatre Pantomimes. Messieurs Dolivet, le Chantre, S. André, et Magny.</stage>
+          <castList>
+            <castItem>
+              <role>Quatre Pantomimes.</role><actor>MM. Dolivet, le Chantre, Saint-André, et Magny.</actor></castItem>
+          </castList>
         </div>
         <div>
-          <head>LE CINQUIÈME ACTE</head>
-          <stage>de la Comédie.</stage>
+          <head>LE CINQUIÈME ACTE de la Comédie.</head>
         </div>
         <div>
           <head>SIXIÈME INTERMÈDE,</head>
-          <stage>Qui est la solennité des Jeux Pythiens.</stage>
+          <stage rend="i">Qui est la solennité des Jeux Pythiens.</stage>
           <stage>Le Théâtre est une grande Salle en manière d’Amphithéâtre ouverte d’une grande Arcade, dans le fond au dessus de laquelle est une Tribune fermée d’une rideau, et dans l’éloignement paraît un Autel pour le Sacrifice. Six hommes presque nus portant chacun une hache sur l’épaule, comme Ministres du Sacrifice, entrent par le Portique au son des Violons, et sont suivis de deux Sacrificateurs Musiciens, et d’une Prêtresse Musicienne.</stage>
-          <stage>La Prêtresse. Mademoiselle Hylaire.</stage>
-          <stage>Deux Sacrificateurs. Messieurs Gaye, et Langez.</stage>
+          <castList>
+          <castItem><role>La Prêtresse.</role> <actor>Mlle Hilaire.</actor></castItem>
+            <castItem><role>Deux Sacrificateurs.</role> <actor>MM. Gaye, et Langez.</actor></castItem>
+          </castList>
           <sp who="la pretresse">
             <speaker>LA PRÊTRESSE.</speaker>
             <l n="242" xml:id="l242">Chantez, peuples, chantez en mille et mille lieux</l>
@@ -616,52 +639,65 @@
             <l n="254" xml:id="l254">Des concerts si touchants,</l>
             <l n="255" xml:id="l255">Que du haut de sa gloire</l>
             <l n="256" xml:id="l256">Il écoute nos chants.</l>
-            <stage>Les six hommes portant des haches font entre eux une danse ornée de toutes les attitudes que peuvent exprimer des gens qui étudient leur force, puis ils se retirent aux deux côtés du Théâtre pour faire place à six Voltigeurs, qui en cadence font paraître leur adresse sur des chevaux de bois, qui sont apportés par des Esclaves.</stage>
-            <stage>Six hommes portant des haches.</stage>
-            <stage>Messieurs Dolivet, le Chantre, S. André, Magny, Foignard l’aîné, et Foignard le cadet.</stage>
-            <stage>Six Voltigeurs. Messieurs Joly, Doyat, de Launoy, Beaumont, du Gard l’aîné, et du Gard le cadet.</stage>
-            <stage>Quatre Conducteurs d’Esclaves.</stage>
-            <stage>Messieurs le Prêtre, et Jouan, les Sieurs Pesan l’aîné, et Joubert.</stage>
-            <stage>Huit Esclaves. Les Sieurs Paysan, la Vallée, Pezan le cadet, Favre, Vaignard, Dolivet fils, Girard, et Charpentier.</stage>
-            <stage>Quatre femmes et quatre hommes armés à la Grecque, font ensemble une manière de jeu pour les armes.</stage>
-            <stage>Quatre hommes armés à la Grecque.</stage>
-            <stage>Les Sieurs Noblet, Chicanneau, Mayeu, et Desgranges.</stage>
-            <stage>Quatre femme armées à la Grecque.</stage>
-            <stage>Les Sieurs la Montagne, Lestang, Favier le cadet, et Arnald.</stage>
-            <stage>La Tribune s’ouvre, un Héros, six Trompettes et un Timbalier se mêlant à tousl es instruments, annonce avec un grand bruit la venue d’Apollon.</stage>
-            <stage>Un Héros. M. Rebel.</stage>
-            <stage>Six Trompettes. Les Sieurs la Plaine, Lorange, du Clos, Beaupré, Carbonnet, et Ferrier.</stage>
-            <stage>Un Timbalier. Le Sieur Daicre.</stage>
           </sp>
+            <stage>Les six hommes portant des haches font entre eux une danse ornée de toutes les attitudes que peuvent exprimer des gens qui étudient leur force, puis ils se retirent aux deux côtés du Théâtre pour faire place à six Voltigeurs, qui en cadence font paraître leur adresse sur des chevaux de bois, qui sont apportés par des Esclaves.</stage>
+            <castList>
+              <castItem><role>Six hommes portant des haches.</role><actor>MM. Dolivet, le Chantre, Saint-André, Magny, Foignard l’aîné, et Foignard le cadet.</actor></castItem>
+              <castItem><role>Six Voltigeurs.</role> <actor>MM. Joly, Doyat, de Launoy, Beaumont, du Gard l’aîné, et du Gard le cadet.</actor></castItem>
+              <castItem><role>Quatre Conducteurs d’Esclaves.</role><actor>MM. le Prêtre, et Jouan, les Sieurs Pesan l’aîné, et Joubert.</actor></castItem>
+              <castItem><role>Huit Esclaves.</role> <actor>Les Sieurs Paysan, la Vallée, Pezan le cadet, Favre, Vaignard, Dolivet fils, Girard, et Charpentier.</actor></castItem>
+            </castList>
+          <stage>Quatre femmes et quatre hommes armés à la Grecque, font ensemble une manière de jeu pour les armes.</stage>
+          <castList>
+            <castItem><role>Quatre hommes armés à la Grecque.</role><actor>Les Sieurs Noblet, Chicanneau, Mayeu, et Desgranges.</actor></castItem>
+            <castItem><role>Quatre femme armées à la Grecque.</role><actor>Les Sieurs la Montagne, Lestang, Favier le cadet, et Arnald.</actor></castItem>
+          </castList>
+            <stage>La Tribune s’ouvre, un Héros, six Trompettes et un Timbalier se mêlant à tousl es instruments, annonce avec un grand bruit la venue d’Apollon.</stage>
+          <castList>
+            <castItem><role>Un Hérault.</role> <actor>M. Rebel.</actor></castItem>
+            <castItem><role>Six Trompettes.</role> <actor>Les Sieurs la Plaine, Lorange, du Clos, Beaupré, Carbonnet, et Ferrier.</actor></castItem>
+            <castItem><role>Un Timbalier.</role> <actor>Le Sieur Daicre.</actor></castItem> 
+          </castList>     
           <sp who="le chŒur">
             <speaker>LE CHŒUR.</speaker>
+            <lg>
             <l n="257" xml:id="l257">Ouvrons sous nos yeux</l>
             <l n="258" xml:id="l258">À l’éclat suprême</l>
             <l n="259" xml:id="l259">Qui brille en ces lieux.</l>
+            </lg>
+            <lg>
             <l n="260" xml:id="l260">Quelle grâce extrême !</l>
             <l n="261" xml:id="l261">Quel port glorieux !</l>
             <l n="262" xml:id="l262">Où voit-on des Dieux</l>
             <l n="263" xml:id="l263">Qui soient de même ?</l>
+            </lg>
             <stage>Apollon au bruit des Trompettes et des Violons entre par le Portique, précédé de six Jeunes gens, qui portent des Lauriers entrelacés autour d’un bâton, et un Soleil d’or au-dessus avec la devise Royale en manière de trophée. Les six jeunes gens, pour danser avec Apollon, donnent leur trophée à tenir aux six hommes qui portent les haches, et commencent avec Apollon une danse héroïque, à laquelle se joignent en diverses manières les six hommes portant les trophées, les quatre femmes armées avec leur timbres, et les quatre hommes armés avec leurs tambours, tandis que les six Trompettes, le Timbalier, les Sacrificateurs, la Prêtresse et le Chœur de Musique accompagnent tout cela en s’y mêlant par diverses reprises ; ce qui finit la fête des jeux Pythiens et tout le divertissement.</stage>
-            <stage>APOLLON. LE ROI.</stage>
-            <stage>Six jeunes Gens, Monsieur le Grand, Le Marquis de Villeroy, Le Marquis de Rassent, Messieurs Beauchamp, Raynal, et Favier.</stage>
-            <stage>Chœur de Musique.</stage>
-            <stage>Messieurs le Gros, Hedouin, Estival, Don, Beaumont, Bony, Gingan l’aîné, Fernon l’aîné, Fernon le cadet, Rebel, Gingan le cadet, Deschamps, Morel, Aurat, David, Devellois, Serignan, et quatre Pages de la Musique de la Chapelle, et deux de la Chambre.</stage>
-            <stage>POUR LE ROI, Représentant le SOLEIL.</stage>
-            <l n="264" xml:id="l264">JE<note n="1" place="bottom"><pb/><head>« J » en lettrine en gras.</head></note>suis la source des Clartés,</l>
+            <castList>
+              <castItem><role>Apollon.</role> <actor>Le Roi.</actor></castItem>
+              <castItem><role>Six jeunes Gens,</role> <actor>M. le Grand, Le Marquis de Villeroy, Le Marquis de Rassent, MM. Beauchamp, Raynal, et Favier.</actor></castItem>
+              <castItem><role>Chœur de Musique.</role> <actor>MM. le Gros, Hedouin, Estival, Don, Beaumont, Bony, Gingan l’aîné, Fernon l’aîné, Fernon le cadet, Rebel, Gingan le cadet, Deschamps, Morel, Aurat, David, Devellois, Serignan, et quatre Pages de la Musique de la Chapelle, et deux de la Chambre.</actor></castItem>
+            </castList>
+              <stage>POUR LE ROI, Représentant le SOLEIL.</stage>
+            <lg>
+            <l n="264" xml:id="l264">JE suis la source des Clartés,</l>
             <l n="265" xml:id="l265">Et les Astres les plus vantés</l>
             <l n="266" xml:id="l266">Dont le beau Cercle m’environne,</l>
             <l n="267" xml:id="l267">Ne sont brillants et respectés</l>
             <l n="268" xml:id="l268">Que par l’éclat que je leur donne.</l>
+            </lg>
+            <lg>
             <l n="269" xml:id="l269">Du Char où je me puis asseoir</l>
             <l n="270" xml:id="l270">Je vois le désir de me voir</l>
             <l n="271" xml:id="l271">Posséder la Nature entière,</l>
             <l n="272" xml:id="l272">Et le Monde n’a son espoir</l>
             <l n="273" xml:id="l273">Qu’aux seuls bienfaits de ma lumière.</l>
+            </lg>
+            <lg>
             <l n="274" xml:id="l274">Bienheureuses de toutes parts,</l>
             <l n="275" xml:id="l275">Et pleines d’exquises richesses</l>
             <l n="276" xml:id="l276">Les Terres, où de mes regards</l>
             <l n="277" xml:id="l277">J’arrête les douce caresses.</l>
+            </lg>
             <stage>Pour Monsieur le Grand.</stage>
             <l n="278" xml:id="l278">Bien qu’auprès du Soleil tout autre éclat s’efface,</l>
             <l n="279" xml:id="l279">S’en éloigner pourtant n’est pas ce que l’on veut,</l>
@@ -677,10 +713,7 @@
             <l n="287" xml:id="l287">Qu’un autre mieux que moi suive partout ses pas.</l>
           </sp>
         </div>
-      </div>
-      <div type="label">
-        <head>FIN</head>
-      </div>
+        <label>FIN</label> 
     </body>
   </text>
 </TEI>
