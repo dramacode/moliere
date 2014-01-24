@@ -2171,7 +2171,8 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
       </attribute>
     </define>
   </div>
-  
+
+<!--
   <define name="anyTEI">
     <a:documentation>Motif récursif pour autoriser tout contenu TEI sans validation de structure.</a:documentation>
     <element ns="http://www.tei-c.org/ns/1.0">
@@ -2189,6 +2190,7 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
       </zeroOrMore>
     </element>
   </define>
+-->
 
   <div xml:id="atts">
     <a:documentation>Attributs</a:documentation>
@@ -2200,6 +2202,7 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
     <define name="id-att">
       <attribute name="xml:id">
         <a:documentation>Identifiant, au moins unique pour le document.</a:documentation>
+        <data type="ID"/>
       </attribute>
     </define>
     <define name="key-att">

@@ -1344,6 +1344,7 @@
   <define name="id-att" combine="choice">
     <attribute name="xml:id">
       <a:documentation>Identifiant, au moins unique pour le document.</a:documentation>
+      <data type="ID"/>
     </attribute>
   </define>
   <define name="lang-att" combine="choice">
