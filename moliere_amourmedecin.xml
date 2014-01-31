@@ -30,79 +30,102 @@
   </teiHeader>
   <text>
     <front>
+      <titlePage>
       <docTitle>
-        <titlePart type="main">L'AMOUR MÉDECIN</titlePart>
+        <titlePart type="main">L'AMOUR <lb/>MÉDECIN</titlePart>
         <titlePart type="sub">COMÉDIE</titlePart>
       </docTitle>
-      <docDate value="1665">M. DC. LXV.</docDate>
-      <docAuthor bio="moliere" id="MOLIERE">MOLIÈRE</docAuthor>
-      <docImprint>
+      <docAuthor bio="moliere" id="MOLIERE"><hi rend="i">Par J. B. P.</hi> MOLIÈRE</docAuthor>
+      <docImprint>À PARIS, <lb/> Chez <hi rend="sc">Théodore Girard</hi>, dans la <lb/>grande Salle du Palais du côté de la <lb/>Cour des Aides, à l'Envie.
         <privilege id=""/>
         <acheveImprime id=""/>
         <editor id=""/>
       </docImprint>
+      <docDate value="1665">M. DC. LXVI.</docDate>
+      <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
       <performance>
         <premiere date="1665-09-15" location="Château de Versailles">Représentée pour la première fois à Versailles par ordre du roi le 15e septembre 1665 et donnée depuis au public à Paris sur le Théâtre du Palais-Royal le 22e du même mois de septembre 1665 par la Troupe du Roi.</premiere>
       </performance>
+      </titlePage>
+      <div>
+      <head>AU LECTEUR</head>
+        <p>Ce n’est ici qu’un simple crayon ; un petit impromptu, dont le Roi a voulu se faire un divertissement. Il est le plus précipité de tous ceux que Sa Majesté m’ait commandés ; Et lorsque je dirai qu’il a été proposé, fait, appris et représenté en cinq jours, je ne dirai que ce qui est vrai. Il n’est pas nécessaire de vous avertir qu’il y a beaucoup de choses qui dépendent de l’action ; On sait bien que les Comédies ne sont faites que pour être jouées, et je ne conseille de lire celle-ci qu’aux personnes qui ont des yeux pour découvrir dans la lecture tout le jeu du Théâtre : Ce que je vous dirai, c’est qu’il serait à souhaiter que ces sortes d’ouvrages pussent toujours se montrer à vous avec les ornements qui les accompagnent chez le Roi. Vous les verriez dans un état beaucoup plus supportable, et les Airs, et les Symphonies de l’incomparable Monsieur Lully, mêlés à la beauté des Voix et à l’adresse de Danseurs, leur donnent, sans doute, des grâces, dont ils ont toutes les peines du monde à se passer.</p>
+      </div>
       <castList>
-        <head>PERSONNAGES DU PROLOGUE</head>
-        <castItem><role civil="A" id="LA-COMEDIE">LA COMÉDIE</role>.</castItem>
-        <castItem><role civil="A" id="LA-MUSIQUE">LA MUSIQUE</role>.</castItem>
-        <castItem><role civil="A" id="LE-BALLET">LE BALLET</role>.</castItem>
+        <head>LES PERSONNAGES</head>
+        <castItem><role civil="M" id="SGANARELLE">sganarelle</role>, Père de Lucinde.</castItem>
+        <castItem><role civil="F" id="AMINTE">aminte</role>.</castItem>
+        <castItem><role civil="F" id="LUCRECE">lucrèce</role>.</castItem>
+        <castItem><role civil="M" id="MONSIEUR-GUILLAUME">monsieur guillaume</role>, Vendeur de Tapisseries.</castItem>
+        <castItem><role civil="M" id="MONSIEUR-JOSSE">monsieur josse</role>, Orfèvre.</castItem>
+        <castItem><role civil="F" id="LUCINDE">lucinde</role>, Fille de Sganarelle.</castItem>
+        <castItem><role civil="F" id="LISETTE">lisette</role>, Suivante de Lucinde.</castItem>
+        <castItem><role civil="M" id="MONSIEUR-TOMES">monsieur tomès</role>, Médecin.</castItem>
+        <castItem><role civil="M" id="MONSIEUR-DE-FONANDRES">monsieur des fonandrès</role>, Médecin.</castItem>
+        <castItem><role civil="M" id="MONSIEUR-MACROTON">monsieur macroton</role>, Médecin.</castItem>
+        <castItem><role civil="M" id="MONSIEUR-BAHYS">monsieur bahys</role>, Médecin.</castItem>
+        <castItem><role civil="M" id="MONSIEUR-FILERIN">monsieur filerin</role>, Médecin.</castItem>
+        <castItem><role civil="M" id="CLITANDRE">clitandre</role>, Amant de Lucinde.</castItem>
+        <castItem><role civil="M" id="UN-NOTAIRE">un notaire</role>.</castItem>
+        <castItem><role civil="M" id="CHAMPAGNE">l'opérateur</role>, Orviétan.</castItem>
+        <castItem>
+          <role rend="n">Plusieurs Trivelins et Scaramouches.</role>
+        </castItem>
+        <castItem>
+          <role>la comédie.</role>
+        </castItem>
+        <castItem>
+          <role>la musique.</role>
+        </castItem>
+        <castItem>
+          <role>le ballet.</role>
+        </castItem>
       </castList>
-      <castList>
-        <head>PERSONNAGES de la COMÉDIE</head>
-        <castItem><role civil="M" id="SGANARELLE">SGANARELLE</role>, père de Lucinde.</castItem>
-        <castItem><role civil="F" id="LUCINDE">LUCINDE</role>, fille de Sganarelle.</castItem>
-        <castItem><role civil="M" id="CLITANDRE">CLITANDRE</role>, amant de Lucinde.</castItem>
-        <castItem><role civil="F" id="AMINTE">AMINTE</role>, voisine de Sganarelle.</castItem>
-        <castItem><role civil="F" id="LUCRECE">LUCRÈCE</role>, nièce de Sganarelle.</castItem>
-        <castItem><role civil="F" id="LISETTE">LISETTE</role>, suivante de Lucinde.</castItem>
-        <castItem><role civil="M" id="MONSIEUR-GUILLAUME">MONSIEUR GUILLAUME</role>, vendeur de tapisseries.</castItem>
-        <castItem><role civil="M" id="MONSIEUR-JOSSE">MONSIEUR JOSSE</role>, orfèvre.</castItem>
-        <castItem><role civil="M" id="MONSIEUR-TOMES">MONSIEUR TOMÈS</role>, médecin.</castItem>
-        <castItem><role civil="M" id="MONSIEUR-DE-FONANDRES">MONSIEUR DE FONANDRÈS</role>, médecin.</castItem>
-        <castItem><role civil="M" id="MONSIEUR-MACROTON">MONSIEUR MACROTON</role>, médecin.</castItem>
-        <castItem><role civil="M" id="MONSIEUR-BAHYS">MONSIEUR BAHYS</role>, médecin.</castItem>
-        <castItem><role civil="M" id="MONSIEUR-FILERIN">MONSIEUR FILERIN</role>, médecin.</castItem>
-        <castItem><role civil="M" id="UN-NOTAIRE">UN NOTAIRE</role>.</castItem>
-        <castItem><role civil="M" id="CHAMPAGNE">CHAMPAGNE</role>, valet de Sganarelle.</castItem>
-      </castList>
-      <castList>
-        <head>PERSONNAGES du BALLET, Première entrée.</head>
-        <castItem><role civil="M" id="CHAMPAGNE">CHAMPAGNE</role>.</castItem>
-        <castItem><role civil="M" id="QUATRE-MEDECINS">QUATRE MÉDECINS</role>.</castItem>
-      </castList>
-      <castList>
-        <head>PERSONNAGES du BALLET, Deuxième entrée.</head>
-        <castItem><role civil="M" id="UN-OPERATEUR">UN OPÉRATEUR</role>.</castItem>
-        <castItem><role civil="G" id="TRIVELINS">TRIVELINS</role>.</castItem>
-        <castItem><role civil="G" id="SCARAMOUCHES">SCARAMOUCHES</role>.</castItem>
-      </castList>
-      <castList>
-        <head>PERSONNAGES du BALLET, Troisième entrée.</head>
-        <castItem><role civil="A" id="LA-COMEDIE">LA COMÉDIE</role>.</castItem>
-        <castItem><role civil="A" id="LA-MUSIQUE">LA MUSIQUE</role>.</castItem>
-        <castItem><role civil="A" id="LE-BALLET">LE BALLET</role>.</castItem>
-        <castItem><role civil="G" id="JEUX">JEUX</role>.</castItem>
-        <castItem><role civil="G" id="RIS">RIS</role>.</castItem>
-        <castItem><role civil="G" id="PLAISIRS">PLAISIRS</role>.</castItem>
-      </castList>
-      <set country="France" link="" location="Paris" periode="XVIIème">La scène est à Paris dans une salle de la maison de Sganarelle.</set>
+      <set country="France" link="" location="Paris" periode="XVIIème">La Scène est à Paris dans une Salle de la maison de Sganarelle.</set>
     </front>
     <body>
+      <div1>
+        <head>PROLOGUE</head>
+        <stage>La Comédie, la Musique <hi rend="n i"></hi>et le Ballet</stage>
+        <sp who="la comedie">
+          <speaker>la comédie</speaker>
+          <l>Quittons, quittons notre vaine querelle,</l>
+          <l>Ne nous disputons point nos talents tour à tour.</l>
+          <l>Et d’une gloire plus belle,</l>
+          <l>Piquons-nous en ce jour.</l>
+          <l>Unissons-nous tous trois d’une ardeur sans seconde,</l>
+          <l>Pour donner du plaisir au plus grand Roi du monde.</l>
+        </sp>
+        <sp who="tous trois">
+          <speaker>tous trois</speaker>
+          <l>Unissons-nous...</l>
+        </sp>
+        <sp who="la comedie">
+          <speaker>la comédie</speaker>
+          <l>De ses travaux plus grands qu’on ne peut croire,</l>
+          <l>Il se vient quelquefois délasser parmi nous.</l>
+          <l>Est-il de plus grande gloire</l>
+          <l>Est-il bonheur plus doux.</l>
+          <l>Unissons-nous tous trois...</l>
+        </sp>
+        <sp who="tous trois">
+          <speaker>tous trois</speaker>
+          <l>Unissons-nous...</l>
+        </sp>
+        <label>L'AMOUR MÉDECIN</label>
+      </div1>
       <div1 type="act" xml:id="I">
         <pb/>
         <head>ACTE I,</head>
         <div2 type="titre2" xml:id="I01">
           <head>SCÈNE I.</head>
-          <stage>Sganarelle, Aminte, Lucrèce, M.Guillaume, M. Josse.</stage>
+          <stage>Sganarelle, Aminte, Lucrèce, Monsieur Guillaume, Monsieur Josse.</stage>
           <sp who="sganarelle" xml:id="I01-1">
             <speaker>sganarelle</speaker>
             <p>Ah, l’étrange chose que la vie ! et que je puis bien dire avec ce grand Philosophe de l’Antiquité, que qui terre a guerre a, et qu’un malheur ne vient jamais sans l’autre. Je n’avais qu’une seule femme qui est morte.</p>
           </sp>
           <sp who="m-guillaume" xml:id="I01-2">
-            <speaker>m guillaume</speaker>
+            <speaker>monsieur guillaume</speaker>
             <p>Et combien donc en voulez-vous avoir ?</p>
           </sp>
           <sp who="sganarelle" xml:id="I01-3">
@@ -110,11 +133,11 @@
             <p>Elle est morte, Monsieur mon ami, cette perte m’est très sensible, et je ne puis m’en ressouvenir sans pleurer. Je n’étais pas fort satisfait de sa conduite, et nous avions le plus souvent dispute ensemble ; mais enfin, la mort rajuste toutes choses. Elle est morte : je la pleure. Si elle était en vie, nous nous querellerions. De tous les enfants que le Ciel m’avait donnés, il ne m’a laissé qu’une fille, et cette fille est toute ma peine. Car enfin, je la vois dans une mélancolie la plus sombre du monde, dans une tristesse épouvantable, dont il n’y a pas moyen de la retirer ; et dont je ne saurais même apprendre la cause. Pour moi j’en perds l’esprit, et j’aurais besoin d’un bon conseil sur cette matière. Vous êtes ma nièce : vous, ma voisine, et vous, mes compères et mes amis : je vous prie de me conseiller tous ce que je dois faire.</p>
           </sp>
           <sp who="m-josse" xml:id="I01-4">
-            <speaker>m josse</speaker>
+            <speaker>monsieur josse</speaker>
             <p>Pour moi, je tiens que la braverie et l’ajustement est la chose qui réjouit le plus les filles ; et si j’étais que de vous, je lui achèterais dès aujourd’hui une belle garniture de Diamants, ou de Rubis, ou d’Émeraudes.</p>
           </sp>
           <sp who="m-guillaume" xml:id="I01-5">
-            <speaker>m guillaume</speaker>
+            <speaker>monsieur guillaume</speaker>
             <p>Et moi ; si j’étais en votre place, j’achèterais une belle tenture de tapisserie de verdure, ou à personnages, que je ferais mettre à sa chambre, pour lui réjouir l’esprit et la vue.</p>
           </sp>
           <sp who="aminte" xml:id="I01-6">
@@ -508,7 +531,7 @@
             <p>Hé bien, Messieurs.</p>
           </sp>
           <sp who="m-tomès" xml:id="II02-2">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Nous avons vu suffisamment la malade ; et sans doute qu’il y a beaucoup d’impuretés en elle.</p>
           </sp>
           <sp who="sganarelle" xml:id="II02-3">
@@ -516,7 +539,7 @@
             <p>Ma fille est impure.</p>
           </sp>
           <sp who="m-tomès" xml:id="II02-4">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Je veux dire qu’il y a beaucoup d’impureté dans son corps, quantité d’humeurs corrompues.</p>
           </sp>
           <sp who="sganarelle" xml:id="II02-5">
@@ -524,7 +547,7 @@
             <p>Ah, je vous entends.</p>
           </sp>
           <sp who="m-tomès" xml:id="II02-6">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Mais… Nous allons consulter ensemble.</p>
           </sp>
           <sp who="sganarelle" xml:id="II02-7">
@@ -544,7 +567,7 @@
             <p>De l’avoir vu l’autre jour chez la bonne amie de Madame votre nièce.</p>
           </sp>
           <sp who="m-tomès" xml:id="II02-11">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Comment se porte son Cocher ?</p>
           </sp>
           <sp who="lisette" xml:id="II02-12">
@@ -552,7 +575,7 @@
             <p>Fort bien, il est mort.</p>
           </sp>
           <sp who="m-tomès" xml:id="II02-13">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Mort !</p>
           </sp>
           <sp who="lisette" xml:id="II02-14">
@@ -560,7 +583,7 @@
             <p>Oui.</p>
           </sp>
           <sp who="m-tomès" xml:id="II02-15">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Cela ne se peut.</p>
           </sp>
           <sp who="lisette" xml:id="II02-16">
@@ -568,7 +591,7 @@
             <p>Je ne sais si cela se peut, mais je sais bien que cela est.</p>
           </sp>
           <sp who="m-tomès" xml:id="II02-17">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Il ne peut pas être mort, vous dis-je.</p>
           </sp>
           <sp who="lisette" xml:id="II02-18">
@@ -576,7 +599,7 @@
             <p>Et moi je vous dis qu’il est mort, et enterré.</p>
           </sp>
           <sp who="m-tomès" xml:id="II02-19">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Vous vous trompez.</p>
           </sp>
           <sp who="lisette" xml:id="II02-20">
@@ -584,7 +607,7 @@
             <p>Je l’ai vu.</p>
           </sp>
           <sp who="m-tomès" xml:id="II02-21">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Cela est impossible. Hippocrate dit, que ces sortes de maladies ne se terminent qu’au quatorze, ou au vingt-un, et il n’y a que six jours qu’il est tombé malade.</p>
           </sp>
           <sp who="lisette" xml:id="II02-22">
@@ -602,51 +625,51 @@
           <stage>Messieurs des Fonandrès, Tomès, Macroton, et Bahys.</stage>
           <stage>Ils s’asseyent et toussent.</stage>
           <sp who="m-des fonandrès" xml:id="II03-1">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>Paris est étrangement grand, et il faut faire de longs trajets, quand la pratique donne un peu.</p>
           </sp>
           <sp who="m-tomès" xml:id="II03-2">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Il faut avouer que j’ai une Mule admirable pour cela, et qu’on a peine à croire le chemin que je lui fais faire tous les jours.</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="II03-3">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>J’ai un cheval merveilleux, et c’est un animal infatigable.</p>
           </sp>
           <sp who="m-tomès" xml:id="II03-4">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Savez-vous le chemin que ma Mule a fait aujourd’hui. J’ai été premièrement tout contre l’Arsenal, de l’Arsenal au bout du Faubourg Saint-Germain, du Faubourg Saint-Germain au fond du Marais, du fond du Marais à la Porte Saint-Honoré, de la Porte Saint-Honoré au Faubourg Saint-Jacques, du Faubourg Saint -Jacques à la Porte de Richelieu, de la Porte de Richelieu ici, et d’ici je dois aller encore à la Place Royale.</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="II03-5">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>Mon cheval a fait tout cela aujourd’hui, et de plus j’ai été à Ruel voir un malade.</p>
           </sp>
           <sp who="m-tomès" xml:id="II03-6">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Mais à propos, quel parti prenez-vous dans la querelle des deux Médecins, Théophraste, et Artémius ; car c’est une affaire qui partage tout notre Corps ?</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="II03-7">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>Moi, je suis pour Artémius.</p>
           </sp>
           <sp who="m-tomès" xml:id="II03-8">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Et moi aussi, ce n’est pas que son avis, comme on a vu, n’ait tué le malade, et que celui de Théophraste ne fût beaucoup meilleur assurément : Mais enfin, il a tort dans les circonstances, et il ne devait pas être d’un autre avis que son Ancien. Qu’en dites-vous ?</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="II03-9">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>Sans doute. Il faut toujours garder les formalités, quoi qu’il puisse arriver.</p>
           </sp>
           <sp who="m-tomès" xml:id="II03-10">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Pour moi j’y suis sévère en Diable, à moins que ce soit entre amis, et l’on nous assembla un jour trois de nous autres avec un Médecin de dehors, pour une consultation, où j’arrêtai toute l’affaire, et ne voulus point endurer qu’on opinât, si les choses n’allaient dans l’ordre. Les gens de la maison faisaient ce qu’ils pouvaient, et la maladie pressait : mais je n’en voulus point démordre, et la malade mourut bravement pendant cette contestation.</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="II03-11">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>C’est fort bien fait d’apprendre aux gens à vivre, et de leur montrer leur bec jaune.</p>
           </sp>
           <sp who="m-tomès" xml:id="II03-12">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Un homme mort, n’est qu’un homme mort, et ne fait point de conséquence ; Mais une formalité négligée porte un notable préjudice à tout le Corps des Médecins.</p>
           </sp>
         </div2>
@@ -658,27 +681,27 @@
             <p>Messieurs, l’oppression de ma fille augmente, je vous prie de me dire vite ce que vous avez résolu.</p>
           </sp>
           <sp who="m-tomès" xml:id="II04-2">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Allons, Monsieur.</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="II04-3">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>Non, Monsieur, parlez, s’il vous plaît.</p>
           </sp>
           <sp who="m-tomès" xml:id="II04-4">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Vous vous moquez.</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="II04-5">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>Je ne parlerai pas le premier.</p>
           </sp>
           <sp who="m-tomès" xml:id="II04-6">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Monsieur.</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="II04-7">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>Monsieur.</p>
           </sp>
           <sp who="sganarelle" xml:id="II04-8">
@@ -688,15 +711,15 @@
             <p>La maladie de votre fille....</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="II04-9">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>L’avis de tous ces Messieurs tous ensemble....</p>
           </sp>
           <sp who="m-macroton" xml:id="II04-10">
-            <speaker>m macroton</speaker>
+            <speaker>monsieur macroton</speaker>
             <p>Après avoir bien consulté…</p>
           </sp>
           <sp who="m-bahys" xml:id="II04-11">
-            <speaker>m bahys</speaker>
+            <speaker>monsieur bahys</speaker>
             <p>Pour raisonner.</p>
           </sp>
           <sp who="sganarelle" xml:id="II04-12">
@@ -704,51 +727,51 @@
             <p>Hé, Messieurs, parlez l’un après l’autre, de grâce.</p>
           </sp>
           <sp who="m-tomès" xml:id="II04-13">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Monsieur, nous avons raisonné sur la maladie de votre fille ; et mon avis, à moi, est, que cela procède d’une grande chaleur de sang : ainsi je conclus à la saigner le plus tôt que vous pourrez.</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="II04-14">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>Et moi, je dis que sa maladie est une pourriture d’humeurs, causée par une trop grande réplétion : ainsi je conclus à lui donner de l’émétique.</p>
           </sp>
           <sp who="m-tomès" xml:id="II04-15">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Je soutiens que l’émétique la tuera.</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="II04-16">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>Et moi, que la saignée la fera mourir.</p>
           </sp>
           <sp who="m-tomès" xml:id="II04-17">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>C’est bien à vous de faire l’habile homme.</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="II04-18">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>Oui, c’est à moi, et je vous prêterai le collet en tout genre d’érudition.</p>
           </sp>
           <sp who="m-tomès" xml:id="II04-19">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Souvenez-vous de l’homme que vous fîtes crever ces jours passés.</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="II04-20">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>Souvenez-vous de la Dame que vous avez envoyée en l’autre monde, il y a trois jours.</p>
           </sp>
           <sp who="m-tomès" xml:id="II04-21">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Je vous ai dit mon avis.</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="II04-22">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>Je vous ai dit ma pensée.</p>
           </sp>
           <sp who="m-tomès" xml:id="II04-23">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Si vous ne faites saigner tout à l’heure votre fille, c’est une personne morte.</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="II04-24">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>Si vous la faites saigner, elle ne sera pas en vie dans un quart d’heure.</p>
           </sp>
         </div2>
@@ -760,12 +783,12 @@
             <p>À qui croire des deux ? et quelle résolution prendre sur des avis si opposés ? Messieurs, je vous conjure de déterminer mon esprit, et de me dire, sans passion, ce que vous croyez le plus propre à soulager ma fille.</p>
           </sp>
           <sp who="m-macroton" xml:id="II05-2">
-            <speaker>m macroton</speaker>
+            <speaker>monsieur macroton</speaker>
             <stage>. Il parle en allongeant ses mots.</stage>
             <p>Mon-si-eur. dans. ces. ma-ti-è-res. là. il. faut. pro-cé-der. a-vec-que. cir-cons-pec-tion. et. ne. ri-en. fai-re. com-me. on. dit. à. la. vo-lé-e. D’au-tant. que. les. fau-tes. qu’on. y. peut. fai-re. sont. se-lon. no-tre. Maî-tre. Hip-po-cra-te. d’une. dan-ge-reu-se. con-sé-quen-ce.</p>
           </sp>
           <sp who="m-bahys" xml:id="II05-3">
-            <speaker>m bahys</speaker>
+            <speaker>monsieur bahys</speaker>
             <p>. Celui-ci parle toujours en bredouillant. Il est vrai. Il faut bien prendre garde à ce qu’on fait. Car ce ne sont pas ici des jeux d’enfant ; et quand on a failli, il n’est pas aisé de réparer le manquement, et de rétablir ce qu’on a gâté. <hi rend="i">E</hi>xperimentum periculosum. C’est pourquoi il s’agit de raisonner auparavant, comme il faut, de peser mûrement les choses, de regarder le tempérament des gens, d’examiner les causes de la maladie, et de voir les remèdes qu’on y doit apporter.</p>
           </sp>
           <sp who="sganarelle" xml:id="II05-4">
@@ -773,35 +796,35 @@
             <p>L’un va en tortue, et l’autre court la poste.</p>
           </sp>
           <sp who="m-macroton" xml:id="II05-5">
-            <speaker>m macroton</speaker>
+            <speaker>monsieur macroton</speaker>
             <p>Or. Mon-si-eur. pour. ve-nir. au. fait. je. trou-ve. que. vo-tre. fil-le. a. u-ne. ma-la-die. chro-ni-que. et. qu’el-le. peut. pé-ri-cli-ter, si. on. ne. lui. don-ne. du. se-cours ; d’au-tant. que. les. symp-tô-mes. qu’el-le. A, sont. in-di-ca-tifs. d’u-ne. va-peur. fu-li-gi-neu-se. et. mor-di-can-te, qui. lui. pi-co-te. les. mem-bra-nes. du. cer-veau. Or. cet-te. va-peur. que. nous. nom-mons. en. Grec. <hi rend="i">At-mos</hi>. est. cau-sé.e. par. des. hu-meurs. pu-tri-des. te-na-ces, et. con-glu-ti-neu-ses, qui. sont. con-te-nues. dans. le. bas. ven-tre.</p>
           </sp>
           <sp who="m-bahys" xml:id="II05-6">
-            <speaker>m bahys</speaker>
+            <speaker>monsieur bahys</speaker>
             <p>Et comme ces humeurs ont été là engendrées, par une longue succession de temps ; elles s’y sont recuites, et ont acquis cette malignité, qui fume vers la région du cerveau.</p>
           </sp>
           <sp who="m-macroton" xml:id="II05-7">
-            <speaker>m macroton</speaker>
+            <speaker>monsieur macroton</speaker>
             <p>Si. bi-en, donc. que. pour. ti-rer. dé-ta-cher. ar-ra-cher. ex-pul-ser. é-va-cu-er. les-di-tes. hu-meurs, il. fau-dra. u-ne. pur-ga-ti-on. vi-gou-reu-se. Mais. au. pré-a-la-ble, je. trou-ve. À. pro-pos, et. il. n’y. a. pas. d’in-con-vé-ni-ent. d’u-ser. de. pe-tits. re-mè-des. a-no-dins. c’est-à-di-re. de. pe-tits. la-ve-ments. ré-mol-li-ents. et. dé-ter-sifs. de. ju-lets. et. de. si-rops. ra-fraî-chis-sants. qu’on. mê-le-ra. dans. sa. pti-san-ne.</p>
           </sp>
           <sp who="m-bahys" xml:id="II05-8">
-            <speaker>m bahys</speaker>
+            <speaker>monsieur bahys</speaker>
             <p>Après nous en viendrons à la purgation et à la saignée, que nous réitérerons s’il en est besoin.</p>
           </sp>
           <sp who="m-macroton" xml:id="II05-9">
-            <speaker>m macroton</speaker>
+            <speaker>monsieur macroton</speaker>
             <p>Ce. n’est. pas. qu’a-vec. tout. ce-la, vo-tre. fil-le. ne. puis-se. mou-rir ; mais. au. moins. vous. au-rez. fait. quel-que. cho-se. et. vous. au-rez. la. con-so-la-tion. qu’el-le. se-ra. mor-te. dans. les. for-mes.</p>
           </sp>
           <sp who="m-bahys" xml:id="II05-10">
-            <speaker>m bahys</speaker>
+            <speaker>monsieur bahys</speaker>
             <p>Il vaut mieux mourir selon les règles, que de réchapper contre les règles.</p>
           </sp>
           <sp who="m-macroton" xml:id="II05-11">
-            <speaker>m macroton</speaker>
+            <speaker>monsieur macroton</speaker>
             <p>Nous. vous. di-sons. sin-cè-re-ment. no-tre pen-sée.</p>
           </sp>
           <sp who="m-bahys" xml:id="II05-12">
-            <speaker>m bahys</speaker>
+            <speaker>monsieur bahys</speaker>
             <p>Et nous vous avons parlé, comme nous parlerions à notre propre frère.</p>
           </sp>
           <sp who="sganarelle" xml:id="II05-13">
@@ -875,31 +898,31 @@
           <head>SCÈNE I.</head>
           <stage>Messieurs Filerin, Tomès et des Fonandrès.</stage>
           <sp who="m-filerin" xml:id="III01-1">
-            <speaker>m filerin</speaker>
+            <speaker>monsieur filerin</speaker>
             <p>N’avez-vous point de honte, Messieurs, de montrer si peu de prudence pour des gens de votre âge, et de vous être querellés comme de jeunes étourdis ? Ne voyez-vous pas bien quel tort ces sortes de querelles nous font parmi le monde ? et n’est-ce pas assez que les savants voient les contrariétés, et les dissensions qui sont entre nos Auteurs et nos anciens Maîtres, sans découvrir encore au peuple, par nos débats et nos querelles, la forfanterie de notre Art. Pour moi, je ne comprends rien du tout à cette méchante Politique de quelques-uns de nos gens. Et il faut confesser, que toutes ces contestations nous ont décriés, depuis peu, d’une étrange manière, et que, si nous n’y prenons garde, nous allons nous ruiner nous-mêmes. Je n’en parle pas pour mon intérêt. Car, Dieu merci, j’ai déjà établi mes petites affaires. Qu’il vente, qu’il pleuve, qu’il grêle, ceux qui sont morts sont morts, et j’ai de quoi me passer des vivants. Mais enfin, toutes ces disputes ne valent rien pour la Médecine. Puisque le Ciel nous fait la grâce que depuis tant de siècles, on demeure infatué de nous : ne désabusons point les hommes avec nos cabales extravagantes, et profitons de leur sottise le plus doucement que nous pourrons. Nous ne sommes pas les seuls, comme vous savez, qui tâchons à nous prévaloir de la faiblesse humaine. C’est là que va l’étude de la plupart du monde, et chacun s’efforce de prendre les hommes par leur faible, pour en tirer quelque profit. Les flatteurs, par exemple, cherchent à profiter de l’amour que les hommes ont pour les louanges, en leur donnant tout le vain encens qu’ils souhaitent : et c’est un art où l’on fait, comme on voit, des fortunes considérables. Les Alchimistes tâchent à profiter de la passion qu’on a pour les richesses, en promettant des montagnes d’or à ceux qui les écoutent. Et les diseurs d’Horoscope, par leurs Prédictions trompeuses profitent de la vanité et de l’ambition des crédules esprits : mais le plus grand faible des hommes, c’est l’amour qu’ils ont pour la vie, et nous en profitons nous autres, par notre pompeux galimatias ; et savons prendre nos avantages de cette vénération, que la peur de mourir, leur donne pour notre métier. Conservons-nous donc dans le degré d’estime où leur faiblesse nous a mis, et soyons de concert auprès des malades, pour nous attribuer les heureux succès de la maladie, et rejeter sur la Nature toutes les bévues de notre art. N’allons point, dis-je, détruire sottement les heureuses préventions d’une erreur qui donne du pain à tant de personnes.</p>
           </sp>
           <sp who="m-tomès" xml:id="III01-2">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Vous avez raison en tout ce que vous dites ; mais ce sont chaleurs de sang, dont parfois on n’est pas le maître.</p>
           </sp>
           <sp who="m-filerin" xml:id="III01-3">
-            <speaker>m filerin</speaker>
+            <speaker>monsieur filerin</speaker>
             <p>Allons donc, Messieurs, mettez bas toute rancune, et faisons ici votre accommodement.</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="III01-4">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>J’y consens. Qu’il me passe mon émétique pour la malade dont il s’agit, et je lui passerai tout ce qu’il voudra pour le premier malade dont il sera question.</p>
           </sp>
           <sp who="m-filerin" xml:id="III01-5">
-            <speaker>m filerin</speaker>
+            <speaker>monsieur filerin</speaker>
             <p>On ne peut pas mieux dire. Et voilà se mettre à la raison.</p>
           </sp>
           <sp who="m-des fonandrès" xml:id="III01-6">
-            <speaker>m des fonandrès</speaker>
+            <speaker>monsieur des fonandrès</speaker>
             <p>Cela est fait.</p>
           </sp>
           <sp who="m-filerin" xml:id="III01-7">
-            <speaker>m filerin</speaker>
+            <speaker>monsieur filerin</speaker>
             <p>Touchez donc là. Adieu. Une autre fois, montrez plus de prudence.</p>
           </sp>
         </div2>
@@ -911,7 +934,7 @@
             <p>Quoi, Messieurs, vous voilà, et vous ne songez pas à réparer le tort qu’on vient de faire à la Médecine.</p>
           </sp>
           <sp who="m-tomès" xml:id="III02-2">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Comment, qu’est-ce ?</p>
           </sp>
           <sp who="lisette" xml:id="III02-3">
@@ -919,7 +942,7 @@
             <p>Un insolent, qui a eu l’effronterie d’entreprendre sur votre métier : et qui sans votre ordonnance, vient de tuer un homme d’un grand coup d’épée au travers du corps.</p>
           </sp>
           <sp who="m-tomès" xml:id="III02-4">
-            <speaker>m tomès</speaker>
+            <speaker>monsieur tomès</speaker>
             <p>Écoutez, vous faites la railleuse : mais vous passerez par nos mains quelque jour.</p>
           </sp>
           <sp who="lisette" xml:id="III02-5">
