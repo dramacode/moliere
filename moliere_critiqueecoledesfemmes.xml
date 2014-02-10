@@ -1,2136 +1,1556 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<TEI.2 xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>LA CRITIQUE DE L'ÉCOLE DES FEMMES, COMÉDIE.</title>
-			<author born='1622' born_location='Paris' death='1673' death_location='Paris' academie=''>MOLIÈRE</author>
-				<date>1663</date>
-			</titleStmt>
-			<publicationStmp>	
-				<p>publié par Paul FIEVRE, Octobre 2010</p>
-			</publicationStmp>
-			<SourceDesc>
-				<genre>Comédie</genre>
-				<inspiration>moeurs françaises</inspiration>
-				<structure>Un acte</structure>
-				<type>prose</type>
-				<periode>1661-1670</periode>
-				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
-				<sources>
-					<source id="1"><author/><text/></source>
-				</sources>	
-
-			</SourceDesc>
-		</fileDesc>
-</teiHeader>
-<text>
-	<front>
-		<docTitle>
-			<titlePart type="main">LA CRITIQUE DE L'ÉCOLE DES FEMMES</titlePart>
-			<titlePart type="sub">COMÉDIE</titlePart>
-		</docTitle> 
-		<docDate value="1663">M. DC LXII.</docDate>
-		<docAuthor id="MOLIERE" bio='moliere'>Molière</docAuthor>
-		<docImprint>
-			<privilege id="166*-**-**"></privilege>
-			<acheveImprime id="166*-**-**"></acheveImprime>
-		</docImprint>
-		<performance>
-			<premiere date="1663-06-01" location='Théâtre du Palais-Royal'>Représentée pour la première fois à Paris, sur le Théâtre du Palais-Royal le vendredi premier juin 1663 par la Troupe de Monsieur, frère unique du Roi.</premiere>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LA CRITIQUE DE L'Ã‰COLE DES FEMMES, COMÃ‰DIE.</title>
+        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÃˆRE</author>
+        <date>1663</date>
+      </titleStmt>
+      <publicationStmp>
+        <p>publiÃ© par Paul FIEVRE, Octobre 2010</p>
+      </publicationStmp>
+      <SourceDesc>
+        <genre>ComÃ©die</genre>
+        <inspiration>moeurs franÃ§aises</inspiration>
+        <structure>Un acte</structure>
+        <type>prose</type>
+        <periode>1661-1670</periode>
+        <taille>(mesure non pertinente)</taille>
+        <permalien/>
+        <sources>
+          <source id="1">
+            <author/>
+            <text/>
+          </source>
+        </sources>
+      </SourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">LA CRITIQUE DE L'Ã‰COLE DES FEMMES</titlePart>
+        <titlePart type="sub">COMÃ‰DIE</titlePart>
+      </docTitle>
+      <docDate value="1663">M. DC LXII.</docDate>
+      <docAuthor id="MOLIERE" bio="moliere">MoliÃ¨re</docAuthor>
+      <docImprint>
+        <privilege id="166*-**-**"/>
+        <acheveImprime id="166*-**-**"/>
+      </docImprint>
+      <performance>
+			<premiere date="1663-06-01" location="ThÃ©Ã¢tre du Palais-Royal">ReprÃ©sentÃ©e pour la premiÃ¨re fois Ã  Paris, sur le ThÃ©Ã¢tre du Palais-Royal le vendredi premier juin 1663 par la Troupe de Monsieur, frÃ¨re unique du Roi.</premiere>
 		</performance>
-<epitre><adresse>Adresse À la Reine Mère</adresse> 
+      <epitre><adresse>Adresse Ã€ la Reine MÃ¨re</adresse> 
 <head>Madame, </head>
-<p>Je sais bien que Votre Majesté n'a que faire de toutes nos dédicaces, et que ces prétendus devoirs, dont on lui dit élégamment qu'on s'acquitte envers Elle, sont des hommages, à dire vrai, dont Elle nous dispenserait très volontiers. Mais je ne laisse pas d'avoir l'audace de lui dédier la Critique de l'Ecole des femmes; et je n'ai pu refuser cette petite occasion de pouvoir témoigner ma joie à Votre Majesté sur cette heureuse convalescence, qui redonne à nos voeux la plus grande et la meilleure princesse du monde, et nous promet en Elle de longues années d'une santé vigoureuse. Comme chacun regarde les choses du côté de ce qui le touche, je me réjouis, dans cette allégresse générale, de pouvoir encore obtenir l'honneur de divertir Votre Majesté; Elle, Madame, qui prouve si bien que la véritable dévotion n'est point contraire aux honnêtes divertissements; qui, de ses hautes pensées et de ses importantes occupations, descend si humainement dans le plaisir de nos spectacles et ne dédaigne pas de rire de cette même bouche dont Elle prie si bien Dieu. Je flatte, dis-je, mon esprit de l'espérance de cette gloire; j'en attends le moment avec toutes les impatiences du monde; et quand je jouirai de ce bonheur, ce sera la plus grande joie que puisse recevoir, </p>
+<p>Je sais bien que VOTRE MAJESTÃ‰ nâ€™a que faire de toutes nos dÃ© dicaces, et que ces prÃ©tendus devoirs, dont on lui dit Ã©lÃ©gamment quâ€™on sâ€™acquitte envers elle, sont des hommages, Ã  dire vrai, dont elle nous dispenserait trÃ¨s volontiers. Mais je ne laisse pas dâ€™avoir lâ€™audace de lui dÃ©dier  <hi rend="i">La Critique de lâ€™Ã‰cole des femmes</hi> , et je nâ€™ai pu refuser cette petite occasion de pouvoir tÃ©moigner ma joie Ã  VOTRE MAJESTÃ‰ sur cette heureuse convalescence, qui redonne Ã  nos v Å“ ux la meilleure Princesse du monde, et nous promet de longues annÃ©es dâ€™une santÃ© vigoureuse. Comme chacun regarde les choses du cÃ´tÃ© de ce qui le touche, je me rÃ©jouis dans cette allÃ©gresse gÃ©nÃ©rale, de pouvoir encore obtenir lâ€™honneur de divertir VOTRE MAJESTÃ‰Â ; Elle, MADAME, qui prouve si bien que la vÃ©ritable dÃ©votion nâ€™est point contraire aux honnÃªtes divertissementsÂ ; qui de ses hautes pensÃ©es, de ses importantes occupations, descend si humainement dans le plaisir de nos spectacles, et ne dÃ©daigne pas de rire de cette mÃªme bouche, dont elle prie si bien DIEU. Je flatte, dis-je, mon esprit de lâ€™espÃ©rance de cette gloireÂ ; jâ€™en attends le moment avec toutes les impati ences du monde, et quand je jouirai  de ce bonheur, ce sera la plus grande joie que puisse recevoir,</p>
 <p>Madame, </p>
-<p>De Votre Majesté, </p>
-<p>Le très humble, très obéissant et très fidèle serviteur et sujet, </p>
-<signature>J.-B. P. Molière. </signature>
-</epitre>  
-
-	<castList><head>PERSONNAGES</head>
-	<castItem><role id="URANIE" civil='F' type="H" statut='aristocrate' age='A' stat_amour='néant'>URANIE</role>.</castItem>
-	<castItem><role id="ÉLISE" civil='F' type="H" statut='aristocrate' age='A' stat_amour='néant'>ÉLISE</role>.</castItem>
-	<castItem><role id="CLIMÈNE" civil='F' type="H" statut='aristocrate' age='A' stat_amour='néant'>CLIMÈNE</role>.</castItem>
-	<castItem><role id="GALOPIN" civil='M' type="H" statut='laquais' age='A' stat_amour='néant'>GALOPIN</role>, laquais.</castItem>
-	<castItem><role id="LE-MARQUIS" civil='M' type="H" statut='marquis' age='A' stat_amour='néant'>LE MARQUIS</role>.</castItem>
-	<castItem><role id="DORANTE" civil='M' type="H" statut='chevalier' age='A' stat_amour='néant'>DORANTE</role>, ou le Chevalier.</castItem>
-	<castItem><role id="LYSIDAS" civil='M' type="H" statut='poète' age='A' stat_amour='néant'>LYSIDAS</role>, poète.</castItem>
-	</castList>
-		<set location='(non indiqué)' country='France' periode='XVIIème' link=''>[Le Lieu de l'action n'est pas indiqué.]</set>
-</front>
-<body>
-<div1 type='acte' n='1'><head></head>
-<div2 type='scene' n='1'><head>SCÈNE I. Uranie, Elise.</head>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='1'>
-	<s id='1'>Quoi ? </s>
-	<s id='2'>Cousine, personne ne t'est venu rendre visite ?</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='2'>
-	<s id='1'>Personne du monde.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='3'>
-	<s id='1'>Vraiment, voilà qui m'étonne, que nous ayons été seules l'une et l'autre tout aujourd'hui.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='4'>
-	<s id='1'>Cela m'étonne aussi, car ce n'est guère notre coutume ; et votre maison, Dieu merci, est le refuge ordinaire de tous les fainéants de la Cour.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='5'>
-	<s id='1'>L'après-dînée, à dire vrai, m'a semblé fort longue.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='6'>
-	<s id='1'>Et moi, je l'ai trouvée fort courte.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='7'>
-	<s id='1'>C'est que les beaux esprits, Cousine, aiment la solitude.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='8'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Très humble servante au bel esprit ; vous savez que ce n'est pas là que je vise.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='9'>
-	<s id='1'>Pour moi, j'aime la compagnie, je l'avoue.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='10'>
-	<s id='1'>Je l'aime aussi, mais je l'aime choisie ; et la quantité des sottes visites qu'il vous faut essuyer parmi les autres est cause bien souvent que je prends plaisir d'être seule.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='11'>
-	<s id='1'>La délicatesse est trop grande, de ne pouvoir souffrir que des gens triés.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='12'>
-	<s id=''>Et la complaisance est trop générale, de souffrir indifféremment toutes sortes de personnes.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='13'>
-	<s id='1'>Je goûte ceux qui sont raisonnables, et me divertis des extravagants.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<note type="L">Turlupinades : on a appelé de ce nom un comédien fameux de Paris, dont le talent était de faire rire par de méchantes pointes et équivoques qu'on appelées Turlupinades et ses imitateurs des turlupins. Ils ne sont que par malheur trop fréquents (Dict. Furetière)</note>
-<p id='14'>
-	<s id='1'>Ma foi, les extravagants ne vont guère loin sans vous ennuyer, et la plupart de ces gens-là ne sont plus plaisants dès la seconde visite. </s>
-	<s id='2'>Mais à propos d'extravagants, ne voulez-vous pas me défaire de votre marquis incommode ? </s>
-	<s id='3'>Pensez-vous me le laisser toujours sur les bras, et que je puisse durer à ses turlupinades perpétuelles ?</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='15'>
-	<s id='1'>Ce langage est à la mode, et l'on le tourne en plaisanterie à la Cour.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='16'>
-	<s id='1'>Tant pis pour ceux qui le font, et qui se tuent tout le jour à parler ce jargon obscur. </s>
-	<s id='2'>La belle chose de faire entrer aux conversations du Louvre de vieilles équivoques ramassées parmi les boues des halles et de la place Maubert ! </s>
-	<s id='3'>La jolie façon de plaisanter pour des courtisans ! </s>
-	<s id='4'>Et qu'un homme montre d'esprit lorsqu'il vient vous dire : "Madame, vous êtes dans la place Royale, et tout le monde vous voit de trois lieues de Paris, car chacun vous voit de bon oeil," à cause que Boneuil est un village à trois lieues d'ici ! </s>
-	<s id='5'>Cela n'est-il pas bien galant et bien spirituel ? </s>
-	<s id='6'>Et ceux qui trouvent ces belles rencontres, n'ont-ils pas lieu de s'en glorifier ?</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='17'>
-	<s id='1'>On ne dit pas cela aussi comme une chose spirituelle ; et la plupart de ceux qui affectent ce langage savent bien eux-mêmes qu'il est ridicule.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='18'>
-	<s id='1'>Tant pis encore, de prendre peine à dire des sottises, et d'être mauvais plaisants de dessein formé. </s>
-	<s id='2'>Je les en tiens moins excusables ; et si j'en étais juge, je sais bien à quoi je condamnerais tous ces Messieurs les turlupins.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='19'>
-	<s id='1'>Laissons cette matière qui t'échauffe un peu trop, et disons que Dorante vient bien tard, à mon avis, pour le souper que nous devons faire ensemble.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='20'>
-	<s id='1'>Peut-être l'a-t-il oublié, et que...</s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='2'><head>SCÈNE II. Galopin, Uranie, Elise.</head>
-<sp who='GALOPIN'><speaker>GALOPIN.</speaker>
-<p id='1'>
-	<s id='1'>Voilà Climène, Madame, qui vient ici pour vous voir.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='2'>
-	<s id='1'>Eh mon Dieu ! </s>
-	<s id='2'>Quelle visite !</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='3'>
-	<s id='1'>Vous vous plaigniez d'être seule aussi : le Ciel vous en punit.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='4'>
-	<s id='1'>Vite, qu'on aille dire que je n'y suis pas.</s>
-</p>
-</sp>
-<sp who='GALOPIN'><speaker>GALOPIN.</speaker>
-<p id='5'>
-	<s id='1'>On a déjà dit que vous y étiez.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='6'>
-	<s id='1'>Et qui est le sot qui l'a dit ?</s>
-</p>
-</sp>
-<sp who='GALOPIN'><speaker>GALOPIN.</speaker>
-<p id='7'>
-	<s id='1'>Moi, Madame.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='8'>
-	<s id='1'>Diantre soit le petit vilain ! </s>
-	<s id='2'>Je vous apprendrai bien à faire vos réponses de vous-même.</s>
-</p>
-</sp>
-<sp who='GALOPIN'><speaker>GALOPIN.</speaker>
-<p id='9'>
-	<s id='1'>Je vais lui dire, Madame, que vous voulez être sortie.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='10'>
-	<s id='1'>Arrêtez, animal, et la laissez monter, puisque la sottise est faite.</s>
-</p>
-</sp>
-<sp who='GALOPIN'><speaker>GALOPIN.</speaker>
-<p id='11'>
-	<s id='1'>Elle parle encore à un homme dans la rue.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='12'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Cousine, que cette visite m'embarrasse à l'heure qu'il est !</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='13'>
-	<s id='1'>Il est vrai que la dame est un peu embarrassante de son naturel ; j'ai toujours eu pour elle une furieuse aversion ; et, n'en déplaise à sa qualité, c'est la plus sotte bête qui se soit jamais mêlée de raisonner.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='14'>
-	<s id='1'>L'épithète est un peu forte.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='15'>
-	<s id='1'>Allez, allez, elle mérite bien cela, et quelque chose de plus, si on lui faisoit justice. </s>
-	<s id='2'>Est-ce qu'il y a une personne qui soit plus véritablement qu'elle ce qu'on appelle précieuse, à prendre le mot dans sa plus mauvaise signification ?</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='16'>
-	<s id='1'>Elle se défend bien de ce nom pourtant.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<note type="L">Façonnièr(e) : Cérémonieux, grimasssier. [F]</note>
-<p id='17'>
-	<s id='1'>Il est vrai : elle se défend du nom, mais non pas de la chose ; car enfin elle l'est depuis les pieds jusqu'à la tête, et la plus grande façonnière du monde. </s>
-	<s id='2'>Il semble que tout son corps soit démonté, et que les mouvements de ses hanches, de ses épaules et de sa tête n'aillent que par ressorts. </s>
-	<s id='3'>Elle affecte toujours un ton de voix languissant et niais, fait la moue pour montrer une petite bouche, et roule les yeux pour les faire paraître grands.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='18'>
-	<s id='1'>Doucement donc : si elle venait à entendre...</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<note type="L">Pointe : les pointes sont des équivoques et des jeux d'esprit. Il faut de donner de garde des fausses pointes, des turlupinades. [F]</note>
-<p id='20'>
-	<s id='1'>Point, point, elle ne monte pas encore. </s>
-	<s id='2'>Je me souviens toujours du soir qu'elle eut envie de voir Damon, sur la réputation qu'on lui donne, et les choses que le public a vues de lui. </s>
-	<s id='3'>Vous connaissez l'homme, et sa naturelle paresse à soutenir la conversation. </s>
-	<s id=''>Elle l'avait invité à souper comme bel esprit, et jamais il ne parut si sot, parmi une demi-douzaine de gens à qui elle avait fait fête de lui, et qui le regardaient avec de grands yeux, comme une personne qui ne devait pas être faite comme les autres. </s>
-	<s id=''>Ils pensaient tous qu'il était là pour défrayer la compagnie de bons mots, que chaque parole qui sortait de sa bouche devait être extraordinaire, qu'il devait faire des Impromptus sur tout ce qu'on disait, et ne demander à boire qu'avec une pointe. </s>
-	<s id=''>Mais il les trompa fort par son silence ; et la dame fut aussi mal satisfaite de lui que je le fus d'elle.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='21'>
-	<s id='1'>Tais-toi. </s>
-	<s id='2'>Je vais la recevoir à la porte de la chambre.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='22'>
-	<s id='1'>Encore un mot. </s>
-	<s id='2'>Je voudrais bien la voir mariée avec le marquis dont nous avons parlé : le bel assemblage que ce serait d'une précieuse et d'un turlupin !</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='23'>
-	<s id='1'>Veux-tu te taire ? </s>
-	<s id='2'>La voici.</s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='3'><head>SCÈNE III. Climène, Uranie, Elise, Galopin.</head>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='1'>
-	<s id='1'>Vraiment, c'est bien tard que...</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='2'>
-	<s id='1'>Eh ! </s>
-	<s id='2'>De grâce, ma chère, faites-moi vite donner un siége.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='3'>
-	<s id='1'>Un fauteuil promptement.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='4'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Mon Dieu !</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='5'>
-	<s id='1'>Qu'est-ce donc ?</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='6'>
-	<s id='1'>Je n'en puis plus.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='7'>
-	<s id='1'>Qu'avez-vous ?</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='8'>
-	<s id='1'>Le coeur me manque.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='9'>
-	<s id='1'>Sont-ce vapeurs qui vous ont prise ?</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='10'>
-	<s id='1'>Non.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<note type="L">Délacer : (...) Il faut délacer cette femme, elle est trop serrée dans son corps de jupe. [F] [action de défaire le lacet d'un corset, d'un vêtement ou d'un objet.]</note>
-<p id='11'>
-	<s id='1'>Voulez-vous que l'on vous délace ?</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='12'>
-	<s id='1'>Mon Dieu non. </s>
-	<s id='2'>Ah !</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='13'>
-	<s id='1'>Quel est donc votre mal ? </s>
-	<s id='2'>Et depuis quand vous a-t-il pris ?</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='14'>
-	<s id='1'>Il y a plus de trois heures, et je l'ai rapporté du Palais-Royal.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='15'>
-	<s id='1'>Comment ?</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<note type="L">Rhapsodie : recueil de plusieurs passages, pensées et autorités qu'on rassemble pour en composer quelque ouvrage.</note>
-<p id='16'>
-	<s id='1'>Je viens de voir, pour mes péchés, cette méchante rapsodie de l'École des femmes. </s>
-	<s id='2'>Je suis encore en défaillance du mal de coeur que cela m'a donné, et je pense que je n'en reviendrai de plus de quinze jours.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='17'>
-	<s id='1'>Voyez un peu comme les maladies arrivent sans qu'on y songe.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='18'>
-	<s id='1'>Je ne sais pas de quel tempérament nous sommes, ma cousine et moi ; mais nous fûmes avant-hier à la même pièce, et nous en revînmes toutes deux saines et gaillardes.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='19'>
-	<s id='1'>Quoi ? </s>
-	<s id='2'>Vous l'avez vue ?</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='20'>
-	<s id='1'>Oui ; et écoutée d'un bout à l'autre.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='21'>
-	<s id='1'>Et vous n'en avez pas été jusques aux convulsions, ma chère ?</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='22'>
-	<s id='1'>Je ne suis pas si délicate, Dieu merci ; et je trouve, pour moi, que cette comédie serait plutôt capable de guérir les gens que de les rendre malades.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='23'>
-	<s id='1'>Ah mon Dieu ! </s>
-	<s id='2'>Que dites-vous là ? </s>
-	<s id='3'>Cette proposition peut-elle être avancée par une personne qui ait du revenu en sens commun ? </s>
-	<s id='4'>Peut-on impunément, comme vous faites, rompre en visière à la raison ? </s>
-	<s id='5'>Et dans le vrai de la chose, est-il un esprit si affamé de plaisanterie, qu'il puisse tâter des fadaises dont cette comédie est assaisonnée ? </s>
-	<s id='6'>Pour moi, je vous avoue que je n'ai pas trouvé le moindre grain de sel dans tout cela. </s>
-	<s id='7'>Les enfants par l'oreille m'ont paru d'un goût détestable ; la tarte à la crème m'a affadi le coeur ; et j'ai pensé vomir au potage.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='24'>
-	<s id='1'>Mon Dieu ! </s>
-	<s id='2'>Que tout cela est dit élégamment ! </s>
-	<s id='3'>J'aurais cru que cette pièce était bonne ; mais Madame a une éloquence si persuasive, elle tourne les choses d'une manière si agréable, qu'il faut être de son sentiment, malgré qu'on en ait.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='25'>
-	<s id='1'>Pour moi, je n'ai pas tant de complaisance ; et, pour dire ma pensée, je tiens cette comédie une des plus plaisantes que l'auteur ait produites.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='26'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Vous me faites pitié, de parler ainsi ; je ne saurais vous souffrir cette obscurité de discernement. </s>
-	<s id='3'>Peut-on, ayant de la vertu, trouver de l'agrément dans une pièce qui tient sans cesse la pudeur en alarme, et salit à tous moments l'imagination ?</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='27'>
-	<s id='1'>Les jolies façons de parler que voilà ! </s>
-	<s id='2'>Que vous êtes, Madame, une rude joueuse en critique, et que je plains le pauvre Molière de vous avoir pour ennemie !</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='28'>
-	<s id='1'>Croyez-moi, ma chère, corrigez de bonne foi votre jugement ; et pour votre honneur, n'allez point dire par le monde que cette comédie vous ait plu.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='29'>
-	<s id='1'>Moi, je ne sais pas ce que vous y avez trouvé qui blesse la pudeur.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='30'>
-	<s id='1'>Hélas ! </s>
-	<s id='2'>Tout ; et je mets en fait qu'une honnête femme ne la saurait voir sans confusion, tant j'y ai découvert d'ordures et de saletés.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='31'>
-	<s id='1'>Il faut donc que pour les ordures vous ayez des lumières que les autres n'ont pas ; car, pour moi, je n'y en ai point vu.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='32'>
-	<s id='1'>C'est que vous ne voulez pas y en avoir vu, assurément ; car enfin toutes ces ordures, Dieu merci, y sont à visage découvert. </s>
-	<s id='2'>Elles n'ont point la moindre enveloppe qui les couvre, et les yeux les plus hardis sont effrayés de leur nudité.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='33'>
-	<s id='1'>Ah !</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='34'>
-	<s id='1'>Hay, hay, hay.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='35'>
-	<s id='1'>Mais encore, s'il vous plaît, marquez-moi une de ces ordures que vous dites.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='36'>
-	<s id='1'>Hélas ! </s>
-	<s id='2'>Est-il nécessaire de vous les marquer ?</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='37'>
-	<s id='1'>Oui. </s>
-	<s id='2'>Je vous demande seulement un endroit qui vous ait fort choquée.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='38'>
-	<s id='1'>En faut-il d'autre que la scène de cette Agnès, lorsqu'elle dit ce que l'on lui a pris ?</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='39'>
-	<s id='1'>Eh bien ! </s>
-	<s id='2'>Que trouvez-vous là de sale ?</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='40'>
-	<s id='1'>Ah !</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='41'>
-	<s id='1'>De grâce ?</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='42'>
-	<s id='1'>Fi !</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='43'>
-	<s id='1'>Mais encore ?</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='44'>
-	<s id='1'>Je n'ai rien à vous dire.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='45'>
-	<s id='1'>Pour moi, je n'y entends point de mal.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='46'>
-	<s id='1'>Tant pis pour vous.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='47'>
-	<s id='1'>Tant mieux plutôt, ce me semble. </s>
-	<s id='2'>Je regarde les choses du côté qu'on me les montre, et ne les tourne point pour y chercher ce qu'il ne faut pas voir.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='48'>
-	<s id='1'>L'honnêteté d'une femme...</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='49'>
-	<s id='1'>L'honnêteté d'une femme n'est pas dans les grimaces. </s>
-	<s id='2'>Il sied mal de vouloir être plus sage que celles qui sont sages. </s>
-	<s id='3'>L'affectation en cette matière est pire qu'en toute autre ; et je ne vois rien de si ridicule que cette délicatesse d'honneur qui prend tout en mauvaise part, donne un sens criminel aux plus innocentes paroles, et s'offense de l'ombre des choses. </s>
-	<s id='4'>Croyez-moi, celles qui font tant de façons n'en sont pas estimées plus femmes de bien. </s>
-	<s id='5'>Au contraire, leur sévérité mystérieuse et leurs grimaces affectées irritent la censure de tout le monde contre les actions de leur vie. </s>
-	<s id='6'>On est ravi de découvrir ce qu'il y peut avoir à redire ; et, pour tomber dans l'exemple, il y avait l'autre jour des femmes à cette comédie, vis-à-vis de la loge où nous étions, qui par les mines qu'elles affectèrent durant toute la pièce, leurs détournements de tête, et leurs cachements de visage, firent dire de tous côtés cent sottises de leur conduite, que l'on n'aurait pas dites sans cela ; et quelqu'un même des laquais cria tout haut qu'elles étaient plus chastes des oreilles que de tout le reste du corps.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='50'>
-	<s id='1'>Enfin il faut être aveugle dans cette pièce, et ne pas faire semblant d'y voir les choses.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='51'>
-	<s id='1'>Il ne faut pas y vouloir voir ce qui n'y est pas.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='52'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>je soutiens, encore un coup, que les saletés y crèvent les yeux.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='53'>
-	<s id='1'>Et moi, je ne demeure pas d'accord de cela.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='54'>
-	<s id='1'>Quoi ? </s>
-	<s id='2'>La pudeur n'est pas visiblement blessée par ce que dit Agnès dans l'endroit dont nous parlons ?</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='55'>
-	<s id='1'>Non, vraiment. </s>
-	<s id='2'>Elle ne dit pas un mot qui de soi ne soit fort honnête ; et si vous voulez entendre dessous quelque autre chose, c'est vous qui faites l'ordure, et non pas elle, puisqu'elle parle seulement d'un ruban qu'on lui a pris.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='56'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Ruban tant qu'il vous plaira ; mais ce LE, où elle s'arrête, n'est pas mis pour des prunes. </s>
-	<s id='3'>Il vient sur ce LE d'étranges pensées. </s>
-	<s id='4'>Ce LE scandalise furieusement ; et, quoique vous puissiez dire, vous ne sauriez défendre l'insolence de ce LE.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='57'>
-	<s id='1'>Il est vrai, ma Cousine, je suis pour Madame contre ce LE. </s>
-	<s id='2'>Ce LE est insolent au dernier point, et vous avez tort de défendre ce LE.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='58'>
-	<s id='1'>Il a une obscénité qui n'est pas supportable.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='59'>
-	<s id='1'>Comment dites-vous ce mot-là, Madame.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='60'>
-	<s id='1'>Obscénité, Madame.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='61'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Mon Dieu ! </s>
-	<s id='3'>Obscénité. </s>
-	<s id='4'>Je ne sais ce que ce mot veut dire ; mais je le trouve le plus joli du monde.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='62'>
-	<s id='1'>Enfin, vous voyez comme votre sang prend mon parti.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='63'>
-	<s id='1'>Eh mon Dieu ! </s>
-	<s id='2'>C'est une causeuse qui ne dit pas ce qu'elle pense. </s>
-	<s id='3'>Ne vous y fiez pas beaucoup, si vous m'en voulez croire.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='64'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Que vous êtes méchante, de me vouloir rendre suspecte à Madame ! </s>
-	<s id='3'>Voyez un peu où j'en serois, si elle allait croire ce que vous dites. </s>
-	<s id='4'>Serais-je si malheureuse, Madame, que vous eussiez de moi cette pensée ?</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='65'>
-	<s id='1'>Non, non. </s>
-	<s id='2'>Je ne m'arrête pas à ses paroles, et je vous crois plus sincère qu'elle ne dit.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='66'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Que vous avez bien raison, Madame, et que vous me rendrez justice, quand vous croirez que je vous trouve la plus engageante personne du monde, que j'entre dans tous vos sentiments et suis charmée de toutes les expressions qui sortent de votre bouche !</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='67'>
-	<s id='1'>Hélas ! </s>
-	<s id='2'>Je parle sans affectation.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='68'>
-	<s id='1'>On le voit bien, Madame, et que tout est naturel en vous. </s>
-	<s id='2'>Vos paroles, le ton de votre voix, vos regards, vos pas, votre action et votre ajustement, ont je ne sais quel air de qualité, qui enchante les gens. </s>
-	<s id='3'>Je vous étudie des yeux et des oreilles ; et je suis si remplie de vous, que je tâche d'être votre singe, et de vous contrefaire en tout.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='69'>
-	<s id='1'>Vous vous moquez de moi, Madame.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='70'>
-	<s id='1'>Pardonnez-moi, Madame. </s>
-	<s id='2'>Qui voudrait se moquer de vous ?</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='71'>
-	<s id='1'>Je ne suis pas un bon modèle, Madame.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='72'>
-	<s id='1'>Oh ! </s>
-	<s id='2'>Que si, Madame !</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='73'>
-	<s id='1'>Vous me flattez, Madame.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='74'>
-	<s id='1'>Point du tout, Madame.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='75'>
-	<s id='1'>Épargnez-moi, s'il vous plaît, Madame.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='76'>
-	<s id='1'>Je vous épargne aussi, Madame, et je ne dis pas la moitié de ce que je pense, Madame.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='77'>
-	<s id='1'>Ah mon Dieu ! </s>
-	<s id='2'>Brisons là, de grâce. </s>
-	<s id='3'>Vous me jetteriez dans une confusion épouvantable. </s>
-</p>
-<stage>À Uranie.</stage>
-<p id='78'>
-	<s id='1'>Enfin, nous voilà deux contre vous, et l'opiniâtreté sied si mal aux personnes spirituelles...</s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='4'><head>SCÈNE IV. Le Marquis, Climène, Galopin, Uranie, Élise.</head>
-<sp who='GALOPIN'><speaker>GALOPIN.</speaker>
-<p id='1'>
-	<s id='1'>Arrêtez, s'il vous plaît, Monsieur.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='2'>
-	<s id='1'>Tu ne me connais pas, sans doute.</s>
-</p>
-</sp>
-<sp who='GALOPIN'><speaker>GALOPIN.</speaker>
-<p id='3'>
-	<s id='1'>Si fait, je vous connais ; mais vous n'entrerez pas.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='4'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Que de bruit, petit laquais !</s>
-</p>
-</sp>
-<sp who='GALOPIN'><speaker>GALOPIN.</speaker>
-<p id='5'>
-	<s id='1'>Cela n'est pas bien de vouloir entrer malgré les gens.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='6'>
-	<s id='1'>Je veux voir ta maîtresse.</s>
-</p>
-</sp>
-<sp who='GALOPIN'><speaker>GALOPIN.</speaker>
-<p id='7'>
-	<s id='1'>Elle n'y est pas, vous dis-je.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='8'>
-	<s id='1'>La voilà dans la chambre.</s>
-</p>
-</sp>
-<sp who='GALOPIN'><speaker>GALOPIN.</speaker>
-<p id='9'>
-	<s id='1'>Il est vrai, la voilà ; mais elle n'y est pas.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='10'>
-	<s id='1'>Qu'est-ce donc qu'il y a là ?</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='11'>
-	<s id='1'>C'est votre laquais, Madame, qui fait le sot.</s>
-</p>
-</sp>
-<sp who='GALOPIN'><speaker>GALOPIN.</speaker>
-<p id='12'>
-	<s id='1'>Je lui dis que vous n'y êtes pas, Madame, et il ne veut pas laisser d'entrer.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='13'>
-	<s id='1'>Et pourquoi dire à Monsieur que je n'y suis pas ?</s>
-</p>
-</sp>
-<sp who='GALOPIN'><speaker>GALOPIN.</speaker>
-<p id='14'>
-	<s id='1'>Vous me grondâtes, l'autre jour, de lui avoir dit que vous y étiez.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='15'>
-	<s id='1'>Voyez cet insolent ! </s>
-	<s id='2'>Je vous prie, Monsieur, de ne pas croire ce qu'il dit. </s>
-	<s id='3'>C'est un petit écervelé, qui vous a pris pour un autre.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='16'>
-	<s id='1'>Je l'ai bien vu, Madame ; et, sans votre respect, je lui aurais appris à connaître les gens de qualité.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='17'>
-	<s id='1'>Ma cousine vous est fort obligée de cette déférence.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='18'>
-	<s id='1'>Un siége donc, impertinent.</s>
-</p>
-</sp>
-<sp who='GALOPIN'><speaker>GALOPIN.</speaker>
-<p id='19'>
-	<s id='1'>N'en voilà-t-il pas un ?</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='20'>
-	<s id='1'>Approchez-le. </s>
-</p>
-<stage>Le petit laquais pousse le siége rudement.</stage>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='21'>
-	<s id='1'>Votre petit laquais, Madame, a du mépris pour ma personne.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='22'>
-	<s id='1'>Il aurait tort, sans doute.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='23'>
-	<s id='1'>C'est peut-être que je paye l'intérêt de ma mauvaise mine : hay, hay, hay, hay.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='24'>
-	<s id='1'>L'âge le rendra plus éclairé en honnêtes gens.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='25'>
-	<s id='1'>Sur quoi en étiez-vous, Mesdames, lorsque je vous ai interrompues ?</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='26'>
-	<s id='1'>Sur la comédie de L'École des femmes.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='27'>
-	<s id='1'>Je ne fais que d'en sortir.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='28'>
-	<s id='1'>Eh bien ! </s>
-	<s id='2'>Monsieur, comment la trouvez-vous, s'il vous plaît ?</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='29'>
-	<s id='1'>Tout à fait impertinente.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='30'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Que j'en suis ravie !</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='31'>
-	<s id='1'>C'est la plus méchante chose du monde. </s>
-	<s id='2'>Comment, diable ! </s>
-	<s id='3'>À peine ai-je pu trouver place ; j'ai pensé être étouffé à la porte, et jamais on ne m'a tant marché sur les pieds. </s>
-	<s id='4'>Voyez comme mes canons et mes rubans en sont ajustés, de grâce.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='32'>
-	<s id='1'>Il est vrai que cela crie vengeance contre L'École des femmes, et que vous la condamnez avec justice.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='33'>
-	<s id='1'>Il ne s'est jamais fait, je pense, une si méchante comédie.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='34'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Voici Dorante que nous attendions.</s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='5'><head>SCÈNE V. Dorante, Le Marquis, Climène, Elise, Uranie.</head>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='1'>
-	<s id='1'>Ne bougez, de grâce, et n'interrompez point votre discours. </s>
-	<s id='2'>Vous êtes là sur une matière qui, depuis quatre jours, fait presque l'entretien de toutes les maisons de Paris, et jamais on n'a rien vu de si plaisant que la diversité des jugements qui se font là-dessus. </s>
-	<s id='3'>Car enfin j'ai ouï condamner cette comédie à certaines gens, par les mêmes choses que j'ai vu d'autres estimer le plus.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='2'>
-	<s id='1'>Voilà Monsieur le Marquis qui en dit force mal.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='3'>
-	<s id='1'>Il est vrai, je la trouve détestable ; morbleu ! </s>
-	<s id='2'>Détestable du dernier détestable ; ce qu'on appelle détestable.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='4'>
-	<s id='1'>Et moi, mon cher Marquis, je trouve le jugement détestable.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='5'>
-	<s id='1'>Quoi ? </s>
-	<s id='2'>Chevalier, est-ce que tu prétends soutenir cette pièce ?</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='6'>
-	<s id='1'>Oui, je prétends la soutenir.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='7'>
-	<s id='1'>Parbleu ! </s>
-	<s id='2'>Je la garantis détestable.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='8'>
-	<s id='1'>La caution n'est pas bourgeoise. </s>
-	<s id='2'>Mais, Marquis, par quelle raison, de grâce, cette comédie est-elle ce que tu dis ?</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='9'>
-	<s id='1'>Pourquoi elle est détestable ?</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='10'>
-	<s id='1'>Oui.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='11'>
-	<s id='1'>Elle est détestable, parce qu'elle est détestable.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='12'>
-	<s id='1'>Après cela, il n'y aura plus rien à dire : voilà son procès fait. </s>
-	<s id='2'>Mais encore instruis-nous, et nous dis les défauts qui y sont.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='13'>
-	<s id='1'>Que sais-je, moi ? </s>
-	<s id='2'>Je ne me suis pas seulement donné la peine de l'écouter. </s>
-	<s id='3'>Mais enfin je sais bien que je n'ai jamais rien vu de si méchant. </s>
-	<s id='4'>Dieu me damne ; et Dorilas, contre qui j'étais, a été de mon avis.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='14'>
-	<s id='1'>L'autorité est belle, et te voilà bien appuyé.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='15'>
-	<s id='1'>Il ne faut que voir les continuels éclats de rire que le parterre y fait. </s>
-	<s id='2'>Je ne veux point d'autre chose pour témoigner qu'elle ne vaut rien.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='16'>
-	<s id='1'>Tu es donc, Marquis, de ces Messieurs du bel air, qui ne veulent pas que le parterre ait du sens commun, et qui seraient fâchés d'avoir ri avec lui, fût-ce de la meilleure chose du monde ? </s>
-	<s id='2'>Je vis l'autre jour sur le théâtre un de nos amis, qui se rendit ridicule par là. </s>
-	<s id='3'>Il écouta toute la pièce avec un sérieux le plus sombre du monde ; et tout ce qui égayait les autres ridait son front. </s>
-	<s id='4'>À tous les éclats de rire, il haussait les épaules, et regardait le parterre en pitié ; et quelquefois aussi le regardant avec dépit, il lui disait tout haut : "Ris donc, parterre, ris donc." Ce fut une seconde comédie, que le chagrin de notre ami. </s>
-	<s id='5'>Il la donna en galant homme à toute l'assemblée, et chacun demeura d'accord qu'on ne pouvait pas mieux jouer qu'il fit. </s>
-	<s id='6'>Apprends, Marquis, je te prie, et les autres aussi, que le bon sens n'a point de place déterminée à la comédie ; que la différence du demi-louis d'or et de la pièce de quinze sols ne fait rien du tout au bon goût ; que debout et assis, on peut donner un mauvais jugement ; et qu'enfin, à le prendre en général, je me fierais assez à l'approbation du parterre, par la raison qu'entre ceux qui le composent, il y en a plusieurs qui sont capables de juger d'une pièce selon les règles, et que les autres en jugent par la bonne façon d'en juger, qui est de se laisser prendre aux choses, et de n'avoir ni prévention aveugle, ni complaisance affectée, ni délicatesse ridicule.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='17'>
-	<s id='1'>Te voilà donc, Chevalier, le défenseur du parterre ? </s>
-	<s id='2'>Parbleu ! </s>
-	<s id='3'>Je m'en réjouis, et je ne manquerais pas de l'avertir que tu es de ses amis. </s>
-	<s id='4'>Hay, hay, hay, hay, hay, hay.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<note tyep="C">Mascarille : personnage de faux marquis dans la comédie "Les Précieuses ridicules" (1660) de Molière.</note>
-<p id='18'>
-	<s id='1'>Ris tant que tu voudras. </s>
-	<s id='2'>Je suis pour le bon sens, et ne saurais souffrir les ébullitions de cerveau de nos marquis de Mascarille. </s>
-	<s id='3'>J'enrage de voir de ces gens qui se traduisent en ridicules, malgré leur qualité ; de ces gens qui décident toujours et parlent hardiment de toutes choses, sans s'y connaître ; qui dans une comédie se récrieront aux méchants endroits, et ne branleront pas à ceux qui sont bons ; qui voyant un tableau, ou écoutant un concert de musique, blâment de même et louent tout à contre-sens, prennent par où ils peuvent les termes de l'art qu'ils attrapent, et ne manquent jamais de les estropier, et de les mettre hors de place. </s>
-	<s id='4'>Eh, morbleu ! </s>
-	<s id='5'>Messieurs, taisez-vous, quand Dieu ne vous a pas donné la connoissance d'une chose ; n'apprêtez point à rire à ceux qui vous entendent parler, et songez qu'en ne disant mot, on croira peut-être que vous êtes d'habiles gens.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='19'>
-	<s id='1'>Parbleu ! </s>
-	<s id='2'>Chevalier, tu le prends là...</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<note type="L">Dauber : signifie figurément, médire de quelqu'un, le railler en son absence. [F]</note>
-<p id='20'>
-	<s id='1'>Mon Dieu, Marquis, ce n'est pas à toi que je parle. </s>
-	<s id='2'>C'est à une douzaine de Messieurs qui déshonorent les gens de cour par leurs manières extravagantes, et font croire parmi le peuple que nous nous ressemblons tous. </s>
-	<s id='3'>Pour moi, je m'en veux justifier le plus qu'il me sera possible ; et je les dauberai tant en toutes rencontres, qu'à la fin ils se rendront sages.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='21'>
-	<s id='1'>Dis-moi un peu, Chevalier, crois-tu que Lysandre ait de l'esprit ?</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='22'>
-	<s id='1'>Oui sans doute, et beaucoup.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='23'>
-	<s id='1'>C'est une chose qu'on ne peut pas nier.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='24'>
-	<s id='1'>Demandez-lui ce qui lui semble de L'École des femmes : vous verrez qu'il vous dira qu'elle ne lui plaît pas.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='25'>
-	<s id='1'>Eh ! </s>
-	<s id='2'>Mon Dieu ! </s>
-	<s id='3'>Il y en a beaucoup que le trop d'esprit gâte, qui voient mal les choses à force de lumière, et même qui seraient bien fâchés d'être de l'avis des autres, pour avoir la gloire de décider.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='26'>
-	<s id='1'>Il est vrai. </s>
-	<s id='2'>Notre ami est de ces gens-là, sans doute. </s>
-	<s id='3'>Il veut être le premier de son opinion, et qu'on attende par respect son jugement. </s>
-	<s id='4'>Toute approbation qui marche avant la sienne est un attentat sur ses lumières, dont il se venge hautement en prenant le contraire parti. </s>
-	<s id='5'>Il veut qu'on le consulte sur toutes les affaires d'esprit ; et je suis sûre que, si l'auteur lui eût montré sa comédie avant que de la faire voir au public, il l'eût trouvée la plus belle du monde.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='27'>
-	<s id='1'>Et que direz-vous de la marquise Araminte, qui la publie partout pour épouvantable, et dit qu'elle n'a pu jamais souffrir les ordures dont elle est pleine ?</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='28'>
-	<s id='1'>Je dirai que cela est digne du caractère qu'elle a pris ; et qu'il y a des personnes qui se rendent ridicules, pour vouloir avoir trop d'honneur. </s>
-	<s id='2'>Bien qu'elle ait de l'esprit, elle a suivi le mauvais exemple de celles qui, étant sur le retour de l'âge, veulent remplacer de quelque chose ce qu'elles voient qu'elles perdent, et prétendent que les grimaces d'une pruderie scrupuleuse leur tiendront lieu de jeunesse et de beauté. </s>
-	<s id='3'>Celle-ci pousse l'affaire plus avant qu'aucune, et l'habileté de son scrupule découvre des saletés où jamais personne n'en avait vu. </s>
-	<s id='4'>On tient qu'il va, ce scrupule, jusques à défigurer notre langue, et qu'il n'y a point presque de mots dont la sévérité de cette dame en veuille retrancher ou la tête ou la queue, pour les syllabes déshonnêtes qu'elle y trouve.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='29'>
-	<s id='1'>Vous êtes bien fou, Chevalier.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='30'>
-	<s id='1'>Enfin, Chevalier, tu crois défendre ta comédie en faisant la satire de ceux qui la condamnent.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='31'>
-	<s id='1'>Non pas ; mais je tiens que cette dame se scandalise à tort...</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='32'>
-	<s id='1'>Tout beau, Monsieur le Chevalier, il pourrait y en avoir d'autres qu'elle qui seraient dans les mêmes sentiments.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='33'>
-	<s id='1'>Je sais bien que ce n'est pas vous, au moins ; et que lorsque vous avez vu cette représentation...</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='34'>
-	<s id='1'>Il est vrai ; mais j'ai changé d'avis ; et Madame sait appuyer le sien par des raisons si convaincantes qu'elle m'a entraînée de son côté.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='35'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Madame, je vous demande pardon : et, si vous le voulez, je me dédirai, pour l'amour de vous, de tout ce que j'ai dit.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='36'>
-	<s id='1'>Je ne veux pas que ce soit pour l'amour de moi, mais pour l'amour de la raison ; car enfin cette pièce, à le bien prendre, et tout à fait indéfendable, et je ne conçois pas...</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='37'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Voici l'auteur, Monsieur Lysidas. </s>
-	<s id='3'>Il vient tout à propos pour cette matière. </s>
-	<s id='4'>Monsieur Lysidas, prenez un siége vous-même, et vous mettez là.</s>
-</p> 
-</sp>
-</div2>
-<div2 type='scene' n='6'><head>SCÈNE VI. Lysidas, Dorante, Le Marquis, Elise, Uranie, Climène.</head>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='1'>
-	<s id='1'>Madame, je viens un peu tard ; mais il m'a fallu lire ma pièce chez Madame la Marquise, dont je vous avais parlé ; et les louanges qui lui ont été données m'ont retenu une heure plus que je ne croyais.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='2'>
-	<s id='1'>C'est un grand charme que les louanges pour arrêter un auteur.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='3'>
-	<s id='1'>Asseyez-vous donc, Monsieur Lysidas ; nous lirons votre pièce après souper.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='4'>
-	<s id='1'>Tous ceux qui étaient là doivent venir à sa première représentation, et m'ont promis de faire leur devoir comme il faut.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='5'>
-	<s id='1'>Je le crois. </s>
-	<s id='2'>Mais, encore une fois, asseyez-vous, s'il vous plaît. </s>
-	<s id='3'>Nous sommes ici sur une matière que je serai bien aise que nous poussions.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='6'>
-	<s id='1'>Je pense, Madame, que vous retiendrez aussi une loge pour ce jour-là.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='7'>
-	<s id='1'>Nous verrons. </s>
-	<s id='2'>Poursuivons, de grâce, notre discours.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='8'>
-	<s id='1'>Je vous donne avis, Madame, qu'elles sont presque toutes retenues.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='9'>
-	<s id='1'>Voilà qui est bien. </s>
-	<s id='2'>Enfin, j'avais besoin de vous, lorsque vous êtes venu, et tout le monde était ici contre moi.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='10'>
-	<s id='1'>Il s'est mis d'abord de votre côté ; mais maintenant qu'il sait que Madame est à la tête du parti contraire, je pense que vous n'avez qu'à chercher un autre secours.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='11'>
-	<s id='1'>Non, non, je ne voudrais pas qu'il fît mal sa cour auprès de Madame votre cousine, et je permets à son esprit d'être du parti de son coeur.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='12'>
-	<s id='1'>Avec cette permission, Madame, je prendrai la hardiesse de me défendre.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='13'>
-	<s id='1'>Mais auparavant sachons les sentiments de Monsieur Lysidas.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='14'>
-	<s id='1'>Sur quoi, Madame ?</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='15'>
-	<s id='1'>Sur le sujet de L'École des femmes.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='16'>
-	<s id='1'>Ha, ha.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='17'>
-	<s id='1'>Que vous en semble ?</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='18'>
-	<s id='1'>Je n'ai rien à dire là-dessus ; et vous savez qu'entre nous autres auteurs, nous devons parler des ouvrages les uns des autres avec beaucoup de circonspection.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='19'>
-	<s id='1'>Mais encore, entre nous, que pensez-vous de cette comédie ?</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='20'>
-	<s id='1'>Moi, Monsieur ?</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='21'>
-	<s id='1'>De bonne foi, dites-nous votre avis.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='22'>
-	<s id='1'>Je la trouve fort belle.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='23'>
-	<s id='1'>Assurément ?</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='24'>
-	<s id='1'>Assurément. </s>
-	<s id='2'>Pourquoi non ? </s>
-	<s id='3'>N'est-elle pas en effet la plus belle du monde ?</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='25'>
-	<s id='1'>Hom, hom, vous êtes un méchant diable, Monsieur Lysidas : vous ne dites pas ce que vous pensez.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='26'>
-	<s id='1'>Pardonnez-moi.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='27'>
-	<s id='1'>Mon Dieu ! </s>
-	<s id='2'>Je vous connais. </s>
-	<s id='3'>Ne dissimulons point.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='28'>
-	<s id='1'>Moi, Monsieur ?</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='29'>
-	<s id='1'>Je vois bien que le bien que vous dites de cette pièce n'est que par honnêteté, et que, dans le fond du coeur, vous êtes de l'avis de beaucoup de gens qui la trouvent mauvaise.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='30'>
-	<s id='1'>Hay, hay, hay.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='31'>
-	<s id='1'>Avouez, ma foi, que c'est une méchante chose que cette comédie.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='32'>
-	<s id='1'>Il est vrai qu'elle n'est pas approuvée par les connaisseurs.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='33'>
-	<s id='1'>Ma foi, Chevalier, tu en tiens, et te voilà payé de ta raillerie. </s>
-	<s id='2'>Ah, ah, ah, ah, ah !</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='34'>
-	<s id='1'>Pousse, mon cher Marquis, pousse.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='35'>
-	<s id='1'>Tu vois que nous avons les savant de notre côté.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='36'>
-	<s id='1'>Il est vrai, le jugement de Monsieur Lysidas est quelque chose de considérable. </s>
-	<s id='2'>Mais Monsieur Lysidas veut bien que je ne me rende pas pour cela ; et puisque j'ai bien l'audace de me défendre contre les sentiments de Madame, il ne trouvera pas mauvais que je combatte les siens.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='37'>
-	<s id='1'>Quoi ? </s>
-	<s id='2'>vous voyez contre vous Madame, Monsieur le Marquis et Monsieur Lysidas, et vous osez résister encore ? </s>
-	<s id='3'>Fi ! </s>
-	<s id='4'>Que cela est de mauvaise grâce !</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='38'>
-	<s id='1'>Voilà qui me confond, pour moi, que des personnes raisonnables se puissent mettre en tête de donner protection aux sottises de cette pièce.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='39'>
-	<s id='1'>Dieu me damne, Madame, elle est misérable depuis le commencement jusqu'à la fin.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='40'>
-	<s id='1'>Cela est bientôt dit, Marquis. </s>
-	<s id='2'>Il n'est rien plus aisé que de trancher ainsi ; et je ne vois aucune chose qui puisse être à couvert de la souveraineté de tes décisions.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='41'>
-	<s id='1'>Parbleu ! </s>
-	<s id='2'>Tous les autres comédiens qui étaient là pour la voir en ont dit tous les maux du monde.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='42'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Je ne dis plus mot : tu as raison, Marquis. </s>
-	<s id='3'>Puisque les autres comédiens en disent du mal, il faut les en croire assurément. </s>
-	<s id='4'>Ce sont tous gens éclairés et qui parlent sans intérêt. </s>
-	<s id='5'>Il n'y a plus rien à dire, je me rends.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='43'>
-	<s id='1'>Rendez-vous, ou ne vous rendez pas, je sais fort bien que vous ne me persuaderez point de souffrir les immodesties de cette pièce, non plus que les satires désobligeantes qu'on y voit contre les femmes.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='44'>
-	<s id='1'>Pour moi, je me garderai bien de m'en offenser et de prendre rien sur mon compte de tout ce qui s'y dit. </s>
-	<s id='2'>Ces sortes de satires tombent directement sur les moeurs, et ne frappent les personnes que par réflexion. </s>
-	<s id='3'>N'allons point nous appliquer nous-mêmes les traits d'une censure générale ; et profitons de la leçon, si nous pouvons, sans faire semblant qu'on parle à nous. </s>
-	<s id='4'>Toutes les peintures ridicules qu'on expose sur les théâtres doivent être regardées sans chagrin de tout le monde. </s>
-	<s id='5'>Ce sont miroirs publics, où il ne faut jamais témoigner qu'on se voie ; et c'est se taxer hautement d'un défaut, que se scandaliser qu'on le reprenne.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='45'>
-	<s id='1'>Pour moi, je ne parle pas de ces choses par la part que j'y puisse avoir, et je pense que je vis d'un air dans le monde à ne pas craindre d'être cherchée dans les peintures qu'on fait là des femmes qui se gouvernent mal.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='46'>
-	<s id='1'>Assurément, Madame, on ne vous y cherchera point. </s>
-	<s id='2'>Votre conduite est assez connue, et ce sont de ces sortes de choses qui ne sont contestées de personne.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='47'>
-	<s id='1'>Aussi, Madame, n'ai-je rien dit qui aille à vous ; et mes paroles, comme les satires de la comédie, demeurent dans la thèse générale.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='48'>
-	<s id='1'>Je n'en doute pas, Madame. </s>
-	<s id='2'>Mais enfin passons sur ce chapitre. </s>
-	<s id='3'>Je ne sais pas de quelle façon vous recevez les injures qu'on dit à notre sexe dans un certain endroit de la pièce ; et pour moi, je vous avoue que je suis dans une colère épouvantable, de voir que cet auteur impertinent nous appelle des animaux.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='49'>
-	<s id='1'>Ne voyez-vous pas que c'est un ridicule qu'il fait parler ?</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='50'>
-	<s id='1'>Et puis, Madame, ne savez-vous pas que les injures des amants n'offensent jamais ? </s>
-	<s id='2'>Qu'il est des amours emportés aussi bien que des doucereux ? </s>
-	<s id='3'>Et qu'en de pareilles occasions les paroles les plus étranges, et quelque chose de pis encore, se prennent bien souvent pour des marques d'affection par celles mêmes qui les reçoivent ?</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='51'>
-	<s id='1'>Dites tout ce que vous voudrez, je ne saurais digérer cela, non plus que le potage et la tarte à la crème, dont Madame a parlé tantôt.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='52'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Ma foi, oui, tarte à la crème ! </s>
-	<s id='3'>Voilà ce que j'avais remarqué tantôt ; tarte à la crème ! </s>
-	<s id='4'>Que je vous suis obligé, Madame, de m'avoir fait souvenir de tarte à la crème ! </s>
-	<s id='5'>Y a-t-il assez de pommes en Normandie pour tarte à la crème ? </s>
-	<s id='6'>Tarte à la crème, morbleu ! </s>
-	<s id='7'>Tarte à la crème !</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='53'>
-	<s id='1'>Eh bien ! </s>
-	<s id='2'>Que veux-tu dire : tarte à la crème ?</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='54'>
-	<s id='1'>Parbleu ! </s>
-	<s id='2'>Tarte à la crème, Chevalier.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='55'>
-	<s id='1'>Mais encore ?</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='56'>
-	<s id='1'>Tarte à la crème !</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='57'>
-	<s id='1'>Dis-nous un peu tes raisons.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='58'>
-	<s id='1'>Tarte à la crème !</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='59'>
-	<s id='1'>Mais il faut expliquer sa pensée, ce me semble.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='60'>
-	<s id='1'>Tarte à la crème, Madame !</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='61'>
-	<s id='1'>Que trouvez-vous là à redire ?</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='62'>
-	<s id='1'>Moi, rien. </s>
-	<s id='2'>Tarte à la crème !</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='63'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Je le quitte !</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='64'>
-	<s id='1'>Monsieur le Marquis s'y prend bien, et vous bourre de la belle manière. </s>
-	<s id='2'>Mais je voudrois bien que Monsieur Lysidas voulût les achever et leur donner quelques petits coups de sa façon.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='65'>
-	<s id='1'>Ce n'est pas ma coutume de rien blâmer, et je suis assez indulgent pour les ouvrages des autres. </s>
-	<s id='2'>Mais, enfin, sans choquer l'amitié que Monsieur le Chevalier témoigne pour l'auteur, on m'avouera que ces sortes de comédies ne sont pas proprement des comédies, et qu'il y a une grande différence de toutes ces bagatelles à la beauté des pièces sérieuses. </s>
-	<s id='3'>Cependant tout le monde donne là dedans aujourd'hui : on ne court plus qu'à cela, et l'on voit une solitude effroyable aux grands ouvrages, lorsque des sottises ont tout Paris. </s>
-	<s id='4'>Je vous avoue que le coeur m'en saigne quelquefois, et cela est honteux pour la France.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='66'>
-	<s id='1'>Il est vrai que le goût des gens est étrangement gâté là-dessus, et que le siècle s'encanaille furieusement.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='67'>
-	<s id='1'>Celui-là est joli encore, s'encanaille ! </s>
-	<s id='2'>Est-ce vous qui l'avez inventé, Madame ?</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='68'>
-	<s id='1'>Hé !</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='69'>
-	<s id='1'>Je m'en suis bien doutée.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='70'>
-	<s id='1'>Vous croyez donc, Monsieur Lysidas, que tout l'esprit et toute la beauté sont dans les poèmes sérieux, et que les pièces comiques sont des niaiseries qui ne méritent aucune louange ?</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='71'>
-	<s id='1'>Ce n'est pas mon sentiment, pour moi. </s>
-	<s id='2'>La tragédie, sans doute, est quelque chose de beau quand elle est bien touchée ; mais la comédie a ses charmes, et je tiens que l'une n'est pas moins difficile à faire que l'autre.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='72'>
-	<s id='1'>Assurément, Madame ; et quand, pour la difficulté, vous mettriez un plus du côté de la comédie, peut-être que vous ne vous abuseriez pas. </s>
-	<s id='2'>Car enfin, je trouve qu'il est bien plus aisé de se guinder sur de grands sentiments, de braver en vers la Fortune, accuser les Destins, et dire des injures aux Dieux, que d'entrer comme il faut dans le ridicule des hommes, et de rendre agréablement sur le théâtre des défauts de tout le monde. </s>
-	<s id='3'>Lorsque vous peignez des héros, vous faites ce que vous voulez. </s>
-	<s id='4'>Ce sont des portraits à plaisir, où l'on ne cherche point de ressemblance ; et vous n'avez qu'à suivre les traits d'une imagination qui se donne l'essor, et qui souvent laisse le vrai pour attraper le merveilleux. </s>
-	<s id='5'>Mais lorsque vous peignez les hommes, il faut peindre d'après nature. </s>
-	<s id='6'>On veut que ces portraits ressemblent ; et vous n'avez rien fait, si vous n'y faites reconnaître les gens de votre siècle. </s>
-	<s id='7'>En un mot, dans les pièces sérieuses, il suffit, pour n'être point blâmé, de dire des choses qui soient de bon sens et bien écrites ; mais ce n'est pas assez dans les autres, il y faut plaisanter ; et c'est une étrange entreprise que celle de faire rire les honnêtes gens.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='73'>
-	<s id='1'>Je crois être du nombre des honnêtes gens ; et cependant je n'ai pas trouvé le mot pour rire dans tout ce que j'ai vu.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='74'>
-	<s id='1'>Ma foi, ni moi non plus.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='75'>
-	<s id='1'>Pour toi, Marquis, je ne m'en étonne pas : c'est que tu n'y as point trouvé de turlupinades.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='76'>
-	<s id='1'>Ma foi, Monsieur, ce qu'on y rencontre ne vaut guère mieux, et toutes les plaisanteries y sont assez froides à mon avis.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='77'>
-	<s id='1'>La Cour n'a pas trouvé cela.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='78'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Monsieur, la Cour !</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<note type="L">Point : se dit aussi de toutes sortes de passements, et particulièrement de fil fait à l'aiguille. Les points de Gênes, de Venise, d'Angleterre ont été défendus en France. On fait maintenant [XVIIème] des points de France et de Paris. [F]</note>
-<p id='79'>
-	<s id='1'>Achevez, Monsieur Lysidas. </s>
-	<s id='2'>Je vois bien que vous voulez dire que la cour ne se connaît pas à ces choses ; et c'est le refuge ordinaire de vous autres, Messieurs les auteurs, dans le mauvais succès de vos ouvrages, que d'accuser l'injustice du siècle et le peu de lumière des courtisans. </s>
-	<s id='3'>Sachez, s'il vous plaît, Monsieur Lysidas, que les courtisans ont d'aussi bons yeux que d'autres ; qu'on peut être habile avec un point de Venise et des plumes, aussi bien qu'avec une perruque courte et un petit rabat uni ; que la grande épreuve de toutes vos comédies, c'est le jugement de la cour ; que c'est son goût qu'il faut étudier pour trouver l'art de réussir ; qu'il n'y a point de lieu où les décisions soient si justes ; et sans mettre en ligne de compte tous les gens savants qui y sont, que, du simple bons sens naturel et du commerce de tout le beau monde, on s'y fait une manière d'esprit, qui sans comparaison juge plus finement des choses que tout le savoir enrouillé des pédants.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='80'>
-	<s id='1'>Il est vrai que, pour peu qu'on y demeure, il vous passe là tous les jours assez de choses devant les yeux pour acquérir quelque habitude de les connaître, et surtout pour ce qui est de la bonne et mauvaise plaisanterie.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='81'>
-	<s id='1'>La Cour a quelques ridicules, j'en demeure d'accord, et je suis, comme on voit, le premier à les fronder. </s>
-	<s id='2'>Mais, ma foi, il y en a un grand nombre parmi les beaux esprits de profession ; et si l'on joue quelques marquis, je trouve qu'il y a bien plus de quoi jouer les auteurs, et que ce serait une chose plaisante à mettre sur le théâtre que leurs grimaces savantes et leurs raffinements ridicules, leur vicieuse coutume d'assassiner les gens de leurs ouvrages, leur friandise de louanges, leurs ménagements de pensées, leur trafic de réputation, et leurs ligues offensives et défensives, aussi bien que leurs guerres d'esprit, et leurs combats de prose et de vers.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='82'>
-	<s id='1'>Molière est bien heureux, Monsieur, d'avoir un protecteur aussi chaud que vous. </s>
-	<s id='2'>Mais enfin, pour venir au fait, il est question de savoir si sa pièce est bonne, et je m'offre d'y montrer partout cent défauts visibles.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='83'>
-	<s id='1'>C'est une étrange chose de vous autres Messieurs les poètes, que vous condamniez toujours les pièces où tout le monde court, et ne disiez jamais du bien que de celles où personne ne va. </s>
-	<s id='2'>Vous montrez pour les unes une haine invincible, et pour les autres une tendresse qui n'est pas concevable.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='84'>
-	<s id='1'>C'est qu'il est généreux de se ranger du côté des affligés.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='85'>
-	<s id='1'>Mais, de grâce, Monsieur Lysidas, faites-nous voir ces défauts dont je ne me suis point aperçue.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<note type="C">Aristote et Horace sont tous deux auteurs d'une Poétique et d'un Art poétique qui font autorité au XVIIème siècle.</note>
-<p id='86'>
-	<s id='1'>Ceux qui possèdent Aristote et Horace voient d'abord, Madame, que cette comédie pèche contre toutes les règles de l'art.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='87'>
-	<s id='1'>Je vous avoue que je n'ai aucune habitude avec ces Messieurs-là, et que je ne sais point les règles de l'art.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='88'>
-	<s id='1'>Vous êtes de plaisantes gens avec vos règles, dont vous embarrassez les ignorants et nous étourdissez tous les jours. </s>
-	<s id='2'>Il semble, à vous ouïr parler, que ces règles de l'art soient les plus grands mystères du monde ; et cependant ce ne sont que quelques observations aisées, que le bon sens a faites sur ce qui peut ôter le plaisir que l'on prend à ces sortes de poèmes ; et le même bon sens qui a fait autrefois ces observations les fait aisément tous les jours sans le secours d'Horace et d'Aristote. </s>
-	<s id='3'>Je voudrais bien savoir si la grande règle de toutes les règles n'est pas de plaire, et si une pièce de théâtre qui a attrapé son but n'a pas suivi un bon chemin. </s>
-	<s id='4'>Veut-on que tout un public s'abuse sur ces sortes de choses, et que chacun n'y soit pas juge du plaisir qu'il y prend ?</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='89'>
-	<s id='1'>J'ai remarqué une chose de ces Messieurs-là : c'est que ceux qui parlent le plus des règles, et qui les savent mieux que les autres, font des comédies que personne ne trouve belles.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<note type="L">Chicane : abus de procédures judiciaires, quand on s'en sert pour délayer, tromper ou surprendre les juges ou les parties. Se dit encore de toutes les dipiutes et contestations qui se font dans les affaires et négociations civiles. [F] L'un des personnages de la comédie de Plaideurs de Racine est Chicanneau.</note>
-<p id='90'>
-	<s id='1'>Et c'est ce qui marque, Madame, comme on doit s'arrêter peu à leurs disputes embarrassées. </s>
-	<s id='2'>Car enfin, si les pièces qui sont selon les règles ne plaisent pas et que celles qui plaisent ne soient pas selon les règles, il faudrait de nécessité que les règles eussent été mal faites. </s>
-	<s id='3'>Moquons-nous donc de cette chicane où ils veulent assujettir le goût du public, et ne consultons dans une comédie que l'effet qu'elle fait sur nous. </s>
-	<s id=''>Laissons-nous aller de bonne foi aux choses qui nous prennent par les entrailles, et ne cherchons point de raisonnements pour nous empêcher d'avoir du plaisir.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='91'>
-	<s id='1'>Pour moi, quand je vois une comédie, je regarde seulement si les choses me touchent ; et, lorsque je m'y suis bien divertie, je ne vais point demander si j'ai eu tort, et si les règles d'Aristote me défendaient de rire.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='92'>
-	<s id='1'>C'est justement comme un homme qui aurait trouvé une sauce excellente, et qui voudrait examiner si elle est bonne sur les préceptes du Cuisinier français.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='93'>
-	<s id='1'>Il est vrai ; et j'admire les raffinements de certaines gens sur des choses que nous devons sentir par nous-mêmes.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='94'>
-	<s id='1'>Vous avez raison, Madame, de les trouver étranges, tous ces raffinements mystérieux. </s>
-	<s id='2'>Car enfin, s'ils ont lieu, nous voilà réduits à ne nous plus croire ; nos propres sens seront esclaves en toutes choses ; et, jusques au manger et au boire, nous n'oserons plus trouver rien de bon, sans le congé de Messieurs les experts.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='95'>
-	<s id='1'>Enfin, Monsieur, toute votre raison, c'est que L'École des femmes a plu ; et vous ne vous souciez point qu'elle soit dans les règles, pourvu...</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='96'>
-	<s id='1'>Tout beau, Monsieur Lysidas, je ne vous accorde pas cela. </s>
-	<s id='2'>Je dis bien que le grand art est de plaire, et que cette comédie ayant plu à ceux pour qui elle est faite, je trouve que c'est assez pour elle et qu'elle doit peu se soucier du reste. </s>
-	<s id='3'>Mais, avec cela, je soutiens qu'elle ne pèche contre aucune des règles dont vous parlez. </s>
-	<s id='4'>Je les ai lues, Dieu merci, autant qu'un autre ; et je ferais voir aisément que peut-être n'avons-nous point de pièce au théâtre plus régulière que celle-là.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='97'>
-	<s id='1'>Courage, Monsieur Lysidas ! </s>
-	<s id='2'>Nous sommes perdus si vous reculez.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<note type="L">Protase : c'est la première partie d'un poème dramatique qui epxlique au peuple le sujet ou l'argument de la pièce : ce qui arrive 1er et 2nd acte ; Épitase : qui se dit de la seconde partie du poème dramatique, où se fait le progrès de l'action qu'on représente, et le noeud de la pièce : ce qui arrive au 3ème et 4ème acte.</note>
-<note type="L">Péripétie : c'est la dernière partie des pièces dramatiques, où se fait le changement de l'action et où toute le pièce aboutit. On l'appelle dans les pièces comiques le dénouement, et dans les tragiques Catastrophe, où il y a d'ordinaire quelque évenement funeste ou sanglant. [F]</note>
-<p id='98'>
-	<s id='1'>Quoi ? </s>
-	<s id='2'>Monsieur, la protase, l'épitase, et la péripétie ?...</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='99'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Monsieur Lysidas, vous nous assommez avec vos grands mots. </s>
-	<s id='3'>Ne paraissez point si savant, de grâce. </s>
-	<s id='4'>Humanisez votre discours, et parlez pour être entendu. </s>
-	<s id='5'>Pensez-vous qu'un nom grec donne plus de poids à vos raisons ? </s>
-	<s id='6'>Et ne trouveriez-vous pas qu'il fût aussi beau de dire l'exposition du sujet, que la protase, le noeud, que l'épitase, et le dénouement, que la péripétie ?</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='100'>
-	<s id='1'>Ce sont termes de l'art dont il est permis de se servir. </s>
-	<s id='2'>Mais, puisque ces mots blessent vos oreilles, je m'expliquerai d'une autre façon, et je vous prie de répondre positivement à trois ou quatre choses que je vais dire. </s>
-	<s id='3'>Peut-on souffrir une pièce qui pèche contre le nom propre des pièces de théâtre ? </s>
-	<s id='4'>Car enfin, le nom de poème dramatique vient d'un mot grec qui signifie agir, pour montrer que la nature de ce poème consiste dans l'action ; et dans cette comédie-ci, il ne se passe point d'actions, et tout consiste en des récits que vient faire ou Agnès ou Horace.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='101'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Ah ! </s>
-	<s id='3'>Chevalier.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='102'>
-	<s id='1'>Voilà qui est spirituellement remarqué, et c'est prendre le fin des choses.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='103'>
-	<s id='1'>Est-il rien de si peu spirituel, ou, pour mieux dire, rien de si bas, que quelques mots où tout le monde rit, et surtout celui des enfants par l'oreille ?</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='104'>
-	<s id='1'>Fort bien.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='105'>
-	<s id='1'>Ah !</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='106'>
-	<s id='1'>La scène du valet et de la servante au dedans de la maison, n'est-elle pas d'une longueur ennuyeuse, et tout à fait impertinente ?</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='107'>
-	<s id='1'>Cela est vrai.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='108'>
-	<s id='1'>Assurément.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='109'>
-	<s id='1'>Il a raison.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='110'>
-	<s id='1'>Arnolphe ne donne-t-il pas trop librement son argent à Horace ? </s>
-	<s id='2'>Et puisque c'est le personnage ridicule de la pièce, fallait-il lui faire faire l'action d'un honnête homme ?</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='111'>
-	<s id='1'>Bon. </s>
-	<s id='2'>La remarque est encore bonne.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='112'>
-	<s id='1'>Admirable.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='113'>
-	<s id='1'>Merveilleuse.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='114'>
-	<s id='1'>Le sermon et les Maximes ne sont-elles pas des choses ridicules, et qui choquent même le respect que l'on doit à nos mystères ?</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='115'>
-	<s id='1'>C'est bien dit.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='116'>
-	<s id='1'>Voilà parlé comme il faut.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='117'>
-	<s id='1'>Il ne se peut rien de mieux.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='118'>
-	<s id='1'>Et ce Monsieur de la Souche enfin, qu'on nous fait un homme d'esprit, et qui paraît si sérieux en tant d'endroits, ne descend-il point dans quelque chose de trop comique et de trop outré au cinquième acte, lorsqu'il explique à Agnès la violence de son amour, avec ces roulements d'yeux extravagants, ces soupirs ridicules, et ces larmes niaises qui font rire tout le monde ?</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='119'>
-	<s id='1'>Morbleu ! </s>
-	<s id='2'>Merveille !</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='120'>
-	<s id='1'>Miracle !</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='121'>
-	<s id='1'>Vivat ! </s>
-	<s id='2'>Monsieur Lysidas.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='122'>
-	<s id='1'>Je laisse cent mille autres choses, de peur d'être ennuyeux.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='123'>
-	<s id='1'>Parbleu ! </s>
-	<s id='2'>Chevalier, te voilà mal ajusté.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='124'>
-	<s id='1'>Il faut voir.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='125'>
-	<s id='1'>Tu as trouvé ton homme, ma foi !</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='126'>
-	<s id='1'>Peut-être.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='127'>
-	<s id='1'>Réponds, réponds, réponds, réponds.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='128'>
-	<s id='1'>Volontiers. </s>
-	<s id='2'>Il...</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='129'>
-	<s id='1'>Réponds donc, je te prie.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='130'>
-	<s id='1'>Laisse-moi donc faire. </s>
-	<s id='2'>Si...</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='131'>
-	<s id='1'>Parbleu ! </s>
-	<s id='2'>Je te défie de répondre.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='132'>
-	<s id='1'>Oui, si tu parles toujours.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='133'>
-	<s id='1'>De grâce, écoutons ses raisons.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='134'>
-	<s id='1'>Premièrement, il n'est pas vrai de dire que toute la pièce n'est qu'en récits. </s>
-	<s id='2'>On y voit beaucoup d'actions qui se passent sur la scène, et les récits eux-mêmes y sont des actions, suivant la constitution du sujet ; d'autant qu'ils sont tous faits innocemment, ces récits, à la personne intéressée, qui par là entre, à tous coups, dans une confusion à réjouir les spectateurs, et prend, à chaque nouvelle, toutes les mesures qu'il peut pour se parer du malheur qu'il craint.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='135'>
-	<s id='1'>Pour moi, je trouve que la beauté du sujet de L'École des femmes consiste dans cette confidence perpétuelle ; et ce qui me paraît assez plaisant, c'est qu'un homme qui a de l'esprit, et qui est averti de tout par une innocente qui est sa maîtresse, et par un étourdi qui est son rival, ne puisse avec cela éviter ce qui lui arrive.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='136'>
-	<s id='1'>Bagatelle, bagatelle.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='137'>
-	<s id='1'>Faible réponse.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='138'>
-	<s id='1'>Mauvaises raisons.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='139'>
-	<s id='1'>Pour ce qui est des enfants par l'oreille, ils ne sont plaisants que par réflexion à Arnolphe ; et l'auteur n'a pas mis cela pour être de soi un bon mot, mais seulement pour une chose qui caractérise l'homme, et peint d'autant mieux son extravagance, puisqu'il rapporte une sottise triviale qu'a dite Agnès comme la chose la plus belle du monde, et qui lui donne une joie inconcevable.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='140'>
-	<s id='1'>C'est mal répondre.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='141'>
-	<s id='1'>Cela ne satisfait point.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='142'>
-	<s id='1'>C'est ne rien dire.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='143'>
-	<s id='1'>Quant à l'argent qu'il donne librement, outre que la lettre de son meilleur ami lui est une caution suffisante, il n'est pas incompatible qu'une personne soit ridicule en de certaines choses et honnête homme en d'autres. </s>
-	<s id='2'>Et pour la scène d'Alain et de Georgette dans le logis, que quelques-uns ont trouvée longue et froide, il est certain qu'elle n'est pas sans raison, et de même qu'Arnolphe se trouve attrapé, pendant son voyage, par la pure innocence de sa maîtresse, il demeure, au retour, longtemps à sa porte par l'innocence de ses valets, afin qu'il soit partout puni par les choses qu'il a cru faire la sûreté de ses précautions.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='144'>
-	<s id='1'>Voilà des raisons qui ne valent rien.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='145'>
-	<s id='1'>Tout cela ne fait que blanchir.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='146'>
-	<s id='1'>Cela fait pitié.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='147'>
-	<s id='1'>Pour le discours moral que vous appelez un sermon, il est certain que de vrais dévots qui l'ont ouï n'ont pas trouvé qu'il choquât ce que vous dites ; et sans doute que ces paroles d'enfer et de chaudières bouillantes sont assez justifiées par l'extravagance d'Arnolphe et par l'innocence de celle à qui il parle. </s>
-	<s id='2'>Et quant au transport amoureux du cinquième acte, qu'on accuse d'être trop outré et trop comique, je voudrais bien savoir si ce n'est pas faire la satire des amants, et si les honnêtes gens même et les plus sérieux, en de pareilles occasions, ne font pas des choses... ?</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='148'>
-	<s id='1'>Ma foi, Chevalier, tu ferais mieux de te taire.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='149'>
-	<s id='1'>Fort bien. </s>
-	<s id='2'>Mais enfin si nous nous regardions nous-mêmes, quand nous sommes bien amoureux... ?</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='150'>
-	<s id='1'>Je ne veux pas seulement t'écouter.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='151'>
-	<s id='1'>Écoute-moi, si tu veux. </s>
-	<s id='2'>Est-ce que dans la violence de la passion... ?</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='152'>
-	<s id='1'>La, la, la, la, lare, la, la, la, la, la, la.</s>
-</p>
-<stage>Il chante.</stage>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='153'>
-	<s id='1'>Quoi... ?</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='154'>
-	<s id='1'>La, la, la, la, lare, la, la, la, la, la, la.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='155'>
-	<s id='1'>Je ne sais pas si...</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='156'>
-	<s id='1'>La, la, la, la, lare, la, la, la, la, la, la, la.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='157'>
-	<s id='1'>Il me semble que...</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='158'>
-	<s id=''>La, la, la, lare, la, la, la, la, la, la, la, la, la, la.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='159'>
-	<s id='1'>Il se passe des choses assez plaisantes dans notre dispute. </s>
-	<s id='2'>Je trouve qu'on en pourrait bien faire une petite comédie, et que cela ne serait pas trop mal à la queue de L'École des femmes.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='160'>
-	<s id='1'>Vous avez raison.</s>
-</p>
-</sp>
-<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
-<p id='161'>
-	<s id='1'>Parbleu ! </s>
-	<s id='2'>Chevalier, tu jouerais là-dedans un rôle qui ne te serait pas avantageux.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='162'>
-	<s id='1'>Il est vrai, Marquis.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='163'>
-	<s id='1'>Pour moi, je souhaiterais que cela se fît, pourvu qu'on traitât l'affaire comme elle s'est passée.</s>
-</p>
-</sp>
-<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
-<p id='164'>
-	<s id='1'>Et moi, je fournirais de bon coeur mon personnage.</s>
-</p>
-</sp>
-<sp who='LYSIDAS'><speaker>LYSIDAS.</speaker>
-<p id='165'>
-	<s id='1'>Je ne refuserais pas le mien, que je pense.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='166'>
-	<s id='1'>Puisque chacun en seroit content, Chevalier, faites un mémoire de tout, et le donnez à Molière, que vous connaissez, pour le mettre en comédie.</s>
-</p>
-</sp>
-<sp who='CLIMÈNE'><speaker>CLIMÈNE.</speaker>
-<p id='167'>
-	<s id='1'>Il n'aurait garde, sans doute, et ce ne serait pas des vers à sa louange.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='168'>
-	<s id='1'>Point, point ; je connais son humeur : il ne se soucie pas qu'on fronde ses pièces, pourvu qu'il y vienne du monde.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='169'>
-	<s id='1'>Oui. </s>
-	<s id='2'>Mais quel dénouement pourrait-il trouver à ceci ? </s>
-	<s id='3'>Car il ne saurait y avoir ni mariage, ni reconnaissance ; et je ne sais point par où l'on pourrait faire finir la dispute.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='170'>
-	<s id='1'>Il faudrait rêver quelque incident pour cela.</s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='7'><head>SCÈNE VII. Galopin, Lysidas, Dorante, Le Marquis, Climène, Elise, Uranie.</head>
-<sp who='GALOPIN'><speaker>GALOPIN.</speaker>
-<p id='1'>
-	<s id='1'>Madame, on a servi sur table.</s>
-</p>
-</sp>
-<sp who='DORANTE'><speaker>DORANTE.</speaker>
-<p id='2'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Voilà justement ce qu'il faut pour le dénouement que nous cherchions, et l'on ne peut rien trouver de plus naturel. </s>
-	<s id='3'>On disputera fort et ferme de part et d'autre, comme nous avons fait, sans que personne se rende ; un petit laquais viendra dire qu'on a servi ; on se lèvera, et chacun ira souper.</s>
-</p>
-</sp>
-<sp who='URANIE'><speaker>URANIE.</speaker>
-<p id='3'>
-	<s id='1'>La comédie ne peut pas mieux finir, et nous ferons bien d'en demeurer là.</s>
-</p>
-</sp>
-</div2>
-</div1>
-</body>
-</text>
-</TEI.2>
+<p>De Votre MajestÃ©, </p>
+<p>Le trÃ¨s humble, trÃ¨s obÃ©issant et trÃ¨s fidÃ¨le serviteur et sujet, </p>
+<signature>J.-B. P. MoliÃ¨re. </signature>
+</epitre>
+      <castList>
+        <head>PERSONNAGES</head>
+        <castItem><role id="URANIE" civil="F" type="H" statut="aristocrate" age="A" stat_amour="nÃ©ant">URANIE</role>.</castItem>
+        <castItem><role id="Ã‰LISE" civil="F" type="H" statut="aristocrate" age="A" stat_amour="nÃ©ant">Ã‰LISE</role>.</castItem>
+        <castItem><role id="CLIMÃˆNE" civil="F" type="H" statut="aristocrate" age="A" stat_amour="nÃ©ant">CLIMÃˆNE</role>.</castItem>
+        <castItem><role id="GALOPIN" civil="M" type="H" statut="laquais" age="A" stat_amour="nÃ©ant">GALOPIN</role>, laquais.</castItem>
+        <castItem><role id="LE-MARQUIS" civil="M" type="H" statut="marquis" age="A" stat_amour="nÃ©ant">LE MARQUIS</role>.</castItem>
+        <castItem><role id="DORANTE" civil="M" type="H" statut="chevalier" age="A" stat_amour="nÃ©ant">DORANTE</role>, ou le Chevalier.</castItem>
+        <castItem><role id="LYSIDAS" civil="M" type="H" statut="poÃ¨te" age="A" stat_amour="nÃ©ant">LYSIDAS</role>, poÃ¨te.</castItem>
+      </castList>
+      <set location="(non indiquÃ©)" country="France" periode="XVIIÃ¨me" link="">[Le Lieu de l'action n'est pas indiquÃ©.]</set>
+    </front>
+    <body>
+      <div1 type="act" xml:id="I">
+        <div2 type="scene" xml:id="I01">
+          <head>SCÃˆNE PREMIÃˆRE.</head>
+          <stage>Uranie, Ã‰lise.</stage>
+          <sp who="uranie" xml:id="I01-1">
+            <speaker>uranie</speaker>
+            <p>Quoi, Cousine, personne ne tâ€™est venu rendre visiteÂ ?</p>
+          </sp>
+          <sp who="elise" xml:id="I01-2">
+            <speaker>Ã©lise</speaker>
+            <p>Personne du monde.</p>
+          </sp>
+          <sp who="uranie" xml:id="I01-3">
+            <speaker>uranie</speaker>
+            <p>Vraiment voilÃ  qui mâ€™Ã©tonne, que nous ayons Ã©tÃ© seules, lâ€™une et lâ€™autre, tout aujourdâ€™hui.</p>
+          </sp>
+          <sp who="elise" xml:id="I01-4">
+            <speaker>Ã©lise</speaker>
+            <p>Cela mâ€™Ã©tonne aussi; car ce nâ€™est guÃ¨re notre coutume, et votre maison, Dieu merci, est le refuge ordinaire de tous les FainÃ©ants de la cour.</p>
+          </sp>
+          <sp who="uranie" xml:id="I01-5">
+            <speaker>uranie</speaker>
+            <p>Lâ€™aprÃ¨s-dÃ®nÃ©e, Ã  dire vrai, mâ€™a semblÃ© fort longue.</p>
+          </sp>
+          <sp who="elise" xml:id="I01-6">
+            <speaker>Ã©lise</speaker>
+            <p>Et moi je lâ€™ai trouvÃ©e fort courte.</p>
+          </sp>
+          <sp who="uranie" xml:id="I01-7">
+            <speaker>uranie </speaker>
+            <p>Câ€™est que les beaux esprits, Cousine, aiment la solitude.</p>
+          </sp>
+          <sp who="elise" xml:id="I01-8">
+            <speaker>Ã©lise</speaker>
+            <p>AhÂ ! trÃ¨s humble servante au bel esprit, vous savez que ce nâ€™est pas lÃ  que je vise.</p>
+          </sp>
+          <sp who="uranie" xml:id="I01-9">
+            <speaker>uranie</speaker>
+            <p>Pour moi jâ€™aime la compagnie, je lâ€™avoue.</p>
+          </sp>
+          <sp who="elise" xml:id="I01-10">
+            <speaker>Ã©lise </speaker>
+            <p>Je lâ€™aime aussiÂ ; mais je lâ€™aime choisie, et la quantitÃ© des sottes visites quâ€™il vous faut essuyer parmi les autres, est cause bien souvent que je prends plaisir dâ€™Ãªtre seule.</p>
+          </sp>
+          <sp who="uranie" xml:id="I01-11">
+            <speaker>uranie</speaker>
+            <p>La dÃ©licatesse est trop grande, de ne pouvoir souffrir que des gens triÃ©s.</p>
+          </sp>
+          <sp who="elise" xml:id="I01-12">
+            <speaker>Ã©lise</speaker>
+            <p>Et la complaisance est trop gÃ©nÃ©rale, de souffrir indiffÃ©remment toutes sortes de personnes.</p>
+          </sp>
+          <sp who="uranie" xml:id="I01-13">
+            <speaker>uranie</speaker>
+            <p>Je goÃ»te ceux qui sont raisonnables, et me divertis des extravagants.</p>
+          </sp>
+          <sp who="elise" xml:id="I01-14">
+            <speaker>Ã©lise</speaker>
+            <p>Ma foi, les extravagants ne vont guÃ¨re loin sans vous ennuyer, et la plupart de ces gens-lÃ  ne sont plus plaisants dÃ¨s la seconde visite. Mais Ã  propos dâ€™extravagants, ne voulez-vous pas me dÃ©faire de votre Marquis incommodeÂ ? pensez-vous me le laisser toujours sur les bras, et que je puisse durer Ã  ses turlupinades perpÃ©tuellesÂ ?</p>
+          </sp>
+          <sp who="uranie" xml:id="I01-15">
+            <speaker>uranie</speaker>
+            <p>Ce langage est Ã  la mode, et lâ€™on le tourne en plaisanterie Ã  la Cour.</p>
+          </sp>
+          <sp who="elise" xml:id="I01-16">
+            <speaker>Ã©lise</speaker>
+            <p>Tant pis pour ceux qui le font, et qui se tuent tout le jour Ã  parler ce jargon obscur. La belle chose de faire entrer aux conversations du Louvre de vieilles Ã©quivoques ramassÃ©es parmi les boues des Halles et de la place MaubertÂ ! La jolie faÃ§on de plaisanter pour des CourtisansÂ ! et quâ€™un homme montre dâ€™esprit lorsquâ€™il vient vous direÂ ; Madame, vous Ãªtes dans la place Royale, et tout le monde vous voit de trois lieues de Paris, car chacun vous voit de bon Å“il, Ã  cause que Boneuil est un village Ã  trois lieues dâ€™ici. Cela nâ€™est-il pas bien galant et bien spirituelÂ ; et ceux qui trouvent ces belles rencontres, nâ€™ont-ils pas lieu de sâ€™en glorifierÂ ?</p>
+          </sp>
+          <sp who="uranie" xml:id="I01-17">
+            <speaker>uranie</speaker>
+            <p>On ne dit pas cela aussi, comme une chose spirituelle, et la plupart de ceux qui affectent ce langage, savent bien eux-mÃªmes quâ€™il est ridicule.</p>
+          </sp>
+          <sp who="elise" xml:id="I01-18">
+            <speaker>Ã©lise</speaker>
+            <p>Tant pis encore, de prendre peine Ã  dire des sottises, et dâ€™Ãªtre mauvais plaisants de dessein formÃ©. Je les en tiens moins excusablesÂ ; et, si jâ€™en Ã©tais juge, je sais bien Ã  quoi je condamnerais tous ces Messieurs les Turlupins.</p>
+          </sp>
+          <sp who="uranie" xml:id="I01-19">
+            <speaker>uranie</speaker>
+            <p>Laissons cette matiÃ¨re, qui tâ€™Ã©chauffe un peu trop, et disons que Dorante vient bien tard, Ã  mon avis, pour le souper que nous devons faire ensemble.</p>
+          </sp>
+          <sp who="elise" xml:id="I01-20">
+            <speaker>Ã©lise</speaker>
+            <p>Peut-Ãªtre lâ€™a-t-il oubliÃ©, et queâ€¦</p>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I02">
+          <head>SCÃˆNE II.</head>
+          <stage>Galopin, Uranie, Ã‰lise.</stage>
+          <sp who="galopin" xml:id="I02-1">
+            <speaker>galopin</speaker>
+            <p>VoilÃ  ClimÃ¨ne, Madame, qui vient ici pour vous voir.</p>
+          </sp>
+          <sp who="uranie" xml:id="I02-2">
+            <speaker>uranie</speaker>
+            <p>Eh mon DieuÂ ! quelle visiteÂ !</p>
+          </sp>
+          <sp who="elise" xml:id="I02-3">
+            <speaker>Ã©lise </speaker>
+            <p>Vous vous plaigniez dâ€™Ãªtre seule, aussiÂ : le Ciel vous en punit.</p>
+          </sp>
+          <sp who="uranie" xml:id="I02-4">
+            <speaker>uranie</speaker>
+            <p>Vite, quâ€™on aille dire que je nâ€™y suis pas.</p>
+          </sp>
+          <sp who="galopin" xml:id="I02-5">
+            <speaker>galopin</speaker>
+            <p>On a dÃ©jÃ  dit que vous y Ã©tiez.</p>
+          </sp>
+          <sp who="uranie" xml:id="I02-6">
+            <speaker>uranie</speaker>
+            <p>Et qui est le sot, qui lâ€™a ditÂ ?</p>
+          </sp>
+          <sp who="galopin" xml:id="I02-7">
+            <speaker>galopin</speaker>
+            <p>Moi, Madame.</p>
+          </sp>
+          <sp who="uranie" xml:id="I02-8">
+            <speaker>uranie</speaker>
+            <p>Diantre soit le petit vilain. Je vous apprendrai bien Ã  faire vos rÃ©ponses de vous-mÃªme.</p>
+          </sp>
+          <sp who="galopin" xml:id="I02-9">
+            <speaker>galopin </speaker>
+            <p>Je vais lui dire, Madame, que vous voulez Ãªtre sortie.</p>
+          </sp>
+          <sp who="uranie" xml:id="I02-10">
+            <speaker>uranie</speaker>
+            <p>ArrÃªtez, animal, et la laissez monter, puisque la sottise est faite.</p>
+          </sp>
+          <sp who="galopin" xml:id="I02-11">
+            <speaker>galopin</speaker>
+            <p>Elle parle encore Ã  un homme dans la rue.</p>
+          </sp>
+          <sp who="uranie" xml:id="I02-12">
+            <speaker>uranie</speaker>
+            <p>AhÂ ! Cousine, que cette visite mâ€™embarrasse Ã  lâ€™heure quâ€™il est.</p>
+          </sp>
+          <sp who="elise" xml:id="I02-13">
+            <speaker>Ã©lise</speaker>
+            <p>Il est vrai que la Dame est un peu embarrassante de son naturel: jâ€™ai toujours eu pour elle une furieuse aversionÂ ; et, nâ€™en dÃ©plaise Ã  sa qualitÃ©, câ€™est la plus sotte bÃªte qui se soit jamais mÃªlÃ©e de raisonner.</p>
+          </sp>
+          <sp who="uranie" xml:id="I02-14">
+            <speaker>uranie </speaker>
+            <p>Lâ€™Ã©pithÃ¨te est un peu forte.</p>
+          </sp>
+          <sp who="elise" xml:id="I02-15">
+            <speaker>Ã©lise </speaker>
+            <p>Allez, allez, elle mÃ©rite bien cela, et quelque chose de plus, si on lui faisait justice. Est-ce quâ€™il y a une personne qui soit plus vÃ©ritablement quâ€™elle, ce quâ€™on appelle PrÃ©cieuse, Ã  prendre le mot dans sa plus mauvaise significationÂ ?</p>
+          </sp>
+          <sp who="uranie" xml:id="I02-16">
+            <speaker>uranie</speaker>
+            <p>Elle se dÃ©fend bien de ce nom, pourtant.</p>
+          </sp>
+          <sp who="elise" xml:id="I02-17">
+            <speaker>Ã©lise</speaker>
+            <p>Il est vrai, elle se dÃ©fend du nomÂ ; mais non pas de la choseÂ : car enfin elle lâ€™est depuis les pieds jusquâ€™Ã  la tÃªte, et la plus grande faÃ§onniÃ¨re du monde. Il semble que tout son corps soit dÃ©montÃ©, et que les mouvements de ses hanches, de ses Ã©paules, et de sa tÃªte, nâ€™aillent que par ressorts. Elle affecte toujours un ton de voix languissant, et niaisÂ ; fait la moue, pour montrer une petite bouche, et roule les yeux, pour les faire paraÃ®tre grands.</p>
+          </sp>
+          <sp who="uranie" xml:id="I02-18">
+            <speaker>uranie</speaker>
+            <p>Doucement donc, si elle venait Ã  entendreâ€¦</p>
+          </sp>
+          <sp who="elise" xml:id="I02-19">
+            <speaker>Ã©lise</speaker>
+            <p>Point, point, elle ne monte pas encore. Je me souviens toujours du soir quâ€™elle eut envie de voir Damon, sur la rÃ©putation quâ€™on lui donne, et les choses que le public a vues de lui. Vous connaissez lâ€™homme, et sa naturelle paresse Ã  soutenir la conversation. Elle lâ€™avait invitÃ© Ã  souper, comme bel esprit, et jamais il ne parut si sot, parmi une demi-douzaine de gens, Ã  qui elle avait fait fÃªte de lui, et qui le regardaient avec de grands yeux, comme une personne qui ne devait pas Ãªtre faite comme les autres. Ils pensaient tous quâ€™il Ã©tait lÃ  pour dÃ©frayer la Compagnie de bons motsÂ ; que chaque parole qui sortait de sa bouche devait Ãªtre extraordinaireÂ ; quâ€™il devait faire des Impromptus sur tout ce quâ€™on disait, et ne demander Ã  boire quâ€™avec une pointe. Mais il les trompa fort par son silenceÂ ; et la Dame fut aussi mal satisfaite de lui, que je le fus dâ€™elle.</p>
+          </sp>
+          <sp who="uranie" xml:id="I02-20">
+            <speaker>uranie</speaker>
+            <p>Tais-toiÂ ; je vais la recevoir Ã  la porte de la chambre.</p>
+          </sp>
+          <sp who="elise" xml:id="I02-21">
+            <speaker>Ã©lise</speaker>
+            <p>Encore un mot. Je voudrais bien la voir mariÃ©e avec le Marquis, dont nous avons parlÃ©. Le bel assemblage que ce serait dâ€™une PrÃ©cieuse, et dâ€™un TurlupinÂ !</p>
+          </sp>
+          <sp who="uranie" xml:id="I02-22">
+            <speaker>uranie</speaker>
+            <p>Veux-tu te taire; la voici.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I03">
+          <head>SCÃˆNE III.</head>
+          <stage>ClimÃ¨ne, Uranie, Ã‰lise, Galopin.</stage>
+          <sp who="uranie" xml:id="I03-1">
+            <speaker>uranie</speaker>
+            <p>Vraiment, câ€™est bien tard queâ€¦</p>
+          </sp>
+          <sp who="climene" xml:id="I03-2">
+            <speaker>climÃ¨ne</speaker>
+            <p>Eh de grÃ¢ce, ma chÃ¨re, faites-moi vite donner un siÃ¨ge.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-3">
+            <speaker>uranie</speaker>
+            <p>Un fauteuil, promptement.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-4">
+            <speaker>climÃ¨ne</speaker>
+            <p>Ah mon DieuÂ !</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-5">
+            <speaker>uranie</speaker>
+            <p>Quâ€™est-ce doncÂ ?</p>
+          </sp>
+          <sp who="climene" xml:id="I03-6">
+            <speaker>climÃ¨ne </speaker>
+            <p>Je nâ€™en puis plus.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-7">
+            <speaker>uranie</speaker>
+            <p>Quâ€™avez-vousÂ ?</p>
+          </sp>
+          <sp who="climene" xml:id="I03-8">
+            <speaker>climÃ¨ne</speaker>
+            <p>Le cÅ“ur me manque.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-9">
+            <speaker>uranie </speaker>
+            <p>Sont-ce vapeurs, qui vous ont priseÂ ?</p>
+          </sp>
+          <sp who="climene" xml:id="I03-10">
+            <speaker>climÃ¨ne</speaker>
+            <p>Non.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-11">
+            <speaker>uranie</speaker>
+            <p>Voulez-vous, que lâ€™on vous dÃ©lasseÂ ?</p>
+          </sp>
+          <sp who="climene" xml:id="I03-12">
+            <speaker>climÃ¨ne</speaker>
+            <p>Mon Dieu non. AhÂ !</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-13">
+            <speaker>uranie </speaker>
+            <p>Quel est donc votre malÂ ? et depuis quand vous a-t-il prisÂ ?</p>
+          </sp>
+          <sp who="climene" xml:id="I03-14">
+            <speaker>climÃ¨ne </speaker>
+            <p>Il y a plus de trois heures, et je lâ€™ai rapportÃ© du Palais-Royal.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-15">
+            <speaker>uranie</speaker>
+            <p>CommentÂ ?</p>
+          </sp>
+          <sp who="climene" xml:id="I03-16">
+            <speaker>climÃ¨ne</speaker>
+            <p>Je viens de voir, pour mes pÃ©chÃ©s, cette mÃ©chante Rapsodie de <hi rend="i">L</hi>â€™Ã‰cole des <hi rend="i">F</hi>emmes. Je suis encore en dÃ©faillance du mal de cÅ“ur, que cela mâ€™a donnÃ©, et je pense que je nâ€™en reviendrai de plus de quinze jours.</p>
+          </sp>
+          <sp who="elise" xml:id="I03-17">
+            <speaker>Ã©lise</speaker>
+            <p>Voyez un peu, comme les maladies arrivent sans quâ€™on y songe.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-18">
+            <speaker>uranie </speaker>
+            <p>Je ne sais pas de quel tempÃ©rament nous sommes ma cousine et moiÂ ; mais nous fÃ»mes avant-hier Ã  la mÃªme PiÃ¨ce, et nous en revÃ®nmes toutes deux saines et gaillardes.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-19">
+            <speaker>climÃ¨ne</speaker>
+            <p>Quoi, vous lâ€™avez vueÂ ?</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-20">
+            <speaker>uranie</speaker>
+            <p>OuiÂ ; et Ã©coutÃ©e dâ€™un bout Ã  lâ€™autre.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-21">
+            <speaker>climÃ¨ne</speaker>
+            <p>Et vous nâ€™en avez pas Ã©tÃ© jusques aux convulsions, ma chÃ¨reÂ ?</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-22">
+            <speaker>uranie</speaker>
+            <p>Je ne suis pas si dÃ©licate, Dieu merciÂ ; et je trouve pour moi, que cette ComÃ©die serait plutÃ´t capable de guÃ©rir les gens, que de les rendre malades.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-23">
+            <speaker>climÃ¨ne</speaker>
+            <p>Ah mon Dieu, que dites-vous lÃ Â ! Cette proposition peut-elle Ãªtre avancÃ©e par une personne, qui ait du revenu en sens communÂ ? Peut-on, impunÃ©ment comme vous faites, rompre en visiÃ¨re Ã  la raisonÂ ? Et dans le vrai de la chose, est-il un esprit si affamÃ© de plaisanterie, quâ€™il puisse tÃ¢ter des fadaises dont cette comÃ©die est assaisonnÃ©eÂ ? Pour moi, je vous avoue, que je nâ€™ai pas trouvÃ© le moindre grain de sel dans tout cela. Les enfants par lâ€™oreille mâ€™ont paru dâ€™un goÃ»t dÃ©testableÂ ; la tarte Ã  la crÃ¨me mâ€™a affadi le cÅ“urÂ ; et jâ€™ai pensÃ© vomir au potage.</p>
+          </sp>
+          <sp who="elise" xml:id="I03-24">
+            <speaker>Ã©lise</speaker>
+            <p>Mon DieuÂ ! que tout cela est dit Ã©lÃ©gamment. Jâ€™aurais cru que cette piÃ¨ce Ã©tait bonneÂ ; mais Madame a une Ã©loquence si persuasive, elle tourne les choses dâ€™une maniÃ¨re si agrÃ©able, quâ€™il faut Ãªtre de son sentiment, malgrÃ© quâ€™on en ait.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-25">
+            <speaker>uranie </speaker>
+            <p>Pour moi je nâ€™ai pas tant de complaisance, et pour dire ma pensÃ©e, je tiens cette ComÃ©die une des plus plaisantes que lâ€™Auteur ait produites.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-26">
+            <speaker>climÃ¨ne</speaker>
+            <p>AhÂ ! vous me faites pitiÃ©, de parler ainsiÂ ; et je ne saurais vous souffrir cette obscuritÃ© de discernement. Peut-on, ayant de la vertu, trouver de lâ€™agrÃ©ment dans une PiÃ¨ce, qui tient sans cesse la pudeur en alarme, et salit Ã  tous moments lâ€™imaginationÂ ?</p>
+          </sp>
+          <sp who="elise" xml:id="I03-27">
+            <speaker>Ã©lise </speaker>
+            <p>Les jolies faÃ§ons de parler, que voilÃ Â ! Que vous Ãªtes, Madame, une rude joueuse en CritiqueÂ ; et que je plains le pauvre MoliÃ¨re de vous avoir pour ennemie.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-28">
+            <speaker>climÃ¨ne </speaker>
+            <p>Croyez-moi ma chÃ¨re, corrigez de bonne foi votre jugement, et pour votre honneur, nâ€™allez point dire par le monde que cette ComÃ©die vous ait plu.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-29">
+            <speaker>uranie</speaker>
+            <p>Moi, je ne sais pas ce que vous y avez trouvÃ© qui blesse la pudeur.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-30">
+            <speaker>climÃ¨ne</speaker>
+            <p>HÃ©las toutÂ ; et je mets en fait, quâ€™une honnÃªte femme ne la saurait voir, sans confusion; tant jâ€™y ai dÃ©couvert dâ€™ordures, et de saletÃ©s.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-31">
+            <speaker>uranie</speaker>
+            <p>Il faut donc que pour les ordures, vous ayez des lumiÃ¨res, que les autres nâ€™ont pas: car pour moi je nâ€™y en ai point vu.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-32">
+            <speaker>climÃ¨ne</speaker>
+            <p>C'est que vous ne voulez pas y en avoir vu, assurÃ©mentÂ : car enfin toutes ces ordures, Dieu merci, y sont Ã  visage dÃ©couvert. Elles nâ€™ont pas la moindre enveloppe qui les couvre; et les yeux les plus hardis sont effrayÃ©s de leur nuditÃ©.</p>
+          </sp>
+          <sp who="elise" xml:id="I03-33">
+            <speaker>Ã©lise </speaker>
+            <p>AhÂ !</p>
+          </sp>
+          <sp who="climene" xml:id="I03-34">
+            <speaker>climÃ¨ne</speaker>
+            <p>Hay, hay, hay.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-35">
+            <speaker>uranie</speaker>
+            <p>Mais encore, sâ€™il vous plaÃ®t, marquez-moi une de ces ordures que vous dites.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-36">
+            <speaker>climÃ¨ne</speaker>
+            <p>HÃ©lasÂ ! est-il nÃ©cessaire de vous les marquerÂ ?</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-37">
+            <speaker>uranie </speaker>
+            <p>OuiÂ : je vous demande seulement un endroit, qui vous ait fort choquÃ©e.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-38">
+            <speaker>climÃ¨ne</speaker>
+            <p>En faut-il dâ€™autre que la scÃ¨ne de cette AgnÃ¨s, lorsquâ€™elle dit ce que lâ€™on lui a prisÂ ?</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-39">
+            <speaker>uranie</speaker>
+            <p>Eh bien, que trouvez-vous lÃ  de saleÂ ?</p>
+          </sp>
+          <sp who="climene" xml:id="I03-40">
+            <speaker>climÃ¨ne</speaker>
+            <p>AhÂ !</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-41">
+            <speaker>uranie</speaker>
+            <p>De grÃ¢ceÂ ?</p>
+          </sp>
+          <sp who="climene" xml:id="I03-42">
+            <speaker>climÃ¨ne</speaker>
+            <p>Fi.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-43">
+            <speaker>uranie</speaker>
+            <p>Mais encoreÂ ?</p>
+          </sp>
+          <sp who="climene" xml:id="I03-44">
+            <speaker>climÃ¨ne</speaker>
+            <p>Je nâ€™ai rien Ã  vous dire.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-45">
+            <speaker>uranie</speaker>
+            <p>Pour moi, je nâ€™y entends point de mal.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-46">
+            <speaker>climÃ¨ne</speaker>
+            <p>Tant pis pour vous.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-47">
+            <speaker>uranie</speaker>
+            <p>Tant mieux plutÃ´t, ce me semble. Je regarde les choses du cÃ´tÃ© quâ€™on me les montreÂ ; et ne les tourne point, pour y chercher ce quâ€™il ne faut pas voir.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-48">
+            <speaker>climÃ¨ne</speaker>
+            <p>Lâ€™honnÃªtetÃ© dâ€™une femme...</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-49">
+            <speaker>uranie</speaker>
+            <p>Lâ€™honnÃªtetÃ© dâ€™une femme nâ€™est pas dans les grimaces. Il sied mal de vouloir Ãªtre plus sage, que celles qui sont sages. Lâ€™affectation en cette matiÃ¨re est pire quâ€™en toute autreÂ ; et je ne vois rien de si ridicule, que cette dÃ©licatesse dâ€™honneur, qui prend tout en mauvaise part; donne un sens criminel aux plus innocentes parolesÂ ; et sâ€™offense de lâ€™ombre des choses. Croyez-moi, celles qui font tant de faÃ§ons, nâ€™en sont pas estimÃ©es plus femmes de bien. Au contraire, leur sÃ©vÃ©ritÃ© mystÃ©rieuse, et leurs grimaces affectÃ©es irritent la censure de tout le monde, contre les actions de leur vie. On est ravi de dÃ©couvrir ce quâ€™il y peut avoir Ã  redireÂ ; et pour tomber dans lâ€™exemple, il y avait lâ€™autre jour des Femmes Ã  cette ComÃ©die, vis-Ã -vis de la Loge oÃ¹ nous Ã©tions, qui par les mines quâ€™elles affectÃ¨rent durant toute la PiÃ¨ceÂ ; leurs dÃ©tournements de tÃªte; et leurs cachements de visage, firent dire de tous cÃ´tÃ©s cent sottises de leur conduite, que lâ€™on nâ€™aurait pas dites sans celaÂ ; et quelquâ€™un mÃªme des Laquais cria tout haut, quâ€™elles Ã©taient plus chastes des oreilles que de tout le reste du corps.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-50">
+            <speaker>climÃ¨ne</speaker>
+            <p>Enfin il faut Ãªtre aveugle dans cette PiÃ¨ce, et ne pas faire semblant dâ€™y voir les choses.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-51">
+            <speaker>uranie</speaker>
+            <p>Il ne faut pas y vouloir voir ce qui nâ€™y est pas.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-52">
+            <speaker>climÃ¨ne</speaker>
+            <p>AhÂ ! je soutiens, encore un coup, que les saletÃ©s y crÃ¨vent les yeux.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-53">
+            <speaker>uranie</speaker>
+            <p>Et moi, je ne demeure pas dâ€™accord de cela.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-54">
+            <speaker>climÃ¨ne</speaker>
+            <p>Quoi la pudeur nâ€™est pas visiblement blessÃ©e par ce que dit AgnÃ¨s dans lâ€™endroit dont nous parlonsÂ ?</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-55">
+            <speaker>uranie </speaker>
+            <p>Non vraiment. Elle ne dit pas un mot, qui de soi ne soit fort honnÃªteÂ ; et si vous voulez entendre dessous quelque autre chose, câ€™est vous qui faites lâ€™ordure, et non pas elleÂ ; puisquâ€™elle parle seulement dâ€™un ruban quâ€™on lui a pris.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-56">
+            <speaker>climÃ¨ne</speaker>
+            <p>AhÂ ! ruban, tant quâ€™il vous plairaÂ ; mais ce, <hi rend="i">le</hi>, oÃ¹ elle sâ€™arrÃªte, nâ€™est pas mis pour des prunes. Il vient sur ce, l<hi rend="i">e</hi>, dâ€™Ã©tranges pensÃ©es. Ce, <hi rend="i">le</hi>, scandalise furieusementÂ ; et quoi que vous puissiez dire, vous ne sauriez dÃ©fendre lâ€™insolence de ce, <hi rend="i">le</hi>.</p>
+          </sp>
+          <sp who="elise" xml:id="I03-57">
+            <speaker>Ã©lise</speaker>
+            <p>Il est vrai, ma cousineÂ ; je suis pour Madame contre ce, <hi rend="i">le</hi>. Ce, <hi rend="i">le</hi>, est insolent au dernier point. Et vous avez tort de dÃ©fendre ce, <hi rend="i">le</hi>.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-58">
+            <speaker>climÃ¨ne</speaker>
+            <p>Il a une obscÃ©nitÃ© qui nâ€™est pas supportable.</p>
+          </sp>
+          <sp who="elise" xml:id="I03-59">
+            <speaker>Ã©lise</speaker>
+            <p>Comment dites-vous ce mot-lÃ , MadameÂ ?</p>
+          </sp>
+          <sp who="climene" xml:id="I03-60">
+            <speaker>climÃ¨ne</speaker>
+            <p>ObscÃ©nitÃ©, Madame.</p>
+          </sp>
+          <sp who="elise" xml:id="I03-61">
+            <speaker>Ã©lise</speaker>
+            <p>AhÂ ! mon DieuÂ ! <hi rend="i">o</hi>bscÃ©nitÃ©. Je ne sais ce que ce mot veut direÂ ; mais je le trouve le plus joli du monde.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-62">
+            <speaker>climÃ¨ne</speaker>
+            <p>Enfin vous voyez, comme votre sang prend mon parti.</p>
+          </sp>
+          <sp who="uranie" xml:id="I03-63">
+            <speaker>uranie</speaker>
+            <p>EhÂ ! mon Dieu; câ€™est une causeuse, qui ne dit pas ce quâ€™elle pense. Ne vous y fiez pas beaucoup, si vous mâ€™en voulez croire.</p>
+          </sp>
+          <sp who="elise" xml:id="I03-64">
+            <speaker>Ã©lise</speaker>
+            <p>AhÂ ! que vous Ãªtes mÃ©chante, de me vouloir rendre suspecte Ã  Madame. Voyez un peu oÃ¹ jâ€™en serais, si elle allait croire ce que vous dites. Serais-je si malheureuse, Madame, que vous eussiez de moi cette pensÃ©eÂ ?</p>
+          </sp>
+          <sp who="climene" xml:id="I03-65">
+            <speaker>climÃ¨ne</speaker>
+            <p>Non, non, je ne mâ€™arrÃªte pas Ã  ses paroles, et je vous crois plus sincÃ¨re, quâ€™elle ne dit.</p>
+          </sp>
+          <sp who="elise" xml:id="I03-66">
+            <speaker>Ã©lise</speaker>
+            <p>AhÂ ! que vous avez bien raison, MadameÂ ; et que vous me rendrez justice, quand vous croirez que je vous trouve la plus engageante personne du monde; que jâ€™entre dans tous vos sentiments, et suis charmÃ©e de toutes les expressions, qui sortent de votre boucheÂ !</p>
+          </sp>
+          <sp who="climene" xml:id="I03-67">
+            <speaker>climÃ¨ne</speaker>
+            <p>HÃ©lasÂ ! je parle sans affectation.</p>
+          </sp>
+          <sp who="elise" xml:id="I03-68">
+            <speaker>Ã©lise</speaker>
+            <p>On le voit bien, Madame, et que tout est naturel en vous. Vos paroles, le ton de votre voix, vos regards, vos pas, votre action, et votre ajustement ont je ne sais quel air de qualitÃ©, qui enchante les gens. Je vous Ã©tudie des yeux et des oreillesÂ ; et je suis si remplie de vous, que je tÃ¢che dâ€™Ãªtre votre singe, et de vous contrefaire en tout.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-69">
+            <speaker>climÃ¨ne</speaker>
+            <p>Vous vous moquez de moi, Madame.</p>
+          </sp>
+          <sp who="elise" xml:id="I03-70">
+            <speaker>Ã©lise</speaker>
+            <p>Pardonnez-moi, Madame. Qui voudrait se moquer de vousÂ ?</p>
+          </sp>
+          <sp who="climene" xml:id="I03-71">
+            <speaker>climÃ¨ne</speaker>
+            <p>Je ne suis pas un bon modÃ¨le, Madame.</p>
+          </sp>
+          <sp who="elise" xml:id="I03-72">
+            <speaker>Ã©lise</speaker>
+            <p>Oh que si, Madame.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-73">
+            <speaker>climÃ¨ne</speaker>
+            <p>Vous me flattez, Madame.</p>
+          </sp>
+          <sp who="elise" xml:id="I03-74">
+            <speaker>Ã©lise</speaker>
+            <p>Point du tout, Madame.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-75">
+            <speaker>climÃ¨ne</speaker>
+            <p>Ã‰pargnez-moi, sâ€™il vous plaÃ®t, Madame.</p>
+          </sp>
+          <sp who="elise" xml:id="I03-76">
+            <speaker>Ã©lise</speaker>
+            <p>Je vous Ã©pargne aussi, MadameÂ ; et je ne dis pas la moitiÃ© de ce que je pense, Madame.</p>
+          </sp>
+          <sp who="climene" xml:id="I03-77">
+            <speaker>climÃ¨ne</speaker>
+            <p>Ah mon DieuÂ ! brisons lÃ , de grÃ¢ceÂ : vous me jetteriez dans une confusion Ã©pouvantable.</p>
+            <stage>Ã€ Uranie.</stage>
+            <p>Enfin nous voilÃ  deux contre vous, et lâ€™opiniÃ¢tretÃ© sied si mal aux personnes spirituellesâ€¦</p>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I04">
+          <head>SCÃˆNE IV</head>
+          <stage>Le marquis, ClimÃ¨ne, Galopin, Uranie, Ã‰lise.</stage>
+          <sp who="galopin" xml:id="I04-1">
+            <speaker>galopin</speaker>
+            <p>ArrÃªtez, sâ€™il vous plaÃ®t, Monsieur.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I04-2">
+            <speaker>le marquis</speaker>
+            <p>Tu ne me connais pas, sans doute.</p>
+          </sp>
+          <sp who="galopin" xml:id="I04-3">
+            <speaker>galopin</speaker>
+            <p>Si fait, je vous connaisÂ ; mais vous nâ€™entrerez pas.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I04-4">
+            <speaker>le marquis </speaker>
+            <p>Ah que de bruit, petit laquaisÂ !</p>
+          </sp>
+          <sp who="galopin" xml:id="I04-5">
+            <speaker>galopin</speaker>
+            <p>Cela nâ€™est pas bien de vouloir entrer malgrÃ© les gens.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I04-6">
+            <speaker>le marquis </speaker>
+            <p>Je veux voir ta MaÃ®tresse.</p>
+          </sp>
+          <sp who="galopin" xml:id="I04-7">
+            <speaker>galopin</speaker>
+            <p>Elle nâ€™y est pas, vous dis-je.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I04-8">
+            <speaker>le marquis</speaker>
+            <p>La voilÃ  dans la chambre.</p>
+          </sp>
+          <sp who="galopin" xml:id="I04-9">
+            <speaker>galopin</speaker>
+            <p>Il est vrai, la voilÃ Â ; mais elle nâ€™y est pas.</p>
+          </sp>
+          <sp who="uranie" xml:id="I04-10">
+            <speaker>uranie</speaker>
+            <p>Quâ€™est-ce donc quâ€™il y a lÃ Â ?</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I04-11">
+            <speaker>le marquis</speaker>
+            <p>Câ€™est votre laquais, Madame, qui fait le sot.</p>
+          </sp>
+          <sp who="galopin" xml:id="I04-12">
+            <speaker>galopin</speaker>
+            <p>Je lui dis que vous nâ€™y Ãªtes pas, Madame, et il ne veut pas laisser dâ€™entrer.</p>
+          </sp>
+          <sp who="uranie" xml:id="I04-13">
+            <speaker>uranie </speaker>
+            <p>Et pourquoi dire Ã  Monsieur que je nâ€™y suis pasÂ ?</p>
+          </sp>
+          <sp who="galopin" xml:id="I04-14">
+            <speaker>galopin</speaker>
+            <p>Vous me grondÃ¢tes lâ€™autre jour, de lui avoir dit que vous y Ã©tiez.</p>
+          </sp>
+          <sp who="uranie" xml:id="I04-15">
+            <speaker>uranie</speaker>
+            <p>Voyez cet insolentÂ ! Je vous prie, Monsieur, de ne pas croire ce quâ€™il ditÂ : câ€™est un petit Ã©cervelÃ©, qui vous a pris pour un autre.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I04-16">
+            <speaker>le marquis </speaker>
+            <p>Je lâ€™ai bien vu, MadameÂ ; et sans votre respect, je lui aurais appris Ã  connaÃ®tre les gens de qualitÃ©.</p>
+          </sp>
+          <sp who="elise" xml:id="I04-17">
+            <speaker>Ã©lise</speaker>
+            <p>Ma cousine vous est fort obligÃ©e de cette dÃ©fÃ©rence.</p>
+          </sp>
+          <sp who="uranie" xml:id="I04-18">
+            <speaker>uranie</speaker>
+            <p>Un siÃ¨ge donc, impertinent.</p>
+          </sp>
+          <sp who="galopin" xml:id="I04-19">
+            <speaker>galopin</speaker>
+            <p>Nâ€™en voilÃ -t-il pas unÂ ?</p>
+          </sp>
+          <sp who="uranie" xml:id="I04-20">
+            <speaker>uranie</speaker>
+            <p>Approchez-le.</p>
+            <stage>Le petit laquais pousse le siÃ¨ge rudement.</stage>
+          </sp>
+          <sp who="le-marquis" xml:id="I04-21">
+            <speaker>le marquis</speaker>
+            <p>Votre petit laquais, Madame, a du mÃ©pris pour ma personne.</p>
+          </sp>
+          <sp who="elise" xml:id="I04-22">
+            <speaker>Ã©lise</speaker>
+            <p>Il aurait tort, sans doute.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I04-23">
+            <speaker>le marquis</speaker>
+            <p>Câ€™est peut-Ãªtre que je paie lâ€™intÃ©rÃªt de ma mauvaise mineÂ : hay, hay, hay, hay.</p>
+          </sp>
+          <sp who="elise" xml:id="I04-24">
+            <speaker>Ã©lise</speaker>
+            <p>Lâ€™Ã¢ge le rendra plus Ã©clairÃ© en honnÃªtes gens.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I04-25">
+            <speaker>le marquis</speaker>
+            <p>Sur quoi en Ã©tiez-vous, Mesdames, lorsque je vous ai interrompuesÂ ?</p>
+          </sp>
+          <sp who="uranie" xml:id="I04-26">
+            <speaker>uranie</speaker>
+            <p>Sur la comÃ©die de Lâ€™Ã‰cole des <hi rend="i">F</hi>emmes.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I04-27">
+            <speaker>le marquis </speaker>
+            <p>Je ne fais que dâ€™en sortir.</p>
+          </sp>
+          <sp who="climene" xml:id="I04-28">
+            <speaker>climÃ¨ne</speaker>
+            <p>Eh bien, Monsieur, comment la trouvez-vous, sâ€™il vous plaÃ®tÂ ?</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I04-29">
+            <speaker>le marquis</speaker>
+            <p>Tout Ã  fait impertinente.</p>
+          </sp>
+          <sp who="climene" xml:id="I04-30">
+            <speaker>climÃ¨ne</speaker>
+            <p>Ah que jâ€™en suis ravieÂ !</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I04-31">
+            <speaker>le marquis</speaker>
+            <p>Câ€™est la plus mÃ©chante chose du monde. Comment, diableÂ ! Ã  peine ai-je pu trouver place. Jâ€™ai pensÃ© Ãªtre Ã©touffÃ© Ã  la porte; et jamais on ne mâ€™a tant marchÃ© sur les pieds. Voyez comme mes canons, et mes rubans en sont ajustÃ©s, de grÃ¢ce.</p>
+          </sp>
+          <sp who="elise" xml:id="I04-32">
+            <speaker>Ã©lise</speaker>
+            <p>Il est vrai que cela crie vengeance contre Lâ€™Ã‰cole des <hi rend="i">F</hi>emmes, et que vous la condamnez avec justice.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I04-33">
+            <speaker>le marquis</speaker>
+            <p>Il ne sâ€™est jamais fait, je pense, une si mÃ©chante comÃ©die.</p>
+          </sp>
+          <sp who="uranie" xml:id="I04-34">
+            <speaker>uranie</speaker>
+            <p>AhÂ ! voici Dorante que nous attendions.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I05">
+          <head>SCÃˆNE V.</head>
+          <stage>Dorante, Le marquis, ClimÃ¨ne, Ã‰lise, Uranie.</stage>
+          <sp who="dorante" xml:id="I05-1">
+            <speaker>dorante</speaker>
+            <p>Ne bougez, de grÃ¢ce, et nâ€™interrompez point votre discours. Vous Ãªtes lÃ  sur une matiÃ¨re, qui depuis quatre jours fait presque lâ€™entretien de toutes les maisons de ParisÂ ; et jamais on nâ€™a rien vu de si plaisant, que la diversitÃ© des jugements, qui se font lÃ -dessus. Car enfin, jâ€™ai ouÃ¯ condamner cette ComÃ©die Ã  certaines gens, par les mÃªmes choses, que jâ€™ai vu dâ€™autres estimer le plus.</p>
+          </sp>
+          <sp who="uranie" xml:id="I05-2">
+            <speaker>uranie</speaker>
+            <p>VoilÃ  Monsieur le Marquis, qui en dit force mal.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I05-3">
+            <speaker>le marquis</speaker>
+            <p>Il est vrai, je la trouve dÃ©testableÂ ; morbleu dÃ©testable du dernier dÃ©testableÂ ; ce quâ€™on appelle dÃ©testable.</p>
+          </sp>
+          <sp who="dorante" xml:id="I05-4">
+            <speaker>dorante</speaker>
+            <p>Et moi, mon cher Marquis, je trouve le jugement dÃ©testable.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I05-5">
+            <speaker>le marquis</speaker>
+            <p>Quoi Chevalier, est-ce que tu prÃ©tends soutenir cette PiÃ¨ceÂ ?</p>
+          </sp>
+          <sp who="dorante" xml:id="I05-6">
+            <speaker>dorante</speaker>
+            <p>Oui je prÃ©tends la soutenir.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I05-7">
+            <speaker>le marquis</speaker>
+            <p>Parbleu, je la garantis dÃ©testable.</p>
+          </sp>
+          <sp who="dorante" xml:id="I05-8">
+            <speaker>dorante</speaker>
+            <p>La caution nâ€™est pas Bourgeoise. Mais, Marquis, par quelle raison, de grÃ¢ce, cette ComÃ©die est-elle ce que tu disÂ ?</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I05-9">
+            <speaker>le marquis</speaker>
+            <p>Pourquoi elle est dÃ©testableÂ ?</p>
+          </sp>
+          <sp who="dorante" xml:id="I05-10">
+            <speaker>dorante</speaker>
+            <p>Oui.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I05-11">
+            <speaker>le marquis</speaker>
+            <p>Elle est dÃ©testable, parce quâ€™elle est dÃ©testable.</p>
+          </sp>
+          <sp who="dorante" xml:id="I05-12">
+            <speaker>dorante</speaker>
+            <p>AprÃ¨s cela, il nâ€™y a plus rien Ã  direÂ : voilÃ  son procÃ¨s fait. Mais encore instruis-nous, et nous dis les dÃ©fauts qui y sont.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I05-13">
+            <speaker>le marquis</speaker>
+            <p>Que sais-je moiÂ ? je ne me suis pas seulement donnÃ© la peine de lâ€™Ã©couter. Mais enfin je sais bien que je nâ€™ai jamais rien vu de si mÃ©chant, Dieu me damneÂ ; et Dorilas, contre qui jâ€™Ã©tais a Ã©tÃ© de mon avis.</p>
+          </sp>
+          <sp who="dorante" xml:id="I05-14">
+            <speaker>dorante</speaker>
+            <p>Lâ€™autoritÃ© est belle, et te voilÃ  bien appuyÃ©.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I05-15">
+            <speaker>le marquis</speaker>
+            <p>Il ne faut que voir les continuels Ã©clats de rire que le Parterre y faitÂ : je ne veux point dâ€™autre chose, pour tÃ©moigner quâ€™elle ne vaut rien.</p>
+          </sp>
+          <sp who="dorante" xml:id="I05-16">
+            <speaker>dorante</speaker>
+            <p>Tu es donc, Marquis, de ces Messieurs du bel air, qui ne veulent pas que le Parterre ait du sens commun, et qui seraient fÃ¢chÃ©s dâ€™avoir ri avec lui, fÃ»t-ce de la meilleure chose du mondeÂ ? Je vis lâ€™autre jour sur le ThÃ©Ã¢tre un de nos amis qui se rendit ridicule par lÃ . Il Ã©couta toute la PiÃ¨ce avec un sÃ©rieux le plus sombre du mondeÂ : et tout ce qui Ã©gayait les autres ridait son front. Ã€ tous les Ã©clats de risÃ©e, il haussait les Ã©paules, et regardait le Parterre en pitiÃ©Â ; et quelquefois aussi le regardant avec dÃ©pit, il lui disait tout haut, Ris donc, parterre, ris donc. Ce fut une seconde ComÃ©die, que le chagrin de notre amiÂ ; il la donna en galant homme Ã  toute lâ€™assemblÃ©eÂ ; et chacun demeura dâ€™accord quâ€™on ne pouvait pas mieux jouer, quâ€™il fit. Apprends, Marquis, je te prie, et les autres aussi, que le bon sens nâ€™a point de place dÃ©terminÃ©e Ã  la ComÃ©dieÂ ; que la diffÃ©rence du demi-Louis dâ€™or, et de la piÃ¨ce de quinze sols, ne fait rien du tout au bon goÃ»tÂ ; que debout et assis on peut donner un mauvais jugementÂ ; et quâ€™enfin, Ã  le prendre en gÃ©nÃ©ral, je me fierais assez Ã  lâ€™approbation du Parterre, par la raison quâ€™entre ceux qui le composent, il y en a plusieurs qui sont capables de juger dâ€™une piÃ¨ce selon les rÃ¨gles, et que les autres en jugent par la bonne faÃ§on dâ€™en juger, qui est de se laisser prendre aux choses, et de nâ€™avoir ni prÃ©vention aveugle, ni complaisance affectÃ©e, ni dÃ©licatesse ridicule.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I05-17">
+            <speaker>le marquis</speaker>
+            <p>Te voilÃ  donc, Chevalier, le dÃ©fenseur du ParterreÂ ? Parbleu, je mâ€™en rÃ©jouis, et je ne manquerai pas de lâ€™avertir, que tu es de ses amis. Hay, hay, hay, hay, hay, hay.</p>
+          </sp>
+          <sp who="dorante" xml:id="I05-18">
+            <speaker>dorante</speaker>
+            <p>Ris tant que tu voudras; je suis pour le bon sens, et ne saurais souffrir les Ã©bullitions de cerveau de nos marquis de Mascarille. Jâ€™enrage de voir de ces gens qui se traduisent en ridicules, malgrÃ© leur qualitÃ©Â ; de ces gens qui dÃ©cident toujours, et parlent hardiment de toutes choses, sans sâ€™y connaÃ®treÂ ; qui dans une ComÃ©die se rÃ©crieront aux mÃ©chants endroits, et ne branleront pas Ã  ceux qui sont bonsÂ ; qui voyant un tableau, ou Ã©coutant un concert de musique, blÃ¢ment de mÃªme, et louent tout Ã  contre-sens, prennent par oÃ¹ ils peuvent les termes de lâ€™Art quâ€™ils attrapent, et ne manquent jamais de les estropier, et de les mettre hors de place. EhÂ ! Morbleu, Messieurs, taisez-vous, quand Dieu ne vous a pas donnÃ© la connaissance dâ€™une choseÂ ; nâ€™apprÃªtez point Ã  rire Ã  ceux qui vous entendent parlerÂ ; et songez quâ€™en ne disant mot, on croira peut-Ãªtre que vous Ãªtes dâ€™habiles gens.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I05-19">
+            <speaker>le marquis</speaker>
+            <p>Parbleu, Chevalier, tu le prends lÃ  â€¦...</p>
+          </sp>
+          <sp who="dorante" xml:id="I05-20">
+            <speaker>dorante</speaker>
+            <p>Mon Dieu Marquis ce nâ€™est pas Ã  toi que je parle. Câ€™est Ã  une douzaine de messieurs qui dÃ©shonorent les gens de Cour par leurs maniÃ¨res extravagantes, et font croire parmi le peuple que nous nous ressemblons tous. Pour moi je mâ€™en veux justifier, le plus quâ€™il me sera possibleÂ ; et je les dauberai tant, en toutes rencontres, quâ€™Ã  la fin ils se rendront sages.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I05-21">
+            <speaker>le marquis</speaker>
+            <p>Dis-moi, un peu, Chevalier, crois-tu que Lysandre ait de lâ€™espritÂ ?</p>
+          </sp>
+          <sp who="dorante" xml:id="I05-22">
+            <speaker>dorante</speaker>
+            <p>Oui, sans doute, et beaucoup.</p>
+          </sp>
+          <sp who="uranie" xml:id="I05-23">
+            <speaker>uranie</speaker>
+            <p>Câ€™est une chose quâ€™on ne peut pas nier.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I05-24">
+            <speaker>le marquis</speaker>
+            <p>Demandez-lui ce qui lui semble de Lâ€™Ã‰cole des <hi rend="i">F</hi>emmesÂ : vous verrez quâ€™il vous dira, quâ€™elle ne lui plaÃ®t pas.</p>
+          </sp>
+          <sp who="dorante" xml:id="I05-25">
+            <speaker>dorante </speaker>
+            <p>Eh mon DieuÂ ! il y en a beaucoup que le trop dâ€™esprit gÃ¢teÂ ; qui voient mal les choses Ã  force de lumiÃ¨reÂ ; et mÃªme qui seraient bien fÃ¢chÃ©s dâ€™Ãªtre de lâ€™avis des autres, pour avoir la gloire de dÃ©cider.</p>
+          </sp>
+          <sp who="uranie" xml:id="I05-26">
+            <speaker>uranie </speaker>
+            <p>Il est vraiÂ ; notre ami est de ces gens-lÃ , sans doute. Il veut Ãªtre le premier de son opinion, et quâ€™on attende par respect son jugement. Toute approbation qui marche avant la sienne est un attentat sur ses lumiÃ¨res, dont il se venge hautement en prenant le contraire parti. Il veut quâ€™on le consulte sur toutes les affaires dâ€™espritÂ ; et je suis sÃ»re que si lâ€™Auteur lui eÃ»t montrÃ© sa ComÃ©die, avant que de la faire voir au public, il lâ€™eÃ»t trouvÃ©e la plus belle du monde.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I05-27">
+            <speaker>le marquis</speaker>
+            <p>Et que direz-vous de la Marquise Araminte, qui la publie partout pour Ã©pouvantable, et dit quâ€™elle nâ€™a pu jamais souffrir les ordures dont elle est pleineÂ ?</p>
+          </sp>
+          <sp who="dorante" xml:id="I05-28">
+            <speaker>dorante</speaker>
+            <p>Je dirai que cela est digne du CaractÃ¨re quâ€™elle a prisÂ ; et quâ€™il y a des personnes, qui se rendent ridicules, pour vouloir avoir trop dâ€™honneur. Bien quâ€™elle ait de lâ€™esprit, elle a suivi le mauvais exemple de celles, qui Ã©tant sur le retour de lâ€™Ã¢ge, veulent remplacer de quelque chose ce quâ€™elles voient quâ€™elles perdentÂ ; et prÃ©tendent que les grimaces dâ€™une pruderie scrupuleuse, leur tiendront lieu de jeunesse et de beautÃ©. Celle-ci pousse lâ€™affaire plus avant quâ€™aucune, et lâ€™habiletÃ© de son scrupule dÃ©couvre des saletÃ©s, oÃ¹ jamais personne nâ€™en avait vu. On tient quâ€™il va, ce scrupule, jusques Ã  dÃ©figurer notre langue, et quâ€™il nâ€™y a point presque de mots, dont la sÃ©vÃ©ritÃ© de cette Dame ne veuille retrancher ou la tÃªte, ou la queue, pour les syllabes dÃ©shonnÃªtes quâ€™elle y trouve.</p>
+          </sp>
+          <sp who="uranie" xml:id="I05-29">
+            <speaker>uranie</speaker>
+            <p>Vous Ãªtes bien fou, Chevalier.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I05-30">
+            <speaker>le marquis</speaker>
+            <p>Enfin, Chevalier, tu crois dÃ©fendre ta ComÃ©die, en faisant la satire de ceux qui la condamnent.</p>
+          </sp>
+          <sp who="dorante" xml:id="I05-31">
+            <speaker>dorante</speaker>
+            <p>Non pasÂ ; mais je tiens que cette Dame se scandalise Ã  tort...</p>
+          </sp>
+          <sp who="elise" xml:id="I05-32">
+            <speaker>Ã©lise</speaker>
+            <p>Tout beau, Monsieur le ChevalierÂ : il pourrait y en avoir dâ€™autres quâ€™elle, qui seraient dans les mÃªmes sentiments.</p>
+          </sp>
+          <sp who="dorante" xml:id="I05-33">
+            <speaker>dorante</speaker>
+            <p>Je sais bien que ce nâ€™est pas vous, au moinsÂ ; et que lorsque vous avez vu cette reprÃ©sentation.</p>
+          </sp>
+          <sp who="elise" xml:id="I05-34">
+            <speaker>Ã©lise</speaker>
+            <p>Il est vrai, mais jâ€™ai changÃ© dâ€™avis, et Madame sait appuyer le sien, par des raisons si convaincantes, quâ€™elle mâ€™a entraÃ®nÃ©e de son cÃ´tÃ©.</p>
+          </sp>
+          <sp who="dorante" xml:id="I05-35">
+            <speaker>dorante</speaker>
+            <p>AhÂ ! Madame, je vous demande pardonÂ ; et si vous le voulez, je me dÃ©dirai, pour lâ€™amour de vous, de tout ce que jâ€™ai dit.</p>
+          </sp>
+          <sp who="climene" xml:id="I05-36">
+            <speaker>climÃ¨ne</speaker>
+            <p>Je ne veux pas que ce soit pour lâ€™amour de moiÂ ; mais pour lâ€™amour de la raisonÂ : car enfin cette piÃ¨ce, Ã  le bien prendre, est tout Ã  fait indÃ©fendableÂ ; et je ne conÃ§ois pas.....</p>
+          </sp>
+          <sp who="uranie" xml:id="I05-37">
+            <speaker>uranie</speaker>
+            <p>AhÂ ! voici lâ€™auteur, Monsieur LysidasÂ : il vient tout Ã  propos, pour cette matiÃ¨re. Monsieur LysidasÂ ; prenez un siÃ¨ge vous-mÃªme, et vous mettez lÃ .</p>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I06">
+          <head>SCÃˆNE VI.</head>
+          <stage>Lysidas, Dorante, Le marquis, Ã‰lise, Uranie, ClimÃ¨ne.</stage>
+          <sp who="lysidas" xml:id="I06-1">
+            <speaker>lysidas</speaker>
+            <p>MadameÂ ; je viens un peu tardÂ ; mais il mâ€™a fallu lire ma PiÃ¨ce chez Madame la Marquise, dont je vous avais parlÃ©Â ; et les louanges, qui lui ont Ã©tÃ© donnÃ©es, mâ€™ont retenu une heure, plus que je ne croyais.</p>
+          </sp>
+          <sp who="elise" xml:id="I06-2">
+            <speaker>Ã©lise</speaker>
+            <p>Câ€™est un grand charme que les louanges pour arrÃªter un auteur.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-3">
+            <speaker>uranie</speaker>
+            <p>Asseyez-vous donc, Monsieur LysidasÂ ; nous lirons votre PiÃ¨ce aprÃ¨s souper.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-4">
+            <speaker>lysidas</speaker>
+            <p>Tous ceux qui Ã©taient lÃ , doivent venir Ã  sa premiÃ¨re reprÃ©sentation, et mâ€™ont promis de faire leur devoir comme il faut.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-5">
+            <speaker>uranie</speaker>
+            <p>Je le croisÂ : mais, encore une fois asseyez-vous, sâ€™il vous plaÃ®tÂ : Nous sommes ici sur une matiÃ¨re que je serai bien aise que nous poussions.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-6">
+            <speaker>lysidas</speaker>
+            <p>Je pense Madame, que vous retiendrez aussi une loge pour ce jour-lÃ .</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-7">
+            <speaker>uranie</speaker>
+            <p>Nous verrons. Poursuivons de grÃ¢ce notre discours.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-8">
+            <speaker>lysidas</speaker>
+            <p>Je vous donne avis, Madame, quâ€™elles sont presque toutes retenues.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-9">
+            <speaker>uranie</speaker>
+            <p>VoilÃ  qui est bien. Enfin jâ€™avais besoin de vous, lorsque vous Ãªtes venu, et tout le monde Ã©tait ici contre moi.</p>
+          </sp>
+          <sp who="elise" xml:id="I06-10">
+            <speaker>Ã©lise</speaker>
+            <p>Il sâ€™est mis dâ€™abord de votre cÃ´tÃ©, mais maintenant quâ€™il sait que Madame est Ã  la tÃªte du parti contraire, je pense que vous nâ€™avez quâ€™Ã  chercher un autre secours.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-11">
+            <speaker>climÃ¨ne</speaker>
+            <p>Non, non, je ne voudrais pas quâ€™il fÃ®t mal sa Cour auprÃ¨s de Madame votre cousine, et je permets Ã  son esprit dâ€™Ãªtre du parti de son cÅ“ur.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-12">
+            <speaker>dorante</speaker>
+            <p>Avec cette permission, Madame, je prendrai la hardiesse de me dÃ©fendre.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-13">
+            <speaker>uranie</speaker>
+            <p>Mais auparavant sachons un peu les sentiments de Monsieur Lysidas.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-14">
+            <speaker>lysidas</speaker>
+            <p>Sur quoi, MadameÂ ?</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-15">
+            <speaker>uranie</speaker>
+            <p>Sur le sujet de Lâ€™Ã‰cole des <hi rend="i">F</hi>emmes.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-16">
+            <speaker>lysidas</speaker>
+            <p>Ha, ha.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-17">
+            <speaker>dorante</speaker>
+            <p>Que vous en semble.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-18">
+            <speaker>lysidas</speaker>
+            <p>Je nâ€™ai rien Ã  dire lÃ -dessusÂ ; et vous savez quâ€™entre nous autres Auteurs, nous devons parler des Ouvrages les uns des autres, avec beaucoup de circonspection.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-19">
+            <speaker>dorante</speaker>
+            <p>Mais encore, entre nous, que pensez-vous de cette ComÃ©dieÂ ?</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-20">
+            <speaker>lysidas </speaker>
+            <p>Moi, MonsieurÂ ?</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-21">
+            <speaker>uranie </speaker>
+            <p>De bonne foi, dites-nous votre avis.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-22">
+            <speaker>lysidas</speaker>
+            <p>Je la trouve fort belle.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-23">
+            <speaker>dorante</speaker>
+            <p>AssurÃ©mentÂ ?</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-24">
+            <speaker>lysidas</speaker>
+            <p>AssurÃ©mentÂ ; pourquoi nonÂ ? Nâ€™est-elle pas en effet la plus belle du mondeÂ ?</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-25">
+            <speaker>dorante </speaker>
+            <p>Hom, hom, vous Ãªtes un mÃ©chant diable, Monsieur Lysidas; vous ne dites pas ce que vous pensez.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-26">
+            <speaker>lysidas</speaker>
+            <p>Pardonnez-moi.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-27">
+            <speaker>dorante</speaker>
+            <p>Mon Dieu, je vous connaisÂ ; ne dissimulons point.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-28">
+            <speaker>lysidas</speaker>
+            <p>Moi MonsieurÂ ?</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-29">
+            <speaker>dorante</speaker>
+            <p>Je vois bien que le bien que vous dites de cette PiÃ¨ce nâ€™est que par honnÃªtetÃ©Â ; et que dans le fond du cÅ“ur, vous Ãªtes de lâ€™avis de beaucoup de gens, qui la trouvent mauvaise.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-30">
+            <speaker>lysidas</speaker>
+            <p>Hay, hay, hay.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-31">
+            <speaker>dorante</speaker>
+            <p>Avouez, ma foi, que câ€™est une mÃ©chante chose que cette ComÃ©die.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-32">
+            <speaker>lysidas</speaker>
+            <p>Il est vrai quâ€™elle nâ€™est pas approuvÃ©e par les Connaisseurs.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-33">
+            <speaker>le marquis</speaker>
+            <p>Ma foi, Chevalier, tu en tiens, et te voilÃ  payÃ© de ta raillerie, ah, ah, ah, ah, ah.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-34">
+            <speaker>dorante</speaker>
+            <p>Pousse, mon cher Marquis, pousse.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-35">
+            <speaker>le marquis</speaker>
+            <p>Tu vois que nous avons les Savants de notre cÃ´tÃ©.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-36">
+            <speaker>dorante</speaker>
+            <p>Il est vrai, le jugement de Monsieur Lysidas est quelque chose de considÃ©rableÂ ; mais Monsieur Lysidas veut bien que je ne me rende pas pour cela. Et puisque jâ€™ai bien lâ€™audace de me dÃ©fendre contre les sentiments de Madame, il ne trouvera pas mauvais que je combatte les siens.</p>
+          </sp>
+          <sp who="elise" xml:id="I06-37">
+            <speaker>Ã©lise</speaker>
+            <p>Quoi vous voyez contre vous Madame, Monsieur le Marquis, et Monsieur Lysidas, et vous osez rÃ©sister encoreÂ ? Fi que cela est de mauvaise grÃ¢ceÂ !</p>
+          </sp>
+          <sp who="climene" xml:id="I06-38">
+            <speaker>climÃ¨ne</speaker>
+            <p>VoilÃ  qui me confond, pour moi, que des personnes raisonnables se puissent mettre en tÃªte de donner protection aux sottises de cette PiÃ¨ceÂ !</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-39">
+            <speaker>le marquis</speaker>
+            <p>Dieu me damne, Madame, elle est misÃ©rable depuis le commencement jusquâ€™Ã  la fin.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-40">
+            <speaker>dorante</speaker>
+            <p>Cela est bientÃ´t dit, MarquisÂ ; il nâ€™est rien plus aisÃ© que de trancher ainsi, et je ne vois aucune chose, qui puisse Ãªtre Ã  couvert de la souverainetÃ© de tes dÃ©cisions.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-41">
+            <speaker>le marquis</speaker>
+            <p>Parbleu, tous les autres ComÃ©diens qui Ã©taient lÃ  pour la voir, en ont dit tous les maux du monde.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-42">
+            <speaker>dorante</speaker>
+            <p>AhÂ ! je ne dis plus mot, tu as raison, MarquisÂ ; puisque les autres ComÃ©diens en disent du mal, il faut les en croire assurÃ©ment. Ce sont tous gens Ã©clairÃ©s, et qui parlent sans intÃ©rÃªt, il nâ€™y a plus rien Ã  dire, je me rends.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-43">
+            <speaker>climÃ¨ne</speaker>
+            <p>Rendez-vous, ou ne vous rendez pas, je sais fort bien que vous ne me persuaderez point de souffrir les immodesties de cette PiÃ¨ceÂ ; non plus que les satires dÃ©sobligeantes quâ€™on y voit contre les Femmes.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-44">
+            <speaker>uranie</speaker>
+            <p>Pour moi, je me garderai bien de mâ€™en offenser, et de prendre rien sur mon compte de tout ce qui sâ€™y dit. Ces sortes de satires tombent directement sur les mÅ“urs, et ne frappent les personnes que par rÃ©flexion. Nâ€™allons point nous appliquer nous-mÃªmes les traits dâ€™une censure gÃ©nÃ©raleÂ ; et profitons de la leÃ§on, si nous pouvons, sans faire semblant quâ€™on parle Ã  nous. Toutes les peintures ridicules quâ€™on expose sur les ThÃ©Ã¢tres doivent Ãªtre regardÃ©es sans chagrin de tout le monde. Ce sont miroirs publics oÃ¹ il ne faut jamais tÃ©moigner quâ€™on se voieÂ ; et câ€™est se taxer hautement dâ€™un dÃ©faut, que se scandaliser quâ€™on le reprenne.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-45">
+            <speaker>climÃ¨ne</speaker>
+            <p>Pour moi je ne parle pas de ces choses, par la part que jâ€™y puisse avoirÂ ; et je pense que je vis dâ€™un air dans le monde, Ã  ne pas craindre dâ€™Ãªtre cherchÃ©e dans les peintures quâ€™on fait lÃ  des femmes qui se gouvernent mal.</p>
+          </sp>
+          <sp who="elise" xml:id="I06-46">
+            <speaker>Ã©lise</speaker>
+            <p>AssurÃ©ment, Madame, on ne vous y cherchera pointÂ ; votre conduite est assez connueÂ ; et ce sont de ces sortes de choses qui ne sont contestÃ©es de personne.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-47">
+            <speaker>uranie</speaker>
+            <p>Aussi, Madame, nâ€™ai-je rien dit qui aille Ã  vousÂ ; et mes paroles, comme les Satires de la ComÃ©die, demeurent dans la thÃ¨se gÃ©nÃ©rale.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-48">
+            <speaker>climÃ¨ne</speaker>
+            <p>Je nâ€™en doute pas, Madame. Mais enfin passons sur ce chapitre. Je ne sais pas de quelle faÃ§on vous recevez les injures quâ€™on dit Ã  notre sexe dans un certain endroit de la piÃ¨ceÂ ; et pour moi je vous avoue que je suis dans une colÃ¨re Ã©pouvantable, de voir que cet auteur impertinent nous appelle des animaux.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-49">
+            <speaker>uranie</speaker>
+            <p>Ne voyez-vous pas que câ€™est un ridicule quâ€™il fait parlerÂ ?</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-50">
+            <speaker>dorante</speaker>
+            <p>Et puis, Madame, ne savez-vous pas que les injures des Amants nâ€™offensent jamaisÂ ? quâ€™il est des amours emportÃ©s aussi bien que des doucereuxÂ ? et quâ€™en de pareilles occasions les paroles les plus Ã©tranges, et quelque chose de pis encore, se prennent bien souvent pour des marques dâ€™affection par celles mÃªmes qui les reÃ§oiventÂ ?</p>
+          </sp>
+          <sp who="elise" xml:id="I06-51">
+            <speaker>Ã©lise</speaker>
+            <p>Dites tout ce que vous voudrez, je ne saurais digÃ©rer cela, non plus que le potage, et la tarte Ã  la crÃ¨me, dont Madame a parlÃ© tantÃ´t.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-52">
+            <speaker>le marquis</speaker>
+            <p>AhÂ ! ma foi oui, tarte Ã  la crÃ¨me. VoilÃ  ce que jâ€™avais remarquÃ© tantÃ´tÂ ; tarte Ã  la crÃ¨me. Que je vous suis obligÃ©, Madame, de mâ€™avoir fait souvenir de tarte Ã  la crÃ¨me. Y a-t-il assez de pommes en Normandie pour tarte Ã  la crÃ¨meÂ ? Tarte Ã  la crÃ¨me, morbleu, Tarte Ã  la crÃ¨meÂ !</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-53">
+            <speaker>dorante</speaker>
+            <p>Eh bien que veux-tu dire, tarte Ã  la crÃ¨meÂ ?</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-54">
+            <speaker>le marquis</speaker>
+            <p>Parbleu, <hi rend="i">t</hi>arte Ã  la crÃ¨me, Chevalier.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-55">
+            <speaker>dorante</speaker>
+            <p>Mais encoreÂ ?</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-56">
+            <speaker>le marquis</speaker>
+            <p>Tarte Ã  la crÃ¨me.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-57">
+            <speaker>dorante</speaker>
+            <p>Dis-nous un peu tes raisons.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-58">
+            <speaker>le marquis</speaker>
+            <p>Tarte Ã  la crÃ¨me.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-59">
+            <speaker>uranie</speaker>
+            <p>Mais il faut expliquer sa pensÃ©e, ce me semble.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-60">
+            <speaker>le marquis</speaker>
+            <p>Tarte Ã  la crÃ¨me, Madame.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-61">
+            <speaker>uranie</speaker>
+            <p>Que trouvez-vous lÃ  Ã  redireÂ ?</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-62">
+            <speaker>le marquis</speaker>
+            <p>Moi, rienÂ ; <hi rend="i">t</hi>arte Ã  la crÃ¨me.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-63">
+            <speaker>uranie</speaker>
+            <p>AhÂ ! je le quitte.</p>
+          </sp>
+          <sp who="elise" xml:id="I06-64">
+            <speaker>Ã©lise</speaker>
+            <p>Monsieur le Marquis sâ€™y prend bien, et vous bourre de la belle maniÃ¨re. Mais je voudrais bien que Monsieur Lysidas voulÃ»t les achever, et leur donner quelques petits coups de sa faÃ§on.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-65">
+            <speaker>lysidas</speaker>
+            <p>Ce nâ€™est pas ma coutume de rien blÃ¢mer, et je suis assez indulgent pour les ouvrages des autres. Mais enfin, sans choquer lâ€™amitiÃ© que Monsieur le Chevalier tÃ©moigne pour lâ€™Auteur, on mâ€™avouera que ces sortes de ComÃ©dies ne sont pas proprement des ComÃ©dies, et quâ€™il y a une grande diffÃ©rence de toutes ces bagatelles, Ã  la beautÃ© des piÃ¨ces sÃ©rieuses. Cependant tout le monde donne lÃ  dedans aujourdâ€™huiÂ ; on ne court plus quâ€™Ã  celaÂ ; et lâ€™on voit une solitude effroyable aux grands ouvrages, lorsque des sottises ont tout Paris. Je vous avoue que le cÅ“ur mâ€™en saigne quelquefois, et cela est honteux pour la France.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-66">
+            <speaker>climÃ¨ne</speaker>
+            <p>Il est vrai que le goÃ»t des gens est Ã©trangement gÃ¢tÃ© lÃ -dessus, et que le siÃ¨cle sâ€™encanaille furieusement.</p>
+          </sp>
+          <sp who="elise" xml:id="I06-67">
+            <speaker>Ã©lise</speaker>
+            <p>Celui-lÃ  est joli encore, sâ€™encanaille. Est-ce vous qui lâ€™avez inventÃ©, MadameÂ ?</p>
+          </sp>
+          <sp who="climene" xml:id="I06-68">
+            <speaker>climÃ¨ne </speaker>
+            <p>HÃ©Â !</p>
+          </sp>
+          <sp who="elise" xml:id="I06-69">
+            <speaker>Ã©lise</speaker>
+            <p>Je mâ€™en suis bien doutÃ©e.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-70">
+            <speaker>dorante</speaker>
+            <p>Vous croyez donc, Monsieur Lysidas, que tout lâ€™esprit et toute la beautÃ© sont dans les PoÃ¨mes sÃ©rieux, et que les PiÃ¨ces Comiques sont des niaiseries qui ne mÃ©ritent aucune louangeÂ ?</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-71">
+            <speaker>uranie</speaker>
+            <p>Ce nâ€™est pas mon sentiment, pour moi. La TragÃ©die, sans doute, est quelque chose de beau quand elle est bien touchÃ©eÂ ; mais la ComÃ©die a ses charmes, et je tiens que lâ€™une nâ€™est pas moins difficile Ã  faire que lâ€™autre.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-72">
+            <speaker>dorante</speaker>
+            <p>AssurÃ©ment, Madame, et quand, pour la difficultÃ©, vous mettriez un plus du cÃ´tÃ© de la ComÃ©die, peut-Ãªtre que vous ne vous abuseriez pas. Car enfin, je trouve quâ€™il est bien plus aisÃ© de se guinder sur de grands sentiments, de braver en Vers la Fortune, accuser les Destins, et dire des injures aux Dieux, que dâ€™entrer comme il faut dans le ridicule des hommes, et de rendre agrÃ©ablement sur le ThÃ©Ã¢tre les dÃ©fauts de tout le monde. Lorsque vous peignez des HÃ©ros, vous faites ce que vous voulezÂ ; ce sont des portraits Ã  plaisir, oÃ¹ lâ€™on ne cherche point de ressemblanceÂ ; et vous nâ€™avez quâ€™Ã  suivre les traits dâ€™une imagination qui se donne lâ€™essor, et qui souvent laisse le vrai pour attraper le merveilleux. Mais lorsque vous peignez les hommes, il faut peindre dâ€™aprÃ¨s NatureÂ ; on veut que ces portraits ressemblentÂ ; et vous nâ€™avez rien fait si vous nâ€™y faites reconnaÃ®tre les gens de votre siÃ¨cle. En un mot, dans les piÃ¨ces sÃ©rieuses, il suffit, pour nâ€™Ãªtre point blÃ¢mÃ©, de dire des choses qui soient de bon sens, et bien Ã©critesÂ : Mais ce nâ€™est pas assez dans les autresÂ ; il y faut plaisanterÂ ; et câ€™est une Ã©trange entreprise que celle de faire rire les honnÃªtes gens.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-73">
+            <speaker>climÃ¨ne</speaker>
+            <p>Je crois Ãªtre du nombre des honnÃªtes gens, et cependant je nâ€™ai pas trouvÃ© le mot pour rire dans tout ce que jâ€™ai vu.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-74">
+            <speaker>le marquis</speaker>
+            <p>Ma foi, ni moi non plus.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-75">
+            <speaker>dorante</speaker>
+            <p>Pour toi, Marquis, je ne mâ€™en Ã©tonne pasÂ ; câ€™est que tu nâ€™y as point trouvÃ© de Turlupinades.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-76">
+            <speaker>lysidas</speaker>
+            <p>Ma foi, Monsieur, ce quâ€™on y rencontre ne vaut guÃ¨re mieux, et toutes les plaisanteries y sont assez froides, Ã  mon avis.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-77">
+            <speaker>dorante</speaker>
+            <p>La cour nâ€™a pas trouvÃ© cela.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-78">
+            <speaker>lysidas</speaker>
+            <p>AhÂ ! Monsieur, la Cour.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-79">
+            <speaker>dorante</speaker>
+            <p>Achevez, Monsieur Lysidas. Je vois bien que vous voulez dire que la Cour ne se connaÃ®t pas Ã  ces chosesÂ ; et câ€™est le refuge ordinaire de vous autres Messieurs les Auteurs, dans le mauvais succÃ¨s de vos ouvrages, que dâ€™accuser lâ€™injustice du siÃ¨cle, et le peu de lumiÃ¨re des Courtisans. Sachez, sâ€™il vous plaÃ®t, Monsieur Lysidas, que les Courtisans ont dâ€™aussi bons yeux que dâ€™autresÂ ; quâ€™on peut Ãªtre habile avec un point de Venise, et des plumes, aussi bien quâ€™avec une perruque courte, et un petit rabat uniÂ : que la grande Ã©preuve de toutes vos ComÃ©dies, câ€™est le jugement de la CourÂ ; que câ€™est son goÃ»t quâ€™il faut Ã©tudier pour trouver lâ€™art de rÃ©ussirÂ ; quâ€™il nâ€™y a point de lieu oÃ¹ les dÃ©cisions soient si justesÂ ; et sans mettre en ligne de compte tous les gens savants qui y sont, que du simple bon sens naturel et du commerce de tout le beau monde, on sâ€™y fait une maniÃ¨re dâ€™esprit, qui, sans comparaison, juge plus finement des choses, que tout le savoir enrouillÃ© des PÃ©dants.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-80">
+            <speaker>uranie</speaker>
+            <p>Il est vrai que pour peu quâ€™on y demeure, il vous passe lÃ  tous les jours assez de choses devant les yeux, pour acquÃ©rir quelque habitude de les connaÃ®tre, et surtout pour ce qui est de la bonne et mauvaise plaisanterie.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-81">
+            <speaker>dorante</speaker>
+            <p>La Cour a quelques ridicules, jâ€™en demeure dâ€™accord, et je suis, comme on voit, le premier Ã  les fronder. Mais, ma foi, il y en a un grand nombre parmi les beaux Esprits de professionÂ ; et si lâ€™on joue quelques Marquis, je trouve quâ€™il y a bien plus de quoi jouer les Auteurs, et que ce serait une chose plaisante Ã  mettre sur le ThÃ©Ã¢tre, que leurs grimaces savantes, et leurs raffinements ridiculesÂ ; leur vicieuse coutume dâ€™assassiner les gens de leurs ouvragesÂ ; leur friandise de louangesÂ ; leurs mÃ©nagements de pensÃ©esÂ ; leur trafic de rÃ©putationÂ ; et leurs ligues offensives et dÃ©fensivesÂ ; aussi bien que leurs guerres dâ€™esprit, et leurs combats de Prose, et de Vers.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-82">
+            <speaker>lysidas</speaker>
+            <p>MoliÃ¨re est bien heureux, Monsieur, dâ€™avoir un protecteur aussi chaud que vous. Mais enfin, pour venir au fait, il est question de savoir si sa piÃ¨ce est bonne, et je mâ€™offre dâ€™y montrer partout cent dÃ©fauts visibles.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-83">
+            <speaker>uranie</speaker>
+            <p>C'est une Ã©trange chose de vous autres Messieurs les PoÃ¨tes, que vous condamniez toujours les PiÃ¨ces oÃ¹ tout le monde court, et ne disiez jamais du bien que de celles oÃ¹ personne ne va. Vous montrez pour les unes une haine invincible, et pour les autres une tendresse qui nâ€™est pas concevable.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-84">
+            <speaker>dorante</speaker>
+            <p>Câ€™est quâ€™il est gÃ©nÃ©reux de se ranger du cÃ´tÃ© des affligÃ©s.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-85">
+            <speaker>uranie</speaker>
+            <p>Mais de grÃ¢ce, Monsieur Lysidas, faites-nous voir ces dÃ©fauts, dont je ne me suis point aperÃ§ue.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-86">
+            <speaker>lysidas</speaker>
+            <p>Ceux qui possÃ¨dent Aristote et Horace voient dâ€™abord, Madame, que cette comÃ©die pÃ¨che contre toutes les rÃ¨gles de lâ€™art.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-87">
+            <speaker>uranie</speaker>
+            <p>Je vous avoue que je nâ€™ai aucune habitude avec ces Messieurs-lÃ , et que je ne sais point les rÃ¨gles de lâ€™art.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-88">
+            <speaker>dorante</speaker>
+            <p>Vous Ãªtes de plaisantes gens avec vos rÃ¨gles dont vous embarrassez les ignorants, et nous Ã©tourdissez tous les jours. Il semble, Ã  vous ouÃ¯r parler, que ces rÃ¨gles de lâ€™art soient les plus grands MystÃ¨res du monde, et cependant ce ne sont que quelques observations aisÃ©es que le bon sens a faites sur ce qui peut Ã´ter le plaisir que lâ€™on prend Ã  ces sortes de PoÃ¨mesÂ ; et le mÃªme bon sens qui a fait autrefois ces observations, les fait aisÃ©ment tous les jours, sans le secours dâ€™Horace et dâ€™Aristote. Je voudrais bien savoir si la grande rÃ¨gle de toutes les rÃ¨gles nâ€™est pas de plaireÂ ; et si une piÃ¨ce de ThÃ©Ã¢tre qui a attrapÃ© son but nâ€™a pas suivi un bon chemin. Veut-on que tout un public sâ€™abuse sur ces sortes de choses, et que chacun nâ€™y soit pas juge du plaisir quâ€™il y prendÂ ?</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-89">
+            <speaker>uranie</speaker>
+            <p>Jâ€™ai remarquÃ© une chose de ces Messieurs-lÃ Â ; câ€™est que ceux qui parlent le plus des rÃ¨gles, et qui les savent mieux que les autres, font des ComÃ©dies que personne ne trouve belles.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-90">
+            <speaker>dorante</speaker>
+            <p>Et câ€™est ce qui marque, Madame, comme on doit sâ€™arrÃªter peu Ã  leurs disputes embarrassÃ©es. Car enfin, si les piÃ¨ces qui sont selon les rÃ¨gles ne plaisent pas, et que celles qui plaisent ne soient pas selon les rÃ¨gles, il faudrait de nÃ©cessitÃ© que les rÃ¨gles eussent Ã©tÃ© mal faites. Moquons-nous donc de cette chicane oÃ¹ ils veulent assujettir le goÃ»t du public, et ne consultons dans une ComÃ©die que lâ€™effet quâ€™elle fait sur nous. Laissons-nous aller de bonne foi aux choses qui nous prennent par les entrailles, et ne cherchons point de raisonnements pour nous empÃªcher dâ€™avoir du plaisir.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-91">
+            <speaker>uranie</speaker>
+            <p>Pour moi, quand je vois une ComÃ©die, je regarde seulement si les choses me touchent, et lorsque je mâ€™y suis bien divertie, je ne vais point demander si jâ€™ai eu tort, et si les rÃ¨gles dâ€™Aristote me dÃ©fendaient de rire.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-92">
+            <speaker>dorante</speaker>
+            <p>Câ€™est justement comme un homme qui aurait trouvÃ© une sauce, excellente, et qui voudrait examiner si elle est bonne, sur les prÃ©ceptes du Cuisinier franÃ§ais.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-93">
+            <speaker>uranie</speaker>
+            <p>Il est vraiÂ ; et jâ€™admire les raffinements de certaines gens, sur des choses que nous devons sentir par nous-mÃªmes.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-94">
+            <speaker>dorante</speaker>
+            <p>Vous avez raison Madame, de les trouver Ã©tranges tous ces raffinements mystÃ©rieux. Car enfin, sâ€™ils ont lieu, nous voilÃ  rÃ©duits Ã  ne nous plus croireÂ ; nos propres sens seront esclaves en toutes chosesÂ ; et jusques au manger et au boire, nous nâ€™oserons plus trouver rien de bon, sans le congÃ© de messieurs les experts.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-95">
+            <speaker>lysidas</speaker>
+            <p>Enfin, Monsieur, toute votre raison, câ€™est que Lâ€™Ã‰cole des <hi rend="i">F</hi>emmes a pluÂ ; et vous ne vous souciez point quâ€™elle soit dans les rÃ¨gles pourvuâ€¦</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-96">
+            <speaker>dorante</speaker>
+            <p>Tout beau, Monsieur Lysidas, je ne vous accorde pas cela. Je dis bien que le grand art est de plaire, et que cette ComÃ©die ayant plu Ã  ceux pour qui elle est faite, je trouve que câ€™est assez pour elle, et quâ€™elle doit peu se soucier du reste. Mais avec cela, je soutiens quâ€™elle ne pÃ¨che contre aucune des rÃ¨gles dont vous parlez. Je les ai lues, Dieu merci, autant quâ€™un autre, et je ferais voir aisÃ©ment que peut-Ãªtre, nâ€™avons-nous point de piÃ¨ce au ThÃ©Ã¢tre plus rÃ©guliÃ¨re que celle-lÃ .</p>
+          </sp>
+          <sp who="elise" xml:id="I06-97">
+            <speaker>Ã©lise</speaker>
+            <p>Courage, Monsieur Lysidas, nous sommes perdus si vous reculez.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-98">
+            <speaker>lysidas</speaker>
+            <p>Quoi, Monsieur, la Protase, lâ€™Ã‰pitase, et la PÃ©ripÃ©tieÂ ?...</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-99">
+            <speaker>dorante</speaker>
+            <p>AhÂ ! Monsieur Lysidas, vous nous assommez avec vos grands mots. Ne paraissez point si savant, de grÃ¢ceÂ ; humanisez votre discours, et parlez pour Ãªtre entendu. Pensez-vous quâ€™un nom grec donne plus de poids Ã  vos raisonsÂ ? Et ne trouveriez-vous pas quâ€™il fÃ»t aussi beau de dire, lâ€™exposition du sujet, que la ProtaseÂ ; le nÅ“ud, que lâ€™Ã‰pitaseÂ ; et le dÃ©nouement, que la PÃ©ripÃ©tieÂ ?</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-100">
+            <speaker>lysidas</speaker>
+            <p>Ce sont termes de lâ€™art dont il est permis de se servir. Mais puisque ces mots blessent vos oreilles, je mâ€™expliquerai dâ€™une autre faÃ§on, et je vous prie de rÃ©pondre positivement Ã  trois ou quatre choses que je vais dire. Peut-on souffrir une piÃ¨ce qui pÃ¨che contre le nom propre des piÃ¨ces de ThÃ©Ã¢treÂ ? Car enfin le nom de poÃ¨me Dramatique vient dâ€™un mot grec, qui signifie agir, pour montrer que la nature de ce poÃ¨me consiste dans lâ€™actionÂ ; et dans cette comÃ©die-ci il ne se passe point dâ€™actions, et tout consiste en des rÃ©cits que vient faire ou AgnÃ¨s ou Horace.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-101">
+            <speaker>le marquis</speaker>
+            <p>Ah, ah, Chevalier.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-102">
+            <speaker>climÃ¨ne</speaker>
+            <p>VoilÃ  qui est spirituellement remarquÃ©, et câ€™est prendre le fin des choses.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-103">
+            <speaker>lysidas</speaker>
+            <p>Est-il rien de si peu spirituel, ou, pour mieux dire, rien de si bas, que quelques mots oÃ¹ tout le monde rit, et surtout celui des enfants par lâ€™oreilleÂ ?</p>
+          </sp>
+          <sp who="climene" xml:id="I06-104">
+            <speaker>climÃ¨ne</speaker>
+            <p>Fort bien.</p>
+          </sp>
+          <sp who="elise" xml:id="I06-105">
+            <speaker>Ã©lise</speaker>
+            <p>AhÂ !</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-106">
+            <speaker>lysidas</speaker>
+            <p>La ScÃ¨ne du valet et de la servante au dedans de la maison, nâ€™est-elle pas dâ€™une longueur ennuyeuse, et tout Ã  fait impertinenteÂ ?</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-107">
+            <speaker>le marquis</speaker>
+            <p>Cela est vrai.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-108">
+            <speaker>climÃ¨ne</speaker>
+            <p>AssurÃ©ment.</p>
+          </sp>
+          <sp who="elise" xml:id="I06-109">
+            <speaker>Ã©lise</speaker>
+            <p>Il a raison.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-110">
+            <speaker>lysidas</speaker>
+            <p>Arnolphe ne donne-t-il pas trop librement son argent Ã  HoraceÂ ; et puisque câ€™est le personnage ridicule de la piÃ¨ce, fallait-il lui faire faire lâ€™action dâ€™un honnÃªte hommeÂ ?</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-111">
+            <speaker>le marquis</speaker>
+            <p>Bon, la remarque est encore bonne.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-112">
+            <speaker>climÃ¨ne</speaker>
+            <p>Admirable.</p>
+          </sp>
+          <sp who="elise" xml:id="I06-113">
+            <speaker>Ã©lise</speaker>
+            <p>Merveilleuse.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-114">
+            <speaker>lysidas</speaker>
+            <p>Le sermon, et les Maximes ne sont-elles pas des choses ridicules, et qui choquent, mÃªme, le respect que lâ€™on doit Ã  nos mystÃ¨resÂ ?</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-115">
+            <speaker>le marquis </speaker>
+            <p>Câ€™est bien dit.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-116">
+            <speaker>climÃ¨ne</speaker>
+            <p>VoilÃ  parlÃ© comme il faut.</p>
+          </sp>
+          <sp who="elise" xml:id="I06-117">
+            <speaker>Ã©lise</speaker>
+            <p>Il ne se peut rien de mieux.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-118">
+            <speaker>lysidas</speaker>
+            <p>Et ce Monsieur de la Souche, enfin, quâ€™on nous fait un homme dâ€™esprit, et qui paraÃ®t si sÃ©rieux en tant dâ€™endroits, ne descend-il point dans quelque chose de trop Comique, et de trop outrÃ© au cinquiÃ¨me Acte, lorsquâ€™il explique Ã  AgnÃ¨s la violence de son amour avec ces roulements dâ€™yeux extravagants, ces soupirs ridicules, et ces larmes niaises qui font rire tout le mondeÂ ?</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-119">
+            <speaker>le marquis</speaker>
+            <p>Morbleu, merveilleÂ !</p>
+          </sp>
+          <sp who="climene" xml:id="I06-120">
+            <speaker>climÃ¨ne </speaker>
+            <p>MiracleÂ !</p>
+          </sp>
+          <sp who="elise" xml:id="I06-121">
+            <speaker>Ã©lise</speaker>
+            <p>Vivat, Monsieur Lysidas.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-122">
+            <speaker>lysidas</speaker>
+            <p>Je laisse cent mille autres choses de peur dâ€™Ãªtre ennuyeux.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-123">
+            <speaker>le marquis</speaker>
+            <p>Parbleu, Chevalier, te voilÃ  mal ajustÃ©.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-124">
+            <speaker>dorante</speaker>
+            <p>Il faut voir.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-125">
+            <speaker>le marquis</speaker>
+            <p>Tu as trouvÃ© ton homme, ma foi.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-126">
+            <speaker>dorante</speaker>
+            <p>Peut-Ãªtre.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-127">
+            <speaker>le marquis</speaker>
+            <p>RÃ©ponds, rÃ©ponds, rÃ©ponds, rÃ©ponds.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-128">
+            <speaker>dorante</speaker>
+            <p>Volontiers. Ilâ€¦</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-129">
+            <speaker>le marquis</speaker>
+            <p>RÃ©ponds donc, je te prie.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-130">
+            <speaker>dorante</speaker>
+            <p>Laisse-moi donc faire. Siâ€¦</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-131">
+            <speaker>le marquis</speaker>
+            <p>Parbleu, je te dÃ©fie de rÃ©pondre.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-132">
+            <speaker>dorante</speaker>
+            <p>Oui, si tu parles toujours.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-133">
+            <speaker>climÃ¨ne</speaker>
+            <p>De grÃ¢ce Ã©coutons ses raisons.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-134">
+            <speaker>dorante</speaker>
+            <p>PremiÃ¨rement, il nâ€™est pas vrai de dire que toute la piÃ¨ce nâ€™est quâ€™en rÃ©cits. On y voit beaucoup dâ€™actions qui se passent sur la ScÃ¨neÂ ; et les rÃ©cits eux-mÃªmes y sont des actions suivant la constitution du sujet, dâ€™autant quâ€™ils sont tous faits innocemment, ces rÃ©cits, Ã  la personne intÃ©ressÃ©e, qui par lÃ  entre Ã  tous coups dans une confusion Ã  rÃ©jouir les spectateurs, et prend Ã  chaque nouvelle toutes les mesures quâ€™il peut pour se parer du malheur quâ€™il craint.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-135">
+            <speaker>uranie</speaker>
+            <p>Pour moi, je trouve que la beautÃ© du sujet de Lâ€™Ã‰cole des <hi rend="i">F</hi>emmes consiste dans cette confidence perpÃ©tuelleÂ ; et ce qui me paraÃ®t assez plaisant, câ€™est quâ€™un homme qui a de lâ€™Esprit et qui est averti de tout par une innocente qui est sa maÃ®tresse et par un Ã©tourdi qui est son rival, ne puisse avec cela Ã©viter ce qui lui arrive.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-136">
+            <speaker>le marquis</speaker>
+            <p>Bagatelle, bagatelle.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-137">
+            <speaker>climÃ¨ne</speaker>
+            <p>Faible rÃ©ponse.</p>
+          </sp>
+          <sp who="elise" xml:id="I06-138">
+            <speaker>Ã©lise</speaker>
+            <p>Mauvaises raisons.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-139">
+            <speaker>dorante</speaker>
+            <p>Pour ce qui est des enfants par lâ€™oreille, ils ne sont plaisants que par rÃ©flexion Ã  ArnolpheÂ ; et lâ€™Auteur nâ€™a pas mis cela pour Ãªtre de soi un bon motÂ : mais seulement pour une chose qui caractÃ©rise lâ€™homme, et peint dâ€™autant mieux son extravagance, puisquâ€™il rapporte une sottise triviale quâ€™a dite AgnÃ¨s, comme la chose la plus belle du monde et qui lui donne une joie inconcevable.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-140">
+            <speaker>le marquis</speaker>
+            <p>Câ€™est mal rÃ©pondre.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-141">
+            <speaker>climÃ¨ne</speaker>
+            <p>Cela ne satisfait point.</p>
+          </sp>
+          <sp who="elise" xml:id="I06-142">
+            <speaker>Ã©lise</speaker>
+            <p>Câ€™est ne rien dire.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-143">
+            <speaker>dorante</speaker>
+            <p>Quant Ã  lâ€™argent quâ€™il donne librement, outre que la lettre de son meilleur ami lui est une caution suffisante, il nâ€™est pas incompatible quâ€™une personne soit ridicule en de certaines choses, et honnÃªte homme en dâ€™autres. Et pour la ScÃ¨ne dâ€™Alain et de Georgette dans le logis, que quelques-uns ont trouvÃ©e longue et froide, il est certain quâ€™elle nâ€™est pas sans raisonÂ ; et de mÃªme quâ€™Arnolphe se trouve attrapÃ© pendant son voyage, par la pure innocence de sa maÃ®tresse, il demeure au retour longtemps Ã  sa porte par lâ€™innocence de ses valets, afin quâ€™il soit partout puni par les choses quâ€™il a cru faire la sÃ»retÃ© de ses prÃ©cautions.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-144">
+            <speaker>le marquis</speaker>
+            <p>VoilÃ  des raisons qui ne valent rien.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-145">
+            <speaker>climÃ¨ne</speaker>
+            <p>Tout cela ne fait que blanchir.</p>
+          </sp>
+          <sp who="elise" xml:id="I06-146">
+            <speaker>Ã©lise</speaker>
+            <p>Cela fait pitiÃ©.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-147">
+            <speaker>dorante</speaker>
+            <p>Pour le discours moral que vous appelez un sermon, il est certain que de vrais dÃ©vots qui lâ€™ont ouÃ¯ nâ€™ont pas trouvÃ© quâ€™il choquÃ¢t ce que vous ditesÂ ; et sans doute que ces paroles dâ€™enfer et de chaudiÃ¨res bouillantes sont assez justifiÃ©es par lâ€™extravagance dâ€™Arnolphe et par lâ€™innocence de celle Ã  qui il parle. Et quant au transport amoureux du cinquiÃ¨me acte quâ€™on accuse dâ€™Ãªtre trop outrÃ© et trop comique, je voudrais bien savoir si ce nâ€™est pas faire la satire des amants, et si les honnÃªtes gens mÃªme, et les plus sÃ©rieux, en de pareilles occasions, ne font pas des chosesÂ ? ...</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-148">
+            <speaker>le marquis</speaker>
+            <p>Ma foi, Chevalier, tu ferais mieux de te taire.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-149">
+            <speaker>dorante</speaker>
+            <p>Fort bien. Mais enfin si nous nous regardions nous-mÃªmes, quand nous sommes bien amoureuxÂ ? ...</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-150">
+            <speaker>le marquis</speaker>
+            <p>Je ne veux pas seulement tâ€™Ã©couter.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-151">
+            <speaker>dorante</speaker>
+            <p>Ã‰coute-moi si tu veux. Est-ce que dans la violence de la passionÂ ?...</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-152">
+            <speaker>le marquis</speaker>
+            <p>La, la, la, la, lare, la, la, la, la, la, la.</p>
+            <stage>Il chante.</stage>
+          </sp>
+          <sp who="dorante" xml:id="I06-153">
+            <speaker>dorante</speaker>
+            <p>QuoiÂ ?...</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-154">
+            <speaker>le marquis</speaker>
+            <p>La, la, la, la, lare, la, la, la, la, la, la.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-155">
+            <speaker>dorante</speaker>
+            <p>Je ne sais pas siÂ ?...</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-156">
+            <speaker>le marquis</speaker>
+            <p>La, la, la, la, lare, la, la, la, la, la, la, la.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-157">
+            <speaker>uranie</speaker>
+            <p>Il me semble que...</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-158">
+            <speaker>le marquis</speaker>
+            <p>La, la, la, lare, la, la, la, la, la, la, la, la, la, la.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-159">
+            <speaker>uranie</speaker>
+            <p>Il se passe des choses assez plaisantes dans notre dispute. Je trouve quâ€™on en pourrait bien faire une petite ComÃ©die, et que cela ne serait pas trop mal Ã  la queue de Lâ€™Ã‰cole des <hi rend="i">F</hi>emmes.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-160">
+            <speaker>dorante</speaker>
+            <p>Vous avez raison.</p>
+          </sp>
+          <sp who="le-marquis" xml:id="I06-161">
+            <speaker>le marquis</speaker>
+            <p>Parbleu, Chevalier, tu jouerais lÃ dedans un rÃ´le qui ne te serait pas avantageux.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-162">
+            <speaker>dorante</speaker>
+            <p>Il est vrai, Marquis.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-163">
+            <speaker>climÃ¨ne</speaker>
+            <p>Pour moi, je souhaiterais que cela se fÃ®t, pourvu quâ€™on traitÃ¢t lâ€™affaire comme elle sâ€™est passÃ©e.</p>
+          </sp>
+          <sp who="elise" xml:id="I06-164">
+            <speaker>Ã©lise</speaker>
+            <p>Et moi je fournirais de bon cÅ“ur mon personnage.</p>
+          </sp>
+          <sp who="lysidas" xml:id="I06-165">
+            <speaker>lysidas</speaker>
+            <p>Je ne refuserais pas le mien, que je pense.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-166">
+            <speaker>uranie</speaker>
+            <p>Puisque chacun en serait content, Chevalier, faites un mÃ©moire de tout, et le donnez Ã  MoliÃ¨re que vous connaissez, pour le mettre en ComÃ©die.</p>
+          </sp>
+          <sp who="climene" xml:id="I06-167">
+            <speaker>climÃ¨ne</speaker>
+            <p>Il nâ€™aurait garde, sans doute, et ce ne serait pas des vers Ã  sa louange.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-168">
+            <speaker>uranie</speaker>
+            <p>Point, pointÂ ; je connais son humeurÂ ; il ne se soucie pas quâ€™on fronde ses piÃ¨ces, pourvu quâ€™il y vienne du monde.</p>
+          </sp>
+          <sp who="dorante" xml:id="I06-169">
+            <speaker>dorante</speaker>
+            <p>OuiÂ ; mais quel dÃ©nouement pourrait-il trouver Ã  ceciÂ ? Car il ne saurait y avoir ni mariage, ni reconnaissanceÂ ; et je ne sais point par oÃ¹ lâ€™on pourrait faire finir la dispute.</p>
+          </sp>
+          <sp who="uranie" xml:id="I06-170">
+            <speaker>uranie</speaker>
+            <p>Il faudrait rÃªver quelque incident pour cela.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I07">
+          <head>SCÃˆNE VII ET DERNIÃˆRE.</head>
+          <stage>Galopin, Lysidas, Dorante, Le marquis, ClimÃ¨ne, Ã‰lise, Uranie.</stage>
+          <sp who="galopin" xml:id="I07-1">
+            <speaker>galopin</speaker>
+            <p>Madame, on a servi sur table.</p>
+          </sp>
+          <sp who="dorante" xml:id="I07-2">
+            <speaker>dorante</speaker>
+            <p>AhÂ ! voilÃ  justement ce quâ€™il faut pour le dÃ©nouement que nous cherchions, et lâ€™on ne peut rien trouver de plus naturel. On disputera fort et ferme de part et dâ€™autre, comme nous avons fait, sans que personne se rendeÂ ; un petit laquais viendra dire quâ€™on a serviÂ ; on se lÃ¨vera, et chacun ira souper.</p>
+          </sp>
+          <sp who="uranie" xml:id="I07-3">
+            <speaker>uranie</speaker>
+            <p>La ComÃ©die ne peut pas mieux finir, et nous ferons bien dâ€™en demeurer lÃ .</p>
+            <label>FIN</label>
+          </sp>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>
