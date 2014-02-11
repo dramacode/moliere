@@ -1,1270 +1,1564 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<TEI.2 xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>SGANARELLE ou Le COCU IMAGINAIRE, COM�DIE</title>
-			<author born='1622' born_location='Paris' death='1673' death_location='Paris' academie=''>MOLI�RE</author>
-				<date>1660</date>
-			</titleStmt>
-			<publicationStmp>	
-				<p>publi� par Paul FIEVRE, Mai 2006</p>
-			</publicationStmp>
-			<SourceDesc>
-				<genre>Com�die</genre>
-				<inspiration>moeurs fran�aises</inspiration>
-				<structure>Un acte</structure>
-				<type>vers</type>
-				<periode>1651-1660</periode>
-				<taille>500-750</taille>
-				<permalien></permalien>
-				<sources>
-					<source id='1'><author></author><text></text></source>
-				</sources>	
-
-			</SourceDesc>
-		</fileDesc>
-</teiHeader>
-<text>
-	<front>
-		<docTitle>
-			<titlePart type="main">SGANARELLE</titlePart>
-			<titlePart type="main">ou Le COCU IMAGINAIRE</titlePart>
-			<titlePart type="sub">COM�DIE</titlePart>
-		</docTitle> 
-		<docDate value='1660'>1660</docDate>
-		<docAuthor id='MOLIERE' bio='moliere'>Moli�re</docAuthor>
-		<docImprint>
-			<privilege id='16**-**-**'></privilege>
-			<acheveImprime id='16**-**-**'></acheveImprime>
-			<printer id=''></printer>
-		</docImprint>
-		<performance>
-			<premiere date='1660-05-28' location='Th��tre du Petit-Bourbon'>R�pr�sent� pour la premi�re fois le 28 mai 1660 au Th��tre du Petit-Bourbon.</premiere>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>SGANARELLE ou Le COCU IMAGINAIRE, COMÉDIE</title>
+        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
+        <date>1660</date>
+      </titleStmt>
+      <publicationStmp>
+        <p>publié par Paul FIEVRE, Mai 2006</p>
+      </publicationStmp>
+      <SourceDesc>
+        <genre>Comédie</genre>
+        <inspiration>moeurs françaises</inspiration>
+        <structure>Un acte</structure>
+        <type>vers</type>
+        <periode>1651-1660</periode>
+        <taille>500-750</taille>
+        <permalien/>
+        <sources>
+          <source id="1">
+            <author/>
+            <text/>
+          </source>
+        </sources>
+      </SourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">SGANARELLE</titlePart>
+        <titlePart type="main">ou Le COCU IMAGINAIRE</titlePart>
+        <titlePart type="sub">COMÉDIE</titlePart>
+      </docTitle>
+      <docDate value="1660">1660</docDate>
+      <docAuthor id="MOLIERE" bio="moliere">Molière</docAuthor>
+      <docImprint>
+        <privilege id="16**-**-**"/>
+        <acheveImprime id="16**-**-**"/>
+        <printer id=""/>
+      </docImprint>
+      <performance>
+			<premiere date="1660-05-28" location="Théâtre du Petit-Bourbon">Réprésenté pour la première fois le 28 mai 1660 au Théâtre du Petit-Bourbon.</premiere>
 		</performance>
-		<castList>
-			<head>ACTEURS</head>
-			<castItem><role id="GORGIBUS" civil='M' type="H" statut='bourgeois' age='A' stat_amour='n�ant'>GORGIBUS</role>, bourgeois de Paris.</castItem>
-			<castItem><role id="C�LIE" civil='F' type="H" statut='bourgeois' age='A' stat_amour='n�ant'>C�LIE</role>, sa fille.</castItem>
-			<castItem><role id="L�LIE" civil='M' type="H" statut='bourgeois' age='A' stat_amour='n�ant'>L�LIE</role>, amant de C�lie.</castItem>
-			<castItem><role id="GROS-RENE" civil='M' type="H" statut='valet' age='A' stat_amour='n�ant'>GROS-REN�</role>, valet de L�lie.</castItem>
-			<castItem><role id="SGANARELLE" civil='M' type="H" statut='bourgeois' age='A' stat_amour='n�ant'>SGANARELLE</role>, bourgeois de Paris et cocu imaginaire.</castItem>
-			<castItem><role id="FEMME-SGANARELLE" civil='F' type="H" statut='bourgeois' age='A' stat_amour='n�ant'>SA FEMME</role>.</castItem>
-			<castItem><role id="VILLEBREQUIN" civil='M' type="H" statut='bourgeois' age='A' stat_amour='n�ant'>VILLEBREQUIN</role>, p�re de Val�re.</castItem>
-			<castItem><role id="SUIVANTE" civil='F' type="H" statut='suivante' age='A' stat_amour='n�ant'>LA SUIVANTE</role> de C�lie.</castItem>
-			<castItem><role id="LE_PARENT" civil='M' type="H" statut='bourgeois' age='A' stat_amour='n�ant'>UN PARENT</role>de Sganarelle.</castItem>
-		</castList>
-		<set location='Paris' country='France' periode='XVII�me' link=''>La sc�ne est � Paris.</set>
-	</front>
-<body>
-<div1 type="acte" n="1"><head></head>
-<div2 type="scene" n="1"><head>SC�NE PREMI�RE. C�lie, Gorgibus.</head>
-<sp who="C�LIE"><speaker>C�LIE, sortant toute �plor�e, et son p�re la suivant.</speaker>
-	<l id="1">Ah ! N'esp�rez jamais que mon coeur y consente.</l>
-</sp>
-<sp who="GORGIBUS"><speaker>GORGIBUS.</speaker>
-<note type="L">Marmoter : mot bas qui signifie parler entre les dents, remuer les l�vres sans se fair entendre. [F]</note>
-	<l id="2">Que marmottez-vous l�, petite impertinente ?</l>
-	<l id="3">Vous pr�tendez choquer ce que j'ai r�solu ?</l>
-	<l id="4">Je n'aurai pas sur vous un pouvoir absolu ?</l>
-	<l id="5">Et par sottes raisons votre jeune cervelle</l>
-	<l id="6">Voudrait r�gler ici la raison paternelle ?</l>
-	<l id="7">Qui de nous deux � l'autre a droit de faire loi ?</l>
-	<l id="8">� votre avis, qui mieux, ou de vous ou de moi,</l>
-	<l id="9">� sotte, peut juger ce qui vous est utile ?</l>
-	<l id="10">Par la corbleu ! Gardez d'�chauffer trop ma bile :</l>
-	<l id="11">Vous pourriez �prouver, sans beaucoup de longueur,</l>
-	<l id="12">Si mon bras sait encore montrer quelque vigueur.</l>
-	<l id="13">Votre plus court sera, madame la mutine,</l>
-	<l id="14">D'accepter sans fa�ons l'�poux qu'on vous destine.</l>
-	<l id="15">J'ignore, dites-vous, de quelle humeur il est,</l>
-	<l id="16">Et dois auparavant consulter s'il vous pla�t :</l>
-	<l id="17">Inform� du grand bien qui lui tombe en partage,</l>
-	<l id="18">Dois-je prendre le soin d'en savoir davantage ?</l>
-	<l id="19">Et cet �poux, ayant vingt mille bons ducats,</l>
-	<l id="20">Pour �tre aim� de vous, doit-il manquer d'appas ?</l>
-	<l id="21">Allez, tel qu'il puisse �tre, avec cette somme</l>
-	<l id="22">Je vous suis caution qu'il est tr�s honn�te homme.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="23" part="i">H�las !</l>
-</sp>
-<sp who="GORGIBUS"><speaker>GORGIBUS.</speaker>
-	<l id="23" part="f">Eh bien, "H�las !" que veut dire ceci ?</l>
-	<l id="24">Voyez le bel h�las ! Qu'elle nous donne ici !</l>
-	<l id="25">H� ! Que si la col�re une fois me transporte,</l>
-	<l id="26">Je vous ferai chanter h�las ! De belle sorte !</l>
-	<l id="27">Voil�, voil� le fruit de ces empressements</l>
-	<l id="28">Qu'on vous voit nuit et jour � lire vos romans :</l>
-	<l id="29">De quolibets d'amour votre t�te est remplie,</l>
-	<l id="30">Et vous parlez de Dieu bien moins que de Cl�lie.</l>
-	<l id="31">Jetez-moi dans le feu tous ces m�chants �crits,</l>
-	<l id="32">Qui g�tent tous les jours tant de jeunes esprits.</l>
-	<l id="33">Lisez-moi comme il faut, au lieu de ces sornettes,</l>
-	<l id="34">Les quatrains de Pybrac, et les doctes tablettes</l>
-	<l id="35">Du conseiller Matthieu, ouvrage de valeur,</l>
-	<l id="36">Et plein de beaux dictons � r�citer par coeur.</l>
-	<l id="37">La guide des p�cheurs est encore un bon livre :</l>
-	<l id="38">C'est l� qu'en peu de temps on apprend � bien vivre ;</l>
-	<l id="39">Et si vous n'aviez lu que ces moralit�s,</l>
-	<l id="40">Vous sauriez un peu mieux suivre mes volont�s.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="41">Quoi ? Vous pr�tendez donc, mon p�re, que j'oublie</l>
-	<l id="42">La constante amiti� que je dois � L�lie ?</l>
-	<l id="43">J'aurais tort si, sans vous, je disposais de moi ;</l>
-	<l id="44">Mais vous-m�me � ses voeux engage�tes ma foi.</l>
-</sp>
-<sp who="GORGIBUS"><speaker>GORGIBUS.</speaker>
-	<l id="45">Lui f�t-elle engag�e encore davantage,</l>
-	<l id="46">Un autre est survenu dont le bien l'en d�gage.</l>
-	<l id="47">L�lie est fort bien fait ; mais apprends qu'il n'est rien</l>
-	<l id="48">Qui ne doive c�der au soin d'avoir du bien ;</l>
-	<l id="49">Que l'or donne aux plus laids certain charme pour plaire,</l>
-	<l id="50">Et que sans lui le reste est une triste affaire.</l>
-	<l id="51">Val�re, je crois bien, n'est pas de toi ch�ri ;</l>
-	<l id="52">Mais, s'il ne l'est amant, il le sera mari.</l>
-	<l id="53">Plus que l'on ne le croit ce nom d'�poux engage,</l>
-	<l id="54">Et l'amour est souvent un fruit du mariage.</l>
-	<l id="55">Mais suis-je pas bien fat de vouloir raisonner</l>
-	<l id="56">O� de droit absolu j'ai pouvoir d'ordonner ?</l>
-	<l id="57">Tr�ve donc, je vous prie, � vos impertinences ;</l>
-	<l id="58">Que je n'entende plus vos sottes dol�ances.</l>
-	<l id="59">Ce gendre doit venir vous visiter ce soir :</l>
-	<l id="60">Manquez un peu, manquez � le bien recevoir !</l>
-	<l id="61">Si je ne vous lui vois faire fort bon visage,</l>
-	<l id="62">Je vous... Je ne veux pas en dire davantage.</l>
-</sp>
-</div2>
-<div2 type="scene" n="2"><head>SC�NE II. La suivante, C�lie.</head>
-<sp who="SUIVANTE"><speaker>LA SUIVANTE.</speaker>
-	<l id="63">Quoi ? Refuser, madame, avec cette rigueur,</l>
-	<l id="64">Ce que tant d'autres gens voudraient de tout leur coeur !</l>
-	<l id="65">� des offres d'hymen r�pondre par des larmes,</l>
-	<l id="66">Et tarder tant � dire un oui si plein de charmes !</l>
-	<l id="67">H�las ! Que ne veut-on aussi me marier ?</l>
-	<l id="68">Ce ne serait pas moi qui se ferait prier ;</l>
-	<l id="69">Et loin qu'un pareil oui me donn�t de la peine,</l>
-	<l id="70">Croyez que j'en dirais bien vite une douzaine.</l>
-	<l id="71">Le pr�cepteur qui fait r�p�ter la le�on</l>
-	<l id="72">� votre jeune fr�re a fort bonne raison</l>
-	<l id="73">Lorsque, nous discourant des choses de la terre,</l>
-	<l id="74">Il dit que la femelle est ainsi que le lierre,</l>
-	<l id="75">Qui cro�t beau tant qu'� l'arbre il se tient bien serr�,</l>
-	<l id="76">Et ne profite point s'il en est s�par�.</l>
-	<l id="77">Il n'est rien de plus vrai, ma tr�s ch�re ma�tresse,</l>
-	<l id="78">Et je l'�prouve en moi, ch�tive p�cheresse.</l>
-	<l id="79">Le bon Dieu fasse paix � mon pauvre Martin !</l>
-	<l id="80">Mais j'avais, lui vivant, le teint d'un ch�rubin,</l>
-	<l id="81">L'embonpoint merveilleux, l'oeil gai, l'�me contente ;</l>
-	<l id="82">Et je suis maintenant ma comm�re dolente.</l>
-	<l id="83">Pendant cet heureux temps, pass� comme un �clair,</l>
-	<l id="84">Je me couchais sans feu dans le fort de l'hiver ;</l>
-	<l id="85">S�cher m�me les draps me semblait ridicule :</l>
-	<l id="86">Et je tremble � pr�sent dedans la canicule.</l>
-	<l id="87">Enfin il n'est rien tel, madame, croyez-moi,</l>
-	<l id="88">Que d'avoir un mari la nuit aupr�s de soi ;</l>
-	<l id="89">Ne f�t-ce que pour l'heur d'avoir qui vous salue</l>
-	<l id="90">D'un "Dieu vous soit en aide !" alors qu'on �ternue.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="91">Peux-tu me conseiller de commettre un forfait,</l>
-	<l id="92">D'abandonner L�lie, et prendre ce mal-fait ?</l>
-</sp>
-<sp who="SUIVANTE"><speaker>LA SUIVANTE.</speaker>
-	<l id="93">Votre L�lie aussi n'est, ma foi, qu'une b�te,</l>
-	<l id="94">Puisque si hors de temps son voyage l'arr�te ;</l>
-	<l id="95">Et la grande longueur de son �loignement</l>
-	<l id="96">Me le fait soup�onner de quelque changement.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE, lui montrant le portrait de L�lie.</speaker>
-	<l id="97">Ah ! Ne m'accable point par ce triste pr�sage.</l>
-	<l id="98">Vois attentivement les traits de ce visage :</l>
-	<l id="99">Ils jurent � mon coeur d'�ternelles ardeurs ;</l>
-	<l id="100">Je veux croire, apr�s tout, qu'ils ne sont pas menteurs,</l>
-	<l id="101">Et comme c'est celui que l'art y repr�sente,</l>
-	<l id="102">Il conserve � mes feux une amiti� constante.</l>
-</sp>
-<sp who="SUIVANTE"><speaker>LA SUIVANTE.</speaker>
-	<l id="103">Il est vrai que ces traits marquent un digne amant,</l>
-	<l id="104">Et que vous avez lieu de l'aimer tendrement.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="105" part="i">Et cependant il faut... Ah ! Soutiens-moi.</l>
-<stage>Laissant tomber le portrait de L�lie.</stage>
-</sp>
-<sp who="SUIVANTE"><speaker>LA SUIVANTE.</speaker>
-	<l id="105" part="f">Madame,</l>
-	<l id="106">D'o� vous pourrait venir... ? Ah ! Bons dieux ! Elle p�me.</l>
-	<l id="107" part="i">H� vite, hol� quelqu'un !</l>
-</sp>
-</div2>
-<div2 type="scene" n="3"><head>SC�NE III. Sganarelle, La suivante.</head>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="107" part="f">Qu'est-ce donc ? Me voil�.</l>
-</sp>
-<sp who="SUIVANTE"><speaker>LA SUIVANTE.</speaker>
-	<l id="108" part="i">Ma ma�tresse se meurt.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="108" part="f">Quoi ? Ce n'est que cela ?</l>
-	<l id="109">Je croyais tout perdu, de crier de la sorte.</l>
-	<l id="110">Mais approchons pourtant. Madame, �tes-vous morte ?</l>
-	<l id="111" part="i">Hays ! Elle ne dit mot.</l>
-</sp>
-<sp who="SUIVANTE"><speaker>LA SUIVANTE.</speaker>
-	<l id="111" part="f">Je vais faire venir</l>
-	<l id="112">Quelqu'un pour l'emporter : veuillez la soutenir.</l>
-</sp>
-</div2>
-<div2 type="scene" n="4"><head>SC�NE IV. Sganarelle, Sa femme.</head>
-<sp who="SGANARELLE"><speaker>SGANARELLE, en lui passant la main sur le sein.</speaker>
-	<l id="113">Elle est froide partout et je ne sais qu'en dire.</l>
-	<l id="114">Approchons-nous pour voir si sa bouche respire.</l>
-	<l id="115">Ma foi, je ne sais pas, mais j'y trouve encor, moi,</l>
-	<l id="116" part="i">Quelque signe de vie.</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>LE FEMME, regardant par la fen�tre.</speaker>
-	<l id="116" part="f">Ah ! Qu'est-ce que je vois ?</l>
-	<l id="117">Mon mari dans ses bras... ! Mais je m'en vais descendre :</l>
-	<l id="118">Il me trahit sans doute, et je veux le surprendre.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="119">Il faut se d�p�cher de l'aller secourir.</l>
-	<l id="120">Certes, elle aurait tort de se laisser mourir :</l>
-	<l id="121">Aller en l'autre monde est tr�s grande sottise,</l>
-	<l id="122">Tant que dans celui-ci l'on peut �tre de mise.</l>
-<stage>Il l'emporte avec un homme que la suivante am�ne.</stage>
-</sp>
-</div2>
-<div2 type="scene" n="5"><head>SC�NE V.</head>
-<sp who="FEMME-SGANARELLE"><speaker>La FEMME de Sganarelle, seule.</speaker>
-	<l id="123">Il s'est subitement �loign� de ces lieux,</l>
-	<l id="124">Et sa fuite a tromp� mon d�sir curieux ;</l>
-	<l id="125">Mais de sa trahison je ne fais plus de doute,</l>
-	<l id="126">Et le peu que j'ai vu me la d�couvre toute.</l>
-	<l id="127">Je ne m'�tonne plus de l'�trange froideur</l>
-	<l id="128">Dont je le vois r�pondre � ma pudique ardeur :</l>
-	<l id="129">Il r�serve, l'ingrat, ses caresses � d'autres,</l>
-	<l id="130">Et nourrit leurs plaisirs par le je�ne des n�tres.</l>
-	<l id="131">Voil� de nos maris le proc�d� commun :</l>
-	<l id="132">Ce qui leur est permis leur devient importun.</l>
-	<l id="133">Dans les commencements ce sont toutes merveilles ;</l>
-	<l id="134">Ils t�moignent pour nous des ardeurs non pareilles ;</l>
-	<l id="135">Mais les tra�tres bient�t se lassent de nos feux,</l>
-	<l id="136">Et portent autre part ce qu'ils doivent chez eux.</l>
-	<l id="137">Ah ! Que j'ai de d�pit que la loi n'autorise</l>
-	<l id="138">� changer de mari comme on fait de chemise !</l>
-	<l id="139">Cela serait commode ; et j'en sais telle ici</l>
-	<l id="140">Qui comme moi, ma foi, le voudrait bien aussi.</l>
-<stage>En ramassant le portrait que C�lie avait laiss� tomber.</stage>
-	<l id="141">Mais quel est ce bijou que le sort me pr�sente ?</l>
-	<l id="142">L'�mail en est fort beau, la gravure charmante.</l>
-	<l id="143" part="i">Ouvrons.</l>
-</sp>
-</div2>
-<div2 type="scene" n="6"><head>SC�NE VI. Sganarelle, Sa femme.</head>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="143" part="f">On la croyait morte, et ce n'�tait rien.</l>
-	<l id="144">Il n'en faut plus qu'autant : elle se porte bien.</l>
-	<l id="145" part="i">Mais j'aper�ois ma femme.</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>SA FEMME.</speaker>
-	<l id="145" part="f">� ciel ! C'est mignature,</l>
-	<l id="146">Et voil� d'un bel homme une vive peinture.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE, � part, et regardant sur l'�paule de sa femme.</speaker>
-	<l id="147">Que consid�re-t-elle avec attention ?</l>
-	<l id="148">Ce portrait, mon honneur, ne nous dit rien de bon.</l>
-	<l id="149">D'un fort vilain soup�on je me sens l'�me �mue.</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>SA FEMME, sans l'apercevoir, continue.</speaker>
-	<l id="150">Jamais rien de plus beau ne s'offrit � ma vue ;</l>
-	<l id="151">Le travail plus que l'or s'en doit encore priser.</l>
-	<l id="152" part="i">Hon ! Que cela sent bon !</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE, � part.</speaker>
-	<l id="152" part="f">Quoi ? Peste ! Le baiser !</l>
-	<l id="153" part="i">Ah ! J'en tiens.</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>SA FEMME poursuit.</speaker>
-	<l id="153" part="f">Avouons qu'on doit �tre ravie</l>
-	<l id="154">Quand d'un homme ainsi fait on se peut voir servie,</l>
-	<l id="155">Et que s'il en contait avec attention,</l>
-	<l id="156">Le penchant serait grand � la tentation.</l>
-	<l id="157">Ah ! Que n'ai-je un mari d'une aussi bonne mine,</l>
-	<l id="158" part="i">Au lieu de mon pel�, de mon rustre... !</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE, lui arrachant le portrait.</speaker>
-	<l id="158" part="f">Ah ! M�tine !</l>
-	<l id="159">Nous vous y surprenons en faute contre nous,</l>
-	<l id="160">Et diffamant l'honneur de votre cher �poux.</l>
-	<l id="161">Donc, � votre calcul, � ma trop digne femme,</l>
-	<l id="162">Monsieur, tout bien compt�, ne vaut pas bien madame ?</l>
-	<l id="163">Et, de par Belz�but, qui vous puisse emporter !</l>
-	<l id="164">Quel plus rare parti pourriez-vous souhaiter ?</l>
-	<l id="165">Peut-on trouver en moi quelque chose � redire ?</l>
-	<l id="166">Cette taille, ce port que tout le monde admire,</l>
-	<l id="167">Ce visage si propre � donner de l'amour,</l>
-	<l id="168">Pour qui mille beaut�s soupirent nuit et jour ;</l>
-	<l id="169">Bref, en tout et partout, ma personne charmante</l>
-	<l id="170">N'est donc pas un morceau dont vous soyez contente ?</l>
-	<l id="171">Et pour rassasier votre app�tit gourmand,</l>
-	<l id="172">Il faut � son mari le rago�t d'un galant ?</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>SA FEMME.</speaker>
-	<l id="173">J'entends � demi-mot o� va la raillerie.</l>
-	<l id="174" part="i">Tu crois par ce moyen...</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="174" part="f">� d'autres, je vous prie !</l>
-	<l id="175">La chose est av�r�e, et je tiens dans mes mains</l>
-	<l id="176">Un bon certificat du mal dont je me plains.</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>SA FEMME.</speaker>
-	<l id="177">Mon courroux n'a d�j� que trop de violence,</l>
-	<l id="178">Sans le charger encore d'une nouvelle offense.</l>
-	<l id="179">�coute, ne crois pas retenir mon bijou,</l>
-	<l id="180" part="i">Et songe un peu...</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="180" part="f">Je songe � te rompre le cou.</l>
-	<l id="181">Que ne puis-je, aussi bien que je tiens la copie,</l>
-	<l id="182" part="i">Tenir l'original !</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>SA FEMME.</speaker>
-	<l id="182" part="m">Pourquoi ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="182" part="f">Pour rien, mamie :</l>
-	<l id="183">Doux objet de mes voeux, j'ai grand tort de crier,</l>
-	<l id="184">Et mon front de vos dons vous doit remercier.</l>
-<stage>Regardant le portrait de L�lie.</stage>
-	<l id="185">Le voil�, le beau-fils, le mignon de couchette,</l>
-	<l id="186">Le malheureux tison de ta flamme secr�te,</l>
-	<l id="187" part="i">Le dr�le avec lequel... !</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>SA FEMME.</speaker>
-	<l id="187" part="f">Avec lequel... ? Poursuis.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="188">Avec lequel, te dis-je,... Et j'en cr�ve d'ennuis.</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>SA FEMME.</speaker>
-	<l id="189">Que me veut donc par l� conter ce ma�tre ivrogne ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="190">Tu ne m'entends que trop, madame la carogne.</l>
-	<l id="191">Sganarelle est un nom qu'on ne me dira plus,</l>
-	<l id="192">Et l'on va m'appeler seigneur Corneillius.</l>
-	<l id="193">J'en suis pour mon honneur ; mais � toi qui me l'�tes,</l>
-	<l id="194">Je t'en ferai du moins pour un bras ou deux c�tes.</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>SA FEMME.</speaker>
-	<l id="195">Et tu m'oses tenir de semblables discours ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="196">Et tu m'oses jouer de ces diables de tours ?</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>SA FEMME.</speaker>
-	<l id="197">Et quels diables de tours ? Parle donc sans rien feindre.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="198">Ah ! Cela ne vaut pas la peine de se plaindre !</l>
-<note type="L">Panache : on dit proverbialement, qu'une femme a mis un beau panache sur la t�te de son mari, quand elle lui a �t� infid�le. [F]</note>
-	<l id="199">D'un panache de cerf sur le front me pourvoir,</l>
-<note type="L">Venez-y-voir : Terme familier et ironique. bagatelle, chose qui m�rite � peine d'�tre remarqu�e. [L]</note>
-	<l id="200">H�las ! Voil� vraiment un beau venez-y-voir !</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>SA FEMME.</speaker>
-	<l id="201">Donc, apr�s m'avoir fait la plus sensible offense</l>
-	<l id="202">Qui puisse d'une femme exciter la vengeance,</l>
-	<l id="203">Tu prends d'un feint courroux le vain amusement</l>
-	<l id="204">Pour pr�venir l'effet de mon ressentiment ?</l>
-	<l id="205">D'un pareil proc�d� l'insolence est nouvelle :</l>
-	<l id="206">Celui qui fait l'offense est celui qui querelle.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="207">Eh ! La bonne effront�e ! � voir ce fier maintien,</l>
-	<l id="208">Ne la croirait-on pas une femme de bien ?</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>SA FEMME.</speaker>
-	<l id="209">Va, poursuis ton chemin, cajole tes ma�tresses,</l>
-	<l id="210">Adresse-leur tes voeux, et fais-leur des caresses ;</l>
-	<l id="211">Mais rends-moi mon portrait sans te jouer de moi.</l>
-<stage>Elle lui arrache le portrait et s'enfuit.</stage>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE, courant apr�s elle.</speaker>
-	<l id="212">Oui, tu crois m'�chapper : je l'aurai malgr� toi.</l>
-</sp>
-</div2>
-<div2 type="scene" n="7"><head>SC�NE VII. Gros Ren�, L�lie.</head>
-<sp who="GROS-RENE"><speaker>GROS-REN�.</speaker>
-	<l id="213">Enfin, nous y voici. Mais, monsieur, si je l'ose,</l>
-	<l id="214">Je voudrais vous prier de me dire une chose.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="215" part="i">H� bien ! Parle.</l>
-</sp>
-<sp who="GROS-RENE"><speaker>GROS-REN�.</speaker>
-	<l id="215" part="f">Avez-vous le diable dans le corps</l>
-	<l id="216">Pour ne pas succomber � de pareils efforts ?</l>
-	<l id="217">Depuis huit jours entiers, avec vos longues traites,</l>
-<note type="L">Mazette : M�chant petit cheval. [L]</note>
-	<l id="218">Nous sommes � piquer de chiennes de mazettes,</l>
-	<l id="219">De qui le train maudit nous a tant secou�s,</l>
-	<l id="220">Que je m'en sens pour moi tous les membres rou�s ;</l>
-	<l id="221">Sans pr�judice encor d'un accident bien pire,</l>
-	<l id="222">Qui m'afflige un endroit que je ne veux pas dire :</l>
-	<l id="223">Cependant, arriv�, vous sortez bien et beau,</l>
-	<l id="224">Sans prendre de repos, ni manger un morceau.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="225">Ce grand empressement n'est point digne de bl�me :</l>
-	<l id="226">De l'hymen de C�lie on alarme mon �me ;</l>
-	<l id="227">Tu sais que je l'adore ; et je veux �tre instruit,</l>
-	<l id="228">Avant tout autre soin, de ce funeste bruit.</l>
-</sp>
-<sp who="GROS-RENE"><speaker>GROS-REN�.</speaker>
-	<l id="229">Oui ; mais un bon repas vous serait n�cessaire,</l>
-	<l id="230">Pour s'aller �claircir, monsieur, de cette affaire ;</l>
-	<l id="231">Et votre coeur, sans doute, en deviendrait plus fort</l>
-	<l id="232">Pour pouvoir r�sister aux attaques du sort.</l>
-	<l id="233">J'en juge par moi-m�me ; et la moindre disgr�ce,</l>
-	<l id="234">Lorsque je suis � jeun, me saisit, me terrasse ;</l>
-	<l id="235">Mais quand j'ai bien mang�, mon �me est ferme � tout,</l>
-	<l id="236">Et les plus grands revers n'en viendraient pas � bout.</l>
-	<l id="237">Croyez-moi, bourrez-vous, et sans r�serve aucune,</l>
-	<l id="238">Contre les coups que peut vous porter la fortune ;</l>
-	<l id="239">Et, pour fermer chez vous l'entr�e � la douleur,</l>
-	<l id="240">De vingt verres de vin entourez votre coeur.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="241" part="i">Je ne saurais manger.</l>
-</sp>
-<sp who="GROS-RENE"><speaker>GROS-REN�, � part ce demi-vers.</speaker>
-	<l id="241" part="f">Si fait bien moi, je meure.</l>
-	<l id="242">Votre d�ner pourtant serait pr�t tout � l'heure.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="243" part="i">Tais-toi, je te l'ordonne.</l>
-</sp>
-<sp who="GROS-RENE"><speaker>GROS-REN�.</speaker>
-	<l id="243" part="f">Ah ! Quel ordre inhumain !</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="244">J'ai de l'inqui�tude, et non pas de la faim.</l>
-</sp>
-<sp who="GROS-RENE"><speaker>GROS-REN�.</speaker>
-	<l id="245">Et moi, j'ai de la faim, et de l'inqui�tude</l>
-	<l id="246">De voir qu'un sot amour fait toute votre �tude.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="247">Laisse-moi m'informer de l'objet de mes voeux,</l>
-	<l id="248">Et, sans m'importuner, va manger si tu veux.</l>
-</sp>
-<sp who="GROS-RENE"><speaker>GROS-REN�.</speaker>
-	<l id="249">Je ne r�plique point � ce qu'un ma�tre ordonne.</l>
-</sp>
-</div2>
-<div2 type="scene" n="8"><head>SC�NE VIII.</head>
-<sp who="L�LIE"><speaker>L�LIE, seul.</speaker>
-	<l id="250">Non, non, � trop de peur mon �me s'abandonne :</l>
-	<l id="251">Le p�re m'a promis, et la fille a fait voir</l>
-	<l id="252">Des preuves d'un amour qui soutient mon espoir.</l>
-</sp>
-</div2>
-<div2 type="scene" n="9"><head>SC�NE IX. Sganarelle, L�lie.</head>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="253">Nous l'avons, et je puis voir � l'aise la trogne</l>
-<note type="L">Vergogne : Vieux mot qui signifie honte, et qui ne s'employe plus que dans le burlesque. [F]</note>
-	<l id="254">Du malheureux pendard qui cause ma vergogne.</l>
-	<l id="255" part="i">Il ne m'est point connu.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE, � part.</speaker>
-	<l id="255" part="f">Dieu ! Qu'aper�ois-je ici ?</l>
-	<l id="256">Et si c'est mon portrait, que dois-je croire aussi ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE, continue.</speaker>
-	<l id="257">Ah ! Pauvre Sganarelle ! � quelle destin�e</l>
-	<l id="258">Ta r�putation est-elle condamn�e !</l>
-<stage>Apercevant L�lie qui le regarde, il se retourne d'un autre c�t�.</stage>
-	<l id="259" part="i">Faut...</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE, � part.</speaker>
-	<l id="259" part="f">Ce gage ne peut, sans alarmer ma foi,</l>
-	<l id="260">�tre sorti des mains qui le tenaient de moi.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="261">Faut-il que d�sormais � deux doigts l'on te montre,</l>
-	<l id="262">Qu'on te mette en chansons, et qu'en toute rencontre</l>
-	<l id="263">On te rejette au nez le scandaleux affront</l>
-	<l id="264">Qu'une femme mal n�e imprime sur ton front ?</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE, � part.</speaker>
-	<l id="265" part="i">Me tromp�-je ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="265" part="f">Ah ! Truande, as-tu bien le courage</l>
-	<l id="266">De m'avoir fait cocu dans la fleur de mon �ge ?</l>
-	<l id="267">Et femme d'un mari qui peut passer pour beau,</l>
-	<l id="268">Faut-il qu'un marmouset, un maudit �tourneau... ?</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE, � part, et regardant encore son portrait.</speaker>
-	<l id="269">Je ne m'abuse point : c'est mon portrait lui-m�me.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE lui retourne le dos.</speaker>
-	<l id="270" part="i">Cet homme est curieux.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE, � part.</speaker>
-	<l id="270" part="f">Ma surprise est extr�me.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="271" part="i">� qui donc en a-t-il ?</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE, � part.</speaker>
-	<l id="271" part="f">Je le veux accoster.</l>
-<stage>Haut.</stage>
-	<l id="272" part="i">Puis-je... ? H� ! De gr�ce, un mot.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE le fuit encore.</speaker>
-	<l id="272" part="f">Que me veut-il conter ?</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="273">Puis-je obtenir de vous de savoir l'aventure</l>
-	<l id="274">Qui fait dedans vos mains trouver cette peinture ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE, � part, et examinant le portrait qu'il tient et L�lie.</speaker>
-	<l id="275">D'o� lui vient ce d�sir ? Mais je m'avise ici...</l>
-	<l id="276">Ah ! Ma foi, me voil� de son trouble �clairci !</l>
-	<l id="277">Sa surprise � pr�sent n'�tonne plus mon �me :</l>
-	<l id="278">C'est mon homme, ou plut�t c'est celui de ma femme.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="279">Retirez-moi de peine, et dites d'o� vous vient...</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="280">Nous savons, Dieu merci, le souci qui vous tient.</l>
-	<l id="281">Ce portrait qui vous f�che est votre ressemblance ;</l>
-	<l id="282">Il �tait en des mains de votre connaissance ;</l>
-	<l id="283">Et ce n'est pas un fait qui soit secret pour nous</l>
-	<l id="284">Que les douces ardeurs de la dame et de vous.</l>
-	<l id="285">Je ne sais pas si j'ai, dans sa galanterie,</l>
-	<l id="286">L'honneur d'�tre connu de votre seigneurie ;</l>
-	<l id="287">Mais faites-moi celui de cesser d�sormais</l>
-	<l id="288">Un amour qu'un mari peut trouver fort mauvais ;</l>
-	<l id="289">Et songez que les noeuds du sacr� mariage...</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="290">Quoi ? Celle, dites-vous, dont vous tenez ce gage... ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="291" part="i">Est ma femme, et je suis son mari.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="291" part="f">Son mari ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="292">Oui, son mari, vous dis-je, et mari tr�s marri ;</l>
-	<l id="293">Vous en savez la cause, et je m'en vais l'apprendre</l>
-	<l id="294" part="i">Sur l'heure � ses parents.</l>
-</sp>
-</div2>
-<div2 type="scene" n="10"><head>SC�NE X.</head>
-<sp who="L�LIE"><speaker>L�LIE, seul.</speaker>
-	<l id="294" part="f">Ah ! Que viens-je d'entendre !</l>
-	<l id="295">L'on me l'avait bien dit, et que c'�tait de tous</l>
-	<l id="296">L'homme le plus mal fait qu'elle avait pour �poux.</l>
-	<l id="297">Ah ! Quand mille serments de ta bouche infid�le</l>
-	<l id="298">Ne m'auraient pas promis une flamme �ternelle,</l>
-	<l id="299">Le seul m�pris d'un choix si bas et si honteux</l>
-	<l id="300">Devait bien soutenir l'int�r�t de mes feux,</l>
-	<l id="301">Ingrate, et quelque bien... Mais ce sensible outrage,</l>
-	<l id="302">Se m�lant aux travaux d'un assez long voyage,</l>
-	<l id="303">Me donne tout � coup un choc si violent,</l>
-	<l id="304">Que mon coeur devient faible, et mon corps chancelant.</l>
-</sp>
-</div2>
-<div2 type="scene" n="11"><head>SC�NE XI. La Femme de Sganarelle, L�lie.</head>
-<sp who="FEMME-SGANARELLE"><speaker>LA FEMME de SGANARELLE, se tournant vers L�lie.</speaker>
-<l id="305">Malgr� moi mon perfide... H�las ! Quel mal vous presse ?</l>
-	<l id="306">Je vous vois pr�t, monsieur, � tomber en faiblesse.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="307">C'est un mal qui m'a pris assez subitement.</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>LA FEMME de SGANARELLE.</speaker>
-	<l id="308">Je crains ici pour vous l'�vanouissement :</l>
-	<l id="309">Entrez dans cette salle, en attendant qu'il passe.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="310">Pour un moment ou deux j'accepte cette gr�ce.</l>
-</sp>
-</div2>
-<div2 type="scene" n="12"><head>SC�NE XII. Le Parent, Sganarelle.</head>
-<sp who="LE_PARENT"><speaker>LE PARENT.</speaker>
-	<l id="311">D'un mari sur ce point j'approuve le souci ;</l>
-	<l id="312">Mais c'est prendre la ch�vre un peu bien vite aussi ;</l>
-	<l id="313">Et tout ce que de vous je viens d'ou�r contre elle</l>
-	<l id="314">Ne conclut point, parent, qu'elle soit criminelle.</l>
-	<l id="315">C'est un point d�licat ; et de pareils forfaits,</l>
-	<l id="316">Sans les bien av�rer, ne s'imputent jamais.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="317">C'est-�-dire qu'il faut toucher au doigt la chose.</l>
-</sp>
-<sp who="LE_PARENT"><speaker>LE PARENT.</speaker>
-	<l id="318">Le trop de promptitude � l'erreur nous expose.</l>
-	<l id="319">Qui sait comme en ses mains ce portrait est venu,</l>
-	<l id="320">Et si l'homme, apr�s tout, lui peut �tre connu ?</l>
-	<l id="321">Informez-vous-en donc ; et si c'est ce qu'on pense,</l>
-	<l id="322">Nous serons les premiers � punir son offense.</l>
-</sp>
-</div2>
-<div2 type="scene" n="13"><head>SC�NE XIII.</head>
-<sp who="SGANARELLE"><speaker>SGANARELLE, seul.</speaker>
-	<l id="323">On ne peut pas mieux dire. En effet, il est bon</l>
-	<l id="324">D'aller tout doucement. Peut-�tre, sans raison,</l>
-	<l id="325">Me suis-je en t�te mis ces visions cornues,</l>
-	<l id="326">Et les sueurs au front m'en sont trop t�t venues.</l>
-	<l id="327">Par ce portrait enfin dont je suis alarm�</l>
-	<l id="328">Mon d�shonneur n'est pas tout � fait confirm�.</l>
-	<l id="329" part="i">T�chons donc par nos soins...</l>
-</sp>
-</div2>
-<div2 type="scene" n="14"><head>SC�NE XIV. Sganarelle, Sa femme, L�lie.</head>
-<sp who="SGANARELLE"><speaker>SGANARELLE, poursuit.</speaker>
-	<l id="329" part="f">Ah ! Que vois-je ? Je meure,</l>
-	<l id="330">Il n'est plus question de portrait � cette heure :</l>
-	<l id="331">Voici, ma foi, la chose en propre original.</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>LA FEMME de SGANARELLE � L�lie.</speaker>
-	<l id="332">C'est par trop vous h�ter, monsieur ; et votre mal,</l>
-	<l id="333">Si vous sortez sit�t, pourra bien vous reprendre.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="334">Non, non, je vous rends gr�ce, autant qu'on puisse rendre,</l>
-	<l id="335">De l'obligeant secours que vous m'avez pr�t�.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE, � part.</speaker>
-<note type="L">Masque : Terme familier d'injure dont on se sert quelquefois pour qualifier une jeune fille, une femme, et lui reprocher sa laideur ou sa malice. [L]</note>
-	<l id="336">La masque encore apr�s lui fait civilit� !</l>
-</sp>
-</div2>
-<div2 type="scene" n="15"><head>SC�NE XV. Sganarelle, L�lie.</head>
-<sp who="SGANARELLE"><speaker>SGANARELLE, � part.</speaker>
-	<l id="337">Il m'aper�oit. Voyons ce qu'il me pourra dire.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE, � part.</speaker>
-	<l id="338">Ah ! Mon �me s'�meut, et cet objet m'inspire...</l>
-	<l id="339">Mais je dois condamner cet injuste transport,</l>
-	<l id="340">Et n'imputer mes maux qu'aux rigueurs de mon sort.</l>
-	<l id="341">Envions seulement le bonheur de sa flamme.</l>
-<stage>Passant aupr�s de lui et le regardant.</stage>
-	<l id="342">Oh ! Trop heureux d'avoir une si belle femme !</l>
-</sp>
-</div2>
-<div2 type="scene" n="16"><head>SC�NE XVI. Sganarelle, C�lie.</head>
-<sp who="SGANARELLE"><speaker>SGANARELLE, sans voir C�lie.</speaker>
-	<l id="343">Ce n'est point s'expliquer en termes ambigus.</l>
-	<l id="344">Cet �trange propos me rend aussi confus</l>
-	<l id="345">Que s'il m'�tait venu des cornes � la t�te.</l>
-<stage>Il se tourne du c�t� que L�lie s'en vient d'en aller.</stage>
-	<l id="346">Allez, ce proc�d� n'est point du tout honn�te.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE, � part.</speaker>
-	<l id="347">Quoi ? L�lie a paru tout � l'heure � mes yeux.</l>
-	<l id="348">Qui pourrait me cacher son retour en ces lieux ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE poursuit.</speaker>
-	<l id="349">"Oh ! Trop heureux d'avoir une si belle femme !"</l>
-	<l id="350">Malheureux bien plut�t de l'avoir, cette inf�me,</l>
-	<l id="351">Dont le coupable feu, trop bien v�rifi�,</l>
-	<l id="352">Sans respect ni demi nous a cocufi� !</l>
-<stage>C�lie approche peu � peu de lui, attend que son transport soit fini
- pour lui parler.</stage>
-	<l id="353">Mais je le laisse aller apr�s un tel indice,</l>
-	<l id="354">Et demeure les bras crois�s comme un jocrisse ?</l>
-	<l id="355">Ah ! Je devais du moins lui jeter son chapeau,</l>
-	<l id="356">Lui ruer quelque pierre, ou crotter son manteau,</l>
-	<l id="357">Et sur lui hautement, pour contenter ma rage,</l>
-	<l id="358">Faire au larron d'honneur crier le voisinage.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="359">Celui qui maintenant devers vous est venu,</l>
-	<l id="360">Et qui vous a parl�, d'o� vous est-il connu ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="361">H�las ! Ce n'est pas moi qui le conna�t, madame ;</l>
-	<l id="362" part="i">C'est ma femme.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="362" part="f">Quel trouble agite ainsi votre �me ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="363">Ne me condamnez point d'un deuil hors de saison,</l>
-	<l id="364">Et laissez-moi pousser des soupirs � foison.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="365">D'o� vous peuvent venir ces douleurs non communes ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="366">Si je suis afflig�, ce n'est pas pour des prunes ;</l>
-	<l id="367">Et je le donnerais � bien d'autres qu'� moi</l>
-	<l id="368">De se voir sans chagrin au point o� je me vois.</l>
-	<l id="369">Des maris malheureux vous voyez le mod�le :</l>
-	<l id="370">On d�robe l'honneur au pauvre Sganarelle ;</l>
-	<l id="371">Mais c'est peu que l'honneur dans mon affliction,</l>
-	<l id="372">L'on me d�robe encore la r�putation.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="373" part="i">Comment ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="373" part="f">Ce damoiseau, parlant par r�v�rence,</l>
-	<l id="374">Me fait cocu, madame, avec toute licence ;</l>
-	<l id="375">Et j'ai su par mes yeux av�rer aujourd'hui</l>
-	<l id="376">Le commerce secret de ma femme et de lui.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="377" part="i">Celui qui maintenant...</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="377" part="f">Oui, oui, me d�shonore :</l>
-	<l id="378">Il adore ma femme, et ma femme l'adore.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="379">Ah ! J'avais bien jug� que ce secret retour</l>
-	<l id="380">Ne pouvait me couvrir que quelque l�che tour ;</l>
-	<l id="381">Et j'ai trembl� d'abord, en le voyant para�tre,</l>
-	<l id="382">Par un pressentiment de ce qui devait �tre.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="383">Vous prenez ma d�fense avec trop de bont�.</l>
-	<l id="384">Tout le monde n'a pas la m�me charit� ;</l>
-	<l id="385">Et plusieurs qui tant�t ont appris mon martyre,</l>
-	<l id="386">Bien loin d'y prendre part, n'en ont rien fait que rire.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="387">Est-il rien de plus noir que ta l�che action,</l>
-	<l id="388">Et peut-on lui trouver une punition ?</l>
-	<l id="389">Dois-tu ne te pas croire indigne de la vie,</l>
-	<l id="390">Apr�s t'�tre souill� de cette perfidie ?</l>
-	<l id="391" part="i">� ciel ! Est-il possible ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="391" part="f">Il est trop vrai pour moi.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="392">Ah ! Tra�tre ! Sc�l�rat ! �me double et sans foi !</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="393" part="i">La bonne �me !</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="393" part="f">Non, non, l'enfer n'a point de g�ne</l>
-	<l id="394">Qui ne soit pour ton crime une trop douce peine.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="395" part="i">Que voil� bien parler !</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="395" part="f">Avoir ainsi trait�</l>
-	<l id="396">Et la m�me innocence et la m�me bont� !</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-<stage>Il soupire haut</stage>
-	<l id="397" part="i">Hay !</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="397" part="f">Un coeur qui jamais n'a fait la moindre chose</l>
-	<l id="398">A m�rit� l'affront o� ton m�pris l'expose !</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="399" part="i">Il est vrai.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="399" part="f">Qui bien loin... Mais c'est trop, et ce coeur</l>
-	<l id="400">Ne saurait y songer sans mourir de douleur.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="401">Ne vous f�chez pas tant, ma tr�s ch�re madame :</l>
-	<l id="402">Mon mal vous touche trop, et vous me percez l'�me.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="403">Mais ne t'abuse pas jusqu'� te figurer</l>
-	<l id="404">Qu'� des plaintes sans fruit j'en veuille demeurer :</l>
-	<l id="405">Mon coeur, pour se venger, sait ce qu'il te faut faire,</l>
-	<l id="406">Et j'y cours de ce pas ; rien ne m'en peut distraire.</l>
-</sp>
-</div2>
-<div2 type="scene" n="17"><head>SC�NE XVII.</head>
-<sp who="SGANARELLE"><speaker>SGANARELLE, seul.</speaker>
-	<l id="407">Que le ciel la pr�serve � jamais de danger !</l>
-	<l id="408">Voyez quelle bont� de vouloir me venger !</l>
-	<l id="409">En effet, son courroux, qu'excite ma disgr�ce,</l>
-	<l id="410">M'enseigne hautement ce qu'il faut que je fasse ;</l>
-	<l id="411">Et l'on ne doit jamais souffrir sans dire mot</l>
-	<l id="412">De semblables affronts, � moins qu'�tre un vrai sot.</l>
-	<l id="413">Courons donc le chercher, ce pendard qui m'affronte ;</l>
-	<l id="414">Montrons notre courage � venger notre honte.</l>
-	<l id="415">Vous apprendrez, maroufle, � rire � nos d�pens,</l>
-	<l id="416">Et sans aucun respect faire cocus les gens !</l>
-<stage>Il se retourne ayant fait trois ou quatre pas.</stage>
-	<l id="417">Doucement, s'il vous pla�t ! Cet homme a bien la mine</l>
-	<l id="418">D'avoir le sang bouillant et l'�me un peu mutine ;</l>
-	<l id="419">Il pourrait bien, mettant affront dessus affront,</l>
-	<l id="420">Charger de bois mon dos comme il a fait mon front.</l>
-	<l id="421">Je hais de tout mon coeur les esprits col�riques,</l>
-	<l id="422">Et porte grand amour aux hommes pacifiques ;</l>
-	<l id="423">Je ne suis point battant, de peur d'�tre battu,</l>
-	<l id="424">Et l'humeur d�bonnaire est ma grande vertu.</l>
-	<l id="425">Mais mon honneur me dit que d'une telle offense</l>
-	<l id="426">Il faut absolument que je prenne vengeance.</l>
-	<l id="427">Ma foi, laissons-le dire autant qu'il lui plaira :</l>
-	<l id="428">Au diantre qui pourtant rien du tout en fera !</l>
-	<l id="429">Quand j'aurai fait le brave, et qu'un fer, pour ma peine,</l>
-	<l id="430">M'aura d'un vilain coup transperc� la bedaine,</l>
-	<l id="431">Que par la ville ira le bruit de mon tr�pas,</l>
-	<l id="432">Dites-moi, mon honneur, en serez-vous plus gras ?</l>
-	<l id="433">La bi�re est un s�jour par trop m�lancolique,</l>
-	<l id="434">Et trop malsain pour ceux qui craignent la colique ;</l>
-	<l id="435">Et quant � moi, je trouve, ayant tout compass�,</l>
-	<l id="436">Qu'il vaut mieux �tre encore cocu que tr�pass� :</l>
-	<l id="437">Quel mal cela fait-il ? La jambe en devient-elle</l>
-	<l id="438">Plus tortue, apr�s tout, et la taille moins belle ?</l>
-	<l id="439">Peste soit qui premier trouva l'invention</l>
-	<l id="440">De s'affliger l'esprit de cette vision,</l>
-	<l id="441">Et d'attacher l'honneur de l'homme le plus sage</l>
-	<l id="442">Aux choses que peut faire une femme volage !</l>
-	<l id="443">Puisqu'on tient � bon droit tout crime personnel,</l>
-	<l id="444">Que fait l� notre honneur pour �tre criminel ?</l>
-	<l id="445">Des actions d'autrui l'on nous donne le bl�me.</l>
-	<l id="446">Si nos femmes sans nous ont un commerce inf�me,</l>
-	<l id="447">Il faut que tout le mal tombe sur notre dos !</l>
-	<l id="448">Elles font la sottise, et nous sommes les sots !</l>
-	<l id="449">C'est un vilain abus, et les gens de police</l>
-	<l id="450">Nous devraient bien r�gler une telle injustice.</l>
-	<l id="451">N'avons-nous pas assez des autres accidents</l>
-	<l id="452">Qui nous viennent happer en d�pit de nos dents ?</l>
-	<l id="453">Les querelles, proc�s, faim, soif et maladie,</l>
-	<l id="454">Troublent-ils pas assez le repos de la vie,</l>
-	<l id="455">Sans s'aller, de surcro�t, aviser sottement</l>
-	<l id="456">De se faire un chagrin qui n'a nul fondement ?</l>
-	<l id="457">Moquons-nous de cela, m�prisons les alarmes,</l>
-	<l id="458">Et mettons sous nos pieds les soupirs et les larmes.</l>
-	<l id="459">Si ma femme a failli, qu'elle pleure bien fort ;</l>
-	<l id="460">Mais pourquoi moi pleurer, puisque je n'ai point tort ?</l>
-	<l id="461">En tout cas, ce qui peut m'�ter ma f�cherie,</l>
-	<l id="462">C'est que je ne suis pas seul de ma confr�rie :</l>
-	<l id="463">Voir cajoler sa femme et n'en t�moigner rien</l>
-	<l id="464">Se pratique aujourd'hui par force gens de bien.</l>
-	<l id="465">N'allons donc point chercher � faire une querelle</l>
-	<l id="466">Pour un affront qui n'est que pure bagatelle.</l>
-	<l id="467">L'on m'appellera sot de ne me venger pas ;</l>
-	<l id="468">Mais je le serais fort de courir au tr�pas.</l>
-<stage>Mettant la main sur son estomac.</stage>
-	<l id="469">Je me sens l� pourtant remuer une bile</l>
-	<l id="470">Qui veut me conseiller quelque action virile ;</l>
-	<l id="471">Oui, le courroux me prend ; c'est trop �tre poltron :</l>
-	<l id="472">Je veux r�solument me venger du larron.</l>
-	<l id="473">D�j� pour commencer, dans l'ardeur qui m'enflamme,</l>
-	<l id="474">Je vais dire partout qu'il couche avec ma femme.</l>
-</sp>
-</div2>
-<div2 type="scene" n="18"><head>SC�NE XVIII. C�lie, Gorgibus.</head>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="475">Oui, je veux bien subir une si juste loi :</l>
-	<l id="476">Mon p�re, disposez de mes voeux et de moi ;</l>
-	<l id="477">Faites, quand vous voudrez, signer cet hym�n�e ;</l>
-	<l id="478">� suivre mon devoir je suis d�termin�e ;</l>
-	<l id="479">Je pr�tends gourmander mes propres sentiments,</l>
-	<l id="480">Et me soumettre en tout � vos commandements.</l>
-</sp>
-<sp who="GORGIBUS"><speaker>GORGIBUS.</speaker>
-	<l id="481">Ah ! Voil� qui me pla�t, de parler de la sorte.</l>
-	<l id="482">Parbleu ! Si grande joie � l'heure me transporte,</l>
-	<l id="483">Que mes jambes sur l'heure en cabrioleroient,</l>
-	<l id="484">Si nous n'�tions point vus de gens qui s'en riroient.</l>
-	<l id="485">Approche-toi de moi, viens �� que je t'embrasse :</l>
-	<l id="486">Une telle action n'a pas mauvaise gr�ce ;</l>
-	<l id="487">Un p�re, quand il veut, peut sa fille baiser,</l>
-	<l id="488">Sans que l'on ait sujet de s'en scandaliser.</l>
-	<l id="489">Va, le contentement de te voir si bien n�e</l>
-	<l id="490">Me fera rajeunir de dix fois une ann�e.</l>
-</sp>
-</div2>
-<div2 type="scene" n="19"><head>SC�NE XIX. La suivante, C�lie.</head>
-<sp who="SUIVANTE"><speaker>LA SUIVANTE.</speaker>
-	<l id="491" part="i">Ce changement m'�tonne.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="491" part="f">Et lorsque tu sauras</l>
-	<l id="492">Par quel motif j'agis, tu m'en estimeras.</l>
-</sp>
-<sp who="SUIVANTE"><speaker>LA SUIVANTE.</speaker>
-	<l id="493" part="i">Cela pourrait bien �tre.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="493" part="f">Apprends donc que L�lie</l>
-	<l id="494">A pu blesser mon coeur par une perfidie ;</l>
-	<l id="495" part="i">Qu'il �tait en ces lieux sans...</l>
-</sp>
-<sp who="SUIVANTE"><speaker>LA SUIVANTE.</speaker>
-	<l id="495" part="f">Mais il vient � nous.</l>
-</sp>
-</div2>
-<div2 type="scene" n="20"><head>SC�NE XX. L�lie, C�lie.</head>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="496">Avant que pour jamais je m'�loigne de vous,</l>
-	<l id="497">Je veux vous reprocher au moins en cette place...</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="498">Quoi ? Me parler encore ? Avez-vous cette audace ?</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="499">Il est vrai qu'elle est grande ; et votre choix est tel,</l>
-	<l id="500">Qu'� vous rien reprocher je serais criminel.</l>
-	<l id="501">Vivez, vivez contente, et bravez ma m�moire,</l>
-	<l id="502">Avec le digne �poux qui vous comble de gloire.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="503">Oui, tra�tre ! J'y veux vivre ; et mon plus grand d�sir,</l>
-	<l id="504">Ce serait que ton coeur en e�t du d�plaisir.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="505">Qui rend donc contre moi ce courroux l�gitime ?</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="506">Quoi ? Tu fais le surpris et demandes ton crime ?</l>
-</sp>
-</div2>
-<div2 type="scene" n="21"><head>SC�NE XXI. Sganarelle, C�lie, L�lie.</head>
-<sp who="SGANARELLE"><speaker>SGANARELLE entre arm�.</speaker>
-	<l id="507">Guerre, guerre mortelle � ce larron d'honneur</l>
-	<l id="508">Qui sans mis�ricorde a souill� notre honneur !</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE, � L�lie.</speaker>
-	<l id="509">Tourne, tourne les yeux sans me faire r�pondre.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="510" part="i">Ah ! Je vois...</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="510" part="f">Cet objet suffit pour te confondre.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="511">Mais pour vous obliger bien plut�t � rougir.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="512">Ma col�re � pr�sent est en �tat d'agir ;</l>
-	<l id="513">Dessus ses grands chevaux est mont� mon courage ;</l>
-	<l id="514">Et si je le rencontre, on verra du carnage.</l>
-	<l id="515">Oui, j'ai jur� sa mort ; rien ne peut l'emp�cher :</l>
-	<l id="516">O� je le trouverai, je le veux d�p�cher.</l>
-	<l id="517">Au beau milieu du coeur il faut que je lui donne...</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="518" part="i">� qui donc en veut-on ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="518" part="f">Je n'en veux � personne.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="519" part="i">Pourquoi ces armes-l� ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="519" part="f">C'est un habillement</l>
-<stage>� part.</stage>
-	<l id="520">Que j'ai pris pour la pluie. Ah ! Quel contentement</l>
-	<l id="521">J'aurais � le tuer ! Prenons-en le courage.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="522" part="i">Hay ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE, se donnant des coups de poings sur l'estomac et des soufflets pour s'exciter.</speaker>
-	<l id="522" part="m">Je ne parle pas.</l>
-<stage>� part.</stage>
-	<l id="522" part="f">Ah ! Poltron dont j'enrage !</l>
-	<l id="523" part="i">L�che ! Vrai coeur de poule !</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="523" part="f">Il t'en doit dire assez,</l>
-	<l id="524">Cet objet dont tes yeux nous paraissent bless�s.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="525">Oui, je connais par l� que vous �tes coupable</l>
-	<l id="526">De l'infid�lit� la plus inexcusable</l>
-	<l id="527">Qui jamais d'un amant puisse outrager la foi.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE, � part.</speaker>
-	<l id="528" part="i">Que n'ai-je un peu de coeur !</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="528" part="f">Ah ! Cesse devant moi,</l>
-	<l id="529">Tra�tre, de ce discours l'insolence cruelle !</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="530">Sganarelle, tu vois qu'elle prend ta querelle :</l>
-	<l id="531">Courage, mon enfant, sois un peu vigoureux ;</l>
-	<l id="532">L�, hardi ! T�che � faire un effort g�n�reux,</l>
-	<l id="533">En le tuant tandis qu'il tourne le derri�re.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE, faisant deux ou trois pas sans dessein, fait retourner Sganarelle qui s'approchait pour le tuer.</speaker>
-	<l id="534">Puisqu'un pareil discours �meut votre col�re,</l>
-	<l id="535">Je dois de votre coeur me montrer satisfait,</l>
-	<l id="536">Et l'applaudir ici du beau choix qu'il a fait.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="537">Oui, oui, mon choix est tel qu'on n'y peut rien reprendre.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="538">Allez, vous faites bien de le vouloir d�fendre.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="539">Sans doute elle fait bien de d�fendre mes droits.</l>
-	<l id="540">Cette action, monsieur, n'est point selon les lois :</l>
-	<l id="541">J'ai raison de m'en plaindre ; et si je n'�tais sage,</l>
-	<l id="542">On verrait arriver un �trange carnage.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="543">D'o� vous na�t cette plainte, et quel chagrin brutal... ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="544">Suffit. Vous savez bien o� le bois me fait mal ;</l>
-	<l id="545">Mais votre conscience et le soin de votre �me</l>
-	<l id="546">Vous devraient mettre aux yeux que ma femme est ma femme,</l>
-	<l id="547">Et vouloir � ma barbe en faire votre bien</l>
-	<l id="548">Que ce n'est pas du tout agir en bon chr�tien.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="549">Un semblable soup�on est bas et ridicule.</l>
-	<l id="550">Allez, dessus ce point n'ayez aucun scrupule :</l>
-	<l id="551">Je sais qu'elle est � vous ; et, bien loin de br�ler...</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="552">Ah ! Qu'ici tu sais bien, tra�tre, dissimuler !</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="553">Quoi ? Me soup�onnez-vous d'avoir une pens�e</l>
-	<l id="554">De qui son �me ait lieu de se croire offens�e ?</l>
-	<l id="555">De cette l�chet� voulez-vous me noircir ?</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="556">Parle, parle � lui-m�me, il pourra t'�claircir.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="557">Vous me d�fendez mieux que je ne saurais faire,</l>
-	<l id="558">Et du biais qu'il faut vous prenez cette affaire.</l>
-</sp>
-</div2>
-<div2 type="scene" n="22"><head>SC�NE XXII. Sganarelle, Sa femme, C�lie, L�lie, La suivante.</head>
-<sp who="FEMME-SGANARELLE"><speaker>LA FEMME de Sganarelle, � C�lie.</speaker>
-	<l id="559">Je ne suis point d'humeur � vouloir contre vous</l>
-	<l id="560">Faire �clater, madame, un esprit trop jaloux ;</l>
-	<l id="561">Mais je ne suis point dupe, et vois ce qui se passe.</l>
-	<l id="562">Il est de certains feux de fort mauvaise gr�ce ;</l>
-	<l id="563">Et votre �me devrait prendre un meilleur emploi</l>
-	<l id="564">Que de s�duire un coeur qui doit n'�tre qu'� moi.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="565">La d�claration est assez ing�nue.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE, � sa femme.</speaker>
-	<l id="566">L'on ne demandait pas, carogne, ta venue :</l>
-	<l id="567">Tu la viens quereller lorsqu'elle me d�fend,</l>
-	<l id="568">Et tu trembles de peur qu'on t'�te ton galant.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="569">Allez, ne croyez pas que l'on en ait envie.</l>
-<stage>Se tournant vers L�lie.</stage>
-	<l id="570">Tu vois si c'est mensonge ; et j'en suis fort ravie.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="571" part="i">Que me veut-on conter ?</l>
-</sp>
-<sp who="SUIVANTE"><speaker>LA SUIVANTE.</speaker>
-	<l id="571" part="f">Ma foi, je ne sais pas</l>
-	<l id="572">Quand on verra finir ce galimatias ;</l>
-	<l id="573">D�j� depuis longtemps je t�che � le comprendre,</l>
-	<l id="574">Et si plus je l'�coute, et moins je puis l'entendre :</l>
-	<l id="575">Je vois bien � la fin que je m'en dois m�ler.</l>
-<stage>Allant se mettre entre L�lie et sa ma�tresse.</stage>
-	<l id="576">R�pondez-moi par ordre, et me laissez parler.</l>
-<stage>� L�lie.</stage>
-	<l id="577">Vous, qu'est-ce qu'� son coeur peut reprocher le v�tre ?</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="578">Que l'infid�le a pu me quitter pour un autre ;</l>
-	<l id="579">Que lorsque, sur le bruit de son hymen fatal,</l>
-	<l id="580">J'accours tout transport� d'un amour sans �gal,</l>
-	<l id="581">Dont l'ardeur r�sistait � se croire oubli�e,</l>
-	<l id="582">Mon abord en ces lieux la trouve mari�e.</l>
-</sp>
-<sp who="SUIVANTE"><speaker>LA SUIVANTE.</speaker>
-	<l id="583" part="i">Mari�e ! � qui donc ?</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE, montrant Sganarelle.</speaker>
-	<l id="583" part="m">� lui.</l>
-</sp>
-<sp who="SUIVANTE"><speaker>LA SUIVANTE.</speaker>
-	<l id="583" part="f">Comment, � lui ?</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="584" part="i">Oui-da.</l>
-</sp>
-<sp who="SUIVANTE"><speaker>LA SUIVANTE.</speaker>
-	<l id="584" part="m">Qui vous l'a dit ?</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="584" part="f">C'est lui-m�me, aujourd'hui.</l>
-</sp>
-<sp who="SUIVANTE"><speaker>LA SUIVANTE, � Sganarelle.</speaker>
-	<l id="585" part="i">Est-il vrai ?</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="585" part="f">Moi ? J'ai dit que c'�tait � ma femme</l>
-	<l id="586" part="i">Que j'�tais mari�.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="586" part="f">Dans un grand trouble d'�me</l>
-	<l id="587">Tant�t de mon portrait je vous ai vu saisi.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="588" part="i">Il est vrai : le voil�.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="588" part="f">Vous m'avez dit aussi</l>
-	<l id="589">Que celle aux mains de qui vous aviez pris ce gage</l>
-	<l id="590">�tait li�e � vous des noeuds du mariage.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-<stage>Montrant sa femmme.</stage>
-	<l id="591">Sans doute. Et je l'avais de ses mains arrach�,</l>
-	<l id="592">Et n'eusse pas sans lui d�couvert son p�ch�.</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>La Femme de Sganarelle.</speaker>
-	<l id="593">Que me viens-tu conter par ta plainte importune ?</l>
-	<l id="594">Je l'avais sous mes pieds rencontr� par fortune ;</l>
-	<l id="595">Et m�me, quand, apr�s ton injuste courroux,</l>
-<stage>Montrant L�lie.</stage>
-	<l id="596">J'ai fait, dans sa faiblesse, entrer monsieur chez nous,</l>
-	<l id="597">Je n'ai pas reconnu les traits de sa peinture.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="598">C'est moi qui du portrait ai caus� l'aventure ;</l>
-	<l id="599">Et je l'ai laiss� choir en cette p�moison</l>
-<stage>� Sganarelle.</stage>
-	<l id="600">Qui m'a fait par vos soins remettre � la maison.</l>
-</sp>
-<sp who="SUIVANTE"><speaker>LA SUIVANTE.</speaker>
-	<l id="601">Vous voyez que sans moi vous y seriez encore,</l>
-<note type="L">Ell�bore : Plante, dite dans l'Avranchin herbe enrag�e, tr�s usit�e dans la m�decine des anciens comme cathartique et qui passait pour gu�rir la folie. [L]</note>
-	<l id="602">Et vous aviez besoin de mon peu d'ell�bore.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="603">Prendrons-nous tout ceci pour de l'argent comptant ?</l>
-	<l id="604">Mon front l'a, sur mon �me, eu bien chaude pourtant !</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>SA FEMME.</speaker>
-	<l id="605">Ma crainte toutefois n'est pas trop dissip�e ;</l>
-	<l id="606">Et doux que soit le mal, je crains d'�tre tromp�e.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="607">H� ! Mutuellement croyons-nous gens de bien :</l>
-	<l id="608">Je risque plus du mien que tu ne fais du tien ;</l>
-	<l id="609">Accepte sans fa�on le march� qu'on propose.</l>
-</sp>
-<sp who="FEMME-SGANARELLE"><speaker>SA FEMME.</speaker>
-	<l id="610">Soit. Mais gare le bois si j'apprends quelque chose !</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE, � L�lie, apr�s avoir parl� bas ensemble.</speaker>
-	<l id="611">Ah ! Dieux ! S'il est ainsi, qu'est-ce donc que j'ai fait ?</l>
-	<l id="612">Je dois de mon courroux appr�hender l'effet :</l>
-	<l id="613">Oui, vous croyant sans foi, j'ai pris, pour ma vengeance,</l>
-	<l id="614">Le malheureux secours de mon ob�issance ;</l>
-	<l id="615">Et depuis un moment mon coeur vient d'accepter</l>
-	<l id="616">Un hymen que toujours j'eus lieu de rebuter ;</l>
-	<l id="617">J'ai promis � mon p�re ; et ce qui me d�sole...</l>
-	<l id="618" part="i">Mais je le vois venir.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="618" part="f">Il me tiendra parole.</l>
-</sp>
-</div2>
-<div2 type="scene" n="23"><head>SC�NE XXIII. L�lie, Gorgibus.</head>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="619">Monsieur, vous me voyez en ces lieux de retour</l>
-	<l id="620">Br�lant des m�mes feux, et mon ardente amour</l>
-	<l id="621">Verra, comme je crois, la promesse accomplie</l>
-	<l id="622">Qui me donna l'espoir de l'hymen de C�lie.</l>
-</sp>
-<sp who="GORGIBUS"><speaker>GORGIBUS.</speaker>
-	<l id="623">Monsieur, que je revois en ces lieux de retour</l>
-	<l id="624">Br�lant des m�mes feux, et dont l'ardente amour</l>
-	<l id="625">Verra, que vous croyez, la promesse accomplie</l>
-	<l id="626">Qui vous donna l'espoir de l'hymen de C�lie,</l>
-	<l id="627">Tr�s humble serviteur � votre seigneurie.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="628">Quoi ? Monsieur, est-ce ainsi qu'on trahit mon espoir ?</l>
-</sp>
-<sp who="GORGIBUS"><speaker>GORGIBUS.</speaker>
-	<l id="629">Oui, monsieur, c'est ainsi que je fais mon devoir :</l>
-	<l id="630" part="i">Ma fille en suit les lois.</l>
-</sp>
-<sp who="C�LIE"><speaker>C�LIE.</speaker>
-	<l id="630" part="f">Mon devoir m'int�resse,</l>
-	<l id="631">Mon p�re, � d�gager vers lui votre promesse.</l>
-</sp>
-<sp who="GORGIBUS"><speaker>GORGIBUS.</speaker>
-	<l id="632">Est-ce r�pondre en fille � mes commandements ?</l>
-	<l id="633">Tu te d�mens bien t�t de tes bons sentiments !</l>
-	<l id="634">Pour Val�re tant�t... Mais j'aper�ois son p�re :</l>
-	<l id="635">Il vient assur�ment pour conclure l'affaire.</l>
-</sp>
-</div2>
-<div2 type="scene" n="24"><head>SC�NE DERNI�RE. Gorgibus, Villebrequin, L�lie, Sganarelle.</head>
-<sp who="GORGIBUS"><speaker>GORGIBUS.</speaker>
-	<l id="636">Qui vous am�ne ici, seigneur Villebrequin ?</l>
-</sp>
-<sp who="VILLEBREQUIN"><speaker>VILLEBREQUIN.</speaker>
-	<l id="637">Un secret important, que j'ai su ce matin,</l>
-	<l id="638">Qui rompt absolument ma parole donn�e.</l>
-	<l id="639">Mon fils, dont votre fille acceptait l'hym�n�e,</l>
-	<l id="640">Sous des liens cach�s trompant les yeux de tous,</l>
-	<l id="641">Vit, depuis quatre mois, avec Lise en �poux ;</l>
-	<l id="642">Et comme des parents le bien et la naissance</l>
-	<l id="643">M'�tent tout le pouvoir d'en casser l'alliance,</l>
-	<l id="644" part="i">Je vous viens...</l>
-</sp>
-<sp who="GORGIBUS"><speaker>GORGIBUS.</speaker>
-	<l id="644" part="f">Brisons l�. Si, sans votre cong�,</l>
-	<l id="645">Val�re votre fils ailleurs s'est engag�,</l>
-	<l id="646">Je ne vous puis celer que ma fille C�lie</l>
-	<l id="647">D�s longtemps par moi-m�me est promise � L�lie ;</l>
-	<l id="648">Et que, riche en vertus, son retour aujourd'hui</l>
-	<l id="649">M'emp�che d'agr�er un autre �poux que lui.</l>
-</sp>
-<sp who="VILLEBREQUIN"><speaker>VILLEBREQUIN.</speaker>
-	<l id="650" part="i">Un tel choix me pla�t fort.</l>
-</sp>
-<sp who="L�LIE"><speaker>L�LIE.</speaker>
-	<l id="650" part="f">Et cette juste envie</l>
-	<l id="651">D'un bonheur �ternel va couronner ma vie.</l>
-</sp>
-<sp who="GORGIBUS"><speaker>GORGIBUS.</speaker>
-	<l id="652">Allons choisir le jour pour se donner la foi.</l>
-</sp>
-<sp who="SGANARELLE"><speaker>SGANARELLE.</speaker>
-	<l id="653">A-t-on mieux cru jamais �tre cocu que moi ?</l>
-	<l id="654">Vous voyez qu'en ce fait la plus forte apparence</l>
-	<l id="655">Peut jeter dans l'esprit une fausse cr�ance.</l>
-	<l id="656">De cet exemple-ci ressouvenez-vous bien ;</l>
-	<l id="657">Et, quand vous verriez tout, ne croyez jamais rien.</l>
-</sp>
-</div2>
-</div1>
-</body>
-</text>
-</TEI.2>
+      <castList>
+        <head>ACTEURS</head>
+        <castItem><role id="GORGIBUS" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">GORGIBUS</role>, bourgeois de Paris.</castItem>
+        <castItem><role id="CÉLIE" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">CÉLIE</role>, sa fille.</castItem>
+        <castItem><role id="LÉLIE" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LÉLIE</role>, amant de Célie.</castItem>
+        <castItem><role id="GROS-RENE" civil="M" type="H" statut="valet" age="A" stat_amour="néant">GROS-RENÉ</role>, valet de Lélie.</castItem>
+        <castItem><role id="SGANARELLE" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">SGANARELLE</role>, bourgeois de Paris et cocu imaginaire.</castItem>
+        <castItem><role id="FEMME-SGANARELLE" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">SA FEMME</role>.</castItem>
+        <castItem><role id="VILLEBREQUIN" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">VILLEBREQUIN</role>, père de Valère.</castItem>
+        <castItem><role id="SUIVANTE" civil="F" type="H" statut="suivante" age="A" stat_amour="néant">LA SUIVANTE</role> de Célie.</castItem>
+        <castItem><role id="LE_PARENT" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">UN PARENT</role>de Sganarelle.</castItem>
+      </castList>
+      <set location="Paris" country="France" periode="XVIIème" link="">La scène est à Paris.</set>
+      <div>
+        <p>MONSIEUR,</p>
+        <p>Ayant été voir votre charmante Comédie du <hi rend="i">Cocu Imaginaire</hi>  ; la première fois qu’elle fit paraître ses beautés au public, elle me parut si admirable , que je crus que ce n’était pas rendre justice à un si merveilleux Ouvrage, que de ne le voir qu’une fois, ce qui m’y fit retourner cinq ou six autres ; et comme on retient assez facilement les choses qui frappent vivement l’imagination, j’eus le bonheur de la retenir entière dans aucun dessein prémédité, et je m’en aperçus d’une manière assez extraordinaire. Un jour, m’étant trouvé dans une assez célèbre compagnie, où l’on s’entretenait de votre Esprit et du génie particulier que vous avez pour les Pièces de Théâtre, je coulai mon sentiment parmi celui des autres,  et  pour enchérir par-dessus ce qu’on disait à votre avantage, je voulus faire le récit de votre  <hi rend="i">Cocu Imaginaire</hi>  ; mais je fus bien surpris, quand je vis qu’à cent Vers près je savais la Pièce par cœur, et qu’au lieu du sujet, je les avais tous récités; cela m’y fit retourner encore une fois pour achever de retenir ce que je n’en avais pas. Aussitôt un Gentilhomme de la Campagne de mes amis, extraordinairement curieux de ces sortes d’Ouvrages, m’écrivit,  et  me pria de lui mander ce que c’était que le  <hi rend="i">Cocu Imaginaire</hi> , parce que, disait-il, il n’avait point vu de pièce dont le titre promit rien de si spirituel, si elle était traitée par un habile homme. Je lui envoyai aussitôt la Pièce que j’avais retenue, pour lui montrer qu’il ne s’était pas trompé; et comme il ne l’avait point vu représenter, je crus à propos de lui envoyer les Arguments de chaque Scène, pour lui montrer que quoique cette Pièce fut admirable, l’Auteur en la représentant lui-même savait encore faire découvrir de nouvelles beautés. Je n’oubliai pas de lui mander expressément, et même de le conjurer de n’en laisser rien sortir de ses mains ; cependant sans savoir comment cela s’est fait, j’en ai vu courir huit ou dix copies en cette Ville, et j’ai su que quantité de gens étaient prêts de la faire mettre sous la presse ; ce qui m’a mis dans une colère d’autant plus grande, que la plupart de ceux qui ont décrit cet Ouvrage l’ont tellement défiguré, soit en ajoutant, soit en y diminuant, que je ne l’ai pas trouvé reconnaissable : et comme il y allait de votre gloire et de la mienne, qu’on ne l’imprima pas de la sorte, à cause des Vers que vous avez faits, et de la Prose que j’y ai ajoutée, j’ai cru qu’il fallait aller au devant de ces Messieurs, qui impriment les gens malgré qu’ils en aient, et donner une copie qui fût correcte (je puis parler ainsi, puisque je crois que vous trouverez votre Pièce dans les formes) j’ai pourtant combattu longtemps avant que de la donner ; mais enfin j’ai vu que c’était une nécessité que nous fussions imprimé, et je m’y suis résolu d’autant plus volontiers, que j’ai vu que cela ne vous pouvait apporter aucun dommage, non plus qu’à votre Troupe, puisque votre Pièce a été jouée plus de cinquante fois. Je suis,</p>
+        <p>MONSIEUR,</p>
+        <p>Votre très humble</p>
+        <p>Serviteur * * *</p>
+        <p>À UN AMY.</p>
+      </div>
+      <div>
+        <head>MONSIEUR,</head>
+        <p><hi rend="i">Vous ne vous êtes pas trompé dans vostre pensée, lorsque vous avez dit (avant que l’on le jouât) que si</hi> Le Cocu Imaginaire  <hi rend="i">était traité par un habile homme, ce devait être une parfaitement belle Pièce : C’est pourquoi je crois qu’il ne me sera pas difficile de vous faire tomber d’accord de la beauté de cette Comédie, même avant que de l’avoir vue, quand je vous aurai dit qu’elle part de la plume de l’ingénieux Auteur des</hi>  Précieuses Ridicules . <hi rend="i">Jugez après cela, si ce ne doit pas être un ouvrage tout à fait galand et tout à fait spirituel, puisque ce sont deux choses que son Auteur possède avantageusement. Elles y brillent aussi avec tant d’éclat, que cette pièce surpasse de beaucoup toutes celles qu’il a faites, quoique le sujet de ces</hi>  Prétieuses Ridicules  <hi rend="i">soit tout à fait spirituel, et celui de son</hi>  Dépit Amoureux  <hi rend="i">tout à fait galant. Mais vous en allez vous-même être juge dès que vous l’aurez lue, et je suis assuré que vous y trouverez quantité de Vers qui ne se peuvent payer, que plus vous relirez plus vous connaîtrez avoir été profondément pensés. En effet le sens en est si mystérieux, qu’ils ne peuvent partir que d’un homme consommé dans les Compagnies, et j’ose même avancer que Sganarelle n’a aucun mouvement jaloux, ni ne pousse aucuns sentiments, que l’Auteur n’ait peut-être oui lui-même de quantité de gens au plus fort de leur jalousie, tant ils sont exprimés naturellement ; si bien que l’on peut dire que quand il veut mettre quelque chose au jour, il le lit premièrement dans le monde (s’il est permis de parler ainsi) ce qui ne se peut faire sans avoir un discernement aussi bon que lui, et aussi propre  à choisir ce qui plaît. On ne doit donc pas s’étonner après cela, si ses Pièces ont une si extraordinaire réussite, puisque l’on n’y voit rien de forcé, que tout y est naturel, que tout y tombe sous le sens, et qu’enfin les plus spirituels confessent, que les passions produiront en eux les mêmes effets qu’ils produisent en ceux qu’il introduit sur la Scène.</hi></p>
+        <p><hi rend="i">Je n’aurais jamais fait, si je prétendais vous dire tout ce qui rend recommandable l’Auteur des</hi> Précieuses Ridicules , <hi rend="i">et du</hi>  Cocu Imaginaire.  <hi rend="i">C’est ce qui fait que je ne vous en entretiendrai pas davantage, pour vous dire que quelques beautés que cette Pièce vous fasse voir sur le papier, elle n’a pas encore tous les agréments que le Théâtre donne d’ordinaire à ces sortes d’Ouvrages. Je tâcherai toutefois de vous en faire voir quelque chose aux endroits où il sera nécessaire pour l’intelligence des Vers et du sujet, quoiqu’il soit assez difficile de bien exprimer sur le papier ce que les Poètes appellent Jeux de Théâtre, qui sont de certains endroits où il faut que le corps et le visage jouent beaucoup, et qui dépendent plus du Comédien que du Poète, consistant presque toujours dans l’action : C’est pourquoi je vous conseille de venir à Paris, pour voir représenter</hi>  Le Cocu Imaginaire  <hi rend="i">par son Auteur, et vous verrez qu’il y fait des choses qui ne vous donneront pas moins d’admiration, que vous aura donné la lecture de cette Pièce ; mais je ne m’aperçois pas que je vous viens de promettre de ne vous plus entretenir de l’esprit de cet Auteur, puisque vous en découvrirez plus dans les Vers que vous allez lire, que dans tous les discours que je vous en pourrais faire. Je sais bien que je vous ennuie, et je m’imagine vous voir passer les yeux avec chagrin par dessus cette longue Épître ; mais prenez-vous en à l’Auteur ….</hi></p>
+        <p><hi rend="i">Foin, je voudrais bien éviter ce mot d’Auteur ; car je crois qu’il se rencontre presque dans chaque ligne, et j’ai déjà été tenté de mettre</hi> Monsieur de Molier  <hi rend="i">en sa place. Prenez vous-en donc à</hi>  Monsieur de Molier,  <hi rend="i">puisque le voilà. Non, laissez-le là toutefois, et ne vous en prenez qu’à son esprit qui m’a fait faire une lettre plus longue que je n’aurais voulu, sans toutefois avoir parlé d’autres personnes que de lui, et sans avoir dit le quart de ce que j’avais à dire à son avantage. Mais je finis, de peur que cette Épître n’attire quelque maudisson sur elle, et je gage que dans l’impatience où vous êtes, vous serez bien aise d’en voir la fin et le commencement de cette Pièce.</hi></p>
+      </div>
+    </front>
+    <body>
+      <div1 type="act" xml:id="I">
+        <head>COMÉDIE.</head>
+        <div2 type="scene" xml:id="I01">
+          <head>SCÈNE PREMIÈRE</head>
+          <stage>GORGIBUS, CÉLIE, SA SUIVANTE.</stage>
+          <stage>Cette première Scène, où Gorgibus entre avec sa Fille, fait voir à l’Auditeur que l’avarice est la passion la plus ordinaire aux Vieillards, de même que l’amour est celle qui règne le plus souvent dans un jeune cœur, et principalement dans celui d’une fille ; car l’on y voit Gorgibus, malgré le choix qu’il avait fait de Lélie pour son Gendre, presse sa Fille d’agréer un autre Époux nommé Valère, incomparablement plus mal fait que Lélie, sans donner  d’autre raison de changement, sinon que le dernier est plus riche. L’on voit d’un autre côté que l’amour ne sort pas facilement du cœur d’une fille, quand une fois il en a su prendre : c’est ce qui fait un agréable combat dans cette Scène entre le père et la fille, le père lui voulant persuader qu’il faut être obéissante, et lui proposant pour la devenir, au lieu de la lecture de Clélie, celle de quelques vieux Livres qui marquent l’antiquité du bonhomme, et qui n’ont rien qui ne parût barbare, si l’on en comparaît le style à celui des ouvrages de l’Illustre Sapho. Mais que tout ce que son père lui dit la touche peu, elle abandonnerait volontiers la lecture de toutes sortes de Livres pour s’occuper à repasser sans cesse en son esprit les belles qualités de son Amant, et les plaisirs dont jouissent deux personnes qui se marient quand ils s’aiment mutuellement : mais las ! que ce cruel père lui donne sujet d’avoir bien de plus tristes pensées, il l’a presse si fort que cette fille affligée n’a plus de recours qu’aux larmes, qui sont les armes ordinaires de son sexe, qui ne sont pas toujours aussi puissantes pour vaincre l’avarice de cet insensible Père, qui la laissa tout éplorée. Voici les Vers de cette Scène qui vous feront voir ce que je viens de dire, mieux que je n’ai fait dans cette Prose.</stage>
+          <sp who="celie-sortant-toute-eploree" xml:id="I01-1">
+            <speaker>célie sortant toute éplorée, et son <hi rend="i">P</hi>ère la suivant</speaker>
+            <l>Ah ! n’espérez jamais que mon cœur y consente.</l>
+          </sp>
+          <sp who="gorgibus" xml:id="I01-2">
+            <speaker>gorgibus</speaker>
+            <l>Que marmottez-vous là petite impertinente ?</l>
+            <l>Vous prétendez choquer ce que j’ai résolu,</l>
+            <l>Je n’aurai pas sur vous un pouvoir absolu,</l>
+            <l n="5">Et par sottes raisons votre jeune cervelle</l>
+            <l>Voudrait régler ici la raison paternelle ?</l>
+            <l>Qui de nous deux à l’autre a droit de faire loi,</l>
+            <l>À votre avis qui mieux, ou de vous, ou de moi</l>
+            <l>O sotte, peut juger ce qui vous est utile ?</l>
+            <l n="10">Par la corbleu, gardez d’échauffer trop ma bile,</l>
+            <l>Vous pourriez éprouver sans beaucoup de longueur</l>
+            <l>Si mon bras sait encor montrer quelque vigueur.</l>
+            <l>Votre plus court sera, Madame la mutine,</l>
+            <l>D’accepter sans façons l’époux qu’on vous destine.</l>
+            <l n="15">J’ignore, dites‑vous, de quelle humeur il est,</l>
+            <l>Et dois auparavant consulter s’il vous plaît.</l>
+            <l>Informé du grand bien qui lui tombe en partage,</l>
+            <l>Dois-je prendre le soin d’en savoir davantage,</l>
+            <l>Et cet époux ayant vingt mille bons Ducats,</l>
+            <l n="20">Pour être aimé de vous doit-il manquer d’appas ?</l>
+            <l>Allez tel qu’il puisse être, avec cette somme,</l>
+            <l>Je vous suis caution qu’il est très honnête homme.</l>
+          </sp>
+          <sp who="celie" xml:id="I01-3">
+            <speaker>célie</speaker>
+            <l>Hélas !</l>
+          </sp>
+          <sp who="gorgibus" xml:id="I01-4">
+            <speaker>gorgibus</speaker>
+            <l>Eh bien hélas ! que veut dire ceci,</l>
+            <l>Voyez le bel hélas ! qu’elle nous donne ici.</l>
+            <l n="25">Hé ! que si la colère une fois me transporte,</l>
+            <l>Je vous ferai chanter hélas ! de belle sorte.</l>
+            <l>Voilà, voilà, le fruit de ces empressements</l>
+            <l>Qu’on vous voit nuit et jour à lire vos Romans,</l>
+            <l>De quolibets d’amour votre tête est remplie,</l>
+            <l n="30">Et vous parlez de Dieu, bien moins que de Clélie.</l>
+            <l>Jetez‑moi dans le feu tous ces méchants écrits</l>
+            <l>Qui gâtent tous les jours tant de jeunes esprits,</l>
+            <l>Lisez‑moi comme il faut, au lieu de ces sornettes</l>
+            <l>Les quatrains de Pibrac, et les doctes tablettes</l>
+            <l n="35">Du Conseiller Matthieu, ouvrage de valeur</l>
+            <l>Et plein de beaux dictons à réciter par cœur.</l>
+            <l>La <hi rend="i">G</hi>uide des pécheurs est encore un bon livre ;</l>
+            <l>C’est là qu’en peu de temps on apprend à bien vivre,</l>
+            <l>Et si vous n’avez lu que ces Moralités,</l>
+            <l n="40">Vous sauriez un peu mieux suivre mes volontés.</l>
+          </sp>
+          <sp who="celie" xml:id="I01-5">
+            <speaker>célie</speaker>
+            <l>Quoi vous prétendez donc mon père, que j’oublie</l>
+            <l>La constante amitié que je dois à Lélie ?</l>
+            <l>J’aurais tort si sans vous je disposais de moi ;</l>
+            <l>Mais vous‑même à ses vœux engageâtes ma foi.</l>
+          </sp>
+          <sp who="gorgibus" xml:id="I01-6">
+            <speaker>gorgibus</speaker>
+            <l n="45">Lui fût-elle engagée encore davantage,</l>
+            <l>Un autre est survenu dont le bien l’en dégage.</l>
+            <l>Lélie est fort bien fait ; mais apprends qu’il n’est rien.</l>
+            <l>Qui ne doive céder au soin d’avoir du bien,</l>
+            <l>Que l’or donne aux plus laids certain charme pour plaire,</l>
+            <l n="50">Et que sans lui le reste est une triste affaire.</l>
+            <l>Valère, je crois bien n’est pas de toi chéri ;</l>
+            <l>Mais s’il ne l’est amant, il le sera mari.</l>
+            <l>Plus que l’on ne le croit, ce nom d’époux engage</l>
+            <l>Et l’amour est souvent un fruit du mariage.</l>
+            <l n="55">Mais suis-je pas bien fat de vouloir raisonner,</l>
+            <l>Où de droit absolu j’ai pouvoir d’ordonner ?</l>
+            <l>Trêve donc je vous prie à vos impertinences,</l>
+            <l>Que je n’entende plus vos sottes doléances :</l>
+            <l>Ce gendre doit venir vous visiter ce soir,</l>
+            <l n="60">Manquez un peu, manquez, à le bien recevoir,</l>
+            <l>Si je ne vous lui vois faire fort bon visage</l>
+            <l>Je vous… je ne veux pas en dire davantage.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I02">
+          <head>SCÈNE II.</head>
+          <stage>CÉLIE, SA SUIVANTE.</stage>
+          <stage>Qui comparera cette seconde Scène à la première, confessera d’abord que l’Auteur de cette Pièce a un génie tout particulier pour les Ouvrages de Théâtre, et qu’il est du tout impossible que ses pièces ne réussissent pas, tant il sait bien de quelle manière il faut attacher l’esprit de l’Auditeur. En effet, nous voyons qu’après avoir fait voir dans la Scène précédente, un père pédagogue, qui tâche de persuader à sa fille que la richesse est préférable à l’amour, il fait parler dans celle-ci (afin de divertir l’Auditeur par la variété de la matière) une veuve suivante de Célie, et confidente toute ensemble, qui s’étonne de quoi sa Maîtresse répond par des larmes à des offres d’hymen, et après avoir dit qu’elle ne ferait pas de même si l’on la voulait marier, elle trouve moyen de décrire toutes les douceurs du mariage ; ce qu’elle exécute si bien, qu’elle en fait naître l’envie à celles qui n’en ont pas tâté. Sa maîtresse, comme font d’ordinaire celles qui n’ont jamais été mariées, l’écoute avec attention et ne recule le temps de jouir de ses douceurs, que parce qu’elle les veut goûter avec Lélie, qu’elle aime parfaitement, et qu’elles se changent toutes en amertumes, lorsque l’on les goûte avec une personne que l’on n’aime pas ; c’est pourquoi elle montre à sa Suivante le Portrait de Lélie ; pour la faire tomber d’accord de la bonne mine de ce Galant, et du sujet qu’elle a de l’aimer. Vous m’objecterez peut-être que cette fille le doit connaître, puisqu’elle demeure avec Célie, et que son père l’ayant promise à Lélie, cet Amant était souvent venu voir sa Maîtresse ; mais je vous répondrai que Lélie était à la Campagne devant qu’elle demeurât avec elle. Après cette digression, pour la justification de notre Auteur, voyons quels effets ce Portrait produit. Celle qui peu auparavant disait, qu’il ne fallait jamais rejeter des offres d’Hymen, avoue que Célie a sujet d’aimer tendrement un homme si bien fait, et Célie songeant qu’elle sera peut-être contrainte d’en épouser un autre s’évanouit : sa confidente appelle du secours. Cependant qu’il en viendra, vous pouvez lire ces Vers qui vous feront attendre avec impatience.</stage>
+          <sp who="la-suivante" xml:id="I02-1">
+            <speaker>la suivante</speaker>
+            <l>Quoi refuser Madame, avec cette rigueur,</l>
+            <l>Ce que tant d’autres gens voudraient de tout leur cœur ?</l>
+            <l n="65">À des offres d’hymen répondre par des larmes</l>
+            <l>Et tarder tant à dire un oui si plein de charmes ?</l>
+            <l>Hélas ! que ne veut-on aussi me marier,</l>
+            <l>Ce ne serait pas moi qui se ferait prier,</l>
+            <l>Et loin qu’un pareil oui me donnât de la peine</l>
+            <l n="70">Croyez que j’en dirais bien vite une douzaine.</l>
+            <l>Le précepteur qui fait répéter la leçon</l>
+            <l>À votre jeune frère, a fort bonne raison,</l>
+            <l>Lorsque nous discourant des choses de la terre,</l>
+            <l>Il dit que la femelle est ainsi que le lierre,</l>
+            <l n="75">Qui croît beau tant qu’à l’arbre il se tient bien serré</l>
+            <l>Et ne profite point s’il en est séparé.</l>
+            <l>Il n’est rien de plus vrai, ma très chère maîtresse,</l>
+            <l>Et je l’éprouve en moi chétive pécheresse.</l>
+            <l>Le bon Dieu fasse paix à mon pauvre Martin,</l>
+            <l n="80">Mais j’avais, lui vivant, le teint d’un Cherubin,</l>
+            <l>L’embonpoint merveilleux, l’œil gai, l’âme contente,</l>
+            <l>Et je suis maintenant ma commère dolente.</l>
+            <l>Pendant cet heureux temps, passé comme un éclair,</l>
+            <l>Je me couchais sans feu dans le fort de l’Hiver,</l>
+            <l n="85">Sécher même les draps me semblait ridicule,</l>
+            <l>Et je tremble à présent dedans la Canicule.</l>
+            <l>Enfin, il n’est rien tel, Madame, croyez-moi,</l>
+            <l>Un mari sert beaucoup la nuit auprès de soi,</l>
+            <l>Ne fût-ce que pour l’heur d’avoir qui vous salue</l>
+            <l n="90">D’un Dieu vous soit en aide alors qu’on éternue.</l>
+          </sp>
+          <sp who="celie" xml:id="I02-2">
+            <speaker>célie</speaker>
+            <l>Peux-tu me conseiller de commettre un forfait,</l>
+            <l>D’abandonner Lélie, et prendre ce malfait.</l>
+          </sp>
+          <sp who="la-suivante" xml:id="I02-3">
+            <speaker>la suivante</speaker>
+            <l>Votre Lélie aussi n’est ma foi qu’une bête,</l>
+            <l>Puisque si hors de temps son voyage l’arrête,</l>
+            <l n="95">Et la grande longueur de son éloignement</l>
+            <l>Me le fait soupçonner de quelque changement.</l>
+          </sp>
+          <sp who="celie" xml:id="I02-4">
+            <speaker>célie, lui montrant le portrait de lélie</speaker>
+            <l>Ah ! ne m’accable point par ce triste présage,</l>
+            <l>Vois attentivement les traits de ce visage,</l>
+            <l>Ils jurent à mon cœur d’éternelles ardeurs,</l>
+            <l n="100">Je veux croire après tout qu’ils ne sont pas menteurs,</l>
+            <l>Et comme c’est celui que l’art y représente</l>
+            <l>Il conserve à mes yeux une amitié constante.</l>
+          </sp>
+          <sp who="la-suivante" xml:id="I02-5">
+            <speaker>la suivante</speaker>
+            <l>Il est vrai que ces traits marquent un digne amant,</l>
+            <l>Et que vous avez lieu de l’aimer tendrement.</l>
+          </sp>
+          <sp who="celie" xml:id="I02-6">
+            <speaker>célie     </speaker>
+            <l>Et cependant il faut… ah ! soutiens-moi.</l>
+            <stage>Laissant tomber le Portrait de Lélie.</stage>
+          </sp>
+          <sp who="la-suivante" xml:id="I02-7">
+            <speaker>la suivante </speaker>
+            <l n="105">Madame,</l>
+            <l>D’où vous pourrait venir… ah ! bons Dieux elle pâme</l>
+            <l>Hé ! vite, holà, quelqu’un.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I03">
+          <head>SCÈNE III.</head>
+          <stage>CÉLIE, LA SUIVANTE, SGANARELLE.</stage>
+          <stage>Cette Scène est fort courte, et Sganarelle, comme un des plus proches voisins de Célie, accourt aux cris de cette Suivante qui lui donne sa Maîtresse à soutenir ; cependant qu’elle va chercher encore du secours d’un autre côté, comme vous pouvez voir par ce qui suit.</stage>
+          <sp who="sganarelle" xml:id="I03-1">
+            <speaker>sganarelle</speaker>
+            <l>Qu’est-ce donc ? me voilà.</l>
+          </sp>
+          <sp who="la-suivante" xml:id="I03-2">
+            <speaker>la suivante</speaker>
+            <l>Ma maîtresse se meurt.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I03-3">
+            <speaker>sganarelle</speaker>
+            <l>Quoi ce n’est que cela,</l>
+            <l>Je croyais tout perdu de crier de la sorte ;</l>
+            <l n="110">Mais approchons pourtant. Madame êtes-vous morte ?</l>
+            <l>Hays, elle ne dit mot.</l>
+          </sp>
+          <sp who="la-suivante" xml:id="I03-4">
+            <speaker>la suivante</speaker>
+            <l>Je vais faire venir</l>
+            <l>Quelqu’un pour l’emporter, veuillez la soutenir.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I04">
+          <head>SCÈNE IV.</head>
+          <stage>CÉLIE, SGANARELLE, sa FEMME.</stage>
+          <stage>Cette Scène n’est pas plus longue que la précédente, et la femme de Sganarelle, regardant par la fenêtre, prend de la jalousie de son mari, à qui elle voit tenir une femme entre ses bras et descend pour le surprendre, cependant qu’il aide à remporter Célie chez elle. Ce que vous pourrez voir en lisant ces vers.</stage>
+          <sp who="sganarelle" xml:id="I04-1">
+            <speaker>sganarelle, en lui passant la main sur le sein</speaker>
+            <l>Elle est froide partout, et je ne sais qu’en dire</l>
+            <l>Approchons‑nous pour voir si sa bouche respire.</l>
+            <l n="115">Ma foi je ne sais pas ; mais j’y trouve encor moi</l>
+            <l>Quelque signe de vie.</l>
+          </sp>
+          <sp who="la-femme-de-sganarelle-regardant-par-la-fenetre" xml:id="I04-2">
+            <speaker>la femme <hi rend="i">de Sganarelle</hi> regardant par la fenêtre</speaker>
+            <l>Ah ! qu’est-ce que je vois ?</l>
+            <l>Mon mari dans ses bras… mais je m’en vais descendre,</l>
+            <l>Il me trahit sans doute, et je veux le surprendre.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I04-3">
+            <speaker>sganarelle</speaker>
+            <l>Il faut se dépêcher de l’aller secourir,</l>
+            <l n="120">Certes elle aurait tort de se laisser mourir,</l>
+            <l>Aller en l’autre monde est très grande sottise</l>
+            <l>Tant que dans celui-ci l’on peut -être de mise.</l>
+            <stage>Il l’emporte avec un homme que la suivante amène.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I05">
+          <head>SCÈNE V.</head>
+          <stage>L’Auteur, qui comme nous avons dit ci-dessus, sait tout à fait bien ménager l’esprit de son Auditeur, après l’avoir diverti dans les deux précédentes Scènes, dont la beauté consiste presque toute dans l’action, l’attache dans celle-ci par un raisonnement si juste, que l’on ne pourra qu’à peine se l’imaginer, si l’on en considère la matière ; mais il n’appartient qu’à des plumes, comme la sienne, à faire beaucoup de peu, et voici pour satisfaire votre curiosité le sujet de cette Scène. La femme de Sganarelle étant descendue, et n’ayant point trouvé son mari, fait éclater sa jalousie, mais d’une manière si surprenante et si extraordinaire, que quoique cette matière ait été fort souvent rebattue, jamais personne ne l’a traitée avec tant de succès, d’une manière si contraire à celle de toutes les autres femmes, qui n’ont recours qu’aux emportements en de semblables rencontres, et comme il m’a été presque impossible de vous l’exprimer aussi bien que lui ; Ces vers vous en feront connaître la beauté.</stage>
+          <sp who="la-femme-de-sganarelle-seule" xml:id="I05-1">
+            <speaker> la femme de sganarelle <hi rend="i">seule.</hi></speaker>
+            <l>Il s’est subitement éloigné de ces lieux,</l>
+            <l>Et sa fuite a trompé mon désir curieux.</l>
+            <l n="125">Mais de sa trahison je ne fais plus de doute,</l>
+            <l>Et le peu que j’ai vu me la découvre toute.</l>
+            <l>Je ne m’étonne plus de l’étrange froideur</l>
+            <l>Dont je le vois répondre à ma pudique ardeur,</l>
+            <l>Il réserve l’ingrat ses caresses à d’autres,</l>
+            <l n="130">Et nourrit leurs plaisirs par le jeûne des nôtres.</l>
+            <l>Voilà de nos maris, le procédé commun,</l>
+            <l>Ce qui leur est permis, leur devient importun.</l>
+            <l>Dans les commencements ce sont toutes merveilles</l>
+            <l>Ils témoignent pour nous des ardeurs non pareilles ;</l>
+            <l n="135">Mais les traîtres bientôt se lassent de nos feux,</l>
+            <l>Et portent autre part ce qu’ils doivent chez eux.</l>
+            <l>Ah ! que j’ai de dépit, que la loi n’autorise,</l>
+            <l>À changer de mari comme on fait de chemise :</l>
+            <l>Cela serait commode, et j’en sais tel ici</l>
+            <l n="140">Qui comme moi ma foi le voudrait bien aussi.</l>
+            <stage>En ramassant le Portrait que Célie avait laissé tomber.</stage>
+            <l>Mais que1 est ce bijou que le sort me présente ?</l>
+            <l>L’émail en est fort beau, la gravure charmante,</l>
+            <l>Ouvrons.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I06">
+          <head>SCÈNE VI.</head>
+          <stage>SGANARELLE, ET SA FEMME.</stage>
+          <stage>Quelques beautés que l’auteur ait fait voir dans la Scène précédente, ne croyez pas qu’il soit de ceux qui souvent après un beau début donnent (pour parler vulgairement du nez en terre) puisque plus vous avancerez dans la lecture de cette Pièce, plus vous y découvrirez de beautés, et pour en être persuadé, il ne faut que jeter les yeux sur cette Scène, qui en fait le fondement. Célie en s’évanouissant, ayant laissé tomber le portrait de son Amant, la femme de Sganarelle le ramasse, et comme elle le considère attentivement, son mari ayant aidé à reporter Célie chez elle, rentre sur la Scène et regarde par dessus l’épaule de sa femme ; ce qu’elle considère : et voyant ce portrait, commence d’entrer en quelque sorte de jalousie, lorsque sa femme s’avise de le sentir, ce qui confirme ces soupçons, dans la pensée qu’il a qu’elle le baise ; mais il se doute bientôt plus qu’il est de la grande Confrérie, quand il entend dire à sa femme, qu’elle souhaiterait d’avoir un Époux d’une aussi bonne mine : c’est alors qu’en la surprenant, il lui arrache ce portrait. Mais devant que de parler des discours qu’ils tiennent ensemble sur le sujet de leur jalousie, il est à propos de vous dire, qu’il ne s’est jamais rien vu de si agréable que les postures de Sganarelle, quand il est derrière sa femme, son visage et ses gestes expriment si bien la jalousie, qu’il ne serait pas nécessaire qu’il parlât pour paraître le plus jaloux de tous les hommes : Il reproche à sa femme son infidélité et tâche de lui persuader qu’elle est d’autant plus coupable qu’elle a un mari qui (soit pour les qualités du corps, soit pour celles de l’esprit) est entièrement parfait. Sa femme qui d’un autre côté croit avoir autant et plus de sujet que lui d’avoir martel en tête, s’emporte contre lui en lui redemandant son bijou ; tellement que chacun croyant avoir raison, cette dispute donne un agréable divertissement à l’auditeur, à quoi Sganarelle contribue beaucoup par des gestes qui sont inimitables et qui ne se peuvent exprimer sur le papier. Sa femme étant lasse d’ouïr ses reproches lui arrache portrait qu’il lui avait pris et s’enfuit, et Sganarelle court après elle. Vous auriez sujet de me quereller, si je ne vous envoyais pas les Vers d’une Scène qui fait le fondement de cette Pièce : c’est pourquoi je satisfais à votre curiosité.</stage>
+          <sp who="sganarelle" xml:id="I06-1">
+            <speaker> sganarelle</speaker>
+            <l>On la croyait morte et ce n’était rien,</l>
+            <l>Il n’en faut plus qu’autant, elle se porte bien.</l>
+            <l>Mais j’aperçois ma femme.</l>
+          </sp>
+          <sp who="sa-femme" xml:id="I06-2">
+            <speaker>sa femme</speaker>
+            <l>145 O Ciel ! c’est miniature,    </l>
+            <l>Et voilà d’un bel homme une vive peinture.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I06-3">
+            <speaker>sganarelle, à part et regardant sur l’épaule de sa femme</speaker>
+            <l>Que considère-t-elle avec attention,</l>
+            <l>Ce portrait mon honneur ne nous dit rien de bon,</l>
+            <l>D’un fort vilain soupçon je me sens l’âme émue.</l>
+          </sp>
+          <sp who="sa-femme" xml:id="I06-4">
+            <speaker>sa femme, sans l’apercevoir continue</speaker>
+            <l n="150">Jamais rien de plus beau ne s’offrit à ma vue.</l>
+            <l>Le travail plus que l’or s’en doit encor priser.</l>
+            <l>Hon que cela sent bon.</l>
+          </sp>
+          <sp who="sganarelle-a-part" xml:id="I06-5">
+            <speaker>sganarelle à part</speaker>
+            <l>Quoi peste le baiser.</l>
+            <l>Ah ! j’en tiens.</l>
+          </sp>
+          <sp who="sa-femme-poursuit" xml:id="I06-6">
+            <speaker>sa femme poursuit</speaker>
+            <l>Avouons qu’on doit être ravie</l>
+            <l>Quand d’un homme ainsi fait on se peut voir servie,</l>
+            <l n="155">Et que s’il en contait avec attention,</l>
+            <l>Le penchant serait grand à la tentation.</l>
+            <l>Ah ! que n’ai-je un mari d’une aussi bonne mine,</l>
+            <l>Au lieu de mon pelé, de mon rustre…</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I06-7">
+            <speaker>sganarelle, lui arrachant le portrait</speaker>
+            <l>Ah ! mâtine</l>
+            <l>Nous vous y surprenons en faute contre nous,</l>
+            <l n="160">Et diffamant l’honneur de votre cher époux :</l>
+            <l>Donc à votre calcul, ô ma trop digne femme !</l>
+            <l>Monsieur, tout bien compté, ne vaut pas bien Madame ?</l>
+            <l>Et de par Belzébuth qui vous puisse emporter</l>
+            <l>Quel plus rare parti pourriez-vous souhaiter ?</l>
+            <l n="165">Peut-on trouver en moi quelque chose à redire ?</l>
+            <l>Cette taille, ce port, que tout le monde admire,</l>
+            <l>Ce visage si propre à donner de l’amour,</l>
+            <l>Pour qui mille beautés soupirent nuit et jour ;</l>
+            <l>Bref en tout et partout ma personne charmante,</l>
+            <l n="170">N’est donc pas un morceau dont vous soyez contente,</l>
+            <l>Et pour rassasier votre appétit gourmand,</l>
+            <l>Il faut à son Mari le ragoût d’un galant.</l>
+          </sp>
+          <sp who="sa-femme" xml:id="I06-8">
+            <speaker>sa femme</speaker>
+            <l>J’entends à demi-mot où va la raillerie,</l>
+            <l>Tu crois par ce moyen…</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I06-9">
+            <speaker>sganarelle</speaker>
+            <l>À d’autres je vous prie,</l>
+            <l n="175">La chose est avérée, et je tiens dans mes mains</l>
+            <l>Un bon certificat du mal dont je me plains.</l>
+          </sp>
+          <sp who="sa-femme" xml:id="I06-10">
+            <speaker>sa femme</speaker>
+            <l>Mon courroux n’a déjà que trop de violence,</l>
+            <l>Sans le charger encor d’une nouvelle offense ;</l>
+            <l>Écoute, ne crois pas retenir mon bijou,</l>
+            <l>Et songe un peu…</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I06-11">
+            <speaker>sganarelle</speaker>
+            <l n="180">Je songe à te rompre le cou.</l>
+            <l>Que ne puis-je, aussi bien que je tiens la copie</l>
+            <l>Tenir l’original.</l>
+          </sp>
+          <sp who="sa-femme" xml:id="I06-12">
+            <speaker>sa femme</speaker>
+            <l>Pourquoi ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I06-13">
+            <speaker>sganarelle</speaker>
+            <l>Pour rien mamie,</l>
+            <l>Doux objet de mes vœux j’ai grand tort de crier,</l>
+            <l>Et mon front de vos dons vous doit remercier.</l>
+            <stage>Regardant le portrait de Lélie.</stage>
+            <l n="185">Le voilà le beau-fils, le mignon de couchette,</l>
+            <l>Le malheureux tison de ta flamme secrète,</l>
+            <l>Le drôle avec lequel…</l>
+          </sp>
+          <sp who="sa-femme" xml:id="I06-14">
+            <speaker>sa femme</speaker>
+            <l>Avec lequel, poursuis ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I06-15">
+            <speaker>sganarelle</speaker>
+            <l>Avec lequel, te dis-je… et j’en crève d’ennuis.</l>
+          </sp>
+          <sp who="sa-femme" xml:id="I06-16">
+            <speaker>sa femme</speaker>
+            <l>Que me veut donc conter par là ce maître ivrogne ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I06-17">
+            <speaker>sganarelle</speaker>
+            <l n="190">Tu ne m’entends que trop Madame la carogne,</l>
+            <l>Sganarelle est un nom qu’on ne me dira plus,</l>
+            <l>Et l’on va m’appeler Seigneur Corneillius :</l>
+            <l>J’en suis pour mon honneur ; mais à toi qui me l’ôtes,</l>
+            <l>Je t’en ferai du moins pour un bras ou deux côtes.</l>
+          </sp>
+          <sp who="sa-femme" xml:id="I06-18">
+            <speaker>sa femme</speaker>
+            <l n="195">Et tu m’oses tenir de semblables discours ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I06-19">
+            <speaker>sganarelle</speaker>
+            <l>Et tu m’oses jouer de ces diables de tours.</l>
+          </sp>
+          <sp who="sa-femme" xml:id="I06-20">
+            <speaker>sa femme</speaker>
+            <l>Et quels diables de tours, parle donc sans rien feindre.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I06-21">
+            <speaker>sganarelle</speaker>
+            <l>Ah ! cela ne vaut pas la peine de se plaindre,</l>
+            <l>D’un panache de Cerf sur le front me pourvoir,</l>
+            <l n="200">Hélas ! voilà vraiment un beau venez-yvoir.</l>
+          </sp>
+          <sp who="sa-femme" xml:id="I06-22">
+            <speaker>sa femme</speaker>
+            <l>Donc après m’avoir fait la plus sensible offense</l>
+            <l>Qui puisse d’une femme exciter la vengeance,</l>
+            <l>Tu prends d’un feint courroux le vain amusement</l>
+            <l>Pour prévenir l’effet de mon ressentiment :</l>
+            <l n="205">D’un pareil procédé l’insolence est nouvelle,</l>
+            <l>Celui qui fait l’offense est celui qui querelle.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I06-23">
+            <speaker>sganarelle</speaker>
+            <l>Eh ! la bonne effrontée, à voir ce fier maintien</l>
+            <l>Ne la croirait-on pas une femme de bien.</l>
+          </sp>
+          <sp who="sa-femme" xml:id="I06-24">
+            <speaker>sa femme</speaker>
+            <l>Va, poursuis ton chemin, cajole tes Maîtresses,</l>
+            <l n="210">Adresse-leur tes vœux et fais-leur des caresses ;</l>
+            <l>Mais rends-moi mon portrait, sans te jouer de moi.</l>
+            <stage>Elle lui arrache le portrait et s’enfuit.</stage>
+          </sp>
+          <sp who="sganarelle-courant-apres-elle" xml:id="I06-25">
+            <speaker>sganarelle courant après elle</speaker>
+            <l>Oui, tu crois m’échapper, je l’aurai malgré toi.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I07">
+          <head>SCÈNE VII.</head>
+          <stage>LÉLIE, GROS RENÉ.</stage>
+          <stage>Lélie avait déjà trop causé de trouble dans l’esprit de tous nos Acteurs, pour ne pas venir faire paraître les siens sur la Scène : En effet, il n’y arrive pas plus tôt, que l’on voit la tristesse peinte sur son visage. Il fait voir que de la campagne où il était, il s’est rendu au plutôt à Paris, sur le bruit de l’hymen de Célie. Comme il est tout nouvellement arrivé, son valet le presse d’aller manger un morceau devant que d’aller apprendre des nouvelles de sa Maîtresse; mais il n’y veut pas consentir, et voyant que son valet l’importune, il l’envoie manger, cependant qu’il va chercher à se délasser des fatigues de son voyage auprès de sa Maîtresse. Remarquez s’il vous plaît, ce que cette Scène contient, et je vous ferai voir en un autre endroit, que l’Auteur a infiniment de l’esprit, de l’avoir placée si à propos ; et pour vous en mieux faire ressouvenir, en voici les Vers.</stage>
+          <sp who="grosrene" xml:id="I07-1">
+            <speaker>grosrené</speaker>
+            <l>Enfin nous y voici ; mais Monsieur, si je l’ose,</l>
+            <l>Je voudrais vous prier de me dire une chose.</l>
+          </sp>
+          <sp who="lelie" xml:id="I07-2">
+            <speaker>lélie</speaker>
+            <l>Hé bien, parle.</l>
+          </sp>
+          <sp who="grosrene" xml:id="I07-3">
+            <speaker>grosrené</speaker>
+            <l n="215">Avez-vous le diable dans le corps</l>
+            <l>Pour ne pas succomber à de pareils efforts ?</l>
+            <l>Depuis huit jours entiers avec vos longues traites</l>
+            <l>Nous sommes à piquer de chiennes de mazettes,</l>
+            <l>De qui le train maudit nous a tant secoués,</l>
+            <l n="220">Que je m’en sens pour moi tous les membres roués,</l>
+            <l>Sans préjudice encor d’un accident bien pire,</l>
+            <l>Qui m’afflige un endroit que je ne veux pas dire,</l>
+            <l>Cependant arrivé vous sortez bien et beau</l>
+            <l>Sans prendre de repos, ni manger un morceau.</l>
+          </sp>
+          <sp who="lelie" xml:id="I07-4">
+            <speaker>lélie</speaker>
+            <l n="225">Ce grand empressement n’est point digne de blâme</l>
+            <l>De l’hymen de Célie, on alarme mon âme ;</l>
+            <l>Tu sais que je l’adore, et je veux être instruit</l>
+            <l>Avant tout autre soin de ce funeste bruit.</l>
+          </sp>
+          <sp who="grosrene" xml:id="I07-5">
+            <speaker>grosrené</speaker>
+            <l>Oui, mais un bon repas vous serait nécessaire</l>
+            <l n="230">Pour s’aller éclaircir, Monsieur, de cette affaire,</l>
+            <l>Et votre cœur sans doute en deviendrait plus fort</l>
+            <l>Pour pouvoir résister aux attaques du sort.</l>
+            <l>J’en juge par moi-même, et la moindre disgrâce</l>
+            <l>Lorsque je suis à jeun, me saisit, me terrasse ;</l>
+            <l n="235">Mais quand j’ai bien mangé, mon âme est ferme à tout,</l>
+            <l>Et les plus grands revers n’en viendraient pas à bout.</l>
+            <l>Croyez-moi, bourrez-vous et sans réserve aucune,</l>
+            <l>Contre les coups que peut vous porter la fortune,</l>
+            <l>Et pour fermer chez vous l’entrée à la douleur,</l>
+            <l n="240">De vingt verres de vin entourez votre cœur.</l>
+          </sp>
+          <sp who="lelie" xml:id="I07-6">
+            <speaker>lélie</speaker>
+            <l>Je ne saurais manger.</l>
+          </sp>
+          <sp who="grosrene" xml:id="I07-7">
+            <speaker>grosrené, à part ce demivers</speaker>
+            <l>Si ferai bien moi, je meure.</l>
+            <l>Votre dîner pourtant serait prêt tout à l’heure ;</l>
+          </sp>
+          <sp who="lelie" xml:id="I07-8">
+            <speaker>lélie</speaker>
+            <l>Tais-toi, je te l’ordonne.</l>
+          </sp>
+          <sp who="grosrene" xml:id="I07-9">
+            <speaker>grosrené</speaker>
+            <l>Ah ! quel ordre inhumain.</l>
+          </sp>
+          <sp who="lelie" xml:id="I07-10">
+            <speaker>lélie</speaker>
+            <l>J’ai de l’inquiétude et non pas de la faim.</l>
+          </sp>
+          <sp who="grosrene" xml:id="I07-11">
+            <speaker>grosrené</speaker>
+            <l n="245">Et moi j’ai de la faim, et de l’inquiétude</l>
+            <l>De voir qu’un sot amour fait toute votre étude.</l>
+          </sp>
+          <sp who="lelie" xml:id="I07-12">
+            <speaker>lélie</speaker>
+            <l>Laisse-moi m’informer de l’objet de mes vœux,</l>
+            <l>Et sans m’importuner, va manger si tu veux.</l>
+          </sp>
+          <sp who="grosrene" xml:id="I07-13">
+            <speaker>grosrené</speaker>
+            <l>Je ne réplique point à ce qu’un Maître ordonne.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I08">
+          <head>SCÈNE VIII.</head>
+          <sp who="lelie" xml:id="I08-1">
+            <speaker>lélie, seul</speaker>
+            <stage>Je ne vous dirai rien de cette scène, puisqu’elle ne contient que ces trois vers.</stage>
+          </sp>
+          <sp who="lelie" xml:id="I08-2">
+            <speaker>lélie, seul</speaker>
+            <l n="250">Non non, à trop de peur mon âme s’abandonne,</l>
+            <l>Le père m’a promis et la fille a fait voir</l>
+            <l>Des preuves d’un amour qui soutient mon espoir.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I09">
+          <head>SCÈNE IX.</head>
+          <stage>SGANARELLE, LÉLIE</stage>
+          <stage> C’est ici que l’Auteur fait voir qu’il ne sait pas moins bien représenter une Pièce, qu’il la sait composer, puisque l’on ne vit jamais rien de si bien joué que cette Scène. Sganarelle ayant arraché à sa femme le portrait qu’elle venait reprendre, vient pour le considérer à loisir, lorsque Lélie, voyant que cette boîte ressemblait fort à celle où était le portrait qu’il avait donné à sa Maîtresse, s’approche de lui pour le regarder par-dessus son épaule, tellement que Sganarelle voyant qu’il n’a pas le loisir de considérer ce portrait comme il le voudrait bien, et que de quelque côté qu’il se puisse tourner, il est obsédé par Lélie : Et Lélie enfin de son côté ne doutant plus que ce ne soit son portrait, et impatient de savoir de qui Sganarelle peut l’avoir eu, s’enquiert de lui comment il est tombé entre ses mains. Ce désir étonne Sganarelle; mais sa surprise cesse bientôt, lorsqu’après avoir bien examiné ce portrait, il reconnaît que c’est celui de Lélie. Il lui dit qu’il sait bien le souci qui le tient, qu’il connaît bien que c’est son portrait, et le prie de cesser un amour qu’un mari peut trouver fort mauvais. Lélie lui demande s’il est mari de celle qui conservait ce gage. Sganarelle lui dit qu’oui, et qu’il en est mari très marri, qu’il en sait bien la cause, et qu’il va sur l’heure l’apprendre aux parents de sa femme. Et moi cependant je m’en vais vous apprendre les vers de cette Scène. Il faut que vous preniez garde qu’un agréable malentendu est ce qui fait la beauté de cette Scène, et que subsistant pendant le reste de la pièce entre les quatre principaux Acteurs, qui sont Sganarelle, sa Femme, Lélie, et sa Maîtresse, qui ne s’entendent pas, il divertit merveilleusement l’auditeur, sans fatiguer son esprit, tant il naît naturellement, et tant sa conduite est admirable dans cette Pièce.</stage>
+          <sp who="sganarelle" xml:id="I09-1">
+            <speaker>sganarelle</speaker>
+            <l>Nous l’avons, et je puis voir à l’aise la trogne</l>
+            <l>Du malheureux pendard qui cause ma vergogne.</l>
+            <l>Il ne m’est point connu.</l>
+          </sp>
+          <sp who="lelie-a-part" xml:id="I09-2">
+            <speaker>lélie à part</speaker>
+            <l n="255">Dieux ! qu’aperçois-je ici ?</l>
+            <l>Et si c’est mon portrait, que dois-je croire aussi ?</l>
+          </sp>
+          <sp who="sganarelle-continue" xml:id="I09-3">
+            <speaker>sganarelle continue</speaker>
+            <l>Ah ! pauvre Sganarelle, à quelle destinée</l>
+            <l>Ta réputation est-elle condamnée,</l>
+            <stage>Apercevant Lélie qui le regarde, il se retourne d’un autre côté.</stage>
+            <l>Faut…</l>
+          </sp>
+          <sp who="lelie-a-part" xml:id="I09-4">
+            <speaker>lélie à part</speaker>
+            <l>Ce gage ne peut sans alarmer ma foi,</l>
+            <l n="260">Être sorti des mains qui le tenaient de moi.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I09-5">
+            <speaker>sganarelle</speaker>
+            <l>Faut-il que désormais à deux doigts on te montre,</l>
+            <l>Qu’on te mette en chansons, et qu’en toute rencontre,</l>
+            <l>On te rejette au nez le scandaleux affront</l>
+            <l>Qu’une femme mal née imprime sur ton front.</l>
+          </sp>
+          <sp who="lelie-a-part" xml:id="I09-6">
+            <speaker>lélie à part</speaker>
+            <l>Me trompai-je ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I09-7">
+            <speaker>sganarelle</speaker>
+            <l n="265">Ah ! truande, as-tu bien le courage</l>
+            <l>De m’avoir fait cocu dans la fleur de mon âge ?</l>
+            <l>Et femme d’un mari qui peut passer pour beau,</l>
+            <l>Faut-il qu’un Marmouset, un maudit Étourneau…</l>
+          </sp>
+          <sp who="lelie-a-part-et-regardant-encore-son-portrait" xml:id="I09-8">
+            <speaker>lélie à part et regardant encore son portrait</speaker>
+            <l>Je ne m’abuse point, c’est mon portrait lui-même.</l>
+          </sp>
+          <sp who="sganarelle-lui-tourne-le-dos" xml:id="I09-9">
+            <speaker>sganarelle lui tourne le dos</speaker>
+            <l>Cet homme est curieux.</l>
+          </sp>
+          <sp who="lelie-a-part" xml:id="I09-10">
+            <speaker>lélie à part</speaker>
+            <l n="270">Ma surprise est extrême.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I09-11">
+            <speaker>sganarelle</speaker>
+            <l>À qui donc en a-t-il.</l>
+          </sp>
+          <sp who="lelie-a-part" xml:id="I09-12">
+            <speaker>lélie à part</speaker>
+            <l>Je le veux accoster.</l>
+            <stage> haut.</stage>
+            <l>Puis-je… hé ! de grâce un mot.</l>
+          </sp>
+          <sp who="sganarelle-le-fuit-encore" xml:id="I09-13">
+            <speaker>sganarelle le fuit encore</speaker>
+            <l>Que me veut-il conter ?</l>
+          </sp>
+          <sp who="lelie" xml:id="I09-14">
+            <speaker>lélie</speaker>
+            <l>Puis-je obtenir de vous, de savoir l’aventure,</l>
+            <l>Qui fait dedans vos mains trouver cette peinture.</l>
+          </sp>
+          <sp who="sganarelle-a-part" xml:id="I09-15">
+            <speaker>sganarelle à part, et examinant le portrait qu’il tient et lélie</speaker>
+            <l n="275">D’où lui vient ce désir ? mais je m’avise ici…</l>
+            <l>Ah ! ma foi me voilà de son trouble éclairci,</l>
+            <l>Sa surprise à présent n’étonne plus mon âme,</l>
+            <l>C’est mon homme, ou plutôt c’est celui de ma femme.</l>
+          </sp>
+          <sp who="lelie" xml:id="I09-16">
+            <speaker>lélie</speaker>
+            <l>Retirez‑moi de peine et dites d’où vous vient…</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I09-17">
+            <speaker>sganarelle</speaker>
+            <l n="280">Nous savons Dieu merci le souci qui vous tient,</l>
+            <l>Ce portrait qui vous fâche est votre ressemblance,</l>
+            <l>Il était en des mains de votre connaissance,</l>
+            <l>Et ce n’est pas un fait qui soit secret pour nous</l>
+            <l>Que les douces ardeurs de la Dame et de vous :</l>
+            <l n="285">Je ne sais pas si j’ai dans sa galanterie</l>
+            <l>L’honneur d’être connu de votre Seigneurie ;</l>
+            <l>Mais faites-moi celui de cesser désormais</l>
+            <l>Un amour qu’un mari peut trouver fort mauvais,</l>
+            <l>Et songez que les nœuds du sacré mariage…</l>
+          </sp>
+          <sp who="lelie" xml:id="I09-18">
+            <speaker>lélie</speaker>
+            <l n="290">Quoi, celle, dites-vous dont vous tenez ce gage ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I09-19">
+            <speaker>sganarelle</speaker>
+            <l>Est ma femme, et je suis son mari.</l>
+          </sp>
+          <sp who="lelie" xml:id="I09-20">
+            <speaker>lélie</speaker>
+            <l>Son mari ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I09-21">
+            <speaker>sganarelle</speaker>
+            <l>Oui, son mari, vous dis-je, et mari très marri,</l>
+            <l>Vous en savez la cause et je m’en vais l’apprendre</l>
+            <l>Sur l’heure à ses parents.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I10">
+          <head>SCÈNE X.</head>
+          <sp who="lelie-seul" xml:id="I10-1">
+            <speaker>lélie seul</speaker>
+            <stage>Lélie se plaint dans cette Scène de l’infidélité de sa Maîtresse, et l’outrage qu’elle lui fait, ne l’abattant pas moins que les longs travaux de son voyage, le fait tomber en faiblesse. Plusieurs ont assez ridiculement repris cette Scène, sans avoir pour justifier leur impertinence, autre chose à dire sinon que l’infidélité d’une maîtresse n’était pas capable de faire évanouir un homme. D’autres ont dit encore, que cet évanouissement était mal placé, et que l’on voyait bien que l’Auteur ne s’en était servi que pour faire naître l’incident qui paraît ensuite. Mais je répondrai en deux mots aux uns et aux autres: et je dis d’abord aux premiers, qu’ils n’ont pas bien considéré, que l’Auteur avait préparé cet incident longtemps devant, et que l’infidélité de la Maîtresse de Lélie, n’est pas seule la cause de son évanouissement, qu’il en a encore deux puissantes raisons, dont l’une est les longs et pénibles travaux d’un voyage de huit jours qu’il avait fait en poste, et l’autre qu’il n’avait point mangé depuis son arrivée, comme l’auteur l’a découvert ci-devant aux Auditeurs, en faisant que Gros-René le presse d’aller manger un morceau afin de pouvoir résister aux attaques du sort (et c’est pour cela que je vous ai prié de remarquer la Scène qu’ils font ensemble) tellement il n’est pas impossible qu’un homme qui arrive d’un long voyage, qui n’a point mangé depuis son arrivée, et qui apprend l’infidélité d’une maîtresse, s’évanouisse. Voilà ce que j’ai à dire aux premiers censeurs de cet incident miraculeux. Pour ce qui regarde les seconds, quoiqu’ils paraissent le reprendre avec plus de justice, je les confondrai encore plus tôt, et pour commencer à leur faire voir leur ignorance, je veux leur accorder que l’Auteur n’a fait évanouir Lélie, que pour donner lieu à l’incident qui suit; mais ne doivent-ils pas savoir que quand un Auteur a un bel incident à insérer dans une Pièce, s’il trouve des moyens vraisemblables pour le faire naître, il en doit d’autant être plus estimé, que la chose est beaucoup plus difficile, et qu’au contraire, s’il ne le fait paraître que par des moyens erronés et tirés par la queue, il doit passer pour un ignorant, puisque c’est une des qualités la plus nécessaire à un Auteur, que de savoir inventer une vraisemblance; c’est pourquoi, puisqu’il y a tant de possibilité et de vraisemblance dans l’évanouissement de Lélie, que l’on pourrait dire qu’il était absolument nécessaire qu’il s’évanouisse, puisqu’il aurait paru peu amoureux si, étant arrivé à Paris, il s’était allé amuser à manger, au lieu d’aller trouver sa Maîtresse : ils condamnent des choses qu’ils devraient estimer, puisque la conduite de cet incident avec toutes les préparations nécessaires, fait voir que l’Auteur pense mûrement à ce qu’il fait, et que rien ne se peut égaler à la solidité de son esprit. Voilà quelle est ma pensée là-dessus, et pour vous montrer que les raisons que j’ai apportées sont vraies, vous n’avez qu’à lire ces vers.</stage>
+          </sp>
+          <sp who="lelie-seul" xml:id="I10-2">
+            <speaker>lélie <hi rend="i">seul</hi></speaker>
+            <l>Ah ! que viens-je d’entendre ?</l>
+            <l n="295">L’on me l’avait bien dit, et que c’était de tous</l>
+            <l>L’homme le plus mal fait qu’elle avait pour époux.</l>
+            <l>Ah ! quand mille serments de ta bouche infidèle</l>
+            <l>Ne m’auraient pas promis une flamme éternelle,</l>
+            <l>Le seul mépris d’un choix si bas et si honteux</l>
+            <l n="300">Devait bien soutenir l’intérêt de mes feux.</l>
+            <l>Ingrate, et quelque bien… mais le sensible outrage</l>
+            <l>Se mêlant aux travaux d’un assez long voyage,</l>
+            <l>Me donne tout à coup un choc si violent,</l>
+            <l>Que mon cœur devient faible, et mon corps chancelant.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I11">
+          <head>SCÈNE XI.</head>
+          <stage>LÉLIE, LA FEMME DE SGANARELLE.</stage>
+          <stage>Voyons si quelqu’un n’aura point de pitié de ce pauvre Amant qui tombe en faiblesse. La Femme de Sganarelle, en colère contre son mari de ce qu’il lui avait emporté ce bijou qu’elle avait trouvé, sort de chez elle, et voyant Lélie qui commençait à s’évanouir, le fait entrer dans la salle, en attendant que son mal se passe. Jugez, après les transports de la jalousie de Sganarelle, de l’effet que cet incident doit produire, et s’il fut jamais rien de mieux imaginé. Vous pourrez lire les vers de cette scène, cependant que j’irai voir si Sganarelle a trouvé quelqu’un des parents de sa Femme.</stage>
+          <sp who="la-femme-de-sganarelle" xml:id="I11-1">
+            <speaker>la femme de sganarelle, se tournant vers lélie</speaker>
+            <l n="305">Malgré moi mon perfide… hélas ! quel mal vous presse ?</l>
+            <l>Je vous vois prêt Monsieur à tomber en faiblesse.</l>
+          </sp>
+          <sp who="lelie" xml:id="I11-2">
+            <speaker>lélie</speaker>
+            <l>C’est un mal qui m’a pris assez subitement.</l>
+          </sp>
+          <sp who="la-femme-de-sganarelle" xml:id="I11-3">
+            <speaker>la femme de <hi rend="i">Sganarelle.</hi></speaker>
+            <l>Je crains ici, pour vous l’évanouissement,</l>
+            <l>Entrez dans cette salle en attendant qu’il passe.</l>
+          </sp>
+          <sp who="lelie" xml:id="I11-4">
+            <speaker>lélie</speaker>
+            <l n="310">Pour un moment ou deux, j’accepte cette grâce.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I12">
+          <head>SCÈNE XII.</head>
+          <stage>SGANARELLE ET LE PARENT DE SA FEMME.</stage>
+          <stage>Il faudrait avoir le pinceau de Poussin, le Brun, et Mignard, pour vous représenter avec quelle posture Sganarelle se fait admirer dans cette Scène, où il paraît avec un parent de sa femme. L’on n’a jamais vu tenir de discours si naïfs, ni paraître avec un visage si niais, et l’on ne doit pas moins admirer l’Auteur pour avoir fait cette Pièce, que pour la manière dont il la représente. Jamais personne ne sut si bien démonter son visage, et l’on peut dire que dedans cette Pièce, il en change plus de vingt fois ; mais comme c’est un divertissement que vous ne pouvez avoir, à moins que de venir à Paris, voir représenter cet incomparable ouvrage, je ne vous en dirai pas davantage, pour passer aux choses dont je puis plus aisément vous faire part. Ce bon Vieillard remontre à Sganarelle, que le trop de promptitude expose souvent à l’erreur, que tout ce qui regarde l’honneur est délicat : ensuite il lui dit qu’il s’informe mieux comment ce portrait est tombé entre les mains de sa femme, et que s’il se trouve qu’elle soit criminelle, il sera le premier à punir son offense. Il se retire après cela. Comme je n’ai pu dans cette Scène vous envoyer le portrait du visage de Sganarelle, en voici les Vers.</stage>
+          <sp who="le-parent" xml:id="I12-1">
+            <speaker>le parent</speaker>
+            <l>D’un mari sur ce point j’approuve le souci ;</l>
+            <l>Mais c’est prendre la chèvre un peu bien vite aussi,</l>
+            <l>Et tout ce que de vous je viens d’ouïr contre elle,</l>
+            <l>Ne conclut point parent, qu’elle soit criminelle ;</l>
+            <l n="315">C’est un point délicat et de pareils forfaits,</l>
+            <l>Sans les bien avérer ne s’imputent jamais.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I12-2">
+            <speaker>sganarelle</speaker>
+            <l>C’est-à-dire qu’il faut toucher au doigt la chose.</l>
+          </sp>
+          <sp who="le-parent" xml:id="I12-3">
+            <speaker>le parent</speaker>
+            <l>Le trop de promptitude à l’erreur nous expose.</l>
+            <l>Qui sait comme en ses mains ce portrait est venu,</l>
+            <l n="320">Et si l’homme après tout lui peut être connu.</l>
+            <l>Informez-vous-en donc, et si c’est ce qu’on pense,</l>
+            <l>Nous serons les premiers à punir son offense.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I13">
+          <head>SCÈNE XIII</head>
+          <stage>Sganarelle, pour ne point démentir son caractère, qui fait voir un homme facile à prendre toutes sortes d’impressions, croit facilement ce que le Bonhomme lui dit, et commence se persuader qu’il s’est trop tôt mis dans la tète des visions cornues, lorsque Lélie sortant de chez lui avec sa Femme qui le conduit, le fait de nouveau rentrer en jalousie. Les vers qu’il dit dans cette scène vous feront mieux voir son caractère que je ne vous l’ai dépeint.</stage>
+          <sp who="sganarelle-seul" xml:id="I13-1">
+            <speaker>sganarelle seul</speaker>
+            <stage>Sganarelle, pour ne point démentir son caractère, qui fait voir un homme facile à prendre toutes sortes d’impressions, croit facilement ce que le Bonhomme lui dit, et commence se persuader qu’il s’est trop tôt mis dans la tète des visions cornues, lorsque Lélie sortant de chez lui avec sa Femme qui le conduit, le fait de nouveau rentrer en jalousie. Les vers qu’il dit dans cette scène vous feront mieux voir son caractère que je ne vous l’ai dépeint.</stage>
+            <l>On ne peut pas mieux dire, en effet, il est bon</l>
+            <l>D’aller tout doucement. Peut-être sans raison,</l>
+            <l n="325">Me suis-je en tête mis ces visions cornues,</l>
+            <l>Et les sueurs au front m’en sont trop tôt venues.</l>
+            <l>Par ce portrait enfin dont je suis alarmé,</l>
+            <l>Mon déshonneur n’est pas tout à fait confirmé,</l>
+            <l>Tâchons donc par nos soins…</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I14">
+          <head>SCÈNE XIV.</head>
+          <stage>SGANARELLE, SA FEMME, LÉLIE, sur la porte de Sganarelle, en parlant à sa femme.</stage>
+          <stage>Je ne vous dis rien de cette Scène, et je vous laisse juger par ces vers de la surprise de Sganarelle.</stage>
+          <sp who="sganarelle-poursuit" xml:id="I14-1">
+            <speaker>sganarelle poursuit</speaker>
+            <l n="330">Ah ! que vois-je, je meure,</l>
+            <l>Il n’est plus question de portrait à cette heure,</l>
+            <l>Voici ma foi la chose en propre original.</l>
+          </sp>
+          <sp who="la-femme-de-sganarelle-a-lelie" xml:id="I14-2">
+            <speaker>la femme de sganarelle à lélie</speaker>
+            <l>C’est par trop vous hâter Monsieur, et votre mal,</l>
+            <l>Si vous sortez si tôt pourra bien vous reprendre.</l>
+          </sp>
+          <sp who="lelie" xml:id="I14-3">
+            <speaker>lélie</speaker>
+            <l>Non non, je vous rends grâce autant qu’on puisse rendre,</l>
+            <l n="335">De l’obligeant secours que vous m’avez prêté.</l>
+          </sp>
+          <sp who="sganarelle-a-part" xml:id="I14-4">
+            <speaker>sganarelle à part</speaker>
+            <l>La masque encore après lui fait civilité.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I15">
+          <head>SCÈNE XV.</head>
+          <stage>SGANARELLE, LÉLIE.</stage>
+          <stage>Lélie donne, sans y penser, le change à Sganarelle dans cette Scène, et ne le surprend pas moins que l’autre a tantôt fait, en lui disant qu’il tenait son portrait des mains de sa femme. Pour mieux juger de la surprise de Sganarelle, vous pouvez lire ces Vers, dont le dernier est placé si à propos, que jamais Pièce entière n’a fait tant d’éclat que ce vers seul.</stage>
+          <sp who="sganarelle-a-part" xml:id="I15-1">
+            <speaker>sganarelle à part</speaker>
+            <l>Il m’aperçoit, voyons ce qu’il me pourra dire.</l>
+          </sp>
+          <sp who="lelie-a-part" xml:id="I15-2">
+            <speaker>lélie à part</speaker>
+            <l>Ah ! mon âme s’émeut et cet objet m’inspire….</l>
+            <l>Mais je dois condamner cet injuste transport,</l>
+            <l n="340">Et n’imputer mes maux qu’aux rigueurs de mon sort.</l>
+            <l>Envions seulement le bonheur de sa flamme.</l>
+            <l>O ! trop heureux d’avoir une si belle femme.</l>
+            <stage>Passant auprès de lui et le regardant.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I16">
+          <head>SCÈNE XVI.</head>
+          <stage>SGANARELLE, CÉLIE, regardant par sa fenêtre aller Lélie.</stage>
+          <p>L’on peut dire que cette Scène en contient deux, puisque Sganarelle fait une espèce de Monologue, pendant que Célie, qui avait vu sortir son Amant d’avec lui, le conduit des yeux, jusqu’à ce qu’elle l’ait perdu de vue, pour voir, elle ne s’est point trompée. Sganarelle, de son côté, regarde aussi en aller Lélie, et fait voir le dépit qu’il a de ne lui avoir pas fait insulte, après l’assurance qu’il croit avoir d’être Cocu de lui. Célie lui ayant laissé jeter la plus grande partie de son feu, s’en approche pour lui demander si celui qui vient de parler ne lui est pas connu ; mais il lui répond avec sa naïveté ordinaire, que c’est sa femme qui le connaît et découvre peu à peu ; mais d’une manière tout à fait agréable, que Lélie le déshonore. C’est ici que l’équivoque divertit merveilleusement l’Auditeur, puisque Célie détestant la perfidie de son Amant, jetant feu et flammes contre lui, et sortant à dessein de s’en venger, Sganarelle croit qu’elle prend sa défense, et qu’elle ne court à dessein de le punir que pour l’amour de lui. Comme les vers de cette scène donnent à l’Auditeur un plaisir extraordinaire, il ne serait pas juste de vous priver de ce contentement, c’est pourquoi en jetant les yeux sur les lignes suivantes, vous pourrez connaître que l’Auteur sait parfaitement bien conduire un équivoque.</p>
+          <sp who="sganarelle-sans-voir-celie" xml:id="I16-1">
+            <speaker>sganarelle sans voir célie</speaker>
+            <l>Ce n’est point s’expliquer en termes ambigus,</l>
+            <l>Cet étrange propos me rend aussi confus</l>
+            <l n="345">Que s’il m’était venu des cornes à la tête.</l>
+            <l>Allez, ce procédé n’est point du tout honnête.</l>
+            <stage>Il se tourne du côté que Lélie s’en vient d’en aller.</stage>
+          </sp>
+          <sp who="celie-a-part" xml:id="I16-2">
+            <speaker>célie à part</speaker>
+            <l>Quoi, Lélie a paru tout à l’heure à mes yeux,</l>
+            <l>Qui pourrait me cacher son retour en ces lieux ?</l>
+          </sp>
+          <sp who="sganarelle-poursuit" xml:id="I16-3">
+            <speaker>sganarelle poursuit</speaker>
+            <l>O ! trop heureux, d’avoir une si belle femme,</l>
+            <l n="350">Malheureux bien plutôt de l’avoir, cette infâme,</l>
+            <l>Dont le coupable feu trop bien vérifié,</l>
+            <l>Sans respect ni demi nous a cocufié ;</l>
+            <stage>Célie approche peu à peu de lui, et attend que son transport soit fini pour lui parler.</stage>
+            <l>Mais je le laisse aller après un tel indice</l>
+            <l>Et demeure les bras croisés comme un Jocrisse.</l>
+            <l n="355">Ah ! je devais du moins lui jeter son chapeau,</l>
+            <l>Lui ruer quelque pierre, ou crotter son manteau,</l>
+            <l>Et sur lui hautement pour contenter ma rage</l>
+            <l>Faire au larron d’honneur crier le voisinage.</l>
+          </sp>
+          <sp who="celie" xml:id="I16-4">
+            <speaker>célie</speaker>
+            <l>Celui qui maintenant devers vous est venu</l>
+            <l n="360">Et qui vous a parlé, d’où vous est-il connu ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I16-5">
+            <speaker>sganarelle</speaker>
+            <l>Hélas ! ce n’est pas moi qui le connais Madame,</l>
+            <l>C’est ma femme.</l>
+          </sp>
+          <sp who="celie" xml:id="I16-6">
+            <speaker>célie</speaker>
+            <l>Quel trouble agite ainsi votre âme ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I16-7">
+            <speaker>sganarelle</speaker>
+            <l>Ne me condamnez point d’un deuil hors de saison,</l>
+            <l>Et laissez-moi pousser des soupirs à foison.</l>
+          </sp>
+          <sp who="celie" xml:id="I16-8">
+            <speaker>célie</speaker>
+            <l n="365">D’où vous peuvent venir ces douleurs non communes ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I16-9">
+            <speaker>sganarelle</speaker>
+            <l>Si je suis affligé, ce n’est pas pour des prunes,</l>
+            <l>Et je le donnerais à bien d’autre qu’à moi</l>
+            <l>De se voir sans chagrin au point où je me vois.</l>
+            <l>Des maris malheureux, vous voyez le modèle,</l>
+            <l n="370">On dérobe l’honneur au pauvre Sganarelle ;</l>
+            <l>Mais c’est peu que l’honneur dans mon affliction,</l>
+            <l>L’on me dérobe encor la réputation.</l>
+          </sp>
+          <sp who="celie" xml:id="I16-10">
+            <speaker>célie</speaker>
+            <l>Comment ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I16-11">
+            <speaker>sganarelle</speaker>
+            <l>Ce Damoiseau, parlant par révérence</l>
+            <l>Me fait cocu Madame, avec toute licence ;</l>
+            <l>Et j’ai su par mes yeux avérer aujourd’hui</l>
+            <l>Le commerce secret de ma femme et de lui.</l>
+          </sp>
+          <sp who="celie" xml:id="I16-12">
+            <speaker>célie</speaker>
+            <l>Celui qui maintenant…</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I16-13">
+            <speaker>sganarelle </speaker>
+            <l>Oui, oui, me déshonore,</l>
+            <l>Il adore ma femme, et ma femme l’adore.</l>
+          </sp>
+          <sp who="celie" xml:id="I16-14">
+            <speaker>célie</speaker>
+            <l>Ah ! j’avais bien jugé que ce secret retour</l>
+            <l n="380">Ne pouvait me couvrir que quelque lâche tour,</l>
+            <l>Et j’ai tremblé d’abord, en le voyant paraître,</l>
+            <l>Par un pressentiment de ce qui devait être.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I16-15">
+            <speaker>sganarelle</speaker>
+            <l>Vous prenez ma défense avec trop de bonté,</l>
+            <l>Tout le monde n’a pas la même charité</l>
+            <l n="385">Et plusieurs qui tantôt ont appris mon martyre,</l>
+            <l>Bien loin d’y prendre part, n’en ont rien fait que rire.</l>
+          </sp>
+          <sp who="celie" xml:id="I16-16">
+            <speaker>célie</speaker>
+            <l>Est-il rien de plus noir que ta lâche action,</l>
+            <l>Et peut-on lui trouver une punition ?</l>
+            <l>Dois-tu ne te pas croire indigne de la vie,</l>
+            <l n="390">Après t’être souillé de cette perfidie ?</l>
+            <l>Ô Ciel ! est-il possible ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I16-17">
+            <speaker>sganarelle</speaker>
+            <l>Il est trop vrai pour moi.</l>
+          </sp>
+          <sp who="celie" xml:id="I16-18">
+            <speaker>célie</speaker>
+            <l>Ah ! traître, scélérat, âme double et sans foi.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I16-19">
+            <speaker>sganarelle</speaker>
+            <l>La bonne âme.</l>
+          </sp>
+          <sp who="celie" xml:id="I16-20">
+            <speaker>célie</speaker>
+            <l>Non, non, l’Enfer n’a point de gêne</l>
+            <l>Qui ne soit pour ton crime une trop douce peine.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I16-21">
+            <speaker>sganarelle</speaker>
+            <l>Que voilà bien parler !</l>
+          </sp>
+          <sp who="celie" xml:id="I16-22">
+            <speaker>célie</speaker>
+            <l n="395">Avoir ainsi traité</l>
+            <l>Et la même innocence, et la même bonté.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I16-23">
+            <speaker>sganarelle</speaker>
+            <stage>. Il soupire haut. </stage>
+            <l>Hay.</l>
+          </sp>
+          <sp who="celie" xml:id="I16-24">
+            <speaker>célie</speaker>
+            <l>Un cœur, qui jamais n’a fait la moindre chose</l>
+            <l>A mérité l’affront où ton mépris l’expose ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I16-25">
+            <speaker>sganarelle</speaker>
+            <l>Il est vrai.</l>
+          </sp>
+          <sp who="celie" xml:id="I16-26">
+            <speaker>célie</speaker>
+            <l>Qui bien loin<hi rend="i">…</hi> Mais c’est trop, et ce cœur</l>
+            <l n="400">Ne saurait y songer sans mourir de douleur.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I16-27">
+            <speaker>sganarelle</speaker>
+            <l>Ne vous fâchez point tant ma très chère Madame,</l>
+            <l>Mon mal vous touche trop et vous me percez l’âme.</l>
+          </sp>
+          <sp who="celie" xml:id="I16-28">
+            <speaker>célie</speaker>
+            <l>Mais ne t’abuse pas jusqu’à te figurer</l>
+            <l>Qu’à des plaintes sans fruit j’en veuille demeurer,</l>
+            <l n="405">Mon cœur pour se venger sait ce qu’il te faut faire</l>
+            <l>Et j’y cours de ce pas, rien ne m’en peut distraire.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I17">
+          <head>SCÈNE XVII.</head>
+          <sp who="sganarelle-seul" xml:id="I17-1">
+            <speaker>sganarelle seul</speaker>
+            <stage>Si j’avais tantôt besoin de ces excellents Peintres que je vous ai nommés, pour vous dépeindre le visage de Sganarelle ; j’aurais maintenant besoin et de leur pinceau et de la plume des plus excellents Orateurs pour vous décrire cette Scène. Jamais il ne se vit rien de plus beau, jamais rien de mieux joué, et jamais Vers ne furent si généralement estimés. Sganarelle joue seul dans cette Scène, repassant dans son esprit tout ce que l’on peut dire d’un Cocu, et les raisons pour lesquelles il ne s’en doit pas mettre en peine, s’en démêle si bien, que son raisonnement pourrait en un besoin consoler ceux qui sont de ce nombre. Je vous envoie les Vers de cette Scène, afin que si vous connaissez quelqu’un à votre pays qui soit de la Confrérie dont Sganarelle se croit être, vous le puissiez par-là retirer de la mélancolie où il pourrait s’être plongé.</stage>
+            <p>SGANARELLE <hi rend="i">seul.</hi></p>
+            <l>Que le Ciel la préserve à jamais de danger.</l>
+            <l>Voyez quelle bonté de vouloir me venger :</l>
+            <l>En effet ; son courroux qu’excite ma disgrâce,</l>
+            <l n="410">M’enseigne hautement ce qu’il faut que je fasse,</l>
+            <l>Et l’on ne doit jamais souffrir sans dire mot</l>
+            <l>De semblables affronts à moins qu’être un vrai sot.</l>
+            <l>Courons donc le chercher ce pendard qui m’affronte,</l>
+            <l>Montrons notre courage à venger notre honte.</l>
+            <l n="415">Vous apprendrez, Maroufle, à rire à nos dépens,</l>
+            <l>Et sans aucun respect faire cocus les gens.</l>
+            <l>Doucement, s’il vous plaît, cet homme a bien la mine</l>
+            <stage>Il se retourne ayant fait trois ou quatre pas. </stage>
+            <l>D’avoir le sang bouillant et l’âme un peu mutine,</l>
+            <l>Il pourrait bien, mettant affront dessus affront</l>
+            <l n="420">Charger de bois mon dos, comme il a fait mon front.</l>
+            <l>Je hais de tout mon cœur les Esprits colériques,</l>
+            <l>Et porte grand amour aux hommes pacifiques :</l>
+            <l>Je ne suis point battant de peur d’être battu</l>
+            <l>Et l’humeur débonnaire est ma grande vertu.</l>
+            <l n="425">Mais mon honneur me dit que d’une telle offense</l>
+            <l>Il faut absolument que je prenne vengeance.</l>
+            <l>Ma foi laissons-le dire autant qu’il lui plaira,</l>
+            <l>Au diantre qui pourtant rien du tout en fera :</l>
+            <l>Quand j’aurai fait le brave, et qu’un fer pour ma peine</l>
+            <l n="430">M’aura d’un vilain coup transpercé la bedaine,</l>
+            <l>Que par la ville ira le bruit de mon trépas,</l>
+            <l>Dites-moi mon honneur en serez-vous plus gras ?</l>
+            <l>La Bière est un séjour par trop mélancolique</l>
+            <l>Et trop malsain pour ceux qui craignent la colique,</l>
+            <l n="435">Et quant à moi je trouve, ayant tout compassé,</l>
+            <l>Qu’il vaut mieux être encor Cocu que Trépassé :</l>
+            <l>Quel mal cela fait-il ? la jambe en devient-elle</l>
+            <l>Plus tortue après tout, et la taille moins belle ?</l>
+            <l>Peste soit qui premier trouva l’invention</l>
+            <l n="440">De s’affliger l’esprit de cette vision,</l>
+            <l>Et d’attacher l’honneur de 1’homme le plus sage</l>
+            <l>Aux choses que peut faire une femme volage ;</l>
+            <l>Puisqu’on tient à bon droit tout crime personnel,</l>
+            <l>Que fait là notre honneur pour être criminel ?</l>
+            <l n="445">Des actions d’autrui l’on nous donne le blâme.</l>
+            <l>Si nos femmes sans nous ont un commerce infâme,</l>
+            <l>Il faut que tout le mal tombe sur notre dos,</l>
+            <l>Elles font la sottise, et nous sommes les sots :</l>
+            <l>C’est un vilain abus, et les gens de Police</l>
+            <l n="450">Nous devraient bien régler une telle injustice.</l>
+            <l>N’avons-nous pas assez des autres accidents,</l>
+            <l>Qui nous viennent happer en dépit de nos dents,</l>
+            <l>Les querelles, procès, faim, soif, et maladie,</l>
+            <l>Troublent-ils pas assez le repos de la vie,</l>
+            <l n="455">Sans s’aller de surcroît aviser sottement,</l>
+            <l>De se faire un chagrin qui n’a nul fondement ?</l>
+            <l>Moquons-nous de cela, méprisons les alarmes</l>
+            <l>Et mettons sous nos pieds les soupirs et les larmes,</l>
+            <l>Si ma femme a failli, qu’elle pleure bien fort.</l>
+            <l n="460">Mais pourquoi moi pleurer puisque je n’ai point tort ?</l>
+            <l>En tout cas ce qui peut m’ôter ma fâcherie,</l>
+            <l>C’est que je ne suis pas seul de ma Confrérie,</l>
+            <l>Voir cajoler sa femme et n’en témoigner rien</l>
+            <l>Se pratique aujourd’hui par force gens de bien :</l>
+            <l n="465">N’allons donc point chercher à faire une querelle</l>
+            <l>Pour un affront qui n’est que pure bagatelle.</l>
+            <l>L’on m’appellera sot de ne me venger pas ;</l>
+            <l>Mais je le serais fort de courir au trépas.</l>
+            <l>Je me sens là, pourtant remuer une bile</l>
+            <stage>Mettant la main sur son estomac.</stage>
+            <l n="470">Qui veut me conseiller quelque action virile :</l>
+            <l>Oui le courroux me prend, c’est trop être poltron,</l>
+            <l>Je veux résolument me venger du Larron :</l>
+            <l>Déjà pour commencer dans l’ardeur qui m’enflamme,</l>
+            <l>Je vais dire partout qu’il couche avec ma femme.</l>
+            <stage>Avouez-moi maintenant la vérité, est-il pas vrai, Monsieur, que vous avez trouvé ces Vers tout à fait beaux, que vous vous ne vous êtes pu vous empêcher de les relire encore une fois, et que vous demeurez d’accord que Paris a eu raison de nommer cette scène, la belle Scène ?</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I18">
+          <head>SCÈNE XVIII.</head>
+          <stage>GORGIBUS, CÉLIE, LA SUIVANTE.</stage>
+          <stage>Célie n’ayant point trouvé de moyen plus propre pour punir son amant que d’épouser Valère, dit à son père qu’elle est prête de suivre en tout ses volontés, de quoi le bon vieillard témoigne être beaucoup satisfait, comme vous pouvez voir par ces Vers.</stage>
+          <sp who="celie" xml:id="I18-1">
+            <speaker>célie</speaker>
+            <l n="475">Oui, je veux bien subir une si juste Loi</l>
+            <l>Mon père, disposez de mes vœux et de moi,</l>
+            <l>Faites quand vous voudrez signer cette hyménée,</l>
+            <l>À suivre mon devoir je suis déterminée,</l>
+            <l>Je prétends gourmander mes propres sentiments</l>
+            <l n="480">Et me soumettre en tout à vos commandements.</l>
+          </sp>
+          <sp who="gorgibus" xml:id="I18-2">
+            <speaker>gorgibus </speaker>
+            <l>Ah ! voilà qui me plaît de parler de la sorte,</l>
+            <l>Parbleu, si grande joie à l’heure me transporte,</l>
+            <l>Que mes jambes sur l’heure en cabrioleraient</l>
+            <l>Si nous n’étions point vus de gens qui s’en riraient.</l>
+            <l n="485">Approche-toi de moi, viens çà que je t’embrasse :</l>
+            <l>Une belle action n’a pas mauvaise grace,</l>
+            <l>Un père, quand il veut peut sa fille baiser,</l>
+            <l>Sans que l’on ait sujet de s’en scandaliser.</l>
+            <l>Va, le contentement de te voir si bien née</l>
+            <l n="490">Me fera rajeunir de dix fois une année.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I19">
+          <head>SCÈNE XIX.</head>
+          <stage>CÉLIE, LA SUIVANTE.</stage>
+          <stage>Vous pourrez dans les cinq Vers qui suivent, apprendre tout le sujet de cette Scène.</stage>
+          <sp who="la-suivante" xml:id="I19-1">
+            <speaker>la suivante</speaker>
+            <l>Ce changement m’étonne.</l>
+          </sp>
+          <sp who="celie" xml:id="I19-2">
+            <speaker>célie</speaker>
+            <l>Et lorsque tu sauras</l>
+            <l>Par quel motif j’agis tu m’en estimeras.</l>
+          </sp>
+          <sp who="la-suivante" xml:id="I19-3">
+            <speaker>la suivante</speaker>
+            <l>Cela pourrait bien être.</l>
+          </sp>
+          <sp who="celie" xml:id="I19-4">
+            <speaker>célie</speaker>
+            <l>Apprends donc que Lélie,</l>
+            <l>A pu blesser mon cœur par une perfidie,</l>
+            <l>Qu’il était en ces lieux sans…</l>
+          </sp>
+          <sp who="la-suivante" xml:id="I19-5">
+            <speaker>la suivante</speaker>
+            <l>Mais il vient à nous.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I20">
+          <head>SCÈNE XX.</head>
+          <stage>LÉLIE, CÉLIE, LA SUIVANTE.</stage>
+          <stage>Dans cette Scène, Lélie qui avait fait dessein de s’en retourner, vient trouver Célie, pour lui dire un éternel adieu, et se plaindre de son infidélité, dans la pensée qu’il a, qu’elle est mariée à Sganarelle ; lorsque Célie, qui croit avoir plus de lieu de se plaindre que lui, lui reproche de son côté sa perfidie, ce qui ne donne pas un médiocre contentement à l’auditeur, qui connaît l’innocence de l’un et de l’autre, et comme vous la connaissez aussi, je crois que ces vers vous pourront divertir.</stage>
+          <sp who="lelie" xml:id="I20-1">
+            <speaker>lélie</speaker>
+            <l>Avant que pour jamais je m’éloigne de vous ;</l>
+            <l>Je veux vous reprocher au moins en cette place…</l>
+          </sp>
+          <sp who="celie" xml:id="I20-2">
+            <speaker>célie</speaker>
+            <l>Quoi me parler encore, avez-vous cette audace ?</l>
+          </sp>
+          <sp who="lelie" xml:id="I20-3">
+            <speaker>lélie</speaker>
+            <l>Il est vrai qu’elle est grande et votre choix est tel</l>
+            <l n="500">Qu’à vous rien reprocher je serais criminel,</l>
+            <l>Vivez, vivez contente et bravez ma mémoire</l>
+            <l>Avec le digne Époux qui vous comble de gloire.</l>
+          </sp>
+          <sp who="celie" xml:id="I20-4">
+            <speaker>célie</speaker>
+            <l>Oui traître j’y veux vivre, et mon plus grand désir</l>
+            <l>Ce serait que ton cœur en eût du déplaisir.</l>
+          </sp>
+          <sp who="lelie" xml:id="I20-5">
+            <speaker>lélie</speaker>
+            <l n="505">Qui rend donc contre moi ce courroux légitime ?</l>
+          </sp>
+          <sp who="celie" xml:id="I20-6">
+            <speaker>célie</speaker>
+            <l>Quoi tu fais le surpris, et demandes ton crime ?</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I21">
+          <head>SCÈNE XXI.</head>
+          <stage>CÉLIE, LÉLIE, SGANARELLE, LA SUIVANTE.</stage>
+          <stage>Sganarelle, qui comme vous avez vu dans la fin de la belle Scène (puisqu’elle n’a point à présent d’autre nom dans Paris) a pris résolution de se venger de Lélie, vient pour cet effet dans cette Scène, armé de toutes pièces; et comme il ne se l’aperçoit pas d’abord, il ne lui promet pas moins que la mort dès qu’il le rencontrera. Mais comme il est de ceux qui n’exterminent leurs ennemis que quand ils sont absents, aussitôt qu’il aperçoit Lélie, bien loin de lui passer l’épée au travers du corps, il ne lui fait que des révérences, et puis se retirant à quartier, il s’excite à faire quelque effort généreux et à le tuer par-derrière : et se mettant après en colère contre lui-même de ce que sa poltronnerie ne lui permet pas seulement de le regarder entre deux yeux, il se punit lui-même de sa lâcheté, par les coups et les soufflets qu’il se donne, et l’on peut dire, que quoique bien souvent l’on ait vu des Scènes semblables, Sganarelle sait si bien animer cette action, qu’elle paraît nouvelle au Théâtre. Cependant que Sganarelle se tourmente ainsi lui-même, Célie et son Amant n’ont pas moins d’inquiétude que lui, et ne se reprochent que par des regards enflammés de courroux, leur infidélité imaginaire, la colère, quand elle est montée jusqu’à l’excès, ne nous laissant pour l’ordinaire que le pouvoir de dire peu de paroles. Célie est la première qui à la vue de Sganarelle, dit à son Amant de jeter les yeux sur lui, et qu’il verra de quoi le faire ressouvenir de son crime ; mais comment y trouverait-il de quoi le confondre, puisque c’est par-là qu’il prétend la confondre elle-même : Il se passe encore quantité de choses dans cette Scène, qui confirment les soupçons de l’un et de l’autre; mais de peur de vous ennuyer trop longtemps par ma Prose, j’ai recours aux Vers que voici pour vous les expliquer.</stage>
+          <sp who="sganarelle-entre-arme" xml:id="I21-1">
+            <speaker> sganarelle entre armé</speaker>
+            <l>Guerre, guerre mortelle, à ce larron d’honneur,</l>
+            <l>Qui sans miséricorde a souillé notre honneur.</l>
+          </sp>
+          <sp who="celie-a-lelie" xml:id="I21-2">
+            <speaker>célie à <hi rend="i">LÉLIE</hi></speaker>
+            <l>Tourne ? tourne les yeux ? sans me faire répondre.</l>
+          </sp>
+          <sp who="lelie" xml:id="I21-3">
+            <speaker>lélie</speaker>
+            <l>Ah ! je vois…</l>
+          </sp>
+          <sp who="celie" xml:id="I21-4">
+            <speaker>célie</speaker>
+            <l n="510">Cet objet suffit pour te confondre.</l>
+          </sp>
+          <sp who="lelie" xml:id="I21-5">
+            <speaker>lélie</speaker>
+            <l>Mais pour vous obliger bien plutôt à rougir.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I21-6">
+            <speaker>sganarelle</speaker>
+            <l>Ma colère à présent est en état d’agir,</l>
+            <l>Dessus ses grands chevaux est monté mon courage</l>
+            <l>Et si je le rencontre on verra du carnage :</l>
+            <l n="515">Oui j’ai juré sa mort, rien ne peut m’empêcher</l>
+            <l>Où je le trouverai, je le veux dépêcher,</l>
+            <l>Au beau milieu du cœur il faut que je lui donne …</l>
+          </sp>
+          <sp who="lelie" xml:id="I21-7">
+            <speaker>lélie</speaker>
+            <l>À qui donc en veut-on ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I21-8">
+            <speaker>sganarelle</speaker>
+            <l>Je n’en veux à personne.</l>
+          </sp>
+          <sp who="lelie" xml:id="I21-9">
+            <speaker>lélie</speaker>
+            <l>Pourquoi ces armes-là ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I21-10">
+            <speaker>sganarelle</speaker>
+            <l>C’est un habillement</l>
+            <l n="520">Que j’ai pris pour la pluie. <hi rend="i">À part</hi>, Ah ! quel contentement</l>
+            <l>J’aurais à le tuer, prenons-en le courage.</l>
+          </sp>
+          <sp who="lelie" xml:id="I21-11">
+            <speaker>lélie</speaker>
+            <l>Hay ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I21-12">
+            <speaker>sganarelle </speaker>
+            <stage>Se donnant des coups de poings sur l’estomac, et des soufflets pour s’exciter.</stage>
+            <l>Je ne parle pas.</l>
+            <stage>À part.</stage>
+            <l>Ah ! poltron dont j’enrage,</l>
+            <l>Lâche, vrai cœur de poule.</l>
+          </sp>
+          <sp who="celie" xml:id="I21-13">
+            <speaker>célie</speaker>
+            <l>Il t’en doit dire assez</l>
+            <l>Cet objet, dont tes yeux nous paraissent blessés.</l>
+          </sp>
+          <sp who="lelie" xml:id="I21-14">
+            <speaker>lélie</speaker>
+            <l n="525">Oui, je connais par là que vous êtes coupable</l>
+            <l>De l’infidélité la plus inexcusable,</l>
+            <l>Qui jamais d’un amant puisse outrager la foi.</l>
+          </sp>
+          <sp who="sganarelle-a-part" xml:id="I21-15">
+            <speaker>sganarelle à part</speaker>
+            <l>Que n’ai-je un peu de cœur.</l>
+          </sp>
+          <sp who="celie" xml:id="I21-16">
+            <speaker>célie</speaker>
+            <l>Ah ! cesse devant moi</l>
+            <l>Traître, de ce discours l’insolence cruelle.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I21-17">
+            <speaker>sganarelle</speaker>
+            <l n="530">Sganarelle, tu vois qu’elle prend ta querelle,</l>
+            <l>Courage mon enfant, sois un peu vigoureux,</l>
+            <l>Là, hardi, tâche à faire un effort généreux,</l>
+            <l>En le tuant, tandis qu’il tourne le derrière.</l>
+          </sp>
+          <sp who="lelie-faisant-deux-ou-trois-pas-sans-dessein" xml:id="I21-18">
+            <speaker>lélie faisant deux ou trois pas sans dessein, fait retourner sganarelle qui s’approchait pour le tuer</speaker>
+            <l>Puisqu’un pareil discours émeut votre colère,</l>
+            <l n="535">Je dois de votre cœur me montrer satisfait,</l>
+            <l>Et l’applaudir ici du beau choix qu’il a fait.</l>
+          </sp>
+          <sp who="celie" xml:id="I21-19">
+            <speaker>célie</speaker>
+            <l>Oui oui, mon choix est tel qu’on n’y peut rien reprendre.</l>
+          </sp>
+          <sp who="lelie" xml:id="I21-20">
+            <speaker>lélie</speaker>
+            <l>Allez, vous faites bien de le vouloir défendre.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I21-21">
+            <speaker>sganarelle</speaker>
+            <l>Sans doute elle fait bien de défendre mes droits !</l>
+            <l n="540">Cette action Monsieur, n’est point selon les lois,</l>
+            <l>J’ai raison de m’en plaindre, et si je n’étais sage,</l>
+            <l>On verrait arriver un étrange carnage.</l>
+          </sp>
+          <sp who="lelie" xml:id="I21-22">
+            <speaker>lélie</speaker>
+            <l>D’où vous naît cette plainte ? et quel chagrin brutal…</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I21-23">
+            <speaker>sganarelle</speaker>
+            <l>Suffit, vous savez bien où le bât me fait mal ;</l>
+            <l n="545">Mais votre conscience et le soin de votre âme</l>
+            <l>Vous devraient mettre aux yeux que ma femme, est ma femme,</l>
+            <l>Et vouloir à ma barbe en faire votre bien,</l>
+            <l>Que ce n’est pas du tout agir en bon Chrétien.</l>
+          </sp>
+          <sp who="lelie" xml:id="I21-24">
+            <speaker>lélie</speaker>
+            <l>Un semblable soupçon est bas et ridicule,</l>
+            <l n="550">Allez, dessus ce point n’ayez aucun scrupule,</l>
+            <l>Je sais qu’elle est à vous, et bien loin de brûler…</l>
+          </sp>
+          <sp who="celie" xml:id="I21-25">
+            <speaker>célie</speaker>
+            <l>Ah qu’ici si tu sais bien traître, dissimuler !</l>
+          </sp>
+          <sp who="lelie" xml:id="I21-26">
+            <speaker>lélie</speaker>
+            <l>Quoi me soupçonnez-vous d’avoir une pensée</l>
+            <l>Dont son âme ait lieu de se croire offensée ?</l>
+            <l n="555">De cette lâcheté voulez-vous me noircir ?</l>
+          </sp>
+          <sp who="celie" xml:id="I21-27">
+            <speaker>célie</speaker>
+            <l>Parle, parle à lui-même, il pourra t’éclaircir.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I21-28">
+            <speaker>sganarelle</speaker>
+            <l>Vous me défendez mieux que je ne saurais faire,</l>
+            <l>Et du biais qu’il faut vous prenez cette affaire.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I22">
+          <head>SCÈNE XXII.</head>
+          <stage>CÉLIE, LÉLIE, SGANARELLE, SA FEMME, LA SUIVANTE.</stage>
+          <stage>Dans la quatrième Scène de cette pièce, la femme de Sganarelle, qui avait pris de la jalousie en voyant Célie entre les bras de son mari, vient pour lui faire des reproches (ce qui fait voir la merveilleuse conduite de cet ouvrage). Jugez de la beauté qu’un agréable malentendu produit dans cette Scène. Sganarelle croit que sa femme vient pour défendre son galant, sa femme croit qu’il aime Célie, Célie croit qu’elle vient ingénument se plaindre d’elle à cause qu’elle est avec Lélie, et lui en fait des reproches; et Lélie enfin ne sait ce qu’on lui vient conter, et croit toujours que Célie a épousé Sganarelle. Quoique cette scène donne un plaisir incroyable à l’auditeur, elle ne peut pas durer plus longtemps sans trop de confusion, et je gage que vous souhaitez déjà de voir comment toutes ces personnes sortiront de l’embarras où ils se rencontrent; mais je vous le donnerais bien à deviner en quatre coups, sans que vous en puissiez venir à bout. Peut-être vous persuadez-vous qu’il va venir quelqu’un qui sans y penser lui-même, les tirera de leur erreur : peut-être croyez vous aussi qu’à force de s’animer les uns contre les autres, quelqu’un venant à se justifier, leur fera voir à tous qu’ils s’abusent ; Mais ce n’est point tout cela, et l’Auteur s’est servi d’un moyen dont personne ne s’est jamais avisé, et que vous pourrez savoir si vous lisez les vers de cette Scène.</stage>
+          <sp who="la-femme-de-sganarelle-a-celie" xml:id="I22-1">
+            <speaker>la femme de sganarelle <hi rend="i">à Célie.</hi></speaker>
+            <l>Je ne suis point d’humeur à vouloir contre vous</l>
+            <l n="560">Faire éclater Madame, un esprit trop jaloux ;</l>
+            <l>Mais je ne suis point dupe, et vois ce qui se passe :</l>
+            <l>Il est de certains feux de fort mauvaise grâce,</l>
+            <l>Et votre âme devrait prendre un meilleur emploi,</l>
+            <l>Que de séduire un cœur qui doit n’être qu’à moi.</l>
+          </sp>
+          <sp who="celie" xml:id="I22-2">
+            <speaker>célie</speaker>
+            <l n="565">La déclaration est assez ingénue.</l>
+          </sp>
+          <sp who="sganarelle-a-sa-femme" xml:id="I22-3">
+            <speaker>sganarelle à sa femme</speaker>
+            <l>L’on ne demandait pas carogne ta venue,</l>
+            <l>Tu la viens quereller lorsqu’elle me défend,</l>
+            <l>Et tu trembles de peur qu’on t’ôte ton galant.</l>
+          </sp>
+          <sp who="celie" xml:id="I22-4">
+            <speaker>célie, <hi rend="b"/><hi rend="i">se tournant vers Lélie</hi></speaker>
+            <l>Allez, ne croyez pas que l’on en ait envie.</l>
+            <l n="570">Tu vois si c’est mensonge, et j’en suis fort ravie.</l>
+          </sp>
+          <sp who="lelie" xml:id="I22-5">
+            <speaker>lélie</speaker>
+            <l>Que me veut‑on conter ?</l>
+          </sp>
+          <sp who="la-suivante" xml:id="I22-6">
+            <speaker>la suivante</speaker>
+            <l>Ma foi je ne sais pas.</l>
+            <l>Quand on verra finir ce galimatias,</l>
+            <l>Déjà depuis longtemps je tâche à le comprendre,</l>
+            <l>Si plus je l’écoute, et moins je puis l’entendre,</l>
+            <l n="575">Je vois bien à la fin que je m’en dois mêler.</l>
+            <stage>Allant se mettre entre Lélie et sa maîtresse.</stage>
+            <l>Répondez-moi par ordre et me laissez parler.</l>
+            <stage>à Lélie.</stage>
+            <l>Vous, qu’est-ce qu’à son cœur peut reprocher le vôtre ?</l>
+          </sp>
+          <sp who="lelie" xml:id="I22-7">
+            <speaker>lélie</speaker>
+            <l>Que l’infidèle a pu me quitter pour un autre :</l>
+            <l>Et que lorsque sur le bruit de son Hymen fatal,</l>
+            <l n="580">J’accours tout transporté d’un amour sans égal,</l>
+            <l>Dont l’ardeur résistait à se croire oubliée,</l>
+            <l>Mon abord en ces lieux la trouve mariée.</l>
+          </sp>
+          <sp who="la-suivante" xml:id="I22-8">
+            <speaker>la suivante </speaker>
+            <l>Mariée, à qui donc ?</l>
+          </sp>
+          <sp who="lelie-montrant-sganarelle" xml:id="I22-9">
+            <speaker>lélie montrant sganarelle</speaker>
+            <l>À lui.</l>
+          </sp>
+          <sp who="la-suivante" xml:id="I22-10">
+            <speaker>la suivante</speaker>
+            <l>Comment à lui ?</l>
+          </sp>
+          <sp who="lelie" xml:id="I22-11">
+            <speaker>lélie</speaker>
+            <l>Oui-dà.</l>
+          </sp>
+          <sp who="la-suivante" xml:id="I22-12">
+            <speaker>la suivante</speaker>
+            <l>Qui vous l’a dit ?</l>
+          </sp>
+          <sp who="lelie" xml:id="I22-13">
+            <speaker>lélie</speaker>
+            <l>C’est lui-même, aujourd’hui.</l>
+          </sp>
+          <sp who="la-suivante-a-sganarelle" xml:id="I22-14">
+            <speaker>la suivante à sganarelle</speaker>
+            <l>Est-il vrai ?</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I22-15">
+            <speaker>sganarelle</speaker>
+            <l n="585">Moi, j’ai dit que c’était à ma femme</l>
+            <l>Que j’étais marié.</l>
+          </sp>
+          <sp who="lelie" xml:id="I22-16">
+            <speaker>lélie</speaker>
+            <l>Dans un grand trouble d’âme,</l>
+            <l>Tantôt de mon portrait je vous ai vu saisi.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I22-17">
+            <speaker>sganarelle</speaker>
+            <l>Il est vrai, le voilà.</l>
+          </sp>
+          <sp who="lelie" xml:id="I22-18">
+            <speaker>lélie</speaker>
+            <l>Vous m’avez dit aussi,</l>
+            <l>Que celle aux mains de qui vous aviez pris ce gage,</l>
+            <l n="590">Était liée à vous des nœuds du mariage.</l>
+            <stage>SGANARELLE montrant sa femme.</stage>
+            <l>Sans doute, et je l’avais de ses mains arraché,</l>
+            <l>Et n’eusse pas sans lui découvert son péché.</l>
+          </sp>
+          <sp who="la-femme-de-sganarelle" xml:id="I22-19">
+            <speaker>la femme de sganarelle</speaker>
+            <l>Que me viens-tu conter par ta plainte importune ?</l>
+            <l>Je l’avais sous mes pieds rencontré par fortune,</l>
+            <l n="595">Et même quand après ton injuste courroux</l>
+            <l>J’ai fait, dans sa faiblesse entrer Monsieur chez nous,</l>
+            <stage>Montrant Lélie.</stage>
+            <l>Je n’ai pas reconnu les traits de sa peinture.</l>
+          </sp>
+          <sp who="celie" xml:id="I22-20">
+            <speaker>célie</speaker>
+            <l>C’est moi qui du portrait ai causé l’aventure</l>
+            <l>Et je l’ai laissé choir en cette pâmoison.</l>
+            <stage>À Sganarelle.</stage>
+            <l n="600">Qui m’a fait par vos soins remettre à la maison.</l>
+          </sp>
+          <sp who="la-suivante" xml:id="I22-21">
+            <speaker>la suivante</speaker>
+            <l>Vous voyez que sans moi vous y seriez encore,</l>
+            <l>Et vous aviez besoin de mon peu d’Ellébore.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I22-22">
+            <speaker>sganarelle</speaker>
+            <l>Prendrons-nous tout ceci pour de l’argent comptant :</l>
+            <l>Mon front l’a sur mon âme eu bien chaude pourtant ?</l>
+          </sp>
+          <sp who="sa-femme" xml:id="I22-23">
+            <speaker>sa femme </speaker>
+            <l n="605">Ma crainte toutefois n’est pas trop dissipée</l>
+            <l>Et doux que soit le mal, je crains d’être trompée.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I22-24">
+            <speaker>sganarelle </speaker>
+            <l>Hé ! mutuellement croyons-nous gens de bien,</l>
+            <l>Je risque plus du mien que tu ne fais du tien :</l>
+            <l>Accepte sans façon le marché qu’on propose.</l>
+          </sp>
+          <sp who="sa-femme" xml:id="I22-25">
+            <speaker>sa femme</speaker>
+            <l n="610">Soit, mais gare le bois si j’apprends quelque chose.</l>
+          </sp>
+          <sp who="celie" xml:id="I22-26">
+            <speaker>célie </speaker>
+            <stage>à Lélie, après avoir parlé bas ensemble.</stage>
+            <l>Ah ! Dieux ! s’il est ainsi, qu’est-ce donc que j’ ai fait ?</l>
+            <l>Je dois de mon courroux appréhender l’effet :</l>
+            <l>Oui, vous croyant sans foi, j’ai pris pour ma vengeance.</l>
+            <l>Le malheureux secours de mon obéissance ;</l>
+            <l n="615">Et depuis un moment mon cœur vient d’accepter</l>
+            <l>Un hymen que toujours j’eus lieu de rebuter,</l>
+            <l>J’ai promis à mon père , et ce qui me désole…</l>
+            <l>Mais je le vois venir.</l>
+          </sp>
+          <sp who="lelie" xml:id="I22-27">
+            <speaker>lélie</speaker>
+            <l>Il me tiendra parole.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I23">
+          <head>SCÈNE XXIII.</head>
+          <stage>Lélie, dans cette Scène, demande l’effet de sa parole à Gorgibus. Gorgibus lui refuse sa fille, et Célie ne se résout qu’à peine d’obéir à son père, comme vous pouvez voir en lisant.</stage>
+          <stage>CÉLIE, LÉLIE, GORGIBUS, SGANARELLE, SA FEMME,  LA SUIVANTE</stage>
+          <sp who="lelie" xml:id="I23-1">
+            <speaker>lélie</speaker>
+            <l>Monsieur, vous me voyez en ces lieux de retour</l>
+            <l n="620">Brûlant des mêmes feux, et mon ardente amour</l>
+            <l>Verra comme je crois la promesse accomplie</l>
+            <l>Qui me donna l’espoir de l’hymen de Célie.</l>
+          </sp>
+          <sp who="gorgibus" xml:id="I23-2">
+            <speaker>gorgibus </speaker>
+            <l>Monsieur, que je revois en ces lieux de retour</l>
+            <l>Brûlant des mêmes feux, et dont l’ardente amour</l>
+            <l n="625">Verra que vous croyez la promesse accomplie</l>
+            <l>Qui vous donna l’espoir de l’hymen de Célie,</l>
+            <l>Très humble Serviteur à Votre Seigneurie.</l>
+          </sp>
+          <sp who="lelie" xml:id="I23-3">
+            <speaker>lélie</speaker>
+            <l>Quoi ? Monsieur, est-ce ainsi qu’on trahit mon espoir ?</l>
+          </sp>
+          <sp who="gorgibus" xml:id="I23-4">
+            <speaker>gorgibus</speaker>
+            <l>Oui, Monsieur, c’est ainsi que je fais mon devoir,</l>
+            <l>Ma fille en suit les lois.</l>
+          </sp>
+          <sp who="celie" xml:id="I23-5">
+            <speaker>célie</speaker>
+            <l n="630">Mon devoir m’intéresse,</l>
+            <l>Mon père à dégager vers lui votre promesse.</l>
+          </sp>
+          <sp who="gorgibus" xml:id="I23-6">
+            <speaker>gorgibus</speaker>
+            <l>Est-ce répondre en fille à mes commandements ?</l>
+            <l>Tu te démens bien tôt de tes bons sentiments,</l>
+            <l>Pour Valère tantôt… mais j’aperçois son père,</l>
+            <l n="635">Il vient assurément pour conclure l’affaire.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="I24">
+          <head>SCÈNE DERNIÈRE</head>
+          <stage>CÉLIE, LÉLIE, GORGIBUS, SGANARELLE, SA FEMME, VILLEBREQUIN, LA SUIVANTE.</stage>
+          <stage>La joie que Célie avait eue en apprenant que son amant ne lui était pas infidèle, eût été de courte durée, si le père de Valère ne fut pas venu à temps pour les retirer tous deux de peine. Vous pourrez voir dans le reste des vers de cette Pièce, que voici le sujet qui le fait venir.</stage>
+          <sp who="gorgibus" xml:id="I24-1">
+            <speaker>gorgibus</speaker>
+            <l>Qui vous amène ici, seigneur Villebrequin,</l>
+          </sp>
+          <sp who="villebrequin" xml:id="I24-2">
+            <speaker>villebrequin</speaker>
+            <l>Un secret important, que j’ai su ce matin,</l>
+            <l>Qui rompt absolument ma parole donnée.</l>
+            <l>Mon fils, dont votre fille acceptait l’hyménée,</l>
+            <l n="640">Sous des liens cachés trompant les yeux de tous,</l>
+            <l>Vit depuis quatre mois avec Lise en Époux,</l>
+            <l>Et comme des parents le bien et la naissance</l>
+            <l>M’ôtent tout le pouvoir d’en casser l’alliance,</l>
+            <l>Je vous viens…</l>
+          </sp>
+          <sp who="gorgibus" xml:id="I24-3">
+            <speaker>gorgibus</speaker>
+            <l>Brisons là, si sans votre congé,</l>
+            <l n="645">Valère votre fils ailleurs s’est engagé,</l>
+            <l>Je ne vous puis celer que ma fille Célie,</l>
+            <l>Dès longtemps par moi-même est promise à Lélie,</l>
+            <l>Et que riche en vertus son retour aujourd’hui</l>
+            <l>M’empêche d’agréer un autre Époux que lui.</l>
+          </sp>
+          <sp who="villebrequin" xml:id="I24-4">
+            <speaker>villebrequin</speaker>
+            <l>Un tel choix me plaît fort.</l>
+          </sp>
+          <sp who="lelie" xml:id="I24-5">
+            <speaker>lélie</speaker>
+            <l n="650">Et cette juste envie,</l>
+            <l>D’un bonheur éternel va couronner ma vie.</l>
+          </sp>
+          <sp who="gorgibus" xml:id="I24-6">
+            <speaker>gorgibus</speaker>
+            <l>Allons choisir le jour pour se donner la foi.</l>
+          </sp>
+          <sp who="sganarelle" xml:id="I24-7">
+            <speaker>sganarelle</speaker>
+            <l>A-t-on mieux cru jamais être cocu que moi.</l>
+            <l>Vous croyez qu’en ce fait la plus forte apparence</l>
+            <l n="655">Peut jeter dans l’esprit une fausse créance :</l>
+            <l>De cet exemple-ci, ressouvenez-vous bien,</l>
+            <p>Et quand vous verriez tout ne croyez jamais rien.</p>
+            <stage> Sans mentir, Monsieur, vous me devez bien être obligé de tant de belles choses que je vous envoie, et tous les melons de votre jardin ne sont pas suffisants pour me payer la peine d’avoir retenu pour l’amour de vous toute cette Pièce par cœur ; mais j’oubliais de vous dire une chose à l’avantage de son Auteur, qui est que comme je n’ai eu cette Pièce que je vous envoie que par effort de mémoire, il peut s’y être coulé quantité de mots les uns pour les autres, bien qu’ils signifient la même chose ; et comme ceux de l’Auteur peuvent être plus significatifs, je vous prie de m’imputer toutes les fautes de cette nature que vous y trouverez ; et je vous conjure avec tous les curieux de France de venir voir représenter cette pièce comme un des plus beaux Ouvrages, et un des mieux joués qui ait jamais paru sur la Scène.</stage>
+          </sp>
+          <label>FIN</label>
+        </div2>
+      </div1>
+    </body>
+    <back>
+      <div type="titre1"><head>Extrait du Privilège du Roy</head><p>Par grâce &amp; Privilège du Roy, donné à Paris le 26. Juillet. [1660] signé, par le Roy en son Conseil, LABORY : il est permis au Sieur DE MOLIER de faire imprimer par tel imprimeur et Libraire qu’il voudra, une Comédie intitulée <hi rend="i">Sganarelle ou le Cocu Imaginaire</hi> , avec les Arguments sur chaque Scène, pendant l’espace de cinq ans, et défenses sont faites à tous autres de l’imprimer ny vendre d’autre Édition que celle de l’Exposant, à peine de quinze cent livr. d’amende, et de tous dépens, dommages, intérêts, comme il est porté plus amplement par lesdites Lettres.</p><p>Et ledit Sieur MOLIER, a cédé ses droits de Privilège à GUILLAUME de LUYNE, Marchand-Libraire Juré à Paris, pour en jouir suivant l’accord fait entre eux. Et ledit DE LUYNE en a fait part à ESTIENNE LOYSON, aussi MARCHAND LIBRAIRE, pour en jouir conjointement.</p><p>Enregistré sur le LIVRE de la Communauté, suivant l’Arrêt de la Cour.</p><p>JOSSE Syndic.</p><p>Achevé d’imprimer le 12 Août 1660.</p></div>
+    </back>
+  </text>
+</TEI>
