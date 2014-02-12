@@ -207,10 +207,18 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
         </optional>
         <choice>
           <zeroOrMore>
-            <ref name="div"/>
+            <choice>
+              <ref name="div"/>
+              <ref name="castList"/>
+              <ref name="prologue"/>
+            </choice>
           </zeroOrMore>
           <zeroOrMore>
-            <ref name="div1"/>
+            <choice>
+              <ref name="div1"/>
+              <ref name="castList"/>
+              <ref name="prologue"/>
+            </choice>
           </zeroOrMore>
         </choice>
         <zeroOrMore>
@@ -715,6 +723,8 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
         <a:example href="teibook.xml#ab"/>
         <attribute name="type">
           <choice>
+            <value>hr</value>
+            <a:documentation>Ligne horizontale</a:documentation>
             <value>ornament</value>
             <a:documentation>Ornements, avec parfois le sens d'un séparateur entre deux sections, couillards et autres culs de lampe</a:documentation>
           </choice>
@@ -792,7 +802,9 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
     <define name="sp">
       <element name="sp">
         <a:documentation>Théâtre : tirade, tour de parole</a:documentation>
-        <attribute name="who"/>
+        <attribute name="who">
+          <data type="IDREFS"/>
+        </attribute>       
         <ref name="xml-atts"/>
         <optional>
           <element name="speaker">
@@ -808,6 +820,7 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
               <ref name="lg"/>
               <ref name="l"/>
               <ref name="stage"/>
+              <ref name="quote-p"/>
             </choice>
           </oneOrMore>
         </optional>
@@ -988,14 +1001,20 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
         <oneOrMore>
           <element name="castItem">
             <ref name="xml-atts"/>
-            <element name="role">
-              <ref name="textual"/>
-            </element>
-            <optional>
-              <element name="roleDesc">
-                <ref name="flow"/>
-              </element>
-            </optional>
+            <zeroOrMore>
+              <choice>
+                <text/>
+                <element name="role">
+                  <ref name="textual"/>
+                </element>
+                <element name="actor">
+                  <ref name="textual"/>
+                </element>
+                <element name="roleDesc">
+                  <ref name="flow"/>
+                </element>
+              </choice>
+            </zeroOrMore>
           </element>
         </oneOrMore>
       </element>
@@ -1130,6 +1149,19 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
         <optional>
           <attribute name="ana"/>
         </optional>
+        <ref name="xml-atts"/>
+        <ref name="rendering.figure"/>
+        <optional>
+          <ref name="head"/>
+        </optional>
+        <zeroOrMore>
+          <ref name="block"/>
+        </zeroOrMore>
+      </element>
+    </define>
+    <define name="prologue">
+      <element name="prologue">
+        <a:documentation>Début d’une pièce de théâtre, contient des blocs</a:documentation>
         <ref name="xml-atts"/>
         <ref name="rendering.figure"/>
         <optional>
