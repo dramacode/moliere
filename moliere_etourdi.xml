@@ -31,38 +31,44 @@
   <text>
     <front>
       <docTitle>
-        <titlePart type="main">L'ÉTOURDI</titlePart>
-        <titlePart type="sub">ou LES CONTRE-TEMPS</titlePart>
+        <titlePart type="main">L'ÉTOURDI <lb/>OU LES CONTRETEMPS,</titlePart>
         <titlePart type="sub">COMÉDIE</titlePart>
       </docTitle>
-      <docDate value="1655">M. DC LV.</docDate>
-      <docAuthor id="MOLIERE" bio="moliere">MOLIÈRE</docAuthor>
-      <docImprint>
-        <privilege id="16**-**-**"/>
-        <acheveImprime id="16**-**-**"/>
-        <printer id=""/>
-      </docImprint>
       <performance>
-			<premiere date="1658-11" location="Théâtre du Petit-Bourbon">Représenté pour la première fois en novembre 1658 à Paris au Théâtre du Petit-Bourbon et avait été joué à Lyon en 1655.</premiere>
-		</performance>
+        <premiere location="Théâtre du Palais Royal">REPRÉSENTÉE SUR LE <lb/>Théâtre du Palais Royal</premiere>
+      </performance>
+      <docAuthor id="MOLIERE" bio="moliere" rend="i">Par J. B. P. MOLIÈRE</docAuthor>
+      <docImprint>À PARIS, <lb/>Chez GABRIEL QUINET, <lb/>au Palais, dans la Galerie des Prisonniers, <lb/>à l'Ange Gabriel.</docImprint>
+      <docDate value="1663">M. DC. LXIII.</docDate>
+      <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
+      <div1>
+        <head>À MESSIRE</head>
+        <p>MESSIRE ARMAND JEAN DE RIANTS,</p>
+        <p><hi rend="sc">Chevalier</hi>, <hi rend="sc">Baron</hi> de Riverey, Seigneur de la Gallessierre, <lb/>Oudangeau, et autres Lieux, Conseiller du Roi <lb/>en tous ses Conseils, et Procureur de sa Majesté <lb/>au Châtelet, Prévôté et Vicomté de Paris.</p>
+        <p rend="sc">Monsieur,</p>
+        <p>Après avoir longtemps cherché quelque chose qui fût digne de vous être offert, pour ne pas laisser échapper aucune occasion de vous témoigner mes respects, et qui pût en même temps faire connaître à tout le monde que j’ai essayé de rendre à votre mérite quelques marques particulières de mon zèle ; j’ai cru que vous ne désavoueriez pas l’Étourdi ou les Contretemps, quand vous saurez que c’est un Étourdi tout couvert de gloire, de s’être fait admirer par la plus galante Cour du Monde, et qui a reçu des avantages, que de plus prudents que lui se tiendrait glorieux d’avoir pu mériter ; toutes ces choses-là font voir qu’il y a de la différence entre lui, et ceux qui portent son nom ; Néanmoins je crains qu’il ne perde aujourd’hui la haute réputation qu’il s’est acquise, quand on saura qu’il vient à Contretemps se présenter à vous, et vous divertir des grandes et sérieuses Occupations que vous donne l’illustre Charge que vous possédez, et qui demande que vous ayez soin de la plus célèbre Ville de la Terre : Vous le faites, <hi rend="sc">Monsieur</hi>, avec tant d’applaudissement, et vous vous acquittez de cette Charge avec tant de gloire, que le Prince, et les peuples en sont également satisfaits ; aussi chacun sait-il que vous marchez sur les traces de vos Illustres Aïeuls, dont la Mémoire ne périra jamais. Oui, <hi rend="sc">Monsieur</hi>, l’on se souviendra de ce Denis de Riants, dont vous sortez, qui s’acquitta si dignement, pour lui, et pour tout le Monde, de la Charge d’Avocat Général, et de Président au Mortier, qu’il possédait dans le premier Parlement de France, et qui obligea cette Auguste Compagnie, de faire voir combien elle l’avait toujours estimé, lorsqu’étant priée par ses Parents de se trouver aux honneurs funèbres que l’on devait rendre ; elle répondit, par l’organe de son premier Président, qu’elle était bien marrie du trépas d’un Personnage de si grand savoir, et de si grande vertu, et qu’elle lui rendrait tout l’honneur qu’elle lui devait. Après cela, <hi rend="sc">Monsieur</hi>, l’on peut juger de la vénération que l’on a en France pour votre Nom, et si soutenant, comme vous faites l’éclat et la gloire de vos Ancêtres, je ne dois pas craindre de passer pour téméraire en faisant votre Panégyrique. L’on sait assez que leurs grandes actions et les vôtres, me fourniraient trop de matière, s’il m’était permis de l’entreprendre ; mais les voulant laisser à d’autres plus capables de les décrire, Je serai satisfait, si je puis vous persuader que je suis, plus que personne du monde,</p>
+        <p rend="sc">Monsieur,</p>
+        <p>Votre très-humble et très <lb/>obéissant serviteur, <lb/><hi rend="sc">barbin</hi>.</p>
+      </div1>
       <castList>
         <head>ACTEURS</head>
         <castItem><role id="LÉLIE" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LÉLIE</role>, fils de Pandolphe.</castItem>
         <castItem><role id="CÉLIE" civil="F" type="H" statut="esclave" age="A" stat_amour="néant">CÉLIE</role>, esclave de Trufaldin.</castItem>
-        <castItem><role id="MASCARILLE" civil="M" type="H" statut="valet" age="A" stat_amour="néant">MASCARILLE</role>, valet de Lelie.</castItem>
-        <castItem><role id="HIPPOLYTE" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">HIPPOLYTE</role>, fil d'Anselme.</castItem>
+        <castItem><role id="MASCARILLE" civil="M" type="H" statut="valet" age="A" stat_amour="néant">MASCARILLE</role>, valet de Lélie.</castItem>
+        <castItem><role id="HIPPOLYTE" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">HIPPOLYTE</role>, fille d'Anselme.</castItem>
         <castItem><role id="ANSELME" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">ANSELME</role>, vieillard.</castItem>
         <castItem><role id="TRUFALDIN" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">TRUFALDIN</role>, vieillard.</castItem>
         <castItem><role id="PANDOLFE" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">PANDOLPHE</role>, vieillard.</castItem>
         <castItem><role id="LEANDRE" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LÉANDRE</role>, fils de famille.</castItem>
-        <castItem><role id="ANDRES" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">ANDRÈS</role>, cru égyptien.</castItem>
+        <castItem><role id="ANDRES" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">ANDRÈS</role>, cru Égyptien.</castItem>
         <castItem><role id="ERGASTE" civil="M" type="H" statut="vallet" age="A" stat_amour="néant">ERGASTE</role>, valet.</castItem>
         <castItem><role id="COURRIER" civil="M" type="H" statut="courrier" age="A" stat_amour="néant">Un courrier</role>.</castItem>
-        <castItem><role id="TROUPE_MASQUES" civil="G" type="H" statut="masque" age="A" stat_amour="néant">Deux troupes de masques</role>.</castItem>
+        <castItem><role id="TROUPE_MASQUES" civil="G" type="H" statut="masque" age="A" stat_amour="néant">Deux troupes de Masques</role>.</castItem>
       </castList>
-      <set location="Messine" country="Italie" periode="XVIIème" link="">La scène est Messine.</set>
+      <set location="Messine" country="Italie" periode="XVIIème" link="">La Scène est Messine.</set>
     </front>
     <body>
+      <head>L'ÉTOURDI <lb/>OU LES CONTRETEMPS, <lb/><hi rend="i">COMÉDIE</hi></head>
       <div1 type="act" xml:id="I">
         <head>ACTE I.</head>
         <div2 type="scene" xml:id="I01">
@@ -79,7 +85,7 @@
         </div2>
         <div2 type="scene" xml:id="I02">
           <head>SCÈNE II.</head>
-          <stage>LÉLIE, MASCARILLE.</stage>
+          <stage>Lélie, Mascarille.</stage>
           <sp who="lelie" xml:id="I02-1">
             <speaker>lélie</speaker>
             <l>Ah ! Mascarille.</l>
@@ -92,7 +98,7 @@
             <speaker>lélie</speaker>
             <l>Voici bien des affaires ;</l>
             <l>J’ai dans ma passion toutes choses contraires :</l>
-            <l>Léandre aime Célie, et, par un trait fatal,</l>
+            <l>Léandre aime Célie, et par un trait fatal,</l>
             <l n="10">Malgré mon changement, est toujours mon rival.</l>
           </sp>
           <sp who="mascarille" xml:id="I02-4">
@@ -115,11 +121,11 @@
             <l n="15">Je sais que ton esprit en intrigues fertile,</l>
             <l>N’a jamais rien trouvé qui lui fût difficile,</l>
             <l>Qu’on te peut appeler le Roi des serviteurs,</l>
-            <l>Et qu’en toute la terre …</l>
+            <l>Et qu’en toute la terre…</l>
           </sp>
           <sp who="mascarille" xml:id="I02-8">
             <speaker>mascarille</speaker>
-            <l>Hé, trêve de douceurs</l>
+            <l>Hé, trêve de douceurs.</l>
             <l>Quand nous faisons besoin nous autres misérables,</l>
             <l n="20">Nous sommes les chéris et les incomparables,</l>
             <l>Et dans un autre temps, dès le moindre courroux,</l>
@@ -162,7 +168,7 @@
           <sp who="mascarille" xml:id="I02-12">
             <speaker>mascarille</speaker>
             <l>Mais vous, trêve plutôt à votre Politique,</l>
-            <l>Elle n’est pas fort bonne, et vous devriez tâcher …</l>
+            <l>Elle n’est pas fort bonne, et vous devriez tâcher…</l>
           </sp>
           <sp who="lelie" xml:id="I02-13">
             <speaker>lélie</speaker>
@@ -173,8 +179,8 @@
           <sp who="mascarille" xml:id="I02-14">
             <speaker>mascarille</speaker>
             <l>Il se met en courroux ! tout ce que j’en ai dit</l>
-            <l>N’était rien que pour rire, et vous sonder l’esprit ?</l>
-            <l n="55">D’un censeur de plaisirs ai-je fort l’encolure, ?</l>
+            <l>N’était rien que pour rire, et vous sonder l’esprit :</l>
+            <l n="55">D’un censeur de plaisirs ai-je fort l’encolure ?</l>
             <l>Et Mascarille est-il ennemi de nature ?</l>
             <l>Vous savez le contraire, et qu’il est très certain,</l>
             <l>Qu’on ne peut me taxer que d’être trop humain.</l>
@@ -211,7 +217,7 @@
             <speaker>mascarille</speaker>
             <l>Ah ! comme vous courez !</l>
             <l>Ma cervelle toujours marche à pas mesurés.</l>
-            <l>J’ai trouvé votre fait, il faut…. non, je m’abuse ;</l>
+            <l>J’ai trouvé votre fait, il faut… non, je m’abuse ;</l>
             <l>Mais, si vous alliez…</l>
           </sp>
           <sp who="lelie" xml:id="I02-19">
@@ -271,7 +277,7 @@
             <l>Et pourrions, par un prompt achat de cette esclave,</l>
             <l>Empêcher qu’un rival vous prévienne et vous brave.</l>
             <l>De ces Égyptiens qui la mirent ici,</l>
-            <l>Trufaldin qui la garde, est en quelque souci,</l>
+            <l>Trufaldin qui la garde est en quelque souci,</l>
             <l n="95">Et trouvant son argent qu’ils lui font trop attendre,</l>
             <l>Je sais bien qu’il serait très ravi de la vendre :</l>
             <l>Car enfin en vrai ladre il a toujours vécu,</l>
@@ -308,7 +314,7 @@
         </div2>
         <div2 type="scene" xml:id="I03">
           <head>SCÈNE III.</head>
-          <stage>LÉLIE, CÉLIE, MASCARILLE.</stage>
+          <stage>Lélie, Célie, Mascarille.</stage>
           <sp who="lelie" xml:id="I03-1">
             <speaker>lélie</speaker>
             <l>Ah ! que le Ciel m’oblige, en offrant à ma vue</l>
@@ -336,8 +342,8 @@
             <l>Profitons mieux du temps, et sachons vite d’elle</l>
             <l>Ce que…</l>
           </sp>
-          <sp who="trufaldin-dans-la-maison" xml:id="I03-5">
-            <speaker>trufaldin dans la maison</speaker>
+          <sp who="trufaldin" xml:id="I03-5">
+            <speaker>trufaldin <hi rend="i">dans la maison</hi></speaker>
             <l>Célie.</l>
           </sp>
           <sp who="mascarille" xml:id="I03-6">
@@ -356,9 +362,9 @@
         </div2>
         <div2 type="scene" xml:id="I04">
           <head>SCÈNE IV.</head>
-          <stage>TRUFALDIN, CÉLIE, MASCARILLE, ET LÉLIE retiré dans un coin.</stage>
-          <sp who="trufaldin-a-celie" xml:id="I04-1">
-            <speaker>trufaldin à célie</speaker>
+          <stage>Trufaldin, Célie, Mascarille, <hi rend="i">et</hi> Lélie <hi rend="i">retiré dans un coin</hi>.</stage>
+          <sp who="trufaldin" xml:id="I04-1">
+            <speaker>trufaldin <hi rend="i">à Célie</hi></speaker>
             <l>Que faites-vous dehors ? et quel soin vous talonne,</l>
             <l>Vous à qui je défends de parler à personne.</l>
           </sp>
@@ -378,7 +384,7 @@
           <sp who="mascarille" xml:id="I04-5">
             <speaker>mascarille</speaker>
             <l>Monsieur, je suis tout vôtre, et ma joie est extrême,</l>
-            <l>De pouvoir saluer en toute humilité,</l>
+            <l>De pouvoir saluer en toute humilité</l>
             <l>Un homme dont le nom est partout si vanté.</l>
           </sp>
           <sp who="trufaldin" xml:id="I04-6">
@@ -417,7 +423,7 @@
           </sp>
           <sp who="celie" xml:id="I04-11">
             <speaker>célie</speaker>
-            <l>Sous quel Astre ton Maître a-t-il reçu le jour.</l>
+            <l>Sous quel Astre ton Maître a-t-il reçu le jour ?</l>
           </sp>
           <sp who="mascarille" xml:id="I04-12">
             <speaker>mascarille</speaker>
@@ -464,8 +470,8 @@
             <l>Je vais vous enseigner ce que vous devez faire.</l>
           </sp>
           <sp who="lelie" xml:id="I04-20">
-            <speaker>lélie, les joignant</speaker>
-            <l>Cessez, ô ! Trufaldin, de vous inquiéter,</l>
+            <speaker>lélie, <hi rend="i">les joignant</hi></speaker>
+            <l>Cessez, ô Trufaldin, de vous inquiéter,</l>
             <l>C’est par mon ordre seul qu’il vous vient visiter ;</l>
             <l n="175">Et je vous l’envoyais, ce serviteur fidèle,</l>
             <l>Vous offrir mon service, et vous parler pour elle,</l>
@@ -508,7 +514,7 @@
           <sp who="mascarille" xml:id="I04-27">
             <speaker>mascarille</speaker>
             <l>Oui, c’était fort l’entendre ;</l>
-            <l>Mais quoi, cette action ne me doit point surprendre.</l>
+            <l>Mais quoi, cette action ne me doit point surprendre,</l>
             <l>Vous êtes si fertile en pareils Contretemps,</l>
             <l>Que vos écarts d’esprit n’étonnent plus les gens.</l>
           </sp>
@@ -524,14 +530,14 @@
           </sp>
           <sp who="mascarille" xml:id="I04-29">
             <speaker>mascarille</speaker>
-            <l>Fort bien. À vrai dire, l’argent ;</l>
+            <l>Fort bien. À dire vrai, l’argent ;</l>
             <l>Serait dans notre affaire un sûr et fort agent ;</l>
             <l>Mais ce ressort manquant, il faut user d’un autre.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="I05">
           <head>SCÈNE V.</head>
-          <stage>ANSELME, MASCARILLE.</stage>
+          <stage>Anselme, Mascarille.</stage>
           <sp who="anselme" xml:id="I05-1">
             <speaker>anselme</speaker>
             <l>Par mon chef, c’est un siècle étrange que le nôtre !</l>
@@ -549,11 +555,11 @@
           </sp>
           <sp who="mascarille" xml:id="I05-2">
             <speaker>mascarille</speaker>
-            <l n="215">O ! Dieu, la belle proie</l>
+            <l n="215">Ô ! Dieu, la belle proie</l>
             <l>À tirer en volant ! chut : il faut que je voie</l>
             <l>Si je pourrais un peu de près le caresser.</l>
             <l>Je sais bien les discours dont il le faut bercer.</l>
-            <l>Je viens de voir, Anselme …</l>
+            <l>Je viens de voir, Anselme…</l>
           </sp>
           <sp who="anselme" xml:id="I05-3">
             <speaker>anselme</speaker>
@@ -587,9 +593,9 @@
           <sp who="mascarille" xml:id="I05-10">
             <speaker>mascarille</speaker>
             <l>Peu s’en faut que d’amour la pauvrette ne meure ;</l>
-            <l>Anselme, mon mignon, crie-t-elle à toute heure,</l>
-            <l n="225">Quand est-ce que l’hymen unira nos deux cœurs ?<hi rend="i"/></l>
-            <l>Et que tu daigneras éteindre mes ardeurs ?</l>
+            <l><hi rend="i">Anselme, mon mignon,</hi> crie-t-elle à toute heure,</l>
+            <l n="225" rend="i">Quand est-ce que l’hymen unira nos deux cœurs ?</l>
+            <l rend="i">Et que tu daigneras éteindre mes ardeurs ?</l>
           </sp>
           <sp who="anselme" xml:id="I05-11">
             <speaker>anselme</speaker>
@@ -610,7 +616,7 @@
           <sp who="mascarille" xml:id="I05-14">
             <speaker>mascarille</speaker>
             <l>Si bien donc qu’elle est sotte de vous ;</l>
-            <l>Ne vous regarde plus …</l>
+            <l>Ne vous regarde plus…</l>
           </sp>
           <sp who="anselme" xml:id="I05-15">
             <speaker>anselme</speaker>
@@ -619,7 +625,7 @@
           <sp who="mascarille" xml:id="I05-16">
             <speaker>mascarille</speaker>
             <l>Que comme un époux :</l>
-            <l>Et vous veut ……</l>
+            <l>Et vous veut…</l>
           </sp>
           <sp who="anselme" xml:id="I05-17">
             <speaker>anselme</speaker>
@@ -662,7 +668,7 @@
             <l>Je t’engage à servir mon amoureuse ardeur,</l>
             <l>Je reçois par ta bouche une bonne nouvelle,</l>
             <l>Sans du moindre présent récompenser ton zèle ;</l>
-            <l>Tiens, tu te souviendras …</l>
+            <l>Tiens, tu te souviendras…</l>
           </sp>
           <sp who="mascarille" xml:id="I05-26">
             <speaker>mascarille</speaker>
@@ -678,7 +684,7 @@
           </sp>
           <sp who="anselme" xml:id="I05-29">
             <speaker>anselme</speaker>
-            <l>Je le sais ; mais pourtant…</l>
+            <l>Je le sais, mais pourtant…</l>
           </sp>
           <sp who="mascarille" xml:id="I05-30">
             <speaker>mascarille</speaker>
@@ -691,12 +697,12 @@
           </sp>
           <sp who="mascarille" xml:id="I05-32">
             <speaker>mascarille</speaker>
-            <l>O ! long discours !</l>
+            <l>Ô ! long discours !</l>
           </sp>
           <sp who="anselme" xml:id="I05-33">
             <speaker>anselme</speaker>
             <l>Je veux</l>
-            <l n="250">Régaler par tes mains cet objet de mes vœux;</l>
+            <l n="250">Régaler par tes mains cet objet de mes vœux ;</l>
             <l>Et je vais te donner de quoi faire pour elle</l>
             <l>L’achat de quelque bague, ou telle bagatelle</l>
             <l>Que tu trouveras bon.</l>
@@ -716,7 +722,7 @@
         </div2>
         <div2 type="scene" xml:id="I06">
           <head>SCÈNE VI.</head>
-          <stage>LÉLIE, ANSELME, MASCARILLE.</stage>
+          <stage>Lélie, Anselme, Mascarille.</stage>
           <sp who="lelie" xml:id="I06-1">
             <speaker>lélie</speaker>
             <l>À qui la bourse ?</l>
@@ -754,7 +760,7 @@
             <l>Il sait bien l’impuissance où son père le laisse,</l>
             <l>Qu’un rival qu’il doit craindre étrangement nous presse,</l>
             <l>Cependant quand je tente un coup pour l’obliger,</l>
-            <l>Dont je cours moi tout seul, la honte et le danger…</l>
+            <l>Dont je cours moi tout seul la honte et le danger…</l>
           </sp>
           <sp who="lelie" xml:id="I06-8">
             <speaker>lélie</speaker>
@@ -785,7 +791,7 @@
             <l>Un autre après cela quitterait tout peut-être ;</l>
             <l>Mais j’avais médité tantôt un coup de maître,</l>
             <l n="285">Dont tout présentement je veux voir les effets,</l>
-            <l>À la charge que si …</l>
+            <l>À la charge que si…</l>
           </sp>
           <sp who="lelie" xml:id="I06-14">
             <speaker>lélie</speaker>
@@ -798,7 +804,7 @@
           </sp>
           <sp who="lelie" xml:id="I06-16">
             <speaker>lélie</speaker>
-            <l>Mais surtout hâte-toi, de peur qu’en ce dessein …</l>
+            <l>Mais surtout hâte-toi, de peur qu’en ce dessein…</l>
           </sp>
           <sp who="mascarille" xml:id="I06-17">
             <speaker>mascarille</speaker>
@@ -810,7 +816,7 @@
         </div2>
         <div2 type="scene" xml:id="I07">
           <head>SCÈNE VII.</head>
-          <stage>PANDOLFE, MASCARILLE.</stage>
+          <stage>Pandolfe, Mascarille.</stage>
           <sp who="pandolfe" xml:id="I07-1">
             <speaker>pandolfe</speaker>
             <l>Mascarille,</l>
@@ -868,12 +874,12 @@
             <l>Vous me voudriez encor payer pour Précepteur :</l>
             <l n="315">Oui, vous ne pourriez pas lui dire davantage,</l>
             <l>Que ce que je lui dis, pour le faire être sage.</l>
-            <l>Monsieur, au nom de Dieu, lui fais-je assez souvent,</l>
-            <l>Cessez de vous laisser conduire au premier vent,</l>
-            <l>Réglez-vous. Regardez l’honnête homme de père</l>
-            <l n="320">Que vous avez du <hi rend="i">C</hi>iel, comme on le considère ;<hi rend="i"/></l>
-            <l>Cessez de lui vouloir donner la mort au cœur,</l>
-            <l>Et, comme lui, vivez en personne d’honneur.</l>
+            <l><hi rend="i">Monsieur, au nom de Dieu,</hi> lui fais-je assez souvent,</l>
+            <l rend="i">Cessez de vous laisser conduire au premier vent,</l>
+            <l rend="i">Réglez-vous. Regardez l’honnête homme de père</l>
+            <l n="320" rend="i">Que vous avez du Ciel, comme on le considère ;</l>
+            <l rend="i">Cessez de lui vouloir donner la mort au cœur,</l>
+            <l rend="i">Et, comme lui, vivez en personne d’honneur.</l>
           </sp>
           <sp who="pandolfe" xml:id="I07-11">
             <speaker>pandolfe</speaker>
@@ -957,7 +963,7 @@
         </div2>
         <div2 type="scene" xml:id="I08">
           <head>SCÈNE VIII.</head>
-          <stage>HIPPOLYTE, MASCARILLE.</stage>
+          <stage>Hippolyte, Mascarille.</stage>
           <sp who="hippolyte" xml:id="I08-1">
             <speaker>hippolyte</speaker>
             <l>Oui, traître, c’est ainsi que tu me rends service ;</l>
@@ -972,7 +978,7 @@
             <l>Et cependant ici tu fais tout le contraire :</l>
             <l>Mais tu t’abuseras, je sais un sûr moyen,</l>
             <l>Pour rompre cet achat où tu pousses si bien ;</l>
-            <l>Et je vais de ce pas ……</l>
+            <l>Et je vais de ce pas…</l>
           </sp>
           <sp who="mascarille" xml:id="I08-2">
             <speaker>mascarille</speaker>
@@ -1016,8 +1022,8 @@
             <l>Je m’en vais réparer l’erreur que j’ai commise,</l>
             <l n="400">Et dès ce même pas rompre mon entreprise.</l>
           </sp>
-          <sp who="hippolyte-l’arretant" xml:id="I08-7">
-            <speaker>hippolyte l’arrêtant</speaker>
+          <sp who="hippolyte" xml:id="I08-7">
+            <speaker>hippolyte, <hi rend="i">l’arrêtant</hi></speaker>
             <l>Hé ! ne me traite pas si rigoureusement,</l>
             <l>Et pardonne aux transports d’un premier mouvement.</l>
           </sp>
@@ -1038,9 +1044,9 @@
           </sp>
           <sp who="mascarille" xml:id="I08-10">
             <speaker>mascarille</speaker>
-            <l>Non, je ne le saurais, quelque effort que je fasse :</l>
+            <l>Non je ne le saurais, quelque effort que je fasse :</l>
             <l>Mais votre promptitude est de mauvaise grâce.</l>
-            <l>Apprenez qu’il n’est rien qui blesse un noble cœur,</l>
+            <l>Apprenez, qu’il n’est rien qui blesse un noble cœur,</l>
             <l>Comme quand il peut voir qu’on le touche en l’honneur.</l>
           </sp>
           <sp who="hippolyte" xml:id="I08-11">
@@ -1083,7 +1089,7 @@
         </div2>
         <div2 type="scene" xml:id="I09">
           <head>SCÈNE IX.</head>
-          <stage>MASCARILLE, LÉLIE.</stage>
+          <stage>Mascarille, Lélie.</stage>
           <sp who="lelie" xml:id="I09-1">
             <speaker>lélie</speaker>
             <l>Que diable fais-tu là ? Tu me promets merveille ;</l>
@@ -1123,7 +1129,7 @@
         <head>ACTE II.</head>
         <div2 type="scene" xml:id="II01">
           <head>SCÈNE PREMIÈRE.</head>
-          <stage>MASCARILLE, LÉLIE.</stage>
+          <stage>Mascarille, Lélie.</stage>
           <sp who="mascarille" xml:id="II01-1">
             <speaker>mascarille</speaker>
             <l>À vos désirs enfin il a fallu se rendre,</l>
@@ -1144,11 +1150,11 @@
           <sp who="lelie" xml:id="II01-2">
             <speaker>lélie</speaker>
             <l>Non, je serai prudent, te dis‑je, ne crains rien,</l>
-            <l>Tu verras seulement …</l>
+            <l>Tu verras seulement…</l>
           </sp>
           <sp who="mascarille" xml:id="II01-3">
             <speaker>mascarille</speaker>
-            <l>Souvenez-vousen bien :</l>
+            <l>Souvenez-vous-en bien :</l>
             <l>J’ai commencé pour vous un hardi stratagème :</l>
             <l n="470">Votre père fait voir une paresse extrême</l>
             <l>À rendre par sa mort tous vos désirs contents,</l>
@@ -1170,8 +1176,8 @@
             <l>Si vous apercevez que j’y manque d’un mot,</l>
             <l>Dites absolument que je ne suis qu’un sot.</l>
           </sp>
-          <sp who="lelie-seul" xml:id="II01-4">
-            <speaker>lélie seul</speaker>
+          <sp who="lelie" xml:id="II01-4">
+            <speaker>lélie <hi rend="i">seul</hi></speaker>
             <l>Son esprit, il est vrai, trouve une étrange voie</l>
             <l n="490">Pour adresser mes vœux au comble de leur joie ;</l>
             <l>Mais quand d’un bel objet on est bien amoureux,</l>
@@ -1186,7 +1192,7 @@
         </div2>
         <div2 type="scene" xml:id="II02">
           <head>SCÈNE II.</head>
-          <stage>MASCARILLE, ANSELME.</stage>
+          <stage>Mascarille, Anselme.</stage>
           <sp who="mascarille" xml:id="II02-1">
             <speaker>mascarille</speaker>
             <l>La nouvelle a sujet de vous surprendre fort.</l>
@@ -1227,7 +1233,7 @@
             <l>N’importe, tu devais attendre jusqu’au soir,</l>
             <l>Outre qu’encore un coup j’aurais voulu le voir.</l>
             <l>Qui tôt ensevelit bien souvent assassine,</l>
-            <l>Et tel est cru défunt, qui n’en a que la mine.</l>
+            <l>Et tel est cru défunt qui n’en a que la mine.</l>
           </sp>
           <sp who="mascarille" xml:id="II02-9">
             <speaker>mascarille</speaker>
@@ -1243,7 +1249,7 @@
             <l>Ou que ce qu’il y tient consiste en des papiers ;</l>
             <l n="525">Il voudrait vous prier, ensuite de l’instance</l>
             <l>D’excuser de tantôt son trop de violence,</l>
-            <l>De lui prêter au moins pour ce dernier devoir …</l>
+            <l>De lui prêter au moins pour ce dernier devoir…</l>
           </sp>
           <sp who="anselme" xml:id="II02-10">
             <speaker>anselme</speaker>
@@ -1259,7 +1265,7 @@
         </div2>
         <div2 type="scene" xml:id="II03">
           <head>SCÈNE III.</head>
-          <stage>LÉLIE, ANSELME, MASCARILLE.</stage>
+          <stage>Lélie, Anselme, Mascarille.</stage>
           <sp who="anselme" xml:id="II03-1">
             <speaker>anselme</speaker>
             <l>Sortons, je ne saurais qu’avec douleur très forte,</l>
@@ -1324,7 +1330,7 @@
             <speaker>anselme</speaker>
             <l>Au reste, sur l’avis de votre serviteur,</l>
             <l>J’apporte ici l’argent qui vous est nécessaire,</l>
-            <l n="550">Pour faire célébrer les obsèques d’un père …</l>
+            <l n="550">Pour faire célébrer les obsèques d’un père…</l>
           </sp>
           <sp who="lelie" xml:id="II03-15">
             <speaker>lélie</speaker>
@@ -1333,7 +1339,7 @@
           <sp who="mascarille" xml:id="II03-16">
             <speaker>mascarille</speaker>
             <l>Comme à ce mot s’augmente sa douleur,</l>
-            <l>Il ne peut sans mourir songer à ce malheur.</l>
+            <l>Il ne peut sans mourir, songer à ce malheur.</l>
           </sp>
           <sp who="anselme" xml:id="II03-17">
             <speaker>anselme</speaker>
@@ -1343,8 +1349,8 @@
             <l>Vous pourriez librement disposer de mon bien.</l>
             <l>Tenez, je suis tout vôtre, et le ferai paraître.</l>
           </sp>
-          <sp who="lelie-s’en-allant" xml:id="II03-18">
-            <speaker>lélie s’en allant</speaker>
+          <sp who="lelie" xml:id="II03-18">
+            <speaker>lélie, <hi rend="i">s’en allant</hi></speaker>
             <l>Ah !</l>
           </sp>
           <sp who="mascarille" xml:id="II03-19">
@@ -1382,16 +1388,16 @@
             <l>Et m’en vais tout mon soûl pleurer avecque lui.</l>
             <l>Ah !</l>
           </sp>
-          <sp who="anselme-seul" xml:id="II03-26">
-            <speaker>anselme seul</speaker>
+          <sp who="anselme" xml:id="II03-26">
+            <speaker>anselme <hi rend="i">seul</hi></speaker>
             <l>Le monde est rempli de beaucoup de traverses.</l>
             <l n="570">Chaque homme tous les jours en ressent de diverses,</l>
-            <l>Et jamais ici-bas …</l>
+            <l>Et jamais ici-bas…</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="II04">
           <head>SCÈNE IV.</head>
-          <stage>PANDOLFE, ANSELME.</stage>
+          <stage>Pandolfe, Anselme.</stage>
           <sp who="anselme" xml:id="II04-1">
             <speaker>anselme</speaker>
             <l>Ah ! bons Dieux, je frémis !</l>
@@ -1419,8 +1425,8 @@
             <l>Comble de joie et de santé</l>
             <l>Votre défunte seigneurie.</l>
           </sp>
-          <sp who="pandolfe-riant" xml:id="II04-4">
-            <speaker>pandolfe riant</speaker>
+          <sp who="pandolfe" xml:id="II04-4">
+            <speaker>pandolfe, <hi rend="i">riant</hi></speaker>
             <l>Malgré tout mon dépit, il m’y faut prendre part.</l>
           </sp>
           <sp who="anselme" xml:id="II04-5">
@@ -1489,7 +1495,7 @@
             <l>De l’argent, dites-vous ? ah ! c’est donc l’enclouure.</l>
             <l>Voilà le nœud secret de toute l’aventure ;</l>
             <l n="625">À votre dam. Pour moi, sans m’en mettre en souci,</l>
-            <l>Je vais faire informer de cette affaireici<hi rend="sup">26</hi>,</l>
+            <l>Je vais faire informer de cette affaire ici,</l>
             <l>Contre ce Mascarille, et si l’on peut le prendre,</l>
             <l>Quoi qu’il puisse coûter, je veux le faire pendre.</l>
           </sp>
@@ -1499,13 +1505,13 @@
             <l n="630">Il faut donc qu’aujourd’hui je perde, et sens et bien ?</l>
             <l>Il me sied bien, ma foi, de porter tête grise,</l>
             <l>Et d’être encor si prompt à faire une sottise !</l>
-            <l>D’examiner si peu sur un premier rapport …..</l>
-            <l>Mais je vois …</l>
+            <l>D’examiner si peu sur un premier rapport…</l>
+            <l>Mais je vois…</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="II05">
           <head>SCÈNE V.</head>
-          <stage>LÉLIE, ANSELME.</stage>
+          <stage>Lélie, Anselme.</stage>
           <sp who="lelie" xml:id="II05-1">
             <speaker>lélie</speaker>
             <l>Maintenant avec ce passeport,</l>
@@ -1559,13 +1565,13 @@
           </sp>
           <sp who="lelie" xml:id="II05-9">
             <speaker>lélie</speaker>
-            <l>Il faut dire : J’en tiens ; quelle surprise extrême !</l>
+            <l>Il faut dire : <hi rend="i">J’en tiens</hi> ; quelle surprise extrême !</l>
             <l n="660">D’où peut-il avoir su sitôt le stratagème !</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="II06">
           <head>SCÈNE VI.</head>
-          <stage>MASCARILLE, LÉLIE.</stage>
+          <stage>Mascarille, Lélie.</stage>
           <sp who="mascarille" xml:id="II06-1">
             <speaker>mascarille</speaker>
             <l>Quoi ? vous étiez sorti ? je vous cherchais partout :</l>
@@ -1610,7 +1616,7 @@
             <speaker>mascarille</speaker>
             <l>Moi, Monsieur ? Quelque sot, la colère fait mal ;</l>
             <l n="675">Et je veux me choyer, quoi qu’enfin il arrive :</l>
-            <l>Que Célie après tout soit ou libre ou captive ;</l>
+            <l>Que Célie après tout soit ou libre, ou captive ;</l>
             <l>Que Léandre l’achète, ou qu’elle reste là,</l>
             <l>Pour moi, je m’en soucie autant que de cela.</l>
           </sp>
@@ -1704,7 +1710,7 @@
           </sp>
           <sp who="lelie" xml:id="II06-30">
             <speaker>lélie</speaker>
-            <l>Quoi ! ……</l>
+            <l>Quoi !…</l>
           </sp>
           <sp who="mascarille" xml:id="II06-31">
             <speaker>mascarille</speaker>
@@ -1724,7 +1730,7 @@
         </div2>
         <div2 type="scene" xml:id="II07">
           <head>SCÈNE VII.</head>
-          <stage>LÉANDRE, TRUFALDIN, LÉLIE, MASCARILLE.</stage>
+          <stage>Léandre, Trufaldin, Lélie, Mascarille.</stage>
           <sp who="lelie" xml:id="II07-1">
             <speaker>lélie</speaker>
             <l>Que vois-je ! mon rival et Trufaldin ensemble !</l>
@@ -1772,7 +1778,7 @@
           <sp who="mascarille" xml:id="II07-10">
             <speaker>mascarille</speaker>
             <l>Il faut que je l’attrape, et que de ses desseins</l>
-            <l>Je sois le confident, pour mieux les rendre vains.</l>
+            <l>Je sois le confident pour mieux les rendre vains.</l>
           </sp>
           <sp who="leandre" xml:id="II07-11">
             <speaker>léandre</speaker>
@@ -1813,7 +1819,7 @@
           </sp>
           <sp who="leandre" xml:id="II07-19">
             <speaker>léandre</speaker>
-            <l>Ah ! vraiment il a tort :</l>
+            <l>Ah ! vraiment il a tort.</l>
           </sp>
           <sp who="mascarille" xml:id="II07-20">
             <speaker>mascarille</speaker>
@@ -1845,7 +1851,7 @@
             <l>M’offre à me bien venger en vous rendant service,</l>
             <l>Et que dans mes efforts pour vos contentements,</l>
             <l n="750">Je puis à mon brutal trouver des châtiments.</l>
-            <l>De Célie, en un mot par mon adresse extrême …</l>
+            <l>De Célie en un mot par mon adresse extrême…</l>
           </sp>
           <sp who="leandre" xml:id="II07-23">
             <speaker>léandre</speaker>
@@ -1893,7 +1899,7 @@
         </div2>
         <div2 type="scene" xml:id="II08">
           <head>SCÈNE VIII.</head>
-          <stage>HIPPOLYTE, LÉANDRE, MASCARILLE.</stage>
+          <stage>Hippolyte, Léandre, Mascarille.</stage>
           <sp who="hippolyte" xml:id="II08-1">
             <speaker>hippolyte</speaker>
             <l>Je dois vous annoncer, Léandre, une nouvelle ;</l>
@@ -1907,7 +1913,7 @@
           <sp who="hippolyte" xml:id="II08-3">
             <speaker>hippolyte</speaker>
             <l>Donnez-moi donc la main</l>
-            <l>Jusqu’au Temple, en marchant, je pourrai vous l’apprendre.</l>
+            <l>Jusqu’au Temple, en marchant je pourrai vous l’apprendre.</l>
           </sp>
           <sp who="leandre" xml:id="II08-4">
             <speaker>léandre</speaker>
@@ -1917,19 +1923,19 @@
             <speaker>mascarille</speaker>
             <l n="785">Oui, je te vais servir d’un plat de ma façon ;</l>
             <l>Fut-il jamais au monde un plus heureux garçon !</l>
-            <l>O ! que dans un moment Lélie aura de joie !</l>
+            <l>Ô ! que dans un moment Lélie aura de joie !</l>
             <l>Sa maîtresse en nos mains tomber par cette voie !</l>
-            <l>Recevoir tout son bien d’où l’on attend le mal !</l>
+            <l>Recevoir tout son bien, d’où l’on attend le mal !</l>
             <l n="790">Et devenir heureux par la main d’un rival !</l>
             <l>Après ce rare exploit, je veux que l’on s’apprête</l>
             <l>À me peindre en Héros, un laurier sur la tête,</l>
             <l>Et qu’au bas du portrait on mette en lettres d’or,</l>
-            <l>Vivat Mascarillus, fourbum imperator.</l>
+            <l rend="i">Vivat Mascarillus, fourbum Imperator.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="II09">
           <head>SCÈNE IX.</head>
-          <stage>TRUFALDIN, MASCARILLE.</stage>
+          <stage>Trufaldin, Mascarille.</stage>
           <sp who="mascarille" xml:id="II09-1">
             <speaker>mascarille</speaker>
             <l>Holà.</l>
@@ -1951,10 +1957,10 @@
         </div2>
         <div2 type="scene" xml:id="II10">
           <head>SCÈNE X.</head>
-          <stage>LE COURRIER, TRUFALDIN, MASCARILLE.</stage>
+          <stage>Le Courrier, Trufaldin, Mascarille.</stage>
           <sp who="le-courrier" xml:id="II10-1">
             <speaker>le courrier</speaker>
-            <l>Seigneur, obligez‑moi de m’enseigner un homme …</l>
+            <l>Seigneur, obligez‑moi de m’enseigner un homme…</l>
           </sp>
           <sp who="trufaldin" xml:id="II10-2">
             <speaker>trufaldin</speaker>
@@ -1971,21 +1977,27 @@
           <sp who="le-courrier" xml:id="II10-5">
             <speaker>le courrier</speaker>
             <l>Lui rendre seulement la lettre que voici.</l>
-            <stage>LETTRE.</stage>
-            <l>Le <hi rend="i">C</hi>iel, dont la bonté prend souci de ma vie,</l>
+            <label>LETTRE.</label>
+            <lg rend="i">
+            <l>Le Ciel, dont la bonté prend souci de ma vie,</l>
             <l>Vient de me faire ouïr par un bruit assez doux,</l>
             <l n="805">Que ma fille à quatre ans par des voleurs ravie,</l>
             <l>Sous le nom de Célie est esclave chez vous.</l>
+            </lg>
+            <lg rend="i">
             <l>Si vous sûtes jamais ce que c’est qu’être père,</l>
             <l>Et vous trouvez sensible aux tendresses du sang,</l>
             <l>Conservez-moi chez vous cette fille si chère,</l>
             <l n="810">Comme si de la vôtre elle tenait le rang.</l>
+            </lg>
+            <lg rend="i">
             <l>Pour l’aller retirer, je pars d’ici moi-même,</l>
             <l>Et vous vais de vos soins récompenser si bien,</l>
             <l>Que par votre bonheur que je veux rendre extrême,</l>
             <l>Vous bénirez le jour où vous causez le mien.</l>
-            <p>De Madrid.</p>
-            <p>Dom Pedro de Gusman, Marquis de Montalcane.</p>
+            </lg>
+            <p rend="i">De Madrid.</p>
+            <p rend="i">Dom Pedro de Gusman, Marquis de Montalcane.</p>
           </sp>
           <sp who="trufaldin" xml:id="II10-6">
             <speaker>trufaldin</speaker>
@@ -2006,7 +2018,7 @@
           <sp who="mascarille" xml:id="II10-7">
             <speaker>mascarille</speaker>
             <l>Mais l’outrage</l>
-            <l>Que vous lui faites ……</l>
+            <l>Que vous lui faites…</l>
           </sp>
           <sp who="trufaldin" xml:id="II10-8">
             <speaker>trufaldin</speaker>
@@ -2016,7 +2028,7 @@
             <speaker>mascarille</speaker>
             <l>Ah ! le fâcheux paquet que nous venons d’avoir !</l>
             <l n="830">Le sort a bien donné la baye à mon espoir !</l>
-            <l>Et bien à la maleheure est‑il venu d’Espagne,</l>
+            <l>Et bien à la male heure est‑il venu d’Espagne,</l>
             <l>Ce Courrier que la foudre, ou la grêle accompagne ;</l>
             <l>Jamais, certes, jamais, plus beau commencement</l>
             <l>N’eut en si peu de temps plus triste événement.</l>
@@ -2024,14 +2036,14 @@
         </div2>
         <div2 type="scene" xml:id="II11">
           <head>SCÈNE XI.</head>
-          <stage>LÉLIE, MASCARILLE.</stage>
+          <stage>Lélie, Mascarille.</stage>
           <sp who="mascarille" xml:id="II11-1">
             <speaker>mascarille</speaker>
             <l n="835">Quel beau transport de joie à présent vous inspire ?</l>
           </sp>
           <sp who="lelie" xml:id="II11-2">
             <speaker>lélie</speaker>
-            <l>Laissem’en rire encore avant que te le dire.</l>
+            <l>Laisse m’en rire encore avant que te le dire.</l>
           </sp>
           <sp who="mascarille" xml:id="II11-3">
             <speaker>mascarille</speaker>
@@ -2089,7 +2101,7 @@
             <speaker>lélie</speaker>
             <l>Écoute donc ; voici bien le meilleur.</l>
             <l>La Lettre que je dis a donc été remise ;</l>
-            <l>Mais sais-tu bien comment ? en saison si bien prise,</l>
+            <l>Mais, sais-tu bien comment ? en saison si bien prise,</l>
             <l>Que le porteur m’a dit que sans ce trait falot,</l>
             <l n="870">Un homme l’emmenait, qui s’est trouvé fort sot.</l>
           </sp>
@@ -2116,7 +2128,7 @@
             <l>Pour vous dire en beaux Vers, ou bien en docte Prose,</l>
             <l>Que vous serez toujours, quoi que l’on se propose,</l>
             <l n="885">Tout ce que vous avez été durant vos jours ;</l>
-            <l>C’est-à-dire un esprit chaussé tout à rebours,</l>
+            <l>C’est-à-dire, un esprit chaussé tout à rebours,</l>
             <l>Une raison malade, et toujours en débauche,</l>
             <l>Un envers du bon sens, un jugement à gauche,</l>
             <l>Un brouillon, une bête, un brusque, un étourdi,</l>
@@ -2154,8 +2166,8 @@
         <head>ACTE III.</head>
         <div2 type="scene" xml:id="III01">
           <head>SCÈNE <hi rend="i">I</hi>.</head>
-          <sp who="mascarille-seul" xml:id="III01-1">
-            <speaker>mascarille seul</speaker>
+          <sp who="mascarille" xml:id="III01-1">
+            <speaker>mascarille <hi rend="i">seul</hi></speaker>
             <l>Taisez-vous, ma bonté, cessez votre entretien ;</l>
             <l>Vous êtes une sotte, et je n’en ferai rien ;</l>
             <l>Oui, vous avez raison, mon courroux, je l’avoue ;</l>
@@ -2196,7 +2208,7 @@
         </div2>
         <div2 type="scene" xml:id="III02">
           <head>SCÈNE II.</head>
-          <stage>LÉANDRE, MASCARILLE.</stage>
+          <stage>Léandre, Mascarille.</stage>
           <sp who="mascarille" xml:id="III02-1">
             <speaker>mascarille</speaker>
             <l>Monsieur, j’ai perdu temps, votre homme se dédit.</l>
@@ -2209,7 +2221,7 @@
             <l>Qui doit partir d’Espagne, et venir en ces lieux,</l>
             <l>N’est qu’un pur stratagème, un trait facétieux,</l>
             <l>Une histoire à plaisir, un conte dont Lélie</l>
-            <l>À voulu détourner notre achat de Célie.</l>
+            <l>A voulu détourner notre achat de Célie.</l>
           </sp>
           <sp who="mascarille" xml:id="III02-3">
             <speaker>mascarille</speaker>
@@ -2231,7 +2243,7 @@
             <speaker>léandre</speaker>
             <l>Si d’abord à mes yeux elle parut aimable,</l>
             <l>Je viens de la trouver tout à fait adorable,</l>
-            <l>Et je suis en suspens, si, pour me l’acquérir,</l>
+            <l>Et je suis en suspens, si pour me l’acquérir,</l>
             <l>Aux extrêmes moyens je ne dois point courir,</l>
             <l n="955">Par le don de ma foi rompre sa destinée,</l>
             <l>Et changer ses liens en ceux de l’hyménée.</l>
@@ -2267,9 +2279,9 @@
           </sp>
           <sp who="mascarille" xml:id="III02-13">
             <speaker>mascarille</speaker>
-            <l n="965">Hé bien donc ! très charitablement,</l>
+            <l n="965">Hé bien donc, très charitablement,</l>
             <l>Je vous veux retirer de votre aveuglement.</l>
-            <l>Cette fille …..</l>
+            <l>Cette fille…</l>
           </sp>
           <sp who="leandre" xml:id="III02-14">
             <speaker>léandre</speaker>
@@ -2279,7 +2291,7 @@
             <speaker>mascarille</speaker>
             <l>N’est rien moins qu’inhumaine ;</l>
             <l>Dans le particulier elle oblige sans peine ;</l>
-            <l>Et son cœur, croyez-moi, n’est point roche, après tout,</l>
+            <l>Et son cœur, croyez-moi, n’est point roche après tout,</l>
             <l n="970">À quiconque la sait prendre par le bon bout ;</l>
             <l>Elle fait la sucrée, et veut passer pour prude ;</l>
             <l>Mais je puis en parler avec certitude ;</l>
@@ -2288,7 +2300,7 @@
           </sp>
           <sp who="leandre" xml:id="III02-16">
             <speaker>léandre</speaker>
-            <l>Célie …..</l>
+            <l>Célie…</l>
           </sp>
           <sp who="mascarille" xml:id="III02-17">
             <speaker>mascarille</speaker>
@@ -2305,7 +2317,7 @@
             <speaker>mascarille</speaker>
             <l n="980">Monsieur, les volontés sont libres, que m’importe ?</l>
             <l>Non, ne me croyez pas, suivez votre dessein,</l>
-            <l>Prenez, cette matoise, et lui donnez la main ;</l>
+            <l>Prenez cette matoise, et lui donnez la main ;</l>
             <l>Toute la ville en corps reconnaîtra ce zèle,</l>
             <l>Et vous épouserez le bien public en elle.</l>
           </sp>
@@ -2321,11 +2333,11 @@
           </sp>
           <sp who="leandre" xml:id="III02-22">
             <speaker>léandre</speaker>
-            <l>Oui, d’un coup étonnant ce discours m’assassine,</l>
+            <l>Oui d’un coup étonnant ce discours m’assassine.</l>
           </sp>
           <sp who="mascarille" xml:id="III02-23">
             <speaker>mascarille</speaker>
-            <l>Quoi ! vous pourriez !</l>
+            <l>Quoi ! vous pourriez !…</l>
           </sp>
           <sp who="leandre" xml:id="III02-24">
             <speaker>léandre</speaker>
@@ -2337,7 +2349,7 @@
         </div2>
         <div2 type="scene" xml:id="III03">
           <head>SCÈNE III.</head>
-          <stage>LÉLIE, LÉANDRE.</stage>
+          <stage>Lélie, Léandre.</stage>
           <sp who="lelie" xml:id="III03-1">
             <speaker>lélie</speaker>
             <l>Du chagrin qui vous tient, quel peut être l’objet ?</l>
@@ -2386,7 +2398,7 @@
           </sp>
           <sp who="leandre" xml:id="III03-12">
             <speaker>léandre</speaker>
-            <l>Votre procédé de 1’un à l’autre bout.</l>
+            <l>Votre procédé de l’un à l’autre bout.</l>
           </sp>
           <sp who="lelie" xml:id="III03-13">
             <speaker>lélie</speaker>
@@ -2470,10 +2482,10 @@
         </div2>
         <div2 type="scene" xml:id="III04">
           <head>SCÈNE IV.</head>
-          <stage>LÉLIE, LÉANDRE, MASCARILLE.</stage>
+          <stage>Lélie, Léandre, Mascarille.</stage>
           <sp who="lelie" xml:id="III04-1">
             <speaker>lélie</speaker>
-            <l>Ah ! bon, bon, le voilà, venez, çà, chien maudit.</l>
+            <l>Ah ! bon, bon, le voilà, venez çà, chien maudit.</l>
           </sp>
           <sp who="mascarille" xml:id="III04-2">
             <speaker>mascarille</speaker>
@@ -2488,7 +2500,7 @@
           </sp>
           <sp who="mascarille" xml:id="III04-4">
             <speaker>mascarille</speaker>
-            <l>Doucement, ce discours est de mon industrie.</l>
+            <l>Doucement ce discours est de mon industrie.</l>
           </sp>
           <sp who="lelie" xml:id="III04-5">
             <speaker>lélie</speaker>
@@ -2549,7 +2561,7 @@
           </sp>
           <sp who="lelie" xml:id="III04-18">
             <speaker>lélie</speaker>
-            <l>Quoi ! châtier mes gens n’est pas en ma puissance ?</l>
+            <l>Quoi ! châtier mes gens, n’est pas en ma puissance ?</l>
           </sp>
           <sp who="leandre" xml:id="III04-19">
             <speaker>léandre</speaker>
@@ -2573,8 +2585,8 @@
             <l n="1060">Le trait est admirable ! et comment donc le vôtre ?</l>
             <l>Sans doute…</l>
           </sp>
-          <sp who="mascarille-bas" xml:id="III04-24">
-            <speaker>mascarille bas</speaker>
+          <sp who="mascarille" xml:id="III04-24">
+            <speaker>mascarille <hi rend="i">bas</hi></speaker>
             <l>Doucement.</l>
           </sp>
           <sp who="lelie" xml:id="III04-25">
@@ -2582,7 +2594,7 @@
             <l>Hem, que veux-tu conter ?</l>
           </sp>
           <sp who="mascarille-bas" xml:id="III04-26">
-            <speaker>mascarille bas</speaker>
+            <speaker>mascarille <hi rend="i">bas</hi></speaker>
             <l>Ah ! le double bourreau, qui me va tout gâter !</l>
             <l>Et qui ne comprend rien quelque signe qu’on donne.</l>
           </sp>
@@ -2620,7 +2632,7 @@
           </sp>
           <sp who="mascarille" xml:id="III04-34">
             <speaker>mascarille</speaker>
-            <l>Il ne sait ce qu’il dit, sa mémoire ……</l>
+            <l>Il ne sait ce qu’il dit, sa mémoire…</l>
           </sp>
           <sp who="leandre" xml:id="III04-35">
             <speaker>léandre</speaker>
@@ -2628,23 +2640,23 @@
             <l>Tous ces signes pour toi ne disent rien de bon ;</l>
             <l n="1075">Oui, d’un tour délicat mon esprit te soupçonne ;</l>
             <l>Mais, pour l’invention, va, je te le pardonne ;</l>
-            <l>C’est bien assez pour moi qu’il m’a désabusé,</l>
+            <l>C’est bien assez, pour moi, qu’il m’a désabusé,</l>
             <l>De voir par quels motifs tu m’avais imposé,</l>
             <l>Et que m’étant commis à ton zèle hypocrite,</l>
             <l n="1080">À si bon compte encor je m’en sois trouvé quitte :</l>
-            <l>Ceci doit s’appeler un avis au lecteur.</l>
+            <l>Ceci doit s’appeler <hi rend="i">un avis au lecteur</hi>.</l>
             <l>Adieu, Lélie, adieu, très humble serviteur.</l>
           </sp>
           <sp who="mascarille" xml:id="III04-36">
             <speaker>mascarille</speaker>
             <l>Courage, mon garçon, tout heur nous accompagne,</l>
             <l>Mettons flamberge au vent et bravoure en campagne,</l>
-            <l n="1085">Faisons l’<hi rend="i">O</hi>librius, l’occiseur d’innocents.</l>
+            <l n="1085">Faisons <hi rend="i">l’Olibrius, l’occiseur d’innocents</hi>.</l>
           </sp>
           <sp who="lelie" xml:id="III04-37">
             <speaker>lélie</speaker>
             <l>Il t’avait accusé de discours médisants</l>
-            <l>Contre ……</l>
+            <l>Contre…</l>
           </sp>
           <sp who="mascarille" xml:id="III04-38">
             <speaker>mascarille</speaker>
@@ -2692,13 +2704,13 @@
             <speaker>lélie</speaker>
             <l>Puisque la chose est faite, il n’y faut plus penser :</l>
             <l>Mon rival en tout cas ne peut me traverser,</l>
-            <l n="1115">Et pourvu que tes soins, en qui je me repose …</l>
+            <l n="1115">Et pourvu que tes soins, en qui je me repose…</l>
           </sp>
           <sp who="mascarille" xml:id="III04-44">
             <speaker>mascarille</speaker>
             <l>Laissons là ce discours, et parlons d’autre chose,</l>
             <l>Je ne m’apaise pas, non, si facilement,</l>
-            <l>Je suis trop en colère ; Il faut premièrement</l>
+            <l>Je suis trop en colère ; il faut premièrement</l>
             <l>Me rendre un bon office, et nous verrons ensuite,</l>
             <l n="1120">Si je dois de vos feux reprendre la conduite.</l>
           </sp>
@@ -2750,7 +2762,7 @@
           <sp who="lelie" xml:id="III04-51">
             <speaker>lélie</speaker>
             <l n="1145">Oui, nous le fléchirons ;</l>
-            <l>Mais aussi tu promets ……</l>
+            <l>Mais aussi tu promets…</l>
           </sp>
           <sp who="mascarille" xml:id="III04-52">
             <speaker>mascarille</speaker>
@@ -2759,12 +2771,12 @@
             <l>Cessons pour quelque temps le cours de nos intrigues,</l>
             <l>Et de nous tourmenter de même qu’un lutin :</l>
             <l n="1150">Léandre, pour nous nuire, est hors de garde enfin,</l>
-            <l>Et Célie, arrêtée avecque l’artifice …</l>
+            <l>Et Célie, arrêtée avecque l’artifice…</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="III05">
           <head>SCÈNE V.</head>
-          <stage>ERGASTE, MASCARILLE.</stage>
+          <stage>Ergaste, Mascarille.</stage>
           <sp who="ergaste" xml:id="III05-1">
             <speaker>ergaste</speaker>
             <l>Je te cherchais partout pour te rendre un service,</l>
@@ -2790,7 +2802,7 @@
             <l>Pour enlever Célie, et j’en suis averti,</l>
             <l>Qu’il a mis ordre à tout, et qu’il se persuade</l>
             <l n="1160">D’entrer chez Trufaldin par une mascarade,</l>
-            <l>Ayant su qu’en ce temps, assez souvent le soir,</l>
+            <l>Ayant su qu’en ce temps assez souvent le soir,</l>
             <l>Des femmes du Quartier en masque l’allaient voir.</l>
           </sp>
           <sp who="mascarille" xml:id="III05-6">
@@ -2803,11 +2815,11 @@
             <l>Adieu, nous boirons pinte à la première vue.</l>
             <l>Il faut, il faut tirer à nous ce que d’heureux</l>
             <l n="1170">Pourrait avoir en soi ce projet amoureux,</l>
-            <l>Et par une surprise adroite, et non commune,</l>
+            <l>Et par une surprise adroite et non commune,</l>
             <l>Sans courir le danger en tenter la fortune :</l>
             <l>Si je vais me masquer pour devancer ses pas,</l>
             <l>Léandre assurément ne nous bravera pas ;</l>
-            <l n="1175">Et là, premier que lui, si nous faisons la prise,</l>
+            <l n="1175">Et là premier que lui, si nous faisons la prise,</l>
             <l>Il aura fait pour nous les frais de l’entreprise ;</l>
             <l>Puisque par son dessein déjà presque éventé,</l>
             <l>Le soupçon tombera toujours de son côté,</l>
@@ -2818,7 +2830,7 @@
             <l>Allons donc nous masquer avec quelques bons frères,</l>
             <l>Pour prévenir nos gens, il ne faut tarder guères.</l>
             <l n="1185">Je sais où gît le lièvre, et me puis sans travail</l>
-            <l>Fournir en un moment d’hommes et d’attirail ;</l>
+            <l>Fournir en un moment d’hommes, et d’attirail ;</l>
             <l>Croyez que je mets bien mon adresse en usage,</l>
             <l>Si j’ai reçu du Ciel les fourbes en partage,</l>
             <l>Je ne suis point au rang de ces esprits mal nés</l>
@@ -2827,7 +2839,7 @@
         </div2>
         <div2 type="scene" xml:id="III06">
           <head>SCÈNE VI.</head>
-          <stage>LÉLIE, ERGASTE.</stage>
+          <stage>Lélie, Ergaste.</stage>
           <sp who="lelie" xml:id="III06-1">
             <speaker>lélie</speaker>
             <l>Il prétend l’enlever avec sa mascarade ?</l>
@@ -2848,7 +2860,7 @@
             <l n="1200">Va, je reconnaîtrai ce service fidèle ;</l>
             <l>Mon drôle assurément leur jouera quelque trait :</l>
             <l>Mais je veux de ma part seconder son projet :</l>
-            <l>Il ne sera pas dit qu’en un fait qui me touche,</l>
+            <l>Il ne sera pas dit, qu’en un fait qui me touche,</l>
             <l>Je ne me sois non plus remué qu’une souche ;</l>
             <l n="1205">Voici l’heure, ils seront surpris à mon aspect,</l>
             <l>Foin, que n’ai-je avec moi pris mon porte‑respect ;</l>
@@ -2859,7 +2871,7 @@
         </div2>
         <div2 type="scene" xml:id="III07">
           <head>SCÈNE VII.</head>
-          <stage>LÉLIE, TRUFALDIN.</stage>
+          <stage>Lélie, Trufaldin.</stage>
           <sp who="trufaldin" xml:id="III07-1">
             <speaker>trufaldin</speaker>
             <l>Qu’est-ce ? qui me vient voir ?</l>
@@ -2893,7 +2905,7 @@
         </div2>
         <div2 type="scene" xml:id="III08">
           <head>SCÈNE VIII.</head>
-          <stage>LÉLIE, TRUFALDIN, MASCARILLE masqué.</stage>
+          <stage>Lélie, Trufaldin, Mascarille <hi rend="i">masqué</hi>.</stage>
           <sp who="trufaldin" xml:id="III08-1">
             <speaker>trufaldin</speaker>
             <l>Oh ! les plaisants robins qui pensent me surprendre !</l>
@@ -2947,7 +2959,7 @@
             <l>Ah ! si ton cœur pour moi n’est de bronze, ou de fer,</l>
             <l>Qu’encore un coup, du moins, mon imprudence ait grâce</l>
             <l n="1240">S’il faut pour l’obtenir que tes genoux j’embrasse,</l>
-            <l>Vois-moi …</l>
+            <l>Vois-moi…</l>
           </sp>
           <sp who="mascarille" xml:id="III08-11">
             <speaker>mascarille</speaker>
@@ -2957,7 +2969,7 @@
         </div2>
         <div2 type="scene" xml:id="III09">
           <head>SCÈNE IX.</head>
-          <stage>LÉANDRE, masqué, et sa suite, TRUFALDIN.</stage>
+          <stage>Léandre, <hi rend="i">masqué, et sa suite,</hi> Trufaldin.</stage>
           <sp who="leandre" xml:id="III09-1">
             <speaker>léandre</speaker>
             <l>Sans bruit ; ne faisons rien que de la bonne sorte.</l>
@@ -2986,7 +2998,7 @@
         <head>ACTE IV.</head>
         <div2 type="scene" xml:id="IV01">
           <head>SCÈNE PREMIÈRE.</head>
-          <stage>LÉLIE, MASCARILLE.</stage>
+          <stage>Lélie, Mascarille.</stage>
           <sp who="mascarille" xml:id="IV01-1">
             <speaker>mascarille</speaker>
             <l n="1255">Vous voilà fagoté d’une plaisante sorte.</l>
@@ -3002,7 +3014,7 @@
           </sp>
           <sp who="lelie" xml:id="IV01-4">
             <speaker>lélie</speaker>
-            <l>Aussi, crois si jamais je suis dans la puissance,</l>
+            <l>Aussi, crois, si jamais je suis dans la puissance,</l>
             <l n="1260">Que tu seras content de ma reconnaissance ;</l>
             <l>Et, que, quand je n’aurais qu’un seul morceau de pain…</l>
           </sp>
@@ -3074,7 +3086,7 @@
             <l>Voyez-vous ? vous avez la caboche un peu dure :</l>
             <l>Rendez-vous affermi dessus cette aventure.</l>
             <l>Autrefois Trufaldin de Naples est sorti,</l>
-            <l n="1310">Et s’appelait alors Zanobio Ruberti :</l>
+            <l n="1310">Et s’appelait alors <hi rend="i">Zanobio Ruberti</hi> :</l>
             <l>Un parti qui causa quelque émeute civile,</l>
             <l>Dont il fut seulement soupçonné dans sa ville,</l>
             <l>De fait, il n’est pas homme à troubler un État,</l>
@@ -3096,7 +3108,7 @@
             <l>Voilà l’histoire en gros, redite seulement,</l>
             <l n="1330">Afin de vous servir ici de fondement.</l>
             <l>Maintenant, vous serez un marchand d’Arménie,</l>
-            <l>Qui les aurez vus sains 1’un et l’autre en Turquie.</l>
+            <l>Qui les aurez vus sains l’un et l’autre en Turquie.</l>
             <l>Si j’ai plutôt qu’aucun, un tel moyen trouvé,</l>
             <l>Pour les ressusciter sur ce qu’il a rêvé ;</l>
             <l n="1335">C’est qu’en fait d’aventure, il est très ordinaire,</l>
@@ -3120,7 +3132,7 @@
           </sp>
           <sp who="mascarille" xml:id="IV01-13">
             <speaker>mascarille</speaker>
-            <l n="1350">Je m’en vais là -dedans donner le premier trait.</l>
+            <l n="1350">Je m’en vais là-dedans donner le premier trait.</l>
           </sp>
           <sp who="lelie" xml:id="IV01-14">
             <speaker>lélie</speaker>
@@ -3131,7 +3143,7 @@
             <speaker>mascarille</speaker>
             <l>Belle difficulté ! devez-vous pas savoir</l>
             <l>Qu’il était fort petit alors qu’il l’a pu voir ;</l>
-            <l n="1355">Et puis, outre cela, le temps et l’esclavage</l>
+            <l n="1355">Et puis, outre cela, le temps et l’esclavage,</l>
             <l>Pourraient-ils pas avoir changé tout son visage ?</l>
           </sp>
           <sp who="lelie" xml:id="IV01-16">
@@ -3171,7 +3183,7 @@
           </sp>
           <sp who="mascarille" xml:id="IV01-23">
             <speaker>mascarille</speaker>
-            <l n="1370">Au moins, soyez prudent, et vous conduisez bien :</l>
+            <l n="1370">Au moins, soyez prudent, et vous conduisez bien ;</l>
             <l>Ne donnez point ici de l’imaginative.</l>
           </sp>
           <sp who="lelie" xml:id="IV01-24">
@@ -3187,14 +3199,14 @@
           <sp who="lelie" xml:id="IV01-26">
             <speaker>lélie</speaker>
             <l>Ah ! c’est me faire honte,</l>
-            <l n="1375">Que de me tant prêcher : suis-je un sot à ton conte ?</l>
+            <l n="1375">Que de me tant prêcher ; suis-je un sot à ton compte ?</l>
           </sp>
           <sp who="mascarille" xml:id="IV01-27">
             <speaker>mascarille</speaker>
             <l>Non pas du tout ; mais bien quelque chose approchant.</l>
           </sp>
-          <sp who="lelie-seul" xml:id="IV01-28">
-            <speaker>lélie seul</speaker>
+          <sp who="lelie" xml:id="IV01-28">
+            <speaker>lélie <hi rend="i">seul</hi></speaker>
             <l>Quand il m’est inutile, il fait le chien couchant :</l>
             <l>Mais, parce qu’il sent bien le secours qu’il me donne,</l>
             <l n="1380">Sa familiarité jusque-là s’abandonne.</l>
@@ -3202,12 +3214,12 @@
             <l>Dont la force m’impose un joug si précieux ;</l>
             <l>Je m’en vais sans obstacle, avec des traits de flamme,</l>
             <l>Peindre à cette beauté les tourments de mon âme ;</l>
-            <l n="1385">Je saurai quel arrêt je dois    … mais les voici.</l>
+            <l n="1385">Je saurai quel arrêt je dois… mais les voici.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV02">
           <head>SCÈNE II.</head>
-          <stage>TRUFALDIN, LÉLIE, MASCARILLE.</stage>
+          <stage>Trufaldin, Lélie, Mascarille.</stage>
           <sp who="trufaldin" xml:id="IV02-1">
             <speaker>trufaldin</speaker>
             <l>Sois béni, juste Ciel ! de mon sort adouci.</l>
@@ -3220,7 +3232,7 @@
           <sp who="trufaldin" xml:id="IV02-3">
             <speaker>trufaldin</speaker>
             <l>Quelle grâce, quels biens vous rendrai-je, Seigneur ?</l>
-            <l n="1390">Vous, que je dois nommer l’Ange de mon bonheur. ?</l>
+            <l n="1390">Vous, que je dois nommer l’Ange de mon bonheur.</l>
           </sp>
           <sp who="lelie" xml:id="IV02-4">
             <speaker>lélie</speaker>
@@ -3272,7 +3284,7 @@
             <speaker>mascarille</speaker>
             <l>Le sang, bien autrement, conserve cette image ;</l>
             <l n="1405">Par des traits si profonds, ce portrait est tracé,</l>
-            <l>Que mon père …</l>
+            <l>Que mon père…</l>
           </sp>
           <sp who="trufaldin" xml:id="IV02-15">
             <speaker>trufaldin</speaker>
@@ -3294,8 +3306,8 @@
             <l n="1410">Et c’est en effet là qu’il laissa votre fils :</l>
             <l>Mais les Arméniens ont tous une habitude,</l>
             <l>Certain vice de langue à nous autres fort rude ;</l>
-            <l>C’est que dans tous les mots, ils changent nis en rin,</l>
-            <l>Et pour dire Tunis, ils prononcent Turin.</l>
+            <l>C’est que dans tous les mots, ils changent <hi rend="i">nis</hi> en <hi rend="i">rin</hi>,</l>
+            <l>Et pour dire <hi rend="i">Tunis</hi>, ils prononcent <hi rend="i">Turin</hi>.</l>
           </sp>
           <sp who="trufaldin" xml:id="IV02-19">
             <speaker>trufaldin</speaker>
@@ -3361,7 +3373,7 @@
           <sp who="trufaldin" xml:id="IV02-32">
             <speaker>trufaldin</speaker>
             <l>Je voudrais bien savoir de vous leur aventure ;</l>
-            <l>Sur quel vaisseau le sort qui m’a su travailler …</l>
+            <l>Sur quel vaisseau le sort qui m’a su travailler…</l>
           </sp>
           <sp who="mascarille" xml:id="IV02-33">
             <speaker>mascarille</speaker>
@@ -3396,7 +3408,7 @@
             <speaker>lélie</speaker>
             <l n="1445">D’abord il m’a surpris :</l>
             <l>Mais n’appréhende plus, je reprends mes esprits,</l>
-            <l>Et m’en vais débiter avecque hardiesse ……</l>
+            <l>Et m’en vais débiter avecque hardiesse…</l>
           </sp>
           <sp who="mascarille" xml:id="IV02-40">
             <speaker>mascarille</speaker>
@@ -3405,7 +3417,7 @@
         </div2>
         <div2 type="scene" xml:id="IV03">
           <head>SCÈNE III.</head>
-          <stage>LÉANDRE, ANSELME.</stage>
+          <stage>Léandre, Anselme.</stage>
           <sp who="anselme" xml:id="IV03-1">
             <speaker>anselme</speaker>
             <l>Arrêtez-vous, Léandre, et souffrez un discours,</l>
@@ -3426,7 +3438,7 @@
             <l>De qui le noble emploi n’est qu’un métier de gueuse ?</l>
             <l n="1465">J’en ai rougi pour vous, encor plus que pour moi,</l>
             <l>Qui me trouve compris dans l’éclat que je vois,</l>
-            <l>Moi, dis-je, donc la fille, à vos ardeurs promise,</l>
+            <l>Moi, dis-je, dont la fille à vos ardeurs promise,</l>
             <l>Ne peut sans quelque affront souffrir qu’on la méprise.</l>
             <l>Ah ! Léandre, sortez de cet abaissement ;</l>
             <l n="1470">Ouvrez un peu les yeux sur votre aveuglement :</l>
@@ -3464,7 +3476,7 @@
         </div2>
         <div2 type="scene" xml:id="IV04">
           <head>SCÈNE IV.</head>
-          <stage>LÉLIE, MASCARILLE.</stage>
+          <stage>Lélie, Mascarille.</stage>
           <sp who="mascarille" xml:id="IV04-1">
             <speaker>mascarille</speaker>
             <l>Bientôt de notre fourbe on verra le débris,</l>
@@ -3479,7 +3491,7 @@
           <sp who="mascarille" xml:id="IV04-3">
             <speaker>mascarille</speaker>
             <l>Coussi, coussi ;</l>
-            <l>Témoin les Turcs, par vous appelés hérétiques,</l>
+            <l>Témoin les Turcs par vous appelés hérétiques,</l>
             <l n="1500">Et que vous assurez, par serments authentiques,</l>
             <l>Adorer pour leurs Dieux la Lune, et le Soleil.</l>
             <l>Passe : ce qui me donne un dépit nonpareil,</l>
@@ -3539,12 +3551,12 @@
             <l n="1540">Dont tu ne ressens point les agréables causes !</l>
             <l>Je veux bien néanmoins, pour te plaire une fois,</l>
             <l>Faire force à l’amour qui m’impose des lois :</l>
-            <l>Désormais .…</l>
+            <l>Désormais…</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV05">
           <head>SCÈNE V.</head>
-          <stage>LÉLIE, MASCARILLE, TRUFALDIN.</stage>
+          <stage>Lélie, Mascarille, Trufaldin.</stage>
           <sp who="mascarille" xml:id="IV05-1">
             <speaker>mascarille</speaker>
             <l>Nous parlions des fortunes d’Horace.</l>
@@ -3565,17 +3577,17 @@
           <sp who="mascarille" xml:id="IV05-5">
             <speaker>mascarille</speaker>
             <l>Non : mais si vous voulez je ne tarderai guère,</l>
-            <l>Sans doute, à le savoir.</l>
+            <l>Sans doute à le savoir.</l>
           </sp>
           <sp who="trufaldin" xml:id="IV05-6">
             <speaker>trufaldin</speaker>
             <l>D’un chêne grand et fort,</l>
             <l n="1550">Dont près de deux cents ans ont fait déjà le sort,</l>
             <l>Je viens de détacher une branche admirable,</l>
-            <l>Choisie expressément de grosseur raisonnable,</l>
+            <l>Choisie expressément, de grosseur raisonnable,</l>
             <l>Dont j’ai fait sur-le-champ avec beaucoup d’ardeur,</l>
             <l>Un bâton à peu près… oui, de cette grandeur ;</l>
-            <l>Moins gros par 1’un des bouts, mais plus que trente gaules    1555</l>
+            <l>Moins gros par l’un des bouts, mais plus que trente gaules</l>
             <l>Propre, comme je pense, à rosser les épaules ;</l>
             <l>Car il est bien en main, vert, noueux et massif.</l>
           </sp>
@@ -3627,7 +3639,7 @@
         </div2>
         <div2 type="scene" xml:id="IV06">
           <head>SCÈNE VI.</head>
-          <stage>LÉLIE, TRUFALDIN, MASCARILLE.</stage>
+          <stage>Lélie, Trufaldin, Mascarille.</stage>
           <sp who="trufaldin" xml:id="IV06-1">
             <speaker>trufaldin</speaker>
             <l n="1580">Un mot, je vous supplie.</l>
@@ -3650,7 +3662,7 @@
           <sp who="mascarille" xml:id="IV06-5">
             <speaker>mascarille</speaker>
             <l n="1585">C’est ainsi</l>
-            <l>Que les fourbes …</l>
+            <l>Que les fourbes…</l>
           </sp>
           <sp who="lelie" xml:id="IV06-6">
             <speaker>lélie</speaker>
@@ -3750,7 +3762,7 @@
             <l>Qu’on ne vous verra point vouloir venger sur moi ;</l>
             <l>Soit, ou directement, ou par quelque autre voie,</l>
             <l>Les coups sur votre râble assenés avec joie,</l>
-            <l n="1625">Je vous promets, aidé par le poste où je suis,</l>
+            <l n="1625">Je vous promets aidé par le poste où je suis,</l>
             <l>De contenter vos vœux avant qu’il soit deux nuits.</l>
           </sp>
           <sp who="lelie" xml:id="IV06-25">
@@ -3797,7 +3809,7 @@
             <l>Quoi ! vous n’êtes pas loin ! sortez vite d’ici ;</l>
             <l>Mais, surtout, gardez‑vous de prendre aucun souci :</l>
             <l>Puisque je fais pour vous, que cela vous suffise ;</l>
-            <l n="1640">N’aidez point mon projet de la moindre entreprise …</l>
+            <l n="1640">N’aidez point mon projet de la moindre entreprise…</l>
             <l>Demeurez en repos.</l>
           </sp>
           <sp who="lelie" xml:id="IV06-35">
@@ -3811,7 +3823,7 @@
         </div2>
         <div2 type="scene" xml:id="IV07">
           <head>SCÈNE VII.</head>
-          <stage>ERGASTE, MASCARILLE.</stage>
+          <stage>Ergaste, Mascarille.</stage>
           <sp who="ergaste" xml:id="IV07-1">
             <speaker>ergaste</speaker>
             <l>Mascarille, je viens te dire une nouvelle,</l>
@@ -3839,7 +3851,7 @@
             <l>Je crois que je pourrai retarder leur départ,</l>
             <l>Et me donner le temps qui sera nécessaire,</l>
             <l>Pour tâcher de finir cette fameuse affaire.</l>
-            <l n="1665">Il s’est fait un grand vol, par qui, l’on n’en sait rien;</l>
+            <l n="1665">Il s’est fait un grand vol, par qui, l’on n’en sait rien ;</l>
             <l>Eux autres rarement passent pour gens de bien :</l>
             <l>Je veux adroitement sur un soupçon frivole,</l>
             <l>Faire pour quelques jours emprisonner ce drôle ;</l>
@@ -3857,7 +3869,7 @@
         <head>ACTE V.</head>
         <div2 type="scene" xml:id="V01">
           <head>SCÈNE PREMIÈRE.</head>
-          <stage>MASCARILLE, ERGASTE.</stage>
+          <stage>Mascarille, Ergaste.</stage>
           <sp who="mascarille" xml:id="V01-1">
             <speaker>mascarille</speaker>
             <l n="1675">Ah chien ! ah double chien ! mâtine de cervelle,</l>
@@ -3869,9 +3881,9 @@
             <l>Ton affaire allait bien, le drôle était coffré,</l>
             <l>Si ton Maître au moment ne fût venu lui-même,</l>
             <l n="1680">En vrai désespéré, rompre ton stratagème :</l>
-            <l><hi rend="i">Je</hi> ne saurais souffrir, a-t-il dit hautement,</l>
-            <l>Qu’un honnête homme soit traîné honteusement ;</l>
-            <l>J’en réponds sur sa mine, et je le cautionne :</l>
+            <l><hi rend="i">Je ne saurais souffrir,</hi> a-t-il dit hautement,</l>
+            <l rend="i">Qu’un honnête homme soit traîné honteusement ;</l>
+            <l rend="i">J’en réponds sur sa mine, et je le cautionne :</l>
             <l>Et comme on résistait à lâcher sa personne,</l>
             <l n="1685">D’abord il a chargé si bien sur les recors,</l>
             <l>Qui sont gens d’ordinaire à craindre pour leurs corps,</l>
@@ -3910,7 +3922,7 @@
         </div2>
         <div2 type="scene" xml:id="V02">
           <head>SCÈNE II.</head>
-          <stage>CÉLIE, ANDRÈS.</stage>
+          <stage>Célie, Andrès.</stage>
           <sp who="andres" xml:id="V02-1">
             <speaker>andrès</speaker>
             <l>Vous le savez, Célie, il n’est rien que mon cœur</l>
@@ -4046,7 +4058,7 @@
         </div2>
         <div2 type="scene" xml:id="V04">
           <head>SCÈNE IV.</head>
-          <stage>LÉLIE, ANDRÈS.</stage>
+          <stage>Lélie, Andrès.</stage>
           <sp who="lelie" xml:id="V04-1">
             <speaker>lélie</speaker>
             <l>Quel que soit le transport d’une âme impatiente,</l>
@@ -4146,7 +4158,7 @@
         </div2>
         <div2 type="scene" xml:id="V05">
           <head>SCÈNE V.</head>
-          <stage>MASCARILLE, LÉLIE, ANDRÈS.</stage>
+          <stage>Mascarille, Lélie, Andrès.</stage>
           <sp who="mascarille" xml:id="V05-1">
             <speaker>mascarille</speaker>
             <l>Hé bien ! ne voilà pas mon enragé de maître !</l>
@@ -4235,8 +4247,9 @@
         </div2>
         <div2 type="scene" xml:id="V06">
           <head>SCÈNE VI.</head>
-          <sp who="celie" xml:id="V06-1">
-            <speaker>célie, mascarille, lélie, andrès</speaker>
+          <stage>Célie, Mascarille, Lélie, Andrès</stage>
+          <sp who="andres" xml:id="V06-1">
+            <speaker>andrès</speaker>
             <l>N’est-ce pas là l’objet dont vous m’avez parlé ?</l>
           </sp>
           <sp who="lelie" xml:id="V06-2">
@@ -4287,7 +4300,7 @@
         </div2>
         <div2 type="scene" xml:id="V07">
           <head>SCÈNE VII.</head>
-          <stage>MASCARILLE, CÉLIE.</stage>
+          <stage>Mascarille, Célie.</stage>
           <sp who="celie" xml:id="V07-1">
             <speaker>célie</speaker>
             <l>Quoi que tu veuilles dire, et que l’on se propose,</l>
@@ -4323,7 +4336,7 @@
         </div2>
         <div2 type="scene" xml:id="V08">
           <head>SCÈNE VIII.</head>
-          <stage>CÉLIE, HIPPOLYTE.</stage>
+          <stage>Célie, Hippolyte.</stage>
           <sp who="hippolyte" xml:id="V08-1">
             <speaker>hippolyte</speaker>
             <l>Depuis votre séjour, les Dames de ces lieux</l>
@@ -4378,7 +4391,7 @@
         </div2>
         <div2 type="scene" xml:id="V09">
           <head>SCÈNE IX.</head>
-          <stage>MASCARILLE, CÉLIE, HIPPOLYTE.</stage>
+          <stage>Mascarille, Célie, Hippolyte.</stage>
           <sp who="mascarille" xml:id="V09-1">
             <speaker>mascarille</speaker>
             <l>Grande ! grande nouvelle, et succès surprenant !</l>
@@ -4416,7 +4429,7 @@
             <l n="1940">Ne faisait voir en l’air que quatre griffes sèches ;</l>
             <l>Dont ces deux combattants s’efforçaient d’arracher,</l>
             <l>Ce peu que sur leurs os les ans laissent de chair :</l>
-            <l>On n’entend que ces mots, chienne, louve, bagace ;</l>
+            <l>On n’entend que ces mots, <hi rend="i">chienne, louve, bagace</hi> ;</l>
             <l>D’abord leurs scoffions ont volé par la place,</l>
             <l n="1945">Et laissant voir à nu deux têtes sans cheveux,</l>
             <l>Ont rendu le combat risiblement affreux.</l>
@@ -4430,48 +4443,48 @@
             <l>Celle qui la première avait fait la rumeur,</l>
             <l n="1955">Malgré la passion dont elle était émue,</l>
             <l>Ayant sur Trufaldin tenu longtemps la vue ;</l>
-            <l><hi rend="i">C</hi>’est vous, si quelque erreur n’abuse ici mes yeux,</l>
-            <l>Qu’on m<hi rend="i">'</hi>a dit qui viviez inconnu dans ces lieux,</l>
+            <l rend="i">C’est vous, si quelque erreur n’abuse ici mes yeux,</l>
+            <l rend="i">Qu’on m'a dit qui viviez inconnu dans ces lieux,</l>
             <l>A-t-elle dit tout haut : oh ! rencontre opportune !</l>
-            <l n="1960">Oui, <hi rend="i">S</hi>eigneur Zanobio Ruberti, la fortune</l>
-            <l>Me fait vous reconnaître, et dans le même instant,</l>
-            <l>Que pour votre intérêt je me tourmentais tant :</l>
-            <l>Lorsque Naples vous vit quitter votre famille,</l>
-            <l>J’avais, vous le savez, en mes mains votre fille,</l>
-            <l n="1965">Dont j’élevais l’enfance, et qui par mille traits</l>
-            <l>Faisait voir dès quatre ans sa grâce et ses attraits ;<hi rend="i"/></l>
-            <l>Celle que vous voyez, cette infâme sorcière,</l>
-            <l>Dedans notre maison se rendant familière,</l>
-            <l>Me vola ce trésor. Hélas ! <hi rend="i">d</hi>e ce malheur</l>
-            <l n="1970">Votre femme, je crois, conçut tant de douleur,</l>
-            <l>Que cela servit fort pour avancer sa vie :</l>
-            <l>Si bien qu’entre mes mains cette fille ravie,</l>
-            <l>Me faisant redouter un reproche fâcheux,</l>
-            <l>Je vous fis annoncer la mort de toutes deux :</l>
-            <l n="1975">Mais il faut maintenant, puisque je l’ai connue,</l>
-            <l>Qu’elle fasse savoir ce qu’elle est devenue ;</l>
+            <l n="1960" rend="i">Oui, Seigneur Zanobio Ruberti, la fortune</l>
+            <l rend="i">Me fait vous reconnaître, et dans le même instant,</l>
+            <l rend="i">Que pour votre intérêt je me tourmentais tant :</l>
+            <l rend="i">Lorsque Naples vous vit quitter votre famille,</l>
+            <l rend="i">J’avais, vous le savez, en mes mains votre fille,</l>
+            <l n="1965" rend="i">Dont j’élevais l’enfance, et qui par mille traits</l>
+            <l rend="i">Faisait voir dès quatre ans sa grâce et ses attraits ;</l>
+            <l rend="i">Celle que vous voyez, cette infâme sorcière,</l>
+            <l rend="i">Dedans notre maison se rendant familière,</l>
+            <l rend="i">Me vola ce trésor. Hélas ! <hi rend="i">d</hi>e ce malheur</l>
+            <l n="1970" rend="i">Votre femme, je crois, conçut tant de douleur,</l>
+            <l rend="i">Que cela servit fort pour avancer sa vie :</l>
+            <l rend="i">Si bien qu’entre mes mains cette fille ravie,</l>
+            <l rend="i">Me faisant redouter un reproche fâcheux,</l>
+            <l rend="i">Je vous fis annoncer la mort de toutes deux :</l>
+            <l n="1975" rend="i">Mais il faut maintenant, puisque je l’ai connue,</l>
+            <l rend="i">Qu’elle fasse savoir ce qu’elle est devenue ;</l>
             <l>Au nom de Zanobio Ruberti, que sa voix,</l>
             <l>Pendant tout ce récit répétait plusieurs fois :</l>
             <l>Andrès, ayant changé quelque temps de visage,</l>
-            <l n="1980">À Trufaldin surpris, a tenu ce langage.</l>
-            <l>Quoi donc ! <hi rend="i">le Ciel</hi> me fait trouver heureusement,</l>
-            <l>Celui que jusqu’ici j’ai cherché vainement !<hi rend="i"/></l>
-            <l>Et que j’avais pu voir, sans pourtant reconnaître</l>
-            <l>La source de mon sang, et l’auteur de mon être !</l>
-            <l n="1985">Oui, mon père, je suis Horace votre fils,</l>
-            <l>D’Albert, qui me gardait, les jours étant finis,</l>
-            <l>Me sentant naître au cœur d’autres inquiétudes,</l>
-            <l>Je sortis de Bologne, et quittant mes études,</l>
-            <l>Portai durant six ans mes pas en divers lieux,</l>
-            <l n="1990">Selon que me poussait un désir curieux ;<hi rend="i"/></l>
-            <l>Pourtant, après ce temps, une secrète envie</l>
-            <l>Me pressa de revoir les miens, et ma patrie ;<hi rend="i"/></l>
-            <l>Mais dans Naples, hélas ! <hi rend="i">j</hi>e ne vous trouvai plus,</l>
-            <l>Et n’y sus votre sort que par des bruits confus :</l>
-            <l n="1995">Si bien, qu<hi rend="i">'</hi>à votre quête ayant perdu mes peines,</l>
-            <l>Venise pour un temps borna mes courses vaines ;</l>
-            <l>Et j<hi rend="i">'</hi>ai vécu depuis, sans que de ma maison,</l>
-            <l>J’eusse d’autres clartés que d’en savoir le nom.</l>
+            <l n="1980" rend="i">À Trufaldin surpris, a tenu ce langage.</l>
+            <l rend="i">Quoi donc ! le Ciel me fait trouver heureusement,</l>
+            <l rend="i">Celui que jusqu’ici j’ai cherché vainement !</l>
+            <l rend="i">Et que j’avais pu voir, sans pourtant reconnaître</l>
+            <l rend="i">La source de mon sang, et l’auteur de mon être !</l>
+            <l n="1985" rend="i">Oui, mon père, je suis Horace votre fils,</l>
+            <l rend="i">D’Albert, qui me gardait, les jours étant finis,</l>
+            <l rend="i">Me sentant naître au cœur d’autres inquiétudes,</l>
+            <l rend="i">Je sortis de Bologne, et quittant mes études,</l>
+            <l rend="i">Portai durant six ans mes pas en divers lieux,</l>
+            <l n="1990" rend="i">Selon que me poussait un désir curieux ;</l>
+            <l rend="i">Pourtant, après ce temps, une secrète envie</l>
+            <l rend="i">Me pressa de revoir les miens, et ma patrie ;</l>
+            <l rend="i">Mais dans Naples, hélas ! je ne vous trouvai plus,</l>
+            <l rend="i">Et n’y sus votre sort que par des bruits confus :</l>
+            <l n="1995" rend="i">Si bien, qu'à votre quête ayant perdu mes peines,</l>
+            <l rend="i">Venise pour un temps borna mes courses vaines ;</l>
+            <l rend="i">Et j'ai vécu depuis, sans que de ma maison,</l>
+            <l rend="i">J’eusse d’autres clartés que d’en savoir le nom.</l>
             <l>Je vous laisse à juger, si pendant ces affaires,</l>
             <l n="2000">Trufaldin ressentait des transports ordinaires.</l>
             <l>Enfin, pour retrancher ce que plus à loisir,</l>
@@ -4510,7 +4523,7 @@
         </div2>
         <div2 type="scene" xml:id="V10">
           <head>SCÈNE X.</head>
-          <stage>TRUFALDIN, ANSELME, PANDOLFE, ANDRÈS, CÉLIE, HIPPOLYTE, LÉANDRE.</stage>
+          <stage>Trufaldin, Anselme, Pandolfe, Andrès, Célie, Hippolyte, Léandre.</stage>
           <sp who="trufaldin" xml:id="V10-1">
             <speaker>trufaldin</speaker>
             <l> Ah ! ma fille.</l>
@@ -4527,8 +4540,8 @@
             <speaker>célie</speaker>
             <l n="2025">Je viens d’entendre ici ce succès merveilleux.</l>
           </sp>
-          <sp who="hippolyte-a-leandre" xml:id="V10-5">
-            <speaker>hippolyte à léandre</speaker>
+          <sp who="hippolyte" xml:id="V10-5">
+            <speaker>hippolyte <hi rend="i">à léandre</hi></speaker>
             <l>En vain vous parleriez pour excuser vos feux,</l>
             <l>Si j’ai devant les yeux ce que vous pouvez dire.</l>
           </sp>
@@ -4538,8 +4551,8 @@
             <l>Mais j’atteste les Cieux, qu’en ce retour soudain</l>
             <l n="2030">Mon père fait bien moins que mon propre dessein.</l>
           </sp>
-          <sp who="andres-a-celie" xml:id="V10-7">
-            <speaker>andrès à célie</speaker>
+          <sp who="andres" xml:id="V10-7">
+            <speaker>andrès <hi rend="i">à célie</hi></speaker>
             <l>Qui l’aurait jamais cru que cette ardeur si pure,</l>
             <l>Pût être condamnée un jour par la nature ?</l>
             <l>Toutefois, tant d’honneur la sut toujours régir,</l>
@@ -4567,7 +4580,7 @@
         </div2>
         <div2 type="scene" xml:id="V11">
           <head>SCÈNE XI.</head>
-          <stage>TRUFALDIN, MASCARILLE, LÉLIE, ANSELME, PANDOLFE, CÉLIE, ANDRÈS, HIPPOLYTE, LÉANDRE</stage>
+          <stage>Trufaldin, Mascarille, Lélie, Anselme, Pandolfe, Célie, Andrès, Hippolyte, Léandre</stage>
           <sp who="mascarille" xml:id="V11-1">
             <speaker>mascarille</speaker>
             <l n="2045">Voyons si votre diable aura bien le pouvoir</l>
@@ -4593,8 +4606,8 @@
             <speaker>andrès</speaker>
             <l>Je m’acquitte par là de ce que je vous dois.</l>
           </sp>
-          <sp who="lelie-a-mascarille" xml:id="V11-6">
-            <speaker>lélie à mascarille</speaker>
+          <sp who="lelie" xml:id="V11-6">
+            <speaker>lélie <hi rend="i">à mascarille</hi></speaker>
             <l>Il faut que je t’embrasse, et mille et mille fois,</l>
             <l>Dans cette joie…</l>
           </sp>
@@ -4605,8 +4618,8 @@
             <l>Si vous la caressez avec tant de transport :</l>
             <l>De vos embrassements on se passerait fort.</l>
           </sp>
-          <sp who="trufaldin-a-lelie" xml:id="V11-8">
-            <speaker>trufaldin à lélie</speaker>
+          <sp who="trufaldin" xml:id="V11-8">
+            <speaker>trufaldin <hi rend="i">à lélie</hi></speaker>
             <l>Vous savez le bonheur que le Ciel me renvoie ;</l>
             <l n="2060">Mais puisqu’un même jour nous met tous dans la joie,</l>
             <l>Ne nous séparons point qu’il ne soit terminé,</l>
@@ -4632,8 +4645,5 @@
         </div2>
       </div1>
     </body>
-    <back>
-      <div><head>Extrait du Privilège du Roy</head><p>Par Grâce &amp; privilège du Roy, donné à Paris, le dernier iour de Mai 1660. Signé le Iuge: Il est permis au sieur MOLIER de faire imprimer une Pièce de Théâtre par luy composée, intitulée <hi rend="i">L’Étourdi</hi> , ou  <hi rend="i">les Contretemps</hi> , pendant l’espace de cinq années, à commencer du jour que ledit Livre sera achevé d’imprimer : Et défenses sont faites à tous autres de l’imprimer, ainsi qu’il est porté plus amplement par ledit Privilège.</p><p>Et ledit Sieur Molier a cédé &amp; transporté son droit du Privilège à CLAUDE BARBIN et GABRIEL QUINET, Marchands Libraires à Paris, pour en jouir le temps porté par icelui.</p><p>Achevé d’imprimer pour la première fois, le vingt et un Novembre 1662.</p><p>Registré sur le Livre de la Communauté, le 27 Octobre 1662.</p><p>Signé DUBRAY,</p><p>Syndic</p><p>Les Exemplaires ont été fournis</p></div>
-    </back>
   </text>
 </TEI>
