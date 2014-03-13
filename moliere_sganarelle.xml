@@ -795,13 +795,13 @@
         <div2 type="scene" xml:id="I15">
           <head>SCÈNE XV.</head>
           <stage>Sganarelle, Lélie.</stage>
-          <stage>Lélie donne, sans y penser, le change à Sganarelle dans cette Scène, et ne le surprend pas moins que l’autre a tantôt fait, en lui disant qu’il tenait son portrait des mains de sa femme. Pour mieux juger de la surprise de Sganarelle, vous pouvez lire ces Vers, dont le dernier est placé si à propos, que jamais Pièce entière n’a fait tant d’éclat que ce vers seul.</stage>
-          <sp who="sganarelle-a-part" xml:id="I15-1">
-            <speaker>sganarelle à part</speaker>
+          <p type="argument">Lélie donne, sans y penser, le change à Sganarelle dans cette Scène, et ne le surprend pas moins que l’autre a tantôt fait, en lui disant qu’il tenait son portrait des mains de sa femme. Pour mieux juger de la surprise de Sganarelle, vous pouvez lire ces Vers, dont le dernier est placé si à propos, que jamais Pièce entière n’a fait tant d’éclat que ce vers seul.</p>
+          <sp who="sganarelle" xml:id="I15-1">
+            <speaker>sganarelle <hi rend="i">à part.</hi></speaker>
             <l>Il m’aperçoit, voyons ce qu’il me pourra dire.</l>
           </sp>
-          <sp who="lelie-a-part" xml:id="I15-2">
-            <speaker>lélie à part</speaker>
+          <sp who="lelie" xml:id="I15-2">
+            <speaker>lélie <hi rend="i">à part.</hi></speaker>
             <l>Ah ! mon âme s’émeut et cet objet m’inspire….</l>
             <l>Mais je dois condamner cet injuste transport,</l>
             <l n="340">Et n’imputer mes maux qu’aux rigueurs de mon sort.</l>
@@ -812,23 +812,23 @@
         </div2>
         <div2 type="scene" xml:id="I16">
           <head>SCÈNE XVI.</head>
-          <stage>Sganarelle, Célie, regardant par sa fenêtre aller Lélie.</stage>
-          <p>L’on peut dire que cette Scène en contient deux, puisque Sganarelle fait une espèce de Monologue, pendant que Célie, qui avait vu sortir son Amant d’avec lui, le conduit des yeux, jusqu’à ce qu’elle l’ait perdu de vue, pour voir, elle ne s’est point trompée. Sganarelle, de son côté, regarde aussi en aller Lélie, et fait voir le dépit qu’il a de ne lui avoir pas fait insulte, après l’assurance qu’il croit avoir d’être Cocu de lui. Célie lui ayant laissé jeter la plus grande partie de son feu, s’en approche pour lui demander si celui qui vient de parler ne lui est pas connu ; mais il lui répond avec sa naïveté ordinaire, que c’est sa femme qui le connaît et découvre peu à peu ; mais d’une manière tout à fait agréable, que Lélie le déshonore. C’est ici que l’équivoque divertit merveilleusement l’Auditeur, puisque Célie détestant la perfidie de son Amant, jetant feu et flammes contre lui, et sortant à dessein de s’en venger, Sganarelle croit qu’elle prend sa défense, et qu’elle ne court à dessein de le punir que pour l’amour de lui. Comme les vers de cette scène donnent à l’Auditeur un plaisir extraordinaire, il ne serait pas juste de vous priver de ce contentement, c’est pourquoi en jetant les yeux sur les lignes suivantes, vous pourrez connaître que l’Auteur sait parfaitement bien conduire un équivoque.</p>
-          <sp who="sganarelle-sans-voir-celie" xml:id="I16-1">
-            <speaker>sganarelle sans voir célie</speaker>
+          <stage>Sganarelle, Célie, regardant aller Lélie.</stage>
+          <p type="argument">L’on peut dire que cette Scène en contient deux, puisque Sganarelle fait une espèce de Monologue, pendant que Célie, qui avait vu sortir son Amant d’avec lui, le conduit des yeux, jusqu’à ce qu’elle l’ait perdu de vue, pour voir, elle ne s’est point trompée. Sganarelle, de son côté, regarde aussi en aller Lélie, et fait voir le dépit qu’il a de ne lui avoir pas fait insulte, après l’assurance qu’il croit avoir d’être Cocu de lui. Célie lui ayant laissé jeter la plus grande partie de son feu, s’en approche pour lui demander si celui qui vient de parler ne lui est pas connu ; mais il lui répond avec sa naïveté ordinaire, que c’est sa femme qui le connaît et découvre peu à peu ; mais d’une manière tout à fait agréable, que Lélie le déshonore. C’est ici que l’équivoque divertit merveilleusement l’Auditeur, puisque Célie détestant la perfidie de son Amant, jetant feu et flammes contre lui, et sortant à dessein de s’en venger, Sganarelle croit qu’elle prend sa défense, et qu’elle ne court à dessein de le punir que pour l’amour de lui. Comme les vers de cette scène donnent à l’Auditeur un plaisir extraordinaire, il ne serait pas juste de vous priver de ce contentement, c’est pourquoi en jetant les yeux sur les lignes suivantes, vous pourrez connaître que l’Auteur sait parfaitement bien conduire un équivoque.</p>
+          <sp who="sganarelle" xml:id="I16-1">
+            <speaker>sganarelle <hi rend="bi">sans voir célie.</hi></speaker>
             <l>Ce n’est point s’expliquer en termes ambigus,</l>
             <l>Cet étrange propos me rend aussi confus</l>
             <l n="345">Que s’il m’était venu des cornes à la tête.</l>
             <l>Allez, ce procédé n’est point du tout honnête.</l>
             <stage>Il se tourne du côté que Lélie s’en vient d’en aller.</stage>
           </sp>
-          <sp who="celie-a-part" xml:id="I16-2">
-            <speaker>célie à part</speaker>
+          <sp who="celie" xml:id="I16-2">
+            <speaker>célie <hi rend="i">à part.</hi></speaker>
             <l>Quoi, Lélie a paru tout à l’heure à mes yeux,</l>
             <l>Qui pourrait me cacher son retour en ces lieux ?</l>
           </sp>
-          <sp who="sganarelle-poursuit" xml:id="I16-3">
-            <speaker>sganarelle poursuit</speaker>
+          <sp who="sganarelle" xml:id="I16-3">
+            <speaker>sganarelle <hi rend="i">poursuit.</hi></speaker>
             <l>O ! trop heureux, d’avoir une si belle femme,</l>
             <l n="350">Malheureux bien plutôt de l’avoir, cette infâme,</l>
             <l>Dont le coupable feu trop bien vérifié,</l>
@@ -944,7 +944,7 @@
           </sp>
           <sp who="sganarelle" xml:id="I16-23">
             <speaker>sganarelle</speaker>
-            <stage>. Il soupire haut. </stage>
+            <stage>Il soupire haut.</stage>
             <l>Hay.</l>
           </sp>
           <sp who="celie" xml:id="I16-24">
@@ -976,10 +976,10 @@
         </div2>
         <div2 type="scene" xml:id="I17">
           <head>SCÈNE XVII.</head>
-          <sp who="sganarelle-seul" xml:id="I17-1">
-            <speaker>sganarelle seul</speaker>
-            <stage>Si j’avais tantôt besoin de ces excellents Peintres que je vous ai nommés, pour vous dépeindre le visage de Sganarelle ; j’aurais maintenant besoin et de leur pinceau et de la plume des plus excellents Orateurs pour vous décrire cette Scène. Jamais il ne se vit rien de plus beau, jamais rien de mieux joué, et jamais Vers ne furent si généralement estimés. Sganarelle joue seul dans cette Scène, repassant dans son esprit tout ce que l’on peut dire d’un Cocu, et les raisons pour lesquelles il ne s’en doit pas mettre en peine, s’en démêle si bien, que son raisonnement pourrait en un besoin consoler ceux qui sont de ce nombre. Je vous envoie les Vers de cette Scène, afin que si vous connaissez quelqu’un à votre pays qui soit de la Confrérie dont Sganarelle se croit être, vous le puissiez par-là retirer de la mélancolie où il pourrait s’être plongé.</stage>
-            <p>SGANARELLE <hi rend="i">seul.</hi></p>
+            <stage>sganarelle seul.</stage>
+            <p type="argument">Si j’avais tantôt besoin de ces excellents Peintres que je vous ai nommés, pour vous dépeindre le visage de Sganarelle ; j’aurais maintenant besoin et de leur pinceau et de la plume des plus excellents Orateurs pour vous décrire cette Scène. Jamais il ne se vit rien de plus beau, jamais rien de mieux joué, et jamais Vers ne furent si généralement estimés. Sganarelle joue seul dans cette Scène, repassant dans son esprit tout ce que l’on peut dire d’un Cocu, et les raisons pour lesquelles il ne s’en doit pas mettre en peine, s’en démêle si bien, que son raisonnement pourrait en un besoin consoler ceux qui sont de ce nombre. Je vous envoie les Vers de cette Scène, afin que si vous connaissez quelqu’un à votre pays qui soit de la Confrérie dont Sganarelle se croit être, vous le puissiez par-là retirer de la mélancolie où il pourrait s’être plongé.</p>
+          <sp who="sganarelle" xml:id="I17-1">
+            <speaker>sganarelle <hi rend="i">seul.</hi></speaker>
             <l>Que le Ciel la préserve à jamais de danger.</l>
             <l>Voyez quelle bonté de vouloir me venger :</l>
             <l>En effet ; son courroux qu’excite ma disgrâce,</l>
@@ -1050,13 +1050,13 @@
             <l>Je veux résolument me venger du Larron :</l>
             <l>Déjà pour commencer dans l’ardeur qui m’enflamme,</l>
             <l>Je vais dire partout qu’il couche avec ma femme.</l>
-            <stage>Avouez-moi maintenant la vérité, est-il pas vrai, Monsieur, que vous avez trouvé ces Vers tout à fait beaux, que vous vous ne vous êtes pu vous empêcher de les relire encore une fois, et que vous demeurez d’accord que Paris a eu raison de nommer cette scène, la belle Scène ?</stage>
+            <p>Avouez-moi maintenant la vérité, est-il pas vrai, Monsieur, que vous avez trouvé ces Vers tout à fait beaux, que vous vous ne vous êtes pu vous empêcher de les relire encore une fois, et que vous demeurez d’accord que Paris a eu raison de nommer cette scène, la belle Scène ?</p>
           </sp>
         </div2>
         <div2 type="scene" xml:id="I18">
           <head>SCÈNE XVIII.</head>
           <stage>Gorgibus, Célie, La Suivante.</stage>
-          <stage>Célie n’ayant point trouvé de moyen plus propre pour punir son amant que d’épouser Valère, dit à son père qu’elle est prête de suivre en tout ses volontés, de quoi le bon vieillard témoigne être beaucoup satisfait, comme vous pouvez voir par ces Vers.</stage>
+          <p type="argument">Célie n’ayant point trouvé de moyen plus propre pour punir son amant que d’épouser Valère, dit à son père qu’elle est prête de suivre en tout ses volontés, de quoi le bon vieillard témoigne être beaucoup satisfait, comme vous pouvez voir par ces Vers.</p>
           <sp who="celie" xml:id="I18-1">
             <speaker>célie</speaker>
             <l n="475">Oui, je veux bien subir une si juste Loi</l>
@@ -1083,7 +1083,7 @@
         <div2 type="scene" xml:id="I19">
           <head>SCÈNE XIX.</head>
           <stage>Célie, La Suivante.</stage>
-          <stage>Vous pourrez dans les cinq Vers qui suivent, apprendre tout le sujet de cette Scène.</stage>
+          <p type="argument">Vous pourrez dans les cinq Vers qui suivent, apprendre tout le sujet de cette Scène.</p>
           <sp who="la-suivante" xml:id="I19-1">
             <speaker>la suivante</speaker>
             <l>Ce changement m’étonne.</l>
@@ -1111,7 +1111,7 @@
         <div2 type="scene" xml:id="I20">
           <head>SCÈNE XX.</head>
           <stage>Lélie, Célie, La Suivante.</stage>
-          <stage>Dans cette Scène, Lélie qui avait fait dessein de s’en retourner, vient trouver Célie, pour lui dire un éternel adieu, et se plaindre de son infidélité, dans la pensée qu’il a, qu’elle est mariée à Sganarelle ; lorsque Célie, qui croit avoir plus de lieu de se plaindre que lui, lui reproche de son côté sa perfidie, ce qui ne donne pas un médiocre contentement à l’auditeur, qui connaît l’innocence de l’un et de l’autre, et comme vous la connaissez aussi, je crois que ces vers vous pourront divertir.</stage>
+          <p type="argument">Dans cette Scène, Lélie qui avait fait dessein de s’en retourner, vient trouver Célie, pour lui dire un éternel adieu, et se plaindre de son infidélité, dans la pensée qu’il a, qu’elle est mariée à Sganarelle ; lorsque Célie, qui croit avoir plus de lieu de se plaindre que lui, lui reproche de son côté sa perfidie, ce qui ne donne pas un médiocre contentement à l’auditeur, qui connaît l’innocence de l’un et de l’autre, et comme vous la connaissez aussi, je crois que ces vers vous pourront divertir.</p>
           <sp who="lelie" xml:id="I20-1">
             <speaker>lélie</speaker>
             <l>Avant que pour jamais je m’éloigne de vous ;</l>
@@ -1145,14 +1145,14 @@
         <div2 type="scene" xml:id="I21">
           <head>SCÈNE XXI.</head>
           <stage>Célie, Lélie, Sganarelle, La Suivante.</stage>
-          <stage>Sganarelle, qui comme vous avez vu dans la fin de la belle Scène (puisqu’elle n’a point à présent d’autre nom dans Paris) a pris résolution de se venger de Lélie, vient pour cet effet dans cette Scène, armé de toutes pièces; et comme il ne se l’aperçoit pas d’abord, il ne lui promet pas moins que la mort dès qu’il le rencontrera. Mais comme il est de ceux qui n’exterminent leurs ennemis que quand ils sont absents, aussitôt qu’il aperçoit Lélie, bien loin de lui passer l’épée au travers du corps, il ne lui fait que des révérences, et puis se retirant à quartier, il s’excite à faire quelque effort généreux et à le tuer par-derrière : et se mettant après en colère contre lui-même de ce que sa poltronnerie ne lui permet pas seulement de le regarder entre deux yeux, il se punit lui-même de sa lâcheté, par les coups et les soufflets qu’il se donne, et l’on peut dire, que quoique bien souvent l’on ait vu des Scènes semblables, Sganarelle sait si bien animer cette action, qu’elle paraît nouvelle au Théâtre. Cependant que Sganarelle se tourmente ainsi lui-même, Célie et son Amant n’ont pas moins d’inquiétude que lui, et ne se reprochent que par des regards enflammés de courroux, leur infidélité imaginaire, la colère, quand elle est montée jusqu’à l’excès, ne nous laissant pour l’ordinaire que le pouvoir de dire peu de paroles. Célie est la première qui à la vue de Sganarelle, dit à son Amant de jeter les yeux sur lui, et qu’il verra de quoi le faire ressouvenir de son crime ; mais comment y trouverait-il de quoi le confondre, puisque c’est par-là qu’il prétend la confondre elle-même : Il se passe encore quantité de choses dans cette Scène, qui confirment les soupçons de l’un et de l’autre; mais de peur de vous ennuyer trop longtemps par ma Prose, j’ai recours aux Vers que voici pour vous les expliquer.</stage>
-          <sp who="sganarelle-entre-arme" xml:id="I21-1">
-            <speaker> sganarelle entre armé</speaker>
+          <p type="argument">Sganarelle, qui comme vous avez vu dans la fin de la belle Scène (puisqu’elle n’a point à présent d’autre nom dans Paris) a pris résolution de se venger de Lélie, vient pour cet effet dans cette Scène, armé de toutes pièces; et comme il ne se l’aperçoit pas d’abord, il ne lui promet pas moins que la mort dès qu’il le rencontrera. Mais comme il est de ceux qui n’exterminent leurs ennemis que quand ils sont absents, aussitôt qu’il aperçoit Lélie, bien loin de lui passer l’épée au travers du corps, il ne lui fait que des révérences, et puis se retirant à quartier, il s’excite à faire quelque effort généreux et à le tuer par-derrière : et se mettant après en colère contre lui-même de ce que sa poltronnerie ne lui permet pas seulement de le regarder entre deux yeux, il se punit lui-même de sa lâcheté, par les coups et les soufflets qu’il se donne, et l’on peut dire, que quoique bien souvent l’on ait vu des Scènes semblables, Sganarelle sait si bien animer cette action, qu’elle paraît nouvelle au Théâtre. Cependant que Sganarelle se tourmente ainsi lui-même, Célie et son Amant n’ont pas moins d’inquiétude que lui, et ne se reprochent que par des regards enflammés de courroux, leur infidélité imaginaire, la colère, quand elle est montée jusqu’à l’excès, ne nous laissant pour l’ordinaire que le pouvoir de dire peu de paroles. Célie est la première qui à la vue de Sganarelle, dit à son Amant de jeter les yeux sur lui, et qu’il verra de quoi le faire ressouvenir de son crime ; mais comment y trouverait-il de quoi le confondre, puisque c’est par-là qu’il prétend la confondre elle-même : Il se passe encore quantité de choses dans cette Scène, qui confirment les soupçons de l’un et de l’autre; mais de peur de vous ennuyer trop longtemps par ma Prose, j’ai recours aux Vers que voici pour vous les expliquer.</p>
+          <sp who="sganarelle" xml:id="I21-1">
+            <speaker> sganarelle <hi rend="i">entre armé.</hi></speaker>
             <l>Guerre, guerre mortelle, à ce larron d’honneur,</l>
             <l>Qui sans miséricorde a souillé notre honneur.</l>
           </sp>
-          <sp who="celie-a-lelie" xml:id="I21-2">
-            <speaker>célie à <hi rend="i">LÉLIE</hi></speaker>
+          <sp who="celie" xml:id="I21-2">
+            <speaker>célie <hi rend="i">à Lélie.</hi></speaker>
             <l>Tourne ? tourne les yeux ? sans me faire répondre.</l>
           </sp>
           <sp who="lelie" xml:id="I21-3">
@@ -1191,7 +1191,9 @@
           <sp who="sganarelle" xml:id="I21-10">
             <speaker>sganarelle</speaker>
             <l>C’est un habillement</l>
-            <l n="520">Que j’ai pris pour la pluie. <hi rend="i">À part</hi>, Ah ! quel contentement</l>
+            <l n="520">Que j’ai pris pour la pluie.</l>
+              <stage>À part.</stage>
+            <l>Ah ! quel contentement</l>
             <l>J’aurais à le tuer, prenons-en le courage.</l>
           </sp>
           <sp who="lelie" xml:id="I21-11">
@@ -1199,8 +1201,7 @@
             <l>Hay ?</l>
           </sp>
           <sp who="sganarelle" xml:id="I21-12">
-            <speaker>sganarelle </speaker>
-            <stage>Se donnant des coups de poings sur l’estomac, et des soufflets pour s’exciter.</stage>
+            <speaker>sganarelle <hi rend="i">se donnant des coups de poings sur l’estomac, et des soufflets pour s’exciter.</hi></speaker>
             <l>Je ne parle pas.</l>
             <stage>À part.</stage>
             <l>Ah ! poltron dont j’enrage,</l>
@@ -1217,8 +1218,8 @@
             <l>De l’infidélité la plus inexcusable,</l>
             <l>Qui jamais d’un amant puisse outrager la foi.</l>
           </sp>
-          <sp who="sganarelle-a-part" xml:id="I21-15">
-            <speaker>sganarelle à part</speaker>
+          <sp who="sganarelle" xml:id="I21-15">
+            <speaker>sganarelle <hi rend="i">à part.</hi></speaker>
             <l>Que n’ai-je un peu de cœur.</l>
           </sp>
           <sp who="celie" xml:id="I21-16">
@@ -1233,8 +1234,8 @@
             <l>Là, hardi, tâche à faire un effort généreux,</l>
             <l>En le tuant, tandis qu’il tourne le derrière.</l>
           </sp>
-          <sp who="lelie-faisant-deux-ou-trois-pas-sans-dessein" xml:id="I21-18">
-            <speaker>lélie faisant deux ou trois pas sans dessein, fait retourner sganarelle qui s’approchait pour le tuer</speaker>
+          <sp who="lelie" xml:id="I21-18">
+            <speaker>lélie <hi rend="i">faisant deux ou trois pas sans dessein, fait retourner sganarelle qui s’approchait pour le tuer.</hi></speaker>
             <l>Puisqu’un pareil discours émeut votre colère,</l>
             <l n="535">Je dois de votre cœur me montrer satisfait,</l>
             <l>Et l’applaudir ici du beau choix qu’il a fait.</l>
@@ -1295,8 +1296,8 @@
         <div2 type="scene" xml:id="I22">
           <head>SCÈNE XXII.</head>
           <stage>Célie, Lélie, Sganarelle, Sa Femme, La Suivante.</stage>
-          <stage>Dans la quatrième Scène de cette pièce, la femme de Sganarelle, qui avait pris de la jalousie en voyant Célie entre les bras de son mari, vient pour lui faire des reproches (ce qui fait voir la merveilleuse conduite de cet ouvrage). Jugez de la beauté qu’un agréable malentendu produit dans cette Scène. Sganarelle croit que sa femme vient pour défendre son galant, sa femme croit qu’il aime Célie, Célie croit qu’elle vient ingénument se plaindre d’elle à cause qu’elle est avec Lélie, et lui en fait des reproches; et Lélie enfin ne sait ce qu’on lui vient conter, et croit toujours que Célie a épousé Sganarelle. Quoique cette scène donne un plaisir incroyable à l’auditeur, elle ne peut pas durer plus longtemps sans trop de confusion, et je gage que vous souhaitez déjà de voir comment toutes ces personnes sortiront de l’embarras où ils se rencontrent; mais je vous le donnerais bien à deviner en quatre coups, sans que vous en puissiez venir à bout. Peut-être vous persuadez-vous qu’il va venir quelqu’un qui sans y penser lui-même, les tirera de leur erreur : peut-être croyez vous aussi qu’à force de s’animer les uns contre les autres, quelqu’un venant à se justifier, leur fera voir à tous qu’ils s’abusent ; Mais ce n’est point tout cela, et l’Auteur s’est servi d’un moyen dont personne ne s’est jamais avisé, et que vous pourrez savoir si vous lisez les vers de cette Scène.</stage>
-          <sp who="la-femme-de-sganarelle-a-celie" xml:id="I22-1">
+          <p type="argument">Dans la quatrième Scène de cette pièce, la femme de Sganarelle, qui avait pris de la jalousie en voyant Célie entre les bras de son mari, vient pour lui faire des reproches (ce qui fait voir la merveilleuse conduite de cet ouvrage). Jugez de la beauté qu’un agréable malentendu produit dans cette Scène. Sganarelle croit que sa femme vient pour défendre son galant, sa femme croit qu’il aime Célie, Célie croit qu’elle vient ingénument se plaindre d’elle à cause qu’elle est avec Lélie, et lui en fait des reproches; et Lélie enfin ne sait ce qu’on lui vient conter, et croit toujours que Célie a épousé Sganarelle. Quoique cette scène donne un plaisir incroyable à l’auditeur, elle ne peut pas durer plus longtemps sans trop de confusion, et je gage que vous souhaitez déjà de voir comment toutes ces personnes sortiront de l’embarras où ils se rencontrent; mais je vous le donnerais bien à deviner en quatre coups, sans que vous en puissiez venir à bout. Peut-être vous persuadez-vous qu’il va venir quelqu’un qui sans y penser lui-même, les tirera de leur erreur : peut-être croyez vous aussi qu’à force de s’animer les uns contre les autres, quelqu’un venant à se justifier, leur fera voir à tous qu’ils s’abusent ; Mais ce n’est point tout cela, et l’Auteur s’est servi d’un moyen dont personne ne s’est jamais avisé, et que vous pourrez savoir si vous lisez les vers de cette Scène.</p>
+          <sp who="la-femme-de-sganarelle" xml:id="I22-1">
             <speaker>la femme de sganarelle <hi rend="i">à Célie.</hi></speaker>
             <l>Je ne suis point d’humeur à vouloir contre vous</l>
             <l n="560">Faire éclater Madame, un esprit trop jaloux ;</l>
@@ -1309,15 +1310,16 @@
             <speaker>célie</speaker>
             <l n="565">La déclaration est assez ingénue.</l>
           </sp>
-          <sp who="sganarelle-a-sa-femme" xml:id="I22-3">
-            <speaker>sganarelle à sa femme</speaker>
+          <sp who="sganarelle" xml:id="I22-3">
+            <speaker>sganarelle <hi rend="i">à sa femme.</hi></speaker>
             <l>L’on ne demandait pas carogne ta venue,</l>
             <l>Tu la viens quereller lorsqu’elle me défend,</l>
             <l>Et tu trembles de peur qu’on t’ôte ton galant.</l>
           </sp>
           <sp who="celie" xml:id="I22-4">
-            <speaker>célie, <hi rend="b"/><hi rend="i">se tournant vers Lélie</hi></speaker>
+            <speaker>célie</speaker>
             <l>Allez, ne croyez pas que l’on en ait envie.</l>
+            <stage>Se tournant vers Lélie.</stage>
             <l n="570">Tu vois si c’est mensonge, et j’en suis fort ravie.</l>
           </sp>
           <sp who="lelie" xml:id="I22-5">
@@ -1333,7 +1335,7 @@
             <l n="575">Je vois bien à la fin que je m’en dois mêler.</l>
             <stage>Allant se mettre entre Lélie et sa maîtresse.</stage>
             <l>Répondez-moi par ordre et me laissez parler.</l>
-            <stage>à Lélie.</stage>
+            <stage>À Lélie.</stage>
             <l>Vous, qu’est-ce qu’à son cœur peut reprocher le vôtre ?</l>
           </sp>
           <sp who="lelie" xml:id="I22-7">
@@ -1348,8 +1350,8 @@
             <speaker>la suivante </speaker>
             <l>Mariée, à qui donc ?</l>
           </sp>
-          <sp who="lelie-montrant-sganarelle" xml:id="I22-9">
-            <speaker>lélie montrant sganarelle</speaker>
+          <sp who="lelie" xml:id="I22-9">
+            <speaker>lélie <hi rend="i">montrant sganarelle.</hi></speaker>
             <l>À lui.</l>
           </sp>
           <sp who="la-suivante" xml:id="I22-10">
@@ -1368,8 +1370,8 @@
             <speaker>lélie</speaker>
             <l>C’est lui-même, aujourd’hui.</l>
           </sp>
-          <sp who="la-suivante-a-sganarelle" xml:id="I22-14">
-            <speaker>la suivante à sganarelle</speaker>
+          <sp who="la-suivante" xml:id="I22-14">
+            <speaker>la suivante <hi rend="i">à sganarelle.</hi></speaker>
             <l>Est-il vrai ?</l>
           </sp>
           <sp who="sganarelle" xml:id="I22-15">
@@ -1391,7 +1393,9 @@
             <l>Vous m’avez dit aussi,</l>
             <l>Que celle aux mains de qui vous aviez pris ce gage,</l>
             <l n="590">Était liée à vous des nœuds du mariage.</l>
-            <stage>Sganarelle montrant sa femme.</stage>
+          </sp>
+          <sp who="sganarelle">
+            <speaker>Sganarelle <hi rend="i">montrant sa femme.</hi></speaker>
             <l>Sans doute, et je l’avais de ses mains arraché,</l>
             <l>Et n’eusse pas sans lui découvert son péché.</l>
           </sp>
@@ -1437,8 +1441,7 @@
             <l n="610">Soit, mais gare le bois si j’apprends quelque chose.</l>
           </sp>
           <sp who="celie" xml:id="I22-26">
-            <speaker>célie </speaker>
-            <stage>à Lélie, après avoir parlé bas ensemble.</stage>
+            <speaker>célie, <hi rend="i">à Lélie, après avoir parlé bas ensemble.</hi></speaker>
             <l>Ah ! Dieux ! s’il est ainsi, qu’est-ce donc que j’ ai fait ?</l>
             <l>Je dois de mon courroux appréhender l’effet :</l>
             <l>Oui, vous croyant sans foi, j’ai pris pour ma vengeance.</l>
@@ -1455,8 +1458,8 @@
         </div2>
         <div2 type="scene" xml:id="I23">
           <head>SCÈNE XXIII.</head>
-          <stage>Lélie, dans cette Scène, demande l’effet de sa parole à Gorgibus. Gorgibus lui refuse sa fille, et Célie ne se résout qu’à peine d’obéir à son père, comme vous pouvez voir en lisant.</stage>
-          <stage>Célie, Lélie, Gorgibus, Sganarelle, Sa Femme,  La Suivante</stage>
+          <stage>Célie, Lélie, Gorgibus, Sganarelle, sa Femme, la Suivante</stage>
+          <p type="argument">Lélie, dans cette Scène, demande l’effet de sa parole à Gorgibus. Gorgibus lui refuse sa fille, et Célie ne se résout qu’à peine d’obéir à son père, comme vous pouvez voir en lisant.</p>
           <sp who="lelie" xml:id="I23-1">
             <speaker>lélie</speaker>
             <l>Monsieur, vous me voyez en ces lieux de retour</l>
@@ -1496,8 +1499,8 @@
         </div2>
         <div2 type="scene" xml:id="I24">
           <head>SCÈNE DERNIÈRE</head>
-          <stage>Célie, Lélie, Gorgibus, Sganarelle, Sa Femme, Villebrequin, La Suivante.</stage>
-          <stage>La joie que Célie avait eue en apprenant que son amant ne lui était pas infidèle, eût été de courte durée, si le père de Valère ne fut pas venu à temps pour les retirer tous deux de peine. Vous pourrez voir dans le reste des vers de cette Pièce, que voici le sujet qui le fait venir.</stage>
+          <stage>Célie, Lélie, Gorgibus, Sganarelle, sa Femme, Villebrequin, la Suivante.</stage>
+          <p type="argument">La joie que Célie avait eue en apprenant que son amant ne lui était pas infidèle, eût été de courte durée, si le père de Valère ne fut pas venu à temps pour les retirer tous deux de peine. Vous pourrez voir dans le reste des vers de cette Pièce, que voici le sujet qui le fait venir.</p>
           <sp who="gorgibus" xml:id="I24-1">
             <speaker>gorgibus</speaker>
             <l>Qui vous amène ici, seigneur Villebrequin,</l>
@@ -1542,14 +1545,12 @@
             <l n="655">Peut jeter dans l’esprit une fausse créance :</l>
             <l>De cet exemple-ci, ressouvenez-vous bien,</l>
             <p>Et quand vous verriez tout ne croyez jamais rien.</p>
-            <stage> Sans mentir, Monsieur, vous me devez bien être obligé de tant de belles choses que je vous envoie, et tous les melons de votre jardin ne sont pas suffisants pour me payer la peine d’avoir retenu pour l’amour de vous toute cette Pièce par cœur ; mais j’oubliais de vous dire une chose à l’avantage de son Auteur, qui est que comme je n’ai eu cette Pièce que je vous envoie que par effort de mémoire, il peut s’y être coulé quantité de mots les uns pour les autres, bien qu’ils signifient la même chose ; et comme ceux de l’Auteur peuvent être plus significatifs, je vous prie de m’imputer toutes les fautes de cette nature que vous y trouverez ; et je vous conjure avec tous les curieux de France de venir voir représenter cette pièce comme un des plus beaux Ouvrages, et un des mieux joués qui ait jamais paru sur la Scène.</stage>
           </sp>
+          <label>À un ami (fin)</label>
+          <p>Sans mentir, Monsieur, vous me devez bien être obligé de tant de belles choses que je vous envoie, et tous les melons de votre jardin ne sont pas suffisants pour me payer la peine d’avoir retenu pour l’amour de vous toute cette Pièce par cœur ; mais j’oubliais de vous dire une chose à l’avantage de son Auteur, qui est que comme je n’ai eu cette Pièce que je vous envoie que par effort de mémoire, il peut s’y être coulé quantité de mots les uns pour les autres, bien qu’ils signifient la même chose ; et comme ceux de l’Auteur peuvent être plus significatifs, je vous prie de m’imputer toutes les fautes de cette nature que vous y trouverez ; et je vous conjure avec tous les curieux de France de venir voir représenter cette pièce comme un des plus beaux Ouvrages, et un des mieux joués qui ait jamais paru sur la Scène.</p>
           <label>FIN</label>
         </div2>
       </div1>
     </body>
-    <back>
-      <div type="titre1"><head>Extrait du Privilège du Roy</head><p>Par grâce &amp; Privilège du Roy, donné à Paris le 26. Juillet. [1660] signé, par le Roy en son Conseil, LABORY : il est permis au Sieur DE MOLIER de faire imprimer par tel imprimeur et Libraire qu’il voudra, une Comédie intitulée <hi rend="i">Sganarelle ou le Cocu Imaginaire</hi> , avec les Arguments sur chaque Scène, pendant l’espace de cinq ans, et défenses sont faites à tous autres de l’imprimer ny vendre d’autre Édition que celle de l’Exposant, à peine de quinze cent livr. d’amende, et de tous dépens, dommages, intérêts, comme il est porté plus amplement par lesdites Lettres.</p><p>Et ledit Sieur MOLIER, a cédé ses droits de Privilège à GUILLAUME de LUYNE, Marchand-Libraire Juré à Paris, pour en jouir suivant l’accord fait entre eux. Et ledit DE LUYNE en a fait part à ESTIENNE LOYSON, aussi MARCHAND LIBRAIRE, pour en jouir conjointement.</p><p>Enregistré sur le LIVRE de la Communauté, suivant l’Arrêt de la Cour.</p><p>JOSSE Syndic.</p><p>Achevé d’imprimer le 12 Août 1660.</p></div>
-    </back>
   </text>
 </TEI>
