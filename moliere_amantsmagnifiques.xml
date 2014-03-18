@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><!--<?xml-stylesheet type="text/xsl" href="http://svn.code.sf.net/p/algone/code/teipub/tei2html.xsl"?>-->
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
 <!--odt2tei: 2014-01-16T17:21:58+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="moliere_amantsmagnifiques" xml:lang="">
   <teiHeader>
@@ -52,21 +53,21 @@
       <div>
         <head>PERSONNAGES DE LA COMÉDIE</head>
         <castList>
-          <castItem><role civil="F" id="ARISTIONE">ARISTIONE</role>, Princesse, Mère
+          <castItem><role  xml:id="aristione" civil="F">ARISTIONE</role>, Princesse, Mère
             d'Ériphile.</castItem>
-          <castItem><role civil="F" id="ÉRIPHILE">ÉRIPHILE</role>, Fille de la Princesse.</castItem>
-          <castItem><role civil="F" id="CLEONICE">CLÉONICE</role>, Confidente d'Ériphile.</castItem>
-          <castItem><role civil="F" id="CHOREBE">CHORÈBE</role>, de la suite de la
+          <castItem><role xml:id="eriphile" civil="F">ÉRIPHILE</role>, Fille de la Princesse.</castItem>
+          <castItem><role xml:id="cleonice" civil="F">CLÉONICE</role>, Confidente d'Ériphile.</castItem>
+          <castItem><role xml:id="chorebe" civil="F">CHORÈBE</role>, de la suite de la
             Princesse.</castItem>
-          <castItem><role civil="M" id="IPHICRATE">IPHICRATE</role>, Amant magnifique.</castItem>
-          <castItem><role civil="M" id="TIMOCLES">TIMOCLÈS</role>, Amant magnifique.</castItem>
-          <castItem><role civil="M" id="SOSTRATE">SOSTRATE</role>, Général d'Armée, Amant
+          <castItem><role xml:id="iphicrate" civil="M">IPHICRATE</role>, Amant magnifique.</castItem>
+          <castItem><role xml:id="timocles" civil="M">TIMOCLÈS</role>, Amant magnifique.</castItem>
+          <castItem><role xml:id="sostrate" civil="M">SOSTRATE</role>, Général d'Armée, Amant
             d'Ériphile.</castItem>
-          <castItem><role civil="M" id="CLITIDAS">CLITIDAS</role>, Plaisant de Cour, de la suite
+          <castItem><role xml:id="clitidas" civil="M">CLITIDAS</role>, Plaisant de Cour, de la suite
             d'Ériphile.</castItem>
-          <castItem><role civil="M" id="ANAXARQUE">ANAXARQUE</role>, Astrologue.</castItem>
-          <castItem><role civil="M" id="CLEON">CLÉON</role>, Fils d'Anaxarque.</castItem>
-          <castItem><role civil="F" id="FAUSSE-VENUS">UNE FAUSSE VÉNUS,</role> d'intelligence avec
+          <castItem><role xml:id="anaxarque" civil="M">ANAXARQUE</role>, Astrologue.</castItem>
+          <castItem><role xml:id="cleon" civil="M">CLÉON</role>, Fils d'Anaxarque.</castItem>
+          <castItem><role xml:id="venus" civil="F">UNE FAUSSE VÉNUS,</role> d'intelligence avec
             Anaxarque.</castItem>
         </castList>
         <stage>La Scène est en Thessalie, dans la délicieuse Vallée de Tempé.</stage>
@@ -134,7 +135,7 @@
           <l>La plus belle des Immortelles,</l>
           <l>Notre Mère, a bien moins d’appâts.</l>
         </sp>
-        <sp who="chœur" xml:id="I-7">
+        <sp who="choeur" xml:id="I-7">
           <speaker>chœur</speaker>
           <l>Allons tous au-devant de ces Divinités,</l>
           <l>Et rendons par nos chants hommage à leurs beautés.</l>
@@ -146,7 +147,7 @@
           <l>Vient honorer ce beau jour</l>
           <l>De son Auguste présence.</l>
         </sp>
-        <sp who="chœur" xml:id="I-9">
+        <sp who="choeur" xml:id="I-9">
           <speaker>chœur</speaker>
           <l>Redoublons nos Concerts,</l>
           <l>Et faisons retentir dans le vague des Airs</l>
@@ -1232,18 +1233,20 @@
           constance elle lui accorde sa demande, et consent d’en être aimée en présence des deux
           Bergers amis : Deux Satyres arrivant se plaignent de son changement, et étant touchés de
           cette disgrâce, cherchent leur consolation dans le vin.</stage>
-        <p/>
-        <p rend="center">LES PERSONNAGES</p>
-        <p rend="center">de la Pastorale.</p>
-        <p rend="sc">La Nymphe de la Vallée de Tempé.</p>
-        <p rend="sc">Tircis.</p>
-        <p rend="sc">Lycaste</p>
-        <p rend="sc">Ménandre.</p>
-        <p rend="sc">Caliste.</p>
-        <p>Deux Satyres.</p>
+        <castList>
+          <head>LES PERSONNAGES<lb/>de la Pastorale.</head>
+          <castItem><role xml:id="nymphe">La Nymphe de la Vallée de Tempé</role>.</castItem>
+          <castItem><role xml:id="tircis">Tircis</role>.</castItem>
+          <castItem><role xml:id="lycaste">Lycaste</role>.</castItem>
+          <castItem><role xml:id="menandre">Ménandre</role>.</castItem>
+          <castItem><role xml:id="caliste">Caliste</role>.</castItem>
+          <castItem>Deux Satyres<role xml:id="satyre1"/><role xml:id="satyre2"/>.</castItem>
+          <castItem><role xml:id="climene">Climène</role>.</castItem>
+          <castItem><role xml:id="philinte">Philinte</role>.</castItem>
+        </castList>
         <div2 xml:id="V01">
           <head>PROLOGUE.</head>
-          <sp who="la nymphe de tempe" xml:id="V01-1">
+          <sp who="nymphe" xml:id="V01-1">
             <speaker>la nymphe de tempé</speaker>
             <l>Venez, grande Princesse, avec tous vos appas,</l>
             <l>Venez prêter vos yeux aux innocents ébats</l>
@@ -1314,7 +1317,7 @@
             <speaker>tircis</speaker>
             <l>Ah Bergers !</l>
           </sp>
-          <sp who="lycaste et menandre" xml:id="V03-12">
+          <sp who="lycaste menandre" xml:id="V03-12">
             <speaker>lycaste et ménandre</speaker>
             <l>Prends sur toi plus d’empire.</l>
           </sp>
@@ -1330,7 +1333,7 @@
             <speaker>tircis</speaker>
             <l>C’est trop, c’est trop souffrir.</l>
           </sp>
-          <sp who="lycaste et menandre" xml:id="V03-16">
+          <sp who="lycaste menandre" xml:id="V03-16">
             <speaker>lycaste et ménandre</speaker>
             <l>Quelle faiblesse !</l>
           </sp>
@@ -1416,7 +1419,7 @@
             <l>Et ne réveillons pas</l>
             <l>Sa rigueur endormie.</l>
           </sp>
-          <sp who="tous trois" xml:id="V05-2">
+          <sp who="caliste lycaste menandre" xml:id="V05-2">
             <speaker>tous trois</speaker>
             <l>Dormez, dormez beaux yeux, adorables vainqueurs,</l>
             <l>Et goûtez le repos que vous ôtez aux cœurs,</l>
@@ -1429,7 +1432,7 @@
             <l>Coulez doucement ruisseaux,</l>
             <l>C’est Caliste qui repose.</l>
           </sp>
-          <sp who="tous trois" xml:id="V05-4">
+          <sp who="caliste lycaste menandre" xml:id="V05-4">
             <speaker>tous trois</speaker>
             <l>Dormez, dormez beaux yeux, adorables vainqueurs,</l>
             <l>Et goûtez le repos que vous ôtez aux cœurs,</l>
@@ -1498,12 +1501,12 @@
         <div2 xml:id="V06">
           <head>SCÈNE CINQUIÈME.</head>
           <stage> Deux Satyres, Tircis, Lycaste, Caliste.</stage>
-          <sp who="premier satyre" xml:id="V06-1">
+          <sp who="satyre1" xml:id="V06-1">
             <speaker>premier satyre</speaker>
             <l>Quoi tu me fuis, ingrate, et je te vois ici</l>
             <l>De ce Berger à moi faire une préférence ?</l>
           </sp>
-          <sp who="deuxieme satyre" xml:id="V06-2">
+          <sp who="satyre2" xml:id="V06-2">
             <speaker>deuxième satyre</speaker>
             <l>Quoi mes soins n’ont rien pu sur ton indifférence,</l>
             <l>Et pour ce langoureux ton cœur s’est adouci ?</l>
@@ -1513,7 +1516,7 @@
             <l>Le destin le veut ainsi,</l>
             <l>Prenez tous deux patience.</l>
           </sp>
-          <sp who="premier satyre" xml:id="V06-4">
+          <sp who="satyre1" xml:id="V06-4">
             <speaker>premier satyre</speaker>
             <l>Aux amants qu’on pousse à bout</l>
             <l>L’amour fait verser des larmes :</l>
@@ -1521,7 +1524,7 @@
             <l>Et la bouteille a des charmes</l>
             <l>Qui nous consolent de tout.</l>
           </sp>
-          <sp who="deuxieme satyre" xml:id="V06-5">
+          <sp who="satyre2" xml:id="V06-5">
             <speaker>deuxième satyre</speaker>
             <l>Notre amour n’a pas toujours</l>
             <l>Tout le bonheur qu’il désire :</l>
@@ -1529,7 +1532,7 @@
             <l>Et le bon vin nous fait rire</l>
             <l>Quand on rit de nos amours.</l>
           </sp>
-          <sp who="tous" xml:id="V06-6">
+          <sp who="satyre1 satyre2 tircis lycaste caliste" xml:id="V06-6">
             <speaker>tous</speaker>
             <l>Champêtres Divinités,</l>
             <l>Faunes, Dryades, sortez</l>
@@ -1598,12 +1601,12 @@
             <l>Avec toi, je le confesse,</l>
             <l>Je voudrais vivre et mourir.</l>
           </sp>
-          <sp who="tous deux ensemble" xml:id="V07-9">
+          <sp who="climene philinte" xml:id="V07-9">
             <speaker>tous deux ensemble</speaker>
             <l>Ah plus que jamais aimons-nous,</l>
             <l>Et vivons et mourons en des liens si doux.</l>
           </sp>
-          <sp who="tous les acteurs" xml:id="V07-10">
+          <sp who="climene philinte " xml:id="V07-10">
             <speaker>tous les acteurs</speaker>
             <stage>De la Comédie chantent.</stage>
             <l>Amants, que vos querelles</l>
@@ -2467,7 +2470,13 @@
           presque nus, portant chacun une hache sur l’épaule, comme Ministres du Sacrifice, entrent
           par le portique, au son des Violons, et sont suivis de deux Sacrificateurs Musiciens,
           d’une Prêtresse Musicienne, et leur suite.</stage>
-        <sp who="la pretresse" xml:id="XI-1">
+        <castList>
+          <castItem><role xml:id="pretresse">La prêtresse</role>.</castItem>
+          <castItem>Trois grecques<role xml:id="grecque1"/><role xml:id="grecque2"/><role xml:id="grecque3"/>.</castItem>
+          <castItem><role xml:id="choeur">Le chœur</role>.</castItem>
+          <castItem><role xml:id="apollon">Apollon</role>.</castItem>
+        </castList>
+        <sp who="pretresse" xml:id="XI-1">
           <speaker>la prêtresse</speaker>
           <l>Chantez, peuples, chantez, en mille et mille lieux</l>
           <l>Du Dieu que nous servons les brillantes merveilles,</l>
@@ -2475,23 +2484,23 @@
           <l>Vous ne sauriez chanter rien de plus précieux,</l>
           <l>Rien de plus doux pour les oreilles.</l>
         </sp>
-        <sp who="une grecque" xml:id="XI-2">
+        <sp who="grecque1" xml:id="XI-2">
           <speaker>une grecque</speaker>
           <l>À ce Dieu plein de force, à ce Dieu plein d’appas,</l>
           <l>Il n’est rien qui résiste.</l>
         </sp>
-        <sp who="autre grecque" xml:id="XI-3">
+        <sp who="grecque2" xml:id="XI-3">
           <speaker>autre grecque</speaker>
           <l>Il n’est rien ici-bas</l>
           <l>Qui par ses bienfaits ne subsiste.</l>
         </sp>
-        <sp who="autre grecque" xml:id="XI-4">
+        <sp who="grecque3" xml:id="XI-4">
           <speaker>autre grecque</speaker>
           <l>Toute la terre est triste</l>
           <l>Quand on ne le voit pas.</l>
         </sp>
-        <sp who="le chŒur" xml:id="XI-5">
-          <speaker>le chŒur</speaker>
+        <sp who="choeur" xml:id="XI-5">
+          <speaker>le chœur</speaker>
           <l>Poussons à sa Mémoire</l>
           <l>Des concerts si touchants,</l>
           <l>Que du haut de sa gloire</l>
@@ -2511,8 +2520,8 @@
           <stage>Quatre hommes, et quatre femmes armés à la Grecque, font ensemble une manière de
             jeu pour les armes.La Tribune s’ouvre, un Héraut, six Trompettes et un Timbalier se
             mêlant à tous les instruments, annonce avec un grand bruit la venue d’Apollon.</stage>
-        <sp who="le chŒur" xml:id="XI-6">
-          <speaker>le chŒur</speaker>
+        <sp who="choeur" xml:id="XI-6">
+          <speaker>le chœur</speaker>
           <lg><l>Ouvrons tous nos yeux</l>
           <l>À l’éclat suprême</l>
             <l>Qui brille en ces lieux.</l></lg>
@@ -2559,7 +2568,6 @@
           <l>Vous me voyez inséparable,</l>
           <l>Et le zèle puissant qui m’attache à ses vœux</l>
           <l>Le suit parmi les eaux, le suit parmi les feux.</l>
-          <label></label>
           <stage>POUR <hi rend="sc">le marquis de rassent</hi>,Suivant d’<hi rend="sc">apollon</hi></stage>
           <l>Je ne serai pas vain quand je ne croirai pas</l>
           <l>Qu’un autre mieux que moi suive partout ses pas.</l>

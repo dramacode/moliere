@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><!--<?xml-stylesheet type="text/xsl" href="http://svn.code.sf.net/p/algone/code/teipub/tei2html.xsl"?>-->
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+-->
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
 <!--odt2tei: 2014-01-24T22:17:56+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="moliere_amourmedecin" xml:lang="fr">
   <teiHeader>
@@ -38,18 +42,16 @@
         </docTitle>
         <docAuthor bio="moliere" id="MOLIERE"><hi rend="i">Par J. B. P.</hi> MOLIÈRE</docAuthor>
         <docImprint>À PARIS, <lb/> Chez <hi rend="sc">Théodore Girard</hi>, dans la <lb/>grande
-          Salle du Palais du côté de la <lb/>Cour des Aides, à l'Envie. <privilege id=""/>
-          <acheveImprime id=""/>
-          <editor id=""/>
+          Salle du Palais du côté de la <lb/>Cour des Aides, à l'Envie.
         </docImprint>
         <docDate value="1665">M. DC. LXVI.</docDate>
         <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
-        <performance>
-          <premiere date="1665-09-15" location="Château de Versailles">Représentée pour la première
+        <argument>
+          <p date="1665-09-15" location="Château de Versailles">Représentée pour la première
             fois à Versailles par ordre du roi le 15e septembre 1665 et donnée depuis au public à
             Paris sur le Théâtre du Palais-Royal le 22e du même mois de septembre 1665 par la Troupe
-            du Roi.</premiere>
-        </performance>
+            du Roi.</p>
+        </argument>
       </titlePage>
       <div>
         <head>AU LECTEUR</head>
@@ -68,35 +70,35 @@
       </div>
       <castList>
         <head>LES PERSONNAGES</head>
-        <castItem><role civil="M" id="SGANARELLE">sganarelle</role>, Père de Lucinde.</castItem>
-        <castItem><role civil="F" id="AMINTE">aminte</role>.</castItem>
-        <castItem><role civil="F" id="LUCRECE">lucrèce</role>.</castItem>
-        <castItem><role civil="M" id="MONSIEUR-GUILLAUME">monsieur guillaume</role>, Vendeur de
+        <castItem><role civil="M" xml:id="sganarelle">sganarelle</role>, Père de Lucinde.</castItem>
+        <castItem><role civil="F" xml:id="aminte">aminte</role>.</castItem>
+        <castItem><role civil="F" xml:id="lucrece">lucrèce</role>.</castItem>
+        <castItem><role civil="M" xml:id="m-guillaume">monsieur guillaume</role>, Vendeur de
           Tapisseries.</castItem>
-        <castItem><role civil="M" id="MONSIEUR-JOSSE">monsieur josse</role>, Orfèvre.</castItem>
-        <castItem><role civil="F" id="LUCINDE">lucinde</role>, Fille de Sganarelle.</castItem>
-        <castItem><role civil="F" id="LISETTE">lisette</role>, Suivante de Lucinde.</castItem>
-        <castItem><role civil="M" id="MONSIEUR-TOMES">monsieur tomès</role>, Médecin.</castItem>
-        <castItem><role civil="M" id="MONSIEUR-DE-FONANDRES">monsieur des fonandrès</role>,
+        <castItem><role civil="M" xml:id="m-josse">monsieur josse</role>, Orfèvre.</castItem>
+        <castItem><role civil="F" xml:id="lucinde">lucinde</role>, Fille de Sganarelle.</castItem>
+        <castItem><role civil="F" xml:id="lisette">lisette</role>, Suivante de Lucinde.</castItem>
+        <castItem><role civil="M" xml:id="m-tomes">monsieur tomès</role>, Médecin.</castItem>
+        <castItem><role civil="M" xml:id="m-des-fonandres">monsieur des fonandrès</role>,
           Médecin.</castItem>
-        <castItem><role civil="M" id="MONSIEUR-MACROTON">monsieur macroton</role>,
+        <castItem><role civil="M" xml:id="m-macroton">monsieur macroton</role>,
           Médecin.</castItem>
-        <castItem><role civil="M" id="MONSIEUR-BAHYS">monsieur bahys</role>, Médecin.</castItem>
-        <castItem><role civil="M" id="MONSIEUR-FILERIN">monsieur filerin</role>, Médecin.</castItem>
-        <castItem><role civil="M" id="CLITANDRE">clitandre</role>, Amant de Lucinde.</castItem>
-        <castItem><role civil="M" id="UN-NOTAIRE">un notaire</role>.</castItem>
-        <castItem><role civil="M" id="CHAMPAGNE">l'opérateur</role>, Orviétan.</castItem>
+        <castItem><role civil="M" xml:id="m-bahys">monsieur bahys</role>, Médecin.</castItem>
+        <castItem><role civil="M" xml:id="m-filerin">monsieur filerin</role>, Médecin.</castItem>
+        <castItem><role civil="M" xml:id="clitandre">clitandre</role>, Amant de Lucinde.</castItem>
+        <castItem><role civil="M" xml:id="notaire">un notaire</role>.</castItem>
+        <castItem><role civil="M" xml:id="champagne">l'opérateur</role>, Orviétan.</castItem>
         <castItem>
           <role rend="n">Plusieurs Trivelins et Scaramouches.</role>
         </castItem>
         <castItem>
-          <role>la comédie.</role>
+          <role xml:id="comedie">la comédie.</role>
         </castItem>
         <castItem>
-          <role>la musique.</role>
+          <role xml:id="musique">la musique.</role>
         </castItem>
         <castItem>
-          <role>le ballet.</role>
+          <role xml:id="ballet">le ballet.</role>
         </castItem>
       </castList>
       <set country="France" link="" location="Paris" periode="XVIIème">La Scène est à Paris dans une
@@ -106,7 +108,7 @@
       <div1>
         <head>PROLOGUE</head>
         <stage>La Comédie, la Musique <hi rend="n i"/>et le Ballet</stage>
-        <sp who="la comedie">
+        <sp who="comedie">
           <speaker>la comédie</speaker>
           <l>Quittons, quittons notre vaine querelle,</l>
           <l>Ne nous disputons point nos talents tour à tour.</l>
@@ -115,11 +117,11 @@
           <l>Unissons-nous tous trois d’une ardeur sans seconde,</l>
           <l>Pour donner du plaisir au plus grand Roi du monde.</l>
         </sp>
-        <sp who="tous trois">
+        <sp who="comedie musique ballet">
           <speaker>tous trois</speaker>
           <l>Unissons-nous…</l>
         </sp>
-        <sp who="la comedie">
+        <sp who="comedie">
           <speaker>la comédie</speaker>
           <l>De ses travaux plus grands qu’on ne peut croire,</l>
           <l>Il se vient quelquefois délasser parmi nous.</l>
@@ -127,7 +129,7 @@
           <l>Est-il bonheur plus doux.</l>
           <l>Unissons-nous tous trois…</l>
         </sp>
-        <sp who="tous trois">
+        <sp who="comedie musique ballet">
           <speaker>tous trois</speaker>
           <l>Unissons-nous…</l>
         </sp>
@@ -663,7 +665,7 @@
             <speaker>sganarelle</speaker>
             <p>Hé bien, Messieurs.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II02-2">
+          <sp who="m-tomes" xml:id="II02-2">
             <speaker>monsieur tomès</speaker>
             <p>Nous avons vu suffisamment la malade ; et sans doute qu’il y a beaucoup d’impuretés
               en elle.</p>
@@ -672,7 +674,7 @@
             <speaker>sganarelle</speaker>
             <p>Ma fille est impure.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II02-4">
+          <sp who="m-tomes" xml:id="II02-4">
             <speaker>monsieur tomès</speaker>
             <p>Je veux dire qu’il y a beaucoup d’impureté dans son corps, quantité d’humeurs
               corrompues.</p>
@@ -681,7 +683,7 @@
             <speaker>sganarelle</speaker>
             <p>Ah, je vous entends.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II02-6">
+          <sp who="m-tomes" xml:id="II02-6">
             <speaker>monsieur tomès</speaker>
             <p>Mais… nous allons consulter ensemble.</p>
           </sp>
@@ -701,7 +703,7 @@
             <speaker>lisette</speaker>
             <p>De l’avoir vu l’autre jour chez la bonne amie de Madame votre nièce.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II02-11">
+          <sp who="m-tomes" xml:id="II02-11">
             <speaker>monsieur tomès</speaker>
             <p>Comment se porte son Cocher ?</p>
           </sp>
@@ -709,7 +711,7 @@
             <speaker>lisette</speaker>
             <p>Fort bien, il est mort.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II02-13">
+          <sp who="m-tomes" xml:id="II02-13">
             <speaker>monsieur tomès</speaker>
             <p>Mort !</p>
           </sp>
@@ -717,7 +719,7 @@
             <speaker>lisette</speaker>
             <p>Oui.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II02-15">
+          <sp who="m-tomes" xml:id="II02-15">
             <speaker>monsieur tomès</speaker>
             <p>Cela ne se peut.</p>
           </sp>
@@ -725,7 +727,7 @@
             <speaker>lisette</speaker>
             <p>Je ne sais si cela se peut, mais je sais bien que cela est.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II02-17">
+          <sp who="m-tomes" xml:id="II02-17">
             <speaker>monsieur tomès</speaker>
             <p>Il ne peut pas être mort, vous dis-je.</p>
           </sp>
@@ -733,7 +735,7 @@
             <speaker>lisette</speaker>
             <p>Et moi je vous dis qu’il est mort, et enterré.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II02-19">
+          <sp who="m-tomes" xml:id="II02-19">
             <speaker>monsieur tomès</speaker>
             <p>Vous vous trompez.</p>
           </sp>
@@ -741,7 +743,7 @@
             <speaker>lisette</speaker>
             <p>Je l’ai vu.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II02-21">
+          <sp who="m-tomes" xml:id="II02-21">
             <speaker>monsieur tomès</speaker>
             <p>Cela est impossible. Hippocrate dit, que ces sortes de maladies ne se terminent qu’au
               quatorze, ou au vingt-un, et il n’y a que six jours qu’il est tombé malade.</p>
@@ -762,21 +764,21 @@
           <head>SCÈNE III.</head>
           <stage>Messieurs Des Fonandrès, Tomès, Macroton, <hi rend="i n">et</hi> Bahys.</stage>
           <stage>Ils s’asseyent et toussent.</stage>
-          <sp who="m-des fonandrès" xml:id="II03-1">
+          <sp who="m-des-fonandres" xml:id="II03-1">
             <speaker>monsieur des fonandrès</speaker>
             <p>Paris est étrangement grand, et il faut faire de longs trajets, quand la pratique
               donne un peu.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II03-2">
+          <sp who="m-tomes" xml:id="II03-2">
             <speaker>monsieur tomès</speaker>
             <p>Il faut avouer que j’ai une Mule admirable pour cela, et qu’on a peine à croire le
               chemin que je lui fais faire tous les jours.</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="II03-3">
+          <sp who="m-des-fonandres" xml:id="II03-3">
             <speaker>monsieur des fonandrès</speaker>
             <p>J’ai un cheval merveilleux, et c’est un animal infatigable.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II03-4">
+          <sp who="m-tomes" xml:id="II03-4">
             <speaker>monsieur tomès</speaker>
             <p>Savez-vous le chemin que ma Mule a fait aujourd’hui. J’ai été premièrement tout
               contre l’Arsenal, de l’Arsenal au bout du Faubourg Saint-Germain, du Faubourg
@@ -785,32 +787,32 @@
               Richelieu, de la Porte de Richelieu ici, et d’ici je dois aller encore à la Place
               Royale.</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="II03-5">
+          <sp who="m-des-fonandres" xml:id="II03-5">
             <speaker>monsieur des fonandrès</speaker>
             <p>Mon cheval a fait tout cela aujourd’hui, et de plus j’ai été à Ruel voir un
               malade.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II03-6">
+          <sp who="m-tomes" xml:id="II03-6">
             <speaker>monsieur tomès</speaker>
             <p>Mais à propos, quel parti prenez-vous dans la querelle des deux Médecins,
               Théophraste, et Artémius ? car c’est une affaire qui partage tout notre Corps.</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="II03-7">
+          <sp who="m-des-fonandres" xml:id="II03-7">
             <speaker>monsieur des fonandrès</speaker>
             <p>Moi, je suis pour Artémius.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II03-8">
+          <sp who="m-tomes" xml:id="II03-8">
             <speaker>monsieur tomès</speaker>
             <p>Et moi aussi, ce n’est pas que son avis, comme on a vu, n’ait tué le malade, et que
               celui de Théophraste ne fût beaucoup meilleur assurément : Mais enfin, il a tort dans
               les circonstances, et il ne devait pas être d’un autre avis que son Ancien. Qu’en
               dites-vous ?</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="II03-9">
+          <sp who="m-des-fonandres" xml:id="II03-9">
             <speaker>monsieur des fonandrès</speaker>
             <p>Sans doute. Il faut toujours garder les formalités, quoi qu’il puisse arriver.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II03-10">
+          <sp who="m-tomes" xml:id="II03-10">
             <speaker>monsieur tomès</speaker>
             <p>Pour moi j’y suis sévère en Diable, à moins que ce soit entre amis, et l’on nous
               assembla un jour trois de nous autres avec un Médecin de dehors, pour une
@@ -819,12 +821,12 @@
               pouvaient, et la maladie pressait : mais je n’en voulus point démordre, et la malade
               mourut bravement pendant cette contestation.</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="II03-11">
+          <sp who="m-des-fonandres" xml:id="II03-11">
             <speaker>monsieur des fonandrès</speaker>
             <p>C’est fort bien fait d’apprendre aux gens à vivre, et de leur montrer leur bec
               jaune.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II03-12">
+          <sp who="m-tomes" xml:id="II03-12">
             <speaker>monsieur tomès</speaker>
             <p>Un homme mort, n’est qu’un homme mort, et ne fait point de conséquence ; Mais une
               formalité négligée, porte un notable préjudice à tout le Corps des Médecins.</p>
@@ -839,27 +841,27 @@
             <p>Messieurs, l’oppression de ma fille augmente, je vous prie de me dire vite ce que
               vous avez résolu.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II04-2">
+          <sp who="m-tomes" xml:id="II04-2">
             <speaker>monsieur tomès</speaker>
             <p>Allons, Monsieur.</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="II04-3">
+          <sp who="m-des-fonandres" xml:id="II04-3">
             <speaker>monsieur des fonandrès</speaker>
             <p>Non, Monsieur, parlez s’il vous plaît.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II04-4">
+          <sp who="m-tomes" xml:id="II04-4">
             <speaker>monsieur tomès</speaker>
             <p>Vous vous moquez.</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="II04-5">
+          <sp who="m-des-fonandres" xml:id="II04-5">
             <speaker>monsieur des fonandrès</speaker>
             <p>Je ne parlerai pas le premier.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II04-6">
+          <sp who="m-tomes" xml:id="II04-6">
             <speaker>monsieur tomès</speaker>
             <p>Monsieur.</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="II04-7">
+          <sp who="m-des-fonandres" xml:id="II04-7">
             <speaker>monsieur des fonandrès</speaker>
             <p>Monsieur.</p>
           </sp>
@@ -868,12 +870,12 @@
             <p>Hé, de grâce, Messieurs, laissez toutes ces cérémonies, et songez que les choses
               pressent.</p>
           </sp>
-          <sp who="m-tomès">
+          <sp who="m-tomes">
             <speaker>monsieur tomès</speaker>
             <stage>Ils parlent tous quatre ensemble.</stage>
             <p>La maladie de votre fille…</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="II04-9">
+          <sp who="m-des-fonandres" xml:id="II04-9">
             <speaker>monsieur des fonandrès</speaker>
             <p>L’avis de tous ces Messieurs tous ensemble…</p>
           </sp>
@@ -889,55 +891,55 @@
             <speaker>sganarelle</speaker>
             <p>Hé, Messieurs, parlez l’un après l’autre, de grâce.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II04-13">
+          <sp who="m-tomes" xml:id="II04-13">
             <speaker>monsieur tomès</speaker>
             <p>Monsieur, nous avons raisonné sur la maladie de votre fille ; et mon avis, à moi,
               est, que cela procède d’une grande chaleur de sang : ainsi je conclus à la saigner le
               plus tôt que vous pourrez.</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="II04-14">
+          <sp who="m-des-fonandres" xml:id="II04-14">
             <speaker>monsieur des fonandrès</speaker>
             <p>Et moi, je dis que sa maladie est une pourriture d’humeurs, causée par une trop
               grande réplétion : ainsi je conclus à lui donner de l’émétique.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II04-15">
+          <sp who="m-tomes" xml:id="II04-15">
             <speaker>monsieur tomès</speaker>
             <p>Je soutiens que l’émétique la tuera.</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="II04-16">
+          <sp who="m-des-fonandres" xml:id="II04-16">
             <speaker>monsieur des fonandrès</speaker>
             <p>Et moi, que la saignée la fera mourir.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II04-17">
+          <sp who="m-tomes" xml:id="II04-17">
             <speaker>monsieur tomès</speaker>
             <p>C’est bien à vous de faire l’habile homme.</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="II04-18">
+          <sp who="m-des-fonandres" xml:id="II04-18">
             <speaker>monsieur des fonandrès</speaker>
             <p>Oui, c’est à moi, et je vous prêterai le collet en tout genre d’érudition.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II04-19">
+          <sp who="m-tomes" xml:id="II04-19">
             <speaker>monsieur tomès</speaker>
             <p>Souvenez-vous de l’homme que vous fîtes crever ces jours passés.</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="II04-20">
+          <sp who="m-des-fonandres" xml:id="II04-20">
             <speaker>monsieur des fonandrès</speaker>
             <p>Souvenez-vous de la Dame que vous avez envoyée en l’autre monde, il y a trois
               jours.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II04-21">
+          <sp who="m-tomes" xml:id="II04-21">
             <speaker>monsieur tomès</speaker>
             <p>Je vous ai dit mon avis.</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="II04-22">
+          <sp who="m-des-fonandres" xml:id="II04-22">
             <speaker>monsieur des fonandrès</speaker>
             <p>Je vous ai dit ma pensée.</p>
           </sp>
-          <sp who="m-tomès" xml:id="II04-23">
+          <sp who="m-tomes" xml:id="II04-23">
             <speaker>monsieur tomès</speaker>
             <p>Si vous ne faites saigner tout à l’heure votre fille, c’est une personne morte.</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="II04-24">
+          <sp who="m-des-fonandres" xml:id="II04-24">
             <speaker>monsieur des fonandrès</speaker>
             <p>Si vous la faites saigner, elle ne sera pas en vie dans un quart d’heure.</p>
           </sp>
@@ -1135,7 +1137,7 @@
               sottement les heureuses préventions d’une erreur qui donne du pain à tant de
               personnes.</p>
           </sp>
-          <sp who="m-tomès" xml:id="III01-2">
+          <sp who="m-tomes" xml:id="III01-2">
             <speaker>monsieur tomès</speaker>
             <p>Vous avez raison en tout ce que vous dites ; mais ce sont chaleurs de sang, dont
               parfois on n’est pas le maître.</p>
@@ -1145,7 +1147,7 @@
             <p>Allons donc, Messieurs, mettez bas toute rancune, et faisons ici votre
               accommodement.</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="III01-4">
+          <sp who="m-des-fonandres" xml:id="III01-4">
             <speaker>monsieur des fonandrès</speaker>
             <p>J’y consens. Qu’il me passe mon émétique pour la malade dont il s’agit, et je lui
               passerai tout ce qu’il voudra pour le premier malade dont il sera question.</p>
@@ -1154,7 +1156,7 @@
             <speaker>monsieur filerin</speaker>
             <p>On ne peut pas mieux dire. Et voilà se mettre à la raison.</p>
           </sp>
-          <sp who="m-des fonandrès" xml:id="III01-6">
+          <sp who="m-des-fonandres" xml:id="III01-6">
             <speaker>monsieur des fonandrès</speaker>
             <p>Cela est fait.</p>
           </sp>
@@ -1171,7 +1173,7 @@
             <p>Quoi, Messieurs, vous voilà, et vous ne songez pas à réparer le tort qu’on vient de
               faire à la Médecine.</p>
           </sp>
-          <sp who="m-tomès" xml:id="III02-2">
+          <sp who="m-tomes" xml:id="III02-2">
             <speaker>monsieur tomès</speaker>
             <p>Comment, qu’est-ce ?</p>
           </sp>
@@ -1181,7 +1183,7 @@
               votre ordonnance, vient de tuer un homme d’un grand coup d’épée au travers du
               corps.</p>
           </sp>
-          <sp who="m-tomès" xml:id="III02-4">
+          <sp who="m-tomes" xml:id="III02-4">
             <speaker>monsieur tomès</speaker>
             <p>Écoutez, vous faites la railleuse : mais vous passerez par nos mains quelque
               jour.</p>
@@ -1578,7 +1580,7 @@
             <speaker>lucinde</speaker>
             <p>Je vous suis bien obligée, mon père.</p>
           </sp>
-          <sp who="le notaire" xml:id="III07-3">
+          <sp who="notaire" xml:id="III07-3">
             <speaker>le notaire</speaker>
             <p>Voilà qui est fait, vous n’avez qu’à venir signer.</p>
           </sp>
@@ -1622,7 +1624,7 @@
         <div2 type="titre2" xml:id="III08">
           <head>SCÈNE DERNIÈRE.</head>
           <stage>La Comédie, le Ballet <hi rend="i n">et</hi> la Musique.</stage>
-          <sp who="tous trois ensemble" xml:id="III08-1">
+          <sp who="comedie ballet musique" xml:id="III08-1">
             <speaker>tous trois <hi rend="i">ensemble</hi></speaker>
             <lg rend="i">
               <l>Sans nous tous les hommes</l>
@@ -1631,7 +1633,7 @@
               <l>Leurs grands Médecins.</l>
             </lg>
           </sp>
-          <sp who="la comedie" xml:id="III08-2">
+          <sp who="comedie" xml:id="III08-2">
             <speaker>la comédie</speaker>
             <lg rend="i">
               <l>Veut-on qu’on rabatte</l>
@@ -1642,7 +1644,7 @@
               <l>Et qu’on vienne à nous.</l>
             </lg>
           </sp>
-          <sp who="tout trois ensemble" xml:id="III08-3">
+          <sp who="comedie ballet musique" xml:id="III08-3">
             <speaker>tous trois <hi rend="i">ensemble</hi></speaker>
             <l rend="i">Sans nous…</l>
             <stage>Durant qu’ils chantent, et que les jeux, les ris, et les plaisirs dansent,

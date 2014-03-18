@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><!--<?xml-stylesheet type="text/xsl" href="http://svn.code.sf.net/p/algone/code/teipub/tei2html.xsl"?>-->
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
 <!--odt2tei: 2014-01-27T22:57:01+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="moliere_amphitryon" xml:lang="">
   <teiHeader>
@@ -27,19 +28,21 @@
   </teiHeader>
   <text>
     <front>
-      <docTitle>
-        <titlePart type="main">AMPHYTRION</titlePart>
-        <titlePart type="sub">COMÉDIE</titlePart>
-      </docTitle>
-      <docAuthor id="MOLIERE" bio="moliere">PAR J. B. P. DE MOLIÈRE</docAuthor>
-      <docImprint>À PARIS, <lb/>Chez JEAN RIBOU, au Palais, vis-à-vis <lb/>la Porte de l'Église de
-        la Sainte-Chapelle, <lb/>À l'Image Saint-Louis.</docImprint>
-      <docDate value="1668">M. DC. LXVIII.</docDate>
-      <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
-      <performance>
-        <premiere date="1666-02-28" location="Hôtel de Bourgogne">Représenté pour la première fois
-          le 28 février 1666 à l'Hôtel de Bourgogne.</premiere>
-      </performance>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">AMPHYTRION</titlePart>
+          <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docAuthor id="MOLIERE" bio="moliere">PAR J. B. P. DE MOLIÈRE</docAuthor>
+        <docImprint>À PARIS, <lb/>Chez JEAN RIBOU, au Palais, vis-à-vis <lb/>la Porte de l'Église de
+          la Sainte-Chapelle, <lb/>À l'Image Saint-Louis.</docImprint>
+        <docDate value="1668">M. DC. LXVIII.</docDate>
+        <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
+        <performance>
+          <premiere date="1666-02-28" location="Hôtel de Bourgogne">Représenté pour la première fois
+            le 28 février 1666 à l'Hôtel de Bourgogne.</premiere>
+        </performance>
+      </titlePage>
       <div>
         <head>À SON ALTESSE SÉRÉNISSIME MONSEIGNEUR LE PRINCE.</head>
         <p rend="sc">Monseigneur,</p>
@@ -77,33 +80,35 @@
         <p>De <hi rend="sc n">Votre Altesse Sérénissime</hi>,</p>
         <p rend="n">Le très humble, très obéissant, et très obligé Serviteur, <hi rend="sc">Molière</hi>.</p>
       </div>
-      <castList>
+      <div>
         <head>ACTEURS</head>
-        <castItem><role id="MERCURE" civil="M" type="D" statut="dieu" age="A" stat_amour="néant"
-            >MERCURE</role>.</castItem>
-        <castItem><role id="LA-NUIT" civil="F" type="D" statut="personnification" age="A"
-            stat_amour="néant">LA NUIT</role>.</castItem>
-        <castItem><role id="JUPITER" civil="M" type="D" statut="dieu" age="A" stat_amour="néant"
-            >JUPITER</role>, sous le forme d'Amphitryon.</castItem>
-        <castItem><role id="AMPHITRYON" civil="M" type="H" statut="général" age="A"
-            stat_amour="néant">AMPHITRYON</role>, Général des Thébains.</castItem>
-        <castItem><role id="ALCMÈNE" civil="F" type="H" statut="aristocrate" age="A"
-            stat_amour="néant">ALCMÈNE</role>, Femme d'Amphitryon.</castItem>
-        <castItem><role id="CLEANTHIS" civil="F" type="H" statut="suivante" age="A"
-            stat_amour="néant">CLÉANTHIS</role>, Suivante d'Alcmène et Femme de Sosie.</castItem>
-        <castItem><role id="SOSIE" civil="M" type="H" statut="valet" age="A" stat_amour="néant"
-            >SOSIE</role>, Valet d'Amphitryon.</castItem>
-        <castItem><role id="ARGATIPHONTIDAS" civil="M" type="H" statut="capitaine" age="A"
-            stat_amour="néant">ARGATIPHONTIDAS</role>, capitaine thébain.</castItem>
-        <castItem><role id="NAUCRATES" civil="M" type="H" statut="capitaine" age="A"
-            stat_amour="néant">NAUCRATÈS</role>, capitaine thébain.</castItem>
-        <castItem><role id="POLIDAS" civil="M" type="H" statut="capitaine" age="A"
-            stat_amour="néant">POLIDAS</role>, capitaine thébain.</castItem>
-        <castItem><role id="POSICLES" civil="M" type="H" statut="capitaine" age="A"
-            stat_amour="néant">POSICLÈS</role>, capitaine thébain.</castItem>
-      </castList>
-      <set location="Thèbes" country="Grèce" periode="Temps mythologiques" link="">La Scène est à
-        Thèbes, devant la Maison d'Amphitryon.</set>
+        <castList>
+          <castItem><role xml:id="mercure" civil="M" type="D" statut="dieu" age="A" stat_amour="néant"
+              >MERCURE</role>.</castItem>
+          <castItem><role xml:id="nuit" civil="F" type="D" statut="personnification" age="A"
+              stat_amour="néant">LA NUIT</role>.</castItem>
+          <castItem><role xml:id="jupiter" civil="M" type="D" statut="dieu" age="A" stat_amour="néant"
+              >JUPITER</role>, sous le forme d'Amphitryon.</castItem>
+          <castItem><role xml:id="amphitryon" civil="M" type="H" statut="général" age="A"
+              stat_amour="néant">AMPHITRYON</role>, Général des Thébains.</castItem>
+          <castItem><role xml:id="alcmene" civil="F" type="H" statut="aristocrate" age="A"
+              stat_amour="néant">ALCMÈNE</role>, Femme d'Amphitryon.</castItem>
+          <castItem><role xml:id="cleanthis" civil="F" type="H" statut="suivante" age="A"
+              stat_amour="néant">CLÉANTHIS</role>, Suivante d'Alcmène et Femme de Sosie.</castItem>
+          <castItem><role xml:id="sosie" civil="M" type="H" statut="valet" age="A" stat_amour="néant"
+              >SOSIE</role>, Valet d'Amphitryon.</castItem>
+          <castItem><role xml:id="argatiphontidas" civil="M" type="H" statut="capitaine" age="A"
+              stat_amour="néant">ARGATIPHONTIDAS</role>, capitaine thébain.</castItem>
+          <castItem><role xml:id="naucrates" civil="M" type="H" statut="capitaine" age="A"
+              stat_amour="néant">NAUCRATÈS</role>, capitaine thébain.</castItem>
+          <castItem><role xml:id="polidas" civil="M" type="H" statut="capitaine" age="A"
+              stat_amour="néant">POLIDAS</role>, capitaine thébain.</castItem>
+          <castItem><role xml:id="posicles" civil="M" type="H" statut="capitaine" age="A"
+              stat_amour="néant">POSICLÈS</role>, capitaine thébain.</castItem>
+        </castList>
+        <set location="Thèbes" country="Grèce" periode="Temps mythologiques" link="">La Scène est à
+          Thèbes, devant la Maison d'Amphitryon.</set>
+      </div>
     </front>
     <body>
       <div1 type="act" xml:id="I">
@@ -116,7 +121,7 @@
           <l>Et j’ai deux mots à vous dire,</l>
           <l>De la part de Jupiter.</l>
         </sp>
-        <sp who="la nuit" xml:id="I-2">
+        <sp who="nuit" xml:id="I-2">
           <speaker>la nuit</speaker>
           <l>Ah, ah, c’est vous, Seigneur Mercure !</l>
           <l>Qui vous eût deviné là, dans cette posture ?</l>
@@ -128,7 +133,7 @@
           <l>Je me suis doucement assis sur ce Nuage,</l>
           <l>Pour vous attendre venir.</l>
         </sp>
-        <sp who="la nuit" xml:id="I-4">
+        <sp who="nuit" xml:id="I-4">
           <speaker>la nuit</speaker>
           <l>Vous vous moquez, Mercure, et vous n’y songez pas.</l>
           <l>Sied-il bien à des Dieux de dire qu’ils sont las ?</l>
@@ -137,7 +142,7 @@
           <speaker>mercure</speaker>
           <l>Les Dieux sont-ils de Fer ?</l>
         </sp>
-        <sp who="la nuit" xml:id="I-6">
+        <sp who="nuit" xml:id="I-6">
           <speaker>la nuit</speaker>
           <l>Non ; mais il faut sans cesse</l>
           <l>Garder le <hi rend="i">decorum</hi> de la Divinité.</l>
@@ -169,7 +174,7 @@
           <l>Aurais besoin, plus que Personne,</l>
           <l>D’avoir de quoi me voiturer.</l>
         </sp>
-        <sp who="la nuit" xml:id="I-8">
+        <sp who="nuit" xml:id="I-8">
           <speaker>la nuit</speaker>
           <l>Que voulez-vous faire à cela ?</l>
           <l>Les poètes font à leur guise.</l>
@@ -183,7 +188,7 @@
           <l>Oui ; mais, pour aller plus vite,</l>
           <l>Est-ce qu’on s’en lasse moins ?</l>
         </sp>
-        <sp who="la nuit" xml:id="I-10">
+        <sp who="nuit" xml:id="I-10">
           <speaker>la nuit</speaker>
           <l>Laissons cela, Seigneur Mercure ;</l>
           <l>Et sachons ce dont il s’agit.</l>
@@ -218,7 +223,7 @@
           <l>Et ce n’est pas partout un bon moyen de plaire,</l>
           <l>Que la Figure d’un Mari.</l>
         </sp>
-        <sp who="la nuit" xml:id="I-12">
+        <sp who="nuit" xml:id="I-12">
           <speaker>la nuit</speaker>
           <l>J’admire Jupiter ; et je ne comprends pas,</l>
           <l>Tous les déguisements, qui lui viennent en tête.</l>
@@ -241,7 +246,7 @@
           <l>Il sort tout à fait de lui-même,</l>
           <l>Et ce n’est plus alors Jupiter qui paraît.</l>
         </sp>
-        <sp who="la nuit" xml:id="I-14">
+        <sp who="nuit" xml:id="I-14">
           <speaker>la nuit</speaker>
           <l>Passe encor de le voir de ce sublime Étage,</l>
           <l>Dans celui des Hommes venir ;</l>
@@ -263,7 +268,7 @@
           <l>Et dans les mouvements de leurs tendres ardeurs,</l>
           <l>Les Bêtes ne sont pas si Bêtes, que l’on pense.</l>
         </sp>
-        <sp who="la nuit" xml:id="I-16">
+        <sp who="nuit" xml:id="I-16">
           <speaker>la nuit</speaker>
           <l>Revenons à l’Objet, dont il a les faveurs.</l>
           <l>Si par son stratagème, il voit sa flamme heureuse,</l>
@@ -280,7 +285,7 @@
           <l>Qui doit avancer le retour</l>
           <l>De celui, dont il tient la place.</l>
         </sp>
-        <sp who="la nuit" xml:id="I-18">
+        <sp who="nuit" xml:id="I-18">
           <speaker>la nuit</speaker>
           <l>Voilà sans doute un bel Emploi,</l>
           <l>Que le Grand Jupiter m’apprête :</l>
@@ -298,7 +303,7 @@
           <l>Et suivant ce qu’on peut être,</l>
           <l>Les choses changent de nom.</l>
         </sp>
-        <sp who="la nuit" xml:id="I-20">
+        <sp who="nuit" xml:id="I-20">
           <speaker>la nuit</speaker>
           <l>Sur de pareilles matières,</l>
           <l>Vous en savez plus que moi :</l>
@@ -316,7 +321,7 @@
           <l>Et je crois, à parler à sentiments ouverts,</l>
           <l>Que nous ne nous en devons guères.</l>
         </sp>
-        <sp who="la nuit" xml:id="I-22">
+        <sp who="nuit" xml:id="I-22">
           <speaker>la nuit</speaker>
           <l>Laissons ces contrariétés,</l>
           <l>Et demeurons ce que nous sommes.</l>
@@ -330,7 +335,7 @@
           <l>Pour y vêtir la Figure</l>
           <l>Du Valet d’Amphitryon.</l>
         </sp>
-        <sp who="la nuit" xml:id="I-24">
+        <sp who="nuit" xml:id="I-24">
           <speaker>la nuit</speaker>
           <l>Moi, dans cet Hémisphère, avec ma Suite obscure,</l>
           <l>Je vais faire une Station.</l>
@@ -339,7 +344,7 @@
           <speaker>mercure</speaker>
           <l>Bon jour, la Nuit.</l>
         </sp>
-        <sp who="la nuit" xml:id="I-26">
+        <sp who="nuit" xml:id="I-26">
           <speaker>la nuit</speaker>
           <l>Adieu, Mercure.</l>
           <stage>Mercure descend de son Nuage en terre, et la Nuit passe dans son Char.</stage>
@@ -349,8 +354,8 @@
         <head>ACTE I</head>
         <div2 type="titre2" xml:id="II01">
           <head>SCÈNE PREMIÈRE.</head>
-          <stage>Sosie</stage>
           <sp who="sosie" xml:id="II01-1">
+            <speaker>Sosie</speaker>
             <l>Qui va là ? Heu ? Ma peur, à chaque pas s’accroît.</l>
             <l>Messieurs, Ami de tout le Monde.</l>
             <l>Ah ! quelle audace sans seconde,</l>
@@ -656,7 +661,6 @@
             <speaker>sosie</speaker>
             <stage>Il veut s’en aller.</stage>
             <l>Je quitte la Partie.</l>
-          </sp>
           </sp>
           <sp who="mercure" xml:id="II02-34">
             <speaker>mercure</speaker>

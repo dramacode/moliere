@@ -1000,11 +1000,11 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
         </optional>
         <oneOrMore>
           <element name="castItem">
-            <ref name="xml-atts"/>
             <zeroOrMore>
               <choice>
                 <text/>
                 <element name="role">
+                  <ref name="id-att"/>
                   <ref name="textual"/>
                 </element>
                 <element name="actor">
