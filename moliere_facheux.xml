@@ -107,22 +107,22 @@
       </prologue>
       <castList>
         <head>PERSONNAGES</head>
-        <castItem xml:id="eraste"><role civil="M" type="H" statut="aristocrate" age="A" stat_amour="amoureux">ÉRASTE</role>.</castItem>
-        <castItem xml:id="montagne"><role civil="M" type="H" statut="valet" age="A" stat_amour="néant">LA MONTAGNE</role>.</castItem>
-        <castItem xml:id="alcidor"><role civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCIDOR</role>.</castItem>
-        <castItem xml:id="orphise"><role civil="F" type="H" statut="aristocrate" age="A" stat_amour="amoureux">ORPHISE</role>.</castItem>
-        <castItem xml:id="lysandre"><role civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">LISANDRE</role>.</castItem>
-        <castItem xml:id="alcandre"><role civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCANDRE</role>.</castItem>
-        <castItem xml:id="alcipe"><role civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCIPE</role>.</castItem>
-        <castItem xml:id="orante"><role civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ORANTE</role>.</castItem>
-        <castItem xml:id="climene"><role civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">CLIMÈNE</role>.</castItem>
-        <castItem xml:id="dorante"><role civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">DORANTE</role>.</castItem>
-        <castItem xml:id="caritides"><role civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">CARITIDÈS</role>.</castItem>
-        <castItem xml:id="ormin"><role civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ORMIN</role>.</castItem>
-        <castItem xml:id="filinte"><role civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">FILINTE</role>.</castItem>
-        <castItem xml:id="damis"><role civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">DAMIS</role>.</castItem>
-        <castItem xml:id="epine"><role civil="M" type="H" statut="valet" age="A" stat_amour="néant">L'ÉPINE</role>.</castItem>
-        <castItem xml:id="riviere"><role civil="M" type="H" statut="vallet" age="A" stat_amour="néant">LA RIVIÈRE</role>, et deux Camarades.</castItem>
+        <castItem><role xml:id="eraste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="amoureux">ÉRASTE</role>.</castItem>
+        <castItem><role xml:id="montagne" civil="M" type="H" statut="valet" age="A" stat_amour="néant">LA MONTAGNE</role>.</castItem>
+        <castItem><role xml:id="alcidor" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCIDOR</role>.</castItem>
+        <castItem><role xml:id="orphise" civil="F" type="H" statut="aristocrate" age="A" stat_amour="amoureux">ORPHISE</role>.</castItem>
+        <castItem><role xml:id="lysandre" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">LISANDRE</role>.</castItem>
+        <castItem><role xml:id="alcandre" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCANDRE</role>.</castItem>
+        <castItem><role xml:id="alcipe" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCIPE</role>.</castItem>
+        <castItem><role xml:id="orante" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ORANTE</role>.</castItem>
+        <castItem><role xml:id="climene" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">CLIMÈNE</role>.</castItem>
+        <castItem><role xml:id="dorante" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">DORANTE</role>.</castItem>
+        <castItem><role xml:id="caritides" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">CARITIDÈS</role>.</castItem>
+        <castItem><role xml:id="ormin" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ORMIN</role>.</castItem>
+        <castItem><role xml:id="filinte" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">FILINTE</role>.</castItem>
+        <castItem><role xml:id="damis" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">DAMIS</role>.</castItem>
+        <castItem><role xml:id="epine" civil="M" type="H" statut="valet" age="A" stat_amour="néant">L'ÉPINE</role>.</castItem>
+        <castItem><role xml:id="riviere" civil="M" type="H" statut="vallet" age="A" stat_amour="néant">LA RIVIÈRE</role>, et deux Camarades.</castItem>
       </castList>
       <set location="Paris" country="France" periode="XVIIème" link="">La Scène est à Paris.</set>
     </front>
