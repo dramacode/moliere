@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><!--<?xml-stylesheet type="text/xsl" href="http://svn.code.sf.net/p/algone/code/teipub/tei2html.xsl"?>-->
 <!--odt2tei: 2014-01-16T17:21:58+01:00-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="amants-magnifiques-livret" xml:lang="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="moliere_amants-magnifiques-livret" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        
+        <title>Le Divertissement royal, mêlé de Comédie, de Musique, et d'Entrée de Ballet</title>
+        <author key="Molière (1622-1673)">MOLIÈRE</author>
       </titleStmt>
       <editionStmt>
         <edition> ?</edition>
         <respStmt>
           <name>Amélie Canu</name>
-          <resp> ?</resp>
+          <resp>CELLF</resp>
         </respStmt>
         <respStmt>
-          <name/>
-          <resp> ?</resp>
+          <name>Oriane Morvan</name>
+          <resp>CELLF / OBVIL</resp>
         </respStmt>
       </editionStmt>
       <extent>
@@ -25,23 +26,23 @@
         <measure quantity="19239" unit="character"/>
       </extent>
       <publicationStmt>
-        <publisher> ?</publisher>
+        <publisher>Publié par Amélie Canu et Oriane Morvan</publisher>
         <date when="2014"/>
         <idno> ?</idno>
         <availability status="restricted">
-          <licence target=" ? ">License ?</licence>
+          <licence target="OBVIL">License ?</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl> ?</bibl>
+        <bibl></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when=" ? "/>
+        <date when="1670"/>
       </creation>
       <langUsage>
-        <language ident=""/>
+        <language ident="fr"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -52,7 +53,7 @@
           <titlePart>LE DIVERTISSEMENT ROYAL,</titlePart> <titlePart>Mêlé de Comédie, de Musique, et d’Entrée de Ballet.</titlePart></docTitle>
         <docImprint>À PARIS,</docImprint>
         <docImprint>Par ROBERT BALLARD, seul Imprimeur du Roi pour la Musique.</docImprint>
-        <docDate>M. DC. LXX.</docDate>
+        <docDate when="1670">M. DC. LXX.</docDate>
         <docImprint>Avec Privilège de sa Majesté.</docImprint></titlePage>
     </front>
     <body>
@@ -164,7 +165,7 @@
             <head>SECOND INTERMÈDE.</head>
             <stage>La confidente de la jeune Princesse lui produit trois Danseurs, sous le nom de Pantomimes ; c’est-à-dire qui expriment par leurs gestes toutes sortes de choses. La Princesse les voit danser, et les reçoit à son service.</stage>
             <castList>
-              <castItem><role>Trois Pantomimes.</role> <actor>MM. Beauchamp, Saint-André, et Favier.</actor></castItem>
+              <castItem><role xml:id="pantomimes">Trois Pantomimes.</role> <actor>MM. Beauchamp, Saint-André, et Favier.</actor></castItem>
             </castList>
           </div>
           <div>
@@ -182,6 +183,8 @@
           <castItem><role xml:id="caliste">Caliste.</role> <actor>Mlle Hilaire.</actor></castItem>
           <castItem><role xml:id="satyre">Deux Satyres.</role> <actor>MM. Estival, et Morel.</actor></castItem>
         <castItem><role xml:id="tous"/></castItem>
+          <castItem><role xml:id="climene"/></castItem>
+          <castItem><role xml:id="philinte"/></castItem>
         </castList>
           <div type="scene" xml:id="prologue">
             <head>PROLOGUE.</head>
@@ -614,33 +617,33 @@
           </castList>
           <sp who="pretresse">
             <speaker>LA PRÊTRESSE.</speaker>
-            <l n="242" xml:id="l242">Chantez, peuples, chantez en mille et mille lieux</l>
-            <l n="243" xml:id="l243">Du Dieu que nous servons les brillantes merveilles,</l>
-            <l n="244" xml:id="l244">Parcourez la Terre et les Cieux,</l>
-            <l n="245" xml:id="l245">Vous ne sauriez chanter rien de plus précieux,</l>
-            <l n="246" xml:id="l246">Rien de plus doux pour les oreilles.</l>
+            <l n="244" xml:id="l244">Chantez, peuples, chantez en mille et mille lieux</l>
+            <l n="245" xml:id="l245">Du Dieu que nous servons les brillantes merveilles,</l>
+            <l n="246" xml:id="l246">Parcourez la Terre et les Cieux,</l>
+            <l n="247" xml:id="l247">Vous ne sauriez chanter rien de plus précieux,</l>
+            <l n="248" xml:id="l248">Rien de plus doux pour les oreilles.</l>
           </sp>
           <sp who="grecque">
             <speaker>UNE GRECQUE.</speaker>
-            <l n="247" xml:id="l247">À ce Dieu plein de force, à ce Dieu plein d’appas,</l>
-            <l n="248" xml:id="l248">Il n’est rien qui résiste.</l>
+            <l n="249" xml:id="l249">À ce Dieu plein de force, à ce Dieu plein d’appas,</l>
+            <l n="250" xml:id="l250">Il n’est rien qui résiste.</l>
           </sp>
           <sp who="grecque">
             <speaker>AUTRE GRECQUE.</speaker>
-            <l n="249" xml:id="l249">Il n’est rien ici bas</l>
-            <l n="250" xml:id="l250">Qui par ses bienfaits ne subsiste.</l>
+            <l n="251" xml:id="l251">Il n’est rien ici bas</l>
+            <l n="252" xml:id="l252">Qui par ses bienfaits ne subsiste.</l>
           </sp>
           <sp who="grecque">
             <speaker>AUTRE GRECQUE.</speaker>
-            <l n="251" xml:id="l251">Toute la Terre est triste</l>
-            <l n="252" xml:id="l252">Quand on ne la voit pas.</l>
+            <l n="253" xml:id="l253">Toute la Terre est triste</l>
+            <l n="254" xml:id="l254">Quand on ne la voit pas.</l>
           </sp>
           <sp who="chœur">
             <speaker>LE CHŒUR.</speaker>
-            <l n="253" xml:id="l253">Poussons à sa Mémoire</l>
-            <l n="254" xml:id="l254">Des concerts si touchants,</l>
-            <l n="255" xml:id="l255">Que du haut de sa gloire</l>
-            <l n="256" xml:id="l256">Il écoute nos chants.</l>
+            <l n="255" xml:id="l255">Poussons à sa Mémoire</l>
+            <l n="256" xml:id="l256">Des concerts si touchants,</l>
+            <l n="257" xml:id="l257">Que du haut de sa gloire</l>
+            <l n="258" xml:id="l258">Il écoute nos chants.</l>
           </sp>
             <stage>Les six hommes portant des haches font entre eux une danse ornée de toutes les attitudes que peuvent exprimer des gens qui étudient leur force, puis ils se retirent aux deux côtés du Théâtre pour faire place à six Voltigeurs, qui en cadence font paraître leur adresse sur des chevaux de bois, qui sont apportés par des Esclaves.</stage>
             <castList>
@@ -663,59 +666,62 @@
           <sp who="chœur">
             <speaker>LE CHŒUR.</speaker>
             <lg>
-            <l n="257" xml:id="l257">Ouvrons sous nos yeux</l>
-            <l n="258" xml:id="l258">À l’éclat suprême</l>
-            <l n="259" xml:id="l259">Qui brille en ces lieux.</l>
+            <l n="259" xml:id="l259">Ouvrons sous nos yeux</l>
+            <l n="260" xml:id="l260">À l’éclat suprême</l>
+            <l n="261" xml:id="l261">Qui brille en ces lieux.</l>
             </lg>
             <lg>
-            <l n="260" xml:id="l260">Quelle grâce extrême !</l>
-            <l n="261" xml:id="l261">Quel port glorieux !</l>
-            <l n="262" xml:id="l262">Où voit-on des Dieux</l>
-            <l n="263" xml:id="l263">Qui soient de même ?</l>
+            <l n="262" xml:id="l262">Quelle grâce extrême !</l>
+            <l n="263" xml:id="l263">Quel port glorieux !</l>
+            <l n="264" xml:id="l264">Où voit-on des Dieux</l>
+            <l n="265" xml:id="l265">Qui soient de même ?</l>
             </lg>
+          </sp>
             <stage>Apollon au bruit des Trompettes et des Violons entre par le Portique, précédé de six Jeunes gens, qui portent des Lauriers entrelacés autour d’un bâton, et un Soleil d’or au-dessus avec la devise Royale en manière de trophée. Les six jeunes gens, pour danser avec Apollon, donnent leur trophée à tenir aux six hommes qui portent les haches, et commencent avec Apollon une danse héroïque, à laquelle se joignent en diverses manières les six hommes portant les trophées, les quatre femmes armées avec leur timbres, et les quatre hommes armés avec leurs tambours, tandis que les six Trompettes, le Timbalier, les Sacrificateurs, la Prêtresse et le Chœur de Musique accompagnent tout cela en s’y mêlant par diverses reprises ; ce qui finit la fête des jeux Pythiens et tout le divertissement.</stage>
             <castList>
               <castItem><role xml:id="apollon">Apollon.</role> <actor>Le Roi.</actor></castItem>
               <castItem><role xml:id="jeune-gens">Six jeunes Gens,</role> <actor>M. le Grand, Le Marquis de Villeroy, Le Marquis de Rassent, MM. Beauchamp, Raynal, et Favier.</actor></castItem>
               <castItem><role xml:id="chœur">Chœur de Musique.</role> <actor>MM. le Gros, Hedouin, Estival, Don, Beaumont, Bony, Gingan l’aîné, Fernon l’aîné, Fernon le cadet, Rebel, Gingan le cadet, Deschamps, Morel, Aurat, David, Devellois, Serignan, et quatre Pages de la Musique de la Chapelle, et deux de la Chambre.</actor></castItem>
             </castList>
+          <sp who="chœur">
+            <speaker></speaker>
               <stage>POUR LE ROI, Représentant le SOLEIL.</stage>
             <lg>
-            <l n="264" xml:id="l264">JE suis la source des Clartés,</l>
-            <l n="265" xml:id="l265">Et les Astres les plus vantés</l>
-            <l n="266" xml:id="l266">Dont le beau Cercle m’environne,</l>
-            <l n="267" xml:id="l267">Ne sont brillants et respectés</l>
-            <l n="268" xml:id="l268">Que par l’éclat que je leur donne.</l>
+            <l n="266" xml:id="l266">JE suis la source des Clartés,</l>
+            <l n="267" xml:id="l267">Et les Astres les plus vantés</l>
+            <l n="268" xml:id="l268">Dont le beau Cercle m’environne,</l>
+            <l n="269" xml:id="l269">Ne sont brillants et respectés</l>
+            <l n="270" xml:id="l270">Que par l’éclat que je leur donne.</l>
             </lg>
             <lg>
-            <l n="269" xml:id="l269">Du Char où je me puis asseoir</l>
-            <l n="270" xml:id="l270">Je vois le désir de me voir</l>
-            <l n="271" xml:id="l271">Posséder la Nature entière,</l>
-            <l n="272" xml:id="l272">Et le Monde n’a son espoir</l>
-            <l n="273" xml:id="l273">Qu’aux seuls bienfaits de ma lumière.</l>
+            <l n="271" xml:id="l271">Du Char où je me puis asseoir</l>
+            <l n="272" xml:id="l272">Je vois le désir de me voir</l>
+            <l n="273" xml:id="l273">Posséder la Nature entière,</l>
+            <l n="274" xml:id="l274">Et le Monde n’a son espoir</l>
+            <l n="275" xml:id="l275">Qu’aux seuls bienfaits de ma lumière.</l>
             </lg>
             <lg>
-            <l n="274" xml:id="l274">Bienheureuses de toutes parts,</l>
-            <l n="275" xml:id="l275">Et pleines d’exquises richesses</l>
-            <l n="276" xml:id="l276">Les Terres, où de mes regards</l>
-            <l n="277" xml:id="l277">J’arrête les douce caresses.</l>
+            <l n="276" xml:id="l276">Bienheureuses de toutes parts,</l>
+            <l n="277" xml:id="l277">Et pleines d’exquises richesses</l>
+            <l n="278" xml:id="l278">Les Terres, où de mes regards</l>
+            <l n="279" xml:id="l279">J’arrête les douce caresses.</l>
             </lg>
             <stage>Pour Monsieur le Grand.</stage>
-            <l n="278" xml:id="l278">Bien qu’auprès du Soleil tout autre éclat s’efface,</l>
-            <l n="279" xml:id="l279">S’en éloigner pourtant n’est pas ce que l’on veut,</l>
-            <l n="280" xml:id="l280">Et vous voyez bien quoi qu’il fasse</l>
-            <l n="281" xml:id="l281">Que l’on s’en tient toujours le plus près que l’on peut.</l>
+            <l n="280" xml:id="l280">Bien qu’auprès du Soleil tout autre éclat s’efface,</l>
+            <l n="281" xml:id="l281">S’en éloigner pourtant n’est pas ce que l’on veut,</l>
+            <l n="282" xml:id="l282">Et vous voyez bien quoi qu’il fasse</l>
+            <l n="283" xml:id="l283">Que l’on s’en tient toujours le plus près que l’on peut.</l>
             <stage>Pour le Marquis de Villeroy.</stage>
-            <l n="282" xml:id="l282">De notre Maître incomparable</l>
-            <l n="283" xml:id="l283">Vous me voyez inséparable,</l>
-            <l n="284" xml:id="l284">Et le Zèle puissant qui m’attache à ses vœux</l>
-            <l n="285" xml:id="l285">Le suit parmi les eaux, le suit parmi les feux.</l>
+            <l n="284" xml:id="l284">De notre Maître incomparable</l>
+            <l n="285" xml:id="l285">Vous me voyez inséparable,</l>
+            <l n="286" xml:id="l286">Et le Zèle puissant qui m’attache à ses vœux</l>
+            <l n="287" xml:id="l287">Le suit parmi les eaux, le suit parmi les feux.</l>
             <stage>Pour le Marquis de Rassent.</stage>
-            <l n="286" xml:id="l286">Je ne serai pas vain quand je ne croirai pas</l>
-            <l n="287" xml:id="l287">Qu’un autre mieux que moi suive partout ses pas.</l>
+            <l n="288" xml:id="l288">Je ne serai pas vain quand je ne croirai pas</l>
+            <l n="289" xml:id="l289">Qu’un autre mieux que moi suive partout ses pas.</l>
           </sp>
+          <label>FIN</label> 
         </div>
-        <label>FIN</label> 
     </body>
   </text>
 </TEI>

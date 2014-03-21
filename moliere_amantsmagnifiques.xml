@@ -2,18 +2,27 @@
 <?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
 <!--odt2tei: 2014-01-16T17:21:58+01:00-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="moliere_amantsmagnifiques" xml:lang="">
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" n="moliere_amants-magnifiques">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>LES AMANTS MAGNIFIQUES, COMÉDIE.</title>
-        <author academie="" born="1622" born_location="Paris" death="1673" death_location="Paris"
-          >Molière</author>
+        <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
-      <publicationStmp>
-        <p>publié par Paul FIEVRE, juillet 2012.</p>
-      </publicationStmp>
-      <SourceDesc>
+      <publicationStmt>
+        <date when="2012"/>
+        <date when="2014"/>
+        <publisher>Publié par Paul Fièvre en juillet 2012, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
+        <availability status="restricted">
+          <licence target="projet-Molière"></licence>
+        </availability>
+        <idno></idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Molière</author>
+          <title>Les Amants magnifiques. Comédie</title>
+        </bibl>
         <genre>Comédie</genre>
         <inspiration>moeurs françaises</inspiration>
         <type>mixte</type>
@@ -21,14 +30,16 @@
         <periode>1661-1670</periode>
         <taille>250-500</taille>
         <permalien>http://gallica.bnf.fr/ark:/12148/bpt6k832702</permalien>
-        <sources>
-          <source id="1">
-            <author/>
-            <text/>
-          </source>
-        </sources>
-      </SourceDesc>
+      </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1670"/>
+      </creation>
+      <langUsage>
+        <language ident="FR"/>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
@@ -38,12 +49,12 @@
         <titlePart rend="i" type="sub">COMÉDIE</titlePart>
         <titlePart type="sub">MÊLÉE DE MUSIQUE, <lb/>et d'Entrées de Ballet</titlePart>
       </docTitle>
-      <docAuthor bio="moliere" id="MOLIERE" rend="i">PAR J. B. P. DE MOLIÈRE</docAuthor>
-      <performance>
-        <premiere date="1670-02-04" location="Château de Saint-Germain-en-Laye">Représentée pour le
+      <docAuthor>PAR J. B. P. DE MOLIÈRE</docAuthor>
+      <argument>
+        <p date="1670-02-04" location="Château de Saint-Germain-en-Laye">Représentée pour le
           Roi à Saint-Germain-en-Laye, <lb/>au mois de Février 1670 <lb/>sous le titre du
-          Divertissement Royal</premiere>
-      </performance>
+          Divertissement Royal</p>
+      </argument>
       <docImprint>
         <privilege id=""/>
         <acheveImprime id=""/>
@@ -70,9 +81,18 @@
           <castItem><role xml:id="venus" civil="F">UNE FAUSSE VÉNUS,</role> d'intelligence avec
             Anaxarque.</castItem>
         </castList>
+        <castList>
+          <castItem><role xml:id="neptune"/></castItem>
+          <castItem><role xml:id="dieu-marin"/></castItem>
+          <castItem><role xml:id="fleuve"/></castItem>
+          <castItem><role xml:id="triton"/><role xml:id="tous-tritons"/></castItem>
+          <castItem> <role xml:id="amour"/></castItem>
+          <castItem><role xml:id="eole"/></castItem>
+          <castItem> <role xml:id="pecheur"/></castItem>
+        </castList>
         <stage>La Scène est en Thessalie, dans la délicieuse Vallée de Tempé.</stage>
       </div>
-      <div>
+      <div type="preface">
         <head rend="uc">Avant-propos</head>
         <p>LE ROI, qui ne veut que des choses extraordinaires dans tout ce qu'il entreprend, s'est
           proposé de donner à sa cour un divertissement qui fût composé de tous ceux que le théâtre
@@ -105,32 +125,32 @@
         <label>DEUXIÈME ENTRÉE DE BALLET</label>
         <stage> Huit Pêcheurs de Corail.</stage>
         <stage rend="i">Vers chantés.</stage>
-        <sp who="recit d’eole" xml:id="I-1">
+        <sp who="eole" xml:id="I-1">
           <speaker>récit d’éole</speaker>
           <l>Vents, qui troublez les plus beaux jours,</l>
           <l>Rentrez dans vos grottes profondes ;</l>
           <l>Et laissez régner sur les ondes</l>
           <l>Les Zéphyrs et les Amours.</l>
         </sp>
-        <sp who="un triton" xml:id="I-2">
+        <sp who="triton" xml:id="I-2">
           <speaker>un triton</speaker>
           <l>Quels beaux yeux ont percé nos demeures humides ?</l>
           <l>Venez, venez Tritons, cachez-vous Néréides.</l>
         </sp>
-        <sp who="tous les tritons" xml:id="I-3">
+        <sp who="tous-tritons" xml:id="I-3">
           <speaker>tous les tritons</speaker>
           <l>Allons tous au-devant de ces Divinités,</l>
           <l>Et rendons par nos chants hommage à leurs beautés.</l>
         </sp>
-        <sp who="un amour" xml:id="I-4">
+        <sp who="amour" xml:id="I-4">
           <speaker>un amour</speaker>
           <l>Ah que ces Princesses sont belles !</l>
         </sp>
-        <sp who="un autre amour" xml:id="I-5">
+        <sp who="amour" xml:id="I-5">
           <speaker>un autre amour</speaker>
           <l>Quels sont les cœurs qui ne s’y rendraient pas ?</l>
         </sp>
-        <sp who="un autre amour" xml:id="I-6">
+        <sp who="amour" xml:id="I-6">
           <speaker>un autre amour</speaker>
           <l>La plus belle des Immortelles,</l>
           <l>Notre Mère, a bien moins d’appâts.</l>
@@ -140,7 +160,7 @@
           <l>Allons tous au-devant de ces Divinités,</l>
           <l>Et rendons par nos chants hommage à leurs beautés.</l>
         </sp>
-        <sp who="un triton" xml:id="I-8">
+        <sp who="triton" xml:id="I-8">
           <speaker>un triton</speaker>
           <l>Quel noble spectacle s’avance !</l>
           <l>Neptune, le grand Dieu, Neptune avec sa Cour</l>
@@ -1241,8 +1261,9 @@
           <castItem><role xml:id="menandre">Ménandre</role>.</castItem>
           <castItem><role xml:id="caliste">Caliste</role>.</castItem>
           <castItem>Deux Satyres<role xml:id="satyre1"/><role xml:id="satyre2"/>.</castItem>
-          <castItem><role xml:id="climene">Climène</role>.</castItem>
+          <castItem><role xml:id="climene">Climène</role><role xml:id="tous-deux"/>.</castItem>
           <castItem><role xml:id="philinte">Philinte</role>.</castItem>
+          <castItem><role xml:id="bergers"/></castItem>
         </castList>
         <div2 xml:id="V01">
           <head>PROLOGUE.</head>
@@ -1601,12 +1622,12 @@
             <l>Avec toi, je le confesse,</l>
             <l>Je voudrais vivre et mourir.</l>
           </sp>
-          <sp who="climene philinte" xml:id="V07-9">
+          <sp who="tous-deux" xml:id="V07-9">
             <speaker>tous deux ensemble</speaker>
             <l>Ah plus que jamais aimons-nous,</l>
             <l>Et vivons et mourons en des liens si doux.</l>
           </sp>
-          <sp who="climene philinte " xml:id="V07-10">
+          <sp who="tous-deux" xml:id="V07-10">
             <speaker>tous les acteurs</speaker>
             <stage>De la Comédie chantent.</stage>
             <l>Amants, que vos querelles</l>
@@ -1623,7 +1644,7 @@
               Musiciens entremêlent de leurs Chansons, tandis que trois petites Dryades, et trois
               petits Faunes, font paraître dans l’enfoncement du Théâtre tout ce qui se passe sur le
               devant.</stage>
-          <sp who="les bergers" xml:id="V07-11">
+          <sp who="bergers" xml:id="V07-11">
             <speaker>les bergers, et bergères</speaker>
             <l>Jouissons, jouissons des plaisirs innocents</l>
             <l>Dont les feux de l’Amour savent charmer nos sens,</l>

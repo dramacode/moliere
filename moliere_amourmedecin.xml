@@ -10,28 +10,38 @@
     <fileDesc>
       <titleStmt>
         <title>L'AMOUR MÉDECIN, COMÉDIE </title>
-        <author academie="" born="1622" born_location="Paris" death="1673" death_location="Paris"
-          >Molière</author>
+        <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
-      <publicationStmp>
-        <p>publié par Paul FIEVRE juillet 2009.</p>
-      </publicationStmp>
-      <SourceDesc>
+      <publicationStmt>
+        <date when="2009"/>
+        <date when="2014"/>
+        <publisher>Publié par Paul Fièvre en janvier 2009, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
+        <availability status="restricted">
+          <licence target="projet-Molière"></licence>
+        </availability>
+        <idno></idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Molière</author>
+          <title>L'Amour médecin. Comédie</title>
+        </bibl>
         <genre>Comédie</genre>
         <inspiration>moeurs françaises</inspiration>
         <type>prose</type>
         <structure>Trois actes</structure>
         <periode>1661-1670</periode>
         <taille>(mesure non pertinente)</taille>
-        <permalien/>
-        <sources>
-          <source id="1">
-            <author/>
-            <text/>
-          </source>
-        </sources>
-      </SourceDesc>
+      </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1665"/>
+      </creation>
+      <langUsage>
+        <language ident="FR"/>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
@@ -44,7 +54,7 @@
         <docImprint>À PARIS, <lb/> Chez <hi rend="sc">Théodore Girard</hi>, dans la <lb/>grande
           Salle du Palais du côté de la <lb/>Cour des Aides, à l'Envie.
         </docImprint>
-        <docDate value="1665">M. DC. LXVI.</docDate>
+        <docDate when="1665">M. DC. LXVI.</docDate>
         <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
         <argument>
           <p date="1665-09-15" location="Château de Versailles">Représentée pour la première
@@ -53,7 +63,7 @@
             du Roi.</p>
         </argument>
       </titlePage>
-      <div>
+      <div type="dedication">
         <head>AU LECTEUR</head>
         <p>Ce n’est ici qu’un simple crayon ; un petit impromptu, dont le Roi a voulu se faire un
           divertissement. Il est le plus précipité de tous ceux que Sa Majesté m’ait commandés ; Et
@@ -68,8 +78,9 @@
           beauté des Voix et à l’adresse de Danseurs, leur donnent, sans doute, des grâces, dont ils
           ont toutes les peines du monde à se passer.</p>
       </div>
-      <castList>
+      <div>
         <head>LES PERSONNAGES</head>
+      <castList>
         <castItem><role civil="M" xml:id="sganarelle">sganarelle</role>, Père de Lucinde.</castItem>
         <castItem><role civil="F" xml:id="aminte">aminte</role>.</castItem>
         <castItem><role civil="F" xml:id="lucrece">lucrèce</role>.</castItem>
@@ -89,7 +100,7 @@
         <castItem><role civil="M" xml:id="notaire">un notaire</role>.</castItem>
         <castItem><role civil="M" xml:id="champagne">l'opérateur</role>, Orviétan.</castItem>
         <castItem>
-          <role rend="n">Plusieurs Trivelins et Scaramouches.</role>
+          <role xml:id="trivelins-scaramouches" rend="n">Plusieurs Trivelins et Scaramouches.</role>
         </castItem>
         <castItem>
           <role xml:id="comedie">la comédie.</role>
@@ -100,9 +111,12 @@
         <castItem>
           <role xml:id="ballet">le ballet.</role>
         </castItem>
+        <castItem><role xml:id="operateur"/></castItem>
+        <castItem><role xml:id="tous"/></castItem>
       </castList>
       <set country="France" link="" location="Paris" periode="XVIIème">La Scène est à Paris dans une
         Salle de la maison de Sganarelle.</set>
+      </div>
     </front>
     <body>
       <div1>
@@ -117,7 +131,7 @@
           <l>Unissons-nous tous trois d’une ardeur sans seconde,</l>
           <l>Pour donner du plaisir au plus grand Roi du monde.</l>
         </sp>
-        <sp who="comedie musique ballet">
+        <sp who="tous">
           <speaker>tous trois</speaker>
           <l>Unissons-nous…</l>
         </sp>
@@ -129,7 +143,7 @@
           <l>Est-il bonheur plus doux.</l>
           <l>Unissons-nous tous trois…</l>
         </sp>
-        <sp who="comedie musique ballet">
+        <sp who="tous">
           <speaker>tous trois</speaker>
           <l>Unissons-nous…</l>
         </sp>
@@ -1048,7 +1062,7 @@
             <p>Holà. Monsieur, je vous prie de me donner une boîte de votre Orviétan, que je m’en
               vais vous payer.</p>
           </sp>
-          <sp who="l’operateur" xml:id="II07-2">
+          <sp who="operateur" xml:id="II07-2">
             <speaker>l’opérateur <hi rend="i">chantant</hi></speaker>
             <lg rend="i">
               <l>L’or de tous les climats qu’entoure l’Océan</l>
@@ -1072,7 +1086,7 @@
             <p>Monsieur, je crois que tout l’or du monde n’est pas capable de payer votre remède :
               mais pourtant, voici une pièce de trente sols que vous prendrez, s’il vous plaît.</p>
           </sp>
-          <sp who="l’operateur" xml:id="II07-4">
+          <sp who="operateur" xml:id="II07-4">
             <speaker>l’opérateur <hi rend="i">chantant</hi></speaker>
             <lg rend="i">
               <l>Admirez mes bontés, et le peu qu’on vous vend,</l>

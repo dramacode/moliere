@@ -1,47 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" n="moliere_etourdi">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>L'ÉTOURDI ou LES CONTRE-TEMPS, COMÉDIE</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1655</date>
+        <author key="Molière (1622-1673)">MOLIÈRE</author>
       </titleStmt>
-      <publicationStmp>
-        <p>publié par Paul FIEVRE</p>
-        <p>Mai 2006</p>
-      </publicationStmp>
-      <SourceDesc>
+      <publicationStmt>
+        <date when="2006"/>
+        <date when="2014"/>
+        <publisher>Publié par Paul Fièvre, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
+        <availability status="restricted">
+          <licence target="projet-Molière"></licence>
+        </availability>
+        <idno></idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Molière</author>
+          <title>L'Étourdi ou Les Contre-temps. Comédie</title>
+        </bibl>
         <genre>Comédie</genre>
         <inspiration>moeurs françaises</inspiration>
         <structure>Cinq actes</structure>
         <type>vers</type>
         <periode>1651-1660</periode>
         <taille>2000-2250</taille>
-        <permalien/>
-        <sources>
-          <source id="1">
-            <author/>
-            <text/>
-          </source>
-        </sources>
-      </SourceDesc>
+      </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1663"/>
+      </creation>
+      <langUsage>
+        <language ident="FR"/>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
+      <titlePage>
       <docTitle>
         <titlePart type="main">L'ÉTOURDI <lb/>OU LES CONTRETEMPS,</titlePart>
         <titlePart type="sub">COMÉDIE</titlePart>
       </docTitle>
-      <performance>
-        <premiere location="Théâtre du Palais Royal">REPRÉSENTÉE SUR LE <lb/>Théâtre du Palais Royal</premiere>
-      </performance>
-      <docAuthor id="MOLIERE" bio="moliere" rend="i">Par J. B. P. MOLIÈRE</docAuthor>
+      <argument>
+        <p location="Théâtre du Palais Royal">REPRÉSENTÉE SUR LE <lb/>Théâtre du Palais Royal</p>
+      </argument>
+      <docAuthor rend="i">Par J. B. P. MOLIÈRE</docAuthor>
       <docImprint>À PARIS, <lb/>Chez GABRIEL QUINET, <lb/>au Palais, dans la Galerie des Prisonniers, <lb/>à l'Ange Gabriel.</docImprint>
-      <docDate value="1663">M. DC. LXIII.</docDate>
+      <docDate when="1663">M. DC. LXIII.</docDate>
       <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
-      <div1>
+      </titlePage>
+      <div type="dedication">
         <head>À MESSIRE</head>
         <p>MESSIRE ARMAND JEAN DE RIANTS,</p>
         <p><hi rend="sc">Chevalier</hi>, <hi rend="sc">Baron</hi> de Riverey, Seigneur de la Gallessierre, <lb/>Oudangeau, et autres Lieux, Conseiller du Roi <lb/>en tous ses Conseils, et Procureur de sa Majesté <lb/>au Châtelet, Prévôté et Vicomté de Paris.</p>
@@ -49,23 +61,25 @@
         <p>Après avoir longtemps cherché quelque chose qui fût digne de vous être offert, pour ne pas laisser échapper aucune occasion de vous témoigner mes respects, et qui pût en même temps faire connaître à tout le monde que j’ai essayé de rendre à votre mérite quelques marques particulières de mon zèle ; j’ai cru que vous ne désavoueriez pas l’Étourdi ou les Contretemps, quand vous saurez que c’est un Étourdi tout couvert de gloire, de s’être fait admirer par la plus galante Cour du Monde, et qui a reçu des avantages, que de plus prudents que lui se tiendrait glorieux d’avoir pu mériter ; toutes ces choses-là font voir qu’il y a de la différence entre lui, et ceux qui portent son nom ; Néanmoins je crains qu’il ne perde aujourd’hui la haute réputation qu’il s’est acquise, quand on saura qu’il vient à Contretemps se présenter à vous, et vous divertir des grandes et sérieuses Occupations que vous donne l’illustre Charge que vous possédez, et qui demande que vous ayez soin de la plus célèbre Ville de la Terre : Vous le faites, <hi rend="sc">Monsieur</hi>, avec tant d’applaudissement, et vous vous acquittez de cette Charge avec tant de gloire, que le Prince, et les peuples en sont également satisfaits ; aussi chacun sait-il que vous marchez sur les traces de vos Illustres Aïeuls, dont la Mémoire ne périra jamais. Oui, <hi rend="sc">Monsieur</hi>, l’on se souviendra de ce Denis de Riants, dont vous sortez, qui s’acquitta si dignement, pour lui, et pour tout le Monde, de la Charge d’Avocat Général, et de Président au Mortier, qu’il possédait dans le premier Parlement de France, et qui obligea cette Auguste Compagnie, de faire voir combien elle l’avait toujours estimé, lorsqu’étant priée par ses Parents de se trouver aux honneurs funèbres que l’on devait rendre ; elle répondit, par l’organe de son premier Président, qu’elle était bien marrie du trépas d’un Personnage de si grand savoir, et de si grande vertu, et qu’elle lui rendrait tout l’honneur qu’elle lui devait. Après cela, <hi rend="sc">Monsieur</hi>, l’on peut juger de la vénération que l’on a en France pour votre Nom, et si soutenant, comme vous faites l’éclat et la gloire de vos Ancêtres, je ne dois pas craindre de passer pour téméraire en faisant votre Panégyrique. L’on sait assez que leurs grandes actions et les vôtres, me fourniraient trop de matière, s’il m’était permis de l’entreprendre ; mais les voulant laisser à d’autres plus capables de les décrire, Je serai satisfait, si je puis vous persuader que je suis, plus que personne du monde,</p>
         <p rend="sc">Monsieur,</p>
         <p>Votre très-humble et très <lb/>obéissant serviteur, <lb/><hi rend="sc">barbin</hi>.</p>
-      </div1>
-      <castList>
+      </div>
+      <div>
         <head>ACTEURS</head>
-        <castItem><role id="LÉLIE" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LÉLIE</role>, fils de Pandolphe.</castItem>
-        <castItem><role id="CÉLIE" civil="F" type="H" statut="esclave" age="A" stat_amour="néant">CÉLIE</role>, esclave de Trufaldin.</castItem>
-        <castItem><role id="MASCARILLE" civil="M" type="H" statut="valet" age="A" stat_amour="néant">MASCARILLE</role>, valet de Lélie.</castItem>
-        <castItem><role id="HIPPOLYTE" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">HIPPOLYTE</role>, fille d'Anselme.</castItem>
-        <castItem><role id="ANSELME" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">ANSELME</role>, vieillard.</castItem>
-        <castItem><role id="TRUFALDIN" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">TRUFALDIN</role>, vieillard.</castItem>
-        <castItem><role id="PANDOLFE" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">PANDOLPHE</role>, vieillard.</castItem>
-        <castItem><role id="LEANDRE" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LÉANDRE</role>, fils de famille.</castItem>
-        <castItem><role id="ANDRES" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">ANDRÈS</role>, cru Égyptien.</castItem>
-        <castItem><role id="ERGASTE" civil="M" type="H" statut="vallet" age="A" stat_amour="néant">ERGASTE</role>, valet.</castItem>
-        <castItem><role id="COURRIER" civil="M" type="H" statut="courrier" age="A" stat_amour="néant">Un courrier</role>.</castItem>
-        <castItem><role id="TROUPE_MASQUES" civil="G" type="H" statut="masque" age="A" stat_amour="néant">Deux troupes de Masques</role>.</castItem>
+      <castList>
+        <castItem><role xml:id="lelie" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LÉLIE</role>, fils de Pandolphe.</castItem>
+        <castItem><role xml:id="celie" civil="F" type="H" statut="esclave" age="A" stat_amour="néant">CÉLIE</role>, esclave de Trufaldin.</castItem>
+        <castItem><role xml:id="mascarille" civil="M" type="H" statut="valet" age="A" stat_amour="néant">MASCARILLE</role>, valet de Lélie.</castItem>
+        <castItem><role xml:id="hippolyte" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">HIPPOLYTE</role>, fille d'Anselme.</castItem>
+        <castItem><role xml:id="anselme" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">ANSELME</role>, vieillard.</castItem>
+        <castItem><role xml:id="trufaldin" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">TRUFALDIN</role>, vieillard.</castItem>
+        <castItem><role xml:id="pandolfe" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">PANDOLPHE</role>, vieillard.</castItem>
+        <castItem><role xml:id="leandre" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LÉANDRE</role>, fils de famille.</castItem>
+        <castItem><role xml:id="andres" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">ANDRÈS</role>, cru Égyptien.</castItem>
+        <castItem><role xml:id="ergaste" civil="M" type="H" statut="vallet" age="A" stat_amour="néant">ERGASTE</role>, valet.</castItem>
+        <castItem><role xml:id="courrier" civil="M" type="H" statut="courrier" age="A" stat_amour="néant">Un courrier</role>.</castItem>
+        <castItem><role xml:id="troupe-masques" civil="G" type="H" statut="masque" age="A" stat_amour="néant">Deux troupes de Masques</role>.</castItem>
       </castList>
       <set location="Messine" country="Italie" periode="XVIIème" link="">La Scène est Messine.</set>
+      </div>
     </front>
     <body>
       <head>L'ÉTOURDI <lb/>OU LES CONTRETEMPS, <lb/><hi rend="i">COMÉDIE</hi></head>
@@ -1958,7 +1972,7 @@
         <div2 type="scene" xml:id="II10">
           <head>SCÈNE X.</head>
           <stage>Le Courrier, Trufaldin, Mascarille.</stage>
-          <sp who="le-courrier" xml:id="II10-1">
+          <sp who="courrier" xml:id="II10-1">
             <speaker>le courrier</speaker>
             <l>Seigneur, obligez‑moi de m’enseigner un homme…</l>
           </sp>
@@ -1966,7 +1980,7 @@
             <speaker>trufaldin</speaker>
             <l>Et qui ?</l>
           </sp>
-          <sp who="le-courrier" xml:id="II10-3">
+          <sp who="courrier" xml:id="II10-3">
             <speaker>le courrier</speaker>
             <l n="800">Je crois que c’est Trufaldin qu’il se nomme.</l>
           </sp>
@@ -1974,7 +1988,7 @@
             <speaker>trufaldin</speaker>
             <l>Et que lui voulez‑vous ? Vous le voyez ici.</l>
           </sp>
-          <sp who="le-courrier" xml:id="II10-5">
+          <sp who="courrier" xml:id="II10-5">
             <speaker>le courrier</speaker>
             <l>Lui rendre seulement la lettre que voici.</l>
             <label>LETTRE.</label>
@@ -2593,7 +2607,7 @@
             <speaker>lélie</speaker>
             <l>Hem, que veux-tu conter ?</l>
           </sp>
-          <sp who="mascarille-bas" xml:id="III04-26">
+          <sp who="mascarille" xml:id="III04-26">
             <speaker>mascarille <hi rend="i">bas</hi></speaker>
             <l>Ah ! le double bourreau, qui me va tout gâter !</l>
             <l>Et qui ne comprend rien quelque signe qu’on donne.</l>

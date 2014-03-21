@@ -2,29 +2,43 @@
 <?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../teipub/tei2html.xsl"?>
 <!--odt2tei: 2014-01-27T22:57:01+01:00-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" n="moliere_amphitryon" xml:lang="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="moliere_amphitryon" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>AMPHYTRION, COMÉDIE</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie=""
-          >MOLIÈRE</author>
+        <author key="Molière (1622-1673)"> MOLIÈRE</author>
       </titleStmt>
-      <publicationStmp>
-        <p>publié par Paul FIEVRE</p>
-        <p>Mai 2006</p>
-      </publicationStmp>
-      <SourceDesc>
+      <publicationStmt>
+        <date when="2006"/>
+        <date when="2014"/>
+        <publisher>Publié par Paul Fièvre en mai 2006, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
+        <availability status="restricted">
+          <licence target="projet-Molière"></licence>
+        </availability>
+        <idno></idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Molière</author>
+          <title>Amphytrion. Comédie</title>
+        </bibl>
         <genre>Comédie</genre>
         <inspiration>mythe grec</inspiration>
         <structure>Trois actes, un prologue</structure>
         <type>vers</type>
         <periode>1661-1670</periode>
         <taille>1750-2000</taille>
-        <permalien/>
-      </SourceDesc>
-      <edStmt>[éd.] par M. Eugène Despois [et Paul Mesnard] </edStmt>
+      </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1668"/>
+      </creation>
+      <langUsage>
+        <language ident="FR"/>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
@@ -33,15 +47,15 @@
           <titlePart type="main">AMPHYTRION</titlePart>
           <titlePart type="sub">COMÉDIE</titlePart>
         </docTitle>
-        <docAuthor id="MOLIERE" bio="moliere">PAR J. B. P. DE MOLIÈRE</docAuthor>
+        <docAuthor>PAR J. B. P. DE MOLIÈRE</docAuthor>
         <docImprint>À PARIS, <lb/>Chez JEAN RIBOU, au Palais, vis-à-vis <lb/>la Porte de l'Église de
           la Sainte-Chapelle, <lb/>À l'Image Saint-Louis.</docImprint>
-        <docDate value="1668">M. DC. LXVIII.</docDate>
+        <docDate when="1668">M. DC. LXVIII.</docDate>
         <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
-        <performance>
-          <premiere date="1666-02-28" location="Hôtel de Bourgogne">Représenté pour la première fois
-            le 28 février 1666 à l'Hôtel de Bourgogne.</premiere>
-        </performance>
+        <argument>
+          <p date="1666-02-28" location="Hôtel de Bourgogne">Représenté pour la première fois
+            le 28 février 1666 à l'Hôtel de Bourgogne.</p>
+        </argument>
       </titlePage>
       <div>
         <head>À SON ALTESSE SÉRÉNISSIME MONSEIGNEUR LE PRINCE.</head>
@@ -3936,7 +3950,7 @@
           <head>SCÈNE X.</head>
           <stage>Jupiter, Cléanthis, Naucratès, Polidas, Sosie, Amphitryon, Argatiphontidas,
             Posiclès.</stage>
-          <sp who="jupiter dans une nue" xml:id="IV10-1">
+          <sp who="jupiter" xml:id="IV10-1">
             <speaker>jupiter <hi rend="i">dans une Nue</hi></speaker>
             <l>Regarde, Amphitryon, quel est ton Imposteur ;</l>
             <l>Et sous tes propres traits, vois Jupiter paraître.</l>
