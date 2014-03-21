@@ -1,28 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" n="moliere_ecoledesmaris">
 <teiHeader>
 	<fileDesc>
 	<titleStmt>
 		<title>L'ÉCOLE DES MARIS, COMÉDIE</title>
-		<author born='1622' born_location='Paris' death='1673' death_location='Paris' academie=''>MOLIÈRE</author>
+		<author key="Molière (1622-1673)">MOLIÈRE</author>
 	</titleStmt>
-		<publicationStmp>	
-			<p>publié par Paul FIEVRE, Mai 2006</p>
-		</publicationStmp>
-		<SourceDesc>
+		<publicationStmt>
+			<date when="2006"/>
+			<date when="2014"/>
+			<publisher>Publié par Paul Fièvre en mai 2006, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
+			<availability status="restricted">
+				<licence target="projet-Molière"></licence>
+			</availability>
+			<idno></idno>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl>
+				<author>Molière</author>
+				<title>L'École des Maris. Comédie</title>
+			</bibl>
 			<genre>Comédie</genre>
 			<inspiration>mœurs françaises</inspiration>
 			<structure>Trois actes</structure>
 			<type>vers</type>
 			<periode>1671-1680</periode>
 			<taille>1000-1250</taille>
-			<permalien></permalien>
-			<sources>
-				<source id='1'><author></author><text></text></source>
-			</sources>	
-		</SourceDesc>
+		</sourceDesc>
 	</fileDesc>
+	<profileDesc>
+		<creation>
+			<date when="1661"/>
+		</creation>
+		<langUsage>
+			<language ident="FR"/>
+		</langUsage>
+	</profileDesc>
 </teiHeader>
 <text>
 	<front>
@@ -32,17 +46,14 @@
   			<titlePart type="sub" rend="i">COMÉDIE,</titlePart>
   		</docTitle> 
   		<docAuthor id='MOLIERE' bio='moliere'>De I. B. P. Molière</docAuthor>
-  		<performance>
-  			<premiere date='1661-06-24' location='Théâtre du Palais-Royal' rend="i">REPRÉSENTÉE SUR LE <lb/> Théâtre du Palais Royal.</premiere>
-  		</performance>
-  		<docImprint>
-  			<privilege id='16**-**-**'></privilege>
-  			<acheveImprime id='16**-**-**'></acheveImprime>
-  			<printer id='LUYNE'>À PARIS, <lb/>Chez GUILLAUME DE LUYNE, <lb/>Libraire Juré, au Palais, à la Salle des <lb/>Merciers, à la Justice.</printer>
-  		</docImprint>
-  		<docDate value='1661'>M. DC. LXI. <lb/><hi rend="i">AVEC PRIVILÈGE DU ROI</hi>.</docDate>
+  		<argument>
+  			<p date='1661-06-24' location='Théâtre du Palais-Royal' rend="i">REPRÉSENTÉE SUR LE <lb/> Théâtre du Palais Royal.</p>
+  		</argument>
+	  	<docImprint>À PARIS, <lb/>Chez GUILLAUME DE LUYNE, <lb/>Libraire Juré, au Palais, à la Salle des <lb/>Merciers, à la Justice.</docImprint>
+  		<docDate when="1661">M. DC. LXI.</docDate>
+	  	<docImprint rend="i">AVEC PRIVILÈGE DU ROI</docImprint>
 	  </titlePage>
-		<div type="">
+		<div type="dedication">
 			<head>A MONSEIGNEUR <lb/>LE DUC <lb/>D'ORLÉANS,<lb/> FRÈRE UNIQUE <lb/>DU ROI</head>
 			<p>Monseigneur,</p>
 			<p>Je fais voir ici à la France des choses bien peu proportionnées. Il n’est rien de si
@@ -64,7 +75,7 @@
 				choses, et tout ce que j’ai prétendu dans cette Épître, c’est de justifier mon action
 				à toute la France, et d’avoir cette gloire de vous dire à vous-même, MONSEIGNEUR,
 				avec toute la soumission possible, que je suis,</p>
-			<p><hi rend="indent">De Votre Altesse Royale</hi>, <lb/><hi rend="right">Le très humble, très obéissant, <lb/>et très fidèle serviteur, <lb/>J.-B. P. MOLIÈRE.</hi></p>
+			<p>De Votre Altesse Royale, <lb/><hi rend="right">Le très humble, très obéissant, <lb/>et très fidèle serviteur, <lb/>J.-B. P. MOLIÈRE.</hi></p>
 		</div>
 		<castList>
 			<head>Les Personnages.</head>
