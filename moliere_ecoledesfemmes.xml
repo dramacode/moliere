@@ -1,32 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" n="moliere_ecoledesfemmes">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>L'ÉCOLE DES FEMMES, COMÉDIE.</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1662</date>
+        <author key="Molière (1622-1673)">MOLIÈRE</author>
       </titleStmt>
-      <publicationStmp>
-        <p>publié par Paul FIEVRE</p>
-        <p>Mai 2006</p>
-      </publicationStmp>
-      <SourceDesc>
+      <publicationStmt>
+        <date when="2006"/>
+        <date when="2014"/>
+        <publisher>Publié par Paul Fièvre en mai 2006, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
+        <availability status="restricted">
+          <licence target="projet-Molière"></licence>
+        </availability>
+        <idno></idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Molière</author>
+          <title>L'École des Femmes. Comédie</title>
+        </bibl>
         <genre>Comédie</genre>
         <inspiration>moeurs françaises</inspiration>
         <structure>Cinq actes</structure>
         <type>vers</type>
         <periode>1661-1670</periode>
         <taille>1750-2000</taille>
-        <permalien/>
-        <sources>
-          <source id="1">
-            <author/>
-            <text/>
-          </source>
-        </sources>
-      </SourceDesc>
+      </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1663"/>
+      </creation>
+      <langUsage>
+        <language ident="FR"/>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
