@@ -182,9 +182,7 @@
           <castItem><role xml:id="menandre">Ménandre.</role> <actor>M. Fernon le cadet.</actor></castItem>
           <castItem><role xml:id="caliste">Caliste.</role> <actor>Mlle Hilaire.</actor></castItem>
           <castItem><role xml:id="satyre">Deux Satyres.</role> <actor>MM. Estival, et Morel.</actor></castItem>
-        <castItem><role xml:id="tous"/></castItem>
-          <castItem><role xml:id="climene"/></castItem>
-          <castItem><role xml:id="philinte"/></castItem>
+          <castItem><role xml:id="tous"/><role xml:id="philinte"/><role xml:id="climene"/></castItem>
         </castList>
           <div type="scene" xml:id="prologue">
             <head>PROLOGUE.</head>
@@ -683,9 +681,8 @@
               <castItem><role xml:id="jeune-gens">Six jeunes Gens,</role> <actor>M. le Grand, Le Marquis de Villeroy, Le Marquis de Rassent, MM. Beauchamp, Raynal, et Favier.</actor></castItem>
               <castItem><role xml:id="chœur">Chœur de Musique.</role> <actor>MM. le Gros, Hedouin, Estival, Don, Beaumont, Bony, Gingan l’aîné, Fernon l’aîné, Fernon le cadet, Rebel, Gingan le cadet, Deschamps, Morel, Aurat, David, Devellois, Serignan, et quatre Pages de la Musique de la Chapelle, et deux de la Chambre.</actor></castItem>
             </castList>
-          <sp who="chœur">
-            <speaker></speaker>
-              <stage>POUR LE ROI, Représentant le SOLEIL.</stage>
+          <sp who="tous">
+            <stage>POUR LE ROI, Représentant le SOLEIL.</stage>
             <lg>
             <l n="266" xml:id="l266">JE suis la source des Clartés,</l>
             <l n="267" xml:id="l267">Et les Astres les plus vantés</l>
