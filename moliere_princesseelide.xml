@@ -45,7 +45,7 @@
                <titlePart type="sub">COURSE DE BAGUE, Collation ornée de Machines, Comédie de Molière de La Princesse d'Élide, mêlée de Danse et de Musique, Ballet du Palais d'Alcine, Feu d'Artifice : Et autres Fêtes galantes et magnifiques ; faites par le Roi à Versailles, le 7<hi rend="sup">e</hi> Mai 1664. Et continuées plusieurs autres Jours.</titlePart>
             </docTitle>
             <docImprint> À PARIS, Chez <hi rend="sc">Robert Ballard</hi>, seul Imprimeur du Roi, pour la Musique, rue Saint Jean de Beauvais, au Mont Parnasse. Et au Palais. <hi rend="sc">Thomas Jolly</hi> à la Salle des Merciers, à l'Enseigne de la Palme. <hi rend="sc">Guillaume de Luynes</hi>, même Salle, à l'Enseigne de la Justice. <hi rend="sc">Louis Billaine</hi> dans la grande Salle, à l'Enseigne de la Palme et du grand César.</docImprint>
-            <docDate value="1665">M. DC. LXV.</docDate>
+            <docDate when="1665">M. DC. LXV.</docDate>
             <docImprint rend="i">AVEC PRIVILÈGE DE SA MAJESTÉ.</docImprint>
             <performance>
                <premiere location="Château de Versailles" date="1664-05-08">Représentée pour la première fois à Versailles, le 8e mai 1664, et donnée depuis au public sur le théâtre du Palais-Royal le 9e novembre de la même année 1664.</premiere>
@@ -61,29 +61,33 @@
           <div type="scene" xml:id="II01">
             <head>SCÈNE PREMIÈRE.</head>
             <sp who="l-aurore">
-              <speaker>RÉCIT DE L’AURORE.</speaker>
-              <l>Quand l’Amour à vos yeux offre un choix agréable,</l>
-              <l rend="n">Jeunes beautés laissez-vous enflammer.</l>
-              <l rend="n">Moquez-vous d’affecter cet orgueil indomptable,</l>
-              <l rend="n">Dont on vous dit qu’il est beau de s’armer :</l>
-              <l rend="n">Dans l’âge où l’on est aimable</l>
-              <l rend="n">Rien n’est si beau que d’aimer.</l>
+              <speaker><hi rend="i">Récit de </hi>l’Aurore.</speaker>
+              <lg>
+              <l rend="i">Quand l’Amour à vos yeux offre un choix agréable,</l>
+              <l>Jeunes beautés laissez-vous enflammer.</l>
+              <l>Moquez-vous d’affecter cet orgueil indomptable,</l>
+              <l>Dont on vous dit qu’il est beau de s’armer :</l>
+              <l>Dans l’âge où l’on est aimable</l>
+              <l>Rien n’est si beau que d’aimer.</l>
+              </lg>
+              <lg rend="i">
               <l>Soupirez librement pour un amant fidèle,</l>
               <l>Et bravez ceux qui voudraient vous blâmer ;</l>
               <l>Un cœur tendre est aimable, et le nom de cruelle</l>
               <l>N’est pas un nom à se faire estimer :</l>
               <l>Dans le temps où l’on est belle,</l>
               <l>Rien n’est si beau que d’aimer.</l>
+              </lg>
             </sp>
           </div>
           <div type="scene" xml:id="II02">
             <head>SCÈNE DEUXIÈME.</head>
             <castList>
-              <castItem><role xml:id="valets-de-chiens"></role><role xml:id="valet-1"></role><role xml:id="valet-2"></role><role xml:id="valet-3"></role><role xml:id="lyciscas"></role></castItem>
+              <castItem><role xml:id="valets-de-chiens"></role><role xml:id="valet-1"></role><role xml:id="valet-2"></role><role xml:id="valet-3"></role><role xml:id="lyciscas"></role><actor xml:id="moliere"></actor><actor xml:id="estival"></actor><actor xml:id="don"></actor><actor xml:id="blondel"></actor></castItem>
               <castItem><role xml:id="musiciens"></role></castItem>
             </castList>
-            <stage>Valets de Chiens, et Musiciens.</stage>
-            <stage>Pendant que l’Aurore chantait ce Récit, quatre Valets de Chiens étaient couchés sur l’Herbe, dont l’un (sous la figure de Lyciscas représenté par le Sieur de Molière, excellent Acteur, de l’invention duquel étaient les Vers et toute la Pièce) se trouvait au milieu de deux, et un autre à ses pieds: Qui étaient les Sieurs Estival, Don, et Blondel de la Musique du Roi, dont les voix étaient admirables.</stage>
+            <stage>Valets de Chiens, <hi rend="i">et</hi> Musiciens.</stage>
+            <p rend="argument">Pendant que l’Aurore chantait ce Récit, quatre Valets de Chiens étaient couchés sur l’Herbe, dont l’un (sous la figure de Lyciscas représenté par le Sieur de Molière, excellent Acteur, de l’invention duquel étaient les Vers et toute la Pièce) se trouvait au milieu de deux, et un autre à ses pieds: Qui étaient les Sieurs Estival, Don, et Blondel de la Musique du Roi, dont les voix étaient admirables.</p>
             <stage>Ceux-ci en se réveillant à l’arrivée de l’Aurore, sitôt qu’elle eut chanté, s’écrièrent en Concert:</stage>
             <sp xml:id="II02-1" who="valets-de-chiens">
               <speaker></speaker>
@@ -107,15 +111,15 @@
             <sp who="valets-de-chiens" xml:id="II02-5">
               <speaker>tous ensemble</speaker>
               <l>Sus, sus debout, vite debout ?</l>
-              <stage>(Parlant à Lyciscas, qui dormait.)</stage>
-              <l>Qu’est-ce ci, Lyciscas ? quoi ? tu ronfles encore,,</l>
+              <stage>Parlant à Lyciscas, qui dormait.</stage>
+              <l>Qu’est-ce ci, Lyciscas ? quoi ? tu ronfles encore,</l>
               <l>Toi qui promettais tant de devancer l’Aurore ?</l>
               <l>Allons debout, vite debout,</l>
-              <l>Pour la Chasse ordonnée il faut préparer tout,,</l>
+              <l>Pour la Chasse ordonnée il faut préparer tout,</l>
               <l>Debout, vite debout, dépêchons, debout.</l>
             </sp>
             <sp who="lyciscas" xml:id="II02-6">
-              <speaker>lyciscas <hi rend="i">en s’éveillant</hi></speaker>
+              <speaker>lyciscas, <hi rend="i">en s’éveillant</hi></speaker>
               <p>Par <hi rend="i">la</hi> morbleu vous êtes de grands braillards vous autres,</p>
               <p><hi rend="i">Et</hi> vous avez la gueule ouverte de bon matin ?</p>
             </sp>
@@ -263,9 +267,9 @@
               <l>Debout.</l>
             </sp>
             <sp who="lyciscas" xml:id="II02-42">
-              <speaker>lyciscas <hi rend="i">en se levant</hi></speaker>
-              <p>Quoi toujours ? a-t-on jamais vu une pareille furie de chanter ? par le sang bleu <hi rend="i">j’enrage, puisque</hi> me voilà éveillé il faut que j’éveille les autres, et que je les tourmente comme on m’a fait. Allons ho ? Messieurs, debout, debout, vite c’est trop dormir. Je vais faire un bruit de Diable partout, debout, debout, <hi rend="i">debout</hi> ; Allons vite, <hi rend="i">ho, ho, ho</hi> ? Debout, debout, pour la Chasse ordonnée il faut préparer tout,, debout, <hi rend="i">debout</hi>, Lyciscas debout ? Ho ! <hi rend="i">ho ! ho ! ho ! ho.</hi></p>
-              <stage>Lyciscas s’étant levé avec toutes les peines du monde, et s’étant mis à crier de toute sa force, plusieurs Cors et Trompes de Chasse se firent entendre, et concertées avec les Violons commencèrent l’air d’une entrée, sur laquelle six Valets de Chiens dansèrent avec beaucoup de justesse et disposition ; reprenant à certaines cadences le son de leurs Cors et Trompes : C’étaient les Sieurs Paysan, Chicanneau, Noblet, Pesan, Bonard, et La Pierre.</stage>
+              <speaker>lyciscas, <hi rend="i">en se levant</hi></speaker>
+              <p>Quoi toujours ? a-t-on jamais vu une pareille furie de chanter ? par le sang bleu j’enrage, puisque me voilà éveillé il faut que j’éveille les autres, et que je les tourmente comme on m’a fait. Allons ho ? Messieurs, debout, debout, vite c’est trop dormir. Je vais faire un bruit de Diable partout, debout, debout, debout ; Allons vite, ho, ho, ho ? Debout, debout, pour la Chasse ordonnée il faut préparer tout, debout, debout, Lyciscas debout ? Ho ! ho ! ho ! ho ! ho.</p>
+              <p rend="argument">Lyciscas s’étant levé avec toutes les peines du monde, et s’étant mis à crier de toute sa force, plusieurs Cors et Trompes de Chasse se firent entendre, et concertées avec les Violons commencèrent l’air d’une entrée, sur laquelle six Valets de Chiens dansèrent avec beaucoup de justesse et disposition ; reprenant à certaines cadences le son de leurs Cors et Trompes : C’étaient les Sieurs Paysan, Chicanneau, Noblet, Pesan, Bonard, et La Pierre.</p>
             </sp>
           </div>
         </div>
@@ -283,6 +287,9 @@
             <castItem><role xml:id="arbate" civil="M" type="H" statut="gouverneur" age="A" stat_amour="néant">ARBATE</role>, gouverneur du prince d'Ithaque.</castItem>
             <castItem><role xml:id="moron" civil="M" type="H" statut="bouffon" age="A" stat_amour="néant">MORON</role>, plaisant de la Princesse.</castItem>
             <castItem><role xml:id="lycas" civil="M" type="H" statut="suivant" age="A" stat_amour="néant">LYCAS</role>, suivant d'Iphitas.</castItem>
+            <castItem><role xml:id="satyre"></role></castItem>
+            <castItem><role xml:id="tircis"></role></castItem>
+            <castItem><role xml:id="clymene"></role></castItem>
           </castList>
         </div>
       <div type="act" xml:id="III">
@@ -607,7 +614,7 @@
           </sp>
           <sp who="moron" xml:id="III02-18">
             <speaker>moron</speaker>
-            <l>Quelque sot ,,</l>
+            <l>Quelque sot ,</l>
             <l>J’ai jeté tout par terre, et couru comme quatre.</l>
           </sp>
           <sp who="arbate" xml:id="III02-19">
@@ -666,7 +673,7 @@
             <l>Il me faut manier la chose avec adresse ;</l>
             <l>Car on doit regarder comme l’on parle aux grands,</l>
             <l>Et vous êtes parfois d’assez fâcheuses gens.</l>
-            <l>Laissez-moi doucement conduire cette trame,,</l>
+            <l>Laissez-moi doucement conduire cette trame,</l>
             <l n="250">Je me sens là pour vous un zèle tout de flamme,</l>
             <l>Vous êtes <hi rend="i">né</hi> mon Prince, et quelques autres nœuds</l>
             <l>Pourraient contribuer au bien que je vous veux :</l>
@@ -762,7 +769,7 @@
           <sp who="arbate" xml:id="III04-2">
             <speaker>arbate</speaker>
             <l>Je vous vois tout pensif, Seigneur, de ses dédains ;</l>
-            <l>Mais ils n’ont rien qui doive empêcher vos desseins,,</l>
+            <l>Mais ils n’ont rien qui doive empêcher vos desseins,</l>
             <l>Son heure doit venir, et c’est à vous possible</l>
             <l>Qu’est réservé l’honneur de la rendre sensible.</l>
           </sp>
@@ -796,9 +803,7 @@
       </div>
       <div type="act" xml:id="IV">
         <head>DEUXIÈME INTERMÈDE.</head>
-        <argument>
-          <p>L’agréable Moron laissa aller le Prince pour parler de sa passion naissante aux bois et aux rochers, et faisant retentir partout le beau nom de sa Bergère Philis, un Écho ridicule lui répondant bizarrement, il y prit si grand plaisir que riant en cent manières, il fit répondre autant de fois cet Écho, sans témoigner d’en être ennuyé : Mais un Ours vint interrompre ce beau divertissement, et le surprit si fort par cette vue peu attendue, qu’il donna des sensibles marques de sa peur : Il lui fit faire devant l’Ours toutes les soumissions dont il se pût aviser pour l’adoucir : Enfin se jetant à un arbre pour y monter ; comme il vit que l’Ours y voulait grimper aussi bien que lui ; Il cria au secours d’une voix si haute, qu’elle attira huit Paysans armés de bâtons à deux bouts et d’épieux, pendant qu’un autre Ours parut ensuite du premier. Il se fit un Combat qui finit par la mort d’un des Ours, et par la fuite de l’autre :</p>
-        </argument>
+<p rend="argument">L’agréable Moron laissa aller le Prince pour parler de sa passion naissante aux bois et aux rochers, et faisant retentir partout le beau nom de sa Bergère Philis, un Écho ridicule lui répondant bizarrement, il y prit si grand plaisir que riant en cent manières, il fit répondre autant de fois cet Écho, sans témoigner d’en être ennuyé : Mais un Ours vint interrompre ce beau divertissement, et le surprit si fort par cette vue peu attendue, qu’il donna des sensibles marques de sa peur : Il lui fit faire devant l’Ours toutes les soumissions dont il se pût aviser pour l’adoucir : Enfin se jetant à un arbre pour y monter ; comme il vit que l’Ours y voulait grimper aussi bien que lui ; Il cria au secours d’une voix si haute, qu’elle attira huit Paysans armés de bâtons à deux bouts et d’épieux, pendant qu’un autre Ours parut ensuite du premier. Il se fit un Combat qui finit par la mort d’un des Ours, et par la fuite de l’autre :</p>
         <div type="scene" xml:id="IV01">
           <head>SCÈNE <hi rend="i">PREMIÈRE.</hi></head>
           <sp who="moron" xml:id="IV01-1">
@@ -826,10 +831,10 @@
           <stage>Un ours, Moron.</stage>
           <sp who="moron" xml:id="IV02-1">
             <speaker>moron</speaker>
-            <p><hi rend="i">AH ! monsieur l’Oursl’Ours</hi>,  je suis votre serviteur de tout mon cœur : <hi rend="i">de</hi> grâce épargnez-moi ? <hi rend="i">je</hi> vous assure que je ne vaux rien du tout à manger, je n’ai que la peau et les os, et je vois de certaines gens là-bas qui <hi rend="i">feraient bien mieux votre affaire. Eh ! eh ! eh ! monseigneur, tout doux s’il vous plaît. Là, là, là, là, ah ! monseigneur que votre altesse est jolie et bien faite ; elle a tout à fait l’air galant et la taille la plus mignonne du monde. Ah beau poil ! belle tête ! beaux yeux brillants et bien fendus ! ah beau petit nez ! belle petite bouche ! petites quenottes jolies ! ah belle gorge ! belles petites menottes ! petits ongles bien faits. À l’aide, au secours, je suis mort, miséricorde, pauvre Moron, ah, mon Dieu ! et vite, à moi, je suis perdu</hi> !</p>
-            <stage>Les Chasseurs paraissent. . </stage>
-            <p>Eh, messieurs ayez pitié de moi ! <hi rend="i">bons messieurs</hi> tuez-moi ce vilain animal-là ! Ô Ciel ! daigne les assister. Bon, <hi rend="i">le</hi> voilà qui fuit, le voilà qui s’arrête et qui se jette sur eux. Bon en voilà un qui vient de lui donner un coup dans la gueule. Les voilà tous à l’entour de lui. Courage, ferme, allons mes amis. Bon, poussez fort, <hi rend="i">encore, ah ! le</hi> voilà qui est à terre, c’en est fait il est mort, descendons maintenant pour lui donner cent coups. Serviteur, Messieurs, je vous rends grâce de m’avoir délivré de cette bête, maintenant que vous l’avez tuée je m’en vais l’achever, et en triompher avec vous.</p>
-            <p>Ces heureux Chasseurs, n’eurent pas plutôt remporté cette victoire, que Moron devenu brave par l’éloignement du péril, voulut aller donner mille coups à la bête, qui n’était plus en état de se défendre, et fit tout ce qu’un fanfaron, qui n’aurait pas été trop hardi, eût pu faire en cette occasion ; et les Chasseurs pour témoigner leur joie, dansèrent une fort belle Entrée : C’étaient M. Manceau, les sieurs Chicanneau, Baltazard, Noblet, Bonard, Manceau, Magny, et La Pierre.</p>
+            <p>AH ! monsieur l’Oursl’Ours,  je suis votre serviteur de tout mon cœur : de grâce épargnez-moi ? je vous assure que je ne vaux rien du tout à manger, je n’ai que la peau et les os, et je vois de certaines gens là-bas qui feraient bien mieux votre affaire. Eh ! eh ! eh ! monseigneur, tout doux s’il vous plaît. Là, là, là, là, ah ! monseigneur que votre altesse est jolie et bien faite ; elle a tout à fait l’air galant et la taille la plus mignonne du monde. Ah beau poil ! belle tête ! beaux yeux brillants et bien fendus ! ah beau petit nez ! belle petite bouche ! petites quenottes jolies ! ah belle gorge ! belles petites menottes ! petits ongles bien faits. À l’aide, au secours, je suis mort, miséricorde, pauvre Moron, ah, mon Dieu ! et vite, à moi, je suis perdu !</p>
+            <stage>Les Chasseurs paraissent.</stage>
+            <p>Eh, messieurs ayez pitié de moi ! bons messieurs tuez-moi ce vilain animal-là ! Ô Ciel ! daigne les assister. Bon, le voilà qui fuit, le voilà qui s’arrête et qui se jette sur eux. Bon en voilà un qui vient de lui donner un coup dans la gueule. Les voilà tous à l’entour de lui. Courage, ferme, allons mes amis. Bon, poussez fort, encore, ah ! le voilà qui est à terre, c’en est fait il est mort, descendons maintenant pour lui donner cent coups. Serviteur, Messieurs, je vous rends grâce de m’avoir délivré de cette bête, maintenant que vous l’avez tuée je m’en vais l’achever, et en triompher avec vous.</p>
+            <p rend="argument">Ces heureux Chasseurs, n’eurent pas plutôt remporté cette victoire, que Moron devenu brave par l’éloignement du péril, voulut aller donner mille coups à la bête, qui n’était plus en état de se défendre, et fit tout ce qu’un fanfaron, qui n’aurait pas été trop hardi, eût pu faire en cette occasion ; et les Chasseurs pour témoigner leur joie, dansèrent une fort belle Entrée : C’étaient M. Manceau, les sieurs Chicanneau, Baltazard, Noblet, Bonard, Manceau, Magny, et La Pierre.</p>
           </sp>
         </div>
       </div>
@@ -983,7 +988,7 @@
             <speaker>la princesse</speaker>
             <p>Seigneur, je vous demande la licence de prévenir par deux paroles, la déclaration des pensées que vous pouvez avoir. Il y a deux vérités, Seigneur, aussi constantes l’une que l’autre, et dont je puis vous assurer également : l’Une que vous avez un absolu pouvoir sur moi, et que vous ne sauriez m’ordonner rien où je ne réponde aussitôt par une obéissance aveugle. L’autre que je regarde l’Hyménée ainsi que le trépas, et qu’il m’est impossible de forcer cette aversion naturelle : Me donner un Mari, et me donner la mort c’est une même chose ; mais votre volonté va la première, et mon obéissance m’est bien plus chère que ma vie : Après cela parlez, Seigneur, prononcez librement ce que vous voulez.</p>
           </sp>
-          <sp who="le-prince" xml:id="V04-2">
+          <sp who="iphitas" xml:id="V04-2">
             <speaker>le prince</speaker>
             <p>Ma Fille tu as tort de prendre de telles alarmes, et je me plains de toi, qui peux mettre dans ta pensée que je sois assez mauvais Père pour vouloir faire violence à tes sentiments, et me servir tyranniquement de la puissance que le Ciel me donne sur toi. Je souhaite à la vérité que ton cœur puisse aimer quelqu’un : Tous mes vœux seraient satisfaits si cela pouvait arriver, et je n’ai proposé les Fêtes et les Jeux que je fais célébrer ici ; qu’afin d’y pouvoir attirer tout ce que la Grèce a d’illustre ; et que parmi cette noble jeunesse tu puisses enfin rencontrer où arrêter tes yeux et déterminer tes pensées. Je ne demande dis-je, au Ciel autre bonheur que celui de te voir un Époux. J’ai pour obtenir cette grâce fait encore ce matin un sacrifice à Vénus ; et si je sais bien expliquer le langage des Dieux, elle m’a promis un miracle ; mais quoi qu’il en soit je veux en user avec toi en Père qui chérit sa Fille : Si tu trouves où attacher tes vœux, ton choix sera le mien, et je ne considérerai ni intérêts d’État, ni <hi rend="i">avantage d’Alliance. SiSi</hi> ton cœur demeure insensible, je n’entreprendrai point de le forcer : Mais au moins sois complaisante aux civilités qu’on te rend, et ne m’oblige point à faire les excuses de ta froideur : Traite ces Princes avec l’estime que tu leur dois, reçois avec reconnaissance les témoignages de leur zèle, et viens voir cette Course où leur adresse va paraître.</p>
           </sp>
@@ -1114,7 +1119,7 @@
           </sp>
           <sp who="moron" xml:id="VI01-19">
             <speaker>moron</speaker>
-            <p>Eh bien, oui, demeure : <hi rend="i">je</hi> ne dirai mot.</p>
+            <p>Eh bien, oui, demeure : je ne dirai mot.</p>
           </sp>
           <sp who="philis" xml:id="VI01-20">
             <speaker>philis</speaker>
@@ -1122,7 +1127,8 @@
           </sp>
           <sp who="moron" xml:id="VI01-21">
             <speaker>moron </speaker>
-            <p>Il fait une scène de gestes.— Soit.Ah ! Philis ... Eh... Elle s’enfuit, et je ne saurais l’attraper.Voilà ce que c’est, si je savais chanter j’en ferais bien mieux mes affaires. La plupart des Femmes aujourd’hui se laissent prendre par les oreilles : Elles sont cause que tout le monde se mêle de Musique, et l’on ne réussit auprès d’elles, que par les petites chansons, et les petits vers qu’on leur fait entendre.Il faut que j’apprenne à chanter pour faire comme les autres.Bon, voici justement mon homme.</p>
+            <stage>Il fait une scène de gestes.</stage>
+            <p>Soit.Ah ! Philis ... Eh... Elle s’enfuit, et je ne saurais l’attraper.Voilà ce que c’est, si je savais chanter j’en ferais bien mieux mes affaires. La plupart des Femmes aujourd’hui se laissent prendre par les oreilles : Elles sont cause que tout le monde se mêle de Musique, et l’on ne réussit auprès d’elles, que par les petites chansons, et les petits vers qu’on leur fait entendre.Il faut que j’apprenne à chanter pour faire comme les autres.Bon, voici justement mon homme.</p>
           </sp>
         </div>
         <div type="scene" xml:id="VI02">
@@ -1146,7 +1152,7 @@
           </sp>
           <sp who="satyre" xml:id="VI02-5">
             <speaker>satyre</speaker>
-            <p>Je portais<hi rend="i">……</hi></p>
+            <p>Je portais……</p>
           </sp>
           <sp who="moron" xml:id="VI02-6">
             <speaker>moron</speaker>
@@ -1180,7 +1186,7 @@
             <l>De ses yeux si savants à faire des conquêtes,</l>
             <l>Consolez-vous, pauvres petites bêtes,</l>
             <l>Celui qui vous a pris est bien plus pris que vous.</l>
-            <stage>Moron ne fut pas satisfait de cette Chanson, quoiqu’il la trouvât jolie, il en demanda une plus passionnée, et priant le Satyre de lui dire celle qu’il lui avait ouï chanter quelques jours auparavant, il continua ainsi:</stage>
+            <p rend="argument">Moron ne fut pas satisfait de cette Chanson, quoiqu’il la trouvât jolie, il en demanda une plus passionnée, et priant le Satyre de lui dire celle qu’il lui avait ouï chanter quelques jours auparavant, il continua ainsi:</p>
             <l>Dans vos chants si doux,</l>
             <l>Chantez à ma belle,</l>
             <l>Oiseaux, chantez tous</l>
@@ -1191,7 +1197,7 @@
             <l>Des maux que je sens pour elle ;</l>
             <l>Oiseaux, taisez-vous..</l>
             <l>Oiseaux, taisez-vous.</l>
-            <stage>Cette seconde Chanson ayant touché Moron fort sensiblement, il pria le Satyre de la lui apprendre à chanter ; et lui dit:</stage>
+            <p rend="argument">Cette seconde Chanson ayant touché Moron fort sensiblement, il pria le Satyre de la lui apprendre à chanter ; et lui dit:</p>
           </sp>
           <sp who="moron" xml:id="VI02-12">
             <speaker>moron</speaker>
@@ -1212,7 +1218,7 @@
           <sp who="moron" xml:id="VI02-16">
             <speaker>moron</speaker>
             <p>Fa toi-même.</p>
-            <stage>Le Satyre s’en mit en colère, et peu à peu se mettant en posture d’en venir à des coups de poing, les Violons reprirent un Air sur lequel ils dansèrent une plaisante Entrée.</stage>
+            <p rend="argument">Le Satyre s’en mit en colère, et peu à peu se mettant en posture d’en venir à des coups de poing, les Violons reprirent un Air sur lequel ils dansèrent une plaisante Entrée.</p>
           </sp>
         </div>
       </div>
@@ -1404,11 +1410,11 @@
             <speaker>moron</speaker>
             <p>Peste soit du petit brutal, <hi rend="i">j’aurais bien</hi> envie de lui bailler un coup de poing.</p>
           </sp>
-          <sp who="la-princesse-parlant-en-soi" xml:id="VII04-16">
+          <sp who="princesse-elide" xml:id="VII04-16">
             <speaker>la princesse parlant en soi</speaker>
             <p>Cet orgueil me confond, et j’ai un tel dépit, que je ne me sens pas.</p>
           </sp>
-          <sp who="moron-parlant-au-prince" xml:id="VII04-17">
+          <sp who="moron" xml:id="VII04-17">
             <speaker>moron parlant au prince</speaker>
             <p>Bon courage, <hi rend="i">Seigneur, voilàvoilà</hi> qui va le mieux du monde.</p>
           </sp>
@@ -1504,8 +1510,8 @@
             <speaker>philis</speaker>
             <p>Viens, Tircis, laissons-les aller, et me dis un peu ton martyre de la façon que tu sais faire ? Il y a longtemps que tes yeux me parlent ; mais je suis plus aise d’ouïr ta voix.</p>
           </sp>
-          <sp who="tircis-en-chantant" xml:id="VIII01-2">
-            <speaker>tircis en chantant</speaker>
+          <sp who="tircis" xml:id="VIII01-2">
+            <speaker>tircis, <hi rend="i">en chantant</hi></speaker>
             <l>Tu m’écoutes, hélas ! dans ma triste langueur ;</l>
             <l>Mais je n’en suis pas mieux, ô beauté sans pareille !</l>
             <l>Et je touche ton oreille,</l>
@@ -1525,7 +1531,7 @@
           </sp>
           <sp who="philis" xml:id="VIII02-2">
             <speaker>philis</speaker>
-            <p>Oui, je m’écarte pour cela ; <hi rend="i">je</hi> te le dis encore : <hi rend="i">Je</hi> me plais avec lui, et l’on écoute volontiers les amants lorsqu’ils se plaignent aussi agréablement qu’il fait. Que ne chantes-tu comme lui ? Je prendrais plaisir à t’écouter.</p>
+            <p>Oui, je m’écarte pour cela ; je te le dis encore : Je me plais avec lui, et l’on écoute volontiers les amants lorsqu’ils se plaignent aussi agréablement qu’il fait. Que ne chantes-tu comme lui ? Je prendrais plaisir à t’écouter.</p>
           </sp>
           <sp who="moron" xml:id="VIII02-3">
             <speaker>moron</speaker>
@@ -1543,8 +1549,8 @@
             <speaker>philis</speaker>
             <p>Silence, dis-je, ou je me mettrai en colère.</p>
           </sp>
-          <sp who="tircis-en-chantant" xml:id="VIII02-7">
-            <speaker>tircis en chantant</speaker>
+          <sp who="tircis" xml:id="VIII02-7">
+            <speaker>tircis, <hi rend="i">en chantant</hi></speaker>
             <l>Arbres épais, et vous, prés émaillés,</l>
             <l>La beauté dont l’Hiver vous avait dépouillés</l>
             <l>Par le Printemps vous est rendue :</l>
@@ -1570,9 +1576,10 @@
           </sp>
           <sp who="moron" xml:id="VIII02-12">
             <speaker>moron</speaker>
-            <p>Courage, Moron ! il n’y a qu’à avoir de la hardiesse. (Moron chante.)</p>
+            <p>Courage, Moron ! il n’y a qu’à avoir de la hardiesse.</p>
+            <stage>Moron chante.</stage>
             <l> (.) Ton extrême rigueur</l>
-            <l>S’acharne sur mon cœur,,</l>
+            <l>S’acharne sur mon cœur,</l>
             <l>Ah ! Philis je trépasse !</l>
             <l>Daigne me secourir ?</l>
             <l>En seras-tu plus grasse</l>
@@ -1603,8 +1610,8 @@
             <speaker>moron</speaker>
             <p>Voilà qui est fait, je te veux montrer que je me sais tuer quand je veux.</p>
           </sp>
-          <sp who="tircis-chante" xml:id="VIII02-19">
-            <speaker>tircis chante</speaker>
+          <sp who="tircis" xml:id="VIII02-19">
+            <speaker>tircis, <hi rend="i">chante</hi></speaker>
             <l>Ah ! quelle douceur extrême,</l>
             <l>De mourir pour ce qu’on aime. <hi rend="i">bis.</hi></l>
           </sp>
@@ -1613,13 +1620,14 @@
             <p>C’est un plaisir que vous aurez quand vous voudrez.</p>
           </sp>
           <sp who="tircis" xml:id="VIII02-21">
-            <speaker>tircis, chante</speaker>
+            <speaker>tircis, <hi rend="i">chante</hi></speaker>
             <l>Courage, Moron ! meurs promptement</l>
             <l>En généreux Amant.</l>
           </sp>
           <sp who="moron" xml:id="VIII02-22">
             <speaker>moron</speaker>
-            <p>Je vous prie de vous mêler de vos affaires, et de me laisser tuer à ma fantaisie. Allons je vais faire honte à tous les Amants ; Tiens ? je ne suis pas homme à faire tant de façons, vois ce poignard ? prends bien garde comme je vais me percer le cœur ! <hi rend="i">Je suis votre serviteur, quelque niais.</hi> Se riant de Tircis, Se riant de Tircis.</p>
+            <p>Je vous prie de vous mêler de vos affaires, et de me laisser tuer à ma fantaisie. Allons je vais faire honte à tous les Amants ; Tiens ? je ne suis pas homme à faire tant de façons, vois ce poignard ? prends bien garde comme je vais me percer le cœur ! Je suis votre serviteur, quelque niais.</p>
+            <stage>Se riant de Tircis.</stage>
           </sp>
           <sp who="philis" xml:id="VIII02-23">
             <speaker>philis</speaker>
@@ -1874,7 +1882,7 @@
           <l>Qu’en croirons-nous, ou le mal ou le bien ?</l>
         </sp>
         <sp who="clymene" xml:id="X-7">
-          <speaker><hi rend="i">CLYMÈNE</hi>, et <hi rend="i">PHILIS</hi> ensemble</speaker>
+          <speaker>clymène, <hi rend="i">et</hi> philis <hi rend="i">ensemble</hi></speaker>
           <l>Aimons, c’est le vrai moyen</l>
           <l>De savoir ce qu’on en doit croire.</l>
         </sp>
@@ -1883,7 +1891,7 @@
           <l>Cloris vante partout l’Amour et ses ardeurs.</l>
         </sp>
         <sp who="clymene" xml:id="X-9">
-          <speaker>clymene</speaker>
+          <speaker>clymène</speaker>
           <l>Amarante pour lui verse en tous lieux des larmes.</l>
         </sp>
         <sp who="philis" xml:id="X-10">
@@ -1892,7 +1900,7 @@
           <l>D’où vient qu’on aime à lui rendre les armes ?</l>
         </sp>
         <sp who="clymene" xml:id="X-11">
-          <speaker>clymene</speaker>
+          <speaker>clymène</speaker>
           <l>Si sa flamme, Philis, est si pleine de charmes,</l>
           <l>Pourquoi nous défend-on d’en goûter les douceurs ?</l>
         </sp>
@@ -1901,16 +1909,16 @@
           <l>À qui des deux donnerons-nous victoire ?</l>
         </sp>
         <sp who="clymene" xml:id="X-13">
-          <speaker>clymene</speaker>
+          <speaker>clymène</speaker>
           <l>Qu’en croirons-nous, ou le mal ou le bien :</l>
         </sp>
         <sp who="toutes-deux-ensemble" xml:id="X-14">
-          <speaker>toutes deux ensemble</speaker>
+          <speaker>toutes deux <hi rend="i">ensemble</hi></speaker>
           <l>Aimons, c’est le vrai moyen</l>
           <l>De savoir ce qu’on en doit croire.</l>
         </sp>
-        <sp who="la-princesse-les-interrompit-en-cet-endroit" xml:id="X-15">
-          <speaker>la princesse les interrompit en cet endroit, et leur dit, </speaker>
+        <sp who="princesse-elide" xml:id="X-15">
+          <speaker>la princesse <hi rend="i">les interrompit en cet endroit, et leur dit</hi></speaker>
           <p>Achevez seules si vous voulez, je ne saurais demeurer en repos, et quelque douceur qu’aient vos chants, ils ne font que redoubler mon inquiétude.</p>
         </sp>
       </div>
@@ -2100,8 +2108,12 @@
       </div>
       <div type="act" xml:id="XII">
         <head>SIXIÈME INTERMÈDE.</head>
-        <stage>CHŒUR de pasteurs &amp; de Bergères qui dansent.</stage>
-        <stage>Quatre Bergers et deux Bergères Héroïques, représentés les premiers par les Sieurs Le Gros, Estival, Don et Blondel, et les deux Bergères par Mad<hi rend="sup">lle</hi> de la Barre et Mad<hi rend="sup">lle</hi> Hilaire, se prenant par la main, chantèrent cette Chanson à danser, à laquelle les autres répondirent.</stage>
+        <stage>CHŒUR de pasteurs et de Bergères qui dansent.</stage>
+        <p rend="argument">Quatre Bergers et deux Bergères Héroïques, représentés les premiers par les Sieurs Le Gros, Estival, Don et Blondel, et les deux Bergères par Mad<hi rend="sup">lle</hi> de la Barre et Mad<hi rend="sup">lle</hi> Hilaire, se prenant par la main, chantèrent cette Chanson à danser, à laquelle les autres répondirent.</p>
+        <castList>
+          <castItem><role xml:id="quatre-bergers"></role><actor xml:id="le-gros"></actor><actor xml:id="estival"></actor><actor xml:id="don"></actor><actor xml:id="blondel"></actor></castItem>
+          <castItem><role xml:id="deux-bergeres"></role><actor xml:id="la-barre"></actor><actor xml:id="hilaire"></actor></castItem>
+        </castList>
         <label>CHANSON.</label>
         <l>Usez mieux, ô ! beautés fières !</l>
         <l>Du pouv’oir de tout charmer ;</l>
@@ -2122,8 +2134,10 @@
         <stage>Pendant que ces aimables personnes dansaient, il sortit de dessous le Théâtre la machine d’un grand arbre chargé de seize Faunes, dont les huit jouèrent de la Flûte, et les autres du Violon, avec un concert le plus agréable du monde. Trente Violons leur répondaient de l’Orchestre, avec six autres concertants de Clavecins et de Théorbes, qui étaient les Sieurs d’Anglebert, Richard, Itier, la Barre le cadet, Tissu, et Le Moine.</stage>
         <stage>Et quatre Bergers et quatre Bergères vinrent danser une fort belle entrée, à laquelle les Faunes descendant de l’arbre se mêlèrent de temps en temps, et toute cette Scène fut si grande, si remplie et si agréable, qu’il ne s’était encore rien vu de plus beau en Ballet.</stage>
         <stage>Aussi fit-elle une avantageuse conclusion aux divertissements de ce jour, que toute la Cour ne loua pas moins que celui qui l’avait précédé, se retirant avec une satisfaction qui lui fit bien espérer de la suite d’une Fête si complète.</stage>
-        <stage>Les Bergers étaient, <hi rend="i">les Sieurs Chicanneau, Du Pron, Noblet, et La Pierre.</hi></stage>
-        <stage>Et les Bergères. <hi rend="i">Les Sieurs Baltazard, Magny, Arnald, et Bonard.</hi></stage>
+        <castList>
+          <castItem><role xml:id="bergers">Les Bergers étaient</role><actor>Les Sieurs Chicanneau, Du Pron, Noblet, et La Pierre.</actor></castItem>
+          <castItem><role xml:id="bergeres">Et les Bergères.</role><actor>Les Sieurs Baltazard, Magny, Arnald, et Bonard.</actor></castItem>
+        </castList>
       </div>
       </body>
   </text>
