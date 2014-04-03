@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!-- Pb, renuméroter des vers -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_bourgeoisgentilhomme_livret">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        
+        <title>LIVRET DU « BOURGEOIS GENTILHOMME », COMÉDIE-BALLET</title>
+        <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <editionStmt>
         <edition> ?</edition>
@@ -25,23 +26,26 @@
         <measure quantity="16283" unit="character"/>
       </extent>
       <publicationStmt>
-        <publisher> ?</publisher>
-        <date when="2013"/>
-        <idno> ?</idno>
+        <date when="2014"/>
+        <publisher>Publié par Amélie Canu et Oriane Morvan en 2014.</publisher>
         <availability status="restricted">
-          <licence target=" ? ">License ?</licence>
+          <licence target="projet-Molière"></licence>
         </availability>
+        <idno></idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl> ?</bibl>
+        <bibl>
+          <author>Molière</author>
+          <title>Livre du Bourgeois gentilhomme, comédie-ballet</title>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when=" ? "/>
+        <date when="1671"/>
       </creation>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="FR"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
@@ -67,20 +71,25 @@
         <div>
           <head>DANS LE PREMIER ACTE.</head>
           <stage>Un Élève du Maître de Musique compose sur une table un Air que le Bourgeois a demandé pour une Sérénade.</stage>
-          <stage>L’Élève de Musique, <hi rend= "i">Monsieur Gaye</hi>.</stage>
+          <castList>
+            <castItem><role xml:id="eleve-musique">L’Élève de Musique</role>,<actor><persName type="actor">Monsieur Gaye</persName></actor></castItem>
+            <castItem><role xml:id="la-musicienne"></role></castItem>
+          </castList>
           <stage>Une Musicienne est priée de chanter l’air qu’a composé l’Élève.</stage>
           <sp who="la-musicienne">
-            <speaker>la musicienne, <hi rend="i">Mlle Hilaire.</hi></speaker>
+            <speaker>la musicienne, <persName type="actor"><hi rend="i">Mlle Hilaire.</hi></persName></speaker>
             <l n="1" xml:id="l1">Je languis nuit et jour, et mon mal est extrême</l>
             <l n="2" xml:id="l2">Depuis qu’à vos rigueurs vos beaux yeux m’ont soumis ;</l>
             <l n="3" xml:id="l3">Si vous traitez ainsi, belle Iris, qui vous aime,</l>
             <l n="4" xml:id="l4">Hélas ! que pourrez-vous faire à vos ennemis ?</l>
           </sp>
             <stage>Après avoir fait chanter cet air au Bourgeois, on lui fait entendre dans un Dialogue un petit essai des diverses passions que peut exprimer la Musique : Il entre pour cela un Musicien et deux Violons.</stage>
-            <stage>Le Musicien, <hi rend="i">M. Langez</hi></stage>
-            <stage>Les deux Violons. <hi rend="i">Les Sieurs Laquaisse et Marchand</hi>.</stage>
+          <castList>
+            <castItem><role xml:id="le-musicien">Le Musicien,</role><actor><persName type="actor">M. Langez</persName></actor></castItem>
+            <castItem><role xml:id="deux-violons">Les deux Violons.</role><actor><persName type="actor">Les Sieurs Laquaisse</persName> et <persName type="actor">Marchand</persName>.</actor></castItem>
+          </castList>
             <label>DIALOGUE EN MUSIQUE.</label>
-          <sp who="mademoiselle-hilaire">
+          <sp who="la-musicienne">
             <speaker>mademoiselle hilaire</speaker>
             <l n="5" xml:id="l5"><space/><space/>Un cœur dans l’amoureux empire</l>
             <l n="6" xml:id="l6"><space/><space/>De mille soins est toujours agité,</l>
@@ -174,16 +183,21 @@
             <l n="43" xml:id="l43"><space/><space/>Quand deux cœurs sont fidèles.</l>
           </sp>
             <stage>Ensuite de ce Dialogue le Maître à danser lui fait voir aussi un petit essai des plus beaux mouvements, et des plus belles attitudes dont une danse puisse être variée.</stage>
-            <stage><hi rend="i">Quatre danseurs</hi>, Messieurs la Pierre, Favier, S. André et Foignard cadet.</stage>
+          <castList>
+            <castItem><role xml:id="quatre-danseurs">Quatre danseurs</role>, <actor>Messieurs <persName type="actor">la Pierre</persName>, <persName type="actor">Favier</persName>, <persName type="actor">S. André</persName> et <persName type="actor">Foignard cadet</persName>.</actor></castItem>
+          </castList>
             <stage>Un Maître Tailleur lui vient apporter un habit, qui lui fait vêtir en cadence par six garçons Tailleurs.</stage>
-            <stage><hi rend="i">Les six garçons Tailleurs</hi>. Messieurs Dolivet, le Chantre, Bonnart, Isaac, Magny et S. André.</stage>
+          <castList>
+            <castItem><role xml:id="six-garcons-tailleurs">Les six garçons Tailleurs</role><actor>Messieurs <persName type="actor">Dolivet</persName>, <persName type="actor">le Chantre</persName>, <persName type="actor">Bonnart</persName>, <persName type="actor">Isaac</persName>, <persName type="actor">Magny</persName> et <persName type="actor">S. André</persName>.</actor></castItem>
+          </castList>
             <stage>Le Bourgeois étant habillé leur donne de quoi boire, et les garçons Tailleurs s’en réjouissent par une danse.</stage>
         </div>
         <div>
           <head>DANS LE SECOND ACTE.</head>
           <stage>Une femme de qualité vient dîner chez le Bourgeois, qui pour la mieux regarder lui fait ouïr à table quelques Chansons à boire, qui sont chantées par trois Musiciens qu’il a fait venir.</stage>
-          <stage rend="i">Les trois Musiciens.</stage>
-          <stage>Messieurs Blondel, la Grille, et Morel.</stage>
+          <castList>
+            <castItem><role xml:id="trois-musiciens">Les trois Musiciens.</role><actor>Messieurs <persName type="actor">Blondel</persName>, <persName type="actor">la Grille</persName>, et <persName type="actor">Morel</persName>.</actor></castItem>
+          </castList>
           <label>PREMIÈRE CHANSON À BOIRE.</label>
           <sp who="grille-morel">
             <speaker>MM. de la Grille et Morel </speaker>
@@ -230,12 +244,12 @@
           <head>DANS LE TROISIÈME ACTE</head>
           <stage>Le Bourgeois qui veut donner sa fille au fils du Grand Turc, est annobli auparavant par une cérémonie Turque, qui se fait en danse, et en Musique.</stage>
           <stage>Les Acteurs de la cérémonie sont</stage>
-          <stage><hi rend="i">Un Mufti</hi> représenté par le Seigneur Chiacheron.</stage>
-          <stage><hi rend="i">Douze Turcs Musiciens assistants à la cérémonie</hi>. Messieurs le Gros, Estival, Blondel, Gingant l’aîné, Rebel, Gillet, Fernon cadet, Hédoüin, Bernard, Deschamps, Langez et Gaye.</stage>
-          <stage rend="i">Quatre Dervis.</stage>
-          <stage>Messieurs Morel, Gingant cadet, Noblet, et Philbert.</stage>
-          <stage rend="i">Six Turcs dansant.</stage>
-          <stage>Messieurs Beauchamp, Dolivet, la Pierre, Favier, Mayeu, Chicanneau.</stage>
+          <castList>
+            <castItem><role xml:id="le-mufti">Un Mufti</role> représenté par le <actor>Seigneur Chiacheron</actor>.</castItem>
+            <castItem><role xml:id="turcs-musiciens">Douze Turcs Musiciens assistants à la cérémonie</role>. <actor>Messieurs <persName type="actor">le Gros</persName>, <persName type="actor">Estival</persName>, <persName type="actor">Blondel</persName>, <persName type="actor">Gingant l’aîné</persName>, <persName type="actor">Rebel</persName>, <persName type="actor">Gillet</persName>, <persName type="actor">Fernon cadet</persName>, <persName type="actor">Hédoüin</persName>, <persName type="actor">Bernard</persName>, <persName type="actor">Deschamps</persName>, <persName type="actor">Langez</persName> et <persName type="actor">Gaye</persName></actor>.</castItem>
+            <castItem><role xml:id="quatre-dervis">Quatre Dervis</role>.<actor>Messieurs <persName type="actor">Morel</persName>, <persName type="actor">Gingant cadet</persName>, <persName type="actor">Noblet</persName>, et <persName type="actor">Philbert</persName>.</actor></castItem>
+            <castItem><role xml:id="les-turcs">Six Turcs dansant.</role><actor>Messieurs <persName type="actor">Beauchamp</persName>, <persName type="actor">Dolivet</persName>, <persName type="actor">la Pierre</persName>, <persName type="actor">Favier</persName>, <persName type="actor">Mayeu</persName>, <persName type="actor">Chicanneau</persName>.</actor></castItem>
+          </castList>
           <stage>Le MUFTI invoque Mahomet avec les douze Turcs, et les quatre Derviches après, on lui amène le Bourgeois auquel il chante ces paroles.</stage>
           <sp who="le-mufti">
             <speaker>Le Mufti</speaker>
@@ -333,12 +347,32 @@
           <div>
             <head>PREMIÈRE ENTRÉE</head>
             <stage>Un homme vient donner les Livres du Ballet, qui d’abord est fatigué par une multitude de gens de Provinces différentes, qui crient en Musique pour en avoir, et par trois importuns qu’il trouve toujours sous ses pas.</stage>
-            <stage><hi rend="i">Le donneur de Livre</hi>, Monsieur Dolivet.</stage>
-            <stage>Spectateur Musiciens.</stage>
-            <stage>MM. le Gros, <hi rend="i">homme du bel air</hi>, Estival, Hedouin, Gaye <hi rend="i">Gascon</hi>, Morel, Gingant l’aîné, Gingant cadet, <hi rend="i">Gascon</hi>, Blondel, <hi rend="i">vieux babillard</hi>, Langez, <hi rend="i">vieille babillarde</hi>, Fernon, <hi rend="i">homme du bel air</hi>, Deschamps, Gillet, Philbert, <hi rend="i">Suisse</hi>, Bernard, Noblet, Rebel, <hi rend="i">homme du bel air</hi>.</stage>
-            <stage>Quatre Pages de la Musique.</stage>
-            <stage rend="i">Filles coquettes.</stage>
-            <stage>Jeannot, Pierrot, Renier, Un Page de la Chapelle.</stage>
+            <castList>
+              <castItem><role xml:id="donneur-livre">Le donneur de Livre</role><actor><persName type="actor">Monsieur Dolivet</persName>.</actor></castItem>
+            </castList>
+            <castList>
+              <head>Spectateur Musiciens.</head>
+              <castItem><actor><persName type="actor">MM. le Gros</persName>,</actor><role xml:id="homme-du-bel-air">homme du bel air</role>,</castItem>
+              <castItem><actor><persName type="actor">Estival</persName>,</actor></castItem>
+              <castItem><actor><persName type="actor">Hedouin</persName>,</actor></castItem>
+              <castItem><actor><persName type="actor">Gaye</persName>,</actor><role xml:id="gascon">Gascon</role>,</castItem>
+              <castItem><actor><persName type="actor">Morel</persName>,</actor></castItem>
+              <castItem><actor><persName type="actor">Gingant l'aîné</persName>,</actor></castItem>
+              <castItem><actor><persName type="actor">Gingant cadet</persName>,</actor><role xml:id="autre-gascon">Gascon</role>,</castItem>
+              <castItem><actor><persName type="actor">Blondet</persName>,</actor><role xml:id="vieux-bourgeois-babillard">vieux babillard</role>,</castItem>
+              <castItem><actor><persName type="actor">Langez</persName>,</actor><role xml:id="vieille-bourgeoise-babillarde">vieux babillard</role>,</castItem>
+              <castItem><actor><persName type="actor">Fernon</persName>,</actor><role xml:id="autre-homme-du-bel-air">homme du bel air</role>,</castItem>
+              <castItem><actor><persName type="actor">Deschamps</persName>,</actor></castItem>
+              <castItem><actor><persName type="actor">Gillet</persName>,</actor></castItem>
+              <castItem><actor><persName type="actor">Philbert</persName>,</actor><role xml:id="le-suisse">Suisse</role>,</castItem>
+              <castItem><actor><persName type="actor">Bernard</persName>,</actor></castItem>
+              <castItem><actor><persName type="actor">Noblet</persName>,</actor></castItem>
+              <castItem><actor><persName type="actor">Rebel</persName>,</actor><role xml:id="homme-du-bel-air3">homme du bel air</role>,</castItem>
+            </castList>
+            <castList>
+              <castItem><role xml:id="quatre-pages">Quatre Pages de la Musique.</role></castItem>
+              <castItem><role xml:id="filles-coquettes">Filles coquettes.</role><actor><persName type="actor">Jeannot</persName>, <persName type="actor">Pierrot</persName>, <persName type="actor">Renier</persName>, <persName type="actor">Un Page de la Chapelle</persName>.</actor></castItem>
+            </castList>
             <label>DIALOGUE DES GENS</label>
             <stage>Qui en Musique demandent des Livres.</stage>
             <sp who="tous">

@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!-- Pb, renuméroter des vers -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_bourgeoisgentilhomme">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>LE BOURGEOIS GENTILHOMME, COMÉDIE-BALLET</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1669</date>
+        <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
-        <p>publié par Paul FIEVRE mai 2010</p>
+        <date when="2010"/>
+        <date when="2014"/>
+        <publisher>Publié par Paul Fièvre en mai 2010, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
+        <availability status="restricted">
+          <licence target="projet-Molière"></licence>
+        </availability>
+        <idno></idno>
       </publicationStmt>
       <sourceDesc>
+        <bibl>
+          <author>Molière</author>
+          <title>Le Bourgeois gentilhomme, comédie-ballet</title>
+        </bibl>
         <genre>Comédie-ballet</genre>
         <inspiration>mœurs françaises</inspiration>
         <structure>Cinq actes</structure>
@@ -20,30 +29,31 @@
         <periode>1661-1670</periode>
         <taille>250-500</taille>
         <permalien>http://gallica.bnf.fr/ark:/12148/bpt6k83269v</permalien>
-        <sources>
-          <source id="1">
-            <author/>
-            <text/>
-          </source>
-        </sources>
       </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1671"/>
+      </creation>
+      <langUsage>
+        <language ident="FR"/>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
+      <titlePage>
       <docTitle>
         <titlePart type="main">LE <lb/>BOURGEOIS<lb/> GENTILHOMME</titlePart>
         <titlePart type="sub">COMÉDIE-BALLET</titlePart>
       </docTitle>
       <premiere date="1670-11-23" location="Théâtre du Palais-Royal">FAITE À CHAMBORD, <lb/>Pour le Divertissement du Roi,</premiere>
-      <docAuthor id="MOLIERE" bio="moliere">Par J. B. P. MOLIÈRE</docAuthor>
+      <docAuthor xml:id="MOLIERE" bio="moliere">Par J. B. P. MOLIÈRE</docAuthor>
       <docImprint>Et se vend pour l'Auteur <lb/> À PARIS, <lb/> Chez PIERRE LE MONNIER, au Palais, vis-à-vis <lb/> la Porte de l'Église de la Sainte-Chapelle, <lb/> à l'Image Saint-Louis, et au Feu Divin.
-        <privilege date=""><head/>
-		</privilege>
-        <acheveImprime id=""/>
       </docImprint>
       <docDate value="1671">M. DC. LXXI.</docDate>
       <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
+      </titlePage>
       <castList>
         <head rend="sc">acteurs</head>
         <castItem><role xml:id="MONSIEUR-JOURDAIN" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">monsieur jourdain</role>, Bourgeois.</castItem>
