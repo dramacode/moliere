@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+<?xml-model href="teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_princesse-elide">
+  <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>LA PRINCESSE D'ÉLIDE, COMÉDIE GALANTE</title>
@@ -61,7 +62,7 @@
           <div type="scene" xml:id="II01">
             <head>SCÈNE PREMIÈRE.</head>
             <sp who="l-aurore">
-              <speaker><hi rend="i">Récit de </hi>l’Aurore.</speaker>
+              <speaker><hi rend="i">Récit de </hi>l’Aurore</speaker>
               <lg>
               <l rend="i">Quand l’Amour à vos yeux offre un choix agréable,</l>
               <l>Jeunes beautés laissez-vous enflammer.</l>
@@ -83,11 +84,11 @@
           <div type="scene" xml:id="II02">
             <head>SCÈNE DEUXIÈME.</head>
             <castList>
-              <castItem><role xml:id="valets-de-chiens"></role><role xml:id="valet-1"></role><role xml:id="valet-2"></role><role xml:id="valet-3"></role><role xml:id="lyciscas"></role><actor xml:id="moliere"></actor><actor xml:id="estival"></actor><actor xml:id="don"></actor><actor xml:id="blondel"></actor></castItem>
+              <castItem><role xml:id="valets-de-chiens"></role><role xml:id="valet-1"></role><role xml:id="valet-2"></role><role xml:id="valet-3"></role><role xml:id="lyciscas"></role></castItem>
               <castItem><role xml:id="musiciens"></role></castItem>
             </castList>
             <stage>Valets de Chiens, <hi rend="i">et</hi> Musiciens.</stage>
-            <p rend="argument">Pendant que l’Aurore chantait ce Récit, quatre Valets de Chiens étaient couchés sur l’Herbe, dont l’un (sous la figure de Lyciscas représenté par le Sieur de Molière, excellent Acteur, de l’invention duquel étaient les Vers et toute la Pièce) se trouvait au milieu de deux, et un autre à ses pieds : Qui étaient les Sieurs Estival, Don, et Blondel de la Musique du Roi, dont les voix étaient admirables.</p>
+            <p rend="argument">Pendant que l’Aurore chantait ce Récit, quatre Valets de Chiens étaient couchés sur l’Herbe, dont l’un (sous la figure de Lyciscas représenté par le <persName type="actor">Sieur de Molière</persName>, excellent Acteur, de l’invention duquel étaient les Vers et toute la Pièce) se trouvait au milieu de deux, et un autre à ses pieds : Qui étaient les Sieurs <persName type="actor">Estival</persName>, <persName type="actor">Don</persName>, et <persName type="actor">Blondel</persName> de la Musique du Roi, dont les voix étaient admirables.</p>
             <stage>Ceux-ci en se réveillant à l’arrivée de l’Aurore, sitôt qu’elle eut chanté, s’écrièrent en Concert :</stage>
             <sp xml:id="II02-1" who="valets-de-chiens">
               <speaker></speaker>
@@ -96,21 +97,21 @@
               <l>Holà ? ho debout, vite debout.</l>
             </sp>
             <sp xml:id="II02-2" who="valet-1">
-              <speaker>1<hi rend="sup">er</hi></speaker>
+              <speaker>premier</speaker>
               <l>Jusqu’aux plus sombres lieux le jour se communique,</l>
             </sp>
             <sp xml:id="II02-3" who="valet-2">
-              <speaker>ii<hi rend="sup">me</hi></speaker>
+              <speaker>deuxième</speaker>
               <l>L’air sur les fleurs en perles se résout.</l>
             </sp>
             <sp xml:id="II02-4" who="valet-3">
-              <speaker>iii<hi rend="sup">me</hi></speaker>
-              <l> Les Rossignols commencent leur Musique,</l>
+              <speaker>troisième</speaker>
+              <l>Les Rossignols commencent leur Musique,</l>
               <l>Et leurs petits concerts retentissent partout.</l>
             </sp>
             <sp who="valets-de-chiens" xml:id="II02-5">
               <speaker>tous ensemble</speaker>
-              <l>Sus, sus debout, vite debout ?</l>
+              <l>Sus, sus debout, vite debout !</l>
               <stage>Parlant à Lyciscas, qui dormait.</stage>
               <l>Qu’est-ce ci, Lyciscas ? quoi ? tu ronfles encore,</l>
               <l>Toi qui promettais tant de devancer l’Aurore ?</l>
@@ -121,7 +122,7 @@
             <sp who="lyciscas" xml:id="II02-6">
               <speaker>lyciscas, <hi rend="i">en s’éveillant</hi></speaker>
               <p>Par la morbleu vous êtes de grands braillards vous autres,</p>
-              <p>Et vous avez la gueule ouverte de bon matin ?</p>
+              <p>Et vous avez la gueule ouverte de bon matin !</p>
             </sp>
             <sp who="musiciens" xml:id="II02-7">
               <speaker>musiciens</speaker>
@@ -196,18 +197,18 @@
             </sp>
             <sp who="lyciscas" xml:id="II02-24">
               <speaker>lyciscas </speaker>
-              <p>Eh bien laissez-moi : je vais me lever : Vous êtes d’étranges gens de me tourmenter comme cela : Vous serez cause que je ne me porterai pas bien de toute la journée ; car voyez-vous, le sommeil est nécessaire à l’homme, et lorsqu’on ne dort pas sa réfection, il arrive… que… on est…</p>
+              <p>Eh bien laissez-moi, je vais me lever : Vous êtes d’étranges gens de me tourmenter comme cela : vous serez cause que je ne me porterai pas bien de toute la journée ; car, voyez-vous, le sommeil est nécessaire à l’homme, et lorsqu’on ne dort pas sa réfection, il arrive… que… on est…</p>
             </sp>
             <sp who="valet-1" xml:id="II02-25">
-              <speaker>ier</speaker>
+              <speaker>premier</speaker>
               <l>Lyciscas.</l>
             </sp>
             <sp who="valet-2" xml:id="II02-26">
-              <speaker>iime</speaker>
+              <speaker>deuxième</speaker>
               <l>Lyciscas.</l>
             </sp>
             <sp who="valet-3" xml:id="II02-27">
-              <speaker>iiime</speaker>
+              <speaker>troisième</speaker>
               <l>Lyciscas.</l>
             </sp>
             <sp who="valets-de-chiens" xml:id="II02-28">
@@ -227,15 +228,15 @@
               <p>Ah ! quelle fatigue, de ne pas dormir son soûl.</p>
             </sp>
             <sp who="valet-1" xml:id="II02-32">
-              <speaker>ier</speaker>
-              <l>Holà ?  oh .</l>
+              <speaker>premier</speaker>
+              <l>Holà ?  oh.</l>
             </sp>
             <sp who="valet-2" xml:id="II02-33">
-              <speaker>iime</speaker>
+              <speaker>deuxième</speaker>
               <l>Holà ? oh.</l>
             </sp>
             <sp who="valet-3" xml:id="II02-34">
-              <speaker>iiime</speaker>
+              <speaker>troisième</speaker>
               <l>Holà ? oh.</l>
             </sp>
             <sp who="valets-de-chiens" xml:id="II02-35">
@@ -268,25 +269,25 @@
             </sp>
             <sp who="lyciscas" xml:id="II02-42">
               <speaker>lyciscas, <hi rend="i">en se levant</hi></speaker>
-              <p>Quoi toujours ? a-t-on jamais vu une pareille furie de chanter ? par le sang bleu j’enrage, puisque me voilà éveillé il faut que j’éveille les autres, et que je les tourmente comme on m’a fait. Allons ho ? Messieurs, debout, debout, vite c’est trop dormir. Je vais faire un bruit de Diable partout, debout, debout, debout ; Allons vite, ho, ho, ho ? Debout, debout, pour la Chasse ordonnée il faut préparer tout, debout, debout, Lyciscas debout ? Ho ! ho ! ho ! ho ! ho.</p>
-              <p rend="argument">Lyciscas s’étant levé avec toutes les peines du monde, et s’étant mis à crier de toute sa force, plusieurs Cors et Trompes de Chasse se firent entendre, et concertées avec les Violons commencèrent l’air d’une entrée, sur laquelle six Valets de Chiens dansèrent avec beaucoup de justesse et disposition ; reprenant à certaines cadences le son de leurs Cors et Trompes : C’étaient les Sieurs Paysan, Chicanneau, Noblet, Pesan, Bonard, et La Pierre.</p>
+              <p>Quoi toujours ? a-t-on jamais vu une pareille furie de chanter ? par le sang bleu j’enrage, puisque me voilà éveillé il faut que j’éveille les autres, et que je les tourmente comme on m’a fait. Allons ho ? Messieurs, debout, debout, vite c’est trop dormir. Je vais faire un bruit de Diable partout, debout, debout, debout ; Allons vite, ho, ho, ho ! Debout, debout, pour la Chasse ordonnée il faut préparer tout, debout, debout, Lyciscas debout ! Ho ! ho ! ho ! ho ! ho.</p>
+              <p rend="argument">Lyciscas s’étant levé avec toutes les peines du monde, et s’étant mis à crier de toute sa force, plusieurs Cors et Trompes de Chasse se firent entendre, et concertées avec les Violons commencèrent l’air d’une entrée, sur laquelle six Valets de Chiens dansèrent avec beaucoup de justesse et disposition ; reprenant à certaines cadences le son de leurs Cors et Trompes : C’étaient les Sieurs <persName type="actor">Paysan</persName>, <persName type="actor">Chicanneau</persName>, <persName type="actor">Noblet</persName>, <persName type="actor">Pesan</persName>, <persName type="actor">Bonard</persName>, et <persName type="actor">La Pierre</persName>.</p>
             </sp>
           </div>
         </div>
         <div>
           <head>ACTEURS</head>
           <castList>
-            <castItem><role xml:id="princesse-elide" civil="F" type="H" statut="prince" age="A" stat_amour="néant">LA PRINCESSE d'ÉLIDE</role>.</castItem>
-            <castItem><role xml:id="aglante" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">AGLANTE</role>, cousine de la Princesse.</castItem>
-            <castItem><role xml:id="cynthie" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">CYNTHIE</role>, cousine de la Princesse.</castItem>
-            <castItem><role xml:id="philis" civil="F" type="H" statut="suivante" age="A" stat_amour="néant">PHILIS</role>, suivante de la Princesse.</castItem>
-            <castItem><role xml:id="iphitas" civil="M" type="H" statut="prince" age="A" stat_amour="néant">IPHITAS</role>, père de la Princesse.</castItem>
-            <castItem><role xml:id="euryale" civil="M" type="H" statut="prince" age="A" stat_amour="néant">EURYALE</role>, prince d'Ithaque.</castItem>
-            <castItem><role xml:id="aristomene" civil="M" type="H" statut="prince" age="A" stat_amour="néant">ARISTOMÈNE</role>, prince de Messène.</castItem>
-            <castItem><role xml:id="theocle" civil="M" type="H" statut="prince" age="A" stat_amour="néant">THÉOCLE</role>, prince de Pyle.</castItem>
-            <castItem><role xml:id="arbate" civil="M" type="H" statut="gouverneur" age="A" stat_amour="néant">ARBATE</role>, gouverneur du prince d'Ithaque.</castItem>
-            <castItem><role xml:id="moron" civil="M" type="H" statut="bouffon" age="A" stat_amour="néant">MORON</role>, plaisant de la Princesse.</castItem>
-            <castItem><role xml:id="lycas" civil="M" type="H" statut="suivant" age="A" stat_amour="néant">LYCAS</role>, suivant d'Iphitas.</castItem>
+            <castItem><role xml:id="princesse-elide" civil="F" type="H" statut="prince" age="A" stat_amour="néant">LA PRINCESSE D'ÉLIDE</role>.<actor><persName type="actor" rend="i">Mlle de Molière</persName>.</actor></castItem>
+            <castItem><role xml:id="aglante" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">AGLANTE</role>, Cousine de la Princesse.<actor><persName type="actor" rend="i">Mlle Du Parc</persName>.</actor></castItem>
+            <castItem><role xml:id="cynthie" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">CYNTHIE</role>, Cousine de la Princesse.<actor><persName type="actor" rend="i">Mlle de Brie</persName>.</actor></castItem>
+            <castItem><role xml:id="philis" civil="F" type="H" statut="suivante" age="A" stat_amour="néant">PHILIS</role>, Suivante de la Princesse.<actor><persName type="actor" rend="i">Mlle Béjart.</persName></actor></castItem>
+            <castItem><role xml:id="iphitas" civil="M" type="H" statut="prince" age="A" stat_amour="néant">IPHITAS</role>, Père de la Princesse.<actor><persName type="actor" rend="i">Le Sieur Hubert</persName>.</actor></castItem>
+            <castItem><role xml:id="euryale" civil="M" type="H" statut="prince" age="A" stat_amour="néant">EURYALE</role>, le prince d'Ithaque.<actor><persName type="actor" rend="i">Le Sieur de la Grange</persName>.</actor></castItem>
+            <castItem><role xml:id="aristomene" civil="M" type="H" statut="prince" age="A" stat_amour="néant">ARISTOMÈNE</role>, ou le prince de Messène.<actor><persName type="actor" rend="i">Le Sieur du Croisy</persName>.</actor></castItem>
+            <castItem><role xml:id="theocle" civil="M" type="H" statut="prince" age="A" stat_amour="néant">THÉOCLE</role>, ou le prince de Pyle.<actor><persName type="actor" rend="i">Le Sieur Béjart</persName>.</actor></castItem>
+            <castItem><role xml:id="arbate" civil="M" type="H" statut="gouverneur" age="A" stat_amour="néant">ARBATE</role>, Gouverneur du prince d'Ithaque.<actor><persName type="actor" rend="i">Le Sieur de la Thorillière</persName>.</actor></castItem>
+            <castItem><role xml:id="moron" civil="M" type="H" statut="bouffon" age="A" stat_amour="néant">MORON</role>, plaisant de la Princesse.<actor><persName type="actor" rend="i">Le Sieur de Molière</persName></actor></castItem>
+            <castItem><role xml:id="lycas" civil="M" type="H" statut="suivant" age="A" stat_amour="néant">Un suivant.</role><actor><persName type="actor" rend="i">Le Sieur Prévost</persName>.</actor></castItem>
             <castItem><role xml:id="satyre"></role></castItem>
             <castItem><role xml:id="tircis"></role></castItem>
             <castItem><role xml:id="clymene"></role></castItem>
@@ -363,8 +364,8 @@
             <l n="50">J’aime, j’aime ardemment la Princesse d’Élide,</l>
             <l>Et tu sais quel orgueil sous des traits si charmants</l>
             <l>Arme contre l’Amour ses jeunes sentiments ;</l>
-            <l>Et comment elle fuit en cette illustre fête</l>
-            <l>Cette foule d’amants qui briguent sa conquête…</l>
+            <l>Et comment elle fuit en cette illustre Fête</l>
+            <l>Cette foule d’amants qui briguent sa conquête.</l>
             <l n="55">Ah ! Qu’il est bien peu vrai que ce qu’on doit aimer</l>
             <l>Aussitôt qu’on le voit prend droit de nous charmer,</l>
             <l>Et qu’un premier coup d’œil allume en nous les flammes</l>
@@ -474,7 +475,7 @@
           </sp>
           <sp who="arbate" xml:id="III01-9">
             <speaker>arbate</speaker>
-            <l>Moron, Seigneur .</l>
+            <l>Moron, Seigneur.</l>
           </sp>
           <sp who="euryale" xml:id="III01-10">
             <speaker>euryale</speaker>
@@ -489,15 +490,15 @@
             <l>Ce que d’autres que lui n’oseraient hasarder ;</l>
             <l>Je le vois propre, enfin, à ce que j’en souhaite,</l>
             <l>Il a pour moi, dit-il, une amitié parfaite,</l>
-            <l>Et veut, (dans mes États ayant reçu le jour)</l>
+            <l>Et veut (dans mes États ayant reçu le jour)</l>
             <l n="160">Contre tous mes Rivaux appuyer mon amour :</l>
             <l>Quelque argent mis en main pour soutenir ce zèle…</l>
           </sp>
         </div>
         <div type="scene" xml:id="III02">
           <head>SCÈNE DEUXIÈME.</head>
-            <p rend="argument">moron représenté par le sieur de molière, arrive, et ayant le souvenir d’un furieux sanglier, devant lequel il avait fui à la chasse, demande secours, et rencontrant euryale et arbate, se met au milieu d’eux pour plus de sûreté, après leur avoir témoigné sa peur, et leur disant cent choses plaisantes sur son peu de bravoure</p>
-            <stage>Moron. Arbate. Euryale.</stage>
+            <p rend="argument">Moron représenté par le Sieur de Molière, arrive, et ayant le souvenir d’un furieux Sanglier, devant lequel il avait fui à la Chasse, demande secours, et rencontrant Euryale et Arbate, se met au milieu d’eux pour plus de sûreté, après leur avoir témoigné sa peur et leur disant cent choses plaisantes sur son peu de bravoure.</p>
+            <stage>Moron, Arbate, Euryale.</stage>
           <sp who="moron" xml:id="III02-2">
             <speaker>moron, <hi rend="i">sans être vu</hi></speaker>
             <l> Au secours ! sauvez-moi de la bête cruelle !</l>
@@ -592,7 +593,7 @@
           </sp>
           <sp who="moron" xml:id="III02-16">
             <speaker>moron</speaker>
-            <l>Ce n’est rien, n’ayez point de frayeur ?</l>
+            <l>Ce n’est rien, n’ayez point de frayeur !</l>
             <l n="205">Mais laissez-moi passer entre vous deux pour cause,</l>
             <l>Je serai mieux en main pour vous conter la chose :</l>
             <l>J’ai donc vu ce Sanglier, qui par nos gens chassé</l>
@@ -600,7 +601,7 @@
             <l>Ces deux yeux flamboyants ne lançaient que menace,</l>
             <l n="210">Et sa gueule faisait une laide grimace,</l>
             <l>Qui parmi de l’écume à qui l’osait presser</l>
-            <l>Montrait de certains crocs… Je vous laisse à penser ?</l>
+            <l>Montrait de certains crocs… Je vous laisse à penser !</l>
             <l>À ce terrible aspect j’ai ramassé mes armes ;</l>
             <l>Mais le faux animal sans en prendre d’alarmes</l>
             <l n="215">Est venu droit à moi, qui ne lui disais mot.</l>
@@ -611,7 +612,7 @@
           </sp>
           <sp who="moron" xml:id="III02-18">
             <speaker>moron</speaker>
-            <l>Quelque sot ,</l>
+            <l>Quelque sot,</l>
             <l>J’ai jeté tout par terre, et couru comme quatre.</l>
           </sp>
           <sp who="arbate" xml:id="III02-19">
@@ -631,12 +632,12 @@
           <sp who="moron" xml:id="III02-22">
             <speaker>moron</speaker>
             <l>Je suis votre valet, et j’aime mieux qu’on dise,</l>
-            <l>« C’est ici qu’en fuyant sans se faire prier</l>
-            <l>Moron sauva ses jours des fureurs d’un Sanglier, »</l>
-            <l n="225">Que si l’on y disait, « voilà l’illustre place</l>
+            <l>C’est ici qu’en fuyant sans se faire prier</l>
+            <l>Moron sauva ses jours des fureurs d’un Sanglier,</l>
+            <l n="225">Que si l’on y disait, voilà l’illustre place</l>
             <l>Où le brave Moron, d’une héroïque audace,</l>
             <l>Affrontant d’un Sanglier l’impétueux effort,</l>
-            <l>Par un coup de ses dents vit terminer son sort. »</l>
+            <l>Par un coup de ses dents vit terminer son sort.</l>
           </sp>
           <sp who="euryale" xml:id="III02-23">
             <speaker>euryale</speaker>
@@ -644,7 +645,7 @@
           </sp>
           <sp who="moron" xml:id="III02-24">
             <speaker>moron</speaker>
-            <l> Oui, j’aime mieux, n’en déplaise à la gloire,</l>
+            <l>Oui, j’aime mieux, n’en déplaise à la gloire,</l>
             <l n="230">Vivre au monde deux jours que mille ans dans l’histoire.</l>
           </sp>
           <sp who="euryale" xml:id="III02-25">
@@ -661,7 +662,7 @@
             <l>L’office de bouffon a des prérogatives ;</l>
             <l>Mais souvent on rabat nos libres tentatives :</l>
             <l>Le discours de vos feux est un peu délicat,</l>
-            <l n="240">Et c’est chez la Princesse une affaire d’état ;</l>
+            <l n="240">Et c’est chez la Princesse une affaire d’État ;</l>
             <l>Vous savez de quel titre elle se glorifie,</l>
             <l>Et qu’elle a dans la tête une Philosophie</l>
             <l>Qui déclare la guerre au conjugal lien,</l>
@@ -690,8 +691,8 @@
         </div>
         <div type="scene" xml:id="III03">
           <head>SCÈNE TROISIÈME.</head>
-<p rend="argument">La Princesse d’Élide parut ensuite, avec les Princes de Messène et de Pyle, lesquels firent remarquer en eux des caractères bien différents de celui du Prince d’Ithaque ; et lui cédèrent dans le cœur de la Princesse tous les avantages qu’il pouvait désirer : Cette aimable Princesse ne témoigna pas pourtant que le mérite de ce Prince eût fait aucune impression sur son esprit, et qu’elle l’eût quasi remarqué; elle témoigna toujours, comme une autre Diane, n’aimer que la Chasse et les Forêts, et lorsque le Prince de Messène voulut lui faire valoir le service qu’il lui avait rendu, en la défaisant d’un fort grand Sanglier qui l’avait attaquée; elle lui dit que sans rien diminuer de sa reconnaissance, elle trouvait son secours d’autant moins considérable, qu’elle en avait tué toute seule d’aussi furieux, et fût peut-être bien encore venue à bout de celui-ci.</p>
-          <stage>La princesse <hi rend="i">et sa suite</hi>, Aristomène. Théocle. Euryale. Arbate. Moron.</stage>
+<p rend="argument">La Princesse d’Élide parut ensuite, avec les Princes de Messène et de Pyle, lesquels firent remarquer en eux des caractères bien différents de celui du Prince d’Ithaque ; et lui cédèrent dans le cœur de la Princesse tous les avantages qu’il pouvait désirer : Cette aimable Princesse ne témoigna pas pourtant que le mérite de ce Prince eût fait aucune impression sur son esprit, et qu’elle l’eût quasi remarqué ; elle témoigna toujours, comme une autre Diane, n’aimer que la Chasse et les Forêts, et lorsque le Prince de Messène voulut lui faire valoir le service qu’il lui avait rendu, en la défaisant d’un fort grand Sanglier qui l’avait attaquée ; elle lui dit que sans rien diminuer de sa reconnaissance, elle trouvait son secours d’autant moins considérable, qu’elle en avait tué toute seule d’aussi furieux, et fût peut-être bien encore venue à bout de celui-ci.</p>
+          <stage>La Princesse <hi rend="i">et sa suite</hi>, Aristomène, Théocle, Euryale, Arbate, Moron.</stage>
           <sp who="aristomene" xml:id="III03-1">
             <speaker>aristomène</speaker>
             <l n="265">Reprochez-vous, Madame, à nos justes alarmes,</l>
@@ -709,7 +710,7 @@
             <speaker>théocle</speaker>
             <l n="275">Pour moi je tiens, Madame, à sensible bonheur</l>
             <l>L’action où pour vous a volé tout mon cœur,</l>
-            <l>Et ne puis consentir malgré votre murmure</l>
+            <l>Et ne puis consentir, malgré votre murmure,</l>
             <l>À quereller le sort d’une telle aventure :</l>
             <l>D’un objet odieux je sais que tout déplaît ;</l>
             <l n="280">Mais dût votre courroux être plus grand qu’il n’est,</l>
@@ -745,7 +746,7 @@
             <speaker>la princesse</speaker>
             <l>Hé bien, soit, je vois que votre envie</l>
             <l>Est de persuader que je vous dois la vie ;</l>
-            <l>J’y consens. Oui sans vous c’était fait de mes jours,</l>
+            <l>J’y consens ; oui sans vous c’était fait de mes jours,</l>
             <l>Je rends de tout mon cœur grâce à ce grand secours,</l>
             <l n="305">Et je vais de ce pas au Prince pour lui dire</l>
             <l>Les bontés que pour moi votre amour vous inspire.</l>
@@ -787,7 +788,7 @@
           </sp>
           <sp who="arbate" xml:id="III04-5">
             <speaker>arbate</speaker>
-            <l n="325">Peut-on savoir, Seigneur, par où votre espérance ?</l>
+            <l n="325">Peut-on savoir, Seigneur, par où votre espérance… ?</l>
           </sp>
           <sp who="euryale" xml:id="III04-6">
             <speaker>euryale</speaker>
