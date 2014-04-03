@@ -1,1201 +1,1468 @@
-<?xml version="1.0" encoding='iso-8859-1'?>
-<TEI.2 xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>MÉLICERTE, COMÉDIE PASTORALE HcROÏQUE</title>
-			<author born='1622' born_location='Paris' death='1673' death_location='Paris' academie=''>MOLIÈRE</author>
-				<date>1666</date>
-			</titleStmt>
-			<publicationStmp>	
-				<p>publié par Paul FIEVRE, Mai 2006, revu Octobre 2013</p>
-			</publicationStmp>
-			<SourceDesc>
-				<genre>Comédie héroïque</genre>
-				<inspiration>pastorale</inspiration>
-				<structure>Deux actes</structure>
-				<type>vers</type>
-				<periode>1661-1670</periode>
-				<taille>500-750</taille>
-				<permalien></permalien>
-				<sources>
-					<source id='1'><author></author><text></text></source>
-				</sources>	
-			</SourceDesc>
-		</fileDesc>
-</teiHeader>
-<text>
-<front>
-		<docTitle>
-			<titlePart type="main">MÉLICERTE</titlePart>
-			<titlePart type="sub">COMÉDIE PASTORALE HÉROÏQUE</titlePart>
-		</docTitle> 
-		<docDate value='1666'>1666</docDate>
-		<docAuthor id='MOLIERE' bio='moliere'>Molière</docAuthor>
-		<docImprint>
-			<privilege id='166*-**-**'></privilege>
-			<acheveImprime id='166*-**-**'></acheveImprime>
-		</docImprint>
-		<performance>
-			<premiere date='1666-12-02' location='Château de Saint-Germain-en-Laye'>Représenté pour la première fois le 2 décembre 1666 au Château de Saint-Germain-en-Laye.</premiere>
-		</performance>
-	<castList><head>ACTEURS</head>
-		<castItem><role id="ACANTE" civil='M' type="H" statut='berger' age='A' stat_amour='Daphné'>ACANTE</role>, amant de Daphné.</castItem>
-		<castItem><role id="TYRÈNE" civil='M' type="H" statut='berger' age='A' stat_amour='Eroxène'>TYRÈNE</role>, amant d'Éroxène.</castItem>
-		<castItem><role id="DAPHNÉ" civil='F' type="H" statut='berger' age='A' stat_amour='néant'>DAPHNÉ</role>, bergère.</castItem>
-		<castItem><role id="ÉROXÈNE" civil='F' type="H" statut='berger' age='A' stat_amour='néant'>ÉROXÈNE</role>, bergère.</castItem>
-		<castItem><role id="LYCARSYS" civil='M' type="H" statut='pâtre' age='A' stat_amour='néant'>LYCARSYS</role>, pâtre, cru père de Myrtil.</castItem>
-		<castItem><role id="MYRTIL" civil='M' type="H" statut='berger' age='A' stat_amour='Mélicerte'>MYRTIL</role>, amant de Mélicerte.</castItem>
-		<castItem><role id="MÉLICERTE" civil='F' type="D" statut='nymphe' age='A' stat_amour='Myrtil'>MÉLICERTE</role>, nymphe ou bergère, amante de Myrtil.</castItem>
-		<castItem><role id="CORINNE" civil='F' type="H" statut='confident' age='A' stat_amour='néant'>CORINNE</role>, confidente de Mélicerte.</castItem>
-		<castItem><role id="NICANDRE" civil='M' type="H" statut='berger' age='A' stat_amour='néant'>NICANDRE</role>, berger.</castItem>
-		<castItem><role id="MOPSE" civil='M' type="H" statut='berger' age='A' stat_amour='néant'>MOPSE</role>, berger, cru oncle de Mélicerte.</castItem>
-	</castList>
-	<set location='Thessalie' country='Grèce' periode='Temps mythologiques' link=''>La scène est en Thessalie, dans la vallée de Tempé.</set>
-</front>
-<body>
-<div1 type='acte' n='1'><head>ACTE I</head>
-<div2 type ='scene' n='1'><head>SCÈNE PREMIÈRE. Tyrène, Daphné, Acante, Éroxène.</head>
-<sp who='ACANTE'><speaker>ACANTE.</speaker>
-	<l id='1' part='i'>Ah ! Charmante Daphné !</l>
-</sp>
-<sp who='TYRÈNE'><speaker>TYRÈNE.</speaker>
-	<l id='1' part='f'>Trop aimable Éroxène.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='2' part='i'>Acante, laisse-moi.</l>
-</sp>
-<sp who='EROXENE'><speaker>EROXÈNE.</speaker>
-	<l id='2' part='f'>Ne me suis point, Tyrène.</l>
-</sp>
-<sp who='ACANTE'><speaker>ACANTE.</speaker>
-	<l id='3' part='i'>Pourquoi me chasses-tu ?</l>
-</sp>
-<sp who='TYRÈNE'><speaker>TYRÈNE.</speaker>
-	<l id='3' part='f'>Pourquoi fuis-tu mes pas ?</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='4' part='i'>Tu me plais loin de moi.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='4' part='f'>Je m'aime où tu n'es pas.</l>
-</sp>
-<sp who='ACANTE'><speaker>ACANTE.</speaker>
-	<l id='5'>Ne cesseras-tu point cette rigueur mortelle ?</l>
-</sp>
-<sp who='TYRÈNE'><speaker>TYRÈNE.</speaker>
-	<l id='6'>Ne cesseras-tu point de m'être si cruelle ?</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='7'>Ne cesseras-tu point tes inutiles voeux ?</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='8'>Ne cesseras-tu point de m'être si fâcheux ?</l>
-</sp>
-<sp who='ACANTE'><speaker>ACANTE.</speaker>
-	<l id='9'>Si tu n'en prends pitié, je succombe à ma peine.</l>
-</sp>
-<sp who='TYRÈNE'><speaker>TYRÈNE.</speaker>
-	<l id='10'>Si tu ne me secours, ma mort est trop certaine.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='11'>Si tu ne veux partir, je vais quitter ce lieu.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='12'>Si tu veux demeurer, je te vais dire adieu.</l>
-</sp>
-<sp who='ACANTE'><speaker>ACANTE.</speaker>
-	<l id='13'>Hé bien ! En m'éloignant je te vais satisfaire.</l>
-</sp>
-<sp who='TYRÈNE'><speaker>TYRÈNE.</speaker>
-	<l id='14'>Mon départ va t'ôter ce qui peut te déplaire.</l>
-</sp>
-<sp who='ACANTE'><speaker>ACANTE.</speaker>
-	<l id='15'>Généreuse Éroxène, en faveur de mes feux</l>
-	<l id='16'>Daigne au moins, par pitié, lui dire un mot ou deux.</l>
-</sp>
-<sp who='TYRÈNE'><speaker>TYRÈNE.</speaker>
-	<l id='17'>Obligeante Daphné, parle à cette inhumaine,</l>
-	<l id='18'>Et sache d'où pour moi procède tant de haine.</l>
-</sp>
-</div2>
-<div2 type ='scene' n='2'><head>SCÈNE II. Daphné, Éroxène.</head>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='19'>Acante a du mérite, et t'aime tendrement :</l>
-	<l id='20'>D'où vient que tu lui fais un si dur traitement ?</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='21'>Tyrène vaut beaucoup, et languit pour tes charmes :</l>
-	<l id='22'>D'où vient que sans pitié tu vois couler ses larmes ?</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='23'>Puisque j'ai fait ici la demande avant toi,</l>
-	<l id='24'>La raison te condamne à répondre avant moi.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='25'>Pour tous les soins d'Acante on me voit inflexible,</l>
-	<l id='26'>Parce qu'à d'autres voeux je me trouve sensible.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='27'>Je ne fais pour Tyrène éclater que rigueur,</l>
-	<l id='28'>Parce qu'un autre choix est maître de mon coeur.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='29'>Puis-je savoir de toi ce choix qu'on te voit taire ?</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='30'>Oui, si tu veux du tien m'apprendre le mystère.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='31'>Sans te nommer celui qu'amour m'a fait choisir,</l>
-	<l id='32'>Je puis facilement contenter ton désir,</l>
-	<l id='33'>Et de la main d'Atys, ce peintre inimitable,</l>
-	<l id='34'>J'en garde dans ma poche un portrait admirable,</l>
-	<l id='35'>Qui jusqu'au moindre trait lui ressemble si fort,</l>
-	<l id='36'>Qu'il est sûr que tes yeux le connaîtront d'abord.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='37'>Je puis te contenter par une même voie,</l>
-	<l id='38'>Et payer ton secret en pareille monnaie :</l>
-	<l id='39'>J'ai de la main aussi de ce peintre fameux,</l>
-	<l id='40'>En aimable portrait de l'objet de mes voeux,</l>
-	<l id='41'>Si plein de tous ses traits et de sa grâce extrême,</l>
-	<l id='42'>Que tu pourras d'abord te le nommer toi-même.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='43'>La boîte que le peintre a fait faire pour moi</l>
-	<l id='44'>Est tout à fait semblable à celle que je vois.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='45'>Il est vrai, l'une à l'autre entièrement ressemble,</l>
-	<l id='46'>Et certes il faut qu'Atys les ait fait faire ensemble.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='47'>Faisons en même temps, par un peu de couleurs,</l>
-	<l id='48'>Confidence à nos yeux du secret de nos coeurs.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='49'>Voyons à qui plus vite entendra ce langage,</l>
-	<l id='50'>Et qui parle le mieux, de l'un ou l'autre ouvrage.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='51'>La méprise est plaisante, et tu te brouilles bien :</l>
-	<l id='52'>Au lieu de ton portrait, tu m'as rendu le mien.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='53'>Il est vrai, je ne sais comme j'ai fait la chose.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='54'>Donne. De cette erreur ta rêverie est cause.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='55'>Que veut dire ceci ? Nous nous jouons, je crois :</l>
-	<l id='56'>Tu fais de ces portraits même chose que moi.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='57'>Certes, c'est pour en rire, et tu peux me le rendre.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='58'>Voici le vrai moyen de ne se point méprendre.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='59'>De mes sens prévenus est-ce une illusion ?</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='60'>Mon âme sur mes yeux fait-elle impression ?</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='61'>Myrtil à mes regards s'offre dans cet ouvrage.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='62'>De Myrtil dans ces traits je rencontre l'image.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='63'>C'est le jeune Myrtil qui fait naître mes feux.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='64'>C'est au jeune Myrtil que tendent tous mes voeux.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='65'>Je venais aujourd'hui te prier de lui dire</l>
-	<l id='66'>Les soins que pour son sort son mérite m'inspire.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='67'>Je venais te chercher pour servir mon ardeur,</l>
-	<l id='68'>Dans le dessein que j'ai de m'assurer son coeur.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='69'>Cette ardeur qu'il t'inspire est-elle si puissante ?</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='70'>L'aimes-tu d'une amour qui soit si violente ?</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='71'>Il n'est point de froideur qu'il ne puisse enflammer,</l>
-	<l id='72'>Et sa grâce naissante a de quoi tout charmer.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='73'>Il n'est nymphe en l'aimant qui ne se tînt heureuse,</l>
-	<l id='74'>Et Diane, sans honte, en serait amoureuse.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='75'>Rien que son air charmant ne me touche aujourd'hui,</l>
-	<l id='76'>Et si j'avais cent coeurs, ils seraient tous pour lui.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='77'>Il efface à mes yeux tout ce qu'on voit paraître ;</l>
-	<l id='78'>Et si j'avais un sceptre, il en serait le maître.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='79'>Ce serait donc en vain qu'à chacune, en ce jour,</l>
-	<l id='80'>On nous voudrait du sein arracher cet amour :</l>
-	<l id='81'>Nos âmes dans leurs voeux sont trop bien affermies.</l>
-	<l id='82'>Ne tâchons, s'il se peut, qu'à demeurer amies ;</l>
-	<l id='83'>Et puisque, en même temps, pour le même sujet,</l>
-	<l id='84'>Nous avons toutes deux formé même projet,</l>
-	<l id='85'>Mettons dans ce débat la franchise en usage,</l>
-	<l id='86'>Ne prenons l'une et l'autre aucun lâche avantage,</l>
-	<l id='87'>Et courons nous ouvrir ensemble à Lycarsis</l>
-	<l id='88'>Des tendres sentiments où nous jette son fils.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='89'>J'ai peine à concevoir, tant la surprise est forte,</l>
-	<l id='90'>Comme un tel fils est né d'un père de la sorte ;</l>
-	<l id='91'>Et sa taille, son air, sa parole et ses yeux</l>
-	<l id='92'>Feraient croire qu'il est issu du sang des dieux ;</l>
-	<l id='93'>Mais enfin j'y souscris, courons trouver ce père,</l>
-	<l id='94'>Allons lui de nos coeurs découvrir le mystère,</l>
-	<l id='95'>Et consentons qu'après Myrtil entre nous deux</l>
-	<l id='96'>Décide par son choix ce combat de nos voeux.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='97'>Soit. Je vois Lycarsis avec Mopse et Nicandre ;</l>
-	<l id='98'>Ils pourront le quitter : cachons-nous pour attendre.</l>
-</sp>
-</div2>
-<div2 type ='scene' n='3'><head>SCÈNE III. Lycarsis, Mopse, Nicandre.</head>
-<sp who='NICANDRE'><speaker>NICANDRE.</speaker>
-	<l id='99' part='i'>Dis-nous donc ta nouvelle.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='99' part='f'>Ah ! Que vous me pressez !</l>
-	<l id='100'>Cela ne se dit pas comme vous le pensez.</l>
-</sp>
-<sp who='MOPSE'><speaker>MOPSE.</speaker>
-	<l id='101'>Que de sottes façons, et que de badinage !</l>
-	<l id='102'>Ménalque pour chanter n'en fait pas davantage.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='103'>Parmi les curieux des affaires d'état,</l>
-	<l id='104'>Une nouvelle à dire est d'un puissant éclat.</l>
-	<l id='105'>Je me veux mettre un peu sur l'homme d'importance,</l>
-	<l id='106'>Et jouir quelque temps de votre impatience.</l>
-</sp>
-<sp who='NICANDRE'><speaker>NICANDRE.</speaker>
-	<l id='107'>Veux-tu par tes délais nous fatiguer tous deux ?</l>
-</sp>
-<sp who='MOPSE'><speaker>MOPSE.</speaker>
-	<l id='108'>Prends-tu quelque plaisir à te rendre fâcheux ?</l>
-</sp>
-<sp who='NICANDRE'><speaker>NICANDRE.</speaker>
-	<l id='109'>De grâce, parle, et mets ces mines en arrière.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='110'>Priez-moi donc tous deux de la bonne manière,</l>
-	<l id='111'>Et me dites chacun quel don vous me ferez,</l>
-	<l id='112'>Pour obtenir de moi ce que vous désirez.</l>
-</sp>
-<sp who='MOPSE'><speaker>MOPSE.</speaker>
-	<l id='113'>La peste soit du fat ! Laissons-le là, Nicandre.</l>
-	<l id='114'>Il brûle de parler, bien plus que nous d'entendre ;</l>
-	<l id='115'>Sa nouvelle lui pèse, il veut s'en décharger ;</l>
-	<l id='116'>Et ne l'écouter pas est le faire enrager.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='117' part='i'>Eh !</l>
-</sp>
-<sp who='NICANDRE'><speaker>NICANDRE.</speaker>
-	<l id='117' part='f'>Te voilà puni de tes façons de faire.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='118' part='i'>Je m'en vais vous le dire, écoutez.</l>
-</sp>
-<sp who='MOPSE'><speaker>MOPSE.</speaker>
-	<l id='118' part='f'>Point d'affaire.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='119' part='i'>Quoi ? Vous ne voulez pas m'entendre ?</l>
-</sp>
-<sp who='NICANDRE'><speaker>NICANDRE.</speaker>
-	<l id='119' part='m'>Non.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='119' part='f'>Eh bien !</l>
-	<l id='120'>Je ne dirai donc mot, et vous ne saurez rien.</l>
-</sp>
-<sp who='MOPSE'><speaker>MOPSE.</speaker>
-	<l id='121' part='i'>Soit.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='121' part='f'>Vous ne saurez pas qu'avec magnificence</l>
-	<l id='122'>Le roi vient d'honorer Tempé de sa présence ;</l>
-	<l id='123'>Qu'il entra dans Larisse hier sur le haut du jour ;</l>
-	<l id='124'>Qu'à l'aise je l'y vis avec toute sa cour ;</l>
-	<l id='125'>Que ces bois vont jouir aujourd'hui de sa vue,</l>
-	<l id='126'>Et qu'on raisonne fort touchant cette venue.</l>
-</sp>
-<sp who='NICANDRE'><speaker>NICANDRE.</speaker>
-	<l id='127'>Nous n'avons pas envie aussi de rien savoir.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='128'>Je vis cent choses là ravissantes à voir.</l>
-	<l id='129'>Ce ne sont que seigneurs, qui, des pieds à la tête,</l>
-	<l id='130'>Sont brillants et parés comme au jour d'une fête ;</l>
-	<l id='131'>Ils surprennent la vue ; et nos prés au printemps,</l>
-	<l id='132'>Avec toutes leurs fleurs, sont bien moins éclatants.</l>
-	<l id='133'>Pour le prince, entre tous sans peine on le remarque ;</l>
-	<l id='134'>Et d'une stade loin il sent son grand monarque ;</l>
-	<l id='135'>Dans toute sa personne il a je ne sais quoi</l>
-	<l id='136'>Qui d'abord fait juger que c'est un maître roi ;</l>
-	<l id='137'>Il le fait d'une grâce à nulle autre seconde,</l>
-	<l id='138'>Et cela, sans mentir, lui sied le mieux du monde.</l>
-	<l id='139'>On ne croirait jamais comme de toutes parts</l>
-	<l id='140'>Toute sa cour s'empresse à chercher ses regards :</l>
-	<l id='141'>Ce sont autour de lui confusions plaisantes ;</l>
-	<l id='142'>Et l'on dirait d'un tas de mouches reluisantes</l>
-	<l id='143'>Qui suivent en tous lieux un doux rayon de miel.</l>
-	<l id='144'>Enfin l'on ne voit rien de si beau sous le ciel ;</l>
-	<l id='145'>Et la fête de Pan, parmi nous si chérie,</l>
-	<l id='146'>Auprès de ce spectacle est une gueuserie.</l>
-	<l id='147'>Mais puisque sur le fier vous vous tenez si bien,</l>
-	<l id='148'>Je garde ma nouvelle, et ne veux dire rien.</l>
-</sp>
-<sp who='MOPSE'><speaker>MOPSE.</speaker>
-	<l id='149'>Et nous ne te voulons aucunement entendre.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='150' part='i'>Allez vous promener.</l>
-</sp>
-<sp who='MOPSE'><speaker>MOPSE.</speaker>
-	<l id='150' part='f'>Va-t'en te faire pendre.</l>
-</sp>
-</div2>
-<div2 type ='scene' n='4'><head>SCÈNE IV. Éroxène, Daphné, Lycarsis.</head>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='151'>C'est de cette façon que l'on punit les gens,</l>
-	<l id='152'>Quand ils font les benêts et les impertinents.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='153'>Le ciel tienne, pasteur, vos brebis toujours saines !</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='154'>Cérès tienne de grains vos granges toujours pleines !</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='155'>Et le grand Pan vous donne à chacune un époux</l>
-	<l id='156'>Qui vous aime beaucoup, et soit digne de vous !</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='157'>Ah ! Lycarsis, nos voeux à même but aspirent.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='158'>C'est pour le même objet que nos deux coeurs soupirent.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='159'>Et l'amour, cet enfant qui cause nos langueurs,</l>
-	<l id='160'>A pris chez vous le trait dont il blesse nos coeurs.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='161'>Et nous venons ici chercher votre alliance,</l>
-	<l id='162'>Et voir qui de nous deux aura la préférence.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='163' part='i'>Nymphes...</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='163' part='f'>Pour ce bien seul nous poussons des soupirs.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='164' part='i'>Je suis...</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='164' part='f'>À ce bonheur tendent tous nos désirs.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='165'>C'est un peu librement expliquer sa pensée.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='166' part='i'>Pourquoi ?</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='166' part='f'>La bienséance y semble un peu blessée.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='167' part='i'>Ah ! Point.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='167' part='f'>Mais quand le coeur brûle d'un noble feu,</l>
-	<l id='168'>On peut sans nulle honte en faire un libre aveu.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='169' part='i'>Je...</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='169' part='f'>Cette liberté nous peut être permise,</l>
-	<l id='170'>Et du choix de nos coeurs la beauté l'autorise.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='171'>C'est blesser ma pudeur que me flatter ainsi.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='172'>Non, non, n'affectez point de modestie ici.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='173'>Enfin tout notre bien est en votre puissance.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='174'>C'est de vous que dépend notre unique espérance.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='175'>Trouverons-nous en vous quelques difficultés ?</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='176' part='i'>Ah !</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='176' part='f'>Nos voeux, dites-moi, seront-ils rejetés ?</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='177'>Non : j'ai reçu du ciel une âme peu cruelle ;</l>
-	<l id='178'>Je tiens de feu ma femme, et je me sens comme elle</l>
-	<l id='179'>Pour les désirs d'autrui beaucoup d'humanité,</l>
-	<l id='180'>Et je ne suis point homme à garder de fierté.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='181'>Accordez donc Myrtil à notre amoureux zèle.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='182'>Et souffrez que son choix règle notre querelle.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='183' part='i'>Myrtil ?</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='183' part='f'>Oui, c'est Myrtil que de vous nous voulons.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='184'>De qui pensez-vous donc qu'ici nous vous parlons ?</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='185'>Je ne sais ; mais Myrtil n'est guère dans un âge</l>
-	<l id='186'>Qui soit propre à ranger au joug du mariage.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='187'>Son mérite naissant peut frapper d'autres yeux ;</l>
-	<l id='188'>Et l'on veut s'engager un bien si précieux,</l>
-	<l id='189'>Prévenir d'autres coeurs, et braver la fortune</l>
-	<l id='190'>Sous les fermes liens d'une chaîne commune.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='191'>Comme par son esprit et ses autres brillants</l>
-	<l id='192'>Il rompt l'ordre commun et devance le temps,</l>
-	<l id='193'>Notre flamme pour lui veut en faire de même,</l>
-	<l id='194'>Et régler tous ses voeux sur son mérite extrême.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='195'>Il est vrai qu'à son âge il surprend quelquefois ;</l>
-	<l id='196'>Et cet Athénien qui fut chez moi vingt mois,</l>
-	<l id='197'>Qui, le trouvant joli, se mit en fantaisie</l>
-	<l id='198'>De lui remplir l'esprit de sa philosophie,</l>
-	<l id='199'>Sur de certains discours l'a rendu si profond,</l>
-	<l id='200'>Que, tout grand que je suis, souvent il me confond.</l>
-	<l id='201'>Mais, avec tout cela, ce n'est encor qu'enfance,</l>
-	<l id='202'>Et son fait est mêlé de beaucoup d'innocence.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='203'>Il n'est point tant enfant, qu'à le voir chaque jour,</l>
-	<l id='204'>Je ne le croie atteint déjà d'un peu d'amour ;</l>
-	<l id='205'>Et plus d'une aventure à mes yeux s'est offerte</l>
-	<l id='206'>Où j'ai connu qu'il suit la jeune Mélicerte.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='207' part='i'>Ils pourraient bien s'aimer ; et je vois...</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='207' part='f'>Franc abus.</l>
-	<l id='208'>Pour elle, passe encore : elle a deux ans de plus ;</l>
-	<l id='209'>Et deux ans, dans son sexe, est une grande avance.</l>
-	<l id='210'>Mais pour lui, le jeu seul l'occupe tout, je pense,</l>
-	<l id='211'>Et les petits désirs de se voir ajusté</l>
-	<l id='212'>Ainsi que les bergers de haute qualité.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='213'>Enfin nous désirons par le noeud d'hyménée</l>
-	<l id='214'>Attacher sa fortune à notre destinée.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='215'>Nous voulons, l'une et l'autre, avec pareille ardeur,</l>
-	<l id='216'>Nous assurer de loin l'empire de son coeur.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='217'>Je m'en tiens honoré autant qu'on saurait croire.</l>
-	<l id='218'>Je suis un pauvre pâtre ; et ce m'est trop de gloire</l>
-	<l id='219'>Que deux nymphes d'un rang le plus haut du pays</l>
-	<l id='220'>Disputent à se faire un époux de mon fils.</l>
-	<l id='221'>Puisqu'il vous plaît qu'ainsi la chose s'exécute,</l>
-	<l id='222'>Je consens que son choix règle votre dispute ;</l>
-	<l id='223'>Et celle qu'à l'écart laissera cet arrêt,</l>
-	<l id='224'>Pourra, pour son recours, m'épouser, s'il lui plaît.</l>
-	<l id='225'>C'est toujours même sang, et presque même chose.</l>
-	<l id='226'>Mais le voici. Souffrez qu'un peu je le dispose.</l>
-	<l id='227'>Il tient quelque moineau qu'il a pris fraîchement,</l>
-	<l id='228'>Et voilà ses amours et son attachement.</l>
-</sp>
-</div2>
-<div2 type ='scene' n='5'><head>SCÈNE V. Myrtil, Lycarsis, Éroxène, Daphné.</head>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='229'>Innocente petite bête,</l>
-	<l id='230'>Qui contre ce qui vous arrête</l>
-	<l id='231'>Vous débattez tant à mes yeux,</l>
-	<l id='232'>De votre liberté ne plaignez point la perte :</l>
-	<l id='233'>Votre destin est glorieux,</l>
-	<l id='234'>Je vous ai pris pour Mélicerte.</l>
-	<l id='235'>Elle vous baisera, vous prenant dans sa main,</l>
-	<l id='236'>Et de vous mettre en son sein</l>
-	<l id='237'>Elle vous fera la grâce.</l>
-	<l id='238'>Est-il un sort au monde et plus doux et plus beau ?</l>
-	<l id='239'>Et qui des rois, hélas ! Heureux petit moineau,</l>
-	<l id='240'>Ne voudrait être en votre place ?</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='241'>Myrtil, Myrtil, un mot. Laissons là ces joyaux :</l>
-	<l id='242'>Il s'agit d'autre chose ici que de moineaux.</l>
-	<l id='243'>Ces deux nymphes, Myrtil, à la fois te prétendent,</l>
-	<l id='244'>Et, tout jeune, déjà pour époux te demandent.</l>
-	<l id='245'>Je dois, par un hymen, t'engager à leurs voeux,</l>
-	<l id='246'>Et c'est toi que l'on veut qui choisisse des deux.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='247' part='i'>Ces nymphes...</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='247' part='f'>Oui. Des deux tu peux en choisir une :</l>
-	<l id='248'>Vois quel est ton bonheur, et bénis la fortune.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='249'>Ce choix qui m'est offert peut-il m'être un bonheur,</l>
-	<l id='250'>S'il n'est aucunement souhaité de mon coeur ?</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='251'>Enfin qu'on le reçoive, et que, sans le confondre,</l>
-	<l id='252'>À l'honneur qu'elles font on songe à bien répondre.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='253'>Malgré cette fierté qui règne parmi nous,</l>
-	<l id='254'>Deux nymphes, ô Myrtil, viennent s'offrir à vous ;</l>
-	<l id='255'>Et de vos qualités les merveilles écloses</l>
-	<l id='256'>Font que nous renversons ici l'ordre des choses.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='257'>Nous vous laissons, Myrtil, pour l'avis le meilleur,</l>
-	<l id='258'>Consulter sur ce choix vos yeux et votre coeur ;</l>
-	<l id='259'>Et nous n'en voulons point prévenir les suffrages</l>
-	<l id='260'>Par un récit paré de tous nos avantages.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='261'>C'est me faire un honneur dont l'éclat me surprend ;</l>
-	<l id='262'>Mais cet honneur, pour moi, je l'avoue, est trop grand.</l>
-	<l id='263'>À vos rares bontés il faut que je m'oppose ;</l>
-	<l id='264'>Pour mériter ce sort, je suis trop peu de chose ;</l>
-	<l id='265'>Et je serais fâché, quels qu'en soient les appas,</l>
-	<l id='266'>Qu'on vous blâmât pour moi de faire un choix trop bas.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='267'>Contentez nos désirs, quoi qu'on en puisse croire,</l>
-	<l id='268'>Et ne vous chargez point du soin de notre gloire.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='269'>Non, ne descendez point dans ces humilités,</l>
-	<l id='270'>Et laissez-nous juger ce que vous méritez.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='271'>Le choix qui m'est offert s'oppose à votre attente,</l>
-	<l id='272'>Et peut seul empêcher que mon coeur vous contente.</l>
-	<l id='273'>Le moyen de choisir de deux grandes beautés,</l>
-	<l id='274'>Égales en naissance et rares qualités ?</l>
-	<l id='275'>Rejeter l'une ou l'autre est un crime effroyable,</l>
-	<l id='276'>Et n'en choisir aucune est bien plus raisonnable.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='277'>Mais en faisant refus de répondre à nos voeux,</l>
-	<l id='278'>Au lieu d'une, Myrtil, vous en outragez deux.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='279'>Puisque nous consentons à l'arrêt qu'on peut rendre,</l>
-	<l id='280'>Ces raisons ne font rien à vouloir s'en défendre.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='281'>Eh bien ! Si ces raisons ne vous satisfont pas,</l>
-	<l id='282'>Celle-ci le fera : j'aime d'autres appas ;</l>
-	<l id='283'>Et je sens bien qu'un coeur qu'un bel objet engage</l>
-	<l id='284'>Est insensible et sourd à tout autre avantage.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='285'>Comment donc ? Qu'est-ce ci ? Qui l'eût pu présumer ?</l>
-	<l id='286'>Et savez-vous, morveux, ce que c'est que d'aimer ?</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='287'>Sans savoir ce que c'est, mon coeur a su le faire.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='288'>Mais cet amour me choque, et n'est pas nécessaire.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='289'>Vous ne deviez donc pas, si cela vous déplaît,</l>
-	<l id='290'>Me faire un coeur sensible et tendre comme il est.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='291'>Mais ce coeur que j'ai fait me doit obéissance.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='292'>Oui, lorsque d'obéir il est en sa puissance.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='293'>Mais enfin, sans mon ordre il ne doit point aimer.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='294'>Que n'empêchiez-vous donc que l'on pût le charmer ?</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='295'>Eh bien ! Je vous défends que cela continue.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='296'>La défense, j'ai peur, sera trop tard venue.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='297'>Quoi ? Les pères n'ont pas des droits supérieurs ?</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='298'>Les dieux, qui sont bien plus, ne forcent point les coeurs.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='299'>Les dieux... Paix, petit sot ! Cette philosophie</l>
-	<l id='300' part='i'>Me...</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='300' part='f'>Ne vous mettez point en courroux, je vous prie.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='301'>Non : je veux qu'il se donne à l'une pour époux,</l>
-	<l id='302'>Ou je vais lui donner le fouet tout devant vous :</l>
-	<l id='303'>Ah ! Ah ! Je vous ferai sentir que je suis père.</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='304'>Traitons, de grâce, ici les choses sans colère.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='305'>Peut-on savoir de vous cet objet si charmant</l>
-	<l id='306'>Dont la beauté, Myrtil, vous a fait son amant ?</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='307'>Mélicerte, madame. Elle en peut faire d'autres.</l>
-</sp>
-<sp who='EROXÈNE'><speaker>EROXÈNE.</speaker>
-	<l id='308'>Vous comparez, Myrtil, ses qualités aux nôtres ?</l>
-</sp>
-<sp who='DAPHNÉ'><speaker>DAPHNÉ.</speaker>
-	<l id='309'>Le choix d'elle et de nous est assez inégal.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='310'>Nymphes, au nom des dieux, n'en dites point de mal :</l>
-	<l id='311'>Daignez considérer, de grâce, que je l'aime,</l>
-	<l id='312'>Et ne me jetez point dans un désordre extrême.</l>
-	<l id='313'>Si j'outrage en l'aimant vos célestes attraits,</l>
-	<l id='314'>Elle n'a point de part au crime que je fais :</l>
-	<l id='315'>C'est de moi, s'il vous plaît, que vient toute l'offense.</l>
-	<l id='316'>Il est vrai, d'elle à vous je sais la différence ;</l>
-	<l id='317'>Mais par sa destinée on se trouve enchaîné ;</l>
-	<l id='318'>Et je sens bien enfin que le ciel m'a donné</l>
-	<l id='319'>Pour vous tout le respect, nymphes, imaginable,</l>
-	<l id='320'>Pour elle tout l'amour dont une âme est capable.</l>
-	<l id='321'>Je vois, à la rougeur qui vient de vous saisir,</l>
-	<l id='322'>Que ce que je vous dis ne vous fait pas plaisir.</l>
-	<l id='323'>Si vous parlez, mon coeur appréhende d'entendre</l>
-	<l id='324'>Ce qui peut le blesser par l'endroit le plus tendre ;</l>
-	<l id='325'>Et pour me dérober à de semblables coups,</l>
-	<l id='326'>Nymphes, j'aime bien mieux prendre congé de vous.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='327'>Myrtil, holà ! Myrtil ! Veux-tu revenir, traître ?</l>
-	<l id='328'>Il fuit ; mais on verra qui de nous est le maître.</l>
-	<l id='329'>Ne vous effrayez point de tous ces vains transports :</l>
-	<l id='330'>Vous l'aurez pour époux ; j'en réponds corps pour corps.</l>
-</sp>
-</div2>
-</div1>
-<div1 type='acte' n='2'><head>ACTE II</head>
-<div2 type ='scene' n='1'><head>SCÈNE PREMIÈRE. Mélicerte, Corinne.</head>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='331'>Ah ! Corinne, tu viens de l'apprendre de Stelle,</l>
-	<l id='332'>Et c'est de Lycarsis qu'elle tient la nouvelle.</l>
-</sp>
-<sp who='CORINNE'><speaker>CORINNE.</speaker>
-	<l id='333' part='i'>Oui.</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='333' part='f'>Que les qualités dont Myrtil est orné</l>
-	<l id='334'>Ont su toucher d'amour Éroxène et Daphné ?</l>
-</sp>
-<sp who='CORINNE'><speaker>CORINNE.</speaker>
-	<l id='335' part='i'>Oui.</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='335' part='f'>Que pour l'obtenir leur ardeur est si grande,</l>
-	<l id='336'>Qu'ensemble elles en ont déjà fait la demande ?</l>
-	<l id='337'>Et que, dans ce débat, elles ont fait dessein</l>
-	<l id='338'>De passer, dès cette heure, à recevoir sa main ?</l>
-	<l id='339'>Ah ! Que tes mots ont peine à sortir de ta bouche !</l>
-	<l id='340'>Et que c'est faiblement que mon souci te touche !</l>
-</sp>
-<sp who='CORINNE'><speaker>CORINNE.</speaker>
-	<l id='341'>Mais quoi ? Que voulez-vous ? C'est là la vérité,</l>
-	<l id='342'>Et vous redites tout comme je l'ai conté.</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='343'>Mais comment Lycarsis reçoit-il cette affaire ?</l>
-</sp>
-<sp who='CORINNE'><speaker>CORINNE.</speaker>
-	<l id='344'>Comme un honneur, je crois, qui doit beaucoup lui plaire.</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='345'>Et ne vois-tu pas bien, toi qui sais mon ardeur,</l>
-	<l id='346'>Qu'avec ce mot, hélas ! Tu me perces le coeur ?</l>
-</sp>
-<sp who='CORINNE'><speaker>CORINNE.</speaker>
-	<l id='347' part='i'>Comment ?</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='347' part='f'>Me mettre aux yeux que le sort implacable</l>
-	<l id='348'>Auprès d'elles me rend trop peu considérable,</l>
-	<l id='349'>Et qu'à moi, par leur rang, on les va préférer,</l>
-	<l id='350'>N'est-ce pas une idée à me désespérer ?</l>
-</sp>
-<sp who='CORINNE'><speaker>CORINNE.</speaker>
-	<l id='351'>Mais quoi ? Je vous réponds, et dis ce que je pense.</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='352'>Ah ! Tu me fais mourir par ton indifférence.</l>
-	<l id='353'>Mais dis, quels sentiments Myrtil a-t-il fait voir ?</l>
-</sp>
-<sp who='CORINNE'><speaker>CORINNE.</speaker>
-	<l id='354' part='i'>Je ne sais.</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='354' part='f'>Et c'est là ce qu'il fallait savoir,</l>
-	<l id='355' part='i'>Cruelle !</l>
-</sp>
-<sp who='CORINNE'><speaker>CORINNE.</speaker>
-	<l id='355' part='f'>En vérité, je ne sais comment faire,</l>
-	<l id='356'>Et de tous les côtés je trouve à vous déplaire.</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='357'>C'est que tu n'entres point dans tous les mouvements</l>
-	<l id='358'>D'un coeur, hélas ! Rempli de tendres sentiments.</l>
-	<l id='359'>Va-t'en : laisse-moi seule en cette solitude</l>
-	<l id='360'>Passer quelques moments de mon inquiétude.</l>
-</sp>
-</div2>
-<div2 type ='scene' n='2'><head>SCÈNE II.</head>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='361'>Vous le voyez, mon coeur, ce que c'est que d'aimer,</l>
-	<l id='362'>Et Bélise avait su trop bien m'en informer.</l>
-	<l id='363'>Cette charmante mère, avant sa destinée,</l>
-	<l id='364'>Me disait une fois, sur le bord du Pénée :</l>
-	<l id='365'>« Ma fille, songe à toi : l'amour aux jeunes coeurs</l>
-	<l id='366'>Se présente toujours entouré de douceurs ;</l>
-	<l id='367'>D'abord il n'offre aux yeux que choses agréables ;</l>
-	<l id='368'>Mais il traîne après lui des troubles effroyables ;</l>
-	<l id='369'>Et si tu veux passer tes jours dans quelque paix,</l>
-	<l id='370'>Toujours, comme d'un mal, défends-toi de ses traits. »</l>
-	<l id='371'>De ces leçons, mon coeur, je m'étais souvenue ;</l>
-	<l id='372'>Et quand Myrtil venait à s'offrir à ma vue,</l>
-	<l id='373'>Qu'il jouait avec moi, qu'il me rendait des soins,</l>
-	<l id='374'>Je vous disais toujours de vous y plaire moins.</l>
-	<l id='375'>Vous ne me crûtes point ; et votre complaisance</l>
-	<l id='376'>Se vit bientôt changée en trop de bienveillance ;</l>
-	<l id='377'>Dans ce naissant amour qui flattait vos désirs,</l>
-	<l id='378'>Vous ne vous figuriez que joie et que plaisirs :</l>
-	<l id='379'>Cependant vous voyez la cruelle disgrâce</l>
-	<l id='380'>Dont, en ce triste jour, le destin vous menace,</l>
-	<l id='381'>Et la peine mortelle où vous voilà réduit !</l>
-	<l id='382'>Ah, mon coeur ! Ah, mon coeur ! Je vous l'avais bien dit.</l>
-	<l id='383'>Mais tenons, s'il se peut, notre douleur couverte :</l>
-	<l id='384' part='i'>Voici...</l>
-</sp>
-</div2>
-<div2 type ='scene' n='3'><head>SCÈNE III. Myrtil, Mélicerte.</head>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='384' part='f'>J'ai fait tantôt, charmante Mélicerte,</l>
-	<l id='385'>Un petit prisonnier que je garde pour vous,</l>
-	<l id='386'>Et dont peut-être un jour je deviendrai jaloux :</l>
-	<l id='387'>C'est un jeune moineau, qu'avec un soin extrême</l>
-	<l id='388'>Je veux, pour vous l'offrir, apprivoiser moi-même.</l>
-	<l id='389'>Le présent n'est pas grand ; mais les divinités</l>
-	<l id='390'>Ne jettent leurs regards que sur les volontés :</l>
-	<l id='391'>C'est le coeur qui fait tout ; et jamais la richesse</l>
-	<l id='392'>Des présents que... Mais, ciel ! D'où vient cette tristesse ?</l>
-	<l id='393'>Qu'avez-vous, Mélicerte, et quel sombre chagrin</l>
-	<l id='394'>Serait dans vos beaux yeux répandu ce matin !</l>
-	<l id='395'>Vous ne répondez point ? Et ce morne silence</l>
-	<l id='396'>Redouble encor ma peine et mon impatience.</l>
-	<l id='397'>Parlez : de quel ennui ressentez-vous les coups ?</l>
-	<l id='398' part='i'>Qu'est-ce donc ?</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='398' part='m'>Ce n'est rien.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='398' part='f'>Ce n'est rien, dites-vous ?</l>
-	<l id='399'>Et je vois cependant vos yeux couverts de larmes :</l>
-	<l id='400'>Cela s'accorde-t-il, beauté pleine de charmes ?</l>
-	<l id='401'>Ah ! Ne me faites point un secret dont je meurs,</l>
-	<l id='402'>Et m'expliquez, hélas ! Ce que disent ces pleurs.</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='403'>Rien ne me servirait de vous le faire entendre.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='404'>Devez-vous rien avoir que je ne doive apprendre ?</l>
-	<l id='405'>Et ne blessez-vous pas notre amour aujourd'hui,</l>
-	<l id='406'>De vouloir me voler ma part de votre ennui ?</l>
-	<l id='407'>Ah ! Ne le cachez point à l'ardeur qui m'inspire.</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='408'>Hé bien, Myrtil, hé bien ! Il faut donc vous le dire :</l>
-	<l id='409'>J'ai su que, par un choix plein de gloire pour vous,</l>
-	<l id='410'>Éroxène et Daphné vous veulent pour époux ;</l>
-	<l id='411'>Et je vous avouerai que j'ai cette faiblesse</l>
-	<l id='412'>De n'avoir pu, Myrtil, le savoir sans tristesse,</l>
-	<l id='413'>Sans accuser du sort la rigoureuse loi,</l>
-	<l id='414'>Qui les rend dans leurs voeux préférables à moi.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='415'>Et vous pouvez l'avoir, cette injuste tristesse !</l>
-	<l id='416'>Vous pouvez soupçonner mon amour de faiblesse,</l>
-	<l id='417'>Et croire qu'engagé par des charmes si doux,</l>
-	<l id='418'>Je puisse être jamais à quelque autre qu'à vous ?</l>
-	<l id='419'>Que je puisse accepter une autre main offerte ?</l>
-	<l id='420'>Hé ! Que vous ai-je fait, cruelle Mélicerte,</l>
-	<l id='421'>Pour traiter ma tendresse avec tant de rigueur,</l>
-	<l id='422'>Et faire un jugement si mauvais de mon coeur ?</l>
-	<l id='423'>Quoi ? Faut-il que de lui vous ayez quelque crainte ?</l>
-	<l id='424'>Je suis bien malheureux de souffrir cette atteinte ;</l>
-	<l id='425'>Et que me sert d'aimer comme je fais, hélas !</l>
-	<l id='426'>Si vous êtes si prête à ne le croire pas ?</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='427'>Je pourrais moins, Myrtil, redouter ces rivales,</l>
-	<l id='428'>Si les choses étaient de part et d'autre égales,</l>
-	<l id='429'>Et dans un rang pareil j'oserais espérer</l>
-	<l id='430'>Que peut-être l'amour me ferait préférer ;</l>
-	<l id='431'>Mais l'inégalité de bien et de naissance,</l>
-	<l id='432'>Qui peut d'elles à moi faire la différence...</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='433'>Ah ! Leur rang de mon coeur ne viendra point à bout,</l>
-	<l id='434'>Et vos divins appas vous tiennent lieu de tout.</l>
-	<l id='435'>Je vous aime, il suffit ; et dans votre personne</l>
-	<l id='436'>Je vois rang, biens, trésors, états, sceptres, couronne ;</l>
-	<l id='437'>Et des rois les plus grands m'offrît-on le pouvoir,</l>
-	<l id='438'>Je n'y changerais pas le bien de vous avoir.</l>
-	<l id='439'>C'est une vérité toute sincère et pure,</l>
-	<l id='440'>Et pouvoir en douter est me faire une injure.</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='441'>Hé bien ! Je crois, Myrtil, puisque vous le voulez,</l>
-	<l id='442'>Que vos voeux par leur rang ne sont point ébranlés ;</l>
-	<l id='443'>Et que, bien qu'elles soient nobles, riches et belles,</l>
-	<l id='444'>Votre coeur m'aime assez pour me mieux aimer qu'elles.</l>
-	<l id='445'>Mais ce n'est pas l'amour dont vous suivez la voix :</l>
-	<l id='446'>Votre père, Myrtil, réglera votre choix ;</l>
-	<l id='447'>Et de même qu'à vous je ne lui suis pas chère,</l>
-	<l id='448'>Pour préférer à tout une simple bergère.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='449'>Non, chère Mélicerte, il n'est père ni dieux</l>
-	<l id='450'>Qui me puissent forcer à quitter vos beaux yeux ;</l>
-	<l id='451'>Et toujours de mes voeux reine comme vous êtes...</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='452'>Ah ! Myrtil, prenez garde à ce qu'ici vous faites :</l>
-	<l id='453'>N'allez point présenter un espoir à mon coeur,</l>
-	<l id='454'>Qu'il recevrait peut-être avec trop de douceur,</l>
-	<l id='455'>Et qui, tombant après comme un éclair qui passe,</l>
-	<l id='456'>Me rendrait plus cruel le coup de ma disgrâce.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='457'>Quoi ? Faut-il des serments appeler le secours,</l>
-	<l id='458'>Lorsque l'on vous promet de vous aimer toujours ?</l>
-	<l id='459'>Que vous vous faites tort par de telles alarmes,</l>
-	<l id='460'>Et connaissez bien peu le pouvoir de vos charmes !</l>
-	<l id='461'>Hé bien ! Puisqu'il le faut, je jure par les dieux,</l>
-	<l id='462'>Et si ce n'est assez, je jure par vos yeux,</l>
-	<l id='463'>Qu'on me tuera plutôt que je vous abandonne.</l>
-	<l id='464'>Recevez-en ici la foi que je vous donne,</l>
-	<l id='465'>Et souffrez que ma bouche avec ravissement</l>
-	<l id='466'>Sur cette belle main en signe le serment.</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='467'>Ah ! Myrtil, levez-vous, de peur qu'on ne vous voie.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='468'>Est-il rien... ? Mais, ô ciel ! On vient troubler ma joie.</l>
-</sp>
-</div2>
-<div2 type ='scene' n='4'><head>SCÈNE IV. Lycarsis, Myrtil, Mélicerte.</head>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='469' part='i'>Ne vous contraignez pas pour moi.</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='469' part='f'>Quel sort fâcheux !</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='470'>Cela ne va pas mal : continuez tous deux.</l>
-	<l id='471'>Peste ! Mon petit fils, que vous avez l'air tendre,</l>
-	<l id='472'>Et qu'en maître déjà vous savez vous y prendre !</l>
-	<l id='473'>Vous a-t-il, ce savant qu'Athènes exila,</l>
-	<l id='474'>Dans sa philosophie appris ces choses-là ?</l>
-	<l id='475'>Et vous, qui lui donnez de si douce manière</l>
-	<l id='476'>Votre main à baiser, la gentille bergère,</l>
-	<l id='477'>L'honneur vous apprend-il ces mignardes douceurs,</l>
-	<l id='478'>Par qui vous débauchez ainsi les jeunes coeurs ?</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='479'>Ah ! Quittez de ces mots l'outrageante bassesse,</l>
-	<l id='480'>Et ne m'accablez point d'un discours qui la blesse.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='481'>Je veux lui parler, moi. Toutes ces amitiés...</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='482'>Je ne souffrirai point que vous la maltraitiez.</l>
-	<l id='483'>À du respect pour vous la naissance m'engage ;</l>
-	<l id='484'>Mais je saurai sur moi pour punir de l'outrage.</l>
-	<l id='485'>Oui, j'atteste le ciel que si, contre mes voeux,</l>
-	<l id='486'>Vous lui dites encor le moindre mot fâcheux,</l>
-	<l id='487'>Je vais avec ce fer, qui m'en fera justice,</l>
-	<l id='488'>Au milieu de mon sein vous chercher un supplice,</l>
-	<l id='489'>Et par mon sang versé lui marquer promptement</l>
-	<l id='490'>L'éclatant désaveu de votre emportement.</l>
-</sp>
-<sp who='MÉLICERTE'><speaker>MÉLICERTE.</speaker>
-	<l id='491'>Non, non, ne croyez pas qu'avec art je l'enflamme,</l>
-	<l id='492'>Et que mon dessein soit de séduire son âme.</l>
-	<l id='493'>S'il s'attache à me voir, et me veut quelque bien,</l>
-	<l id='494'>C'est de son mouvement : je ne l'y force en rien.</l>
-	<l id='495'>Ce n'est pas que mon coeur veuille ici se défendre</l>
-	<l id='496'>De répondre à ses voeux d'une ardeur assez tendre :</l>
-	<l id='497'>Je l'aime, je l'avoue, autant qu'on puisse aimer ;</l>
-	<l id='498'>Mais cet amour n'a rien qui vous doive alarmer ;</l>
-	<l id='499'>Et pour vous arracher toute injuste créance,</l>
-	<l id='500'>Je vous promets ici d'éviter sa présence,</l>
-	<l id='501'>De faire place au choix où vous vous résoudrez,</l>
-	<l id='502'>Et ne souffrir ses voeux que quand vous le voudrez.</l>
-</sp>
-</div2>
-<div2 type ='scene' n='5'><head>SCÈNE V. Lycarsis, Myrtil.</head>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='503'>Eh bien ! Vous triomphez avec cette retraite,</l>
-	<l id='504'>Et dans ces mots votre âme a ce qu'elle souhaite ;</l>
-	<l id='505'>Mais apprenez qu'en vain vous vous réjouissez,</l>
-	<l id='506'>Que vous serez trompé dans ce que vous pensez,</l>
-	<l id='507'>Et qu'avec tous vos soins, toute votre puissance,</l>
-	<l id='508'>Vous ne gagnerez rien sur ma persévérance.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='509'>Comment ? à quel orgueil, fripon, vous vois-je aller ?</l>
-	<l id='510'>Est-ce de la façon que l'on me doit parler ?</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='511'>Oui, j'ai tort, il est vrai, mon transport n'est pas sage :</l>
-	<l id='512'>Pour rentrer au devoir, je change de langage,</l>
-	<l id='513'>Et je vous prie ici, mon père, au nom des dieux,</l>
-	<l id='514'>Et par tout ce qui peut vous être précieux,</l>
-	<l id='515'>De ne vous point servir, dans cette conjoncture,</l>
-	<l id='516'>Des fiers droits que sur moi vous donne la nature :</l>
-	<l id='517'>Ne m'empoisonnez point vos bienfaits les plus doux.</l>
-	<l id='518'>Le jour est un présent que j'ai reçu de vous ;</l>
-	<l id='519'>Mais de quoi vous serai-je aujourd'hui redevable,</l>
-	<l id='520'>Si vous me l'allez rendre, hélas ! Insupportable ?</l>
-	<l id='521'>Il est, sans Mélicerte, un supplice à mes yeux :</l>
-	<l id='522'>Sans ses divins appas rien ne m'est précieux ;</l>
-	<l id='523'>Ils font tout mon bonheur et toute mon envie ;</l>
-	<l id='524'>Et si vous me l'ôtez, vous m'arrachez la vie.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='525'>Aux douleurs de son âme il me fait prendre part.</l>
-	<l id='526'>Qui l'aurait jamais cru de ce petit pendart ?</l>
-	<l id='527'>Quel amour ! Quels transports ! Quels discours pour son âge !</l>
-	<l id='528'>J'en suis confus, et sens que cet amour m'engage.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='529'>Voyez, me voulez-vous ordonner de mourir ?</l>
-	<l id='530'>Vous n'avez qu'à parler, je suis prêt d'obéir.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='531'>Je ne puis plus tenir : il m'arrache des larmes,</l>
-	<l id='532'>Et ces tendres propos me font rendre les armes.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='533'>Que si dans votre coeur un reste d'amitié</l>
-	<l id='534'>Vous peut de mon destin donner quelque pitié,</l>
-	<l id='535'>Accordez Mélicerte à mon ardente envie,</l>
-	<l id='536'>Et vous ferez bien plus que me donner la vie.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='537' part='i'>Lève-toi.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='537' part='f'>Serez-vous sensible à mes soupirs ?</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='538' part='i'>Oui.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='538' part='f'>J'obtiendrai de vous l'objet de mes désirs ?</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='539' part='i'>Oui.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='539' part='f'>Vous ferez pour moi que son oncle l'oblige</l>
-	<l id='540' part='i'>À me donner sa main ?</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='540' part='f'>Oui. Lève-toi, te dis-je.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='541'>Ô père, le meilleur qui jamais ait été,</l>
-	<l id='542'>Que je baise vos mains après tant de bonté !</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='543'>Ah ! Que pour ses enfants un père a de faiblesse !</l>
-	<l id='544'>Peut-on rien refuser à leurs mots de tendresse ?</l>
-	<l id='545'>Et ne se sent-on pas certains mouvements doux,</l>
-	<l id='546'>Quand on vient à songer que cela sort de vous ?</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='547'>Me tiendrez-vous au moins la parole avancée ?</l>
-	<l id='548'>Ne changerez-vous point, dites-moi, de pensée ?</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='549' part='i'>Non.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='549' part='f'>Me permettez-vous de vous désobéir,</l>
-	<l id='550'>Si de ces sentiments on vous fait revenir ?</l>
-	<l id='551' part='i'>Prononcez le mot.</l>
-</sp>
-<sp who='LYCARSIS'><speaker>LYCARSIS.</speaker>
-	<l id='551' part='f'>Oui. Ha, nature, nature !</l>
-	<l id='552'>Je m'en vais trouver Mopse, et lui faire ouverture</l>
-	<l id='553'>De l'amour que sa nièce et toi vous vous portez.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='554'>Ah ! Que ne dois-je point à vos rares bontés !</l>
-	<l id='555'>Quelle heureuse nouvelle à dire à Mélicerte !</l>
-	<l id='556'>Je n'accepterais pas une couronne offerte,</l>
-	<l id='557'>Pour le plaisir que j'ai de courir lui porter</l>
-	<l id='558'>Ce merveilleux succès qui la doit contenter.</l>
-</sp>
-</div2>
-<div2 type ='scene' n='6'><head>SCÈNE VI. Acante, Tyrène, Myrtil</head>
-<sp who='ACANTE'><speaker>ACANTE.</speaker>
-	<l id='559'>Ah ! Myrtil, vous avez du ciel reçu des charmes</l>
-	<l id='560'>Qui nous ont préparé des matières de larmes,</l>
-	<l id='561'>Et leur naissant éclat, fatal à nos ardeurs,</l>
-	<l id='562'>De ce que nous aimons nous enlève les coeurs.</l>
-</sp>
-<sp who='TYRÈNE'><speaker>TYRÈNE.</speaker>
-	<l id='563'>Peut-on savoir, Myrtil, vers qui de ces deux belles</l>
-	<l id='564'>Vous tournerez ce choix dont courent les nouvelles,</l>
-	<l id='565'>Et sur qui doit de nous tomber ce coup affreux</l>
-	<l id='566'>Dont se voit foudroyé tout l'espoir de nos voeux ?</l>
-</sp>
-<sp who='ACANTE'><speaker>ACANTE.</speaker>
-	<l id='567'>Ne faites point languir deux amants davantage,</l>
-	<l id='568'>Et nous dites quel sort votre coeur nous partage.</l>
-</sp>
-<sp who='TYRÈNE'><speaker>TYRÈNE.</speaker>
-	<l id='569'>Il vaut mieux, quand on craint ces malheurs éclatants,</l>
-	<l id='570'>En mourir tout d'un coup, que traîner si longtemps.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='571'>Rendez, nobles bergers, le calme à votre flamme :</l>
-	<l id='572'>La belle Mélicerte a captivé mon âme ;</l>
-	<l id='573'>Auprès de cet objet mon sort est assez doux,</l>
-	<l id='574'>Pour ne pas consentir à rien prendre sur vous ;</l>
-	<l id='575'>Et si vos voeux enfin n'ont que les miens à craindre,</l>
-	<l id='576'>Vous n'aurez, l'un ni l'autre, aucun lieu de vous plaindre.</l>
-</sp>
-<sp who='ACANTE'><speaker>ACANTE.</speaker>
-	<l id='577'>Ah ! Myrtil, se peut-il que deux tristes amants... ?</l>
-</sp>
-<sp who='TYRÈNE'><speaker>TYRÈNE.</speaker>
-	<l id='578'>Est-il vrai que le ciel, sensible à nos tourments... ?</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='579'>Oui, content de mes fers comme d'une victoire,</l>
-	<l id='580'>Je me suis excusé de ce choix plein de gloire ;</l>
-	<l id='581'>J'ai de mon père encor changé les volontés,</l>
-	<l id='582'>Et l'ai fait consentir à mes félicités.</l>
-</sp>
-<sp who='ACANTE'><speaker>ACANTE.</speaker>
-	<l id='583'>Ah ! Que cette aventure est un charmant miracle,</l>
-	<l id='584'>Et qu'à notre poursuite elle ôte un grand obstacle !</l>
-</sp>
-<sp who='TYRÈNE'><speaker>TYRÈNE.</speaker>
-	<l id='585'>Elle peut renvoyer ces nymphes à nos voeux,</l>
-	<l id='586'>Et nous donner moyen d'être contents tous deux.</l>
-</sp>
-</div2>
-<div2 type ='scene' n='7'><head>SCÈNE VII. Nicandre, Myrtil, Acante, Tyrène.</head>
-<sp who='NICANDRE'><speaker>NICANDRE.</speaker>
-	<l id='587'>Savez-vous en quel lieu Mélicerte est cachée ?</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='588' part='i'>Comment ?</l>
-</sp>
-<sp who='NICANDRE'><speaker>NICANDRE.</speaker>
-	<l id='588' part='f'>En diligence elle est partout cherchée.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='589' part='i'>Et pourquoi ?</l>
-</sp>
-<sp who='NICANDRE'><speaker>NICANDRE.</speaker>
-	<l id='589'  part='f'>Nous allons perdre cette beauté.</l>
-	<l id='590'>C'est pour elle qu'ici le roi s'est transporté :</l>
-	<l id='591'>Avec un grand seigneur on dit qu'il la marie.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='592'>Ô ciel ! Expliquez-moi ce discours, je vous prie.</l>
-</sp>
-<sp who='NICANDRE'><speaker>NICANDRE.</speaker>
-	<l id='593'>Ce sont des incidents grands et mystérieux.</l>
-	<l id='594'>Oui, le roi vient chercher Mélicerte en ces lieux ;</l>
-	<l id='595'>Et l'on dit qu'autrefois feu Bélise, sa mère,</l>
-	<l id='596'>Dont tout Tempé croyait que Mopse était le frère...</l>
-	<l id='597'>Mais je me suis chargé de la chercher partout :</l>
-	<l id='598'>Vous saurez tout cela tantôt, de bout en bout.</l>
-</sp>
-<sp who='MYRTIL'><speaker>MYRTIL.</speaker>
-	<l id='599'>Ah, dieux ! Quelle rigueur ! Hé ! Nicandre, Nicandre !</l>
-</sp>
-<sp who='ACANTE'><speaker>ACANTE.</speaker>
-	<l id='600'>Suivons aussi ses pas, afin de tout apprendre.</l>
-</sp>
-</div2>
-</div1>
-</body>
-</text>
-</TEI.2>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MÃ‰LICERTE, COMÃ‰DIE PASTORALE HcROÃQUE</title>
+        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÃˆRE</author>
+        <date>1666</date>
+      </titleStmt>
+      <publicationStmt>
+        <p>publiÃ© par Paul FIEVRE, Mai 2006, revu Octobre 2013</p>
+      </publicationStmt>
+      <sourceDesc>
+        <genre>ComÃ©die hÃ©roÃ¯que</genre>
+        <inspiration>pastorale</inspiration>
+        <structure>Deux actes</structure>
+        <type>vers</type>
+        <periode>1661-1670</periode>
+        <taille>500-750</taille>
+        <permalien/>
+        <sources>
+          <source id="1">
+            <author/>
+            <text/>
+          </source>
+        </sources>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">MÃ‰LICERTE</titlePart>
+        <titlePart type="sub">COMÃ‰DIE PASTORALE HÃ‰ROÃQUE</titlePart>
+      </docTitle>
+      <docDate value="1666">1666</docDate>
+      <docAuthor id="MOLIERE" bio="moliere">MoliÃ¨re</docAuthor>
+      <docImprint>
+        <privilege id="166*-**-**"/>
+        <acheveImprime id="166*-**-**"/>
+      </docImprint>
+      <performance>
+        <premiere date="1666-12-02" location="ChÃ¢teau de Saint-Germain-en-Laye">ReprÃ©sentÃ© pour la premiÃ¨re fois le 2 dÃ©cembre 1666 au ChÃ¢teau de Saint-Germain-en-Laye.</premiere>
+      </performance>
+      <castList>
+        <head>ACTEURS</head>
+        <castItem><role xml:id="ACANTE" civil="M" type="H" statut="berger" age="A" stat_amour="DaphnÃ©">ACANTE</role>, amant de DaphnÃ©.</castItem>
+        <castItem><role xml:id="TYRÃˆNE" civil="M" type="H" statut="berger" age="A" stat_amour="EroxÃ¨ne">TYRÃˆNE</role>, amant dâ€™Ã‰roxÃ¨ne.</castItem>
+        <castItem><role xml:id="DAPHNÃ‰" civil="F" type="H" statut="berger" age="A" stat_amour="nÃ©ant">DAPHNÃ‰</role>, bergÃ¨re.</castItem>
+        <castItem><role xml:id="Ã‰ROXÃˆNE" civil="F" type="H" statut="berger" age="A" stat_amour="nÃ©ant">Ã‰ROXÃˆNE</role>, bergÃ¨re.</castItem>
+        <castItem><role xml:id="LYCARSYS" civil="M" type="H" statut="pÃ¢tre" age="A" stat_amour="nÃ©ant">LYCARSYS</role>, pÃ¢tre, cru pÃ¨re de Myrtil.</castItem>
+        <castItem><role xml:id="MYRTIL" civil="M" type="H" statut="berger" age="A" stat_amour="MÃ©licerte">MYRTIL</role>, amant de MÃ©licerte.</castItem>
+        <castItem><role xml:id="MÃ‰LICERTE" civil="F" type="D" statut="nymphe" age="A" stat_amour="Myrtil">MÃ‰LICERTE</role>, nymphe ou bergÃ¨re, amante de Myrtil.</castItem>
+        <castItem><role xml:id="CORINNE" civil="F" type="H" statut="confident" age="A" stat_amour="nÃ©ant">CORINNE</role>, confidente de MÃ©licerte.</castItem>
+        <castItem><role xml:id="NICANDRE" civil="M" type="H" statut="berger" age="A" stat_amour="nÃ©ant">NICANDRE</role>, berger.</castItem>
+        <castItem><role xml:id="MOPSE" civil="M" type="H" statut="berger" age="A" stat_amour="nÃ©ant">MOPSE</role>, berger, cru oncle de MÃ©licerte.</castItem>
+      </castList>
+      <set location="Thessalie" country="GrÃ¨ce" periode="Temps mythologiques" link="">La scÃ¨ne est en Thessalie, dans la vallÃ©e de TempÃ©.</set>
+    </front>
+    <body>
+      <div1 type="acte" n="1" xml:id="I">
+        <head>ACTE I</head>
+        <div2 type="scene" n="1" xml:id="I01">
+          <head>SCÃˆNE PREMIÃˆRE</head>
+          <stage>TyrÃ¨ne, DaphnÃ©, Acante, Ã‰roxÃ¨ne.</stage>
+          <sp who="ACANTE" xml:id="I01-1">
+            <speaker>ACANTE</speaker>
+            <l n="1" xml:id="l1" part="I">AhÂ ! Charmante DaphnÃ©Â !</l>
+          </sp>
+          <sp who="TYRÃˆNE" xml:id="I01-2">
+            <speaker>TYRÃˆNE</speaker>
+            <l n="1" part="F">Trop aimable Ã‰roxÃ¨ne.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I01-3">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="2" xml:id="l2" part="I">Acante, laisse-moi.</l>
+          </sp>
+          <sp who="EROXENE" xml:id="I01-4">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="2" part="F">Ne me suis point, TyrÃ¨ne.</l>
+          </sp>
+          <sp who="ACANTE" xml:id="I01-5">
+            <speaker>ACANTE</speaker>
+            <l n="3" xml:id="l3" part="I">Pourquoi me chasses-tuÂ ?</l>
+          </sp>
+          <sp who="TYRÃˆNE" xml:id="I01-6">
+            <speaker>TYRÃˆNE</speaker>
+            <l n="3" part="F">Pourquoi fuis-tu mes pasÂ ?</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I01-7">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="4" xml:id="l4" part="I">Tu me plais loin de moi.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I01-8">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="4" part="F">Je mâ€™aime oÃ¹ tu nâ€™es pas.</l>
+          </sp>
+          <sp who="ACANTE" xml:id="I01-9">
+            <speaker>ACANTE</speaker>
+            <l n="5" xml:id="l5">Ne cesseras-tu point cette rigueur mortelleÂ ?</l>
+          </sp>
+          <sp who="TYRÃˆNE" xml:id="I01-10">
+            <speaker>TYRÃˆNE</speaker>
+            <l n="6" xml:id="l6">Ne cesseras-tu point de mâ€™Ãªtre si cruelleÂ ?</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I01-11">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="7" xml:id="l7">Ne cesseras-tu point tes inutiles vÅ“uxÂ ?</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I01-12">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="8" xml:id="l8">Ne cesseras-tu point de mâ€™Ãªtre si fÃ¢cheuxÂ ?</l>
+          </sp>
+          <sp who="ACANTE" xml:id="I01-13">
+            <speaker>ACANTE</speaker>
+            <l n="9" xml:id="l9">Si tu nâ€™en prends pitiÃ©, je succombe Ã  ma peine.</l>
+          </sp>
+          <sp who="TYRÃˆNE" xml:id="I01-14">
+            <speaker>TYRÃˆNE</speaker>
+            <l n="10" xml:id="l10">Si tu ne me secours, ma mort est trop certaine.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I01-15">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="11" xml:id="l11">Si tu ne veux partir, je vais quitter ce lieu.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I01-16">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="12" xml:id="l12">Si tu veux demeurer, je te vais dire adieu.</l>
+          </sp>
+          <sp who="ACANTE" xml:id="I01-17">
+            <speaker>ACANTE</speaker>
+            <l n="13" xml:id="l13">HÃ© bienÂ ! En mâ€™Ã©loignant je te vais satisfaire.</l>
+          </sp>
+          <sp who="TYRÃˆNE" xml:id="I01-18">
+            <speaker>TYRÃˆNE</speaker>
+            <l n="14" xml:id="l14">Mon dÃ©part va tâ€™Ã´ter ce qui peut te dÃ©plaire.</l>
+          </sp>
+          <sp who="ACANTE" xml:id="I01-19">
+            <speaker>ACANTE</speaker>
+            <l n="15" xml:id="l15">GÃ©nÃ©reuse Ã‰roxÃ¨ne, en faveur de mes feux</l>
+            <l n="16" xml:id="l16">Daigne au moins, par pitiÃ©, lui dire un mot ou deux.</l>
+          </sp>
+          <sp who="TYRÃˆNE" xml:id="I01-20">
+            <speaker>TYRÃˆNE</speaker>
+            <l n="17" xml:id="l17">Obligeante DaphnÃ©, parle Ã  cette inhumaine,</l>
+            <l n="18" xml:id="l18">Et sache dâ€™oÃ¹ pour moi procÃ¨de tant de haine.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="I02">
+          <head>SCÃˆNE II</head>
+          <stage>DaphnÃ©, Ã‰roxÃ¨ne.</stage>
+          <sp who="EROXÃˆNE" xml:id="I02-1">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="19" xml:id="l19">Acante a du mÃ©rite, et tâ€™aime tendrementÂ :</l>
+            <l n="20" xml:id="l20">Dâ€™oÃ¹ vient que tu lui fais un si dur traitementÂ ?</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-2">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="21" xml:id="l21">TyrÃ¨ne vaut beaucoup, et languit pour tes charmesÂ :</l>
+            <l n="22" xml:id="l22">Dâ€™oÃ¹ vient que sans pitiÃ© tu vois couler ses larmesÂ ?</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-3">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="23" xml:id="l23">Puisque jâ€™ai fait ici la demande avant toi,</l>
+            <l n="24" xml:id="l24">La raison te condamne Ã  rÃ©pondre avant moi.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-4">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="25" xml:id="l25">Pour tous les soins dâ€™Acante on me voit inflexible,</l>
+            <l n="26" xml:id="l26">Parce quâ€™Ã  dâ€™autres vÅ“ux je me trouve sensible.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-5">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="27" xml:id="l27">Je ne fais pour TyrÃ¨ne Ã©clater que rigueur,</l>
+            <l n="28" xml:id="l28">Parce quâ€™un autre choix est maÃ®tre de mon cÅ“ur.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-6">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="29" xml:id="l29">Puis-je savoir de toi ce choix quâ€™on te voit taireÂ ?</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-7">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="30" xml:id="l30">Oui, si tu veux du tien mâ€™apprendre le mystÃ¨re.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-8">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="31" xml:id="l31">Sans te nommer celui quâ€™amour mâ€™a fait choisir,</l>
+            <l n="32" xml:id="l32">Je puis facilement contenter ton dÃ©sir,</l>
+            <l n="33" xml:id="l33">Et de la main dâ€™Atys, ce peintre inimitable,</l>
+            <l n="34" xml:id="l34">Jâ€™en garde dans ma poche un portrait admirable,</l>
+            <l n="35" xml:id="l35">Qui jusquâ€™au moindre trait lui ressemble si fort,</l>
+            <l n="36" xml:id="l36">Quâ€™il est sÃ»r que tes yeux le connaÃ®tront dâ€™abord.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-9">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="37" xml:id="l37">Je puis te contenter par une mÃªme voie,</l>
+            <l n="38" xml:id="l38">Et payer ton secret en pareille monnaieÂ :</l>
+            <l n="39" xml:id="l39">Jâ€™ai de la main aussi de ce peintre fameux,</l>
+            <l n="40" xml:id="l40">En aimable portrait de lâ€™objet de mes vÅ“ux,</l>
+            <l n="41" xml:id="l41">Si plein de tous ses traits et de sa grÃ¢ce extrÃªme,</l>
+            <l n="42" xml:id="l42">Que tu pourras dâ€™abord te le nommer toi-mÃªme.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-10">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="43" xml:id="l43">La boÃ®te que le peintre a fait faire pour moi</l>
+            <l n="44" xml:id="l44">Est tout Ã  fait semblable Ã  celle que je vois.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-11">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="45" xml:id="l45">Il est vrai, lâ€™une Ã  lâ€™autre entiÃ¨rement ressemble,</l>
+            <l n="46" xml:id="l46">Et certes il faut quâ€™Atys les ait fait faire ensemble.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-12">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="47" xml:id="l47">Faisons en mÃªme temps, par un peu de couleurs,</l>
+            <l n="48" xml:id="l48">Confidence Ã  nos yeux du secret de nos cÅ“urs.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-13">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="49" xml:id="l49">Voyons Ã  qui plus vite entendra ce langage,</l>
+            <l n="50" xml:id="l50">Et qui parle le mieux, de lâ€™un ou lâ€™autre ouvrage.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-14">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="51" xml:id="l51">La mÃ©prise est plaisante, et tu te brouilles bienÂ :</l>
+            <l n="52" xml:id="l52">Au lieu de ton portrait, tu mâ€™as rendu le mien.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-15">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="53" xml:id="l53">Il est vrai, je ne sais comme jâ€™ai fait la chose.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-16">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="54" xml:id="l54">Donne. De cette erreur ta rÃªverie est cause.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-17">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="55" xml:id="l55">Que veut dire ceciÂ ? Nous nous jouons, je croisÂ :</l>
+            <l n="56" xml:id="l56">Tu fais de ces portraits mÃªme chose que moi.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-18">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="57" xml:id="l57">Certes, câ€™est pour en rire, et tu peux me le rendre.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-19">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="58" xml:id="l58">Voici le vrai moyen de ne se point mÃ©prendre.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-20">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="59" xml:id="l59">De mes sens prÃ©venus est-ce une illusionÂ ?</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-21">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="60" xml:id="l60">Mon Ã¢me sur mes yeux fait-elle impressionÂ ?</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-22">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="61" xml:id="l61">Myrtil Ã  mes regards sâ€™offre dans cet ouvrage.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-23">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="62" xml:id="l62">De Myrtil dans ces traits je rencontre lâ€™image.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-24">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="63" xml:id="l63">Câ€™est le jeune Myrtil qui fait naÃ®tre mes feux.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-25">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="64" xml:id="l64">Câ€™est au jeune Myrtil que tendent tous mes vÅ“ux.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-26">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="65" xml:id="l65">Je venais aujourdâ€™hui te prier de lui dire</l>
+            <l n="66" xml:id="l66">Les soins que pour son sort son mÃ©rite mâ€™inspire.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-27">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="67" xml:id="l67">Je venais te chercher pour servir mon ardeur,</l>
+            <l n="68" xml:id="l68">Dans le dessein que jâ€™ai de mâ€™assurer son cÅ“ur.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-28">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="69" xml:id="l69">Cette ardeur quâ€™il tâ€™inspire est-elle si puissanteÂ ?</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-29">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="70" xml:id="l70">Lâ€™aimes-tu dâ€™une amour qui soit si violenteÂ ?</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-30">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="71" xml:id="l71">Il nâ€™est point de froideur quâ€™il ne puisse enflammer,</l>
+            <l n="72" xml:id="l72">Et sa grÃ¢ce naissante a de quoi tout charmer.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-31">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="73" xml:id="l73">Il nâ€™est nymphe en lâ€™aimant qui ne se tÃ®nt heureuse,</l>
+            <l n="74" xml:id="l74">Et Diane, sans honte, en serait amoureuse.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-32">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="75" xml:id="l75">Rien que son air charmant ne me touche aujourdâ€™hui,</l>
+            <l n="76" xml:id="l76">Et si jâ€™avais cent cÅ“urs, ils seraient tous pour lui.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-33">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="77" xml:id="l77">Il efface Ã  mes yeux tout ce quâ€™on voit paraÃ®treÂ ;</l>
+            <l n="78" xml:id="l78">Et si jâ€™avais un sceptre, il en serait le maÃ®tre.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-34">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="79" xml:id="l79">Ce serait donc en vain quâ€™Ã  chacune, en ce jour,</l>
+            <l n="80" xml:id="l80">On nous voudrait du sein arracher cet amourÂ :</l>
+            <l n="81" xml:id="l81">Nos Ã¢mes dans leurs vÅ“ux sont trop bien affermies.</l>
+            <l n="82" xml:id="l82">Ne tÃ¢chons, sâ€™il se peut, quâ€™Ã  demeurer amiesÂ ;</l>
+            <l n="83" xml:id="l83">Et puisque, en mÃªme temps, pour le mÃªme sujet,</l>
+            <l n="84" xml:id="l84">Nous avons toutes deux formÃ© mÃªme projet,</l>
+            <l n="85" xml:id="l85">Mettons dans ce dÃ©bat la franchise en usage,</l>
+            <l n="86" xml:id="l86">Ne prenons lâ€™une et lâ€™autre aucun lÃ¢che avantage,</l>
+            <l n="87" xml:id="l87">Et courons nous ouvrir ensemble Ã  Lycarsis</l>
+            <l n="88" xml:id="l88">Des tendres sentiments oÃ¹ nous jette son fils.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I02-35">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="89" xml:id="l89">Jâ€™ai peine Ã  concevoir, tant la surprise est forte,</l>
+            <l n="90" xml:id="l90">Comme un tel fils est nÃ© dâ€™un pÃ¨re de la sorteÂ ;</l>
+            <l n="91" xml:id="l91">Et sa taille, son air, sa parole et ses yeux</l>
+            <l n="92" xml:id="l92">Feraient croire quâ€™il est issu du sang des dieuxÂ ;</l>
+            <l n="93" xml:id="l93">Mais enfin jâ€™y souscris, courons trouver ce pÃ¨re,</l>
+            <l n="94" xml:id="l94">Allons lui de nos cÅ“urs dÃ©couvrir le mystÃ¨re,</l>
+            <l n="95" xml:id="l95">Et consentons quâ€™aprÃ¨s Myrtil entre nous deux</l>
+            <l n="96" xml:id="l96">DÃ©cide par son choix ce combat de nos vÅ“ux.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I02-36">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="97" xml:id="l97">Soit. Je vois Lycarsis avec Mopse et NicandreÂ ;</l>
+            <l n="98" xml:id="l98">Ils pourront le quitterÂ : cachons-nous pour attendre.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="I03">
+          <head>SCÃˆNE III</head>
+          <stage>Lycarsis, Mopse, Nicandre.</stage>
+          <sp who="NICANDRE" xml:id="I03-1">
+            <speaker>NICANDRE</speaker>
+            <l n="99" xml:id="l99" part="I">Dis-nous donc ta nouvelle.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I03-2">
+            <speaker>LYCARSIS</speaker>
+            <l n="99" part="F">AhÂ ! Que vous me pressezÂ !</l>
+            <l n="100" xml:id="l100">Cela ne se dit pas comme vous le pensez.</l>
+          </sp>
+          <sp who="MOPSE" xml:id="I03-3">
+            <speaker>MOPSE</speaker>
+            <l n="101" xml:id="l101">Que de sottes faÃ§ons, et que de badinageÂ !</l>
+            <l n="102" xml:id="l102">MÃ©nalque pour chanter nâ€™en fait pas davantage.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I03-4">
+            <speaker>LYCARSIS</speaker>
+            <l n="103" xml:id="l103">Parmi les curieux des affaires dâ€™Ã©tat,</l>
+            <l n="104" xml:id="l104">Une nouvelle Ã  dire est dâ€™un puissant Ã©clat.</l>
+            <l n="105" xml:id="l105">Je me veux mettre un peu sur lâ€™homme dâ€™importance,</l>
+            <l n="106" xml:id="l106">Et jouir quelque temps de votre impatience.</l>
+          </sp>
+          <sp who="NICANDRE" xml:id="I03-5">
+            <speaker>NICANDRE</speaker>
+            <l n="107" xml:id="l107">Veux-tu par tes dÃ©lais nous fatiguer tous deuxÂ ?</l>
+          </sp>
+          <sp who="MOPSE" xml:id="I03-6">
+            <speaker>MOPSE</speaker>
+            <l n="108" xml:id="l108">Prends-tu quelque plaisir Ã  te rendre fÃ¢cheuxÂ ?</l>
+          </sp>
+          <sp who="NICANDRE" xml:id="I03-7">
+            <speaker>NICANDRE</speaker>
+            <l n="109" xml:id="l109">De grÃ¢ce, parle, et mets ces mines en arriÃ¨re.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I03-8">
+            <speaker>LYCARSIS</speaker>
+            <l n="110" xml:id="l110">Priez-moi donc tous deux de la bonne maniÃ¨re,</l>
+            <l n="111" xml:id="l111">Et me dites chacun quel don vous me ferez,</l>
+            <l n="112" xml:id="l112">Pour obtenir de moi ce que vous dÃ©sirez.</l>
+          </sp>
+          <sp who="MOPSE" xml:id="I03-9">
+            <speaker>MOPSE</speaker>
+            <l n="113" xml:id="l113">La peste soit du fatÂ ! Laissons-le lÃ , Nicandre.</l>
+            <l n="114" xml:id="l114">Il brÃ»le de parler, bien plus que nous dâ€™entendreÂ ;</l>
+            <l n="115" xml:id="l115">Sa nouvelle lui pÃ¨se, il veut sâ€™en dÃ©chargerÂ ;</l>
+            <l n="116" xml:id="l116">Et ne lâ€™Ã©couter pas est le faire enrager.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I03-10">
+            <speaker>LYCARSIS</speaker>
+            <l n="117" xml:id="l117" part="I">EhÂ !</l>
+          </sp>
+          <sp who="NICANDRE" xml:id="I03-11">
+            <speaker>NICANDRE</speaker>
+            <l n="117" part="F">Te voilÃ  puni de tes faÃ§ons de faire.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I03-12">
+            <speaker>LYCARSIS</speaker>
+            <l n="118" xml:id="l118" part="I">Je mâ€™en vais vous le dire, Ã©coutez.</l>
+          </sp>
+          <sp who="MOPSE" xml:id="I03-13">
+            <speaker>MOPSE</speaker>
+            <l n="118" part="F">Point dâ€™affaire.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I03-14">
+            <speaker>LYCARSIS</speaker>
+            <l n="119" xml:id="l119" part="I">QuoiÂ ? Vous ne voulez pas mâ€™entendreÂ ?</l>
+          </sp>
+          <sp who="NICANDRE" xml:id="I03-15">
+            <speaker>NICANDRE</speaker>
+            <l n="119" part="F">Non.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I03-16">
+            <speaker>LYCARSIS</speaker>
+            <l n="119" part="F">Eh bienÂ !</l>
+            <l n="120" xml:id="l120">Je ne dirai donc mot, et vous ne saurez rien.</l>
+          </sp>
+          <sp who="MOPSE" xml:id="I03-17">
+            <speaker>MOPSE</speaker>
+            <l n="121" xml:id="l121" part="I">Soit.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I03-18">
+            <speaker>LYCARSIS</speaker>
+            <l n="121" part="F">Vous ne saurez pas quâ€™avec magnificence</l>
+            <l n="122" xml:id="l122">Le roi vient dâ€™honorer TempÃ© de sa prÃ©senceÂ ;</l>
+            <l n="123" xml:id="l123">Quâ€™il entra dans Larisse hier sur le haut du jourÂ ;</l>
+            <l n="124" xml:id="l124">Quâ€™Ã  lâ€™aise je lâ€™y vis avec toute sa courÂ ;</l>
+            <l n="125" xml:id="l125">Que ces bois vont jouir aujourdâ€™hui de sa vue,</l>
+            <l n="126" xml:id="l126">Et quâ€™on raisonne fort touchant cette venue.</l>
+          </sp>
+          <sp who="NICANDRE" xml:id="I03-19">
+            <speaker>NICANDRE</speaker>
+            <l n="127" xml:id="l127">Nous nâ€™avons pas envie aussi de rien savoir.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I03-20">
+            <speaker>LYCARSIS</speaker>
+            <l n="128" xml:id="l128">Je vis cent choses lÃ  ravissantes Ã  voir.</l>
+            <l n="129" xml:id="l129">Ce ne sont que seigneurs, qui, des pieds Ã  la tÃªte,</l>
+            <l n="130" xml:id="l130">Sont brillants et parÃ©s comme au jour dâ€™une fÃªteÂ ;</l>
+            <l n="131" xml:id="l131">Ils surprennent la vueÂ ; et nos prÃ©s au printemps,</l>
+            <l n="132" xml:id="l132">Avec toutes leurs fleurs, sont bien moins Ã©clatants.</l>
+            <l n="133" xml:id="l133">Pour le prince, entre tous sans peine on le remarqueÂ ;</l>
+            <l n="134" xml:id="l134">Et dâ€™une stade loin il sent son grand monarqueÂ ;</l>
+            <l n="135" xml:id="l135">Dans toute sa personne il a je ne sais quoi</l>
+            <l n="136" xml:id="l136">Qui dâ€™abord fait juger que câ€™est un maÃ®tre roiÂ ;</l>
+            <l n="137" xml:id="l137">Il le fait dâ€™une grÃ¢ce Ã  nulle autre seconde,</l>
+            <l n="138" xml:id="l138">Et cela, sans mentir, lui sied le mieux du monde.</l>
+            <l n="139" xml:id="l139">On ne croirait jamais comme de toutes parts</l>
+            <l n="140" xml:id="l140">Toute sa cour sâ€™empresse Ã  chercher ses regardsÂ :</l>
+            <l n="141" xml:id="l141">Ce sont autour de lui confusions plaisantesÂ ;</l>
+            <l n="142" xml:id="l142">Et lâ€™on dirait dâ€™un tas de mouches reluisantes</l>
+            <l n="143" xml:id="l143">Qui suivent en tous lieux un doux rayon de miel.</l>
+            <l n="144" xml:id="l144">Enfin lâ€™on ne voit rien de si beau sous le cielÂ ;</l>
+            <l n="145" xml:id="l145">Et la fÃªte de Pan, parmi nous si chÃ©rie,</l>
+            <l n="146" xml:id="l146">AuprÃ¨s de ce spectacle est une gueuserie.</l>
+            <l n="147" xml:id="l147">Mais puisque sur le fier vous vous tenez si bien,</l>
+            <l n="148" xml:id="l148">Je garde ma nouvelle, et ne veux dire rien.</l>
+          </sp>
+          <sp who="MOPSE" xml:id="I03-21">
+            <speaker>MOPSE</speaker>
+            <l n="149" xml:id="l149">Et nous ne te voulons aucunement entendre.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I03-22">
+            <speaker>LYCARSIS</speaker>
+            <l n="150" xml:id="l150" part="I">Allez vous promener.</l>
+          </sp>
+          <sp who="MOPSE" xml:id="I03-23">
+            <speaker>MOPSE</speaker>
+            <l n="150" part="F">Va-tâ€™en te faire pendre.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="I04">
+          <head>SCÃˆNE IV</head>
+          <stage>Ã‰roxÃ¨ne, DaphnÃ©, Lycarsis.</stage>
+          <sp who="LYCARSIS" xml:id="I04-1">
+            <speaker>LYCARSIS</speaker>
+            <l n="151" xml:id="l151">Câ€™est de cette faÃ§on que lâ€™on punit les gens,</l>
+            <l n="152" xml:id="l152">Quand ils font les benÃªts et les impertinents.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I04-2">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="153" xml:id="l153">Le ciel tienne, pasteur, vos brebis toujours sainesÂ !</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I04-3">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="154" xml:id="l154">CÃ©rÃ¨s tienne de grains vos granges toujours pleinesÂ !</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I04-4">
+            <speaker>LYCARSIS</speaker>
+            <l n="155" xml:id="l155">Et le grand Pan vous donne Ã  chacune un Ã©poux</l>
+            <l n="156" xml:id="l156">Qui vous aime beaucoup, et soit digne de vousÂ !</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I04-5">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="157" xml:id="l157">AhÂ ! Lycarsis, nos vÅ“ux Ã  mÃªme but aspirent.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I04-6">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="158" xml:id="l158">Câ€™est pour le mÃªme objet que nos deux cÅ“urs soupirent.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I04-7">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="159" xml:id="l159">Et lâ€™amour, cet enfant qui cause nos langueurs,</l>
+            <l n="160" xml:id="l160">A pris chez vous le trait dont il blesse nos cÅ“urs.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I04-8">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="161" xml:id="l161">Et nous venons ici chercher votre alliance,</l>
+            <l n="162" xml:id="l162">Et voir qui de nous deux aura la prÃ©fÃ©rence.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I04-9">
+            <speaker>LYCARSIS</speaker>
+            <l n="163" xml:id="l163" part="I">Nymphes...</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I04-10">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="163" part="F">Pour ce bien seul nous poussons des soupirs.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I04-11">
+            <speaker>LYCARSIS</speaker>
+            <l n="164" xml:id="l164" part="I">Je suis...</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I04-12">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="164" part="F">Ã€ ce bonheur tendent tous nos dÃ©sirs.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I04-13">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="165" xml:id="l165">Câ€™est un peu librement expliquer sa pensÃ©e.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I04-14">
+            <speaker>LYCARSIS</speaker>
+            <l n="166" xml:id="l166" part="I">PourquoiÂ ?</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I04-15">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="166" part="F">La biensÃ©ance y semble un peu blessÃ©e.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I04-16">
+            <speaker>LYCARSIS</speaker>
+            <l n="167" xml:id="l167" part="I">AhÂ ! Point.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I04-17">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="167" part="F">Mais quand le cÅ“ur brÃ»le dâ€™un noble feu,</l>
+            <l n="168" xml:id="l168">On peut sans nulle honte en faire un libre aveu.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I04-18">
+            <speaker>LYCARSIS</speaker>
+            <l n="169" xml:id="l169" part="I">Je...</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I04-19">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="169" part="F">Cette libertÃ© nous peut Ãªtre permise,</l>
+            <l n="170" xml:id="l170">Et du choix de nos cÅ“urs la beautÃ© lâ€™autorise.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I04-20">
+            <speaker>LYCARSIS</speaker>
+            <l n="171" xml:id="l171">Câ€™est blesser ma pudeur que me flatter ainsi.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I04-21">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="172" xml:id="l172">Non, non, nâ€™affectez point de modestie ici.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I04-22">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="173" xml:id="l173">Enfin tout notre bien est en votre puissance.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I04-23">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="174" xml:id="l174">Câ€™est de vous que dÃ©pend notre unique espÃ©rance.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I04-24">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="175" xml:id="l175">Trouverons-nous en vous quelques difficultÃ©sÂ ?</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I04-25">
+            <speaker>LYCARSIS</speaker>
+            <l n="176" xml:id="l176" part="I">AhÂ !</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I04-26">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="176" part="F">Nos vÅ“ux, dites-moi, seront-ils rejetÃ©sÂ ?</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I04-27">
+            <speaker>LYCARSIS</speaker>
+            <l n="177" xml:id="l177">NonÂ : jâ€™ai reÃ§u du ciel une Ã¢me peu cruelleÂ ;</l>
+            <l n="178" xml:id="l178">Je tiens de feu ma femme, et je me sens comme elle</l>
+            <l n="179" xml:id="l179">Pour les dÃ©sirs dâ€™autrui beaucoup dâ€™humanitÃ©,</l>
+            <l n="180" xml:id="l180">Et je ne suis point homme Ã  garder de fiertÃ©.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I04-28">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="181" xml:id="l181">Accordez donc Myrtil Ã  notre amoureux zÃ¨le.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I04-29">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="182" xml:id="l182">Et souffrez que son choix rÃ¨gle notre querelle.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I04-30">
+            <speaker>LYCARSIS</speaker>
+            <l n="183" xml:id="l183" part="I">MyrtilÂ ?</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I04-31">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="183" part="F">Oui, câ€™est Myrtil que de vous nous voulons.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I04-32">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="184" xml:id="l184">De qui pensez-vous donc quâ€™ici nous vous parlonsÂ ?</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I04-33">
+            <speaker>LYCARSIS</speaker>
+            <l n="185" xml:id="l185">Je ne saisÂ ; mais Myrtil nâ€™est guÃ¨re dans un Ã¢ge</l>
+            <l n="186" xml:id="l186">Qui soit propre Ã  ranger au joug du mariage.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I04-34">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="187" xml:id="l187">Son mÃ©rite naissant peut frapper dâ€™autres yeuxÂ ;</l>
+            <l n="188" xml:id="l188">Et lâ€™on veut sâ€™engager un bien si prÃ©cieux,</l>
+            <l n="189" xml:id="l189">PrÃ©venir dâ€™autres cÅ“urs, et braver la fortune</l>
+            <l n="190" xml:id="l190">Sous les fermes liens dâ€™une chaÃ®ne commune.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I04-35">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="191" xml:id="l191">Comme par son esprit et ses autres brillants</l>
+            <l n="192" xml:id="l192">Il rompt lâ€™ordre commun et devance le temps,</l>
+            <l n="193" xml:id="l193">Notre flamme pour lui veut en faire de mÃªme,</l>
+            <l n="194" xml:id="l194">Et rÃ©gler tous ses vÅ“ux sur son mÃ©rite extrÃªme.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I04-36">
+            <speaker>LYCARSIS</speaker>
+            <l n="195" xml:id="l195">Il est vrai quâ€™Ã  son Ã¢ge il surprend quelquefoisÂ ;</l>
+            <l n="196" xml:id="l196">Et cet AthÃ©nien qui fut chez moi vingt mois,</l>
+            <l n="197" xml:id="l197">Qui, le trouvant joli, se mit en fantaisie</l>
+            <l n="198" xml:id="l198">De lui remplir lâ€™esprit de sa philosophie,</l>
+            <l n="199" xml:id="l199">Sur de certains discours lâ€™a rendu si profond,</l>
+            <l n="200" xml:id="l200">Que, tout grand que je suis, souvent il me confond.</l>
+            <l n="201" xml:id="l201">Mais, avec tout cela, ce nâ€™est encor quâ€™enfance,</l>
+            <l n="202" xml:id="l202">Et son fait est mÃªlÃ© de beaucoup dâ€™innocence.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I04-37">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="203" xml:id="l203">Il nâ€™est point tant enfant, quâ€™Ã  le voir chaque jour,</l>
+            <l n="204" xml:id="l204">Je ne le croie atteint dÃ©jÃ  dâ€™un peu dâ€™amourÂ ;</l>
+            <l n="205" xml:id="l205">Et plus dâ€™une aventure Ã  mes yeux sâ€™est offerte</l>
+            <l n="206" xml:id="l206">OÃ¹ jâ€™ai connu quâ€™il suit la jeune MÃ©licerte.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I04-38">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="207" xml:id="l207" part="I">Ils pourraient bien sâ€™aimerÂ ; et je vois...</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I04-39">
+            <speaker>LYCARSIS</speaker>
+            <l n="207" part="F">Franc abus.</l>
+            <l n="208" xml:id="l208">Pour elle, passe encoreÂ : elle a deux ans de plusÂ ;</l>
+            <l n="209" xml:id="l209">Et deux ans, dans son sexe, est une grande avance.</l>
+            <l n="210" xml:id="l210">Mais pour lui, le jeu seul lâ€™occupe tout, je pense,</l>
+            <l n="211" xml:id="l211">Et les petits dÃ©sirs de se voir ajustÃ©</l>
+            <l n="212" xml:id="l212">Ainsi que les bergers de haute qualitÃ©.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I04-40">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="213" xml:id="l213">Enfin nous dÃ©sirons par le nÅ“ud dâ€™hymÃ©nÃ©e</l>
+            <l n="214" xml:id="l214">Attacher sa fortune Ã  notre destinÃ©e.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I04-41">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="215" xml:id="l215">Nous voulons, lâ€™une et lâ€™autre, avec pareille ardeur,</l>
+            <l n="216" xml:id="l216">Nous assurer de loin lâ€™empire de son cÅ“ur.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I04-42">
+            <speaker>LYCARSIS</speaker>
+            <l n="217" xml:id="l217">Je mâ€™en tiens honorÃ© autant quâ€™on saurait croire.</l>
+            <l n="218" xml:id="l218">Je suis un pauvre pÃ¢treÂ ; et ce mâ€™est trop de gloire</l>
+            <l n="219" xml:id="l219">Que deux nymphes dâ€™un rang le plus haut du pays</l>
+            <l n="220" xml:id="l220">Disputent Ã  se faire un Ã©poux de mon fils.</l>
+            <l n="221" xml:id="l221">Puisquâ€™il vous plaÃ®t quâ€™ainsi la chose sâ€™exÃ©cute,</l>
+            <l n="222" xml:id="l222">Je consens que son choix rÃ¨gle votre disputeÂ ;</l>
+            <l n="223" xml:id="l223">Et celle quâ€™Ã  lâ€™Ã©cart laissera cet arrÃªt,</l>
+            <l n="224" xml:id="l224">Pourra, pour son recours, mâ€™Ã©pouser, sâ€™il lui plaÃ®t.</l>
+            <l n="225" xml:id="l225">Câ€™est toujours mÃªme sang, et presque mÃªme chose.</l>
+            <l n="226" xml:id="l226">Mais le voici. Souffrez quâ€™un peu je le dispose.</l>
+            <l n="227" xml:id="l227">Il tient quelque moineau quâ€™il a pris fraÃ®chement,</l>
+            <l n="228" xml:id="l228">Et voilÃ  ses amours et son attachement.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="I05">
+          <head>SCÃˆNE V</head>
+          <stage>Myrtil, Lycarsis, Ã‰roxÃ¨ne, DaphnÃ©.</stage>
+          <sp who="MYRTIL" xml:id="I05-1">
+            <speaker>MYRTIL</speaker>
+            <l n="229" xml:id="l229">Innocente petite bÃªte,</l>
+            <l n="230" xml:id="l230">Qui contre ce qui vous arrÃªte</l>
+            <l n="231" xml:id="l231">Vous dÃ©battez tant Ã  mes yeux,</l>
+            <l n="232" xml:id="l232">De votre libertÃ© ne plaignez point la perteÂ :</l>
+            <l n="233" xml:id="l233">Votre destin est glorieux,</l>
+            <l n="234" xml:id="l234">Je vous ai pris pour MÃ©licerte.</l>
+            <l n="235" xml:id="l235">Elle vous baisera, vous prenant dans sa main,</l>
+            <l n="236" xml:id="l236">Et de vous mettre en son sein</l>
+            <l n="237" xml:id="l237">Elle vous fera la grÃ¢ce.</l>
+            <l n="238" xml:id="l238">Est-il un sort au monde et plus doux et plus beauÂ ?</l>
+            <l n="239" xml:id="l239">Et qui des rois, hÃ©lasÂ ! Heureux petit moineau,</l>
+            <l n="240" xml:id="l240">Ne voudrait Ãªtre en votre placeÂ ?</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I05-2">
+            <speaker>LYCARSIS</speaker>
+            <l n="241" xml:id="l241">Myrtil, Myrtil, un mot. Laissons lÃ  ces joyauxÂ :</l>
+            <l n="242" xml:id="l242">Il sâ€™agit dâ€™autre chose ici que de moineaux.</l>
+            <l n="243" xml:id="l243">Ces deux nymphes, Myrtil, Ã  la fois te prÃ©tendent,</l>
+            <l n="244" xml:id="l244">Et, tout jeune, dÃ©jÃ  pour Ã©poux te demandent.</l>
+            <l n="245" xml:id="l245">Je dois, par un hymen, tâ€™engager Ã  leurs vÅ“ux,</l>
+            <l n="246" xml:id="l246">Et câ€™est toi que lâ€™on veut qui choisisse des deux.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="I05-3">
+            <speaker>MYRTIL</speaker>
+            <l n="247" xml:id="l247" part="I">Ces nymphes...</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I05-4">
+            <speaker>LYCARSIS</speaker>
+            <l n="247" part="F">Oui. Des deux tu peux en choisir uneÂ :</l>
+            <l n="248" xml:id="l248">Vois quel est ton bonheur, et bÃ©nis la fortune.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="I05-5">
+            <speaker>MYRTIL</speaker>
+            <l n="249" xml:id="l249">Ce choix qui mâ€™est offert peut-il mâ€™Ãªtre un bonheur,</l>
+            <l n="250" xml:id="l250">Sâ€™il nâ€™est aucunement souhaitÃ© de mon cÅ“urÂ ?</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I05-6">
+            <speaker>LYCARSIS</speaker>
+            <l n="251" xml:id="l251">Enfin quâ€™on le reÃ§oive, et que, sans le confondre,</l>
+            <l n="252" xml:id="l252">Ã€ lâ€™honneur quâ€™elles font on songe Ã  bien rÃ©pondre.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I05-7">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="253" xml:id="l253">MalgrÃ© cette fiertÃ© qui rÃ¨gne parmi nous,</l>
+            <l n="254" xml:id="l254">Deux nymphes, Ã´ Myrtil, viennent sâ€™offrir Ã  vousÂ ;</l>
+            <l n="255" xml:id="l255">Et de vos qualitÃ©s les merveilles Ã©closes</l>
+            <l n="256" xml:id="l256">Font que nous renversons ici lâ€™ordre des choses.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I05-8">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="257" xml:id="l257">Nous vous laissons, Myrtil, pour lâ€™avis le meilleur,</l>
+            <l n="258" xml:id="l258">Consulter sur ce choix vos yeux et votre cÅ“urÂ ;</l>
+            <l n="259" xml:id="l259">Et nous nâ€™en voulons point prÃ©venir les suffrages</l>
+            <l n="260" xml:id="l260">Par un rÃ©cit parÃ© de tous nos avantages.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="I05-9">
+            <speaker>MYRTIL</speaker>
+            <l n="261" xml:id="l261">Câ€™est me faire un honneur dont lâ€™Ã©clat me surprendÂ ;</l>
+            <l n="262" xml:id="l262">Mais cet honneur, pour moi, je lâ€™avoue, est trop grand.</l>
+            <l n="263" xml:id="l263">Ã€ vos rares bontÃ©s il faut que je mâ€™opposeÂ ;</l>
+            <l n="264" xml:id="l264">Pour mÃ©riter ce sort, je suis trop peu de choseÂ ;</l>
+            <l n="265" xml:id="l265">Et je serais fÃ¢chÃ©, quels quâ€™en soient les appas,</l>
+            <l n="266" xml:id="l266">Quâ€™on vous blÃ¢mÃ¢t pour moi de faire un choix trop bas.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I05-10">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="267" xml:id="l267">Contentez nos dÃ©sirs, quoi quâ€™on en puisse croire,</l>
+            <l n="268" xml:id="l268">Et ne vous chargez point du soin de notre gloire.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I05-11">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="269" xml:id="l269">Non, ne descendez point dans ces humilitÃ©s,</l>
+            <l n="270" xml:id="l270">Et laissez-nous juger ce que vous mÃ©ritez.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="I05-12">
+            <speaker>MYRTIL</speaker>
+            <l n="271" xml:id="l271">Le choix qui mâ€™est offert sâ€™oppose Ã  votre attente,</l>
+            <l n="272" xml:id="l272">Et peut seul empÃªcher que mon cÅ“ur vous contente.</l>
+            <l n="273" xml:id="l273">Le moyen de choisir de deux grandes beautÃ©s,</l>
+            <l n="274" xml:id="l274">Ã‰gales en naissance et rares qualitÃ©sÂ ?</l>
+            <l n="275" xml:id="l275">Rejeter lâ€™une ou lâ€™autre est un crime effroyable,</l>
+            <l n="276" xml:id="l276">Et nâ€™en choisir aucune est bien plus raisonnable.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I05-13">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="277" xml:id="l277">Mais en faisant refus de rÃ©pondre Ã  nos vÅ“ux,</l>
+            <l n="278" xml:id="l278">Au lieu dâ€™une, Myrtil, vous en outragez deux.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I05-14">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="279" xml:id="l279">Puisque nous consentons Ã  lâ€™arrÃªt quâ€™on peut rendre,</l>
+            <l n="280" xml:id="l280">Ces raisons ne font rien Ã  vouloir sâ€™en dÃ©fendre.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="I05-15">
+            <speaker>MYRTIL</speaker>
+            <l n="281" xml:id="l281">Eh bienÂ ! Si ces raisons ne vous satisfont pas,</l>
+            <l n="282" xml:id="l282">Celle-ci le feraÂ : jâ€™aime dâ€™autres appasÂ ;</l>
+            <l n="283" xml:id="l283">Et je sens bien quâ€™un cÅ“ur quâ€™un bel objet engage</l>
+            <l n="284" xml:id="l284">Est insensible et sourd Ã  tout autre avantage.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I05-16">
+            <speaker>LYCARSIS</speaker>
+            <l n="285" xml:id="l285">Comment doncÂ ? Quâ€™est-ce ciÂ ? Qui lâ€™eÃ»t pu prÃ©sumerÂ ?</l>
+            <l n="286" xml:id="l286">Et savez-vous, morveux, ce que câ€™est que dâ€™aimerÂ ?</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="I05-17">
+            <speaker>MYRTIL</speaker>
+            <l n="287" xml:id="l287">Sans savoir ce que câ€™est, mon cÅ“ur a su le faire.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I05-18">
+            <speaker>LYCARSIS</speaker>
+            <l n="288" xml:id="l288">Mais cet amour me choque, et nâ€™est pas nÃ©cessaire.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="I05-19">
+            <speaker>MYRTIL</speaker>
+            <l n="289" xml:id="l289">Vous ne deviez donc pas, si cela vous dÃ©plaÃ®t,</l>
+            <l n="290" xml:id="l290">Me faire un cÅ“ur sensible et tendre comme il est.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I05-20">
+            <speaker>LYCARSIS</speaker>
+            <l n="291" xml:id="l291">Mais ce cÅ“ur que jâ€™ai fait me doit obÃ©issance.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="I05-21">
+            <speaker>MYRTIL</speaker>
+            <l n="292" xml:id="l292">Oui, lorsque dâ€™obÃ©ir il est en sa puissance.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I05-22">
+            <speaker>LYCARSIS</speaker>
+            <l n="293" xml:id="l293">Mais enfin, sans mon ordre il ne doit point aimer.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="I05-23">
+            <speaker>MYRTIL</speaker>
+            <l n="294" xml:id="l294">Que nâ€™empÃªchiez-vous donc que lâ€™on pÃ»t le charmerÂ ?</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I05-24">
+            <speaker>LYCARSIS</speaker>
+            <l n="295" xml:id="l295">Eh bienÂ ! Je vous dÃ©fends que cela continue.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="I05-25">
+            <speaker>MYRTIL</speaker>
+            <l n="296" xml:id="l296">La dÃ©fense, jâ€™ai peur, sera trop tard venue.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I05-26">
+            <speaker>LYCARSIS</speaker>
+            <l n="297" xml:id="l297">QuoiÂ ? Les pÃ¨res nâ€™ont pas des droits supÃ©rieursÂ ?</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="I05-27">
+            <speaker>MYRTIL</speaker>
+            <l n="298" xml:id="l298">Les dieux, qui sont bien plus, ne forcent point les cÅ“urs.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I05-28">
+            <speaker>LYCARSIS</speaker>
+            <l n="299" xml:id="l299">Les dieux... Paix, petit sotÂ ! Cette philosophie</l>
+            <l n="300" xml:id="l300" part="I">Me...</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I05-29">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="300" part="F">Ne vous mettez point en courroux, je vous prie.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I05-30">
+            <speaker>LYCARSIS</speaker>
+            <l n="301" xml:id="l301">NonÂ : je veux quâ€™il se donne Ã  lâ€™une pour Ã©poux,</l>
+            <l n="302" xml:id="l302">Ou je vais lui donner le fouet tout devant vousÂ :</l>
+            <l n="303" xml:id="l303">AhÂ ! AhÂ ! Je vous ferai sentir que je suis pÃ¨re.</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I05-31">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="304" xml:id="l304">Traitons, de grÃ¢ce, ici les choses sans colÃ¨re.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I05-32">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="305" xml:id="l305">Peut-on savoir de vous cet objet si charmant</l>
+            <l n="306" xml:id="l306">Dont la beautÃ©, Myrtil, vous a fait son amantÂ ?</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="I05-33">
+            <speaker>MYRTIL</speaker>
+            <l n="307" xml:id="l307">MÃ©licerte, madame. Elle en peut faire dâ€™autres.</l>
+          </sp>
+          <sp who="EROXÃˆNE" xml:id="I05-34">
+            <speaker>EROXÃˆNE</speaker>
+            <l n="308" xml:id="l308">Vous comparez, Myrtil, ses qualitÃ©s aux nÃ´tresÂ ?</l>
+          </sp>
+          <sp who="DAPHNÃ‰" xml:id="I05-35">
+            <speaker>DAPHNÃ‰</speaker>
+            <l n="309" xml:id="l309">Le choix dâ€™elle et de nous est assez inÃ©gal.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="I05-36">
+            <speaker>MYRTIL</speaker>
+            <l n="310" xml:id="l310">Nymphes, au nom des dieux, nâ€™en dites point de malÂ :</l>
+            <l n="311" xml:id="l311">Daignez considÃ©rer, de grÃ¢ce, que je lâ€™aime,</l>
+            <l n="312" xml:id="l312">Et ne me jetez point dans un dÃ©sordre extrÃªme.</l>
+            <l n="313" xml:id="l313">Si jâ€™outrage en lâ€™aimant vos cÃ©lestes attraits,</l>
+            <l n="314" xml:id="l314">Elle nâ€™a point de part au crime que je faisÂ :</l>
+            <l n="315" xml:id="l315">Câ€™est de moi, sâ€™il vous plaÃ®t, que vient toute lâ€™offense.</l>
+            <l n="316" xml:id="l316">Il est vrai, dâ€™elle Ã  vous je sais la diffÃ©renceÂ ;</l>
+            <l n="317" xml:id="l317">Mais par sa destinÃ©e on se trouve enchaÃ®nÃ©Â ;</l>
+            <l n="318" xml:id="l318">Et je sens bien enfin que le ciel mâ€™a donnÃ©</l>
+            <l n="319" xml:id="l319">Pour vous tout le respect, nymphes, imaginable,</l>
+            <l n="320" xml:id="l320">Pour elle tout lâ€™amour dont une Ã¢me est capable.</l>
+            <l n="321" xml:id="l321">Je vois, Ã  la rougeur qui vient de vous saisir,</l>
+            <l n="322" xml:id="l322">Que ce que je vous dis ne vous fait pas plaisir.</l>
+            <l n="323" xml:id="l323">Si vous parlez, mon cÅ“ur apprÃ©hende dâ€™entendre</l>
+            <l n="324" xml:id="l324">Ce qui peut le blesser par lâ€™endroit le plus tendreÂ ;</l>
+            <l n="325" xml:id="l325">Et pour me dÃ©rober Ã  de semblables coups,</l>
+            <l n="326" xml:id="l326">Nymphes, jâ€™aime bien mieux prendre congÃ© de vous.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="I05-37">
+            <speaker>LYCARSIS</speaker>
+            <l n="327" xml:id="l327">Myrtil, holÃ Â ! MyrtilÂ ! Veux-tu revenir, traÃ®treÂ ?</l>
+            <l n="328" xml:id="l328">Il fuitÂ ; mais on verra qui de nous est le maÃ®tre.</l>
+            <l n="329" xml:id="l329">Ne vous effrayez point de tous ces vains transportsÂ :</l>
+            <l n="330" xml:id="l330">Vous lâ€™aurez pour Ã©pouxÂ ; jâ€™en rÃ©ponds corps pour corps.</l>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="acte" n="2" xml:id="II">
+        <head>ACTE II</head>
+        <div2 type="scene" n="1" xml:id="II01">
+          <head>SCÃˆNE PREMIÃˆRE</head>
+          <stage>MÃ©licerte, Corinne.</stage>
+          <sp who="MÃ‰LICERTE" xml:id="II01-1">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="331" xml:id="l331">AhÂ ! Corinne, tu viens de lâ€™apprendre de Stelle,</l>
+            <l n="332" xml:id="l332">Et câ€™est de Lycarsis quâ€™elle tient la nouvelle.</l>
+          </sp>
+          <sp who="CORINNE" xml:id="II01-2">
+            <speaker>CORINNE</speaker>
+            <l n="333" xml:id="l333" part="I">Oui.</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II01-3">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="333" part="F">Que les qualitÃ©s dont Myrtil est ornÃ©</l>
+            <l n="334" xml:id="l334">Ont su toucher dâ€™amour Ã‰roxÃ¨ne et DaphnÃ©Â ?</l>
+          </sp>
+          <sp who="CORINNE" xml:id="II01-4">
+            <speaker>CORINNE</speaker>
+            <l n="335" xml:id="l335" part="I">Oui.</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II01-5">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="335" part="F">Que pour lâ€™obtenir leur ardeur est si grande,</l>
+            <l n="336" xml:id="l336">Quâ€™ensemble elles en ont dÃ©jÃ  fait la demandeÂ ?</l>
+            <l n="337" xml:id="l337">Et que, dans ce dÃ©bat, elles ont fait dessein</l>
+            <l n="338" xml:id="l338">De passer, dÃ¨s cette heure, Ã  recevoir sa mainÂ ?</l>
+            <l n="339" xml:id="l339">AhÂ ! Que tes mots ont peine Ã  sortir de ta boucheÂ !</l>
+            <l n="340" xml:id="l340">Et que câ€™est faiblement que mon souci te toucheÂ !</l>
+          </sp>
+          <sp who="CORINNE" xml:id="II01-6">
+            <speaker>CORINNE</speaker>
+            <l n="341" xml:id="l341">Mais quoiÂ ? Que voulez-vousÂ ? Câ€™est lÃ  la vÃ©ritÃ©,</l>
+            <l n="342" xml:id="l342">Et vous redites tout comme je lâ€™ai contÃ©.</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II01-7">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="343" xml:id="l343">Mais comment Lycarsis reÃ§oit-il cette affaireÂ ?</l>
+          </sp>
+          <sp who="CORINNE" xml:id="II01-8">
+            <speaker>CORINNE</speaker>
+            <l n="344" xml:id="l344">Comme un honneur, je crois, qui doit beaucoup lui plaire.</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II01-9">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="345" xml:id="l345">Et ne vois-tu pas bien, toi qui sais mon ardeur,</l>
+            <l n="346" xml:id="l346">Quâ€™avec ce mot, hÃ©lasÂ ! Tu me perces le cÅ“urÂ ?</l>
+          </sp>
+          <sp who="CORINNE" xml:id="II01-10">
+            <speaker>CORINNE</speaker>
+            <l n="347" xml:id="l347" part="I">CommentÂ ?</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II01-11">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="347" part="F">Me mettre aux yeux que le sort implacable</l>
+            <l n="348" xml:id="l348">AuprÃ¨s dâ€™elles me rend trop peu considÃ©rable,</l>
+            <l n="349" xml:id="l349">Et quâ€™Ã  moi, par leur rang, on les va prÃ©fÃ©rer,</l>
+            <l n="350" xml:id="l350">Nâ€™est-ce pas une idÃ©e Ã  me dÃ©sespÃ©rerÂ ?</l>
+          </sp>
+          <sp who="CORINNE" xml:id="II01-12">
+            <speaker>CORINNE</speaker>
+            <l n="351" xml:id="l351">Mais quoiÂ ? Je vous rÃ©ponds, et dis ce que je pense.</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II01-13">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="352" xml:id="l352">AhÂ ! Tu me fais mourir par ton indiffÃ©rence.</l>
+            <l n="353" xml:id="l353">Mais dis, quels sentiments Myrtil a-t-il fait voirÂ ?</l>
+          </sp>
+          <sp who="CORINNE" xml:id="II01-14">
+            <speaker>CORINNE</speaker>
+            <l n="354" xml:id="l354" part="I">Je ne sais.</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II01-15">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="354" part="F">Et câ€™est lÃ  ce quâ€™il fallait savoir,</l>
+            <l n="355" xml:id="l355" part="I">CruelleÂ !</l>
+          </sp>
+          <sp who="CORINNE" xml:id="II01-16">
+            <speaker>CORINNE</speaker>
+            <l n="355" part="F">En vÃ©ritÃ©, je ne sais comment faire,</l>
+            <l n="356" xml:id="l356">Et de tous les cÃ´tÃ©s je trouve Ã  vous dÃ©plaire.</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II01-17">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="357" xml:id="l357">Câ€™est que tu nâ€™entres point dans tous les mouvements</l>
+            <l n="358" xml:id="l358">Dâ€™un cÅ“ur, hÃ©lasÂ ! Rempli de tendres sentiments.</l>
+            <l n="359" xml:id="l359">Va-tâ€™enÂ : laisse-moi seule en cette solitude</l>
+            <l n="360" xml:id="l360">Passer quelques moments de mon inquiÃ©tude.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="II02">
+          <head>SCÃˆNE II</head>
+          <sp who="MÃ‰LICERTE" xml:id="II02-1">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="361" xml:id="l361">Vous le voyez, mon cÅ“ur, ce que câ€™est que dâ€™aimer,</l>
+            <l n="362" xml:id="l362">Et BÃ©lise avait su trop bien mâ€™en informer.</l>
+            <l n="363" xml:id="l363">Cette charmante mÃ¨re, avant sa destinÃ©e,</l>
+            <l n="364" xml:id="l364">Me disait une fois, sur le bord du PÃ©nÃ©eÂ :</l>
+            <l n="365" xml:id="l365">Â«Â Ma fille, songe Ã  toiÂ : lâ€™amour aux jeunes cÅ“urs</l>
+            <l n="366" xml:id="l366">Se prÃ©sente toujours entourÃ© de douceursÂ ;</l>
+            <l n="367" xml:id="l367">Dâ€™abord il nâ€™offre aux yeux que choses agrÃ©ablesÂ ;</l>
+            <l n="368" xml:id="l368">Mais il traÃ®ne aprÃ¨s lui des troubles effroyablesÂ ;</l>
+            <l n="369" xml:id="l369">Et si tu veux passer tes jours dans quelque paix,</l>
+            <l n="370" xml:id="l370">Toujours, comme dâ€™un mal, dÃ©fends-toi de ses traits.Â Â»</l>
+            <l n="371" xml:id="l371">De ces leÃ§ons, mon cÅ“ur, je mâ€™Ã©tais souvenueÂ ;</l>
+            <l n="372" xml:id="l372">Et quand Myrtil venait Ã  sâ€™offrir Ã  ma vue,</l>
+            <l n="373" xml:id="l373">Quâ€™il jouait avec moi, quâ€™il me rendait des soins,</l>
+            <l n="374" xml:id="l374">Je vous disais toujours de vous y plaire moins.</l>
+            <l n="375" xml:id="l375">Vous ne me crÃ»tes pointÂ ; et votre complaisance</l>
+            <l n="376" xml:id="l376">Se vit bientÃ´t changÃ©e en trop de bienveillanceÂ ;</l>
+            <l n="377" xml:id="l377">Dans ce naissant amour qui flattait vos dÃ©sirs,</l>
+            <l n="378" xml:id="l378">Vous ne vous figuriez que joie et que plaisirsÂ :</l>
+            <l n="379" xml:id="l379">Cependant vous voyez la cruelle disgrÃ¢ce</l>
+            <l n="380" xml:id="l380">Dont, en ce triste jour, le destin vous menace,</l>
+            <l n="381" xml:id="l381">Et la peine mortelle oÃ¹ vous voilÃ  rÃ©duitÂ !</l>
+            <l n="382" xml:id="l382">Ah, mon cÅ“urÂ ! Ah, mon cÅ“urÂ ! Je vous lâ€™avais bien dit.</l>
+            <l n="383" xml:id="l383">Mais tenons, sâ€™il se peut, notre douleur couverteÂ :</l>
+            <l n="384" xml:id="l384" part="I">Voici...</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="II03">
+          <head>SCÃˆNE III</head>
+          <stage>Myrtil, MÃ©licerte.</stage>
+          <sp who="MYRTIL" xml:id="II03-1">
+            <speaker>MYRTIL</speaker>
+            <l n="384" part="F">Jâ€™ai fait tantÃ´t, charmante MÃ©licerte,</l>
+            <l n="385" xml:id="l385">Un petit prisonnier que je garde pour vous,</l>
+            <l n="386" xml:id="l386">Et dont peut-Ãªtre un jour je deviendrai jalouxÂ :</l>
+            <l n="387" xml:id="l387">Câ€™est un jeune moineau, quâ€™avec un soin extrÃªme</l>
+            <l n="388" xml:id="l388">Je veux, pour vous lâ€™offrir, apprivoiser moi-mÃªme.</l>
+            <l n="389" xml:id="l389">Le prÃ©sent nâ€™est pas grandÂ ; mais les divinitÃ©s</l>
+            <l n="390" xml:id="l390">Ne jettent leurs regards que sur les volontÃ©sÂ :</l>
+            <l n="391" xml:id="l391">Câ€™est le cÅ“ur qui fait toutÂ ; et jamais la richesse</l>
+            <l n="392" xml:id="l392">Des prÃ©sents que... Mais, cielÂ ! Dâ€™oÃ¹ vient cette tristesseÂ ?</l>
+            <l n="393" xml:id="l393">Quâ€™avez-vous, MÃ©licerte, et quel sombre chagrin</l>
+            <l n="394" xml:id="l394">Serait dans vos beaux yeux rÃ©pandu ce matinÂ !</l>
+            <l n="395" xml:id="l395">Vous ne rÃ©pondez pointÂ ? Et ce morne silence</l>
+            <l n="396" xml:id="l396">Redouble encor ma peine et mon impatience.</l>
+            <l n="397" xml:id="l397">ParlezÂ : de quel ennui ressentez-vous les coupsÂ ?</l>
+            <l n="398" xml:id="l398" part="I">Quâ€™est-ce doncÂ ?</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II03-2">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="398" part="F">Ce nâ€™est rien.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II03-3">
+            <speaker>MYRTIL</speaker>
+            <l n="398" part="F">Ce nâ€™est rien, dites-vousÂ ?</l>
+            <l n="399" xml:id="l399">Et je vois cependant vos yeux couverts de larmesÂ :</l>
+            <l n="400" xml:id="l400">Cela sâ€™accorde-t-il, beautÃ© pleine de charmesÂ ?</l>
+            <l n="401" xml:id="l401">AhÂ ! Ne me faites point un secret dont je meurs,</l>
+            <l n="402" xml:id="l402">Et mâ€™expliquez, hÃ©lasÂ ! Ce que disent ces pleurs.</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II03-4">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="403" xml:id="l403">Rien ne me servirait de vous le faire entendre.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II03-5">
+            <speaker>MYRTIL</speaker>
+            <l n="404" xml:id="l404">Devez-vous rien avoir que je ne doive apprendreÂ ?</l>
+            <l n="405" xml:id="l405">Et ne blessez-vous pas notre amour aujourdâ€™hui,</l>
+            <l n="406" xml:id="l406">De vouloir me voler ma part de votre ennuiÂ ?</l>
+            <l n="407" xml:id="l407">AhÂ ! Ne le cachez point Ã  lâ€™ardeur qui mâ€™inspire.</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II03-6">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="408" xml:id="l408">HÃ© bien, Myrtil, hÃ© bienÂ ! Il faut donc vous le direÂ :</l>
+            <l n="409" xml:id="l409">Jâ€™ai su que, par un choix plein de gloire pour vous,</l>
+            <l n="410" xml:id="l410">Ã‰roxÃ¨ne et DaphnÃ© vous veulent pour Ã©pouxÂ ;</l>
+            <l n="411" xml:id="l411">Et je vous avouerai que jâ€™ai cette faiblesse</l>
+            <l n="412" xml:id="l412">De nâ€™avoir pu, Myrtil, le savoir sans tristesse,</l>
+            <l n="413" xml:id="l413">Sans accuser du sort la rigoureuse loi,</l>
+            <l n="414" xml:id="l414">Qui les rend dans leurs vÅ“ux prÃ©fÃ©rables Ã  moi.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II03-7">
+            <speaker>MYRTIL</speaker>
+            <l n="415" xml:id="l415">Et vous pouvez lâ€™avoir, cette injuste tristesseÂ !</l>
+            <l n="416" xml:id="l416">Vous pouvez soupÃ§onner mon amour de faiblesse,</l>
+            <l n="417" xml:id="l417">Et croire quâ€™engagÃ© par des charmes si doux,</l>
+            <l n="418" xml:id="l418">Je puisse Ãªtre jamais Ã  quelque autre quâ€™Ã  vousÂ ?</l>
+            <l n="419" xml:id="l419">Que je puisse accepter une autre main offerteÂ ?</l>
+            <l n="420" xml:id="l420">HÃ©Â ! Que vous ai-je fait, cruelle MÃ©licerte,</l>
+            <l n="421" xml:id="l421">Pour traiter ma tendresse avec tant de rigueur,</l>
+            <l n="422" xml:id="l422">Et faire un jugement si mauvais de mon cÅ“urÂ ?</l>
+            <l n="423" xml:id="l423">QuoiÂ ? Faut-il que de lui vous ayez quelque crainteÂ ?</l>
+            <l n="424" xml:id="l424">Je suis bien malheureux de souffrir cette atteinteÂ ;</l>
+            <l n="425" xml:id="l425">Et que me sert dâ€™aimer comme je fais, hÃ©lasÂ !</l>
+            <l n="426" xml:id="l426">Si vous Ãªtes si prÃªte Ã  ne le croire pasÂ ?</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II03-8">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="427" xml:id="l427">Je pourrais moins, Myrtil, redouter ces rivales,</l>
+            <l n="428" xml:id="l428">Si les choses Ã©taient de part et dâ€™autre Ã©gales,</l>
+            <l n="429" xml:id="l429">Et dans un rang pareil jâ€™oserais espÃ©rer</l>
+            <l n="430" xml:id="l430">Que peut-Ãªtre lâ€™amour me ferait prÃ©fÃ©rerÂ ;</l>
+            <l n="431" xml:id="l431">Mais lâ€™inÃ©galitÃ© de bien et de naissance,</l>
+            <l n="432" xml:id="l432">Qui peut dâ€™elles Ã  moi faire la diffÃ©rence...</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II03-9">
+            <speaker>MYRTIL</speaker>
+            <l n="433" xml:id="l433">AhÂ ! Leur rang de mon cÅ“ur ne viendra point Ã  bout,</l>
+            <l n="434" xml:id="l434">Et vos divins appas vous tiennent lieu de tout.</l>
+            <l n="435" xml:id="l435">Je vous aime, il suffitÂ ; et dans votre personne</l>
+            <l n="436" xml:id="l436">Je vois rang, biens, trÃ©sors, Ã©tats, sceptres, couronneÂ ;</l>
+            <l n="437" xml:id="l437">Et des rois les plus grands mâ€™offrÃ®t-on le pouvoir,</l>
+            <l n="438" xml:id="l438">Je nâ€™y changerais pas le bien de vous avoir.</l>
+            <l n="439" xml:id="l439">Câ€™est une vÃ©ritÃ© toute sincÃ¨re et pure,</l>
+            <l n="440" xml:id="l440">Et pouvoir en douter est me faire une injure.</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II03-10">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="441" xml:id="l441">HÃ© bienÂ ! Je crois, Myrtil, puisque vous le voulez,</l>
+            <l n="442" xml:id="l442">Que vos vÅ“ux par leur rang ne sont point Ã©branlÃ©sÂ ;</l>
+            <l n="443" xml:id="l443">Et que, bien quâ€™elles soient nobles, riches et belles,</l>
+            <l n="444" xml:id="l444">Votre cÅ“ur mâ€™aime assez pour me mieux aimer quâ€™elles.</l>
+            <l n="445" xml:id="l445">Mais ce nâ€™est pas lâ€™amour dont vous suivez la voixÂ :</l>
+            <l n="446" xml:id="l446">Votre pÃ¨re, Myrtil, rÃ©glera votre choixÂ ;</l>
+            <l n="447" xml:id="l447">Et de mÃªme quâ€™Ã  vous je ne lui suis pas chÃ¨re,</l>
+            <l n="448" xml:id="l448">Pour prÃ©fÃ©rer Ã  tout une simple bergÃ¨re.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II03-11">
+            <speaker>MYRTIL</speaker>
+            <l n="449" xml:id="l449">Non, chÃ¨re MÃ©licerte, il nâ€™est pÃ¨re ni dieux</l>
+            <l n="450" xml:id="l450">Qui me puissent forcer Ã  quitter vos beaux yeuxÂ ;</l>
+            <l n="451" xml:id="l451">Et toujours de mes vÅ“ux reine comme vous Ãªtes...</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II03-12">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="452" xml:id="l452">AhÂ ! Myrtil, prenez garde Ã  ce quâ€™ici vous faitesÂ :</l>
+            <l n="453" xml:id="l453">Nâ€™allez point prÃ©senter un espoir Ã  mon cÅ“ur,</l>
+            <l n="454" xml:id="l454">Quâ€™il recevrait peut-Ãªtre avec trop de douceur,</l>
+            <l n="455" xml:id="l455">Et qui, tombant aprÃ¨s comme un Ã©clair qui passe,</l>
+            <l n="456" xml:id="l456">Me rendrait plus cruel le coup de ma disgrÃ¢ce.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II03-13">
+            <speaker>MYRTIL</speaker>
+            <l n="457" xml:id="l457">QuoiÂ ? Faut-il des serments appeler le secours,</l>
+            <l n="458" xml:id="l458">Lorsque lâ€™on vous promet de vous aimer toujoursÂ ?</l>
+            <l n="459" xml:id="l459">Que vous vous faites tort par de telles alarmes,</l>
+            <l n="460" xml:id="l460">Et connaissez bien peu le pouvoir de vos charmesÂ !</l>
+            <l n="461" xml:id="l461">HÃ© bienÂ ! Puisquâ€™il le faut, je jure par les dieux,</l>
+            <l n="462" xml:id="l462">Et si ce nâ€™est assez, je jure par vos yeux,</l>
+            <l n="463" xml:id="l463">Quâ€™on me tuera plutÃ´t que je vous abandonne.</l>
+            <l n="464" xml:id="l464">Recevez-en ici la foi que je vous donne,</l>
+            <l n="465" xml:id="l465">Et souffrez que ma bouche avec ravissement</l>
+            <l n="466" xml:id="l466">Sur cette belle main en signe le serment.</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II03-14">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="467" xml:id="l467">AhÂ ! Myrtil, levez-vous, de peur quâ€™on ne vous voie.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II03-15">
+            <speaker>MYRTIL</speaker>
+            <l n="468" xml:id="l468">Est-il rien...Â ? Mais, Ã´ cielÂ ! On vient troubler ma joie.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="II04">
+          <head>SCÃˆNE IV</head>
+          <stage>Lycarsis, Myrtil, MÃ©licerte.</stage>
+          <sp who="LYCARSIS" xml:id="II04-1">
+            <speaker>LYCARSIS</speaker>
+            <l n="469" xml:id="l469" part="I">Ne vous contraignez pas pour moi.</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II04-2">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="469" part="F">Quel sort fÃ¢cheuxÂ !</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="II04-3">
+            <speaker>LYCARSIS</speaker>
+            <l n="470" xml:id="l470">Cela ne va pas malÂ : continuez tous deux.</l>
+            <l n="471" xml:id="l471">PesteÂ ! Mon petit fils, que vous avez lâ€™air tendre,</l>
+            <l n="472" xml:id="l472">Et quâ€™en maÃ®tre dÃ©jÃ  vous savez vous y prendreÂ !</l>
+            <l n="473" xml:id="l473">Vous a-t-il, ce savant quâ€™AthÃ¨nes exila,</l>
+            <l n="474" xml:id="l474">Dans sa philosophie appris ces choses-lÃ Â ?</l>
+            <l n="475" xml:id="l475">Et vous, qui lui donnez de si douce maniÃ¨re</l>
+            <l n="476" xml:id="l476">Votre main Ã  baiser, la gentille bergÃ¨re,</l>
+            <l n="477" xml:id="l477">Lâ€™honneur vous apprend-il ces mignardes douceurs,</l>
+            <l n="478" xml:id="l478">Par qui vous dÃ©bauchez ainsi les jeunes cÅ“ursÂ ?</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II04-4">
+            <speaker>MYRTIL</speaker>
+            <l n="479" xml:id="l479">AhÂ ! Quittez de ces mots lâ€™outrageante bassesse,</l>
+            <l n="480" xml:id="l480">Et ne mâ€™accablez point dâ€™un discours qui la blesse.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="II04-5">
+            <speaker>LYCARSIS</speaker>
+            <l n="481" xml:id="l481">Je veux lui parler, moi. Toutes ces amitiÃ©s...</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II04-6">
+            <speaker>MYRTIL</speaker>
+            <l n="482" xml:id="l482">Je ne souffrirai point que vous la maltraitiez.</l>
+            <l n="483" xml:id="l483">Ã€ du respect pour vous la naissance mâ€™engageÂ ;</l>
+            <l n="484" xml:id="l484">Mais je saurai sur moi pour punir de lâ€™outrage.</l>
+            <l n="485" xml:id="l485">Oui, jâ€™atteste le ciel que si, contre mes vÅ“ux,</l>
+            <l n="486" xml:id="l486">Vous lui dites encor le moindre mot fÃ¢cheux,</l>
+            <l n="487" xml:id="l487">Je vais avec ce fer, qui mâ€™en fera justice,</l>
+            <l n="488" xml:id="l488">Au milieu de mon sein vous chercher un supplice,</l>
+            <l n="489" xml:id="l489">Et par mon sang versÃ© lui marquer promptement</l>
+            <l n="490" xml:id="l490">Lâ€™Ã©clatant dÃ©saveu de votre emportement.</l>
+          </sp>
+          <sp who="MÃ‰LICERTE" xml:id="II04-7">
+            <speaker>MÃ‰LICERTE</speaker>
+            <l n="491" xml:id="l491">Non, non, ne croyez pas quâ€™avec art je lâ€™enflamme,</l>
+            <l n="492" xml:id="l492">Et que mon dessein soit de sÃ©duire son Ã¢me.</l>
+            <l n="493" xml:id="l493">Sâ€™il sâ€™attache Ã  me voir, et me veut quelque bien,</l>
+            <l n="494" xml:id="l494">Câ€™est de son mouvementÂ : je ne lâ€™y force en rien.</l>
+            <l n="495" xml:id="l495">Ce nâ€™est pas que mon cÅ“ur veuille ici se dÃ©fendre</l>
+            <l n="496" xml:id="l496">De rÃ©pondre Ã  ses vÅ“ux dâ€™une ardeur assez tendreÂ :</l>
+            <l n="497" xml:id="l497">Je lâ€™aime, je lâ€™avoue, autant quâ€™on puisse aimerÂ ;</l>
+            <l n="498" xml:id="l498">Mais cet amour nâ€™a rien qui vous doive alarmerÂ ;</l>
+            <l n="499" xml:id="l499">Et pour vous arracher toute injuste crÃ©ance,</l>
+            <l n="500" xml:id="l500">Je vous promets ici dâ€™Ã©viter sa prÃ©sence,</l>
+            <l n="501" xml:id="l501">De faire place au choix oÃ¹ vous vous rÃ©soudrez,</l>
+            <l n="502" xml:id="l502">Et ne souffrir ses vÅ“ux que quand vous le voudrez.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="II05">
+          <head>SCÃˆNE V</head>
+          <stage>Lycarsis, Myrtil.</stage>
+          <sp who="MYRTIL" xml:id="II05-1">
+            <speaker>MYRTIL</speaker>
+            <l n="503" xml:id="l503">Eh bienÂ ! Vous triomphez avec cette retraite,</l>
+            <l n="504" xml:id="l504">Et dans ces mots votre Ã¢me a ce quâ€™elle souhaiteÂ ;</l>
+            <l n="505" xml:id="l505">Mais apprenez quâ€™en vain vous vous rÃ©jouissez,</l>
+            <l n="506" xml:id="l506">Que vous serez trompÃ© dans ce que vous pensez,</l>
+            <l n="507" xml:id="l507">Et quâ€™avec tous vos soins, toute votre puissance,</l>
+            <l n="508" xml:id="l508">Vous ne gagnerez rien sur ma persÃ©vÃ©rance.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="II05-2">
+            <speaker>LYCARSIS</speaker>
+            <l n="509" xml:id="l509">CommentÂ ? Ã  quel orgueil, fripon, vous vois-je allerÂ ?</l>
+            <l n="510" xml:id="l510">Est-ce de la faÃ§on que lâ€™on me doit parlerÂ ?</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II05-3">
+            <speaker>MYRTIL</speaker>
+            <l n="511" xml:id="l511">Oui, jâ€™ai tort, il est vrai, mon transport nâ€™est pas sageÂ :</l>
+            <l n="512" xml:id="l512">Pour rentrer au devoir, je change de langage,</l>
+            <l n="513" xml:id="l513">Et je vous prie ici, mon pÃ¨re, au nom des dieux,</l>
+            <l n="514" xml:id="l514">Et par tout ce qui peut vous Ãªtre prÃ©cieux,</l>
+            <l n="515" xml:id="l515">De ne vous point servir, dans cette conjoncture,</l>
+            <l n="516" xml:id="l516">Des fiers droits que sur moi vous donne la natureÂ :</l>
+            <l n="517" xml:id="l517">Ne mâ€™empoisonnez point vos bienfaits les plus doux.</l>
+            <l n="518" xml:id="l518">Le jour est un prÃ©sent que jâ€™ai reÃ§u de vousÂ ;</l>
+            <l n="519" xml:id="l519">Mais de quoi vous serai-je aujourdâ€™hui redevable,</l>
+            <l n="520" xml:id="l520">Si vous me lâ€™allez rendre, hÃ©lasÂ ! InsupportableÂ ?</l>
+            <l n="521" xml:id="l521">Il est, sans MÃ©licerte, un supplice Ã  mes yeuxÂ :</l>
+            <l n="522" xml:id="l522">Sans ses divins appas rien ne mâ€™est prÃ©cieuxÂ ;</l>
+            <l n="523" xml:id="l523">Ils font tout mon bonheur et toute mon envieÂ ;</l>
+            <l n="524" xml:id="l524">Et si vous me lâ€™Ã´tez, vous mâ€™arrachez la vie.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="II05-4">
+            <speaker>LYCARSIS</speaker>
+            <l n="525" xml:id="l525">Aux douleurs de son Ã¢me il me fait prendre part.</l>
+            <l n="526" xml:id="l526">Qui lâ€™aurait jamais cru de ce petit pendartÂ ?</l>
+            <l n="527" xml:id="l527">Quel amourÂ ! Quels transportsÂ ! Quels discours pour son Ã¢geÂ !</l>
+            <l n="528" xml:id="l528">Jâ€™en suis confus, et sens que cet amour mâ€™engage.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II05-5">
+            <speaker>MYRTIL</speaker>
+            <l n="529" xml:id="l529">Voyez, me voulez-vous ordonner de mourirÂ ?</l>
+            <l n="530" xml:id="l530">Vous nâ€™avez quâ€™Ã  parler, je suis prÃªt dâ€™obÃ©ir.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="II05-6">
+            <speaker>LYCARSIS</speaker>
+            <l n="531" xml:id="l531">Je ne puis plus tenirÂ : il mâ€™arrache des larmes,</l>
+            <l n="532" xml:id="l532">Et ces tendres propos me font rendre les armes.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II05-7">
+            <speaker>MYRTIL</speaker>
+            <l n="533" xml:id="l533">Que si dans votre cÅ“ur un reste dâ€™amitiÃ©</l>
+            <l n="534" xml:id="l534">Vous peut de mon destin donner quelque pitiÃ©,</l>
+            <l n="535" xml:id="l535">Accordez MÃ©licerte Ã  mon ardente envie,</l>
+            <l n="536" xml:id="l536">Et vous ferez bien plus que me donner la vie.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="II05-8">
+            <speaker>LYCARSIS</speaker>
+            <l n="537" xml:id="l537" part="I">LÃ¨ve-toi.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II05-9">
+            <speaker>MYRTIL</speaker>
+            <l n="537" part="F">Serez-vous sensible Ã  mes soupirsÂ ?</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="II05-10">
+            <speaker>LYCARSIS</speaker>
+            <l n="538" xml:id="l538" part="I">Oui.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II05-11">
+            <speaker>MYRTIL</speaker>
+            <l n="538" part="F">Jâ€™obtiendrai de vous lâ€™objet de mes dÃ©sirsÂ ?</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="II05-12">
+            <speaker>LYCARSIS</speaker>
+            <l n="539" xml:id="l539" part="I">Oui.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II05-13">
+            <speaker>MYRTIL</speaker>
+            <l n="539" part="F">Vous ferez pour moi que son oncle lâ€™oblige</l>
+            <l n="540" xml:id="l540" part="I">Ã€ me donner sa mainÂ ?</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="II05-14">
+            <speaker>LYCARSIS</speaker>
+            <l n="540" part="F">Oui. LÃ¨ve-toi, te dis-je.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II05-15">
+            <speaker>MYRTIL</speaker>
+            <l n="541" xml:id="l541">Ã” pÃ¨re, le meilleur qui jamais ait Ã©tÃ©,</l>
+            <l n="542" xml:id="l542">Que je baise vos mains aprÃ¨s tant de bontÃ©Â !</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="II05-16">
+            <speaker>LYCARSIS</speaker>
+            <l n="543" xml:id="l543">AhÂ ! Que pour ses enfants un pÃ¨re a de faiblesseÂ !</l>
+            <l n="544" xml:id="l544">Peut-on rien refuser Ã  leurs mots de tendresseÂ ?</l>
+            <l n="545" xml:id="l545">Et ne se sent-on pas certains mouvements doux,</l>
+            <l n="546" xml:id="l546">Quand on vient Ã  songer que cela sort de vousÂ ?</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II05-17">
+            <speaker>MYRTIL</speaker>
+            <l n="547" xml:id="l547">Me tiendrez-vous au moins la parole avancÃ©eÂ ?</l>
+            <l n="548" xml:id="l548">Ne changerez-vous point, dites-moi, de pensÃ©eÂ ?</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="II05-18">
+            <speaker>LYCARSIS</speaker>
+            <l n="549" xml:id="l549" part="I">Non.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II05-19">
+            <speaker>MYRTIL</speaker>
+            <l n="549" part="F">Me permettez-vous de vous dÃ©sobÃ©ir,</l>
+            <l n="550" xml:id="l550">Si de ces sentiments on vous fait revenirÂ ?</l>
+            <l n="551" xml:id="l551" part="I">Prononcez le mot.</l>
+          </sp>
+          <sp who="LYCARSIS" xml:id="II05-20">
+            <speaker>LYCARSIS</speaker>
+            <l n="551" part="F">Oui. Ha, nature, natureÂ !</l>
+            <l n="552" xml:id="l552">Je mâ€™en vais trouver Mopse, et lui faire ouverture</l>
+            <l n="553" xml:id="l553">De lâ€™amour que sa niÃ¨ce et toi vous vous portez.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II05-21">
+            <speaker>MYRTIL</speaker>
+            <l n="554" xml:id="l554">AhÂ ! Que ne dois-je point Ã  vos rares bontÃ©sÂ !</l>
+            <l n="555" xml:id="l555">Quelle heureuse nouvelle Ã  dire Ã  MÃ©licerteÂ !</l>
+            <l n="556" xml:id="l556">Je nâ€™accepterais pas une couronne offerte,</l>
+            <l n="557" xml:id="l557">Pour le plaisir que jâ€™ai de courir lui porter</l>
+            <l n="558" xml:id="l558">Ce merveilleux succÃ¨s qui la doit contenter.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6" xml:id="II06">
+          <head>SCÃˆNE VI</head>
+          <stage>Acante, TyrÃ¨ne, Myrtil</stage>
+          <sp who="ACANTE" xml:id="II06-1">
+            <speaker>ACANTE</speaker>
+            <l n="559" xml:id="l559">AhÂ ! Myrtil, vous avez du ciel reÃ§u des charmes</l>
+            <l n="560" xml:id="l560">Qui nous ont prÃ©parÃ© des matiÃ¨res de larmes,</l>
+            <l n="561" xml:id="l561">Et leur naissant Ã©clat, fatal Ã  nos ardeurs,</l>
+            <l n="562" xml:id="l562">De ce que nous aimons nous enlÃ¨ve les cÅ“urs.</l>
+          </sp>
+          <sp who="TYRÃˆNE" xml:id="II06-2">
+            <speaker>TYRÃˆNE</speaker>
+            <l n="563" xml:id="l563">Peut-on savoir, Myrtil, vers qui de ces deux belles</l>
+            <l n="564" xml:id="l564">Vous tournerez ce choix dont courent les nouvelles,</l>
+            <l n="565" xml:id="l565">Et sur qui doit de nous tomber ce coup affreux</l>
+            <l n="566" xml:id="l566">Dont se voit foudroyÃ© tout lâ€™espoir de nos vÅ“uxÂ ?</l>
+          </sp>
+          <sp who="ACANTE" xml:id="II06-3">
+            <speaker>ACANTE</speaker>
+            <l n="567" xml:id="l567">Ne faites point languir deux amants davantage,</l>
+            <l n="568" xml:id="l568">Et nous dites quel sort votre cÅ“ur nous partage.</l>
+          </sp>
+          <sp who="TYRÃˆNE" xml:id="II06-4">
+            <speaker>TYRÃˆNE</speaker>
+            <l n="569" xml:id="l569">Il vaut mieux, quand on craint ces malheurs Ã©clatants,</l>
+            <l n="570" xml:id="l570">En mourir tout dâ€™un coup, que traÃ®ner si longtemps.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II06-5">
+            <speaker>MYRTIL</speaker>
+            <l n="571" xml:id="l571">Rendez, nobles bergers, le calme Ã  votre flammeÂ :</l>
+            <l n="572" xml:id="l572">La belle MÃ©licerte a captivÃ© mon Ã¢meÂ ;</l>
+            <l n="573" xml:id="l573">AuprÃ¨s de cet objet mon sort est assez doux,</l>
+            <l n="574" xml:id="l574">Pour ne pas consentir Ã  rien prendre sur vousÂ ;</l>
+            <l n="575" xml:id="l575">Et si vos vÅ“ux enfin nâ€™ont que les miens Ã  craindre,</l>
+            <l n="576" xml:id="l576">Vous nâ€™aurez, lâ€™un ni lâ€™autre, aucun lieu de vous plaindre.</l>
+          </sp>
+          <sp who="ACANTE" xml:id="II06-6">
+            <speaker>ACANTE</speaker>
+            <l n="577" xml:id="l577">AhÂ ! Myrtil, se peut-il que deux tristes amants...Â ?</l>
+          </sp>
+          <sp who="TYRÃˆNE" xml:id="II06-7">
+            <speaker>TYRÃˆNE</speaker>
+            <l n="578" xml:id="l578">Est-il vrai que le ciel, sensible Ã  nos tourments...Â ?</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II06-8">
+            <speaker>MYRTIL</speaker>
+            <l n="579" xml:id="l579">Oui, content de mes fers comme dâ€™une victoire,</l>
+            <l n="580" xml:id="l580">Je me suis excusÃ© de ce choix plein de gloireÂ ;</l>
+            <l n="581" xml:id="l581">Jâ€™ai de mon pÃ¨re encor changÃ© les volontÃ©s,</l>
+            <l n="582" xml:id="l582">Et lâ€™ai fait consentir Ã  mes fÃ©licitÃ©s.</l>
+          </sp>
+          <sp who="ACANTE" xml:id="II06-9">
+            <speaker>ACANTE</speaker>
+            <l n="583" xml:id="l583">AhÂ ! Que cette aventure est un charmant miracle,</l>
+            <l n="584" xml:id="l584">Et quâ€™Ã  notre poursuite elle Ã´te un grand obstacleÂ !</l>
+          </sp>
+          <sp who="TYRÃˆNE" xml:id="II06-10">
+            <speaker>TYRÃˆNE</speaker>
+            <l n="585" xml:id="l585">Elle peut renvoyer ces nymphes Ã  nos vÅ“ux,</l>
+            <l n="586" xml:id="l586">Et nous donner moyen dâ€™Ãªtre contents tous deux.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="7" xml:id="II07">
+          <head>SCÃˆNE VII</head>
+          <stage>Nicandre, Myrtil, Acante, TyrÃ¨ne.</stage>
+          <sp who="NICANDRE" xml:id="II07-1">
+            <speaker>NICANDRE</speaker>
+            <l n="587" xml:id="l587">Savez-vous en quel lieu MÃ©licerte est cachÃ©eÂ ?</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II07-2">
+            <speaker>MYRTIL</speaker>
+            <l n="588" xml:id="l588" part="I">CommentÂ ?</l>
+          </sp>
+          <sp who="NICANDRE" xml:id="II07-3">
+            <speaker>NICANDRE</speaker>
+            <l n="588" part="F">En diligence elle est partout cherchÃ©e.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II07-4">
+            <speaker>MYRTIL</speaker>
+            <l n="589" xml:id="l589" part="I">Et pourquoiÂ ?</l>
+          </sp>
+          <sp who="NICANDRE" xml:id="II07-5">
+            <speaker>NICANDRE</speaker>
+            <l n="589" part="F">Nous allons perdre cette beautÃ©.</l>
+            <l n="590" xml:id="l590">Câ€™est pour elle quâ€™ici le roi sâ€™est transportÃ©Â :</l>
+            <l n="591" xml:id="l591">Avec un grand seigneur on dit quâ€™il la marie.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II07-6">
+            <speaker>MYRTIL</speaker>
+            <l n="592" xml:id="l592">Ã” cielÂ ! Expliquez-moi ce discours, je vous prie.</l>
+          </sp>
+          <sp who="NICANDRE" xml:id="II07-7">
+            <speaker>NICANDRE</speaker>
+            <l n="593" xml:id="l593">Ce sont des incidents grands et mystÃ©rieux.</l>
+            <l n="594" xml:id="l594">Oui, le roi vient chercher MÃ©licerte en ces lieuxÂ ;</l>
+            <l n="595" xml:id="l595">Et lâ€™on dit quâ€™autrefois feu BÃ©lise, sa mÃ¨re,</l>
+            <l n="596" xml:id="l596">Dont tout TempÃ© croyait que Mopse Ã©tait le frÃ¨re...</l>
+            <l n="597" xml:id="l597">Mais je me suis chargÃ© de la chercher partoutÂ :</l>
+            <l n="598" xml:id="l598">Vous saurez tout cela tantÃ´t, de bout en bout.</l>
+          </sp>
+          <sp who="MYRTIL" xml:id="II07-8">
+            <speaker>MYRTIL</speaker>
+            <l n="599" xml:id="l599">Ah, dieuxÂ ! Quelle rigueurÂ ! HÃ©Â ! Nicandre, NicandreÂ !</l>
+          </sp>
+          <sp who="ACANTE" xml:id="II07-9">
+            <speaker>ACANTE</speaker>
+            <l n="600" xml:id="l600">Suivons aussi ses pas, afin de tout apprendre.</l>
+          </sp>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

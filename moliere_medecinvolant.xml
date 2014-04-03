@@ -1,898 +1,1056 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
-<TEI.2 xmlns="http://www.tei-c.org/ns/1.0">
-<teiHeader>
-		<fileDesc>
-			<titleStmt>
-				<title>LE MÉDECIN VOLANT, COMÉDIE</title>
-			<author born='1622' born_location='Paris' death='1673' death_location='Paris' academie=''>MOLIÈRE</author>
-				<date>1660</date>
-			</titleStmt>
-			<publicationStmp>	
-				<p>publié par Paul FIEVRE, Avril 2009</p>
-			</publicationStmp>
-			<SourceDesc>
-				<genre>Farce</genre>
-				<inspiration>moeurs françaises</inspiration>
-				<structure>Un acte</structure>
-				<type>prose</type>
-				<periode>1651-1660</periode>
-				<taille>(mesure non pertinente)</taille>
-				<permalien></permalien>
-				<sources>
-					<source id="1"><author/><text/></source>
-				</sources>	
-
-			</SourceDesc>
-		</fileDesc>
-</teiHeader>
-<text>
-	<front>
-		<docTitle>
-			<titlePart type="main">LE MÉDECIN VOLANT</titlePart>
-			<titlePart type="sub">COMÉDIE</titlePart>
-		</docTitle> 
-		<docDate value="1660">1660</docDate>
-		<docAuthor id="MOLIERE" bio='moliere'>MOLIÈRE</docAuthor>
-		<docImprint>
-			<privilege id="166*-**-**"></privilege>
-			<acheveImprime id="166*-**-**"></acheveImprime>
-		</docImprint>
-		<performance>
-			<premiere date="1660-10-01" location='Théâtre du Petit-Bourbon'>Représentée pour le première fois à Paris le 1 octobre 1660 au Théâtre du Petit-Bourbon.</premiere>
-		</performance>
-	<castList><head>ACTEURS</head>
-	<castItem><role id="VALERE" civil='M' type="H" statut='bourgeois' age='A' stat_amour='amoureux'>VALÈRE</role>, amant de Lucile.</castItem>
-	<castItem><role id="SABINE" civil='F' type="H" statut='bourgeois' age='A' stat_amour='néant'>SABINE</role>, cousine de Lucile.</castItem>
-	<castItem><role id="SGANARELLE" civil='M' type="H" statut='valet' age='A' stat_amour='néant'>SGANARELLE</role>, valet de Valère.</castItem>
-	<castItem><role id="GORGIBUS" civil='M' type="H" statut='bourgeois' age='A' stat_amour='néant'>GORGIBUS</role>, père de Lucile.</castItem>
-	<castItem><role id="GROS-RENE" civil='M' type="H" statut='valet' age='A' stat_amour='néant'>GROS-RENÉ</role>, valet de Gorgibus.</castItem>
-	<castItem><role id="LUCILE" civil='F' type="H" statut='bourgeois' age='A' stat_amour='amoureux'>LUCILE</role>, fille de Gorgibus.</castItem>
-	<castItem><role id="AVOCAT" civil='M' type="H" statut='avocat' age='A' stat_amour='néant'>UN AVOCAT</role>.</castItem>
-	</castList>
-		<set location='(non indiqué)' country='France' periode='XVIIème' link=''>(Le Lieu de l'action est non indiqué).</set>
-	</front>
-<body>
-<div1 type='acte' n='1'><head></head>
-<div2 type='scene' n='1'><head>SCÈNE I. Valère, Sabine.</head>
-<sp who='VALERE'><speaker>VALÈRE </speaker>
-<p id='1'>
-	<s id='1'>Hé bien ! </s>
-	<s id='2'>Sabine, quel conseil me donneras-tu ? </s>
-</p>
-</sp>
-<sp who='SABINE'><speaker>SABINE </speaker>
-<p id='2'>
-	<s id='1'>Vraiment, il y a bien des nouvelles. </s>
-	<s id='2'>Mon oncle veut résolument que ma cousine épouse Villebrequin, et les affaires sont tellement avancées que je crois qu'ils eussent été mariés dès aujourd'hui, si vous n'étiez aimé ; mais comme ma cousine m'a confié le secret de l'amour qu'elle vous porte, et que nous nous sommes vues à l'extrémité par l'avarice de mon vilain oncle, nous nous sommes avisées d'une bonne invention pour différer le mariage. </s>
-	<s id='3'>C'est que ma cousine, dès l'heure que je vous parle, contrefait la malade ; et le bon vieillard, qui est assez crédule, m'envoie quérir un médecin. </s>
-	<s id='4'>Si vous en pouviez envoyer quelqu'un qui fût de vos bons amis, et qui fût de notre intelligence, il conseillerait à la malade de prendre l'air à la campagne. </s>
-	<s id='5'>Le bonhomme ne manquera pas de faire loger ma cousine à ce pavillon qui est au bout de notre jardin, et par ce moyen vous pourriez l'entretenir à l'insu de notre vieillard, l'épouser, et le laisser pester tout son soûl avec Villebrequin. </s>
-</p>
-</sp>
-<sp who='VALERE'><speaker>VALÈRE </speaker>
-<p id='3'>
-	<s id='1'>Mais le moyen de trouver sitôt un médecin à ma poste, et qui voulût tant hasarder pour mon service ? </s>
-	<s id='2'>Je te le dis franchement, je n'en connais pas un. </s>
-</p>
-</sp>
-<sp who='SABINE'><speaker>SABINE </speaker>
-<p id='4'>
-	<s id='1'>Je songe une chose : si vous faisiez habiller votre valet en médecin ? </s>
-	<s id='2'>Il n'y a rien de si facile à duper que le bonhomme. </s>
-</p>
-</sp>
-<sp who='VALERE'><speaker>VALÈRE </speaker>
-<p id='5'>
-	<s id='1'>C'est un lourdaud qui gâtera tout ; mais il faut s'en servir faute d'autre. </s>
-	<s id='2'>Adieu, je le vais chercher. </s>
-	<s id='3'>Où diable trouver ce maroufle à présent ? </s>
-	<s id='4'>Mais le voici tout à propos. </s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='2'><head>SCÈNE II. Valère, Sganarelle.</head>
-<sp who='SABINE'><speaker>SABINE </speaker>
-<p id='1'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Mon pauvre Sganarelle, que j'ai de joie de te voir ! </s>
-	<s id='3'>J'ai besoin de toi dans une affaire de conséquence ; mais, comme que je ne sais pas ce que tu sais faire...</s>
-</p> 
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='2'>
-	<s id='1'>Ce que je sais faire, Monsieur ? </s>
-	<s id='2'>Employez-moi seulement en vos affaires de conséquence, en quelque chose d'importance : par exemple, envoyez-moi voir quelle heure il est à une horloge, voir combien le beurre vaut au marché, abreuver un cheval ; c'est alors que vous connaîtrez ce que je sais faire. </s>
-</p>
-</sp>
-<sp who='VALERE'><speaker>VALÈRE </speaker>
-<p id='3'>
-	<s id='1'>Ce n'est pas cela : c'est qu'il faut que tu contrefasses le médecin. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='4'>
-	<s id='1'>Moi, médecin, Monsieur ! </s>
-	<s id='2'>Je suis prêt à faire tout ce qu'il vous plaira ; mais pour faire le médecin, je suis assez votre serviteur pour n'en rien faire du tout ; et par quel bout m'y prendre, bon Dieu ? </s>
-	<s id='3'>Ma foi ! </s>
-	<s id='4'>Monsieur, vous vous moquez de moi. </s>
-</p>
-</sp>
-<sp who='VALERE'><speaker>VALÈRE </speaker>
-<p id='5'>
-	<s id='1'>Si tu veux entreprendre cela, va, je te donnerai dix pistoles. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='6'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Pour dix pistoles, je ne dis pas que je ne sois médecin ; car, voyez-vous bien, Monsieur ? </s>
-	<s id='3'>Je n'ai pas l'esprit tant, tant subtil, pour vous dire la vérité ; mais, quand je serai médecin, où irai-je ? </s>
-</p>
-</sp>
-<sp who='VALERE'><speaker>VALÈRE </speaker>
-<p id='7'>
-	<s id='1'>Chez le bonhomme Gorgibus, voir sa fille, qui est malade ; mais tu es un lourdaud qui, au lieu de bien faire, pourrais bien... </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='8'>
-	<s id='1'>Hé ! </s>
-	<s id='2'>Mon Dieu, Monsieur, ne soyez point en peine ; je vous réponds que je ferai aussi bien mourir une personne qu'aucun médecin qui soit dans la ville. </s>
-	<s id='3'>On dit un proverbe, d'ordinaire : Après la mort le médecin ; mais vous verrez que, si je m'en mêle, on dira : Après le médecin, gare la mort ! </s>
-	<s id='4'>Mais néanmoins, quand je songe, cela est bien difficile de faire le médecin ; et si je ne fais rien qui vaille... ? </s>
-</p>
-</sp>
-<sp who='VALERE'><speaker>VALÈRE </speaker>
-<p id='9'>
-	<s id='1'>Il n'y a rien de si facile en cette rencontre : Gorgibus est un homme simple, grossier, qui se laissera étourdir de ton discours, pourvu que tu parles d'Hippocrate et de Galien, et que tu sois un peu effronté. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='10'>
-	<s id='1'>C'est-à-dire qu'il lui faudra parler philosophie, mathématique. </s>
-	<s id='2'>Laissez-moi faire ; s'il est un homme facile, comme vous le dites, je vous réponds de tout ; venez seulement me faire avoir un habit de médecin, et m'instruire de ce qu'il faut faire, et me donner mes licences, qui sont les dix pistoles promises. </s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='3'><head>SCÈNE III. Gorgibus, Gros-René.</head>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='1'>
-	<s id='1'>Allez vitement chercher un médecin ; car ma fille est bien malade, et dépêchez-vous. </s>
-</p>
-</sp>
-<sp who='GROS-RENE'><speaker>GROS-RENÉ </speaker>
-<p id='2'>
-	<s id='1'>Que diable aussi ! </s>
-	<s id='2'>Pourquoi vouloir donner votre fille à un vieillard ? </s>
-	<s id='3'>Croyez-vous que ce ne soit pas le désir qu'elle a d'avoir un jeune homme qui la travaille ? </s>
-	<s id='4'>Voyez-vous la connexité qu'il y a, etc.</s>
-<stage>Galimatias</stage>
-</p> 
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='3'>
-	<s id='1'>Va-t'en vite : je vois bien que cette maladie-là reculera bien les noces. </s>
-</p>
-</sp>
-<sp who='GROS-RENE'><speaker>GROS-RENÉ </speaker>
-<p id='4'>
-	<s id='1'>Et c'est ce qui me fait enrager : je croyais refaire mon ventre d'une bonne carrelure, et m'en voilà sevré. </s>
-	<s id='2'>Je m'en vais chercher un médecin pour moi aussi bien que pour votre fille ; je suis désespéré. </s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='4'><head>SCÈNE IV. Sabine, Gorgibus, Sganarelle.</head>
-<sp who='SABINE'><speaker>SABINE </speaker>
-<p id='1'>
-	<s id='1'>Je vous trouve à propos, mon oncle, pour vous apprendre une bonne nouvelle. </s>
-	<s id='2'>Je vous amène le plus habile médecin du monde, un homme qui vient des pays étrangers, qui sait les plus beaux secrets, et qui sans doute guérira ma cousine. </s>
-	<s id='3'>On me l'a indiqué par bonheur, et je vous l'amène. </s>
-	<s id='4'>Il est si savant que je voudrais de bon coeur être malade, afin qu'il me guérît. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='2'>
-	<s id='1'>Où est-il donc ? </s>
-</p>
-</sp>
-<sp who='SABINE'><speaker>SABINE </speaker>
-<p id='3'>
-	<s id='1'>Le voilà qui me suit ; tenez, le voilà. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='4'>
-	<s id='1'>Très humble serviteur à Monsieur le médecin ! </s>
-	<s id='2'>Je vous envoie quérir pour voir ma fille, qui est malade ; je mets toute mon espérance en vous. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='5'>
-	<s id='1'>Hippocrate dit, et Galien par vives raisons persuade qu'une personne ne se porte pas bien quand elle est malade. </s>
-	<s id='2'>Vous avez raison de mettre votre espérance en moi ; car je suis le plus grand, le plus habile, le plus docte médecin qui soit dans la faculté végétale, sensitive et minérale. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='6'>
-	<s id='1'>J'en suis fort ravi. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='7'>
-	<s id='1'>Ne vous imaginez pas que je sois un médecin ordinaire, un médecin du commun.</s>
-	<s id='2'> Tous les autres médecins ne sont, à mon égard, que des avortons de médecine.</s>
-	<s id='3'> J'ai des talents particuliers, j'ai des secrets. Salamalec, salamalec. </s>
-	<s id='4'>"Rodrigue, as-tu du coeur ?" </s>
-<note type="C">Citation du Cid de Pierre Corneille (1637) , acte I, scène 5, v.261 .</note>
-	<s id='5'>Signor, si ; segnor, non. </s>
-	<s id='6'>Per omnia saecula saeculorum. </s>
-	<s id='7'>Mais encore voyons un peu. </s>
-</p>
-</sp>
-<sp who='SABINE'><speaker>SABINE </speaker>
-<p id='8'>
-	<s id='1'>Hé ! </s>
-	<s id='2'>Ce n'est pas lui qui est malade, c'est sa fille. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='9'>
-	<s id='1'>Il n'importe : le sang du père et de la fille ne sont qu'une même chose ; et par l'altération de celui du père, je puis connaître la maladie de la fille. </s>
-	<s id='2'>Monsieur Gorgibus, y aurait-il moyen de voir de l'urine de l'égrotante ? </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='10'>
-	<s id='1'>Oui-da ; Sabine, vite allez quérir de l'urine de ma fille. </s>
-	<s id='2'>Monsieur le médecin, j'ai grand'peur qu'elle ne meure. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='11'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Qu'elle s'en garde bien ! </s>
-	<s id='3'>Il ne faut pas qu'elle s'amuse à se laisser mourir sans l'ordonnance du médecin. </s>
-	<s id='4'>Voilà de l'urine qui marque grande chaleur, grande inflammation dans les intestins : elle n'est pas tant mauvaise pourtant. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='12'>
-	<s id='1'>Hé quoi ? </s>
-	<s id='2'>Monsieur, vous l'avalez ? </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='13'>
-	<s id='1'>Ne vous étonnez pas de cela ; les médecins, d'ordinaire, se contentent de la regarder ; mais moi, qui suis un médecin hors du commun, je l'avale, parce qu'avec le goût je discerne bien mieux la cause et les suites de la maladie. </s>
-	<s id='2'>Mais, à vous dire la vérité, il y en avait trop peu pour asseoir un bon jugement : qu'on la fasse encore pisser. </s>
-</p>
-</sp>
-<sp who='SABINE'><speaker>SABINE </speaker>
-<p id='14'>
-	<s id='1'>J'ai bien eu de la peine à la faire pisser. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='15'>
-	<s id='1'>Que cela ? </s>
-	<s id='2'>Voilà bien de quoi ! </s>
-	<s id='3'>Faites-la pisser copieusement, copieusement. </s>
-	<s id='4'>Si tous les malades pissent de la sorte, je veux être médecin toute ma vie. </s>
-</p>
-</sp>
-<sp who='SABINE'><speaker>SABINE </speaker>
-<p id='16'>
-	<s id='1'>Voilà tout ce qu'on peut avoir : elle ne peut pas pisser davantage. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='17'>
-	<s id='1'>Quoi ? </s>
-	<s id='2'>Monsieur Gorgibus, votre fille ne pisse que des gouttes ! </s>
-	<s id='3'>Voilà une pauvre pisseuse que votre fille ; je vois bien qu'il faudra que je lui ordonne une potion pissative. </s>
-	<s id='4'>N'y aurait-il pas moyen de voir la malade ? </s>
-</p>
-</sp>
-<sp who='SABINE'><speaker>SABINE </speaker>
-<p id='18'>
-	<s id='1'>Elle est levée ; si vous voulez, je la ferai venir. </s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='5'><head>SCÈNE V. Lucile, Sabine, Gorgibus, Sganarelle.</head>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='1'>
-	<s id='1'>Hé bien ! </s>
-	<s id='2'>Mademoiselle, vous êtes malade ? </s>
-</p>
-</sp>
-<sp who='LUCILE'><speaker>LUCILE </speaker>
-<p id='2'>
-	<s id='1'>Oui, Monsieur. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='3'>
-	<s id='1'>Tant pis ! </s>
-	<s id='2'>C'est une marque que vous ne vous portez pas bien. </s>
-	<s id='3'>Sentez-vous de grandes douleurs à la tête, aux reins ? </s>
-</p>
-</sp>
-<sp who='LUCILE'><speaker>LUCILE </speaker>
-<p id='4'>
-	<s id='1'>Oui, Monsieur. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='5'>
-	<s id='1'>C'est fort bien fait. </s>
-	<s id='2'>Oui, ce grand médecin, au chapitre qu'il a fait de la nature des animaux, dit... cent belles choses ; et comme les humeurs qui ont de la connexité ont beaucoup de rapport ; car, par exemple, comme la mélancolie est ennemie de la joie, et que la bile qui se répand par le corps nous fait devenir jaunes, et qu'il n'est rien plus contraire à la santé que la maladie, nous pouvons dire, avec ce grand homme, que votre fille est fort malade. </s>
-	<s id='3'>Il faut que je vous fasse une ordonnance. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='6'>
-	<s id='1'>Vite une table, du papier, de l'encre. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='7'>
-	<s id='1'>Y a-t-il ici quelqu'un qui sache écrire ? </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='8'>
-	<s id='1'>Est-ce que vous ne le savez point ? </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='9'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Je ne m'en souvenais pas ; j'ai tant d'affaires dans la tête, que j'oublie la moitié...</s>
-	<s id='3'> - Je crois qu'il serait nécessaire que votre fille prît un peu l'air, qu'elle se divertît à la campagne. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='10'>
-	<s id='1'>Nous avons un fort beau jardin, et quelques chambres qui y répondent ; si vous le trouvez à propos, je l'y ferai loger. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='11'>
-	<s id='1'>Allons, allons visiter les lieux. </s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='6'><head>SCÈNE VI.</head>
-<sp who='AVOCAT'><speaker>L'AVOCAT </speaker>
-<p id='1'>
-	<s id='1'>J'ai ouï dire que la fille de M. Gorgibus était malade : il faut que je m'informe de sa santé, et que je lui offre mes services comme ami de toute sa famille. </s>
-	<s id='2'>Holà ! </s>
-	<s id='3'>Holà ! </s>
-	<s id='4'>M. Gorgibus y est-il ? </s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='7'><head>SCÈNE VII. Gorgibus, L'Avocat.</head>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='1'>
-	<s id='1'>Monsieur, votre très humble, etc. </s>
-</p>
-</sp>
-<sp who='AVOCAT'><speaker>L'AVOCAT </speaker>
-<p id='2'>
-	<s id='1'>Ayant appris la maladie de Mademoiselle votre fille, je vous suis venu témoigner la part que j'y prends, et vous faire offre de tout ce qui dépend de moi. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='3'>
-	<s id='1'>J'étais là dedans avec le plus savant homme. </s>
-</p>
-</sp>
-<sp who='AVOCAT'><speaker>L'AVOCAT </speaker>
-<p id='4'>
-	<s id='1'>N'y aurait-il pas moyen de l'entretenir un moment ? </s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='8'><head>SCÈNE VIII. Gorgibus, L'Avocat, Sganarelle.</head>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='1'>
-	<s id='1'>Monsieur, voilà un fort habile homme de mes amis qui souhaiterait de vous parler et vous entretenir. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='2'>
-	<s id='1'>Je n'ai pas le loisir, monsieur Gorgibus : il faut aller à mes malades. </s>
-	<s id='2'>Je ne prendrai pas la droite avec vous, Monsieur. </s>
-</p>
-</sp>
-<sp who='AVOCAT'><speaker>L'AVOCAT </speaker>
-<p id='3'>
-	<s id='1'>Monsieur, après ce que m'a dit M. Gorgibus de votre mérite et de votre savoir, j'ai eu la plus grande passion du monde d'avoir l'honneur de votre connaissance, et j'ai pris la liberté de vous saluer à ce dessein : je crois que vous ne le trouverez pas mauvais. </s>
-	<s id='2'>Il faut avouer que tous ceux qui excellent en quelque science sont dignes de grande louange, et particulièrement ceux qui font profession de la médecine, tant à cause de son utilité, que parce qu'elle contient en elle plusieurs autres sciences, ce qui rend sa parfaite connaissance fort difficile ; et c'est fort à propos qu'Hippocrate dit dans son premier aphorisme : Vita brevis, ars vero longa, occasio autem praeceps, experimentum periculosum, judicium difficile. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE, à Gorgibus. </speaker>
-<p id='4'>
-	<s id='1'>Ficile tantina pota baril cambustibus. </s>
-</p>
-</sp>
-<sp who='AVOCAT'><speaker>L'AVOCAT </speaker>
-<p id='5'>
-	<s id='1'>Vous n'êtes pas de ces médecins qui ne vous appliquez qu'à la médecine qu'on appelle rationale ou dogmatique, et je crois que vous l'exercez tous les jours avec beaucoup de succès : experientia magistra rerum. </s>
-	<s id='2'>Les premiers hommes qui firent profession de la médecine furent tellement estimés d'avoir cette belle science, qu'on les mit au nombre des Dieux pour les belles cures qu'ils faisaient tous les jours. </s>
-	<s id='3'>Ce n'est pas qu'on doive mépriser un médecin qui n'aurait pas rendu la santé à son malade, parce qu'elle ne dépend pas absolument de ses remèdes, ni de son savoir : Interdum docta plus valet arte malum. </s>
-	<s id='4'>Monsieur, j'ai peur de vous être importun : je prends congé de vous, dans l'espérance que j'ai qu'à la première vue j'aurai l'honneur de converser avec vous avec plus de loisir. </s>
-	<s id='5'>Vos heures vous sont précieuses, etc. </s>
-</p>
-<stage>Il sort.</stage> 
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='6'>
-	<s id='1'>Que vous semble de cet homme-là ? </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='7'>
-	<s id='1'>Il sait quelque petite chose. </s>
-	<s id='2'>S'il fût demeuré tant soit peu davantage, je l'allais mettre sur une matière sublime et relevée. </s>
-	<s id='3'>Cependant, je prends congé de vous. </s>
-</p>
-<stage>Gorgibus lui donne de l'argent.</stage>
-<p id='8'>
-	<s id='1'> Hé ! que voulez-vous faire ? </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='9'>
-	<s id='1'>Je sais bien ce que je vous dois. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='10'>
-	<s id='1'>Vous vous moquez, monsieur Gorgibus. </s>
-	<s id='2'>Je n'en prendrai pas, je ne suis pas un homme mercenaire. </s>
-</p>
-<stage>Il prend l'argent.</stage>
-<p id='11'>
-	<s id='1'>Votre très humble serviteur.</s>
-</p>
-<stage>Sganarelle sort et Gorgibus rentre dans sa maison.</stage>
-</sp>
-</div2>
-<div2 type='scene' n='9'><head>SCÈNE IX.</head>
-<sp who='VALERE'><speaker>VALÈRE </speaker>
-<p id='1'>
-	<s id='1'>Je ne sais ce qu'aura fait Sganarelle : je n'ai point eu de ses nouvelles, et je suis fort en peine où je le pourrois rencontrer.</s>
-</p>
-<stage>Sganarelle revient en habit de valet.</stage>
-<p id='2'>
-	<s id='1'>Mais bon, le voici. </s>
-	<s id='2'>Hé bien ! </s>
-	<s id='3'>Sganarelle, qu'as-tu fait depuis que je ne t'ai point vu ? </s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='10'><head>SCÈNE X. Sganarelle, Valère.</head>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='1'>
-	<s id='1'>Merveille sur merveille : j'ai si bien fait que Gorgibus me prend pour un habile médecin. </s>
-	<s id='2'>Je me suis introduit chez lui, et lui ai conseillé de faire prendre l'air à sa fille, laquelle est à présent dans un appartement qui est au bout de leur jardin, tellement qu'elle est fort éloignée du vieillard, et que vous pouvez l'aller voir commodément. </s>
-</p>
-</sp>
-<sp who='VALERE'><speaker>VALÈRE </speaker>
-<p id='2'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Que tu me donnes de joie ! </s>
-	<s id='3'>Sans perdre de temps, je la vais trouver de ce pas. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='3'>
-	<s id='1'>Il faut avouer que ce bonhomme Gorgibus est un vrai lourdaud de se laisser tromper de la sorte. </s>
-</p>
-<stage>Apercevant Gorgibus.</stage>
-<p id='4'>
-	<s id='1'>Ah ! ma foi, tout est perdu : c'est à ce coup que voilà la médecine renversée, mais il faut que je le trompe. </s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='11'><head>SCÈNE XI. Sganarelle, Gorgibus.</head>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='1'>
-	<s id='1'>Bonjour, Monsieur. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='2'>
-	<s id='1'>Monsieur, votre serviteur. </s>
-	<s id='2'>Vous voyez un pauvre garçon au désespoir ; ne connaissez-vous pas un médecin qui est arrivé depuis peu en cette ville, qui fait des cures admirables ? </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='3'>
-	<s id='1'>Oui, je le connais : il vient de sortir de chez moi. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='4'>
-	<s id='1'>Je suis son frère, monsieur ; nous sommes gémeaux ; et comme nous nous ressemblons fort, on nous prend quelquefois l'un pour l'autre. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='5'>
-	<s id='1'>Je me dédonne au diable si je n'y ai été trompé. </s>
-	<s id='2'>Et comme vous nommez-vous ? </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='6'>
-	<s id='1'>Narcisse, Monsieur, pour vous rendre service. </s>
-	<s id='2'>Il faut que vous sachiez qu'étant dans son cabinet, j'ai répandu deux fioles d'essence qui étaient sur le bout de sa table ; aussitôt il s'est mis dans une colère si étrange contre moi, qu'il m'a mis hors du logis, et ne me veut plus jamais voir, tellement que je suis un pauvre garçon à présent sans appui, sans support, sans aucune connaissance. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='7'>
-	<s id='1'>Allez, je ferai votre paix : je suis de ses amis, et je vous promets de vous remettre avec lui. </s>
-	<s id='2'>Je lui parlerai d'abord que je le verrai. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='8'>
-	<s id='1'>Je vous serai bien obligé, monsieur Gorgibus.</s>
-</p>
-<stage>Sganarelle sort et rentre aussitôt avec sa robe de médecin.</stage>
-</sp>
-</div2>
-<div2 type='scene' n='12'><head>SCÈNE XII. Sganarelle, Gorgibus.</head>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='1'>
-	<s id='1'>Il faut avouer que, quand les malades ne veulent pas suivre l'avis du médecin, et qu'ils s'abandonnent à la débauche que... </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='2'>
-	<s id='1'>Monsieur le Médecin, votre très humble serviteur. </s>
-	<s id='2'>Je vous demande une grâce. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='3'>
-	<s id='1'>Qu'y a-t-il, Monsieur ? </s>
-	<s id='2'>Est-il question de vous rendre service ? </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='4'>
-	<s id='1'>Monsieur, je viens de rencontrer Monsieur votre frère, qui est tout à fait fâché de... </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='5'>
-	<s id='1'>C'est un coquin, monsieur Gorgibus. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='6'>
-	<s id='1'>Je vous réponds qu'il est tellement contrit de vous avoir mis en colère... </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='7'>
-	<s id='1'>C'est un ivrogne, monsieur Gorgibus. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='8'>
-	<s id='1'>Hé ! </s>
-	<s id='2'>Monsieur, vous voulez désespérer ce pauvre garçon ? </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='9'>
-	<s id='1'>Qu'on ne m'en parle plus ; mais voyez l'impudence de ce coquin-là, de vous aller trouver pour faire son accord ; je vous prie de ne m'en pas parler. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='10'>
-	<s id='1'>Au nom de Dieu, Monsieur le Médecin ! </s>
-	<s id='2'>Et faites cela pour l'amour de moi. </s>
-	<s id='3'>Si je suis capable de vous obliger en autre chose, je le ferai de bon coeur. </s>
-	<s id='4'>Je m'y suis engagé, et... </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='11'>
-	<s id='1'>Vous m'en priez avec tant d'insistance que, quoique j'eusse fait serment de ne lui pardonner jamais, allez, touchez là : je lui pardonne. </s>
-	<s id='2'>Je vous assure que je me fais grande violence, et qu'il faut que j'aie bien de la complaisance pour vous. </s>
-	<s id='3'>Adieu, monsieur Gorgibus. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='12'>
-	<s id='1'>Monsieur, votre très humble serviteur ; je m'en vais chercher ce pauvre garçon pour lui apprendre cette bonne nouvelle. </s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='13'><head>SCÈNE XIII. Valère, Sganarelle.</head>
-<sp who='VALERE'><speaker>VALÈRE </speaker>
-<p id='1'>
-	<s id='1'>Il faut que j'avoue que je n'eusse jamais cru que Sganarelle se fût si bien acquitté de son devoir.</s>
-</p>
-<stage>Sganarelle rentre avec ses habits de valet.</stage>
-<p id='2'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Mon pauvre garçon, que je t'ai d'obligation ! </s>
-	<s id='3'>Que j'ai de joie ! </s>
-	<s id='4'>Et que... </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='3'>
-	<s id='1'>Ma foi, vous parlez fort à votre aise. </s>
-	<s id='2'>Gorgibus m'a rencontré ; et sans une invention que j'ai trouvée, toute la mèche était découverte. </s>
-	<s id='3'>Mais fuyez-vous-en, le voici. </s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='14'><head>SCÈNE XIV. Gorgibus, Sganarelle.</head>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='1'>
-	<s id='1'>Je vous cherchais partout pour vous dire que j'ai parlé à votre frère : il m'a assuré qu'il vous pardonnait ; mais, pour en être plus assuré, je veux qu'il vous embrasse en ma présence ; entrez dans mon logis, et je l'irai chercher. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='2'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Monsieur Gorgibus, je ne crois pas que vous le trouviez à présent ; et puis je ne resterai pas chez vous ; je crains trop sa colère. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='3'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Vous demeurerez, car je vous enfermerai. </s>
-	<s id='3'>Je m'en vais à présent chercher votre frère : ne craignez rien, je vous réponds qu'il n'est plus fâché. </s>
-</p>
-<stage>Il sort.</stage>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE, de la fenêtre. </speaker>
-<p id='4'>
-	<s id='1'>Ma foi, me voilà attrapé ce coup-là ; il n'y a plus moyen de m'en échapper. </s>
-	<s id='2'>Le nuage est fort épais, et j'ai bien peur que, s'il vient à crever, il ne grêle sur mon dos force coups de bâton, ou que, par quelque ordonnance plus forte que toutes celles des médecins, on m'applique tout au moins un cautère royal sur les épaules. </s>
-	<s id='3'>Mes affaires vont mal ; mais pourquoi se désespérer ? </s>
-	<s id='4'>Puisque j'ai tant fait, poussons la fourbe jusques au bout. </s>
-	<s id='5'>Oui, oui, il en faut encore sortir, et faire voir que Sganarelle est le roi des fourbes.</s>
-</p>
-<stage>Il saute de la fenêtre et s'en va.</stage>
-</sp>
-</div2>
-<div2 type='scene' n='15'><head>SCÈNE XV. Gros-René, Gorgibus, Sganarelle.</head>
-<sp who='GROS-RENE'><speaker>GROS-RENÉ </speaker>
-<p id='1'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Ma foi, voilà qui est drôle ! </s>
-	<s id='3'>Comme diable on saute ici par les fenêtres ! </s>
-	<s id='4'>Il faut que je demeure ici, et que je voie à quoi tout cela aboutira. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='2'>
-	<s id='1'>Je ne saurais trouver ce médecin ; je ne sais où diable il s'est caché. </s>
-</p>
-<stage>Apercevant Sganarelle qui revient en habit de médecin.) </stage>
-<p id='3'>
-	<s id='1'>Mais le voici. </s>
-	<s id='2'>Monsieur, ce n'est pas assez d'avoir pardonné à votre frère ; je vous prie, pour ma satisfaction, de l'embrasser : il est chez moi, et je vous cherchais partout pour vous prier de faire cet accord en ma présence. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='4'>
-	<s id='1'>Vous vous moquez, monsieur Gorgibus : n'est-ce pas assez que je lui pardonne ? </s>
-	<s id='2'>Je ne le veux jamais voir. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='5'>
-	<s id='1'>Mais, Monsieur, pour l'amour de moi. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='6'>
-	<s id='1'>Je ne vous saurais rien refuser : dites-lui qu'il descende. </s>
-</p>
-<stage>Pendant que Gorgibus rentre dans sa maison par la porte, Sganarelle y rentre par la fenêtre.</stage>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS, à la fenêtre. </speaker>
-<p id='7'>
-	<s id='1'>Voilà votre frère qui vous attend là-bas : il m'a promis qu'il fera tout ce que je voudrai. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE, à la fenêtre. </speaker>
-<p id='8'>
-	<s id='1'>Monsieur Gorgibus, je vous prie de le faire venir ici : je vous conjure que ce soit en particulier que je lui demande pardon, parce que sans doute il me ferait cent hontes et cent opprobres devant tout le monde. </s>
-</p>
-<stage>Gorgibus sort de sa maison par la porte, et Sganarelle par la fenêtre.</stage>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='9'>
-	<s id='1'>Oui-da, je m'en vais lui dire. </s>
-	<s id='2'>Monsieur, il dit qu'il est honteux, et qu'il vous prie d'entrer, afin qu'il vous demande pardon en particulier. </s>
-	<s id='3'>Voilà la clef, vous pouvez entrer ; je vous supplie de ne me pas refuser et de me donner ce contentement. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='10'>
-	<s id='1'>Il n'y a rien que je ne fasse pour votre satisfaction : vous allez entendre de quelle manière je le vais traiter. </s>
-</p>
-<stage>À la fenêtre.</stage> 
-<p id='11'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Te voilà, coquin. </s>
-	<s id='3'>- Monsieur mon frère, je vous demande pardon, je vous promets qu'il n'y a point de ma faute. </s>
-	<s id='4'>- Il n'y a point de ta faute, pilier de débauche, coquin ? </s>
-	<s id='5'>Va, je t'apprendrai à vivre. </s>
-	<s id='6'>Avoir la hardiesse d'importuner M. Gorgibus, de lui rompre la tête de tes sottises !</s>
-	<s id='7'> - Monsieur mon frère... </s>
-	<s id='8'>- Tais-toi, te dis-je. </s>
-	<s id='9'>- Je ne vous désoblig... </s>
-	<s id='10'>- Tais-toi, coquin. </s>
-</p>
-</sp>
-<sp who='GROS-RENE'><speaker>GROS-RENÉ </speaker>
-<p id='12'>
-	<s id='1'>Qui diable pensez-vous qui soit chez vous à présent ? </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='13'>
-	<s id='1'>C'est le médecin et Narcisse son frère ; ils avaient quelque différend, et ils font leur accord. </s>
-</p>
-</sp>
-<sp who='GROS-RENE'><speaker>GROS-RENÉ </speaker>
-<p id='14'>
-	<s id='1'>Le diable emporte ! </s>
-	<s id='2'>Ils ne sont qu'un. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE, à la fenêtre. </speaker>
-<p id='15'>
-	<s id='1'>Ivrogne que tu es, je t'apprendrai à vivre. </s>
-	<s id='2'>Comme il baisse la vue ! </s>
-	<s id='3'>Il voit bien qu'il a failli, le pendard. </s>
-	<s id='4'>Ah ! </s>
-	<s id='5'>L'hypocrite, comme il fait le bon apôtre ! </s>
-</p>
-</sp>
-<sp who='GROS-RENE'><speaker>GROS-RENÉ </speaker>
-<p id='16'>
-	<s id='1'>Monsieur, dites-lui un peu par plaisir qu'il fasse mettre son frère à la fenêtre. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='17'>
-	<s id='1'>Oui-da, Monsieur le Médecin, je vous prie de faire paraître votre frère à la fenêtre. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE, de la fenêtre. </speaker>
-<p id='18'>
-	<s id='1'>Il est indigne de la vue des gens d'honneur, et puis je ne le saurais souffrir auprès de moi. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='19'>
-	<s id='1'>Monsieur, ne me refusez pas cette grâce, après toutes celles que vous m'avez faites. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE, de la fenêtre. </speaker>
-<p id='20'>
-	<s id='1'>En vérité, Monsieur Gorgibus, vous avez un tel pouvoir sur moi que je ne vous puis rien refuser. </s>
-	<s id='2'>Montre, montre-toi, coquin. </s>
-</p>
-<stage>Après avoir disparu un moment, il se remontre en habit de valet.</stage>
-<p id='21'>
-	<s id='1'>- Monsieur Gorgibus, je suis votre obligé.</s>
-</p>
-<stage>Il disparaît encore, et reparaît aussitôt en robe de médecin.</stage>
-<p id='22'>
-	<s id='1'>Hé bien ! </s>
-	<s id='2'>Avez-vous vu cette image de la débauche ? </s>
-</p>
-</sp>
-<sp who='GROS-RENE'><speaker>GROS-RENÉ </speaker>
-<p id='23'>
-	<s id='1'>Ma foi, ils ne sont qu'un, et, pour vous le prouver, dites-lui un peu que vous les voulez voir ensemble. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='24'>
-	<s id='1'>Mais faites-moi la grâce de le faire parAître avec vous, et de l'embrasser devant moi à la fenêtre. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE, de la fenêtre. </speaker>
-<p id='25'>
-	<s id='1'>C'est une chose que je refuserais à tout autre qu'à vous : mais pour vous montrer que je veux tout faire pour l'amour de vous, je m'y résous, quoique avec peine, et veux auparavant qu'il vous demande pardon de toutes les peines qu'il vous a données. </s>
-	<s id='2'>- Oui, Monsieur Gorgibus, je vous demande pardon de vous avoir tant importuné, et vous promets, mon frère, en présence de M. Gorgibus que voilà, de faire si bien désormais, que vous n'aurez plus lieu de vous plaindre, vous priant de ne plus songer à ce qui s'est passé.</s>
-</p>
-<stage>Il embrasse son chapeau et sa fraise qu'il a mis au bout de son coude.</stage>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='26'>
-	<s id='1'>Hé bien ! </s>
-	<s id='2'>Ne les voilà pas tous deux ? </s>
-</p>
-</sp>
-<sp who='GROS-RENE'><speaker>GROS-RENÉ </speaker>
-<p id='27'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Par ma foi, il est sorcier.</s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE, sortant de la maison, en médecin. </speaker>
-<p id='28'>
-	<s id='1'>Monsieur, voilà la clef de votre maison que je vous rends ; je n'ai pas voulu que ce coquin soit descendu avec moi, parce qu'il me fait honte : je ne voudrais pas qu'on le vît en ma compagnie dans la ville, où je suis en quelque réputation. </s>
-	<s id='2'>Vous irez le faire sortir quand bon vous semblera. Je vous donne le bonjour, et suis votre, etc.</s>
-</p>
-<stage>Il feint de s'en aller, et, après avoir mis bas sa robe, rentre dans la maison par la fenêtre.</stage>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='29'>
-	<s id='1'>Il faut que j'aille délivrer ce pauvre garçon ; en vérité, s'il lui a pardonné, ce n'a pas été sans le bien maltraiter.</s>
-</p>
-<stage>Il entre dans sa maison, et en sort avec Sganarelle, en habit de valet.</stage> 
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='30'>
-	<s id='1'>Monsieur, je vous remercie de la peine que vous avez prise et de la bonté que vous avez eue : je vous en serai obligé toute ma vie. </s>
-</p>
-</sp>
-<sp who='GROS-RENE'><speaker>GROS-RENÉ </speaker>
-<p id='31'>
-	<s id='1'>Où pensez-vous que soit à présent le médecin ? </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='32'>
-	<s id='1'>Il s'en est allé. </s>
-</p>
-</sp>
-<sp who='GROS-RENE'><speaker>GROS-RENÉ, qui a ramassé la robe de Sganarelle. </speaker>
-<p id='33'>
-	<s id='1'>Je le tiens sous mon bras. </s>
-	<s id='2'>Voilà le coquin qui faisait le médecin, et qui vous trompe. </s>
-	<s id='3'>Cependant qu'il vous trompe et joue la farce chez vous, Valère et votre fille sont ensemble, qui s'en vont à tous les diables. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='34'>
-	<s id='1'>Ah ! </s>
-	<s id='2'>Que je suis malheureux ! </s>
-	<s id='3'>Mais tu seras pendu, fourbe, coquin. </s>
-</p>
-</sp>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='35'>
-	<s id='1'>Monsieur, qu'allez-vous faire de me pendre  ? </s>
-	<s id='2'>Écoutez un mot, s'il vous plaît : il est vrai que c'est par mon invention que mon maître est avec votre fille ; mais en le servant, je ne vous ai point désobligé : c'est un parti sortable pour elle, tant pour la naissance que pour les biens. </s>
-	<s id='3'>Croyez-moi, ne faites point un vacarme qui tournerait à votre confusion, et envoyez à tous les diables ce coquin-là, avec Villebrequin. </s>
-	<s id='4'>Mais voici nos amants. </s>
-</p>
-</sp>
-</div2>
-<div2 type='scene' n='16'><head>SCÈNE DERNIÈRE. Valère, Lucile, Gorgibus, Sganarelle.</head>
-<sp who='SGANARELLE'><speaker>SGANARELLE </speaker>
-<p id='1'>
-	<s id='1'>Nous nous jetons à vos pieds. </s>
-</p>
-</sp>
-<sp who='GORGIBUS'><speaker>GORGIBUS </speaker>
-<p id='2'>
-	<s id='1'>Je vous pardonne, et suis heureusement trompé par Sganarelle, ayant un si brave gendre. </s>
-	<s id='2'>Allons tous faire noces, et boire à la santé de toute la compagnie. </s>
-</p>
-</sp>
-</div2>
-</div1>
-</body>
-</text>
-</TEI.2>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LE MÃ‰DECIN VOLANT, COMÃ‰DIE</title>
+        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÃˆRE</author>
+        <date>1660</date>
+      </titleStmt>
+      <publicationStmt>
+        <p>publiÃ© par Paul FIEVRE, Avril 2009</p>
+      </publicationStmt>
+      <sourceDesc>
+        <genre>Farce</genre>
+        <inspiration>mÅ“urs franÃ§aises</inspiration>
+        <structure>Un acte</structure>
+        <type>prose</type>
+        <periode>1651-1660</periode>
+        <taille>(mesure non pertinente)</taille>
+        <permalien/>
+        <sources>
+          <source id="1">
+            <author/>
+            <text/>
+          </source>
+        </sources>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">LE MÃ‰DECIN VOLANT</titlePart>
+        <titlePart type="sub">COMÃ‰DIE</titlePart>
+      </docTitle>
+      <docDate value="1660">1660</docDate>
+      <docAuthor id="MOLIERE" bio="moliere">MOLIÃˆRE</docAuthor>
+      <docImprint>
+        <privilege id="166*-**-**"/>
+        <acheveImprime id="166*-**-**"/>
+      </docImprint>
+      <performance>
+        <premiere date="1660-10-01" location="ThÃ©Ã¢tre du Petit-Bourbon">ReprÃ©sentÃ©e pour le premiÃ¨re fois Ã  Paris le 1 octobre 1660 au ThÃ©Ã¢tre du Petit-Bourbon.</premiere>
+      </performance>
+      <castList>
+        <head>ACTEURS</head>
+        <castItem><role xml:id="VALERE" civil="M" type="H" statut="bourgeois" age="A" stat_amour="amoureux">VALÃˆRE</role>, amant de Lucile.</castItem>
+        <castItem><role xml:id="SABINE" civil="F" type="H" statut="bourgeois" age="A" stat_amour="nÃ©ant">SABINE</role>, cousine de Lucile.</castItem>
+        <castItem><role xml:id="SGANARELLE" civil="M" type="H" statut="valet" age="A" stat_amour="nÃ©ant">SGANARELLE</role>, valet de ValÃ¨re.</castItem>
+        <castItem><role xml:id="GORGIBUS" civil="M" type="H" statut="bourgeois" age="A" stat_amour="nÃ©ant">GORGIBUS</role>, pÃ¨re de Lucile.</castItem>
+        <castItem><role xml:id="GROS-RENE" civil="M" type="H" statut="valet" age="A" stat_amour="nÃ©ant">GROS-RENÃ‰</role>, valet de Gorgibus.</castItem>
+        <castItem><role xml:id="LUCILE" civil="F" type="H" statut="bourgeois" age="A" stat_amour="amoureux">LUCILE</role>, fille de Gorgibus.</castItem>
+        <castItem><role xml:id="AVOCAT" civil="M" type="H" statut="avocat" age="A" stat_amour="nÃ©ant">UN AVOCAT</role>.</castItem>
+      </castList>
+      <set location="(non indiquÃ©)" country="France" periode="XVIIÃ¨me" link="">(Le Lieu de lâ€™action est non indiquÃ©).</set>
+    </front>
+    <body>
+      <div1 type="acte" n="1" xml:id="I">
+        <head/>
+        <div2 type="scene" n="1" xml:id="I01">
+          <head>SCÃˆNE I</head>
+          <stage>ValÃ¨re, Sabine.</stage>
+          <sp who="VALERE" xml:id="I01-1">
+            <speaker>VALÃˆRE</speaker>
+            <p>
+              <s>HÃ© bienÂ !</s>
+              <s>Sabine, quel conseil me donneras-tuÂ ?</s>
+            </p>
+          </sp>
+          <sp who="SABINE" xml:id="I01-2">
+            <speaker>SABINE</speaker>
+            <p>
+              <s>Vraiment, il y a bien des nouvelles.</s>
+              <s>Mon oncle veut rÃ©solument que ma cousine Ã©pouse Villebrequin, et les affaires sont tellement avancÃ©es que je crois quâ€™ils eussent Ã©tÃ© mariÃ©s dÃ¨s aujourdâ€™hui, si vous nâ€™Ã©tiez aimÃ©Â ; mais comme ma cousine mâ€™a confiÃ© le secret de lâ€™amour quâ€™elle vous porte, et que nous nous sommes vues Ã  lâ€™extrÃ©mitÃ© par lâ€™avarice de mon vilain oncle, nous nous sommes avisÃ©es dâ€™une bonne invention pour diffÃ©rer le mariage.</s>
+              <s>Câ€™est que ma cousine, dÃ¨s lâ€™heure que je vous parle, contrefait la maladeÂ ; et le bon vieillard, qui est assez crÃ©dule, mâ€™envoie quÃ©rir un mÃ©decin.</s>
+              <s>Si vous en pouviez envoyer quelquâ€™un qui fÃ»t de vos bons amis, et qui fÃ»t de notre intelligence, il conseillerait Ã  la malade de prendre lâ€™air Ã  la campagne.</s>
+              <s>Le bonhomme ne manquera pas de faire loger ma cousine Ã  ce pavillon qui est au bout de notre jardin, et par ce moyen vous pourriez lâ€™entretenir Ã  lâ€™insu de notre vieillard, lâ€™Ã©pouser, et le laisser pester tout son soÃ»l avec Villebrequin.</s>
+            </p>
+          </sp>
+          <sp who="VALERE" xml:id="I01-3">
+            <speaker>VALÃˆRE</speaker>
+            <p>
+              <s>Mais le moyen de trouver sitÃ´t un mÃ©decin Ã  ma poste, et qui voulÃ»t tant hasarder pour mon serviceÂ ?</s>
+              <s>Je te le dis franchement, je nâ€™en connais pas un.</s>
+            </p>
+          </sp>
+          <sp who="SABINE" xml:id="I01-4">
+            <speaker>SABINE</speaker>
+            <p>
+              <s>Je songe une choseÂ : si vous faisiez habiller votre valet en mÃ©decinÂ ?</s>
+              <s>Il nâ€™y a rien de si facile Ã  duper que le bonhomme.</s>
+            </p>
+          </sp>
+          <sp who="VALERE" xml:id="I01-5">
+            <speaker>VALÃˆRE</speaker>
+            <p>
+              <s>Câ€™est un lourdaud qui gÃ¢tera toutÂ ; mais il faut sâ€™en servir faute dâ€™autre.</s>
+              <s>Adieu, je le vais chercher.</s>
+              <s>OÃ¹ diable trouver ce maroufle Ã  prÃ©sentÂ ?</s>
+              <s>Mais le voici tout Ã  propos.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="I02">
+          <head>SCÃˆNE II</head>
+          <stage>ValÃ¨re, Sganarelle.</stage>
+          <sp who="SABINE" xml:id="I02-1">
+            <speaker>SABINE</speaker>
+            <p>
+              <s>AhÂ !</s>
+              <s>Mon pauvre Sganarelle, que jâ€™ai de joie de te voirÂ !</s>
+              <s>Jâ€™ai besoin de toi dans une affaire de consÃ©quenceÂ ; mais, comme que je ne sais pas ce que tu sais faire...</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I02-2">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Ce que je sais faire, MonsieurÂ ?</s>
+              <s>Employez-moi seulement en vos affaires de consÃ©quence, en quelque chose dâ€™importanceÂ : par exemple, envoyez-moi voir quelle heure il est Ã  une horloge, voir combien le beurre vaut au marchÃ©, abreuver un chevalÂ ; câ€™est alors que vous connaÃ®trez ce que je sais faire.</s>
+            </p>
+          </sp>
+          <sp who="VALERE" xml:id="I02-3">
+            <speaker>VALÃˆRE</speaker>
+            <p>
+              <s>Ce nâ€™est pas celaÂ : câ€™est quâ€™il faut que tu contrefasses le mÃ©decin.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I02-4">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Moi, mÃ©decin, MonsieurÂ !</s>
+              <s>Je suis prÃªt Ã  faire tout ce quâ€™il vous plairaÂ ; mais pour faire le mÃ©decin, je suis assez votre serviteur pour nâ€™en rien faire du toutÂ ; et par quel bout mâ€™y prendre, bon DieuÂ ?</s>
+              <s>Ma foiÂ !</s>
+              <s>Monsieur, vous vous moquez de moi.</s>
+            </p>
+          </sp>
+          <sp who="VALERE" xml:id="I02-5">
+            <speaker>VALÃˆRE</speaker>
+            <p>
+              <s>Si tu veux entreprendre cela, va, je te donnerai dix pistoles.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I02-6">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>AhÂ !</s>
+              <s>Pour dix pistoles, je ne dis pas que je ne sois mÃ©decinÂ ; car, voyez-vous bien, MonsieurÂ ?</s>
+              <s>Je nâ€™ai pas lâ€™esprit tant, tant subtil, pour vous dire la vÃ©ritÃ©Â ; mais, quand je serai mÃ©decin, oÃ¹ irai-jeÂ ?</s>
+            </p>
+          </sp>
+          <sp who="VALERE" xml:id="I02-7">
+            <speaker>VALÃˆRE</speaker>
+            <p>
+              <s>Chez le bonhomme Gorgibus, voir sa fille, qui est maladeÂ ; mais tu es un lourdaud qui, au lieu de bien faire, pourrais bien...</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I02-8">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>HÃ©Â !</s>
+              <s>Mon Dieu, Monsieur, ne soyez point en peineÂ ; je vous rÃ©ponds que je ferai aussi bien mourir une personne quâ€™aucun mÃ©decin qui soit dans la ville.</s>
+              <s>On dit un proverbe, dâ€™ordinaireÂ : AprÃ¨s la mort le mÃ©decinÂ ; mais vous verrez que, si je mâ€™en mÃªle, on diraÂ : AprÃ¨s le mÃ©decin, gare la mortÂ !</s>
+              <s>Mais nÃ©anmoins, quand je songe, cela est bien difficile de faire le mÃ©decinÂ ; et si je ne fais rien qui vaille...Â ?</s>
+            </p>
+          </sp>
+          <sp who="VALERE" xml:id="I02-9">
+            <speaker>VALÃˆRE</speaker>
+            <p>
+              <s>Il nâ€™y a rien de si facile en cette rencontreÂ : Gorgibus est un homme simple, grossier, qui se laissera Ã©tourdir de ton discours, pourvu que tu parles dâ€™Hippocrate et de Galien, et que tu sois un peu effrontÃ©.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I02-10">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Câ€™est-Ã -dire quâ€™il lui faudra parler philosophie, mathÃ©matique.</s>
+              <s>Laissez-moi faireÂ ; sâ€™il est un homme facile, comme vous le dites, je vous rÃ©ponds de toutÂ ; venez seulement me faire avoir un habit de mÃ©decin, et mâ€™instruire de ce quâ€™il faut faire, et me donner mes licences, qui sont les dix pistoles promises.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="I03">
+          <head>SCÃˆNE III</head>
+          <stage>Gorgibus, Gros-RenÃ©.</stage>
+          <sp who="GORGIBUS" xml:id="I03-1">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Allez vitement chercher un mÃ©decinÂ ; car ma fille est bien malade, et dÃ©pÃªchez-vous.</s>
+            </p>
+          </sp>
+          <sp who="GROS-RENE" xml:id="I03-2">
+            <speaker>GROS-RENÃ‰</speaker>
+            <p>
+              <s>Que diable aussiÂ !</s>
+              <s>Pourquoi vouloir donner votre fille Ã  un vieillardÂ ?</s>
+              <s>Croyez-vous que ce ne soit pas le dÃ©sir quâ€™elle a dâ€™avoir un jeune homme qui la travailleÂ ?</s>
+              <s>Voyez-vous la connexitÃ© quâ€™il y a, etc.</s>
+              <stage>Galimatias</stage>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I03-3">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Va-tâ€™en viteÂ : je vois bien que cette maladie-lÃ  reculera bien les noces.</s>
+            </p>
+          </sp>
+          <sp who="GROS-RENE" xml:id="I03-4">
+            <speaker>GROS-RENÃ‰</speaker>
+            <p>
+              <s>Et câ€™est ce qui me fait enragerÂ : je croyais refaire mon ventre dâ€™une bonne carrelure, et mâ€™en voilÃ  sevrÃ©.</s>
+              <s>Je mâ€™en vais chercher un mÃ©decin pour moi aussi bien que pour votre filleÂ ; je suis dÃ©sespÃ©rÃ©.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="I04">
+          <head>SCÃˆNE IV</head>
+          <stage>Sabine, Gorgibus, Sganarelle.</stage>
+          <sp who="SABINE" xml:id="I04-1">
+            <speaker>SABINE</speaker>
+            <p>
+              <s>Je vous trouve Ã  propos, mon oncle, pour vous apprendre une bonne nouvelle.</s>
+              <s>Je vous amÃ¨ne le plus habile mÃ©decin du monde, un homme qui vient des pays Ã©trangers, qui sait les plus beaux secrets, et qui sans doute guÃ©rira ma cousine.</s>
+              <s>On me lâ€™a indiquÃ© par bonheur, et je vous lâ€™amÃ¨ne.</s>
+              <s>Il est si savant que je voudrais de bon cÅ“ur Ãªtre malade, afin quâ€™il me guÃ©rÃ®t.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I04-2">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>OÃ¹ est-il doncÂ ?</s>
+            </p>
+          </sp>
+          <sp who="SABINE" xml:id="I04-3">
+            <speaker>SABINE</speaker>
+            <p>
+              <s>Le voilÃ  qui me suitÂ ; tenez, le voilÃ .</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I04-4">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>TrÃ¨s humble serviteur Ã  Monsieur le mÃ©decinÂ !</s>
+              <s>Je vous envoie quÃ©rir pour voir ma fille, qui est maladeÂ ; je mets toute mon espÃ©rance en vous.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I04-5">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Hippocrate dit, et Galien par vives raisons persuade quâ€™une personne ne se porte pas bien quand elle est malade.</s>
+              <s>Vous avez raison de mettre votre espÃ©rance en moiÂ ; car je suis le plus grand, le plus habile, le plus docte mÃ©decin qui soit dans la facultÃ© vÃ©gÃ©tale, sensitive et minÃ©rale.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I04-6">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Jâ€™en suis fort ravi.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I04-7">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Ne vous imaginez pas que je sois un mÃ©decin ordinaire, un mÃ©decin du commun.</s>
+              <s>Tous les autres mÃ©decins ne sont, Ã  mon Ã©gard, que des avortons de mÃ©decine.</s>
+              <s>Jâ€™ai des talents particuliers, jâ€™ai des secrets. Salamalec, salamalec.</s>
+              <s>"Rodrigue, as-tu du cÅ“urÂ ?"</s>
+              <note type="C">Citation du Cid de Pierre Corneille (1637) , acte I, scÃ¨ne 5, v.261 .</note>
+              <s>Signor, siÂ ; segnor, non.</s>
+              <s>Per omnia saecula saeculorum.</s>
+              <s>Mais encore voyons un peu.</s>
+            </p>
+          </sp>
+          <sp who="SABINE" xml:id="I04-8">
+            <speaker>SABINE</speaker>
+            <p>
+              <s>HÃ©Â !</s>
+              <s>Ce nâ€™est pas lui qui est malade, câ€™est sa fille.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I04-9">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Il nâ€™importeÂ : le sang du pÃ¨re et de la fille ne sont quâ€™une mÃªme choseÂ ; et par lâ€™altÃ©ration de celui du pÃ¨re, je puis connaÃ®tre la maladie de la fille.</s>
+              <s>Monsieur Gorgibus, y aurait-il moyen de voir de lâ€™urine de lâ€™Ã©grotanteÂ ?</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I04-10">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Oui-daÂ ; Sabine, vite allez quÃ©rir de lâ€™urine de ma fille.</s>
+              <s>Monsieur le mÃ©decin, jâ€™ai grandâ€™peur quâ€™elle ne meure.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I04-11">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>AhÂ !</s>
+              <s>Quâ€™elle sâ€™en garde bienÂ !</s>
+              <s>Il ne faut pas quâ€™elle sâ€™amuse Ã  se laisser mourir sans lâ€™ordonnance du mÃ©decin.</s>
+              <s>VoilÃ  de lâ€™urine qui marque grande chaleur, grande inflammation dans les intestinsÂ : elle nâ€™est pas tant mauvaise pourtant.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I04-12">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>HÃ© quoiÂ ?</s>
+              <s>Monsieur, vous lâ€™avalezÂ ?</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I04-13">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Ne vous Ã©tonnez pas de celaÂ ; les mÃ©decins, dâ€™ordinaire, se contentent de la regarderÂ ; mais moi, qui suis un mÃ©decin hors du commun, je lâ€™avale, parce quâ€™avec le goÃ»t je discerne bien mieux la cause et les suites de la maladie.</s>
+              <s>Mais, Ã  vous dire la vÃ©ritÃ©, il y en avait trop peu pour asseoir un bon jugementÂ : quâ€™on la fasse encore pisser.</s>
+            </p>
+          </sp>
+          <sp who="SABINE" xml:id="I04-14">
+            <speaker>SABINE</speaker>
+            <p>
+              <s>Jâ€™ai bien eu de la peine Ã  la faire pisser.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I04-15">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Que celaÂ ?</s>
+              <s>VoilÃ  bien de quoiÂ !</s>
+              <s>Faites-la pisser copieusement, copieusement.</s>
+              <s>Si tous les malades pissent de la sorte, je veux Ãªtre mÃ©decin toute ma vie.</s>
+            </p>
+          </sp>
+          <sp who="SABINE" xml:id="I04-16">
+            <speaker>SABINE</speaker>
+            <p>
+              <s>VoilÃ  tout ce quâ€™on peut avoirÂ : elle ne peut pas pisser davantage.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I04-17">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>QuoiÂ ?</s>
+              <s>Monsieur Gorgibus, votre fille ne pisse que des gouttesÂ !</s>
+              <s>VoilÃ  une pauvre pisseuse que votre filleÂ ; je vois bien quâ€™il faudra que je lui ordonne une potion pissative.</s>
+              <s>Nâ€™y aurait-il pas moyen de voir la maladeÂ ?</s>
+            </p>
+          </sp>
+          <sp who="SABINE" xml:id="I04-18">
+            <speaker>SABINE</speaker>
+            <p>
+              <s>Elle est levÃ©eÂ ; si vous voulez, je la ferai venir.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="I05">
+          <head>SCÃˆNE V</head>
+          <stage>Lucile, Sabine, Gorgibus, Sganarelle.</stage>
+          <sp who="SGANARELLE" xml:id="I05-1">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>HÃ© bienÂ !</s>
+              <s>Mademoiselle, vous Ãªtes maladeÂ ?</s>
+            </p>
+          </sp>
+          <sp who="LUCILE" xml:id="I05-2">
+            <speaker>LUCILE</speaker>
+            <p>
+              <s>Oui, Monsieur.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I05-3">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Tant pisÂ !</s>
+              <s>Câ€™est une marque que vous ne vous portez pas bien.</s>
+              <s>Sentez-vous de grandes douleurs Ã  la tÃªte, aux reinsÂ ?</s>
+            </p>
+          </sp>
+          <sp who="LUCILE" xml:id="I05-4">
+            <speaker>LUCILE</speaker>
+            <p>
+              <s>Oui, Monsieur.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I05-5">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Câ€™est fort bien fait.</s>
+              <s>Oui, ce grand mÃ©decin, au chapitre quâ€™il a fait de la nature des animaux, dit... cent belles chosesÂ ; et comme les humeurs qui ont de la connexitÃ© ont beaucoup de rapportÂ ; car, par exemple, comme la mÃ©lancolie est ennemie de la joie, et que la bile qui se rÃ©pand par le corps nous fait devenir jaunes, et quâ€™il nâ€™est rien plus contraire Ã  la santÃ© que la maladie, nous pouvons dire, avec ce grand homme, que votre fille est fort malade.</s>
+              <s>Il faut que je vous fasse une ordonnance.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I05-6">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Vite une table, du papier, de lâ€™encre.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I05-7">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Y a-t-il ici quelquâ€™un qui sache Ã©crireÂ ?</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I05-8">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Est-ce que vous ne le savez pointÂ ?</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I05-9">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>AhÂ !</s>
+              <s>Je ne mâ€™en souvenais pasÂ ; jâ€™ai tant dâ€™affaires dans la tÃªte, que jâ€™oublie la moitiÃ©...</s>
+              <s>- Je crois quâ€™il serait nÃ©cessaire que votre fille prÃ®t un peu lâ€™air, quâ€™elle se divertÃ®t Ã  la campagne.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I05-10">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Nous avons un fort beau jardin, et quelques chambres qui y rÃ©pondentÂ ; si vous le trouvez Ã  propos, je lâ€™y ferai loger.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I05-11">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Allons, allons visiter les lieux.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6" xml:id="I06">
+          <head>SCÃˆNE VI</head>
+          <sp who="AVOCAT" xml:id="I06-1">
+            <speaker>Lâ€™AVOCAT</speaker>
+            <p>
+              <s>Jâ€™ai ouÃ¯ dire que la fille de M. Gorgibus Ã©tait maladeÂ : il faut que je mâ€™informe de sa santÃ©, et que je lui offre mes services comme ami de toute sa famille.</s>
+              <s>HolÃ Â !</s>
+              <s>HolÃ Â !</s>
+              <s>M. Gorgibus y est-ilÂ ?</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="7" xml:id="I07">
+          <head>SCÃˆNE VII</head>
+          <stage>Gorgibus, Lâ€™Avocat.</stage>
+          <sp who="GORGIBUS" xml:id="I07-1">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Monsieur, votre trÃ¨s humble, etc.</s>
+            </p>
+          </sp>
+          <sp who="AVOCAT" xml:id="I07-2">
+            <speaker>Lâ€™AVOCAT</speaker>
+            <p>
+              <s>Ayant appris la maladie de Mademoiselle votre fille, je vous suis venu tÃ©moigner la part que jâ€™y prends, et vous faire offre de tout ce qui dÃ©pend de moi.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I07-3">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Jâ€™Ã©tais lÃ  dedans avec le plus savant homme.</s>
+            </p>
+          </sp>
+          <sp who="AVOCAT" xml:id="I07-4">
+            <speaker>Lâ€™AVOCAT</speaker>
+            <p>
+              <s>Nâ€™y aurait-il pas moyen de lâ€™entretenir un momentÂ ?</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="8" xml:id="I08">
+          <head>SCÃˆNE VIII</head>
+          <stage>Gorgibus, Lâ€™Avocat, Sganarelle.</stage>
+          <sp who="GORGIBUS" xml:id="I08-1">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Monsieur, voilÃ  un fort habile homme de mes amis qui souhaiterait de vous parler et vous entretenir.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I08-2">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Je nâ€™ai pas le loisir, monsieur GorgibusÂ : il faut aller Ã  mes malades.</s>
+              <s>Je ne prendrai pas la droite avec vous, Monsieur.</s>
+            </p>
+          </sp>
+          <sp who="AVOCAT" xml:id="I08-3">
+            <speaker>Lâ€™AVOCAT</speaker>
+            <p>
+              <s>Monsieur, aprÃ¨s ce que mâ€™a dit M. Gorgibus de votre mÃ©rite et de votre savoir, jâ€™ai eu la plus grande passion du monde dâ€™avoir lâ€™honneur de votre connaissance, et jâ€™ai pris la libertÃ© de vous saluer Ã  ce desseinÂ : je crois que vous ne le trouverez pas mauvais.</s>
+              <s>Il faut avouer que tous ceux qui excellent en quelque science sont dignes de grande louange, et particuliÃ¨rement ceux qui font profession de la mÃ©decine, tant Ã  cause de son utilitÃ©, que parce quâ€™elle contient en elle plusieurs autres sciences, ce qui rend sa parfaite connaissance fort difficileÂ ; et câ€™est fort Ã  propos quâ€™Hippocrate dit dans son premier aphorismeÂ : Vita brevis, ars vero longa, occasio autem praeceps, experimentum periculosum, judicium difficile.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I08-4">
+            <speaker>SGANARELLE, Ã  Gorgibus.</speaker>
+            <p>
+              <s>Ficile tantina pota baril cambustibus.</s>
+            </p>
+          </sp>
+          <sp who="AVOCAT" xml:id="I08-5">
+            <speaker>Lâ€™AVOCAT</speaker>
+            <p>
+              <s>Vous nâ€™Ãªtes pas de ces mÃ©decins qui ne vous appliquez quâ€™Ã  la mÃ©decine quâ€™on appelle rationale ou dogmatique, et je crois que vous lâ€™exercez tous les jours avec beaucoup de succÃ¨sÂ : experientia magistra rerum.</s>
+              <s>Les premiers hommes qui firent profession de la mÃ©decine furent tellement estimÃ©s dâ€™avoir cette belle science, quâ€™on les mit au nombre des Dieux pour les belles cures quâ€™ils faisaient tous les jours.</s>
+              <s>Ce nâ€™est pas quâ€™on doive mÃ©priser un mÃ©decin qui nâ€™aurait pas rendu la santÃ© Ã  son malade, parce quâ€™elle ne dÃ©pend pas absolument de ses remÃ¨des, ni de son savoirÂ : Interdum docta plus valet arte malum.</s>
+              <s>Monsieur, jâ€™ai peur de vous Ãªtre importunÂ : je prends congÃ© de vous, dans lâ€™espÃ©rance que jâ€™ai quâ€™Ã  la premiÃ¨re vue jâ€™aurai lâ€™honneur de converser avec vous avec plus de loisir.</s>
+              <s>Vos heures vous sont prÃ©cieuses, etc.</s>
+            </p>
+            <stage>Il sort.</stage>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I08-6">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Que vous semble de cet homme-lÃ Â ?</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I08-7">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Il sait quelque petite chose.</s>
+              <s>Sâ€™il fÃ»t demeurÃ© tant soit peu davantage, je lâ€™allais mettre sur une matiÃ¨re sublime et relevÃ©e.</s>
+              <s>Cependant, je prends congÃ© de vous.</s>
+            </p>
+            <stage>Gorgibus lui donne de lâ€™argent.</stage>
+            <p>
+              <s>HÃ©Â ! que voulez-vous faireÂ ?</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I08-8">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Je sais bien ce que je vous dois.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I08-9">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Vous vous moquez, monsieur Gorgibus.</s>
+              <s>Je nâ€™en prendrai pas, je ne suis pas un homme mercenaire.</s>
+            </p>
+            <stage>Il prend lâ€™argent.</stage>
+            <p>
+              <s>Votre trÃ¨s humble serviteur.</s>
+            </p>
+            <stage>Sganarelle sort et Gorgibus rentre dans sa maison.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="9" xml:id="I09">
+          <head>SCÃˆNE IX</head>
+          <sp who="VALERE" xml:id="I09-1">
+            <speaker>VALÃˆRE</speaker>
+            <p>
+              <s>Je ne sais ce quâ€™aura fait SganarelleÂ : je nâ€™ai point eu de ses nouvelles, et je suis fort en peine oÃ¹ je le pourrois rencontrer.</s>
+            </p>
+            <stage>Sganarelle revient en habit de valet.</stage>
+            <p>
+              <s>Mais bon, le voici.</s>
+              <s>HÃ© bienÂ !</s>
+              <s>Sganarelle, quâ€™as-tu fait depuis que je ne tâ€™ai point vuÂ ?</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="10" xml:id="I10">
+          <head>SCÃˆNE X</head>
+          <stage>Sganarelle, ValÃ¨re.</stage>
+          <sp who="SGANARELLE" xml:id="I10-1">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Merveille sur merveilleÂ : jâ€™ai si bien fait que Gorgibus me prend pour un habile mÃ©decin.</s>
+              <s>Je me suis introduit chez lui, et lui ai conseillÃ© de faire prendre lâ€™air Ã  sa fille, laquelle est Ã  prÃ©sent dans un appartement qui est au bout de leur jardin, tellement quâ€™elle est fort Ã©loignÃ©e du vieillard, et que vous pouvez lâ€™aller voir commodÃ©ment.</s>
+            </p>
+          </sp>
+          <sp who="VALERE" xml:id="I10-2">
+            <speaker>VALÃˆRE</speaker>
+            <p>
+              <s>AhÂ !</s>
+              <s>Que tu me donnes de joieÂ !</s>
+              <s>Sans perdre de temps, je la vais trouver de ce pas.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I10-3">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Il faut avouer que ce bonhomme Gorgibus est un vrai lourdaud de se laisser tromper de la sorte.</s>
+            </p>
+            <stage>Apercevant Gorgibus.</stage>
+            <p>
+              <s>AhÂ ! ma foi, tout est perduÂ : câ€™est Ã  ce coup que voilÃ  la mÃ©decine renversÃ©e, mais il faut que je le trompe.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="11" xml:id="I11">
+          <head>SCÃˆNE XI</head>
+          <stage>Sganarelle, Gorgibus.</stage>
+          <sp who="GORGIBUS" xml:id="I11-1">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Bonjour, Monsieur.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I11-2">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Monsieur, votre serviteur.</s>
+              <s>Vous voyez un pauvre garÃ§on au dÃ©sespoirÂ ; ne connaissez-vous pas un mÃ©decin qui est arrivÃ© depuis peu en cette ville, qui fait des cures admirablesÂ ?</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I11-3">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Oui, je le connaisÂ : il vient de sortir de chez moi.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I11-4">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Je suis son frÃ¨re, monsieurÂ ; nous sommes gÃ©meauxÂ ; et comme nous nous ressemblons fort, on nous prend quelquefois lâ€™un pour lâ€™autre.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I11-5">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Je me dÃ©donne au diable si je nâ€™y ai Ã©tÃ© trompÃ©.</s>
+              <s>Et comme vous nommez-vousÂ ?</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I11-6">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Narcisse, Monsieur, pour vous rendre service.</s>
+              <s>Il faut que vous sachiez quâ€™Ã©tant dans son cabinet, jâ€™ai rÃ©pandu deux fioles dâ€™essence qui Ã©taient sur le bout de sa tableÂ ; aussitÃ´t il sâ€™est mis dans une colÃ¨re si Ã©trange contre moi, quâ€™il mâ€™a mis hors du logis, et ne me veut plus jamais voir, tellement que je suis un pauvre garÃ§on Ã  prÃ©sent sans appui, sans support, sans aucune connaissance.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I11-7">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Allez, je ferai votre paixÂ : je suis de ses amis, et je vous promets de vous remettre avec lui.</s>
+              <s>Je lui parlerai dâ€™abord que je le verrai.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I11-8">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Je vous serai bien obligÃ©, monsieur Gorgibus.</s>
+            </p>
+            <stage>Sganarelle sort et rentre aussitÃ´t avec sa robe de mÃ©decin.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="12" xml:id="I12">
+          <head>SCÃˆNE XII</head>
+          <stage>Sganarelle, Gorgibus.</stage>
+          <sp who="SGANARELLE" xml:id="I12-1">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Il faut avouer que, quand les malades ne veulent pas suivre lâ€™avis du mÃ©decin, et quâ€™ils sâ€™abandonnent Ã  la dÃ©bauche que...</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I12-2">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Monsieur le MÃ©decin, votre trÃ¨s humble serviteur.</s>
+              <s>Je vous demande une grÃ¢ce.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I12-3">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Quâ€™y a-t-il, MonsieurÂ ?</s>
+              <s>Est-il question de vous rendre serviceÂ ?</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I12-4">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Monsieur, je viens de rencontrer Monsieur votre frÃ¨re, qui est tout Ã  fait fÃ¢chÃ© de...</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I12-5">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Câ€™est un coquin, monsieur Gorgibus.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I12-6">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Je vous rÃ©ponds quâ€™il est tellement contrit de vous avoir mis en colÃ¨re...</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I12-7">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Câ€™est un ivrogne, monsieur Gorgibus.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I12-8">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>HÃ©Â !</s>
+              <s>Monsieur, vous voulez dÃ©sespÃ©rer ce pauvre garÃ§onÂ ?</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I12-9">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Quâ€™on ne mâ€™en parle plusÂ ; mais voyez lâ€™impudence de ce coquin-lÃ , de vous aller trouver pour faire son accordÂ ; je vous prie de ne mâ€™en pas parler.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I12-10">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Au nom de Dieu, Monsieur le MÃ©decinÂ !</s>
+              <s>Et faites cela pour lâ€™amour de moi.</s>
+              <s>Si je suis capable de vous obliger en autre chose, je le ferai de bon cÅ“ur.</s>
+              <s>Je mâ€™y suis engagÃ©, et...</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I12-11">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Vous mâ€™en priez avec tant dâ€™insistance que, quoique jâ€™eusse fait serment de ne lui pardonner jamais, allez, touchez lÃ Â : je lui pardonne.</s>
+              <s>Je vous assure que je me fais grande violence, et quâ€™il faut que jâ€™aie bien de la complaisance pour vous.</s>
+              <s>Adieu, monsieur Gorgibus.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I12-12">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Monsieur, votre trÃ¨s humble serviteurÂ ; je mâ€™en vais chercher ce pauvre garÃ§on pour lui apprendre cette bonne nouvelle.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="13" xml:id="I13">
+          <head>SCÃˆNE XIII</head>
+          <stage>ValÃ¨re, Sganarelle.</stage>
+          <sp who="VALERE" xml:id="I13-1">
+            <speaker>VALÃˆRE</speaker>
+            <p>
+              <s>Il faut que jâ€™avoue que je nâ€™eusse jamais cru que Sganarelle se fÃ»t si bien acquittÃ© de son devoir.</s>
+            </p>
+            <stage>Sganarelle rentre avec ses habits de valet.</stage>
+            <p>
+              <s>AhÂ !</s>
+              <s>Mon pauvre garÃ§on, que je tâ€™ai dâ€™obligationÂ !</s>
+              <s>Que jâ€™ai de joieÂ !</s>
+              <s>Et que...</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I13-2">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Ma foi, vous parlez fort Ã  votre aise.</s>
+              <s>Gorgibus mâ€™a rencontrÃ©Â ; et sans une invention que jâ€™ai trouvÃ©e, toute la mÃ¨che Ã©tait dÃ©couverte.</s>
+              <s>Mais fuyez-vous-en, le voici.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="14" xml:id="I14">
+          <head>SCÃˆNE XIV</head>
+          <stage>Gorgibus, Sganarelle.</stage>
+          <sp who="GORGIBUS" xml:id="I14-1">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Je vous cherchais partout pour vous dire que jâ€™ai parlÃ© Ã  votre frÃ¨reÂ : il mâ€™a assurÃ© quâ€™il vous pardonnaitÂ ; mais, pour en Ãªtre plus assurÃ©, je veux quâ€™il vous embrasse en ma prÃ©senceÂ ; entrez dans mon logis, et je lâ€™irai chercher.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I14-2">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>AhÂ !</s>
+              <s>Monsieur Gorgibus, je ne crois pas que vous le trouviez Ã  prÃ©sentÂ ; et puis je ne resterai pas chez vousÂ ; je crains trop sa colÃ¨re.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I14-3">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>AhÂ !</s>
+              <s>Vous demeurerez, car je vous enfermerai.</s>
+              <s>Je mâ€™en vais Ã  prÃ©sent chercher votre frÃ¨reÂ : ne craignez rien, je vous rÃ©ponds quâ€™il nâ€™est plus fÃ¢chÃ©.</s>
+            </p>
+            <stage>Il sort.</stage>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I14-4">
+            <speaker>SGANARELLE, de la fenÃªtre.</speaker>
+            <p>
+              <s>Ma foi, me voilÃ  attrapÃ© ce coup-lÃ Â ; il nâ€™y a plus moyen de mâ€™en Ã©chapper.</s>
+              <s>Le nuage est fort Ã©pais, et jâ€™ai bien peur que, sâ€™il vient Ã  crever, il ne grÃªle sur mon dos force coups de bÃ¢ton, ou que, par quelque ordonnance plus forte que toutes celles des mÃ©decins, on mâ€™applique tout au moins un cautÃ¨re royal sur les Ã©paules.</s>
+              <s>Mes affaires vont malÂ ; mais pourquoi se dÃ©sespÃ©rerÂ ?</s>
+              <s>Puisque jâ€™ai tant fait, poussons la fourbe jusques au bout.</s>
+              <s>Oui, oui, il en faut encore sortir, et faire voir que Sganarelle est le roi des fourbes.</s>
+            </p>
+            <stage>Il saute de la fenÃªtre et sâ€™en va.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="15" xml:id="I15">
+          <head>SCÃˆNE XV</head>
+          <stage>Gros-RenÃ©, Gorgibus, Sganarelle.</stage>
+          <sp who="GROS-RENE" xml:id="I15-1">
+            <speaker>GROS-RENÃ‰</speaker>
+            <p>
+              <s>AhÂ !</s>
+              <s>Ma foi, voilÃ  qui est drÃ´leÂ !</s>
+              <s>Comme diable on saute ici par les fenÃªtresÂ !</s>
+              <s>Il faut que je demeure ici, et que je voie Ã  quoi tout cela aboutira.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I15-2">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Je ne saurais trouver ce mÃ©decinÂ ; je ne sais oÃ¹ diable il sâ€™est cachÃ©.</s>
+            </p>
+            <stage>Apercevant Sganarelle qui revient en habit de mÃ©decin.)</stage>
+            <p>
+              <s>Mais le voici.</s>
+              <s>Monsieur, ce nâ€™est pas assez dâ€™avoir pardonnÃ© Ã  votre frÃ¨reÂ ; je vous prie, pour ma satisfaction, de lâ€™embrasserÂ : il est chez moi, et je vous cherchais partout pour vous prier de faire cet accord en ma prÃ©sence.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I15-3">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Vous vous moquez, monsieur GorgibusÂ : nâ€™est-ce pas assez que je lui pardonneÂ ?</s>
+              <s>Je ne le veux jamais voir.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I15-4">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Mais, Monsieur, pour lâ€™amour de moi.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I15-5">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Je ne vous saurais rien refuserÂ : dites-lui quâ€™il descende.</s>
+            </p>
+            <stage>Pendant que Gorgibus rentre dans sa maison par la porte, Sganarelle y rentre par la fenÃªtre.</stage>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I15-6">
+            <speaker>GORGIBUS, Ã  la fenÃªtre.</speaker>
+            <p>
+              <s>VoilÃ  votre frÃ¨re qui vous attend lÃ -basÂ : il mâ€™a promis quâ€™il fera tout ce que je voudrai.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I15-7">
+            <speaker>SGANARELLE, Ã  la fenÃªtre.</speaker>
+            <p>
+              <s>Monsieur Gorgibus, je vous prie de le faire venir iciÂ : je vous conjure que ce soit en particulier que je lui demande pardon, parce que sans doute il me ferait cent hontes et cent opprobres devant tout le monde.</s>
+            </p>
+            <stage>Gorgibus sort de sa maison par la porte, et Sganarelle par la fenÃªtre.</stage>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I15-8">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Oui-da, je mâ€™en vais lui dire.</s>
+              <s>Monsieur, il dit quâ€™il est honteux, et quâ€™il vous prie dâ€™entrer, afin quâ€™il vous demande pardon en particulier.</s>
+              <s>VoilÃ  la clef, vous pouvez entrerÂ ; je vous supplie de ne me pas refuser et de me donner ce contentement.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I15-9">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Il nâ€™y a rien que je ne fasse pour votre satisfactionÂ : vous allez entendre de quelle maniÃ¨re je le vais traiter.</s>
+            </p>
+            <stage>Ã€ la fenÃªtre.</stage>
+            <p>
+              <s>AhÂ !</s>
+              <s>Te voilÃ , coquin.</s>
+              <s>- Monsieur mon frÃ¨re, je vous demande pardon, je vous promets quâ€™il nâ€™y a point de ma faute.</s>
+              <s>- Il nâ€™y a point de ta faute, pilier de dÃ©bauche, coquinÂ ?</s>
+              <s>Va, je tâ€™apprendrai Ã  vivre.</s>
+              <s>Avoir la hardiesse dâ€™importuner M. Gorgibus, de lui rompre la tÃªte de tes sottisesÂ !</s>
+              <s>- Monsieur mon frÃ¨re...</s>
+              <s>- Tais-toi, te dis-je.</s>
+              <s>- Je ne vous dÃ©soblig...</s>
+              <s>- Tais-toi, coquin.</s>
+            </p>
+          </sp>
+          <sp who="GROS-RENE" xml:id="I15-10">
+            <speaker>GROS-RENÃ‰</speaker>
+            <p>
+              <s>Qui diable pensez-vous qui soit chez vous Ã  prÃ©sentÂ ?</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I15-11">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Câ€™est le mÃ©decin et Narcisse son frÃ¨reÂ ; ils avaient quelque diffÃ©rend, et ils font leur accord.</s>
+            </p>
+          </sp>
+          <sp who="GROS-RENE" xml:id="I15-12">
+            <speaker>GROS-RENÃ‰</speaker>
+            <p>
+              <s>Le diable emporteÂ !</s>
+              <s>Ils ne sont quâ€™un.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I15-13">
+            <speaker>SGANARELLE, Ã  la fenÃªtre.</speaker>
+            <p>
+              <s>Ivrogne que tu es, je tâ€™apprendrai Ã  vivre.</s>
+              <s>Comme il baisse la vueÂ !</s>
+              <s>Il voit bien quâ€™il a failli, le pendard.</s>
+              <s>AhÂ !</s>
+              <s>Lâ€™hypocrite, comme il fait le bon apÃ´treÂ !</s>
+            </p>
+          </sp>
+          <sp who="GROS-RENE" xml:id="I15-14">
+            <speaker>GROS-RENÃ‰</speaker>
+            <p>
+              <s>Monsieur, dites-lui un peu par plaisir quâ€™il fasse mettre son frÃ¨re Ã  la fenÃªtre.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I15-15">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Oui-da, Monsieur le MÃ©decin, je vous prie de faire paraÃ®tre votre frÃ¨re Ã  la fenÃªtre.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I15-16">
+            <speaker>SGANARELLE, de la fenÃªtre.</speaker>
+            <p>
+              <s>Il est indigne de la vue des gens dâ€™honneur, et puis je ne le saurais souffrir auprÃ¨s de moi.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I15-17">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Monsieur, ne me refusez pas cette grÃ¢ce, aprÃ¨s toutes celles que vous mâ€™avez faites.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I15-18">
+            <speaker>SGANARELLE, de la fenÃªtre.</speaker>
+            <p>
+              <s>En vÃ©ritÃ©, Monsieur Gorgibus, vous avez un tel pouvoir sur moi que je ne vous puis rien refuser.</s>
+              <s>Montre, montre-toi, coquin.</s>
+            </p>
+            <stage>AprÃ¨s avoir disparu un moment, il se remontre en habit de valet.</stage>
+            <p>
+              <s>- Monsieur Gorgibus, je suis votre obligÃ©.</s>
+            </p>
+            <stage>Il disparaÃ®t encore, et reparaÃ®t aussitÃ´t en robe de mÃ©decin.</stage>
+            <p>
+              <s>HÃ© bienÂ !</s>
+              <s>Avez-vous vu cette image de la dÃ©baucheÂ ?</s>
+            </p>
+          </sp>
+          <sp who="GROS-RENE" xml:id="I15-19">
+            <speaker>GROS-RENÃ‰</speaker>
+            <p>
+              <s>Ma foi, ils ne sont quâ€™un, et, pour vous le prouver, dites-lui un peu que vous les voulez voir ensemble.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I15-20">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Mais faites-moi la grÃ¢ce de le faire parAÃ®tre avec vous, et de lâ€™embrasser devant moi Ã  la fenÃªtre.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I15-21">
+            <speaker>SGANARELLE, de la fenÃªtre.</speaker>
+            <p>
+              <s>Câ€™est une chose que je refuserais Ã  tout autre quâ€™Ã  vousÂ : mais pour vous montrer que je veux tout faire pour lâ€™amour de vous, je mâ€™y rÃ©sous, quoique avec peine, et veux auparavant quâ€™il vous demande pardon de toutes les peines quâ€™il vous a donnÃ©es.</s>
+              <s>- Oui, Monsieur Gorgibus, je vous demande pardon de vous avoir tant importunÃ©, et vous promets, mon frÃ¨re, en prÃ©sence de M. Gorgibus que voilÃ , de faire si bien dÃ©sormais, que vous nâ€™aurez plus lieu de vous plaindre, vous priant de ne plus songer Ã  ce qui sâ€™est passÃ©.</s>
+            </p>
+            <stage>Il embrasse son chapeau et sa fraise quâ€™il a mis au bout de son coude.</stage>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I15-22">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>HÃ© bienÂ !</s>
+              <s>Ne les voilÃ  pas tous deuxÂ ?</s>
+            </p>
+          </sp>
+          <sp who="GROS-RENE" xml:id="I15-23">
+            <speaker>GROS-RENÃ‰</speaker>
+            <p>
+              <s>AhÂ !</s>
+              <s>Par ma foi, il est sorcier.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I15-24">
+            <speaker>SGANARELLE, sortant de la maison, en mÃ©decin.</speaker>
+            <p>
+              <s>Monsieur, voilÃ  la clef de votre maison que je vous rendsÂ ; je nâ€™ai pas voulu que ce coquin soit descendu avec moi, parce quâ€™il me fait honteÂ : je ne voudrais pas quâ€™on le vÃ®t en ma compagnie dans la ville, oÃ¹ je suis en quelque rÃ©putation.</s>
+              <s>Vous irez le faire sortir quand bon vous semblera. Je vous donne le bonjour, et suis votre, etc.</s>
+            </p>
+            <stage>Il feint de sâ€™en aller, et, aprÃ¨s avoir mis bas sa robe, rentre dans la maison par la fenÃªtre.</stage>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I15-25">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Il faut que jâ€™aille dÃ©livrer ce pauvre garÃ§onÂ ; en vÃ©ritÃ©, sâ€™il lui a pardonnÃ©, ce nâ€™a pas Ã©tÃ© sans le bien maltraiter.</s>
+            </p>
+            <stage>Il entre dans sa maison, et en sort avec Sganarelle, en habit de valet.</stage>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I15-26">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Monsieur, je vous remercie de la peine que vous avez prise et de la bontÃ© que vous avez eueÂ : je vous en serai obligÃ© toute ma vie.</s>
+            </p>
+          </sp>
+          <sp who="GROS-RENE" xml:id="I15-27">
+            <speaker>GROS-RENÃ‰</speaker>
+            <p>
+              <s>OÃ¹ pensez-vous que soit Ã  prÃ©sent le mÃ©decinÂ ?</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I15-28">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Il sâ€™en est allÃ©.</s>
+            </p>
+          </sp>
+          <sp who="GROS-RENE" xml:id="I15-29">
+            <speaker>GROS-RENÃ‰, qui a ramassÃ© la robe de Sganarelle.</speaker>
+            <p>
+              <s>Je le tiens sous mon bras.</s>
+              <s>VoilÃ  le coquin qui faisait le mÃ©decin, et qui vous trompe.</s>
+              <s>Cependant quâ€™il vous trompe et joue la farce chez vous, ValÃ¨re et votre fille sont ensemble, qui sâ€™en vont Ã  tous les diables.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I15-30">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>AhÂ !</s>
+              <s>Que je suis malheureuxÂ !</s>
+              <s>Mais tu seras pendu, fourbe, coquin.</s>
+            </p>
+          </sp>
+          <sp who="SGANARELLE" xml:id="I15-31">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Monsieur, quâ€™allez-vous faire de me pendreÂ ?</s>
+              <s>Ã‰coutez un mot, sâ€™il vous plaÃ®tÂ : il est vrai que câ€™est par mon invention que mon maÃ®tre est avec votre filleÂ ; mais en le servant, je ne vous ai point dÃ©sobligÃ©Â : câ€™est un parti sortable pour elle, tant pour la naissance que pour les biens.</s>
+              <s>Croyez-moi, ne faites point un vacarme qui tournerait Ã  votre confusion, et envoyez Ã  tous les diables ce coquin-lÃ , avec Villebrequin.</s>
+              <s>Mais voici nos amants.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="16" xml:id="I16">
+          <head>SCÃˆNE DERNIÃˆRE. ValÃ¨re, Lucile, Gorgibus, Sganarelle.</head>
+          <sp who="SGANARELLE" xml:id="I16-1">
+            <speaker>SGANARELLE</speaker>
+            <p>
+              <s>Nous nous jetons Ã  vos pieds.</s>
+            </p>
+          </sp>
+          <sp who="GORGIBUS" xml:id="I16-2">
+            <speaker>GORGIBUS</speaker>
+            <p>
+              <s>Je vous pardonne, et suis heureusement trompÃ© par Sganarelle, ayant un si brave gendre.</s>
+              <s>Allons tous faire noces, et boire Ã  la santÃ© de toute la compagnie.</s>
+            </p>
+          </sp>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>
