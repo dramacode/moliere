@@ -1008,6 +1008,9 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
                   <ref name="textual"/>
                 </element>
                 <element name="actor">
+                  <optional>
+                    <ref name="id-att"/>
+                  </optional>
                   <ref name="textual"/>
                 </element>
                 <element name="roleDesc">
@@ -1733,6 +1736,8 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
                   <a:documentation>Référence à un auteur</a:documentation>
                   <value>character</value>
                   <a:documentation>Référence à un personnage d’œuvre littéraire</a:documentation>
+                  <value>actor</value>
+                  <a:documentation>Référence à un acteur (dans une pièce de théâtre)</a:documentation>
                 </choice>
               </oneOrMore>
             </list>
