@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LE CARNAVAL DE VENISE</title>
+        <author born="1655" born_location="Paris" death="1709" death_location="château de grillon, Dourdan" academie="">REGNARD, Jean-François</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>publié par Paul FIEVRE juillet 2011</p>
+      </publicationStmt>
+      <sourceDesc>
+        <genre>Ballet</genre>
+        <inspiration>mœurs françaises</inspiration>
+        <structure>Trois actes</structure>
+        <type>vers</type>
+        <periode>1691-1700</periode>
+        <taille>250-500</taille>
+        <permalien/>
+        <sources>
+          <source id="1">
+            <author/>
+            <text/>
+          </source>
+        </sources>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1699"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart part="main">LE CARNAVAL DE VENISE</titlePart>
+        <titlePart part="sub">BALLET EN TROIS ACTES</titlePart>
+        <titlePart part="sub">avec un PROLOGUE</titlePart>
+      </docTitle>
+      <docDate value="1699">1699</docDate>
+      <docAuthor id="REGNARD, Jean-Francois" bio="regnard">par Régnard</docAuthor>
+      <docImprint>
+        <privilege id="16**-**-**"/>
+        <acheveImprime id="16**-**-**"/>
+        <printer id=""/>
+      </docImprint>
+      <performance>
+        <premiere date="1699-05" location="Académie Royale de Musique">Représentée pour l’Académie royale de Musique en mai 1699.</premiere>
+      </performance>
+      <castList>
+        <head>PERSONNAGES du BALLET</head>
+        <castItem><role xml:id="un-ordonnateur" civil="M">UN ORDONNATEUR</role>.</castItem>
+        <castItem><role xml:id="minerve" civil="D">MINERVE</role>.</castItem>
+        <castItem><role xml:id="suivant-de-le-danse" civil="M">Un suivant de la Danse</role>.</castItem>
+        <castItem><role xml:id="suivant-de-la-muique" civil="M">Un suivant de la Musique</role>.</castItem>
+        <castItem><role xml:id="chœur-d-ouvriers" civil="G">Chœur d’ouvriers</role>.</castItem>
+        <castItem><role xml:id="troupes-de-genies" civil="G">Troupe de génies qui président aux arts</role>.</castItem>
+      </castList>
+      <castList>
+        <head>PERSONNAGES de L’OPÉRA</head>
+        <castItem><role xml:id="pluton" civil="D">PLUTON</role>.</castItem>
+        <castItem><role xml:id="orphee" civil="M">ORPHÉE</role>.</castItem>
+        <castItem><role xml:id="eurydice" civil="F">EURYDICE</role>.</castItem>
+        <castItem><role xml:id="une-ombre" civil="S">UNE OMBRE</role>.</castItem>
+        <castItem><role xml:id="divinites-infernales" civil="G">Troupe de divinités infernales</role>.</castItem>
+        <castItem><role xml:id="esprits-follets" civil="G">Troupe d’Esprits follets</role>.</castItem>
+      </castList>
+      <set location="(indéterminé)" country="France" periode="XVIIIème" link="">Le théâtre représente une foire, ou une assemblée de différentes nations. Mercure entre, suivi de tous ceux qui viennent lui demander l’accomplissement de leurs souhaits.</set>
+    </front>
+    <body>
+      <div1 type="acte" n="1" xml:id="I">
+        <head>PROLOGUE DU CARNAVAL DE VENISE</head>
+        <stage>Le Théâtre représente une salle où l’on doit donner un spectacle : tout y est encor en désordre ; le lieu est plein de morceaux de bois et de décorations imparfaites ; et l’on y voit quantité d’ouvriers qui travaillent pour mettre tout en état.</stage>
+        <div2 type="scene" n="1" xml:id="I01">
+          <head>SCÈNE I</head>
+          <stage>Un Ordonnateur, Chœur d’ouvriers.</stage>
+          <sp who="l-ordonnateur" xml:id="I01-1">
+            <speaker>l’ordonnateur</speaker>
+            <l n="1" xml:id="l1">Hâtez-vous, préparez ces lieux ;</l>
+            <l n="2" xml:id="l2">Ne perdez pas des moments précieux.</l>
+          </sp>
+          <sp who="le-chœur" xml:id="I01-2">
+            <speaker>le chœur</speaker>
+            <l n="3" xml:id="l3">Hâtons-nous, préparons ces lieux ;</l>
+            <l n="4" xml:id="l4">Ne perdons pas des moments précieux.</l>
+          </sp>
+          <sp who="l-ordonnateur" xml:id="I01-3">
+            <speaker>l’ordonnateur</speaker>
+            <l n="5" xml:id="l5">Redoublez vos efforts, dépêchez, le temps presse ;</l>
+            <l n="6" xml:id="l6">Tout accuse votre lenteur ;</l>
+            <l n="7" xml:id="l7">On ne peut travailler avec assez d’ardeur,</l>
+            <l n="8" xml:id="l8">Quand au plaisir on s’intéresse.</l>
+            <l n="9" xml:id="l9">Hâtez-vous, préparez ces lieux ;</l>
+            <l n="10" xml:id="l10">Ne perdez pas des moments précieux.</l>
+          </sp>
+          <sp who="le-chœur" xml:id="I01-4">
+            <speaker>le chœur</speaker>
+            <l n="11" xml:id="l11">Hâtons-nous, préparons ces lieux ;</l>
+            <l n="12" xml:id="l12">Ne perdons pas des moments précieux.</l>
+          </sp>
+          <sp who="l-ordonnateur" xml:id="I01-5">
+            <speaker>l’ordonnateur</speaker>
+            <l n="13" xml:id="l13">Quelle divinité s’empresse</l>
+            <l n="14" xml:id="l14">À descendre des cieux ?</l>
+            <l n="15" xml:id="l15">Minerve paraît à nos yeux.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="I02">
+          <head>SCÈNE II</head>
+          <stage>Minerve, l’Ordonnateur, Chœur d’ouvriers.</stage>
+          <sp who="minerve" xml:id="I02-1">
+            <speaker>minerve</speaker>
+            <l n="16" xml:id="l16">Je quitte sans regret la demeure immortelle,</l>
+            <l n="17" xml:id="l17">Pour venir en ce jour,</l>
+            <l n="18" xml:id="l18">Dans une aimable cour,</l>
+            <l n="19" xml:id="l19">Partager les plaisirs d’une fête nouvelle.</l>
+            <l n="20" xml:id="l20">Mais quel désordre affreux règne de toutes parts ?</l>
+            <l n="21" xml:id="l21">Quelle main téméraire</l>
+            <l n="22" xml:id="l22">Ôte à ces lieux leur éclat ordinaire ?</l>
+            <l n="23" xml:id="l23">Est-ce ainsi qu’on prétend mériter mes regards ?</l>
+          </sp>
+          <sp who="l-ordonnateur" xml:id="I02-2">
+            <speaker>l’ordonnateur</speaker>
+            <l n="24" xml:id="l24">Par nos soins empressés, par notre diligence,</l>
+            <l n="25" xml:id="l25">Rous allons satisfaire à votre impatience.</l>
+            <l n="26" xml:id="l26">Hâtez-vous, préparez ces lieux ;</l>
+            <l n="27" xml:id="l27">Ne perdez pas des moments précieux.</l>
+          </sp>
+          <sp who="le-chœur" xml:id="I02-3">
+            <speaker>le chœur</speaker>
+            <l n="28" xml:id="l28">Hâtons-nous, préparons ces lieux ;</l>
+            <l n="29" xml:id="l29">Ne perdons pas des moments précieux.</l>
+          </sp>
+          <sp who="minerve" xml:id="I02-4">
+            <speaker>minerve</speaker>
+            <l n="30" xml:id="l30">Pour attirer les yeux d’un grand prince que j’aime,</l>
+            <l n="31" xml:id="l31">Vos soins me paraissent trop lents.</l>
+            <l n="32" xml:id="l32">Retirez-vous, ministres négligents,</l>
+            <l n="33" xml:id="l33">Je prétends m’employer moi-même.</l>
+            <l n="34" xml:id="l34">Accourez, dieux des arts ; embellissez ces lieux ;</l>
+            <l n="35" xml:id="l35">Qu’à ma voix votre ardeur réponde ;</l>
+            <l n="36" xml:id="l36">Servez le fils du plus grand roi du monde ;</l>
+            <l n="37" xml:id="l37">C’est un emploi digne des dieux.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="I03">
+          <head>SCÈNE III</head>
+          <stage>Les divinités qui président aux arts, la Musique, la Danse, la Peinture, l’Architecture, etc. viennent à la voix de Minerve, avec leurs suivants, et élèvent un théâtre magnifique.</stage>
+          <sp who="le-chœur" xml:id="I03-1">
+            <speaker>le chœur</speaker>
+            <l n="38" xml:id="l38">Servons le fils du plus grand roi du monde ;</l>
+            <l n="39" xml:id="l39">C’est un emploi digne des dieux.</l>
+            <stage>Entrée des Génies qui président aux arts.</stage>
+          </sp>
+          <sp who="suivant-de-la-musique" xml:id="I03-2">
+            <speaker>un suivant de la musique</speaker>
+            <l n="40" xml:id="l40">Qu’Amour dans nos fêtes</l>
+            <l n="41" xml:id="l41">Fasse des conquêtes :</l>
+            <l n="42" xml:id="l42">Où ce dieu n’est pas</l>
+            <l n="43" xml:id="l43">Trouve-t-on des appas ?</l>
+            <l n="44" xml:id="l44">Venez, cœurs sensibles,</l>
+            <l n="45" xml:id="l45">Dans ces lieux paisibles ;</l>
+            <l n="46" xml:id="l46">Il garde pour vous</l>
+            <l n="47" xml:id="l47">Les plaisirs les plus doux.</l>
+            <l n="48" xml:id="l48">Qu’Amour dans nos fêtes</l>
+            <l n="49" xml:id="l49">Fasse des conquêtes :</l>
+            <l n="50" xml:id="l50">Où ce dieu n’est pas</l>
+            <l n="51" xml:id="l51">Trouve-t-on des appas ?</l>
+            <l n="52" xml:id="l52">Il cause des larmes,</l>
+            <l n="53" xml:id="l53">Des soins, des alarmes ;</l>
+            <l n="54" xml:id="l54">Mais ses biens parfaits</l>
+            <l n="55" xml:id="l55">Nous vengent de ses traits.</l>
+            <l n="56" xml:id="l56">Qu’Amour dans nos fêtes</l>
+            <l n="57" xml:id="l57">Fasse des conquêtes :</l>
+            <l n="58" xml:id="l58">Où ce dieu n’est pas</l>
+            <l n="59" xml:id="l59">Trouve-t-on des appas ?</l>
+          </sp>
+          <sp who="l-ordonnateur" xml:id="I03-3">
+            <speaker>l’ordonnateur</speaker>
+            <l n="60" xml:id="l60">Les dieux seuls en ce jour auront-ils l’avantage</l>
+            <l n="61" xml:id="l61">De divertir le maître de ces lieux ?</l>
+            <l n="62" xml:id="l62">Entre les mortels et les dieux,</l>
+            <l n="63" xml:id="l63">Il faut que ce bien se partage.</l>
+          </sp>
+          <sp who="l-ordonnateur_un-suivant-musique_un-suivant-danse" xml:id="I03-4">
+            <speaker>l’ordonnateur, un suivant de la musique, un suivant de la danse, ensemble</speaker>
+            <l n="64" xml:id="l64">Joignons nos voix, nos jeux et nos désirs ;</l>
+            <l n="65" xml:id="l65">Que l’on donne aux mortels le soin de ses plaisirs,</l>
+            <l n="66" xml:id="l66">Et dans le temple de Mémoire</l>
+            <l n="67" xml:id="l67">Les dieux prendront soin de sa gloire.</l>
+            <stage>Les Génies des arts recommencent leur danse.</stage>
+          </sp>
+          <sp who="minerve" xml:id="I03-5">
+            <speaker>minerve</speaker>
+            <l n="68" xml:id="l68">Jeunes cœurs, échappés à la fureur de Mars,</l>
+            <l n="69" xml:id="l69">Venez, venez de toutes parts</l>
+            <l n="70" xml:id="l70">Faire au champ de l’Amour les moissons les plus belles ;</l>
+            <l n="71" xml:id="l71">Venez vous délasser de vos travaux guerriers ;</l>
+            <l n="72" xml:id="l72">Faites ici des conquêtes nouvelles :</l>
+            <l n="73" xml:id="l73">Les myrtes quelquefois valent bien des lauriers.</l>
+            <l n="74" xml:id="l74">Célébrez un roi plein de gloire ;</l>
+            <l n="75" xml:id="l75">Ses travaux nous ont fait un repos précieux :</l>
+            <l n="76" xml:id="l76">Mille exploits éclatants consacrent sa mémoire ;</l>
+            <l n="77" xml:id="l77">Il sait à ses drapeaux enchaîner la victoire ;</l>
+            <l n="78" xml:id="l78">La Paix descend pour lui des cieux.</l>
+          </sp>
+          <sp who="le-chœur" xml:id="I03-6">
+            <speaker>le chœur</speaker>
+            <l n="79" xml:id="l79">Célébrons un roi plein de gloire ;</l>
+            <l n="80" xml:id="l80">Ses travaux nous ont fait un repos précieux ;</l>
+            <l n="81" xml:id="l81">Mille exploits éclatants consacrent sa mémoire ;</l>
+            <l n="82" xml:id="l82">Il sait à ses drapeaux enchaîner la Victoire ;</l>
+            <l n="83" xml:id="l83">La Paix descend pour lui des cieux.</l>
+          </sp>
+          <sp who="minerve" xml:id="I03-7">
+            <speaker>minerve</speaker>
+            <l n="84" xml:id="l84">Vous qui suivez mes pas, remplissez mon attente ;</l>
+            <l n="85" xml:id="l85">Montrez, par les attraits d’un spectacle pompeux,</l>
+            <l n="86" xml:id="l86">Tout ce que Venise a de jeux</l>
+            <l n="87" xml:id="l87">Dans la saison la plus charmante.</l>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="acte" n="2" xml:id="II">
+        <head>ACTE I</head>
+        <stage>Le théâtre représente la place Saint-Marc de Venise.</stage>
+        <div2 type="scene" n="1" xml:id="II01">
+          <head>SCÈNE I</head>
+          <sp who="leonore" xml:id="II01-1">
+            <speaker>léonore, seule</speaker>
+            <l n="88" xml:id="l88">J’ai fait l’aveu de l’ardeur qui m’enflamme,</l>
+            <l n="89" xml:id="l89">L’Amour a vaincu la fierté ;</l>
+            <l n="90" xml:id="l90">Cet aveu, qui m’a tant coûté,</l>
+            <l n="91" xml:id="l91">D’un nouveau trouble agite encor mon âme.</l>
+            <l n="92" xml:id="l92">Amour, toi qui peux tout charmer,</l>
+            <l n="93" xml:id="l93">Pourquoi faut-il, sous ton empire,</l>
+            <l n="94" xml:id="l94">Qu’on ait tant de plaisir d’aimer,</l>
+            <l n="95" xml:id="l95">Et qu’on souffre tant à le dire ?</l>
+            <l n="96" xml:id="l96">Je cherche en vain de toutes parts,</l>
+            <l n="97" xml:id="l97">Léandre ne vient point s’offrir à mes regards.</l>
+            <l n="98" xml:id="l98">Depuis qu’il connaît ma faiblesse,</l>
+            <l n="99" xml:id="l99">Je ne vois plus le même empressement.</l>
+            <l n="100" xml:id="l100">Hélas ! Ce qui devrait animer un amant,</l>
+            <l n="101" xml:id="l101">Fait bien souvent expirer sa tendresse.</l>
+            <l n="102" xml:id="l102">Amour, toi qui peux tout charmer,</l>
+            <l n="103" xml:id="l103">Pourquoi faut-il, sous ton empire,</l>
+            <l n="104" xml:id="l104">Qu’on ait tant de plaisir d’aimer,</l>
+            <l n="105" xml:id="l105">Et qu’on risque tant à le dire ?</l>
+            <l n="106" xml:id="l106">Isabelle paraît ; un soudain mouvement</l>
+            <l n="107" xml:id="l107">Augmente ma crainte fatale.</l>
+            <l n="108" xml:id="l108">Ciel ! N’est-ce point une rivale ?</l>
+            <l n="109" xml:id="l109">Ah ! Qu’un cœur amoureux est jaloux aisément !</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="II02">
+          <head>SCÈNE II</head>
+          <stage>Isabelle, Léonore.</stage>
+          <sp who="isabelle" xml:id="II02-1">
+            <speaker>isabelle</speaker>
+            <l n="110" xml:id="l110">Dans ces beaux lieux, où tout enchante,</l>
+            <l n="111" xml:id="l111">Je viens donner quelques moments</l>
+            <l n="112" xml:id="l112">Aux jeux, aux spectacles charmants</l>
+            <l n="113" xml:id="l113">Qu’ici la saison nous présente.</l>
+          </sp>
+          <sp who="leonore" xml:id="II02-2">
+            <speaker>léonore</speaker>
+            <l n="114" xml:id="l114">Dans ces spectacles, dans les jeux,</l>
+            <l n="115" xml:id="l115">Ce n’est point cet éclat pompeux</l>
+            <l n="116" xml:id="l116">Qui toujours nous attire ;</l>
+            <l n="117" xml:id="l117">Sous ce prétexte, dans ces lieux</l>
+            <l n="118" xml:id="l118">L’Amour prend soin de nous conduire,</l>
+            <l n="119" xml:id="l119">Pour y voir quelque objet qui nous plaît encor mieux.</l>
+          </sp>
+          <sp who="isabelle" xml:id="II02-3">
+            <speaker>isabelle</speaker>
+            <l n="120" xml:id="l120">Je ne veux point faire un mystère</l>
+            <l n="121" xml:id="l121">De l’amour qui peut m’engager :</l>
+            <l n="122" xml:id="l122">J’aime un jeune étranger,</l>
+            <l n="123" xml:id="l123">Et je cherche en ces lieux l’objet qui m’a su plaire.</l>
+          </sp>
+          <sp who="leonore" xml:id="II02-4">
+            <speaker>léonore</speaker>
+            <l n="124" xml:id="l124">À vous faire un pareil aveu</l>
+            <l n="125" xml:id="l125">Cette confidence m’engage ;</l>
+            <l n="126" xml:id="l126">Et pour un étranger j’ai senti naître un feu</l>
+            <l n="127" xml:id="l127">Que son cœur avec moi partage.</l>
+            <l n="128" xml:id="l128">De ses tendres regards je me sens enchanter.</l>
+          </sp>
+          <sp who="isabelle" xml:id="II02-5">
+            <speaker>isabelle</speaker>
+            <l n="129" xml:id="l129">À ses discours flatteurs je n’ai pu résister.</l>
+          </sp>
+          <sp who="leonore" xml:id="II02-6">
+            <speaker>léonore</speaker>
+            <l n="130" xml:id="l130">Il m’aime d’une ardeur extrême ;</l>
+            <l n="131" xml:id="l131">Il m’a juré de m’aimer constamment.</l>
+          </sp>
+          <sp who="isabelle" xml:id="II02-7">
+            <speaker>isabelle</speaker>
+            <l n="132" xml:id="l132">Le tendre amant que j’aime</l>
+            <l n="133" xml:id="l133">M’a fait cent fois même serment.</l>
+          </sp>
+          <sp who="leonore" xml:id="II02-8">
+            <speaker>léonore</speaker>
+            <l n="134" xml:id="l134">Apprenez-moi le nom de cet amant fidèle.</l>
+          </sp>
+          <sp who="isabelle" xml:id="II02-9">
+            <speaker>isabelle</speaker>
+            <l n="135" xml:id="l135">Nommez-moi cet objet de votre amour nouvelle.</l>
+          </sp>
+          <sp who="isabelle_leonore" xml:id="II02-10">
+            <speaker>ensemble</speaker>
+            <l n="136" xml:id="l136">C’est Léandre. Qu’entends-je ? Ô dieux !</l>
+          </sp>
+          <sp who="leonore" xml:id="II02-11">
+            <speaker>léonore</speaker>
+            <l n="137" xml:id="l137" part="I">Le perfide !</l>
+          </sp>
+          <sp who="isabelle" xml:id="II02-12">
+            <speaker>isabelle</speaker>
+            <l n="137" part="F">L’ingrat !</l>
+          </sp>
+          <sp who="leonore" xml:id="II02-13">
+            <speaker>léonore</speaker>
+            <l n="137" part="F">Il faut briser nos nœuds ;</l>
+            <l n="138" xml:id="l138">Que mon dépit fasse éclater le vôtre ;</l>
+            <l n="139" xml:id="l139">Il nous abuse l’une ou l’autre.</l>
+          </sp>
+          <sp who="isabelle" xml:id="II02-14">
+            <speaker>isabelle</speaker>
+            <l n="140" xml:id="l140">Peut-être que l’ingrat nous trompe toutes deux.</l>
+          </sp>
+          <sp who="leonore" xml:id="II02-15">
+            <speaker>léonore</speaker>
+            <l n="141" xml:id="l141">Il vient ; pénétrons dans son âme</l>
+            <l n="142" xml:id="l142">Le secret de sa flamme.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="" xml:id="II03">
+          <head>SCÈNE III</head>
+          <stage>Léandre, Isabelle, Léonore.</stage>
+          <sp who="isabelle" xml:id="II03-1">
+            <speaker>isabellle, à léandre</speaker>
+            <l n="143" xml:id="l143">Puis-je croire que votre cœur</l>
+            <l n="144" xml:id="l144">Pour une autre que moi soupire ?</l>
+          </sp>
+          <sp who="leonore" xml:id="II03-2">
+            <speaker>léonore, à léandre</speaker>
+            <l n="145" xml:id="l145">Ingrat, ne m’as-tu pas mille fois osé dire</l>
+            <l n="146" xml:id="l146">Que tu brûlais pour moi d’une sincère ardeur ?</l>
+          </sp>
+          <sp who="leandre" xml:id="II03-3">
+            <speaker>léandre</speaker>
+            <l n="147" xml:id="l147">Quand je vous vois ensemble,</l>
+            <l n="148" xml:id="l148">L’Amour, qui dans vos yeux tous ses charmes rassemble,</l>
+            <l n="149" xml:id="l149">Est également triomphant ;</l>
+            <l n="150" xml:id="l150">Entre deux beaux objets, qui tons deux savent plaire,</l>
+            <l n="151" xml:id="l151">Le choix est difficile à faire,</l>
+            <l n="152" xml:id="l152">Et l’un de l’autre me défend.</l>
+          </sp>
+          <sp who="leonore" xml:id="II03-4">
+            <speaker>léonore, à léandre</speaker>
+            <l n="153" xml:id="l153">Explique-toi sans artifice.</l>
+          </sp>
+          <sp who="isabelle" xml:id="II03-5">
+            <speaker>isabelle, à léandre</speaker>
+            <l n="154" xml:id="l154">Il est temps enfin de parler.</l>
+          </sp>
+          <sp who="leonore" xml:id="II03-6">
+            <speaker>léonore, à léandre</speaker>
+            <l n="155" xml:id="l155">Il ne faut plus dissimuler.</l>
+          </sp>
+          <sp who="leandre" xml:id="II03-7">
+            <speaker>léandre</speaker>
+            <l n="156" xml:id="l156">Quelle contrainte ! Quel supplice !</l>
+            <l n="157" xml:id="l157">De vos tendres regards j’ai senti les attraits ;</l>
+            <l n="158" xml:id="l158">Je vous aimai, charmante Eléonore ;</l>
+            <l n="159" xml:id="l159">Mais des yeux plus puissants encore</l>
+            <l n="160" xml:id="l160">Ont soumis mon cœur à leurs traits ;</l>
+            <l n="161" xml:id="l161">C’est Isabelle que j’adore,</l>
+            <l n="162" xml:id="l162">Pour ne changer jamais.</l>
+          </sp>
+          <sp who="leonore" xml:id="II03-8">
+            <speaker>léonore</speaker>
+            <l n="163" xml:id="l163">Ciel ! Que viens-je d’entendre ? Et que ma peine est rude</l>
+            <l n="164" xml:id="l164">Oses-tu déclarer ton infidélité ?</l>
+          </sp>
+          <sp who="isabelle" xml:id="II03-9">
+            <speaker>isabelle</speaker>
+            <l n="165" xml:id="l165">En amour bien souvent un peu d’incertitude</l>
+            <l n="166" xml:id="l166">Flatte plus que la vérité.</l>
+          </sp>
+          <sp who="leonore" xml:id="II03-10">
+            <speaker>léonore</speaker>
+            <l n="167" xml:id="l167">Jouis de ta victoire, orgueilleuse rivale ;</l>
+            <l n="168" xml:id="l168">Insulte encore à mon malheur :</l>
+            <l n="169" xml:id="l169">Et toi, perfide amant, crois-tu voir dans mon cœur</l>
+            <l n="170" xml:id="l170">Dissiper en regrets ma tendresse fatale ?</l>
+            <l n="171" xml:id="l171">Non, ingrat ! Je prétends que mon courroux égale</l>
+            <l n="172" xml:id="l172">Et surpasse encor mon ardeur ;</l>
+            <l n="173" xml:id="l173">Je veux qu’à ma vengeance offert en sacrifice,</l>
+            <l n="174" xml:id="l174">L’un ou l’autre périsse ;</l>
+            <l n="175" xml:id="l175">J’en atteste le ciel, en ce funeste jour</l>
+            <l n="176" xml:id="l176">La haine vengera l’amour.</l>
+            <stage>Elle sort.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="II04">
+          <head>SCÈNE IV</head>
+          <stage>Léandre, Isabelle.</stage>
+          <sp who="leandre" xml:id="II04-1">
+            <speaker>léandre</speaker>
+            <l n="177" xml:id="l177">Que ces vains projets de vengeance</l>
+            <l n="178" xml:id="l178">Ne servent qu’à serrer nos nœuds.</l>
+            <l n="179" xml:id="l179">De divers étrangers une troupe s’avance ;</l>
+            <l n="180" xml:id="l180">Écoutons leurs concerts, prenons part à leurs jeux.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="II05"><head>SCÈNE V</head>
+          <stage>Une troupe de Bohémiennes, d’Arméniens et d’Esclavons, avec des guitares, vient dans la place Saint-Marc prendre part aux plaisirs du Carnaval.</stage><sp who="une-bohemienne" xml:id="II05-1"><speaker>une bohémienne</speaker><l n="181" xml:id="l181">Amor, amor, tel giuiro a fè,</l><l n="182" xml:id="l182">Tuo crudo strale non fa più per me.</l></sp><sp who="le-chœur" xml:id="II05-2"><speaker>le chœur, répète ces deux vers, et les reprend à chaque couplet</speaker><l n="183" xml:id="l183">Amor, amor, tel giuiro a fè,</l><l n="184" xml:id="l184">Tuo crudo strale non fa più per me.</l></sp><sp who="un-esclavon" xml:id="II05-3"><speaker>un esclavon</speaker><l n="185" xml:id="l185">Lungi da me, vaga Beltà ;</l><l n="186" xml:id="l186">Non mi giova la crudeltà.</l><l n="187" xml:id="l187">Chi vuol sospirar,</l><l n="188" xml:id="l188">Può s’innamorar :</l><l n="189" xml:id="l189">Amor, non la voglio con te ;</l><l n="190" xml:id="l190">Lascia, mio core in libertà.</l></sp><sp who="le-chœur" xml:id="II05-4"><speaker>le chœur</speaker><l n="191" xml:id="l191">Amor, amor, tel giuiro a fè,</l><l n="192" xml:id="l192">Tuo crudo strale non fa più per me.</l></sp><sp who="un-esclavon" xml:id="II05-5"><speaker>un esclavon</speaker><l n="193" xml:id="l193">Grata mercè di costante fè</l><l n="194" xml:id="l194">Indarno vien a consolar me :</l><l n="195" xml:id="l195">Col foco non voglio più scherzar ;</l><l n="196" xml:id="l196">Amor per me gioco non è ;</l><l n="197" xml:id="l197">Voglio ridere, non avvampar.</l></sp><sp who="le-chœur" xml:id="II05-6"><speaker>le chœur</speaker><l n="198" xml:id="l198">Amor, amor, tel giuiro a fè,</l><l n="199" xml:id="l199">Tuo crudo strale non fa più per me.</l><stage>La troupe continue les jeux, et danse la Villanelle.</stage></sp><sp who="une-musicienne-" xml:id="II05-7"><speaker>une musicienne de la troupe</speaker><l n="200" xml:id="l200">Formons, s’il est possible,</l><l n="201" xml:id="l201">Les plus doux concerts ;</l><l n="202" xml:id="l202">Ce séjour est paisible</l><l n="203" xml:id="l203">Dans le sein des mers.</l></sp><sp who="le-chœur" xml:id="II05-8"><speaker>le chœur, répète les quatre vers précédents à chaque couplet</speaker><l n="204" xml:id="l204">Formons, s’il est possible,</l><l n="205" xml:id="l205">Les plus doux concerts ;</l><l n="206" xml:id="l206">Ce séjour est paisible</l><l n="207" xml:id="l207">Dans le sein des mers.</l></sp><sp who="la-musicienne" xml:id="II05-9"><speaker>la musicienne</speaker><l n="208" xml:id="l208">Neptune, plus tranquille,</l><l n="209" xml:id="l209">Pour flatter nos vœux,</l><l n="210" xml:id="l210">Sert, dans ce doux asile,</l><l n="211" xml:id="l211">De théâtre aux jeux.</l></sp><sp who="le-chœur" xml:id="II05-10"><speaker>le chœur</speaker><l n="212" xml:id="l212">Formons, s’il est possible,</l><l n="213" xml:id="l213">Les plus doux concerts ;</l><l n="214" xml:id="l214">Ce séjour est paisible</l><l n="215" xml:id="l215">Dans le sein des mers.</l></sp><sp who="la-musicienne" xml:id="II05-11"><speaker>la musicienne</speaker><l n="216" xml:id="l216">Nous ressentons dans l’onde</l><l n="217" xml:id="l217">Le flambeau d’Amour ;</l><l n="218" xml:id="l218">Il est plus cher au monde</l><l n="219" xml:id="l219">Que celui du jour.</l></sp><sp who="le-chœur" xml:id="II05-12"><speaker>le chœur</speaker><l n="220" xml:id="l220">Formons, s’il est possible,</l><l n="221" xml:id="l221">Les plus doux concerts ;</l><l n="222" xml:id="l222">Ce séjour est paisible</l><l n="223" xml:id="l223">Dans le sein des mers.</l><stage>On recommence la danse.</stage></sp><sp who="une-bohemienne" xml:id="II05-13"><speaker>une bohémienne</speaker><l n="224" xml:id="l224">Tout plaît, tout rit dans ce beau séjour ;</l><l n="225" xml:id="l225">Vénus y tient sa brillante cour.</l></sp><sp who="le-chœur" xml:id="II05-14"><speaker>le chœur répète ces deux vers à chaque couplet</speaker><l n="226" xml:id="l226">Tout plaît, tout rit dans ce beau séjour ;</l><l n="227" xml:id="l227">Vénus y tient sa brillante cour.</l></sp>2
+
+<sp who="un-armenien" xml:id="II05-15"><speaker>un arménien</speaker><l n="228" xml:id="l228">Dans ces beaux lieux remplis d’attraits,</l><l n="229" xml:id="l229">L’Amour, n’a que d’aimables traits ;</l><l n="230" xml:id="l230">Tout vient, jeunes cœurs, flatter vos désirs ;</l><l n="231" xml:id="l231">Si l’hiver chasse les zéphyrs,</l><l n="232" xml:id="l232">Il vous ramène les doux plaisirs.</l></sp><sp who="le-chœur" xml:id="II05-16"><speaker>le chœur répète</speaker><l n="233" xml:id="l233">Tout plaît, tout rit dans ce beau séjour ;</l><l n="234" xml:id="l234">Vénus y tient sa brillante cour.</l></sp><sp who="un-armenien" xml:id="II05-17"><speaker>l’arménien</speaker><l n="235" xml:id="l235">Malgré la glace et les noirs frimas,</l><l n="236" xml:id="l236">Nous ressentons des feux pleins d’appas,</l><l n="237" xml:id="l237">Et les jeux suivent partout nos pas.</l><l n="238" xml:id="l238">Quel printemps fait de plus beaux jours ?</l><l n="239" xml:id="l239">Au lieu de fleurs il naît des Amours. .</l></sp><sp who="le-chœur" xml:id="II05-18"><speaker>le chœur répète</speaker><l n="240" xml:id="l240">Tout plaît, tout rit dans ce beau séjour ;</l><l n="241" xml:id="l241">Vénus y tient sa brillante cour.</l></sp></div2>
+        <div2 type="scene" n="6" xml:id="II06">
+          <head>SCÈNE VI</head>
+          <stage>Léandre, Isabelle.</stage>
+          <sp who="leandre" xml:id="II06-1">
+            <speaker>léandre</speaker>
+            <l n="242" xml:id="l242">Vous brillez à mes yeux d’une grâce nouvelle,</l>
+            <l n="243" xml:id="l243">Et je brûle pour vous d’une nouvelle ardeur :</l>
+            <l n="244" xml:id="l244">La mère des Amours ne fut jamais si belle ;</l>
+            <l n="245" xml:id="l245">Tout le feu de vos yeux a passé dans mon cœur.</l>
+          </sp>
+          <sp who="isabelle" xml:id="II06-2">
+            <speaker>isabelle</speaker>
+            <l n="246" xml:id="l246">Je crains une rivale, et mon ardeur fidèle</l>
+            <l n="247" xml:id="l247">Me fait sentir de mortelles terreurs.</l>
+          </sp>
+          <sp who="leandre" xml:id="II06-3">
+            <speaker>léandre</speaker>
+            <l n="248" xml:id="l248">Ne craignez rien de ses fureurs.</l>
+          </sp>
+          <sp who="isabelle" xml:id="II06-4">
+            <speaker>isabelle</speaker>
+            <l n="249" xml:id="l249">Je crains plus de votre inconstance.</l>
+          </sp>
+          <sp who="leandre" xml:id="II06-5">
+            <speaker>léandre</speaker>
+            <l n="250" xml:id="l250">Ahi ! Que cette crainte m’offense !</l>
+          </sp>
+          <sp who="isabelle" xml:id="II06-6">
+            <speaker>isabelle</speaker>
+            <l n="251" xml:id="l251">Pourquoi vous offenser de la juste frayeur</l>
+            <l n="252" xml:id="l252">Dont je sens les atteintes ?</l>
+            <l n="253" xml:id="l253">Les troubles et les craintes</l>
+            <l n="254" xml:id="l254">Sont les premiers effets d’une naissante ardeur.</l>
+          </sp>
+          <sp who="leandre" xml:id="II06-7">
+            <speaker>léandre</speaker>
+            <l n="255" xml:id="l255">De ce tendre discours que mon âme est ravie !</l>
+          </sp>
+          <sp who="isabelle" xml:id="II06-8">
+            <speaker>isabelle</speaker>
+            <l n="256" xml:id="l256">D’un jaloux odieux je crains la barbarie :</l>
+            <l n="257" xml:id="l257">Si notre amour éclatait à ses yeux,</l>
+            <l n="258" xml:id="l258">Rien ne pourrait calmer ses transports furieux.</l>
+          </sp>
+          <sp who="leandre" xml:id="II06-9">
+            <speaker>léandre</speaker>
+            <l n="259" xml:id="l259">L’Amour, armé de la constance,</l>
+            <l n="260" xml:id="l260">Me craint ni rivaux, ni jaloux ;</l>
+            <l n="261" xml:id="l261">Si nos cœurs sont d’intelligence,</l>
+            <l n="262" xml:id="l262">Rien n’est à redouter pour nous.</l>
+            <l n="263" xml:id="l263">D’un jaloux importun tromper la vigilance,</l>
+            <l n="264" xml:id="l264">C’est goûter par avance</l>
+            <l n="265" xml:id="l265">Ce que l’amour a de plus doux.</l>
+          </sp>
+          <sp who="isabelle" xml:id="II06-10">
+            <speaker>isabelle</speaker>
+            <l n="266" xml:id="l266">Brûlerez-vous pour moi d’une flamme sincère ?</l>
+          </sp>
+          <sp who="leandre" xml:id="II06-11">
+            <speaker>léandre</speaker>
+            <l n="267" xml:id="l267">Pouvez-vous vous connaître, et me le demander ?</l>
+          </sp>
+          <sp who="isabelle" xml:id="II06-12">
+            <speaker>isabelle</speaker>
+            <l n="268" xml:id="l268">La conquête d’un cœur est plus aisée à faire</l>
+            <l n="269" xml:id="l269">Qu’elle n’est facile à garder.</l>
+          </sp>
+          <sp who="leandre" xml:id="II06-13">
+            <speaker>léandre</speaker>
+            <l n="270" xml:id="l270">Bannissez ces alarmes,</l>
+            <l n="271" xml:id="l271">Rendez le calme à votre cœur ;</l>
+            <l n="272" xml:id="l272">Vos beaux yeux et vos charmes</l>
+            <l n="273" xml:id="l273">Vous répondront de mon ardeur.</l>
+          </sp>
+          <sp who="isabelle_leandre" xml:id="II06-14">
+            <speaker>ensemble</speaker>
+            <l n="274" xml:id="l274">Goûtons, sans nous contraindre,</l>
+            <l n="275" xml:id="l275">Les plaisirs les plus doux.</l>
+            <l n="276" xml:id="l276">Ah ! Que pouvons-nous craindre,</l>
+            <l n="277" xml:id="l277">Si l’Amour est pour nous ?</l>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="acte" n="3" xml:id="III">
+        <head>ACTE II</head>
+        <stage>Le théâtre représente la salle des Réduits de Venise, qui est un lieu destiné pour le jeu pendant le Carnaval.</stage>
+        <div2 type="scene" n="1" xml:id="III01">
+          <head>SCÈNE I</head>
+          <sp who="rodolphe" xml:id="III01-1">
+            <speaker>rodolphe, seul</speaker>
+            <l n="278" xml:id="l278">Vous qui ne souffrez point les peines</l>
+            <l n="279" xml:id="l279">Qui déchirent les cœurs jaloux,</l>
+            <l n="280" xml:id="l280">Quel que soit le poids de vos chaînes,</l>
+            <l n="281" xml:id="l281">Amants, que votre sort est doux !</l>
+            <l n="282" xml:id="l282">Deux tyrans dans mon cœur exercent leur furie ;</l>
+            <l n="283" xml:id="l283">L’amour, le tendre amour</l>
+            <l n="284" xml:id="l284">Y fait naître la jalousie ;</l>
+            <l n="285" xml:id="l285">Et mes jaloux transports, par un cruel retour,</l>
+            <l n="286" xml:id="l286">Y font mourir l’amour qui leur donna la vie.</l>
+            <l n="287" xml:id="l287">Vous qui ne souffrez point les peines</l>
+            <l n="288" xml:id="l288">Qui déchirent les cœurs jaloux,</l>
+            <l n="289" xml:id="l289">Quel que soit le poids de vos chaînes,</l>
+            <l n="290" xml:id="l290">Amants, que votre sort est doux !</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="III02">
+          <head>SCÈNE II</head>
+          <stage>Léonore, Rodolphe.</stage>
+          <sp who="leonore" xml:id="III02-1">
+            <speaker>léonore</speaker>
+            <l n="291" xml:id="l291">Malgré toute l’ardeur qui règne dans votre âme,</l>
+            <l n="292" xml:id="l292">On vous séduit, on trahit votre flamme.</l>
+          </sp>
+          <sp who="rodolphe" xml:id="III02-2">
+            <speaker>rodolphe</speaker>
+            <l n="293" xml:id="l293">Ah ! Je m’en doutais bien ; et mes soupçons jaloux</l>
+            <l n="294" xml:id="l294">M’en avaient instruit avant vous.</l>
+          </sp>
+          <sp who="leonore" xml:id="III02-3">
+            <speaker>léonore</speaker>
+            <l n="295" xml:id="l295">Un autre amant, sans résistance,</l>
+            <l n="296" xml:id="l296">Remporte le prix le plus doux</l>
+            <l n="297" xml:id="l297">Que méritait votre constance.</l>
+          </sp>
+          <sp who="rodolphe" xml:id="III02-4">
+            <speaker>rodolphe</speaker>
+            <l n="298" xml:id="l298">Nommez-moi seulement le rival qui m’offense,</l>
+            <l n="299" xml:id="l299">Et laissez agir mon courroux.</l>
+          </sp>
+          <sp who="leonore" xml:id="III02-5">
+            <speaker>léonore</speaker>
+            <l n="300" xml:id="l300">L’affront est égal entre nous,</l>
+            <l n="301" xml:id="l301">Je veux partager la vengeance.</l>
+            <l n="302" xml:id="l302">Un ingrat me jurait de vivre sous mes lois,</l>
+            <l n="303" xml:id="l303">Je me flattais de ce bonheur extrême ;</l>
+            <l n="304" xml:id="l304">On se laisse aisément tromper par ce qu’on aime,</l>
+            <l n="305" xml:id="l305">Lorsque l’on est trompé pour la première fois.</l>
+            <l n="306" xml:id="l306">À ce perfide amant Isabelle a su plaire,</l>
+            <l n="307" xml:id="l307" part="I">Et Léandre à ses yeux...</l>
+          </sp>
+          <sp who="rodolphe" xml:id="III02-6">
+            <speaker>rodolphe</speaker>
+            <l n="307" part="F">Ô ciel ! Que dites-vous ?</l>
+          </sp>
+          <sp who="ensemble" xml:id="III02-7">
+            <speaker>ensemble</speaker>
+            <l n="308" xml:id="l308">Que l’amour dans nos cœurs se transforme en colère ;</l>
+            <l n="309" xml:id="l309">Vengeons-nous, hâtons nos coups ;</l>
+            <l n="310" xml:id="l310">La vengeance qu’on diffère</l>
+            <l n="311" xml:id="l311">Perd ce qu’elle a de plus doux.</l>
+          </sp>
+          <sp who="leonore" xml:id="III02-8">
+            <speaker>léonore, à part</speaker>
+            <l n="312" xml:id="l312">Et toi, sors de mon cœur, indigne et faible reste</l>
+            <l n="313" xml:id="l313">D’une impuissante ardeur ;</l>
+            <l n="314" xml:id="l314">Ne me parle plus en faveur</l>
+            <l n="315" xml:id="l315">D’un perfide que je déteste.</l>
+          </sp>
+          <sp who="rodolphe" xml:id="III02-9">
+            <speaker>rodolphe, à part</speaker>
+            <l n="316" xml:id="l316">J’étoufferai la voix d’une pitié funeste</l>
+            <l n="317" xml:id="l317">Qui crie en vain dans le fond de mon cœur.</l>
+          </sp>
+          <sp who="ensemble" xml:id="III02-10">
+            <speaker>ensemble</speaker>
+            <l n="318" xml:id="l318">Que l’amour dans nos cœurs se transforme en colère :</l>
+            <l n="319" xml:id="l319">Vengeons-nous, hâtons nos coups ;</l>
+            <l n="320" xml:id="l320">La vengeance qu’on diffère</l>
+            <l n="321" xml:id="l321">Perd ce qu’elle a de plus doux.</l>
+          </sp>
+          <sp who="rodolphe" xml:id="III02-11">
+            <speaker>rodolphe</speaker>
+            <l n="322" xml:id="l322">Rien ne peut s’opposer à mon impatience ;</l>
+            <l n="323" xml:id="l323">Allons, courons à la vengeance.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="III03">
+          <head>SCÈNE III</head>
+          <stage>LA FORTUNE paraît, suivie d’une troupe de Joueurs de toutes nations.</stage>
+          <sp who="chœur" xml:id="III03-1">
+            <speaker>chœur de suivants de la fortune</speaker>
+            <l n="324" xml:id="l324">Suivons tous, d’une ardeur fidèle :</l>
+            <l n="325" xml:id="l325">C’est la Fortune ici qui nous appelle ;</l>
+            <l n="326" xml:id="l326">Son pouvoir peut combler nos vœux.</l>
+            <l n="327" xml:id="l327">Tous les biens volent autour d’elle ;</l>
+            <l n="328" xml:id="l328">C’est elle qui nous rend heureux.</l>
+          </sp>
+          <sp who="la-fortune" xml:id="III03-2">
+            <speaker>la fortune</speaker>
+            <l n="329" xml:id="l329">Je suis fille du Sort, inconstante et légère,</l>
+            <l n="330" xml:id="l330">Tout fléchit sous nia loi.</l>
+            <l n="331" xml:id="l331">De tous les dieux que le monde révère,</l>
+            <l n="332" xml:id="l332">Quel autre a plus d’encens que moi ?</l>
+            <l n="333" xml:id="l333">Je traîne à mon char la victoire ;</l>
+            <l n="334" xml:id="l334">Je brise, quand je veux, des trônes éclatants ;</l>
+            <l n="335" xml:id="l335">Et je puis, à tous les instants,</l>
+            <l n="336" xml:id="l336">Par quelque événement éterniser ma gloire.</l>
+            <l n="337" xml:id="l337">Venez implorer mon secours,</l>
+            <l n="338" xml:id="l338">Amants qu’un triste sort accable ;</l>
+            <l n="339" xml:id="l339">Je fais naître à mon gré le moment favorable</l>
+            <l n="340" xml:id="l340">Que, sans moi, l’on attend toujours.</l>
+            <stage>Entrée de suivants de la Fortune.</stage>
+          </sp>
+          <sp who="un-masque" xml:id="III03-3">
+            <speaker>un masque</speaker>
+            <l n="341" xml:id="l341">De tes rigueurs,</l>
+            <l n="342" xml:id="l342">Ni de tes faveurs,</l>
+            <l n="343" xml:id="l343">Fortune inconstante,</l>
+            <l n="344" xml:id="l344">Je ne crains rien, rien ne me tente ;</l>
+            <l n="345" xml:id="l345">Tout ton pouvoir</l>
+            <l n="346" xml:id="l346">Ne fait ni ma crainte ni mon espoir.’</l>
+            <l n="347" xml:id="l347">Le bien qui peut enchanter mon âme,</l>
+            <l n="348" xml:id="l348">Est de brûler d’une constante flamme,</l>
+            <l n="349" xml:id="l349">Et d’allumer de semblables feux.</l>
+            <l n="350" xml:id="l350">Deux yeux</l>
+            <l n="351" xml:id="l351">Touchants,</l>
+            <l n="352" xml:id="l352">Charmants,</l>
+            <l n="353" xml:id="l353">Élèvent mon sort aux cieux ;</l>
+            <l n="354" xml:id="l354">Sans cesse je les implore,</l>
+            <l n="355" xml:id="l355">Je les adore ;</l>
+            <l n="356" xml:id="l356">Ce sont mes rois, ma fortune, et mes dieux.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="III04">
+          <head>SCÈNE IV</head>
+          <stage>Le théâtre change, et représente une vue de plusieurs palais ou balcons. Le reste de l’acte se passe pendant la nuit.</stage>
+          <sp who="rodolphe" xml:id="III04-1">
+            <speaker>rodolphe, seul</speaker>
+            <l n="357" xml:id="l357">De ses voiles épais la nuit couvre les cieux.</l>
+            <l n="358" xml:id="l358">Je sais que mon rival, dans l’ardeur qui le presse,</l>
+            <l n="359" xml:id="l359">Doit ici, par ses chants, exprimer sa tendresse ;</l>
+            <l n="360" xml:id="l360">Pour l’observer, cachons-nous en ces lieux.</l>
+            <stage>Il se retire dans un coin du théâtre.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="III05">
+          <head>SCÈNE V</head>
+          <stage>Léandre conduit une troupe de Musiciens, pour donner une sérénade à Isabelle.</stage>
+          <sp who="leandre" xml:id="III05-1">
+            <speaker>léandre</speaker>
+            <l n="361" xml:id="l361">Doux charme des ennuis et des peines pressantes,</l>
+            <l n="362" xml:id="l362">Favorable divinité,</l>
+            <l n="363" xml:id="l363">Sommeil, qui, dans ta fausseté</l>
+            <l n="364" xml:id="l364">De tes illusions charmantes,</l>
+            <l n="365" xml:id="l365">Nous fais goûter la vérité</l>
+            <l n="366" xml:id="l366">De cent douceurs des plus touchantes,</l>
+            <l n="367" xml:id="l367">Viens verser sur cette beauté</l>
+            <l n="368" xml:id="l368">De tes pavots les vapeurs les plus lentes ;</l>
+            <l n="369" xml:id="l369">Et fais que son cœur enchanté</l>
+            <l n="370" xml:id="l370">Jouisse du repos que ses yeux m’ont ôté.</l>
+            <stage>Les Musiciens se joignent à Léandre, et chantent le trio italien qui suit.</stage>
+          </sp>
+          <sp who="trio-italien" xml:id="III05-2">
+            <speaker>trio italien</speaker>
+            <l n="371" xml:id="l371">Luci belle, dormite ;</l>
+            <l n="372" xml:id="l372">Deh ! Per pietà, un momento cessate,</l>
+            <l n="373" xml:id="l373">Con i dardi</l>
+            <l n="374" xml:id="l374">De’ vostri sguardi,</l>
+            <l n="375" xml:id="l375">Di rinnovar al cor le mie ferite.</l>
+          </sp>
+          <sp who="leandre" xml:id="III05-3">
+            <speaker>léandre, apercevant quelqu’un au balcon d’isabelle</speaker>
+            <l n="376" xml:id="l376">L’Amour me favorise, et je vois dans ces lieux</l>
+            <l n="377" xml:id="l377">Une clarté nouvelle ;</l>
+            <l n="378" xml:id="l378">N’en doutez point, mes yeux,</l>
+            <l n="379" xml:id="l379">C’est l’Aurore, ou c’est Isabelle.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6" xml:id="III06">
+          <head>SCÈNE VI</head>
+          <sp who="isabelle" xml:id="III06-1">
+            <speaker>isabelle, sur le balcon</speaker>
+            <l n="380" xml:id="l380">Mi dice la speranza</l>
+            <l n="381" xml:id="l381">Ch’ il tormento</l>
+            <l n="382" xml:id="l382">In contento</l>
+            <l n="383" xml:id="l383">Si cangerà.</l>
+            <l n="384" xml:id="l384">Tra le spine nascosa</l>
+            <l n="385" xml:id="l385">Si trova la rosa ;</l>
+            <l n="386" xml:id="l386">Frà le pene Amor trionfera.</l>
+            <stage>TRADUCTION DU TRIO ITALIEN.</stage>
+            <l n="387" xml:id="l387">Dormez, beaux yeux, dormez sans craintes ;</l>
+            <l n="388" xml:id="l388">Et cessez un moment, avec vos traits vainqueurs,</l>
+            <l n="389" xml:id="l389">De renouveler les atteintes</l>
+            <l n="390" xml:id="l390">Dont vous percez les cœurs.</l>
+            <stage>TRADUCTION DE L’AIR ITALIEN.</stage>
+            <l n="391" xml:id="l391">L’espérance me dit que nos peines mortelles</l>
+            <l n="392" xml:id="l392">Se changeront en des plaisirs charmants.</l>
+            <l n="393" xml:id="l393">Parmi les épines cruelles</l>
+            <l n="394" xml:id="l394">On voit les roses les plus belles ;</l>
+            <l n="395" xml:id="l395">L’Amour doit triompher au milieu des tourments.</l>
+          </sp>
+          <sp who="leandre" xml:id="III06-2">
+            <speaker>léandre</speaker>
+            <l n="396" xml:id="l396">Quelle félicité peut égaler la mienne !</l>
+            <l n="397" xml:id="l397">Il faut quitter ce lieu charmant ;</l>
+            <l n="398" xml:id="l398">Un jaloux s’endort avec peine,</l>
+            <l n="399" xml:id="l399">Mais il se réveille aisément.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="7" xml:id="III07">
+          <head>SCÈNE VII</head>
+          <sp who="rodolphe" xml:id="III07-1">
+            <speaker>rodolphe, sortant du lieu où il était caché</speaker>
+            <l n="400" xml:id="l400">Je me suis fait trop longtemps violence,</l>
+            <l n="401" xml:id="l401">Je ne puis plus cacher mes transports furieux.</l>
+            <l n="402" xml:id="l402">Où donc est cet audacieux ?</l>
+            <l n="403" xml:id="l403">Mais il fuit en vain ma présence ;</l>
+            <l n="404" xml:id="l404">Avant que le soleil paraisse dans ces lieux,</l>
+            <l n="405" xml:id="l405">Les ministres de ma vengeance</l>
+            <l n="406" xml:id="l406">Éteindront dans son sang des feux injurieux.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="8" xml:id="III08">
+          <head>SCÈNE VIII</head>
+          <stage>Isabelle, Rodolphe.</stage>
+          <sp who="isabelle" xml:id="III08-1">
+            <speaker>isabelle, croyant parler à léandre</speaker>
+            <l n="407" xml:id="l407">Je cède à mon impatience ;</l>
+            <l n="408" xml:id="l408">Et tandis que la nuit triomphe encor du jour,</l>
+            <l n="409" xml:id="l409">Cher Léandre, je viens, conduite par l’amour,</l>
+            <l n="410" xml:id="l410">Vous dire de mes feux toute la violence.</l>
+            <l n="411" xml:id="l411">Quel plaisir de tromper et les soins et les yeux</l>
+            <l n="412" xml:id="l412">D’un jaloux importun qui m’obsède en tous lieux !</l>
+            <l n="413" xml:id="l413">Que je le hais ! Que son amour me gêne !</l>
+            <l n="414" xml:id="l414">Rien n’est comparable à la haine</l>
+            <l n="415" xml:id="l415">Que je ressens pour ce jaloux,</l>
+            <l n="416" xml:id="l416">Que l’amour violent dont je brûle pour vous.</l>
+          </sp>
+          <sp who="rodolphe" xml:id="III08-2">
+            <speaker>rodolphe</speaker>
+            <l n="417" xml:id="l417" part="I">Ingrate !</l>
+          </sp>
+          <sp who="isabelle" xml:id="III08-3">
+            <speaker>isabelle</speaker>
+            <l n="417" part="F">Ah, ciel !</l>
+          </sp>
+          <sp who="rodolphe" xml:id="III08-4">
+            <speaker>rodolphe</speaker>
+            <l n="417" part="F">Ma voix t’étonne.</l>
+            <l n="418" xml:id="l418">Je sais les trahisons où ton cœur s’abandonne.</l>
+          </sp>
+          <sp who="isabelle" xml:id="III08-5">
+            <speaker>isabelle</speaker>
+            <l n="419" xml:id="l419">Si le sort trahit votre espoir,</l>
+            <l n="420" xml:id="l420">C’est à vous qu’il faut vous en prendre ;</l>
+            <l n="421" xml:id="l421">Pourquoi cherchez-vous à savoir</l>
+            <l n="422" xml:id="l422">Ce qu’on ne veut pas vous apprendre ?</l>
+          </sp>
+          <sp who="rodolphe" xml:id="III08-6">
+            <speaker>rodolphe</speaker>
+            <l n="423" xml:id="l423" part="I">Ô dieux !</l>
+          </sp>
+          <sp who="isabelle" xml:id="III08-7">
+            <speaker>isabelle</speaker>
+            <l n="423" part="F">Me m’aimez plus, rompez, rompez des nœuds</l>
+            <l n="424" xml:id="l424">Qui ne sauraient vous rendre heureux.</l>
+          </sp>
+          <sp who="rodolphe" xml:id="III08-8">
+            <speaker>rodolphe</speaker>
+            <l n="425" xml:id="l425">Puis-je briser la chaîne qui m’accable ?</l>
+            <l n="426" xml:id="l426">Mon cœur par vos attraits s’est trop laissé charmer ;</l>
+            <l n="427" xml:id="l427">Si vous ne voulez pas m’aimer,</l>
+            <l n="428" xml:id="l428">Souffrez du moins que je vous trouve aimable.</l>
+            <l n="429" xml:id="l429">Je veux vous adorer malgré moi, malgré vous ;</l>
+            <l n="430" xml:id="l430">J’espère que le temps rendra mon sort plus doux.</l>
+          </sp>
+          <sp who="isabelle" xml:id="III08-9">
+            <speaker>isabelle</speaker>
+            <l n="431" xml:id="l431">Dans mes yeux vous avez pu lire</l>
+            <l n="432" xml:id="l432">Le sort que vous gardait mon cœur :</l>
+            <l n="433" xml:id="l433">Jamais d’aucun regard flatteur</l>
+            <l n="434" xml:id="l434">Ai-je entrepris de vous séduire ?</l>
+            <l n="435" xml:id="l435">Ah ! Quand on ressent quelque ardeur,</l>
+            <l n="436" xml:id="l436">Les yeux sont-ils si longtemps à le dire ?</l>
+          </sp>
+          <sp who="rodolphe" xml:id="III08-10">
+            <speaker>rodolphe</speaker>
+            <l n="437" xml:id="l437">Pour rendre le calme à mes sens,</l>
+            <l n="438" xml:id="l438">Et pour payer I’amour dont mon âme est atteinte,</l>
+            <l n="439" xml:id="l439">Dites que vous m’aimez, trompez-moi, j’y consens ;</l>
+            <l n="440" xml:id="l440">Cette fausse pitié, cette cruelle feinte,</l>
+            <l n="441" xml:id="l441">Peut-être calmeront les douleurs que je sens.</l>
+          </sp>
+          <sp who="isabelle" xml:id="III08-11">
+            <speaker>isabelle</speaker>
+            <l n="442" xml:id="l442">C’est une peine, quand on aime,</l>
+            <l n="443" xml:id="l443">D’avouer un penchant qu’on trouve plein d’appas ;</l>
+            <l n="444" xml:id="l444">Ce serait un supplice extrême</l>
+            <l n="445" xml:id="l445">De déclarer des feux que l’on ne ressent pas.</l>
+          </sp>
+          <sp who="rodolphe" xml:id="III08-12">
+            <speaker>rodolphe</speaker>
+            <l n="446" xml:id="l446">Mon tendre amour, de votre haine</l>
+            <l n="447" xml:id="l447">Ne sera-t-il jamais victorieux 3</l>
+            <l n="448" xml:id="l448">Vous gardez le silence ; insensible ! Inhumaine !</l>
+          </sp>
+          <sp who="isabelle" xml:id="III08-13">
+            <speaker>isabelle</speaker>
+            <l n="449" xml:id="l449">L’aurore va paraître, il faut quitter ces lieux.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="9" xml:id="III09">
+          <head>SCÈNE IX</head>
+          <stage>Rodolphe, seul.</stage>
+          <sp who="rodolphe" xml:id="III09-1">
+            <speaker>rodolphe, seul</speaker>
+            <l n="450" xml:id="l450">Pour trouver un amant qu’en vain ton cœur adore,</l>
+            <l n="451" xml:id="l451">La nuit n’a point d’horreur pour toi ;</l>
+            <l n="452" xml:id="l452">Et tu crains avec moi</l>
+            <l n="453" xml:id="l453">Le retour de l’aurore !</l>
+            <l n="454" xml:id="l454">Va, cours chercher ce rival odieux</l>
+            <l n="455" xml:id="l455">Qui de ton cœur s’est rendu maître ;</l>
+            <l n="456" xml:id="l456">Tes mépris trop injurieux</l>
+            <l n="457" xml:id="l457">Étouffent tout l’amour que j’ai pris dans tes yeux :</l>
+            <l n="458" xml:id="l458">Mais mon juste dépit te fera bien connaître</l>
+            <l n="459" xml:id="l459">Que, si je sais aimer, je hais encore mieux.</l>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="acte" n="4" xml:id="IV">
+        <head>ACTE III</head>
+        <stage>Le théâtre représente une place de Venise, environnée de palais magnifiques, où se rendent quantités de canaux couverts de gondoles.</stage>
+        <div2 type="scene" n="1" xml:id="IV01">
+          <head>SCÈNE I</head>
+          <sp who="leonore" xml:id="IV01-1">
+            <speaker>léonore, seule</speaker>
+            <l n="460" xml:id="l460">Transports de vengeance et de haine,</l>
+            <l n="461" xml:id="l461">Succédez à l’amour qui régnait dans mon cœur ;</l>
+            <l n="462" xml:id="l462">Mon ingrat va périr, et sa mort est certaine ;</l>
+            <l n="463" xml:id="l463">Peut-être en ce moment une main inhumaine...</l>
+            <l n="464" xml:id="l464">Je tremble. Je frémis d’horreur.</l>
+            <l n="465" xml:id="l465">Barbares... Arrêtez... Votre fureur est vaine ;</l>
+            <l n="466" xml:id="l466">L’ingrat que vous percez cause encor ma langueur.</l>
+            <l n="467" xml:id="l467">Transports de vengeance et de haine,</l>
+            <l n="468" xml:id="l468">Ne chassez point l’amour qui flatte encor mon cœur.</l>
+            <l n="469" xml:id="l469">Mais il vit pour une autre ! Une pitié soudaine</l>
+            <l n="470" xml:id="l470">Doit-elle s’opposer à mon dépit vengeur ?</l>
+            <l n="471" xml:id="l471">Ministres qui servez le courroux qui m’entraîne,</l>
+            <l n="472" xml:id="l472">Frappez... et qu’en mourant, cet infidèle apprenne</l>
+            <l n="473" xml:id="l473">Que je l’immole à ma fureur.</l>
+            <l n="474" xml:id="l474">Transports de vengeance et de haine,</l>
+            <l n="475" xml:id="l475">Succédez à l’amour qui régnait dans mon cœur.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="IV02">
+          <head>SCÈNE II</head>
+          <stage>Rodolphe, Léonore.</stage>
+          <sp who="rodolphe" xml:id="IV02-1">
+            <speaker>rodolphe</speaker>
+            <l n="476" xml:id="l476">À la fin vous êtes vengée :</l>
+            <l n="477" xml:id="l477">J’ai servi le juste transport</l>
+            <l n="478" xml:id="l478">De notre tendresse outragée :</l>
+            <l n="479" xml:id="l479">Votre ingrat ne vit plus, et mon rival est mort.</l>
+          </sp>
+          <sp who="leonore" xml:id="IV02-2">
+            <speaker>léonore</speaker>
+            <l n="480" xml:id="l480">Il est mort, justes dieux ! Ma bouche impitoyable</l>
+            <l n="481" xml:id="l481">A prononcé l’arrêt de son trépas.</l>
+            <l n="482" xml:id="l482">Qu’ai-je fait, malheureuse ? Hélas !</l>
+          </sp>
+          <sp who="rodolphe" xml:id="IV02-3">
+            <speaker>rodolphe</speaker>
+            <l n="483" xml:id="l483">Il ne vit plus ; et le ciel redoutable,</l>
+            <l n="484" xml:id="l484">S’il respirait encor, ne le sauverait pas.</l>
+          </sp>
+          <sp who="leonore" xml:id="IV02-4">
+            <speaker>léonore</speaker>
+            <l n="485" xml:id="l485">Tu l’as souffert, ô ciel ! Et ta main équitable</l>
+            <l n="486" xml:id="l486">Ne punit point ces attentats !</l>
+            <l n="487" xml:id="l487">Que fais-tu ? Qui retient ton bras ?</l>
+            <l n="488" xml:id="l488">Lance ta foudre épouvantable ;</l>
+            <l n="489" xml:id="l489">Sur ce traître ou sur moi fais voler ses éclats,</l>
+            <l n="490" xml:id="l490">Tu ne saurais manquer de frapper un coupable.</l>
+          </sp>
+          <stage>Deux vers ensemble.</stage>
+          <sp who="leonore" xml:id="IV02-5">
+            <speaker>léonore</speaker>
+            <l n="491" xml:id="l491">C’est toi qui lui perces le cœur.</l>
+          </sp>
+          <sp who="rodolphe" xml:id="IV02-6">
+            <speaker>rodolphe</speaker>
+            <l n="492" xml:id="l492">C’est vous qui lui percez le cœur.</l>
+          </sp>
+          <sp who="leonore" xml:id="IV02-7">
+            <speaker>léonore</speaker>
+            <l n="493" xml:id="l493">Cruel, dis-moi quel est son crime.</l>
+          </sp>
+          <sp who="rodolphe" xml:id="IV02-8">
+            <speaker>rodolphe</speaker>
+            <l n="494" xml:id="l494">Vous demandiez une victime.</l>
+            <stage>Quatre vers ensemble.</stage>
+          </sp>
+          <sp who="leonore" xml:id="IV02-9">
+            <speaker>léonore</speaker>
+            <l n="495" xml:id="l495">Devais-tu croire mon ardeur ?</l>
+          </sp>
+          <sp who="rodolphe" xml:id="IV02-10">
+            <speaker>rodolphe</speaker>
+            <l n="496" xml:id="l496">Deviez-vous armer ma fureur ?</l>
+          </sp>
+          <sp who="leonore" xml:id="IV02-11">
+            <speaker>léonore</speaker>
+            <l n="497" xml:id="l497">C’est toi qui lui perces le cœur.</l>
+          </sp>
+          <sp who="rodolphe" xml:id="IV02-12">
+            <speaker>rodolphe</speaker>
+            <l n="498" xml:id="l498">C’est vous qui lui percez le cœur.</l>
+          </sp>
+          <sp who="rodolphe" xml:id="IV02-13">
+            <speaker>rodolphe</speaker>
+            <l n="499" xml:id="l499">Calmez les déplaisirs dont votre âme est saisie.</l>
+            <l n="500" xml:id="l500">Pour oublier leur perfidie,</l>
+            <l n="501" xml:id="l501">Aimons-nous, unissons nos cœurs ;</l>
+            <l n="502" xml:id="l502">Et qu’un amour formé de nos communs malheurs</l>
+            <l n="503" xml:id="l503">Soit le fruit de la jalousie.</l>
+          </sp>
+          <sp who="leonore" xml:id="IV02-14">
+            <speaker>léonore</speaker>
+            <l n="504" xml:id="l504">Que je m’unisse à toi,</l>
+            <l n="505" xml:id="l505">Monstre sorti de I’infernal empire !</l>
+            <l n="506" xml:id="l506">Va... Fuis... Je frémis d’effroi,</l>
+            <l n="507" xml:id="l507">Que le jour que je vois,</l>
+            <l n="508" xml:id="l508">Que l’air que je respire</l>
+            <l n="509" xml:id="l509">Me soient communs avec toi.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="IV03">
+          <head>SCÈNE III</head>
+          <sp who="rodolphe" xml:id="IV03-1">
+            <speaker>rodolphe, seul</speaker>
+            <l n="510" xml:id="l510">Laissons de ses regrets calmer la violence.</l>
+            <stage>On entend un bruit de réjouissances.</stage>
+            <l n="511" xml:id="l511">Mais le parti victorieux</l>
+            <l n="512" xml:id="l512">Du combat que le peuple a donné dans ces lieux</l>
+            <l n="513" xml:id="l513">Vient montrer sa réjouissance.</l>
+            <l n="514" xml:id="l514">Allons faire savoir à l’objet qui m’offense</l>
+            <l n="515" xml:id="l515">Un trépas dont son cœur sera saisi d’effroi ;</l>
+            <l n="516" xml:id="l516">Je perds le prix de ma vengeance,</l>
+            <l n="517" xml:id="l517">Si l’ingrate l’apprend d’un autre que de moi.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="IV04">
+          <head>SCÈNE IV</head>
+          <stage>Divertissement de Castellans et de Barquerolles, avec le fifre et le tambourin.</stage>
+          <stage>Les Castellans et les Nicolotes sont deux partis opposés dans Venise, qui donnent pendant le carnaval, pour divertir le peuple, ou combat à coups de poing pour se rendre maîtres d’un pont. Le parti victorieux se promène dans tonte la ville, avec des cris de joie et des acclamations publiques.</stage>
+          <sp who="un-chef-des-castellans" xml:id="IV04-1">
+            <speaker>un chef de castellans</speaker>
+            <l n="518" xml:id="l518">Nous triomphons sur les eaux, sur la terre ;</l>
+            <l n="519" xml:id="l519">Nous mêlons dans nos jeux l’image de la guerre :</l>
+            <l n="520" xml:id="l520">Mêlons aussi dans ce beau jour</l>
+            <l n="521" xml:id="l521">Qui nous comble de gloire,</l>
+            <l n="522" xml:id="l522">Des chansons d’amour</l>
+            <l n="523" xml:id="l523">Aux chants de victoire,</l>
+            <l n="524" xml:id="l524">Des chansons d’amour</l>
+            <l n="525" xml:id="l525">Au son du tambour.</l>
+          </sp>
+          <sp who="le-chœur" xml:id="IV04-2">
+            <speaker>le chœur</speaker>
+            <l n="526" xml:id="l526">Nous triomphons sur les eaux, sur la terre ;</l>
+            <l n="527" xml:id="l527">Nous mêlons dans nos jeux l’image de la guerre :</l>
+            <l n="528" xml:id="l528">Mêlons aussi dans ce beau jour</l>
+            <l n="529" xml:id="l529">Qui nous comble de gloire,</l>
+            <l n="530" xml:id="l530">Des chansons d’amour</l>
+            <l n="531" xml:id="l531">Aux chants de victoire,</l>
+            <l n="532" xml:id="l532">Des chansons d’amour</l>
+            <l n="533" xml:id="l533">Au son du tambour.</l>
+            <stage>Des Castellans et des Castellanes témoignent, par leur danse, la joie qu’ils ont de leur victoire.</stage>
+          </sp>
+          <sp who="une-castellane" xml:id="IV04-3">
+            <speaker>une castellane</speaker>
+            <l n="534" xml:id="l534">Entre la crainte et l’espérance,</l>
+            <l n="535" xml:id="l535">Sur le sein de Neptune, on est à tous moments ;</l>
+            <l n="536" xml:id="l536">L’empire de l’Amour n’a pas plus de constance,</l>
+            <l n="537" xml:id="l537">Et l’on y voit flotter sans cesse les amants</l>
+            <l n="538" xml:id="l538">Entre la crainte et l’espérance.</l>
+            <stage>Le parti victorieux recommence la danse.</stage>
+          </sp>
+          <sp who="un-barquerolle" xml:id="IV04-4">
+            <speaker>un barquerolle</speaker>
+            <l n="539" xml:id="l539">Embarquez-vous,</l>
+            <l n="540" xml:id="l540">Amants, sans faire résistance ;</l>
+            <l n="541" xml:id="l541">Embarquez-vous,</l>
+            <l n="542" xml:id="l542">L’empire de l’Amour est doux.</l>
+            <l n="543" xml:id="l543">C’est une mer toujours sujette à l’inconstance,</l>
+            <l n="544" xml:id="l544">Que quelque orage à tout moment vient agiter ;</l>
+            <l n="545" xml:id="l545">Malgré ces maux, le calme de l’indifférence</l>
+            <l n="546" xml:id="l546">Est encor plus cent fois à redouter.</l>
+            <stage>Entrée de gondoliers et de gondolières.</stage>
+          </sp>
+          <sp who="le-chœur" xml:id="IV04-5">
+            <speaker>le chœur</speaker>
+            <l n="547" xml:id="l547">Tout rit à nos désirs,</l>
+            <l n="548" xml:id="l548">Ne songeons qu’aux plaisirs ;</l>
+            <l n="549" xml:id="l549">Que le vent gronde,</l>
+            <l n="550" xml:id="l550">Que la mer soulève les flots,</l>
+            <l n="551" xml:id="l551">Que le ciel en feu leur réponde,</l>
+            <l n="552" xml:id="l552">Nous goûtons ici le repos.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="IV05">
+          <head>SCÈNE V</head>
+          <sp who="isabelle" xml:id="IV05-1">
+            <speaker>isabelle, seule</speaker>
+            <l n="553" xml:id="l553">Mes yeux, fermez-vous à jamais,</l>
+            <l n="554" xml:id="l554">Ou ne vous ouvrez plus que pour verser des larmes.</l>
+            <l n="555" xml:id="l555">Le jour est pour moi désormais</l>
+            <l n="556" xml:id="l556">Un sujet de peine et d’alarmes.</l>
+            <l n="557" xml:id="l557">Mes yeux, fermez-vous à jamais,</l>
+            <l n="558" xml:id="l558">Ou ne vous ouvrez plus que pour verser des larmes.</l>
+            <l n="559" xml:id="l559">Je suis coupable de vos charmes,</l>
+            <l n="560" xml:id="l560">J’ai trop fait briller vos attraits ;</l>
+            <l n="561" xml:id="l561">Et je veux, par les mêmes armes,</l>
+            <l n="562" xml:id="l562">Me punir des maux que j’ai faits.</l>
+            <l n="563" xml:id="l563">Mes yeux, fermez-vous à jamais,</l>
+            <l n="564" xml:id="l564">Ou ne vous ouvrez plus que pour verser des larmes.</l>
+            <l n="565" xml:id="l565">Mais que servent, hélas ! Ces regrets superflus ?</l>
+            <l n="566" xml:id="l566">Cher Léandre, tu ne vis plus.</l>
+            <l n="567" xml:id="l567">Quand tu descends pour moi dans la nuit éternelle,</l>
+            <l n="568" xml:id="l568">Doit-il m’être permis de voir encor le jour ?</l>
+            <l n="569" xml:id="l569">Non, non : pour me rejoindre à cet amant fidèle,</l>
+            <l n="570" xml:id="l570">La plus affreuse mort me paraîtra trop belle,</l>
+            <l n="571" xml:id="l571">Et ce fer doit ouvrir un chemin à I’amour.</l>
+            <stage>Elle tire son stylet pour s’en frapper.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6" xml:id="IV06">
+          <head>SCÈNE VI</head>
+          <stage>Léandre, Isabelle.</stage>
+          <sp who="leandre" xml:id="IV06-1">
+            <speaker>léandre, lui arrêtant le bras</speaker>
+            <l n="572" xml:id="l572">Ciel ! Que voulez-vous entreprendre ?</l>
+          </sp>
+          <sp who="isabelle" xml:id="IV06-2">
+            <speaker>isabelle</speaker>
+            <l n="573" xml:id="l573">Dois-je en croire mes yeux ? Est-ce vous, cher Léandre ?</l>
+          </sp>
+          <sp who="leandre" xml:id="IV06-3">
+            <speaker>léandre</speaker>
+            <l n="574" xml:id="l574">Quelle aveugle fureur vous arrache le jour ?</l>
+          </sp>
+          <sp who="isabelle" xml:id="IV06-4">
+            <speaker>isabelle</speaker>
+            <l n="575" xml:id="l575">Le bruit de votre mort causait seul mes alarmes ;</l>
+            <l n="576" xml:id="l576">Mon sang versé, mieux que mes larmes,</l>
+            <l n="577" xml:id="l577">Vous allait prouver mon amour.</l>
+          </sp>
+          <sp who="leandre" xml:id="IV06-5">
+            <speaker>léandre</speaker>
+            <l n="578" xml:id="l578">Quoi ! Vous mouriez pour moi ! Dieux ! Quelle barbarie</l>
+            <l n="579" xml:id="l579">De votre sort hâtait le cours ?</l>
+            <l n="580" xml:id="l580">Hélas ! Toute ma vie</l>
+            <l n="581" xml:id="l581">Ne vaut pas un seul de vos jours.</l>
+            <l n="582" xml:id="l582">Un jaloux, que la rage anime,</l>
+            <l n="583" xml:id="l583">Vient de faire éclater son barbare courroux ;</l>
+            <l n="584" xml:id="l584">Il a porté les mains sur une autre victime,</l>
+            <l n="585" xml:id="l585">Et la nuit et l’Amour m’ont sauvé de ses coups.</l>
+          </sp>
+          <sp who="isabelle" xml:id="IV06-6">
+            <speaker>isabelle</speaker>
+            <l n="586" xml:id="l586">Je revois enfin ce que j’aime ;</l>
+            <l n="587" xml:id="l587">L’excès de mon bonheur se peut-il concevoir ?</l>
+            <l n="588" xml:id="l588">Je crains que le plaisir extrême</l>
+            <l n="589" xml:id="l589">Que je sens à vous voir</l>
+            <l n="590" xml:id="l590">Ne fasse sur mes jours l’effet du désespoir.</l>
+          </sp>
+          <sp who="leandre" xml:id="IV06-7">
+            <speaker>léandre</speaker>
+            <l n="591" xml:id="l591">Vivons pour nous aimer, vivons, malgré l’envie ;</l>
+            <l n="592" xml:id="l592">Nous triomphons des jaloux et du sort.</l>
+            <l n="593" xml:id="l593">Que notre crainte soit suivie</l>
+            <l n="594" xml:id="l594">Du plus tendre transport.</l>
+            <l n="595" xml:id="l595">Aimez-moi, tout vous y convie :</l>
+            <l n="596" xml:id="l596">Si vous vouliez donner votre sang à ma mort,</l>
+            <l n="597" xml:id="l597">Hélas ! Que pourriez-vous refuser à ma vie ?</l>
+          </sp>
+          <sp who="leandre-isabelle" xml:id="IV06-8">
+            <speaker>ensemble</speaker>
+            <l n="598" xml:id="l598">Suivons nos doux emportements,</l>
+            <l n="599" xml:id="l599">Aimons-nous d’une ardeur nouvelle ;</l>
+            <l n="600" xml:id="l600">Quand l’Amour au jour nous rappelle,</l>
+            <l n="601" xml:id="l601">Nous lui devons tous nos moments.</l>
+          </sp>
+          <sp who="leandre" xml:id="IV06-9">
+            <speaker>léandre</speaker>
+            <l n="602" xml:id="l602">Fuyons un lieu funeste à de tendres amants.</l>
+          </sp>
+          <sp who="isabelle" xml:id="IV06-10">
+            <speaker>isabelle</speaker>
+            <l n="603" xml:id="l603">Je fais mon bonheur de vous suivre.</l>
+            <l n="604" xml:id="l604">Je vous allais chercher dans le sein du trépas ;</l>
+            <l n="605" xml:id="l605">Lorsque pour moi l’amour vous fait revivre,</l>
+            <l n="606" xml:id="l606">Qui pourrait m’empêcher de voler sur vos pas ?</l>
+          </sp>
+          <sp who="leandre" xml:id="IV06-11">
+            <speaker>léandre</speaker>
+            <l n="607" xml:id="l607">On doit donner au peuple, en ce jour favorable,</l>
+            <l n="608" xml:id="l608">Un spectacle où d’Orphée on retrace la fable ;</l>
+            <l n="609" xml:id="l609">Un bal pompeux doit suivre ces plaisirs ;</l>
+            <l n="610" xml:id="l610">Le tumulte et la nuit serviront nos désirs.</l>
+            <l n="611" xml:id="l611">Je vais en ce lieu vous attendre :</l>
+            <l n="612" xml:id="l612">Un vaisseau par mes soins dans le port va se rendre,</l>
+            <l n="613" xml:id="l613">Pour nous porter en des climats plus doux,</l>
+            <l n="614" xml:id="l614">Où nous pourrons braver la fureur des jaloux,</l>
+            <l n="615" xml:id="l615">Et goûter les douceurs de l’hymen le plus tendre.</l>
+            <stage>Pendant que les violons jouent l’entracte, on voit descendre un théâtre fermé d’une toile, qui occupe toute l’étendue du premier. Ce qui reste d’espace jusqu’à l’orchestre, contient plusieurs rangs de loges pleines de différentes personnes placées pour voir un opéra.</stage>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="acte" n="5" xml:id="V">
+        <head>ORPHÉE AUX ENFERS, OPÉRA</head>
+        <div2 type="scene" n="1" xml:id="V01">
+          <head>SCÈNE I</head>
+          <stage>Pluton, au milieu d’une troupe de divinités infernales.</stage>
+          <sp who="pluton" xml:id="V01-1">
+            <speaker>pluton</speaker>
+            <l n="616" xml:id="l616">Dieux des enfers, aux armes !</l>
+          </sp>
+          <sp who="le-chœur" xml:id="V01-2">
+            <speaker>le chœur</speaker>
+            <l n="617" xml:id="l617">Aux armes ! Aux armes !</l>
+          </sp>
+          <sp who="pluton" xml:id="V01-3">
+            <speaker>pluton</speaker>
+            <l n="618" xml:id="l618">Un mortel insolent, malgré la loi du sort,</l>
+            <l n="619" xml:id="l619">Dans les royaumes de la Mort</l>
+            <l n="620" xml:id="l620">Descend encor vivant, et cause mes alarmes.</l>
+            <l n="621" xml:id="l621">Aux armes ! Aux armes ! ’</l>
+            <l n="622" xml:id="l622">Le Tartare frémit,</l>
+            <l n="623" xml:id="l623">L’Érèbe gémit,</l>
+            <l n="624" xml:id="l624">Cerbère mugit.</l>
+            <l n="625" xml:id="l625">Dieux des enfers, aux armes !</l>
+          </sp>
+          <sp who="le-chœur" xml:id="V01-4">
+            <speaker>le chœur</speaker>
+            <l n="626" xml:id="l626">Aux armes ! Aux armes !</l>
+            <l n="627" xml:id="l627">On entend une symphonie très douce.</l>
+          </sp>
+          <sp who="pluton" xml:id="V01-5">
+            <speaker>pluton</speaker>
+            <l n="628" xml:id="l628">Mais quels chants remplis de douceur !</l>
+            <l n="629" xml:id="l629">Quelle douce harmonie</l>
+            <l n="630" xml:id="l630">Chasse la barbarie</l>
+            <l n="631" xml:id="l631">D’un cœur comme le mien, ouvert à la fureur !</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="V02">
+          <head>SCÈNE II</head>
+          <stage>Orphée, Pluton.</stage>
+          <sp who="orphee" xml:id="V02-1">
+            <speaker>orphée</speaker>
+            <l n="632" xml:id="l632">Puissant maître des Ombres,</l>
+            <l n="633" xml:id="l633">À ton trône enflammé l’Amour conduit mes pas :</l>
+            <l n="634" xml:id="l634">La charmante Eurydice, hélas !</l>
+            <l n="635" xml:id="l635">A passé les rivages sombres ;</l>
+            <l n="636" xml:id="l636">Rends-moi cet objet plein d’appas,</l>
+            <l n="637" xml:id="l637">Ou, par pitié, donne-moi le trépas.</l>
+          </sp>
+          <sp who="pluton" xml:id="V02-2">
+            <speaker>pluton</speaker>
+            <l n="638" xml:id="l638">Plus loin que ton espoir tu portes ta demande ;</l>
+            <l n="639" xml:id="l639">Mais Pluton y consent, si l’Amour le commande.</l>
+            <l n="640" xml:id="l640">Pars ; sors du ténébreux séjour :</l>
+            <l n="641" xml:id="l641">Mais je prétends qu’une loi s’accomplisse ;</l>
+            <l n="642" xml:id="l642">Ne regarde point Eurydice,</l>
+            <l n="643" xml:id="l643">Que tu ne sois rendu dans l’empire du jour.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="V03">
+          <head>SCÈNE III</head>
+          <sp who="orphee" xml:id="V03-1">
+            <speaker>orphée</speaker>
+            <l n="644" xml:id="l644">Mon cœur, chantez votre victoire,</l>
+            <l n="645" xml:id="l645">L’Amour est couronné de gloire.</l>
+            <l n="646" xml:id="l646">Les ris et les chants</l>
+            <l n="647" xml:id="l647">À la douleur succèdent,</l>
+            <l n="648" xml:id="l648">Les enfers cèdent</l>
+            <l n="649" xml:id="l649">Aux charmes de deux yeux touchants.</l>
+            <stage>Entrée de Divinités infernales et d’Esprits follets.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="" xml:id="V04">
+          <head>SCÈNE IV</head>
+          <sp who="ombre-heureuse" xml:id="V04-1">
+            <speaker>ombre heureuse</speaker>
+            <l n="650" xml:id="l650">Soutienne qui pourra les traits et les éclairs</l>
+            <l n="651" xml:id="l651">Q’on voit partir d’un beau visage ;</l>
+            <l n="652" xml:id="l652">La beauté dans les cieux trouve un aisé passage,</l>
+            <l n="653" xml:id="l653">Et se fait même ouvrir les portes des enfers.</l>
+            <stage>On recommence la danse.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="V05">
+          <head>SCÈNE V</head>
+          <sp who="eurydice" xml:id="V05-1">
+            <speaker>eurydice, seule</speaker>
+            <l n="654" xml:id="l654">Pour plaire à l’objet qui m’enflamme,</l>
+            <l n="655" xml:id="l655">Amours, volez tous dans mon âme ;</l>
+            <l n="656" xml:id="l656">Fuyez, peines, soupirs, ne revenez jamais</l>
+            <l n="657" xml:id="l657">De mon cœur amoureux interrompre la paix.</l>
+            <stage>On recommence.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6" xml:id="V06">
+          <head>SCÈNE VI</head>
+          <stage>Orphée, Eurydice.</stage>
+          <stage>Orphée passe sans regarder Eurydice.</stage>
+          <sp who="eurydice" xml:id="V06-1">
+            <speaker>eurydice</speaker>
+            <l n="658" xml:id="l658">Jette, Orphée, un regard sur celle qui t’adore.</l>
+          </sp>
+          <sp who="orphee" xml:id="V06-2">
+            <speaker>orphée, regardant eurydice</speaker>
+            <l n="659" xml:id="l659">Chère Eurydice, enfin, je vous revois encore !</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="7" xml:id="V07">
+          <head>SCÈNE VII</head>
+          <stage>Pluton, Orphée, Eurydice.</stage>
+          <sp who="pluton" xml:id="V07-1">
+            <speaker>pluton</speaker>
+            <l n="660" xml:id="l660">Va, fuis loin de mes yeux,</l>
+            <l n="661" xml:id="l661">Mortel trop téméraire,</l>
+            <l n="662" xml:id="l662">Puisque des dieux</l>
+            <l n="663" xml:id="l663">Tu violes l’arrêt sévère ;</l>
+            <l n="664" xml:id="l664">Qu’Eurydice reste en ces lieux.</l>
+          </sp>
+          <sp who="orphee" xml:id="V07-2">
+            <speaker>orphée</speaker>
+            <l n="665" xml:id="l665">Ô dieux !</l>
+          </sp>
+          <sp who="pluton" xml:id="V07-3">
+            <speaker>pluton</speaker>
+            <l n="666" xml:id="l666">Qu’une troupe rapide</l>
+            <l n="667" xml:id="l667">De démons empressés</l>
+            <l n="668" xml:id="l668">Dans l’empire des airs reporte ce perfide.</l>
+            <l n="669" xml:id="l669">Pluton commande, obéissez.</l>
+          </sp>
+          <sp who="orphee" xml:id="V07-4">
+            <speaker>orphée</speaker>
+            <l n="670" xml:id="l670">Quelle rigueur impitoyable !</l>
+          </sp>
+          <sp who="eurydice" xml:id="V07-5">
+            <speaker>eurydice</speaker>
+            <l n="671" xml:id="l671">Un crime de l’amour n’est-il point pardonnable ?</l>
+            <stage>Des Démons enlèvent Orphée.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="8" xml:id="V08">
+          <head>SCÈNE VIII</head>
+          <sp who="pluton" xml:id="V08-1">
+            <speaker>pluton</speaker>
+            <l n="672" xml:id="l672">Esprits infernaux, en ce jour,</l>
+            <l n="673" xml:id="l673">Pour chasser le chagrin qui la presse,</l>
+            <l n="674" xml:id="l674">Riez, chantez, dansez, montrez votre allégresse ;</l>
+            <l n="675" xml:id="l675">Qu’on ne parle plus de tristesse</l>
+            <l n="676" xml:id="l676">Où brille le flambeau d’Amour.</l>
+          </sp>
+          <sp who="le-chœur" xml:id="V08-2">
+            <speaker>le chœur</speaker>
+            <l n="677" xml:id="l677">Rions, chantons, dansons, montrons notre allégresse :</l>
+            <l n="678" xml:id="l678">Qu’on ne parle plus de tristesse</l>
+            <l n="679" xml:id="l679">Où brille le flambeau d’Amour.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="9" xml:id="V09">
+          <head>SCÈNE IX</head>
+          <sp who="leandre" xml:id="V09-1">
+            <speaker>léandre</speaker>
+            <l n="680" xml:id="l680">Il est temps de partir, l’occasion est belle ;</l>
+            <l n="681" xml:id="l681">Tout conspire pour nous, et la mer, et les vents ;</l>
+            <l n="682" xml:id="l682">Profitons bien de ces heureux moments,</l>
+            <l n="683" xml:id="l683">Allons où l’Amour nous appelle.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="10" xml:id="V10">
+          <head>LE BAL, DERNIER DIVERTISSEMENT</head>
+          <stage>Le théâtre représente une salle magnifique, préparée pour donner le bal.</stage>
+          <sp who="le-carnaval" xml:id="V10-1">
+            <speaker>le carnaval paraît, conduisant avec lui une troupe de masques de différentes nations</speaker>
+            <l n="684" xml:id="l684">L’hiver a beau s’armer d’aquilons furieux,</l>
+            <l n="685" xml:id="l685">Et fixer des torrents la course vagabonde ;</l>
+            <l n="686" xml:id="l686">En vain ses noirs frimas, pour attrister le monde,</l>
+            <l n="687" xml:id="l687">Dérobent le flambeau qui brille dans les cieux ;</l>
+            <l n="688" xml:id="l688">Sitôt que je parais, je bannis la tristesse ;</l>
+            <l n="689" xml:id="l689">J’ouvre la porte aux jeux, aux festins, à l’amour :</l>
+            <l n="690" xml:id="l690">À mon départ le plaisir cesse ;</l>
+            <l n="691" xml:id="l691">Et, pour mieux s’y livrer, on attend mon retour.</l>
+            <l n="692" xml:id="l692">Vous qui m’accompagnez, montrez votre allégresse ;</l>
+            <l n="693" xml:id="l693">Par vos jeux, par vos chants, célébrez ce beau jour.</l>
+            <stage>Les masques commencent un bal sérieux.</stage>
+          </sp>
+          <sp who="le-carnaval" xml:id="V10-2">
+            <speaker>le carnaval</speaker>
+            <l n="694" xml:id="l694">Je veux joindre à ces jeux une nouvelle danse ;</l>
+            <l n="695" xml:id="l695">Venez, aimables enjouements ;</l>
+            <l n="696" xml:id="l696">Redoublez en ces lieux notre réjouissance</l>
+            <l n="697" xml:id="l697">Par de nouveaux déguisements.</l>
+            <l n="698" xml:id="l698">En ce temps de plaisir le plus sage s’oublie,</l>
+            <l n="699" xml:id="l699">Et permet un peu de folie.</l>
+            <stage>On tire un rideau, et l’on voit arriver du fond du théâtre un char magnifique traîné par des Masques comiques, et rempli de figures de même caractère, qui se mêlent en dansant avec les Masques sérieux.</stage>
+          </sp>
+          <sp who="le-carnaval" xml:id="V10-3">
+            <speaker>le carnaval</speaker>
+            <l n="700" xml:id="l700">Chantez, dansez, profitez des beaux jours ;</l>
+            <l n="701" xml:id="l701">L’heureux temps des plaisirs ne dure pas toujours.</l>
+          </sp>
+          <sp who="le-chœur" xml:id="V10-4">
+            <speaker>le chœur</speaker>
+            <l n="702" xml:id="l702">Chantons, dansons, profitons des beaux jours ;</l>
+            <l n="703" xml:id="l703">L’heureux temps des plaisirs ne dure pas toujours.</l>
+          </sp>
+          <sp who="le-carnaval" xml:id="V10-5">
+            <speaker>le carnaval</speaker>
+            <l n="704" xml:id="l704">La raison vainement voudrait vous interdire</l>
+            <l n="705" xml:id="l705">Des passe-temps si doux ;</l>
+            <l n="706" xml:id="l706">Les moments que l’on passe à rire</l>
+            <l n="707" xml:id="l707">Sont les mieux employés de tous.</l>
+          </sp>
+          <sp who="le-chœur" xml:id="V10-6">
+            <speaker>le chœur</speaker>
+            <l n="708" xml:id="l708">Les moments que l’on passe à rire</l>
+            <l n="709" xml:id="l709">Sont les mieux employés de tous.</l>
+          </sp>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

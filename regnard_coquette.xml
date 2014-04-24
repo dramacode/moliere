@@ -1,0 +1,3867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LA COQUETTE, OU L’ACADÉMIE DES DAMES, COMÉDIE EN TROIS ACTES</title>
+        <author born="1655" born_location="Paris" death="1709" death_location="château de grillon, Dourdan" academie="">REGNARD, Jean-François</author>
+        <date>1692</date>
+      </titleStmt>
+      <publicationStmt>
+        <p>publié par Paul FIEVRE</p>
+        <p>Mai 2006</p>
+      </publicationStmt>
+      <sourceDesc>
+        <genre>Comédie</genre>
+        <inspiration>mœurs françaises</inspiration>
+        <structure>Cinq actes</structure>
+        <type>mixte</type>
+        <periode>1691-1700</periode>
+        <taille>0-250</taille>
+        <permalien/>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1691"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">LA COQUETTE, OU L’ACADÉMIE DES DAMES. </titlePart>
+        <titlePart type="sub">COMÉDIE en TROIS ACTES</titlePart>
+      </docTitle>
+      <docDate value="1691">M. DC. LXXXXI.</docDate>
+      <docAuthor id="REGNARD, Jean-Francois" bio="regnard">Jean-François Regnard</docAuthor>
+      <docImprint>
+        <privilege id="****-**-**"/>
+        <acheveImprime id="****-**-**"/>
+        <printer id=""/>
+      </docImprint>
+      <performance>
+        <premiere date="1691-01-17" location="Hôtel de Bourgogne">Représentée pour la première fois le 17 janvier 1691 à l’Hôtel de Bourgogne.</premiere>
+      </performance>
+      <preface>
+        <head>AVERTISSEMENT DE L’ÉDITEUR SUR LA COQUETTE. [1823]</head>
+        <p>Cette comédie a été représentée pour la première fois le 17 janvier 1691. </p>
+        <p>Les auteurs des Anecdotes dramatiques ont ajouté, à l’article de cette pièce, la note suivante « On désirerait que les éditeurs des OEuvres de ce poète comique (Regnard) y eussent inséré quelques scènes des pièces que cet auteur a données au Théâtre italien, au lieu de tous ces ouvrages médiocres dont ils ont rempli le quatrième volume de leur édition. » </p>
+        <p>C’est avec raison que ces auteurs souhaitent de voir réunies aux autres uvres de notre poète les meilleures scènes de son théâtre italien et la comédie de la Coquette était plus propre qu’aucune autre à faire naître cette idée. </p>
+        <p>Cette pièce est, en effet, l’une des plus plaisantes et des mieux intriguées de ce recueil. Le caractère de la Coquette est un des meilleurs que Regnard ait mis au théâtre : on la voit recevoir, avec un égal empressement, les hommages de tout le monde, et ne pas même dédaigner ceux de son valet Pierrot. Quant au bailli du Maine, Arlequin, c’est une caricature digne du Théâtre italien. On y trouve beaucoup de traits de ressemblance avec le Pourceaugnac de Molière ; et le Bailli marquis est aussi ridicule et d’une charge aussi grotesque que le Gentilhomme limousin déguisé en femme de qualité. </p>
+        <p>Cette pièce n’a point été reprise. </p>
+      </preface>
+      <castList>
+        <castItem><role xml:id="trafiquet" civil="M">TRAFIQUET</role>.</castItem>
+        <castItem><role xml:id="colombine" civil="F">COLOMBINE</role>, fille de Trafiquet.</castItem>
+        <castItem><role xml:id="isabelle" civil="F">ISABELLE</role>, nièce de Trafiquet.</castItem>
+        <castItem><role xml:id="le-comte" civil="M">LE COMTE</role>, amant de Colombine. Octave.</castItem>
+        <castItem><role xml:id="arlequin" civil="M">ARLEQUIN</role>, bailli du Maine.</castItem>
+        <castItem><role xml:id="pierrot" civil="M">PIERROT</role>, domestique de Trafiquet.</castItem>
+        <castItem><role xml:id="marinette" civil="F">MARINETTE</role>, domestique de Trafiquet.</castItem>
+        <castItem><role xml:id="mezzetin" civil="M">MEZZETIN</role>, valet du Comte.</castItem>
+        <castItem><role xml:id="pasquariel" civil="M">PASQUARIEL</role>, valet du Comte.</castItem>
+        <castItem><role xml:id="bagatelle" civil="M">BAGATELLE</role>, laquais de Colombine.</castItem>
+        <castItem><role xml:id="monsieur-nigaudin" civil="M">MONSIEUR NIGAUDIN</role>, conseiller au présidial de Beauvais. Mezzetin.</castItem>
+        <castItem><role xml:id="madame-pindaret" civil="F">MADAME PINDARET</role>, bel esprit.</castItem>
+        <castItem><role xml:id="margot" civil="F">MARGOT</role>, couturière.</castItem>
+        <castItem><role xml:id="un-capitaine" civil="M">UN CAPITAINE</role>. Arlequin.</castItem>
+        <castItem><role xml:id="un-sergent" civil="M">UN SERGENT</role>.</castItem>
+        <castItem><role xml:id="un-laquais" civil="M">UN LAQAUIS</role> de Monsieur Nigaudin.</castItem>
+        <castItem><role xml:id="un-laquais" civil="M">UN LAQUAIS</role> de Madame Pindaret.</castItem>
+        <castItem><role xml:id="fourbes" civil="G">FOURBES</role> de la suite de Mezzetin, et autres personnages muets.</castItem>
+        <castItem><role xml:id="" civil="M"/>.</castItem>
+      </castList>
+      <set location="Paris" country="France" periode="XVIIème" link="">La scène est à Paris, chez Trafiquet.</set>
+    </front>
+    <body>
+      <div1 type="acte" n="1" xml:id="I">
+        <head>ACTE I</head>
+        <div2 type="scene" n="1" xml:id="I01">
+          <head>SCÈNE I</head>
+          <sp who="arlequin" xml:id="I01-1">
+            <speaker>arlequin, en colère, se retournant, à la cantonade</speaker>
+            <p>
+              <s>Vous en avez menti, messieurs les commis de la barrière, je ne dois rien : vous êtes des fripons.</s>
+              <s>On est plus assuré au milieu des bois que dans ce maudit pays-ci : on ne saurait faire un pas qu’on ne trouve un filou.</s>
+              <s>Il n’y a pas une demi-heure que je suis arrivé dans Paris, et me voilà déjà presque tout déshabillé...</s>
+              <s>Au voleur !</s>
+              <s>Au voleur !</s>
+              <s>Quelle maudite nation !</s>
+              <s>À peine suis-je entré dans la ville, qu’on fait derrière mon cheval l’opération à ma valise ; on en tire les hardes, et on la fait accoucher avant terme.</s>
+              <s>En descendant à l’hôtellerie, on m’escamote ma casaque.</s>
+              <s>Je fais deux pas dans la rue, un fiacre me couvre de boue depuis les pieds jusqu’à la tête ; un porteur de chaise me donne dun de ses bâtons dans le dos : il vient un homme me saluer ; je lui ôte mon chapeau, un coquin par derrière m’arrache ma perruque ; et, pour comble de friponneries, on veut me faire payer l’entrée à la porte comme bête à cornes, parce que je viens pour me marier...</s>
+              <s>Attendez donc que je sois...</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="I02">
+          <head>SCÈNE II</head>
+          <stage>Arlequin, Mezzetin.</stage>
+          <sp who="arlequin" xml:id="I02-1">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Monsieur, nêtes-vous pas un coupeur de bourses ?</s>
+            </p>
+            <stage>Au lieu de répondre, Mezzetin tourne autour de lui, lexamine en se moquant de lui ; et Arlequin fait des lazzis de frayeur. Le restant de cette scène consiste dans un jeu italien.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="I03">
+          <head>SCÈNE III</head>
+          <stage>Colombine, Isabelle.</stage>
+          <stage>Le théâtre change, et représente lappartement de Colombine ; elle est à sa toilette, et Isabelle prélude sur un clavecin.</stage>
+          <sp who="colombine" xml:id="I03-1">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Holà, quelqu’un !</s>
+              <s>N’ai-je là personne ?</s>
+              <s>Cascaret, Jasmin, Pierrot, Bagatelle, Bagatelle !</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="I04">
+          <head>SCÈNE IV</head>
+          <stage>Colombine, Isabelle, Pierrot, Bagatelle.</stage>
+          <sp who="colombine" xml:id="I04-1">
+            <speaker>colombine, à bagatelle</speaker>
+            <p>
+              <s>D’où vient, petit garçon, qu’il faut vous appeler tant de fois ?</s>
+            </p>
+          </sp>
+          <sp who="bagatelle" xml:id="I04-2">
+            <speaker>bagatelle</speaker>
+            <p>
+              <s>Mademoiselle, c’est que j’achevais ma main au lansquenet.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I04-3">
+            <speaker>colombine</speaker>
+            <p>
+              <s>N’est-il venu personne me demander ?</s>
+            </p>
+          </sp>
+          <sp who="bagatelle" xml:id="I04-4">
+            <speaker>bagatelle</speaker>
+            <p>
+              <s>Il est venu cinq ou six personnes ; mais j’ai oublié leurs noms et ce qu’elles m’ont dit.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I04-5">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Le petit étourdi !</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="I04-6">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Monsieur le conseiller a dit qu’il allait revenir.</s>
+              <s>Il est venu aussi cette grande femme qui a le visage si creux, qui vous viendra voir tantôt, quand elle aura été chez son libraire.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I04-7">
+            <speaker>colombine</speaker>
+            <p>
+              <s>C’est notre bel esprit ; je la tiens quitte de sa visite dès à présent.</s>
+            </p>
+            <stage>À Bagatelle.</stage>
+            <p>
+              <s>Venez çà ; allez chez ma couturière, et dites-lui que je veux avoir mon habit aujourd’hui.</s>
+            </p>
+          </sp>
+          <sp who="bagatelle" xml:id="I04-8">
+            <speaker>bagatelle</speaker>
+            <p>
+              <s>Ne lui dirai-je pas aussi de nous faire des culottes ?</s>
+              <s>La mienne est toute déchirée entre les jambes, et ma chemise passe, révérence parler, par...</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I04-9">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Taisez-vous, petit sot, et faites ce que je vous dis.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="I05">
+          <head>SCÈNE V</head>
+          <stage>Isabelle, Colombine.</stage>
+          <sp who="isabelle" xml:id="I05-1">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>Hé bien, cousine, as-tu bientôt mis la dernière main à ton visage ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I05-2">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Dis-moi, je te prie, comment me trouves-tu aujourd’hui ?</s>
+            </p>
+          </sp>
+          <sp who="isabelle" xml:id="I05-3">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>À charmer.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I05-4">
+            <speaker>colombine</speaker>
+            <p>
+              <s>J’ai beau arranger mes traits, il me semble qu’il y en a toujours quelqu’un qui se révolte contre mon économie.</s>
+            </p>
+          </sp>
+          <sp who="isabelle" xml:id="I05-5">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>Je t’assure que tu es d’un air à faire payer contribution à tous les cœurs de la ville.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I05-6">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Je sais bien, sans vanité, que j’ai quelque agrément ; mais avec un peu de beauté, et trois ou quatre mouches sur le nez, une fille ne va pas loin dans le siècle où nous sommes.</s>
+              <s>Il faut de cela pour plaire ...</s>
+            </p>
+            <stage>Elle se touche le front.</stage>
+            <p>
+              <s>Et pour attraper un époux, qui est le point difficile.</s>
+              <s>Nous commençons tout doucement à monter en graine, et nous sommes assez fortes pour bien soutenir une thèse en mariage.</s>
+            </p>
+          </sp>
+          <sp who="isabelle" xml:id="I05-7">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>J’en tombe d’accord.</s>
+              <s>Crois-tu, cousine, que j’aie le cœur plus dur que toi ?</s>
+              <s>Je sens quelquefois qu’une fille n’est pas née pour vivre seule ; je t’avouerai même que j’emploie tout mon esprit pour attirer quelque amant dans le filet conjugal.</s>
+              <s>Mais les hommes sont des pestes de poissons rusés qui viennent badiner autour de l’appât, et qui mordent rarement à l’hameçon.</s>
+              <s>Le mariage se décrie de jour en jour ; je crois, pour moi, que nous allons voir la fin du monde.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I05-8">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Que tu es folle !</s>
+              <s>Quoique le mariage ne soit plus guère à la mode, les hommes ont beau faire, ils ne sauraient se passer de nous.</s>
+              <s>Leur répugnance pour le mariage vient de la simplicité des filles qui ne savent pas jouer leur rôle.</s>
+              <s>L’homme est un animal qui veut être trompé.</s>
+            </p>
+          </sp>
+          <sp who="isabelle" xml:id="I05-9">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>Je ne m’applique nuit et jour à autre chose.</s>
+              <s>Je relève, avec art, les agréments que la nature m’a donnés : je joins à quelque brillant d’esprit les talents de la poésie et de la musique : pour mes manières, elles sont douces et insinuantes ; et, avec tout cela, point d’épouseurs.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I05-10">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Mais que prétendent donc tous ces petits messieurs-là ?</s>
+            </p>
+          </sp>
+          <sp who="isabelle" xml:id="I05-11">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>C’est ce que je ne conçois pas.</s>
+              <s>On sait bien qu’il y a de certaines avances qui accrochent quelquefois.</s>
+              <s>Mais vous en aurez menti, messieurs les soupirants ; et si j’accorde quelque faveur, ce ne sera, ma foi, que par-devant notaire, et en vertu d’un bon parchemin bien signé.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I05-12">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Cependant ce n’est pas une chose si difficile que tu le penses, d’engager un homme.</s>
+              <s>Savoir risquer un billet dans son temps, marcher sur le pied à l’un, tendre la main à l’autre, se brouiller avec celui-ci, se raccommoder avec celui-là : crois-moi, avec ce petit manège-là, il faut, bon gré, mal gré, que quelque bête donne dans les toiles.</s>
+            </p>
+          </sp>
+          <sp who="isabelle" xml:id="I05-13">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>Il me semble que tu copies assez bien une coquette d’après nature.</s>
+              <s>Prends-y garde, au moins : on ne fait plus guère de fortune à ce métier-là.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I05-14">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Bon !</s>
+              <s>Il n’y a plus que les sottes qui se persuadent dattraper des hommes par des airs composés.</s>
+              <s>Cousine, le monde m’en a plus appris qu’à toi, et je te suis caution qu’une fille n’est piquante qu’autant qu’elle a pris sel dans la coquetterie.</s>
+            </p>
+          </sp>
+          <sp who="isabelle" xml:id="I05-15">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>Vraiment !</s>
+              <s>Ce ne sont pas là les maximes de ma mère, qui me prône tous les jours que la coquetterie est l’antipode du mariage ; et j’ai ouï dire cent fois à mon oncle qu’une fille coquette ressemble à ces vins pétillants dont tout le monde veut tâter, et dont personne ne veut acheter pour son ordinaire.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I05-16">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Voilà-t-il pas mes contes de grand’mères, qui condamnent dans leurs enfants les plaisirs que l’âge leur refuse !</s>
+              <s>Je veux, moi, te donner des conseils pour le mariage, plus courts et plus faciles : et afin que tu les retiennes mieux, je vais te les lire en vers.</s>
+            </p>
+          </sp>
+          <sp who="isabelle" xml:id="I05-17">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>En vers, ma petite !</s>
+              <s>Ah !</s>
+              <s>C’est ma folie.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I05-18">
+            <speaker>colombine</speaker>
+            <p>
+              <s>N’en perds pas une syllabe.</s>
+            </p>
+            <stage>Elle lit.</stage>
+            <p>
+              <s>Portrait d’une Coquette, ou la vraie morale d’une Fille à marier.</s>
+            </p>
+            <l n="1" xml:id="l1">Une fille qui veut se faire</l>
+            <l n="2" xml:id="l2">Un époux parmi ses amants,</l>
+            <l n="3" xml:id="l3">Doit changer à tous les moments</l>
+            <l n="4" xml:id="l4">Et de visage et de manière ;</l>
+            <l n="5" xml:id="l5">Tantôt, d’un air modeste, elle entre dans un cœur,</l>
+            <l n="6" xml:id="l6">Sous un faux semblant de sagesse ;</l>
+            <l n="7" xml:id="l7">Et tantôt, rallumant un feu de belle humeur,</l>
+            <l n="8" xml:id="l8">Elle y porte à la fois la joie et la tendresse ;</l>
+            <l n="9" xml:id="l9">Elle sait finement, par un mélange heureux,</l>
+            <l n="10" xml:id="l10">Délaver la douceur avecque la rudesse ;</l>
+            <l n="11" xml:id="l11">Du frein ou de l’épron usant avec adresse,</l>
+            <note>Il faut écrire éperon. L’auteur a sacrifié ici l’orthographe à la mesure du vers.</note>
+            <l n="12" xml:id="l12">Suivant que l’animal est vif ou paresseux.</l>
+          </sp>
+          <sp who="isabelle" xml:id="I05-19">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>Je ne sais pas comment sera le reste, mais le début est fort vif.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I05-20">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Rien ne se démentira.</s>
+            </p>
+            <stage>Elle continue de lire.</stage>
+            <l n="13" xml:id="l13">Pour conserver les cœurs qu’elle a su préparer,</l>
+            <l n="14" xml:id="l14">Elle tient toujours la balance</l>
+            <l n="15" xml:id="l15">Entre la crainte et l’espérance,</l>
+            <l n="16" xml:id="l16">Laissant un pauvre amant doucement s’enferrer.</l>
+            <l n="17" xml:id="l17">Si quelqu’un, rebuté de son trop long martyre,</l>
+            <l n="18" xml:id="l18">Cherche à s’échapper du filet,</l>
+            <l n="19" xml:id="l19">Par de fausses bontés alors on le retire :</l>
+            <l n="20" xml:id="l20">On écrit, et Dieu sait le style du billet !</l>
+            <l n="21" xml:id="l21">Un roi ne paierait pas tout ce qu’on lui promet :</l>
+            <l n="22" xml:id="l22">On se désespère, on soupire ;</l>
+            <l n="23" xml:id="l23">Trac, l’oiseau rentre au trébuchet.</l>
+          </sp>
+          <sp who="isabelle" xml:id="I05-21">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>Au trébuchet !</s>
+              <s>Un mari ne se prend pas comme un oiseau ; il faut bien d’autres piéges.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I05-22">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Je te dis qu’en amour ils sont si niais, qu’une fille qui sait un peu son métier en va duper trente à la fois.</s>
+            </p>
+            <stage>Elle poursuit sa lecture.</stage>
+            <p>
+              <s>Lui parle-t-on d’amour...</s>
+            </p>
+          </sp>
+          <sp who="isabelle" xml:id="I05-23">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>Encore ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I05-24">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Voici le dernier.</s>
+              <s>Dame !</s>
+              <s>Il entre bien des ingrédients dans la composition d’une coquette.</s>
+            </p>
+            <l n="24" xml:id="l24">Lui parle-t-on d’amour, vante-t-on ses appas,</l>
+            <l n="25" xml:id="l25">Elle impose silence en faisant la novice ;</l>
+            <l n="26" xml:id="l26">Elle fait expliquer ceux qui n’en parlent pas,</l>
+            <l n="27" xml:id="l27">Et sait se démonter à visse :</l>
+            <note>L’exactitude voudrait que l’on écrivît vis : mais la rime a fait altérer l’orthographe.</note>
+            <l n="28" xml:id="l28">D’un rire obéissant son visage est paré ;</l>
+            <l n="29" xml:id="l29">Le robinet des pleurs s’ouvre et ferme à son gré ;</l>
+            <note>Il faudrait se ferme.</note>
+            <l n="30" xml:id="l30">Et, dispensant ainsi la rigueur, la tendresse,</l>
+            <l n="31" xml:id="l31">Crois-moi, cousine, en cet état,</l>
+            <l n="32" xml:id="l32">C’est jouer de malheur, après tant de souplesse,</l>
+            <l n="33" xml:id="l33">Si quelque dupe enfin ne tâte du contrat.</l>
+          </sp>
+          <sp who="isabelle" xml:id="I05-25">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>Savante comme tu les, tu devrais te mettre à montrer le coquettisme en ville : tu serais bientôt riche.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I05-26">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Je n’y gagnerais pas de l’eau : toutes les filles savent cela.</s>
+              <s>Dans le fond, on n’a que de bonnes intentions.</s>
+              <s>Et quel reproche peut faire un homme quand une fille ne le trompe qu’en vue de mariage ?</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6" xml:id="I06">
+          <head>SCÈNE VI</head>
+          <stage>Colombine, Isabelle, Bagatelle.</stage>
+          <sp who="bagatelle" xml:id="I06-1">
+            <speaker>bagatelle</speaker>
+            <p>
+              <s>Mademoiselle, voilà monsieur le comte Octave.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I06-2">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Quil entre.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="è" xml:id="I07">
+          <head>SCÈNE VII</head>
+          <stage>Isabelle, Colombine.</stage>
+          <sp who="isabelle" xml:id="I07-1">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>Je te laisse avec lui ; car apparemment c’est un épouseur : et ma mère m’attend.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I07-2">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Bon !</s>
+              <s>Ta mère t’attend : va, va, elle est la maîtresse, elle attendra tant qu’elle voudra : demeure ici ; tu en apprendras plus avec moi en un quart d’heure, que tu ne feras en toute ta vie avec ta mère.</s>
+              <s>C’est une façon de mari.</s>
+            </p>
+          </sp>
+          <sp who="isabelle" xml:id="I07-3">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>Tu l’aimeras donc ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I07-4">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Que tu es sotte !</s>
+              <s>Ne t’ai-je pas dit cent fois que j’aime tout le monde sans aimer personne.</s>
+              <s>Mon père m’a défendu de le voir, parce qu’il me destine à un bailli du Maine, qui doit arriver dans peu.</s>
+              <s>Ne suis-je pas bien malheureuse !</s>
+              <s>Car imagine-toi ce que c’est qu’un bailli, et un bailli du Maine !</s>
+              <s>Mais voici Octave.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="8" xml:id="I08">
+          <head>SCÈNE VIII</head>
+          <stage>Colombine, Isabelle, Octave, Mezzetin.</stage>
+          <sp who="octave" xml:id="I08-1">
+            <speaker>octave</speaker>
+            <p>
+              <s>Malgré la rigueur de votre père, je viens vous assurer, mademoiselle, que je perdrai plutôt la vie que l’espérance d’être un jour votre époux.</s>
+            </p>
+          </sp>
+          <sp who="mezzetin" xml:id="I08-2">
+            <speaker>mezzetin</speaker>
+            <p>
+              <s>Oui, mademoiselle, nous avons résolu cela : et s’il ne vous épouse, je vous épouserai, moi.</s>
+            </p>
+          </sp>
+          <sp who="isabelle" xml:id="I08-3">
+            <speaker>isabelle, bas, à colombine</speaker>
+            <p>
+              <s>Cousine, voilà un gibier à trébuchet.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I08-4">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Vous savez, monsieur le Comte, quels sont mes sentiments pour vous : cela vous doit suffire.</s>
+              <s>Ne parlons point d’amour, si ce n’est en chansons.</s>
+              <s>Vous chantez bien : voilà ma cousine qui accompagne parfaitement du clavecin : je veux vous entendre ensemble.</s>
+            </p>
+          </sp>
+          <sp who="octave" xml:id="I08-5">
+            <speaker>octave</speaker>
+            <p>
+              <s>Mais, mademoiselle, chanter dans l’état où je suis ; pénétré de douleur, désespéré...</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I08-6">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Bon, bon !</s>
+              <s>Si vous n’avez pas la force de chanter, vous soupirerez : c’est la langue la plus familière aux amants.</s>
+              <s>Allons, qu’on approche le clavecin.</s>
+              <s>Mezzetin, prenez bien garde que mon père ne vienne.</s>
+            </p>
+          </sp>
+          <sp who="isabelle" xml:id="I08-7">
+            <speaker>isabelle</speaker>
+            <p>
+              <s>Tu me mets là, cousine, à une rude épreuve.</s>
+            </p>
+            <stage>Octave chante ; Isabelle l’accompagne.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="9" xml:id="I09">
+          <head>SCÈNE IX</head>
+          <stage>Colombine, Isabelle, Octave, Mezzetin, Trafiquet, Pierrot.</stage>
+          <sp who="trafiquet" xml:id="I09-1">
+            <speaker>trafiquet appelle en entrant sur la scène</speaker>
+            <p>
+              <s>Holà, quelqu’un, Pierrot, Pierrot !</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="I09-2">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Me voilà, me voilà, monsieur.</s>
+              <s>Vous criez plus fort qu’un fiacre mal graissé.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="I09-3">
+            <speaker>trafiquet, sans voir octave</speaker>
+            <p>
+              <s>Avec qui diable es-tu donc ?</s>
+              <s>Il faut toujours t’appeler vingt fois.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="I09-4">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Je suis avec l’amour.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="I09-5">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Oh, oh !</s>
+              <s>Voilà du nouveau.</s>
+              <s>Tu es donc amoureux ?</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="I09-6">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Je ne dors ni ne veille ; je sens toujours là un tintamarre, comme s’il y avait un régiment de lutins.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="I09-7">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Il faut entendre patience.</s>
+            </p>
+            <stage>Apercevant Octave.</stage>
+            <p i="8">
+              <s>Mais que vois-je ?</s>
+              <s>C’est Octave !</s>
+              <s>Hé !</s>
+              <s>Que faites-vous donc ici, s’il vous plaît ?</s>
+              <s>Ne vous avais-je pas prié de n’y plus venir ?</s>
+            </p>
+            <stage>Octave et Mezzetin font une révérence.</stage>
+          </sp>
+          <sp who="pierrot" xml:id="I09-8">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Puisque monsieur vous l’a défendu, pourquoi y revenez-vous ?</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="I09-9">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Est-ce que vous prétendez, mon petit monsieur, épouser ma fille malgré moi ?</s>
+            </p>
+            <stage>Octave et Mezzetin font une autre révérence.</stage>
+          </sp>
+          <sp who="pierrot" xml:id="I09-10">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Monsieur, n’allez pas souffrir cela ; on vous prendrait pour un insensé.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="I09-11">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Mais, monsieur, encore une fois, je n’ai que faire de vos révérences : répondez à ce que je vous demande.</s>
+            </p>
+            <stage>Octave et Mezzetin sortent, après avoir fait encore une révérence.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="10" xml:id="I10">
+          <head>SCÈNE X</head>
+          <stage>Trafiquet, Colombine, Isabelle, Pierrot.</stage>
+          <sp who="trafiquet" xml:id="I10-1">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Vous ferez bien, messieurs de la révérence, de ne regarder ma porte qu’avec une lunette ; je vous saluerais d’une manière...</s>
+              <s>Quelle plaisante conversation !</s>
+              <s>Toujours des révérences !</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="I10-2">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Va, va, tu n’as qu’à y revenir ; je te ferai danser un branle de sortie sans violons.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="I10-3">
+            <speaker>trafiquet, à colombine</speaker>
+            <p>
+              <s>Et vous, mademoiselle l’impertinente, ne vous ai-je pas défendu de le voir ?</s>
+              <s>Savez-vous que quand je commande, je veux être obéi ?</s>
+            </p>
+            <stage>Colombine et Isabelle font une révérence.</stage>
+          </sp>
+          <sp who="pierrot" xml:id="I10-4">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Elles ont appris à danser du même maître.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="I10-5">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Ne t’ai-je pas dit que je ne voulais pas que tu songeasses davantage à cet homme-là pour être ton époux ?</s>
+            </p>
+            <stage>Colombine et Isabelle font encore une révérence.</stage>
+          </sp>
+          <sp who="pierrot" xml:id="I10-6">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Fi !</s>
+              <s>Ce n’est pas là votre fait.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="I10-7">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Écoutez, ne m’échauffez pas les oreilles ; il y a des maisons à Paris où l’on réduit les filles désobéissantes.</s>
+              <s>Merci de ma vie !</s>
+            </p>
+            <stage>Colombine et Isabelle sortent en faisant une grande révérence.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="11" xml:id="I11">
+          <head>SCÈNE XI</head>
+          <stage>Trafiquet, Pierrot.</stage>
+          <sp who="pierrot" xml:id="I11-1">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Ma foi, monsieur, il faut dire la vérité ; voilà des filles bien civiles.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="I11-2">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Mais que veulent donc dire toutes ces cérémonies-là ?</s>
+              <s>Voilà une nouvelle manière de répondre.</s>
+              <s>Allons, allons, il faut faire cesser tout ce manége-là.</s>
+              <s>J’attends aujourd’hui un gendre qui me vient du Bas-Maine ; je veux envoyer savoir s’il est venu.</s>
+              <s>Pierrot !</s>
+            </p>
+            <stage>Pierrot fait une révérence en fille.</stage>
+            <p>
+              <s>Ah, monsieur le maraud !</s>
+              <s>Je crois que vous voulez rire aussi.</s>
+              <s>Si je prends un bâton...</s>
+            </p>
+            <stage>Pierrot fait une autre révérence.</stage>
+            <p>
+              <s>Quoi !</s>
+              <s>Tu t’en mêles aussi ?</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="I11-3">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Mais, monsieur, est-ce que vous voulez m’empêcher d’être civil ?</s>
+              <s>Qu’est-ce que vous me voulez ?</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="I11-4">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Je veux que tu passes chez monsieur Fesse-Mathieu, pour le prier de venir ici ; et que tu ailles de là dans la rue de la Huchette, savoir si le messager du Mans est arrivé.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="I11-5">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Bon, bon, bon, monsieur.</s>
+              <s>Vous attendez donc quelque panier de volaille ?</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="I11-6">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>J’attends le bailli de Laval, qui vient pour être mon gendre.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="I11-7">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Quoi !</s>
+              <s>Tout de bon ?</s>
+              <s>Un homme du Maine pour être le mari de votre fille ?</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="I11-8">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Assurément.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="I11-9">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Fi !</s>
+              <s>Monsieur, n’en faites rien ; il ne vient que des chapons de ce pays-là.</s>
+            </p>
+            <stage>Scènes italiennes.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="12" xml:id="I12">
+          <head>SCÈNE XII</head>
+          <stage>Colombine, Pierrot.</stage>
+          <sp who="colombine" xml:id="I12-1">
+            <speaker>colombine plie une lettre</speaker>
+            <p>
+              <s>Une bougie ?</s>
+              <s>Est-ce que tu n’entends pas que je demande une bougie pour cacheter une lettre ?</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="I12-2">
+            <speaker>pierrot, faisant des mines à colombine</speaker>
+            <p>
+              <s>Pardonnez-moi... mais... c’est que... en vérité... mademoiselle ; je m’en vais...</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I12-3">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Pour moi, je ne sais plus quelle maladie a attaqué le cerveau de cet animal-là : il ne voit plus, il n’entend plus ; il a assurément quelque chose de brouillé dans son timbre.</s>
+            </p>
+            <stage>Pierrot apporte un manchon.</stage>
+            <p>
+              <s>Tu veux donc que je cachette une lettre avec un manchon ?</s>
+              <s>Je te demande une bougie, m’entends-tu ? Je crois qu’il me fera perdre l’esprit.</s>
+            </p>
+            <stage>Pierrot fait encore des mines.</stage>
+            <p>
+              <s>Oh, oh !</s>
+              <s>Voilà une nouvelle folie que je ne lui connaissais pas encore.</s>
+              <s>Depuis quand as-tu perdu la parole ?</s>
+              <s>Parle, réponds ; dis donc à qui tu en as.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="I12-4">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Je n’oserais ; je sens là un tourbillon, un étouffement de la nature... heurtant contre l’amour.</s>
+              <s>Tenez, voilà une lettre qui vous dira tout cela.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I12-5">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Que signifie donc cette cérémonie-ci ?</s>
+              <s>Je trouve cela assez plaisant.</s>
+              <s>Voyons donc ce que dit cette lettre.</s>
+            </p>
+            <stage>Elle lit.</stage>
+            <p>
+              <s>Comme il n’y a point d’animal dans le monde qui n’aime quelque autre animal, c’est ce qui fait que je vous aime.</s>
+              <s>Autre chose ne peut vous dire votre très humble serviteur et fidèle amant, Pierrot.</s>
+            </p>
+            <p>
+              <s>Mon très humble serviteur et fidèle amant, Pierrot.</s>
+              <s>Ah, ah !</s>
+              <s>Voilà donc où le bât vous blesse, monsieur l’amoureux !</s>
+              <s>En vérité, je suis ravie d’avoir fait une pareille conquête.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="I12-6">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Hé !</s>
+              <s>Mademoiselle, je sais bien que mon mérite n’est pas capable de mériter ;... mais, d’un autre côté,... voilà que l’occasion,... votre beauté... Je ne suis pas bien riche ; mais, ma foi, je suis un bon garçon.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I12-7">
+            <speaker>colombine</speaker>
+            <p>
+              <s>J’entends cela le mieux du monde ; mais je vous prie, monsieur Pierrot, d’étouffer un peu vos hoquets de tendresse, et d’aller porter cette lettre à monsieur de la Maltotière.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="I12-8">
+            <speaker>pierrot, en s’en allant</speaker>
+            <p>
+              <s>Ah !</s>
+              <s>Petit cocodrille !</s>
+              <s>Ouf !</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="13" xml:id="I13">
+          <head>SCÈNE XIII</head>
+          <sp who="colombine" xml:id="I13-1">
+            <speaker>colombine, seule</speaker>
+            <p>
+              <s>La conquête de Pierrot n’est pas bien illustre : je sens néanmoins une secrète joie de voir que rien ne m’échappe.</s>
+              <s>Quelque sévérité qu’affectent les femmes, elles ne sont jamais fâchées de s’entendre dire qu’on les aime.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="14" xml:id="I14">
+          <head>SCÈNE XIV</head>
+          <stage>Colombine, un Laquais.</stage>
+          <sp who="le-laquais" xml:id="I14-1">
+            <speaker>le laquais, annonçant</speaker>
+            <p>
+              <s>Mademoiselle, voilà monsieur le conseiller Nigaudin.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="15" xml:id="I15">
+          <head>SCÈNE XV</head>
+          <stage>Colombine, Nigaudin, en habit de ville et en épée ; un Laquais de Nigaudin.</stage>
+          <sp who="colombine" xml:id="I15-1">
+            <speaker>colombine</speaker>
+            <p>
+              <s>En vérité, monsieur Nigaudin, j’ai lieu de louer votre diligence : nous ne devons partir pour la Comédie que dans deux heures, et je suis ravie de pouvoir pendant ce temps-là profiter de votre conversation.</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I15-2">
+            <speaker>nigaudin, toussant</speaker>
+            <p>
+              <s>Mademoiselle, quand il s’agira de venir vous offrir ses hommages, on n’obtiendra point de défaut contre moi : en cas de rendez-vous auprès des dames, je ne me laisse jamais contumacer, et je me rends bien vite à l’ajournement personnel.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I15-3">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Ah, monsieur !</s>
+              <s>Que vous dites les choses galamment !</s>
+              <s>Vous avez un tour aisé et naturel dans les expressions, que les autres n’ont point ; et il semble toujours que vous demandiez le cœur, quelque indifférente chose que vous puissiez dire.</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I15-4">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>Moi, mademoiselle ! Je ne vous demande rien ; vous me prenez donc pour un escroc ?</s>
+              <s>Il est vrai que nous autres gens de robe, la plupart, nous avons la belle élocution à commandement.</s>
+              <s>Tout franc, mademoiselle, les gens d’épée n’ont point le boute-dehors comme nous.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I15-5">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Fi !</s>
+              <s>Ne me parlez point des gens d’épée ; ils n’auraient jamais rien à vous dire, s’ils ne vous étourdissaient de leurs bonnes fortunes, et s’ils ne vous faisaient le calcul du nombre des bouteilles qu’ils ont vidées.</s>
+              <s>Pour moi, je ne conçois pas bien la manie de la plupart des femmes d’aujourd’hui ; on ne saurait leur plaire, si l’on ne revient de Flandre ou d’Allemagne, et si l’on ne rapporte à leurs pieds un cœur tout persillé de poudre à canon.</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I15-6">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>Ma foi, il y a bien de l’entêtement ; car, entre nous, il ny a point de gens qui tiennent une procédure si irrégulière auprès des dames que les gens de guerre : ils sont brusques et entreprenants sur le fait des faveurs, et n’observent jamais les délais fixés par l’ordonnance de l’amour.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I15-7">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Il est vrai qu’on n’est point en sûreté contre leurs entreprises ; et quand ils sont chez les dames, ils s’imaginent être dans un quartier d’hiver à vivre à discrétion.</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I15-8">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>À propos de quartier d’hiver, mademoiselle, il me semble qu’ils sont venus cette année quinze jours plus tôt pour moi.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I15-9">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Pourquoi donc, monsieur ?</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I15-10">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>J’avais hypothèque spéciale sur votre cœur, sans ce visage d’épetier qui est arrivé, et qui se prétend privilégié sur la chose : mais, ventrebleu !</s>
+              <s>Nous verrons.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I15-11">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Eh !</s>
+              <s>Que craint-on, monsieur, quand on est fait comme vous ?</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I15-12">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>Il est vrai qu’un juge craint fort peu de chose ; mais la plupart de ces gens de guerre sont des brutaux qui usent d’abord des voies de fait.</s>
+              <s>Nous autres, nous faisons notre affaire en douceur, et nous n’aimons pas le fracas de la brette.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I15-13">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Vous avez assez d’autres endroits pour vous faire distinguer.</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I15-14">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>Ce n’est pas, ventrebleu !</s>
+              <s>Qu’on n’ait du cœur. Je voudrais que vous me vissiez aux buvettes : je fais tout trembler ; et si tous mes confrères les praticiens me ressemblaient, il ne se recevrait pas le quart des nasardes qui se donnent tous les jours.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I15-15">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Je gagerais, à votre air, que vous opinez l’épée à la main ?</s>
+              <s>Et je vous prendrais quelquefois pour un colonel de robe.</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I15-16">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>Vous trouvez donc mon habit joli ?</s>
+              <s>C’est un petit déshabillé de chasse que je me suis fait faire pour la cour.</s>
+              <s>N’est-il pas vrai que l’épée me sied bien ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I15-17">
+            <speaker>colombine</speaker>
+            <p>
+              <s>À charmer.</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I15-18">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>Je sens quelquefois des convulsions de bravoure que je ne saurais retenir.</s>
+            </p>
+            <stage>Il tousse.</stage>
+            <p>
+              <s>J’étais né pour la guerre : mais mon père, voyant que j’avais trop d’esprit pour ce métier-là, me mit dans notre présidial de Beauvais, et m’acheta une charge d’assesseur.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I15-19">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Ah, monsieur l’assesseur !</s>
+              <s>Si vous débrouillez aussi bien un procès que vous savez vous faire jour dans un cœur, que vous êtes un juge éclairé !</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I15-20">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>Tout franc, mademoiselle, je ne me plains pas de mes lumières, et je vous avoue que j’ai une pénétration d’esprit qui me surprend quelquefois.</s>
+              <s>Je jugeai dernièrement un gros procès à l’audience, dont je n’avais pas entendu un mot.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I15-21">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Pas un mot !</s>
+              <s>Et comment avez-vous pu rendre la justice ?</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I15-22">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>Bon !</s>
+              <s>Dans tous les procès, il n’y a qu’une routine.</s>
+              <s>L’une des parties m’avait envoyé un carrosse de cent pistoles, et l’autre deux chevaux gris de six cents écus ; vous jugez bien qui avait le bon droit ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I15-23">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Oh !</s>
+              <s>Je sais que deux chevaux gris mènent un procès bien rondement.</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I15-24">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>Ma foi, vous avez raison ; les chevaux entraînèrent le carrosse.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="16" xml:id="I16">
+          <head>SCÈNE XVI</head>
+          <stage>Le Capitaine, Colombine, Nigaudin, Laquais de Nigaudin.</stage>
+          <sp who="le-capitaine" xml:id="I16-1">
+            <speaker>le capitaine en dedans</speaker>
+            <p>
+              <s>Parbleu !</s>
+              <s>Mon ami, je crois que tu ne me connais pas.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I16-2">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Ah, monsieur !</s>
+              <s>Vous êtes perdu si cet homme-là vous trouve ici.</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I16-3">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>Comment donc ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I16-4">
+            <speaker>colombine</speaker>
+            <p>
+              <s>C’est un officier qui est jaloux à la fureur ; il a déjà tué cinq ou six hommes pour n’avoir fait que me regarder.</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I16-5">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>Cinq ou six hommes !</s>
+              <s>Voilà qui est bien brutal.</s>
+              <s>Holà !</s>
+              <s>Hé, laquais.</s>
+            </p>
+            <stage>Il se déshabille, et met son rabat.</stage>
+          </sp>
+          <sp who="colombine" xml:id="I16-6">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Hé, que faites-vous, monsieur ?</s>
+              <s>À quoi vous amusez-vous là ?</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I16-7">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>Je sais bien ce que je fais.</s>
+              <s>Il faudra qu’il soit bien lâche, s’il me bat sans épée.</s>
+              <s>Pour plus grande sûreté, vite, qu’on me donne ma robe.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I16-8">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Votre robe !</s>
+              <s>Et où est-elle ?</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I16-9">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>Je ne vais jamais sans cela : on ne sait pas ce qui peut arriver.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I16-10">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Ah, monsieur !</s>
+              <s>Ne vous y fiez pas ; vous auriez toutes les robes du Palais sur le corps, qu’il...</s>
+            </p>
+          </sp>
+          <sp who="le-capitaine" xml:id="I16-11">
+            <speaker>le capitaine, toujours en dedans</speaker>
+            <p>
+              <s>Par la mort !</s>
+              <s>Par la tête !</s>
+              <s>Si tu ne me laisses entrer, je mettrai le feu à la maison.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I16-12">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Que je suis malheureuse !</s>
+              <s>Le voilà qui entre. Tenez, cachez-vous vite sous cette table-là, et ne remuez pas.</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I16-13">
+            <speaker>nigaudin, se mettant sous la table</speaker>
+            <p>
+              <s>Ah !</s>
+              <s>Ma maudite toux me va trahir.</s>
+            </p>
+          </sp>
+          <sp who="le-capitaine" xml:id="I16-14">
+            <speaker>le capitaine entre sur la scène</speaker>
+            <p>
+              <s>Comment !</s>
+              <s>Mordi, mademoiselle : il est plus difficile d’entrer chez vous que de prendre trois demi-lunes l’épée à la main.</s>
+              <s>Si vous ne changez de portier, ma foi, il faudra rompre tout commerce avec vous.</s>
+              <s>Malepeste !</s>
+              <s>Une cravate de Malines qui n’est plus propre qu’à faire de la charpie !</s>
+              <s>Voilà qui est fait, je ne rends plus de visites qu’à des portes bâtardes.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I16-15">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Monsieur, je suis bien fâchée de l’accident de votre cravate : mais...</s>
+            </p>
+          </sp>
+          <sp who="le-capitaine" xml:id="I16-16">
+            <speaker>le capitaine</speaker>
+            <p>
+              <s>Mais, mademoiselle, on est bien aise de conserver le peu qu’on a de linge.</s>
+              <s>Je suis revenu trente fois de l’assaut en meilleur équipage.</s>
+              <s>Il est vrai qu’une jolie personne comme vous est un redoutable ouvrage à cornes.</s>
+            </p>
+            <stage>Il râpe du tabac ; Nigaudin tousse.</stage>
+            <p>
+              <s>Hem, plaît-il ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I16-17">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Ce n’est rien, monsieur...</s>
+              <s>Que voilà un habit bien entendu !</s>
+            </p>
+          </sp>
+          <sp who="le-capitaine" xml:id="I16-18">
+            <speaker>le capitaine</speaker>
+            <p>
+              <s>Je ne suis pas mal fait, oui ; je dois ma taille à une douzaine de bouteilles de vin que je bois réglément par jour : un grand ventre sied bien à la tête d’un bataillon.</s>
+            </p>
+            <stage>Nigaudin tousse.</stage>
+            <p>
+              <s>Ouais !</s>
+              <s>Qu’est-ce donc que j’entends ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I16-19">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Ce n’est rien, vous dis-je.</s>
+              <s>Voilà vos inquiétudes qui vous prennent ; vous voudriez déjà être hors d’ici, et vous ne songez pas qu’il y a un siècle qu’on ne vous a vu.</s>
+            </p>
+          </sp>
+          <sp who="le-capitaine" xml:id="I16-20">
+            <speaker>le capitaine</speaker>
+            <p>
+              <s>J’y viendrais plus souvent : mais tout le genre humain y aborde.</s>
+              <s>Voyez-vous, mademoiselle, je suis le gentilhomme de France du meilleur commerce ; mais, ventrebleu !</s>
+              <s>Je ne m’accommode point de vos neutralités.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I16-21">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Mon Dieu !</s>
+              <s>Monsieur, je ménage tout le monde pour des raisons particulières ; mais je sais donner la préférence à qui le mérite.</s>
+              <s>Je me distingue en voyant des gens de cour ; les officiers me font plaisir ; je trouve des ressources avec les financiers : et pour peu qu’on aime les bagatelles, c’est le moins qu’on puisse avoir que deux ou trois petits abbés dans une maison.</s>
+            </p>
+          </sp>
+          <sp who="le-capitaine" xml:id="I16-22">
+            <speaker>le capitaine</speaker>
+            <p>
+              <s>Pour les abbés, passe : on sait bien que cette graine-là est nécessaire aux femmes : mais j’enrage de voir à vos trousses un tas de gens de robe, qui sont pour la plupart des croquants, à qui l’esprit n’a été donné que comme le sel aux jambons pour les conserver.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I16-23">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Bon ! L’été les femmes les souffrent faute d’officiers : mais ce sont des oiseaux de semestre qui disparaissent avec les hirondelles.</s>
+              <s>Et puis les affaires viennent sans qu’on y pense ; on a tous les jours, malgré soi, des procès ; et vous savez qu’auprès d’un juge sensible, l’enjouement d’une jolie femme est toujours la meilleure pièce d’un sac.</s>
+            </p>
+          </sp>
+          <sp who="le-capitaine" xml:id="I16-24">
+            <speaker>le capitaine</speaker>
+            <p>
+              <s>Vous voyez entre autres un certain... Trigaudin... Nigaudin ; un petit friquet de chicane.</s>
+              <s>Par la ventrebleu !</s>
+              <s>Si jamais je ly rencontre ; je n’aime pas le bruit, mais assurément je lui couperai les oreilles.</s>
+            </p>
+            <stage>Nigaudin tousse, et Colombine tousse aussi, de peur que le Capitaine ne l’entende.</stage>
+          </sp>
+          <sp who="colombine" xml:id="I16-25">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Hé !</s>
+              <s>Fi, monsieur, ne m’en parlez point ; je ne le saurais souffrir : c’est une éponge à sottises.</s>
+            </p>
+            <stage>Elle tousse.</stage>
+          </sp>
+          <sp who="le-capitaine" xml:id="I16-26">
+            <speaker>le capitaine</speaker>
+            <p>
+              <s>Qu’avez-vous donc, mademoiselle ?</s>
+              <s>Vous me paraissez bien enrhumée.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I16-27">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Ce n’est rien, monsieur ; on ne peut pas toujours se porter si bien que vous.</s>
+              <s>Mon Dieu !</s>
+              <s>Que vous avez bon visage !</s>
+            </p>
+          </sp>
+          <sp who="le-capitaine" xml:id="I16-28">
+            <speaker>le capitaine</speaker>
+            <p>
+              <s>Je le crois, ma foi, qu’il est hon ; il y a plus de trente ans que je m’en sers jour et nuit ; je ne suis pas comme ces femmes qui le mettent le soir sur leur toilette.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="17" xml:id="I17">
+          <head>SCÈNE XVII</head>
+          <stage>Le Capitaine, Colombine, Nigaudin, sous la table, un Sergent.</stage>
+          <sp who="le-sergent" xml:id="I17-1">
+            <speaker>le sergent</speaker>
+            <p>
+              <s>Mon capitaine, ne voulez-vous pas arrêter les parties de ce marchand a fourni les justaucorps de la compagnie ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I17-2">
+            <speaker>colombine</speaker>
+            <p>
+              <s>C’est-à-dire, monsieur le capitaine, que vous ne manquez pas de moyens pour trouver de l’argent.</s>
+            </p>
+          </sp>
+          <sp who="le-capitaine" xml:id="I17-3">
+            <speaker>le capitaine</speaker>
+            <p>
+              <s>Je veux être un infâme, si j’ai le premier sou pour faire ma compagnie : ce qui me console, c’est que je dois beaucoup.</s>
+            </p>
+            <stage>Il écrit, et sent quelque chose sous la table.</stage>
+            <p>
+              <s>Allons, tirez.</s>
+              <s>Allons, tirez.</s>
+              <s>Pour une demoiselle, il me semble que vous avez là un vilain mâtin sous votre table.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I17-4">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Vous rêvez, je crois, avec vos mâtins.</s>
+            </p>
+          </sp>
+          <sp who="le-capitaine" xml:id="I17-5">
+            <speaker>le capitaine</speaker>
+            <p>
+              <s>Brin-d’amour ?</s>
+            </p>
+          </sp>
+          <sp who="le-sergent" xml:id="I17-6">
+            <speaker>le sergent</speaker>
+            <p>
+              <s>Mon capitaine.</s>
+            </p>
+          </sp>
+          <sp who="le-capitaine" xml:id="I17-7">
+            <speaker>le capitaine</speaker>
+            <p>
+              <s>Chassez-moi ce chien de dessous cette table.</s>
+            </p>
+          </sp>
+          <sp who="le-sergent" xml:id="I17-8">
+            <speaker>le sergent, avec sa canne</speaker>
+            <p>
+              <s>Allons, tirez ; à la paille.</s>
+            </p>
+            <stage>Nigaudin sort.</stage>
+          </sp>
+          <sp who="le-capitaine" xml:id="I17-9">
+            <speaker>le capitaine</speaker>
+            <p>
+              <s>Oh, oh !</s>
+              <s>Mon petit ami, et que faites-vous donc ici, s’il vous plaît ?</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I17-10">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>La Violette, laquais, prenez ma robe.</s>
+            </p>
+          </sp>
+          <sp who="le-capitaine" xml:id="I17-11">
+            <speaker>le capitaine</speaker>
+            <p>
+              <s>Mon petit ami, si vous ne dénichez au plus vite, je vous ferai amoureusement descendre par la fenêtre.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="I17-12">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Monsieur le capitaine, vous êtes un extravagant de vous emporter sans raison.</s>
+              <s>N’ai-je pas fait mon devoir de faire cacher monsieur pour vous épargner du chagrin ?</s>
+              <s>Tant pis pour vous, si vous allez chercher où vous n’avez que faire.</s>
+            </p>
+            <stage>À Nigaudin.</stage>
+            <p>
+              <s>Et vous, monsieur, de quoi vous avisez-vous de faire du bruit mal à propos ?</s>
+              <s>Il n’y a qu’un homme de robe et officier d’un présidial capable de tousser quand on le cache sous une table.</s>
+              <s>Puisque vous avez fait la sottise, démêlez la fusée comme il vous plaira.</s>
+            </p>
+            <stage>Elle sort.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="18" xml:id="I18">
+          <head>SCÈNE XVIII</head>
+          <stage>Le Capitaine, Nigaudin.</stage>
+          <sp who="nigaudin" xml:id="I18-1">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>Adieu, monsieur ; nous ne serons pas toujours seul à seul ; et s’il vous tombe jamais quelque décret sur le corps, je vous apprendrai ce que c’est que de scandaliser un juge chez des femmes.</s>
+            </p>
+          </sp>
+          <sp who="le-capitaine" xml:id="I18-2">
+            <speaker>le capitaine</speaker>
+            <p>
+              <s>Va, va, petit regrattier de la justice, je me moque de toi et de tes décrets ; je suis en garnison dans une bonne citadelle.</s>
+            </p>
+          </sp>
+          <sp who="nigaudin" xml:id="I18-3">
+            <speaker>nigaudin</speaker>
+            <p>
+              <s>On ne traite pas comme cela un conseiller assesseur, et je m’en plaindrai à votre citadelle.</s>
+            </p>
+            <stage>Ils sortent l’un d’un côté et l’autre de l’autre.</stage>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="acte" n="2" xml:id="II">
+        <head>ACTE II</head>
+        <div2 type="scene" n="1" xml:id="II01">
+          <head>SCÈNE I</head>
+          <stage>Trafiquet, Pierrot.</stage>
+          <sp who="pierrot" xml:id="II01-1">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Monsieur, je viens de chez votre notaire ; il vous prie bien fort de l’excuser ; il ne saurait venir aujourd’hui.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II01-2">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Il faut prendre patience, pourvu qu’il vienne demain.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II01-3">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Ni demain non plus : il lui est survenu une petite affaire ; je ne crois pas qu’il puisse venir si tôt.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II01-4">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Et quelle est donc cette affaire ?</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II01-5">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>C’est, monsieur, qu’il est mort.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II01-6">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Il est mort !</s>
+              <s>Tu as raison ; je ne crois pas qu’il revienne de longtemps. C’est bien dommage ; c’était le seul honnête homme de notaire que j’aie encore trouvé.</s>
+              <s>Hé !</s>
+              <s>Dis-moi, as-tu des nouvelles de notre homme ?</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II01-7">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Ho !</s>
+              <s>Oui, monsieur ; pour celui-là, on m’a dit qu’il était arrivé par le poulailler du Maine, et qu’il demeurait tout rasibus de chez nous.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II01-8">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Le ciel en soit loué !</s>
+              <s>Je me déferai peut-être à la fin de ma fille, et je ne verrai plus dans ma maison des animaux de toute sorte d’espèces, et particulièrement cette assemblée de femmes, ou plutôt cette académie de folles qui s’y tenait.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II01-9">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Tout franc, monsieur, je commençais à être bien las de toutes ces visageresses, et j’étais résolu de prendre mon congé ou de vous donner le vôtre.</s>
+              <s>Mais, monsieur, je voudrais bien vous lâcher un petit mot, tandis que je sommes sur la chose du mariage.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II01-10">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Parle, Pierrot ; que me veux-tu ?</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II01-11">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Monsieur, regardez-moi bien ; tel que vous me voyez, je me vais marier.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II01-12">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Toi, te marier !</s>
+              <s>Es-tu fou ?</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II01-13">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Ce qui me console ; monsieur, c’est que celle que j’épouse est aussi folle que moi.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II01-14">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Et qui est donc cette malheureuse-là ?</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II01-15">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Oh !</s>
+              <s>Monsieur, vous la connaissez bien ; c’est... mademoiselle votre fille.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II01-16">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Ma fille ?</s>
+              <s>Ma fille Colombine ?</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II01-17">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Vraiment, monsieur, cela est tout prêt ; on n’attend plus que votre consentement et le sien.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II01-18">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Je ne sais, maraud, à quoi il tient que je ne t’assomme de coups.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II01-19">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Mais, monsieur, il ne faut pas se fâcher ; cela n’est pas si inégal.</s>
+              <s>Je suis un garçon, une fois, et elle est une fille ; et puis, monsieur, je ne sais ce que c’est que de faire le blêche : vous me donnez quinze écus par an ; j’aime mieux n’en gagner que dix et être votre gendre.</s>
+              <s>Voilà comme je parle, moi.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II01-20">
+            <speaker>trafiquet lui donne des coups de canne</speaker>
+            <p>
+              <s>Et moi, voilà comme je réponds.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II01-21">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Eh !</s>
+              <s>Fi donc, monsieur ; est-ce comme ça qu’on parle de mariage ?</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="II02">
+          <head>SCÈNE II</head>
+          <stage>Arlequin, Trafiquet, Pierrot.</stage>
+          <sp who="pierrot" xml:id="II02-1">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Tenez, voilà votre diable de bailli ; est-ce qu’il est mieux fait que moi ?</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II02-2">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Je crois, monsieur, que vous avez plus d’impatience de me faire votre gendre, que je n’en ai de vous voir mon beau-père.</s>
+              <s>Vous avez une fille : ergo vous êtes pourvu d’une drogue dont vous voudriez être défait ; car une fille, c’est une fleur qui se fane, si elle n’est cueillie dans sa saison ; c’est un quartaut de vin de Champagne qui jaunit, s’il n’est bu dans sa primeur.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II02-3">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Monsieur du quartaut, vous n’en aurez peut-être que la baissière.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II02-4">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>J’espère, monsieur, que vous ne vous repentirez pas de l’affaire que vous faites ; car je puis vous assurer que je vous livre une fille toute neuve, et qui vous fera dans la suite un très bon usé.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II02-5">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Ah !</s>
+              <s>Cette marchandise-là ne dure toujours que trop.</s>
+              <s>Vous pouvez aussi vous vanter que vous serez le beau-père de France le mieux engendré.</s>
+              <s>Je n’ai aucune mauvaise qualité ; je hais le vin à la mort ; j’ai une aversion incroyable pour le jeu, et je suis fort aisé à vivre : je ne crois pas avoir assommé plus de vingt paysans ; et si, ce n’était que pour des bagatelles, quelques rentes seigneuriales.</s>
+            </p>
+            <stage>Il tire son mouchoir, et laisse voir dans sa poche un pistolet et nue bouteille ; il fait tomber des dés et des cartes.</stage>
+          </sp>
+          <sp who="trafiquet" xml:id="II02-6">
+            <speaker>trafiquet, à part</speaker>
+            <p>
+              <s>Voilà cet homme si doux, qui ne joue et qui ne boit pas !</s>
+            </p>
+            <stage>Haut.</stage>
+            <p>
+              <s>Vous dites donc, monsieur, que ma fille sera doucement avec vous ; et qu’est-ce que c’est que cela, s’il vous plaît ?</s>
+            </p>
+            <stage>Il montre le pistolet.</stage>
+          </sp>
+          <sp who="arlequin" xml:id="II02-7">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Je porte toujours cela sur moi, car je n’aime pas à être contredit.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II02-8">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Vous m’assurez que sa dot ne court point de risque entre vos mains, et que vous ne jouez point ?</s>
+            </p>
+            <stage>Il montre les cartes qui sont à terre.</stage>
+          </sp>
+          <sp who="arlequin" xml:id="II02-9">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Fi, monsieur !</s>
+              <s>Il n’y a que des fripons qui s’amusent à ce métier-là.</s>
+              <s>Je porte quelquefois des cartes et des dés par complaisance ; mais je ne m’en sers qu’en compagnie, et je vous assure que si j’étais seul je ne jouerais jamais.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II02-10">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Je vous l’ai toujours dit, monsieur ; il n’y a que les mauvaises compagnies qui gâtent la jeunesse.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II02-11">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Pour du vin, vous n’en buvez pas ?</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II02-12">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>La crapule me fait horreur.</s>
+              <s>Est-ce que les honnêtes gens boivent du vin ?</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II02-13">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Je vois pourtant là quelque chose qui a assez la physionomie d’une bouteille.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II02-14">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Bon !</s>
+              <s>Monsieur, vous avez la berlue.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II02-15">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Oui, parbleu !</s>
+              <s>Il l’a ; ce n’est que de l’eau-de-vie que je porte à une femme de qualité qui est en couche.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II02-16">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Allons, allons, il faut passer par là-dessus : on ne fera pas un homme exprès pour moi.</s>
+              <s>Apparemment vous n’épouserez pas ma fille sans la voir ?</s>
+              <s>Pierrot, dis à Colombine qu’elle vienne saluer monsieur.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II02-17">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Elle n’est pas ici.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II02-18">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Elle n’est pas ici ?</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II02-19">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Non, monsieur ; j’ai vu un chevalier avec un abbé qui sont venus pour l’emprunter jusqu’à sept heures.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II02-20">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>L’emprunter !</s>
+              <s>Comment donc !</s>
+              <s>Est-ce là cette fille si neuve ?</s>
+              <s>Si on me l’emprunte comme cela quand elle sera ma femme, elle ne durera pas si longtemps que je pensais.</s>
+              <s>Mon garçon, la fille de monsieur se prête donc quelquefois de main en main quand on la demande ?</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II02-21">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Oui, monsieur, tous les jours ; il y a tout plein d’honnête monde qui la vient prendre pour la divertir.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II02-22">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Oui, monsieur du beau-père !</s>
+              <s>En tout cas, si dans six mois ou un an je ne m’accommodais pas de votre fille, en perdant quelque chose dessus, vous la reprendriez.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II02-23">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Il n’y a rien à perdre sur cette fille-là ; vous en trouverez toujours votre argent.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="II03">
+          <head>SCÈNE III</head>
+          <stage>Trafiquet, Arlequin, Colombine, Pierrot.</stage>
+          <sp who="pierrot" xml:id="II03-1">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>On ne parle point du loup qu’on n’en voie la queue.</s>
+              <s>Tenez, la voilà.</s>
+              <s>Ne vous avais-je pas bien dit qu’elle viendrait souper avec vous ?</s>
+              <s>Il n’y a point de fille à Paris si bien morigénée ; elle ne couche jamais en ville.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II03-2">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Ma fille, voilà le bailli en question : tu ne voudras peut-être pas lui ouvrir ton cœur en ma présence ?</s>
+              <s>Monsieur, je ne vous rends pas un méchant office de vous laisser seul avec votre maîtresse.</s>
+            </p>
+            <stage>Il sort avec Pierrot.</stage>
+            <stage>Pierrot fait des mines en quittant Colombine.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="II04">
+          <head>SCÈNE IV</head>
+          <stage>Colombine, Trafiquet.</stage>
+          <sp who="arlequin" xml:id="II04-1">
+            <speaker>arlequin, reculant</speaker>
+            <p>
+              <s>Ne vous étonnez pas, mademoiselle, si vous me voyez reculer trois pas au frontispice de vos charmes : vous avez des yeux capables d’embraser tout le bailliage de mon cœur ; et depuis qu’on porte des bouches, on n’a jamais bouchonné un bouchon si bouchonnable.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II04-2">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Je suis confuse de vos civilités, monsieur ; et il faudrait avoir plus d’esprit que je n’en ai pour répondre à un compliment aussi bien tourné.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II04-3">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Il est vrai que pour des compliments, il n’y a personne dans notre province qui ose me prêter le collet.</s>
+              <s>J’ai harangué une fois notre intendant pendant deux heures, avec tant d’éloquence, qu’il s’endormit tout debout, et ne s’éveilla qu’une heure après que j’eus fini.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II04-4">
+            <speaker>colombine</speaker>
+            <p>
+              <s>De pareils efforts d’esprit sont bons pour la province ; mais à Paris on aime à parler terre à terre.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II04-5">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Bon !</s>
+              <s>A-t-on de l’esprit à Paris ?</s>
+              <s>Sitôt qu’il y a un fat dans un pays, on l’y envoie ; c’est le rendez-vous de tous les sots de la France ; et, de tous les Parisiens, je ne vois que les Normands et les Manceaux qui aient un peu de brillant.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II04-6">
+            <speaker>colombine</speaker>
+            <p>
+              <s>À vous entendre parler, vous ne paraissez pas content des cavaliers de ce pays-ci ; et les dames, qu’en dites-vous ?</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II04-7">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>La la ; elles sont d’assez bonne amitié : j’en ai trouvé quelques unes de jolies en mon chemin ; mais, tout franc, je n’en ai point encore vu une de votre calibre.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II04-8">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Il faut pourtant tomber d’accord qu’elles ont un tour d’esprit et des manières de se mettre que les femmes de province n’ont pas.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II04-9">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Oui-da, oui-da, je trouve qu’elles se coiffent raisonnablement haut, et je crois que leurs maris ne sont guère coiffés plus bas,</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II04-10">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Où passe-t-on le temps avec plus d’économie ?</s>
+              <s>Aujourd’hui à l’Opéra, demain à la Comédie, un autre jour au bal ; on entrelace cela de parties de jeu et de promenades.</s>
+              <s>Vous voyez bien qu’il n’y a point de lieu où une femme soit si façonnière.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II04-11">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Pour moi, je trouve cela le plus joli du monde ; mais que disent les maris à Paris ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II04-12">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Les maris disent ce qu’ils veulent, et les femmes font ce qui leur plaît ; c’est la mode du pays.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II04-13">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Les femmes feront durer cette mode-là le plus qu’elles pourront.</s>
+              <s>Et, s’il vous plaît, quand une femme revient du bal à cinq heures du matin avec un cavalier, qu’elle éveille toute la maison, que disent les maris à Paris ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II04-14">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Ils ne disent rien ; dès que la femme est rentrée, ils se rendorment.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II04-15">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Un homme qui a le sommeil si bien en main n’a pas besoin d’être bercé.</s>
+              <s>Mais, je vous prie, lorsqu’une femme vend ses pierreries pour faire l’équipage de quelque galant homme qui va à l’armée, que disent les maris à Paris ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II04-16">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Oh !</s>
+              <s>Les Parisiens sont trop bons serviteurs du Roi pour trouver cela mauvais.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II04-17">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Je ne m’en dédis point, voila de bonnes gens que ces Parisiens-là.</s>
+              <s>Vaille que vaille, puisque j’ai fait les frais du voyage, je vous épouserai ; mais à condition que, dès le lendemain de la noce, vous vous mettrez dans la carriole du Mans pour venir régenter les chapons de ma basse-cour : l’air de Paris donne trop de maux de tête.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II04-18">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Quelque loi que vous m’imposiez, elle me paraîtra toujours douce, pourvu que je sois sûre de passer avec vous le reste de mes jours : vous me tenez lieu de tout ; et du moment que je vous ai vu, j’ai senti pour vous...</s>
+              <s>Ah !</s>
+              <s>Ne m’obligez pas de m’expliquer ; j’en dirais peut-être plus que je ne veux.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II04-19">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Les filles de ce pays-ci sont faites avec des étoupes ; il ne faut qu’une étincelle...</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II04-20">
+            <speaker>colombine</speaker>
+            <p>
+              <s>J’ai une grâce à vous demander : les filles, comme vous savez, ont beaucoup d’ambition sur le fait du mariage ; j’ai eu toute ma vie une noble horreur pour les baillis du Maine ; ne pourriez-vous point changer de charge, et vous faire homme de qualité ?</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II04-21">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Très volontiers ; rien n’est plus aisé : aussi bien je suis en pourparler avec un marquis de nos cantons qui s’en va à l’armée ; et, comme il a besoin d’argent, il veut me vendre sa charge de marquis avec sa pratique.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II04-22">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Oh, monsieur !</s>
+              <s>Que cela me fera de plaisir !</s>
+              <s>Mais, en achetant une charge de marquis, n’oubliez pas, s’il vous plaît, de vous faire donner les airs déhanchés de ces messieurs-là.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II04-23">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Oh !</s>
+              <s>Je n’en ai que faire : quand on a été toute sa vie élevé dans le Bas-Maine, les airs de cour ne sont que trop familiers.</s>
+              <s>Adieu, ma belle enfant ; touchez là : dans une heure au plus tard je vous fais marquise ou baillivesse ; vous choisirez.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="II05">
+          <head>SCÈNE V</head>
+          <sp who="colombine" xml:id="II05-1">
+            <speaker>colombine, seule</speaker>
+            <p>
+              <s>La sotte pécore qu’un homme qui a le mariage en tête !</s>
+              <s>Une fille un peu savante sur l’article le manie comme un chamois.</s>
+              <s>Voyez, je vous prie, cet idiot de bailli qui va se faire marquis.</s>
+              <s>Pour m’essayer, le premier marquis qui me tombera sous la patte, j’en ferai un procureur fiscal.</s>
+            </p>
+            <stage>Scènes italiennes.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6" xml:id="II06">
+          <head>SCÈNE VI</head>
+          <stage>Trafiquet, Colombine.</stage>
+          <sp who="trafiquet" xml:id="II06-1">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Je vous prie, mademoiselle ma fille, de ne point m’échauffer les oreilles ; je sais ce qu’il vous faut, et c’est à vous d’obéir quand je vous ai choisi un mari, entendez-vous ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II06-2">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Comme je suis une partie des plus intéressées dans l’affaire, je crois, mon père, que mon choix est du moins aussi nécessaire que le vôtre ; et je vous dirai franchement que cet homme-là n’est point fait pour moi.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II06-3">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>N’est point fait pour vous !</s>
+              <s>J’en suis d’avis ; il faut vous l’essayer.</s>
+              <s>Mais voyez, je vous prie, comme cela fait la raisonneuse !</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II06-4">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Je vous dis encore une fois, mon père, laissez-moi mener cette affaire-là.</s>
+              <s>Vous êtes plus vieux que moi, j’en conviens ; mais je me connais mieux en maris que vous.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II06-5">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Et que trouvez-vous, s’il vous plaît, à redire au mari que je vous propose ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II06-6">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Bon !</s>
+              <s>C’est un homme qui se présente de front au mariage, et ne sait pas ce que c’est qu’un préliminaire d’amour.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II06-7">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Hé !</s>
+              <s>De par tous les diables !</s>
+              <s>Comment veux-tu donc qu’il se présente ?</s>
+              <s>Tant mieux, s’il entre tout de suite en matière ; en fait de mariage, je n’aime point à voir préluder.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II06-8">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Quoi !</s>
+              <s>Mon père, vous voudriez...</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II06-9">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Oui, je le veux.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II06-10">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Vous prétendez qu’un homme que je n’ai jamais vu...</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II06-11">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Oui, je le prétends.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II06-12">
+            <speaker>colombine</speaker>
+            <p>
+              <s>J’ai trop de raison pour...</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II06-13">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Si tu as de la raison tu dois m’obéir, et prendre le parti qui se présente.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="7" xml:id="II07">
+          <head>SCÈNE VII</head>
+          <stage>Trafiquet, Colombine, Octave.</stage>
+          <stage>OCTAVE, dans le fond du théâtre, fait des mines à Colombine, sans être vu de Trafiquet.</stage>
+          <sp who="colombine" xml:id="II07-1">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Le parti qui se présente ?</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II07-2">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Oui, le parti qui se présente.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II07-3">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Assurément ?</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II07-4">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Oui, s’il vous plaît ; il ne faut point tant faire de gestes et de grimaces : est-ce qu’il lui manque quelque chose ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II07-5">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Je ne dis pas cela.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II07-6">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Est-il tortu ou bossu ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II07-7">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Je trouve sa taille dégagée et engageante.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II07-8">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Est-ce qu’il n’a point d’esprit ?</s>
+              <s>Va, va, ce n’est pas le plus nécessaire en ménage.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II07-9">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Son esprit me charme, et je connais peu de gens qui en aient plus que lui.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II07-10">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Et pourquoi donc n’en veux-tu point ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II07-11">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Moi, je n’en veux pas !</s>
+              <s>Il faudrait, mon père, que je fusse bien aveugle ou bien insensible pour, refuser un tel parti.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II07-12">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Oh !</s>
+              <s>Que ne parles-tu donc ?</s>
+              <s>J’allais me mettre en colère.</s>
+              <s>Voyez, je vous prie, quand on ne s’entend pas.</s>
+              <s>Viens, ma fille, que je t’embrasse.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II07-13">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Que cet embrassement me fait de plaisir !</s>
+            </p>
+            <stage>Colombine, en embrassant Trafiquet, donne sa main à baiser à Octave.</stage>
+          </sp>
+          <sp who="trafiquet" xml:id="II07-14">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Tu réponds dignement aux soins que j’ai pris de ton éducation.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II07-15">
+            <speaker>colombine</speaker>
+            <p>
+              <s>J’aimerais mieux mourir, mon père, que de vous désobliger.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II07-16">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Tu me promets donc de ne plus songer à cet étourdi ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II07-17">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Je ne le verrai de ma vie ; c’est un homme que je ne puis souffrir.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II07-18">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Et moi, pour reconnaître ton obéissance, je te promets d’augmenter ton trousseau de six chemises, et d’aller te voir toutes les fêtes et dimanches quand tu seras au Maine.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II07-19">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Au Maine, mon père !</s>
+              <s>Et que faire là ?</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II07-20">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Accompagner ton mari.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II07-21">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Mon mari !</s>
+              <s>Ce n’est pas son dessein de quitter Paris.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II07-22">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Vraiment si ; il est bailli du Maine.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II07-23">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Octave est bailli du Maine !</s>
+              <s>Depuis quand donc ?</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II07-24">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Que diable veux-tu donc dire avec ton Octave ?</s>
+              <s>Je crois que tu es folle.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II07-25">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Quoi !</s>
+              <s>Ce n’est pas Octave que vous voulez me donner pour mari ?</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II07-26">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Non, assurément.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II07-27">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Bon, bon !</s>
+              <s>Vous voulez rire.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II07-28">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Je ne ris point, et je veux...</s>
+            </p>
+            <stage>Il aperçoit Octave qui lui fait une révérence et s’en va.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="8" xml:id="II08">
+          <head>SCÈNE VIII</head>
+          <stage>Trafiquet, Colombine.</stage>
+          <sp who="trafiquet" xml:id="II08-1">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>C’est donc ainsi, coquine, que tu fais état de mes remontrances, et que tu te moques de moi !</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II08-2">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Mon père...</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II08-3">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Va, je t’abandonne.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II08-4">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Hé !</s>
+              <s>Mon père...</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II08-5">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Je te déshérite.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II08-6">
+            <speaker>colombine, d’un ton doux</speaker>
+            <p>
+              <s>Mon petit papa !</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="II08-7">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Je te donne ma malédiction, et tu mourras vieille fille.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="9" xml:id="II09">
+          <head>SCÈNE IX</head>
+          <sp who="colombine" xml:id="II09-1">
+            <speaker>colombine, seule</speaker>
+            <p>
+              <s>Oh !</s>
+              <s>Criez tant qu’il vous plaira.</s>
+              <s>Je n’irai pas perdre un amant pour la mauvaise humeur d’un père : nous sommes dans un temps où il faut garder le peu qu’on en a.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="10" xml:id="II10">
+          <head>SCÈNE X</head>
+          <stage>Colombine, Pierrot.</stage>
+          <sp who="colombine" xml:id="II10-1">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Voici notre amoureux Pierrot ; il faut l’écouter un moment et nous en divertir.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II10-2">
+            <speaker>pierrot, sans voir colombine</speaker>
+            <p>
+              <s>Enfin, Pierrot, te voilà dans le bourbier jusqu’au cou. De quoi t’avises-tu d’être amoureux ?</s>
+              <s>Tu ne fais plus que quatre repas par jour ; tu ne saurais plus t’éveiller qu’à midi sonné : tu vois bien qu’en cet état-là tu ne peux pas faire longue vie.</s>
+              <s>Hé bien, je mourrai.</s>
+              <s>Tu mourras !</s>
+              <s>Sais-tu bien qu’il n’y a rien de si triste que la mort ?</s>
+              <s>Il n’importe ; je ne verrai plus cette ingrate, cette....</s>
+            </p>
+            <stage>Il aperçoit Colombine.</stage>
+          </sp>
+          <sp who="colombine" xml:id="II10-3">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Que dis-tu là ?</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II10-4">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Je dis...</s>
+              <s>Je dis, mademoiselle, que quand je serai mort, je ne verrai plus goutte.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II10-5">
+            <speaker>colombine</speaker>
+            <p>
+              <s>C’est donc à dire que ta folie te dure toujours ?</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II10-6">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Mademoiselle, assurément vous me ferez faire quelque mauvais coup : je me serais déjà jeté vingt fois par la fenêtre de notre grenier, s’il avait été seulement un étage plus bas.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II10-7">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Tu te moques, Pierrot ; quand on est bien amoureux, on n’est pas à un étage près.</s>
+              <s>Je te conseille, de ce pas, d’aller faire ce saut-là pour l’amour de moi.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="II10-8">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Allez, vilain petit porc-épic, le ciel vous punira.</s>
+              <s>Ô amour !</s>
+              <s>Amour !</s>
+              <s>Ô Pierrot !</s>
+              <s>Pierrot !</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="11" xml:id="II11">
+          <head>SCÈNE XI</head>
+          <stage>Colombine, un Laquais.</stage>
+          <sp who="le-laquais" xml:id="II11-1">
+            <speaker>le laquais</speaker>
+            <p>
+              <s>Mademoiselle, voilà la comtesse de Flamèche et la marquise de Bistoquet qui demandent à vous voir.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II11-2">
+            <speaker>colombine</speaker>
+            <p>
+              <s>La comtesse de Flamèche et la marquise de Bistoquet !</s>
+              <s>Je ne connais point cela.</s>
+              <s>De quel mauvais vent ces femmes-là abordent-elles chez moi ?</s>
+              <s>Il faut que ce soient des provinciales.</s>
+            </p>
+          </sp>
+          <sp who="le-laquais" xml:id="II11-3">
+            <speaker>le laquais</speaker>
+            <p>
+              <s>Ce sont des dames qui disent qu’elles demeurent depuis peu dans le quartier.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II11-4">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Faites-les entrer.</s>
+              <s>Voilà de ces chiennes de visites que l’on ne saurait éviter.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="12" xml:id="II12">
+          <head>SCÈNE XII</head>
+          <stage>Colombine, Mezzetin, en comtesse de Flamèche ; Pasquariel, en marquise de Bistoquet.</stage>
+          <stage>Octave envoie Mezzetin et Pasquariel sous ce déguisement, pour achever de dégoûter Colombine du bailli. Le laquais qui tient la queue de la Marquise, la tient fichée dans sa culotte, et de ses deux mains casse des noix. Colombine, Mezzetin et Pasquariel parlent tous trois ensemble.</stage>
+          <sp who="mezzetin" xml:id="II12-1">
+            <speaker>mezzetin</speaker>
+            <p>
+              <s>Hé !</s>
+              <s>Bonjour, mademoiselle ; comment vous portez-vous ?</s>
+              <s>Il y a mille ans que j’ai envie de vous venir voir, et de profiter de l’honneur de votre voisinage.</s>
+            </p>
+          </sp>
+          <sp who="pasquariel" xml:id="II12-2">
+            <speaker>pasquariel</speaker>
+            <p>
+              <s>On a dû vous dire, mademoiselle, que mon équipage s’est arrêté vingt fois à votre porte ; mais vous êtes introuvable, et toute des plus rares.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II12-3">
+            <speaker>colombine</speaker>
+            <p>
+              <s>En vérité, mesdames, je suis dans la dernière confusion d’avoir si mai profité de l’honneur de votre visite.</s>
+              <s>Holà !</s>
+              <s>Quelqu’un, des siéges.</s>
+            </p>
+            <stage>Elles se taisent toutes les trois, et recommencent à parler ensemble.</stage>
+          </sp>
+          <sp who="mezzetin" xml:id="II12-4">
+            <speaker>mezzetin</speaker>
+            <p>
+              <s>Peut-on savoir, la belle, quels sont vos plaisirs ?</s>
+              <s>Vous êtes toujours dans le grand monde ; on dit que c’est vous qui faites l’honneur du quartier.</s>
+            </p>
+          </sp>
+          <sp who="pasquariel" xml:id="II12-5">
+            <speaker>pasquariel</speaker>
+            <p>
+              <s>Mais voyez ce teint, je vous prie, madame la Comtesse.</s>
+            </p>
+            <stage>À Colombine.</stage>
+            <p>
+              <s>Apparemment que vous l’avez pris du bon faiseur ; je n’ai jamais rien vu d’aussi charmant.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II12-6">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Je suis ravie, mesdames, d’avoir un voisinage aussi agréable que le vôtre.</s>
+              <s>Quand vous voudrez, nous jouerons ensemble ; mais je vous avertis que je suis la plus malheureuse fille du monde.</s>
+            </p>
+            <stage>Elles se taisent encore.</stage>
+          </sp>
+          <sp who="mezzetin" xml:id="II12-7">
+            <speaker>mezzetin</speaker>
+            <p>
+              <s>Nous faisons nos visites de quartier.</s>
+              <s>Une charrette de foin a fait un embarras, ce qui nous a obligées de nous sauver chez Lamy, où nous avons bu chacune trois bouteilles de vin pour nous désennuyer.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II12-8">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Six bouteilles de vin à deux femmes !</s>
+            </p>
+          </sp>
+          <sp who="pasquariel" xml:id="II12-9">
+            <speaker>pasquariel</speaker>
+            <p>
+              <s>Il faut dire la vérité ; madame la Comtesse porte le vin comme un charme.</s>
+            </p>
+          </sp>
+          <sp who="mezzetin" xml:id="II12-10">
+            <speaker>mezzetin</speaker>
+            <p>
+              <s>Madame la Marquise veut qu’on lui rende justice, et qu’on lui dise qu’il n’y a point de Breton qu’elle ne boive par-dessous la jambe ; c’est bien le plus hardi vin de femme !</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II12-11">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Avec ces talents-là, mesdames, il est à présumer que vous êtes mariées en Bourgogne ou en Champagne.</s>
+            </p>
+          </sp>
+          <sp who="mezzetin" xml:id="II12-12">
+            <speaker>mezzetin</speaker>
+            <p>
+              <s>Vous ne vous trompez point.</s>
+              <s>À propos de mariage, ma belle voisine, on m’a dit que vous couchiez la noce en joue.</s>
+              <s>Une fille comme vous peut-elle se résoudre à cette vilenie-là ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II12-13">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Pour moi, madame, je ne trouve rien de vilain à faire tout ce que le monde fait, et ce que vous avez fait vous-même.</s>
+            </p>
+          </sp>
+          <sp who="mezzetin" xml:id="II12-14">
+            <speaker>mezzetin</speaker>
+            <p>
+              <s>Il est vrai ; mais je n’avais que quinze ans pour lors ; vous savez que c’est un âge terriblement scabreux pour une fille.</s>
+              <s>Pourrez-vous abandonner votre taille aux accidents du mariage ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II12-15">
+            <speaker>colombine</speaker>
+            <p>
+              <s>J’ai assez de peine à m’y résoudre ; mais que voulez-vous ?</s>
+              <s>Il faut bien prendre le bénéfice avec les charges.</s>
+            </p>
+          </sp>
+          <sp who="pasquariel" xml:id="II12-16">
+            <speaker>pasquariel</speaker>
+            <p>
+              <s>Faites comme moi, mademoiselle ; depuis que j’ai épousé mon mari, nous ne couchons plus ensemble.</s>
+            </p>
+          </sp>
+          <sp who="mezzetin" xml:id="II12-17">
+            <speaker>mezzetin</speaker>
+            <p>
+              <s>Cela est fort bon pour vous, madame la Marquise, qui avez quantité d’enfants de votre premier lit ; mais une fille qui se marie est bien aise de savoir au juste à quoi elle est propre.</s>
+            </p>
+          </sp>
+          <sp who="pasquariel" xml:id="II12-18">
+            <speaker>pasquariel</speaker>
+            <p>
+              <s>Pour moi, je suis malheureuse en garçons ; je n’en saurais élever ; je n’en ai plus que dix-sept.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II12-19">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Dix-sept !</s>
+              <s>En vérité, madame, l’état vous est bien obligé de lui donner tant de bons sujets.</s>
+            </p>
+          </sp>
+          <sp who="mezzetin" xml:id="II12-20">
+            <speaker>mezzetin</speaker>
+            <p>
+              <s>J’en aurais bien eu vingt-cinq ou trente, si tout était venu à profit ; mais les fausses couches ont fait de terribles brèches dans ma famille.</s>
+              <s>Le dirait-on à ma taille ?</s>
+            </p>
+            <stage>Il se promène.</stage>
+          </sp>
+          <sp who="colombine" xml:id="II12-21">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Elle est d’une finesse extraordinaire ; on croirait que vous allez rompre.</s>
+            </p>
+          </sp>
+          <sp who="mezzetin" xml:id="II12-22">
+            <speaker>mezzetin</speaker>
+            <p>
+              <s>Depuis deux ans, Dieu merci, j’en suis un peu la maîtresse ; j’ai obligé monsieur le Comte à faire lit à part ; car je suis présentement bien revenue de la bagatelle.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II12-23">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Et monsieur votre époux prendra-t-il toujours ce petit divorce en patience ?</s>
+            </p>
+          </sp>
+          <sp who="mezzetin" xml:id="II12-24">
+            <speaker>mezzetin</speaker>
+            <p>
+              <s>Madame, il fera comme il pourra.</s>
+            </p>
+          </sp>
+          <sp who="pasquariel" xml:id="II12-25">
+            <speaker>pasquariel</speaker>
+            <p>
+              <s>Peut-on savoir, ma chère, qui vous épousez ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II12-26">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Plusieurs partis me recherchent ; mais mon père me destine à un bailli du Maine, et...</s>
+            </p>
+          </sp>
+          <sp who="pasquariel" xml:id="II12-27">
+            <speaker>pasquariel</speaker>
+            <p>
+              <s>À un bailli !...</s>
+              <s>À un bailli !...</s>
+              <s>Ah !</s>
+              <s>Ouf !</s>
+              <s>Je me trouve mal !</s>
+              <s>Un bailli !</s>
+              <s>Ah !</s>
+              <s>Quelle ordure !</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="II12-28">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Comment donc, madame !</s>
+              <s>Avez-vous des vapeurs ?</s>
+            </p>
+          </sp>
+          <sp who="mezzetin" xml:id="II12-29">
+            <speaker>mezzetin</speaker>
+            <p>
+              <s>Ah, mademoiselle !</s>
+              <s>Vous ne deviez jamais lâcher le mot de bailli.</s>
+              <s>À l’heure qu’il est, cela me dévoie.</s>
+              <s>Un bailli !</s>
+              <s>Encore si c’était un procureur fiscal !</s>
+            </p>
+            <stage>Ils se jettent sur leurs siéges en faisant beaucoup de contorsions.</stage>
+          </sp>
+          <sp who="colombine" xml:id="II12-30">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Ah !</s>
+              <s>Que je suis malheureuse !</s>
+              <s>Voilà deux femmes qui vont me demeurer dans les mains.</s>
+              <s>Holà, quelqu’un !</s>
+              <s>Mes laquais, ma femme de chambre !</s>
+            </p>
+          </sp>
+          <sp who="mezzetin_pasquariel" xml:id="II12-31">
+            <speaker>mezzetin et pasquariel, ensemble</speaker>
+            <p>
+              <s>Un bailli !</s>
+            </p>
+            <stage>À la porte ils font beaucoup de cérémonies pour passer.</stage>
+          </sp>
+          <sp who="pasquariel" xml:id="II12-32">
+            <speaker>pasquariel</speaker>
+            <p>
+              <s>Non, madame, assurément je ne passerai pas, ou la peste m’étouffe !</s>
+            </p>
+          </sp>
+          <sp who="mezzetin" xml:id="II12-33">
+            <speaker>mezzetin</speaker>
+            <p>
+              <s>Si je passe la première, je veux que cinq cent mille diables me tordent le cou !</s>
+            </p>
+            <stage>À force de civilités, de contorsions, leurs coiffures tombent.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="13" xml:id="II13">
+          <head>SCÈNE XIII</head>
+          <sp who="colombine" xml:id="II13-1">
+            <speaker>colombine, seule</speaker>
+            <p>
+              <s>Non, je ne crois pas que de mémoire d’homme on ait reçu une visite aussi impertinente.</s>
+              <s>Elles n’ont que faire de me tant dégoûter du bailli ; si je l’épouse, ce ne sera quà mon corps défendant.</s>
+            </p>
+            <stage>Il y a ici quelques scènes italiennes, dans lesquelles Mezzetin et Pasquariel rendent compte à Octave du succès de leurs fourberies ; celui ci les engage à ne pas s’en tenir là, et l’on concerte de se déguiser en Bohémiens, d’aller trouver Arlequin, et de lui dire sa bonne aventure. Ces scènes préparent les scènes françaises suivantes.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="14" xml:id="II14">
+          <head>SCÈNE XIV</head>
+          <stage>Arlequin, Mezzetin, Pasquariel, Deux Bohémiens, suite de Bohémiens.</stage>
+          <stage>Mezzetin et Pasquariel, déguisés en Bohémiens, abordent Arlequin, dansent et chantent autour de lui.</stage>
+          <sp who="arlequin" xml:id="II14-1">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Quand vous serez las de chanter, vous me direz peut-être ce que vous me voulez.</s>
+            </p>
+            <stage>Ils continuent de chanter et de danser.</stage>
+            <stage>À Mezzetin.</stage>
+            <p>
+              <s>Monsieur le meneur de ballets, peut-on savoir qui sont ces sauterelles-là ?</s>
+            </p>
+            <stage>Il montre les deux Bohémiennes.</stage>
+          </sp>
+          <sp who="mezzetin" xml:id="II14-2">
+            <speaker>mezzetin</speaker>
+            <p>
+              <s>Monsieur, ce sont des filles surnaturelles, qui connaissent les astres, les langues, et tout ce qu’il y a de plus extraordinaire au monde et hors du monde ; elles ne parlent qu’en vers : enfin, ce sont des filles d’un mérite sublime.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="II14-3">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Puisque ces créatures -là savent tant de belles choses, elles pourront donc bien me déterminer sur un mariage ?</s>
+            </p>
+          </sp>
+          <sp who="mezzetin" xml:id="II14-4">
+            <speaker>mezzetin</speaker>
+            <p>
+              <s>Vous ne pouvez pas mieux vous adresser.</s>
+            </p>
+            <stage>Il s’en va en chantant avec sa troupe.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="15" xml:id="II15">
+          <head>SCÈNE XV</head>
+          <stage>Arlequin, les deux Bohémiennes.</stage>
+          <sp who="arlequin" xml:id="II15-1">
+            <speaker>arlequin, se mettant an milieu d’elles</speaker>
+            <l n="34" xml:id="l34">Mesdames, pour venir à la conclusion,</l>
+            <l n="35" xml:id="l35">Vous saurez que je sens une convulsion,</l>
+            <l n="36" xml:id="l36">Un appétit, nommé vapeurs de mariage ;</l>
+            <l n="37" xml:id="l37">Un... là... quelque Arlequin qui demande passage.</l>
+            <l n="38" xml:id="l38" part="I">Me dois-je marier ?</l>
+            <stage>La première Bohémienne gesticule et ne dit mot.</stage>
+            <l n="38" part="F">Oh ! Vous avez raison.</l>
+            <l n="39" xml:id="l39">Et vous, à votre avis, me marierai-je, ou non ?</l>
+            <stage>La seconde Bohémienne gesticule et ne dit mot.</stage>
+            <l n="40" xml:id="l40">C’est bien dit ; à ces mots il n’est point de réplique.</l>
+            <l n="41" xml:id="l41">Dans leur langue, à mon tour, il faut que je m’explique.</l>
+            <stage>Il fait beaucoup de gestes sans rien dire, ensuite il continue.</stage>
+            <l n="42" xml:id="l42">Vous m’entendez donc bien : enfin, sans tant parler,</l>
+            <l n="43" xml:id="l43">(Car cela vous fait mal) devrais-je convoler ?</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-2">
+            <speaker>première bohemiénne</speaker>
+            <l n="44" xml:id="l44" part="I">Oui.</l>
+          </sp>
+          <sp who="seconde-bohemienne" xml:id="II15-3">
+            <speaker>seconde bohemiénne</speaker>
+            <l n="44" part="F">Non.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-4">
+            <speaker>arlequin</speaker>
+            <l n="44" part="F">Comment ?</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-5">
+            <speaker>première bohemiénne</speaker>
+            <l n="44" part="F">Oui.</l>
+          </sp>
+          <sp who="seconde-bohemienne" xml:id="II15-6">
+            <speaker>seconde bohemiénne</speaker>
+            <l n="44" part="F">Non.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-7">
+            <speaker>arlequin</speaker>
+            <l n="44" part="F">Quelle peste de gamme !</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-8">
+            <speaker>première bohemiénne</speaker>
+            <l n="45" xml:id="l45">C’est manquer de bon sens que de vivre sans femme.</l>
+          </sp>
+          <sp who="seconde-bohemienne" xml:id="II15-9">
+            <speaker>seconde bohemiénne</speaker>
+            <l n="46" xml:id="l46">Et pour se marier, il faut être archi-fou.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-10">
+            <speaker>arlequin</speaker>
+            <l n="47" xml:id="l47">Celle-ci, par ma foi, lui rive bien son clou.</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-11">
+            <speaker>première bohemiénne</speaker>
+            <l n="48" xml:id="l48">Oui, l’hymen est des dieux le plus parfait ouvrage ;</l>
+            <l n="49" xml:id="l49">C’est le port assuré : dans le libertinage,</l>
+            <l n="50" xml:id="l50">Le nœud qui nous unit avec de doux accords,</l>
+            <l n="51" xml:id="l51">La porte des plaisirs qu’on goûte sans remords,</l>
+            <l n="52" xml:id="l52">Le bridon qui retient la jeunesse fougueuse,</l>
+            <l n="53" xml:id="l53">L’onguent qui guérit seul la brûlure amoureuse,</l>
+            <l n="54" xml:id="l54">Des blessures du cœur l’appareil souverain,</l>
+            <l n="55" xml:id="l55">Et la forge, en un mot, de tout le genre humain.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-12">
+            <speaker>arlequin</speaker>
+            <l n="56" xml:id="l56">J’en connais bien pourtant de plus d’une fabrique,</l>
+            <l n="57" xml:id="l57">Qui ne furent jamais faits dans cette boutique ;</l>
+            <l n="58" xml:id="l58">Enfants du pur hasard ; et, sans aller plus loin,</l>
+            <l n="59" xml:id="l59">J’en trouverais peut-être ici plus d’un témoin.</l>
+          </sp>
+          <sp who="seconde-bohemienne" xml:id="II15-13">
+            <speaker>seconde bohemiénne</speaker>
+            <l n="60" xml:id="l60">Non, l’hymen, quel qu’il soit, est un dur esclavage,</l>
+            <l n="61" xml:id="l61">Une mer où l’honneur bien souvent fait naufrage,</l>
+            <l n="62" xml:id="l62">Un grand chemin rempli de voleurs dangereux,</l>
+            <l n="63" xml:id="l63">Une terre fertile en bois malencontreux,</l>
+            <l n="64" xml:id="l64">Un magasin de fraude, où l’on fait de commande</l>
+            <l n="65" xml:id="l65">Marchandise mêlée et bien de contrebande ;</l>
+            <l n="66" xml:id="l66">C’est l’écueil du plaisir : pour tout dire en un mot,</l>
+            <l n="67" xml:id="l67">C’est une souricière où l’on attrape un sot.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-14">
+            <speaker>arlequin, à la première bohémienne</speaker>
+            <l n="68" xml:id="l68">Cet avis, à mon goût, vaut bien l’autre, madame.</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-15">
+            <speaker>première bohemiénne</speaker>
+            <l n="69" xml:id="l69">Un homme ne saurait vivre content sans femme ;</l>
+            <l n="70" xml:id="l70">Sans elle une maison irait tout de travers :</l>
+            <l n="71" xml:id="l71">Elle sait du destin partager les revers ;</l>
+            <l n="72" xml:id="l72">Elle sert un mari, soulage sa vieillesse :</l>
+            <l n="73" xml:id="l73">La femme est dans le monde un miroir de sagesse,</l>
+            <note>Dans toutes les éditions qui ont été faites de cette pièce, il n’y a point de vers qui rime avec le suivant.</note>
+            <l n="74" xml:id="l74">Le temple de l’honneur, le chef-d’œuvre des cieux ;</l>
+            <l n="75" xml:id="l75">La beauté fut son lot, l’esprit son apanage,</l>
+            <l n="76" xml:id="l76">La vertu son domaine, et l’honneur son partage.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-16">
+            <speaker>arlequin</speaker>
+            <l n="77" xml:id="l77">Oui, cela se disait du temps de Jean-de-Vert.</l>
+          </sp>
+          <sp who="seconde-bohemienne" xml:id="II15-17">
+            <speaker>seconde bohemiénne</speaker>
+            <l n="78" xml:id="l78">Plutôt que prendre femme, épousez un désert :</l>
+            <l n="79" xml:id="l79">Par elle une maison va tout en décadence ;</l>
+            <l n="80" xml:id="l80">Elle ne met jamais de frein à sa dépense ;</l>
+            <l n="81" xml:id="l81">Elle accroît les chagrins, loin de les partager :</l>
+            <l n="82" xml:id="l82">La femme est en tout temps un éminent danger,</l>
+            <l n="83" xml:id="l83">Un vaisseau sur lequel le nocher le plus sage</l>
+            <l n="84" xml:id="l84">Appréhende le calme autant qu’il fait l’orage ;</l>
+            <l n="85" xml:id="l85">C’est l’arsenic du cœur : la fureur la conduit ;</l>
+            <l n="86" xml:id="l86">L’inconstance en tout temps ou l’escorte ou la suit,</l>
+            <l n="87" xml:id="l87">Et la vengeance, enfin, est toujours devant elle.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-18">
+            <speaker>arlequin</speaker>
+            <l n="88" xml:id="l88">Oh ! Vous avez raison ; je sais qu’une femelle</l>
+            <l n="89" xml:id="l89">Qui prétend se venger d’un époux offensif,</l>
+            <l n="90" xml:id="l90">Devient des animaux le plus vindicatif.</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-19">
+            <speaker>première bohemiénne</speaker>
+            <l n="91" xml:id="l91">Quand on la nomme un mal et doux et nécessaire,</l>
+            <l n="92" xml:id="l92">C’est qu’on lui voit toujours quelque vertu pour plaire ;</l>
+            <l n="93" xml:id="l93">Si le ciel ne l’a pas faite avec un beau corps,</l>
+            <l n="94" xml:id="l94">Il aura sur l’esprit répandu ses trésors ;</l>
+            <l n="95" xml:id="l95">Si des biens de fortune elle n’est point fournie,</l>
+            <l n="96" xml:id="l96">Elle se fait un fonds de son économie :</l>
+            <l n="97" xml:id="l97">La sotte d’ordinaire a l’esprit complaisant,</l>
+            <l n="98" xml:id="l98">La folle quelquefois plaît par son enjouement ;</l>
+            <l n="99" xml:id="l99">Dans une femme, enfin, toujours quelque mérite</l>
+            <l n="100" xml:id="l100">De ses petits défauts aisément nous racquitte.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-20">
+            <speaker>arlequin</speaker>
+            <l n="101" xml:id="l101">Qui nous racquittera, dites-nous, s’il vous plaît,</l>
+            <l n="102" xml:id="l102">Lorsque de notre honneur elle tire intérêt ?</l>
+          </sp>
+          <sp who="seconde-bohemienne" xml:id="II15-21">
+            <speaker>seconde bohemiénne</speaker>
+            <l n="103" xml:id="l103">Si de quelques vertus les femmes sont pourvues,</l>
+            <l n="104" xml:id="l104">Ces vertus de défauts sont souvent corrompues ;</l>
+            <l n="105" xml:id="l105">La belle est toujours bête, ou croit qu’un teint fleuri</l>
+            <l n="106" xml:id="l106">Est un trop beau morceau pour un sot de mari ;</l>
+            <l n="107" xml:id="l107">La savante ne dit que vers, métamorphose,</l>
+            <l n="108" xml:id="l108">Et méprise un époux qui ne parle qu’en prose :</l>
+            <l n="109" xml:id="l109">Celle qui d’un beau sang voit ses pères issus,</l>
+            <l n="110" xml:id="l110">Vous compte ses aïeux pour toutes ses vertus.</l>
+            <l n="111" xml:id="l111">Non, quelque qualité qui règne dans son âme,</l>
+            <l n="112" xml:id="l112">Quelque vertu qu’elle ait, c’est toujours une femme ;</l>
+            <l n="113" xml:id="l113">C’est-à-dire attentive à l’amant qui languit,</l>
+            <l n="114" xml:id="l114">Et vous savez, casta quam nemo rogavit.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-22">
+            <speaker>arlequin</speaker>
+            <l n="115" xml:id="l115">Voilà, je vous l’avoue, un extrait de sorcière,</l>
+            <l n="116" xml:id="l116">Que les femmes devraient jeter dans la rivière :</l>
+            <l n="117" xml:id="l117" part="I">Elle en dit peu de bien.</l>
+          </sp>
+          <sp who="seconde-bohemienne" xml:id="II15-23">
+            <speaker>seconde bohemiénne</speaker>
+            <l n="117" part="F">Touchez là, j’en dirai,</l>
+            <l n="118" xml:id="l118">Foi de fille d’honneur, sitôt que j’en saurai.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-24">
+            <speaker>arlequin, à la première bohémienne</speaker>
+            <l n="119" xml:id="l119">Mais parlez-moi français ;... là, si je me marie,</l>
+            <l n="120" xml:id="l120" part="I">Ne serai-je point,... là...</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-25">
+            <speaker>première bohemiénne</speaker>
+            <l n="120" part="F">Quoi, là ?</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-26">
+            <speaker>arlequin</speaker>
+            <l n="120" part="F">Je vous en prie,</l>
+            <l n="121" xml:id="l121" part="I">Ne me déguisez rien.</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-27">
+            <speaker>première bohemiénne</speaker>
+            <l n="121" part="F">Quoi donc ?</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-28">
+            <speaker>arlequin</speaker>
+            <l n="121" part="F">Là, ce qu’était</l>
+            <l n="122" xml:id="l122">Peut-être votre époux dans le temps qu’il vivait.</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-29">
+            <speaker>première bohemiénne</speaker>
+            <l n="123" xml:id="l123">Voilà donc l’enclouure et le mot péremptoire :</l>
+            <l n="124" xml:id="l124">Sur ce point douloureux on en fait bien accroire,</l>
+            <l n="125" xml:id="l125">Et l’on en dit bien plus qu’on n’en fait à Paris ;</l>
+            <l n="126" xml:id="l126">Ce sont là des terreurs pour les petits esprits...</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-30">
+            <speaker>arlequin</speaker>
+            <l n="127" xml:id="l127" part="I">Et pour les grands parfois.</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-31">
+            <speaker>première bohemiénne</speaker>
+            <l n="127" part="F">Des visions cornues</l>
+            <l n="128" xml:id="l128">Que les hommes vont mettre en leurs têtes fourchues.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-32">
+            <speaker>arlequin</speaker>
+            <l n="129" xml:id="l129">Ce sont elles, morbleu, qui nous les plantent là,</l>
+            <l n="130" xml:id="l130" part="I">De par Belzébuth.</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-33">
+            <speaker>première bohemiénne</speaker>
+            <l n="130" part="F">Bon ! Approchez, venez çà ;</l>
+            <l n="131" xml:id="l131">Regardez-moi bien. Non, vous n’avez point la mine</l>
+            <l n="132" xml:id="l132">De recevoir échec de la gent féminine.</l>
+            <l n="133" xml:id="l133" part="I">Vous êtes beau, joli, bien fait...</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-34">
+            <speaker>arlequin</speaker>
+            <l n="133" part="F">Assurément.</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-35">
+            <speaker>première bohemiénne</speaker>
+            <l n="134" xml:id="l134">Vous avez de l’esprit, le port fier, lair charmant ;</l>
+            <l n="135" xml:id="l135" part="I">Allez, ne craignez rien.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-36">
+            <speaker>arlequin</speaker>
+            <l n="135" part="F">Mauvaise sauvegarde</l>
+            <l n="136" xml:id="l136">Contre les accidents qu’une femme vous garde.</l>
+          </sp>
+          <sp who="seconde-bohemienne" xml:id="II15-37">
+            <speaker>seconde bohemiénne</speaker>
+            <l n="137" xml:id="l137">Moi je dis, à vous voir seulement par le dos...</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-38">
+            <speaker>arlequin</speaker>
+            <l n="138" xml:id="l138" part="I">Ah, ciel ! Nous y voilà.</l>
+          </sp>
+          <sp who="seconde-bohemienne" xml:id="II15-39">
+            <speaker>seconde bohemiénne</speaker>
+            <l n="138" part="F">Je vous dis en deux mots</l>
+            <l n="139" xml:id="l139">Que vous avez tout l’air, la physionomie,</l>
+            <l n="140" xml:id="l140">L’œil, le nez, la façon, la métoposcopie</l>
+            <l n="141" xml:id="l141">D’un homme à qui l’on doit faire un mauvais parti.</l>
+            <l n="142" xml:id="l142">Je vois sur votre teint bien du brouillamini.</l>
+            <l n="143" xml:id="l143">Vos aspects sont malins, vous avez le front large ;</l>
+            <l n="144" xml:id="l144">Vous me portez tout l’air d’en avoir une charge.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-40">
+            <speaker>arlequin</speaker>
+            <l n="145" xml:id="l145" part="I">Ah ! Je sens déjà là...</l>
+            <stage>Il se touche la tête.</stage>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-41">
+            <speaker>première bohemiénne</speaker>
+            <l n="145" part="F">Animal défiant,</l>
+            <l n="146" xml:id="l146" part="I">Vous croyez donc...</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-42">
+            <speaker>arlequin</speaker>
+            <l n="146" part="F">Ma foi ! Je crois à l’ascendant.</l>
+            <l n="147" xml:id="l147">Ce grand front, cet aspect... Dans cette conjoncture,</l>
+            <l n="148" xml:id="l148">Je crains bien de payer un jour avec usure</l>
+            <l n="149" xml:id="l149">Tous les frais de la guerre. Allons, tant que quelqu’un</l>
+            <l n="150" xml:id="l150">Plus courageux que moi prendra femme en commun,</l>
+            <l n="151" xml:id="l151">Je prétends me servir des droits du voisinage,</l>
+            <l n="152" xml:id="l152">Et laisser qui voudra goûter du mariage.</l>
+            <l n="153" xml:id="l153">En ces occasions, on court plus de danger</l>
+            <l n="154" xml:id="l154">À bâtir sur son fonds que sur un étranger.</l>
+            <l n="155" xml:id="l155">Je ne tâterai point de la cérémonie.</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-43">
+            <speaker>première bohemiénne</speaker>
+            <l n="156" xml:id="l156">Vous n’en tâterez point ! Halte-là, je vous prie.</l>
+          </sp>
+          <sp who="seconde-bohemienne" xml:id="II15-44">
+            <speaker>seconde bohemiénne</speaker>
+            <l n="157" xml:id="l157" part="I">Point de femme, morbleu !</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-45">
+            <speaker>première bohemiénne</speaker>
+            <l n="157" part="F">Si vous n’en prenez pas,</l>
+            <l n="158" xml:id="l158" part="I">Vous n’avez pas encor trois jours à vivre.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-46">
+            <speaker>arlequin</speaker>
+            <l n="158" part="F">Hélas !</l>
+          </sp>
+          <sp who="seconde-bohemienne" xml:id="II15-47">
+            <speaker>seconde bohemiénne</speaker>
+            <l n="159" xml:id="l159">Et si vous en prenez, moi, je vous signifie</l>
+            <l n="160" xml:id="l160">Que demain, au plus tard, vous n’êtes pas en vie.</l>
+            <stage>Elles le prennent chacune par une manche de son habit.</stage>
+          </sp>
+          <sp who="arlequin" xml:id="II15-48">
+            <speaker>arlequin</speaker>
+            <l n="161" xml:id="l161">C’en est fait, je suis mort ! Je n’en puis revenir.</l>
+            <l n="162" xml:id="l162">Prédiseuses du diable, ah ! Laissez-moi partir.</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-49">
+            <speaker>première bohemiénne</speaker>
+            <l n="163" xml:id="l163">Avant de vous quitter, il faut que je vous voie</l>
+            <l n="164" xml:id="l164" part="I">À côté d’une femme.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-50">
+            <speaker>arlequin</speaker>
+            <l n="164" part="F">Ah ! Plutôt qu’on me noie !</l>
+          </sp>
+          <sp who="seconde-bohemienne" xml:id="II15-51">
+            <speaker>seconde bohemiénne</speaker>
+            <l n="165" xml:id="l165">Pour vous laisser, je veux vous mettre hors d’état</l>
+            <l n="166" xml:id="l166">De pouvoir à jamais sortir du célibat.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-52">
+            <speaker>arlequin</speaker>
+            <l n="167" xml:id="l167">N’en faites rien ; je suis le dernier de ma race.</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-53">
+            <speaker>première bohemiénne</speaker>
+            <l n="168" xml:id="l168" part="I">Que de bruit !</l>
+          </sp>
+          <sp who="seconde-bohemienne" xml:id="II15-54">
+            <speaker>seconde bohemiénne</speaker>
+            <l n="168" part="F">Qu’on me suive.</l>
+          </sp>
+          <sp who="arlequin" xml:id="II15-55">
+            <speaker>arlequin</speaker>
+            <l n="168" part="F">Hé ! Mesdames, de grâce !</l>
+            <l n="169" xml:id="l169">Un accord : je serai six mois de l’an garçon,</l>
+            <l n="170" xml:id="l170" part="I">Et six mois marié.</l>
+          </sp>
+          <sp who="premiere-bohemienne" xml:id="II15-56">
+            <speaker>première bohemiénne</speaker>
+            <l n="170" part="F">Marchez.</l>
+          </sp>
+          <sp who="seconde-bohemienne" xml:id="II15-57">
+            <speaker>seconde bohemiénne</speaker>
+            <l n="170" part="F">Que de façon !</l>
+            <stage>Elles le tiraillent de façon qu’elles emportent chacune une manche de son habit. Il crie au voleur. D’autres Bohémiens l’entourent, dansent autour de lui et le volent.</stage>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="" n="3" xml:id="III">
+        <head>ACTE III</head>
+        <div2 type="scene" n="1" xml:id="III01">
+          <head>SCÈNE I</head>
+          <sp who="colombine" xml:id="III01-1">
+            <speaker>colombine, seule</speaker>
+            <p>
+              <s>Je n’entends point parler de notre bailli ; il faut que le traité de cette charge de marquis l’arrête chez quelque notaire.</s>
+              <s>Il n’en est pas encore où il pense ; je lui garde le meilleur pour le dernier.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="III02">
+          <head>SCÈNE II</head>
+          <stage>Colombine, un Laquais.</stage>
+          <sp who="le-laquais" xml:id="III02-1">
+            <speaker>le laquais</speaker>
+            <p>
+              <s>Mademoiselle, voilà un bel esprit qui monte, madame Pindaret.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="III03">
+          <head>SCÈNE III</head>
+          <stage>Colombine, Mme Pindaret.</stage>
+          <sp who="madame-pindaret" xml:id="III03-1">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Ah, ma chère belle !</s>
+              <s>Que je suis heureuse de vous rencontrer !</s>
+              <s>Car vous êtes la fille de France la plus introuvable.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III03-2">
+            <speaker>colombine</speaker>
+            <p>
+              <s>On ne m’a point dit, madame, que vous m’ayez fait cet honneur-là.</s>
+              <s>Il est vrai que j’ai le domestique du monde le plus brutal : qu’une femme de qualité me vienne voir, on ne m’en dit rien ; qu’une procureuse frappe à ma porte, on vient m’en faire la honte en pleine compagnie.</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III03-3">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>En vérité, mademoiselle, il faut que votre train soit travaillé d’un prodigieux dévoiement de mémoire ; oui, je crois que je suis venue ici plus de dix fois depuis les calendes du mois dernier.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III03-4">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Comment dites-vous cela, s’il vous plaît ?</s>
+              <s>Les cal...</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III03-5">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Les calendes, mademoiselle ; c’est la manière de compter des Romains, et la mienne.</s>
+              <s>Si ma servante datait sa dépense autrement, elle ne coucherait pas chez moi deux jours de suite.</s>
+              <s>Je veux de l’érudition jusque dans ma cuisine.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III03-6">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Que vous êtes heureuse, madame, de savoir tant de belles choses !</s>
+              <s>Si j’avais l’avantage de vous voir souvent, je crois que je deviendrais une habile fille.</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III03-7">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Il faut dire la vérité ; on se décrasse en ma compagnie, et tout le monde avoue que je n’ai point la conversation roturière.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III03-8">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Ah ! Que cela est bien dit !</s>
+              <s>La conversation roturière !</s>
+              <s>Comment pouvez-vous fournir à la dépense desprit que vous faites ?</s>
+              <s>Si vous ne vous ménagez, vous nen aurez jamais assez pour le reste de vos jours.</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III03-9">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Bon !</s>
+              <s>Cela ne coûte rien à une femme comme moi, qui se joue des auteurs ; j’entretiens commerce avec les anciens, et je fraye aussi avec les modernes.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III03-10">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Avec les anciens, madame !</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III03-11">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Assurément, mademoiselle ; j’en attrape assez le vrai, et je veux vous faire voir quelle est ma lecture quotidienne.</s>
+              <s>Laquais !</s>
+              <s>Petit garçon !</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="III04">
+          <head>SCÈNE IV</head>
+          <stage>Mme Pindaret, Colombine, un Laquais, de madame Pindaret.</stage>
+          <sp who="madame-pindaret" xml:id="III04-1">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Donnez-moi mon Juvénal.</s>
+            </p>
+          </sp>
+          <sp who="le-laquais" xml:id="III04-2">
+            <speaker>le laquais</speaker>
+            <p>
+              <s>Qu’est-ce que c’est, madame, que votre Juvénal ?</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III04-3">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Ce livre in-quarto que je vous ai donné tantôt.</s>
+            </p>
+          </sp>
+          <sp who="le-laquais" xml:id="III04-4">
+            <speaker>le laquais</speaker>
+            <p>
+              <s>À moi, madame, un quartaut !</s>
+              <s>Vous ne m’avez donné ni quartaut ni bouteille.</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III04-5">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Eh !</s>
+              <s>Le petit ignorant !</s>
+              <s>Qu’il vous arrive une autre fois de l’oublier !</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="III05">
+          <head>SCÈNE V</head>
+          <stage>Mme Pindaret, Colombine.</stage>
+          <sp who="madame-pindaret" xml:id="III05-1">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Je prends toujours la précaution de me faire escorter de ce livre-là, quand je vais en visite de femmes, pour me dédommager des minuties de leur conversation.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III05-2">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Voilà ce qui s’appelle mettre à profit jusqu’à son ennui.</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III05-3">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Êtes-vous comme moi, ma chère ?</s>
+              <s>Toutes les visites de femmes me donnent la colique.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III05-4">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Non, madame, je ne suis point d’une complexion si délicate.</s>
+              <s>À vous dire le vrai, j’aime beaucoup mieux la conversation des hommes, et je voudrais parfois qu’il n’y eût que moi de femme au monde.</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III05-5">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Vous auriez de la chalandise.</s>
+              <s>J’allai voir, il y a quelque temps, une marquise ; je ne fus qu’un quart d’heure avec elle, c’était pendant la canicule : sa conversation ne laissa pas de m’enrhumer si fort, que je me suis mise au gruau pendant trois semaines pour en revenir.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III05-6">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Cela étant, madame, quand vous allez en visite de marquise, de crainte de vous enrhumer une seconde fois, il faudrait faire porter un manteau fourré avec votre Juvénal.</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III05-7">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Vous ne sauriez vous imaginer jusqu’où va l’ignorance de cette femme-là.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III05-8">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Une femme de qualité ignorante !</s>
+              <s>Vous me surprenez.</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III05-9">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Ignorantissime !</s>
+              <s>Croiriez-vous ?...</s>
+              <s>Mais non ; cela n’entre point dans l’esprit.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III05-10">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Mais encore ?</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III05-11">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Croiriez-vous qu’elle ne put jamais me dire dans quelle olympiade mourut Épaminondas ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III05-12">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Ah, ciel !</s>
+              <s>Quelle ignorance !</s>
+              <s>En vérité, madame, vous fûtes bien heureuse d’en être quitte pour un rhume ; cela valait bien la peine de tomber en apoplexie.</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III05-13">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Il ne tint qu’à moi.</s>
+              <s>À propos, mademoiselle, avec-vous vu mon madrigal ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III05-14">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Non, madame ; cela n’est pas venu jusqu’à moi.</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III05-15">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Vous n’êtes donc pas de ce monde ?</s>
+              <s>C’est une pièce qui a déjà souffert la troisième édition, et qui a marié les trois filles de mon libraire.</s>
+              <s>Je vais vous le lire.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III05-16">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Vous me ferez, je vous assure, un sensible plaisir.</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III05-17">
+            <speaker>madame pindaret, parcourant plusieurs papiers</speaker>
+            <p>
+              <s>Ce n’est pas cela ; c’est un rondeau sur une absence, que je laisse quelque temps mitonner sur le réchaud de la réflexion...</s>
+              <s>Ni cela ; c’est la vie de Thémistocle, en vers burlesques.</s>
+              <s>Je tiens un poème épique aux cheveux, qui surprendra tout Paris.</s>
+              <s>Ah !</s>
+              <s>Voici notre madrigal.</s>
+            </p>
+            <stage>Elle lit.</stage>
+            <p>
+              <s>MADRIGAL, Sur linconstance d’une maîtresse qui changea d’amant, parce qu’il avait soupiré par le derrière.</s>
+            </p>
+            <p>
+              <s>Vous entendez bien cela ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III05-18">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Oh !</s>
+              <s>Oui, cela s’entend de reste ; peu s’en faut que je ne le sente.</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III05-19">
+            <speaker>madame pindaret continue de lire</speaker>
+            <l n="171" xml:id="l171">Quoi ! Pour avoir laissé sauver un prisonnier</l>
+            <l n="172" xml:id="l172">Qui n’a de voix que pour crier,</l>
+            <l n="173" xml:id="l173">Votre cœur fait la pirouette,</l>
+            <l n="174" xml:id="l174">Et se fait un nouvel amant !</l>
+            <l n="175" xml:id="l175">On dira, volage Lisette,</l>
+            <l n="176" xml:id="l176">Que ce cœur est si girouette,</l>
+            <l n="177" xml:id="l177">Qu’il change au moindre petit vent.</l>
+          </sp>
+          <sp who="colombine" xml:id="III05-20">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Ah, madame !</s>
+              <s>Quel merveilleux talent vous avez pour la poésie !</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III05-21">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>J’ai d’assez belles humanités, comme vous voyez ; mais je vais me donner à la physique.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III05-22">
+            <speaker>colombine</speaker>
+            <p>
+              <s>À la physique, madame !</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III05-23">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Oui, mademoiselle. C’est une des plus nobles sciences qu’il y ait ; elle a pour objet tout ce qui tombe sous les sens, et par conséquent, le corps humain, qui est la plus belle et la plus parfaite de toutes les structures humaines.</s>
+              <s>Adieu, mademoiselle ; je sens que ma colique veut me reprendre.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III05-24">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Quoi !</s>
+              <s>Si tôt, madame !</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III05-25">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Je ne me prostitue jamais à une longue conversation, et j’aime les visites brèves et laconiques.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6" xml:id="III06">
+          <head>SCÈNE VI</head>
+          <stage>Arlequin, en marquis ridicule, Colombine, Mme Pindaret.</stage>
+          <sp who="arelquin" xml:id="III06-1">
+            <speaker>arlequin entre en chantant et dansant</speaker>
+            <p>
+              <s>Hé bien, morbleu !</s>
+              <s>Madame, les airs de cour nous sont-ils naturels ?</s>
+            </p>
+            <stage>Il fredonne.</stage>
+            <p>
+              <s>La, lore, la.</s>
+              <s>Vous allez voir comme je vous chamarre une danse sérieuse.</s>
+              <s>Hé !</s>
+              <s>Laquais, laquais !</s>
+              <s>Lâche-nous un coup de chanterelle.</s>
+            </p>
+            <stage>À Colombine.</stage>
+            <p>
+              <s>Je veux tracer un menuet avec vous.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III06-2">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Je vous prie, monsieur, de m’en dispenser ; je suis d’une fatigue outrée, et voilà huit nuits de suite que je cours le bal.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III06-3">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Il faut donc que madame danse à votre place ?</s>
+            </p>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III06-4">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Moi, monsieur !</s>
+              <s>Excusez-moi, s’il vous plaît ; je ne danse point, je fais des vers.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III06-5">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Parbleu !</s>
+              <s>Madame, vous danserez en vers, ou vous crèverez en prose.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III06-6">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Allons, courage, madame ; voulez-vous qu’on envoie quérir votre Juvénal ?</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III06-7">
+            <speaker>arlequin danse avec madame pindaret</speaker>
+            <l n="178" xml:id="l178">Madame Pindaret se laisse tomber.</l>
+            <l n="179" xml:id="l179">Voilà un vers à qui il manque un pied.</l>
+          </sp>
+          <sp who="madame-pindaret" xml:id="III06-8">
+            <speaker>madame pindaret</speaker>
+            <p>
+              <s>Ah, ah !</s>
+              <s>Voilà un menuet qui m’a mise sur les dents.</s>
+              <s>J’aimerais mieux faire vingt sonnets que de...</s>
+              <s>Ah, ah !</s>
+              <s>Souffrez, mademoiselle, que je vous quitte pour aller me mettre au lit.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III06-9">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Adieu, madame ; allez vous faire tirer trois palettes d’épigrammes de la veine poétique.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="7" xml:id="III07">
+          <head>SCÈNE VII</head>
+          <stage>Arlequin, Colombine.</stage>
+          <sp who="arlequin" xml:id="III07-1">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Hé bien, mademoiselle, ne vous avais-je pas bien dit qu’il n’y avait guère de marquis plus ridicule que moi ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III07-2">
+            <speaker>colombine</speaker>
+            <p>
+              <s>À vous sincèrement, pour un marquis de nouvelle impression, vous ne jouez pas mal votre rôle, et l’on croirait que vous l’auriez étudié toute votre vie.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III07-3">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Étudié !</s>
+              <s>Moi, étudié !</s>
+              <s>Palsembleu !</s>
+              <s>Vous ne le prenez pas mal.</s>
+              <s>Étudié !</s>
+              <s>Vous ne savez donc pas que je suis homme de qualité ?</s>
+              <s>À peine sais-je écrire mon nom !</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III07-4">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Vous voulez vous divertir ; je sais ce que je dois croire, et j’appelle de votre modestie.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III07-5">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Cela est, parbleu, comme je vous le dis ; et je veux que le diable m’emporte si jamais j’ai eu d’autres livres qu’un almanach avec un Parfait Maréchal.</s>
+              <s>Bon !</s>
+              <s>Que nous faut-il à nous autres gens de cour ? Beaucoup de bonne opinion, saupoudrée de quelques grains d’effronterie.</s>
+              <s>Voilà toute notre science auprès des femmes.</s>
+            </p>
+            <stage>Il se promène.</stage>
+          </sp>
+          <sp who="colombine" xml:id="III07-6">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Mais où allez-vous donc ?</s>
+              <s>Vous avez des inquiétudes horribles dans les jambes, et vous ne sauriez vous tenir un moment en place.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III07-7">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Ma foi, mademoiselle, il faut du plain-pied à un marquis.</s>
+              <s>Je voudrais que vous vissiez à la Comédie le terrain que j’occupe sur le théâtre.</s>
+              <s>Oh, parbleu !</s>
+              <s>La scène n’est jamais vide avec moi.</s>
+              <s>Il n’y a que le théâtre de l’Opéra où je me trouve un peu en brassière ; je n’y saurais pirouetter à ma fantaisie.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III07-8">
+            <speaker>colombine</speaker>
+            <p>
+              <s>C’est-à-dire que vous n’oseriez pas y faire le fanfaron comme ailleurs.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III07-9">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Je suis pourtant toujours sur le bord du théâtre.</s>
+              <s>Il y a longtemps que j’ai secoué la pudeur de ces demi-gens de qualité qui commencent à se donner au public.</s>
+              <s>Ventrebleu !</s>
+              <s>Je ne tâte point des coulisses ; sur l’orchestre, morbleu !</s>
+              <s>Sur l’orchestre.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III07-10">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Je ne sais pas, pour moi, quel plaisir prennent certaines gens, à la Comédie, de venir étouffer un acteur jusque sur les chandelles.</s>
+              <s>Comment voulez-vous qu’un pauvre diable de comédien se fasse entendre au bout d’une salle ?</s>
+              <s>Il faut donc qu’il crève ?</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III07-11">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Parbleu !</s>
+              <s>Qu’il crève s’il veut ; il est payé pour cela.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III07-12">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Mais, de bonne foi, monsieur le Marquis, croyez-vous que ce soit pour voir peigner votre perruque, prendre du tabac, et faire votre carrousel sur le théâtre, que le parterre donne ses quinze sols ?</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III07-13">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>N’est-ce pas bien de l’honneur pour lui de voir des gens de qualité ?</s>
+              <s>Ma foi, quand il n’aurait que ce plaisir-là, cela vaut bien une mauvaise comédie.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III07-14">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Assurément ; c’est ce qui fait qu’il s’est mis en droit de vous siffler aussi bien que les méchantes pièces.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III07-15">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Il est vrai que le parterre devient terriblement orgueilleux : ce sont ces Italiens qui ont achevé de le gâter.</s>
+              <s>Savez-vous bien que cet été ils l’ont traité de monseigneur dans un placet ?</s>
+              <s>Le parterre monseigneur !</s>
+              <s>J’enrage !</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III07-16">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Vous avez beau pester, le parterre fait du bien à tout le monde ; il redresse les auteurs, il tient les comédiens en haleine ; un fat ne se campe point impunément devant lui sur les bancs du théâtre : en un mot, c’est l’étrille de tous ceux qui exposent leurs sottises au public.</s>
+              <s>Que ne vous mettez-vous dans les loges ?</s>
+              <s>On ne vous examinera pas de si près.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III07-17">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Moi, dans les loges !</s>
+              <s>Je vous baise les mains : je n’entends point la comédie dans une loge comme un sansonnet ; je veux, morbleu !</s>
+              <s>Qu’on me voie de la tête aux pieds, et je ne donne mon écu que pour rouler pendant les entr’actes, et voltiger autour des actrices.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="8" xml:id="III08">
+          <head>SCÈNE VIII</head>
+          <stage>Arlequin, Colombine, un Laquais.</stage>
+          <sp who="le-laquais" xml:id="III08-1">
+            <speaker>le laquais</speaker>
+            <p>
+              <s>Mademoiselle, voilà votre couturière.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="9" xml:id="III09">
+          <head>SCÈNE IX</head>
+          <stage>Arlequin, Colombine, Margot.</stage>
+          <sp who="colombine" xml:id="III09-1">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Hé bien, Margot, m’apportez-vous mon manteau ?</s>
+            </p>
+          </sp>
+          <sp who="margot" xml:id="III09-2">
+            <speaker>margot</speaker>
+            <p>
+              <s>Oui, mademoiselle j’espère qu’il vous habillera parfaitement bien : depuis que je travaille, je n’ai jamais vu d’habit si bien taillé.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III09-3">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Ni moi de fille si ragoûtante.</s>
+              <s>Voilà, mordi !</s>
+              <s>Une petite créature bien émerillonnée.</s>
+              <s>Écoutez, ma fille, où demeurez-vous ?</s>
+            </p>
+          </sp>
+          <sp who="margot" xml:id="III09-4">
+            <speaker>margot</speaker>
+            <p>
+              <s>Pas loin d’ici.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III09-5">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Tant mieux.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III09-6">
+            <speaker>colombine prend le manteau</speaker>
+            <p>
+              <s>Vous voulez bien, monsieur le Marquis ; me permettre d’essayer mon manteau ?</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III09-7">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Oui-da, mademoiselle ; vous pouvez vous habiller jusqu’à la chemise inclusivement.</s>
+            </p>
+            <stage>Margot habille Colombine ; Arlequin badine.</stage>
+            <p>
+              <s>Margot est, ma foi, toute des plus jolies, et il y aurait plaisir de lui margotter le cœur ; je m’assure qu’elle n’a pas quinze ans.</s>
+              <s>Peut-on voir votre minois, petite femelle ténébreuse ?</s>
+            </p>
+            <stage>Il veut lever sa coiffe ; Margot se défend.</stage>
+          </sp>
+          <sp who="colombine" xml:id="III09-8">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Allons donc, monsieur le Marquis, soyez sage.</s>
+              <s>Que ne vous laissez-vous voir aussi, Margot, vous qui êtes si jolie ?</s>
+            </p>
+          </sp>
+          <sp who="margot" xml:id="III09-9">
+            <speaker>margot</speaker>
+            <p>
+              <s>Je n’oserais, mademoiselle.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III09-10">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Pourquoi ?</s>
+            </p>
+          </sp>
+          <sp who="margot" xml:id="III09-11">
+            <speaker>margot</speaker>
+            <p>
+              <s>C’est que monsieur Harpillon m’a défendu de regarder les hommes ; et il serait fâché s’il savait que je me fusse montrée.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III09-12">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Qui est donc ce monsieur Harpillon ?</s>
+            </p>
+          </sp>
+          <sp who="margot" xml:id="III09-13">
+            <speaker>margot</speaker>
+            <p>
+              <s>C’est un des gros fermiers, qui est mon parrain ; il fait du bien à toute notre famille, et il a déjà donné un bon emploi à mon grand frère.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III09-14">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>J’entends, j’entends ; monsieur Harpillon a mis le frère dans un bureau, et mettra, s’il peut, la sœur en chambre.</s>
+            </p>
+          </sp>
+          <sp who="margot" xml:id="III09-15">
+            <speaker>margot</speaker>
+            <p>
+              <s>Oh !</s>
+              <s>Monsieur, il n’y a point de ce que vous pensez à son fait : c’est un homme qui n’a que de bons desseins ; il m’a promis de m’épouser ; et pour preuve de cela, il m’a déjà envoyé une housse verte avec une bergame.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III09-16">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Fi !</s>
+              <s>Une bergame à une fille comme vous !</s>
+              <s>Si tu voulais, Margot, m’épouser à la Harpillon, j’irais moi jusqu’à une verdure.</s>
+            </p>
+          </sp>
+          <sp who="margot" xml:id="III09-17">
+            <speaker>margot</speaker>
+            <p>
+              <s>Je vous remercie, monsieur ; cela ferait jaser le monde.</s>
+              <s>Tenez, monsieur, pour avoir été un jour promener avec mon cousin, vous ne sauriez croire quels contes on a faits.</s>
+              <s>Il y a les plus maudites langues dans notre montée.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III09-18">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Écoutez, Margot, votre montée a peut-être raison, et il pourrait bien y avoir quelque chose à refaire à votre réputation.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III09-19">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Margot peut aller partout, monsieur le Marquis ; elle est sage, et j’en réponds corps pour corps.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III09-20">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>La bonne caution !</s>
+              <s>Croyez-moi, les environs de Paris sont terriblement dangereux.</s>
+              <s>N’allez-vous point quelquefois au bois de Boulogne ?</s>
+            </p>
+          </sp>
+          <sp who="margot" xml:id="III09-21">
+            <speaker>margot</speaker>
+            <p>
+              <s>Dieu m’en garde, monsieur !</s>
+              <s>Ma mère me l’a défendu, et m’a dit que c’était un vrai coupe-gorge pour une fille.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III09-22">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>C’est peut-être là que votre mère a été égorgée.</s>
+              <s>Ma foi, cette fille me plaît.</s>
+              <s>Ma mie, me voudrais-tu tailler une chemise et quelques caleçons ?</s>
+            </p>
+          </sp>
+          <sp who="margot" xml:id="III09-23">
+            <speaker>margot</speaker>
+            <p>
+              <s>Je suis votre servante, monsieur ; on ne travaille point en homme au logis.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III09-24">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Hé bien, viens les faire chez moi.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III09-25">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Justement !</s>
+              <s>On garde des filles de cet âge-là pour votre commodité !</s>
+              <s>Vous n’avez qu’à vous y attendre.</s>
+              <s>Mais il me semble, Margot, que ce manteau-là monte bien haut ; on ne voit point ma gorge.</s>
+            </p>
+          </sp>
+          <sp who="margot" xml:id="III09-26">
+            <speaker>margot</speaker>
+            <p>
+              <s>Ce n’est peut-être pas la faute du manteau, mademoiselle.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III09-27">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Taisez-vous, Margot ; vous êtes une sotte : tenez, remportez votre manteau ; j’y suis faite comme je ne sais quoi.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III09-28">
+            <speaker>arlequin à margot</speaker>
+            <p>
+              <s>Plus je vois cette enfant-là, plus elle me plaît...</s>
+              <s>Un petit mot : j’ai besoin d’une fille de chambre ; je crois que tu serais assez mon fait.</s>
+              <s>Sais-tu raser ?</s>
+            </p>
+          </sp>
+          <sp who="margot" xml:id="III09-29">
+            <speaker>margot</speaker>
+            <p>
+              <s>Moi, raser !</s>
+              <s>Je vois bien que vous êtes un gausseur : je mourrais de peur, si je touchais un homme seulement du bout du doigt.</s>
+              <s>Adieu, mademoiselle ; dans un quart d’heure je vous rapporterai votre manteau avec de la gorge.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III09-30">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Adieu, adieu, petite nymphe du bois de Boulogne.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="10" xml:id="III10">
+          <head>SCÈNE X</head>
+          <stage>Arlequin, Colombine.</stage>
+          <sp who="arlequin" xml:id="III10-1">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Elle n’est, morbleu, pas sotte, et je m’aimerais presque autant que vous.</s>
+              <s>Nous autres gens de qualité, nous aimons quelquefois à rabattre sur la grisette.</s>
+              <s>Et de notre mariage qu’en dirons-nous ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III10-2">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Je vous dirai, monsieur le Marquis, qu’avant que de vous épouser, je vous demande encore une grâce.</s>
+              <s>Nous sommes un certain nombre de filles qui avons fait serment de ne point prendre de mari qui n’ait été reçu auparavant dans notre académie.</s>
+              <s>Il faut vous y faire recevoir.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III10-3">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Moi, dans votre académie de filles !</s>
+              <s>Vous vous moquez ; j’ai des empêchements plus que légitimes.</s>
+              <s>Et que faut-il faire pour cela ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III10-4">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Ne vous mettez pas en peine : on vous habillera en femme ; on vous fera peut-être faire serment d’être un époux commode, de laisser faire à votre femme tout ce qu’il lui plaira, de n’être point de ces maris coquets qui vivent de rapine, et laissent leurs femmes pour aller picorer sur le commun.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III10-5">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Quand on a de cette besogne-là toute taillée chez soi, on n’a guère envie d’aller travailler en ville.</s>
+              <s>Allons, faisons ce qu’il vous plaira.</s>
+              <s>Voilà qui est bien drôle, qu’il faille, pour vous épouser, commencer par se déshumaniser !</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="11" xml:id="III11">
+          <head>SCÈNE XI</head>
+          <stage>Arlequin, Mezzetin, en Sibylle, plusieurs Fourbes de la suite de Mezzetin.</stage>
+          <stage>Cette scène de travestissement d’Arlequin consiste en jeu purement italien ; les Fourbes chantent et dansent, pendant que Mezzetin dépouille Arlequin et lhabille en femme, et Mezzetin chante ce qui suit.</stage>
+          <sp who="mezzetin" xml:id="III11-1">
+            <speaker>mezzetin chante</speaker>
+            <l n="180" xml:id="l180">Ô toi qui veux épouser Colombine,</l>
+            <l n="181" xml:id="l181">Reçois l’honneur que sa main te destine :</l>
+            <l n="182" xml:id="l182">Tu n’étais qu’un vilain magot,</l>
+            <l n="183" xml:id="l183">Un ostrogot,</l>
+            <l n="184" xml:id="l184">Un escargot ;</l>
+            <l n="185" xml:id="l185">Tu vas être aussi beau qu’une fille</l>
+            <l n="186" xml:id="l186">Gentille,</l>
+            <l n="187" xml:id="l187">Ou peu s’en faut.</l>
+          </sp>
+          <sp who="le-chœur" xml:id="III11-2">
+            <speaker>le chœur</speaker>
+            <l n="188" xml:id="l188">Tu n’étais qu’un vilain magot, etc.</l>
+          </sp>
+          <sp who="mezzetin" xml:id="III11-3">
+            <speaker>mezzetin</speaker>
+            <l n="189" xml:id="l189">Reçois cette coiffure en malice féconde ;</l>
+            <l n="190" xml:id="l190">Avec cet ornement,</l>
+            <l n="191" xml:id="l191">Tu peux facilement</l>
+            <l n="192" xml:id="l192">Insulter hardiment</l>
+            <l n="193" xml:id="l193">Et la brune et la blonde ;</l>
+            <l n="194" xml:id="l194">Avec cet ornement,</l>
+            <l n="195" xml:id="l195">Tu charmeras tout le monde.</l>
+            <stage>Il fait des gestes en dansant, et chante.</stage>
+            <l n="196" xml:id="l196">Micropoli, chariba, charistac.</l>
+            <l n="197" xml:id="l197">Baroquina, bocardo, merlinbrac.</l>
+            <l n="198" xml:id="l198">Ministres de mon art,</l>
+            <l n="199" xml:id="l199">Versez tout votre fard</l>
+            <l n="200" xml:id="l200">Sur ce nez en pied de marmite ;</l>
+            <l n="201" xml:id="l201">Barbouillez vite ce museau,</l>
+            <l n="202" xml:id="l202">Et nettoyez votre pinceau</l>
+            <l n="203" xml:id="l203">Sur cette trogne hermaphrodite.</l>
+            <stage>Deux Fourbes s’approchent d’Arlequin ; l’un tient un pot de rouge et l’autre un pot de blanc, et ils lui barbouillent les deux côtés du visage.</stage>
+          </sp>
+          <sp who="arlequin" xml:id="III11-4">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Je peux présentement résister à la pluie ; me voilà bien peint.</s>
+            </p>
+          </sp>
+          <sp who="mezzetin" xml:id="III11-5">
+            <speaker>mezzetin chante</speaker>
+            <l n="204" xml:id="l204">Ah ! Quil est beau !... oh, oh !</l>
+            <l n="205" xml:id="l205">Le damoiseau</l>
+            <l n="206" xml:id="l206">Au museau</l>
+            <l n="207" xml:id="l207">De couleur de pruneau ;</l>
+            <l n="208" xml:id="l208">Faisons le pied de veau :</l>
+            <l n="209" xml:id="l209">Ah !qu’il est beau !... oh, oh !</l>
+          </sp>
+          <sp who="le-chœur" xml:id="III11-6">
+            <speaker>le chœur</speaker>
+            <l n="210" xml:id="l210">Ah ! Qu’il est beau !... oh, oh !</l>
+            <stage>Ils s’en vont tous en chantant.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="12" xml:id="III12">
+          <head>SCÈNE XII</head>
+          <stage>Arlequin, Trafiquet, Colombine, Pierrot.</stage>
+          <sp who="trafiquet" xml:id="III12-1">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Que veut donc dire, s’il vous plaît, cette mascarade-ci ?</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III12-2">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Monsieur, je vous prie de me dire si je suis mâle ou femelle ; car, ma foi, je n’y connais rien.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="III12-3">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Vous êtes un fou, voilà ce que vous êtes.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="III12-4">
+            <speaker>pierrot, riant</speaker>
+            <p>
+              <s>Ha, ha, ha !</s>
+              <s>Essuyez-vous, monsieur le bailli, vous êtes tout barbouillé.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III12-5">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Je suis, mon père, disposée à vous obéir ; mais je ne crois pas que vous vouliez me donner pour mari un homme qui est capable de pareilles extravagances.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III12-6">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Oh, oh !</s>
+              <s>Voilà qui est assez drôle.</s>
+              <s>Par ma foi !</s>
+              <s>S’il y en a, c’est vous qui les avez faites, et qui avez voulu que je me sois fait et marquis et ce que me voilà...</s>
+              <s>Voyez, ne me voilà-t-il pas bien désigné ?</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III12-7">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Moi, je vous ai fait faire ces extravagances-là ?</s>
+              <s>Ma foi, monsieur le bailli, vous rêvez.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="III12-8">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Monsieur, quand je vous ai dit que j’étais mieux le fait de votre fille que cet homme-là, est-ce que je me trompais ?</s>
+              <s>Il faudra pourtant que vous y veniez.</s>
+            </p>
+          </sp>
+          <sp who="trafiquet" xml:id="III12-9">
+            <speaker>trafiquet</speaker>
+            <p>
+              <s>Ce que j’ai vu tantôt, et ce que je vois présentement, m’oblige de vous dire, monsieur le bailli, que vous pouvez, tout de ce pas, vous en retourner dans le Bas-Maine, manger vos chapons ; car pour ma fille, vous n’en croquerez que d’une dent.</s>
+            </p>
+          </sp>
+          <sp who="pierrot" xml:id="III12-10">
+            <speaker>pierrot</speaker>
+            <p>
+              <s>Que d’une dent, monsieur le bailli, que d’une dent.</s>
+            </p>
+          </sp>
+          <sp who="arlequin" xml:id="III12-11">
+            <speaker>arlequin</speaker>
+            <p>
+              <s>Allez-vous-en au diable, vous et votre fille, petit vilain grigou raccourci.</s>
+              <s>Adieu, la belle ; je ne crois pas qu’il y ait au monde un animal plus méchant que vous.</s>
+              <s>Il faut qu’un provincial ait bien le diable au corps, pour venir s’équiper d’une femme à Paris.</s>
+            </p>
+          </sp>
+          <sp who="colombine" xml:id="III12-12">
+            <speaker>colombine</speaker>
+            <p>
+              <s>Et qu’une fille à Paris soit bien près de ses pièces pour épouser un bailli du Bas-Maine.</s>
+            </p>
+          </sp>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

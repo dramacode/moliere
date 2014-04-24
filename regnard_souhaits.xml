@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>LES SOUHAITS, COMÉDIE EN UN ACTE</title>
+        <author born="1655" born_location="Paris" death="1709" death_location="château de grillon, Dourdan" academie="">REGNARD, Jean-François</author>
+        <date>1697</date>
+      </titleStmt>
+      <publicationStmt>
+        <p>publié par Paul FIEVRE, juillet 2011</p>
+      </publicationStmt>
+      <sourceDesc>
+        <genre>Comédie</genre>
+        <inspiration>mœurs françaises</inspiration>
+        <structure>Un acte</structure>
+        <type>vers</type>
+        <periode>1691-1700</periode>
+        <taille>250-500</taille>
+        <permalien/>
+        <sources>
+          <source id="1">
+            <author/>
+            <text/>
+          </source>
+        </sources>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1700"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart part="main">LES SOUHAITS</titlePart>
+        <titlePart part="sub">COMÉDIE en UN ACTE</titlePart>
+      </docTitle>
+      <docDate value="1700">1700</docDate>
+      <docAuthor id="REGNARD, Jean-Francois" bio="regnard">par Régnard</docAuthor>
+      <docImprint>
+        <privilege id="16**-**-**"/>
+        <acheveImprime id="16**-**-**"/>
+        <printer id=""/>
+      </docImprint>
+      <performance>
+        <premiere date="(non représentée)" location="(non représentée)"/>
+      </performance>
+      <castList>
+        <head>PERSONNAGES</head>
+        <castItem><role xml:id="mercure" civil="D">MERCURE</role>.</castItem>
+        <castItem><role xml:id="une-nouvelles-mariee" civil="F">UNE NOUVELLES MARIÉE</role>.</castItem>
+        <castItem><role xml:id="une-suissesse" civil="F">UNE SUISSESSE</role>.</castItem>
+        <castItem><role xml:id="une-fille" civil="F">UNE FILLE</role>, en cavalier gascon.</castItem>
+        <castItem><role xml:id="un-nain" civil="M">UN NAIN</role>, en vieillard.</castItem>
+        <castItem><role xml:id="un-homme" civil="M">UN HOMME</role> de bonne chère.</castItem>
+        <castItem><role xml:id="poisson" civil="M">POISSON</role>, comédien de campagne.</castItem>
+        <castItem><role xml:id="la-thorilliere" civil="M">LA THORILLIÈRE</role>, comédien de campagne.</castItem>
+        <castItem><role xml:id="mars" civil="D">MARS</role>, joué par La Thorillière..</castItem>
+        <castItem><role xml:id="vulcain" civil="D">VULCAIN</role>, joué par Poisson.</castItem>
+        <castItem><role xml:id="venus" civil="D">VÉNUS</role>.</castItem>
+        <castItem><role xml:id="suite-de-cyclopes" civil="G">Suite de Cyclopes</role>.</castItem>
+      </castList>
+      <set location="(indéterminé)" country="France" periode="XVIIIème" link="">Le théâtre représente une foire, ou une assemblée de différentes nations. Mercure entre, suivi de tous ceux qui viennent lui demander l’accomplissement de leurs souhaits.</set>
+    </front>
+    <body>
+      <div1 type="" n="1" xml:id="I">
+        <head/>
+        <div2 type="scene" n="1" xml:id="I01">
+          <head>MARCHE</head>
+          <sp who="mecure" xml:id="I01-1">
+            <speaker>mercure, chantant</speaker>
+            <l n="1" xml:id="l1">Venez, venez, peuples divers ;</l>
+            <l n="2" xml:id="l2">Accourez à ma voix des bouts de l’univers :</l>
+            <l n="3" xml:id="l3">Le dieu qui lance le tonnerre</l>
+            <l n="4" xml:id="l4">Remet aujourd’hui dans mes mains</l>
+            <l n="5" xml:id="l5">Le bonheur de la terre,</l>
+            <l n="6" xml:id="l6">Et le sort de tous les humains.</l>
+            <l n="7" xml:id="l7">Ne vous plaignez donc plus des malheurs de la vie,</l>
+            <l n="8" xml:id="l8">Mortels ; je veux vous rendre heureux :</l>
+            <l n="9" xml:id="l9">Formez tous des souhaits au gré de votre envie ;</l>
+            <l n="10" xml:id="l10">Je comblerai vos vœux,</l>
+            <l n="11" xml:id="l11">Si pour votre repos ils sont avantageux.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="I02">
+          <head>SCÈNE I</head>
+          <stage>Une Nouvelle mariée, Mercure.</stage>
+          <sp who="la-mariee" xml:id="I02-1">
+            <speaker>la mariée</speaker>
+            <l n="12" xml:id="l12">Je m’offre la première, étant la plus pressée.</l>
+            <l n="13" xml:id="l13">En vous disant d’abord que je suis mariée,</l>
+            <l n="14" xml:id="l14">Vous devinez assez que je viens vous prier</l>
+            <l n="15" xml:id="l15">De vouloir me démarier.</l>
+            <l n="16" xml:id="l16">Ne rendez point ma demande frivole,</l>
+            <l n="17" xml:id="l17">Et, pour le bien commun, changez tous les maris ;</l>
+            <l n="18" xml:id="l18">Je vous porte ici la parole</l>
+            <l n="19" xml:id="l19">Pour tout le corps des femmes de Paris.</l>
+          </sp>
+          <sp who="mercure" xml:id="I02-2">
+            <speaker>mercure</speaker>
+            <l n="20" xml:id="l20">Je le crois aisément ; mais je me persuade</l>
+            <l n="21" xml:id="l21">Que, de leur côté, les époux,</l>
+            <l n="22" xml:id="l22">Pour obtenir même grâce que vous,</l>
+            <l n="23" xml:id="l23">Vont m’envoyer même ambassade.</l>
+          </sp>
+          <sp who="la-mariee" xml:id="I02-3">
+            <speaker>la mariée</speaker>
+            <l n="24" xml:id="l24">Ils n’en ont pas tant de raisons que nous.</l>
+          </sp>
+          <sp who="mercure" xml:id="I02-4">
+            <speaker>mercure</speaker>
+            <l n="25" xml:id="l25">Comptez-vous bien du temps depuis que l’hyménée</l>
+            <l n="26" xml:id="l26">Au sort de votre époux joint votre destinée ?</l>
+          </sp>
+          <sp who="la-mariee" xml:id="I02-5">
+            <speaker>la mariée</speaker>
+            <l n="27" xml:id="l27">Quinze jours ; mais, avant ce choix si malheureux,</l>
+            <l n="28" xml:id="l28">J’étais, en moins d’un mois, déjà veuve de deux :</l>
+            <l n="29" xml:id="l29">Sitôt que l’un fut mort, par grâce singulière,</l>
+            <l n="30" xml:id="l30">Un autre à succéder aussitôt fut admis ;</l>
+            <l n="31" xml:id="l31">Celui-ci mort, un autre en sa place fut mis,</l>
+            <l n="32" xml:id="l32">Croyant mieux trouver et mieux faire :</l>
+            <l n="33" xml:id="l33">Mais, Hélas ! J’ai toujours été de pis en pis.</l>
+            <l n="34" xml:id="l34">Le premier se trouva brutal jusqu’à l’extrême ;</l>
+            <l n="35" xml:id="l35">Le second plus brutal, et très jaloux, de plus ;</l>
+            <l n="36" xml:id="l36">L’autre est jaloux, brutal, ivrogne au par-dessus :</l>
+            <l n="37" xml:id="l37">Je veux voir si le quatrième</l>
+            <l n="38" xml:id="l38">Pourrait avoir quelques vertus,</l>
+            <l n="39" xml:id="l39">Sauf à recourir au cinquième.</l>
+          </sp>
+          <sp who="mercure" xml:id="I02-6">
+            <speaker>mercure</speaker>
+            <l n="40" xml:id="l40">Mais pour vous fournir de maris</l>
+            <l n="41" xml:id="l41">Seulement pendant une année,</l>
+            <l n="42" xml:id="l42">De l’humeur dont vous êtes née,</l>
+            <l n="43" xml:id="l43">Vous épuiseriez tout Paris.</l>
+          </sp>
+          <sp who="la-mariee" xml:id="I02-7">
+            <speaker>la mariée</speaker>
+            <l n="44" xml:id="l44">Je veux, pour en trouver un à ma fantaisie,</l>
+            <l n="45" xml:id="l45">En changer, si je puis, tous les jours de ma vie.</l>
+          </sp>
+          <sp who="la-mariee" xml:id="I02-8">
+            <speaker>la mariée</speaker>
+            <note>Rabuter : Rejeter avec dureté. [L]</note>
+            <l n="46" xml:id="l46">Je rebute vos vœux, et j’ai pitié de vous ;</l>
+            <l n="47" xml:id="l47">Il vous arriverait, dans votre rage extrême,</l>
+            <l n="48" xml:id="l48">Si vous preniez un quatrième,</l>
+            <l n="49" xml:id="l49">Qu’il aurait à lui seul tous les défauts de tous,</l>
+            <l n="50" xml:id="l50">Et qu’il pourrait encor vous assommer de coups,</l>
+            <l n="51" xml:id="l51">Et ferait bien, cela ne soit dit qu’entre nous,</l>
+            <l n="52" xml:id="l52">Pour vous ôter l’espoir de songer au cinquième.</l>
+          </sp>
+          <sp who="la-mariee" xml:id="I02-9">
+            <speaker>la mariée</speaker>
+            <l n="53" xml:id="l53">De mon sort, en un mot, vous plaît-il d’ordonner ?</l>
+          </sp>
+          <sp who="mercure" xml:id="I02-10">
+            <speaker>mercure</speaker>
+            <note>Impétrable : Terme de droit. Qu’on peut impétrer. Bénéfice impétrable, bénéfice vacant par mort, ou qu’on peut obtenir par dévolu. [L] Que l’on peut obtenir par une requête.</note>
+            <l n="54" xml:id="l54">Votre vœu n’est pas impétrable.</l>
+            <l n="55" xml:id="l55">Faisant place à quelqu’un qui soit plus raisonnable,</l>
+            <l n="56" xml:id="l56">Écoutez le conseil que je vais vous donner.</l>
+            <stage>AIR.</stage>
+            <l n="57" xml:id="l57">Le mariage</l>
+            <l n="58" xml:id="l58">Est un hommage</l>
+            <l n="59" xml:id="l59">Que chacun à son tour</l>
+            <l n="60" xml:id="l60">Peut rendre à l’Amour.</l>
+            <l n="61" xml:id="l61">Mais quand un doux veuvage</l>
+            <l n="62" xml:id="l62">Assure un heureux sort,</l>
+            <l n="63" xml:id="l63">Ce n’est pas être sage</l>
+            <l n="64" xml:id="l64">D’affronter de nouveau l’orage,</l>
+            <l n="65" xml:id="l65">Quand on est au port.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="I03">
+          <head>SCÈNE II</head>
+          <stage>Une Suissesse, Un Nain, en vieillard, Mercure.</stage>
+          <sp who="la-suissesse" xml:id="I03-1">
+            <speaker>la suissesse, à mercure</speaker>
+            <l n="66" xml:id="l66">Vous voyez deux amants dont la taille diffère :</l>
+            <l n="67" xml:id="l67">La nature dans l’un prodigua sa matière,</l>
+            <l n="68" xml:id="l68">Et dans l’autre elle fut avare de ses biens ;</l>
+            <l n="69" xml:id="l69">Cependant, ne pouvant mieux faire,</l>
+            <l n="70" xml:id="l70">Nous voulons de l’hymen contracter les liens.</l>
+            <l n="71" xml:id="l71">Mais chacun, par avance,</l>
+            <l n="72" xml:id="l72">Rit de cette alliance ;</l>
+            <l n="73" xml:id="l73">Et je viens vous prier, par un souhait nouveau,</l>
+            <l n="74" xml:id="l74">De vouloir bien tous deux nous mettre de niveau.</l>
+          </sp>
+          <sp who="mercure" xml:id="I03-2">
+            <speaker>mercure</speaker>
+            <l n="75" xml:id="l75">Voilà du dieu d’amour l’ordinaire injustice ;</l>
+            <l n="76" xml:id="l76">Il se plaît sous un joug d’airain,</l>
+            <l n="77" xml:id="l77">D’asservir bien souvent deux amants de sa main,</l>
+            <l n="78" xml:id="l78">Fort différents d’humeur, de taille et de caprice ;</l>
+            <l n="79" xml:id="l79">Puis il en rit le lendemain.</l>
+          </sp>
+          <sp who="le-nain" xml:id="I03-3">
+            <speaker>le nain</speaker>
+            <l n="80" xml:id="l80">Je ne sais pas pourquoi dans mon choix on me blâme.</l>
+            <l n="81" xml:id="l81">Un grand homme souvent épouse un avorton :</l>
+            <l n="82" xml:id="l82">Je puis, par la même raison,</l>
+            <l n="83" xml:id="l83">Épouser une grande femme,</l>
+            <l n="84" xml:id="l84">Sans crainte du qu’en dira-t-on.</l>
+            <l n="85" xml:id="l85">Je sais qu’elle n’est pas sur ma forme taillée ;</l>
+            <l n="86" xml:id="l86">Mais je ne suis pas le premier</l>
+            <l n="87" xml:id="l87">Qui prend pour femme, et sans s’en méfier,</l>
+            <l n="88" xml:id="l88">Une fille dépareillée.</l>
+          </sp>
+          <sp who="la-suissesse" xml:id="I03-4">
+            <speaker>la suissesse</speaker>
+            <l n="89" xml:id="l89">Nous craignons fort que nos enfants</l>
+            <note>"N’ayent" est corrigé, de ce fait, il manque un pied au vers 90.</note>
+            <l n="90" xml:id="l90">N’aient pas la forme ordinaire :</l>
+            <l n="91" xml:id="l91">Si la nature un jour les mesure à leur mère,</l>
+            <l n="92" xml:id="l92">Ils pourront être des géants ;</l>
+            <l n="93" xml:id="l93">Si d’ailleurs ils tiennent du père,</l>
+            <l n="94" xml:id="l94">Les risques n’en sont pas moins grands ;</l>
+            <l n="95" xml:id="l95">Ce ne seront que des idées,</l>
+            <l n="96" xml:id="l96">Ou du moins des nains étonnants,</l>
+            <l n="97" xml:id="l97">Et qui n’auront pas deux coudées.</l>
+            <l n="98" xml:id="l98">Mais, pour nous égaler, dans un tel différend,</l>
+            <l n="99" xml:id="l99">Faites-moi plus petite, ou le faites plus grand.</l>
+          </sp>
+          <sp who="mercure" xml:id="I03-5">
+            <speaker>mercure</speaker>
+            <l n="100" xml:id="l100">La raison est choquée aux souhaits que vous faites :</l>
+            <l n="101" xml:id="l101">Mariez-vous tels que vous êtes.</l>
+            <note>Après ce vers on lit les trois suivants dans l’édition de 1731 : Vous aurez des enfants bien conditionnés. Votre taille est courte et bizarre, La matière en vous est très rare. (G. A. C.)</note>
+            <l n="102" xml:id="l102">À porter des géants ses flancs sont destinés :</l>
+            <l n="103" xml:id="l103">Et de là, je conclus, sans être philosophe,</l>
+            <l n="104" xml:id="l104">Que sa fécondité doit vous fournir assez</l>
+            <l n="105" xml:id="l105">Ce qui, de votre part, pourra manquer d’étoffe,</l>
+            <l n="106" xml:id="l106">Et vos enfants seront bien proportionnés.</l>
+          </sp>
+          <sp who="le-nain" xml:id="I03-6">
+            <speaker>le nain</speaker>
+            <l n="107" xml:id="l107">Mais cependant, sans vous déplaire,</l>
+            <l n="108" xml:id="l108">Cela gâterait-il quelque chose à l’affaire,</l>
+            <l n="109" xml:id="l109">Si j’avais sur ma tête encore un pied de plus ?</l>
+          </sp>
+          <sp who="mercure" xml:id="I03-7">
+            <speaker>mercure</speaker>
+            <l n="110" xml:id="l110">Sur ce point laisse agir ta femme :</l>
+            <l n="111" xml:id="l111">Si j’en juge aux regards de cette bonne dame,</l>
+            <l n="112" xml:id="l112">Tes vœux ne seront point déçus ;</l>
+            <l n="113" xml:id="l113">Quand tu seras époux, tu deviendras peut-être</l>
+            <l n="114" xml:id="l114">Plus grand que tu ne voudrais être.</l>
+            <stage>À la Suissesse.</stage>
+            <l n="115" xml:id="l115">Pour vous, écoutez bien ma chanson là-dessus.</l>
+            <stage>AIR.</stage>
+            <l n="116" xml:id="l116">Un mari toujours embarrasse :</l>
+            <l n="117" xml:id="l117">Heureuse celle qui s’en passe !</l>
+            <l n="118" xml:id="l118">On n’en a pas comme on les veut.</l>
+            <l n="119" xml:id="l119">Vous en pourrez trouver qui seront plus de mise :</l>
+            <l n="120" xml:id="l120">Mais de mauvaise marchandise</l>
+            <l n="121" xml:id="l121">Il ne s’en faut charger que le moins que l’on peut.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="I04">
+          <head>SCÈNE III</head>
+          <stage>Un Homme de bonne chère, ou un buveur, Mercure.</stage>
+          <sp who="l-homme-de-bonne-chere" xml:id="I04-1">
+            <speaker>l’homme de bonne chère</speaker>
+            <l n="122" xml:id="l122">Vous voyez un garçon qui du bien fait usage,</l>
+            <l n="123" xml:id="l123">Assez bien nourri pour son âge ;</l>
+            <l n="124" xml:id="l124">Je n’ai pas encore vingt ans,</l>
+            <l n="125" xml:id="l125">Et j’espère dans peu profiter davantage.</l>
+            <l n="126" xml:id="l126">Cet embonpoint des plus brillants,</l>
+            <l n="127" xml:id="l127">Qui fidèlement m’accompagne,</l>
+            <l n="128" xml:id="l128">Est pétri de mets succulents,</l>
+            <l n="129" xml:id="l129">Et broyé de vin de Champagne.</l>
+          </sp>
+          <sp who="mercure" xml:id="I04-2">
+            <speaker>mercure</speaker>
+            <l n="130" xml:id="l130">La teinture en est bonne, et durera longtemps.</l>
+          </sp>
+          <sp who="l-homme-de-bonne-chere" xml:id="I04-3">
+            <speaker>l’homme de bonne chère</speaker>
+            <l n="131" xml:id="l131">Cependant, croiriez-vous ce que je vais vous dire ?</l>
+            <l n="132" xml:id="l132">Avec cet embonpoint des autres souhaité,</l>
+            <l n="133" xml:id="l133">Souvent je manque de santé.</l>
+          </sp>
+          <sp who="mercure" xml:id="I04-4">
+            <speaker>mercure</speaker>
+            <l n="134" xml:id="l134">Bon ! Je crois que vous voulez rire :</l>
+            <l n="135" xml:id="l135">Vous n’avez point d’affaire avec la Faculté.</l>
+          </sp>
+          <sp who="l-homme-de-bonne-chere" xml:id="I04-5">
+            <speaker>l’homme de bonne chère</speaker>
+            <l n="136" xml:id="l136">Mon plaisir unique est la table ;</l>
+            <l n="137" xml:id="l137">Je m’y plais à passer les nuits :</l>
+            <l n="138" xml:id="l138">Mais, lorsque trop longtemps j’y suis,</l>
+            <l n="139" xml:id="l139">Un désir de dormir m’accable.</l>
+            <l n="140" xml:id="l140">En vain, pour le chasser, je fais ce que je puis.</l>
+            <l n="141" xml:id="l141">Quand j’ai seulement bu mes neuf ou dix bouteilles,</l>
+            <l n="142" xml:id="l142">Certain mal de tête me prend,</l>
+            <l n="143" xml:id="l143">Sous moi mon pied est chancelant,</l>
+            <l n="144" xml:id="l144">Et j’ai des vapeurs sans pareilles ;</l>
+            <l n="145" xml:id="l145">Il me prend un dégoût pour tout ce qu’on me sert,</l>
+            <l n="146" xml:id="l146">Plus de faim, plus de soif, plus d’appétit ouvert.</l>
+            <l n="147" xml:id="l147">Dans cette affreuse maladie,</l>
+            <l n="148" xml:id="l148">Je me traîne à mon lit sans me déshabiller :</l>
+            <l n="149" xml:id="l149">Là, je dors sans donner aucun signe de vie ;</l>
+            <l n="150" xml:id="l150">Et je demeure en cette léthargie</l>
+            <l n="151" xml:id="l151">Jusques au lendemain, sans pouvoir m’éveiller.</l>
+          </sp>
+          <sp who="mercure" xml:id="I04-6">
+            <speaker>mercure</speaker>
+            <l n="152" xml:id="l152">S’il est ainsi, vous êtes bien malade.</l>
+            <l n="153" xml:id="l153">Et ce mal vous prend-il bien ordinairement ?</l>
+          </sp>
+          <sp who="l-homme-de-bonne-chere" xml:id="I04-7">
+            <speaker>l’homme de bonne chère</speaker>
+            <note>Réplément : avec règle, d’une manière réglée. [L] Régulièrement.</note>
+            <l n="154" xml:id="l154">Une fois par jour réglément.</l>
+          </sp>
+          <sp who="mercure" xml:id="I04-8">
+            <speaker>mercure</speaker>
+            <l n="155" xml:id="l155">Oui ! Vous êtes plus mal qu’on ne se persuade.</l>
+          </sp>
+          <sp who="l-homme-de-bonne-chere" xml:id="I04-9">
+            <speaker>l’homme de bonne chère</speaker>
+            <l n="156" xml:id="l156">Je viens vous demander, pour vivre heureusement,</l>
+            <l n="157" xml:id="l157">Un meilleur estomac, un ventre plus capable,</l>
+            <l n="158" xml:id="l158">Une faim qui s’irrite à table,</l>
+            <l n="159" xml:id="l159">Et qui puisse porter l’effroi dans tous les plats,</l>
+            <l n="160" xml:id="l160">Et surtout une soif que rien ne puisse éteindre.</l>
+          </sp>
+          <sp who="mercure" xml:id="I04-10">
+            <speaker>mercure</speaker>
+            <l n="161" xml:id="l161">Homme, ou tonneau, je ne t’écoute pas ;</l>
+            <l n="162" xml:id="l162">Serait-ce t’obliger qu’avancer ton trépas ?</l>
+            <l n="163" xml:id="l163">Eh ! De moi tu devrais te plaindre.</l>
+            <l n="164" xml:id="l164">Ton souhait est impertinent ;</l>
+            <l n="165" xml:id="l165">Cherche une demande meilleure.</l>
+            <l n="166" xml:id="l166">Tu crèveras avant qu’il soit un an ;</l>
+            <l n="167" xml:id="l167">Et, si j’étais à tes vœux complaisant,</l>
+            <l n="168" xml:id="l168">Tu crèverais avant qu’il fût une heure.</l>
+          </sp>
+          <sp who="l-homme-de-bonne-chere" xml:id="I04-11">
+            <speaker>l’homme de bonne chère</speaker>
+            <l n="169" xml:id="l169">Quoi ! Je n’aurai donc point de vous d’autre raison ?</l>
+          </sp>
+          <sp who="mercure" xml:id="I04-12">
+            <speaker>mercure</speaker>
+            <l n="170" xml:id="l170">À ce propos, écoute ma chanson.</l>
+            <stage>AIR.</stage>
+            <l n="171" xml:id="l171">Ami, je condamne l’usage</l>
+            <l n="172" xml:id="l172">De ceux qui mettent tous leurs soins</l>
+            <l n="173" xml:id="l173">À voir dans un repas qui boira davantage,</l>
+            <l n="174" xml:id="l174">Et qui vivra le moins.</l>
+            <note>Iris : Divinité fabuleuse des Anciens, que les poètes ont feint être messagère de Junon. [T]</note>
+            <l n="175" xml:id="l175">Buvez tant que d’Iris vous perdiez la mémoire,</l>
+            <l n="176" xml:id="l176">Vous gagnerez beaucoup ;</l>
+            <l n="177" xml:id="l177">Alors je vous permets de boire,</l>
+            <l n="178" xml:id="l178">Pour célébrer votre victoire,</l>
+            <l n="179" xml:id="l179">Encore un coup.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="I05">
+          <head>SCÈNE IV</head>
+          <stage>Une Fille en cavalier gascon, Mercure.</stage>
+          <sp who="le-gascon" xml:id="I05-1">
+            <speaker>le gascon</speaker>
+            <l n="180" xml:id="l180">Cadédis, monsieur de Mercure,</l>
+            <l n="181" xml:id="l181">Je ne viens point faire de vœux,</l>
+            <l n="182" xml:id="l182">Comme font tous ces malheureux ;</l>
+            <l n="183" xml:id="l183">J’ai tout reçu de la nature.</l>
+            <l n="184" xml:id="l184">Je suis plus noble que le roi,</l>
+            <l n="185" xml:id="l185">Et je ne le cède à personne ;</l>
+            <l n="186" xml:id="l186">Ma noblesse est plus vieille et plus pure, je crois,</l>
+            <note>Garonne : fleuve du sud de la France qui prend sa source dans les Pyrénées, arrose Toulouse et Bordeaux et dont le large estuaire débouche dans le golfe de Gascogne.</note>
+            <l n="187" xml:id="l187">Que les sources de la Garonne.</l>
+            <l n="188" xml:id="l188">J’ai plus d’esprit cent fois qu’il ne me faut ;</l>
+            <l n="189" xml:id="l189">Ma taille est des plus à la mode ;</l>
+            <l n="190" xml:id="l190">Je ne vois en moi nul défaut ;</l>
+            <l n="191" xml:id="l191">Mais trop de valeur m’incommode.</l>
+          </sp>
+          <sp who="mercure" xml:id="I05-2">
+            <speaker>mercure</speaker>
+            <l n="192" xml:id="l192">Oh ! Oh ! Cet homme a le sang chaud.</l>
+            <l n="193" xml:id="l193">En ce temps de désordre, où l’on voit sur la terre</l>
+            <l n="194" xml:id="l194">Régner le démon de la guerre,</l>
+            <l n="195" xml:id="l195">Vous avez de quoi batailler.</l>
+          </sp>
+          <sp who="le-gascon" xml:id="I05-3">
+            <speaker>le gascon</speaker>
+            <l n="196" xml:id="l196">D’accord : mais les hivers on ne peut chamailler.</l>
+            <l n="197" xml:id="l197">Ce repos m’ennuie et me gêne :</l>
+            <l n="198" xml:id="l198">Le sang me bout de veine en veine ;</l>
+            <l n="199" xml:id="l199">Je voudrais qu’il me fût permis,</l>
+            <l n="200" xml:id="l200">Pour me tenir bien en haleine,</l>
+            <l n="201" xml:id="l201">De me battre en duel contre mes ennemis,</l>
+            <l n="202" xml:id="l202">Trois fois seulement par semaine.</l>
+            <note>Ce vers manque dans l’édition de 1731 que j’ai consultée. Suivant l’éditeur de 1820, il se trouve dans l’autre édition de cette même année 1731. (G. A. C.)</note>
+          </sp>
+          <sp who="mercure" xml:id="I05-4">
+            <speaker>mercure</speaker>
+            <l n="203" xml:id="l203" part="I">Vous êtes-vous battu parfois ?</l>
+          </sp>
+          <sp who="le-gascon" xml:id="I05-5">
+            <speaker>le gascon</speaker>
+            <l n="203" part="F">Non, ou je mens ;</l>
+            <l n="204" xml:id="l204">Mais, certes, je m’en meurs d’envie.</l>
+          </sp>
+          <sp who="mercure" xml:id="I05-6">
+            <speaker>mercure</speaker>
+            <l n="205" xml:id="l205">Ce métier à la longue ennuie,</l>
+            <l n="206" xml:id="l206">Lasse, et ne nourrit pas son maître bien longtemps.</l>
+          </sp>
+          <sp who="le-gascon" xml:id="I05-7">
+            <speaker>le gascon</speaker>
+            <l n="207" xml:id="l207">Lorsque je l’aurai fait dix ans,</l>
+            <l n="208" xml:id="l208">Je me reposerai le reste de ma vie.</l>
+          </sp>
+          <sp who="mercure" xml:id="I05-8">
+            <speaker>mercure</speaker>
+            <l n="209" xml:id="l209">Ce souhait est vraiment nouveau,</l>
+            <l n="210" xml:id="l210">Et je ne vois rien de si beau</l>
+            <note>Carte blanche : Plein pouvoir. J’ai carte blanche là-dessus. Anciennement, offrir la carte blanche, provoquer en duel. [L]</note>
+            <l n="211" xml:id="l211">D’aller à tout venant offrir la carte blanche :</l>
+            <l n="212" xml:id="l212">Mais, si vous commenciez un lundi</l>
+            <l n="213" xml:id="l213">Ce jeu digne d’un étourdi,</l>
+            <l n="214" xml:id="l214">À peine iriez-vous au dimanche.</l>
+          </sp>
+          <sp who="le-gascon" xml:id="I05-9">
+            <speaker>le gascon</speaker>
+            <l n="215" xml:id="l215">Vous vous raillez, je crois. Remplissez mon souhait :</l>
+            <l n="216" xml:id="l216">Ce m’est un jeu quand je m’exerce</l>
+            <l n="217" xml:id="l217">À pousser la quarte et la tierce,</l>
+            <l n="218" xml:id="l218">Et faire une passe au collet :</l>
+            <l n="219" xml:id="l219">Du sort d’un ennemi je suis toujours le maître ;</l>
+            <l n="220" xml:id="l220">Et, dans un combat singulier,</l>
+            <l n="221" xml:id="l221">Je force à demander quartier,</l>
+            <l n="222" xml:id="l222">Quelque brave que ce puisse être.</l>
+          </sp>
+          <sp who="mercure" xml:id="I05-10">
+            <speaker>mercure</speaker>
+            <l n="223" xml:id="l223">Quelque mortels que soient vos coups,</l>
+            <l n="224" xml:id="l224">Je connais, à votre visage,</l>
+            <l n="225" xml:id="l225">Que bien des gens voudraient posséder l’avantage</l>
+            <l n="226" xml:id="l226">D’en venir aux mains avec vous.</l>
+            <l n="227" xml:id="l227">Malgré I’habit qui me cache vos charmes,</l>
+            <l n="228" xml:id="l228">Vous ne sauriez m’imposer en ce jour :</l>
+            <l n="229" xml:id="l229">Vous vous imaginez être fait pour les armes,</l>
+            <l n="230" xml:id="l230">Et vous êtes fait pour l’amour.</l>
+          </sp>
+          <sp who="le-gascon" xml:id="I05-11">
+            <speaker>le gascon</speaker>
+            <l n="231" xml:id="l231">Il faut donc que je me retranche</l>
+            <l n="232" xml:id="l232">Aux exploits que ce dieu m’offrira désormais,</l>
+            <l n="233" xml:id="l233">Et que je prenne ma revanche</l>
+            <note>Mais : qui signifie plus, et qui, usité en ce sens dans l’ancienne langue, ne se conserve plus aujourd’hui que dans la locution suivante : pouvoir mais, avec une négation ou une interrogation, n’être pas cause de, n’être pas responsable de. [L]</note>
+            <l n="234" xml:id="l234">Sur des cœurs qui n’en pourront mais.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6" xml:id="I06">
+          <head>SCÈNE V</head>
+          <stage>Poisson, La Thorillière, comédien de campagne, Mercure.</stage>
+          <sp who="la-thorilliere" xml:id="I06-1">
+            <speaker>la thorillière</speaker>
+            <note>La Thorillière : nom d’une famille de comédiens. Il s’agit certainement du père Pierre décédé en 1731. Il commença à jouer les valets dès 1693 à la mort de Raisin.</note>
+            <l n="235" xml:id="l235">Avec tous les respects que la divinité</l>
+            <l n="236" xml:id="l236">Exige de l’humanité,</l>
+            <l n="237" xml:id="l237">Nous venons rendre notre hommage,</l>
+            <l n="238" xml:id="l238">Et profiter de l’avantage</l>
+            <l n="239" xml:id="l239">Qui par vous nous est présenté.</l>
+          </sp>
+          <sp who="poisson" xml:id="I06-2">
+            <speaker>poisson</speaker>
+            <note>Poisson : Nom d’une famille de comédien dont Raymond qui joua à Paris à l’Hôtel de Bourgogne dès 1650. On lui doil la création du personnage de Crispin. Il quitta le théâtre en 1685.</note>
+            <l n="240" xml:id="l240">Seigneur Mercure, en vérité,</l>
+            <l n="241" xml:id="l241">En voyant ce noble équipage</l>
+            <l n="242" xml:id="l242">Qui vous sert à faire voyage,</l>
+            <l n="243" xml:id="l243">On ne vous prendra pas, à moins d’être hébété,</l>
+            <l n="244" xml:id="l244">Pour un messager de village ;</l>
+            <l n="245" xml:id="l245">Mais cette noble majesté</l>
+            <l n="246" xml:id="l246">Qui... je n’en dis pas davantage,</l>
+            <l n="247" xml:id="l247">De crainte de prolixité.</l>
+          </sp>
+          <sp who="mercure" xml:id="I06-3">
+            <speaker>mercure</speaker>
+            <l n="248" xml:id="l248">Venons au fait, et point tant de langage.</l>
+          </sp>
+          <sp who="la-thorilliere" xml:id="I06-4">
+            <speaker>la thorillière</speaker>
+            <note>Pö : fleuve du nord de l’Italie qui se jette dans la mer Adriatique.</note>
+            <note>Rhin : fleuve du nord de l’Europe qui se jette dans la mer du Nord après avoir servi de frontière entre l’Allemagne et la France et traversé les Pays-Bas.</note>
+            <l n="249" xml:id="l249">Des bords fameux du Pô, jusqu’aux rives du Rhin,</l>
+            <l n="250" xml:id="l250">Dans les troupes toujours cherchant un beau destin,</l>
+            <l n="251" xml:id="l251">De lauriers éclatants nous avons ceint nos têtes,</l>
+            <l n="252" xml:id="l252">Et près du sexe même étendu nos conquêtes.</l>
+            <l n="253" xml:id="l253">Le sceptre est souvent en nos mains ;</l>
+            <l n="254" xml:id="l254">Et vous voyez en nous, par le fruit de nos peines,</l>
+            <l n="255" xml:id="l255">Ce que les Grecs et les Romains</l>
+            <l n="256" xml:id="l256">Ont eu de plus grands capitaines.</l>
+          </sp>
+          <sp who="mercure" xml:id="I06-5">
+            <speaker>mercure</speaker>
+            <l n="257" xml:id="l257">Oui ! Mais, s’il est ainsi, comme on n’en peut douter,</l>
+            <l n="258" xml:id="l258">Que vous peut-il encor rester à souhaiter ?</l>
+          </sp>
+          <sp who="la-thorilliere" xml:id="I06-6">
+            <speaker>la thorillière</speaker>
+            <l n="259" xml:id="l259">Rassasiés de gloire et de ses dons frivoles,</l>
+            <l n="260" xml:id="l260">Comme sont enfin les héros,</l>
+            <l n="261" xml:id="l261">Ayant dans l’univers joué les premiers rôles,</l>
+            <l n="262" xml:id="l262">Nous cherchons un peu de repos.</l>
+            <l n="263" xml:id="l263">L’honneur partout nous accompagne ;</l>
+            <l n="264" xml:id="l264">Mais nous sommes d’ailleurs fort dénués de biens,</l>
+            <l n="265" xml:id="l265">Car nous sommes comédiens.</l>
+          </sp>
+          <sp who="poisson" xml:id="I06-7">
+            <speaker>poisson</speaker>
+            <l n="266" xml:id="l266">Et comédiens de campagne.</l>
+          </sp>
+          <sp who="mercure" xml:id="I06-8">
+            <speaker>mercure</speaker>
+            <l n="267" xml:id="l267">J’aime les gens de cet emploi :</l>
+            <l n="268" xml:id="l268">Parlez, que voulez-vous de moi ?</l>
+          </sp>
+          <sp who="la-thorilliere" xml:id="I06-9">
+            <speaker>la thorillière</speaker>
+            <l n="269" xml:id="l269">Vous savez que notre espérance,</l>
+            <l n="270" xml:id="l270">Le but de nos travaux, est d’être un jour admis</l>
+            <l n="271" xml:id="l271">Dans cette troupe de Paris,</l>
+            <l n="272" xml:id="l272">Où l’on vit avec abondance :</l>
+            <l n="273" xml:id="l273">On emploie à cela l’argent et les amis.</l>
+          </sp>
+          <sp who="poisson" xml:id="I06-10">
+            <speaker>poisson</speaker>
+            <l n="274" xml:id="l274">C’est pour nous le bâton de maréchal de France.</l>
+          </sp>
+          <sp who="la-thorilliere" xml:id="I06-11">
+            <speaker>la thorillière</speaker>
+            <l n="275" xml:id="l275">C’est donc où se bornent nos vœux,</l>
+            <l n="276" xml:id="l276">Et ce qui peut nous rendre heureux.</l>
+          </sp>
+          <sp who="mercure" xml:id="I06-12">
+            <speaker>mercure</speaker>
+            <l n="277" xml:id="l277">Pour m’assurer si le vœu que vous faites</l>
+            <l n="278" xml:id="l278">Vous est avantageux, ou non,</l>
+            <l n="279" xml:id="l279">Il faudrait de ce que vous êtes</l>
+            <l n="280" xml:id="l280">Me donner quelque échantillon.</l>
+            <l n="281" xml:id="l281" part="I">Quel rôle faites-vous ?</l>
+          </sp>
+          <sp who="poisson" xml:id="I06-13">
+            <speaker>poisson</speaker>
+            <l n="281" part="F">Jadis dans le comique</l>
+            <l n="282" xml:id="l282">Mon camarade et moi nous avions du crédit ;</l>
+            <l n="283" xml:id="l283">Mais, pour faire en tout genre admirer notre esprit,</l>
+            <l n="284" xml:id="l284">Nous chaussons maintenant le cothurne tragique,</l>
+            <l n="285" xml:id="l285">Et je fais le héros des mieux, à ce qu’on dit.</l>
+          </sp>
+          <sp who="la-thorilliere" xml:id="I06-14">
+            <speaker>la thorillière</speaker>
+            <l n="286" xml:id="l286">Pour peu que vous vouliez en passer votre envie,</l>
+            <l n="287" xml:id="l287">Nous jouerons un fragment pris d’une tragédie,</l>
+            <l n="288" xml:id="l288">Dont les vers, faits par moi, furent très bien reçus :</l>
+            <l n="289" xml:id="l289">Elle a nom, «les Amours de Mars et de Vénus »,</l>
+            <l n="290" xml:id="l290">Et ce n’est proprement qu’un trait de parodie</l>
+            <note>Iphigénie : tragédie de Jean Racine (1674).</note>
+            <l n="291" xml:id="l291">D’une scène d’«Iphigénie »,</l>
+            <l n="292" xml:id="l292">Quand Achille en fureur insulte Agamemnon.</l>
+            <l n="293" xml:id="l293">Pour moi, quand je travaille,</l>
+            <l n="294" xml:id="l294">J’aime mieux imiter certains auteurs de nom,</l>
+            <l n="295" xml:id="l295">Qu’en produisant de moi, ne faire rien qui vaille.</l>
+          </sp>
+          <sp who="mercure" xml:id="I06-15">
+            <speaker>mercure</speaker>
+            <l n="296" xml:id="l296">Vous avez fort bonne raison.</l>
+          </sp>
+          <sp who="poisson" xml:id="I06-16">
+            <speaker>poisson</speaker>
+            <l n="297" xml:id="l297">Ordonnez donc, seigneur Mercure,</l>
+            <l n="298" xml:id="l298">Que les musiciens, avec leurs violons,</l>
+            <l n="299" xml:id="l299">Vous fredonnent une ouverture,</l>
+            <l n="300" xml:id="l300">Et dans peu nous commencerons.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="7" xml:id="I07">
+          <head>SCÈNE VI</head>
+          <stage>Vénus, Vulcain, Suite de Cyclopes.</stage>
+          <stage>PARODIE.</stage>
+          <sp who="vulcain" xml:id="I07-1">
+            <speaker>vulcain</speaker>
+            <l n="301" xml:id="l301">Assez et trop longtemps ma lâche complaisance</l>
+            <note>Déportements : Conduite, mœurs, manière de vie. Il se prend ordinairement en mauvaise part, et ne se dit qu’au pluriel. [FC]</note>
+            <l n="302" xml:id="l302">De vos déportements entretient la licence,</l>
+            <l n="303" xml:id="l303">Madame ; je ne puis les souffrir plus longtemps ;</l>
+            <l n="304" xml:id="l304">Et Mars fait voir pour vous des feux trop éclatants.</l>
+          </sp>
+          <sp who="venus" xml:id="I07-2">
+            <speaker>vénus</speaker>
+            <l n="305" xml:id="l305">Ne cesserez-vous point, dans votre humeur farouche,</l>
+            <l n="306" xml:id="l306">De m’immoler sans cesse à vos transports jaloux ?</l>
+          </sp>
+          <sp who="vulcain" xml:id="I07-3">
+            <speaker>vulcain</speaker>
+            <l n="307" xml:id="l307">Vous immolez ma tête aux malheurs d’un époux,</l>
+            <l n="308" xml:id="l308">Et le mal d’assez près me touche.</l>
+          </sp>
+          <sp who="venus" xml:id="I07-4">
+            <speaker>vénus</speaker>
+            <l n="309" xml:id="l309">Vous ne méritez pas l’amour qu’on a pour vous.</l>
+          </sp>
+          <sp who="vulcain" xml:id="I07-5">
+            <speaker>vulcain</speaker>
+            <l n="310" xml:id="l310">On ne m’abuse point par de fausses caresses ;</l>
+            <l n="311" xml:id="l311">Je sais ce que je dois croire de vos discours.</l>
+          </sp>
+          <sp who="venus" xml:id="I07-6">
+            <speaker>vénus</speaker>
+            <l n="312" xml:id="l312">Que manque-t-il à vos tendresses ?</l>
+            <l n="313" xml:id="l313">Vous avez épousé la mère des Amours.</l>
+          </sp>
+          <sp who="vulcain" xml:id="I07-7">
+            <speaker>vulcain</speaker>
+            <l n="314" xml:id="l314">Et c’est là ma douleur amère !</l>
+            <l n="315" xml:id="l315">Des Amours vous êtes la mère ;</l>
+            <l n="316" xml:id="l316">Et moi, Vulcain, qui suis par malheur votre époux,</l>
+            <l n="317" xml:id="l317">J’en devrais être aussi le père, ce me semble :</l>
+            <l n="318" xml:id="l318">Cependant, au dire de tous,</l>
+            <l n="319" xml:id="l319">De tant d’enfants aucun ne me ressemble ;</l>
+            <l n="320" xml:id="l320">Et les mortels, dans leurs discours,</l>
+            <l n="321" xml:id="l321">Ne m’appellent jamais le père des Amours.</l>
+          </sp>
+          <sp who="venus" xml:id="I07-8">
+            <speaker>vénus</speaker>
+            <l n="322" xml:id="l322">Il serait beau, vraiment, que de votre visage</l>
+            <l n="323" xml:id="l323">Mes enfants eussent quelques traits ;</l>
+            <l n="324" xml:id="l324">Vous n’avez pas assez d’attraits</l>
+            <l n="325" xml:id="l325">Pour leur souhaiter votre image.</l>
+            <l n="326" xml:id="l326">Que dirait tout le genre humain,</l>
+            <l n="327" xml:id="l327">Si, de notre couche féconde,</l>
+            <l n="328" xml:id="l328">Il voyait voler dans le inonde</l>
+            <l n="329" xml:id="l329">Des Amours forgés par Vulcain ?</l>
+          </sp>
+          <sp who="vulcain" xml:id="I07-9">
+            <speaker>vulcain</speaker>
+            <l n="330" xml:id="l330">C’est trop insulter à ma peine.</l>
+            <note>Remener : Transporter quelqu’un, ou le reconduire au lieu d’où il était venu. [F]</note>
+            <l n="331" xml:id="l331">À son appartement, gardes, qu’on la remène,</l>
+            <l n="332" xml:id="l332">Et qu’on l’empêche d’en sortir.</l>
+            <l n="333" xml:id="l333">Deux Cyclopes s’emparent de Vénus.</l>
+          </sp>
+          <sp who="venus" xml:id="I07-10">
+            <speaker>vénus</speaker>
+            <l n="334" xml:id="l334">Quoi ! Voulez-vous, par cette violence,</l>
+            <l n="335" xml:id="l335">Forcer mon cœur à vous haïr !</l>
+          </sp>
+          <sp who="vulcain" xml:id="I07-11">
+            <speaker>vulcain</speaker>
+            <l n="336" xml:id="l336">Vous avez trop longtemps lassé ma patience.</l>
+            <l n="337" xml:id="l337">Je parle, j’ai parlé ; c’est à vous d’obéir.</l>
+            <l n="338" xml:id="l338">Les deux Cyclopes emmènent Vénus.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="8" xml:id="I08">
+          <head>SCÈNE VII</head>
+          <sp who="vulcain" xml:id="I08-1">
+            <speaker>vulcain, seul</speaker>
+            <l n="339" xml:id="l339">Faut-il cruel hymen, que, tout dieux que nous sommes,</l>
+            <l n="340" xml:id="l340">Nous ressentions tes coups comme les autres hommes ?</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="9" xml:id="I09">
+          <head>SCÈNE VIII</head>
+          <stage>Mars, Vulcain.</stage>
+          <sp who="mars" xml:id="I09-1">
+            <speaker>mars</speaker>
+            <l n="341" xml:id="l341">Un bruit assez étrange est venu jusqu’à moi,</l>
+            <l n="342" xml:id="l342">Seigneur ; je l’ai jugé trop peu digne .de foi.</l>
+            <l n="343" xml:id="l343">On dit, et sans horreur je ne puis le redire,</l>
+            <l n="344" xml:id="l344">Qu’exerçant sur Vénus un rigoureux empire,</l>
+            <l n="345" xml:id="l345">Et vous-même étouffant tout sentiment d’époux,</l>
+            <l n="346" xml:id="l346">Vous voulez l’immoler à vos transports jaloux.</l>
+            <l n="347" xml:id="l347">Contre ses volontés, par vos soins retenue,</l>
+            <l n="348" xml:id="l348">Vous la faites, dit-on, ici garder a vue.</l>
+            <l n="349" xml:id="l349">On dit plus ; on prétend que cette dure loi</l>
+            <l n="350" xml:id="l350">N’est donnée en ces lieux, n’est faite que pour moi.</l>
+            <l n="351" xml:id="l351">Qu’en dites-vous, seigneur ? Que faut-il que j’en pense ?</l>
+            <l n="352" xml:id="l352">Ne ferez-vous point taire un bruit qui nous offense ?</l>
+          </sp>
+          <sp who="vulcain" xml:id="I09-2">
+            <speaker>vulcain</speaker>
+            <l n="353" xml:id="l353">Seigneur, je ne rends point compte de mes desseins :</l>
+            <l n="354" xml:id="l354">Ma femme ignore encor mes ordres souverains ;</l>
+            <l n="355" xml:id="l355">Et, quand il sera temps qu’elle soit enfermée,</l>
+            <l n="356" xml:id="l356">Vous en serez instruit avec la renommée.</l>
+          </sp>
+          <sp who="mars" xml:id="I09-3">
+            <speaker>mars</speaker>
+            <l n="357" xml:id="l357">Et vous pourriez, cruel, la maltraiter ainsi !</l>
+          </sp>
+          <sp who="vulcain" xml:id="I09-4">
+            <speaker>vulcain</speaker>
+            <l n="358" xml:id="l358">De vos secrets complots je suis trop éclairci :</l>
+            <l n="359" xml:id="l359">Vos discours me font voir ce que j’avais à craindre,</l>
+            <l n="360" xml:id="l360">Et vos lâches amours ne sauraient se contraindre.</l>
+          </sp>
+          <sp who="mars" xml:id="I09-5">
+            <speaker>mars</speaker>
+            <l n="361" xml:id="l361">Seigneur, je ne rends point compte de mes amours :</l>
+            <l n="362" xml:id="l362">Vénus ignore encor quel en sera le cours ;</l>
+            <l n="363" xml:id="l363">Et, quand il sera temps, par vous ou par un autre</l>
+            <l n="364" xml:id="l364">Elle apprendra son sort, et vous saurez le vôtre.</l>
+          </sp>
+          <sp who="vulcain" xml:id="I09-6">
+            <speaker>vulcain</speaker>
+            <l n="365" xml:id="l365">Ah ! Je sais trop le sort que vous me réservez.</l>
+          </sp>
+          <sp who="mars" xml:id="I09-7">
+            <speaker>mars</speaker>
+            <l n="366" xml:id="l366">Pourquoi le demander, puisque vous le savez ?</l>
+          </sp>
+          <sp who="vulcain" xml:id="I09-8">
+            <speaker>vulcain</speaker>
+            <l n="367" xml:id="l367">Pourquoi je le demande ! Ô ciel ! Le puis-je croire,</l>
+            <l n="368" xml:id="l368">Qu’on ose des ardeurs avouer la plus noire ?</l>
+            <l n="369" xml:id="l369">Vous pensez qu’approuvant vos feux injurieux,</l>
+            <l n="370" xml:id="l370">Je vous laisse achever ce complot à mes yeux ;</l>
+            <l n="371" xml:id="l371">Que ma foi, mon honneur, mon amour y consente ?</l>
+          </sp>
+          <sp who="mars" xml:id="I09-9">
+            <speaker>mars</speaker>
+            <l n="372" xml:id="l372">Mais vous, qui me parlez d’une voix menaçante,</l>
+            <l n="373" xml:id="l373">Oubliez-vous ici qui vous interrogez ?</l>
+          </sp>
+          <sp who="vulcain" xml:id="I09-10">
+            <speaker>vulcain</speaker>
+            <l n="374" xml:id="l374">Oubliez-vous qui j’aime, et qui vous outragez ?</l>
+          </sp>
+          <sp who="mars" xml:id="I09-11">
+            <speaker>mars</speaker>
+            <l n="375" xml:id="l375">C’est pour le bien commun qu’ici mon zèle brille.</l>
+          </sp>
+          <sp who="vulcain" xml:id="I09-12">
+            <speaker>vulcain</speaker>
+            <l n="376" xml:id="l376">Et qui vous a chargé du soin de ma famille ?</l>
+            <l n="377" xml:id="l377">Avez-vous sur ma femme acquis des droits d’époux ?</l>
+            <l n="378" xml:id="l378" part="I">Et ne pourrai-je...</l>
+          </sp>
+          <sp who="mars" xml:id="I09-13">
+            <speaker>mars</speaker>
+            <l n="378" part="F">Non, elle n’est pas à vous.</l>
+            <l n="379" xml:id="l379">En épousant Vénus, cette belle déesse,</l>
+            <l n="380" xml:id="l380">Vous saviez que son cœur, sensible à la tendresse,</l>
+            <l n="381" xml:id="l381">Ne se refusait pas aux transports les plus doux :</l>
+            <l n="382" xml:id="l382">À ces conditions vous fûtes son époux.</l>
+            <l n="383" xml:id="l383">Si, depuis, des amants la troupe favorite</l>
+            <l n="384" xml:id="l384">A pris chez vous des droits dont votre cœur s’irrite,</l>
+            <l n="385" xml:id="l385">Accusez-en le sort et le ciel tout entier,</l>
+            <l n="386" xml:id="l386">Jupiter, Apollon, et vous tout le premier.</l>
+          </sp>
+          <sp who="vulcain" xml:id="I09-14">
+            <speaker>vulcain</speaker>
+            <l n="387" xml:id="l387" part="I">Moi !</l>
+          </sp>
+          <sp who="mars" xml:id="I09-15">
+            <speaker>mars</speaker>
+            <l n="387" part="F">Vous, qui, dès longtemps, mari doux et docile,</l>
+            <l n="388" xml:id="l388">Pour moi seul aujourd’hui devenez difficile :</l>
+            <l n="389" xml:id="l389">Vous vous avisez tard de devenir jaloux ;</l>
+            <l n="390" xml:id="l390">Et Mars peut, comme un autre, être reçu chez vous.</l>
+          </sp>
+          <sp who="vulcain" xml:id="I09-16">
+            <speaker>vulcain</speaker>
+            <l n="391" xml:id="l391">Juste ciel ! Puis-je entendre et souffrir ce langage ?</l>
+            <l n="392" xml:id="l392">Est-ce ainsi qu’au mépris on ajoute l’outrage ?</l>
+            <l n="393" xml:id="l393">Moi, pour le bien commun, j’aurais pris femme exprès,</l>
+            <note>Ad honores : Cette expression Latine, adoptée par notre Langue, peut s’expliquer par une autre qu’elle a reçue aussi. Ad honores, c’est-à-dire, pour garder le decorum, pour observer les loix de la bienséance. [T]</note>
+            <l n="394" xml:id="l394">Et serais seulement époux ad honores !</l>
+            <l n="395" xml:id="l395">Des plaisirs du public lâche dépositaire,</l>
+            <l n="396" xml:id="l396">Je ferais de l’hymen un trafic mercenaire !</l>
+            <l n="397" xml:id="l397">Je ne connais ni dieux, ni mortels favoris ;</l>
+            <l n="398" xml:id="l398">Ma femme est à moi seul, et n’en veux qu’à ce prix.</l>
+          </sp>
+          <sp who="mars" xml:id="I09-17">
+            <speaker>mars</speaker>
+            <l n="399" xml:id="l399">Fuyez donc ; retournez dans vos grottes ardentes,</l>
+            <l n="400" xml:id="l400">Forger à Jupiter des armes foudroyantes ;</l>
+            <l n="401" xml:id="l401">Fuyez. Mais si Vénus ne paraît aujourd’hui,</l>
+            <l n="402" xml:id="l402">Malheur à qui verra tomber mon bras sur lui !</l>
+          </sp>
+          <sp who="vulcain" xml:id="I09-18">
+            <speaker>vulcain</speaker>
+            <l n="403" xml:id="l403">Je tiens à Jupiter par un nœud qui l’engage</l>
+            <l n="404" xml:id="l404">À me mettre à l’abri de votre vaine rage :</l>
+            <l n="405" xml:id="l405">Mais, lorsque je voudrai la cacher à vos yeux,</l>
+            <l n="406" xml:id="l406">Je percerai le sein des antres les plus creux.</l>
+            <l n="407" xml:id="l407">Là, bravant vos efforts, et nageant dans la joie,</l>
+            <l n="408" xml:id="l408">Je saurai de vos mains arracher cette proie.</l>
+          </sp>
+          <sp who="mars" xml:id="I09-19">
+            <speaker>mars</speaker>
+            <l n="409" xml:id="l409">Rendez grâce au seul nœud qui retient mon courroux ;</l>
+            <l n="410" xml:id="l410">De votre femme encor je respecte l’époux.</l>
+            <l n="411" xml:id="l411">Je ne dis plus qu’un mot ; c’est à vous de m’entendre.</l>
+            <l n="412" xml:id="l412">J’ai mon amour ensemble et ma gloire à défendre :</l>
+            <l n="413" xml:id="l413">Pour aller jusqu’aux lieux que vous voulez percer,</l>
+            <l n="414" xml:id="l414">Voilà par quel chemin il vous faudra passer.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="10" xml:id="I10">
+          <head>SCÈNE IX</head>
+          <sp who="vulcain" xml:id="I10-1">
+            <speaker>vulcain, seul</speaker>
+            <l n="415" xml:id="l415">Et voilà ce qui doit avancer ma vengeance.</l>
+            <l n="416" xml:id="l416">Ton insolent amour aura sa récompense.</l>
+            <l n="417" xml:id="l417">Holà, gardes, à moi. Mais tout beau, mon courroux !</l>
+            <stage>Aux Cyclopes.</stage>
+            <l n="418" xml:id="l418">Ne précipitons rien. Venez, suivez-moi tous.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="11" xml:id="I11">
+          <head>SCÈNE X</head>
+          <stage>Mercure, Poisson, La Thorillière.</stage>
+          <sp who="la-thorilliere" xml:id="I11-1">
+            <speaker>la thorillière</speaker>
+            <l n="419" xml:id="l419">Vous voyez maintenant si c’est nous faire grâce</l>
+            <l n="420" xml:id="l420">De nous accorder une place</l>
+            <l n="421" xml:id="l421">Que le mérite seul peut nous faire espérer.</l>
+          </sp>
+          <sp who="mercure" xml:id="I11-2">
+            <speaker>mercure</speaker>
+            <l n="422" xml:id="l422">Messieurs, je ne sais que vous dire :</l>
+            <l n="423" xml:id="l423">Vos talents n’ont pas su sur moi trop opérer.</l>
+            <l n="424" xml:id="l424">Le métier d’un tragique est de faire pleurer ;</l>
+            <l n="425" xml:id="l425">Et chacun, vous voyant, s’est éclaté de rire.</l>
+            <l n="426" xml:id="l426">Retournez en province, et suivez mon avis ;</l>
+            <l n="427" xml:id="l427">Là, vous serez admirés et chéris :</l>
+            <l n="428" xml:id="l428">Vous n’auriez pas peut-être ici cet avantage.</l>
+            <l n="429" xml:id="l429">Il vaut mieux être enfin le premier au village,</l>
+            <l n="430" xml:id="l430">Qu’être le dernier à Paris.</l>
+          </sp>
+          <sp who="poisson" xml:id="I11-3">
+            <speaker>poisson</speaker>
+            <l n="431" xml:id="l431">Après une telle injustice,</l>
+            <l n="432" xml:id="l432">Paris de mes talents ne profitera pas ;</l>
+            <l n="433" xml:id="l433">Et je m’en vais, tout de ce pas,</l>
+            <l n="434" xml:id="l434">Me faire comédien suisse.</l>
+          </sp>
+          <sp who="mercure" xml:id="I11-4">
+            <speaker>mercure</speaker>
+            <l n="435" xml:id="l435">Mortels, jusqu’à présent nul n’a demandé rien</l>
+            <l n="436" xml:id="l436">Que je lui puisse accorder pour son bien.</l>
+            <l n="437" xml:id="l437">Je vois bien que chacun s’empresse</l>
+            <l n="438" xml:id="l438">De requérir, avec grand soin,</l>
+            <l n="439" xml:id="l439">Les plaisirs, le bon vin, les honneurs, la richesse :</l>
+            <l n="440" xml:id="l440">Mais nul n’a souhaité la vertu, la sagesse ;</l>
+            <l n="441" xml:id="l441">Et c’est dont vous avez tous le plus de besoin.</l>
+            <l n="442" xml:id="l442">Ne formez donc plus tant de souhaits inutiles :</l>
+            <l n="443" xml:id="l443">Les dieux vous trahiraient, s’ils étaient trop faciles.</l>
+            <l n="444" xml:id="l444">Sans redouter le sort, mettez tout en sa main :</l>
+            <l n="445" xml:id="l445">Riez, chantez, dansez, livrez-vous à la joie ;</l>
+            <l n="446" xml:id="l446">Profitez chaque jour des biens qu’il vous envoie ;</l>
+            <l n="447" xml:id="l447">Laissez à Jupiter le soin du lendemain.</l>
+            <l n="448" xml:id="l448">Les suivants de Mercure forment une contredanse qui finit la comédie.</l>
+          </sp>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>
