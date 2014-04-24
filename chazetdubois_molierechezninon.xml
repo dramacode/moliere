@@ -1,0 +1,1766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>MOLIÈRE CHEZ NINON OU LA LECTURE DE TARTUFFE, COMÉDIE EN UN ACTE ET EN VERS</title>
+        <author born="" born_location="" death="" death_location="" academie="">CHAZET et DUBOIS</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>publié par Paul FIEVRE, avril 2014</p>
+      </publicationStmt>
+      <sourceDesc>
+        <genre>Comédie</genre>
+        <inspiration>mœurs françaises</inspiration>
+        <structure>Un acte</structure>
+        <type>vers</type>
+        <periode>1801-1810</periode>
+        <taille>1000-1250</taille>
+        <permalien/>
+        <sources>
+          <source id="1">
+            <author/>
+            <text/>
+          </source>
+        </sources>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1802"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">MOLIÈRE CHEZ NINON OU LA LECTURE DE TARTUFFE</titlePart>
+        <titlePart type="sub">COMÉDIE EN UN ACTE ET EN VERS</titlePart>
+      </docTitle>
+      <docDate value="1802">AN XI.  1802.</docDate>
+      <docAuthor id="CHAZET et DUBOIS" bio="chazet">Par MM. CHAZET et DUBOIS. </docAuthor>
+      <docImprint>
+        <privilege>
+          <head/>
+        </privilege>
+        <acheveImprime id=""/>
+        <printer id="GIRARD">À PARIS, Chez J. F. GIRARD, imprimeur - libraire ; quai de la Vallée, n°70, et chez tous les Marchands de Nouveautés. </printer>
+      </docImprint>
+      <performance>
+        <premiere date="1802" location="Théâtre de l’Odéon">Représentée pour la première fois sur le théâtre de Louvois, par les comédiens de l’Odéon le l7 brumaire an XI.</premiere>
+      </performance>
+      <castList>
+        <head>PERSONNAGES</head>
+        <castItem><role xml:id="moliere" civil="M" type="H" statut="auteur" age="A" stat_amour="néant">MOLIÈRE</role>.</castItem>
+        <castItem><role xml:id="ninon" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">NINON</role>.</castItem>
+        <castItem><role xml:id="le-prince" civil="M" type="H" statut="prince" age="A" stat_amour="néant">LE PRINCE DE CONDÉ</role>.</castItem>
+        <castItem><role xml:id="corneille" civil="M" type="H" statut="auteur" age="A" stat_amour="néant">PIERRE CORNEILLE</role>.</castItem>
+        <castItem><role xml:id="racine" civil="M" type="H" statut="auteur" age="A" stat_amour="néant">RACINE</role>.</castItem>
+        <castItem><role xml:id="boileau" civil="M" type="H" statut="auteur" age="A" stat_amour="néant">BOILEAU</role>.</castItem>
+        <castItem><role xml:id="la-fontaine" civil="M" type="H" statut="auteur" age="A" stat_amour="néant">LA FONTAINE</role>.</castItem>
+        <castItem><role xml:id="chapelle" civil="M" type="H" statut="auteur" age="A" stat_amour="néant">CHAPELLE</role>.</castItem>
+        <castItem><role xml:id="saint-alban" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">SAINT-ALBAN</role>, secréataire du président.</castItem>
+        <castItem><role xml:id="laforet" civil="F" type="H" statut="servante" age="A" stat_amour="néant">LAFORÊT</role>, servante de Molière.</castItem>
+        <castItem><role xml:id="un-page" civil="M" type="H" statut="page" age="A" stat_amour="néant">UN PAGE</role>.</castItem>
+        <castItem><role xml:id="deux-seigneurs" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">DEUX SEIGNEURS</role>.</castItem>
+        <castItem><role xml:id="un-valet" civil="M" type="H" statut="valet" age="A" stat_amour="néant">UN VALET</role>.</castItem>
+      </castList>
+      <set location="Paris" country="France" periode="XVIIème" link="">La Scène est à Paris chez Ninon, le Théâtre représente un Salon.</set>
+    </front>
+    <body>
+      <div1 type="acte" n="1" xml:id="I">
+        <head/>
+        <div2 type="scene" n="1" xml:id="I01">
+          <head>SCÈNE PREMIÈRE</head>
+          <stage>Chapelle, Deux Seigneurs.</stage>
+          <sp who="chapelle" xml:id="I01-1">
+            <speaker>chapelle</speaker>
+            <l n="1" xml:id="l1">Messieurs, dans un instant vous allez voir Ninon.</l>
+          </sp>
+          <sp who="un-seigneur" xml:id="I01-2">
+            <speaker>un seigneur</speaker>
+            <l n="2" xml:id="l2" part="I">Vous semblez bien ému....</l>
+          </sp>
+          <sp who="chapelle" xml:id="I01-3">
+            <speaker>chapelle</speaker>
+            <l n="2" part="F">Je le suis.</l>
+          </sp>
+          <sp who="un-seigneur" xml:id="I01-4">
+            <speaker>un seigneur</speaker>
+            <l n="2" part="F">Tout de bon.</l>
+          </sp>
+          <sp who="chapelle" xml:id="I01-5">
+            <speaker>chapelle</speaker>
+            <l n="3" xml:id="l3" part="I">Vous ne devinez pas ?</l>
+          </sp>
+          <sp who="un-seigneur" xml:id="I01-6">
+            <speaker>un seigneur</speaker>
+            <l n="3" part="F">Mais je crois vous comprendre ;</l>
+            <l n="4" xml:id="l4" part="I">Ninon vous a séduit.</l>
+          </sp>
+          <sp who="chapelle" xml:id="I01-7">
+            <speaker>chapelle</speaker>
+            <l n="4" part="F">Je ne puis m’en défendre.</l>
+            <l n="5" xml:id="l5">Je mettrais mon bonheur à vivre sous ses lois.</l>
+            <l n="6" xml:id="l6">Sa figure, un regard, jusqu’au son de sa voix,</l>
+            <l n="7" xml:id="l7">Tout me charme, m’anime, et porte dans mon âme</l>
+            <l n="8" xml:id="l8">Le pénible embarras d’une secrète flamme.</l>
+          </sp>
+          <sp who="un-seigneur" xml:id="I01-8">
+            <speaker>un seigneur</speaker>
+            <l n="9" xml:id="l9">Chapelle n’est-il pas surpris de son amour,</l>
+            <l n="10" xml:id="l10">Lui, dont le cur jamais n’a brûlé plus d’un jour ?</l>
+          </sp>
+          <sp who="chapelle" xml:id="I01-9">
+            <speaker>chapelle</speaker>
+            <l n="11" xml:id="l11">Eh bien Ninon, je crois, change mon caractère.</l>
+            <l n="12" xml:id="l12">Solide en amitié, dans ses amours légère,</l>
+            <l n="13" xml:id="l13">Je trouve à l’adorer un invincible attrait ;</l>
+            <l n="14" xml:id="l14">Plaire est son habitude, et charmer son secret.</l>
+            <l n="15" xml:id="l15">Pour l’esprit, quelle femme ! Autour d’elle, sans cesse,</l>
+            <l n="16" xml:id="l16">Le talent, le génie accourt, vole, s’empresse.</l>
+            <l n="17" xml:id="l17">Savante sans orgueil, belle sans vanité,</l>
+            <l n="18" xml:id="l18">Tout en elle est parfait, et rien n’est emprunté ;</l>
+            <l n="19" xml:id="l19">Elle sait attirer, grâce à ses doubles armes,</l>
+            <l n="20" xml:id="l20">Des amis pour son cur, des amants pour ses charmes</l>
+            <l n="21" xml:id="l21">Eu un mot, la beauté, l’esprit et la raison,</l>
+            <l n="22" xml:id="l22">On voit tout réuni, lorsque l’on voit Ninon.</l>
+            <l n="23" xml:id="l23" part="I">La voici.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="I02">
+          <head>SCÈNE II</head>
+          <stage>Les Précédents, Ninon.</stage>
+          <sp who="ninon" xml:id="I02-1">
+            <speaker>ninon</speaker>
+            <l n="23" part="F">Pardonnez si je n’ai pu me rendre...</l>
+          </sp>
+          <sp who="chapelle" xml:id="I02-2">
+            <speaker>chapelle</speaker>
+            <l n="24" xml:id="l24">Quand l’espoir nous soutient, sans peine on peut attendre.</l>
+          </sp>
+          <sp who="ninon" xml:id="I02-3">
+            <speaker>ninon</speaker>
+            <l n="25" xml:id="l25">Messieurs, j’ai pour ce soir quelques desseins sur vous.</l>
+          </sp>
+          <sp who="chapelle" xml:id="I02-4">
+            <speaker>chapelle</speaker>
+            <l n="26" xml:id="l26">Quelques desseins ? Madame, ah ! disposez de nous.</l>
+          </sp>
+          <sp who="ninon" xml:id="I02-5">
+            <speaker>ninon</speaker>
+            <l n="27" xml:id="l27" part="I">Êtes-vous libres ?</l>
+          </sp>
+          <sp who="un-seigneur" xml:id="I02-6">
+            <speaker>un seigneur</speaker>
+            <l n="27" part="F">Mais....</l>
+          </sp>
+          <sp who="ninon" xml:id="I02-7">
+            <speaker>ninon</speaker>
+            <l n="27" part="F">Allons, de la franchise :</l>
+            <l n="28" xml:id="l28" part="I">Quelque projet galant ?</l>
+          </sp>
+          <sp who="un-seigneur" xml:id="I02-8">
+            <speaker>un seigneur</speaker>
+            <l n="28" part="F">S’il faut que je le dise,</l>
+            <l n="29" xml:id="l29" part="I">Un certain rendez-vous ...</l>
+          </sp>
+          <sp who="ninon" xml:id="I02-9">
+            <speaker>ninon</speaker>
+            <l n="29" part="F">Vous vous y trouverez ?</l>
+          </sp>
+          <sp who="un-seigneur" xml:id="I02-10">
+            <speaker>un seigneur</speaker>
+            <l n="30" xml:id="l30" part="I">Mais oui.</l>
+          </sp>
+          <sp who="ninon" xml:id="I02-11">
+            <speaker>ninon, souriant</speaker>
+            <l n="30" part="F">Mais non...</l>
+          </sp>
+          <sp who="un-seigneur" xml:id="I02-12">
+            <speaker>un seigneur</speaker>
+            <l n="30" part="F">Comment ?</l>
+          </sp>
+          <sp who="ninon" xml:id="I02-13">
+            <speaker>ninon</speaker>
+            <l n="30" part="F">Vous le différerez.</l>
+          </sp>
+          <sp who="un-seigneur" xml:id="I02-14">
+            <speaker>un seigneur</speaker>
+            <l n="31" xml:id="l31" part="I">Nous avons bien promis.</l>
+          </sp>
+          <sp who="ninon" xml:id="I02-15">
+            <speaker>ninon, souriant</speaker>
+            <l n="31" part="F">Manquer à sa promesse</l>
+            <l n="32" xml:id="l32">En amour, c’est un jeu... fausse délicatesse !</l>
+            <l n="33" xml:id="l33">Je puis compter sur vous pour ce soir, n’est-ce pas ?</l>
+            <l n="34" xml:id="l34">Vous hésitez... Vraiment !... Vous vous parlez tout bas ?</l>
+          </sp>
+          <sp who="chapelle" xml:id="I02-16">
+            <speaker>chapelle</speaker>
+            <l n="35" xml:id="l35" part="I">Peut-on vous résister ?...</l>
+          </sp>
+          <sp who="ninon" xml:id="I02-17">
+            <speaker>ninon</speaker>
+            <l n="35" part="F">Eh grands dieux ! Que de peine !</l>
+            <l n="36" xml:id="l36">Ce n’est que pour un soir, messieurs, qu’on vous enchaîne.</l>
+          </sp>
+          <sp who="chapelle" xml:id="I02-18">
+            <speaker>chapelle</speaker>
+            <l n="37" xml:id="l37" part="I">Que ce soit pour la vie !</l>
+          </sp>
+          <sp who="ninon" xml:id="I02-19">
+            <speaker>ninon</speaker>
+            <l n="37" part="F">Ah ! Le beau sentiment !</l>
+            <l n="38" xml:id="l38">Pour la vie !... Achevez ?... Faites vite un serment :</l>
+            <l n="39" xml:id="l39">D’un éternel amour donnez-moi l’assurance ;</l>
+            <l n="40" xml:id="l40">Moi, je vais vous jurer une égale constance,</l>
+            <l n="41" xml:id="l41">Nous mentirons tous deux... Mais c’est trop discourir :</l>
+            <l n="42" xml:id="l42">Apprenez donc pourquoi je veux vous retenir.</l>
+            <l n="43" xml:id="l43">Au théâtre ce soir on donne un bel ouvrage,</l>
+            <l n="44" xml:id="l44">Dont le but est moral, le ton vrai, le plan sage,</l>
+            <l n="45" xml:id="l45">Dont chaque caractère est neuf et bien tracé,</l>
+            <l n="46" xml:id="l46">Un ouvrage, en un mot, bien écrit, bien pensé.</l>
+            <l n="47" xml:id="l47">Nous devons ce chef-d’uvre à cet auteur facile,</l>
+            <l n="48" xml:id="l48">Vrai dans tous ses tableaux, naturel dans son style,</l>
+            <l n="49" xml:id="l49">Dont la grâce hardie et la franche gaîté</l>
+            <l n="50" xml:id="l50">Sont des titres sacrés à l’immortalité.</l>
+            <l n="51" xml:id="l51" part="I">Vous le reconnaissez, n’est-ce pas ?</l>
+          </sp>
+          <sp who="tous" xml:id="I02-20">
+            <speaker>tous</speaker>
+            <l n="51" part="F">C’est Molière.</l>
+          </sp>
+          <sp who="ninon" xml:id="I02-21">
+            <speaker>ninon</speaker>
+            <l n="52" xml:id="l52">Son Tartuffe ce soir est soumis au parterre.</l>
+            <l n="53" xml:id="l53">Voilà pourquoi Ninon voulait vous enchaîner.</l>
+            <l n="54" xml:id="l54">Hé bien, vous vous laissez aisémeut entraîner ?</l>
+            <l n="55" xml:id="l55">Vous quittez sans regret l’amour pour le génîe,</l>
+            <l n="56" xml:id="l56">Et de tristes ardeurs, pour une comédie.</l>
+            <l n="57" xml:id="l57">On a toujours le temps de pousser un soupir,</l>
+            <l n="58" xml:id="l58">Et l’on n’a pas toujours un chef-d’uvre à loisir.</l>
+            <l n="59" xml:id="l59">Enfin, si vingt beautés flattent votre espérance,</l>
+            <l n="60" xml:id="l60">Vous n’avez qu’un Molière à fêter dans la France.</l>
+            <l n="61" xml:id="l61">Venez , venez ce soir.... Vous savez mes amis,</l>
+            <l n="62" xml:id="l62">Que cet illustre auteur a beaucoup d’ennemis</l>
+            <l n="63" xml:id="l63">Même à la cour ; il faut, ligués pour sa victoire,</l>
+            <l n="64" xml:id="l64">Par de communs efforts , favoriser sa gloire.</l>
+            <l n="65" xml:id="l65">Croyez- moi : du Tartuffe en protégeant l’essor,</l>
+            <l n="66" xml:id="l66">À la postérité nous gardons un trésor.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="" xml:id="I03">
+          <head>SCÈNE III</head>
+          <stage>LES Précédents, Un Valet.</stage>
+          <sp who="un-valet" xml:id="I03-1">
+            <speaker>un valet</speaker>
+            <l n="67" xml:id="l67" part="I">Monsieur de Saint-Alban.</l>
+          </sp>
+          <sp who="ninon" xml:id="I03-2">
+            <speaker>ninon</speaker>
+            <l n="67" part="F">L’ennemi de Molière !</l>
+          </sp>
+          <sp who="chapelle" xml:id="I03-3">
+            <speaker>chapelle</speaker>
+            <l n="68" xml:id="l68">Eh quoi ! Du Président l’odieux Secrétaire !</l>
+          </sp>
+          <sp who="ninon" xml:id="I03-4">
+            <speaker>ninon, inquiète</speaker>
+            <l n="69" xml:id="l69" part="I">Je ne l’attendais pas et je tremble...</l>
+          </sp>
+          <sp who="chapelle" xml:id="I03-5">
+            <speaker>chapelle</speaker>
+            <l n="69" part="F">Comment !</l>
+          </sp>
+          <sp who="ninon" xml:id="I03-6">
+            <speaker>ninon</speaker>
+            <l n="70" xml:id="l70">Cet homme qui sait feindre un zèle si fervent</l>
+            <l n="71" xml:id="l71">Est un saint imposteur dont la visite cache</l>
+            <l n="72" xml:id="l72">Un but inquiétant. Vous savea qu’il s’attache</l>
+            <l n="73" xml:id="l73">À perdre dans l’esprit du premier Préâident</l>
+            <l n="74" xml:id="l74">Molière, et du Tartuffe est l’ennemi puissant.</l>
+            <l n="75" xml:id="l75">Je l’entends... Vous saurez tout ce qu’il va m’apprendre ;</l>
+            <l n="76" xml:id="l76">Au théâtre, ce soir, songez tous à vous rendre.</l>
+          </sp>
+          <sp who="chapelle" xml:id="I03-7">
+            <speaker>chapelle</speaker>
+            <l n="77" xml:id="l77">Oui Ninon ; voir Tartuffe, et céder à vos vux ,</l>
+            <l n="78" xml:id="l78">Au lieu d’un seul plaisir, c’est en rencontrer deux.</l>
+            <stage>Il sort avec les deux seigneurs.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="I04">
+          <head>SCÈNE IV</head>
+          <stage>Saint-Alban, Ninon.</stage>
+          <sp who="saint-alban" xml:id="I04-1">
+            <speaker>saint-alban</speaker>
+            <l n="79" xml:id="l79">Un motif important auprès de vous m’amène.</l>
+            <l n="80" xml:id="l80" part="I">Madame.</l>
+          </sp>
+          <sp who="ninon" xml:id="I04-2">
+            <speaker>ninon</speaker>
+            <l n="80" part="F">Je le crois, veuillez prendre la peine...</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I04-3">
+            <speaker>saint-alban</speaker>
+            <l n="81" xml:id="l81">Non madame, deux mots : et je pars à l’instant.</l>
+            <l n="82" xml:id="l82">En vous Molière eucor trouve un appui constant,</l>
+            <l n="83" xml:id="l83" part="I">M’a-t’on dit ?</l>
+          </sp>
+          <sp who="ninon" xml:id="I04-4">
+            <speaker>ninon</speaker>
+            <l n="83" part="F">Il est vrai.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I04-5">
+            <speaker>saint-alban</speaker>
+            <l n="83" part="F">Vous l’avouez sans crainte.</l>
+          </sp>
+          <sp who="ninon" xml:id="I04-6">
+            <speaker>ninon</speaker>
+            <l n="84" xml:id="l84">Molière est mon ami, je le redis sans feinte...</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I04-7">
+            <speaker>saint-alban</speaker>
+            <l n="85" xml:id="l85">Quel ami ! Savez-vous quel complot odieux</l>
+            <l n="86" xml:id="l86">Il invente aujourd’hui pour tromper tous les yeux ?</l>
+          </sp>
+          <sp who="ninon" xml:id="I04-8">
+            <speaker>ninon</speaker>
+            <l n="87" xml:id="l87" part="I">J’ignore tout ; parlez ?....</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I04-9">
+            <speaker>saint-alban</speaker>
+            <l n="87" part="F">Je vais en confidence</l>
+            <l n="88" xml:id="l88">Vous révéler ce trait ; de votre confiance</l>
+            <l n="89" xml:id="l89">Vous verrez que cet homme est indigne à jamais.</l>
+          </sp>
+          <sp who="ninon" xml:id="I04-10">
+            <speaker>ninon</speaker>
+            <l n="90" xml:id="l90" part="I">Mais, monsieur, parlez donc ?</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I04-11">
+            <speaker>saint-alban</speaker>
+            <l n="90" part="F">Connaissez ses forfaits.</l>
+            <l n="91" xml:id="l91">Vous savez qu’il répand que notre grand Monarque</l>
+            <l n="92" xml:id="l92">Qui, trop faible parfois, lui donna quelque marque</l>
+            <l n="93" xml:id="l93">D’une folle amitié, permet formellement</l>
+            <l n="94" xml:id="l94" part="I">Que l’on joue à Paris Tartuffe...</l>
+          </sp>
+          <sp who="ninon" xml:id="I04-12">
+            <speaker>ninon</speaker>
+            <l n="94" part="F">Eh bien ?</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I04-13">
+            <speaker>saint-alban</speaker>
+            <l n="94" part="F">Il ment.</l>
+            <l n="95" xml:id="l95">Moi-même, ainsi que vous, j’ai donné dans le piège :</l>
+            <l n="96" xml:id="l96">Mais je connais enfin son coupable manège.</l>
+            <l n="97" xml:id="l97">Par le courrier de Lille, à l’instant on m’écrit</l>
+            <l n="98" xml:id="l98">Que, par le Roi, l’ouvrage est défendu, proscrit.</l>
+            <l n="99" xml:id="l99">Vous voyez de quel tour Molière était capable !</l>
+            <l n="100" xml:id="l100">Cessez de recevoir un homme si capable</l>
+            <l n="101" xml:id="l101">Qui pour mieux insulter les soutiens de la foi,</l>
+            <l n="102" xml:id="l102">Osait nous déguiser la volonté du Roi.</l>
+          </sp>
+          <sp who="ninon" xml:id="I04-14">
+            <speaker>ninon</speaker>
+            <l n="103" xml:id="l103">Non, Monsieur, je connais et j’estime Molière.</l>
+            <l n="104" xml:id="l104">On veut le perdre ; mais la ruse est trop grossière.</l>
+            <l n="105" xml:id="l105">L’ordre est vrai, bien donné ; le Tartuffe est permis ;</l>
+            <l n="106" xml:id="l106">Mais cet ordre est verbal : de méchants ennemis</l>
+            <l n="107" xml:id="l107">Le révoquent en doute et refusent d’y croire.</l>
+            <l n="108" xml:id="l108">Molière est innocent ; je l’aime et j’en fais gloire.</l>
+            <l n="109" xml:id="l109">Chez moi, vous le verrez à toute heure, en tout temps.</l>
+            <l n="110" xml:id="l110">J’admire sa bonté, ses vertus, ses talents.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I04-15">
+            <speaker>saint-alban</speaker>
+            <l n="111" xml:id="l111">Sa bonté ! Quand sa plume injurie et déchire :</l>
+            <l n="112" xml:id="l112">Ses vertus ! Quand son cur pour mille attraits soupire :</l>
+            <l n="113" xml:id="l113" part="I">Ses talents !...</l>
+          </sp>
+          <sp who="ninon" xml:id="I04-16">
+            <speaker>ninon</speaker>
+            <l n="113" part="F">C’est assez ; partout ils sont connus.</l>
+            <l n="114" xml:id="l114">Ainsi, parlons plutôt de ses torts prétendus.</l>
+            <l n="115" xml:id="l115">Dans le Tartuffe enfin , que pouvez-vous reprendre ?</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I04-17">
+            <speaker>saint-alban</speaker>
+            <l n="116" xml:id="l116">Ce que j’y reprends ? Dieux ! Mais faut-il vous l’apprendre ?</l>
+            <l n="117" xml:id="l117">Contre les vrais croyants, ses traits et ses bons mots...</l>
+          </sp>
+          <sp who="ninon" xml:id="I04-18">
+            <speaker>ninon</speaker>
+            <l n="118" xml:id="l118">Vous vous trompez : bien loin d’attaquer les dévots,</l>
+            <l n="119" xml:id="l119">À la religion il offre son génie</l>
+            <l n="120" xml:id="l120">Pour armer la raison contre l’hypocrisie.</l>
+            <l n="121" xml:id="l121">Saint-Alban, revenez de votre injuste erreur :</l>
+            <l n="122" xml:id="l122">Jugez-mieux de Molière et surtout de son cur ;</l>
+            <l n="123" xml:id="l123">Gardez-vous d’imiter cette foule insensée</l>
+            <l n="124" xml:id="l124">Qui veut tuer l’esprit, enchaîner la pensée :</l>
+            <l n="125" xml:id="l125">Devenez de Molière et le guide et l’appui :</l>
+            <l n="126" xml:id="l126">Laissez, laissez jouer son ouvrage aujourd’hui,</l>
+            <l n="127" xml:id="l127">Et songez que partout à bon droit on renomme</l>
+            <l n="128" xml:id="l128">Celui qui s’avoua protecteur d’un grand homme.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I04-19">
+            <speaker>saint-alban</speaker>
+            <l n="129" xml:id="l129">Non Madame, Tartuffe est un enfant mort-né</l>
+            <l n="130" xml:id="l130">Qui, dès ce jour, doit être à l’oubli condamné.</l>
+            <l n="131" xml:id="l131">Le Président le veut : votre ardente prière ,</l>
+            <l n="132" xml:id="l132">Celle des courtisans et de la France entière</l>
+            <l n="133" xml:id="l133">Ne me fléchiraient pas ; Tartuffe est au tombeau.</l>
+          </sp>
+          <sp who="ninon" xml:id="I04-20">
+            <speaker>ninon</speaker>
+            <l n="134" xml:id="l134">Vous croyez ? Son succès n’en sera pas moins beau.</l>
+            <l n="135" xml:id="l135">Vainement vous voulez qu’il meure, qu’on l’oublie ;</l>
+            <l n="136" xml:id="l136">Car moi je ferai tout pour le rendre à la vie.</l>
+            <l n="137" xml:id="l137">Oui, je veux lui donner un éclat mérité.</l>
+            <l n="138" xml:id="l138">Sur d’illustres amis en tout temps j’ai compté ;</l>
+            <l n="139" xml:id="l139">Je vais les réunir, et dans nn cercle immense</l>
+            <l n="140" xml:id="l140">Que l’on pourra nommer l’Elite de la France,</l>
+            <l n="141" xml:id="l141">Molière viendra lire avec empressement</l>
+            <l n="142" xml:id="l142">Cet ouvrage immortel que 1’intrigne défend.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I04-21">
+            <speaker>saint-alban</speaker>
+            <l n="143" xml:id="l143" part="I">Quoi ?</l>
+          </sp>
+          <sp who="ninon" xml:id="I04-22">
+            <speaker>ninon</speaker>
+            <l n="143" part="F">Pour les rassembler, je vole leur écrire.</l>
+            <l n="144" xml:id="l144">Ce soir ici venez, et vous entendrez lire</l>
+            <l n="145" xml:id="l145">Molière ; pour Théâtre, il aura ce Salon,</l>
+            <l n="146" xml:id="l146">Et l’un aura joué Tartuffe chez Ninon.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="I05">
+          <head>SCÈNE V</head>
+          <sp who="saint-alban" xml:id="I05-1">
+            <speaker>saint-alban</speaker>
+            <l n="147" xml:id="l147">Ah ! Vous voulez braver l’antorité suprême,</l>
+            <l n="148" xml:id="l148">Belle Ninon ! Craignez que mon courroux extrême....</l>
+            <l n="149" xml:id="l149">Mais elle assemblera quelques hommes puissants</l>
+            <l n="150" xml:id="l150">Contre qui tous mes droits seront insuffisants.</l>
+            <l n="151" xml:id="l151">Tartuffe sera lu ; dès ce soir le grand monde</l>
+            <l n="152" xml:id="l152">Redira chaque vers, chaque mot qui nous fronde.</l>
+            <l n="153" xml:id="l153">À la ville, à la Cour, nous serons bafoués,</l>
+            <l n="154" xml:id="l154">Malgré notre pouvoir, publiquement joués...</l>
+            <l n="155" xml:id="l155">Ah ! Maudits soient Tartuffe, et Ninon, et Molière !</l>
+            <l n="156" xml:id="l156">Et puisse des auteurs, la race toute entière...</l>
+            <l n="157" xml:id="l157">Mais cherchons les moyens d’empêcher que ce soir...</l>
+            <stage>Laforêt entre.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6" xml:id="I06">
+          <head>SCÈNE VI</head>
+          <stage>Saint-Alban, LaForêt.</stage>
+          <sp who="laforet" xml:id="I06-1">
+            <speaker>laforêt</speaker>
+            <l n="158" xml:id="l158">Mademoiselle Ninon... Je désirons la voir</l>
+            <l n="159" xml:id="l159">Ben vite... Je venons de la part de notr’ maître</l>
+            <l n="160" xml:id="l160">Luii dire que... Monsieur ?... Va-t-elle bentôt paraître ?</l>
+            <l n="161" xml:id="l161">C’est que c’est du la part d’un auteur son ami</l>
+            <l n="162" xml:id="l162" part="I">De Molière,</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I06-2">
+            <speaker>saint-alban</speaker>
+            <l n="162" part="F">Molière ! En vérité...</l>
+          </sp>
+          <sp who="laforet" xml:id="I06-3">
+            <speaker>laforêt</speaker>
+            <l n="162" part="F">Mais oui,</l>
+            <l n="163" xml:id="l163">Et c’est moi que partout on nomme sa servante.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I06-4">
+            <speaker>saint-alban</speaker>
+            <l n="164" xml:id="l164">C’est vous dont le public depuis si longtemps vante</l>
+            <l n="165" xml:id="l165" part="I">Les conseils que parfois vous donnez ?</l>
+          </sp>
+          <sp who="laforet" xml:id="I06-5">
+            <speaker>laforêt</speaker>
+            <l n="165" part="F">Oui monsieur.</l>
+            <l n="166" xml:id="l166">C’est moi que chaque jour, sauf un avis meilleur,</l>
+            <l n="167" xml:id="l167">Mon cher maître consulte avant que ses ouvrages</l>
+            <l n="168" xml:id="l168">Reçoivent du public de beaux et bons suffrages.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I06-6">
+            <speaker>saint-alban</speaker>
+            <l n="169" xml:id="l169">Je re m’étonne plus s’ils sont aussi mauvais.</l>
+          </sp>
+          <sp who="laforet" xml:id="I06-7">
+            <speaker>laforêt</speaker>
+            <l n="170" xml:id="l170">Mauvais ! Vous voudriez, j’gage, les avoir faits.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I06-8">
+            <speaker>saint-alban</speaker>
+            <l n="171" xml:id="l171" part="I">Grands Dieux !</l>
+          </sp>
+          <sp who="laforet" xml:id="I06-9">
+            <speaker>laforêt</speaker>
+            <l n="171" part="F">Je regrettons que sa dernière pièce</l>
+            <l n="172" xml:id="l172">Soit arrêtée... Oh ! Dam ! Quel plaisir ! Quelle ivresse.</l>
+            <l n="173" xml:id="l173">Elle eut causé ce soir !... Un maudit Saint-Alban...</l>
+            <l n="174" xml:id="l174">Qui mène comme il veut monsieur le Président.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I06-10">
+            <speaker>saint-alban</speaker>
+            <l n="175" xml:id="l175" part="I">Comment ?...</l>
+          </sp>
+          <sp who="laforet" xml:id="I06-11">
+            <speaker>laforêt</speaker>
+            <l n="175" part="F">Ce Saint-Alban dévot, ou qui sait l’faire ,</l>
+            <l n="176" xml:id="l176">En secret, a dit-on , embrouillé cette affaire</l>
+            <l n="177" xml:id="l177">Si ben que notr’ Tartuffe au moment d’etr’connu ,</l>
+            <l n="178" xml:id="l178">Peut-être dans l’oubli, pour jamais est perdu.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I06-12">
+            <speaker>saint-alban</speaker>
+            <l n="179" xml:id="l179" part="I">C’est dommage !...</l>
+          </sp>
+          <sp who="laforet" xml:id="I06-13">
+            <speaker>laforêt</speaker>
+            <l n="179" part="F">C’était une pièce de mérite !</l>
+            <l n="180" xml:id="l180">Dans la France, il n’est pas un petit hypocrite</l>
+            <l n="181" xml:id="l181">Qui n’eut dit : Mais c’est moi... L’on prétend, je l’croyons,</l>
+            <l n="182" xml:id="l182">Que monsieur Saint-Alban pour de pareill’ raisons</l>
+            <l n="183" xml:id="l183">L’a fait défendre exprès ; il a cru se r’connaître....</l>
+            <l n="184" xml:id="l184">Entre nous, convenons que çà pourrait ben être.</l>
+            <l n="185" xml:id="l185">On voit dans cette pièce un homme ben cafard.</l>
+            <l n="186" xml:id="l186">Sensuel par nature et dévôt avec art,</l>
+            <l n="187" xml:id="l187">Qui contemplant ensemble, et le Ciel et les femmes,</l>
+            <l n="188" xml:id="l188">Garde pour lui les corps et donne à Dieu les âmes.</l>
+            <l n="189" xml:id="l189">Mais pour se vendre ainsi, que cet homme est donc sot !</l>
+            <l n="190" xml:id="l190">On n’l’eut pas reconnu peut-êtr’ s’il n’eut dit mot.</l>
+            <l n="191" xml:id="l191">Voilà comme souvent, par abus de puissance,</l>
+            <l n="192" xml:id="l192">Contre lui plus d’un Grand éveill’ la médisance,</l>
+            <l n="193" xml:id="l193">Et ressemble au voleur qui sur le mot : coquin</l>
+            <l n="194" xml:id="l194">Se croyant appellé, s’empresse de dire : Hein.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I06-14">
+            <speaker>saint-alban, en colère</speaker>
+            <l n="195" xml:id="l195" part="I">Ma mie...</l>
+          </sp>
+          <sp who="laforet" xml:id="I06-15">
+            <speaker>laforêt</speaker>
+            <l n="195" part="F">Eh qu’avez vous ?</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I06-16">
+            <speaker>saint-alban</speaker>
+            <l n="195" part="F">Finissez, je vous prie,</l>
+            <l n="196" xml:id="l196" part="I">Cette comparaison...</l>
+          </sp>
+          <sp who="laforet" xml:id="I06-17">
+            <speaker>laforêt, à part</speaker>
+            <l n="196" part="F">C’est un Grand je parie...</l>
+            <l n="197" xml:id="l197" part="I">C’est égal, poursuivons.</l>
+            <stage>Haut.</stage>
+            <l n="197" part="F">Vous êtes loin d’ savoir</l>
+            <l n="198" xml:id="l198">Le tour qu’à Saint-Aiban mon maîtr’ jouera ce soir.</l>
+            <l n="199" xml:id="l199">Pour que du Président il perd’ la confiance,</l>
+            <l n="200" xml:id="l200">Il faut semer entr’eux la mésintelligence.</l>
+            <l n="201" xml:id="l201">Il faut qu’à Saint-Alban le Président demain</l>
+            <l n="202" xml:id="l202">Reproche avec humeur ce manèg’ clandestin.</l>
+            <l n="203" xml:id="l203" part="I">Notre moyen est sûr.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I06-18">
+            <speaker>saint-alban</speaker>
+            <l n="203" part="F">Voyons donc ce miracle ?</l>
+          </sp>
+          <sp who="laforet" xml:id="I06-19">
+            <speaker>laforêt</speaker>
+            <l n="204" xml:id="l204">Ce soir, quand le public sera dans not’ spectacle,</l>
+            <l n="205" xml:id="l205">Il demand’ra Tartuff’. Les ouvrag’s défendus</l>
+            <l n="206" xml:id="l206">Sont ceux que le public toujours aime le plus.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I06-20">
+            <speaker>saint-alban</speaker>
+            <l n="207" xml:id="l207" part="I">Après...</l>
+          </sp>
+          <sp who="laforet" xml:id="I06-21">
+            <speaker>laforêt</speaker>
+            <l n="207" part="F">Molière dira : « Messieurs , c’est impossible.</l>
+            <l n="208" xml:id="l208">Un pareil contre-temps comme à vous m’est sensible ;</l>
+            <l n="209" xml:id="l209">Mais un ordre formel m’empêche par malheur</l>
+            <l n="210" xml:id="l210">De donner aujourd’hui Tartuffe ou l’Imposteur,</l>
+            <l n="211" xml:id="l211">Monsieur le Président ne veut pas qu’on le joue. »</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I06-22">
+            <speaker>saint-alban</speaker>
+            <l n="212" xml:id="l212" part="I">Quoi ?...</l>
+          </sp>
+          <sp who="laforet" xml:id="I06-23">
+            <speaker>laforêt</speaker>
+            <l n="212" part="F">C’est un bon soufflet qu’il aura sur la joue</l>
+            <l n="213" xml:id="l213" part="I">Le Président ?</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I06-24">
+            <speaker>saint-alban, irrité</speaker>
+            <l n="213" part="F">C’est trop...</l>
+          </sp>
+          <sp who="laforet" xml:id="I06-25">
+            <speaker>laforêt</speaker>
+            <l n="213" part="F">D’abord il le rec’vra ,</l>
+            <l n="214" xml:id="l214">Et puis à Saint-Alban ben vite il le rendra.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I06-26">
+            <speaker>saint-alban</speaker>
+            <l n="215" xml:id="l215" part="I">Ah ! Si Molière osait !...</l>
+          </sp>
+          <sp who="laforet" xml:id="I06-27">
+            <speaker>laforêt</speaker>
+            <l n="215" part="F">Sentez-vous l’équivoque ?</l>
+            <l n="216" xml:id="l216">Qu’on le joue.... Oh ! Je vols le public qui se moque</l>
+            <note type="L">Cagot : Faux dévot ; hypocrite, qui affecte de montrer des apparences de dévotion pour tromper, et pour parvenir à ses fins. [F]</note>
+            <l n="217" xml:id="l217">Du pauvre Président, si fourbe, si cagot.</l>
+            <l n="218" xml:id="l218">Je vois ce Saint-Alban enrager comme un sot.</l>
+            <l n="219" xml:id="l219">Il pouss’ le Président à venger cette offense,</l>
+            <l n="220" xml:id="l220">Mais sur lui, dès ce soir, tombe tout’ la vengeance.</l>
+            <l n="221" xml:id="l221">Le Président le chasse, et dit avec courroux :</l>
+            <l n="222" xml:id="l222">« On se moque de moi, pour se moquer de vous. »</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I06-28">
+            <speaker>saint-alban</speaker>
+            <l n="223" xml:id="l223" part="I">Que Molière !...</l>
+          </sp>
+          <sp who="laforet" xml:id="I06-29">
+            <speaker>laforêt</speaker>
+            <l n="223" part="F">Il le f’ra.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I06-30">
+            <speaker>saint-alban</speaker>
+            <l n="223" part="F">D’un semblable artifice</l>
+            <l n="224" xml:id="l224">Dès demain, dès ce soir, les lois me font justice.</l>
+            <stage>Molière disparaît</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="7" xml:id="I07">
+          <head>SCÈNE VII</head>
+          <stage>Saint-Alban , Molière , Laforêt.</stage>
+          <sp who="laforet" xml:id="I07-1">
+            <speaker>laforêt</speaker>
+            <l n="225" xml:id="l225" part="I">V’la mon maîtr’...</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I07-2">
+            <speaker>saint-alban</speaker>
+            <l n="225" part="F">Molière !</l>
+          </sp>
+          <sp who="moliere" xml:id="I07-3">
+            <speaker>molière</speaker>
+            <l n="225" part="F">Ah ! Monsieur Saint-Alban !</l>
+          </sp>
+          <sp who="laforet" xml:id="I07-4">
+            <speaker>laforêt, à molière</speaker>
+            <l n="226" xml:id="l226">Saint Alban, quoi ? Grand Dieu ! Sauvez-vous promptement.</l>
+          </sp>
+          <sp who="moliere" xml:id="I07-5">
+            <speaker>molière</speaker>
+            <l n="227" xml:id="l227" part="I">Eh pourquoi ?</l>
+          </sp>
+          <sp who="laforet" xml:id="I07-6">
+            <speaker>laforêt, à molière</speaker>
+            <l n="227" part="F">J’ai tout dit... 0h ! Quelle étourderie !</l>
+            <l n="228" xml:id="l228" part="I">Sauvez-vous...</l>
+          </sp>
+          <sp who="moliere" xml:id="I07-7">
+            <speaker>molière</speaker>
+            <l n="228" part="F">Laisse-moi...</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I07-8">
+            <speaker>saint-alban</speaker>
+            <l n="228" part="F">De votre effronterie</l>
+            <l n="229" xml:id="l229">Je suis instruit , monsieur : et je vous apprendrai</l>
+            <l n="230" xml:id="l230">Qu’un magistrat honnête, et sage, et révéré</l>
+            <l n="231" xml:id="l231">N’est pas fait pour se voir l’objet des perfidies</l>
+            <l n="232" xml:id="l232">D’un fol auteur qui fait de sottes comédies.</l>
+          </sp>
+          <sp who="moliere" xml:id="I07-9">
+            <speaker>molière</speaker>
+            <l n="233" xml:id="l233">Vos outrages, Monsieur, ne peuvent m’affecter ;</l>
+            <l n="234" xml:id="l234">Y répondre serait presque les mériter.</l>
+            <l n="235" xml:id="l235">L’honnête magistrat que la justice anime,</l>
+            <l n="236" xml:id="l236">A des droits , je le sais, à la publique estime :</l>
+            <l n="237" xml:id="l237">Mais il la perd bientôt grâces à ses flatteurs.</l>
+            <l n="238" xml:id="l238">Je connais de nos jours les vulgaires erreurs ;</l>
+            <l n="239" xml:id="l239">Chacun voit son portrait dans chaque comédie,</l>
+            <l n="240" xml:id="l240">Et l’orgueil de l’auteur gagne à cette manie.</l>
+            <l n="241" xml:id="l241">Si l’on se reconnaît, c’est qu’on est ressemblant.</l>
+            <l n="242" xml:id="l242">Oui, dans l’homme irrité, je crois voir cet enfant</l>
+            <l n="243" xml:id="l243">Qui choqué des défauts que son miroir retrace,</l>
+            <l n="244" xml:id="l244">Ne pouvant le changer, pleure et brise la glace.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I07-10">
+            <speaker>saint-alban</speaker>
+            <l n="245" xml:id="l245">Bien, fort bien : déclamez, monsieur le comédien ;</l>
+            <l n="246" xml:id="l246">Dites-nous de grands mots qui ne nous peignent rien.</l>
+            <l n="247" xml:id="l247">Mais je vais au fait, moi... Ce soir même, au théâtre,</l>
+            <l n="248" xml:id="l248">Quand vous réunirez votre foule idolâtre,</l>
+            <l n="249" xml:id="l249">Vous ferez demander le Tartuffe ; Voyons ,</l>
+            <l n="250" xml:id="l250">Là, que répondrez-vous ? Direz-vous pour raisons ?</l>
+            <l n="251" xml:id="l251">« Monsieur le Président ne veut pas qu’on le joue. »</l>
+          </sp>
+          <sp who="moliere" xml:id="I07-11">
+            <speaker>molière</speaker>
+            <l n="252" xml:id="l252" part="I">Pourquoi non ?</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I07-12">
+            <speaker>saint-alban</speaker>
+            <l n="252" part="F">Sans détour il l’avoue !</l>
+            <l n="253" xml:id="l253">Eh bien ! Mon cher monsieur, vous vous repentirez</l>
+            <l n="254" xml:id="l254">De ce mauvais bon mot ; vous verrez, vous verrez.</l>
+            <l n="255" xml:id="l255">Votre pièce n’était encor que suspendue :</l>
+            <l n="256" xml:id="l256">Vous pouvez dès ce jour la croire défendue.</l>
+            <stage>À part.</stage>
+            <l n="257" xml:id="l257" part="I">Il est calme...</l>
+            <stage>Haut.</stage>
+            <l n="257" part="F">Bien plus ; ce chef-d’uvre nouveau</l>
+            <l n="258" xml:id="l258">Grâce à moi, sera brûlé par le bourreau.</l>
+            <stage>À part.</stage>
+            <l n="259" xml:id="l259" part="I">Il n’est pas plus ému...</l>
+            <stage>Haut.</stage>
+            <l n="259" part="F">Vous changerez de style,</l>
+            <l n="260" xml:id="l260">Monsieur, il est encor des prisons dans la ville.</l>
+            <stage>À part</stage>
+            <l n="261" xml:id="l261">Il sourit.... Pour le coup signalons mon pouvoir ,</l>
+            <l n="262" xml:id="l262">Et sachons empêcher sa lecture ce soir.</l>
+            <l n="263" xml:id="l263">Je dirai désormais à qui voudra l’entendre,</l>
+            <l n="264" xml:id="l264">Qu’un auteur est homme, un homme ! Un homme à pendre.</l>
+            <stage>Il sort.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="" xml:id="I08">
+          <head>SCÈNE VIII</head>
+          <stage>Molière, Laforêt.</stage>
+          <sp who="moliere" xml:id="I08-1">
+            <speaker>molière</speaker>
+            <l n="265" xml:id="l265" part="I">Eh bien ?</l>
+          </sp>
+          <sp who="laforet" xml:id="I08-2">
+            <speaker>laforêt</speaker>
+            <l n="265" part="F">Eh bien ?</l>
+          </sp>
+          <sp who="moliere" xml:id="I08-3">
+            <speaker>molière</speaker>
+            <l n="265" part="F">Comme il se reconnaît !</l>
+            <l n="266" xml:id="l266">Comme il a peur de lui ! Tu l’as vu ; son portrait</l>
+            <l n="267" xml:id="l267">L’a fait pâlir d’horreur, écumer de colère,</l>
+            <l n="268" xml:id="l268">Et sortir malgré lui de son saint caractère.</l>
+          </sp>
+          <sp who="laforet" xml:id="I08-4">
+            <speaker>laforêt</speaker>
+            <l n="269" xml:id="l269">J’avais ben préparé ce qui vient d’arriver.</l>
+          </sp>
+          <sp who="moliere" xml:id="I08-5">
+            <speaker>molière</speaker>
+            <l n="270" xml:id="l270" part="I">Comment donc ?</l>
+          </sp>
+          <sp who="laforet" xml:id="I08-6">
+            <speaker>laforêt</speaker>
+            <l n="270" part="F">J’ignorais que je dusse trouver</l>
+            <l n="271" xml:id="l271">Ici votre ennemi : je croyais sur mon âme</l>
+            <l n="272" xml:id="l272">Que ce Monsieur était un ami de Madame :</l>
+            <l n="273" xml:id="l273">Et j’avais critiqué sans crainte, franchement,</l>
+            <l n="274" xml:id="l274">La fausse piété du maudit Saint-Alban.</l>
+          </sp>
+          <sp who="moliere" xml:id="I08-7">
+            <speaker>molière</speaker>
+            <l n="275" xml:id="l275">Mais lu l’as critiqué sans lui dire d’injures.</l>
+          </sp>
+          <sp who="laforet" xml:id="I08-8">
+            <speaker>laforêt</speaker>
+            <l n="276" xml:id="l276">Oui, j’ai dit seulement quelques vérités dures :</l>
+            <l n="277" xml:id="l277" part="I">Qu’il était un cafard, un....</l>
+          </sp>
+          <sp who="moliere" xml:id="I08-9">
+            <speaker>molière</speaker>
+            <l n="277" part="F">Mais y penses-tu ?</l>
+            <l n="278" xml:id="l278">Un homme qui peut nuire ! Et qu’a-t-il répondu ?</l>
+          </sp>
+          <sp who="laforet" xml:id="I08-10">
+            <speaker>laforêt</speaker>
+            <l n="279" xml:id="l279">Mais rien, il a semblé faire la sourde oreille.</l>
+          </sp>
+          <sp who="moliere" xml:id="I08-11">
+            <speaker>molière</speaker>
+            <l n="280" xml:id="l280">Va, c’est ma chère enfant le lion qui sommeille.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="" xml:id="I09">
+          <head>SCÈNE IX</head>
+          <stage>Les Précédents, Ninon écoutant sans se montrer.</stage>
+          <sp who="laforet" xml:id="I09-1">
+            <speaker>laforêt</speaker>
+            <l n="281" xml:id="l281">Mon cher maître, je crains de vous avoir fait tort.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-2">
+            <speaker>molière</speaker>
+            <l n="282" xml:id="l282">Pourquoi ? N’ai-je pas dit que jusques à la mort,</l>
+            <l n="283" xml:id="l283">J’attaquerais de front et le crime et le vice ?</l>
+            <l n="284" xml:id="l284">C’est une tâche, un but qu’il faut que je remplisse.</l>
+            <l n="285" xml:id="l285">Je méprise et je hais tous ces lâches censeurs</l>
+            <l n="286" xml:id="l286">Qui du siècle voulant corriger les erreurs,</l>
+            <l n="287" xml:id="l287">Mettent leur livre au jour et se cachent dans l’ombre ;</l>
+            <l n="288" xml:id="l288">Moi, je brave les sots sans respect pour le nombre ;</l>
+            <l n="289" xml:id="l289">Je critique, censure, et ne tremble jamais</l>
+            <l n="290" xml:id="l290">Devant ceux dont j’offris les fidèles portraits.</l>
+            <l n="291" xml:id="l291">Aussi ce Saint-Alban par sa sainte présence</l>
+            <l n="292" xml:id="l292">N’a pu m’intimider, me contraindre au silence.</l>
+            <l n="293" xml:id="l293">II peut faire arrêter Tartuffe et son auteur,</l>
+            <l n="294" xml:id="l294">Mais il ne changera ni mes vux ni mon cœur.</l>
+            <l n="295" xml:id="l295">Qu’il soit absent, présent, je redirai sans cesse,</l>
+            <l n="296" xml:id="l296">« Le Tartuffe est de moi, je suis fier de ma pièce. »</l>
+            <l n="297" xml:id="l297">Il n’est pas un seul trait, un seul vers , un seul mot</l>
+            <l n="298" xml:id="l298">Que je veuille en ôter. C’est un auteur bien sot</l>
+            <l n="299" xml:id="l299">Que celui qui craignant tel parti qui le blâme,</l>
+            <l n="300" xml:id="l300">Sacrifie en tremblant une sage épigramme,</l>
+            <l n="301" xml:id="l301">Et qui se ravalant pour plaire à tel seigneur,</l>
+            <l n="302" xml:id="l302">Fait d’un tableau brillant, un portrait sans couleur.</l>
+            <l n="303" xml:id="l303">Je n’imiterai pas ces coupables faiblesses ;</l>
+            <l n="304" xml:id="l304">Je veux de vrais succès et non pas des caresses.</l>
+            <l n="305" xml:id="l305">J’ai besoin d’un grand nom, je n’ai pas besoin d’or :</l>
+            <l n="306" xml:id="l306">L’estime du public, voilà mon seul trésor ;</l>
+            <l n="307" xml:id="l307">Et je saurai toujours sans basse complaisance</l>
+            <l n="308" xml:id="l308">Peindre ce que je vois, dire ce que je pense...</l>
+            <l n="309" xml:id="l309">Si mon siècle me blâme et craint la vérité,</l>
+            <l n="310" xml:id="l310">J’aurai du moins écrit pour la postérité.</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-3">
+            <speaker>ninon, accourant à molière</speaker>
+            <l n="311" xml:id="l311" part="I">Molière !</l>
+          </sp>
+          <sp who="laforet" xml:id="I09-4">
+            <speaker>laforêt</speaker>
+            <l n="311" part="F">Mon cher maître !</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-5">
+            <speaker>molière</speaker>
+            <stage>À part.</stage>
+            <l n="311" part="F">Eh quoi Ninon !....</l>
+            <stage>Haut.</stage>
+            <l n="311" part="F">Madame</l>
+            <l n="312" xml:id="l312" part="I">Vous m’avez entendu ?....</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-6">
+            <speaker>ninon</speaker>
+            <l n="312" part="F">De cur, d’esprit, et d’âme...</l>
+            <l n="313" xml:id="l313">Et je m’en applaudis. Oui, mon illustre ami,</l>
+            <l n="314" xml:id="l314">Entre mes plus beaux jours, je compte celui-ci.</l>
+            <l n="315" xml:id="l315">Quel feu dans vos discours ! Quelle noble énergie !</l>
+            <l n="316" xml:id="l316">Que j’ai bien reconnu l’accent du vrai génie !</l>
+            <l n="317" xml:id="l317">J’ai reconnu surtout l’auteur indépendant</l>
+            <l n="318" xml:id="l318">Qui prend la vérité pour seul frein du talent.</l>
+            <l n="319" xml:id="l319">Quelques soient vos succès, trop peu l’on vous renomme ;</l>
+            <l n="320" xml:id="l320">Vous pensez, vous parlez, ami, comme un grand homme.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-7">
+            <speaker>molière</speaker>
+            <l n="321" xml:id="l321" part="I">Madame...</l>
+          </sp>
+          <sp who="laforet" xml:id="I09-8">
+            <speaker>laforêt</speaker>
+            <l n="321" part="F">C’est le nom qu’un jour il obtiendra ;</l>
+            <l n="322" xml:id="l322">Il l’aura mérité, chacun en conviendra.</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-9">
+            <speaker>ninon</speaker>
+            <l n="323" xml:id="l323">Mais revenons, Molière, à la raison subite</l>
+            <l n="324" xml:id="l324">Qui m’a fait désirer ici voire visite.</l>
+            <l n="325" xml:id="l325" part="I">Car vous avez reçu mon billet.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-10">
+            <speaker>molière</speaker>
+            <l n="325" part="F">Oui Ninon,</l>
+            <l n="326" xml:id="l326" part="I">Et je le garderai...</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-11">
+            <speaker>ninon</speaker>
+            <l n="326" part="F">Le garder !</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-12">
+            <speaker>molière</speaker>
+            <l n="326" part="F">Pour raison.</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-13">
+            <speaker>ninon</speaker>
+            <l n="327" xml:id="l327" part="I">C’est un mot.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-14">
+            <speaker>molière</speaker>
+            <l n="327" part="F">Il est vrai, mais ce mot est aimable.</l>
+            <l n="328" xml:id="l328">Vos yeux et votre esprit ont un pouvoir semblable ;</l>
+            <l n="329" xml:id="l329">Un regard peint l’amour, un mot peint l’amitié.</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-15">
+            <speaker>ninon , souriant</speaker>
+            <l n="330" xml:id="l330">Le plus sûr est le mot... Si je vous ai prié</l>
+            <l n="331" xml:id="l331">De venir en ces lieux, vous doutez-vous, Molière,</l>
+            <l n="332" xml:id="l332" part="I">De mon secret motif ?</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-16">
+            <speaker>molière</speaker>
+            <l n="332" part="F">Non.</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-17">
+            <speaker>ninon</speaker>
+            <l n="332" part="F">Vous êtes sincère ?</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-18">
+            <speaker>molière</speaker>
+            <l n="333" xml:id="l333" part="I">Comme vous quelquefois.</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-19">
+            <speaker>ninon, souriant</speaker>
+            <l n="333" part="F">Je vous entends, Monsieur,</l>
+            <l n="334" xml:id="l334">Puisqu’on ne peut jouer aujourd’hui l’Imposteur,</l>
+            <l n="335" xml:id="l335">Grâce à ce Saint-Alban, cagot et ridicule.</l>
+            <l n="336" xml:id="l336" part="I">Vengez-vous.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-20">
+            <speaker>molière</speaker>
+            <l n="336" part="F">Eh comment ?</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-21">
+            <speaker>ninon</speaker>
+            <l n="336" part="F">Sans crainte et sans scrupule</l>
+            <l n="337" xml:id="l337">Venez lire ce soir votre ouvrage chez moi.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-22">
+            <speaker>molière</speaker>
+            <l n="338" xml:id="l338" part="I">Volontiers.</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-23">
+            <speaker>ninon</speaker>
+            <l n="338" part="F">Mon ami, dites ? De bonne foi</l>
+            <l n="339" xml:id="l339" part="I">Cela vous fâche-t-il ?</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-24">
+            <speaker>molière</speaker>
+            <l n="339" part="F">Eh pourquoi, je vous prie ?</l>
+            <l n="340" xml:id="l340">De lire chez Ninon, moi je me glorifie.</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-25">
+            <speaker>ninon</speaker>
+            <l n="341" xml:id="l341">Vous êtes trop aimable... Alors avec raison</l>
+            <l n="342" xml:id="l342">J’ai mandé pour ce soir quelques gens du bon ton,</l>
+            <l n="343" xml:id="l343">Des amateurs et même... Il faut que je vous laisse</l>
+            <l n="344" xml:id="l344">Deviner quels amis entendront votre pièce.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-26">
+            <speaker>molière</speaker>
+            <l n="345" xml:id="l345" part="I">Monsieur le Prince.</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-27">
+            <speaker>ninon</speaker>
+            <l n="345" part="F">Oh ! Oui, le Prince à vos talents</l>
+            <l n="346" xml:id="l346">Rend justice, et lui seul impose aux médisants.</l>
+            <l n="347" xml:id="l347" part="I">Ensuite...</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-28">
+            <speaker>molière</speaker>
+            <l n="347" part="F">Sévigné, La Châtre.</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-29">
+            <speaker>ninon</speaker>
+            <l n="347" part="F">Non.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-30">
+            <speaker>molière</speaker>
+            <l n="347" part="F">Chapelle.</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-31">
+            <speaker>ninon</speaker>
+            <l n="348" xml:id="l348" part="I">Oui, poursuivez.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-32">
+            <speaker>molière</speaker>
+            <l n="348" part="F">Encor !</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-33">
+            <speaker>ninon</speaker>
+            <l n="348" part="F">L’assemblée est très belle ;</l>
+            <l n="349" xml:id="l349" part="I">Devinez.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-34">
+            <speaker>molière</speaker>
+            <l n="349" part="F">Je ne puis.</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-35">
+            <speaker>ninon</speaker>
+            <l n="349" part="F">Vous y verrez, ami,</l>
+            <l n="350" xml:id="l350">L’enfant qu’avec orgueil Melpomène a nourri.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-36">
+            <speaker>molière</speaker>
+            <l n="351" xml:id="l351" part="I">Corneille !</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-37">
+            <speaker>ninon</speaker>
+            <l n="351" part="F">Et l’autre fils qui moins hardi, plus tendre,</l>
+            <l n="352" xml:id="l352">Aux succès de Corneille un jour pourra prétendre.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-38">
+            <speaker>molière</speaker>
+            <l n="353" xml:id="l353" part="I">Racine !</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-39">
+            <speaker>ninon</speaker>
+            <l n="353" part="F">Un auteur froid, satyrique, malin,</l>
+            <l n="354" xml:id="l354">Mais homme plein d’esprit, et du goût le plus fin.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-40">
+            <speaker>molière</speaker>
+            <l n="355" xml:id="l355" part="I">Boileau !... Ciel !... Mais.</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-41">
+            <speaker>ninon</speaker>
+            <l n="355" part="F">Enfin cet auteur que l’on nomme</l>
+            <l n="356" xml:id="l356">Pour sa simplicité, sa candeur, un bonhomme ;</l>
+            <l n="357" xml:id="l357">Mais, qui par une fable, apprend la vérité,</l>
+            <l n="358" xml:id="l358">Et dans une fourmi, nous peint l’humanité.</l>
+          </sp>
+          <sp who="laforet" xml:id="I09-42">
+            <speaker>laforêt</speaker>
+            <l n="359" xml:id="l359" part="I">La Fontaine.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-43">
+            <speaker>molière</speaker>
+            <l n="359" part="F">Ninon, devant tous ces modèles</l>
+            <l n="360" xml:id="l360" part="I">Vous voulez que ce soir....</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-44">
+            <speaker>ninon</speaker>
+            <l n="360" part="F">Mais les Muses entre elles</l>
+            <l n="361" xml:id="l361" part="I">Ne doivent pas trembler.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-45">
+            <speaker>molière</speaker>
+            <l n="361" part="F">Ces surs-là me font peur :</l>
+            <l n="362" xml:id="l362">Chez elles bien souvent l’esprit, fait tort au cur.</l>
+            <l n="363" xml:id="l363" part="I">Et Corneille...</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-46">
+            <speaker>ninon</speaker>
+            <l n="363" part="F">Sans vous n’aimerait pas Thalie.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-47">
+            <speaker>molière</speaker>
+            <l n="364" xml:id="l364" part="I">Mais l’élégant Racine...</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-48">
+            <speaker>ninon</speaker>
+            <l n="364" part="F">Aime la comédie</l>
+            <l n="365" xml:id="l365">D’un style naturel, donc la vôtre lui plaît.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-49">
+            <speaker>molière</speaker>
+            <l n="366" xml:id="l366">Boileau va censurer plan, scènes et sujet ;</l>
+            <l n="367" xml:id="l367">Il dira : « Tout est mal, la pièce est détestable,</l>
+            <l n="368" xml:id="l368">Le caractère est faux , l’intrigue misérable. »</l>
+          </sp>
+          <sp who="ninon" xml:id="I09-50">
+            <speaker>ninon</speaker>
+            <l n="369" xml:id="l369">Boileau vous a jugé digne de ses avis,</l>
+            <l n="370" xml:id="l370">Peut-il vous critiquer ? Vous les avez suivis.</l>
+            <l n="371" xml:id="l371">La Fontaine ! Pour lui vous ne le craignez guère,</l>
+            <l n="372" xml:id="l372">Ami de la nature, il doit chérir Molière...</l>
+            <l n="373" xml:id="l373">Allons, remettez-vous d’une vaine terreur,</l>
+            <l n="374" xml:id="l374">Et venez recevoir un suffrage flatteur.</l>
+            <l n="375" xml:id="l375">Aujourd’hui l’intérêt, l’amitié, la vengeance</l>
+            <l n="376" xml:id="l376">Doivent vous décider à cette complaisance.</l>
+          </sp>
+          <sp who="moliere" xml:id="I09-51">
+            <speaker>molière</speaker>
+            <l n="377" xml:id="l377">L’amitié me suffit : ce motif est de tous,</l>
+            <l n="378" xml:id="l378">Celui qui me paraît le plus fort, le plus doux.</l>
+            <l n="379" xml:id="l379">Obéir à Ninon, c’est chercher à lui plaire,</l>
+            <l n="380" xml:id="l380">Lui plaire c’est remplir le désir de la terre.</l>
+            <l n="381" xml:id="l381">Ainsi compter sur moi, je vais de cet écrit</l>
+            <l n="382" xml:id="l382">Apporter à l’instant chez vous le manuscrit.</l>
+            <l n="383" xml:id="l383">Je suis moins inquiet du succès de l’ouvrage ;</l>
+            <l n="384" xml:id="l384">Car lire devant vous, déjà c’est un suffrage.</l>
+          </sp>
+          <sp who="laforet" xml:id="I09-52">
+            <speaker>laforêt</speaker>
+            <l n="385" xml:id="l385">L’ouvrage est admirable.... Il vous plaira, je crois.</l>
+            <l n="386" xml:id="l386">Nous l’avons corrigé tous deux plus de vingt fois.</l>
+            <stage>Molière et Laforét sortent.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="" xml:id="I10">
+          <head>SCÈNE X</head>
+          <sp who="ninon" xml:id="I10-1">
+            <speaker>ninon, seule</speaker>
+            <l n="387" xml:id="l387">Eh ! Comment pour ami ne pas garder Molière ?</l>
+            <l n="388" xml:id="l388">Mon orgueil en jouit et mon âme en est fière.</l>
+            <l n="389" xml:id="l389">Oui, ma tranquillité dépend de son repos.</l>
+            <l n="390" xml:id="l390">Je méprise avec lui, les envieux, les sots :</l>
+            <l n="391" xml:id="l391">Avec lui je rirai constamment de leur haine.</l>
+            <l n="392" xml:id="l392">Je lui dirai toujours : « Livre les à la scène.</l>
+            <l n="393" xml:id="l393">Rends-nous de leurs travers confidents et témoins ;</l>
+            <l n="394" xml:id="l394">Ils t’aimeraient bien plus s’ils te redoutaient moins.</l>
+            <l n="395" xml:id="l395">Ne les épargne pas, ils sont nés pour te craindre :</l>
+            <l n="396" xml:id="l396">Tu sauras les punir quand tu voudras les peindre. »</l>
+            <l n="397" xml:id="l397" part="I">Voici Chapelle... Eh bien !</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="11" xml:id="I11">
+          <head>SCÈNE XI</head>
+          <stage>Ninon, Chapelle.</stage>
+          <sp who="chapelle" xml:id="I11-1">
+            <speaker>chapelle</speaker>
+            <l n="397" part="F">Tous vos amis viendront ;</l>
+            <l n="398" xml:id="l398">À des ordres si doux, Madame, ils se rendront...</l>
+            <l n="399" xml:id="l399">Vous verrez tout-à-l’heure et Racine et Corneille.</l>
+          </sp>
+          <sp who="ninon" xml:id="I11-2">
+            <speaker>ninon</speaker>
+            <l n="400" xml:id="l400" part="I">Le Grand Condé.</l>
+          </sp>
+          <sp who="chapelle" xml:id="I11-3">
+            <speaker>chapelle</speaker>
+            <l n="400" part="F">Boileau, La Fontaine.</l>
+          </sp>
+          <sp who="ninon" xml:id="I11-4">
+            <speaker>ninon</speaker>
+            <l n="400" part="F">À merveille.</l>
+            <l n="401" xml:id="l401">Quand Molière nous lit un chef-d’uvre nouveau,</l>
+            <l n="402" xml:id="l402">Ah ! le cercle jamais ne peut être assez beau.</l>
+            <l n="403" xml:id="l403">J’aime des vrais talents l’élite réunie,</l>
+            <l n="404" xml:id="l404">Car le génie est fait pour juger le génie.</l>
+          </sp>
+          <sp who="chapelle" xml:id="I11-5">
+            <speaker>chapelle, lui remettant un billet</speaker>
+            <note type="L">Chaulieu, Guillaume Amfrye abbé de [1639-1720] : poète libertin français.</note>
+            <l n="405" xml:id="l405">Chaulieu seul ne pourra venir au rendez-vous ;</l>
+            <l n="406" xml:id="l406" part="I">Ce billet...</l>
+          </sp>
+          <sp who="ninon" xml:id="I11-6">
+            <speaker>ninon</speaker>
+            <l n="406" part="F">Quelque belle aura le pas sur nous...</l>
+          </sp>
+          <sp who="chapelle" xml:id="I11-7">
+            <speaker>chapelle</speaker>
+            <l n="407" xml:id="l407" part="I">Voyez....</l>
+          </sp>
+          <sp who="ninon" xml:id="I11-8">
+            <speaker>ninon, lit</speaker>
+            <l n="407" part="F">Belle Ninon, une goutte ennemie</l>
+            <l n="408" xml:id="l408">Enchaîne mes membres perdus ;</l>
+            <l n="409" xml:id="l409">Je vois mal, je ne marche plus ;</l>
+            <l n="410" xml:id="l410">Toute la nuit je veille, et tout le jour je crie :</l>
+            <l n="411" xml:id="l411">Mais quoique ma douleur me laisse peu d’espoir,</l>
+            <l n="412" xml:id="l412">Le chagrin de ne pas vous voir</l>
+            <l n="413" xml:id="l413">Est ma plus grande maladie.</l>
+            <l n="414" xml:id="l414">Être au milieu de mes amis,</l>
+            <l n="415" xml:id="l415">Voir Ninon, entendre Molière,</l>
+            <l n="416" xml:id="l416">Était le Paradis sur terre :</l>
+            <l n="417" xml:id="l417">Ce bonheur ne m’est pas permis.</l>
+            <l n="418" xml:id="l418">......................</l>
+            <l n="419" xml:id="l419">Je le perds, plaignez mes disgrâces ;</l>
+            <l n="420" xml:id="l420">Du destin je maudis les lois ;</l>
+            <l n="421" xml:id="l421">C’est trop souffrir que de perdre à-la-fois</l>
+            <l n="422" xml:id="l422" part="I">L’amitié, l’esprit...</l>
+          </sp>
+          <sp who="chapelle" xml:id="I11-9">
+            <speaker>chapelle</speaker>
+            <l n="422" part="F">Et les grâces. »</l>
+          </sp>
+          <sp who="ninon" xml:id="I11-10">
+            <speaker>ninon</speaker>
+            <l n="423" xml:id="l423">S’il est malade, au moins son esprit ne l’est pas.</l>
+          </sp>
+          <sp who="chapelle" xml:id="I11-11">
+            <speaker>chapelle</speaker>
+            <l n="424" xml:id="l424">Quel esprit le serait pour chanter vos appas ?</l>
+          </sp>
+          <sp who="ninon" xml:id="I11-12">
+            <speaker>ninon</speaker>
+            <l n="425" xml:id="l425" part="I">J’entends quelqu’un.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="" xml:id="I12">
+          <head>SCÈNE XII</head>
+          <stage>Les précédents, Corneille, Racine, La Fontaine, Boileau.</stage>
+          <sp who="ninon" xml:id="I12-1">
+            <speaker>ninon</speaker>
+            <l n="425" part="F">C’est vous Corneille, La Fontaine,</l>
+            <l n="426" xml:id="l426" part="I">Boileau, Racine , ah bien !</l>
+          </sp>
+          <sp who="corneille" xml:id="I12-2">
+            <speaker>corneille</speaker>
+            <l n="426" part="F">Aux ordres d’une Reine...</l>
+          </sp>
+          <sp who="ninon" xml:id="I12-3">
+            <speaker>ninon, sortant</speaker>
+            <l n="427" xml:id="l427" part="I">Les Rois manquent souvent.</l>
+          </sp>
+          <sp who="la-fontaine" xml:id="I12-4">
+            <speaker>la fontaine</speaker>
+            <l n="427" part="F">Nous Rois...</l>
+          </sp>
+          <sp who="ninon" xml:id="I12-5">
+            <speaker>ninon</speaker>
+            <l n="427" part="F">Par le talent.</l>
+          </sp>
+          <sp who="la-fontaine" xml:id="I12-6">
+            <speaker>la fontaine</speaker>
+            <l n="428" xml:id="l428">Je n’ai que des troupeaux dans mon Gouvernement...</l>
+          </sp>
+          <sp who="boileau" xml:id="I12-7">
+            <speaker>boileau</speaker>
+            <l n="429" xml:id="l429" part="I">Et tu les mènes bien.</l>
+          </sp>
+          <sp who="ninon" xml:id="I12-8">
+            <speaker>ninon</speaker>
+            <l n="429" part="F">En attendant Molière,</l>
+            <l n="430" xml:id="l430">Le Prince de Condé qui ne tarderont guère,</l>
+            <l n="431" xml:id="l431">Dites-moi la Chronique : avez-vous aujourd’hui</l>
+            <l n="432" xml:id="l432" part="I">Dans Paris entendu quelque nouvelle ?</l>
+          </sp>
+          <sp who="racine" xml:id="I12-9">
+            <speaker>racine</speaker>
+            <l n="432" part="F">Oui,</l>
+            <l n="433" xml:id="l433">Les honneurs qu’à la Cour obtint le grand Corneille.</l>
+          </sp>
+          <sp who="ninon" xml:id="I12-10">
+            <speaker>ninon</speaker>
+            <l n="434" xml:id="l434">Est-ce une pension, rente, ou faveur pareille ?</l>
+          </sp>
+          <sp who="racine" xml:id="I12-11">
+            <speaker>racine</speaker>
+            <l n="435" xml:id="l435" part="I">C’est plus cent fois.</l>
+          </sp>
+          <sp who="la-fontaine" xml:id="I12-12">
+            <speaker>la fontaine</speaker>
+            <l n="435" part="F">Quoi donc ?</l>
+          </sp>
+          <sp who="ninon" xml:id="I12-13">
+            <speaker>ninon</speaker>
+            <l n="435" part="F">Expliquez-vous ? Parlez ?</l>
+          </sp>
+          <sp who="racine" xml:id="I12-14">
+            <speaker>racine</speaker>
+            <l n="436" xml:id="l436">Seigneurs et courtisans s’étaient tous rassemblés</l>
+            <l n="437" xml:id="l437">Pour entendre le Cid : même de sa présence</l>
+            <l n="438" xml:id="l438">Le Monarque honorait cette assemblée immense</l>
+            <l n="439" xml:id="l439">Après une grande heure et d’attente et d’ennui,</l>
+            <l n="440" xml:id="l440">On demanda Corneille ; il ne manquait que lui :</l>
+            <l n="441" xml:id="l441">On murmure tout haut : CornsiUe arrive, passe,</l>
+            <l n="442" xml:id="l442">Et sans le saluer chacun reste à sa place.</l>
+            <l n="443" xml:id="l443">Il s’approche du Roi ; Louis à son aspect</l>
+            <l n="444" xml:id="l444">Se lève, et devant lui s’incline avec respect.</l>
+            <l n="445" xml:id="l445">La Cour l’imite ; alors, quoique sans diadème,</l>
+            <l n="446" xml:id="l446">Corneille paraissait plus Roi que le Roi même.</l>
+          </sp>
+          <sp who="chapelle" xml:id="I12-15">
+            <speaker>chapelle</speaker>
+            <l n="447" xml:id="l447">Ah ! Que ce trait est beau ! Messieurs les courtisans,</l>
+            <l n="448" xml:id="l448">Vous apprendrez qu’il faut honorer les talents,</l>
+            <l n="449" xml:id="l449" part="I">Et vous serez moins fiers.</l>
+          </sp>
+          <sp who="racine" xml:id="I12-16">
+            <speaker>racine</speaker>
+            <l n="449" part="F">L’anecdote est certaine</l>
+            <l n="450" xml:id="l450" part="I">Car j’étais spectateur.</l>
+          </sp>
+          <sp who="ninon" xml:id="I12-17">
+            <speaker>ninon</speaker>
+            <l n="450" part="F">Dites-moi, La Fontaine ?</l>
+            <l n="451" xml:id="l451">Celle qui court sur vous et dont l’on a tant ri.</l>
+          </sp>
+          <sp who="la-fontaine" xml:id="I12-18">
+            <speaker>la fontaine</speaker>
+            <l n="452" xml:id="l452" part="I">Laquelle ?</l>
+          </sp>
+          <sp who="ninon" xml:id="I12-19">
+            <speaker>ninon</speaker>
+            <note type="C">La Fontaine est originaire de Château-Thierry à l’Est de Paris.</note>
+            <l n="452" part="F">Ce voyage à Château-Thierry.</l>
+          </sp>
+          <sp who="corneille" xml:id="I12-20">
+            <speaker>corneille</speaker>
+            <l n="453" xml:id="l453">Oui, voulant rétablir la paix dans son ménage</l>
+            <l n="454" xml:id="l454">Pour aller voir sa femme, il fait un long voyage,</l>
+            <l n="455" xml:id="l455">Revient sans l’avoir vue. As-tu rempli ton but ?</l>
+            <l n="456" xml:id="l456">Lui dit-on.  Non vraiment, elle était au Salut.</l>
+          </sp>
+          <sp who="la-fontaine" xml:id="I12-21">
+            <speaker>la fontaine</speaker>
+            <l n="457" xml:id="l457">J’avais garde vraiment de déranger ma femme,</l>
+            <l n="458" xml:id="l458">Elle avait tant besoin de prier pour son âme !</l>
+          </sp>
+          <sp who="ninon" xml:id="I12-22">
+            <speaker>ninon</speaker>
+            <l n="459" xml:id="l459">Racine ; vos débats avec le cher Boileau</l>
+            <l n="460" xml:id="l460" part="I">Sont-ils finis ?</l>
+          </sp>
+          <sp who="racine" xml:id="I12-23">
+            <speaker>racine</speaker>
+            <l n="460" part="F">Toujours mon courroux est nouveau.</l>
+            <l n="461" xml:id="l461">Sans nul ménagement, sans cesse il me critique ;</l>
+            <l n="462" xml:id="l462">De trouver des défauts, on dirait qu’il se pique.</l>
+            <l n="463" xml:id="l463">Lorsque de mon rival ! Je me crois délivré,</l>
+            <l n="464" xml:id="l464">Il me dit aussitôt du ton d’un inspiré :</l>
+            <note type="C">Vers 172 de "L’Art poétique" de Boileau.</note>
+            <l n="465" xml:id="l465">« Vingt fois sur le métier remettez votre ouvrage, »</l>
+            <l n="466" xml:id="l466">J’ai toujours ses conseils et jamais son suffrage.</l>
+          </sp>
+          <sp who="boileau" xml:id="I12-24">
+            <speaker>boileau</speaker>
+            <l n="467" xml:id="l467">Racine, vous croyez mes avis indiscrets.</l>
+            <l n="468" xml:id="l468">Je vous critique avant, pour vous louer après.</l>
+            <l n="469" xml:id="l469">La gloire sans effort est un bien périssable :</l>
+            <l n="470" xml:id="l470">Il faut la mériter quand on la veut durable..</l>
+            <l n="471" xml:id="l471">Les succès usurpés n’ont jamais qu’un moment.</l>
+            <l n="472" xml:id="l472">Les efforts concertés peuvent pour un instant</l>
+            <l n="473" xml:id="l473">D’un peuple enthousiaste égarer le suffrage,</l>
+            <l n="474" xml:id="l474">Mais bientôt du bon goût le temps vengeant l’outrage,</l>
+            <l n="475" xml:id="l475">Vient livrer à l’oubli la médiocrité.</l>
+            <l n="476" xml:id="l476">L’intrigue lutte en vain, de la postérité</l>
+            <l n="477" xml:id="l477">Le jour s’élève, luit ; l’ombre pâlit, s’efface ,</l>
+            <l n="478" xml:id="l478">Le fantôme s’éclipse, et tout reprend sa place.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="13" xml:id="I13">
+          <head>SCÈNE XIII</head>
+          <stage>Les Précédents, Le Prince de Condé , Laforêt se cache derrière Ninon, tenant une lettre à la main.</stage>
+          <sp who="un-valet" xml:id="I13-1">
+            <speaker>le valet</speaker>
+            <l n="479" xml:id="l479" part="I">Le Prince de Condé.</l>
+          </sp>
+          <sp who="tous" xml:id="I13-2">
+            <speaker>tous</speaker>
+            <l n="479" part="F">Monseigneur...</l>
+          </sp>
+          <sp who="le-prince" xml:id="I13-3">
+            <speaker>le prince</speaker>
+            <l n="479" part="F">Mes amis,</l>
+            <l n="480" xml:id="l480">Il est bien doux pour moi de me trouver admis</l>
+            <l n="481" xml:id="l481">Dans le cercle brillant des grâces, du génie.</l>
+          </sp>
+          <sp who="ninon" xml:id="I13-4">
+            <speaker>ninon</speaker>
+            <l n="482" xml:id="l482">Prince, et de la valeur ; car la France est remplie</l>
+            <l n="483" xml:id="l483" part="I">Du bruit de vos exploits.</l>
+          </sp>
+          <sp who="le-prince" xml:id="I13-5">
+            <speaker>le prince</speaker>
+            <l n="483" part="F">Cessez de m’en parler.</l>
+            <l n="484" xml:id="l484">La guerre est un fléau ; Messieurs, la rappeler</l>
+            <l n="485" xml:id="l485">C’est m’offrir, je l’avoue, un souvenir pénible.</l>
+            <l n="486" xml:id="l486">Plus je montre au combat, un cur froid, inflexible,</l>
+            <l n="487" xml:id="l487">Plus, après le triomphe, un sentiment secret</l>
+            <l n="488" xml:id="l488">M’entraîne à la douleur et me livre au regret.</l>
+            <l n="489" xml:id="l489">Je m’éloigne, et reviens dans le sein de nos villes</l>
+            <l n="490" xml:id="l490">Couler des jours plus purs, moins brillants, plus tranquilles ;</l>
+            <l n="491" xml:id="l491">Je rends enfin le calme à mon cur agité,</l>
+            <l n="492" xml:id="l492">Et je jouis des arts auprès de la beauté.</l>
+            <l n="493" xml:id="l493" part="I">Mais où donc est Molière !</l>
+          </sp>
+          <sp who="ninon" xml:id="I13-6">
+            <speaker>ninon, voyant laforêt</speaker>
+            <l n="493" part="F">Eh ! Voilà sa servante.</l>
+            <l n="494" xml:id="l494" part="I">Que fais- lu là ?</l>
+          </sp>
+          <sp who="laforet" xml:id="I13-7">
+            <speaker>laforêt</speaker>
+            <l n="494" part="F">Mais rien ; j’étais impatiente...</l>
+          </sp>
+          <sp who="ninon" xml:id="I13-8">
+            <speaker>ninon</speaker>
+            <l n="495" xml:id="l495" part="I">Que veux -tu ?</l>
+          </sp>
+          <sp who="laforet" xml:id="I13-9">
+            <speaker>laforêt, tout bas à ninon</speaker>
+            <l n="495" part="F">J’attendais Madame que par ici</l>
+            <l n="496" xml:id="l496">Vous regardiez : mon maître a ben plus de souci.</l>
+            <l n="497" xml:id="l497" part="I">J’crois qu’il ne viendra pas.</l>
+          </sp>
+          <sp who="ninon" xml:id="I13-10">
+            <speaker>ninon</speaker>
+            <l n="497" part="F">Ciel ! Que viens-tu me dire ?</l>
+          </sp>
+          <sp who="laforet" xml:id="I13-11">
+            <speaker>laforêt</speaker>
+            <l n="498" xml:id="l498">Monsieur le Président lui défend de vous lire</l>
+            <l n="499" xml:id="l499" part="I">Tartuffe.</l>
+          </sp>
+          <sp who="ninon" xml:id="I13-12">
+            <speaker>ninon</speaker>
+            <l n="499" part="F">Quoi ! Molière à cet ordre a cédé !</l>
+          </sp>
+          <sp who="laforet" xml:id="I13-13">
+            <speaker>laforêt, abs</speaker>
+            <l n="500" xml:id="l500">J’n’en sais rien ; mais ce s’rait, y m’ semble ben hasardé</l>
+            <l n="501" xml:id="l501">De vouloir se moquer d’un’ menace aussi claire :</l>
+            <l n="502" xml:id="l502">Il ne m’a pas encor consulté dans s’ t’affaire.</l>
+          </sp>
+          <sp who="le-prince" xml:id="I13-14">
+            <speaker>le prince</speaker>
+            <l n="503" xml:id="l503">Quoi ! Molière pourrait lâchement effrayé ?...</l>
+          </sp>
+          <sp who="corneille" xml:id="I13-15">
+            <speaker>corneille</speaker>
+            <l n="504" xml:id="l504">Que Molière par vous soit mieux apprécié !</l>
+            <l n="505" xml:id="l505">De céder à la peur son âme est incapable.</l>
+          </sp>
+          <sp who="racine" xml:id="I13-16">
+            <speaker>racine</speaker>
+            <l n="506" xml:id="l506">Il ne doit pas garder un silence coupable.</l>
+          </sp>
+          <sp who="ninon" xml:id="I13-17">
+            <speaker>ninon</speaker>
+            <l n="507" xml:id="l507">Moi, je gage, écartant un injuste soupçon,</l>
+            <l n="508" xml:id="l508" part="I">Qu’il lira le Tartuffe.</l>
+            <stage>Molière parait.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="14" xml:id="I14">
+          <head>SCÈNE XIV</head>
+          <stage>Les Précédents, Molière.</stage>
+          <sp who="moliere" xml:id="I14-1">
+            <speaker>molière</speaker>
+            <l n="508" part="F">Et vous avez raison.</l>
+            <l n="509" xml:id="l509">Prince... C’est bien assez qu’une défense expresse</l>
+            <l n="510" xml:id="l510">Sans cause, sans motif, ait arrêté ma pièce,</l>
+            <l n="511" xml:id="l511">Qu’on m’ait injustement dépouillé de mes droits !</l>
+            <l n="512" xml:id="l512">Un hypocrite encor veut étouffer ma voix !</l>
+            <l n="513" xml:id="l513" part="I">Non.</l>
+          </sp>
+          <sp who="ninon" xml:id="I14-2">
+            <speaker>ninon</speaker>
+            <l n="513" part="F">J’étais sûre, moi, de connaître Molière.</l>
+          </sp>
+          <sp who="laforet" xml:id="I14-3">
+            <speaker>laforêt, à part</speaker>
+            <l n="514" xml:id="l514">Nous avons toujours eu beaucoup de caractère.</l>
+          </sp>
+          <sp who="ninon" xml:id="I14-4">
+            <speaker>ninon</speaker>
+            <stage>Les acteurs se placent dans l’ordre du tableau de Monsieur Mon**au.</stage>
+            <l n="515" xml:id="l515" part="I">Allons, plaçons-nous tous.</l>
+          </sp>
+          <sp who="laforet" xml:id="I14-5">
+            <speaker>laforêt, à part</speaker>
+            <l n="515" part="F">V’là vraiment un tableau</l>
+            <l n="516" xml:id="l516">Dont un peintre pourrait honorer son pinceau.</l>
+            <stage>Se plaçant derrière Molière.</stage>
+            <l n="517" xml:id="l517">Moi, je me tiendrai là, d’abord pour mieux entendre ;</l>
+            <l n="518" xml:id="l518">Puis, si vous lisez mal, je pourrai vous reprendre.</l>
+          </sp>
+          <sp who="moliere" xml:id="I14-6">
+            <speaker>molière, lit</speaker>
+            <p>
+              <s>« Le Tartuffe , comédie en cinq actes et en vers. »</s>
+            </p>
+            <stage>Saint-Alban parait.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="15" xml:id="I15">
+          <head>SCÈNE XV</head>
+          <stage>Les Précédents, Saint-Alban an fond de la scène.</stage>
+          <sp who="saint-alban" xml:id="I15-1">
+            <speaker>saint-alban, à part</speaker>
+            <l n="519" xml:id="l519">Comment ?... Il va lire !... Ah ! Je viens fort à propos.</l>
+          </sp>
+          <sp who="moliere" xml:id="I15-2">
+            <speaker>molière</speaker>
+            <l n="520" xml:id="l520">Avant de commencer, je vais en peu de mots</l>
+            <l n="521" xml:id="l521">Exposer à vos yeux le but de cet ouvrage.</l>
+            <l n="522" xml:id="l522">D’un habile imposteur je veux peindre l’image.</l>
+          </sp>
+          <sp who="laforet" xml:id="I15-3">
+            <speaker>laforêt, bas à molière</speaker>
+            <l n="523" xml:id="l523" part="I">Saint-Alban nous écoute...</l>
+          </sp>
+          <sp who="moliere" xml:id="I15-4">
+            <speaker>molière bas</speaker>
+            <l n="523" part="F">Il nous écoute, bon,...</l>
+            <stage>Haut et se levant.</stage>
+            <l n="524" xml:id="l524">Le héros de ma pièce a les airs et le ton</l>
+            <l n="525" xml:id="l525">D’un fourbe consommé, d’un adroit hypocrite,</l>
+            <l n="526" xml:id="l526">Vainement on le craint, on le fuit, on l’évite ;</l>
+            <l n="527" xml:id="l527">De se trouver partout, il a plus d’un moyen.</l>
+            <l n="528" xml:id="l528">Il pense toujours mal, il parle toujours bien.</l>
+            <l n="529" xml:id="l529">Il ment par piété, nous trompe en conscience ,</l>
+            <l n="530" xml:id="l530">Et sans jamais donner, prêche la bienfaisance.</l>
+            <l n="531" xml:id="l531">Pour lui, feindre est un art, et nuire est un besoin.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I15-5">
+            <speaker>saint-alban, se montrant</speaker>
+            <l n="532" xml:id="l532" part="I">Me voilà....</l>
+          </sp>
+          <sp who="ninon" xml:id="I15-6">
+            <speaker>ninon</speaker>
+            <l n="532" part="F">Quoi ?</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I15-7">
+            <speaker>saint-alban, à part</speaker>
+            <l n="532" part="F">Messieurs, vous me croyiez bien loin.</l>
+          </sp>
+          <sp who="ninon" xml:id="I15-8">
+            <speaker>ninon</speaker>
+            <l n="533" xml:id="l533">Vous êtes dans l’erreur : nous pensions au contraire</l>
+            <l n="534" xml:id="l534" part="I">Que nous allions vous voir.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I15-9">
+            <speaker>saint-alban, à part</speaker>
+            <l n="534" part="F">Cette épigramme est claire.</l>
+          </sp>
+          <sp who="le-prince" xml:id="I15-10">
+            <speaker>le prince</speaker>
+            <l n="535" xml:id="l535" part="I">Asseyez-vous.</l>
+          </sp>
+          <sp who="ninon" xml:id="I15-11">
+            <speaker>ninon, bas au prince</speaker>
+            <l n="535" part="F">De lui rions tous un moment.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I15-12">
+            <speaker>saint-alban, bas au prince</speaker>
+            <l n="536" xml:id="l536">Prince, vous écoutez un ouvrage imprudent</l>
+            <l n="537" xml:id="l537">Qui ne paraîtra pas, que le Roi va défendre.</l>
+          </sp>
+          <sp who="ninon" xml:id="I15-13">
+            <speaker>ninon</speaker>
+            <l n="538" xml:id="l538">Nous devons d’autant plus désirer de l’entendre.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I15-14">
+            <speaker>saint-alban, bas au prince</speaker>
+            <l n="539" xml:id="l539">Si par hasard au Roi ce vu semble indiscret !</l>
+          </sp>
+          <sp who="le-prince" xml:id="I15-15">
+            <speaker>le prince</speaker>
+            <l n="540" xml:id="l540" part="I">Avez-vous sur ce point reçu ?...</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I15-16">
+            <speaker>saint-alban</speaker>
+            <l n="540" part="F">L’ordre est secret.</l>
+          </sp>
+          <sp who="le-prince" xml:id="I15-17">
+            <speaker>le prince</speaker>
+            <l n="541" xml:id="l541" part="I">Eh bien, n’en parlez plus.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I15-18">
+            <speaker>saint-alban</speaker>
+            <l n="541" part="F">Sans parler davantage</l>
+            <l n="542" xml:id="l542">De défense, parlons du sujet de l’ouvrage.</l>
+            <l n="543" xml:id="l543">Voilà des gens de goût, des auteurs bien connus</l>
+            <l n="544" xml:id="l544">Dont on cite en tous lieux les talents, les vertus.</l>
+            <l n="545" xml:id="l545">Je veux m’en rapporter à leur docte suffrage...</l>
+            <l n="546" xml:id="l546">Corneille, convenez qu’un pareil personnage...</l>
+          </sp>
+          <sp who="corneille" xml:id="I15-19">
+            <speaker>corneille</speaker>
+            <l n="547" xml:id="l547" part="I">Est bas et vil...</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I15-20">
+            <speaker>saint-alban riant</speaker>
+            <l n="547" part="F">Eh bien ?</l>
+          </sp>
+          <sp who="corneille" xml:id="I15-21">
+            <speaker>corneille</speaker>
+            <l n="547" part="F">Mais plein de vérité.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I15-22">
+            <speaker>saint-alban</speaker>
+            <l n="548" xml:id="l548" part="I">Comment ?</l>
+          </sp>
+          <sp who="corneille" xml:id="I15-23">
+            <speaker>corneille</speaker>
+            <l n="548" part="F">C’est le fléau de la société...</l>
+            <l n="549" xml:id="l549">S’il n’eut par ses défauts dégradé Melpomène,</l>
+            <l n="550" xml:id="l550">Avant Molière, moi, je l’eusse mis en scène.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I15-24">
+            <speaker>saint-alban</speaker>
+            <l n="551" xml:id="l551">Il est fou ! Vous Boileau, dont j’aime la raison</l>
+            <l n="552" xml:id="l552">Qui n’avez jusqu’ici rien pu trouver de bon...</l>
+            <l n="553" xml:id="l553">Convenez que la pièce est au moins détestable.</l>
+          </sp>
+          <sp who="boileau" xml:id="I15-25">
+            <speaker>boileau</speaker>
+            <l n="554" xml:id="l554">Mais La Fontaine hier m’a dit certaine fable</l>
+            <l n="555" xml:id="l555">Qui pourra réunir les avis sur ce point.</l>
+            <l n="556" xml:id="l556" part="I">Bonhomme, dis-nous là.</l>
+          </sp>
+          <sp who="la-fontaine" xml:id="I15-26">
+            <speaker>la fontaine</speaker>
+            <l n="556" part="F">Je ne m’en souviens point.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I15-27">
+            <speaker>saint-alban</speaker>
+            <l n="557" xml:id="l557" part="I">Bon.</l>
+          </sp>
+          <sp who="chapelle" xml:id="I15-28">
+            <speaker>chapelle</speaker>
+            <l n="557" part="F">Je la sais.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I15-29">
+            <speaker>saint-alban</speaker>
+            <l n="557" part="F">Messieurs...</l>
+          </sp>
+          <sp who="le-prince" xml:id="I15-30">
+            <speaker>le prince, avec humeur</speaker>
+            <l n="557" part="F">Ferez-vous donc silence ?</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I15-31">
+            <speaker>saint-alban</speaker>
+            <l n="558" xml:id="l558">Prince, soyez certain de mon obéissance.</l>
+          </sp>
+          <sp who="chapelle" xml:id="I15-32">
+            <speaker>chapelle</speaker>
+            <stage>Le Serpent et la Lime.</stage>
+            <quote>
+              <lg id="1">
+                <l n="559" xml:id="l559">On conte qu’un serpent voisin d’un horloger,</l>
+                <l n="560" xml:id="l560">( C’était pour l’horloger , un mauvais voisinage )</l>
+                <l n="561" xml:id="l561">Entra dans sa boutique, et cherchant à manger</l>
+                <l n="562" xml:id="l562">N’y rencontra pour tout potage</l>
+                <l n="563" xml:id="l563">Qu’une lime d’acier qu’il se mit à ronger.</l>
+                <l n="564" xml:id="l564">Cette lime lui dit, sans se mettre en colère :</l>
+                <l n="565" xml:id="l565">Pauvre ignorant. Eh ! Que prétends-tu faire ?</l>
+                <l n="566" xml:id="l566">Tu te prends à plus fort que toi ;</l>
+                <l n="567" xml:id="l567">Petit serpent à tête folle,</l>
+                <l n="568" xml:id="l568">Tu ne peux emporter de moi</l>
+                <l n="569" xml:id="l569">Seulement le quart d’une obole</l>
+                <l n="570" xml:id="l570">Tu le romprais toutes les dents,</l>
+                <l n="571" xml:id="l571">Je ne crains que celles du temps.</l>
+                <l n="572" xml:id="l572">Ceci s’adresse à vous, esprits du dernier ordre</l>
+                <l n="573" xml:id="l573">Qui sur gens à talents cherchez toujours à mordre ;</l>
+                <l n="574" xml:id="l574">Vous vous tourmentez vainement :</l>
+                <l n="575" xml:id="l575">Croyez-vous que vos dents impriment leurs outrages</l>
+                <l n="576" xml:id="l576">Sur tant de beaux ouvrages ?</l>
+                <l n="577" xml:id="l577">Ils sont pour vous d’airain, d’acier, de diamant.</l>
+              </lg>
+            </quote>
+          </sp>
+          <sp who="saint-alban" xml:id="I15-33">
+            <speaker>saint-alban</speaker>
+            <l n="578" xml:id="l578" part="I">Bah ! bah...</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="16" xml:id="I16">
+          <head>SCÈNE XVI</head>
+          <stage>et dernière. Les précédents, Un page, Un valet.</stage>
+          <sp who="un-valet" xml:id="I16-1">
+            <speaker>un valet</speaker>
+            <l n="578" part="F">Monsieur Molière, un page vous demande.</l>
+          </sp>
+          <sp who="un-page" xml:id="I16-2">
+            <speaker>un page</speaker>
+            <l n="579" xml:id="l579" part="I">J’arrive de Lille,</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I16-3">
+            <speaker>saint-alban, riant</speaker>
+            <l n="579" part="F">Oui, voyez ce qu’on vous mande.</l>
+          </sp>
+          <sp who="un-page" xml:id="I16-4">
+            <speaker>un page</speaker>
+            <l n="580" xml:id="l580" part="I">L’ordre doit concerner une pièce.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I16-5">
+            <speaker>saint-alban</speaker>
+            <l n="580" part="F">Ah ! J’entends...</l>
+            <l n="581" xml:id="l581">La défense... Mon cher, vous arrivez à temps.</l>
+          </sp>
+          <sp who="tous" xml:id="I16-6">
+            <speaker>tous</speaker>
+            <l n="582" xml:id="l582" part="I">Lisez...</l>
+          </sp>
+          <sp who="ninon" xml:id="I16-7">
+            <speaker>ninon</speaker>
+            <l n="582" part="F">De cet écrit quelle est la signature ?</l>
+          </sp>
+          <sp who="moliere" xml:id="I16-8">
+            <speaker>molière</speaker>
+            <stage>Il lit.</stage>
+            <l n="583" xml:id="l583" part="I">Signé Louis.</l>
+            <stage>À Ninon.</stage>
+            <l n="583" part="F">Lisez, ce grand nom me rassure.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I16-9">
+            <speaker>saint-alban</speaker>
+            <l n="584" xml:id="l584">Daignez lire vous-même adorable Ninon !</l>
+          </sp>
+          <sp who="ninon" xml:id="I16-10">
+            <speaker>ninon, prenant la lettre</speaker>
+            <l n="585" xml:id="l585" part="I">Je tremble....</l>
+          </sp>
+          <sp who="moliere" xml:id="I16-11">
+            <speaker>molière</speaker>
+            <l n="585" part="F">Et moi j’attends sans nulle émotion.</l>
+          </sp>
+          <sp who="ninon" xml:id="I16-12">
+            <speaker>ninon</speaker>
+            <p>
+              <s>« Après avoir lu attentivement la comédie du Tartuffe, après avoir pesé les réflexions le notre premier Président qui nous peint cette pièce comme attaquant les meurs la religion, et renfermant des personnalités ; nous avons trouvé que ce chef-d’ouvre ne pouvait offenser que les hypocrites ; or, nous permettons, même nous ordonnons qu’on la représente dans toutes les villes de la France. »</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="I16-13">
+            <speaker>molière</speaker>
+            <l n="586" xml:id="l586">Ô mon roi, je dois tout à la justice extrême.</l>
+          </sp>
+          <sp who="le-prince" xml:id="I16-14">
+            <speaker>le prince</speaker>
+            <l n="587" xml:id="l587">Honorer le talent, c’est s’honorer soi-même.</l>
+            <l n="588" xml:id="l588">Cet acte généreux vaut mieux que cent exploits ;</l>
+            <l n="589" xml:id="l589">Le triomphe des arts fait la gloire des Rois.</l>
+          </sp>
+          <sp who="corneille" xml:id="I16-15">
+            <speaker>corneille</speaker>
+            <l n="590" xml:id="l590">Le Prince, par l’effet de cet ordre propice,</l>
+            <l n="591" xml:id="l591">Nous récompense tous en vous rendant justice.</l>
+          </sp>
+          <sp who="ninon" xml:id="I16-16">
+            <speaker>ninon</speaker>
+            <l n="592" xml:id="l592">La lecture à présent serait de trop, je crois.</l>
+          </sp>
+          <sp who="moliere" xml:id="I16-17">
+            <speaker>molière</speaker>
+            <l n="593" xml:id="l593">Laforêt, mon enfant , cours, cours vile chez moi.</l>
+            <l n="594" xml:id="l594">Que dans tous les quartiers, les carrefours, les rues,</l>
+            <l n="595" xml:id="l595">Dix mille affiches soient à l’instant répandues...</l>
+            <l n="596" xml:id="l596">Pour annoncer enfin au public de Paris</l>
+            <l n="597" xml:id="l597" part="I">Qu’on jouera le Tartuffe.</l>
+          </sp>
+          <sp who="ninon" xml:id="I16-18">
+            <speaker>ninon</speaker>
+            <l n="597" part="F">Il sera bien surpris.</l>
+          </sp>
+          <sp who="saint-alban" xml:id="I16-19">
+            <speaker>saint-alban</speaker>
+            <l n="598" xml:id="l598" part="I">Comment faire à présent !....</l>
+          </sp>
+          <sp who="un-seigneur" xml:id="I16-20">
+            <speaker>un seigneur</speaker>
+            <l n="598" part="F">La probité vous laisse</l>
+            <l n="599" xml:id="l599">Un excellent moyen, faites tomber la pièce.</l>
+          </sp>
+          <sp who="laforet" xml:id="I16-21">
+            <speaker>laforêt</speaker>
+            <l n="600" xml:id="l600">Moi j’ vais au paradis, si j’ vois queuqu’censeur</l>
+            <l n="601" xml:id="l601">Je crierai, mais ben haut : À bas le cabaleur.</l>
+            <l n="602" xml:id="l602">Et s’il redouble encor, moi j’agirai de sorte</l>
+            <l n="603" xml:id="l603">Que le public se lève et lui crie : À la porte.</l>
+          </sp>
+          <sp who="ninon" xml:id="I16-22">
+            <speaker>ninon</speaker>
+            <l n="604" xml:id="l604">Molière, à ce succès nous applaudissons tous ;</l>
+            <l n="605" xml:id="l605">Votre triomphe est même un triomphe pour nous.</l>
+            <l n="606" xml:id="l606">Mais au sein du bonheur, au comble de la gloire</l>
+            <l n="607" xml:id="l607">De vos amis, de moi, conservez la mémoire.</l>
+            <l n="608" xml:id="l608">Que l’esprit, la valeur, viennent dans ce Salon</l>
+            <l n="609" xml:id="l609">Retrouver quelquefois Molière chez Ninon.</l>
+            <stage>Nota. Dans la scène XIII, les deux Seigneurs qui ont paru dans les premières scènes, entrent avec le Prince de Condé.</stage>
+          </sp>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

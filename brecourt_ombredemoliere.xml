@@ -1,0 +1,1919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>L’OMBRE DE MOLIÈRE</title>
+        <author born="1638" born_location="Paris" death="1685" death_location="Paris" academie="">BRÉCOURT, Guillaume MARCOUREAU de</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>publié par Paul FIEVRE juillet 2012</p>
+      </publicationStmt>
+      <sourceDesc>
+        <genre>Comédie</genre>
+        <inspiration>mœurs françaises</inspiration>
+        <structure>Un acte</structure>
+        <type>prose</type>
+        <periode>1671-1680</periode>
+        <taille>(mesure non pertinente)</taille>
+        <permalien>http://gallica.bnf.fr/ark :/12148/btv1b86</permalien>
+        <sources>
+          <source id="1">
+            <author/>
+            <text/>
+          </source>
+        </sources>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1674"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">L’OMBRE DE MOLIÈRE</titlePart>
+        <titlePart type="sub">COMÉDIE</titlePart>
+      </docTitle>
+      <docDate value="1674">M. DC. LXXIV. AVEC PRIVILÈGE DU ROI.</docDate>
+      <docAuthor id="BRÉCOURT, Guillaume MARCOUREAU de" bio="brecourt">Par Brécourt</docAuthor>
+      <docImprint>
+        <privilege date="1674-04-12">
+          <head>EXTRAIT DU PRIVILÈGE du ROI</head>
+          <p>Par grâce et privilège du Roi, donné à Versailles le douzième Avril 1674. Signé, Par le Roy en son Conseil, LE NORMANT : Et scellé du grand Sceau de cire jaune. Il est permis à CLAUDE BARBIN, Marchand Libraire à Paris, d’imprimer, faire imprimer, vendre et débiter une Pièce de Théâtre, intitulée L’OMBRE DE MOLIÈRE, Comédie en Prose : Et défenses sont faites à toutes personnes, de quelque qualité et condition qu’elles soient, d’imprimer ou faire imprimer, vendre ni débiter ladite pièce de théâtre, sans le consentement de l’exposant, ou de ceux qui auront droit de lui, pendant le temps et espace de cinq années, entières et accomplies, à compter du jour que ladite pièce sera achevée d’imprimer pour la première fois, à peine contre chacun des contrevenants, de trois mille livres d’amende, confiscation des exemplaires contrefaits, et de tous dépens, dommages et intérêts, ainsi que plus au long il est porté lesdites Lettres de Privilège. </p>
+          <p>Registré sur le Livre de la Communauté, suivant l’Arrêt de la Cour.</p>
+          <p>D. THIERRY. Syndic.</p>
+        </privilege>
+        <acheveImprime id="1674-05-02">Achevé d’imprimé pour la première fois le 2 Mai 1674.</acheveImprime>
+        <printer id="BARBIN">À PARIS, chez CLAUDE BARBIN, sur le second Perron de la Sainte Chapelle. </printer>
+      </docImprint>
+      <performance>
+        <premiere date="1674-03" location="Hôtel de Bourgogne">Représenté pour la première fois en mars 1674 à l’Hôtel de Bourgogne</premiere>
+      </performance>
+      <dedicace>
+        <adresse>À SON ALTESSE SERENISSIME MONSEIGNEUR LE DUC D’ENGUIEN.</adresse>
+        <head>MONSEIGNEUR,</head>
+        <p>Voici l’Ombre de Molière ; c’est une comédie dont le bonheur sera parfait, si V. A. S. l’honore du moindre coup d’œil. Sans l’autorité que me donne un long usage, je ne hasarderais pas de mettre votre illustre nom à la tête d’un Livre, lorsqu’il va si glorieusement éclater à la tête des armées. Alexandre mettait Homère sous son chevet ; Scipion et Lélie honorèrent Térence de leur estime : mais sans le secours de ces exemples, il suffit de celui de V. A. S. pour justifier que les armes et les Lettres n’ont rien d’incompatible, et que le Cabinet et le camp peuvent être amis. Souffrez donc, MONSEIGNEUR, que les OEuvres de Molière tiennent quelque rang dans votre bibliothèque, et que ma comédie soit une espèce de table pour les siennes.</p>
+        <p>DE V.A.S.</p>
+        <p>MONSEIGNEUR, Le très humble et très obéissant serviteur,</p>
+        <signature>BRECOURT.</signature>
+      </dedicace>
+      <castList>
+        <head>ACTEURS</head>
+        <castItem><role xml:id="deux-ombres" civil="M" type="F" statut="fantôme" age="A" stat_amour="néant">DEUX OMBRES</role>.</castItem>
+        <castItem><role xml:id="caron" civil="M" type="D" statut="gardien des enfers" age="A" stat_amour="néant">CARON</role>.</castItem>
+        <castItem><role xml:id="le-pœte" civil="M" type="H" statut="poète" age="A" stat_amour="néant">LE POÈTE</role>.</castItem>
+        <castItem><role xml:id="pluton" civil="M" type="D" statut="dieu" age="A" stat_amour="néant">PLUTON</role>.</castItem>
+        <castItem><role xml:id="radamante" civil="M" type="D" statut="dieu" age="A" stat_amour="néant">RADAMANTE</role>.</castItem>
+        <castItem><role xml:id="minos" civil="M" type="D" statut="dieu" age="A" stat_amour="néant">MINOS</role>.</castItem>
+        <castItem><role xml:id="moliere" civil="M" type="H" statut="poète" age="A" stat_amour="néant">MOLIÈRE</role>, poète Comique.</castItem>
+        <castItem><role xml:id="la-precieuse" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">LA PRÉCIEUSE</role>, de la Comédie des Précieuses.</castItem>
+        <castItem><role xml:id="mascarille" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LE MARQUIS DE MASCARILLE</role>, de la même Comédie.</castItem>
+        <castItem><role xml:id="le-cocu" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LE COCU</role>, du Cocu Imaginaire.</castItem>
+        <castItem><role xml:id="nicole" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">NICOLE</role>, du Bourgeois Gentilhomme.</castItem>
+        <castItem><role xml:id="pourceaugnac" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">POURCEAUGNAC</role>, de la Comedie de Pourceaugnac.</castItem>
+        <castItem><role xml:id="madame-jourdain" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">MADAME JOURDAIN</role>, du Bourgeois Gentilhomme.</castItem>
+        <castItem><role xml:id="quatre-medecins" civil="G" type="H" statut="bourgeois" age="A" stat_amour="néant">QUATRE MEDECINS</role>, de la Comédie des Médecins.</castItem>
+        <castItem><role xml:id="l-envie" civil="F" type="A" statut="allégorie" age="A" stat_amour="néant">L’ENVIE</role>.</castItem>
+      </castList>
+      <set location="Champs Elysées" country="Pays mythologique" periode="Temps mythologiques" link="">La Scène est dans les Champs Elysées.</set>
+    </front>
+    <body>
+      <div1 type="acte" n="1" xml:id="I">
+        <head>PROLOGUE DE L’OMBRE DE MOLIERE</head>
+        <div2 type="scene" n="1" xml:id="I01">
+          <head>ORONTE, CLÉANTE</head>
+          <sp who="oronte" xml:id="I01-1">
+            <speaker>oronte</speaker>
+            <p>
+              <s>Point, vous dis-je ; c’est une raillerie qu’on vous a faite de moi.</s>
+            </p>
+          </sp>
+          <sp who="cleante" xml:id="I01-2">
+            <speaker>cléante</speaker>
+            <p>
+              <s>Je vous dis que je suis sûr de la chose.</s>
+            </p>
+          </sp>
+          <sp who="oronte" xml:id="I01-3">
+            <speaker>oronte</speaker>
+            <p>
+              <s>C’est quelqu’un qui a voulu se divertir à mes dépens, vous dis-je.</s>
+            </p>
+          </sp>
+          <sp who="cleante" xml:id="I01-4">
+            <speaker>cléante</speaker>
+            <p>
+              <s>Ah !</s>
+              <s>Que vous êtes réservé !</s>
+            </p>
+          </sp>
+          <sp who="oronte" xml:id="I01-5">
+            <speaker>oronte</speaker>
+            <note type="L">Madrigal : petite poésie amoureuse composée d’un petit nombre de vers libres inégaux, qui n’a ni la gêne dun sonnet, ni la subtilité dune épigramme, mais qui se contente dune pensée tendre et agréable. [F]</note>
+            <p>
+              <s>Mais que vous êtes folâtre avec votre comédie !</s>
+              <s>C’est bien à moi à entreprendre de ces ouvrages ?</s>
+              <s>Non, non, Cléante, je me connais ; et si parmi mes Amis je me laisse aller à produire quelque épigramme, quelque madrigal, ou de semblables bagatelles, croyez que cela ne m’a point donné assez bonne opinion de moi pour entreprendre un ouvrage que l’on puisse appeler comédie.</s>
+              <s>C’est un pas, à la vérité, que presque tous les gens franchissent aisément ; et il semble qu’il suffise d’avoir fait à plusieurs reprises une certaine quantité de médiocres ou de méchants vers pour se donner avec beaucoup d’impunité le nom d’auteur ; et sous ce titre, on hasarde librement un assemblage de caractères bien ou mal fondés, d’incidents amenés à force, et de galimatias redoublés, que l’on baptise effrontément du nom de comédie.</s>
+              <s>Voilà par où plusieurs honnêtes gens ont échoué dans le monde ; et sur leur exemple, je ne hasarderai point, mon cher Cléante, de perdre un peu d’estime que d’autres talents que la poésie m’ont acquise.</s>
+              <s>Quand on peut faire quelque chose de mieux qu’une méchante pièce, on ne doit point travailler à cet ouvrage ; et quoi qu’on entreprenne, si l’on ne peut y réussir parfaitement, il vaudrait encore mieux ne rien faire du tout.</s>
+            </p>
+          </sp>
+          <sp who="cleante" xml:id="I01-6">
+            <speaker>cléante</speaker>
+            <p>
+              <s>Je vous trouve admirable, Oronte, avec tous ces justes et beaux raisonnements !</s>
+              <s>Mais ce qui m’en plaît le plus, c’est de vous voir si bien condamner aux autres une démangeaison dont vous n’avez pu vous défendre.</s>
+              <s>Oui, morbleu, je vous dis que vous avez fait une comédie.</s>
+            </p>
+          </sp>
+          <sp who="oronte" xml:id="I01-7">
+            <speaker>oronte</speaker>
+            <p>
+              <s>Moi ?</s>
+            </p>
+          </sp>
+          <sp who="cleante" xml:id="I01-8">
+            <speaker>cléante</speaker>
+            <p>
+              <s>Vous l’avez donnée à étudier déjà.</s>
+            </p>
+          </sp>
+          <sp who="oronte" xml:id="I01-9">
+            <speaker>oronte</speaker>
+            <p>
+              <s>Encore ?</s>
+            </p>
+          </sp>
+          <sp who="cleante" xml:id="I01-10">
+            <speaker>cléante</speaker>
+            <p>
+              <s>C’est une petite pièce en prose.</s>
+            </p>
+          </sp>
+          <sp who="oronte" xml:id="I01-11">
+            <speaker>oronte</speaker>
+            <p>
+              <s>Bon.</s>
+            </p>
+          </sp>
+          <sp who="cleante" xml:id="I01-12">
+            <speaker>cléante</speaker>
+            <p>
+              <s>Et les Comédiens qui la représenteront, sont cachés là-haut dans votre chambre, pour la répéter aujourd’hui.</s>
+              <s>Là, rougissez à présent qu’on vous met le doigt sur la pièce.</s>
+              <s>Hé ?</s>
+            </p>
+          </sp>
+          <sp who="oronte" xml:id="I01-13">
+            <speaker>oronte</speaker>
+            <p>
+              <s>Comment avez-vous su cela ?</s>
+            </p>
+          </sp>
+          <sp who="cleante" xml:id="I01-14">
+            <speaker>cléante</speaker>
+            <p>
+              <s>Ah !</s>
+              <s>Comment je l’ai su ?</s>
+              <s>Que me donnerez-vous, et je vous le dirai ?</s>
+            </p>
+          </sp>
+          <sp who="oronte" xml:id="I01-15">
+            <speaker>oronte</speaker>
+            <p>
+              <s>Hé, de grâce, dites-moi qui m’aurait pu trahir.</s>
+              <s>C’est une chose que je n’ai confiée qu’à mon frère et à ma femme.</s>
+            </p>
+          </sp>
+          <sp who="cleante" xml:id="I01-16">
+            <speaker>cléante</speaker>
+            <p>
+              <s>Socrate se repentit d’avoir dit son secret à la sienne : mais ce n’est point de la vôtre dont j’ai appris ceci ; et pour vous tirer d’inquiétude, sachez que le hasard, et votre peu de soin, m’ont appris que vous aviez fait une comédie.</s>
+              <s>Vous connaissez votre écriture apparemment, puisque je la connais aussi.</s>
+              <s>Tenez.</s>
+              <s>L’OMBRE DE MOLIÈRE, petite comédie en Prose.</s>
+              <s>Eh ?</s>
+            </p>
+          </sp>
+          <sp who="oronte" xml:id="I01-17">
+            <speaker>oronte</speaker>
+            <p>
+              <s>Ah Cléante !</s>
+              <s>je vous l’avoue, puisque vous le savez : je m’y suis laissé aller ; il est vrai, vous tenez mon ouvrage ; c’est une petite pièce de ma façon, et vous êtes trop de mes amis, pour ne pas vous le dire.</s>
+            </p>
+          </sp>
+          <sp who="cleante" xml:id="I01-18">
+            <speaker>cléante</speaker>
+            <p>
+              <s>Ah !</s>
+              <s>Je vous suis trop obligé vraiment ; et vous m’avez confié ce secret de trop bonne grâce, pour ne vous en pas témoigner ma reconnaissance.</s>
+            </p>
+          </sp>
+          <sp who="oronte" xml:id="I01-19">
+            <speaker>oronte</speaker>
+            <p>
+              <s>Que vous êtes fou !</s>
+              <s>Donnez donc.</s>
+              <s>C’est une bagatelle que je n’ai pas jugé digne d’entrer dans votre confidence ; et pour vous le dire franchement, c’est l’effet de quelques heures de mélancolie qui m’ont fait griffonner ce petit ouvrage.</s>
+              <s>Vous savez que j’estimais Molière ; et cette pièce n’est autre chose qu’un monument de mon amitié que je consacre à sa mémoire.</s>
+              <s>La manière dont il paraît dans ma comédie, le représente naturellement comme il était, c’est-à-dire comme le censeur de toutes les choses déraisonnables, blâmant les sottises, l’ignorance, et les vices de son siècle.</s>
+            </p>
+          </sp>
+          <sp who="cleante" xml:id="I01-20">
+            <speaker>cléante</speaker>
+            <p>
+              <s>Il est vrai qu’il a heureusement joué toutes sortes de matières ; et son théâtre nous a servi longtemps d’une divertissante et profitable école.</s>
+            </p>
+          </sp>
+          <sp who="oronte" xml:id="I01-21">
+            <speaker>oronte</speaker>
+            <p>
+              <s>Il était dans son particulier, ce qu’il paraissait dans la morale de ses pièces ; honnête, judicieux, humain, franc, généreux ; et même, malgré ce qu’en ont cru quelques esprits mal faits, il tenait un si juste milieu dans de certaines matières, qu’il s’éloignait aussi sagement de l’excès, qu’il savait se garder d’une dangereuse médiocrité.</s>
+              <s>Mais la chaleur de notre ancienne amitié m’emporte, et je m’aperçois qu’insensiblement je ferais son panégyrique, au lieu de vous demander quartier ; j’ai plus besoin de grâce, que sa mémoire de louanges.</s>
+              <s>C’est pourquoi, cher Cléante, je vous redemande ma pièce : mais puisque vous êtes ici, honorez-la de votre attention, et ne la regardez, je vous prie, que comme une chose que j’ai dédiée à la seule mémoire de mon ami.</s>
+            </p>
+          </sp>
+          <sp who="cleante" xml:id="I01-22">
+            <speaker>cléante</speaker>
+            <p>
+              <s>Allez, Oronte, quelque chose que ce soit, le seul sentiment qui vous l’a fait entreprendre, vous doit assurer de la réussite de votre ouvrage ; et rien n’est plus honnête à vous, que de montrer au public avec quelle justice vous estimiez un si grand homme.</s>
+            </p>
+          </sp>
+          <sp who="oronte" xml:id="I01-23">
+            <speaker>oronte</speaker>
+            <p>
+              <s>Ne me faites pas rougir davantage, Cléante ; et venez seulement donner votre avis sur notre répétition.</s>
+            </p>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="acte" n="2" xml:id="II">
+        <head>L’OMBRE DE MOLIÈRE</head>
+        <div2 type="scene" n="1" xml:id="II01">
+          <head>SCÈNE PREMIÈRE</head>
+          <stage>Le théâtre s’ouvre par DEUX OMBRES, qui, en dansant, apportent chacune un morceau de tout ce qui peut former un tribunal ; et après l’avoir dressé, elles se disputent un balai pour nettoyer ce lieu, où Pluton se doit venir rendre bientôt.</stage>
+          <sp who="premiere-ombre" xml:id="II01-1">
+            <speaker>première ombre</speaker>
+            <p>
+              <s>Donne, donne-moi ce balai.</s>
+            </p>
+          </sp>
+          <sp who="deuxieme-ombre" xml:id="II01-2">
+            <speaker>deuxième ombre</speaker>
+            <p>
+              <s>Je n’en ferai rien, c’est à moi à balayer ici : Pluton y va venir, et je veux que tout soit net, et propre comme il faut.</s>
+            </p>
+          </sp>
+          <sp who="premiere-ombre" xml:id="II01-3">
+            <speaker>première ombre</speaker>
+            <p>
+              <s>Oui, mais je te dispute cet honneur ; cela m’appartient mieux qu’à toi.</s>
+            </p>
+          </sp>
+          <sp who="deuxieme-ombre" xml:id="II01-4">
+            <speaker>deuxième ombre</speaker>
+            <p>
+              <s>Et par quelle raison ?</s>
+            </p>
+          </sp>
+          <sp who="premiere-ombre" xml:id="II01-5">
+            <speaker>première ombre</speaker>
+            <p>
+              <s>Par la raison que quand j’étais dans l’autre Monde, je me suis si bien acquitté de mon emploi, que je mérite bien en celui-ci l’honneur de l’exercer encore.</s>
+            </p>
+          </sp>
+          <sp who="deuxieme-ombre" xml:id="II01-6">
+            <speaker>deuxième ombre</speaker>
+            <p>
+              <s>Et quel mérite avais-tu plus que moi en l’autre Monde ?</s>
+              <s>N’étions-nous pas laquais tous deux ?</s>
+            </p>
+          </sp>
+          <sp who="premiere-ombre" xml:id="II01-7">
+            <speaker>première ombre</speaker>
+            <p>
+              <s>Oui, mais il y a laquais, et laquais.</s>
+            </p>
+          </sp>
+          <sp who="deuxieme-ombre" xml:id="II01-8">
+            <speaker>deuxième ombre</speaker>
+            <p>
+              <s>Et qu’as-tu à me reprocher ?</s>
+              <s>N’ai-je pas fidèlement servi tous les maîtres à qui j’ai été ?</s>
+            </p>
+          </sp>
+          <sp who="premiere-ombre" xml:id="II01-9">
+            <speaker>première ombre</speaker>
+            <note type="L">Friponner : voler, tromper, escroquer. [F]</note>
+            <p>
+              <s>Ai-je manqué en rien, moi, à tout ce que les miens m’ont commandé ?</s>
+              <s>Et quand je servais, par exemple, cet illustre et fameux tailleur, m’a-t-on jamais vu lui friponner la moindre guenille des choses qu’il dérobait ?</s>
+            </p>
+          </sp>
+          <sp who="deuxieme-ombre" xml:id="II01-10">
+            <speaker>deuxième ombre</speaker>
+            <note type="L">Partie : en termes de Palais, se dit de tous les plaideurs. [F].</note>
+            <p>
+              <s>Et quand je servais, moi, mon petit grison de Procureur, m’a-t-on jamais vu abuser des secrets qu’il me confiait, ni révéler aucune des friponneries qu’il faisait à ses parties ?</s>
+            </p>
+          </sp>
+          <sp who="premiere-ombre" xml:id="II01-11">
+            <speaker>première ombre</speaker>
+            <p>
+              <s>M’a-t-on vu manquer jamais à la fidélité que j’ai due à une maîtresse coquette que je servais, ni avertir son mari que je portais tous les jours des billets-doux à ses galants ?</s>
+            </p>
+          </sp>
+          <sp who="deuxieme-ombre" xml:id="II01-12">
+            <speaker>deuxième ombre</speaker>
+            <note type="L">Empirique : terme de médecine. Celui qui tient que la médecine ne consiste que dans lexpérience. [R]</note>
+            <p>
+              <s>Et, durant les quatre années que j’ai servi ce fameux empirique, m’a-t-on jamais oui dire le moindre mot des poisons qu’il composait, et de toutes les vies qu’il vendait par ce moyen au plus offrant et dernier enchérisseur ?</s>
+            </p>
+          </sp>
+          <sp who="premiere-ombre" xml:id="II01-13">
+            <speaker>première ombre</speaker>
+            <p>
+              <s>Tout beau ; le secret de faire mourir les gens a quelque rapport avec la médecine, et nous ne serions pas bien venus à enfiler ce discours.</s>
+              <s>Nous nous échapperions peut-être à parler contre les médecins en parlant des morts.</s>
+              <s>Tu sais que ces messieurs sont un peu vindicatifs, et que depuis quelque temps surtout, nous en avons ici qui ne prêchent que la vengeance de ceux qui n’ont pas voulu mourir par leurs mains ; et s’il arrive que notre grand Pluton leur accorde quelque empire en ces lieux, comme ils le prétendent, ils pourraient bien étendre leur colère jusques sur nous, pour n’avoir pas parlé d’eux avec tout le respect qu’ils attendent.</s>
+              <s>C’est pourquoi nous ferons mieux de nous taire.</s>
+            </p>
+          </sp>
+          <sp who="deuxieme-ombre" xml:id="II01-14">
+            <speaker>deuxième ombre</speaker>
+            <p>
+              <s>À propos, c’est donc pour ces Messieurs que la fête se fait, et que nous venons tout préparer ici ?</s>
+            </p>
+          </sp>
+          <sp who="premiere-ombre" xml:id="II01-15">
+            <speaker>première ombre</speaker>
+            <p>
+              <s>Je ne sais si c’est pour d’autres, ou pour eux ; mais je sais bien que Pluton s’y doit rendre bientôt pour juger une grande affaire.</s>
+              <s>C’est pourquoi, si tu m’en crois, au lieu de quereller, et de disputer de nos avantages, nous prendrons chacun un balai, et nous nettoierons ensemble, pour avoir plus tôt fait.</s>
+              <s>Aussi bien je vois trop d’ordures ici pour un seul balayeur.</s>
+            </p>
+          </sp>
+          <sp who="deuxieme-ombre" xml:id="II01-16">
+            <speaker>deuxième ombre</speaker>
+            <p>
+              <s>Tu as raison ; mais j’entends du bruit ; serait-ce déja Pluton ?</s>
+            </p>
+          </sp>
+          <sp who="premiere-ombre" xml:id="II01-17">
+            <speaker>première ombre</speaker>
+            <note tyep="C">Le poète Doucet est une référence au dramaturge Quinault qui, dit-on, « a passé pour la douceur mesme », ce que Brécourt rappelle à la scène II. [CRHT]</note>
+            <p>
+              <s>Attends : Non, non ce n’est pas lui encore ; c’est Caron avec le génie du poète Doucet.</s>
+              <s>Je crois qu’ils n’auront jamais fini leur querelle.</s>
+            </p>
+          </sp>
+          <sp who="deuxieme-ombre" xml:id="II01-18">
+            <speaker>deuxième ombre</speaker>
+            <p>
+              <s>À qui en a Caron aussi, de tourmenter incessamment ce pauvre génie ?</s>
+            </p>
+          </sp>
+          <sp who="premiere-ombre" xml:id="II01-19">
+            <speaker>première ombre</speaker>
+            <p>
+              <s>Il faut bien qu’il lui ait fait quelque chose.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="II02">
+          <head>SCÈNE II</head>
+          <stage>Caron, Le Poète, Les Deux Ombres.</stage>
+          <sp who="caron" xml:id="II02-1">
+            <speaker>caron</speaker>
+            <p>
+              <s>Que font là ces Coquins ?</s>
+              <s>Allons, tout est-il net ?</s>
+            </p>
+          </sp>
+          <sp who="premiere-ombre" xml:id="II02-2">
+            <speaker>première ombre</speaker>
+            <p>
+              <s>Oui, Messieurs, et vous pouvez quereller ici fort proprement.</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II02-3">
+            <speaker>caron</speaker>
+            <p>
+              <s>Quoi !</s>
+              <s>Tu ne me laisseras pas en repos ?</s>
+              <s>Veux-tu te retirer ?</s>
+            </p>
+          </sp>
+          <sp who="le-pœte" xml:id="II02-4">
+            <speaker>le poète</speaker>
+            <p>
+              <s>Hélas, Caron !</s>
+              <s>Hélas !</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II02-5">
+            <speaker>caron, le raillant sur le même ton</speaker>
+            <p>
+              <s>Hélas, Caron !</s>
+              <s>Hélas !</s>
+              <s>À qui diable en as-tu avec tes piteux hélas ?</s>
+            </p>
+          </sp>
+          <sp who="le-pœte" xml:id="II02-6">
+            <speaker>le poète</speaker>
+            <p>
+              <s>Quoi !</s>
+              <s>Me laisser sécher ainsi dans les Champs-Elysées !</s>
+              <s>N’as-tu point quelque endroit à me mettre, et dois-je rester parmi les Ombres errantes ?</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II02-7">
+            <speaker>caron</speaker>
+            <p>
+              <s>Et où veux-tu que je te fourre, malheureux Génie que tu es ?</s>
+              <s>Veux-tu que je te mette parmi les poètes ?</s>
+              <s>Cela est indigne de ton mérite.</s>
+              <s>Que je t’aille nicher aussi parmi des héros ?</s>
+              <s>Ma foy, tu les as un peu trop bien accommodés, pour croire qu’ils s’accommodassent de toi.</s>
+            </p>
+          </sp>
+          <sp who="le-pœte" xml:id="II02-8">
+            <speaker>le poète</speaker>
+            <p>
+              <s>Et quel outrage leur ai-je fait ?</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II02-9">
+            <speaker>caron</speaker>
+            <p>
+              <s>Ce que tu leur as fait ?</s>
+              <s>Ma foi, tu en as fait de forts jolis garçons ; et principalement les héros grecs ont grand sujet de se louer de toi.</s>
+              <s>Tu les as si bien barbouillés, qu’ils n’ont plus besoin de masques de carnaval pour se déguiser.</s>
+            </p>
+          </sp>
+          <sp who="le-pœte" xml:id="II02-10">
+            <speaker>le poète</speaker>
+            <p>
+              <s>Que tu fais le plaisant mal à propos !</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II02-11">
+            <speaker>caron</speaker>
+            <note tyep="L">Virgile [70 av. JC- 19 av. JC] : poète latin auteur entre autres, des Bucoliques, des Géorgiques et de L’Enéide.</note>
+            <p>
+              <s>Tu as raison, mais ce n’est que depuis que nous nous voyons.</s>
+              <s>Ce faquin, sans me connaître, m’a si bien traduit en diseur de bons mots, que l’on me chante en l’autre Monde comme un opérateur grotesque, moi qui à force d’entendre des lamentations, dois être triste comme un bonnet de nuit sans coiffe.</s>
+              <s>Hé bien, tenez, ne voilà-t-il pas encore ?</s>
+              <s>Un Bonnet de nuit sans coiffe !</s>
+              <s>Depuis que je connais cet animal, je ne dis que des sottises.</s>
+              <s>Il me prend envie de te mettre aux mains avec Virgile, il t’apprendra à me connaître.</s>
+            </p>
+          </sp>
+          <sp who="le-pœte" xml:id="II02-12">
+            <speaker>le poète</speaker>
+            <p>
+              <s>Hélas, Caron !</s>
+              <s>Hélas !</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II02-13">
+            <speaker>caron</speaker>
+            <note type="L">Bailler : donner, mettre la main. [F]</note>
+            <p>
+              <s>Encore ?</s>
+              <s>Ma foi, je te baillerai de ma rame sur les oreilles.</s>
+            </p>
+          </sp>
+          <sp who="le-pœte" xml:id="II02-14">
+            <speaker>le poète</speaker>
+            <p>
+              <s>Peux-tu traiter avec tant de rigueur un génie qui a passé pour la douceur même ?</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II02-15">
+            <speaker>caron</speaker>
+            <p>
+              <s>Hé tu n’étais que trop doux, mon enfant, et un peu de sel t’aurait fait grand bien.</s>
+              <s>Mais je suis las de t’entendre ; nous avons bien d’autres affaires ; adieu, va te promener.</s>
+              <s>Ne va pas gâter nos belles allées au moins, ni t’amuser à cueillir nos lauriers.</s>
+              <s>Ce n’est pas viande pour tes oiseaux.</s>
+            </p>
+          </sp>
+          <sp who="le-pœte" xml:id="II02-16">
+            <speaker>le poète</speaker>
+            <p>
+              <s>Où veux-tu donc que j’aille ?</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II02-17">
+            <speaker>caron</speaker>
+            <p>
+              <s>Promène-toi sur l’égout ; et si la faim te prend, on te permet de manger quelques chardons pour te rafraîchir la bouche.</s>
+            </p>
+          </sp>
+          <sp who="le-pœte" xml:id="II02-18">
+            <speaker>le poète</speaker>
+            <p>
+              <s>Hélas, car...</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II02-19">
+            <speaker>caron</speaker>
+            <p>
+              <s>Ah, le Bourreau !</s>
+              <s>Tu ne sortiras pas ?</s>
+              <s>Allons, Balayeurs, faites votre charge ; voici Pluton ; et cet animal n’a que faire ici.</s>
+            </p>
+            <stage>Les Ombres chassent le poète avec le manche de leurs balais.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="II03">
+          <head>SCÈNE III</head>
+          <stage>Pluton, Radamate, MINOS, L’ENVIE, CARON.</stage>
+          <sp who="pluton" xml:id="II03-1">
+            <speaker>pluton assis dans son tribunal</speaker>
+            <p>
+              <s>Ça, il est donc question de rendre justice aujourd’hui.</s>
+              <s>Fais venir l’Accusé, Caron ; et que l’Envie amène les complaignants.</s>
+              <s>Nous avons donc bien des affaires, Messieurs ?</s>
+            </p>
+          </sp>
+          <sp who="radamante" xml:id="II03-2">
+            <speaker>radamante</speaker>
+            <p>
+              <s>Sans-doute, et il nous est arrivé aujourd’hui une Ombre qui nous va bien donner de la besogne.</s>
+            </p>
+          </sp>
+          <sp who="minos" xml:id="II03-3">
+            <speaker>minos</speaker>
+            <p>
+              <s>Ce ne sera pas une bagatelle que cette affaire-ci.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II03-4">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Comment ?</s>
+            </p>
+          </sp>
+          <sp who="minos" xml:id="II03-5">
+            <speaker>minos</speaker>
+            <p>
+              <s>Je vais vous instruire de tout, afin que vous n’ayez pas la peine tantôt d’interroger les parties.</s>
+              <s>Il y avait autrefois là-haut un certain homme qui se mêlait d’écrire, à ce qu’on dit ; mais il s’était rendu si difficile, que rien ne lui semblait parfait.</s>
+              <s>Il se mit d’abord à critiquer les façons de parler particulières ; ensuite il donna sur les habillements ; de là il attaqua les mœurs, et se mit inconsidérément à blâmer toutes les sottises du monde : il ne put jamais se résoudre à souffrir tous les abus qui s’y glissaient.</s>
+              <s>Il dévoila le mystère de chaque chose, fit connaître publiquement quel intérêt faisait agir les hommes, et fit si bien enfin, que par les lumières qu’il en donnait, on commençait de bonne-foi à trouver presque toutes les choses de la vie un peu ridicules.</s>
+              <s>Il n’y eut pas jusqu’à la médecine même qui n’eut part à sa censure ; et ce fut une des choses qu’il toucha le plus souvent, et sut si bien réussir en cette matière, que pour peu qu’il l’eut traitée encore, il y aurait eu lieu de craindre pour les médecins qu’ils n’eussent accompli pour une seconde fois quelque petit bannissement de six cents années.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II03-6">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Cela nous aurait fait grand tort.</s>
+            </p>
+          </sp>
+          <sp who="minos" xml:id="II03-7">
+            <speaker>minos</speaker>
+            <p>
+              <s>Et c’est son arrivée ici qui cause cette audience, qui sans doute ne sera pas sans difficulté.</s>
+              <s>Chacun prétend avoir sujet de se plaindre de lui ; lui prétend n’avoir offensé personne ; au contraire, de la manière dont il parle, il semble que tout le monde lui soit obligé, et même il en donne d’assez bonnes raisons, et voilà qui est embarrassant.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II03-8">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Tu l’as donc vu ?</s>
+            </p>
+          </sp>
+          <sp who="minos" xml:id="II03-9">
+            <speaker>minos</speaker>
+            <p>
+              <s>Je viens de l’entretenir il n’y a qu’un moment.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II03-10">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Où l’as-tu laissé ?</s>
+            </p>
+          </sp>
+          <sp who="minos" xml:id="II03-11">
+            <speaker>minos</speaker>
+            <note type="L">Térence : poète comique latin, né probablement à Carthage vers 200 avant JC, fut esclave du sénateur Terentius Lucanus, qui l’affranchit et lui fit donner une bonne éducation, et dont le poète prit le nom par reconnaissance. (...) On a de Térence six comédies. Molière a tiré les Fourberies de Scapin du Phormion et Baron a imité l’Adrienne. (...) [B]</note>
+            <note type="L">Plaute : poète comique latin, né vers 227 avant JC à Sarsine (Ombrie), mort en 183, était directeur de troupe en même temps qu’auteur, et jouait souvent lui-même. (...) Plaute avait composé, dit-on, jusqu’à 120 pièces, mais on lui en attribuait beaucoup qui n’étaient pas de lui. Nous n’avons plus que 20 de ses pièces dont Meneschmes. [B]</note>
+            <p>
+              <s>Dans l’allée des Poètes, où il a trouvé l’esprit de Térence et de Plaute, avec qui il se divertit.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II03-12">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Il faudra entendre les raisons de chacun.</s>
+              <s>Qu’on les fasse venir ; mais faites-les moi paraître sous les mêmes figures qu’ils avoient dans l’autre Monde, afin de les mieux discerner.</s>
+            </p>
+          </sp>
+          <sp who="radamante" xml:id="II03-13">
+            <speaker>radamante</speaker>
+            <p>
+              <s>Voici déjà l’accusé que Caron vous amène.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II03-14">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Où sont les complaignants ?</s>
+            </p>
+          </sp>
+          <sp who="minos" xml:id="II03-15">
+            <speaker>minos</speaker>
+            <p>
+              <s>L’Envie les doit conduire ici.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="II04">
+          <head>SCÈNE IV</head>
+          <stage>Molière, Caron, Pluton, Radam, Minos.</stage>
+          <sp who="caron" xml:id="II04-1">
+            <speaker>caron</speaker>
+            <p>
+              <s>Je n’y puis plus tenir ; jamais il ne s’est vu tant d’Ombres en un jour ; et la porte va rompre si vous n’y donnez ordre.</s>
+            </p>
+          </sp>
+          <sp who="les-ames" xml:id="II04-2">
+            <speaker>toutes les âmes</speaker>
+            <p>
+              <s>Caron...</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II04-3">
+            <speaker>caron</speaker>
+            <p>
+              <s>Entendez-vous comme on m’appelle ?</s>
+              <s>Dés qu’ils ont vu que je faisais entrer cette Ombre, ils ont pensé me dévorer.</s>
+            </p>
+          </sp>
+          <sp who="les-ames" xml:id="II04-4">
+            <speaker>toutes les âmes</speaker>
+            <p>
+              <s>Caron...</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II04-5">
+            <speaker>caron</speaker>
+            <p>
+              <s>On y va.</s>
+              <s>Ordonnez donc ce que vous voulez que je laisse entrer.</s>
+            </p>
+          </sp>
+          <sp who="les-ames" xml:id="II04-6">
+            <speaker>toutes les âmes</speaker>
+            <p>
+              <s>Caron...</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II04-7">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Hé patience.</s>
+              <s>Qui sont-ils tous ces gens là ?</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II04-8">
+            <speaker>caron</speaker>
+            <p>
+              <s>Ce sont des précieuses, des bourgeoises, des marquis ridicules, des femmes savantes, des avares, des hypocrites, des jaloux, des cocus, et des médecins.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II04-9">
+            <speaker>pluton</speaker>
+            <p>
+              <s>En voilà trop pour un jour : qu’il n’en vienne qu’une partie.</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II04-10">
+            <speaker>caron</speaker>
+            <p>
+              <s>J’oubliais encore un Limousin, dont l’esprit est assez matériel pour servir de corps en un besoin.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II04-11">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Fais-les entrer selon le rang qu’ils auront à la porte.</s>
+              <s>Radamante, prends le rôle pour écrire le nom des complaignants.</s>
+              <s>Çà, qui est celle-ci ?</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="II05">
+          <head>SCÈNE V</head>
+          <stage>La Précieuse, Caron, Pluton, Molière, Minos, Radam.</stage>
+          <sp who="caron" xml:id="II05-1">
+            <speaker>caron</speaker>
+            <p>
+              <s>Vous l’allez reconnaître à son langage.</s>
+            </p>
+          </sp>
+          <sp who="la-precieuse" xml:id="II05-2">
+            <speaker>la précieuse</speaker>
+            <p>
+              <s>Grand Monarque des sombres habitations, plaise aux destins que vous prêtiez attentivement le sens auriculaire de votre Justice aux éloquentes articulations de nos clameurs, et que par le triste visage de notre âme vous puissiez être pénétré de nos unanimes sentiments.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II05-3">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Quel langage est-ce là ?</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II05-4">
+            <speaker>caron</speaker>
+            <p>
+              <s>C’est le franc précieux.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II05-5">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Voila un beau jargon, vraiment.</s>
+              <s>Écoutons.</s>
+            </p>
+          </sp>
+          <sp who="la-precieuse" xml:id="II05-6">
+            <speaker>la précieuse</speaker>
+            <p>
+              <s>La surprenante horreur de notre accablement coûtera, sans-doute, quelque égarement à la grandeur de votre âme.</s>
+              <s>Vous voyez à vos genoux une addition de Précieuses qui vous en représente le Corps, pour faire pencher en leur faveur l’équilibre de votre Justice contre le matériel échappement de ce chronologiste scandaleux.</s>
+              <s>Bien que la vengeance ne soit pas d’une âme du premier Ordre, lorsque l’outrage a pris le vif, c’est une faiblesse de se laisser aller aux tendres émulations d’une pitié séduite par les vaines erreurs de l’ostentation.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II05-7">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Ma foi, je n’y entends goutte.</s>
+            </p>
+          </sp>
+          <sp who="la-precieuse" xml:id="II05-8">
+            <speaker>la précieuse</speaker>
+            <p>
+              <s>La férocité de cet esprit sauvage a si bien donné la chasse au gibier de notre éloquence, que l’indigestion de nos pensées n’ose plus trouver le supplément de nos expressions.</s>
+              <s>Il nous a si bien atteintes du crime d’absurdité, que nous en paraissons presque convaincues partout le piédestal du bas-monde.</s>
+              <s>Pardonnez, grand Monarque, si j’ose vous parler si vulgairement, et si toutes nos pensées ne sont pas revêtues d’expressions nobles et vigoureuses.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II05-9">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Hé, il n’y a point de mal à cela ; au contraire, on ne se pique pas ici de beau langage.</s>
+              <s>Dites un peu naturellement votre affaire, car foi de Dieu d’ici-bas je n’y ai rien compris encore.</s>
+            </p>
+          </sp>
+          <sp who="la-precieuse" xml:id="II05-10">
+            <speaker>la précieuse</speaker>
+            <note type="C">Voir Les Précieuses ridicules de Molière, scène IV, Cathos, première réplique.</note>
+            <p>
+              <s>Se peut-il faire que votre noire Majesté ait la forme si enfoncée dans la matière ?</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II05-11">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Ma foi, je ne vous entends pas.</s>
+            </p>
+          </sp>
+          <sp who="la-precieuse" xml:id="II05-12">
+            <speaker>la précieuse</speaker>
+            <p>
+              <s>Quoi !</s>
+              <s>La dureté de votre compréhension ne peut être amollie par le concert éclatant des rares qualités de vos vertus sublimes ?</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II05-13">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Je ne sais ce que c’est que tout cela, mais j’aurai soin de vous rendre justice.</s>
+              <s>Passez sur les ailes de mon trône.</s>
+            </p>
+          </sp>
+          <sp who="la-precieuse" xml:id="II05-14">
+            <speaker>la précieuse</speaker>
+            <p>
+              <s>Quoi, Monarque enfumé !</s>
+              <s>Vous répandrez de vos propres bontés sur le gémissement de nos altercations ?</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II05-15">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Cela se pourra bien ; mais laissez-nous un peu travailler à d’autres jugements.</s>
+              <s>Minos, écrits-la sur le rôle, et me fais ressouvenir de tout ce qu’elle a dit.</s>
+              <s>Allons, que répons-tu à cette accusation ?</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II05-16">
+            <speaker>molière</speaker>
+            <p>
+              <s>Rien, et cette matière est indigne de moi.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II05-17">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Hé bien, que quelqu’autre entre donc, on jugera tout ensemble.</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II05-18">
+            <speaker>caron</speaker>
+            <p>
+              <s>Allons, que le plus proche de la porte vienne.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6" xml:id="II06">
+          <head>SCÈNE VI</head>
+          <stage>Le Marquis, Caron, Pluton, Minos, Radamante, Molière.</stage>
+          <sp who="pluton" xml:id="II06-1">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Ça, qui est celui-ci ?</s>
+            </p>
+          </sp>
+          <sp who="le-marquis" xml:id="II06-2">
+            <speaker>le marquis, à molière sur un ton de fausset</speaker>
+            <note tyep="C">Voir le personnage de Mascarille dans les Précieuses ridicules de Molière.</note>
+            <p>
+              <s>Ah parbleu !</s>
+              <s>Mon petit Monsieur, je suis bien-aise de vous trouver ici.</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II06-3">
+            <speaker>molière</speaker>
+            <p>
+              <s>Qui es-tu, toi, pour me parler ainsi ?</s>
+            </p>
+          </sp>
+          <sp who="le-marquis" xml:id="II06-4">
+            <speaker>le marquis</speaker>
+            <p>
+              <s>Je suis un de ces Marquis, mon ami, que vous tournez en ridicule.</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II06-5">
+            <speaker>molière</speaker>
+            <note type="L">Canon : est un ornement de toile rond fort large, et souvent orné de dentelle qu’on attache au-dessus du genoux, qui prend jusqu’à moitié jambe pour la couvrir. [F]</note>
+            <p>
+              <s>Et où sont les grands canons que je t’avais donnés ?</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II06-6">
+            <speaker>caron</speaker>
+            <p>
+              <s>Ils sont restés à la porte, qui était trop étroite pour les faire passer.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II06-7">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Çà, que demandez-vous ?</s>
+            </p>
+          </sp>
+          <sp who="le-marquis" xml:id="II06-8">
+            <speaker>le marquis</speaker>
+            <note type="L">Fausset : terme de musicien. Voix aigüe qui contrefait le dessus en un concert, et qui est d’ordinaire est désagréable et discordante, parce qu’elle n’est pas naturelle. Se dit aussi de celui qui fait le fausset. [F]</note>
+            <p>
+              <s>Je demande justice pour mes rubans, mes plumes, ma perruque, ma calèche, et mon fausset, qu’il a joués publiquement.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II06-9">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Que réponds-tu ?</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II06-10">
+            <speaker>molière chagrin</speaker>
+            <p>
+              <s>Rien.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II06-11">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Aux autres ; passez, on vous jugera à loisir.</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II06-12">
+            <speaker>caron, à l’entrée de la porte</speaker>
+            <p>
+              <s>Arrêtez donc, vous n’entrerez pas.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II06-13">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Qu’est-ce ?</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II06-14">
+            <speaker>caron</speaker>
+            <note type="L">Gaulis : terme de vénerie. Branche d’arbre qu’il faut que les veneurs plient ou détournent quand ils percent dans le fort d’un bois. [F]</note>
+            <p>
+              <s>C’est le plus fâcheux de tous nos morts.</s>
+              <s>Un Chasseur qui s’est cassé la tête sur son cheval Alezan, et qui ne parle à tout le monde que de gaulis, de gigots, de pieds, de croupe, et d’encolure.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II06-15">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Fais donc venir qui tu voudras.</s>
+              <s>Je commence à me lasser de tout ceci.</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II06-16">
+            <speaker>caron</speaker>
+            <p>
+              <s>Entrez, vous.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II06-17">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Çà, qu’est-ce encore que cette grosse ombre-ci ?</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II06-18">
+            <speaker>caron</speaker>
+            <p>
+              <s>C’est l’Ombre d’un Cocu.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II06-19">
+            <speaker>pluton</speaker>
+            <p>
+              <s>L’Ombre d’un Cocu ?</s>
+              <s>Il faut que ce soit un furieux corps !</s>
+              <s>Parle, que veux-tu ?</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="7" xml:id="II07">
+          <head>SCÈNE VII</head>
+          <stage>Le Cocu Imaginaire, Molière, Pluton, Caron, Minos, Radamante.</stage>
+          <sp who="le-cocu" xml:id="II07-1">
+            <speaker>le cocu</speaker>
+            <p>
+              <s>Vous voyez en ma seule Ombre tout le corps des cocus ; vous les voyez ici en moi, dis-je, affligés, outragés, et tout contrits des affronts publics que ce grand corps a reçus depuis que malicieusement cet ennemi juré de notre repos nous a rendus le jouet de tout le monde.</s>
+              <s>Il n’est presque aucun mari qui n’ait senti les traits piquants de sa Satire ; et depuis qu’il s’est mêlé d’annexer le cocuage à de certains maris, il se voit peu de familles où l’on ne soit persuadé de trouver des cocus de père en fils.</s>
+              <s>Ce soupçon outrageant est devenu par son moyen comme un titre de maison ; et il en a excepté si peu de gens, que si je ne parle pour tout le monde, il ne s’en faut guère du moins.</s>
+              <s>Voila de quoi se plaint notre illustre corps, qui avant sa scandaleuse médisance vivait dans l’état de la première innocence.</s>
+              <s>Chacun vivait content de sa petite réputation ; le scandale ne régnait point publiquement comme il fait ; et si l’on avait le malheur d’être cocu, on avait du moins la douceur de l’être en son petit particulier.</s>
+              <s>Mais depuis qu’il a dévoilé les mystères secrets, ce n’est plus partout qu’une gorge chaude des pauvres maris.</s>
+              <s>On en va à la moutarde, et plusieurs honnêtes gens même ont pris en dot le titre de cocus en signant leur contrat de mariage.</s>
+              <s>Si la discrétion des notaires n’était grande, quelqu’un de ces Messieurs en pourrait parler avec beaucoup de sûreté.</s>
+              <s>Voilà le désordre et le dérèglement qu’il a mis en l’autre monde, dont nous demandons en celui-ci justice, vengeance, et réparation.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II07-2">
+            <speaker>pluton à molière</speaker>
+            <p>
+              <s>Qu’avez-vous à dire là-dessus ?</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II07-3">
+            <speaker>molière</speaker>
+            <p>
+              <s>Rien ; je passe condamnation pour les cocus, et j’ai trop mal réussi dans cette affaire pour me pouvoir défendre.</s>
+              <s>Quelque soin que j’aie pris de faire horreur du cocuage, j’avoue de bonne-foi que c’est un vice dont je n’ai pu corriger mon siècle.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II07-4">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Minos, mets-le sur le Rôle.</s>
+              <s>Allez, on va vous écrire.</s>
+              <s>Qu’est-ce ?</s>
+              <s>Qu’y a-t-il de nouveau ?</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="8" xml:id="II08">
+          <head>SCÈNE VIII</head>
+          <stage>Caron, Pluton, Molière, Minos, Radamante.</stage>
+          <sp who="caron" xml:id="II08-1">
+            <speaker>caron</speaker>
+            <p>
+              <s>Je ne sais d’où nous est venue encore une plaisante espèce d’Ombre : mais je crois, si l’on pouvait trépasser deux fois, qu’elle ferait mourir de rire tous les morts d’ici-bas.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II08-2">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Comment donc ?</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II08-3">
+            <speaker>caron</speaker>
+            <p>
+              <s>Elle rit de tout, et ne s’afflige de rien, pas même d’être venue ici à la fleur de son âge.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II08-4">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Cela est de bon sens ; y venir tôt ou tard, c’est toujours y venir ; et comme l’usage de la mort est un peu de durée, on fait bien de s’y accoutumer de bonne heure.</s>
+              <s>Mais qui est-elle, cette Ombre ?</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II08-5">
+            <speaker>caron</speaker>
+            <p>
+              <s>Ce n’est qu’une servante.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II08-6">
+            <speaker>pluton</speaker>
+            <p>
+              <s>N’importe, fais-la entrer, il faut entendre tout le monde.</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II08-7">
+            <speaker>caron</speaker>
+            <p>
+              <s>Allons, la Rieuse, entrez.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="9" xml:id="II09">
+          <head>SCÈNE IX</head>
+          <stage>Nicole, Pluton, Molière, Minos, Radam, Caron.</stage>
+          <sp who="moliere" xml:id="II09-1">
+            <speaker>molière</speaker>
+            <note type="C">Voir le Bourgeois Gentilhomme, Acte III, Scène 2, Nicole rit aux éclats.</note>
+            <p>
+              <s>Ah !</s>
+              <s>C’est Nicole.</s>
+            </p>
+          </sp>
+          <sp who="nicole" xml:id="II09-2">
+            <speaker>nicole, riant à gorge déployée</speaker>
+            <p>
+              <s>Hé, oui, c’est moi.</s>
+              <s>Quand j’ai appris que vous étiez ici, par ma figue, ai-je dit en moi-même, il faut que j’aille voir ce pauvre Homme qui m’a tant fait rire en l’autre Monde.</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II09-3">
+            <speaker>molière</speaker>
+            <p>
+              <s>Tu es donc bien-aise d’être en celui-ci, Nicole, puis que tu ris si fort ?</s>
+            </p>
+          </sp>
+          <sp who="nicole" xml:id="II09-4">
+            <speaker>nicole</speaker>
+            <p>
+              <s>C’est que vous m’avez appris à me moquer de tout : et puis franchement je ne suis pas trop fâchée d’être ici, et je ne trouve pas que la mort soit si dégoûtante que l’on se l’imagine.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II09-5">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Et d’où vient que tu t’accommodes si aisément d’une chose que les hommes trouvent si peu aimable ?</s>
+            </p>
+          </sp>
+          <sp who="nicole" xml:id="II09-6">
+            <speaker>nicole</speaker>
+            <p>
+              <s>C’est que je ne me souciais guère de vivre.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II09-7">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Quoi !</s>
+              <s>Tu n’étais pas bien-aise de voir la lumière ?</s>
+            </p>
+          </sp>
+          <sp who="nicole" xml:id="II09-8">
+            <speaker>nicole</speaker>
+            <note type="L">Endéver : être fort fâché de quelques action, en avoir grand dépit, enrager. [F]</note>
+            <note type="L">Carême-prenant : Le jour du mardi qui précède le carême et quelquefois tout le temps du carnaval depuis les rois. (...) On appelle aussi des Carêmes-prenants, des gens du peuple qui se masquent de façon ridicules, et qui courent les rues. [F]</note>
+            <p>
+              <s>Non, car je ne faisais tous les jours que la même chose, dormir, boire, et manger ; et il me semble que le plaisir de la vie est de changer quelquefois.</s>
+              <s>À cette heure, voulez-vous que je vous dise, il y a une certaine égalité parmi les morts qui ne me déplaît pas.</s>
+              <s>Je ne vois personne ici qui soit plus grand Seigneur l’un que l’autre ; et j’ai pensé étouffer de rire quand j’ai rencontré en venant mille sortes de gens qui se désespéraient.</s>
+              <s>Un riche banquier pâle et maigre, qui endévait de s’être laissé mourir de faim.</s>
+              <s>Un Amoureux qui s’est tué pour une maîtresse qui ne l’aimait point.</s>
+              <s>Un Alchimiste qui enrageait d’avoir passé sa vie en fumée ; mais, entre-autres choses, des Dames qui pleuraient de me voir assise auprès d’elles.</s>
+              <s>D’autres qui s’affligeaient de n’avoir plus de toilettes, de miroirs, et de petites boîtes.</s>
+              <s>Il n’y a rien de plus plaisant que de les voir sans rouge, sans mouches, et sans cheveux ; avec leur grand front chauve, leurs yeux creusés, et leurs joues décharnées ; vous les prendriez pour des carême-prenants.</s>
+              <s>Enfin la plus belle et la plus laide se ressemblent comme deux gouttes d’eau.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II09-9">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Il n’est pas question de cela.</s>
+              <s>Qu’avez-vous à dire contre l’accusé ?</s>
+            </p>
+          </sp>
+          <sp who="nicole" xml:id="II09-10">
+            <speaker>nicole</speaker>
+            <p>
+              <s>Moi ?</s>
+              <s>Par ma figue, je n’ai rien à dire contre lui, c’est une bonne Ombre ; et tenez, Monsieur Pluton, c’est peut-être la meilleure pièce de votre sac.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II09-11">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Que voulez-vous donc ?</s>
+            </p>
+          </sp>
+          <sp who="nicole" xml:id="II09-12">
+            <speaker>nicole, riant</speaker>
+            <p>
+              <s>Monsieur, je viens vous prier...</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II09-13">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Hé ?</s>
+            </p>
+          </sp>
+          <sp who="nicole" xml:id="II09-14">
+            <speaker>nicole, riant</speaker>
+            <p>
+              <s>Je viens vous prier, Monsieur...</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II09-15">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Et là, dites donc ?</s>
+            </p>
+          </sp>
+          <sp who="nicole" xml:id="II09-16">
+            <speaker>nicole, riant toujours</speaker>
+            <p>
+              <s>Je viens vous prier, Monsieur...</s>
+              <s>de me...</s>
+              <s>laisser...</s>
+              <s>de me laisser...</s>
+              <s>de me laisser...</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II09-17">
+            <speaker>pluton, la contrefaisant</speaker>
+            <p>
+              <s>Et moi, ma Mie, je vous prie de nous laisser...</s>
+              <s>de nous laisser...</s>
+              <s>de nous laisser...</s>
+              <s>de nous laisser en repos, s’il vous plaît.</s>
+            </p>
+          </sp>
+          <sp who="nicole" xml:id="II09-18">
+            <speaker>nicole, éclatant de rire</speaker>
+            <p>
+              <s>Monsieur, je vous prie...</s>
+              <s>S’il vous plaît...</s>
+              <s>De m’accorder le plaisir...</s>
+              <s>Le plaisir de rire tout mon saoul, de vous, et de votre royaume.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II09-19">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Ôtez-moi cette impudente.</s>
+              <s>Qu’est-ce encore ?</s>
+              <s>Je n’en veux plus entendre ; qu’on me laisse en repos ; l’audience est finie, et je vais prononcer.</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II09-20">
+            <speaker>caron</speaker>
+            <p>
+              <s>Hé, c’est l’Ombre de Pourceaugnac, ce brave Limousin ; elle n’a qu’un mot à vous dire.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II09-21">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Hé bien, qu’il entre.</s>
+              <s>Ah quelle peine !</s>
+              <s>Ne sera-ce jamais fait ?</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="10" xml:id="II10">
+          <head>SCÈNE X</head>
+          <stage>Pourceaugnac, Pluton, Molière, Minos, Radam, Caron.</stage>
+          <sp who="pourceaugnac" xml:id="II10-1">
+            <speaker>pourceaugnac</speaker>
+            <p>
+              <s>Grand Roi des Morts, vous me voyez ici, Député de la part de tous les Limousins trépassés, qui vous demandent qu’il leur soit permis ajourner cette Ombre, leur partie, par-devant vous, à trois jours, pour se voir condamner à réparation d’honneur envers les Pourceaugnacs passés, présents, et futurs, tant des affronts reçus, que de ceux qu’ils recevront.</s>
+              <s>À quoi je conclus.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II10-2">
+            <speaker>pluton, à moliere</speaker>
+            <p>
+              <s>Répondez.</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II10-3">
+            <speaker>molière</speaker>
+            <p>
+              <s>Hé Monsieur de Pourceaugnac !</s>
+              <s>Quel sujet avez-vous de vous plaindre de moy ?</s>
+              <s>Si vous preniez bien les choses, ne me loueriez-vous pas, au lieu de me blâmer, d’avoir rendu votre nom aussi célèbre que j’ai fait ?</s>
+              <s>Car dites-moi un peu ; ne vous ai-je pas déterré du fond du Limousin, et à force de tourmenter ma cervelle, ne vous ai-je pas amené dans la plus illustre Cour du Monde ?</s>
+              <s>Raisonnons un peu de bonne foi ; ne m’avez-vous pas quelque obligation de vous avoir fait faire un si beau voyage ?</s>
+            </p>
+          </sp>
+          <sp who="pourceaugnac" xml:id="II10-4">
+            <speaker>pourceaugnac</speaker>
+            <p>
+              <s>Hé...</s>
+              <s>Oui.</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II10-5">
+            <speaker>molière</speaker>
+            <p>
+              <s>N’est-ce pas moi qui vous ai fait connaître ?</s>
+            </p>
+          </sp>
+          <sp who="pourceaugnac" xml:id="II10-6">
+            <speaker>pourceaugnac</speaker>
+            <p>
+              <s>D’accord.</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II10-7">
+            <speaker>molière</speaker>
+            <p>
+              <s>Ne vous a-t-on pas vu avec beaucoup de plaisir ?</s>
+            </p>
+          </sp>
+          <sp who="pourceaugnac" xml:id="II10-8">
+            <speaker>pourceaugnac</speaker>
+            <p>
+              <s>Cela est vrai, car chacun riait dès qu’on me voyait.</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II10-9">
+            <speaker>molière</speaker>
+            <p>
+              <s>Vous a-t-on jamais banni des lieux publics ?</s>
+            </p>
+          </sp>
+          <sp who="pourceaugnac" xml:id="II10-10">
+            <speaker>pourceaugnac</speaker>
+            <p>
+              <s>Au contraire, on y donnait de l’argent pour me voir.</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II10-11">
+            <speaker>molière</speaker>
+            <p>
+              <s>Et enfin n’ai-je pas rendu votre nom immortel pour tout votre royaume ?</s>
+            </p>
+          </sp>
+          <sp who="pourceaugnac" xml:id="II10-12">
+            <speaker>pourceaugnac</speaker>
+            <p>
+              <s>Et comment immortel ?</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II10-13">
+            <speaker>molière</speaker>
+            <p>
+              <s>Comment ?</s>
+              <s>Hé dés qu’il arrive en France quelqu’un qui ait tant-soit-peu votre air, de vos gentillesses, et de vos petites façons de faire, fût-ce un Prince, ne dit-on pas, voila un vrai Pourceaugnac ?</s>
+              <s>Et n’est-ce pas un honneur considérable pour vous, et pour votre province, que votre nom quelquefois puisse servir d’une qualité aux gens de la plus haute naissance ?</s>
+            </p>
+          </sp>
+          <sp who="pourceaugnac" xml:id="II10-14">
+            <speaker>pourceaugnac</speaker>
+            <p>
+              <s>Il a quelque raison au fond.</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II10-15">
+            <speaker>molière</speaker>
+            <p>
+              <s>Hé, prenons toujours les choses du bon côté ; n’allons point envenimer les intentions, et croyons tout à notre avantage : je n’ai jamais rien fait qu’à votre honneur et gloire, et serais bien fâché, Monsieur de Pourceaugnac, que les choses eussent tourné autrement.</s>
+            </p>
+          </sp>
+          <sp who="pourceaugnac" xml:id="II10-16">
+            <speaker>pourceaugnac</speaker>
+            <note type="L">Fariboles : choses vaines qui ne éritet aucune considération. [F]</note>
+            <p>
+              <s>Ma foi, après tout, je pense en effet que j’ai tort de m’être fâché contre lui.</s>
+              <s>Qui diantre sont les sottes Ombres aussi qui s’avisent de me mettre des fariboles dans la tête ?</s>
+              <s>Allez, vous êtes des bêtes : Monsieur est une honnête Ombre, qui a pris la peine de me faire connaître, et vous ne savez pas prendre les choses du bon côté.</s>
+              <s>Monsieur, je suis fâché de tout ceci, et je vous demande pardon pour les Ombres de Limoges.</s>
+              <s>Je suis votre valet, tout à vous, votre serviteur, et votre ami.</s>
+              <s>Je vais chercher mon cousin l’assesseur, et mon neveu le chanoine, afin que nous buvions ensemble quelques verres d’oubli, pour ne nous plus souvenir du passé.</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II10-17">
+            <speaker>molière</speaker>
+            <p>
+              <s>Adieu, Monsieur de Pourceaugnac.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II10-18">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Messieurs, il est tard, et je vais lever le siège.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="11" xml:id="II11">
+          <head>SCÈNE XI</head>
+          <stage>Madame Jourdain, Pluton, Molière, Caron, Radam, Minos.</stage>
+          <sp who="madame-jourdain" xml:id="II11-1">
+            <speaker>madame jourdain tout essoufflée</speaker>
+            <p>
+              <s>Justice, justice, justice, justice, justice.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II11-2">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Qui est-ce encore ici ?</s>
+              <s>Je ne veux plus entendre personne, et je suis las de tant d’impertinentes plaintes.</s>
+              <s>Pourquoi l’as-tu laissée entrer ?</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II11-3">
+            <speaker>caron</speaker>
+            <p>
+              <s>Elle a forcé la porte.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II11-4">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Prends donc bien garde aux autres, et qu’il n’en entre plus.</s>
+              <s>Je n’ai jamais vu tant de canailles en un jour.</s>
+              <s>Çà, que demandez-vous ?</s>
+            </p>
+          </sp>
+          <sp who="madame-jourdain" xml:id="II11-5">
+            <speaker>madame jourdain, d’un air chagrin et brusque</speaker>
+            <p>
+              <s>Ce que je n’aurai pas.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II11-6">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Que vous faut il ?</s>
+              <s>Hé ?</s>
+            </p>
+          </sp>
+          <sp who="madame-jourdain" xml:id="II11-7">
+            <speaker>madame jourdain</speaker>
+            <p>
+              <s>Il me faut ce qui me manque.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II11-8">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Quelle nouvelle espèce est-ce encore ici ?</s>
+              <s>Dites-nous donc ce que vous avez ?</s>
+            </p>
+          </sp>
+          <sp who="madame-jourdain" xml:id="II11-9">
+            <speaker>madame jourdain</speaker>
+            <note type="C">Voir le Bourgeois Gentilhomme de Molière, acte III, scène IV, Madame Jourdain, seconde réplique.</note>
+            <p>
+              <s>J’ai la tête plus grosse que le poing, et si je ne l’ai pas enflée.</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II11-10">
+            <speaker>molière</speaker>
+            <p>
+              <s>Ah !</s>
+              <s>C’est Madame Jourdain, je la reconnais : et comment êtes-vous ici, Madame Jourdain ?</s>
+            </p>
+          </sp>
+          <sp who="madame-jourdain" xml:id="II11-11">
+            <speaker>madame jourdain</speaker>
+            <p>
+              <s>Sur mes pieds comme une oie.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II11-12">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Ah quelle femme !</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II11-13">
+            <speaker>molière</speaker>
+            <p>
+              <s>Vous venez vous plaindre de moi, n’est-ce pas, Madame Jourdain ?</s>
+            </p>
+          </sp>
+          <sp who="madame-jourdain" xml:id="II11-14">
+            <speaker>madame jourdain</speaker>
+            <p>
+              <s>Ça non ; j’aurais beau me plaindre, beau me plaindre j’aurais.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II11-15">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Encore ?</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II11-16">
+            <speaker>molière</speaker>
+            <p>
+              <s>Madame Jourdain est un peu en courroux.</s>
+            </p>
+          </sp>
+          <sp who="madame-jourdain" xml:id="II11-17">
+            <speaker>madame jourdain</speaker>
+            <p>
+              <s>Oui, Jean Ridoux.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II11-18">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Courage.</s>
+              <s>Hé bien, qu’avez-vous à me dire ?</s>
+            </p>
+          </sp>
+          <sp who="madame-jourdain" xml:id="II11-19">
+            <speaker>madame jourdain</speaker>
+            <p>
+              <s>Oui, qu’avez-vous à me frire ?</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II11-20">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Diable soit la Masque ; Que l’on me l’ôte d’ici, et que d’aujourd’hui personne ne me parle.</s>
+              <s>Je suis las de tous ces extravagants, et me voilà dans une colère que je ne me sens pas.</s>
+              <s>Qu’est-ce encore ?</s>
+              <s>Qu’y a-t-il ?</s>
+              <s>Que veut-on ?</s>
+              <s>Serai-je toujours troublé, persécuté, accablé d’affaires ?</s>
+              <s>Hé, quelle misère est-ce ci ?</s>
+              <s>A-t-on jamais vu un Dieu plus fatigué que moi ?</s>
+            </p>
+            <stage>Pluton se lève de son tribunal.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="12" xml:id="II12">
+          <head>SCÈNE XII</head>
+          <stage>Caron, Pluton, Minos, Radam.</stage>
+          <sp who="caron" xml:id="II12-1">
+            <speaker>caron</speaker>
+            <p>
+              <s>Grand Roi...</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II12-2">
+            <speaker>pluton, marchant en colère</speaker>
+            <p>
+              <s>Non, je crois que tout cet embarras me fera renoncer à mon Empire.</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II12-3">
+            <speaker>caron</speaker>
+            <p>
+              <s>Ce sont...</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II12-4">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Quoi, sans repos !</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II12-5">
+            <speaker>caron</speaker>
+            <p>
+              <s>Il y a...</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II12-6">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Sans plaisir !</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II12-7">
+            <speaker>caron</speaker>
+            <p>
+              <s>Ce sont...</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II12-8">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Sans relâche !</s>
+              <s>Non, je ne veux plus rien entendre.</s>
+              <s>Que tout soit renversé, bouleversé, sans-dessus-dessous, je n’écoute personne ; Qu’on ne m’en parle plus.</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II12-9">
+            <speaker>caron</speaker>
+            <p>
+              <s>Ce sont des médecins qui viennent d’arriver, et qui voudraient vous demander un moment d’audience.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II12-10">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Des ?</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II12-11">
+            <speaker>caron</speaker>
+            <p>
+              <s>Des Medecins.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II12-12">
+            <speaker>pluton courant se remettre sur son tribunal</speaker>
+            <p>
+              <s>Des médecins !</s>
+              <s>Ho !</s>
+              <s>qu’on les fasse entrer : ce sont nos meilleurs Amis ; qu’ils viennent, qu’ils viennent.</s>
+              <s>D’honnêtes gens, à qui je dois trop pour leur rien refuser.</s>
+              <s>Ils ont augmenté le nombre de mes sujets, et je leur en dois sans doute une ample reconnaissance.</s>
+              <s>Mais les voici.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="13" xml:id="II13">
+          <head>SCÈNE XIII</head>
+          <stage>Quatre Médecins, Pluton, Radam, Minos,Molière, Caron.</stage>
+          <sp who="moliere" xml:id="II13-1">
+            <speaker>molière</speaker>
+            <p>
+              <s>Ha, voici de mes gens.</s>
+              <s>Écoutons-les parler, et puis nous répondrons.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II13-2">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Messieurs, soyez les bienvenus.</s>
+              <s>Vous visitez un Prince qui vous honore fort ; je sais toutes les obligations que je vous ai, et que dans ce vaste Empire des Morts vous pouvez vous vanter avec raison d’y avoir aussi bonne part que moi : Aussi en revanche de tout vos bons et fidèles services, je ne prétends pas vous rien refuser.</s>
+              <s>Demandez seulement.</s>
+            </p>
+          </sp>
+          <sp who="premier-medecin" xml:id="II13-3">
+            <speaker>premier médecin</speaker>
+            <p>
+              <s>Grand Monarque des Morts, vous voyez ici la fleur de vos plus fidèles pensionnaires.</s>
+            </p>
+          </sp>
+          <sp who="second-medecin" xml:id="II13-4">
+            <speaker>second médecin, bredouillant</speaker>
+            <p>
+              <s>Jamais nous n’avons laissé échapper la moindre occasion de vous donner des marques de notre obéissance et fidélité.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II13-5">
+            <speaker>pluton</speaker>
+            <note type="L">Emetique : est un remède qui purge avec violence par haut et par bas, fait de la poudre et du beurre d’antimoine préparé, dont on a séparé les sels corrosifs par plusieurs lotions. [F]</note>
+            <p>
+              <s>J’en suis persuadé.</s>
+              <s>L’opium, l’émétique, et la saignée, m’ont rendu témoignage que vous m’avez fidèlement servi.</s>
+            </p>
+          </sp>
+          <sp who="troisieme-medecin" xml:id="II13-6">
+            <speaker>troisième médecin</speaker>
+            <p>
+              <s>Nous avons fait notre devoir.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II13-7">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Beaucoup de gens sont venus ici de votre part, qui m’en ont assuré.</s>
+            </p>
+          </sp>
+          <sp who="quatrieme-medecin" xml:id="II13-8">
+            <speaker>quatrième médecin</speaker>
+            <p>
+              <s>C’est avec plaisir que l’on sert un si grand Monarque.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II13-9">
+            <speaker>pluton</speaker>
+            <note type="L">Parques : divinités des Enfers chargées de filer la vie des hommes, étaient au nombre de trois, Clotho, Lachésis, Atropos : Chlotho préside à la naissance et tient le fuseau, Lachésis le tourne et file, Atropos coupe le fil. [B]</note>
+            <p>
+              <s>Je vous suis obligé, et j’ai bien de la joie de vous voir.</s>
+              <s>Ce n’est pas que vous ne m’eussiez été encore un peu nécessaires là-haut, et j’ai eu quelque chagrin quand les Parques m’ont dit que vous veniez ici : mais je m’en suis néanmoins consolé lorsque j’ai appris que vous aviez laissé de grands enfants qui savaient assez bien leur métier, et que même il était déjà venu ici quelques morts de leurs amis, qui en avaient fait une expérience fort raisonnable.</s>
+              <s>Mais que souhaitez-vous de moi ?</s>
+            </p>
+          </sp>
+          <sp who="troisieme-medecin" xml:id="II13-10">
+            <speaker>troisième médecin</speaker>
+            <p>
+              <s>Nous venons vous demander justice d’un téméraire qui prétend traiter la médecine d’imposture, et de charlatanerie.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II13-11">
+            <speaker>pluton</speaker>
+            <p>
+              <s>C’est donc quelqu’un qui la connaît ?</s>
+            </p>
+          </sp>
+          <sp who="quatrieme-medecin" xml:id="II13-12">
+            <speaker>quatrième médecin</speaker>
+            <p>
+              <s>C’est une rage sans fondement, une simple avidité de tout satiriser, et une animosité envenimée par la seule envie d’écrire, et de former des cabales contre nous.</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II13-13">
+            <speaker>molière, à part</speaker>
+            <p>
+              <s>Je vous confondrai dans peu, superbes imposteurs.</s>
+            </p>
+          </sp>
+          <sp who="troisieme-medecin" xml:id="II13-14">
+            <speaker>troisième médecin</speaker>
+            <p>
+              <s>Il s’est même déjà glissé jusques dans ces lieux une médisance secrète qui nous regarde.</s>
+              <s>Tous les morts semblent se liguer contre nous ; il leur échappe des satires piquantes, et des injures calomnieuses contre les médecins ; et nous venons ici, Grand Monarque, vous remontrer humblement, de la part de notre Illustre Corps, de quelle importance il est, pour l’accroissement de votre Empire, que vous réprimiez l’audace et l’insolence de tous ces morts.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II13-15">
+            <speaker>pluton</speaker>
+            <p>
+              <s>On apprendra à vivre à ces morts-là.</s>
+              <s>J’entends et je pretends qu’on vous regarde comme les plus fermes appuis de mon État.</s>
+              <s>Mais qui sont ces morts-là qui ont l’impudence d’aller gâter vostre métier ?</s>
+              <s>Nommez, nommez-les moi ; j’en veux faire un bon exemple.</s>
+            </p>
+          </sp>
+          <sp who="quatrieme-medecin" xml:id="II13-16">
+            <speaker>quatrième médecin</speaker>
+            <note type="L">Caton : surnommé l’Ancien ou le Censeur, romain célèbre par ses vertus, né à Tusculum, l’an 24 av. J.-C. d’une famille obscure. Il mourut l’an 149 avec J.-C. à 85 ans. Censeur, il exerça ses fonctions avec une sévérité qui passa en proverbe.</note>
+            <p>
+              <s>C’est un nombre infini de petits esprits qui se sont laissés emporter au torrent, et qui n’ont poussé leur plainte que comme les échos qui répètent les peines des autres sans les avoir senties.</s>
+              <s>Mais c’est à l’auteur de nos maux que nous en voulons ; c’est à celui qui comme un nouveau Caton, s’est venu déchaîner contre nous et qui, après le mépris évident qu’il a fait de notre illustre corps, a poussé son audace encore jusqu’à nous tourner en ridicules ; en nous rendant la fable et la risée du public.</s>
+              <s>C’est cette Ombre, en un mot, cet insolent fléau de notre faculté, dont nous vous demandons une vengeance authentique.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II13-17">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Répondez.</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II13-18">
+            <speaker>molière</speaker>
+            <p>
+              <s>C’est donc à moi à qui vous en voulez, Messieurs ?</s>
+              <s>Vous demandez vengeance du mépris que j’ai fait de votre illustre corps : Je vous ai tourné en ridicules, je vous ai rendus la fable et la risée du Public ?</s>
+              <s>Hé bien, il faut vous répondre, et tracer plus naturellement vos traits, afin de vous bien faire connaître.</s>
+              <s>Pluton, je jure ici par le respect que je te dois, que ce n’est point contre ce grand art de la médecine que je prétends me déchaîner.</s>
+              <s>J’en adore l’étude, j’en révère la judicieuse pratique, mais j’en abhorre et déteste le pernicieux et méchant usage qu’en font par leur négligence des fourbes ignorants, que la seule robe fait appeler médecins ; et ce n’est qu’à ceux qui abusent de ce nom que je vais répondre.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II13-19">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Ah !</s>
+              <s>Voici une conversation raisonnable celle-ci.</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II13-20">
+            <speaker>molière</speaker>
+            <p>
+              <s>Imposteurs !</s>
+              <s>Qui peut mieux prouver votre ignorance, et l’incertitude de vos projets, que vos contrariétés perpétuelles ?</s>
+              <s>Vous trouvez-vous jamais d’accord ensemble ?</s>
+              <s>Et jusqu’à vos moindres Ordonnances, a-t-on jamais vu un médecin suivre celle de l’autre, sans y ajoûter ou diminuer quelque chose ?</s>
+              <s>Quant à leurs opinions, elles sont encore plus différentes que leurs pratiques.</s>
+              <s>Les uns disent que la cause des maux est dans les humeurs ; les autres dans le sang.</s>
+              <s>Quelques-uns, par un pompeux galimatias, l’imputent aux atomes invisibles, qui entrent dans les pores.</s>
+              <s>Celui-ci soutient, que les maladies viennent du défaut des forces corporelles : celui-là, qu’elles procèdent de l’inégalité des éléments du corps, et de la qualité de l’air que nous respirons, ou de l’abondance, crudité, et corruption de nos aliments.</s>
+              <s>Ah que cette diversité d’opinions marque bien l’ignorance des médecins ; mais encore plus la faiblesse ou la témérité des malades qui s’abandonnent aux agitations de tant de vents contraires !</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II13-21">
+            <speaker>pluton, aux médecins</speaker>
+            <p>
+              <s>Messieurs, hé ?</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II13-22">
+            <speaker>molière</speaker>
+            <p>
+              <s>Ce qu’ils ont de plus unanime dans leur école, et où ils s’entendent le mieux, c’est que tous tant qu’ils sont vous assurent que dans la composition d’une médecine, une chose purge le cerveau, celle-ci échauffe l’estomac, celle-là rafraîchit le foie, et font partir un breuvage à bride abattue, comme si dans ce mélange chaque remède portait son étiquette, et que tous n’allassent pas ensemble séjourner au même lieu.</s>
+              <s>Il faut que ces Messieurs soient bien assurés de l’obéissance et de la sagesse de leurs drogues : car enfin, si par mégarde l’une allait prendre le chemin de l’autre, et que la partie qui doit être échauffée vint par méprise à être refroidie, voyez un peu où le pauvre malade en serait !</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II13-23">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Messieurs, hé ?</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II13-24">
+            <speaker>molière</speaker>
+            <p>
+              <s>Mais quoi, les imposteurs abusant de l’occasion, usurpent effrontément une autorité tyrannique sur de pauvres âmes affaiblies et abattues par le mal, et par la crainte de la mort.</s>
+              <s>Il prennent si bien leur avantage de nos faiblesses, que de notre aveu même, dans ce dangereux moment, ils hasardent effrontément aux dépens de nos vies toutes les épreuves que leur suggèrent leurs ambitieuses imaginations.</s>
+              <s>Les scélérats osent tout tenter, sur cette confiance que le Soleil éclairera leurs succès et que la Terre couvrira leurs fautes.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II13-25">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Messieurs, hé ?</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II13-26">
+            <speaker>molière</speaker>
+            <note type="L">Hydropisie : enflure des membres du corps causée par une eau qui se coule entre cuir et chair lorsque le foie ne fait plus ses fonctions. [F]</note>
+            <note type="C">Voir Le Médecin malgré lui de Molière, Acte III scène 1.</note>
+            <p>
+              <s>Il me souvient ici, avec quelque douleur, de la faiblesse d’un de mes amis qui s’était sottement confié par leurs noires séductions à l’expérience d’un remède.</s>
+              <s>Deux heures après l’avoir pris, le médecin qui l’avait ordonné, lui en vint demander l’effet, et comment il s’en était trouvé.</s>
+              <s>J’ai fort sué, lui répondit le malade.</s>
+              <s>Cela est bon, dit le médecin.</s>
+              <s>Trois heures en suite, il lui vint demander comment il s’était porté depuis.</s>
+              <s>J’ai senti, dit le Patient, un froid extrême, et j’ai fort tremblé.</s>
+              <s>Cela est bon, suivit le charlatan.</s>
+              <s>Et sur le soir, pour la troisième fois, il revint s’informer encore de l’état où il se trouvait.</s>
+              <s>Je me sens, dit le Malade, enfler partout, comme d’hydropisie.</s>
+              <s>Tout cela est bien, répondit le bourreau.</s>
+              <s>Le lendemain j’allai voir ce pauvre Malade ; et lui ayant demandé en quel état il était : Hélas !</s>
+              <s>Mon cher ami, dit-il, en rendant le dernier soupir, à force d’être bien, je sens que je me meurs.</s>
+              <s>Ah !</s>
+              <s>M’écriai-je alors tout percé de douleur, qu’heureux sont les animaux que la simple nature sait guérir sans le secours de leur consultations !</s>
+              <s>Que l’être brutal serait à souhaiter, quand on devient malade !</s>
+              <s>Mais aussi qu’il serait à craindre, s’il se trouvait autant de médecins parmi les bêtes, que de bêtes parmi les médecins !</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II13-27">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Messieurs ?</s>
+            </p>
+          </sp>
+          <sp who="moliere" xml:id="II13-28">
+            <speaker>molière</speaker>
+            <p>
+              <s>Qu’ils se plaignent maintenant de moi, et que ton équité, Grand Monarque, paraisse dans tes jugements.</s>
+            </p>
+          </sp>
+        </div2>
+        <div2 type="scene" n="14" xml:id="II14">
+          <head>SCÈNE DERNIÈRE. Caron, Les Ombres, Pluton, Radam, Minos, Molière.</head>
+          <note type="C">Barque : Caron fait traverser le Styx sur sa barque. Les morts peuvent ainsi rejoindre les Champs Elysées.</note>
+          <sp who="caron" xml:id="II14-1">
+            <speaker>caron</speaker>
+            <p>
+              <s>Oh !</s>
+              <s>Je n’y puis plus tenir.</s>
+              <s>Depuis que je conduits la barque, je n’ai jamais tant vu de morts pour un jour ; et si vous n’y venez donner ordre, je ne sais pas ce que nous en ferons.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II14-2">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Comment ?</s>
+              <s>Nous avons donc bien des gens ?</s>
+            </p>
+          </sp>
+          <sp who="caron" xml:id="II14-3">
+            <speaker>caron</speaker>
+            <p>
+              <s>Tout crève à la porte.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II14-4">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Puisque nous avons tant de morts ici-bas, il faut qu’il y ait encore bien des médecins là-haut.</s>
+              <s>Mais qu’ils attendent à un autre jour, je ne juge d’aujourd’hui, et voici ma dernière sentence.</s>
+              <s>Retirez-vous un peu, que je prenne les opinions.</s>
+              <s>Minos, qu’en dis-tu ?</s>
+            </p>
+          </sp>
+          <sp who="minos" xml:id="II14-5">
+            <speaker>minos</speaker>
+            <p>
+              <s>Moi ?</s>
+              <s>Que cette Ombre est de bon sens, et qu’elle mérite bien quelque jugement avantageux.</s>
+            </p>
+          </sp>
+          <sp who="radamante" xml:id="II14-6">
+            <speaker>radamante</speaker>
+            <p>
+              <s>Il n’y a qu’honneur à juger en sa faveur.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II14-7">
+            <speaker>pluton</speaker>
+            <p>
+              <s>J’en demeure d’accord ; mais aussi les obligations que nous avons à ces messieurs m’embarrassent ; et je crois qu’un arbitrage conviendrait mieux à cette affaire qu’un jugement dans les formes.</s>
+              <s>Ne trouvez-vous point à propos de leur proposer un accommodement ?</s>
+            </p>
+          </sp>
+          <sp who="minos" xml:id="II14-8">
+            <speaker>minos</speaker>
+            <p>
+              <s>Hé, oui-da ; car il est vrai que nous avons quelque mesure à garder avec la Faculté.</s>
+            </p>
+          </sp>
+          <sp who="radamante" xml:id="II14-9">
+            <speaker>radamante</speaker>
+            <p>
+              <s>Je suis de cet avis.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II14-10">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Je m’en vais leur parler.</s>
+              <s>Ça, Messieurs ; Qu’est-ce ?</s>
+              <s>N’y a-t-il pas moyen de vous rapatrier ?</s>
+              <s>Je vois de part et d’autre que les raisons peuvent subsister ; d’accord ; mais à les bien peser, entre nous, la balance penchera de son côté ; et sans l’alliance jurée entre nous, franchement, Messieurs, vous seriez tondus.</s>
+              <s>C’est pourquoi si vous m’en croyez, tâchez de vous accommoder ensemble ; et pour faciliter l’affaire, j’aime mieux relâcher de mes intérêts, et consentir que vous m’en envoyiez quelques millions de morts moins qu’à votre ordinaire.</s>
+            </p>
+          </sp>
+          <sp who="les-medecins" xml:id="II14-11">
+            <speaker>les médecins</speaker>
+            <p>
+              <s>Quoi !</s>
+              <s>Notre ennemi juré ?</s>
+              <s>Non, non...</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II14-12">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Ho, ho, Messieurs, si vous n’êtes contents, prenez des cartes.</s>
+              <s>J’y perds plus que vous, et si je ne me plains pas.</s>
+            </p>
+          </sp>
+          <sp who="les-medecins" xml:id="II14-13">
+            <speaker>les médecins</speaker>
+            <p>
+              <s>Quoi, Pluton...</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II14-14">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Quoi !</s>
+              <s>Vos Ombres téméraires m’osent répliquer, moi, qui puis vous faire évanouir d’un souffle seulement ?</s>
+            </p>
+          </sp>
+          <sp who="les-medecins" xml:id="II14-15">
+            <speaker>les médecins</speaker>
+            <p>
+              <s>Nous demandons justice, justice.</s>
+            </p>
+          </sp>
+          <sp who="pluton" xml:id="II14-16">
+            <speaker>pluton</speaker>
+            <p>
+              <s>Encore ?</s>
+              <s>Ah je m’en vais souffler.</s>
+              <s>Fu, fu.</s>
+            </p>
+            <l n="1" xml:id="l1">Mais il est temps de prononcer</l>
+            <l n="2" xml:id="l2">En quel endroit je dois placer</l>
+            <l n="3" xml:id="l3">Ton Ombre avecque ta mémoire.</l>
+            <l n="4" xml:id="l4">Que la Postérité t’en choisisse le lieu ;</l>
+            <l n="5" xml:id="l5">Et tandis qu’elle ira travailler à ta Gloire,</l>
+            <l n="6" xml:id="l6">Entre Térence et Plaute occupe le milieu.</l>
+            <stage>Le carillon se fait.</stage>
+          </sp>
+          <sp who="caron" xml:id="II14-17">
+            <speaker>caron</speaker>
+            <p>
+              <s>Messieurs, Pluton se va coucher ; son Bonnet de nuit l’attend ; Vous avez ouï la retraite.</s>
+              <s>Bonsoir.</s>
+            </p>
+          </sp>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>
