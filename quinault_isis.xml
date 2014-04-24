@@ -1,0 +1,2174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ISIS, TRAGÉDIE en MUSIQUE</title>
+        <author born="1635" born_location="Paris" death="1688" death_location="Paris" academie="1670">QUINAULT, Philippe</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>publié par Paul FIEVRE, Mai 2009</p>
+      </publicationStmt>
+      <sourceDesc>
+        <genre>Opéra</genre>
+        <inspiration>mythe grec</inspiration>
+        <structure>Cinq actes, un prologue</structure>
+        <type>vers</type>
+        <periode>1681-1690</periode>
+        <taille>750-1000</taille>
+        <permalien/>
+        <sources>
+          <source id="1">
+            <author/>
+            <text/>
+          </source>
+        </sources>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1677"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>
+        <titlePart type="main">ISIS</titlePart>
+        <titlePart type="sub">TRAGÉDIE en MUSIQUE</titlePart>
+        <titlePart type="sub">ornée d’entrées de ballets, de machines et de changements de théâtre.</titlePart>
+      </docTitle>
+      <docDate value="1687">M .DC. LXXXVII.</docDate>
+      <docAuthor id="QUINAULT, Philippe" bio="quinault">[Philippe Quinault]</docAuthor>
+      <docImprint>
+        <privilege id=""/>
+        <acheveImprime id=""/>
+        <printer id="">Suivant la copie imprimée, à Paris.</printer>
+      </docImprint>
+      <performance>
+        <premiere date="1677-01-05" location="Château de Saint-Germain-en-Laye">Représenté pour la première fois [le 5 janvier 1677] devant sa majesté à Saint-Germain-en-Laye.</premiere>
+      </performance>
+      <castList>
+        <head>ACTEURS du PROLOGUE</head>
+        <castItem><role xml:id="la-renommee" civil="A">La RENOMMÉE</role>.</castItem>
+        <castItem><role xml:id="chœur_renommee" civil="G">CHOEUR de la Suite de la RENOMMÉE, les Rumeurs, les Bruits, etc.</role>.</castItem>
+        <castItem><role xml:id="cinq-trompettes" civil="G">Cinq TROMPETTES</role>.</castItem>
+        <castItem><role xml:id="vingt-suivants-renommee-chantants" civil="G">Vingt SUIVANTS de la RENOMMÉE chantants</role>.</castItem>
+        <castItem><role xml:id="neptune" civil="D">NEPTUNE</role>.</castItem>
+        <castItem><role xml:id="suite-de-neptune" civil="G">SUITE DE NEPTUNE</role>, tritons et autres Dieux de la Mer.</castItem>
+        <castItem><role xml:id="six-tritons" civil="G">SIX TRITONS</role>, jouant de la flute.</castItem>
+        <castItem><role xml:id="deux-tritons" civil="G">DEUX TRITONS</role>, chantants.</castItem>
+        <castItem><role xml:id="huit-dieux-marins" civil="G">HUIT DIEUX MARINS</role> de la suite de Neptune dansants.</castItem>
+        <castItem><role xml:id="apollon" civil="D">APOLLON</role>.</castItem>
+        <castItem><role xml:id="suite-d-apollon" civil="G">SUITE D’APOLLON</role>, les neuf mmuses et les arts libéraux.</castItem>
+        <castItem><role xml:id="cinq-muses-chantantes" civil="G">CINQ MUSES CHANTANTES</role>.</castItem>
+        <castItem><role xml:id="clio" civil="A">CLIO</role>.</castItem>
+        <castItem><role xml:id="calliope" civil="A">CALLIOPE</role>.</castItem>
+        <castItem><role xml:id="melpomene" civil="A">MELPOMÈNE</role>.</castItem>
+        <castItem><role xml:id="thalie" civil="A">THALIE</role>.</castItem>
+        <castItem><role xml:id="urnaie" civil="A">URANIE</role>.</castItem>
+        <castItem><role xml:id="quatre-muses-qui-jouent-des-instruments" civil="G">QUATRE MUSES QUI JOUENT DES INSTRUMENTS</role>.</castItem>
+        <castItem><role xml:id="erato" civil="A">ERATO</role>.</castItem>
+        <castItem><role xml:id="euterpe" civil="A">EUTERPE</role>.</castItem>
+        <castItem><role xml:id="terpsichore" civil="A">TERPSICHORE</role>.</castItem>
+        <castItem><role xml:id="polymnie" civil="A">POLYMNIE</role>.</castItem>
+        <castItem><role xml:id="sept-arts-liberaux" civil="G">SEPT ARTS LIBERAUX</role>.</castItem>
+      </castList>
+      <castList>
+        <head>ACTEURS de la TRAGÉDIE</head>
+        <castItem><role xml:id="hierax" civil="M">HIÉRAX</role>, amant de la nymphe Io, et frère d’Argus.</castItem>
+        <castItem><role xml:id="pirante" civil="M">PIRANTE</role>, ami d’Hiérax.</castItem>
+        <castItem><role xml:id="io" civil="N">IO</role>, nymphe, fille du fleuve Inachus, aimée de Jupiter, persécutée par Junon, et reçue enfin au rang des divinités célestes sous le nom d’Isis.</castItem>
+        <castItem><role xml:id="mycene" civil="N">MYCENE</role>, nymphe, confidente d’Io.</castItem>
+        <castItem><role xml:id="mercure" civil="D">MERCURE</role>.</castItem>
+        <castItem><role xml:id="chœurs-de-divinites-de-la-terre" civil="G">CHOEURS DE DIVINITÉS DE LA TERRE</role>, et des Echos.</castItem>
+        <castItem><role xml:id="troupe-de-divinites-de-la-terre" civil="G">TROUPE DE DIVINITÉS DE LA TERRE</role>, des eaux et des richesses souterraines.</castItem>
+        <castItem><role xml:id="jupiter" civil="D">JUPITER</role>.</castItem>
+        <castItem><role xml:id="iris" civil="D">IRIS</role>, confidente de Junon.</castItem>
+        <castItem><role xml:id="junon" civil="D">JUNON</role>.</castItem>
+        <castItem><role xml:id="hebe" civil="A">HÉBÉ</role>, fille de Junon et déesse de la Jeunesse.</castItem>
+        <castItem><role xml:id="jeux-et-plaisirs" civil="G">CHOEURS et TROUPES DES JEUX ET DES PLAISIRS</role> de la troupe d’Hébé.</castItem>
+        <castItem><role xml:id="nymphes" civil="G">CHOEUR, et TROUPE DE NYMPHES</role> de la suite de Junon.</castItem>
+        <castItem><role xml:id="argus" civil="D">ARGUS</role>.</castItem>
+        <castItem><role xml:id="syrinx" civil="A">UNE NYMPHE</role>, représentant Syrinx.</castItem>
+        <castItem><role xml:id="chœur-et-troupe-de-nymphes" civil="G">CHOEUR-ET-TROUPE-DE-NYMPHES COMPAGNES DE SYRINX</role>.</castItem>
+        <castItem><role xml:id="pan" civil="D">UN DES SYLVAINS</role> représentatn le Dieu Pan.</castItem>
+        <castItem><role xml:id="chœur-et-troupe-de-bergers" civil="G">CHOEUR ET TROUPE DE BERGERS</role> suivants de Pan.</castItem>
+        <castItem><role xml:id="chœur-et-troupe-de-satyres" civil="G">CHOEUR ET TROUPE DE SATYRES</role> suivants de Pan.</castItem>
+        <castItem><role xml:id="chœur-et-troupe-de-sylvains" civil="G">CHOEUR ET TROUPE DE SYLVAINS</role> suivants de Pan.</castItem>
+        <castItem><role xml:id="erinnis" civil="A">ERINNIS</role>, furie.</castItem>
+        <castItem><role xml:id="chœur-et-troupe-de-peuples-de-climats-glaces" civil="G">CHOEUR ET TROUPE DE PEUPLES DE CLIMATS GLACÉS</role> suivants de Pan.</castItem>
+        <castItem><role xml:id="deux-conducteurs-des-chalybes" civil="G">DEUX CONDUCTEURS DES CHALYBES</role>.</castItem>
+        <castItem><role xml:id="suite-de-parques" civil="G">SUITE DE PARQUES</role>, la Guerre, les Fureur de la Guerre, la Famine, Les maladies violentes et languissantes, l’Incendie, L’Inondation, etc.</castItem>
+        <castItem><role xml:id="les-trois-parques" civil="G">LES TROIS PARQUES</role>.</castItem>
+        <castItem><role xml:id="chœur-de-divinites-celestes" civil="G">CHOEUR DE DIVINITÉS CÉLESTES</role>.</castItem>
+        <castItem><role xml:id="chœur-et-troupes-des-peuples-d-egypte" civil="G"/>CHOEUR ET TROUPES DES PEUPLES D’EGYPTE.</castItem>
+      </castList>
+      <set location="Lieu mythologique" country="Pays mythologique" periode="Temps mythologiques" link=""/>
+    </front>
+    <body>
+      <div1 type="acte" n="1" xml:id="I">
+        <head>PROLOGUE</head>
+        <stage>Le théâtre représente le Palais de la Renommée. Il est ouvert de tous côtés pour recevoir les nouvelles de ce qui se fait de considérable sur la Terre et de ce qui se passe de mémorable sur la Mer, que l’on découvre dans l’enfoncement. La divinité qui préside dans ce palais y paraît accompagnée de sa suite ordinaire : Les rumeurs et les bruits qui portent comme elle une trompette à la main, y viennent en foule de divers endroits du monde.</stage>
+        <div2 type="scene" n="1" xml:id="I01">
+          <head>SCÈNE I</head>
+          <sp who="la-renommee_suite" xml:id="I01-1">
+            <speaker>la renommée, et sa suite les rumeurs et les bruits</speaker>
+            <l n="1" xml:id="l1">Publions en tous lieux</l>
+            <l n="2" xml:id="l2">Du plus grand des héros la valeur triomphante.</l>
+            <l n="3" xml:id="l3">Que la Terre et les cieux</l>
+            <l n="4" xml:id="l4">Retentissent du bruit de sa gloire éclatante.</l>
+          </sp>
+          <sp who="la-renommee" xml:id="I01-2">
+            <speaker>la renommée</speaker>
+            <l n="5" xml:id="l5">C’est lui dont les Dieux ont fait choix</l>
+            <l n="6" xml:id="l6">Pour combler le bonheur de l’Empire François,</l>
+            <l n="7" xml:id="l7">En vain pour le troubler, tout s’unit, tout conspire,</l>
+            <l n="8" xml:id="l8">C’est en vain que l’Envie a ligué tant de rois.</l>
+            <l n="9" xml:id="l9">Heureux l’Empire</l>
+            <l n="10" xml:id="l10">Qui suit ses lois !</l>
+          </sp>
+          <sp who="le-chœur" xml:id="I01-3">
+            <speaker>le chœur</speaker>
+            <l n="11" xml:id="l11">Heureux l’Empire</l>
+            <l n="12" xml:id="l12">Qui suit ses lois !</l>
+          </sp>
+          <sp who="la-renommee" xml:id="I01-4">
+            <speaker>la renommée</speaker>
+            <l n="13" xml:id="l13">Il faut que partout on l’admire</l>
+            <l n="14" xml:id="l14">Parlons de ses vertus racontons ses exploits,</l>
+            <l n="15" xml:id="l15">A peine y pourrons nous suffire</l>
+            <l n="16" xml:id="l16">Avec toutes nos voix ;</l>
+          </sp>
+          <sp who="le-chœur" xml:id="I01-5">
+            <speaker>le chœur</speaker>
+            <l n="17" xml:id="l17">Heureux l’Empire</l>
+            <l n="18" xml:id="l18">Qui suit ses lois !</l>
+          </sp>
+          <sp who="la-renommee" xml:id="I01-6">
+            <speaker>la renommée</speaker>
+            <l n="19" xml:id="l19">Il faut le dire cent-et-cent fois</l>
+            <l n="20" xml:id="l20">Heureux l’empire qui suit ses lois.</l>
+          </sp>
+          <sp who="le-chœur" xml:id="I01-7">
+            <speaker>le chœur</speaker>
+            <l n="21" xml:id="l21">Il faut le dire cent-et-cent fois</l>
+            <l n="22" xml:id="l22">Heureux l’empire qui suit ses lois.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="I02">
+          <head>SCÈNE II</head>
+          <stage>La Renommée, Neptune et leur suite. Deux tritons chantants. Dieux marins jouant des instruments. Les tritons et les autres Dieux marins accompagnent Neptune sortant de la Mer qui entre dans le Palais de la Renommée.</stage>
+          <sp who="deux-tritons" xml:id="I02-1">
+            <speaker>les deux tritons</speaker>
+            <l n="23" xml:id="l23">C’est le Dieu des eaux qui va paraître</l>
+            <l n="24" xml:id="l24">Rangeons nous près de notre Maître</l>
+            <l n="25" xml:id="l25">Enchaînons les vents les plus terribles</l>
+            <l n="26" xml:id="l26">Que le bruit des flots cède à nos chants.</l>
+            <l n="27" xml:id="l27">Régnez Zéphirs paisibles,</l>
+            <l n="28" xml:id="l28">Ramenez le doux printemps.</l>
+          </sp>
+          <sp who="neptune" xml:id="I02-2">
+            <speaker>neptune à la renommée</speaker>
+            <l n="29" xml:id="l29">Mon empire a servi de théâtre à la guerre,</l>
+            <l n="30" xml:id="l30">Publiez des exploits nouveaux</l>
+            <l n="31" xml:id="l31">C’est le même vainqueur</l>
+            <l n="32" xml:id="l32">Si fameux sur la terre</l>
+            <l n="33" xml:id="l33">Qui triomphe encor sur les eaux.</l>
+          </sp>
+          <sp who="la-renommee_neptune" xml:id="I02-3">
+            <speaker>la renommée et neptune</speaker>
+            <l n="34" xml:id="l34">Célébrez son grand nom sur la terre et sur l’onde</l>
+            <l n="35" xml:id="l35">Qu’il ne soit pas borné par les plus vastes mers</l>
+            <l n="36" xml:id="l36">Qu’il vole jusqu’au bout du monde</l>
+            <l n="37" xml:id="l37">Qu’il dure autant que l’univers.</l>
+          </sp>
+          <sp who="chœurs" xml:id="I02-4">
+            <speaker>chœurs</speaker>
+            <l n="38" xml:id="l38">Célébrez son grand nom sur la terre et sur l’onde</l>
+            <l n="39" xml:id="l39">Qu’il ne soit pas borné par les plus vastes mers</l>
+            <l n="40" xml:id="l40">Qu’il vole jusqu’au bout du monde</l>
+            <l n="41" xml:id="l41">Qu’il dure autant que l’univers.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="I03">
+          <head>SCÈNE III</head>
+          <stage>Neptune, la Renommée et leur suite, Apollon, les neufs Muses, les Arts libéraux.</stage>
+          <sp who="callyope" xml:id="I03-1">
+            <speaker>callyope</speaker>
+            <l n="42" xml:id="l42">Cessez pour quelque temps bruit terrible des armes</l>
+            <l n="43" xml:id="l43">Qui troublez le repos de cent climats divers</l>
+            <l n="44" xml:id="l44">Ne troublez point les charmes</l>
+            <l n="45" xml:id="l45">De nos divins concerts.</l>
+          </sp>
+          <sp who="callyope_thalie_apollon" xml:id="I03-2">
+            <speaker>callyope, thalie et apollon</speaker>
+            <l n="46" xml:id="l46">Ne troublez point les charmes</l>
+            <l n="47" xml:id="l47">De nos divins concerts.</l>
+          </sp>
+          <sp who="callyope" xml:id="I03-3">
+            <speaker>callyope</speaker>
+            <l n="48" xml:id="l48">Recommençons nos chants,</l>
+            <l n="49" xml:id="l49">Allons les faire entendre.</l>
+          </sp>
+          <sp who="melpomene" xml:id="I03-4">
+            <speaker>melpomène</speaker>
+            <l n="50" xml:id="l50">Dans une auguste Cour.</l>
+          </sp>
+          <sp who="thalie" xml:id="I03-5">
+            <speaker>thalie</speaker>
+            <l n="51" xml:id="l51">La Paix, la douce Paix</l>
+            <l n="52" xml:id="l52">N’ose encore descendre du céleste séjour.</l>
+          </sp>
+          <sp who="callyope" xml:id="I03-6">
+            <speaker>callyope</speaker>
+            <l n="53" xml:id="l53">La Paix, la douce Paix</l>
+            <l n="54" xml:id="l54">N’ose encore descendre du céleste séjour.</l>
+          </sp>
+          <sp who="callyope_thalie_apollon" xml:id="I03-7">
+            <speaker>callyope, thalie et apollon</speaker>
+            <l n="55" xml:id="l55">Près du Vainqueur allons attendre son bienheureux retour.</l>
+          </sp>
+          <sp who="apollon" xml:id="I03-8">
+            <speaker>apollon à la renommée</speaker>
+            <l n="56" xml:id="l56">Ne parlons pas toujours de la guerre cruelle,</l>
+            <l n="57" xml:id="l57">Parlons des plaisirs et des jeux.</l>
+            <l n="58" xml:id="l58">Les Muses et les Arts</l>
+            <l n="59" xml:id="l59">Vont signaler leur zèle,</l>
+            <l n="60" xml:id="l60">Je vais favoriser leurs vœux</l>
+            <l n="61" xml:id="l61">Nous préparons une fête nouvelle</l>
+            <l n="62" xml:id="l62">Pour le Héros qui les appelle</l>
+            <l n="63" xml:id="l63">Dans cet asile heureux</l>
+          </sp>
+          <sp who="le-chœur" xml:id="I03-9">
+            <speaker>le chœur</speaker>
+            <l n="64" xml:id="l64">Ne parlons pas toujours de la guerre cruelle,</l>
+            <l n="65" xml:id="l65">Parlons des plaisirs et des jeux.</l>
+          </sp>
+          <sp who="la-renommee" xml:id="I03-10">
+            <speaker>la renommée</speaker>
+            <l n="66" xml:id="l66">Hâtez-vous, Plaisirs, hâtez-vous</l>
+            <l n="67" xml:id="l67">De montrer vos charmes les plus doux.</l>
+          </sp>
+          <sp who="apollon_neptune_la-renommee" xml:id="I03-11">
+            <speaker>apollon, neptune et la renommée</speaker>
+            <l n="68" xml:id="l68">Hâtez-vous, Plaisirs, hâtez-vous</l>
+            <l n="69" xml:id="l69">De montrer vos charmes les plus doux.</l>
+          </sp>
+          <sp who="le-chœur" xml:id="I03-12">
+            <speaker>le chœur (plus vite)</speaker>
+            <l n="70" xml:id="l70">Hâtez-vous, Plaisirs, hâtez-vous</l>
+            <l n="71" xml:id="l71">De montrer vos charmes les plus doux.</l>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="acte" n="2" xml:id="II">
+        <head>ACTE I</head>
+        <stage>Le théâtre représente des prairies agréables où le Fleuve Inachus serpente.</stage>
+        <div2 type="scene" n="1" xml:id="II01">
+          <head>SCÈNE I</head>
+          <sp who="hierax" xml:id="II01-1">
+            <speaker>hiérax</speaker>
+            <l n="72" xml:id="l72">Cessons d’aimer une infidèle,</l>
+            <l n="73" xml:id="l73">Évitons la honte cruelle</l>
+            <l n="74" xml:id="l74">De servir, d’adorer qui ne nous aime plus.</l>
+            <l n="75" xml:id="l75">Achevons de briser les nœuds qu’elle a rompus.</l>
+            <l n="76" xml:id="l76">Dégageons nous, sortons d’un si funeste empire.</l>
+            <l n="77" xml:id="l77">Hélas ! Malgré moi je soupire !</l>
+            <l n="78" xml:id="l78">Ah ! Mon cœur quelle lâcheté !</l>
+            <l n="79" xml:id="l79">Quel charme te retient dans un honteux martyre ?</l>
+            <l n="80" xml:id="l80">Tu n’as pas craint des fers qui nous ont tant coûté</l>
+            <l n="81" xml:id="l81">As-tu peur de ta liberté ?</l>
+            <l n="82" xml:id="l82">Revenez, revenez Liberté charmante</l>
+            <l n="83" xml:id="l83">Vous n’êtes que trop diligente</l>
+            <l n="84" xml:id="l84">Lorsqu’il faut dans un cœur faire place à l’Amour ;</l>
+            <l n="85" xml:id="l85">Mais que vous êtes lente</l>
+            <l n="86" xml:id="l86">Lorsqu’un juste dépit presse votre retour.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="II02">
+          <head>SCÈNE II</head>
+          <sp who="pirante" xml:id="II02-1">
+            <speaker>pirante</speaker>
+            <l n="87" xml:id="l87">C’est trop entretenir</l>
+            <l n="88" xml:id="l88">Ces tristes rêveries ;</l>
+            <l n="89" xml:id="l89">Venez, tournez vos pas sur ces rives fleuries</l>
+            <l n="90" xml:id="l90">Regardez ces flots argentés,</l>
+            <l n="91" xml:id="l91">Qui dans ces vallons écartés,</l>
+            <l n="92" xml:id="l92">Font briller l’émail des prairies</l>
+            <l n="93" xml:id="l93">Interrompez vos soupirs</l>
+            <l n="94" xml:id="l94">Tout doit être ici ;</l>
+            <l n="95" xml:id="l95">Ce beau séjour est l’asile</l>
+            <l n="96" xml:id="l96">Du repos et des plaisirs.</l>
+          </sp>
+          <sp who="hierax" xml:id="II02-2">
+            <speaker>hiérax</speaker>
+            <l n="97" xml:id="l97">Depuis qu’une nymphe inconstante</l>
+            <l n="98" xml:id="l98">A trahi mon amour et m’a manqué de foy</l>
+            <l n="99" xml:id="l99">Ces lieux jadis si beaux n’ont plus rien qui m’enchante ;</l>
+            <l n="100" xml:id="l100">Ce que j’aime a changé, tout est changé pour moi.</l>
+          </sp>
+          <sp who="pirante" xml:id="II02-3">
+            <speaker>pirante</speaker>
+            <l n="101" xml:id="l101">La fille d’Inachus hautement vous préfère</l>
+            <l n="102" xml:id="l102">A mille autres amants de votre sort jaloux ;</l>
+            <l n="103" xml:id="l103">Vous avez l’aveu de son père</l>
+            <l n="104" xml:id="l104">En faveur d’Argus votre frère,</l>
+            <l n="105" xml:id="l105">La puissante Junon se déclare pour vous.</l>
+          </sp>
+          <sp who="hierax" xml:id="II02-4">
+            <speaker>hiérax</speaker>
+            <l n="106" xml:id="l106">Si l’ingrate m’aimait, je serais son époux.</l>
+            <l n="107" xml:id="l107">Cette nymphe légère</l>
+            <l n="108" xml:id="l108">De jour en jour diffère</l>
+            <l n="109" xml:id="l109">Un hymen qu’autrefois elle avait cru si doux.</l>
+            <l n="110" xml:id="l110">L’inconstante n’a plus l’empressement extrême</l>
+            <l n="111" xml:id="l111">De cet amour naissant qui répondait au mien.</l>
+            <l n="112" xml:id="l112">Son changement paraît en dépit d’elle même</l>
+            <l n="113" xml:id="l113">Je ne le connais que trop bien,</l>
+            <l n="114" xml:id="l114">Sa bouche quelquefois dit encor qu’elle m’aime ;</l>
+            <l n="115" xml:id="l115">Mais son cœur ni ses yeux ne m’en disent plus rien.</l>
+          </sp>
+          <sp who="pirante" xml:id="II02-5">
+            <speaker>pirante</speaker>
+            <l n="116" xml:id="l116">Se peut-il qu’elle dissimule !</l>
+            <l n="117" xml:id="l117">Après de serments, ne la croyez-vous pas ?</l>
+          </sp>
+          <sp who="hierax" xml:id="II02-6">
+            <speaker>hiérax</speaker>
+            <l n="118" xml:id="l118">Je ne les crus que trop, hélas !</l>
+            <l n="119" xml:id="l119">Ces serments qui trompent mon cœur tendre et crédule ;</l>
+            <l n="120" xml:id="l120">Ce fut dans ces vallons où par mille détours,</l>
+            <l n="121" xml:id="l121">Inachus prends plaisir à prolonger son cours ;</l>
+            <l n="122" xml:id="l122">Ce fut sur son charment rivage,</l>
+            <l n="123" xml:id="l123">Que sa fille volage</l>
+            <l n="124" xml:id="l124">Me promit de m’aimer toujours.</l>
+            <l n="125" xml:id="l125">Le Zéphir fut témoin, l’onde fut attentive</l>
+            <l n="126" xml:id="l126">Quand la nymphe jura de ne changer jamais,</l>
+            <l n="127" xml:id="l127">Mais le Zéphir léger et l’onde fugitive</l>
+            <l n="128" xml:id="l128">Ont enfin emporté les serments qu’elle a faits.</l>
+            <l n="129" xml:id="l129">Je la vois, l’infidèle.</l>
+          </sp>
+          <sp who="pirante" xml:id="II02-7">
+            <speaker>pirante</speaker>
+            <l n="130" xml:id="l130">Éclaircissez vous avec elle.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="II03">
+          <head>SCÈNE III</head>
+          <sp who="io" xml:id="II03-1">
+            <speaker>la nymphe io</speaker>
+            <l n="131" xml:id="l131">M’aimez vous ? puis-je m’en flatter ?</l>
+          </sp>
+          <sp who="hierax" xml:id="II03-2">
+            <speaker>hiérax</speaker>
+            <l n="132" xml:id="l132">Cruelle, en voulez vous douter ?</l>
+            <l n="133" xml:id="l133">En vain votre inconstance éclate,</l>
+            <l n="134" xml:id="l134">En vain elle m’anime à briser tous les nœuds</l>
+            <l n="135" xml:id="l135">Je vous aime toujours ingrate,</l>
+            <l n="136" xml:id="l136">Plus que vous ne voulez</l>
+            <l n="137" xml:id="l137">Et plus que je ne veux</l>
+            <l n="138" xml:id="l138">Je crains un funeste présage,</l>
+            <l n="139" xml:id="l139">Un aigle dévorant</l>
+            <l n="140" xml:id="l140">Vient de fondre à mes yeux,</l>
+            <l n="141" xml:id="l141">Sur un oiseau qui dans ces lieux</l>
+            <l n="142" xml:id="l142">M’entretenait d’un doux ramage</l>
+            <l n="143" xml:id="l143">Différez votre hymen,</l>
+            <l n="144" xml:id="l144">Suivons l’avis des Cieux.</l>
+            <l n="145" xml:id="l145">Notre hymen me déplaît qu’à votre cœur volage :</l>
+            <l n="146" xml:id="l146">Répondez moi de vous, je vous répond des Dieux.</l>
+            <l n="147" xml:id="l147">Vous juriez autrefois</l>
+            <l n="148" xml:id="l148">Que cette onde rebelle</l>
+            <l n="149" xml:id="l149">Se ferait vers sa source une route nouvelle</l>
+            <l n="150" xml:id="l150">Plutôt qu’on ne verrait votre cœur dégagé ;</l>
+            <l n="151" xml:id="l151">Voyez couler ces flots dans cette vaste plaine</l>
+            <l n="152" xml:id="l152">C’est le même penchant qui toujours les entraîne.</l>
+            <l n="153" xml:id="l153">Leurs cours ne change point et vous avez changé</l>
+          </sp>
+          <sp who="io" xml:id="II03-3">
+            <speaker>io</speaker>
+            <l n="154" xml:id="l154">Laissez moi revenir de mes frayeurs secrètes ;</l>
+            <l n="155" xml:id="l155">J’attends de votre amour cet effort généreux.</l>
+          </sp>
+          <sp who="hierax" xml:id="II03-4">
+            <speaker>hiérax</speaker>
+            <l n="156" xml:id="l156">Je veux ce qui vous plaît, cruelle que vous êtes,</l>
+            <l n="157" xml:id="l157">Vous n’abusez que trop d’un amour malheureux !</l>
+          </sp>
+          <sp who="io" xml:id="II03-5">
+            <speaker>io</speaker>
+            <l n="158" xml:id="l158" part="I">Non, je vous aime encor !</l>
+          </sp>
+          <sp who="hierax" xml:id="II03-6">
+            <speaker>hiérax</speaker>
+            <l n="158" part="F">Quelle froideur extrême !</l>
+            <l n="159" xml:id="l159">Inconstante, est-ce ainsi qu’on doit dire qu’on aime.</l>
+          </sp>
+          <sp who="io" xml:id="II03-7">
+            <speaker>io</speaker>
+            <l n="160" xml:id="l160">C’est à tort que vous m’accusez,</l>
+            <l n="161" xml:id="l161">Vous avez vu toujours vos rivaux méprisés</l>
+          </sp>
+          <sp who="hierax" xml:id="II03-8">
+            <speaker>hiérax</speaker>
+            <l n="162" xml:id="l162">Le mal de mes rivaux</l>
+            <l n="163" xml:id="l163">N’égale point ma peine,</l>
+            <l n="164" xml:id="l164">La douce illusion d’une espérance vaine</l>
+            <l n="165" xml:id="l165">Ne les fait point tomber du faite du bonheur</l>
+            <l n="166" xml:id="l166">Aucun d’eux comme moi n’a perdu votre cœur ;</l>
+            <l n="167" xml:id="l167">Je ne suis point accoutumé</l>
+            <l n="168" xml:id="l168">Quel tourment de cesser de plaire</l>
+            <l n="169" xml:id="l169">Lorsqu’on a fait l’essai du plaisir d’être aimé.</l>
+            <l n="170" xml:id="l170">Je ne le sens que trop</l>
+            <l n="171" xml:id="l171">Votre cœur se détache</l>
+            <l n="172" xml:id="l172">Et je ne sais qui me l’arrache</l>
+          </sp>
+          <sp who="hierax" xml:id="II03-9">
+            <speaker>hiérax</speaker>
+            <l n="173" xml:id="l173">Je cherche en vain l’heureux amant</l>
+            <l n="174" xml:id="l174">Qui me dérobe un bien charmant</l>
+            <l n="175" xml:id="l175">Où j’ai cru devoir seul prétendre</l>
+            <l n="176" xml:id="l176">Je sentirais moins mon tourment</l>
+            <l n="177" xml:id="l177">Si je trouvais à qui m’en prendre</l>
+            <l n="178" xml:id="l178">Vous fuyez mes regards,</l>
+            <l n="179" xml:id="l179">Vous ne me dites rien ;</l>
+            <l n="180" xml:id="l180">Il faut vous délivrer d’un fâcheux entretiens ;</l>
+            <l n="181" xml:id="l181">Ma présence vous blesse et c’est trop vous contraindre.</l>
+          </sp>
+          <sp who="io" xml:id="II03-10">
+            <speaker>io</speaker>
+            <l n="182" xml:id="l182">Jaloux sombre et chagrin,</l>
+            <l n="183" xml:id="l183">Partout où je vous vois,</l>
+            <l n="184" xml:id="l184">Vous ne cessez de vous plaindre</l>
+            <l n="185" xml:id="l185">Je voudrais vous aimer</l>
+            <l n="186" xml:id="l186">Autant que je le dois,</l>
+            <l n="187" xml:id="l187">Et vous me forcez à vous craindre.</l>
+          </sp>
+          <sp who="hierax_io" xml:id="II03-11">
+            <speaker>ensemble</speaker>
+            <l n="188" xml:id="l188">Non, non, il ne tient qu’à vous</l>
+            <l n="189" xml:id="l189">De rendre notre sort plus doux</l>
+            <l n="190" xml:id="l190">Non, non, il ne tient qu’à vous</l>
+            <l n="191" xml:id="l191">De rendre mon cœur plus tendre</l>
+            <l n="192" xml:id="l192">Non, non, il ne tient qu’à vous</l>
+            <l n="193" xml:id="l193">De rendre mon cœur moins jaloux.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="II04">
+          <head>SCÈNE IV</head>
+          <stage>Micène, Io.</stage>
+          <sp who="micene" xml:id="II04-1">
+            <speaker>micène</speaker>
+            <l n="194" xml:id="l194">Ce prince trop longtemps dans ses chagrins s’obstine</l>
+            <l n="195" xml:id="l195">On pardonne au premier transport</l>
+            <l n="196" xml:id="l196">D’un amour qui se plaint à tort</l>
+            <l n="197" xml:id="l197">Et qui sans raison se mutine.</l>
+            <l n="198" xml:id="l198">Mais à la fin on se chagrine</l>
+            <l n="199" xml:id="l199">Contre un Amour chagrin.</l>
+          </sp>
+          <sp who="io" xml:id="II04-2">
+            <speaker>io</speaker>
+            <l n="200" xml:id="l200">Je veux bien te parler enfin sans artifice</l>
+            <l n="201" xml:id="l201">Ce prince infortuné s’alarme avec justice.</l>
+            <l n="202" xml:id="l202">Le maître souverain de la terre et des cieux</l>
+            <l n="203" xml:id="l203">Entreprend de plaire à mes yeux.</l>
+            <l n="204" xml:id="l204">Du cœur de Jupiter l’amour m’offre l’empire.</l>
+            <l n="205" xml:id="l205">Mercure est venu me le dire</l>
+            <l n="206" xml:id="l206">Je le vois chaque jour descendre dans ces lieux.</l>
+            <l n="207" xml:id="l207">Mon cœur autant qu’il peut</l>
+            <l n="208" xml:id="l208">Fait toujours résistance.</l>
+            <l n="209" xml:id="l209">Et pour attaquer ma constance,</l>
+            <l n="210" xml:id="l210">Il ne fallait pas moins que le plus grand des Dieux.</l>
+          </sp>
+          <sp who="micene" xml:id="II04-3">
+            <speaker>micène</speaker>
+            <l n="211" xml:id="l211">On écoute aisément Jupiter qui soupire.</l>
+            <l n="212" xml:id="l212">C’est un amant qu’on ose mépriser.</l>
+            <l n="213" xml:id="l213">Et du plus grand des cœurs</l>
+            <l n="214" xml:id="l214">Ce glorieux empire</l>
+            <l n="215" xml:id="l215">Est difficile à mépriser.</l>
+          </sp>
+          <sp who="io" xml:id="II04-4">
+            <speaker>io</speaker>
+            <l n="216" xml:id="l216">Lorsqu’on me presse de me rendre</l>
+            <l n="217" xml:id="l217">Aux attraits d’un amour nouveau,</l>
+            <l n="218" xml:id="l218">Plus le charme est puissant</l>
+            <l n="219" xml:id="l219">Et plus il serait beau</l>
+            <l n="220" xml:id="l220">De pouvoir m’en défendre.</l>
+            <l n="221" xml:id="l221">Quoi ! tu veux me quitter ?</l>
+            <l n="222" xml:id="l222">Doù vient ce soin pressant ?</l>
+          </sp>
+          <sp who="micene" xml:id="II04-5">
+            <speaker>micène</speaker>
+            <l n="223" xml:id="l223">C’est pour vous seule ici que Mercure descend.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="II05">
+          <head>SCÈNE V</head>
+          <stage>Isis, Mercure, Chœur des divinités et des échos.</stage>
+          <sp who="mercure" xml:id="II05-1">
+            <speaker>mercure</speaker>
+            <l n="224" xml:id="l224">Le Dieu puissant qui lance le tonnerre</l>
+            <l n="225" xml:id="l225">Et qui des cieux tient le sceptre en ses mains</l>
+            <l n="226" xml:id="l226">A résolu de venir sur la terre</l>
+            <l n="227" xml:id="l227">Chasser les maux qui troublent les humains.</l>
+            <l n="228" xml:id="l228">Que la terre avec soin à cet honneur réponde</l>
+            <l n="229" xml:id="l229">Échos retentissez dans ces lieux pleins d’appas,</l>
+            <l n="230" xml:id="l230">Annoncez qu’aujourd’hui pour le bonheur du monde,</l>
+            <l n="231" xml:id="l231">Jupiter descends ici-bas.</l>
+          </sp>
+          <sp who="chœur-des-divinites" xml:id="II05-2">
+            <speaker>chœur des divinités et des échos</speaker>
+            <l n="232" xml:id="l232">Échos retentissez dans ces lieux pleins d’appas,</l>
+            <l n="233" xml:id="l233">Annoncez qu’aujourd’hui pour le bonheur du monde,</l>
+            <l n="234" xml:id="l234">Jupiter descends ici-bas.</l>
+          </sp>
+          <sp who="mercure" xml:id="II05-3">
+            <speaker>mercure</speaker>
+            <l n="235" xml:id="l235">C’est ainsi que Mercure</l>
+            <l n="236" xml:id="l236">Pour abuser les Dieux jaloux</l>
+            <l n="237" xml:id="l237">Doit parler hautement à toute la nature.</l>
+            <l n="238" xml:id="l238">Mais il doit s’expliquer</l>
+            <l n="239" xml:id="l239">Autrement avec vous ;</l>
+            <l n="240" xml:id="l240">C’est pour vous voir,</l>
+            <l n="241" xml:id="l241">C’est pour vous plaire,</l>
+            <l n="242" xml:id="l242">Que Jupiter descend du céleste séjour.</l>
+            <l n="243" xml:id="l243">Et les biens qu’ici bas sa présence va faire</l>
+            <l n="244" xml:id="l244">Ne seront dûs qu’à son amour.</l>
+          </sp>
+          <sp who="isis" xml:id="II05-4">
+            <speaker>isis</speaker>
+            <l n="245" xml:id="l245">Pourquoi du haut des cieux,</l>
+            <l n="246" xml:id="l246">Ce Dieu veut-il descendre ?</l>
+            <l n="247" xml:id="l247">Mes vœux sont engagés.</l>
+            <l n="248" xml:id="l248">Mon cœur a fait un choix</l>
+            <l n="249" xml:id="l249">L’amour tôt ou tard doit prétendre</l>
+            <l n="250" xml:id="l250">Que tous les cœurs se rangent sous ses lois.</l>
+            <l n="251" xml:id="l251">C’est un hommage qu’il faut rendre</l>
+            <l n="252" xml:id="l252">Mais assez de le rendre une fois.</l>
+          </sp>
+          <sp who="mercure" xml:id="II05-5">
+            <speaker>mercure</speaker>
+            <l n="253" xml:id="l253">Ce serait en aimant une contrainte étrange</l>
+            <l n="254" xml:id="l254">Qu’un cœur pour mieux choisir n’osât se dégager.</l>
+            <l n="255" xml:id="l255">Quand c’est pour Jupiter qu’on change</l>
+            <l n="256" xml:id="l256">Il n’est pas honteux de changer.</l>
+            <l n="257" xml:id="l257">Que tout l’univers se pare</l>
+            <l n="258" xml:id="l258">De ce qu’il a de plus rare</l>
+            <l n="259" xml:id="l259">Que tout brille dans ces lieux.</l>
+            <l n="260" xml:id="l260">Que la terre partage</l>
+            <l n="261" xml:id="l261">L’éclat et la gloire des cieux.</l>
+            <l n="262" xml:id="l262">Que tout rende hommage</l>
+            <l n="263" xml:id="l263">Au plus grand des dieux.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6" xml:id="II06">
+          <head>SCÈNE VI</head>
+          <stage>Les divinités de la Terre, des eaux et des richesses souterraines viennent magnifiquement parées pour recevoir Jupiter et pour lui rendre hommage.</stage>
+          <sp who="jupiter" xml:id="II06-1">
+            <speaker>jupiter</speaker>
+            <l n="264" xml:id="l264">Les armes que je tiens protègent l’innocence.</l>
+            <l n="265" xml:id="l265">L’effort n’en est fâcheux qu’à l’orgueil des titans.</l>
+            <l n="266" xml:id="l266">Vous qui suivez les lois,</l>
+            <l n="267" xml:id="l267">Vivez sous ma puissance,</l>
+            <l n="268" xml:id="l268">Toujours heureux, toujours contents.</l>
+            <l n="269" xml:id="l269">Jupiter vient sur la terre.</l>
+            <l n="270" xml:id="l270">Pour la combler de bienfaits,</l>
+            <l n="271" xml:id="l271">Il est armé du tonnerre</l>
+            <l n="272" xml:id="l272">Mais c’est pour donner la paix.</l>
+          </sp>
+          <sp who="chœurs" xml:id="II06-2">
+            <speaker>chœurs</speaker>
+            <l n="273" xml:id="l273">Jupiter vient sur la terre.</l>
+            <l n="274" xml:id="l274">Pour la combler de bienfaits,</l>
+            <l n="275" xml:id="l275">Il est armé du tonnerre</l>
+            <l n="276" xml:id="l276">Mais c’est pour donner la paix.</l>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="acte" n="3" xml:id="III">
+        <head>ACTE II</head>
+        <stage>Le théâtre devient obscurci par des nuages épais qui l’environnent de tous côtés.</stage>
+        <div2 type="scene" n="1" xml:id="III01">
+          <head>SCÈNE I</head>
+          <sp who="io" xml:id="III01-1">
+            <speaker>io</speaker>
+            <l n="277" xml:id="l277">Où suis-je ? D’où vient ce nuage ?</l>
+            <l n="278" xml:id="l278">Les ondes de mon père et son charmant rivage</l>
+            <l n="279" xml:id="l279">Ont disparu tout à coup à mes yeux !</l>
+            <l n="280" xml:id="l280">Où puis-je trouver un passage ?</l>
+            <l n="281" xml:id="l281">La jalouse reine des Cieux</l>
+            <l n="282" xml:id="l282">Me fait elle si tôt acheter l’avantage</l>
+            <l n="283" xml:id="l283">De plaire au plus puissant des Dieux ?</l>
+            <l n="284" xml:id="l284">Que vois-je ? Quel éclat se répand dans ces lieux.</l>
+            <stage>Jupiter paraît et les nuages qui obscurcissent le théâtre, sont illuminés et peints des couleurs les plus brillantes et les plus agréables.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="III02">
+          <head>SCÈNE II</head>
+          <stage>Jupiter, Io</stage>
+          <sp who="jupiter" xml:id="III02-1">
+            <speaker>jupiter</speaker>
+            <l n="285" xml:id="l285">Vous voyez Jupiter ; Que rien ne vous étonne.</l>
+            <l n="286" xml:id="l286">C’est pour tromper Junon et ses regards jaloux</l>
+            <l n="287" xml:id="l287">Qu’un nuage vous environne ;</l>
+            <l n="288" xml:id="l288">Belle nymphe, rassurez-vous</l>
+            <l n="289" xml:id="l289">Je vous aime et pour vous le dire,</l>
+            <l n="290" xml:id="l290">Je sors avec plaisir de mon suprême empire.</l>
+            <l n="291" xml:id="l291">La foudre est dans mes mains,</l>
+            <l n="292" xml:id="l292">Les Dieux me font la cour,</l>
+            <l n="293" xml:id="l293">Je tiens tout l’Univers sous mon obéissance ;</l>
+            <l n="294" xml:id="l294">Mais si je prétends en ce jour</l>
+            <l n="295" xml:id="l295">Engager votre cœur à m’aimer à son tour,</l>
+            <l n="296" xml:id="l296">Je fonde moins mon espérance</l>
+            <l n="297" xml:id="l297">Sur la grandeur de ma puissance</l>
+            <l n="298" xml:id="l298">Que sur l’excès de mon amour.</l>
+          </sp>
+          <sp who="io" xml:id="III02-2">
+            <speaker>io</speaker>
+            <l n="299" xml:id="l299">Que sert-il qu’ici-bas votre amour me choisisse ?</l>
+            <l n="300" xml:id="l300">L’honneur me vient trop tard, j’ai formé d’autres nœuds</l>
+            <l n="301" xml:id="l301">Il fallait que ce bien pour combler tous nos vœux,</l>
+            <l n="302" xml:id="l302">Ne me coûtât point d’injustice,</l>
+            <l n="303" xml:id="l303">Et ne fit point de malheureux</l>
+          </sp>
+          <sp who="jupiter" xml:id="III02-3">
+            <speaker>jupiter</speaker>
+            <l n="304" xml:id="l304">C’est une assez grande gloire</l>
+            <l n="305" xml:id="l305">Pour votre premier vainqueur,</l>
+            <l n="306" xml:id="l306">D’être encore dans votre mémoire</l>
+            <l n="307" xml:id="l307">Et de me disputer si longtemps votre cœur.</l>
+          </sp>
+          <sp who="io" xml:id="III02-4">
+            <speaker>io</speaker>
+            <l n="308" xml:id="l308">La gloire doit forcer mon cœur à se défendre.</l>
+            <l n="309" xml:id="l309">Si vous sortez du Ciel pour chercher les douceurs</l>
+            <l n="310" xml:id="l310">D’une amour tendre,</l>
+            <l n="311" xml:id="l311">Vous pouvez aisément attaquer d’autres cœurs</l>
+            <l n="312" xml:id="l312">Qui feront gloire de se rendre.</l>
+          </sp>
+          <sp who="jupiter" xml:id="III02-5">
+            <speaker>jupiter</speaker>
+            <l n="313" xml:id="l313">Il n’est rien dans les Cieux il n’est rien ici-bas</l>
+            <l n="314" xml:id="l314">De si charment que vos appas ;</l>
+            <l n="315" xml:id="l315">Rien ne peut me toucher d’une flamme si forte ;</l>
+            <l n="316" xml:id="l316">Belle Nymphe vous l’emportez</l>
+            <l n="317" xml:id="l317">Sur les autres beautés,</l>
+            <l n="318" xml:id="l318">Autant que Jupiter l’emporte</l>
+            <l n="319" xml:id="l319">Sur les autres Divinités !</l>
+            <l n="320" xml:id="l320">Verrez-vous tant d’amour avec indifférence ?</l>
+            <l n="321" xml:id="l321">Quel trouble vous saisit ? Où tournez vous vos pas ?</l>
+          </sp>
+          <sp who="io" xml:id="III02-6">
+            <speaker>io</speaker>
+            <l n="322" xml:id="l322">Mon cœur en votre présence</l>
+            <l n="323" xml:id="l323">Fait trop peu de résistance</l>
+            <l n="324" xml:id="l324">Contentez-vous, hélas !</l>
+            <l n="325" xml:id="l325">D’étonner ma constance,</l>
+            <l n="326" xml:id="l326">Et n’en triomphez pas.</l>
+          </sp>
+          <sp who="jupiter" xml:id="III02-7">
+            <speaker>jupiter</speaker>
+            <l n="327" xml:id="l327">Et pourquoi craignez vous Jupiter qui vous aime ?</l>
+          </sp>
+          <sp who="io" xml:id="III02-8">
+            <speaker>io</speaker>
+            <l n="328" xml:id="l328">Je crains tout, je me crains moi-même.</l>
+          </sp>
+          <sp who="jupiter" xml:id="III02-9">
+            <speaker>jupiter</speaker>
+            <l n="329" xml:id="l329" part="I">Quoi ! voulez vous me fuir</l>
+          </sp>
+          <sp who="io" xml:id="III02-10">
+            <speaker>io</speaker>
+            <l n="329" part="F">C’est mon dernier espoir.</l>
+          </sp>
+          <sp who="jupiter" xml:id="III02-11">
+            <speaker>jupiter</speaker>
+            <l n="330" xml:id="l330" part="I">Écoutez mon amour.</l>
+          </sp>
+          <sp who="io" xml:id="III02-12">
+            <speaker>io</speaker>
+            <l n="330" part="F">Écoutez mon devoir.</l>
+          </sp>
+          <sp who="jupiter" xml:id="III02-13">
+            <speaker>jupiter</speaker>
+            <l n="331" xml:id="l331">Vous avez un cœur libre et qui peut de défendre</l>
+          </sp>
+          <sp who="io" xml:id="III02-14">
+            <speaker>io</speaker>
+            <l n="332" xml:id="l332">Non, vous ne laissez pas mon cœur en mon pouvoir</l>
+          </sp>
+          <sp who="jupiter" xml:id="III02-15">
+            <speaker>jupiter</speaker>
+            <l n="333" xml:id="l333">Quoi ! vous ne voulez pas m’entendre</l>
+          </sp>
+          <sp who="io" xml:id="III02-16">
+            <speaker>io</speaker>
+            <l n="334" xml:id="l334">Je n’ai que trop de peine à ne le pas vouloir.</l>
+            <l n="335" xml:id="l335" part="I">Laissez-moi...</l>
+          </sp>
+          <sp who="jupiter" xml:id="III02-17">
+            <speaker>jupiter</speaker>
+            <l n="335" part="F">Quoi si tôt.</l>
+          </sp>
+          <sp who="io" xml:id="III02-18">
+            <speaker>io</speaker>
+            <l n="335" part="F">Je devais moins attendre ;</l>
+            <l n="336" xml:id="l336">Que ne fuyais-je hélas ! Avant que de vous voir.</l>
+          </sp>
+          <sp who="jupiter" xml:id="III02-19">
+            <speaker>jupiter</speaker>
+            <l n="337" xml:id="l337">L’amour pour moi me sollicite</l>
+            <l n="338" xml:id="l338">Et je vois que vous me quittez</l>
+          </sp>
+          <sp who="io" xml:id="III02-20">
+            <speaker>io</speaker>
+            <l n="339" xml:id="l339">Le devoir veut que je vous quitte,</l>
+            <l n="340" xml:id="l340">Et je sens que vous m’arrêtez</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="III03">
+          <head>SCÈNE III</head>
+          <stage>Mercure, Jupiter.</stage>
+          <sp who="mercure" xml:id="III03-1">
+            <speaker>mercure</speaker>
+            <l n="341" xml:id="l341">Iris est ici-bas et Junon elle-même</l>
+            <l n="342" xml:id="l342">Pourrait vous suivre dans ces lieux.</l>
+          </sp>
+          <sp who="jupiter" xml:id="III03-2">
+            <speaker>jupiter</speaker>
+            <l n="343" xml:id="l343">Pour la nymphe que j’aime</l>
+            <l n="344" xml:id="l344">Je crains ses transports furieux.</l>
+          </sp>
+          <sp who="mercure" xml:id="III03-3">
+            <speaker>mercure</speaker>
+            <l n="345" xml:id="l345">Sa vengeance serait funeste,</l>
+            <l n="346" xml:id="l346">Si votre amour était surpris.</l>
+          </sp>
+          <sp who="jupiter" xml:id="III03-4">
+            <speaker>jupiter</speaker>
+            <l n="347" xml:id="l347">Va, prends soin d’arrêter Iris,</l>
+            <l n="348" xml:id="l348">Mon amour prendra soin du reste.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="III04">
+          <head>SCÈNE IV</head>
+          <stage>Mercure, Iris.</stage>
+          <sp who="mercure" xml:id="III04-1">
+            <speaker>mercure</speaker>
+            <l n="349" xml:id="l349">Arrêtez, belle Iris, différez un moment</l>
+            <l n="350" xml:id="l350">D’accomplir en ces lieux ce que Junon désire.</l>
+          </sp>
+          <sp who="iris" xml:id="III04-2">
+            <speaker>iris</speaker>
+            <l n="351" xml:id="l351">Vous m’arrêtez vainement</l>
+            <l n="352" xml:id="l352">Et vous n’aurez rien à me dire.</l>
+          </sp>
+          <sp who="mercure" xml:id="III04-3">
+            <speaker>mercure</speaker>
+            <l n="353" xml:id="l353">Mais, si je vous disais que je veux vous choisir</l>
+            <l n="354" xml:id="l354">Pour attacher mon cœur d’une éternelle chaîne ?</l>
+          </sp>
+          <sp who="iris" xml:id="III04-4">
+            <speaker>iris</speaker>
+            <l n="355" xml:id="l355">Je vous écouterais peut-être avec plaisir,</l>
+            <l n="356" xml:id="l356">Mais je vous croirais avec peine.</l>
+          </sp>
+          <sp who="mercure" xml:id="III04-5">
+            <speaker>mercure</speaker>
+            <l n="357" xml:id="l357">Refusez vous d’unir votre cœur et le mien.</l>
+          </sp>
+          <sp who="iris" xml:id="III04-6">
+            <speaker>iris</speaker>
+            <l n="358" xml:id="l358">Jupiter et Junon nous occupent sans cesse</l>
+            <l n="359" xml:id="l359">Nos soins sont assez grands sans que l’amour nous blesse,</l>
+            <l n="360" xml:id="l360">Nous n’avons pas tous deux de loisir d’aimer bien.</l>
+          </sp>
+          <sp who="mercure" xml:id="III04-7">
+            <speaker>mercure</speaker>
+            <l n="361" xml:id="l361">Si je fais ma première affaire</l>
+            <l n="362" xml:id="l362">De vous voir et de vous plaire.</l>
+          </sp>
+          <sp who="iris" xml:id="III04-8">
+            <speaker>iris</speaker>
+            <l n="363" xml:id="l363">Je ferai mon premier devoir</l>
+            <l n="364" xml:id="l364">De vous plaire et de vous voir.</l>
+          </sp>
+          <sp who="mercure" xml:id="III04-9">
+            <speaker>mercure</speaker>
+            <l n="365" xml:id="l365">Un cœur fidèle</l>
+            <l n="366" xml:id="l366">A pour moi de charmants appas :</l>
+            <l n="367" xml:id="l367">Vous avez mille attraits,</l>
+            <l n="368" xml:id="l368">Vous n’êtes que trop belle :</l>
+            <l n="369" xml:id="l369">Mais je crains que vous n’ayez pas.</l>
+            <l n="370" xml:id="l370">Un cœur fidèle.</l>
+          </sp>
+          <sp who="iris" xml:id="III04-10">
+            <speaker>iris</speaker>
+            <l n="371" xml:id="l371">Pourquoi craignez-vous tant</l>
+            <l n="372" xml:id="l372">Que mon cœur se dégage</l>
+            <l n="373" xml:id="l373">Je vous permets d’être inconstant,</l>
+            <l n="374" xml:id="l374">Sitôt que je serai volage.</l>
+          </sp>
+          <sp who="mercure_iris" xml:id="III04-11">
+            <speaker>mercure et iris, ensemble</speaker>
+            <l n="375" xml:id="l375">Promettez moi de constantes amours,</l>
+            <l n="376" xml:id="l376">Je vous promets de vous aimer toujours.</l>
+          </sp>
+          <sp who="mercure" xml:id="III04-12">
+            <speaker>mercure</speaker>
+            <l n="377" xml:id="l377">Que la feinte entre nous finisse</l>
+          </sp>
+          <sp who="iris" xml:id="III04-13">
+            <speaker>iris</speaker>
+            <l n="378" xml:id="l378">Parlons sans mystère en ce jour ;</l>
+          </sp>
+          <sp who="mercure_iris" xml:id="III04-14">
+            <speaker>ensemble</speaker>
+            <l n="379" xml:id="l379">Le moindre artifice</l>
+            <l n="380" xml:id="l380">Offense l’amour.</l>
+          </sp>
+          <sp who="iris" xml:id="III04-15">
+            <speaker>iris</speaker>
+            <l n="381" xml:id="l381">Quel soin presse ici-bas Jupiter de descendre.</l>
+          </sp>
+          <sp who="mercure" xml:id="III04-16">
+            <speaker>mercure</speaker>
+            <l n="382" xml:id="l382">Le seul bien des mortels lui fait quitter les cieux ;</l>
+            <l n="383" xml:id="l383">Mais quel soupçons nouveau Junon peut elle prendre ?</l>
+            <l n="384" xml:id="l384">Ne suivrait elle pas Jupiter en ces lieux.</l>
+          </sp>
+          <sp who="iris" xml:id="III04-17">
+            <speaker>iris</speaker>
+            <l n="385" xml:id="l385">Dans les jardins d’Hébé Junon vient de descendre.</l>
+          </sp>
+          <sp who="mercure" xml:id="III04-18">
+            <speaker>mercure</speaker>
+            <l n="386" xml:id="l386">Un nuage entrouvert la découvre à mes yeux ;</l>
+            <l n="387" xml:id="l387">Iris parle ainsi sans mystère !</l>
+            <l n="388" xml:id="l388">C’est ainsi que je puis me fier à ta foi.</l>
+          </sp>
+          <sp who="iris" xml:id="III04-19">
+            <speaker>iris</speaker>
+            <l n="389" xml:id="l389">Ne me reprochez pas que je suis peu sincère,</l>
+            <l n="390" xml:id="l390">Vous ne l’êtes pas plus que moi.</l>
+            <stage>Junon paraît au milieu d’un nuage qui s’avance.</stage>
+          </sp>
+          <sp who="mercure_iris" xml:id="III04-20">
+            <speaker>mercure et iris</speaker>
+            <l n="391" xml:id="l391">Gardez pour quelque autre</l>
+            <l n="392" xml:id="l392">Votre amour trompeur,</l>
+            <l n="393" xml:id="l393">Je reprends mon cœur,</l>
+            <l n="394" xml:id="l394">Reprenez le vôtre.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="III05">
+          <head>SCÈNE V</head>
+          <stage>Iris, Junon.</stage>
+          <stage>Le nuage s’approche de terre et Junon descend.</stage>
+          <sp who="iris" xml:id="III05-1">
+            <speaker>iris</speaker>
+            <l n="395" xml:id="l395">J’ai cherché vainement la fille d’Inachus.</l>
+          </sp>
+          <sp who="junon" xml:id="III05-2">
+            <speaker>junon</speaker>
+            <l n="396" xml:id="l396">Ah ! Je n’ai pas besoin d’en savoir davantage,</l>
+            <l n="397" xml:id="l397">Non, Isis, ne la cherchons plus.</l>
+            <l n="398" xml:id="l398">Jupiter dans ces lieux m’a donné de l’ombrage,</l>
+            <l n="399" xml:id="l399">J’ai traversé les airs, j’ai percé le nuage</l>
+            <l n="400" xml:id="l400">Qu’il opposait à mes regards ;</l>
+            <l n="401" xml:id="l401">Mais en vain j’ai tourné les yeux de toutes parts,</l>
+            <l n="402" xml:id="l402">Ce Dieu par son pouvoir suprême</l>
+            <l n="403" xml:id="l403">M’a caché la nymphe qu’il aime,</l>
+            <l n="404" xml:id="l404">Et ne m’a laissé voir que des troupeaux épars !</l>
+            <l n="405" xml:id="l405">Non, non, je ne suis pas une incrédule épouse</l>
+            <l n="406" xml:id="l406">Qu’un puisse tromper aisément ;</l>
+            <l n="407" xml:id="l407">Voyons qui feindra mieux de Jupiter amant</l>
+            <l n="408" xml:id="l408">Ou de Junon jalouse.</l>
+            <l n="409" xml:id="l409">Il est maître des Cieux, la terre suit sa loi ;</l>
+            <l n="410" xml:id="l410">Sous sa toute puissance, il faut que tout fléchisse ;</l>
+            <l n="411" xml:id="l411">Mais puisqu’il ne prétend s’armer que d’artifice</l>
+            <l n="412" xml:id="l412">Tout Jupiter qu’il est, il est moins fort que moi.</l>
+            <l n="413" xml:id="l413">Dans ces lieux écartés, vois que la terre est belle.</l>
+          </sp>
+          <sp who="iris" xml:id="III05-3">
+            <speaker>iris</speaker>
+            <l n="414" xml:id="l414">Elle honore son maître et brille sous ses pas.</l>
+          </sp>
+          <sp who="junon" xml:id="III05-4">
+            <speaker>junon</speaker>
+            <l n="415" xml:id="l415">L’amour cet amour infidèle,</l>
+            <l n="416" xml:id="l416">Qui du plus haut des cieux l’appelle,</l>
+            <l n="417" xml:id="l417">Fait que tout lui rit ici-bas.</l>
+            <l n="418" xml:id="l418">Près d’une maîtresse nouvelle</l>
+            <l n="419" xml:id="l419">Dans le fond des déserts, on trouve des appas.</l>
+            <l n="420" xml:id="l420">Et le ciel même ne plaît pas</l>
+            <l n="421" xml:id="l421">Avec une épouse immortelle.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6" xml:id="III06">
+          <head>SCÈNE VI</head>
+          <stage>Jupiter, Junon, Mercure, Iris, Jupiter.</stage>
+          <sp who="jupiter" xml:id="III06-1">
+            <speaker>jupiter</speaker>
+            <l n="422" xml:id="l422">Dans les jardins d’Hébé vous deviez en ce jour</l>
+            <l n="423" xml:id="l423">D’une nouvelle nymphe</l>
+            <l n="424" xml:id="l424">Augmenter votre cour ;</l>
+            <l n="425" xml:id="l425">Quel dessein si pressant dans ces lieux vous amène.</l>
+          </sp>
+          <sp who="junon" xml:id="III06-2">
+            <speaker>junon</speaker>
+            <l n="426" xml:id="l426">Je ne vous suivrai pas plus loin. Je viens de votre amour</l>
+            <l n="427" xml:id="l427">Attendre un nouveau soin :</l>
+            <l n="428" xml:id="l428">Ne vous étonnez pas qu’on vous quitte avec peine,</l>
+            <l n="429" xml:id="l429">Et que de Jupiter on ait toujours besoin.</l>
+            <l n="430" xml:id="l430">Vous m’aimez, et j’en suis certaine.</l>
+          </sp>
+          <sp who="jupiter" xml:id="III06-3">
+            <speaker>jupiter</speaker>
+            <l n="431" xml:id="l431">Souhaitez, je promets que vos vœux seront satisfaits.</l>
+          </sp>
+          <sp who="junon" xml:id="III06-4">
+            <speaker>junon</speaker>
+            <l n="432" xml:id="l432">J’ai fait choix d’une nymphe et déjà la Déesse</l>
+            <l n="433" xml:id="l433">De l’aimable Jeunesse</l>
+            <l n="434" xml:id="l434">Se prépare à la recevoir ;</l>
+            <l n="435" xml:id="l435">Mais je n’ose, sans vous, disposer de personne.</l>
+            <l n="436" xml:id="l436">Si j’ai quelque pouvoir,</l>
+            <l n="437" xml:id="l437">Je n’en prétends avoir</l>
+            <l n="438" xml:id="l438">Qu’autant que votre amour m’en donne</l>
+            <l n="439" xml:id="l439">Ce don de votre main me sera précieux.</l>
+          </sp>
+          <sp who="jupiter" xml:id="III06-5">
+            <speaker>jupiter</speaker>
+            <l n="440" xml:id="l440">J’approuve vos désirs ;</l>
+            <l n="441" xml:id="l441">Que rien n’y soit contraire ;</l>
+            <l n="442" xml:id="l442">Mercure ayez soin de lui plaire,</l>
+            <l n="443" xml:id="l443">Et portez à son gré, mes ordres en tous lieux ;</l>
+            <l n="444" xml:id="l444">Que tout suive les lois de la reine des cieux.</l>
+          </sp>
+          <sp who="iris_mercure" xml:id="III06-6">
+            <speaker>iris et mercure</speaker>
+            <l n="445" xml:id="l445">Que tout suive les lois de la reine des Cieux.</l>
+          </sp>
+          <sp who="jupiter" xml:id="III06-7">
+            <speaker>jupiter</speaker>
+            <l n="446" xml:id="l446">Parlez, et qu’hautement votre choix se déclare.</l>
+          </sp>
+          <sp who="junon" xml:id="III06-8">
+            <speaker>junon</speaker>
+            <l n="447" xml:id="l447">La nymphe qui me plaît ne vous déplaira pas,</l>
+            <l n="448" xml:id="l448">Vous ne verrez pas ici-bas</l>
+            <l n="449" xml:id="l449">De mérite plus grand ni beauté plus rare ;</l>
+            <l n="450" xml:id="l450">Les honneurs que je lui prépare</l>
+            <l n="451" xml:id="l451">Ne lui sont que trop dûs,</l>
+            <l n="452" xml:id="l452">Enfin, Junon choisit la fille d’Inachus.</l>
+          </sp>
+          <sp who="jupiter" xml:id="III06-9">
+            <speaker>jupiter</speaker>
+            <l n="453" xml:id="l453" part="I">La fille d’Inachus.</l>
+          </sp>
+          <sp who="junon" xml:id="III06-10">
+            <speaker>junon</speaker>
+            <l n="453" part="F">Déclarez pour elle.</l>
+            <l n="454" xml:id="l454">Peut-on voir à ma suite une nymphe plus belle,</l>
+            <l n="455" xml:id="l455">Plus capable d’orner ma cour,</l>
+            <l n="456" xml:id="l456">Et de marquer pour moi,</l>
+            <l n="457" xml:id="l457">Le soin de votre amour ;</l>
+            <l n="458" xml:id="l458">Vous me l’avez promise et je vous le demande.</l>
+          </sp>
+          <sp who="jupiter" xml:id="III06-11">
+            <speaker>jupiter</speaker>
+            <l n="459" xml:id="l459">Vous ne sauriez combler d’une gloire trop grande</l>
+            <l n="460" xml:id="l460">La nymphe que vous choisissez ;</l>
+            <l n="461" xml:id="l461">Junon commande</l>
+            <l n="462" xml:id="l462">Allez, allez, Mercure obéissez.</l>
+          </sp>
+          <sp who="junon" xml:id="III06-12">
+            <speaker>junon</speaker>
+            <l n="463" xml:id="l463">Junon commande</l>
+            <l n="464" xml:id="l464">Allez, allez, Mercure obéissez.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="7" xml:id="III07">
+          <head>SCÈNE VII</head>
+          <stage>Hébé, Troupe de Jeux et de Plaisirs, Troupe de Nymphes de la suite de Junon et d’Hébé.</stage>
+          <stage>Le théâtre change et représente les jardins d’Hébé, déesse de la Jeunesse. Les jeux et les plaisirs s’avancent en dansant devant la déesse Hébé.</stage>
+          <sp who="hebe" xml:id="III07-1">
+            <speaker>hébé</speaker>
+            <l n="465" xml:id="l465">Les plaisirs les plus doux</l>
+            <l n="466" xml:id="l466">Sont faits pour la jeunesse.</l>
+            <l n="467" xml:id="l467">Venez, venez jeux charmants, venez tous ;</l>
+            <l n="468" xml:id="l468">Cardez vous bien d’amener avec vous</l>
+            <l n="469" xml:id="l469">La sévère Sagesse.</l>
+            <l n="470" xml:id="l470">Fuyez, fuyez, sombre tristesse</l>
+            <l n="471" xml:id="l471">Noirs chagrins, fuyez loin de nous</l>
+            <l n="472" xml:id="l472">Vous êtes destinés pour l’affreuse vieillesse</l>
+            <l n="473" xml:id="l473">Les plaisirs les plus doux</l>
+            <l n="474" xml:id="l474">Sont faits pour la jeunesse.</l>
+          </sp>
+          <sp who="le-chœur" xml:id="III07-2">
+            <speaker>le chœur</speaker>
+            <l n="475" xml:id="l475">Les plaisirs les plus doux</l>
+            <l n="476" xml:id="l476">Sont faits pour la jeunesse.</l>
+            <stage>Les jeux, les plaisirs et les nymphes de Junon se divertissent par des danses et par des chansons, en attendant la nouvelle nymphe dont Junon vont faire choix.</stage>
+          </sp>
+          <sp who="deux-nymphes" xml:id="III07-3">
+            <speaker>deux nymphes</speaker>
+            <l n="477" xml:id="l477">Aimez, profitez du temps,</l>
+            <l n="478" xml:id="l478">Jeunesse charmante</l>
+            <l n="479" xml:id="l479">Rendez vos désirs contents.</l>
+            <l n="480" xml:id="l480">Tout rit tout enchante</l>
+            <l n="481" xml:id="l481">Dans les plus beaux ans :</l>
+            <l n="482" xml:id="l482">L’amour vous éclaire</l>
+            <l n="483" xml:id="l483">Marchez sur ses pas</l>
+            <l n="484" xml:id="l484">Cherchez à vous faire</l>
+            <l n="485" xml:id="l485">Des nœuds pleins d’appas.</l>
+            <l n="486" xml:id="l486">Que vous sert de plaire,</l>
+            <l n="487" xml:id="l487">Si vous n’aimez pas ?</l>
+          </sp>
+          <sp who="chœurs" xml:id="III07-4">
+            <speaker>chœurs</speaker>
+            <l n="488" xml:id="l488">Que ces lieux ont d’attraits !</l>
+            <l n="489" xml:id="l489">Goûtons-en bien les charmes,</l>
+            <l n="490" xml:id="l490">L’Amour n’y fait jamais verser de tristes larmes</l>
+            <l n="491" xml:id="l491">Les soins et les alarmes,</l>
+            <l n="492" xml:id="l492">N’en troublent point la paix.</l>
+            <l n="493" xml:id="l493">Jouissons dans ces retraites</l>
+            <l n="494" xml:id="l494">Des douceurs les plus parfaites ;</l>
+            <l n="495" xml:id="l495">Suivez-nous, charmants plaisirs,</l>
+            <l n="496" xml:id="l496">Comblez tous nos désirs.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="8" xml:id="III08">
+          <head>SCÈNE VIII</head>
+          <stage>Io, Mercure, Iris, Hébé, Les Jeux, Les Plaisirs, Troupe de Nymphes de la suite de Junon.</stage>
+          <sp who="mercure" xml:id="III08-1">
+            <speaker>mercure et iris conduisant io</speaker>
+            <l n="497" xml:id="l497">Servez, Nymphe, servez avec un soin fidèle,</l>
+            <l n="498" xml:id="l498">La puissante reine des Cieux.</l>
+            <l n="499" xml:id="l499">Suivez dans ces aimables lieux</l>
+            <l n="500" xml:id="l500">La jeunesse immortelle</l>
+            <l n="501" xml:id="l501">Tout plaît et tout rit avec elle.</l>
+            <stage>Hébé et les nymphes reçoivent Io.</stage>
+          </sp>
+          <sp who="hebe" xml:id="III08-2">
+            <speaker>hébé</speaker>
+            <l n="502" xml:id="l502">Que c’est un plaisir charmant</l>
+            <l n="503" xml:id="l503">D’être jeune et belle !</l>
+            <l n="504" xml:id="l504">Triomphez à tout moment</l>
+            <l n="505" xml:id="l505">D’une conquête nouvelle.</l>
+            <l n="506" xml:id="l506">Que c’est un plaisir charmant</l>
+            <l n="507" xml:id="l507">D’être jeune et belle !</l>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="acte" n="4" xml:id="IV">
+        <head>ACTE III</head>
+        <stage>Le théâtre change et représente la solitude dont Argus fait sa demeure près d’un lac, au milieu d’une forêt.</stage>
+        <div2 type="scene" n="1" xml:id="IV01">
+          <head>SCÈNE I</head>
+          <stage>Argus, Io.</stage>
+          <sp who="argus" xml:id="IV01-1">
+            <speaker>argus</speaker>
+            <l n="508" xml:id="l508">Dans ce solitaire séjour</l>
+            <l n="509" xml:id="l509">Vous êtes sous ma garde,</l>
+            <l n="510" xml:id="l510">Junon vous y laisse :</l>
+            <l n="511" xml:id="l511">Mes yeux veilleront tour à tour</l>
+            <l n="512" xml:id="l512">Et vous observeront sans cesse.</l>
+          </sp>
+          <sp who="io" xml:id="IV01-2">
+            <speaker>io</speaker>
+            <l n="513" xml:id="l513">Est-ce là le bonheur que Junon m’a promis.</l>
+            <l n="514" xml:id="l514">Argus apprenez-moi quel crime j’ai commis.</l>
+          </sp>
+          <sp who="argus" xml:id="IV01-3">
+            <speaker>argus</speaker>
+            <l n="515" xml:id="l515">Vous êtes aimable</l>
+            <l n="516" xml:id="l516">Vos yeux devaient moins charmer.</l>
+            <l n="517" xml:id="l517">Vous êtes coupable</l>
+            <l n="518" xml:id="l518">De faire trop aimer</l>
+            <l n="519" xml:id="l519">Ne me déguisez rien, de quoi m’accuse-t-elle</l>
+            <l n="520" xml:id="l520">Quelle offenses à ses yeux me rend si criminelle ?</l>
+            <l n="521" xml:id="l521">Ne pourrai-je apaiser son funeste courroux.</l>
+          </sp>
+          <sp who="argus" xml:id="IV01-4">
+            <speaker>argus</speaker>
+            <l n="522" xml:id="l522">C’est une offense cruelle</l>
+            <l n="523" xml:id="l523">De paraître belle</l>
+            <l n="524" xml:id="l524">À ses yeux jaloux</l>
+            <l n="525" xml:id="l525">L’amour de Jupiter a trop paru pour vous</l>
+          </sp>
+          <sp who="io" xml:id="IV01-5">
+            <speaker>io</speaker>
+            <l n="526" xml:id="l526">Je suis perdue, ô ciel ! si Junon est jalouse.</l>
+          </sp>
+          <sp who="argus" xml:id="IV01-6">
+            <speaker>argus</speaker>
+            <l n="527" xml:id="l527">On ne plaît guère à l’épouse</l>
+            <l n="528" xml:id="l528">Lorsqu’on plaît trop à l’époux.</l>
+            <l n="529" xml:id="l529">Vous n’en serez pas mieux d’être ingrate et volage</l>
+            <l n="530" xml:id="l530">Vous quittez un fidèle amant,</l>
+            <l n="531" xml:id="l531">Pour recevoir un plus brillant hommage</l>
+            <l n="532" xml:id="l532">Mais c’est un avantage</l>
+            <l n="533" xml:id="l533">Que vous payerez chèrement.</l>
+            <l n="534" xml:id="l534">J’ai l’ordre d’enfermer vos dangereux appas</l>
+            <l n="535" xml:id="l535">La Déesse se défend que vous voyez personne</l>
+          </sp>
+          <sp who="io" xml:id="IV01-7">
+            <speaker>io</speaker>
+            <l n="536" xml:id="l536">Aux rigueurs de Junon Jupiter m’abandonne.</l>
+            <l n="537" xml:id="l537">Non, non Jupiter ne m’aime pas.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="IV02">
+          <head>SCÈNE II</head>
+          <stage>Hiérax, Argus.</stage>
+          <sp who="hierax" xml:id="IV02-1">
+            <speaker>hiérax, voyant io, qui entre dans la demeure d’argus</speaker>
+            <l n="538" xml:id="l538">La perfide craint ma présence</l>
+            <l n="539" xml:id="l539">Elle me fuit en vain et j’irai la chercher.</l>
+          </sp>
+          <sp who="argus" xml:id="IV02-2">
+            <speaker>argus</speaker>
+            <l n="540" xml:id="l540" part="I">Non !</l>
+          </sp>
+          <sp who="hierax" xml:id="IV02-3">
+            <speaker>hiérax</speaker>
+            <l n="540" part="F">Laissez moi lui reprocher</l>
+            <l n="541" xml:id="l541">Sa cruelle inconstance</l>
+          </sp>
+          <sp who="argus" xml:id="IV02-4">
+            <speaker>argus</speaker>
+            <l n="542" xml:id="l542">Non, non, on ne la doit point voir</l>
+          </sp>
+          <sp who="hierax" xml:id="IV02-5">
+            <speaker>hiérax</speaker>
+            <l n="543" xml:id="l543">Quoi ! Junon me devient contraire ?</l>
+          </sp>
+          <sp who="argus" xml:id="IV02-6">
+            <speaker>argus</speaker>
+            <l n="544" xml:id="l544">L’ordre est exprès pour tous, perdez un vain espoir.</l>
+          </sp>
+          <sp who="hierax" xml:id="IV02-7">
+            <speaker>hiérax</speaker>
+            <l n="545" xml:id="l545">L’amitié fraternelle a si peur de pouvoir ?</l>
+          </sp>
+          <sp who="argus" xml:id="IV02-8">
+            <speaker>argus</speaker>
+            <l n="546" xml:id="l546">Non, je ne connais plus ni d’ami, ni de frère,</l>
+            <l n="547" xml:id="l547">Je ne connais que mon devoir</l>
+            <l n="548" xml:id="l548">Laissez la nymphe en paix,</l>
+            <l n="549" xml:id="l549">Ce n’est plus vous qu’elle aime.</l>
+          </sp>
+          <sp who="hierax" xml:id="IV02-9">
+            <speaker>hiérax</speaker>
+            <l n="550" xml:id="l550">Quel est l’heureux amant qui s’en est fait aimer ?</l>
+            <l n="551" xml:id="l551" part="I">Nommez le moi.</l>
+          </sp>
+          <sp who="argus" xml:id="IV02-10">
+            <speaker>argus</speaker>
+            <l n="551" part="F">Tremblez à l’entendre nommer.</l>
+            <l n="552" xml:id="l552">C’est un Dieu tout puissant, c’est Jupiter lui-même.</l>
+          </sp>
+          <sp who="hierax" xml:id="IV02-11">
+            <speaker>hiérax</speaker>
+            <l n="553" xml:id="l553" part="I">Ô Dieux !</l>
+          </sp>
+          <sp who="argus" xml:id="IV02-12">
+            <speaker>argus</speaker>
+            <l n="553" part="F">Dégagez vous d’un amour si fatal</l>
+            <l n="554" xml:id="l554">Sans balancer il faut vous y résoudre</l>
+            <l n="555" xml:id="l555">C’est un redoutable rival</l>
+            <l n="556" xml:id="l556">Qu’un amant qui lance la foudre.</l>
+          </sp>
+          <sp who="hierax" xml:id="IV02-13">
+            <speaker>hiérax</speaker>
+            <l n="557" xml:id="l557">Dieux tout puissants ! ah ! vous étiez jaloux</l>
+            <l n="558" xml:id="l558">De la félicité que vous m’avez ravie,</l>
+            <l n="559" xml:id="l559">Dieux tout puissants ! ah ! vous étiez jaloux</l>
+            <l n="560" xml:id="l560">De me voir plus heureux que vous.</l>
+            <l n="561" xml:id="l561">Vous n’avez pu souffrir le bonheur de la vie</l>
+            <l n="562" xml:id="l562">Et je voyais vos grandeurs sans envie.</l>
+            <l n="563" xml:id="l563">J’aimais, j’étais aimé.</l>
+            <l n="564" xml:id="l564">Mon sort était trop doux.</l>
+          </sp>
+          <sp who="argus" xml:id="IV02-14">
+            <speaker>argus</speaker>
+            <l n="565" xml:id="l565">Heureux qui peut briser</l>
+            <l n="566" xml:id="l566">Qui peut briser sa chaîne</l>
+            <l n="567" xml:id="l567">Finissez une plainte vaine</l>
+            <l n="568" xml:id="l568">Méritez l’infidélité ;</l>
+            <l n="569" xml:id="l569">Un cœur ingrat vaut-il la peine</l>
+            <l n="570" xml:id="l570">D’être tant regretté.</l>
+          </sp>
+          <sp who="hierax_argus" xml:id="IV02-15">
+            <speaker>hiérax et argus</speaker>
+            <l n="571" xml:id="l571">Heureux qui peut briser</l>
+            <l n="572" xml:id="l572">Qui peut briser sa chaîne</l>
+          </sp>
+          <sp who="argus" xml:id="IV02-16">
+            <speaker>argus</speaker>
+            <l n="573" xml:id="l573">Liberté, liberté.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="IV03">
+          <head>SCÈNE III</head>
+          <stage>Argus, Hiérax, une nymphe qui représente Syrinx, troupe de Nymphes en habits de chasse.</stage>
+          <sp who="syrinx_chœurs" xml:id="IV03-1">
+            <speaker>syrinx, chœurs des nymphes</speaker>
+            <l n="574" xml:id="l574">Liberté, liberté !</l>
+            <stage>Une partie des nymphes dansent dans le temps que les autres chantent.</stage>
+          </sp>
+          <sp who="hierax_argus" xml:id="IV03-2">
+            <speaker>hiérax et argus</speaker>
+            <l n="575" xml:id="l575">Quelles danses ! quels chants et quelle nouveauté !</l>
+          </sp>
+          <sp who="syrinx_chœurs" xml:id="IV03-3">
+            <speaker>syrinx, chœurs</speaker>
+            <l n="576" xml:id="l576">S’il est quelque bien au monde</l>
+            <l n="577" xml:id="l577">C’est la liberté.</l>
+          </sp>
+          <sp who="hierax_argus" xml:id="IV03-4">
+            <speaker>hiérax et argus</speaker>
+            <l n="578" xml:id="l578">Que voulez-vous ?</l>
+          </sp>
+          <sp who="chœur-des-nymphes" xml:id="IV03-5">
+            <speaker>chœur des nymphes</speaker>
+            <l n="579" xml:id="l579">Liberté, liberté.</l>
+          </sp>
+          <sp who="hierax_argus" xml:id="IV03-6">
+            <speaker>hiérax et argus</speaker>
+            <l n="580" xml:id="l580">Que voulez-vous ? il faut qu’on nous réponde.</l>
+          </sp>
+          <sp who="syrinx_chœurs" xml:id="IV03-7">
+            <speaker>syrinx et les nymphes</speaker>
+            <l n="581" xml:id="l581">S’il est quelque bien au monde,</l>
+            <l n="582" xml:id="l582">C’est la liberté.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="IV04">
+          <head>SCÈNE IV</head>
+          <stage>Argus, Hiérax, Syrinx, troupes de Nymphes, Mercure, déguisé en berger, Troupe de Bergers de Satyres et de Sylvains.</stage>
+          <sp who="mercure_chœurs-de-nymphes_bergers_satyres_sylvains" xml:id="IV04-1">
+            <speaker>mercure, chœurs de nymphes, de bergers, de satyres, et de sylvains</speaker>
+            <l n="583" xml:id="l583">Liberté, liberté</l>
+            <l n="584" xml:id="l584">S’il est quelque bien au monde</l>
+            <l n="585" xml:id="l585">C’est la liberté.</l>
+            <l n="586" xml:id="l586">Liberté, liberté</l>
+          </sp>
+          <sp who="mercure" xml:id="IV04-2">
+            <speaker>mercure, déguisé en berger parlant à argus</speaker>
+            <l n="587" xml:id="l587">De la Nymphe Syrinx l’on chérit la mémoire,</l>
+            <l n="588" xml:id="l588">Il en regrette encor la perte chaque jour ;</l>
+            <l n="589" xml:id="l589">Pour célébrer une fête à sa gloire</l>
+            <l n="590" xml:id="l590">Ce Dieu lui même assemble ici sa cour</l>
+            <l n="591" xml:id="l591">Il veut que du malheur de son fidèle amour.</l>
+            <l n="592" xml:id="l592">Un spectacle touchant représente l’histoire</l>
+          </sp>
+          <sp who="argus" xml:id="IV04-3">
+            <speaker>argus</speaker>
+            <l n="593" xml:id="l593">C’est un plaisir pour nous ; poursuivez j’y consens</l>
+            <l n="594" xml:id="l594">Je ne m’oppose point à ces jeux innocents.</l>
+            <stage>Argus va prendre place sur un siège de gazon proche de l’endroit où Io est enfermée et fait planer Hiérax de l’autre côté.</stage>
+          </sp>
+          <sp who="mercure" xml:id="IV04-4">
+            <speaker>mercure, parlant à part à toute la troupe qu’il conduit</speaker>
+            <l n="595" xml:id="l595">Il donne dans le piège, achevez sans remise</l>
+            <l n="596" xml:id="l596">Achevez de surprendre Argus et tous ses yeux.</l>
+            <l n="597" xml:id="l597">Si vous tentez une grande entreprise,</l>
+            <l n="598" xml:id="l598">Mercure vous conduit, l’amour vous favorise</l>
+            <l n="599" xml:id="l599">Et vous servez le plus puissant des Dieux.</l>
+            <stage>Mercure, les berges, les satyres, et les sylvains rentrent derrière le théâtre.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="IV05">
+          <head>SCÈNE V</head>
+          <stage>Argus, Hiérax, Syrinx, Troupe de Nymphes.</stage>
+          <sp who="syrinx" xml:id="IV05-1">
+            <speaker>syrinx et le chœur des nymphes</speaker>
+            <l n="600" xml:id="l600">Liberté, liberté</l>
+            <l n="601" xml:id="l601">S’il est quelque bien au monde</l>
+            <l n="602" xml:id="l602">C’est la liberté.</l>
+          </sp>
+          <sp who="syrinx" xml:id="IV05-2">
+            <speaker>syrinx</speaker>
+            <l n="603" xml:id="l603">L’empire de l’Amour n’est pas moins agité</l>
+            <l n="604" xml:id="l604">Que l’empire de l’onde</l>
+            <l n="605" xml:id="l605">Ne cherchons point d’autre félicité</l>
+            <l n="606" xml:id="l606">Qu’un doux loisir dans une paix profonde</l>
+            <l n="607" xml:id="l607">S’il est quelque bien au monde</l>
+            <l n="608" xml:id="l608">C’est la liberté.</l>
+            <l n="609" xml:id="l609">Liberté, liberté !</l>
+            <stage>Dans le temps qu’une partie des Nymphes chante, le reste de la troupe danse.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="6" xml:id="IV06">
+          <head>SCÈNE VI</head>
+          <stage>Un des Sylvains représentant le Dieu Pan, Troupe de Bergers, troupe de Satyres, troupe de Sylvains, Syrinx, troupe de Nymphes, Argus et Hiérax.</stage>
+          <stage>Les Bergers et les Sylvains dansants et chantants viennent offrir des présents de fleurs et de fruits à la nymphe Syrinx et tâchent de lui persuader de n’aller point à la chasse et de s’engager sous les lois de l’Amour.</stage>
+          <sp who="deux-bergers" xml:id="IV06-1">
+            <speaker>deux bergers</speaker>
+            <l n="610" xml:id="l610">Quel bien devez-vous attendre</l>
+            <l n="611" xml:id="l611">Beautés qui chassez dans ces lieux</l>
+            <l n="612" xml:id="l612">Que pouvez-vous prendre</l>
+            <l n="613" xml:id="l613">Qui vaille un cœur tendre</l>
+            <l n="614" xml:id="l614">Soumis à vos lois ?</l>
+            <l n="615" xml:id="l615">Ce n’est qu’en aimant</l>
+            <l n="616" xml:id="l616">Qu’on trouve un sort charmant</l>
+            <l n="617" xml:id="l617">Aimez enfin à votre tour</l>
+            <l n="618" xml:id="l618">Il faut que tout cède à l’amour.</l>
+            <l n="619" xml:id="l619">Il sait frapper d’un coup certain</l>
+            <l n="620" xml:id="l620">Le cerf léger qui fuit en vain</l>
+            <l n="621" xml:id="l621">Jusque dans les antres secrets</l>
+            <l n="622" xml:id="l622">Au fond des forêts</l>
+            <l n="623" xml:id="l623">Tout doit sentir ses traits.</l>
+            <l n="624" xml:id="l624">Lorsque l’amour vous appelle,</l>
+            <l n="625" xml:id="l625">Pourquoi fuyez-vous ses plaisirs ?</l>
+            <l n="626" xml:id="l626">La Rose nouvelle</l>
+            <l n="627" xml:id="l627">N’en est que plus belle</l>
+            <l n="628" xml:id="l628">D’aimer les Zéphirs.</l>
+            <l n="629" xml:id="l629">Ce n’est qu’en aimant</l>
+            <l n="630" xml:id="l630">Qu’on trouve un sort charmant,</l>
+            <l n="631" xml:id="l631">Aimez enfin, à votre tour ;</l>
+            <l n="632" xml:id="l632">Il faut que tout cède à l’amour :</l>
+            <l n="633" xml:id="l633">Il sait frapper d’un coup certain</l>
+            <l n="634" xml:id="l634">Le cerf léger qui fuit en vain :</l>
+            <l n="635" xml:id="l635">Jusques dans les antres secrets</l>
+            <l n="636" xml:id="l636">Au fonds des forêts,</l>
+            <l n="637" xml:id="l637">Tout doit sentir ses traits,</l>
+          </sp>
+          <sp who="pan" xml:id="IV06-2">
+            <speaker>pan</speaker>
+            <l n="638" xml:id="l638">Je vous aime Nymphe charmante ;</l>
+            <l n="639" xml:id="l639">Un amant, un mortel cherche à plaire à vos yeux</l>
+          </sp>
+          <sp who="syrinx" xml:id="IV06-3">
+            <speaker>syrinx</speaker>
+            <l n="640" xml:id="l640">Pan est un Dieu puissant, je révère les Dieux ;</l>
+            <l n="641" xml:id="l641">Mais le nom d’amour m’épouvante.</l>
+          </sp>
+          <sp who="pan" xml:id="IV06-4">
+            <speaker>pan</speaker>
+            <l n="642" xml:id="l642">Pour vous faire retrouver le nom d’amant plus doux.</l>
+            <l n="643" xml:id="l643">J’y joindrai le titre d’époux.</l>
+            <l n="644" xml:id="l644">Je n’aurai pas de peine</l>
+            <l n="645" xml:id="l645">A m’engager dans une aimable chaîne</l>
+            <l n="646" xml:id="l646">Pour ne jamais changer.</l>
+            <l n="647" xml:id="l647">Aimez un Dieu qui vous adore.</l>
+          </sp>
+          <sp who="syrinx" xml:id="IV06-5">
+            <speaker>syrinx</speaker>
+            <l n="648" xml:id="l648">Un époux doit être encore</l>
+            <l n="649" xml:id="l649">Plus à craindre qu’un amant</l>
+          </sp>
+          <sp who="pan" xml:id="IV06-6">
+            <speaker>pan</speaker>
+            <l n="650" xml:id="l650">Dissipez de vaines alarmes,</l>
+            <l n="651" xml:id="l651">Éprouvez l’amour et ses charmes</l>
+            <l n="652" xml:id="l652">Connaissez les plus doux appas.</l>
+            <l n="653" xml:id="l653">Non, ce ne peut être</l>
+            <l n="654" xml:id="l654">que faute de la connaître</l>
+            <l n="655" xml:id="l655">Qu’il ne vous plaît pas.</l>
+          </sp>
+          <sp who="syrinx" xml:id="IV06-7">
+            <speaker>syrinx</speaker>
+            <l n="656" xml:id="l656">Les maux d’autrui me rendront sage.</l>
+            <l n="657" xml:id="l657">Ah ! Quel malheur</l>
+            <l n="658" xml:id="l658">De laisser engager son cœur !</l>
+            <l n="659" xml:id="l659">Pourquoi faut-il le plus beau de son âge</l>
+            <l n="660" xml:id="l660">Dans une mortelle langueur ?</l>
+            <l n="661" xml:id="l661">Ah, quel malheur !</l>
+            <l n="662" xml:id="l662">Pourquoi n’avoir pas le courage</l>
+            <l n="663" xml:id="l663">De s’affranchir de la rigueur</l>
+            <l n="664" xml:id="l664">D’un funeste esclavage ?</l>
+            <l n="665" xml:id="l665">Ah ! Quel malheur</l>
+            <l n="666" xml:id="l666">De laisser engager son cœur !</l>
+          </sp>
+          <sp who="pan" xml:id="IV06-8">
+            <speaker>pan</speaker>
+            <l n="667" xml:id="l667">Ah ! Quel dommage</l>
+            <l n="668" xml:id="l668">Que vous ne sachiez pas aimer !</l>
+            <l n="669" xml:id="l669">Que vous sert-il d’avoir tant d’attraits en partage,</l>
+            <l n="670" xml:id="l670">Si vous en négligez le plus grand avantage ?</l>
+            <l n="671" xml:id="l671">Que vous sert-il de savoir tout charmer ?</l>
+            <l n="672" xml:id="l672">Ah, quel dommage</l>
+            <l n="673" xml:id="l673">Que vous ne sachiez pas aimer !</l>
+          </sp>
+          <sp who="chœurs" xml:id="IV06-9">
+            <speaker>chœur des sylvains, de satyres, et de bergers</speaker>
+            <l n="674" xml:id="l674">Aimons sans cesse.</l>
+          </sp>
+          <sp who="chœur-des-nymphes" xml:id="IV06-10">
+            <speaker>chœur des nymphes</speaker>
+            <l n="675" xml:id="l675">N’aimons jamais.</l>
+          </sp>
+          <sp who="chœur-de-silvains-satyres-bergers" xml:id="IV06-11">
+            <speaker>chœur de silvains, satyres et bergers</speaker>
+            <l n="676" xml:id="l676">Pour vivre en paix.</l>
+            <l n="677" xml:id="l677">N’aimons jamais.</l>
+          </sp>
+          <sp who="syrinx" xml:id="IV06-12">
+            <speaker>syrinx</speaker>
+            <l n="678" xml:id="l678">Le chagrin suit toujours les cœurs que l’amour blesse.</l>
+          </sp>
+          <sp who="pan" xml:id="IV06-13">
+            <speaker>pan</speaker>
+            <l n="679" xml:id="l679">La tranquille sagesse</l>
+            <l n="680" xml:id="l680">N’a que des plaisirs imparfaits.</l>
+          </sp>
+          <sp who="chœur-de-silvains-satyres-bergers" xml:id="IV06-14">
+            <speaker>chœur de silvains, satyres et bergers</speaker>
+            <l n="681" xml:id="l681">Aimons sans cesse.</l>
+          </sp>
+          <sp who="chœur-des-nymphes" xml:id="IV06-15">
+            <speaker>chœur des nymphes</speaker>
+            <l n="682" xml:id="l682">N’aimons jamais.</l>
+          </sp>
+          <sp who="syrinx" xml:id="IV06-16">
+            <speaker>syrinx</speaker>
+            <l n="683" xml:id="l683">On ne peut aimer sans faiblesse.</l>
+          </sp>
+          <sp who="pan" xml:id="IV06-17">
+            <speaker>pan</speaker>
+            <l n="684" xml:id="l684">Que cette faiblesse a d’attraits !</l>
+          </sp>
+          <sp who="chœur-de-silvains-satyres-bergers" xml:id="IV06-18">
+            <speaker>chœur de silvains, satyres et bergers</speaker>
+            <l n="685" xml:id="l685">Aimons sans cesse.</l>
+          </sp>
+          <sp who="chœur-des-nymphes" xml:id="IV06-19">
+            <speaker>chœur des nymphes</speaker>
+            <l n="686" xml:id="l686">N’aimons jamais.</l>
+          </sp>
+          <sp who="chœur-de-silvains-satyres-bergers" xml:id="IV06-20">
+            <speaker>chœur de silvains, satyres et bergers</speaker>
+            <l n="687" xml:id="l687">Cédons à l’Amour qui nous presse</l>
+            <l n="688" xml:id="l688">Pour vivre heureux aimons sans cesse</l>
+          </sp>
+          <sp who="chœur-des-nymphes" xml:id="IV06-21">
+            <speaker>chœur des nymphes</speaker>
+            <l n="689" xml:id="l689">Pour vivre en paix</l>
+            <l n="690" xml:id="l690">N’aimons jamais</l>
+          </sp>
+          <sp who="chœur-de-silvains-satyres-bergers" xml:id="IV06-22">
+            <speaker>chœur de silvains, satyres et bergers</speaker>
+            <l n="691" xml:id="l691">Aimons sans cesse.</l>
+          </sp>
+          <sp who="chœur-des-nymphes" xml:id="IV06-23">
+            <speaker>chœur des nymphes</speaker>
+            <l n="692" xml:id="l692">N’aimons jamais</l>
+            <l n="693" xml:id="l693">Pour vivre en paix</l>
+          </sp>
+          <sp who="syrinx" xml:id="IV06-24">
+            <speaker>syrinx</speaker>
+            <l n="694" xml:id="l694">Faut-il qu’en vain discours un si beau jour se passe ?</l>
+            <l n="695" xml:id="l695">Mes compagnes courons dans le fond des forêts.</l>
+            <l n="696" xml:id="l696">Voyons qui d’entre nous se sert mieux de ses traits</l>
+            <l n="697" xml:id="l697" part="I">Courons à la chasse.</l>
+          </sp>
+          <sp who="double-chœurs" xml:id="IV06-25">
+            <speaker>double chœurs</speaker>
+            <l n="697" part="F">À la chasse !</l>
+            <l n="698" xml:id="l698">Courons à la chasse, à la chasse.</l>
+          </sp>
+          <sp who="syrinx" xml:id="IV06-26">
+            <speaker>syrinx, revenant sur le théâtre suivie de pan</speaker>
+            <l n="699" xml:id="l699">Pourquoi me suivre de si près.</l>
+          </sp>
+          <sp who="pan" xml:id="IV06-27">
+            <speaker>pan</speaker>
+            <l n="700" xml:id="l700" part="I">Pourquoi fuir qui vous aime ?</l>
+          </sp>
+          <sp who="syrinx" xml:id="IV06-28">
+            <speaker>syrinx</speaker>
+            <l n="700" part="F">Un amant m’embarrasse.</l>
+          </sp>
+          <sp who="syrinx_chœurs" xml:id="IV06-29">
+            <speaker>syrinx et les chœurs derrière le théâtre</speaker>
+            <l n="701" xml:id="l701">Courons à la chasse, à la chasse.</l>
+          </sp>
+          <sp who="pan" xml:id="IV06-30">
+            <speaker>pan revenant une seconde fois sur le scène suivant toujours syrinx</speaker>
+            <l n="702" xml:id="l702">Je ne puis vous quitter, mon cœur s’attacher à vous</l>
+            <l n="703" xml:id="l703">Par des nœuds trop forts et trop deux.</l>
+          </sp>
+          <sp who="syrinx" xml:id="IV06-31">
+            <speaker>syrinx</speaker>
+            <l n="704" xml:id="l704">Mes compagnes, venez... C’est en vain que j’appelle.</l>
+          </sp>
+          <sp who="pan" xml:id="IV06-32">
+            <speaker>pan</speaker>
+            <l n="705" xml:id="l705">Écoutez, ingrate, écoutez</l>
+            <l n="706" xml:id="l706">Un Dieu charmé de vos beautés ;</l>
+            <l n="707" xml:id="l707">Qui vous jure un amour fidèle.</l>
+          </sp>
+          <sp who="syrinx" xml:id="IV06-33">
+            <speaker>syrinx, fuyant</speaker>
+            <l n="708" xml:id="l708">Je déclare à l’Amour une guerre immortelle.</l>
+          </sp>
+          <sp who="troupe-de-bergers" xml:id="IV06-34">
+            <speaker>troupe de bergers qui arrêtent syrinx</speaker>
+            <l n="709" xml:id="l709">Cruelle, arrêtez !</l>
+          </sp>
+          <sp who="troupe-de-sylvains-et-de-satyres" xml:id="IV06-35">
+            <speaker>troupe de sylvains et de satyres qui arrêtent syrinx</speaker>
+            <l n="710" xml:id="l710">Arrêtez cruelle.</l>
+          </sp>
+          <sp who="syrinx" xml:id="IV06-36">
+            <speaker>syrinx</speaker>
+            <l n="711" xml:id="l711">On me retient de tous côtés</l>
+          </sp>
+          <sp who="troupe-de-sylvains-et-de-satyres" xml:id="IV06-37">
+            <speaker>troupe de sylvains et de satyres qui arrêtent syrinx</speaker>
+            <l n="712" xml:id="l712">Cruelle, arrêtez !</l>
+          </sp>
+          <sp who="syrinx" xml:id="IV06-38">
+            <speaker>syrinx</speaker>
+            <l n="713" xml:id="l713">Dieux, protecteurs de l’innocence,</l>
+            <l n="714" xml:id="l714">Naïades, Nymphes des eaux.</l>
+            <l n="715" xml:id="l715">J’implore ici votre assistance.</l>
+            <stage>Syrinx se jette dans les eaux.</stage>
+          </sp>
+          <sp who="pan" xml:id="IV06-39">
+            <speaker>pan, suivant syrinx dans la lac où elle s’est jetée</speaker>
+            <l n="716" xml:id="l716">Où vous exposez-vous ? Quels prodiges nouveaux</l>
+            <l n="717" xml:id="l717">La nymphe est changée en roseaux !</l>
+            <stage>Le vent pénètre dans les roseaux, et leur fait former un bruit plaintif.</stage>
+            <l n="718" xml:id="l718">Hélas ! hélas ! Quel bruit ! Qu’entends-je ! Ah ! Quelle voix nouvelle !</l>
+            <l n="719" xml:id="l719">La Nymphe tâche encor d’exprimer ses regrets.</l>
+            <l n="720" xml:id="l720">Que son murmure est doux ! Que sa plainte a d’attraits.</l>
+            <l n="721" xml:id="l721">Ne cessons point de nous plaindre avec elle.</l>
+            <l n="722" xml:id="l722">Ranimons les restes charmants</l>
+            <l n="723" xml:id="l723">D’un nymphe qui fut si belle,</l>
+            <l n="724" xml:id="l724">Elle répond encore à nos gémissements,</l>
+            <l n="725" xml:id="l725">Ne cessons point de nous plaindre avec elle.</l>
+            <stage>Pan donne des roseaux aux bergers, aux satyres et aux sylvains qui en forment un concert de flûtes.</stage>
+          </sp>
+          <sp who="pan" xml:id="IV06-40">
+            <speaker>pan</speaker>
+            <l n="726" xml:id="l726">Les yeux qui m’ont charmé ne verront plus le jour</l>
+            <l n="727" xml:id="l727">Était-ce ainsi, cruelle amour,</l>
+            <l n="728" xml:id="l728">Qu’il fallait te venger d’une beauté rebelle,</l>
+            <l n="729" xml:id="l729">N’aurait-il pas suffi de t’en rendre vainqueur</l>
+            <l n="730" xml:id="l730">Et de voir dans les fers son insensible cœur,</l>
+            <l n="731" xml:id="l731">Brûler avec le mien d’une ardeur éternelle ?</l>
+            <l n="732" xml:id="l732">Que tout ressente mes tourments.</l>
+          </sp>
+          <sp who="pan_deux-bergers" xml:id="IV06-41">
+            <speaker>pan, et deux bergers accompagnés du concert de flutes</speaker>
+            <l n="733" xml:id="l733">Ranimons les restes charmants</l>
+            <l n="734" xml:id="l734">D’un nymphe qui fut si belle,</l>
+            <l n="735" xml:id="l735">Elle répond encore à nos gémissements,</l>
+            <l n="736" xml:id="l736">Ne cessons point de nous plaindre avec elle.</l>
+            <stage>Argus commence à s’assoupir, Mercure déguisé en berger s’approche de lui, et achève de l’endormir en la touchant de son caducée.</stage>
+          </sp>
+          <sp who="pan" xml:id="IV06-42">
+            <speaker>pan</speaker>
+            <l n="737" xml:id="l737">Que ces roseaux plaintifs soient à jamais aimés.</l>
+          </sp>
+          <sp who="mercure" xml:id="IV06-43">
+            <speaker>mercure</speaker>
+            <l n="738" xml:id="l738">Il suffit Argus dort, tous ses yeux sont fermés,</l>
+            <l n="739" xml:id="l739">Allons, que rien ne nous retarde</l>
+            <l n="740" xml:id="l740">Délivrons la nymphe qu’il garde.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="7" xml:id="IV07">
+          <head>SCÈNE VII</head>
+          <stage>Io, Mercure, Troupe de Sylvains, de Satyres et de bergers, Argus, Hiérax.</stage>
+          <sp who="mercure" xml:id="IV07-1">
+            <speaker>mercure, faisant sortir io de la demeure d’argus, qu’il ouvre d’un coup de caducée</speaker>
+            <l n="741" xml:id="l741">Reconnaissez Mercure et fuyez avec nous ;</l>
+            <l n="742" xml:id="l742">Éloignez-vous d’Argus, avant qu’il se réveille.</l>
+          </sp>
+          <sp who="hierax" xml:id="IV07-2">
+            <speaker>hiérax</speaker>
+            <l n="743" xml:id="l743">Argus avec cent yeux sommeille ;</l>
+            <l n="744" xml:id="l744">Mais croyez vous endormir un amant jaloux ?</l>
+            <l n="745" xml:id="l745" part="I">Demeurez !</l>
+          </sp>
+          <sp who="mercure" xml:id="IV07-3">
+            <speaker>mercure</speaker>
+            <l n="745" part="F">Malheureux ! d’où te vient cette audace ?</l>
+          </sp>
+          <sp who="hierax" xml:id="IV07-4">
+            <speaker>hiérax</speaker>
+            <l n="746" xml:id="l746">J’ai tout perdu j’attends le trépas sans effroi.</l>
+            <l n="747" xml:id="l747">Un coup de foudre est une grâce</l>
+            <l n="748" xml:id="l748">Pour un malheureux comme moi.</l>
+            <l n="749" xml:id="l749">Éveillez vous, Argus, éveillez-vous, vous vous laissez surprendre.</l>
+          </sp>
+          <sp who="hierax_argus" xml:id="IV07-5">
+            <speaker>hiérax et argus</speaker>
+            <l n="750" xml:id="l750">Puissante reine des cieux</l>
+            <l n="751" xml:id="l751">Junon venez nous défendre.</l>
+          </sp>
+          <sp who="mercure" xml:id="IV07-6">
+            <speaker>mercure frappant argus et hiérax de son caducée</speaker>
+            <l n="752" xml:id="l752">Commencez d’éprouver la colère des Dieux.</l>
+            <stage>Argus tombe mort, et Hiérax changé en oiseau de proie s’envole.</stage>
+          </sp>
+          <sp who="chœurs" xml:id="IV07-7">
+            <speaker>chœurs de satyres, de sylvains, et de bergers</speaker>
+            <l n="753" xml:id="l753" part="I">Fuyons.</l>
+          </sp>
+          <sp who="io" xml:id="IV07-8">
+            <speaker>io</speaker>
+            <l n="753" part="F">Vous me quittez ? Quel secours puis-je attendre !</l>
+          </sp>
+          <sp who="chœurs" xml:id="IV07-9">
+            <speaker>chœurs de satyres, de sylvains, et de bergers</speaker>
+            <l n="754" xml:id="l754">Fuyons, Junon vient dans ces lieux.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="8" xml:id="IV08">
+          <head>SCÈNE VIII</head>
+          <stage>Junon sur son char, Argus, Io, Erinnis, La Furie.</stage>
+          <sp who="junon" xml:id="IV08-1">
+            <speaker>junon</speaker>
+            <l n="755" xml:id="l755">Revois le jour, Argus que ta figure change.</l>
+            <l n="756" xml:id="l756">Et vous Nymphe apprenez comment Junon se venge.</l>
+            <l n="757" xml:id="l757">Sors, barbare Erinnis, sors du fond des Enfers ;</l>
+            <l n="758" xml:id="l758">Viens, prends de servir ma vengeance fatale</l>
+            <l n="759" xml:id="l759">Et d’en montrer l’horreur en cent climats divers</l>
+            <l n="760" xml:id="l760">Épouvante tout l’univers</l>
+            <l n="761" xml:id="l761">Par les tourments de ma rivale</l>
+            <l n="762" xml:id="l762">Viens la punir au gré de mon courroux ;</l>
+            <l n="763" xml:id="l763">Redoutable ta rage infernale</l>
+            <l n="764" xml:id="l764">Et fais s’il se peut qu’elle égale</l>
+            <l n="765" xml:id="l765">La fureur de mon cœur jaloux.</l>
+            <stage>La Furie sort des Enfers, elle poursuit Io et l’enlève ; Junon remonte dans le Ciel.</stage>
+          </sp>
+          <sp who="io" xml:id="IV08-2">
+            <speaker>io, poursuivie par la furie</speaker>
+            <l n="766" xml:id="l766">Ô Dieux ! Ô Dieux ! Où me réduisez vous ?</l>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="acte" n="5" xml:id="V">
+        <head>ACTE IV</head>
+        <stage>Le théâtre change et représente l’endroit le plus glacé de la Scythie.</stage>
+        <div2 type="scene" n="1" xml:id="V01">
+          <head>SCÈNE I</head>
+          <stage>Des peuples paraissent transis de froid et quelques uns se cachent dans de petites maisons roulantes.</stage>
+          <sp who="chœur-des-peuples" xml:id="V01-1">
+            <speaker>chœur des peuples et des climats glacés</speaker>
+            <l n="767" xml:id="l767">L’hiver qui nous tourmente</l>
+            <l n="768" xml:id="l768">S’obstine à nous geler</l>
+            <l n="769" xml:id="l769">Nous ne saurions parler</l>
+            <l n="770" xml:id="l770">Qu’avec une voix tremblante</l>
+            <l n="771" xml:id="l771">La neige et les glaçons</l>
+            <l n="772" xml:id="l772">Nous donnent de mortels frissons</l>
+            <l n="773" xml:id="l773">Les frimas se répandent</l>
+            <l n="774" xml:id="l774">Sur nos corps languissants ;</l>
+            <l n="775" xml:id="l775">Le froid transit nos sens</l>
+            <l n="776" xml:id="l776">Les plus durs rochers se fendent.</l>
+            <l n="777" xml:id="l777">La neige et les glaçons</l>
+            <l n="778" xml:id="l778">Nous donnent de mortels frissons</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="V02">
+          <head>SCÈNE II</head>
+          <stage>Io, La Furie, les Peuples des climats glacés.</stage>
+          <sp who="io" xml:id="V02-1">
+            <speaker>io</speaker>
+            <l n="779" xml:id="l779">Laisse-moi, cruelle Furie,</l>
+            <l n="780" xml:id="l780">Cruelle, laisse moi respirer un moment</l>
+            <l n="781" xml:id="l781">Ah ! Barbare, plus je te prie,</l>
+            <l n="782" xml:id="l782">Et plus tu prends plaisir d’augmenter mon tourment.</l>
+          </sp>
+          <sp who="la-furie" xml:id="V02-2">
+            <speaker>la furie</speaker>
+            <l n="783" xml:id="l783">Soupire, gémis, pleure,</l>
+            <l n="784" xml:id="l784">Crie je me fais de tes peines un spectacle charmant.</l>
+          </sp>
+          <sp who="io" xml:id="V02-3">
+            <speaker>io</speaker>
+            <l n="785" xml:id="l785">Laisse moi, cruelle Furie</l>
+            <l n="786" xml:id="l786">Cruelle laisse moi respirer un moment</l>
+            <l n="787" xml:id="l787">Quel horrible séjour ! Quel froid insupportable !</l>
+            <l n="788" xml:id="l788">Tes serpents animés par ta rage implacable.</l>
+            <l n="789" xml:id="l789">Ne sont-ils pas d’assez cruels bourreaux ?</l>
+            <l n="790" xml:id="l790">Pour punir un cœur misérable,</l>
+            <l n="791" xml:id="l791">Viens-tu chercher si loin des supplices nouveaux ?</l>
+          </sp>
+          <sp who="la-furie" xml:id="V02-4">
+            <speaker>la furie</speaker>
+            <l n="792" xml:id="l792">Malheureux habitants d’une demeure affreuse,</l>
+            <l n="793" xml:id="l793">Connaissez de Junon le funeste courroux :</l>
+            <l n="794" xml:id="l794">Par sa vengeance rigoureuse</l>
+            <l n="795" xml:id="l795">Vous voyez une malheureuse</l>
+            <l n="796" xml:id="l796">Qui souffre cent fois plus que vous.</l>
+          </sp>
+          <sp who="io_la-furie" xml:id="V02-5">
+            <speaker>io et la furie, ensemble</speaker>
+            <l n="797" xml:id="l797">Vous voyez une malheureuse</l>
+            <l n="798" xml:id="l798">Qui souffre cent fois plus que vous.</l>
+          </sp>
+          <sp who="chœur-des-peuples" xml:id="V02-6">
+            <speaker>chœur des peuples et des climats glacés</speaker>
+            <l n="799" xml:id="l799">Ah ! Quelle peine</l>
+            <l n="800" xml:id="l800">De trembler de languir dans l’horreur des frimas.</l>
+          </sp>
+          <sp who="io" xml:id="V02-7">
+            <speaker>io</speaker>
+            <l n="801" xml:id="l801">Ah ! Quelle peine</l>
+            <l n="802" xml:id="l802">D’éprouver tant de maux, sans trouver le trépas</l>
+            <l n="803" xml:id="l803">Ah ! quelle vengeance inhumaine !</l>
+          </sp>
+          <sp who="la-furie" xml:id="V02-8">
+            <speaker>la furie</speaker>
+            <l n="804" xml:id="l804">Viens changer de tourments, passe en d’autres climats.</l>
+          </sp>
+          <sp who="io" xml:id="V02-9">
+            <speaker>io</speaker>
+            <l n="805" xml:id="l805">Ah ! Quelle peine !</l>
+          </sp>
+          <sp who="chœur-des-peuples" xml:id="V02-10">
+            <speaker>chœur des peuples et des climats glacés</speaker>
+            <l n="806" xml:id="l806">Ah ! quelle peine</l>
+            <l n="807" xml:id="l807">De trembler de languir dans l’horreur des frimas.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="V03">
+          <head>SCÈNE III</head>
+          <stage>Le théâtre change et représente des deux côtés les forges des Chalyhes qui travaillent à forger l’acier ; la mer paraît dans l’enfoncement.</stage>
+          <sp who="chœur-des-chabyles" xml:id="V03-1">
+            <speaker>chœur des chabyles</speaker>
+            <l n="808" xml:id="l808">Tôt tôt tôt.</l>
+          </sp>
+          <sp who="premier-conducteur-chabyles" xml:id="V03-2">
+            <speaker>premier conducteur des chabyles</speaker>
+            <l n="809" xml:id="l809">Que chacun avec soin S’empresse.</l>
+          </sp>
+          <sp who="second-conducteur-chabyles" xml:id="V03-3">
+            <speaker>second conducteur</speaker>
+            <l n="810" xml:id="l810">Forgez, qu’on travaille sans cesse.</l>
+          </sp>
+          <sp who="les-deux-conducteurs" xml:id="V03-4">
+            <speaker>les deux conducteurs</speaker>
+            <l n="811" xml:id="l811">Qu’on prépare tout ce qu’il faut</l>
+            <l n="812" xml:id="l812">Tôt tôt tôt.</l>
+            <stage>Le chœur des Chabyles répète ces deux derniers vers, dans le temps que plusieurs Chalybes travaillent dans les forges, quelques autres vont et viennent avec empressement pour apporter l’acier des mines et pour disposer ce qui est nécessaire au travail qui se fait.</stage>
+          </sp>
+          <sp who="les-deux-conducteurs_chœur-chalybes" xml:id="V03-5">
+            <speaker>les deux conducteurs et le chœur des chabyles</speaker>
+            <l n="813" xml:id="l813">Que le feu des forges s’allume :</l>
+            <l n="814" xml:id="l814">Travaillons d’un effort nouveau :</l>
+            <l n="815" xml:id="l815">Qu’on fasse retentir l’enclume</l>
+            <l n="816" xml:id="l816">Sous les coups pesants du marteau.</l>
+            <stage>Entrée des forgerons.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="4" xml:id="V04">
+          <head>SCÈNE IV</head>
+          <stage>Io, La Furie, des conducteurs des Chalybes et chœurs des Chalybes.</stage>
+          <sp who="io" xml:id="V04-1">
+            <speaker>io, au milieu es feux qui sortent des forges</speaker>
+            <l n="817" xml:id="l817">Quel déluge de feux vient sur moi se répandre.</l>
+            <l n="818" xml:id="l818" part="I">Ô ciel !</l>
+            <stage>Les chalybes passent auprès d’Io avec des morceaux d’épées, de lances et de haches à demi forgées.</stage>
+          </sp>
+          <sp who="la-furie" xml:id="V04-2">
+            <speaker>la furie</speaker>
+            <l n="818" part="F">Le ciel ne peut t’entendre,</l>
+            <l n="819" xml:id="l819">Tu ne te plains pas assez haut.</l>
+          </sp>
+          <sp who="les-deux-conducteurs_chœur-chalybes" xml:id="V04-3">
+            <speaker>les deux conducteurs et le chœur des chabyles</speaker>
+            <l n="820" xml:id="l820">Tôt, tôt, tôt.</l>
+          </sp>
+          <sp who="io" xml:id="V04-4">
+            <speaker>io</speaker>
+            <l n="821" xml:id="l821">Junon serait moins inhumaine.</l>
+            <l n="822" xml:id="l822">Tu me fais trop souffrir, tu sers trop bien sa haine.</l>
+          </sp>
+          <sp who="la-furie" xml:id="V04-5">
+            <speaker>la furie</speaker>
+            <l n="823" xml:id="l823">Au gré de son dépit jaloux</l>
+            <l n="824" xml:id="l824">Les maux les plus cruels seront encore trop doux.</l>
+          </sp>
+          <sp who="io" xml:id="V04-6">
+            <speaker>io</speaker>
+            <l n="825" xml:id="l825">Hélas ! Quelle rigueur extrême</l>
+            <l n="826" xml:id="l826">C’est en vain que Jupiter m’aime</l>
+            <l n="827" xml:id="l827">La haine de Junon jouit de mon tourment</l>
+            <l n="828" xml:id="l828">Que vous haïssez fortement,</l>
+            <l n="829" xml:id="l829">Grand Dieux ! Qu’il s’en faut bien que vous aimiez de même !</l>
+          </sp>
+          <sp who="conducteurs_chœurs-chalybes" xml:id="V04-7">
+            <speaker>les conducteurs et le chœur des chalybes</speaker>
+            <l n="830" xml:id="l830">Qu’on prépare tout ce qu’il faut</l>
+            <l n="831" xml:id="l831">Tôt, tôt, tôt, tôt, tôt.</l>
+            <stage>Les feux des forges redoublent et les Chabyles environnent Io avec des morceaux d’acier rouges et brûlants.</stage>
+          </sp>
+          <sp who="io" xml:id="V04-8">
+            <speaker>io</speaker>
+            <l n="832" xml:id="l832">Ne pourrai-je cesse de vivre ?</l>
+            <l n="833" xml:id="l833">Cherchons le trépas dans les flots.</l>
+          </sp>
+          <sp who="la-furie" xml:id="V04-9">
+            <speaker>la furie</speaker>
+            <l n="834" xml:id="l834">Partout ma rage doit te suivre</l>
+            <l n="835" xml:id="l835">N’attends ni secours ni repos.</l>
+            <stage>Io fuit et monte au haut d’un rocher d’où elle se précipite dans la mer. La Furie s’y jette après la Nymphe.</stage>
+          </sp>
+          <sp who="chœur-chalybes" xml:id="V04-10">
+            <speaker>chœur des chalybes</speaker>
+            <l n="836" xml:id="l836">Qu’on prépare tout ce qu’il faut</l>
+            <l n="837" xml:id="l837">Tôt tôt tôt.</l>
+          </sp>
+        </div2>
+        <div2 type="scene" n="5" xml:id="V05">
+          <head>SCÈNE V</head>
+          <stage>Suite des Parques : la guerre, les fureurs de la guerre, les maladies violentes et languissantes, la famine, l’incendie, l’inondation etc... chantants et dansants.</stage>
+          <stage>Le théâtre change et représente l’antre des Parques.</stage>
+          <sp who="chœur-de-la-suite-des-parques" xml:id="V05-1">
+            <speaker>chœur de la suite des parques</speaker>
+            <l n="838" xml:id="l838">Exécutons l’arrêt du sort</l>
+            <l n="839" xml:id="l839">Suivons ses lois les plus cruelles.</l>
+            <l n="840" xml:id="l840">Présentons sans cesse à la Mort</l>
+            <l n="841" xml:id="l841">Des victimes nouvelles</l>
+          </sp>
+          <sp who="la-guerre" xml:id="V05-2">
+            <speaker>la guerre</speaker>
+            <l n="842" xml:id="l842" part="I">Que le fer.</l>
+          </sp>
+          <sp who="la-famine" xml:id="V05-3">
+            <speaker>la famine</speaker>
+            <l n="842" part="F">Que la faim.</l>
+          </sp>
+          <sp who="l-incendie" xml:id="V05-4">
+            <speaker>l’incendie</speaker>
+            <l n="842" part="F">Que les feux</l>
+          </sp>
+          <sp who="l-inondation" xml:id="V05-5">
+            <speaker>l’inondation</speaker>
+            <l n="842" part="F">Que les eaux.</l>
+          </sp>
+          <sp who="ensemble" xml:id="V05-6">
+            <speaker>tous ensembles</speaker>
+            <l n="843" xml:id="l843">Que tout serve à creuser mille et mille tombeaux</l>
+          </sp>
+          <sp who="les-maladies-violentes" xml:id="V05-7">
+            <speaker>les maladies violentes</speaker>
+            <l n="844" xml:id="l844">Qu’on s’empresse d’entrer dans les royaumes sombres</l>
+            <l n="845" xml:id="l845">par mille chemins différents</l>
+          </sp>
+          <sp who="les-maladies-languissantes" xml:id="V05-8">
+            <speaker>les maladies languissantes</speaker>
+            <l n="846" xml:id="l846">Achevez d’expirer, infortunés mourants,</l>
+            <l n="847" xml:id="l847">Cherchez un long repos dans le séjour des ombres.</l>
+          </sp>
+          <sp who="le-chœur" xml:id="V05-9">
+            <speaker>le chœur</speaker>
+            <l n="848" xml:id="l848">Exécutons l’arrêt du Sort,</l>
+            <l n="849" xml:id="l849">Suivons ses lois les plus cruelles ;</l>
+            <l n="850" xml:id="l850">Présentons sans cesse à la Mort</l>
+            <l n="851" xml:id="l851">Des victimes nouvelles.</l>
+          </sp>
+          <sp who="la-guerre" xml:id="V05-10">
+            <speaker>la guerre</speaker>
+            <l n="852" xml:id="l852" part="I">Que le fer.</l>
+          </sp>
+          <sp who="la-famine" xml:id="V05-11">
+            <speaker>la famine</speaker>
+            <l n="852" part="F">Que la faim.</l>
+          </sp>
+          <sp who="l-incendie" xml:id="V05-12">
+            <speaker>l’incendie</speaker>
+            <l n="852" part="F">Que les feux</l>
+          </sp>
+          <sp who="l-inondation" xml:id="V05-13">
+            <speaker>l’inondation</speaker>
+            <l n="852" part="F">Que les eaux.</l>
+          </sp>
+          <sp who="tous-ensemble" xml:id="V05-14">
+            <speaker>tous ensemble</speaker>
+            <l n="853" xml:id="l853">Que tout serve à creuse mille et mille tombeaux.</l>
+          </sp>
+          <stage>La suite des Parques témoigne la plaisir qu’elle prend à termienr la sort des humains.</stage>
+        </div2>
+        <div2 type="scene" n="6" xml:id="V06">
+          <head>SCÈNE VI</head>
+          <stage>Io, La Furie, La Suite des Parques.</stage>
+          <sp who="io" xml:id="V06-1">
+            <speaker>io, parlant à la suite des parques</speaker>
+            <l n="854" xml:id="l854">C’est contre moi qu’il faut tourner</l>
+            <l n="855" xml:id="l855">Votre rigueur la plus funeste,</l>
+            <l n="856" xml:id="l856">D’une vie odieuse arrachez moi le reste</l>
+            <l n="857" xml:id="l857">Hâtez vous de la terminer.</l>
+          </sp>
+          <sp who="chœur_suite_parques" xml:id="V06-2">
+            <speaker>le chœur de la suite des parques</speaker>
+            <l n="858" xml:id="l858">C’est aux Parques de l’ordonner.</l>
+          </sp>
+          <sp who="io" xml:id="V06-3">
+            <speaker>io</speaker>
+            <l n="859" xml:id="l859">Favorisez mes vœux, Déesses souveraines</l>
+            <l n="860" xml:id="l860">Qui réglez du Destin immuables lois,</l>
+            <l n="861" xml:id="l861">Finissez mes jours et mes peines,</l>
+            <l n="862" xml:id="l862">Ne me condamnez pas à mourir mille fois.</l>
+          </sp>
+          <stage>Un fond de l’antre des Parques s’ouvre et les trois parques en sortent.</stage>
+        </div2>
+        <div2 type="scene" n="7" xml:id="V07">
+          <head>SCÈNE VII</head>
+          <stage>Les Trois Parques, Io, La Furie, Suite des Parques.</stage>
+          <sp who="les-parques" xml:id="V07-1">
+            <speaker>les trois parques</speaker>
+            <l n="863" xml:id="l863">Le fil de la vie</l>
+            <l n="864" xml:id="l864">De tous les humains</l>
+            <l n="865" xml:id="l865">Suivant notre envie</l>
+            <l n="866" xml:id="l866">Tourne dans nos mains.</l>
+            <l n="867" xml:id="l867">Suivant notre envie.</l>
+          </sp>
+          <sp who="io" xml:id="V07-2">
+            <speaker>io</speaker>
+            <l n="868" xml:id="l868">Tranchez mon triste sort d’un coup qui me délivre</l>
+            <l n="869" xml:id="l869">Des tourments que Junon me contraint à souffrir ;</l>
+            <l n="870" xml:id="l870">Chacun vous fait des vœux pour vivre</l>
+            <l n="871" xml:id="l871">Et je vous en fais pour mourir.</l>
+          </sp>
+          <sp who="la-furie" xml:id="V07-3">
+            <speaker>la furie</speaker>
+            <l n="872" xml:id="l872">Jupiter l’a soumise aux lois de son épouse ;</l>
+            <l n="873" xml:id="l873">Elle a rendu Junon jalouse ;</l>
+            <l n="874" xml:id="l874">L’amour d’un Dieu puissant a trop su la charme.</l>
+            <l n="875" xml:id="l875">Elle est trop punie encore.</l>
+          </sp>
+          <sp who="io" xml:id="V07-4">
+            <speaker>io</speaker>
+            <l n="876" xml:id="l876">Est ce si grand crime d’aimer</l>
+            <l n="877" xml:id="l877">Ce que tout l’Univers adore ?</l>
+          </sp>
+          <sp who="les-parques" xml:id="V07-5">
+            <speaker>les parques</speaker>
+            <l n="878" xml:id="l878">Nymphe, apaise Junon si tu veux voir la fin</l>
+            <l n="879" xml:id="l879">De ton sort déplorable ;</l>
+            <l n="880" xml:id="l880">C’est l’arrêt du Destin</l>
+            <l n="881" xml:id="l881">Il est irrévocable.</l>
+          </sp>
+          <sp who="io" xml:id="V07-6">
+            <speaker>io</speaker>
+            <l n="882" xml:id="l882">Hélas ! comment fléchir une haine implacable !</l>
+          </sp>
+          <sp who="parques_furie_chœur" xml:id="V07-7">
+            <speaker>les parques, la furie, le chœur de la suite des parques</speaker>
+            <l n="883" xml:id="l883">C’est l’arrêt du Destin,</l>
+            <l n="884" xml:id="l884">Il est irrévocable.</l>
+          </sp>
+        </div2>
+      </div1>
+      <div1 type="acte" n="6" xml:id="VI">
+        <head>ACTE V</head>
+        <stage>Le théâtre change et représente les rivages du Nil et l’un des embranchements par où ce fleuve entre dans la mer.</stage>
+        <div2 type="scene" n="1" xml:id="VI01">
+          <head>SCÈNE PREMIÈRE</head>
+          <sp who="io" xml:id="VI01-1">
+            <speaker>io, sortant de la mer, d’où elle est tirée par la furie</speaker>
+            <l n="885" xml:id="l885">Terminez mes tourments, puissant maître du monde,</l>
+            <l n="886" xml:id="l886">Sans vous, sans votre amour hélas !</l>
+            <l n="887" xml:id="l887">Je ne souffrirais pas.</l>
+            <l n="888" xml:id="l888">Réduite au désespoir, mourante, vagabonde,</l>
+            <l n="889" xml:id="l889">J’ai porté mon supplice en mille affreux climats ;</l>
+            <l n="890" xml:id="l890">Une horrible Furie attachée à mes pas,</l>
+            <l n="891" xml:id="l891">M’a suivie au travers du vaste sein de l’onde ;</l>
+            <l n="892" xml:id="l892">Voyez de quels maux ici bas,</l>
+            <l n="893" xml:id="l893">Votre épouse punit mes malheureux appas</l>
+            <l n="894" xml:id="l894">Délivrez moi de ma douleur profonde,</l>
+            <l n="895" xml:id="l895">Ouvrez-moi par pitié, les portes du trépas.</l>
+            <l n="896" xml:id="l896">Terminez mes tourments puissant maître du monde.</l>
+            <l n="897" xml:id="l897">Sans vous, sans votre amour, hélas !</l>
+            <l n="898" xml:id="l898">Je ne souffrirais pas.</l>
+            <l n="899" xml:id="l899">C’est Jupiter qui m’aime ! Eh ! Qui le pourrait croire ?</l>
+            <l n="900" xml:id="l900">Je ne suis plus dans sa mémoire,</l>
+            <l n="901" xml:id="l901">Il n’entend point mes cris, Il ne voit point mes pleurs</l>
+            <l n="902" xml:id="l902">Après m’avoir livré aux plus cruels malheurs,</l>
+            <l n="903" xml:id="l903">Il est tranquille au comble de la gloire</l>
+            <l n="904" xml:id="l904">Il m’abandonne au milieu des douleurs.</l>
+            <l n="905" xml:id="l905">À la fin je succombe heureuse si je meurs.</l>
+            <stage>Io tombe accablée de ses tourments, et Jupiter touché de piété, descend du ciel.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="2" xml:id="VI02">
+          <head>SCÈNE II</head>
+          <stage>Jupiter, Io et La Furie.</stage>
+          <sp who="jupiter" xml:id="VI02-1">
+            <speaker>jupiter</speaker>
+            <l n="906" xml:id="l906">Il ne m’est pas permis de finir votre peine</l>
+            <l n="907" xml:id="l907">Et ma puissance souveraine</l>
+            <l n="908" xml:id="l908">Doit suivre du Destin l’irrévocable loi :</l>
+            <l n="909" xml:id="l909">C’est tout ce que je puis par un amour extrême</l>
+            <l n="910" xml:id="l910">Que de quitter le Ciel et ma gloire suprême</l>
+            <l n="911" xml:id="l911">Pour prendre part aux maux que vous souffrez pour moi.</l>
+          </sp>
+          <sp who="io" xml:id="VI02-2">
+            <speaker>io</speaker>
+            <l n="912" xml:id="l912">Ah ! mon supplice augmente encore !</l>
+            <l n="913" xml:id="l913">Tout le feu des Enfers me brûle et me dévore ;</l>
+            <l n="914" xml:id="l914">Mourrai-je tant de fois, sans voir finir mon sort ?</l>
+          </sp>
+          <sp who="jupiter" xml:id="VI02-3">
+            <speaker>jupiter</speaker>
+            <l n="915" xml:id="l915">Ma tendresse pour vous rend Junon inflexible</l>
+            <l n="916" xml:id="l916">Elle voit mon amour il lui paraît trop fort ;</l>
+            <l n="917" xml:id="l917">Son courroux se redouble et devient invincible.</l>
+          </sp>
+          <sp who="io" xml:id="VI02-4">
+            <speaker>io</speaker>
+            <l n="918" xml:id="l918">N’importe en ma faveur soyez toujours sensible.</l>
+          </sp>
+          <sp who="jupiter" xml:id="VI02-5">
+            <speaker>jupiter</speaker>
+            <l n="919" xml:id="l919">C’est trop vous exposer à son jaloux transport,</l>
+            <l n="920" xml:id="l920">J’irrite en vous aimant sa vengeance terrible.</l>
+          </sp>
+          <sp who="io" xml:id="VI02-6">
+            <speaker>io</speaker>
+            <l n="921" xml:id="l921">Aimez moi, s’il vous est possible</l>
+            <l n="922" xml:id="l922">Assez pour la forcer à me donner la mort.</l>
+            <stage>Junon descend sur la terre.</stage>
+          </sp>
+        </div2>
+        <div2 type="scene" n="3" xml:id="VI03">
+          <head>SCÈNE III</head>
+          <stage>Jupiter, Junon, Io, La Furie.</stage>
+          <sp who="jupiter" xml:id="VI03-1">
+            <speaker>jupiter</speaker>
+            <l n="923" xml:id="l923">Venez, venez Déesse impitoyable</l>
+            <l n="924" xml:id="l924">Venez, voyez, reconnaissez</l>
+            <l n="925" xml:id="l925">Cette Nymphe mourante autrefois trop aimable.</l>
+            <l n="926" xml:id="l926">C’est assez la punir, c’est vous venger assez ;</l>
+            <l n="927" xml:id="l927">L’éclat de sa beauté ne la rend plus coupable,</l>
+            <l n="928" xml:id="l928">Par la cruelle horreur du tourment qui l’accable,</l>
+            <l n="929" xml:id="l929">Son crime et ses appas sont ensemble effacés.</l>
+            <l n="930" xml:id="l930">Sans jalousie et sans alarmes</l>
+            <l n="931" xml:id="l931">Voyez ses yeux noyés de larmes</l>
+            <l n="932" xml:id="l932">Que l’ombre de la mort commence de couvrir.</l>
+          </sp>
+          <sp who="junon" xml:id="VI03-2">
+            <speaker>junon</speaker>
+            <l n="933" xml:id="l933">Ils n’ont encor que trop de charmes</l>
+            <l n="934" xml:id="l934">Puisqu’ils savent attendrir.</l>
+          </sp>
+          <sp who="jupiter" xml:id="VI03-3">
+            <speaker>jupiter</speaker>
+            <l n="935" xml:id="l935">Une juste pitié peut elle vous aigrir ?</l>
+            <l n="936" xml:id="l936">Votre courroux fatal ne doit-il pas s’éteindre ?</l>
+          </sp>
+          <sp who="junon" xml:id="VI03-4">
+            <speaker>junon</speaker>
+            <l n="937" xml:id="l937">Ah ! vous la plaignez trop, elle n’est pas à plaindre</l>
+            <l n="938" xml:id="l938">Non elle ne peut trop souffrir.</l>
+          </sp>
+          <sp who="jupiter" xml:id="VI03-5">
+            <speaker>jupiter</speaker>
+            <l n="939" xml:id="l939">Je sais que c’est de vous que son sort doit dépendre.</l>
+            <l n="940" xml:id="l940">Ce n’est qu’à vos bontés qu’elle doit recourir.</l>
+            <l n="941" xml:id="l941">Il n’est rien que de moi vous ne deviez attendre,</l>
+            <l n="942" xml:id="l942">Si je puis obliger votre haine à se rendre.</l>
+          </sp>
+          <sp who="io" xml:id="VI03-6">
+            <speaker>io</speaker>
+            <l n="943" xml:id="l943">Ah ! Laissez moi mourir.</l>
+          </sp>
+          <sp who="junon" xml:id="VI03-7">
+            <speaker>junon</speaker>
+            <l n="944" xml:id="l944">Prenez soin de la secourir.</l>
+          </sp>
+          <sp who="io" xml:id="VI03-8">
+            <speaker>io</speaker>
+            <l n="945" xml:id="l945">Vous l’aimez d’un amour trop tendre</l>
+            <l n="946" xml:id="l946">Non elle ne peut trop souffrir.</l>
+          </sp>
+          <sp who="jupiter" xml:id="VI03-9">
+            <speaker>jupiter</speaker>
+            <l n="947" xml:id="l947">Quoi ! Le cœur de Junon quelque grand qu’il puisse être</l>
+            <l n="948" xml:id="l948">Ne saurait triompher d’une injuste fureur</l>
+          </sp>
+          <note>Ce vers est manquant dans l’édition originale.</note>
+          <sp who="junon" xml:id="VI03-10">
+            <speaker>junon</speaker>
+            <l n="949" xml:id="l949">De la terre et du Ciel Jupiter est le maître</l>
+            <l n="950" xml:id="l950">Et Jupiter n’est pas le maître de son cœur ?</l>
+          </sp>
+          <sp who="jupiter" xml:id="VI03-11">
+            <speaker>jupiter</speaker>
+            <l n="951" xml:id="l951">Hé bien ! il faut que je commence</l>
+            <l n="952" xml:id="l952">À me vaincre en ce jour.</l>
+          </sp>
+          <sp who="junon" xml:id="VI03-12">
+            <speaker>junon</speaker>
+            <l n="953" xml:id="l953">Vous m’apprendrez à me vaincre à mon tour.</l>
+          </sp>
+          <sp who="jupiter_junon" xml:id="VI03-13">
+            <speaker>jupiter et junon, ensemble</speaker>
+            <stage>Jupiter.</stage>
+            <l n="954" xml:id="l954">Abandonnez votre vengeance</l>
+            <l n="955" xml:id="l955">Je vous rends mon amour .</l>
+            <stage>Junon.</stage>
+            <l n="956" xml:id="l956">J’abandonnerai ma vengeance,</l>
+            <l n="957" xml:id="l957">Rendez moi votre amour.</l>
+          </sp>
+          <sp who="jupiter" xml:id="VI03-14">
+            <speaker>jupiter</speaker>
+            <l n="958" xml:id="l958">Noires Ondes du Styx, c’est par vous que je jure.</l>
+            <l n="959" xml:id="l959">Fleuve affreux écoutez le serment que je fais.</l>
+            <l n="960" xml:id="l960">Si cette Nymphe, enfin, reprend tous ses attraits,</l>
+            <l n="961" xml:id="l961">Si Junon fait cesser les tourments qu’elle endure,</l>
+            <l n="962" xml:id="l962">Je jure que ses yeux ne troubleront jamais</l>
+            <l n="963" xml:id="l963">De nos cœurs réunis la bienheureuse paix.</l>
+            <l n="964" xml:id="l964">Noires Ondes du Styx, c’est par vous que je jure.</l>
+            <l n="965" xml:id="l965">Fleuve affreux écoutez le serment que je fais.</l>
+          </sp>
+          <sp who="junon" xml:id="VI03-15">
+            <speaker>junon</speaker>
+            <l n="966" xml:id="l966">Nymphe, je veux finir votre peine éternelle</l>
+            <l n="967" xml:id="l967">Que la Furie emporte aux Enfers avec elle</l>
+            <l n="968" xml:id="l968">Le trouble et les horreurs dont vos sens sont saisis !</l>
+            <stage>La Furie s’enfonce dans les Enfers et Io se trouve délivrée de ses peines.</stage>
+            <l n="969" xml:id="l969">Après un rigoureux supplice</l>
+            <l n="970" xml:id="l970">Goûtez les biens parfaits que les Dieux ont choisis :</l>
+            <l n="971" xml:id="l971">Et sous le nouveau nom d’Isis</l>
+            <l n="972" xml:id="l972">Jouissez d’un bonheur qui jamais ne finisse.</l>
+          </sp>
+          <sp who="jupiter_junon" xml:id="VI03-16">
+            <speaker>jupiter et junon, ensemble</speaker>
+            <l n="973" xml:id="l973">Dieux, recevez Isis au rang des immortels !</l>
+            <l n="974" xml:id="l974">Peuples voisins du Nil, dressez lui des Autels !</l>
+            <stage>Les divinités du Ciel descendent pour recevoir Isis ; les peuples d’Egypte lui dressent un autel et la reconnaissent pour la Divinité qui les doit protéger.</stage>
+            <stage>Divinités qui descendent du Ciel dans la gloire, Peuples d’Egypte chantants, quatre égyptiens chantants, peuples d’Egypte dansants.</stage>
+          </sp>
+          <sp who="chœur_divinites" xml:id="VI03-17">
+            <speaker>chœur des divinités</speaker>
+            <l n="975" xml:id="l975">Venez, venez, Divinités nouvelle,</l>
+          </sp>
+          <sp who="chœur_peuples_egypte" xml:id="VI03-18">
+            <speaker>chœur des peuples d’egypte</speaker>
+            <l n="976" xml:id="l976">Isis, Tournez sur nous vos yeux</l>
+            <l n="977" xml:id="l977">Voyez l’ardeur de notre zèle.</l>
+          </sp>
+          <sp who="chœur_divinites" xml:id="VI03-19">
+            <speaker>chœur des divinités</speaker>
+            <l n="978" xml:id="l978">La céleste Cour vous appelle</l>
+          </sp>
+          <stage>Jupiter et Junon prennent place au milieu des divinités, et y font placer Isis.</stage>
+          <sp who="jupiter_junon" xml:id="VI03-20">
+            <speaker>jupiter et junon</speaker>
+            <l n="979" xml:id="l979">Isis est immortelle</l>
+            <l n="980" xml:id="l980">Isis va briller dans les Cieux.</l>
+            <l n="981" xml:id="l981">Isis jouit avec les Dieux</l>
+            <l n="982" xml:id="l982">D’une gloire éternelle.</l>
+            <stage>Jupiter et Junon et les Divinités montent au ciel, et y conduisent Isis, dans le char des chœurs des Divinités et des Parques. Ils répètent ces quatre vers.</stage>
+          </sp>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>
