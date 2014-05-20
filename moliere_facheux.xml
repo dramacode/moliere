@@ -69,7 +69,7 @@
         <p>Le dessein était de donner un Ballet aussi ; et comme il n’y avait qu’un petit nombre choisi de Danseurs excellents, on fut contraint de séparer les Entrées de ce Ballet, et l’avis fut de les jeter dans les Entr’Actes de la Comédie, afin que ces intervalles donnassent temps aux mêmes Baladins de revenir sous d’autres habits. De sorte que pour ne point rompre aussi le fil de la Pièce, par ces manières d’intermèdes, on s’avisa de les coudre au sujet du mieux que l’on put, et de ne faire qu’une seule chose du Ballet, et de la Comédie : mais, comme le temps était fort précipité, et que tout cela ne fut pas réglé entièrement par une même tête, on trouvera peut-être quelques endroits du Ballet, qui n’entrent pas dans la Comédie aussi naturellement que d’autres. Quoi qu’il en soit, c’est un mélange qui est nouveau pour nos Théâtres, et dont on pourrait chercher quelques autorités dans l’Antiquité ; et, comme tout le Monde l’a trouvé agréable, il peut servir d’idée à d’autres choses, qui pourraient être méditées avec plus de loisir.</p>
         <p>D’abord que la toile fut levée, un des Acteurs, comme vous pourriez dire moi, parut sur le Théâtre en habit de Ville et s’adressant au Roi avec le visage d’un homme surpris, fit des excuses en désordre sur ce qu’il se trouvait là seul, et manquait de temps, et d’Acteurs pour donner à Sa Majesté le divertissement qu’elle semblait attendre. En même temps, au milieu de vingt jets d’eau naturels, s’ouvrit cette coquille, que tout le monde a vue ; et l’agréable Naïade qui parut dedans s’avança au bord du Théâtre, et d’un air héroïque prononça les Vers, que Monsieur Pellisson avait faits, et qui servent de Prologue.</p>
       </div>
-      <prologue>
+      <div type="prologue">
         <head>PROLOGUE</head>
         <lg rend="i">
         <l>Pour voir en ces beaux lieux le plus grand Roi du Monde,</l>
@@ -115,9 +115,10 @@
         <l>Que ce soit seulement pour exciter sa joie.</l>
         </lg>
         <stage>La Naïade emmène avec elle, pour la Comédie, une partie des gens qu’elle a fait paraître, pendant que le reste se met à danser au son des Hautbois, qui se joignent aux Violons.</stage>
-      </prologue>
-      <castList>
+      </div>
+      <div>
         <head>PERSONNAGES</head>
+        <castList>
         <castItem><role xml:id="eraste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="amoureux">ÉRASTE</role>.</castItem>
         <castItem><role xml:id="montagne" civil="M" type="H" statut="valet" age="A" stat_amour="néant">LA MONTAGNE</role>.</castItem>
         <castItem><role xml:id="alcidor" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCIDOR</role>.</castItem>
@@ -136,6 +137,7 @@
         <castItem><role xml:id="riviere" civil="M" type="H" statut="vallet" age="A" stat_amour="néant">LA RIVIÈRE</role>, et deux Camarades.</castItem>
       </castList>
       <set location="Paris" country="France" periode="XVIIème" link="">La Scène est à Paris.</set>
+      </div>
     </front>
     <body>
       <head>LES <lb/> FÂCHEUX, <lb/><hi rend="i">COMÉDIE</hi></head>
