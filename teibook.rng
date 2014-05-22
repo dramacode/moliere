@@ -185,8 +185,7 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
       <element name="front">
         <a:documentation>Le texte préliminaire tel qu’imprimé</a:documentation>
         <div xmlns="http://www.w3.org/1999/xhtml">
-          <p>Le <a:el>front</a:el> comporte obligatoirement la page de titre <a:el>titlePage</a:el>, et la quatrième de couverture <a:el>argument</a:el>, afin de normaliser la présentation des ouvrages du corpus.
-            <br/>Chaque autre section (introduction, préface, etc.) est contenue dans un <a:el>div</a:el>.
+          <p>Chaque section (introduction, préface, etc.) est contenue dans un <a:el>div</a:el>.
             <br/>Si l’édition contient plusieurs types de numérotations des pages (romain, arabe), alors le <a:el>front</a:el> doit contenir une numérotation homogène (usuellement en chiffres romains).
             <br/>Le <a:el>front</a:el> ne doit pas contenir de métadonnées structurées qui doivent être inscrites dans le <a:el>teiHeader</a:el>.
           </p>
@@ -201,7 +200,9 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
         <zeroOrMore>
           <ref name="pb"/>
         </zeroOrMore>
-        <ref name="titlePage"/>
+        <optional>
+          <ref name="titlePage"/>
+        </optional>
         <optional>
           <ref name="argument"/>
         </optional>
@@ -1000,6 +1001,7 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
         </optional>
         <oneOrMore>
           <element name="castItem">
+            <ref name="xml-atts"/>
             <zeroOrMore>
               <choice>
                 <text/>
@@ -2353,6 +2355,8 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
               <choice>
                 <ref name="rend.font"/>
                 <ref name="rend.align"/>
+                <value>argument</value>
+                <a:documentation>Valeur sémantique d’un élément argument, mais qui autorise à placer un élément &lt;stage&gt; avant (édition de théâtre)</a:documentation>
                 <value>indent</value>
                 <a:documentation>Indentation de première ligne (lorsque pas d’indentation par défaut)</a:documentation>
                 <value>lg</value>
