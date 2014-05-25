@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" n="moliere_avare">
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" n="moliere_avare">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -43,12 +45,17 @@
 		<docTitle><titlePart type="main">L'AVARE,</titlePart><titlePart type="sub">COMÉDIE.</titlePart></docTitle>
 		<docAuthor>Par J.B.P. MOLIÈRE.</docAuthor>
 		<docImprint>
-			À PARIS, <lb/>Chez JEAN RIBOU, au Palais, vis à vis <lb/>la Porte de l'Église
-			de la Sainte Chapelle, <lb/>à l'Image Saint-Louis.
+			À PARIS, 
+		  <lb/>Chez JEAN RIBOU, au Palais, vis à vis 
+		  <lb/>la Porte de l'Église
+			<lb/>de la Sainte Chapelle, 
+		  <lb/>à l'Image Saint-Louis.
+		  <lb/>M. DC. LXIX.
+		  <lb/>AVEC PRIVILÈGE DU ROI
 		</docImprint>
+        <!--
 			<docImprint><privilege value="1668-09-30"/><acheveImprime value="1669-02-18"/><printer xml:id="RIBOU"/></docImprint>
-		<docDate when="1669">M. DC. LXIX.</docDate>
-			<docImprint>AVEC PRIVILÈGE DU ROI</docImprint>
+			-->
 		</titlePage>
       <div>
         <head>ACTEURS</head>
@@ -96,7 +103,7 @@
             <p>
               <s>Non, Valère, je ne puis pas me repentir de tout ce que je fais pour vous. </s>
               <s>Je m´y sens entraîner par une trop douce puissance, et je n´ai pas même la force de souhaiter que les choses ne fussent pas. </s>
-              <s>Mais, à vous dire vrai, le succès me donne de l´inquiétude ; et je crains fort de vous aimer un peu plus que je ne devrais. </s>
+              <s>Mais, à vous dire vrai, le succès me donne de l´inquiétude ; et je crains fort de vous aimer un peu plus que je ne devrais. </s>
             </p>
           </sp>
           <sp who="valere" xml:id="I01-3">
@@ -108,7 +115,7 @@
           <sp who="elise" xml:id="I01-4">
             <speaker>élise</speaker>
             <p>
-              <s>Hélas ! cent choses à la fois : L´emportement d´un Père ; les reproches d´une Famille ; les censures du monde ; mais plus que tout, Valère, le changement de votre cœur ; et cette froideur criminelle dont ceux de votre Sexe payent le plus souvent les témoignages trop ardents d´une innocente amour.</s>
+              <s>Hélas ! cent choses à la fois : L´emportement d´un Père ; les reproches d´une Famille ; les censures du monde ; mais plus que tout, Valère, le changement de votre cœur ; et cette froideur criminelle dont ceux de votre Sexe payent le plus souvent les témoignages trop ardents d´une innocente amour.</s>
             </p>
           </sp>
           <sp who="valere" xml:id="I01-5">
@@ -116,21 +123,21 @@
             <p>
               <s>Ah ! ne me faites pas ce tort, de juger de moi par les autres.</s>
               <s>Soupçonnez-moi de tout, Élise, plutôt que de manquer à ce que je vous dois.</s>
-              <s>Je vous aime trop pour cela ; et mon amour pour vous, durera autant que ma vie. </s>
+              <s>Je vous aime trop pour cela ; et mon amour pour vous, durera autant que ma vie. </s>
             </p>
           </sp>
           <sp who="elise" xml:id="I01-6">
             <speaker>élise</speaker>
             <p>
               <s>Ah ! Valère, chacun tient les mêmes discours.</s>
-              <s>Tous les Hommes sont semblables par les paroles ; et ce n´est que les actions, qui les découvrent différents. </s>
+              <s>Tous les Hommes sont semblables par les paroles ; et ce n´est que les actions, qui les découvrent différents. </s>
             </p>
           </sp>
           <sp who="valere" xml:id="I01-7">
             <speaker>valère</speaker>
             <p>
-              <s>Puisque les seules actions font connaître ce que nous sommes ; attendez donc au moins à juger de mon cœur par elles, et ne me cherchez point des crimes dans les injustes craintes d´une fâcheuse prévoyance. </s>
-              <s>Ne m´assassinez point, je vous prie, par les sensibles coups d´un soupçon outrageux ; et donnez-moi le temps de vous convaincre, par mille et mille preuves, de l´honnêteté de mes feux. </s>
+              <s>Puisque les seules actions font connaître ce que nous sommes ; attendez donc au moins à juger de mon cœur par elles, et ne me cherchez point des crimes dans les injustes craintes d´une fâcheuse prévoyance. </s>
+              <s>Ne m´assassinez point, je vous prie, par les sensibles coups d´un soupçon outrageux ; et donnez-moi le temps de vous convaincre, par mille et mille preuves, de l´honnêteté de mes feux. </s>
             </p>
           </sp>
           <sp who="elise" xml:id="I01-8">
@@ -138,7 +145,7 @@
             <p>
               <s>Hélas ! qu´avec facilité on se laisse persuader par les Personnes que l´on aime !</s>
               <s>Oui, Valère, je tiens votre cœur incapable de m´abuser.</s>
-              <s>Je crois que vous m´aimez d´un véritable amour, et que vous me serez fidèle ; je n´en veux point du tout douter, et je retranche mon chagrin aux appréhensions du blâme qu´on pourra me donner. </s>
+              <s>Je crois que vous m´aimez d´un véritable amour, et que vous me serez fidèle ; je n´en veux point du tout douter, et je retranche mon chagrin aux appréhensions du blâme qu´on pourra me donner. </s>
             </p>
           </sp>
           <sp who="valere" xml:id="I01-9">
@@ -150,9 +157,9 @@
           <sp who="elise" xml:id="I01-10">
             <speaker>élise</speaker>
             <p>
-              <s>Je n´aurais rien à craindre, si tout le monde vous voyait des yeux dont je vous vois ; et je trouve en votre Personne de quoi avoir raison aux choses que je fais pour vous. </s>
+              <s>Je n´aurais rien à craindre, si tout le monde vous voyait des yeux dont je vous vois ; et je trouve en votre Personne de quoi avoir raison aux choses que je fais pour vous. </s>
               <s>Mon cœur, pour sa défense, a tout votre mérite, appuyé du secours d´une reconnaissance où le Ciel m´engage envers vous.</s>
-              <s>Je me représente à toute heure ce péril étonnant, qui commença de nous offrir aux regards l´un de l´autre ; cette générosité surprenante, qui vous fit risquer votre vie, pour dérober la mienne à la fureur des ondes ; ces soins pleins de tendresse, que vous me fîtes éclater après m´avoir tirée de l´eau ; et les hommages assidus de cet ardent amour, que ni le temps, ni les difficultés, n´ont rebuté, et qui, vous faisant négliger et Parents et Patrie, arrête vos pas en ces lieux, y tient en ma faveur votre fortune déguisée, et vous a réduit, pour me voir, à vous revêtir de l´emploi de Domestique de mon père.</s>
+              <s>Je me représente à toute heure ce péril étonnant, qui commença de nous offrir aux regards l´un de l´autre ; cette générosité surprenante, qui vous fit risquer votre vie, pour dérober la mienne à la fureur des ondes ; ces soins pleins de tendresse, que vous me fîtes éclater après m´avoir tirée de l´eau ; et les hommages assidus de cet ardent amour, que ni le temps, ni les difficultés, n´ont rebuté, et qui, vous faisant négliger et Parents et Patrie, arrête vos pas en ces lieux, y tient en ma faveur votre fortune déguisée, et vous a réduit, pour me voir, à vous revêtir de l´emploi de Domestique de mon père.</s>
               <s>Tout cela fait chez moi sans doute un merveilleux effet ; et c´en est assez à mes yeux, pour me justifier l´engagement où j´ai pu consentir : mais ce n´est pas assez, peut-être, pour le justifier aux autres ; et je ne suis pas sûre qu´on entre dans mes sentiments.</s>
             </p>
           </sp>
@@ -709,7 +716,7 @@
             </p>
           </sp>
           <sp who="la-fleche" xml:id="I03-58">
-            <speaker>la flèche <hi rend="i n">lui montrant une des poches de son justaucorps</hi></speaker>
+            <speaker>la flèche <hi rend="i">lui montrant une des poches de son justaucorps</hi></speaker>
             <p>
               <s>Tenez, voilà encore une poche.</s>
               <s>Êtes-vous satisfait ? </s>
@@ -3082,7 +3089,7 @@
             </p>
           </sp>
           <sp who="harpagon" xml:id="III01-43">
-            <speaker>harpagon, <hi rend="i n">en lui mettant la main sur la bouche</hi></speaker>
+            <speaker>harpagon, <hi rend="i">en lui mettant la main sur la bouche</hi></speaker>
             <p>
               <s>Ah traître, tu manges tout mon bien. </s>
             </p>
@@ -3116,7 +3123,7 @@
           <sp who="valere" xml:id="III01-48">
             <speaker>valère</speaker>
             <p>
-              <s>Apprenez, Maître Jacques, vous, et vos pareils, que c´est un coupe-gorge, qu´une table remplie de trop de viandes ; que pour se bien montrer ami de ceux que l´on invite, il faut que la frugalité règne dans les repas qu´on donne ; et que, suivant le dire d´un Ancien, <hi rend="i">il faut manger pour vivre, et non pas vivre pour manger</hi>. </s>
+              <s>Apprenez, Maître Jacques, vous, et vos pareils, que c´est un coupe-gorge, qu´une table remplie de trop de viandes ; que pour se bien montrer ami de ceux que l´on invite, il faut que la frugalité règne dans les repas qu´on donne ; et que, suivant le dire d´un Ancien, <hi rend="i">il faut manger pour vivre, et non pas vivre pour manger</hi>. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="III01-49">
@@ -3181,7 +3188,7 @@
           <sp who="harpagon" xml:id="III01-57">
             <speaker>harpagon</speaker>
             <p>
-              <s>Il faudra de ces choses, dont on ne mange guère, et qui rassasient d´abord ; quelque bon Haricot bien gras, avec quelque Pâté en pot bien garni de marrons. </s>
+              <s>Il faudra de ces choses, dont on ne mange guère, et qui rassasient d´abord ; quelque bon Haricot bien gras, avec quelque Pâté en pot bien garni de marrons. </s>
             </p>
           </sp>
           <sp who="valere" xml:id="III01-58">
@@ -3217,7 +3224,7 @@
             <speaker>maître jacques</speaker>
             <p>
               <s>Vos Chevaux, Monsieur ? </s>
-              <s>Ma foi, ils ne sont point du tout en état de marcher : Je ne vous dirai point qu´ils sont sur la litière, les pauvres bêtes n´en ont point, et ce serait fort mal parler : mais vous leur faites observer des jeûnes si austères, que ce ne sont plus rien que des idées ou des fantômes ; des façons de Chevaux.</s>
+              <s>Ma foi, ils ne sont point du tout en état de marcher : Je ne vous dirai point qu´ils sont sur la litière, les pauvres bêtes n´en ont point, et ce serait fort mal parler : mais vous leur faites observer des jeûnes si austères, que ce ne sont plus rien que des idées ou des fantômes ; des façons de Chevaux.</s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="III01-63">
@@ -3231,7 +3238,7 @@
             <p>
               <s>Et pour ne faire rien, Monsieur, est-ce qu´il ne faut rien manger ? </s>
               <s>Il leur vaudrait bien mieux, les pauvres animaux, de travailler beaucoup, de manger de même. </s>
-              <s>Cela me fend le cœur, de les voir ainsi exténués : car enfin j´ai une tendresse pour mes Chevaux, qu´il me semble que c´est moi-même, quand je les vois pâtir ; je m´ôte tous les jours pour eux les choses de la bouche ; et c´est être, Monsieur, d´un naturel trop dur, que de n´avoir nulle pitié de son prochain. </s>
+              <s>Cela me fend le cœur, de les voir ainsi exténués : car enfin j´ai une tendresse pour mes Chevaux, qu´il me semble que c´est moi-même, quand je les vois pâtir ; je m´ôte tous les jours pour eux les choses de la bouche ; et c´est être, Monsieur, d´un naturel trop dur, que de n´avoir nulle pitié de son prochain. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="III01-65">
@@ -3281,8 +3288,8 @@
           <sp who="maitre-jacques" xml:id="III01-72">
             <speaker>maître jacques</speaker>
             <p>
-              <s>Monsieur, je ne saurais souffrir les flatteurs ; et je vois que ce qu´il en fait, que ses contrôles perpétuels sur le pain et le vin, le bois, le sel, et la chandelle, ne sont rien que pour vous gratter, et vous faire sa cour. </s>
-              <s>J´enrage de cela, et je suis fâché tous les jours d´entendre ce qu´on dit de vous : car enfin je me sens pour vous de la tendresse en dépit que j´en aie ; et après mes Chevaux, vous êtes la Personne que j´aime le plus. </s>
+              <s>Monsieur, je ne saurais souffrir les flatteurs ; et je vois que ce qu´il en fait, que ses contrôles perpétuels sur le pain et le vin, le bois, le sel, et la chandelle, ne sont rien que pour vous gratter, et vous faire sa cour. </s>
+              <s>J´enrage de cela, et je suis fâché tous les jours d´entendre ce qu´on dit de vous : car enfin je me sens pour vous de la tendresse en dépit que j´en aie ; et après mes Chevaux, vous êtes la Personne que j´aime le plus. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="III01-73">
@@ -3306,29 +3313,29 @@
           <sp who="maitre-jacques" xml:id="III01-76">
             <speaker>maître jacques</speaker>
             <p>
-              <s>Pardonnez-moi ; je sais fort bien que je vous mettrais en colère. </s>
+              <s>Pardonnez-moi ; je sais fort bien que je vous mettrais en colère. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="III01-77">
             <speaker>harpagon</speaker>
             <p>
-              <s>Point du tout ; au contraire, c´est me faire plaisir, et je suis bien aise d´apprendre comme on parle de moi. </s>
+              <s>Point du tout ; au contraire, c´est me faire plaisir, et je suis bien aise d´apprendre comme on parle de moi. </s>
             </p>
           </sp>
           <sp who="maitre-jacques" xml:id="III01-78">
             <speaker>maître jacques</speaker>
             <p>
-              <s>Monsieur, puisque vous le voulez, je vous dirai franchement qu´on se moque partout de vous ; qu´on nous jette de tous côtés cent brocards à votre sujet ; et que l´on n´est point plus ravi, que de vous tenir au cul et aux chausses, et de faire sans cesse des contes de votre lésine. </s>
+              <s>Monsieur, puisque vous le voulez, je vous dirai franchement qu´on se moque partout de vous ; qu´on nous jette de tous côtés cent brocards à votre sujet ; et que l´on n´est point plus ravi, que de vous tenir au cul et aux chausses, et de faire sans cesse des contes de votre lésine. </s>
               <s>L´un dit que vous faites imprimer des Almanachs particuliers, où vous faites doubler les Quatre-temps, et les vigiles, afin de profiter des jeûnes, où vous obligez votre monde. </s>
               <s>L´autre, que vous avez toujours une querelle toute prête à faire à vos valets dans le temps des Étrennes, ou de leur sortie d´avec vous, pour vous trouver une raison de ne leur donner rien. </s>
               <s>Celui-là conte qu´une fois vous fîtes assigner le Chat d´un de vos Voisins, pour vous avoir mangé un reste d´un gigot de Mouton. </s>
-              <s>Celui-ci, que l´on vous surprit une nuit, en venant dérober vous-même l´avoine de vos Chevaux ; et que votre cocher, qui était celui d´avant moi, vous donna dans l´obscurité je ne sais combien de coups de bâton dont vous ne voulûtes rien dire. </s>
+              <s>Celui-ci, que l´on vous surprit une nuit, en venant dérober vous-même l´avoine de vos Chevaux ; et que votre cocher, qui était celui d´avant moi, vous donna dans l´obscurité je ne sais combien de coups de bâton dont vous ne voulûtes rien dire. </s>
               <s>Enfin voulez-vous que je vous dise, on ne saurait aller nulle part où l´on ne vous entende accommoder de toutes pièces.</s>
               <s>Vous êtes la fable et la risée de tout le monde, et jamais on ne parle de vous, que sous les noms d´avare, de ladre, de vilain, et de fesse-mathieu. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="III01-79">
-            <speaker>harpagon <hi rend="i n">en le battant</hi></speaker>
+            <speaker>harpagon <hi rend="i">en le battant</hi></speaker>
             <p>
               <s>Vous êtes un sot, un maraud, un coquin, et un impudent. </s>
             </p>
@@ -3375,7 +3382,7 @@
             <p>
               <s>Il file doux. </s>
               <s>Je veux faire le brave, et s´il est assez sot pour me craindre, le frotter quelque peu. </s>
-              <s>Savez-vous bien, Monsieur le rieur, que je ne ris pas, moi ; et que si vous m´échauffez la tête, je vous ferai rire d´une autre sorte ?</s>
+              <s>Savez-vous bien, Monsieur le rieur, que je ne ris pas, moi ; et que si vous m´échauffez la tête, je vous ferai rire d´une autre sorte ?</s>
             </p>
             <stage>Maître Jacques pousse Valère jusques au bout du théâtre, en le menaçant.</stage>
           </sp>
@@ -3542,13 +3549,13 @@
           <sp who="frosine" xml:id="III04-4">
             <speaker>frosine</speaker>
             <p>
-              <s>Je vois bien que pour mourir agréablement, Harpagon n´est pas le supplice que vous voudriez embrasser ; et je connais à votre mine, que le jeune Blondin dont vous m´avez parlé, vous revient un peu dans l´esprit. </s>
+              <s>Je vois bien que pour mourir agréablement, Harpagon n´est pas le supplice que vous voudriez embrasser ; et je connais à votre mine, que le jeune Blondin dont vous m´avez parlé, vous revient un peu dans l´esprit. </s>
             </p>
           </sp>
           <sp who="mariane" xml:id="III04-5">
             <speaker>mariane</speaker>
             <p>
-              <s>Oui, c´est une chose, Frosine, dont je ne veux pas me défendre ; et les visites respectueuses qu´il a rendues chez nous, ont fait, je vous l´avoue, quelque effet dans mon âme. </s>
+              <s>Oui, c´est une chose, Frosine, dont je ne veux pas me défendre ; et les visites respectueuses qu´il a rendues chez nous, ont fait, je vous l´avoue, quelque effet dans mon âme. </s>
             </p>
           </sp>
           <sp who="frosine" xml:id="III04-6">
@@ -3560,14 +3567,14 @@
           <sp who="mariane" xml:id="III04-7">
             <speaker>mariane</speaker>
             <p>
-              <s>Non, je ne sais point quel il est ; mais je sais qu´il est fait d´un air à se faire aimer ; Que si l´on pouvait mettre les choses à mon choix, je le prendrais plutôt qu´un autre ; et qu´il ne contribue pas peu à me faire trouver un tourment effroyable, dans l´Époux qu´on veut me donner. </s>
+              <s>Non, je ne sais point quel il est ; mais je sais qu´il est fait d´un air à se faire aimer ; Que si l´on pouvait mettre les choses à mon choix, je le prendrais plutôt qu´un autre ; et qu´il ne contribue pas peu à me faire trouver un tourment effroyable, dans l´Époux qu´on veut me donner. </s>
             </p>
           </sp>
           <sp who="frosine" xml:id="III04-8">
             <speaker>frosine</speaker>
             <p>
-              <s>Mon Dieu, tous ces Blondins sont agréables, et débitent fort bien leur fait ; mais la plupart sont gueux comme des Rats ; et il vaut mieux pour vous, de prendre un vieux Mari, qui vous donne beaucoup de bien.</s>
-              <s>Je vous avoue que les sens ne trouvent pas si bien leur compte du côté que je dis, et qu´il y a quelques petits dégoûts à essuyer avec un tel Époux ; mais cela n´est pas pour durer ; et sa mort, croyez-moi ; vous mettra bientôt en état d´en prendre un plus aimable, qui réparera toutes choses. </s>
+              <s>Mon Dieu, tous ces Blondins sont agréables, et débitent fort bien leur fait ; mais la plupart sont gueux comme des Rats ; et il vaut mieux pour vous, de prendre un vieux Mari, qui vous donne beaucoup de bien.</s>
+              <s>Je vous avoue que les sens ne trouvent pas si bien leur compte du côté que je dis, et qu´il y a quelques petits dégoûts à essuyer avec un tel Époux ; mais cela n´est pas pour durer ; et sa mort, croyez-moi ; vous mettra bientôt en état d´en prendre un plus aimable, qui réparera toutes choses. </s>
             </p>
           </sp>
           <sp who="mariane" xml:id="III04-9">
@@ -3580,7 +3587,7 @@
             <speaker>frosine</speaker>
             <p>
               <s>Vous moquez-vous ? </s>
-              <s>Vous ne l´épousez qu´aux conditions de vous laisser veuve bientôt ; et ce doit être là un des articles du Contrat. </s>
+              <s>Vous ne l´épousez qu´aux conditions de vous laisser veuve bientôt ; et ce doit être là un des articles du Contrat. </s>
               <s>Il serait bien impertinent de ne pas mourir dans trois mois !</s>
               <s>Le voici en propre personne. </s>
             </p>
@@ -3606,7 +3613,7 @@
           <sp who="frosine" xml:id="III05-2">
             <speaker>frosine</speaker>
             <p>
-              <s>C´est qu´elle est encore toute surprise ; et puis les Filles ont toujours honte à témoigner d´abord ce qu´elles ont dans l´âme. </s>
+              <s>C´est qu´elle est encore toute surprise ; et puis les Filles ont toujours honte à témoigner d´abord ce qu´elles ont dans l´âme. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="III05-3">
@@ -3635,11 +3642,11 @@
           <sp who="harpagon" xml:id="III06-3">
             <speaker>harpagon</speaker>
             <p>
-              <s>Vous voyez qu´elle est grande ; mais mauvaise herbe croît toujours. </s>
+              <s>Vous voyez qu´elle est grande ; mais mauvaise herbe croît toujours. </s>
             </p>
           </sp>
           <sp who="mariane" xml:id="III06-4">
-            <speaker>mariane <hi rend="i n">bas à Frosine</hi></speaker>
+            <speaker>mariane <hi rend="i">bas à Frosine</hi></speaker>
             <p>
               <s>Ô l´Homme déplaisant ! </s>
             </p>
@@ -3663,7 +3670,7 @@
             </p>
           </sp>
           <sp who="mariane" xml:id="III06-8">
-            <speaker>mariane <hi rend="i n">à part</hi></speaker>
+            <speaker>mariane <hi rend="i">à part</hi></speaker>
             <p>
               <s>Quel animal ! </s>
             </p>
@@ -3675,7 +3682,7 @@
             </p>
           </sp>
           <sp who="mariane" xml:id="III06-10">
-            <speaker>mariane <hi rend="i n">à part</hi></speaker>
+            <speaker>mariane <hi rend="i">à part</hi></speaker>
             <p>
               <s>Je n´y puis plus tenir. </s>
             </p>
@@ -3687,14 +3694,14 @@
             </p>
           </sp>
           <sp who="mariane" xml:id="III06-12">
-            <speaker>mariane <hi rend="i n">à part à Frosine</hi></speaker>
+            <speaker>mariane <hi rend="i">à part à Frosine</hi></speaker>
             <p>
               <s>Ah ! Frosine, quelle rencontre !</s>
               <s>C´est justement celui dont je t´ai parlé. </s>
             </p>
           </sp>
           <sp who="frosine" xml:id="III06-13">
-            <speaker>frosine <hi rend="i n">à Mariane</hi></speaker>
+            <speaker>frosine <hi rend="i">à Mariane</hi></speaker>
             <p>
               <s>L´aventure est merveilleuse. </s>
             </p>
@@ -3702,7 +3709,7 @@
           <sp who="harpagon" xml:id="III06-14">
             <speaker>harpagon</speaker>
             <p>
-              <s>Je vois que vous vous étonnez de me voir de si grands Enfants ; mais je serai bientôt défait et de l´un, et de l´autre. </s>
+              <s>Je vois que vous vous étonnez de me voir de si grands Enfants ; mais je serai bientôt défait et de l´un, et de l´autre. </s>
             </p>
           </sp>
         </div2>
@@ -3712,23 +3719,23 @@
           <sp who="cleante" xml:id="III07-1">
             <speaker>cléante</speaker>
             <p>
-              <s>Madame, à vous dire le vrai, c´est ici une aventure où sans doute je ne m´attendais pas ; et mon Père ne m´a pas peu surpris, lorsqu´il m´a dit tantôt le dessein qu´il avait formé. </s>
+              <s>Madame, à vous dire le vrai, c´est ici une aventure où sans doute je ne m´attendais pas ; et mon Père ne m´a pas peu surpris, lorsqu´il m´a dit tantôt le dessein qu´il avait formé. </s>
             </p>
           </sp>
           <sp who="mariane" xml:id="III07-2">
             <speaker>mariane</speaker>
             <p>
               <s>Je puis dire la même chose. </s>
-              <s>C´est une rencontre imprévue qui m´a surprise autant que vous ; et je n´étais point préparée à une pareille aventure. </s>
+              <s>C´est une rencontre imprévue qui m´a surprise autant que vous ; et je n´étais point préparée à une pareille aventure. </s>
             </p>
           </sp>
           <sp who="cleante" xml:id="III07-3">
             <speaker>cléante</speaker>
             <p>
               <s>Il est vrai que mon Père, Madame, ne peut pas faire un plus beau choix, et que ce m´est une sensible joie, que l´honneur de vous voir : Mais avec tout cela, je ne vous assurerai point que je me réjouis du dessein où vous pourriez être de devenir ma Belle-Mère. </s>
-              <s>Le compliment, je vous l´avoue, est trop difficile pour moi ; et c´est un titre, s´il vous plaît, que je ne vous souhaite point. </s>
-              <s>Ce discours paraîtra brutal aux yeux de quelques-uns ; mais je suis assuré que vous serez personne à le prendre comme il faudra.</s>
-              <s>Que c´est un mariage, Madame, où vous vous imaginez bien que je dois avoir de la répugnance ; que vous n´ignorez pas, sachant ce que je suis, comme il choque mes intérêts ; et que vous voulez bien enfin que je vous dise, avec la permission de mon Père, que si les choses dépendaient de moi, cet hymen ne se ferait point.</s>
+              <s>Le compliment, je vous l´avoue, est trop difficile pour moi ; et c´est un titre, s´il vous plaît, que je ne vous souhaite point. </s>
+              <s>Ce discours paraîtra brutal aux yeux de quelques-uns ; mais je suis assuré que vous serez personne à le prendre comme il faudra.</s>
+              <s>Que c´est un mariage, Madame, où vous vous imaginez bien que je dois avoir de la répugnance ; que vous n´ignorez pas, sachant ce que je suis, comme il choque mes intérêts ; et que vous voulez bien enfin que je vous dise, avec la permission de mon Père, que si les choses dépendaient de moi, cet hymen ne se ferait point.</s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="III07-4">
@@ -3741,9 +3748,9 @@
           <sp who="mariane" xml:id="III07-5">
             <speaker>mariane</speaker>
             <p>
-              <s>Et moi, pour vous répondre, j´ai à vous dire que les choses sont fort égales ; et que si vous auriez de la répugnance à me voir votre Belle-Mère, je n´en aurais pas moins sans doute à vous voir mon Beau-Fils. </s>
+              <s>Et moi, pour vous répondre, j´ai à vous dire que les choses sont fort égales ; et que si vous auriez de la répugnance à me voir votre Belle-Mère, je n´en aurais pas moins sans doute à vous voir mon Beau-Fils. </s>
               <s>Ne croyez pas, je vous prie, que ce soit moi qui cherche à vous donner cette inquiétude. </s>
-              <s>Je serais fort fâchée de vous causer du déplaisir ; et si je ne m´y vois forcée par une Puissance absolue, je vous donne ma parole, que je ne consentirai point au mariage qui vous chagrine. </s>
+              <s>Je serais fort fâchée de vous causer du déplaisir ; et si je ne m´y vois forcée par une Puissance absolue, je vous donne ma parole, que je ne consentirai point au mariage qui vous chagrine. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="III07-6">
@@ -3758,8 +3765,8 @@
           <sp who="mariane" xml:id="III07-7">
             <speaker>mariane</speaker>
             <p>
-              <s>Je vous promets que ce qu´il m´a dit ne m´a point du tout offensée ; au contraire, il m´a fait plaisir de m´expliquer ainsi ses véritables sentiments. </s>
-              <s>J´aime de lui un aveu de la sorte ; et s´il avait parlé d´autre façon, je l´en estimerais bien moins. </s>
+              <s>Je vous promets que ce qu´il m´a dit ne m´a point du tout offensée ; au contraire, il m´a fait plaisir de m´expliquer ainsi ses véritables sentiments. </s>
+              <s>J´aime de lui un aveu de la sorte ; et s´il avait parlé d´autre façon, je l´en estimerais bien moins. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="III07-8">
@@ -3772,7 +3779,7 @@
           <sp who="cleante" xml:id="III07-9">
             <speaker>cléante</speaker>
             <p>
-              <s>Non, mon Père, je ne suis point capable d´en changer ; et je prie instamment Madame de le croire. </s>
+              <s>Non, mon Père, je ne suis point capable d´en changer ; et je prie instamment Madame de le croire. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="III07-10">
@@ -3798,9 +3805,9 @@
           <sp who="cleante" xml:id="III07-13">
             <speaker>cléante</speaker>
             <p>
-              <s>Hé bien, puisque vous voulez que je parle d´autre façon ; souffrez, Madame, que je me mette ici à la place de mon Père ; et que je vous avoue, que je n´ai rien vu dans le monde de si charmant que vous ; que je ne conçois rien d´égal au bonheur de vous plaire ; et que le titre de votre Époux est une gloire, une félicité, que je préférerais aux destinées des plus grands Princes de la Terre. </s>
-              <s>Oui, Madame, le bonheur de vous posséder est à mes regards la plus belle de toutes les fortunes ; c´est où j´attache toute mon ambition.</s>
-              <s>Il n´y a rien que je ne sois capable de faire pour une conquête si précieuse ; et les obstacles les plus puissants…</s>
+              <s>Hé bien, puisque vous voulez que je parle d´autre façon ; souffrez, Madame, que je me mette ici à la place de mon Père ; et que je vous avoue, que je n´ai rien vu dans le monde de si charmant que vous ; que je ne conçois rien d´égal au bonheur de vous plaire ; et que le titre de votre Époux est une gloire, une félicité, que je préférerais aux destinées des plus grands Princes de la Terre. </s>
+              <s>Oui, Madame, le bonheur de vous posséder est à mes regards la plus belle de toutes les fortunes ; c´est où j´attache toute mon ambition.</s>
+              <s>Il n´y a rien que je ne sois capable de faire pour une conquête si précieuse ; et les obstacles les plus puissants…</s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="III07-14">
@@ -3842,13 +3849,13 @@
             </p>
           </sp>
           <sp who="harpagon" xml:id="III07-20">
-            <speaker>harpagon <hi rend="i n">bas à Valère</hi></speaker>
+            <speaker>harpagon <hi rend="i">bas à Valère</hi></speaker>
             <p>
               <s>Valère ! </s>
             </p>
           </sp>
           <sp who="valere" xml:id="III07-21">
-            <speaker>valère <hi rend="i n">à Harpagon</hi></speaker>
+            <speaker>valère <hi rend="i">à Harpagon</hi></speaker>
             <p>
               <s>Il a perdu le sens. </s>
             </p>
@@ -3912,7 +3919,7 @@
             </p>
           </sp>
           <sp who="harpagon" xml:id="III07-31">
-            <speaker>harpagon <hi rend="i n">à part à son fils</hi></speaker>
+            <speaker>harpagon <hi rend="i">à part à son fils</hi></speaker>
             <p>
               <s>Comment ? </s>
             </p>
@@ -3938,7 +3945,7 @@
             </p>
           </sp>
           <sp who="harpagon" xml:id="III07-35">
-            <speaker>harpagon <hi rend="i n">à part</hi></speaker>
+            <speaker>harpagon <hi rend="i">à part</hi></speaker>
             <p>
               <s>J´enrage ! </s>
             </p>
@@ -3950,7 +3957,7 @@
             </p>
           </sp>
           <sp who="cleante" xml:id="III07-37">
-            <speaker>cléante <hi rend="i n">en empêchant toujours Mariane de rendre la Bague</hi></speaker>
+            <speaker>cléante <hi rend="i">en empêchant toujours Mariane de rendre la Bague</hi></speaker>
             <p>
               <s>Non, vous dis-je, c´est l´offenser. </s>
             </p>
@@ -3968,7 +3975,7 @@
             </p>
           </sp>
           <sp who="harpagon" xml:id="III07-40">
-            <speaker>harpagon <hi rend="i n">à part</hi></speaker>
+            <speaker>harpagon <hi rend="i">à part</hi></speaker>
             <p>
               <s>Peste soit…</s>
             </p>
@@ -3980,7 +3987,7 @@
             </p>
           </sp>
           <sp who="harpagon" xml:id="III07-42">
-            <speaker>harpagon <hi rend="i n">bas à son fils</hi></speaker>
+            <speaker>harpagon <hi rend="i">bas à son fils</hi></speaker>
             <p>
               <s>Ah traître ! </s>
             </p>
@@ -3992,7 +3999,7 @@
             </p>
           </sp>
           <sp who="harpagon" xml:id="III07-44">
-            <speaker>harpagon <hi rend="i n">bas à son Fils, en le menaçant</hi></speaker>
+            <speaker>harpagon <hi rend="i">bas à son Fils, en le menaçant</hi></speaker>
             <p>
               <s>Bourreau que tu es ! </s>
             </p>
@@ -4005,7 +4012,7 @@
             </p>
           </sp>
           <sp who="harpagon" xml:id="III07-46">
-            <speaker>harpagon <hi rend="i n">bas à son Fils, avec emportement</hi></speaker>
+            <speaker>harpagon <hi rend="i">bas à son Fils, avec emportement</hi></speaker>
             <p>
               <s>Pendard ! </s>
             </p>
@@ -4017,7 +4024,7 @@
             </p>
           </sp>
           <sp who="harpagon" xml:id="III07-48">
-            <speaker>harpagon <hi rend="i n">bas à son Fils, avec les mêmes grimaces</hi></speaker>
+            <speaker>harpagon <hi rend="i">bas à son Fils, avec les mêmes grimaces</hi></speaker>
             <p>
               <s>Le coquin ! </s>
             </p>
@@ -4039,7 +4046,7 @@
           <sp who="mariane" xml:id="III07-51">
             <speaker>mariane</speaker>
             <p>
-              <s>Pour ne vous point mettre en colère, je la garde maintenant ; et je prendrai un autre temps pour vous la rendre. </s>
+              <s>Pour ne vous point mettre en colère, je la garde maintenant ; et je prendrai un autre temps pour vous la rendre. </s>
             </p>
           </sp>
         </div2>
@@ -4140,7 +4147,7 @@
           <sp who="harpagon" xml:id="III09-11">
             <speaker>harpagon</speaker>
             <p>
-              <s>Valère, aie un peu l´œil à tout cela ; et prends soin, je te prie, de m´en sauver le plus que tu pourras, pour le renvoyer au marchand. </s>
+              <s>Valère, aie un peu l´œil à tout cela ; et prends soin, je te prie, de m´en sauver le plus que tu pourras, pour le renvoyer au marchand. </s>
             </p>
           </sp>
           <sp who="valere" xml:id="III09-12">
@@ -4174,13 +4181,13 @@
             <speaker>élise</speaker>
             <p>
               <s>Oui, Madame, mon Frère m´a fait confidence de la passion qu´il a pour vous. </s>
-              <s>Je sais les chagrins et les déplaisirs que sont capables de causer de pareilles traverses ; et c´est, je vous assure, avec une tendresse extrême que je m´intéresse à votre aventure. </s>
+              <s>Je sais les chagrins et les déplaisirs que sont capables de causer de pareilles traverses ; et c´est, je vous assure, avec une tendresse extrême que je m´intéresse à votre aventure. </s>
             </p>
           </sp>
           <sp who="mariane" xml:id="IV01-3">
             <speaker>mariane</speaker>
             <p>
-              <s>C´est une douce consolation, que de voir dans ses intérêts une Personne comme vous ; et je vous conjure, Madame, de me garder toujours cette généreuse amitié, si capable de m´adoucir les cruautés de la fortune. </s>
+              <s>C´est une douce consolation, que de voir dans ses intérêts une Personne comme vous ; et je vous conjure, Madame, de me garder toujours cette généreuse amitié, si capable de m´adoucir les cruautés de la fortune. </s>
             </p>
           </sp>
           <sp who="frosine" xml:id="IV01-4">
@@ -4215,7 +4222,7 @@
             <p>
               <s>Que saurais-je vous dire ? </s>
               <s>Mettez-vous en ma place, et voyez ce que je puis faire. </s>
-              <s>Avisez, ordonnez vous-même ; je m´en remets à vous ; et je vous crois trop raisonnable, pour vouloir exiger de moi, que ce qui peut m´être permis par l´honneur et la bienséance. </s>
+              <s>Avisez, ordonnez vous-même ; je m´en remets à vous ; et je vous crois trop raisonnable, pour vouloir exiger de moi, que ce qui peut m´être permis par l´honneur et la bienséance. </s>
             </p>
           </sp>
           <sp who="cleante" xml:id="IV01-9">
@@ -4231,7 +4238,7 @@
               <s>Quand je pourrais passer sur quantité d´égards où notre Sexe est obligé, j´ai de la considération pour ma Mère. </s>
               <s>Elle m´a toujours élevée avec une tendresse extrême, et je ne saurais me résoudre à lui donner du déplaisir. </s>
               <s>Faites, agissez auprès d´elle.</s>
-              <s>Employez tous vos soins à gagner son esprit ; vous pouvez faire et dire tout ce que vous voudrez, je vous en donne la licence ; et s´il ne tient qu´à me déclarer en votre faveur, je veux bien consentir à lui faire un aveu moi-même, de tout ce que je sens pour vous.</s>
+              <s>Employez tous vos soins à gagner son esprit ; vous pouvez faire et dire tout ce que vous voudrez, je vous en donne la licence ; et s´il ne tient qu´à me déclarer en votre faveur, je veux bien consentir à lui faire un aveu moi-même, de tout ce que je sens pour vous.</s>
             </p>
           </sp>
           <sp who="cleante" xml:id="IV01-11">
@@ -4246,7 +4253,7 @@
               <s>Par ma foi, faut-il demander ? </s>
               <s>Je le voudrais de tout mon cœur. </s>
               <s>Vous savez que de mon naturel, je suis assez humaine.</s>
-              <s>Le Ciel ne m´a point fait l´âme de bronze ; et je n´ai que trop de tendresse à rendre de petits services, quand je vois des gens qui s´entr'aiment en tout bien, et en tout honneur.</s>
+              <s>Le Ciel ne m´a point fait l´âme de bronze ; et je n´ai que trop de tendresse à rendre de petits services, quand je vois des gens qui s´entr'aiment en tout bien, et en tout honneur.</s>
               <s>Que pourrions-nous faire à ceci ? </s>
             </p>
           </sp>
@@ -4285,8 +4292,8 @@
           <sp who="frosine" xml:id="IV01-18">
             <speaker>frosine</speaker>
             <p>
-              <s>Je veux dire qu´il conservera du dépit, si l´on montre qu´on le refuse ; et qu´il ne sera point d´humeur ensuite à donner son consentement à votre mariage. </s>
-              <s>Il faudrait, pour bien faire, que le refus vînt de lui-même ; et tâcher par quelque moyen de le dégoûter de votre Personne. </s>
+              <s>Je veux dire qu´il conservera du dépit, si l´on montre qu´on le refuse ; et qu´il ne sera point d´humeur ensuite à donner son consentement à votre mariage. </s>
+              <s>Il faudrait, pour bien faire, que le refus vînt de lui-même ; et tâcher par quelque moyen de le dégoûter de votre Personne. </s>
             </p>
           </sp>
           <sp who="cleante" xml:id="IV01-19">
@@ -4299,8 +4306,8 @@
             <speaker>frosine</speaker>
             <p>
               <s>Oui, j´ai raison, je le sais bien. </s>
-              <s>C´est là ce qu´il faudrait ; mais le diantre est d´en pouvoir trouver les moyens. </s>
-              <s>Attendez ; si nous avions quelque Femme un peu sur l´âge, qui fût de mon talent, et jouât assez bien pour contrefaire une Dame de qualité, par le moyen d´un train fait à la hâte, et d´un bizarre nom de Marquise, ou de Vicomtesse, que nous supposerions de la Basse Bretagne ; j´aurais assez d´adresse pour faire accroire à votre Père que ce serait une Personne riche, outre ses Maisons, de cent mille écus en argent comptant ; qu´elle serait éperdument amoureuse de lui, et souhaiterait de se voir sa femme, jusqu´à lui donner tout son bien par Contrat de mariage ; et je ne doute point qu´il ne prêtât l´oreille à la proposition ; car enfin, il vous aime fort, je le sais : mais il aime un peu plus l´argent ; et quand ébloui de ce leurre, il aurait une fois consenti à ce qui vous touche, il importerait peu ensuite qu´il se désabusât, en venant à vouloir voir clair aux effets de notre Marquise. </s>
+              <s>C´est là ce qu´il faudrait ; mais le diantre est d´en pouvoir trouver les moyens. </s>
+              <s>Attendez ; si nous avions quelque Femme un peu sur l´âge, qui fût de mon talent, et jouât assez bien pour contrefaire une Dame de qualité, par le moyen d´un train fait à la hâte, et d´un bizarre nom de Marquise, ou de Vicomtesse, que nous supposerions de la Basse Bretagne ; j´aurais assez d´adresse pour faire accroire à votre Père que ce serait une Personne riche, outre ses Maisons, de cent mille écus en argent comptant ; qu´elle serait éperdument amoureuse de lui, et souhaiterait de se voir sa femme, jusqu´à lui donner tout son bien par Contrat de mariage ; et je ne doute point qu´il ne prêtât l´oreille à la proposition ; car enfin, il vous aime fort, je le sais : mais il aime un peu plus l´argent ; et quand ébloui de ce leurre, il aurait une fois consenti à ce qui vous touche, il importerait peu ensuite qu´il se désabusât, en venant à vouloir voir clair aux effets de notre Marquise. </s>
             </p>
           </sp>
           <sp who="cleante" xml:id="IV01-21">
@@ -4319,10 +4326,10 @@
           <sp who="cleante" xml:id="IV01-23">
             <speaker>cléante</speaker>
             <p>
-              <s>Sois assurée, Frosine, de ma reconnaissance, si tu viens à bout de la chose : mais, charmante Mariane, commençons, je vous prie, par gagner votre Mère ; c´est toujours beaucoup faire, que de rompre ce mariage.</s>
+              <s>Sois assurée, Frosine, de ma reconnaissance, si tu viens à bout de la chose : mais, charmante Mariane, commençons, je vous prie, par gagner votre Mère ; c´est toujours beaucoup faire, que de rompre ce mariage.</s>
               <s>Faites-y de votre part, je vous en conjure, tous les efforts qu´il vous sera possible.</s>
               <s>Servez-vous de tout le pouvoir que vous donne sur elle cette amitié qu´elle a pour vous.</s>
-              <s>Déployez sans réserve les grâces éloquentes, les charmes tout-puissants que le Ciel a placés dans vos yeux et dans votre bouche ; et n´oubliez rien, s´il vous plaît, de ces tendres paroles, de ces douces prières, et de ces caresses touchantes à qui je suis persuadé qu´on ne saurait rien refuser.</s>
+              <s>Déployez sans réserve les grâces éloquentes, les charmes tout-puissants que le Ciel a placés dans vos yeux et dans votre bouche ; et n´oubliez rien, s´il vous plaît, de ces tendres paroles, de ces douces prières, et de ces caresses touchantes à qui je suis persuadé qu´on ne saurait rien refuser.</s>
             </p>
           </sp>
           <sp who="mariane" xml:id="IV01-24">
@@ -4365,7 +4372,7 @@
             <speaker>harpagon</speaker>
             <p>
               <s>Non, demeurez. </s>
-              <s>Elles iront bien toutes seules ; et j´ai besoin de vous. </s>
+              <s>Elles iront bien toutes seules ; et j´ai besoin de vous. </s>
             </p>
           </sp>
         </div2>
@@ -4406,8 +4413,8 @@
             <speaker>cléante</speaker>
             <p>
               <s>À vous en parler franchement, je ne l´ai pas trouvée ici ce que je l´avais crue. </s>
-              <s>Son air est de franche Coquette ; sa taille est assez gauche, sa beauté très médiocre, et son esprit des plus communs. </s>
-              <s>Ne croyez pas que ce soit, mon Père, pour vous en dégoûter ; car Belle-Mère pour Belle-Mère, j´aime autant celle-là qu´une autre. </s>
+              <s>Son air est de franche Coquette ; sa taille est assez gauche, sa beauté très médiocre, et son esprit des plus communs. </s>
+              <s>Ne croyez pas que ce soit, mon Père, pour vous en dégoûter ; car Belle-Mère pour Belle-Mère, j´aime autant celle-là qu´une autre. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="IV03-7">
@@ -4438,8 +4445,8 @@
             <speaker>harpagon</speaker>
             <p>
               <s>J´en suis fâché : car cela rompt une pensée qui m´était venue dans l´esprit. </s>
-              <s>J´ai fait, en la voyant ici, réflexion sur mon âge ; et j´ai songé qu´on pourra trouver à redire, de me voir marier à une si jeune Personne. </s>
-              <s>Cette considération m´en faisait quitter le dessein ; et comme je l´ai fait demander, et que je suis pour elle engagé de parole, je te l´aurais donnée, sans l´aversion que tu témoignes. </s>
+              <s>J´ai fait, en la voyant ici, réflexion sur mon âge ; et j´ai songé qu´on pourra trouver à redire, de me voir marier à une si jeune Personne. </s>
+              <s>Cette considération m´en faisait quitter le dessein ; et comme je l´ai fait demander, et que je suis pour elle engagé de parole, je te l´aurais donnée, sans l´aversion que tu témoignes. </s>
             </p>
           </sp>
           <sp who="cleante" xml:id="IV03-12">
@@ -4469,7 +4476,7 @@
           <sp who="cleante" xml:id="IV03-16">
             <speaker>cléante</speaker>
             <p>
-              <s>Écoutez, il est vrai qu´elle n´est pas fort à mon goût ; mais pour vous faire plaisir, mon Père, je me résoudrai à l´épouser, si vous voulez. </s>
+              <s>Écoutez, il est vrai qu´elle n´est pas fort à mon goût ; mais pour vous faire plaisir, mon Père, je me résoudrai à l´épouser, si vous voulez. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="IV03-17">
@@ -4482,7 +4489,7 @@
           <sp who="cleante" xml:id="IV03-18">
             <speaker>cléante</speaker>
             <p>
-              <s>Pardonnez-moi ; je me ferai cet effort pour l´amour de vous. </s>
+              <s>Pardonnez-moi ; je me ferai cet effort pour l´amour de vous. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="IV03-19">
@@ -4494,21 +4501,21 @@
           <sp who="cleante" xml:id="IV03-20">
             <speaker>cléante</speaker>
             <p>
-              <s>C´est une chose, mon Père, qui peut-être viendra ensuite ; et l´on dit que l´amour est souvent un fruit du mariage. </s>
+              <s>C´est une chose, mon Père, qui peut-être viendra ensuite ; et l´on dit que l´amour est souvent un fruit du mariage. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="IV03-21">
             <speaker>harpagon</speaker>
             <p>
               <s>Non, du côté de l´Homme, on ne doit point risquer l´affaire, et ce sont des suites fâcheuses, où je n´ai garde de me commettre. </s>
-              <s>Si tu avais senti quelque inclination pour elle, à la bonne heure, je te l´aurais fait épouser, au lieu de moi ; mais cela n´étant pas, je suivrai mon premier dessein, et je l´épouserai moi-même. </s>
+              <s>Si tu avais senti quelque inclination pour elle, à la bonne heure, je te l´aurais fait épouser, au lieu de moi ; mais cela n´étant pas, je suivrai mon premier dessein, et je l´épouserai moi-même. </s>
             </p>
           </sp>
           <sp who="cleante" xml:id="IV03-22">
             <speaker>cléante</speaker>
             <p>
               <s>Hé bien, mon Père, puisque les choses sont ainsi, il faut vous découvrir mon cœur, il faut vous révéler notre secret.</s>
-              <s>La vérité est que je l´aime, depuis un jour que je la vis dans une promenade ; que mon dessein était tantôt de vous la demander pour Femme ; et que rien ne m´a retenu, que la déclaration de vos sentiments, et la crainte de vous déplaire. </s>
+              <s>La vérité est que je l´aime, depuis un jour que je la vis dans une promenade ; que mon dessein était tantôt de vous la demander pour Femme ; et que rien ne m´a retenu, que la déclaration de vos sentiments, et la crainte de vous déplaire. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="IV03-23">
@@ -4544,7 +4551,7 @@
           <sp who="cleante" xml:id="IV03-28">
             <speaker>cléante</speaker>
             <p>
-              <s>Fort bien ; mais sans savoir qui j´étais ; et c´est ce qui a fait tantôt la surprise de Mariane. </s>
+              <s>Fort bien ; mais sans savoir qui j´étais ; et c´est ce qui a fait tantôt la surprise de Mariane. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="IV03-29">
@@ -4556,7 +4563,7 @@
           <sp who="cleante" xml:id="IV03-30">
             <speaker>cléante</speaker>
             <p>
-              <s>Sans doute ; et même j´en avais fait à sa Mère quelque peu d´ouverture. </s>
+              <s>Sans doute ; et même j´en avais fait à sa Mère quelque peu d´ouverture. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="IV03-31">
@@ -4587,14 +4594,14 @@
             <speaker>harpagon</speaker>
             <p>
               <s>Je suis bien aise d´avoir appris un tel secret, et voilà justement ce que je demandais. </s>
-              <s>Oh sus, mon fils, savez-vous ce qu´il y a ? c´est qu´il faut songer, s´il vous plaît, à vous défaire de votre amour ; à cesser toutes vos poursuites auprès d´une Personne que je prétends pour moi ; et à vous marier dans peu avec celle qu´on vous destine.</s>
+              <s>Oh sus, mon fils, savez-vous ce qu´il y a ? c´est qu´il faut songer, s´il vous plaît, à vous défaire de votre amour ; à cesser toutes vos poursuites auprès d´une Personne que je prétends pour moi ; et à vous marier dans peu avec celle qu´on vous destine.</s>
             </p>
           </sp>
           <sp who="cleante" xml:id="IV03-36">
             <speaker>cléante</speaker>
             <p>
               <s>Oui, mon Père, c´est ainsi que vous me jouez ! </s>
-              <s>Hé bien, puisque les choses en sont venues là, je vous déclare, moi, que je ne quitterai point la passion que j´ai pour Mariane ; qu´il n´y a point d´extrémité où je ne m´abandonne, pour vous disputer sa conquête ; et que si vous avez pour vous le consentement d´une mère, j´aurai d´autres secours, peut-être, qui combattront pour moi.</s>
+              <s>Hé bien, puisque les choses en sont venues là, je vous déclare, moi, que je ne quitterai point la passion que j´ai pour Mariane ; qu´il n´y a point d´extrémité où je ne m´abandonne, pour vous disputer sa conquête ; et que si vous avez pour vous le consentement d´une mère, j´aurai d´autres secours, peut-être, qui combattront pour moi.</s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="IV03-37">
@@ -4606,7 +4613,7 @@
           <sp who="cleante" xml:id="IV03-38">
             <speaker>cléante</speaker>
             <p>
-              <s>C´est vous qui allez sur les miennes ; et je suis le premier en date. </s>
+              <s>C´est vous qui allez sur les miennes ; et je suis le premier en date. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="IV03-39">
@@ -4618,7 +4625,7 @@
           <sp who="cleante" xml:id="IV03-40">
             <speaker>cléante</speaker>
             <p>
-              <s>Ce ne sont point ici des choses où les Enfants soient obligés de déférer aux Pères ; et l´Amour ne connaît personne. </s>
+              <s>Ce ne sont point ici des choses où les Enfants soient obligés de déférer aux Pères ; et l´Amour ne connaît personne. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="IV03-41">
@@ -4726,7 +4733,7 @@
           <sp who="harpagon" xml:id="IV04-12">
             <speaker>harpagon</speaker>
             <p>
-              <s>J´aime une Fille, que je veux épouser ; et le pendard a l´insolence de l´aimer avec moi, et d´y prétendre malgré mes ordres. </s>
+              <s>J´aime une Fille, que je veux épouser ; et le pendard a l´insolence de l´aimer avec moi, et d´y prétendre malgré mes ordres. </s>
             </p>
           </sp>
           <sp who="maitre-jacques" xml:id="IV04-13">
@@ -4752,7 +4759,7 @@
           <sp who="cleante" xml:id="IV04-16">
             <speaker>cléante</speaker>
             <p>
-              <s>Hé bien oui, puisqu´il veut te choisir pour Juge, je n´y recule point ; il ne m´importe qui ce soit ; et je veux bien aussi me rapporter à toi, Maître Jacques, de notre différend.</s>
+              <s>Hé bien oui, puisqu´il veut te choisir pour Juge, je n´y recule point ; il ne m´importe qui ce soit ; et je veux bien aussi me rapporter à toi, Maître Jacques, de notre différend.</s>
             </p>
           </sp>
           <sp who="maitre-jacques" xml:id="IV04-17">
@@ -4764,7 +4771,7 @@
           <sp who="cleante" xml:id="IV04-18">
             <speaker>cléante</speaker>
             <p>
-              <s>Je suis épris d´une jeune Personne qui répond à mes vœux, et reçoit tendrement les offres de ma foi ; et mon Père s´avise de venir troubler notre amour, par la demande qu´il en fait faire. </s>
+              <s>Je suis épris d´une jeune Personne qui répond à mes vœux, et reçoit tendrement les offres de ma foi ; et mon Père s´avise de venir troubler notre amour, par la demande qu´il en fait faire. </s>
             </p>
           </sp>
           <sp who="maitre-jacques" xml:id="IV04-19">
@@ -4794,7 +4801,7 @@
           <sp who="harpagon" xml:id="IV04-22">
             <speaker>harpagon</speaker>
             <p>
-              <s>Ah, dis-lui, Maître Jacques, que moyennant cela, il pourra espérer toutes choses de moi ; et que hors Mariane, je lui laisse la liberté de choisir celle qu´il voudra.</s>
+              <s>Ah, dis-lui, Maître Jacques, que moyennant cela, il pourra espérer toutes choses de moi ; et que hors Mariane, je lui laisse la liberté de choisir celle qu´il voudra.</s>
             </p>
           </sp>
           <sp who="maitre-jacques" xml:id="IV04-23">
@@ -4802,13 +4809,13 @@
             <stage>Il va au fils.</stage>
             <p>
               <s>Laissez-moi faire. </s>
-              <s>Hé bien, votre Père n´est pas si déraisonnable que vous le faites ; et il m´a témoigné que ce sont vos emportements qui l´ont mis en colère ; qu´il n´en veut seulement qu´à votre manière d´agir, et qu´il sera fort disposé à vous accorder ce que vous souhaitez, pourvu que vous vouliez vous y prendre par la douceur, et lui rendre les déférences, les respects, et les soumissions qu´un Fils doit à son père. </s>
+              <s>Hé bien, votre Père n´est pas si déraisonnable que vous le faites ; et il m´a témoigné que ce sont vos emportements qui l´ont mis en colère ; qu´il n´en veut seulement qu´à votre manière d´agir, et qu´il sera fort disposé à vous accorder ce que vous souhaitez, pourvu que vous vouliez vous y prendre par la douceur, et lui rendre les déférences, les respects, et les soumissions qu´un Fils doit à son père. </s>
             </p>
           </sp>
           <sp who="cleante" xml:id="IV04-24">
             <speaker>cléante</speaker>
             <p>
-              <s>Ah, Maître Jacques, tu lui peux assurer, que s´il m´accorde Mariane, il me verra toujours le plus soumis de tous les hommes ; et que jamais je ne ferai aucune chose que par ses volontés.</s>
+              <s>Ah, Maître Jacques, tu lui peux assurer, que s´il m´accorde Mariane, il me verra toujours le plus soumis de tous les hommes ; et que jamais je ne ferai aucune chose que par ses volontés.</s>
             </p>
           </sp>
           <sp who="maitre-jacques" xml:id="IV04-25">
@@ -4840,7 +4847,7 @@
           <sp who="maitre-jacques" xml:id="IV04-29">
             <speaker>maître jacques</speaker>
             <p>
-              <s>Messieurs, vous n´avez qu´à parler ensemble : Vous voilà d´accord maintenant ; et vous alliez vous quereller, faute de vous entendre. </s>
+              <s>Messieurs, vous n´avez qu´à parler ensemble : Vous voilà d´accord maintenant ; et vous alliez vous quereller, faute de vous entendre. </s>
             </p>
           </sp>
           <sp who="cleante" xml:id="IV04-30">
@@ -4861,7 +4868,7 @@
               <s>Tu m´a fait plaisir, maître Jacques, et cela mérite une récompense. </s>
               <s>Va, je m´en souviendrai, je t´assure. </s>
             </p>
-            <stage>Il tire son mouchoir de sa poche ; ce qui fait croire à maître Jacques qu´il va lui donner quelque chose.</stage>
+            <stage>Il tire son mouchoir de sa poche ; ce qui fait croire à maître Jacques qu´il va lui donner quelque chose.</stage>
           </sp>
           <sp who="maitre-jacques" xml:id="IV04-33">
             <speaker>maître jacques</speaker>
@@ -4936,7 +4943,7 @@
           <sp who="cleante" xml:id="IV05-11">
             <speaker>cléante</speaker>
             <p>
-              <s>Ah ! mon Père, je ne vous demande plus rien ; et c´est m´avoir assez donné, que de me donner Mariane. </s>
+              <s>Ah ! mon Père, je ne vous demande plus rien ; et c´est m´avoir assez donné, que de me donner Mariane. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="IV05-12">
@@ -4948,7 +4955,7 @@
           <sp who="cleante" xml:id="IV05-13">
             <speaker>cléante</speaker>
             <p>
-              <s>Je dis, mon Père, que je suis trop content de vous ; et que je trouve toutes choses dans la bonté que vous avez de m´accorder Mariane. </s>
+              <s>Je dis, mon Père, que je suis trop content de vous ; et que je trouve toutes choses dans la bonté que vous avez de m´accorder Mariane. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="IV05-14">
@@ -5101,7 +5108,7 @@
           <head>SCÈNE VI.</head>
           <stage>La Flèche, Cléante</stage>
           <sp who="la-fleche" xml:id="IV06-1">
-            <speaker>la flèche <hi rend="i n">sortant du Jardin, avec une Cassette</hi></speaker>
+            <speaker>la flèche <hi rend="i">sortant du Jardin, avec une Cassette</hi></speaker>
             <p>
               <s>Ah, Monsieur, que je vous trouve à propos !</s>
               <s>Suivez-moi vite. </s>
@@ -5186,15 +5193,15 @@
             <p>
               <s>Ah, c´est moi.</s>
               <s>Mon esprit est troublé, et j´ignore où je suis, qui je suis, et ce que je fais. </s>
-              <s>Hélas, mon pauvre argent, mon pauvre argent, mon cher ami, on m´a privé de toi ; et puisque tu m´es enlevé, j´ai perdu mon support, ma consolation, ma joie, tout est fini pour moi, et je n´ai plus que faire au monde.</s>
+              <s>Hélas, mon pauvre argent, mon pauvre argent, mon cher ami, on m´a privé de toi ; et puisque tu m´es enlevé, j´ai perdu mon support, ma consolation, ma joie, tout est fini pour moi, et je n´ai plus que faire au monde.</s>
               <s>Sans toi, il m´est impossible de vivre. </s>
               <s>C´en est fait, je n´en puis plus, je me meurs, je suis mort, je suis enterré. </s>
               <s>N´y a-t-il personne qui veuille me ressusciter, en me rendant mon cher argent, ou en m´apprenant qui l´a pris ? </s>
               <s>Euh ? que dites-vous ? </s>
               <s>Ce n´est personne.</s>
-              <s>Il faut, qui que ce soit qui ait fait le coup, qu´avec beaucoup de soin on ait épié l´heure ; et l´on a choisi justement le temps que je parlais à mon traître de Fils. </s>
+              <s>Il faut, qui que ce soit qui ait fait le coup, qu´avec beaucoup de soin on ait épié l´heure ; et l´on a choisi justement le temps que je parlais à mon traître de Fils. </s>
               <s>Sortons. </s>
-              <s>Je veux aller quérir la justice, et faire donner la Question à toute la Maison ; à Servantes, à Valets, à Fils, à Fille, et à moi aussi. </s>
+              <s>Je veux aller quérir la justice, et faire donner la Question à toute la Maison ; à Servantes, à Valets, à Fils, à Fille, et à moi aussi. </s>
               <s>Que de gens assemblés ! </s>
               <s>Je ne jette mes regards sur personne, qui ne me donne des soupçons, et tout me semble mon voleur. </s>
               <s>Eh ! de quoi est-ce qu´on parle là ? de celui qui m´a dérobé ?</s>
@@ -5204,7 +5211,7 @@
               <s>Ils me regardent tous, et se mettent à rire. </s>
               <s>Vous verrez qu´ils ont part, sans doute, au vol que l´on m´a fait. </s>
               <s>Allons vite, des Commissaires, des Archers, des Prévôts, des Juges, des Gênes, des Potences et des Bourreaux. </s>
-              <s>Je veux faire pendre tout le monde ; et si je ne retrouve mon argent, je me pendrai moi-même après. </s>
+              <s>Je veux faire pendre tout le monde ; et si je ne retrouve mon argent, je me pendrai moi-même après. </s>
             </p>
           </sp>
           <p rend="i">Fin du Quatrième Acte.</p>
@@ -5220,13 +5227,13 @@
             <p>
               <s>Laissez-moi faire. </s>
               <s>Je sais mon métier, Dieu merci. </s>
-              <s>Ce n´est pas d´aujourd´hui que je me mêle de découvrir des vols ; et je voudrais avoir autant de sacs de mille francs, que j´ai fait pendre de personnes. </s>
+              <s>Ce n´est pas d´aujourd´hui que je me mêle de découvrir des vols ; et je voudrais avoir autant de sacs de mille francs, que j´ai fait pendre de personnes. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V01-2">
             <speaker>harpagon</speaker>
             <p>
-              <s>Tous les Magistrats sont intéressés à prendre cette affaire en main ; et si l´on ne me fait retrouver mon argent, je demanderai justice de la Justice. </s>
+              <s>Tous les Magistrats sont intéressés à prendre cette affaire en main ; et si l´on ne me fait retrouver mon argent, je demanderai justice de la Justice. </s>
             </p>
           </sp>
           <sp who="commissaire" xml:id="V01-3">
@@ -5263,7 +5270,7 @@
           <sp who="harpagon" xml:id="V01-8">
             <speaker>harpagon</speaker>
             <p>
-              <s>Il n´y a point de supplice assez grand pour l´énormité de ce crime ; et s´il demeure impuni, les choses les plus sacrées ne sont plus en sûreté. </s>
+              <s>Il n´y a point de supplice assez grand pour l´énormité de ce crime ; et s´il demeure impuni, les choses les plus sacrées ne sont plus en sûreté. </s>
             </p>
           </sp>
           <sp who="commissaire" xml:id="V01-9">
@@ -5287,7 +5294,7 @@
           <sp who="harpagon" xml:id="V01-12">
             <speaker>harpagon</speaker>
             <p>
-              <s>Tout le Monde ; et je veux que vous arrêtiez prisonniers la Ville et les Faubourgs. </s>
+              <s>Tout le Monde ; et je veux que vous arrêtiez prisonniers la Ville et les Faubourgs. </s>
             </p>
           </sp>
           <sp who="commissaire" xml:id="V01-13">
@@ -5301,10 +5308,10 @@
           <head>SCÈNE II.</head>
           <stage>Maître Jacques, Harpagon, Le Commissaire, son Clerc</stage>
           <sp who="maitre-jacques" xml:id="V02-1">
-            <speaker>maître jacques <hi rend="i n">au bout du théâtre, en se retournant du côté dont il sort</hi></speaker>
+            <speaker>maître jacques <hi rend="i">au bout du théâtre, en se retournant du côté dont il sort</hi></speaker>
             <p>
               <s>Je m´en vais revenir. </s>
-              <s>Qu´on me l´égorge tout à l´heure ; qu´on me lui fasse griller les pieds ; qu´on me le mette dans l´eau bouillante, et qu´on me le pende au plancher. </s>
+              <s>Qu´on me l´égorge tout à l´heure ; qu´on me lui fasse griller les pieds ; qu´on me le mette dans l´eau bouillante, et qu´on me le pende au plancher. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V02-2">
@@ -5322,14 +5329,14 @@
           <sp who="harpagon" xml:id="V02-4">
             <speaker>harpagon</speaker>
             <p>
-              <s>Il n´est pas question de cela ; et voilà Monsieur, à qui il faut parler d´autre chose. </s>
+              <s>Il n´est pas question de cela ; et voilà Monsieur, à qui il faut parler d´autre chose. </s>
             </p>
           </sp>
           <sp who="commissaire" xml:id="V02-5">
             <speaker>le commissaire</speaker>
             <p>
               <s>Ne vous épouvantez point. </s>
-              <s>Je suis Homme à ne vous point scandaliser ; et les choses iront dans la douceur. </s>
+              <s>Je suis Homme à ne vous point scandaliser ; et les choses iront dans la douceur. </s>
             </p>
           </sp>
           <sp who="maitre-jacques" xml:id="V02-6">
@@ -5347,7 +5354,7 @@
           <sp who="maitre-jacques" xml:id="V02-8">
             <speaker>maître jacques</speaker>
             <p>
-              <s>Ma foi, Monsieur, je montrerai tout ce que je sais faire ; et je vous traiterai du mieux qu´il me sera possible.</s>
+              <s>Ma foi, Monsieur, je montrerai tout ce que je sais faire ; et je vous traiterai du mieux qu´il me sera possible.</s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V02-9">
@@ -5365,7 +5372,7 @@
           <sp who="harpagon" xml:id="V02-11">
             <speaker>harpagon</speaker>
             <p>
-              <s>Traître, il s´agit d´autre chose que de souper ; et je veux que tu me dises des nouvelles de l´argent qu´on m´a pris. </s>
+              <s>Traître, il s´agit d´autre chose que de souper ; et je veux que tu me dises des nouvelles de l´argent qu´on m´a pris. </s>
             </p>
           </sp>
           <sp who="maitre-jacques" xml:id="V02-12">
@@ -5377,22 +5384,22 @@
           <sp who="harpagon" xml:id="V02-13">
             <speaker>harpagon</speaker>
             <p>
-              <s>Oui, coquin ; et je m´en vais te pendre, si tu ne me le rends. </s>
+              <s>Oui, coquin ; et je m´en vais te pendre, si tu ne me le rends. </s>
             </p>
           </sp>
           <sp who="commissaire" xml:id="V02-14">
             <speaker>le commissaire</speaker>
             <p>
               <s>Mon Dieu ne le maltraitez point.</s>
-              <s>Je vois à sa mine qu´il est honnête homme ; et que sans se faire mettre en prison, il vous découvrira ce que vous voulez savoir. </s>
+              <s>Je vois à sa mine qu´il est honnête homme ; et que sans se faire mettre en prison, il vous découvrira ce que vous voulez savoir. </s>
               <s>Oui, mon ami, si vous nous confessez la chose, il ne vous sera fait aucun mal, et vous serez récompensé comme il faut par votre Maître. </s>
               <s>On lui a pris aujourd´hui son argent, et il n´est pas que vous ne sachiez quelques nouvelles de cette affaire. </s>
             </p>
           </sp>
           <sp who="maitre-jacques" xml:id="V02-15">
-            <speaker>maître jacques, <hi rend="i n">à part</hi></speaker>
+            <speaker>maître jacques, <hi rend="i">à part</hi></speaker>
             <p>
-              <s>Voici justement ce qu´il me faut pour me venger de notre Intendant : depuis qu´il est entré céans, il est le favori, on n´écoute que ses conseils ; et j´ai aussi sur le cœur les coups de bâton de tantôt. </s>
+              <s>Voici justement ce qu´il me faut pour me venger de notre Intendant : depuis qu´il est entré céans, il est le favori, on n´écoute que ses conseils ; et j´ai aussi sur le cœur les coups de bâton de tantôt. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V02-16">
@@ -5405,7 +5412,7 @@
             <speaker>le commissaire</speaker>
             <p>
               <s>Laissez-le faire. </s>
-              <s>Il se prépare à vous contenter ; et je vous ai bien dit qu´il était honnête Homme.</s>
+              <s>Il se prépare à vous contenter ; et je vous ai bien dit qu´il était honnête Homme.</s>
             </p>
           </sp>
           <sp who="maitre-jacques" xml:id="V02-18">
@@ -5557,7 +5564,7 @@
           <sp who="maitre-jacques" xml:id="V02-41">
             <speaker>maître jacques</speaker>
             <p>
-              <s>Eh, oui, elle est petite, si on le veut prendre par là ; mais je l´appelle grande pour ce qu´elle contient.</s>
+              <s>Eh, oui, elle est petite, si on le veut prendre par là ; mais je l´appelle grande pour ce qu´elle contient.</s>
             </p>
           </sp>
           <sp who="commissaire" xml:id="V02-42">
@@ -5607,7 +5614,7 @@
           <sp who="maitre-jacques" xml:id="V02-49">
             <speaker>maître jacques</speaker>
             <p>
-              <s>Eh, oui, gris-rouge ; c´est ce que je voulais dire. </s>
+              <s>Eh, oui, gris-rouge ; c´est ce que je voulais dire. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V02-50">
@@ -5617,7 +5624,7 @@
               <s>C´est elle assurément. </s>
               <s>Écrivez, Monsieur, écrivez sa déposition. </s>
               <s>Ciel ! à qui désormais se fier ! </s>
-              <s>Il ne faut plus jurer de rien ; et je crois après cela que je suis Homme à me voler moi-même. </s>
+              <s>Il ne faut plus jurer de rien ; et je crois après cela que je suis Homme à me voler moi-même. </s>
             </p>
           </sp>
           <sp who="maitre-jacques" xml:id="V02-51">
@@ -5680,7 +5687,7 @@
           <sp who="valere" xml:id="V03-8">
             <speaker>valère</speaker>
             <p>
-              <s>C´était mon dessein de vous en parler, et je voulais attendre pour cela des conjonctures favorables ; mais puisqu´il est ainsi, je vous conjure de ne vous point fâcher, et de vouloir entendre mes raisons. </s>
+              <s>C´était mon dessein de vous en parler, et je voulais attendre pour cela des conjonctures favorables ; mais puisqu´il est ainsi, je vous conjure de ne vous point fâcher, et de vouloir entendre mes raisons. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V03-9">
@@ -5693,7 +5700,7 @@
             <speaker>valère</speaker>
             <p>
               <s>Ah ! Monsieur, je n´ai pas mérité ces noms. </s>
-              <s>Il est vrai que j´ai commis une offense envers vous ; mais après tout ma faute est pardonnable. </s>
+              <s>Il est vrai que j´ai commis une offense envers vous ; mais après tout ma faute est pardonnable. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V03-11">
@@ -5728,7 +5735,7 @@
           <sp who="harpagon" xml:id="V03-15">
             <speaker>harpagon</speaker>
             <p>
-              <s>C´est bien mon intention ; et que tu me restitues ce que tu m´as ravi. </s>
+              <s>C´est bien mon intention ; et que tu me restitues ce que tu m´as ravi. </s>
             </p>
           </sp>
           <sp who="valere" xml:id="V03-16">
@@ -5810,8 +5817,8 @@
           <sp who="valere" xml:id="V03-28">
             <speaker>valère</speaker>
             <p>
-              <s>C´est un trésor, il est vrai, et le plus précieux que vous ayez sans doute ; mais ce ne sera pas le perdre, que de me le laisser. </s>
-              <s>Je vous le demande à genoux, ce trésor plein de charmes ; et pour bien faire, il faut que vous me l´accordiez. </s>
+              <s>C´est un trésor, il est vrai, et le plus précieux que vous ayez sans doute ; mais ce ne sera pas le perdre, que de me le laisser. </s>
+              <s>Je vous le demande à genoux, ce trésor plein de charmes ; et pour bien faire, il faut que vous me l´accordiez. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V03-29">
@@ -5867,19 +5874,19 @@
           <sp who="harpagon" xml:id="V03-37">
             <speaker>harpagon</speaker>
             <p>
-              <s>Vous verrez que c´est par charité chrétienne qu´il veut avoir mon bien ; mais j´y donnerai bon ordre ; et la Justice, pendard effronté, me va faire raison de tout. </s>
+              <s>Vous verrez que c´est par charité chrétienne qu´il veut avoir mon bien ; mais j´y donnerai bon ordre ; et la Justice, pendard effronté, me va faire raison de tout. </s>
             </p>
           </sp>
           <sp who="valere" xml:id="V03-38">
             <speaker>valère</speaker>
             <p>
-              <s>Vous en userez comme vous voudrez, et me voilà prêt à souffrir toutes les violences qu´il vous plaira ; mais je vous prie de croire, au moins, que s´il y a du mal, ce n´est que moi qu´il en faut accuser, et que votre Fille en tout ceci n´est aucunement coupable. </s>
+              <s>Vous en userez comme vous voudrez, et me voilà prêt à souffrir toutes les violences qu´il vous plaira ; mais je vous prie de croire, au moins, que s´il y a du mal, ce n´est que moi qu´il en faut accuser, et que votre Fille en tout ceci n´est aucunement coupable. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V03-39">
             <speaker>harpagon</speaker>
             <p>
-              <s>Je le crois bien, vraiment ; il serait fort étrange que ma Fille eût trempé dans ce crime. </s>
+              <s>Je le crois bien, vraiment ; il serait fort étrange que ma Fille eût trempé dans ce crime. </s>
               <s>Mais je veux ravoir mon affaire, et que tu me confesses en quel endroit tu me l´as enlevée. </s>
             </p>
           </sp>
@@ -5905,14 +5912,14 @@
           <sp who="harpagon" xml:id="V03-43">
             <speaker>harpagon</speaker>
             <p>
-              <s>Hé, dis-moi donc un peu ; Tu n´y as point touché ? </s>
+              <s>Hé, dis-moi donc un peu ; Tu n´y as point touché ? </s>
             </p>
           </sp>
           <sp who="valere" xml:id="V03-44">
             <speaker>valère</speaker>
             <p>
               <s>Moi, y toucher ? </s>
-              <s>Ah ! vous lui faites tort, aussi bien qu´à moi ; et c´est d´une ardeur toute pure et respectueuse, que j´ai brûlé pour elle. </s>
+              <s>Ah ! vous lui faites tort, aussi bien qu´à moi ; et c´est d´une ardeur toute pure et respectueuse, que j´ai brûlé pour elle. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V03-45">
@@ -5937,7 +5944,7 @@
           <sp who="valere" xml:id="V03-48">
             <speaker>valère</speaker>
             <p>
-              <s>Tous mes désirs se sont bornés à jouir de sa vue ; et rien de criminel n´a profané la passion que ses beaux yeux m´ont inspirée. </s>
+              <s>Tous mes désirs se sont bornés à jouir de sa vue ; et rien de criminel n´a profané la passion que ses beaux yeux m´ont inspirée. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V03-49">
@@ -5962,7 +5969,7 @@
           <sp who="valere" xml:id="V03-52">
             <speaker>valère</speaker>
             <p>
-              <s>Oui, Monsieur, elle a été témoin de notre engagement ; et c´est après avoir connu l´honnêteté de ma flamme, qu´elle m´a aidé à persuader votre Fille de me donner sa foi, et recevoir la mienne. </s>
+              <s>Oui, Monsieur, elle a été témoin de notre engagement ; et c´est après avoir connu l´honnêteté de ma flamme, qu´elle m´a aidé à persuader votre Fille de me donner sa foi, et recevoir la mienne. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V03-53">
@@ -5987,7 +5994,7 @@
           <sp who="valere" xml:id="V03-56">
             <speaker>valère</speaker>
             <p>
-              <s>De votre Fille ; et c´est seulement depuis hier qu´elle a pu se résoudre à nous signer mutuellement une Promesse de Mariage. </s>
+              <s>De votre Fille ; et c´est seulement depuis hier qu´elle a pu se résoudre à nous signer mutuellement une Promesse de Mariage. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V03-57">
@@ -5999,7 +6006,7 @@
           <sp who="valere" xml:id="V03-58">
             <speaker>valère</speaker>
             <p>
-              <s>Oui, Monsieur ; comme de ma part je lui en ai signé une. </s>
+              <s>Oui, Monsieur ; comme de ma part je lui en ai signé une. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V03-59">
@@ -6025,7 +6032,7 @@
           <sp who="valere" xml:id="V03-62">
             <speaker>valère</speaker>
             <p>
-              <s>Ce sont des noms qui ne me sont point dus ; et quand on saura qui je suis…</s>
+              <s>Ce sont des noms qui ne me sont point dus ; et quand on saura qui je suis…</s>
             </p>
           </sp>
         </div2>
@@ -6040,33 +6047,33 @@
               <s>C´est ainsi que tu pratiques les Leçons que je t´ai données ! </s>
               <s>Tu te laisses prendre d´amour pour un Voleur infâme, et tu lui engages ta foi sans mon consentement ? </s>
               <s>Mais vous serez trompés l´un et l´autre. </s>
-              <s>Quatre bonnes murailles me répondront de ta conduite ; et une bonne Potence me fera raison de ton audace. </s>
+              <s>Quatre bonnes murailles me répondront de ta conduite ; et une bonne Potence me fera raison de ton audace. </s>
             </p>
           </sp>
           <sp who="valere" xml:id="V04-2">
             <speaker>valère</speaker>
             <p>
-              <s>Ce ne sera point votre passion qui jugera l´affaire ; et l´on m´écoutera, au moins, avant que de me condamner. </s>
+              <s>Ce ne sera point votre passion qui jugera l´affaire ; et l´on m´écoutera, au moins, avant que de me condamner. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V04-3">
             <speaker>harpagon</speaker>
             <p>
-              <s>Je me suis abusé de dire une Potence ; et tu seras roué tout vif. </s>
+              <s>Je me suis abusé de dire une Potence ; et tu seras roué tout vif. </s>
             </p>
           </sp>
           <sp who="elise" xml:id="V04-4">
-            <speaker>élise, <hi rend="i n">à genoux devant son père</hi></speaker>
+            <speaker>élise, <hi rend="i">à genoux devant son père</hi></speaker>
             <p>
               <s>Ah ! mon père, prenez des sentiments un peu plus humains, je vous prie, et n´allez point pousser les choses dans les dernières violences du pouvoir paternel : Ne vous laissez point entraîner aux premiers mouvements de votre passion, et donnez-vous le temps de considérer ce que vous voulez faire.</s>
-              <s>Prenez la peine de mieux voir celui dont vous vous offensez : il est tout autre que vos yeux ne le jugent ; et vous trouverez moins étrange que je me sois donnée à lui, lorsque vous saurez que sans lui vous ne m´auriez plus il y a longtemps. </s>
+              <s>Prenez la peine de mieux voir celui dont vous vous offensez : il est tout autre que vos yeux ne le jugent ; et vous trouverez moins étrange que je me sois donnée à lui, lorsque vous saurez que sans lui vous ne m´auriez plus il y a longtemps. </s>
               <s>Oui, mon Père, c´est celui qui me sauva de ce grand péril que vous savez que je courus dans l´eau, et à qui vous devez la vie de cette même fille, dont…</s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V04-5">
             <speaker>harpagon</speaker>
             <p>
-              <s>Tout cela n´est rien ; et il valait bien mieux pour moi, qu´il te laissât noyer que de faire ce qu´il a fait. </s>
+              <s>Tout cela n´est rien ; et il valait bien mieux pour moi, qu´il te laissât noyer que de faire ce qu´il a fait. </s>
             </p>
           </sp>
           <sp who="elise" xml:id="V04-6">
@@ -6078,7 +6085,7 @@
           <sp who="harpagon" xml:id="V04-7">
             <speaker>harpagon</speaker>
             <p>
-              <s>Non, non, je ne veux rien entendre ; et il faut que la Justice fasse son devoir. </s>
+              <s>Non, non, je ne veux rien entendre ; et il faut que la Justice fasse son devoir. </s>
             </p>
           </sp>
           <sp who="maitre-jacques" xml:id="V04-8">
@@ -6106,8 +6113,8 @@
           <sp who="harpagon" xml:id="V05-2">
             <speaker>harpagon</speaker>
             <p>
-              <s>Ah ! Seigneur Anselme, vous me voyez le plus infortuné de tous les hommes ; et voici bien du trouble et du désordre au Contrat que vous venez faire ?</s>
-              <s>On m´assassine dans le bien, on m´assassine dans l´honneur ; et voilà un traître, un scélérat, qui a violé tous les droits les plus saints ; qui s´est coulé chez moi sous le titre de Domestique, pour me dérober mon argent, et pour me suborner ma Fille. </s>
+              <s>Ah ! Seigneur Anselme, vous me voyez le plus infortuné de tous les hommes ; et voici bien du trouble et du désordre au Contrat que vous venez faire ?</s>
+              <s>On m´assassine dans le bien, on m´assassine dans l´honneur ; et voilà un traître, un scélérat, qui a violé tous les droits les plus saints ; qui s´est coulé chez moi sous le titre de Domestique, pour me dérober mon argent, et pour me suborner ma Fille. </s>
             </p>
           </sp>
           <sp who="valere" xml:id="V05-3">
@@ -6120,13 +6127,13 @@
             <speaker>harpagon</speaker>
             <p>
               <s>Oui, ils se sont donné l´un et l´autre une Promesse de mariage. </s>
-              <s>Cet affront vous regarde, Seigneur Anselme ; et c´est vous qui devez vous rendre partie contre lui, et faire toutes les poursuites de la Justice, pour vous venger de son insolence. </s>
+              <s>Cet affront vous regarde, Seigneur Anselme ; et c´est vous qui devez vous rendre partie contre lui, et faire toutes les poursuites de la Justice, pour vous venger de son insolence. </s>
             </p>
           </sp>
           <sp who="anselme" xml:id="V05-5">
             <speaker>anselme</speaker>
             <p>
-              <s>Ce n´est pas mon dessein de me faire épouser par force, et de rien prétendre à un cœur qui se serait donné ; mais pour vos intérêts, je suis prêt à les embrasser ainsi que les miens propres. </s>
+              <s>Ce n´est pas mon dessein de me faire épouser par force, et de rien prétendre à un cœur qui se serait donné ; mais pour vos intérêts, je suis prêt à les embrasser ainsi que les miens propres. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V05-6">
@@ -6145,7 +6152,7 @@
           <sp who="harpagon" xml:id="V05-8">
             <speaker>harpagon</speaker>
             <p>
-              <s>Je me moque de tous ces contes ; et le Monde aujourd´hui n´est plein que de ces larrons de Noblesse, que de ces imposteurs, qui tirent avantage de leur obscurité, et s´habillent insolemment du premier nom illustre qu´ils s´avisent de prendre. </s>
+              <s>Je me moque de tous ces contes ; et le Monde aujourd´hui n´est plein que de ces larrons de Noblesse, que de ces imposteurs, qui tirent avantage de leur obscurité, et s´habillent insolemment du premier nom illustre qu´ils s´avisent de prendre. </s>
             </p>
           </sp>
           <sp who="valere" xml:id="V05-9">
@@ -6159,19 +6166,19 @@
             <p>
               <s>Tout beau.</s>
               <s>Prenez garde à ce que vous allez dire. </s>
-              <s>Vous risquez ici plus que vous ne pensez ; et vous parlez devant un Homme à qui tout Naples est connu, et qui peut aisément voir clair dans l´Histoire que vous ferez. </s>
+              <s>Vous risquez ici plus que vous ne pensez ; et vous parlez devant un Homme à qui tout Naples est connu, et qui peut aisément voir clair dans l´Histoire que vous ferez. </s>
             </p>
           </sp>
           <sp who="valere" xml:id="V05-11">
-            <speaker>valère, <hi rend="i n">en mettant fièrement son Chapeau</hi></speaker>
+            <speaker>valère, <hi rend="i">en mettant fièrement son Chapeau</hi></speaker>
             <p>
-              <s>Je ne suis point homme à rien craindre ; et si Naples vous est connu, vous savez qui était D. Thomas d´Alburcy. </s>
+              <s>Je ne suis point homme à rien craindre ; et si Naples vous est connu, vous savez qui était D. Thomas d´Alburcy. </s>
             </p>
           </sp>
           <sp who="anselme" xml:id="V05-12">
             <speaker>anselme</speaker>
             <p>
-              <s>Sans doute je le sais ; et peu de gens l´ont connu mieux que moi. </s>
+              <s>Sans doute je le sais ; et peu de gens l´ont connu mieux que moi. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V05-13">
@@ -6208,14 +6215,14 @@
             <speaker>anselme</speaker>
             <p>
               <s>Allez. Vous vous moquez.</s>
-              <s>Cherchez quelque autre Histoire, qui vous puisse mieux réussir ; et ne prétendez pas vous sauver sous cette imposture. </s>
+              <s>Cherchez quelque autre Histoire, qui vous puisse mieux réussir ; et ne prétendez pas vous sauver sous cette imposture. </s>
             </p>
           </sp>
           <sp who="valere" xml:id="V05-19">
             <speaker>valère</speaker>
             <p>
               <s>Songez à mieux parler. </s>
-              <s>Ce n´est point une imposture ; et je n´avance rien qu´il ne me soit aisé de justifier. </s>
+              <s>Ce n´est point une imposture ; et je n´avance rien qu´il ne me soit aisé de justifier. </s>
             </p>
           </sp>
           <sp who="anselme" xml:id="V05-20">
@@ -6228,7 +6235,7 @@
           <sp who="valere" xml:id="V05-21">
             <speaker>valère</speaker>
             <p>
-              <s>Oui, je l´ose ; et je suis prêt de soutenir cette vérité contre qui que ce soit. </s>
+              <s>Oui, je l´ose ; et je suis prêt de soutenir cette vérité contre qui que ce soit. </s>
             </p>
           </sp>
           <sp who="anselme" xml:id="V05-22">
@@ -6242,8 +6249,8 @@
             <speaker>valère</speaker>
             <p>
               <s>Oui : mais apprenez, pour vous confondre, vous, que son Fils âgé de sept ans, avec un domestique, fut sauvé de ce naufrage par un Vaisseau Espagnol, et que ce Fils sauvé est celui qui vous parle.</s>
-              <s>Apprenez que le Capitaine de ce Vaisseau, touché de ma fortune, prit amitié pour moi ; qu´il me fit élever comme son propre Fils, et que les Armes furent mon emploi dès que je m´en trouvai capable.</s>
-              <s>Que j´ai su depuis peu, que mon Père n´était point mort, comme je l´avais toujours cru ; que passant ici pour l´aller chercher, une aventure par le Ciel concertée, me fit voir la charmante Élise ; que cette vue me rendit esclave de ses beautés ; et que la violence de mon amour, et les sévérités de son Père, me firent prendre la résolution de m´introduire dans son Logis, et d´envoyer un autre à la quête de mes Parents.</s>
+              <s>Apprenez que le Capitaine de ce Vaisseau, touché de ma fortune, prit amitié pour moi ; qu´il me fit élever comme son propre Fils, et que les Armes furent mon emploi dès que je m´en trouvai capable.</s>
+              <s>Que j´ai su depuis peu, que mon Père n´était point mort, comme je l´avais toujours cru ; que passant ici pour l´aller chercher, une aventure par le Ciel concertée, me fit voir la charmante Élise ; que cette vue me rendit esclave de ses beautés ; et que la violence de mon amour, et les sévérités de son Père, me firent prendre la résolution de m´introduire dans son Logis, et d´envoyer un autre à la quête de mes Parents.</s>
             </p>
           </sp>
           <sp who="anselme" xml:id="V05-24">
@@ -6255,13 +6262,13 @@
           <sp who="valere" xml:id="V05-25">
             <speaker>valère</speaker>
             <p>
-              <s>Le Capitaine Espagnol ; un cachet de rubis qui était à mon Père ; un bracelet d´agate que ma Mère m´avait mis au bras ; le vieux Pedro, ce Domestique, qui se sauva avec moi du naufrage. </s>
+              <s>Le Capitaine Espagnol ; un cachet de rubis qui était à mon Père ; un bracelet d´agate que ma Mère m´avait mis au bras ; le vieux Pedro, ce Domestique, qui se sauva avec moi du naufrage. </s>
             </p>
           </sp>
           <sp who="mariane" xml:id="V05-26">
             <speaker>mariane</speaker>
             <p>
-              <s>Hélas ! à vos paroles, je puis ici répondre, moi, que vous n´imposez point ; et tout ce que vous dites, me fait connaître clairement que vous êtes mon frère.</s>
+              <s>Hélas ! à vos paroles, je puis ici répondre, moi, que vous n´imposez point ; et tout ce que vous dites, me fait connaître clairement que vous êtes mon frère.</s>
             </p>
           </sp>
           <sp who="valere" xml:id="V05-27">
@@ -6273,10 +6280,10 @@
           <sp who="mariane" xml:id="V05-28">
             <speaker>mariane</speaker>
             <p>
-              <s>Oui, mon cœur s´est ému, dès le moment que vous avez ouvert la bouche ; et notre Mère, que vous allez ravir, m´a mille fois entretenue des disgrâces de notre Famille. </s>
-              <s>Le Ciel ne nous fit point aussi périr dans ce triste naufrage ; mais il ne nous sauva la vie que par la perte de notre liberté ; et ce furent des corsaires qui nous recueillirent, ma Mère et moi, sur un débris de notre Vaisseau. </s>
+              <s>Oui, mon cœur s´est ému, dès le moment que vous avez ouvert la bouche ; et notre Mère, que vous allez ravir, m´a mille fois entretenue des disgrâces de notre Famille. </s>
+              <s>Le Ciel ne nous fit point aussi périr dans ce triste naufrage ; mais il ne nous sauva la vie que par la perte de notre liberté ; et ce furent des corsaires qui nous recueillirent, ma Mère et moi, sur un débris de notre Vaisseau. </s>
               <s>Après dix ans d´esclavage, une heureuse fortune nous rendit notre liberté, et nous retournâmes dans Naples, où nous trouvâmes tout notre bien vendu, sans y pouvoir trouver des nouvelles de notre Père. </s>
-              <s>Nous passâmes à Gênes, où ma Mère alla ramasser quelques malheureux restes d´une succession qu´on avait déchirée ; et de là, fuyant la barbare injustice de ses Parents, elle vint en ces lieux, où elle n´a presque vécu que d´une vie languissante. </s>
+              <s>Nous passâmes à Gênes, où ma Mère alla ramasser quelques malheureux restes d´une succession qu´on avait déchirée ; et de là, fuyant la barbare injustice de ses Parents, elle vint en ces lieux, où elle n´a presque vécu que d´une vie languissante. </s>
             </p>
           </sp>
           <sp who="anselme" xml:id="V05-29">
@@ -6302,7 +6309,7 @@
             <speaker>anselme</speaker>
             <p>
               <s>Oui ma Fille, oui mon Fils, je suis D. Thomas d´Alburcy, que le Ciel garantit des ondes avec tout l´argent qu´il portait, et qui vous ayant tous crus morts durant plus de seize ans, se préparait après de longs voyages, à chercher dans l´hymen d´une douce et sage Personne, la consolation de quelque nouvelle Famille. </s>
-              <s>Le peu de sûreté que j´ai vu pour ma vie, à retourner à Naples, m´a fait y renoncer pour toujours ; et ayant su trouver moyen d´y faire vendre ce que j´avais, je me suis habitué ici, où sous le nom d´Anselme, j´ai voulu m´éloigner les chagrins de cet autre nom qui m´a causé tant de traverses. </s>
+              <s>Le peu de sûreté que j´ai vu pour ma vie, à retourner à Naples, m´a fait y renoncer pour toujours ; et ayant su trouver moyen d´y faire vendre ce que j´avais, je me suis habitué ici, où sous le nom d´Anselme, j´ai voulu m´éloigner les chagrins de cet autre nom qui m´a causé tant de traverses. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V05-33">
@@ -6399,7 +6406,7 @@
             <p>
               <s>Ne vous en mettez point en peine. </s>
               <s>Il est en lieu dont je réponds, et tout ne dépend que de moi.</s>
-              <s>C´est à vous de me dire à quoi vous vous déterminez ; et vous pouvez choisir, ou de me donner Mariane, ou de perdre votre Cassette. </s>
+              <s>C´est à vous de me dire à quoi vous vous déterminez ; et vous pouvez choisir, ou de me donner Mariane, ou de perdre votre Cassette. </s>
             </p>
           </sp>
           <sp who="harpagon" xml:id="V06-4">
@@ -6418,7 +6425,7 @@
           <sp who="mariane" xml:id="V06-6">
             <speaker>mariane</speaker>
             <p>
-              <s>Mais vous ne savez pas, que ce n´est pas assez que ce consentement ; et que le Ciel, avec un Frère que vous voyez, vient de me rendre un Père dont vous avez à m´obtenir. </s>
+              <s>Mais vous ne savez pas, que ce n´est pas assez que ce consentement ; et que le Ciel, avec un Frère que vous voyez, vient de me rendre un Père dont vous avez à m´obtenir. </s>
             </p>
           </sp>
           <sp who="anselme" xml:id="V06-7">
@@ -6510,7 +6517,7 @@
             <speaker>maître jacques</speaker>
             <p>
               <s>Hélas ! comment faut-il donc faire ? </s>
-              <s>On me donne des coups de bâton pour dire vrai ; et on me veut pendre pour mentir. </s>
+              <s>On me donne des coups de bâton pour dire vrai ; et on me veut pendre pour mentir. </s>
             </p>
           </sp>
           <sp who="anselme" xml:id="V06-21">

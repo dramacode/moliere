@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><!--<?xml-stylesheet type="text/xsl" href="http://svn.code.sf.net/p/algone/code/teipub/tei2html.xsl"?>-->
+<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <!--odt2tei: 2014-01-16T17:21:58+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="moliere_amants-magnifiques-livret" xml:lang="fr">
   <teiHeader>
@@ -50,13 +51,17 @@
     <front>
       <titlePage>  
         <docTitle>
-          <titlePart>LE DIVERTISSEMENT ROYAL,</titlePart> <titlePart>Mêlé de Comédie, de Musique, et d’Entrée de Ballet.</titlePart></docTitle>
-        <docImprint>À PARIS,</docImprint>
-        <docImprint>Par ROBERT BALLARD, seul Imprimeur du Roi pour la Musique.</docImprint>
-        <docDate when="1670">M. DC. LXX.</docDate>
-        <docImprint>Avec Privilège de sa Majesté.</docImprint></titlePage>
+          <titlePart>LE DIVERTISSEMENT ROYAL,</titlePart> 
+          <titlePart type="sub">Mêlé de Comédie, de Musique, et d’Entrée de Ballet.</titlePart>
+        </docTitle>
+        <docImprint>À PARIS,
+          <lb/>Par ROBERT BALLARD, seul Imprimeur du Roi pour la Musique.
+          <lb/>M. DC. LXX.
+          <lb/>Avec Privilège de sa Majesté.
+        </docImprint>
+      </titlePage>
     </front>
-    <body>
+    <body rend="not-i">
         <head>LE DIVERTISSEMENT ROYAL.</head>
         <div>
           <head>AVANT-PROPOS</head>
