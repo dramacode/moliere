@@ -77,8 +77,9 @@
 				avec toute la soumission possible, que je suis,</p>
 			<p>De Votre Altesse Royale, <lb/><hi rend="right">Le très humble, très obéissant, <lb/>et très fidèle serviteur, <lb/>J.-B. P. MOLIÈRE.</hi></p>
 		</div>
-		<castList>
+		<div>
 			<head>Les Personnages.</head>
+			<castList>
 			<castItem><role xml:id="sganarelle" civil="M" type="H" statut="bourgeois" age="A"
 				stat_amour="néant">SGANARELLE</role>, }</castItem>
 			<castItem><role xml:id="ariste" civil="M" type="H" statut="bourgeois" age="A"
@@ -98,7 +99,8 @@
 			<castItem><role xml:id="notaire" civil="M" type="H" statut="notaire" age="A"
 				stat_amour="néant">LE NOTAIRE</role>.</castItem>
 		</castList>
-		<set location="Paris" country="France" periode="XVIIème" link="">La Scène est à Paris.</set>
+		<stage location="Paris" country="France" periode="XVIIème" link="">La Scène est à Paris.</stage>
+		</div>
 </front>
 <body>
 	<head>L'ÉCOLE DES MARIS, COMÉDIE.</head>
