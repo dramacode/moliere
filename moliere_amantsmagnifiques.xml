@@ -6,7 +6,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LES AMANTS MAGNIFIQUES, COMÉDIE.</title>
+        <title>Les Amants magnifiques</title>
+        <title type="sub">Comédie</title>
         <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
@@ -55,11 +56,6 @@
           Roi à Saint-Germain-en-Laye, <lb/>au mois de Février 1670 <lb/>sous le titre du
           Divertissement Royal</p>
       </argument>
-      <docImprint>
-        <privilege id=""/>
-        <acheveImprime id=""/>
-        <editor id=""/>
-      </docImprint>
       </titlePage>
       <div>
         <head>PERSONNAGES DE LA COMÉDIE</head>
@@ -104,7 +100,7 @@
       </div>
     </front>
     <body>
-      <div1 type="act" xml:id="I">
+      <div1 type="act" xml:id="I" rend="not-i">
         <head>PREMIER INTERMÈDE.</head>
         <stage>Le Théâtre s’ouvre à l’agréable bruit de quantité d’Instruments, et d’abord il offre
           aux yeux une vaste Mer, bordée de chaque côté de quatre grands Rochers, dont le sommet
