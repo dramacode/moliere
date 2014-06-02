@@ -53,16 +53,8 @@
         </docTitle>
         <docAuthor bio="moliere" id="MOLIERE"><hi rend="i">Par J. B. P.</hi> MOLIÈRE</docAuthor>
         <docImprint>À PARIS, <lb/> Chez <hi rend="sc">Théodore Girard</hi>, dans la <lb/>grande
-          Salle du Palais du côté de la <lb/>Cour des Aides, à l'Envie.
+          Salle du Palais du côté de la <lb/>Cour des Aides, à l'Envie. <lb/>M. DC. LXVI. <lb/> <hi rend="i">AVEC PRIVILÈGE DU ROI.</hi>
         </docImprint>
-        <docDate when="1665">M. DC. LXVI.</docDate>
-        <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
-        <argument>
-          <p date="1665-09-15" location="Château de Versailles">Représentée pour la première
-            fois à Versailles par ordre du roi le 15e septembre 1665 et donnée depuis au public à
-            Paris sur le Théâtre du Palais-Royal le 22e du même mois de septembre 1665 par la Troupe
-            du Roi.</p>
-        </argument>
       </titlePage>
       <div type="dedication">
         <head>AU LECTEUR</head>
@@ -82,47 +74,48 @@
       <div>
         <head>LES PERSONNAGES</head>
       <castList>
-        <castItem><role civil="M" xml:id="sganarelle">sganarelle</role>, Père de Lucinde.</castItem>
-        <castItem><role civil="F" xml:id="aminte">aminte</role>.</castItem>
-        <castItem><role civil="F" xml:id="lucrece">lucrèce</role>.</castItem>
-        <castItem><role civil="M" xml:id="m-guillaume">monsieur guillaume</role>, Vendeur de
+        <castItem><role civil="M" xml:id="sganarelle">SGANARELLE</role>, Père de Lucinde.</castItem>
+        <castItem><role civil="F" xml:id="aminte">AMINTE</role>.</castItem>
+        <castItem><role civil="F" xml:id="lucrece">LUCRÈCE</role>.</castItem>
+        <castItem><role civil="M" xml:id="m-guillaume">MONSIEUR GUILLAUME</role>, Vendeur de
           Tapisseries.</castItem>
-        <castItem><role civil="M" xml:id="m-josse">monsieur josse</role>, Orfèvre.</castItem>
-        <castItem><role civil="F" xml:id="lucinde">lucinde</role>, Fille de Sganarelle.</castItem>
-        <castItem><role civil="F" xml:id="lisette">lisette</role>, Suivante de Lucinde.</castItem>
-        <castItem><role civil="M" xml:id="m-tomes">monsieur tomès</role>, Médecin.</castItem>
-        <castItem><role civil="M" xml:id="m-des-fonandres">monsieur des fonandrès</role>,
+        <castItem><role civil="M" xml:id="m-josse">MONSIEUR JOSSE</role>, Orfèvre.</castItem>
+        <castItem><role civil="F" xml:id="lucinde">LUCINDE</role>, Fille de Sganarelle.</castItem>
+        <castItem><role civil="F" xml:id="lisette">LISETTE</role>, Suivante de Lucinde.</castItem>
+        <castItem><role civil="M" xml:id="m-tomes">MONSIEUR TOMÈS</role>, Médecin.</castItem>
+        <castItem><role civil="M" xml:id="m-des-fonandres">MONSIEUR DES FONANDRÈS</role>,
           Médecin.</castItem>
-        <castItem><role civil="M" xml:id="m-macroton">monsieur macroton</role>,
+        <castItem><role civil="M" xml:id="m-macroton">MONSIEUR MACROTON</role>,
           Médecin.</castItem>
-        <castItem><role civil="M" xml:id="m-bahys">monsieur bahys</role>, Médecin.</castItem>
-        <castItem><role civil="M" xml:id="m-filerin">monsieur filerin</role>, Médecin.</castItem>
-        <castItem><role civil="M" xml:id="clitandre">clitandre</role>, Amant de Lucinde.</castItem>
-        <castItem><role civil="M" xml:id="notaire">un notaire</role>.</castItem>
-        <castItem><role civil="M" xml:id="champagne">l'opérateur</role>, Orviétan.</castItem>
+        <castItem><role civil="M" xml:id="m-bahys">MONSIEUR BAHYS</role>, Médecin.</castItem>
+        <castItem><role civil="M" xml:id="m-filerin">MONSIEUR FILERIN</role>, Médecin.</castItem>
+        <castItem><role civil="M" xml:id="clitandre">CLITANDRE</role>, Amant de Lucinde.</castItem>
+        <castItem><role civil="M" xml:id="notaire">UN NOTAIRE</role>.</castItem>
+        <castItem><role civil="M" xml:id="champagne">L'OPÉRATEUR</role>, Orviétan.</castItem>
         <castItem>
-          <role xml:id="trivelins-scaramouches" rend="n">Plusieurs Trivelins et Scaramouches.</role>
+          <role xml:id="trivelins-scaramouches">PLUSIEURS TRIVELINS ET SCARAMOUCHES.</role>
         </castItem>
         <castItem>
-          <role xml:id="comedie">la comédie.</role>
+          <role xml:id="comedie">LA COMÉDIE.</role>
         </castItem>
         <castItem>
-          <role xml:id="musique">la musique.</role>
+          <role xml:id="musique">LA MUSIQUE.</role>
         </castItem>
         <castItem>
-          <role xml:id="ballet">le ballet.</role>
+          <role xml:id="ballet">LE BALLET.</role>
         </castItem>
         <castItem><role xml:id="operateur"/></castItem>
         <castItem><role xml:id="tous"/></castItem>
       </castList>
-      <set country="France" link="" location="Paris" periode="XVIIème">La Scène est à Paris dans une
-        Salle de la maison de Sganarelle.</set>
+      <stage country="France" link="" location="Paris" periode="XVIIème">La Scène est à Paris dans une
+        Salle de la maison de Sganarelle.</stage>
       </div>
     </front>
     <body>
-      <div1>
+      <head>L'AMOUR MÉDECIN</head>
+      <div1 type="prologue" rend="not-i">
         <head>PROLOGUE</head>
-        <stage>La Comédie, la Musique <hi rend="n i"/>et le Ballet</stage>
+        <stage>La Comédie, la Musique <hi rend="i"/>et le Ballet</stage>
         <sp who="comedie">
           <speaker>la comédie</speaker>
           <l>Quittons, quittons notre vaine querelle,</l>
@@ -148,13 +141,11 @@
           <speaker>tous trois</speaker>
           <l>Unissons-nous…</l>
         </sp>
-        <label>L'AMOUR MÉDECIN</label>
       </div1>
       <div1 type="act" xml:id="I">
-        <pb/>
-        <head>ACTE I,</head>
+        <head>ACTE I</head>
         <div2 type="titre2" xml:id="I01">
-          <head>SCÈNE I.</head>
+          <head>SCÈNE I</head>
           <stage>Sganarelle, Aminte, Lucrèce, Monsieur Guillaume, Monsieur Josse.</stage>
           <sp who="sganarelle" xml:id="I01-1">
             <speaker>sganarelle</speaker>
@@ -222,7 +213,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="I02">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <stage>Lucinde, Sganarelle.</stage>
           <sp who="sganarelle" xml:id="I02-1">
             <speaker>sganarelle</speaker>
@@ -246,7 +237,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="I03">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <stage>Lisette, Sganarelle, Lucinde.</stage>
           <sp who="lisette" xml:id="I03-1">
             <speaker>lisette</speaker>
@@ -403,7 +394,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="I04">
-          <head>SCÈNE IV.</head>
+          <head>SCÈNE IV</head>
           <stage>Lisette, Lucinde.</stage>
           <sp who="lisette" xml:id="I04-1">
             <speaker>lisette</speaker>
@@ -466,7 +457,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="I05">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <sp who="sganarelle" xml:id="I05-1">
             <speaker>sganarelle</speaker>
             <p>Il est bon quelquefois de ne point faire semblant d’entendre les choses qu’on
@@ -480,7 +471,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="I06">
-          <head>SCÈNE VI.</head>
+          <head>SCÈNE VI</head>
           <stage>Lisette, Sganarelle.</stage>
           <sp who="lisette" xml:id="I06-1">
             <speaker>lisette</speaker>
@@ -623,7 +614,7 @@
         <pb/>
         <head>ACTE II,</head>
         <div2 type="titre2" xml:id="II01">
-          <head>SCÈNE I.</head>
+          <head>SCÈNE I</head>
           <stage>Sganarelle, Lisette.</stage>
           <sp who="lisette" xml:id="II01-1">
             <speaker>lisette</speaker>
@@ -673,7 +664,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="II02">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <stage>Messieurs Tomès, Des Fonandrès, Macroton, <hi rend="i n">et</hi> Bahys, <hi
               rend="i n">Médecins</hi>. Sganarelle, Lisette.</stage>
           <sp who="sganarelle" xml:id="II02-1">
@@ -776,7 +767,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="II03">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <stage>Messieurs Des Fonandrès, Tomès, Macroton, <hi rend="i n">et</hi> Bahys.</stage>
           <stage>Ils s’asseyent et toussent.</stage>
           <sp who="m-des-fonandres" xml:id="II03-1">
@@ -848,7 +839,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="II04">
-          <head>SCÈNE IV.</head>
+          <head>SCÈNE IV</head>
           <stage>Sganarelle, Messieurs Tomès, Des Fonandrès, Macroton, <hi rend="i n">et</hi>
             Bahys.</stage>
           <sp who="sganarelle" xml:id="II04-1">
@@ -960,7 +951,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="II05">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <stage>Sganarelle, Messieurs Macroton <hi rend="i n">et</hi> Bahys, <hi rend="i n"
               >médecins</hi>.</stage>
           <sp who="sganarelle" xml:id="II05-1">
@@ -1047,7 +1038,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="II06">
-          <head>SCÈNE VI.</head>
+          <head>SCÈNE VI</head>
           <sp who="sganarelle" xml:id="II06-1">
             <speaker>sganarelle</speaker>
             <p>Me voilà justement un peu plus incertain que je n’étais auparavant. Morbleu, il me
@@ -1056,7 +1047,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="II07">
-          <head>SCÈNE VII.</head>
+          <head>SCÈNE VII</head>
           <stage>L’opérateur, Sganarelle.</stage>
           <sp who="sganarelle" xml:id="II07-1">
             <speaker>sganarelle</speaker>
@@ -1116,7 +1107,7 @@
         <pb/>
         <head>ACTE III,</head>
         <div2 type="titre2" xml:id="III01">
-          <head>SCÈNE I.</head>
+          <head>SCÈNE I</head>
           <stage>Messieurs Filerin, Tomès <hi rend="i n">et</hi> Des Fonandrès.</stage>
           <sp who="m-filerin" xml:id="III01-1">
             <speaker>monsieur filerin</speaker>
@@ -1181,7 +1172,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III02">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <stage>Messieurs Tomès, Des Fonandrès, Lisette.</stage>
           <sp who="lisette" xml:id="III02-1">
             <speaker>lisette</speaker>
@@ -1209,7 +1200,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III03">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <stage>Lisette, Clitandre.</stage>
           <sp who="clitandre" xml:id="III03-1">
             <speaker>clitandre</speaker>
@@ -1231,7 +1222,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III04">
-          <head>SCÈNE IV.</head>
+          <head>SCÈNE IV</head>
           <stage>Sganarelle, Lisette.</stage>
           <sp who="lisette" xml:id="III04-1">
             <speaker>lisette</speaker>
@@ -1301,7 +1292,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III05">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <stage>Clitandre, <hi rend="i n">en habit de Médecin</hi>, Sganarelle, Lisette.</stage>
           <sp who="lisette" xml:id="III05-1">
             <speaker>lisette</speaker>
@@ -1358,7 +1349,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III06">
-          <head>SCÈNE VI.</head>
+          <head>SCÈNE VI</head>
           <stage>Lucinde, Lisette, Sganarelle, Clitandre.</stage>
           <sp who="lisette" xml:id="III06-1">
             <speaker>lisette</speaker>
@@ -1582,7 +1573,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III07">
-          <head>SCÈNE VII.</head>
+          <head>SCÈNE VII</head>
           <p>Le Notaire, Clitandre, Sganarelle, Lucinde, Lisette .</p>
           <stage>Clitandre parle au Notaire à l’oreille.</stage>
           <sp who="sganarelle" xml:id="III07-1">
@@ -1637,7 +1628,7 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III08">
-          <head>SCÈNE DERNIÈRE.</head>
+          <head>SCÈNE DERNIÈRE</head>
           <stage>La Comédie, le Ballet <hi rend="i n">et</hi> la Musique.</stage>
           <sp who="comedie ballet musique" xml:id="III08-1">
             <speaker>tous trois <hi rend="i">ensemble</hi></speaker>
@@ -1688,7 +1679,7 @@
             <p>Comment, Diable : laissez-moi aller : laissez-moi aller, vous dis-je. Encore. Peste
               des gens.</p>
           </sp>
-          <label>fin</label>
+          <label rend="i">Fin</label>
         </div2>
       </div1>
     </body>
