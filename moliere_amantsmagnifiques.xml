@@ -118,7 +118,7 @@
           Magnifique Galanterie, dont l’un des Princes régale sur la Mer la promenade des
           Princesses.</stage>
         <label rend="b">PREMIÈRE ENTRÉE DE BALLET.</label>
-        <stage><space> </space>NEPTUNE, et six Dieux marins.</stage>
+        <stage>NEPTUNE, et six Dieux marins.</stage>
         <label rend="b">DEUXIÈME ENTRÉE DE BALLET</label>
         <stage> Huit Pêcheurs de Corail.</stage>
         <stage rend="i">Vers chantés.</stage>
@@ -1232,7 +1232,7 @@
               goûter tous. Entrons vite dans le Bois, et voyons ce qui nous y attend ; ce lieu est
               le plus beau du monde, prenons vite nos places.</p>
           </sp>
-          <label>Fin du second Acte.</label>
+          <label rend="i">Fin du second Acte.</label>
         </div2>
       </div1>
       <div1 type="act" xml:id="V" rend="not-i">
@@ -1249,15 +1249,15 @@
           Bergers amis : Deux Satyres arrivant se plaignent de son changement, et étant touchés de
           cette disgrâce, cherchent leur consolation dans le vin.</stage>
         <castList>
-          <head>LES PERSONNAGES<lb/>de la Pastorale</head>
-          <castItem><role xml:id="nymphe">La Nymphe de la Vallée de Tempé</role>.</castItem>
-          <castItem><role xml:id="tircis">Tircis</role>.</castItem>
-          <castItem><role xml:id="lycaste">Lycaste</role>.</castItem>
-          <castItem><role xml:id="menandre">Ménandre</role>.</castItem>
-          <castItem><role xml:id="caliste">Caliste</role>.</castItem>
-          <castItem>Deux Satyres<role xml:id="satyre1"/><role xml:id="satyre2"/>.</castItem>
-          <castItem><role xml:id="climene">Climène</role><role xml:id="tous-deux"/>.</castItem>
-          <castItem><role xml:id="philinte">Philinte</role>.</castItem>
+          <head>LES PERSONNAGES de la Pastorale</head>
+          <castItem><role xml:id="nymphe">LA NYMPHE DE LA VALLÉE DE TEMPÉ</role>.</castItem>
+          <castItem><role xml:id="tircis">TIRCIS</role>.</castItem>
+          <castItem><role xml:id="lycaste">LYCASTE</role>.</castItem>
+          <castItem><role xml:id="menandre">MÉNANDRE</role>.</castItem>
+          <castItem><role xml:id="caliste">CALISTE</role>.</castItem>
+          <castItem>DEUX SATYRES<role xml:id="satyre1"/><role xml:id="satyre2"/>.</castItem>
+          <castItem><role xml:id="climene">CLIMÈNE</role><role xml:id="tous-deux"/>.</castItem>
+          <castItem><role xml:id="philinte">PHILINTE</role>.</castItem>
           <castItem><role xml:id="bergers"/></castItem>
         </castList>
         <div2 xml:id="V01">
@@ -1286,7 +1286,8 @@
           </sp>
         </div2>
         <div2 xml:id="V03">
-          <head>SCÈNE DEUXIÈME. Lycaste, Ménandre, Tircis</head>
+          <head>SCÈNE DEUXIÈME</head>
+          <stage>Lycaste, Ménandre, Tircis</stage>
           <sp who="lycaste" xml:id="V03-1">
             <speaker>lycaste</speaker>
             <l>Hé quoi toujours languissant, sombre et triste ?</l>
@@ -1482,7 +1483,7 @@
             <l>La pitié dans mon cœur n’introduise l’amour.</l>
           </sp>
           <sp who="lycaste" xml:id="V05-10">
-            <speaker>lycaste, et ménandre, l’un après l’autre</speaker>
+            <speaker>lycaste, et ménandre, <hi rend="i">l’un après l’autre</hi></speaker>
             <l>Soit amour, soit pitié,</l>
             <l>Il sied bien d’être tendre ;</l>
             <l>C’est par trop vous défendre</l>
@@ -2486,10 +2487,10 @@
           par le portique, au son des Violons, et sont suivis de deux Sacrificateurs Musiciens,
           d’une Prêtresse Musicienne, et leur suite.</stage>
         <castList>
-          <castItem><role xml:id="pretresse">La prêtresse</role>.</castItem>
-          <castItem>Trois grecques<role xml:id="grecque1"/><role xml:id="grecque2"/><role xml:id="grecque3"/>.</castItem>
-          <castItem><role xml:id="choeur">Le chœur</role>.</castItem>
-          <castItem><role xml:id="apollon">Apollon</role>.</castItem>
+          <castItem><role xml:id="pretresse">LA PRÊTRESSE</role>.</castItem>
+          <castItem><role xml:id="grecque1">TROIS GRECQUES</role><role xml:id="grecque2"/><role xml:id="grecque3"/>.</castItem>
+          <castItem><role xml:id="choeur">LE CHOEUR</role>.</castItem>
+          <castItem><role xml:id="apollon">APOLLON</role>.</castItem>
         </castList>
         <sp who="pretresse" xml:id="XI-1">
           <speaker>la prêtresse</speaker>
@@ -2557,7 +2558,7 @@
             tout le divertissement.</stage>
         <label rend="b">CINQUIÈME et DERNIÈRE ENTRÉE de BALLET.</label>
         <sp who="apollon" xml:id="XI-7">
-          <speaker>apollon, et six jeunes gens de sa suite. <lb/>Chœur de Musique.</speaker>
+          <speaker>apollon, et six jeunes gens de sa suite. chœur de musique.</speaker>
           <stage>Pour <hi rend="sc">le roi</hi>, Représentant le <hi rend="sc">soleil</hi></stage>
           <lg><l>Je suis la source des Clartés,</l>
           <l>Et les Astres les plus vantés</l>
@@ -2573,12 +2574,12 @@
           <l>Et pleines d’exquises richesses</l>
           <l>Les Terres, où de mes regards</l>
             <l>J’arrête les douces caresses.</l></lg>
-          <stage>POUR <hi rend="sc">m. le grand</hi>,Suivant d’<hi rend="sc">apollon</hi></stage>
+          <stage>POUR <hi rend="sc">m. le grand</hi>, Suivant d’<hi rend="sc">apollon</hi></stage>
           <l>Bien qu’auprès du Soleil tout autre éclat s’efface,</l>
           <l>S’en éloigner pourtant n’est pas ce que l’on veut,</l>
           <l>Et vous voyez bien quoi qu’il fasse</l>
           <l>Que l’on s’en tient toujours le plus près que l’on peut.</l>
-          <stage>POUR <hi rend="sc">le marquis de villeroy</hi>,Suivant d’<hi rend="sc">apollon</hi></stage>
+          <stage>POUR <hi rend="sc">le marquis de villeroy</hi>, Suivant d’<hi rend="sc">apollon</hi></stage>
           <l>De notre Maître incomparable</l>
           <l>Vous me voyez inséparable,</l>
           <l>Et le zèle puissant qui m’attache à ses vœux</l>
