@@ -47,17 +47,15 @@
         <titlePart type="sub">COMÉDIE</titlePart>
       </docTitle>
       <argument>
-        <p location="Théâtre du Palais Royal">REPRÉSENTÉE SUR LE <lb/>Théâtre du Palais Royal</p>
+        <p location="Théâtre du Palais Royal">Représentée sur le <lb/>Théâtre du Palais Royal</p>
       </argument>
       <docAuthor rend="i">Par J. B. P. MOLIÈRE</docAuthor>
-      <docImprint>À PARIS, <lb/>Chez GABRIEL QUINET, <lb/>au Palais, dans la Galerie des Prisonniers, <lb/>à l'Ange Gabriel.</docImprint>
-      <docDate when="1663">M. DC. LXIII.</docDate>
-      <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
+        <docImprint>À PARIS, <lb/>Chez GABRIEL QUINET, <lb/>au Palais, dans la Galerie des Prisonniers, <lb/>à l'Ange Gabriel. <lb/>M. DC. LXIII. <lb/><hi rend="i">AVEC PRIVILÈGE DU ROI.</hi></docImprint>
       </titlePage>
       <div type="dedication">
         <head>À MESSIRE</head>
-        <p>MESSIRE ARMAND JEAN DE RIANTS,</p>
-        <p><hi rend="sc">Chevalier</hi>, <hi rend="sc">Baron</hi> de Riverey, Seigneur de la Gallessierre, <lb/>Oudangeau, et autres Lieux, Conseiller du Roi <lb/>en tous ses Conseils, et Procureur de sa Majesté <lb/>au Châtelet, Prévôté et Vicomté de Paris.</p>
+        <p rend="noindent">MESSIRE ARMAND JEAN DE RIANTS,</p>
+        <p rend="noindent"><hi rend="sc">Chevalier</hi>, <hi rend="sc">Baron</hi> de Riverey, Seigneur de la Gallessierre, Oudangeau, et autres Lieux, Conseiller du Roi en tous ses Conseils, et Procureur de sa Majesté au Châtelet, Prévôté et Vicomté de Paris.</p>
         <p rend="sc">Monsieur,</p>
         <p>Après avoir longtemps cherché quelque chose qui fût digne de vous être offert, pour ne pas laisser échapper aucune occasion de vous témoigner mes respects, et qui pût en même temps faire connaître à tout le monde que j’ai essayé de rendre à votre mérite quelques marques particulières de mon zèle ; j’ai cru que vous ne désavoueriez pas l’Étourdi ou les Contretemps, quand vous saurez que c’est un Étourdi tout couvert de gloire, de s’être fait admirer par la plus galante Cour du Monde, et qui a reçu des avantages, que de plus prudents que lui se tiendrait glorieux d’avoir pu mériter ; toutes ces choses-là font voir qu’il y a de la différence entre lui, et ceux qui portent son nom ; Néanmoins je crains qu’il ne perde aujourd’hui la haute réputation qu’il s’est acquise, quand on saura qu’il vient à Contretemps se présenter à vous, et vous divertir des grandes et sérieuses Occupations que vous donne l’illustre Charge que vous possédez, et qui demande que vous ayez soin de la plus célèbre Ville de la Terre : Vous le faites, <hi rend="sc">Monsieur</hi>, avec tant d’applaudissement, et vous vous acquittez de cette Charge avec tant de gloire, que le Prince, et les peuples en sont également satisfaits ; aussi chacun sait-il que vous marchez sur les traces de vos Illustres Aïeuls, dont la Mémoire ne périra jamais. Oui, <hi rend="sc">Monsieur</hi>, l’on se souviendra de ce Denis de Riants, dont vous sortez, qui s’acquitta si dignement, pour lui, et pour tout le Monde, de la Charge d’Avocat Général, et de Président au Mortier, qu’il possédait dans le premier Parlement de France, et qui obligea cette Auguste Compagnie, de faire voir combien elle l’avait toujours estimé, lorsqu’étant priée par ses Parents de se trouver aux honneurs funèbres que l’on devait rendre ; elle répondit, par l’organe de son premier Président, qu’elle était bien marrie du trépas d’un Personnage de si grand savoir, et de si grande vertu, et qu’elle lui rendrait tout l’honneur qu’elle lui devait. Après cela, <hi rend="sc">Monsieur</hi>, l’on peut juger de la vénération que l’on a en France pour votre Nom, et si soutenant, comme vous faites l’éclat et la gloire de vos Ancêtres, je ne dois pas craindre de passer pour téméraire en faisant votre Panégyrique. L’on sait assez que leurs grandes actions et les vôtres, me fourniraient trop de matière, s’il m’était permis de l’entreprendre ; mais les voulant laisser à d’autres plus capables de les décrire, Je serai satisfait, si je puis vous persuader que je suis, plus que personne du monde,</p>
         <p rend="sc">Monsieur,</p>
@@ -76,18 +74,18 @@
         <castItem><role xml:id="leandre" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LÉANDRE</role>, fils de famille.</castItem>
         <castItem><role xml:id="andres" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">ANDRÈS</role>, cru Égyptien.</castItem>
         <castItem><role xml:id="ergaste" civil="M" type="H" statut="vallet" age="A" stat_amour="néant">ERGASTE</role>, valet.</castItem>
-        <castItem><role xml:id="courrier" civil="M" type="H" statut="courrier" age="A" stat_amour="néant">Un courrier</role>.</castItem>
+        <castItem><role xml:id="courrier" civil="M" type="H" statut="courrier" age="A" stat_amour="néant">UN COURRIER</role>.</castItem>
         <castItem><role xml:id="troupe-masques" civil="G" type="H" statut="masque" age="A" stat_amour="néant">Deux troupes de Masques</role>.</castItem>
       </castList>
-      <set location="Messine" country="Italie" periode="XVIIème" link="">La Scène est Messine.</set>
+      <stage location="Messine" country="Italie" periode="XVIIème" link="">La Scène est à Messine.</stage>
       </div>
     </front>
     <body>
       <head>L'ÉTOURDI <lb/>OU LES CONTRETEMPS, <lb/><hi rend="i">COMÉDIE</hi></head>
       <div1 type="act" xml:id="I">
-        <head>ACTE I.</head>
+        <head>ACTE I</head>
         <div2 type="scene" xml:id="I01">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>SCÈNE PREMIÈRE</head>
           <sp who="lelie" xml:id="I01-1">
             <speaker>lélie</speaker>
             <l>Hé bien ! Léandre, hé bien ! il faudra contester ;</l>
@@ -99,7 +97,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I02">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <stage>Lélie, Mascarille.</stage>
           <sp who="lelie" xml:id="I02-1">
             <speaker>lélie</speaker>
@@ -328,7 +326,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I03">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <stage>Lélie, Célie, Mascarille.</stage>
           <sp who="lelie" xml:id="I03-1">
             <speaker>lélie</speaker>
@@ -376,7 +374,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I04">
-          <head>SCÈNE IV.</head>
+          <head>SCÈNE IV</head>
           <stage>Trufaldin, Célie, Mascarille, <hi rend="i">et</hi> Lélie <hi rend="i">retiré dans un coin</hi>.</stage>
           <sp who="trufaldin" xml:id="I04-1">
             <speaker>trufaldin <hi rend="i">à Célie</hi></speaker>
@@ -551,7 +549,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I05">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <stage>Anselme, Mascarille.</stage>
           <sp who="anselme" xml:id="I05-1">
             <speaker>anselme</speaker>
@@ -736,7 +734,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I06">
-          <head>SCÈNE VI.</head>
+          <head>SCÈNE VI</head>
           <stage>Lélie, Anselme, Mascarille.</stage>
           <sp who="lelie" xml:id="I06-1">
             <speaker>lélie</speaker>
@@ -830,7 +828,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I07">
-          <head>SCÈNE VII.</head>
+          <head>SCÈNE VII</head>
           <stage>Pandolfe, Mascarille.</stage>
           <sp who="pandolfe" xml:id="I07-1">
             <speaker>pandolfe</speaker>
@@ -977,7 +975,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I08">
-          <head>SCÈNE VIII.</head>
+          <head>SCÈNE VIII</head>
           <stage>Hippolyte, Mascarille.</stage>
           <sp who="hippolyte" xml:id="I08-1">
             <speaker>hippolyte</speaker>
@@ -1103,7 +1101,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I09">
-          <head>SCÈNE IX.</head>
+          <head>SCÈNE IX</head>
           <stage>Mascarille, Lélie.</stage>
           <sp who="lelie" xml:id="I09-1">
             <speaker>lélie</speaker>
@@ -1137,13 +1135,13 @@
             <l>Il nous le faut mener en quelque Hôtellerie,</l>
             <l>Et faire sur les pots décharger sa furie.</l>
           </sp>
-          <label>Fin du premier Acte.</label>
+          <label rend="i">Fin du premier Acte.</label>
         </div2>
       </div1>
       <div1 type="act" xml:id="II">
-        <head>ACTE II.</head>
+        <head>ACTE II</head>
         <div2 type="scene" xml:id="II01">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>SCÈNE PREMIÈRE</head>
           <stage>Mascarille, Lélie.</stage>
           <sp who="mascarille" xml:id="II01-1">
             <speaker>mascarille</speaker>
@@ -1206,7 +1204,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II02">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <stage>Mascarille, Anselme.</stage>
           <sp who="mascarille" xml:id="II02-1">
             <speaker>mascarille</speaker>
@@ -1279,7 +1277,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II03">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <stage>Lélie, Anselme, Mascarille.</stage>
           <sp who="anselme" xml:id="II03-1">
             <speaker>anselme</speaker>
@@ -1411,7 +1409,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II04">
-          <head>SCÈNE IV.</head>
+          <head>SCÈNE IV</head>
           <stage>Pandolfe, Anselme.</stage>
           <sp who="anselme" xml:id="II04-1">
             <speaker>anselme</speaker>
@@ -1525,7 +1523,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II05">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <stage>Lélie, Anselme.</stage>
           <sp who="lelie" xml:id="II05-1">
             <speaker>lélie</speaker>
@@ -1585,7 +1583,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II06">
-          <head>SCÈNE VI.</head>
+          <head>SCÈNE VI</head>
           <stage>Mascarille, Lélie.</stage>
           <sp who="mascarille" xml:id="II06-1">
             <speaker>mascarille</speaker>
@@ -1744,7 +1742,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II07">
-          <head>SCÈNE VII.</head>
+          <head>SCÈNE VII</head>
           <stage>Léandre, Trufaldin, Lélie, Mascarille.</stage>
           <sp who="lelie" xml:id="II07-1">
             <speaker>lélie</speaker>
@@ -1913,7 +1911,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II08">
-          <head>SCÈNE VIII.</head>
+          <head>SCÈNE VIII</head>
           <stage>Hippolyte, Léandre, Mascarille.</stage>
           <sp who="hippolyte" xml:id="II08-1">
             <speaker>hippolyte</speaker>
@@ -1949,7 +1947,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II09">
-          <head>SCÈNE IX.</head>
+          <head>SCÈNE IX</head>
           <stage>Trufaldin, Mascarille.</stage>
           <sp who="mascarille" xml:id="II09-1">
             <speaker>mascarille</speaker>
@@ -1971,7 +1969,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II10">
-          <head>SCÈNE X.</head>
+          <head>SCÈNE X</head>
           <stage>Le Courrier, Trufaldin, Mascarille.</stage>
           <sp who="courrier" xml:id="II10-1">
             <speaker>le courrier</speaker>
@@ -2050,7 +2048,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II11">
-          <head>SCÈNE XI.</head>
+          <head>SCÈNE XI</head>
           <stage>Lélie, Mascarille.</stage>
           <sp who="mascarille" xml:id="II11-1">
             <speaker>mascarille</speaker>
@@ -2174,13 +2172,13 @@
             <l>Au discours qu’il m’a fait que saurais-je comprendre ?</l>
             <l n="900">Et quel mauvais office aurais-je pu me rendre ?</l>
           </sp>
-          <label>Fin du second Acte.</label>
+          <label rend="i">Fin du second Acte.</label>
         </div2>
       </div1>
       <div1 type="act" xml:id="III">
-        <head>ACTE III.</head>
+        <head>ACTE III</head>
         <div2 type="scene" xml:id="III01">
-          <head>SCÈNE <hi rend="i">I</hi>.</head>
+          <head>SCÈNE I</head>
           <sp who="mascarille" xml:id="III01-1">
             <speaker>mascarille <hi rend="i">seul</hi></speaker>
             <l>Taisez-vous, ma bonté, cessez votre entretien ;</l>
@@ -2222,7 +2220,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III02">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <stage>Léandre, Mascarille.</stage>
           <sp who="mascarille" xml:id="III02-1">
             <speaker>mascarille</speaker>
@@ -2363,7 +2361,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III03">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <stage>Lélie, Léandre.</stage>
           <sp who="lelie" xml:id="III03-1">
             <speaker>lélie</speaker>
@@ -2496,7 +2494,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III04">
-          <head>SCÈNE IV.</head>
+          <head>SCÈNE IV</head>
           <stage>Lélie, Léandre, Mascarille.</stage>
           <sp who="lelie" xml:id="III04-1">
             <speaker>lélie</speaker>
@@ -2790,7 +2788,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III05">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <stage>Ergaste, Mascarille.</stage>
           <sp who="ergaste" xml:id="III05-1">
             <speaker>ergaste</speaker>
@@ -2853,7 +2851,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III06">
-          <head>SCÈNE VI.</head>
+          <head>SCÈNE VI</head>
           <stage>Lélie, Ergaste.</stage>
           <sp who="lelie" xml:id="III06-1">
             <speaker>lélie</speaker>
@@ -2885,7 +2883,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III07">
-          <head>SCÈNE VII.</head>
+          <head>SCÈNE VII</head>
           <stage>Lélie, Trufaldin.</stage>
           <sp who="trufaldin" xml:id="III07-1">
             <speaker>trufaldin</speaker>
@@ -2919,7 +2917,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III08">
-          <head>SCÈNE VIII.</head>
+          <head>SCÈNE VIII</head>
           <stage>Lélie, Trufaldin, Mascarille <hi rend="i">masqué</hi>.</stage>
           <sp who="trufaldin" xml:id="III08-1">
             <speaker>trufaldin</speaker>
@@ -2983,7 +2981,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III09">
-          <head>SCÈNE IX.</head>
+          <head>SCÈNE IX</head>
           <stage>Léandre, <hi rend="i">masqué, et sa suite,</hi> Trufaldin.</stage>
           <sp who="leandre" xml:id="III09-1">
             <speaker>léandre</speaker>
@@ -3006,13 +3004,13 @@
             <l>Fi, cela sent mauvais ; et je suis tout gâté ;</l>
             <l>Nous sommes découverts, tirons de ce côté.</l>
           </sp>
-          <label>Fin du troisième Acte.</label>
+          <label rend="i">Fin du troisième Acte.</label>
         </div2>
       </div1>
       <div1 type="act" xml:id="IV">
-        <head>ACTE IV.</head>
+        <head>ACTE IV</head>
         <div2 type="scene" xml:id="IV01">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>SCÈNE PREMIÈRE</head>
           <stage>Lélie, Mascarille.</stage>
           <sp who="mascarille" xml:id="IV01-1">
             <speaker>mascarille</speaker>
@@ -3233,7 +3231,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV02">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <stage>Trufaldin, Lélie, Mascarille.</stage>
           <sp who="trufaldin" xml:id="IV02-1">
             <speaker>trufaldin</speaker>
@@ -3431,7 +3429,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV03">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <stage>Léandre, Anselme.</stage>
           <sp who="anselme" xml:id="IV03-1">
             <speaker>anselme</speaker>
@@ -3490,7 +3488,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV04">
-          <head>SCÈNE IV.</head>
+          <head>SCÈNE IV</head>
           <stage>Lélie, Mascarille.</stage>
           <sp who="mascarille" xml:id="IV04-1">
             <speaker>mascarille</speaker>
@@ -3570,7 +3568,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV05">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <stage>Lélie, Mascarille, Trufaldin.</stage>
           <sp who="mascarille" xml:id="IV05-1">
             <speaker>mascarille</speaker>
@@ -3653,7 +3651,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV06">
-          <head>SCÈNE VI.</head>
+          <head>SCÈNE VI</head>
           <stage>Lélie, Trufaldin, Mascarille.</stage>
           <sp who="trufaldin" xml:id="IV06-1">
             <speaker>trufaldin</speaker>
@@ -3837,7 +3835,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV07">
-          <head>SCÈNE VII.</head>
+          <head>SCÈNE VII</head>
           <stage>Ergaste, Mascarille.</stage>
           <sp who="ergaste" xml:id="IV07-1">
             <speaker>ergaste</speaker>
@@ -3877,13 +3875,13 @@
             <l>Et du plus innocent, toujours à leur profit</l>
             <l>La bourse est criminelle, et paie son délit.</l>
           </sp>
-          <label>Fin du quatrième Acte.</label>
+          <label rend="i">Fin du quatrième Acte.</label>
         </div2>
       </div1>
       <div1 type="act" xml:id="V">
-        <head>ACTE V.</head>
+        <head>ACTE V</head>
         <div2 type="scene" xml:id="V01">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>SCÈNE PREMIÈRE</head>
           <stage>Mascarille, Ergaste.</stage>
           <sp who="mascarille" xml:id="V01-1">
             <speaker>mascarille</speaker>
@@ -3936,7 +3934,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V02">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <stage>Célie, Andrès.</stage>
           <sp who="andres" xml:id="V02-1">
             <speaker>andrès</speaker>
@@ -3991,7 +3989,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V03">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <stage>Mascarille, Célie, Andrès</stage>
           <sp who="andres">
             <speaker>andrès</speaker>
@@ -4075,7 +4073,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V04">
-          <head>SCÈNE IV.</head>
+          <head>SCÈNE IV</head>
           <stage>Lélie, Andrès.</stage>
           <sp who="lelie" xml:id="V04-1">
             <speaker>lélie</speaker>
@@ -4175,7 +4173,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V05">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <stage>Mascarille, Lélie, Andrès.</stage>
           <sp who="mascarille" xml:id="V05-1">
             <speaker>mascarille</speaker>
@@ -4264,7 +4262,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V06">
-          <head>SCÈNE VI.</head>
+          <head>SCÈNE VI</head>
           <stage>Célie, Mascarille, Lélie, Andrès</stage>
           <sp who="andres" xml:id="V06-1">
             <speaker>andrès</speaker>
@@ -4317,7 +4315,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V07">
-          <head>SCÈNE VII.</head>
+          <head>SCÈNE VII</head>
           <stage>Mascarille, Célie.</stage>
           <sp who="celie" xml:id="V07-1">
             <speaker>célie</speaker>
@@ -4353,7 +4351,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V08">
-          <head>SCÈNE VIII.</head>
+          <head>SCÈNE VIII</head>
           <stage>Célie, Hippolyte.</stage>
           <sp who="hippolyte" xml:id="V08-1">
             <speaker>hippolyte</speaker>
@@ -4408,7 +4406,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V09">
-          <head>SCÈNE IX.</head>
+          <head>SCÈNE IX</head>
           <stage>Mascarille, Célie, Hippolyte.</stage>
           <sp who="mascarille" xml:id="V09-1">
             <speaker>mascarille</speaker>
@@ -4540,7 +4538,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V10">
-          <head>SCÈNE X.</head>
+          <head>SCÈNE X</head>
           <stage>Trufaldin, Anselme, Pandolfe, Andrès, Célie, Hippolyte, Léandre.</stage>
           <sp who="trufaldin" xml:id="V10-1">
             <speaker>trufaldin</speaker>
@@ -4597,7 +4595,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V11">
-          <head>SCÈNE XI.</head>
+          <head>SCÈNE XI</head>
           <stage>Trufaldin, Mascarille, Lélie, Anselme, Pandolfe, Célie, Andrès, Hippolyte, Léandre</stage>
           <sp who="mascarille" xml:id="V11-1">
             <speaker>mascarille</speaker>
@@ -4659,7 +4657,7 @@
             <l>Allons donc ; et que les Cieux prospères</l>
             <l>Nous donnent des enfants dont nous soyons les pères.</l>
           </sp>
-          <label>FIN DU CINQUIÈME ET DERNIER ACTE.</label>
+          <label rend="i">Fin du cinquième et dernier Acte</label>
         </div2>
       </div1>
     </body>
