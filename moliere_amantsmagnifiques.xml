@@ -47,7 +47,7 @@
       <titlePage>
       <docTitle>
         <titlePart type="main">LES AMANTS <lb/>MAGNIFIQUES</titlePart>
-        <titlePart rend="i" type="sub">COMÉDIE</titlePart>
+        <titlePart type="sub">COMÉDIE</titlePart>
         <titlePart type="sub">MÊLÉE DE MUSIQUE, <lb/>et d'Entrées de Ballet</titlePart>
       </docTitle>
       <docAuthor>PAR J. B. P. DE MOLIÈRE</docAuthor>
@@ -100,9 +100,9 @@
       </div>
     </front>
     <body>
-      <head>LES AMANTS MAGNIFIQUES, <lb/>COMÉDIE.</head>
+      <head>LES AMANTS MAGNIFIQUES, <lb/>COMÉDIE</head>
       <div1 type="act" xml:id="I" rend="not-i">
-        <head>PREMIER INTERMÈDE.</head>
+        <head>PREMIER INTERMÈDE</head>
         <stage>Le Théâtre s’ouvre à l’agréable bruit de quantité d’Instruments, et d’abord il offre
           aux yeux une vaste Mer, bordée de chaque côté de quatre grands Rochers, dont le sommet
           porte chacun un Fleuve, accoudé sur les marques de ces sortes de Déités. Au pied de ces
@@ -117,9 +117,9 @@
           pas de gestes différents, et de bruit de conques de Perles. Tout ce Spectacle est une
           Magnifique Galanterie, dont l’un des Princes régale sur la Mer la promenade des
           Princesses.</stage>
-        <label>PREMIÈRE ENTRÉE DE BALLET.</label>
+        <label rend="b">PREMIÈRE ENTRÉE DE BALLET.</label>
         <stage><space> </space>NEPTUNE, et six Dieux marins.</stage>
-        <label>DEUXIÈME ENTRÉE DE BALLET</label>
+        <label rend="b">DEUXIÈME ENTRÉE DE BALLET</label>
         <stage> Huit Pêcheurs de Corail.</stage>
         <stage rend="i">Vers chantés.</stage>
         <sp who="eole" xml:id="I-1">
@@ -206,9 +206,9 @@
         </sp>
       </div1>
       <div1 type="act" xml:id="II">
-        <head>ACTE PREMIER.</head>
+        <head>ACTE PREMIER</head>
         <div2 xml:id="II01">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>SCÈNE PREMIÈRE</head>
           <stage>Sostrate, Clitidas.</stage>
           <sp who="clitidas" xml:id="II01-1">
             <speaker>clitidas</speaker>
@@ -437,7 +437,7 @@
           </sp>
         </div2>
         <div2 xml:id="II02">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <stage>Aristione, Iphicrate, Timoclès, Sostrate, Anaxarque, Cléon, Clitidas.</stage>
           <sp who="aristione" xml:id="II02-1">
             <speaker>aristione</speaker>
@@ -707,7 +707,7 @@
           </sp>
         </div2>
         <div2 xml:id="II03">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <stage>Iphicrate, Timoclès, Clitidas, Sostrate.</stage>
           <sp who="iphicrate" xml:id="II03-1">
             <speaker>iphicrate</speaker>
@@ -748,7 +748,7 @@
           </sp>
         </div2>
         <div2 xml:id="II04">
-          <head>SCÈNE IV.</head>
+          <head>SCÈNE IV</head>
           <stage>Iphicrate, Timoclès, Clitidas.</stage>
           <sp who="iphicrate" xml:id="II04-1">
             <speaker>iphicrate</speaker>
@@ -785,7 +785,7 @@
           </sp>
         </div2>
         <div2 xml:id="II05">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <stage>Ériphile, Cléonice.</stage>
           <sp who="cleonice" xml:id="II05-1">
             <speaker>cléonice</speaker>
@@ -844,17 +844,17 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="III"  rend="not-i">
-        <head>SECOND INTERMÈDE.</head>
+        <head>SECOND INTERMÈDE</head>
         <stage>La Confidente de la jeune Princesse lui produit trois danseurs, sous le nom de
           Pantomimes ; c’est-à-dire qui expriment par leurs gestes toutes sortes de choses. La
           Princesse les voit danser, et les reçoit à son service.</stage>
-        <label>ENTRÉE DE BALLET</label>
+        <label rend="b">ENTRÉE DE BALLET</label>
         <stage>De trois Pantomimes.</stage>
       </div1>
       <div1 type="act" xml:id="IV">
-        <head>ACTE II.</head>
+        <head>ACTE II</head>
         <div2 xml:id="IV01">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>SCÈNE PREMIÈRE</head>
           <stage>Ériphile, Cléonice, Clitidas.</stage>
           <sp who="eriphile" xml:id="IV01-1">
             <speaker>ériphile</speaker>
@@ -881,7 +881,7 @@
           </sp>
         </div2>
         <div2 xml:id="IV02">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <stage>Ériphile, Clitidas.</stage>
           <sp who="clitidas" xml:id="IV02-1">
             <speaker>clitidas <hi rend="i">fait semblant de chanter</hi></speaker>
@@ -1080,7 +1080,7 @@
           </sp>
         </div2>
         <div2 xml:id="IV03">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <stage>Sostrate, Ériphile.</stage>
           <sp who="sostrate" xml:id="IV03-1">
             <speaker>sostrate</speaker>
@@ -1201,7 +1201,7 @@
           </sp>
         </div2>
         <div2 xml:id="IV04">
-          <head>SCÈNE IV.</head>
+          <head>SCÈNE IV</head>
           <stage>Chorèbe, Sostrate, Ériphile.</stage>
           <sp who="chorebe" xml:id="IV04-1">
             <speaker>chorèbe</speaker>
@@ -1214,7 +1214,7 @@
           </sp>
         </div2>
         <div2 xml:id="IV05">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <stage>Aristione, Iphicrate, Timoclès, Anaxarque, Clitidas, Sostrate, Ériphile.</stage>
           <sp who="aristione" xml:id="IV05-1">
             <speaker>aristione</speaker>
@@ -1236,7 +1236,7 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="V" rend="not-i">
-        <head>TROISIÈME INTERMÈDE.</head>
+        <head>TROISIÈME INTERMÈDE</head>
         <stage>Le Théâtre est une Forêt, où la Princesse est invitée d’aller, une Nymphe lui en fait
           les honneurs en chantant, et pour la divertir on lui joue une petite Comédie en Musique,
           dont voici le sujet : un Berger se plaint à deux Bergers ses amis, des froideurs de celle
@@ -1249,7 +1249,7 @@
           Bergers amis : Deux Satyres arrivant se plaignent de son changement, et étant touchés de
           cette disgrâce, cherchent leur consolation dans le vin.</stage>
         <castList>
-          <head>LES PERSONNAGES<lb/>de la Pastorale.</head>
+          <head>LES PERSONNAGES<lb/>de la Pastorale</head>
           <castItem><role xml:id="nymphe">La Nymphe de la Vallée de Tempé</role>.</castItem>
           <castItem><role xml:id="tircis">Tircis</role>.</castItem>
           <castItem><role xml:id="lycaste">Lycaste</role>.</castItem>
@@ -1261,7 +1261,7 @@
           <castItem><role xml:id="bergers"/></castItem>
         </castList>
         <div2 xml:id="V01">
-          <head>PROLOGUE.</head>
+          <head>PROLOGUE</head>
           <sp who="nymphe" xml:id="V01-1">
             <speaker>la nymphe de tempé</speaker>
             <l>Venez, grande Princesse, avec tous vos appas,</l>
@@ -1273,7 +1273,7 @@
           </sp>
         </div2>
         <div2 xml:id="V02">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>SCÈNE PREMIÈRE</head>
           <sp who="tircis" xml:id="V02-1">
             <speaker>tircis</speaker>
             <l>Vous chantez sous ces feuillages,</l>
@@ -1286,7 +1286,7 @@
           </sp>
         </div2>
         <div2 xml:id="V03">
-          <head>SCÈNE DEUXIÈME. Lycaste, Ménandre, Tircis.</head>
+          <head>SCÈNE DEUXIÈME. Lycaste, Ménandre, Tircis</head>
           <sp who="lycaste" xml:id="V03-1">
             <speaker>lycaste</speaker>
             <l>Hé quoi toujours languissant, sombre et triste ?</l>
@@ -1391,7 +1391,7 @@
           </sp>
         </div2>
         <div2 xml:id="V04">
-          <head>SCÈNE TROISIÈME.</head>
+          <head>SCÈNE TROISIÈME</head>
           <sp who="caliste" xml:id="V04-1">
             <speaker>caliste</speaker>
             <lg><l>Ah que sur notre cœur</l>
@@ -1426,7 +1426,7 @@
           </sp>
         </div2>
         <div2 xml:id="V05">
-          <head>SCÈNE QUATRIÈME.</head>
+          <head>SCÈNE QUATRIÈME</head>
           <stage>Caliste, Tircis, Lycaste, Ménandre.</stage>
           <sp who="tircis" xml:id="V05-1">
             <speaker>tircis</speaker>
@@ -1515,7 +1515,7 @@
           </sp>
         </div2>
         <div2 xml:id="V06">
-          <head>SCÈNE CINQUIÈME.</head>
+          <head>SCÈNE CINQUIÈME</head>
           <stage> Deux Satyres, Tircis, Lycaste, Caliste.</stage>
           <sp who="satyre1" xml:id="V06-1">
             <speaker>premier satyre</speaker>
@@ -1557,13 +1557,13 @@
             <l>Et tracez sur les herbettes</l>
             <l>L’image de nos chansons.</l>
           </sp>
-            <label>PREMIÈRE ENTRÉE DE BALLET.</label>
+          <label rend="b">PREMIÈRE ENTRÉE DE BALLET.</label>
             <stage>En même temps six Dryades et six Faunes sortent de leurs demeures, et font
               ensemble une danse agréable, qui s’ouvrant tout d’un coup, laisse voir un Berger et
               une Bergère, qui font en Musique une petite Scène d’un dépit amoureux.</stage>
         </div2>
         <div2 xml:id="V07">
-          <head>DÉPIT AMOUREUX.</head>
+          <head>DÉPIT AMOUREUX</head>
           <stage>Climène, Philinte.</stage>
           <sp who="philinte" xml:id="V07-1">
             <speaker>philinte</speaker>
@@ -1634,7 +1634,7 @@
             <l>Amants, que vos querelles</l>
             <l>Sont aimables et belles, etc.</l>
           </sp>
-            <label>DEUXIÈME ENTRÉE DE BALLET</label>
+          <label rend="b">DEUXIÈME ENTRÉE DE BALLET</label>
             <stage>Les Faunes et les Dryades recommencent leur danse, que les Bergères et Bergers
               Musiciens entremêlent de leurs Chansons, tandis que trois petites Dryades, et trois
               petits Faunes, font paraître dans l’enfoncement du Théâtre tout ce qui se passe sur le
@@ -1658,9 +1658,9 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="VI">
-        <head>ACTE III.</head>
+        <head>ACTE III</head>
         <div2 xml:id="VI01">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>SCÈNE PREMIÈRE</head>
           <stage>Aristione, Iphicrate, Timoclès, Anaxarque, Clitidas, Ériphile, Sostrate,
             Suite.</stage>
           <sp who="aristione" xml:id="VI01-1">
@@ -2011,13 +2011,13 @@
           temps qu’elles y entrent, huit Statues portant chacune deux flambeaux à leurs mains,
           sortent de leurs Niches, et font une danse variée de plusieurs Figures, et de plusieurs
           belles attitudes, où elles demeurent par intervalles.</stage>
-        <label>ENTRÉE DE BALLET</label>
+        <label rend="b">ENTRÉE DE BALLET</label>
         <stage>De huit Statues.</stage>
       </div1>
       <div1 type="act" xml:id="VIII">
-        <head>ACTE IV.</head>
+        <head>ACTE IV</head>
         <div2 xml:id="VIII01">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>SCÈNE PREMIÈRE</head>
           <stage>Aristione, Ériphile.</stage>
           <sp who="aristione" xml:id="VIII01-1">
             <speaker>aristione</speaker>
@@ -2070,7 +2070,7 @@
           </sp>
         </div2>
         <div2 xml:id="VIII02">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <stage>Vénus accompagnée de quatre petits Amours dans une machine, Aristione,
             Ériphile.</stage>
           <sp who="venus" xml:id="VIII02-1">
@@ -2095,7 +2095,7 @@
           </sp>
         </div2>
         <div2 xml:id="VIII03">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <stage>Anaxarque, Cléon.</stage>
           <sp who="cleon" xml:id="VIII03-1">
             <speaker>cléon</speaker>
@@ -2140,7 +2140,7 @@
           </sp>
         </div2>
         <div2 xml:id="VIII04">
-          <head>SCÈNE IV.</head>
+          <head>SCÈNE IV</head>
           <stage>Ériphile, Cléonice, Sostrate.</stage>
           <sp who="eriphile" xml:id="VIII04-1">
             <speaker>ériphile</speaker>
@@ -2223,7 +2223,7 @@
           </sp>
         </div2>
         <div2 xml:id="VIII05">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <stage>Cléonice, Ériphile.</stage>
           <sp who="cleonice" xml:id="VIII05-1">
             <speaker>cléonice</speaker>
@@ -2239,14 +2239,14 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="IX" rend="not-i">
-        <head>CINQUIÈME INTERMÈDE.</head>
+        <head>CINQUIÈME INTERMÈDE</head>
         <stage>Quatre Pantomimes, pour épreuve de leur adresse, ajustent leurs gestes et leurs pas
           aux inquiétudes de la jeune Princesse Ériphile.</stage>
-        <label>ENTRÉE DE BALLET</label>
+        <label rend="b">ENTRÉE DE BALLET</label>
         <stage>De quatre Pantomimes.</stage>
       </div1>
       <div1 type="act" xml:id="X">
-        <head>ACTE V.</head>
+        <head>ACTE V</head>
         <div2 xml:id="X01">
           <head>SCÈNE PREMIÈRE</head>
           <stage>Clitidas, Ériphile.</stage>
@@ -2379,7 +2379,7 @@
           </sp>
         </div2>
         <div2 xml:id="X02">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <stage>Aristione, Sostrate, Ériphile, Clitidas.</stage>
           <sp who="aristione" xml:id="X02-1">
             <speaker>aristione</speaker>
@@ -2403,7 +2403,7 @@
           </sp>
         </div2>
         <div2 xml:id="X03">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <stage>Cléonice, Aristione, Sostrate, Ériphile, Clitidas.</stage>
           <sp who="cleonice" xml:id="X03-1">
             <speaker>cléonice</speaker>
@@ -2478,8 +2478,7 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="XI" rend="not-i">
-        <head>SIXIÈME INTERMÈDE.</head>
-        <stage>qui est la solennité des jeux Pythiens.</stage>
+        <head>SIXIÈME INTERMÈDE <lb/>qui est la solennité des jeux Pythiens.</head>
         <stage>Le Théâtre est une grande Salle en manière d’Amphithéâtre, ouvert d’une grande
           arcade, dans le fond, au-dessus de laquelle est une Tribune fermée d’un rideau ; et dans
           l’éloignement paraît un Autel pour le Sacrifice. Six hommes, habillés comme s’ils étaient
@@ -2522,17 +2521,17 @@
           <l>Que du haut de sa gloire</l>
           <l>Il écoute nos chants.</l>
         </sp>
-          <label>PREMIÈRE ENTRÉE DE BALLET.</label>
+        <label rend="b">PREMIÈRE ENTRÉE DE BALLET.</label>
           <stage>Les six hommes portant les haches, font entre eux une danse ornée de toutes les
             attitudes que peuvent exprimer des gens qui étudient leur force, puis ils se retirent
             aux deux côtés du Théâtre pour faire place à six Voltigeurs.</stage>
-          <label>DEUXIÈME ENTRÉE DE BALLET.</label>
+        <label rend="b">DEUXIÈME ENTRÉE DE BALLET.</label>
           <stage>Six Voltigeurs font paraître en cadence leur adresse sur des chevaux de bois, qui
             sont apportés par des Esclaves.</stage>
-          <label>TROISIÈME ENTRÉE DE BALLET.</label>
+        <label rend="b">TROISIÈME ENTRÉE DE BALLET.</label>
           <stage>Quatre Conducteurs d’Esclaves amènent en cadence douze Esclaves qui dansent, en
             marquant la joie qu’ils ont, d’avoir recouvré leur liberté.</stage>
-          <label>QUATRIÈME ENTRÉE DE BALLET.</label>
+        <label rend="b">QUATRIÈME ENTRÉE DE BALLET.</label>
           <stage>Quatre hommes, et quatre femmes armés à la Grecque, font ensemble une manière de
             jeu pour les armes.La Tribune s’ouvre, un Héraut, six Trompettes et un Timbalier se
             mêlant à tous les instruments, annonce avec un grand bruit la venue d’Apollon.</stage>
@@ -2556,10 +2555,10 @@
             le Timbalier, les Sacrificateurs, la Prêtresse et le Chœur de Musique accompagnent tout
             cela en s’y mêlant par diverses reprises ; ce qui finit la Fête des jeux Pythiens, et
             tout le divertissement.</stage>
-        <label>CINQUIÈME et DERNIÈRE ENTRÉE <lb/>de BALLET.</label>
+        <label rend="b">CINQUIÈME et DERNIÈRE ENTRÉE de BALLET.</label>
         <sp who="apollon" xml:id="XI-7">
-          <speaker>apollon, <hi rend="n">et six jeunes gens de sa suite. <lb/>Chœur de Musique.</hi></speaker>
-          <stage>Pour <hi rend="sc">le roi</hi>, Représentant le <hi rend="sc">soleilL</hi></stage>
+          <speaker>apollon, et six jeunes gens de sa suite. <lb/>Chœur de Musique.</speaker>
+          <stage>Pour <hi rend="sc">le roi</hi>, Représentant le <hi rend="sc">soleil</hi></stage>
           <lg><l>Je suis la source des Clartés,</l>
           <l>Et les Astres les plus vantés</l>
           <l>Dont le beau Cercle m’environne,</l>
@@ -2588,7 +2587,7 @@
           <l>Je ne serai pas vain quand je ne croirai pas</l>
           <l>Qu’un autre mieux que moi suive partout ses pas.</l>
         </sp>
-          <label rend="i">FIN</label>
+          <label rend="i">Fin</label>
       </div1>
     </body>
   </text>
