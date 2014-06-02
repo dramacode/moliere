@@ -50,13 +50,7 @@
         </docTitle>
         <docAuthor>PAR J. B. P. DE MOLIÈRE</docAuthor>
         <docImprint>À PARIS, <lb/>Chez JEAN RIBOU, au Palais, vis-à-vis <lb/>la Porte de l'Église de
-          la Sainte-Chapelle, <lb/>À l'Image Saint-Louis.</docImprint>
-        <docDate when="1668">M. DC. LXVIII.</docDate>
-        <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
-        <argument>
-          <p date="1666-02-28" location="Hôtel de Bourgogne">Représenté pour la première fois
-            le 28 février 1666 à l'Hôtel de Bourgogne.</p>
-        </argument>
+          la Sainte-Chapelle, <lb/>À l'Image Saint-Louis. <lb/>M. DC. LXVIII. <lb/><hi rend="i">AVEC PRIVILÈGE DU ROI.</hi></docImprint>
       </titlePage>
       <div>
         <head>À SON ALTESSE SÉRÉNISSIME MONSEIGNEUR LE PRINCE.</head>
@@ -121,8 +115,8 @@
           <castItem><role xml:id="posicles" civil="M" type="H" statut="capitaine" age="A"
               stat_amour="néant">POSICLÈS</role>, capitaine thébain.</castItem>
         </castList>
-        <set location="Thèbes" country="Grèce" periode="Temps mythologiques" link="">La Scène est à
-          Thèbes, devant la Maison d'Amphitryon.</set>
+        <stage location="Thèbes" country="Grèce" periode="Temps mythologiques" link="">La Scène est à
+          Thèbes, devant la Maison d'Amphitryon.</stage>
       </div>
     </front>
     <body>
@@ -370,7 +364,7 @@
         <div2 type="titre2" xml:id="II01">
           <head>SCÈNE PREMIÈRE.</head>
           <sp who="sosie" xml:id="II01-1">
-            <speaker>Sosie</speaker>
+            <speaker>sosie</speaker>
             <l>Qui va là ? Heu ? Ma peur, à chaque pas s’accroît.</l>
             <l>Messieurs, Ami de tout le Monde.</l>
             <l>Ah ! quelle audace sans seconde,</l>
@@ -1385,7 +1379,7 @@
             <l>Ah ! que dans cette occasion,</l>
             <l>J’enrage d’être honnête Femme !</l>
           </sp>
-          <label>Fin du Premier Acte</label>
+          <label rend="i">Fin du Premier Acte</label>
         </div2>
       </div1>
       <div1 type="act" xml:id="III">
@@ -2963,7 +2957,7 @@
             <l>Va, va, Traître, laisse-moi faire ;</l>
             <l>On se lasse, parfois, d’être Femme de bien.</l>
           </sp>
-          <label>Fin du Second Acte.</label>
+          <label rend="i">Fin du Second Acte.</label>
         </div2>
       </div1>
       <div1 type="act" xml:id="IV">
@@ -3229,7 +3223,6 @@
         </div2>
         <div2 type="titre2" xml:id="IV03">
           <head>SCÈNE III.</head>
-          <stage/>
           <sp who="amphitryon" xml:id="IV03-1">
             <speaker>amphitryon</speaker>
             <l>Ah ! quel étrange coup m’a-t-il porté dans l’Âme ?</l>
@@ -4021,7 +4014,7 @@
             <l>Sur telles Affaires, toujours,</l>
             <l>Le meilleur est de ne rien dire.</l>
           </sp>
-          <label rend="sc">fin</label>
+          <label rend="i">Fin</label>
         </div2>
       </div1>
     </body>
