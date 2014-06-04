@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -39,18 +40,18 @@
       </performance>
       <castList>
         <head>ACTEURS</head>
-        <castItem><role xml:id="MOLIÈRE" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">MOLIÈRE</role>, marquis ridicule.</castItem>
-        <castItem><role xml:id="BRECOURT" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">BRÉCOURT</role>, homme de qualité.</castItem>
-        <castItem><role xml:id="LA-GRANGE" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">LA GRANGE</role>, marquis ridicule.</castItem>
-        <castItem><role xml:id="DU-CROISY" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">DU CROISY</role>, poète.</castItem>
-        <castItem><role xml:id="LA-THORILLIÈRE" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">LA THORILLIÈRE</role>, marquis fâcheux.</castItem>
-        <castItem><role xml:id="BÉJART" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">BÉJART</role>, homme qui fait le nécessaire.</castItem>
-        <castItem><role xml:id="MADEMOISELLE-DU-PARC" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle DU PARC</role>, marquise façonnière.</castItem>
-        <castItem><role xml:id="MADEMOISELLE-BÉJART" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle BÉJART</role>, prude.</castItem>
-        <castItem><role xml:id="MADEMOISELLE-DE-BRIE" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle DE BRIE</role>, sage, coquette.</castItem>
-        <castItem><role xml:id="MADEMOISELLE-MOLIÈRE" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle MOLIÈRE</role>, satirique, spirituelle.</castItem>
-        <castItem><role xml:id="MADEMOISELLE-DU-CROISY" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle DU CROISY</role>, peste doucereuse.</castItem>
-        <castItem><role xml:id="MADEMOISELLE-HERVÉ" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle HERVÉ</role>, servante précieuse.</castItem>
+        <castItem><role xml:id="moliere" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">MOLIÈRE</role>, marquis ridicule.</castItem>
+        <castItem><role xml:id="brecourt" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">BRÉCOURT</role>, homme de qualité.</castItem>
+        <castItem><role xml:id="la-grange" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">LA GRANGE</role>, marquis ridicule.</castItem>
+        <castItem><role xml:id="du-croisy" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">DU CROISY</role>, poète.</castItem>
+        <castItem><role xml:id="la-thorilliere" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">LA THORILLIÈRE</role>, marquis fâcheux.</castItem>
+        <castItem><role xml:id="bejart" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">BÉJART</role>, homme qui fait le nécessaire.</castItem>
+        <castItem><role xml:id="mademoiselle-du-parc" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle DU PARC</role>, marquise façonnière.</castItem>
+        <castItem><role xml:id="mademoiselle-bejart" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle BÉJART</role>, prude.</castItem>
+        <castItem><role xml:id="mademoiselle-de-brie" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle DE BRIE</role>, sage, coquette.</castItem>
+        <castItem><role xml:id="mademoiselle-moliere" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle MOLIÈRE</role>, satirique, spirituelle.</castItem>
+        <castItem><role xml:id="mademoiselle-du-croisy" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle DU CROISY</role>, peste doucereuse.</castItem>
+        <castItem><role xml:id="mademoiselle-herve" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle HERVÉ</role>, servante précieuse.</castItem>
       </castList>
       <set location="Versailles" country="France" periode="XVIIème" link="">La scène est à Versailles dans la salle de la Comédie. </set>
     </front>
@@ -60,7 +61,7 @@
         <div2 type="scene" n="1" xml:id="I01">
           <head>SCÈNE PREMIÈRE</head>
           <stage>Molière, Brécourt, La Grange, Du Croisy, Mesdemoiselles Du Parc, Béjart, De Brie, Molière, Du Croisy, Hervé.</stage>
-          <sp who="MOLIERE" xml:id="I01-1">
+          <sp who="moliere" xml:id="I01-1">
             <speaker>MOLIÈRE, seul parlant à ses camarades, qui sont derrière le théâtre.</speaker>
             <p>
               <s>Allons donc, messieurs et mesdames, vous moquez-vous avec votre longueur, et ne voulez-vous pas tous venir ici ?</s>
@@ -69,97 +70,97 @@
               <s>Monsieur de Brécourt</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I01-2">
+          <sp who="brecourt" xml:id="I01-2">
             <speaker>BRÉCOURT, derrière le théâtre.</speaker>
             <p>
               <s>Quoi ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-3">
+          <sp who="moliere" xml:id="I01-3">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Monsieur de La Grange !</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I01-4">
+          <sp who="la-grange" xml:id="I01-4">
             <speaker>LA GRANGE, derrière le théâtre.</speaker>
             <p>
               <s>Qu’est-ce ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-5">
+          <sp who="moliere" xml:id="I01-5">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Monsieur Du Croisy !</s>
             </p>
           </sp>
-          <sp who="DU-CROISY" xml:id="I01-6">
+          <sp who="du-croisy" xml:id="I01-6">
             <speaker>DU CROISY, derrière le théâtre.</speaker>
             <p>
               <s>Plaît-il ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-7">
+          <sp who="moliere" xml:id="I01-7">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Mademoiselle Du Parc !</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I01-8">
+          <sp who="mademoiselle-du-parc" xml:id="I01-8">
             <speaker>MADEMOISELLE DU PARC, derrière le théâtre.</speaker>
             <p>
               <s>Hé bien ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-9">
+          <sp who="moliere" xml:id="I01-9">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Mademoiselle Béjart !</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I01-10">
+          <sp who="mademoiselle-bejart" xml:id="I01-10">
             <speaker>MADEMOISELLE BÉJART, derrière le théâtre.</speaker>
             <p>
               <s>Qu’y a-t-il ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-11">
+          <sp who="moliere" xml:id="I01-11">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Mademoiselle de Brie !</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I01-12">
+          <sp who="mademoiselle-de-brie" xml:id="I01-12">
             <speaker>MADEMOISELLE DE BRIE, derrière le théâtre.</speaker>
             <p>
               <s>Que veut-on ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-13">
+          <sp who="moliere" xml:id="I01-13">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Mademoiselle Du Croisy !</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-CROISY" xml:id="I01-14">
+          <sp who="mademoiselle-du-croisy" xml:id="I01-14">
             <speaker>MADEMOISELLE DU CROISY, derrière le théâtre.</speaker>
             <p>
               <s>Qu’est-ce que c’est ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-15">
+          <sp who="moliere" xml:id="I01-15">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Mademoiselle Hervé !</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-HERVE" xml:id="I01-16">
+          <sp who="mademoiselle-herve" xml:id="I01-16">
             <speaker>MADEMOISELLE HERVÉ, derrière le théâtre.</speaker>
             <p>
               <s>On y va.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-17">
+          <sp who="moliere" xml:id="I01-17">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Je crois que je deviendrai fou avec tous ces gens-ci.</s>
@@ -170,14 +171,14 @@
               <s>Messieurs, me voulez-vous faire enrager aujourd’hui ?</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I01-18">
+          <sp who="brecourt" xml:id="I01-18">
             <speaker>BRÉCOURT</speaker>
             <p>
               <s>Que voulez-vous qu’on fasse ?</s>
               <s>Nous ne savons pas nos rôles ; et c’est nous faire enrager vous-même, que de nous obliger à jouer de la sorte.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-19">
+          <sp who="moliere" xml:id="I01-19">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Ah !</s>
@@ -185,99 +186,99 @@
             </p>
             <stage>Mesdemoiselles Béjart, Du Parc, De Brie, Molière, Du Croisy et Hervé arrivent.</stage>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I01-20">
+          <sp who="mademoiselle-bejart" xml:id="I01-20">
             <speaker>MADEMOISELLE BÉJART</speaker>
             <p>
               <s>Eh bien, nous voilà.</s>
               <s>Que prétendez-vous faire ?</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I01-21">
+          <sp who="mademoiselle-du-parc" xml:id="I01-21">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Quelle est votre pensée ?</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I01-22">
+          <sp who="mademoiselle-de-brie" xml:id="I01-22">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>De quoi est-il question ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-23">
+          <sp who="moliere" xml:id="I01-23">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>De grâce, mettons-nous ici ; et puisque nous voilà tous habillés, et que le roi ne doit venir de deux heures, employons ce temps à répéter notre affaire et voir la manière dont il faut jouer les choses.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I01-24">
+          <sp who="la-grange" xml:id="I01-24">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>Le moyen de jouer ce qu’on ne sait pas ?</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I01-25">
+          <sp who="mademoiselle-du-parc" xml:id="I01-25">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Pour moi, je vous déclare que je ne me souviens pas d’un mot de mon personnage.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I01-26">
+          <sp who="mademoiselle-de-brie" xml:id="I01-26">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Je sais bien qu’il me faudra souffler le mien d’un bout à l’autre.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I01-27">
+          <sp who="mademoiselle-bejart" xml:id="I01-27">
             <speaker>MADEMOISELLE BÉJART</speaker>
             <p>
               <s>Et moi, je me prépare fort à tenir mon rôle à la main.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I01-28">
+          <sp who="mademoiselle-moliere" xml:id="I01-28">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Et moi aussi.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-HERVE" xml:id="I01-29">
+          <sp who="mademoiselle-herve" xml:id="I01-29">
             <speaker>MADEMOISELLE HERVÉ</speaker>
             <p>
               <s>Pour moi, je n’ai pas grand’chose à dire.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-CROISY" xml:id="I01-30">
+          <sp who="mademoiselle-du-croisy" xml:id="I01-30">
             <speaker>MADEMOISELLE DU CROISY</speaker>
             <p>
               <s>Ni moi non plus ; mais avec cela je ne répondrais pas de ne point manquer.</s>
             </p>
           </sp>
-          <sp who="DU-CROISY" xml:id="I01-31">
+          <sp who="du-croisy" xml:id="I01-31">
             <speaker>DU CROISY</speaker>
             <p>
               <s>J’en voudrais être quitte pour dix pistoles.</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I01-32">
+          <sp who="brecourt" xml:id="I01-32">
             <speaker>BRÉCOURT</speaker>
             <p>
               <s>Et moi, pour vingt bons coups de fouet, je vous assure.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-33">
+          <sp who="moliere" xml:id="I01-33">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Vous voilà tous bien malades, d’avoir un méchant rôle à jouer, et que feriez-vous donc si vous étiez en ma place ?</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I01-34">
+          <sp who="mademoiselle-bejart" xml:id="I01-34">
             <speaker>MADEMOISELLE BÉJART</speaker>
             <p>
               <s>Qui, vous ?</s>
               <s>Vous n’êtes pas à plaindre ; car, ayant fait la pièce, vous n’avez pas peur d’y manquer.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-35">
+          <sp who="moliere" xml:id="I01-35">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Et n’ai-je à craindre que le manquement de mémoire ?</s>
@@ -286,19 +287,19 @@
               <s>Est-il auteur qui ne doive trembler lorsqu’il en vient à cette épreuve ? Et n’est-ce pas à moi de dire que je voudrais en être quitte pour toutes les choses du monde ?</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I01-36">
+          <sp who="mademoiselle-bejart" xml:id="I01-36">
             <speaker>MADEMOISELLE BÉJART</speaker>
             <p>
               <s>Si cela vous faisait trembler, vous prendriez mieux vos précautions, et n’auriez pas entrepris en huit jours ce que vous avez fait.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-37">
+          <sp who="moliere" xml:id="I01-37">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Le moyen de m’en défendre, quand un roi me l’a commandé ?</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I01-38">
+          <sp who="mademoiselle-bejart" xml:id="I01-38">
             <speaker>MADEMOISELLE BÉJART</speaker>
             <p>
               <s>Le moyen ?</s>
@@ -307,13 +308,13 @@
               <s>Et quel avantage pensez-vous qu’en prendront tous vos ennemis ?</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I01-39">
+          <sp who="mademoiselle-de-brie" xml:id="I01-39">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>En effet ; il fallait s’excuser avec respect envers le roi, ou demander du temps davantage.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-40">
+          <sp who="moliere" xml:id="I01-40">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Mon Dieu, mademoiselle, les rois n’aiment rien tant qu’une prompte obéissance, et ne se plaisent point du tout à trouver des obstacles.</s>
@@ -323,70 +324,70 @@
               <s>Mais songeons à répéter, s’il vous plaît.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I01-41">
+          <sp who="mademoiselle-bejart" xml:id="I01-41">
             <speaker>MADEMOISELLE BÉJART</speaker>
             <p>
               <s>Comment prétendez-vous que nous fassions, si nous ne savons pas nos rôles ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-42">
+          <sp who="moliere" xml:id="I01-42">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Vous les saurez, vous dis-je ; et quand même vous ne les sauriez pas tout à fait, pouvez-vous pas y suppléer de votre esprit, puisque c’est de la prose, et que vous savez votre sujet ?</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I01-43">
+          <sp who="mademoiselle-bejart" xml:id="I01-43">
             <speaker>MADEMOISELLE BÉJART</speaker>
             <p>
               <s>Je suis votre servante : la prose est pis encore que les vers.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I01-44">
+          <sp who="mademoiselle-moliere" xml:id="I01-44">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Voulez-vous que je vous dise ?</s>
               <s>Vous deviez faire une comédie où vous auriez joué tout seul.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-45">
+          <sp who="moliere" xml:id="I01-45">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Taisez-vous, ma femme, vous êtes une bête.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I01-46">
+          <sp who="mademoiselle-moliere" xml:id="I01-46">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Grand merci, Monsieur mon mari.</s>
               <s>Voilà ce que c’est : le mariage change bien les gens, et vous ne m’auriez pas dit cela il y a dix-huit mois.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-47">
+          <sp who="moliere" xml:id="I01-47">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Taisez-vous, je vous prie.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I01-48">
+          <sp who="mademoiselle-moliere" xml:id="I01-48">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>C’est une chose étrange qu’une petite cérémonie soit capable de nous ôter toutes nos belles qualités, et qu’un mari et un galant regardent la même personne avec des yeux si différents.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-49">
+          <sp who="moliere" xml:id="I01-49">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Que de discours !</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I01-50">
+          <sp who="mademoiselle-moliere" xml:id="I01-50">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Ma foi, si je faisais une comédie, je la ferais sur ce sujet.</s>
               <s>Je justifierais les femmes de bien des choses dont on les accuse ; et je ferais craindre aux maris la différence qu’il y a de leurs manières brusques aux civilités des galants.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-51">
+          <sp who="moliere" xml:id="I01-51">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Ahy !</s>
@@ -394,7 +395,7 @@
               <s>Il n’est pas question de causer maintenant : nous avons autre chose à faire.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I01-52">
+          <sp who="mademoiselle-bejart" xml:id="I01-52">
             <speaker>MADEMOISELLE BÉJART</speaker>
             <p>
               <s>Mais puisqu’on vous a commandé de travailler sur le sujet de la critique qu’on a faite contre vous, que n’avez-vous fait cette comédie des comédiens, dont vous nous avez parlé il y a longtemps ?</s>
@@ -402,49 +403,49 @@
               <s>Car vouloir contrefaire un comédien dans un rôle comique, ce n’est pas le peindre lui-même, c’est peindre d’après lui les personnages qu’il représente, et se servir des mêmes traits et des mêmes couleurs qu’il est obligé d’employer aux différents tableaux des caractères ridicules qu’il imite d’après nature ; mais contrefaire un comédien dans des rôles sérieux, c’est le peindre par des défauts qui sont entièrement de lui, puisque ces sortes de personnages ne veulent ni les gestes, ni les tons de voix ridicules dans lesquels on le reconnoît.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-53">
+          <sp who="moliere" xml:id="I01-53">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Il est vrai ; mais j’ai mes raisons pour ne le pas faire, et je n’ai pas cru, entre nous, que la chose en valût la peine ; et puis il fallait plus de temps pour exécuter cette idée. Comme leurs jours de comédies sont les mêmes que les nôtres, à peine ai-je été les voir que trois ou quatre fois depuis que nous sommes à Paris ; je n’ai attrapé de leur manière de réciter que ce qui m’a d’abord sauté aux yeux, et j’aurais eu besoin de les étudier davantage pour faire des portraits bien ressemblants.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I01-54">
+          <sp who="mademoiselle-du-parc" xml:id="I01-54">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Pour moi, j’en ai reconnu quelques-uns dans votre bouche.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I01-55">
+          <sp who="mademoiselle-de-brie" xml:id="I01-55">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Je n’ai jamais ouï parler de cela.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-56">
+          <sp who="moliere" xml:id="I01-56">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>C’est une idée qui m’avait passé une fois par la tête, et que j’ai laissée là comme une bagatelle, une badinerie, qui peut-être n’aurait point fait rire.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I01-57">
+          <sp who="mademoiselle-de-brie" xml:id="I01-57">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Dites-la-moi un peu, puisque vous l’avez dite aux autres.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-58">
+          <sp who="moliere" xml:id="I01-58">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Nous n’avons pas le temps maintenant.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I01-59">
+          <sp who="mademoiselle-de-brie" xml:id="I01-59">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Seulement deux mots.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-60">
+          <sp who="moliere" xml:id="I01-60">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>J’avais songé une comédie où il y aurait eu un poète, que j’aurais représenté moi-même, qui serait venu pour offrir une pièce à une troupe de comédiens nouvellement arrivés de la campagne.</s>
@@ -462,8 +463,7 @@
               <s>"Là-dessus le comédien aurait récité, par exemple, quelques vers du roi de Nicomède :</s>
             </p>
             <l n="1" xml:id="l1">Te le dirai-je, Araspe ? Il m’a trop bien servi ;</l>
-            <l n="2" xml:id="l2">Augmentant mon pouvoir...</l>
-            <note>Pierre Corneille, "Nicomède", acte II, scène I.</note>
+            <l n="2" xml:id="l2">Augmentant mon pouvoir...<note>Pierre Corneille, "Nicomède", acte II, scène I.</note></l>
             <p>
               <s>Le plus naturellement qu’il aurait été possible.</s>
               <s>Et le poète : Comment ?</s>
@@ -485,8 +485,8 @@
             </p>
             <l n="4" xml:id="l4">Iras-tu, ma chère âme, et ce funeste honneur</l>
             <l n="5" xml:id="l5">Te plaît-il aux dépens de tout notre bonheur ?</l>
-            <l n="6" xml:id="l6">Hélas ! Je vois trop bien..., etc...</l>
-            <note>Pierre Corneille, "Horace", acte II, scène V, Camille, puis Curiace.</note>
+            <l n="6" xml:id="l6">Hélas ! Je vois trop bien..., etc...<note>Pierre Corneille, "Horace", acte II, scène V, Camille, puis Curiace.</note></l>
+            
             <p>
               <s>Tout de même que l’autre, et le plus naturellement qu’ils auraient pu.</s>
               <s>Et le poète aussitôt : " Vous vous moquez, vous ne faites rien qui vaille, et voici comme il faut réciter cela."</s>
@@ -500,14 +500,14 @@
               <s>Enfin, voilà l’idée ; et il aurait parcouru de même tous les acteurs et toutes les actrices.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I01-61">
+          <sp who="mademoiselle-de-brie" xml:id="I01-61">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Je trouve cette idée assez plaisante, et j’en ai reconnu là dès le premier vers.</s>
               <s>Continuez, je vous prie.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-62">
+          <sp who="moliere" xml:id="I01-62">
             <speaker>MOLIÈRE, imitant Beauchâteau, aussi comédien, dans les stances du Cid.</speaker>
             <l n="9" xml:id="l9">Percé jusques au fond du cœur..., etc...</l>
             <p>
@@ -515,31 +515,31 @@
             </p>
             <stage>Imitant Hauteroche, aussi comédien.</stage>
             <l n="10" xml:id="l10">L’inimitié qui règne entre les deux partis,</l>
-            <l n="11" xml:id="l11">n’y rend pas de l’honneur..., etc...</l>
-            <note>Pierre Corneille, "Sertorius", acte II, scène II, Pompée.</note>
+            <l n="11" xml:id="l11">n’y rend pas de l’honneur..., etc...<note>Pierre Corneille, "Sertorius", acte II, scène II, Pompée.</note></l>
+            
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I01-63">
+          <sp who="mademoiselle-de-brie" xml:id="I01-63">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Je le reconnais un peu, je pense.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-64">
+          <sp who="moliere" xml:id="I01-64">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Et celui-ci ?</s>
             </p>
             <stage>Imitant de Villiers, aussi comédien.</stage>
-            <l n="12" xml:id="l12">Seigneur, Polybe est mort..., etc...</l>
-            <note>Pierre Corneille, "OEdipe", acte V, scène III. Le texte exact est "Eh bien ! Polybe est mort ?"</note>
+            <l n="12" xml:id="l12">Seigneur, Polybe est mort..., etc...<note>Pierre Corneille, "OEdipe", acte V, scène III. Le texte exact est "Eh bien ! Polybe est mort ?"</note></l>
+            
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I01-65">
+          <sp who="mademoiselle-de-brie" xml:id="I01-65">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Oui, je sais qui c’est ; mais il y en a quelques-uns d’entre eux, je crois, que vous auriez peine à contrefaire.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-66">
+          <sp who="moliere" xml:id="I01-66">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Mon Dieu, il n’y en a point qu’on ne pût attraper par quelque endroit, si je les avais bien étudiés.</s>
@@ -551,13 +551,13 @@
               <s>Vous, prenez garde à bien représenter avec moi votre rôle de marquis.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I01-67">
+          <sp who="mademoiselle-moliere" xml:id="I01-67">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Toujours des marquis !</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-68">
+          <sp who="moliere" xml:id="I01-68">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Oui, toujours des marquis.</s>
@@ -565,39 +565,39 @@
               <s>Le marquis aujourd’hui est le plaisant de la comédie ; et comme dans toutes les comédies anciennes on voit toujours un valet bouffon qui fait rire les auditeurs, de même, dans toutes nos pièces de maintenant, il faut toujours un marquis ridicule qui divertisse la compagnie.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I01-69">
+          <sp who="mademoiselle-bejart" xml:id="I01-69">
             <speaker>MADEMOISELLE BÉJART</speaker>
             <p>
               <s>Il est vrai, on ne s’en saurait passer.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-70">
+          <sp who="moliere" xml:id="I01-70">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Pour vous, mademoiselle...</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I01-71">
+          <sp who="mademoiselle-du-parc" xml:id="I01-71">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Mon Dieu, pour moi, je m’acquitterai fort mal de mon personnage, et je ne sais pas pourquoi vous m’avez donné ce rôle de façonnière.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-72">
+          <sp who="moliere" xml:id="I01-72">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Mon Dieu, mademoiselle, voilà comme vous disiez lorsque l’on vous donna celui de la Critique de l’École des femmes ; cependant vous vous en êtes acquittée à merveille, et tout le monde est demeuré d’accord qu’on ne peut pas mieux faire que vous avez fait.</s>
               <s>Croyez-moi, celui-ci sera de même ; et vous le jouerez mieux que vous ne pensez.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I01-73">
+          <sp who="mademoiselle-du-parc" xml:id="I01-73">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Comment cela se pourrait-il faire ?</s>
               <s>Car il n’y a point de personne au monde qui soit moins façonnière que moi.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I01-74">
+          <sp who="moliere" xml:id="I01-74">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Cela est vrai ; et c’est en quoi vous faites mieux voir que vous êtes excellente comédienne, de bien représenter un personnage qui est si contraire à votre humeur.</s>
@@ -651,7 +651,7 @@
               <s>Bonjour, Monsieur Molière.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-2">
+          <sp who="moliere" xml:id="I02-2">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Monsieur, votre serviteur.</s>
@@ -664,7 +664,7 @@
               <s>Comment vous en va ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-4">
+          <sp who="moliere" xml:id="I02-4">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Fort bien, pour vous servir.</s>
@@ -677,7 +677,7 @@
               <s>Je viens d’un lieu où j’ai bien dit du bien de vous.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-6">
+          <sp who="moliere" xml:id="I02-6">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Je vous suis obligé.</s>
@@ -691,7 +691,7 @@
               <s>Vous jouez une pièce nouvelle aujourd’hui ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-8">
+          <sp who="moliere" xml:id="I02-8">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Oui, Monsieur.</s>
@@ -704,7 +704,7 @@
               <s>C’est le roi qui vous la fait faire ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-10">
+          <sp who="moliere" xml:id="I02-10">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Oui, Monsieur.</s>
@@ -720,7 +720,7 @@
               <s>Comment l’appelez-vous ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-12">
+          <sp who="moliere" xml:id="I02-12">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Oui, Monsieur.</s>
@@ -732,7 +732,7 @@
               <s>Je vous demande comment vous la nommez.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-14">
+          <sp who="moliere" xml:id="I02-14">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Ah !</s>
@@ -749,7 +749,7 @@
               <s>Comment serez-vous habillés ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-16">
+          <sp who="moliere" xml:id="I02-16">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Comme vous voyez.</s>
@@ -765,7 +765,7 @@
               <s>Quand commencerez-vous ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-18">
+          <sp who="moliere" xml:id="I02-18">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Quand le roi sera venu.</s>
@@ -781,7 +781,7 @@
               <s>Quand croyez-vous qu’il vienne ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-20">
+          <sp who="moliere" xml:id="I02-20">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>La peste m’étouffe, Monsieur, si je le sais.</s>
@@ -793,7 +793,7 @@
               <s>Savez-vous point ?...</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-22">
+          <sp who="moliere" xml:id="I02-22">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Tenez, Monsieur, je suis le plus ignorant homme du monde ; je ne sais rien de tout ce que vous pourrez me demander, je vous jure.</s>
@@ -810,7 +810,7 @@
               <s>Mesdemoiselles, votre serviteur.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-24">
+          <sp who="moliere" xml:id="I02-24">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Ah ! Bon, le voilà d’un autre côté.</s>
@@ -826,7 +826,7 @@
               <s>Jouez-vous toutes deux aujourd’hui ?</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-CROISY" xml:id="I02-26">
+          <sp who="mademoiselle-du-croisy" xml:id="I02-26">
             <speaker>MADEMOISELLE DU CROISY</speaker>
             <p>
               <s>Oui, Monsieur.</s>
@@ -838,13 +838,13 @@
               <s>Sans vous, la comédie ne vaudrait pas grand’chose.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-28">
+          <sp who="moliere" xml:id="I02-28">
             <speaker>MOLIÈRE, bas, aux actrices.</speaker>
             <p>
               <s>Vous ne voulez pas faire en aller cet homme-là ?</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I02-29">
+          <sp who="mademoiselle-de-brie" xml:id="I02-29">
             <speaker>MADEMOISELLE DE BRIE, à La Thorillière.</speaker>
             <p>
               <s>Monsieur, nous avons ici quelque chose à répéter ensemble.</s>
@@ -858,7 +858,7 @@
               <s>Je ne veux pas vous empêcher : vous n’avez qu’à poursuivre.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I02-31">
+          <sp who="mademoiselle-de-brie" xml:id="I02-31">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Mais...</s>
@@ -871,7 +871,7 @@
               <s>Faites librement ce que vous avez à faire.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I02-33">
+          <sp who="mademoiselle-de-brie" xml:id="I02-33">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Oui, mais...</s>
@@ -883,7 +883,7 @@
               <s>Je suis homme sans cérémonie, vous dis-je, et vous pouvez répéter ce qui vous plaira.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-35">
+          <sp who="moliere" xml:id="I02-35">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Monsieur, ces demoiselles ont peine à vous dire qu’elles souhaiteraient fort que personne ne fût ici pendant cette répétition.</s>
@@ -896,7 +896,7 @@
               <s>Il n’y a point de danger pour moi.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-37">
+          <sp who="moliere" xml:id="I02-37">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Monsieur, c’est une coutume qu’elles observent, et vous aurez plus de plaisir quand les choses vous surprendront.</s>
@@ -908,7 +908,7 @@
               <s>Je m’en vais donc dire que vous êtes prêts.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I02-39">
+          <sp who="moliere" xml:id="I02-39">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Point du tout, Monsieur ; ne vous hâtez pas, de grâce.</s>
@@ -918,7 +918,7 @@
         <div2 type="scene" n="3" xml:id="I03">
           <head>SCÈNE III</head>
           <stage>Molière, Brécourt, La Grange, Du Croisy, Mesdemoiselles Du Parc, Béjart, De Brie, Molière, Du Croisy, Hervé.</stage>
-          <sp who="MOLIERE" xml:id="I03-1">
+          <sp who="moliere" xml:id="I03-1">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Ah !</s>
@@ -942,46 +942,46 @@
               <s>Allons, parlez.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I03-2">
+          <sp who="la-grange" xml:id="I03-2">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>"Bonjour, Marquis."</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I03-3">
+          <sp who="moliere" xml:id="I03-3">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Mon Dieu, ce n’est point là le ton d’un marquis ; il faut le prendre un peu plus haut ; et la plupart de ces messieurs affectent une manière de parler particulière, pour se distinguer du commun : "Bonjour, marquis."</s>
               <s>Recommencez donc.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I03-4">
+          <sp who="la-grange" xml:id="I03-4">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>"Bonjour, Marquis."</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I03-5">
+          <sp who="moliere" xml:id="I03-5">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Ah !</s>
               <s>Marquis, ton serviteur.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I03-6">
+          <sp who="la-grange" xml:id="I03-6">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>Que fais-tu là ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I03-7">
+          <sp who="moliere" xml:id="I03-7">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Parbleu !</s>
               <s>Tu vois : j’attends que tous ces messieurs aient débouché la porte, pour présenter là mon visage.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I03-8">
+          <sp who="la-grange" xml:id="I03-8">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>Têtebleu !</s>
@@ -989,71 +989,71 @@
               <s>Je n’ai garde de m’y aller frotter, et j’aime mieux entrer des derniers.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I03-9">
+          <sp who="moliere" xml:id="I03-9">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Il y a là vingt gens qui sont fort assurés de n’entrer point, et qui ne laissent pas de se presser, et d’occuper toutes les avenues de la porte.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I03-10">
+          <sp who="la-grange" xml:id="I03-10">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>Crions nos deux noms à l’huissier, afin qu’il nous appelle.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I03-11">
+          <sp who="moliere" xml:id="I03-11">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Cela est bon pour toi ; mais pour moi, je ne veux pas être joué par Molière.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I03-12">
+          <sp who="la-grange" xml:id="I03-12">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>Je pense pourtant, marquis, que c’est toi qu’il joue dans la critique.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I03-13">
+          <sp who="moliere" xml:id="I03-13">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Moi ?</s>
               <s>Je suis ton valet : c’est toi-même en propre personne.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I03-14">
+          <sp who="la-grange" xml:id="I03-14">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>Ah !</s>
               <s>Ma foi, tu es bon de m’appliquer ton personnage.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I03-15">
+          <sp who="moliere" xml:id="I03-15">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Parbleu !</s>
               <s>Je te trouve plaisant de me donner ce qui t’appartient.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I03-16">
+          <sp who="la-grange" xml:id="I03-16">
             <speaker>LA GRANGE, riant.</speaker>
             <p>
               <s>Ha, ha, ha, cela est drôle.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I03-17">
+          <sp who="moliere" xml:id="I03-17">
             <speaker>MOLIÈRE, riant.</speaker>
             <p>
               <s>Ha, ha, ha, cela est bouffon.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I03-18">
+          <sp who="la-grange" xml:id="I03-18">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>Quoi !</s>
               <s>Tu veux soutenir que ce n’est pas toi qu’on joue dans le marquis de la critique ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I03-19">
+          <sp who="moliere" xml:id="I03-19">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Il est vrai, c’est moi.</s>
@@ -1063,68 +1063,68 @@
               <s>C’est moi, c’est moi, assurément, c’est moi.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I03-20">
+          <sp who="la-grange" xml:id="I03-20">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>Oui parbleu !</s>
               <s>C’est toi ; tu n’as que faire de railler ; et si tu veux, nous gagerons, et verrons qui a raison des deux.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I03-21">
+          <sp who="moliere" xml:id="I03-21">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Et que veux-tu gager encore ?</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I03-22">
+          <sp who="la-grange" xml:id="I03-22">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>Je gage cent pistoles que c’est toi.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I03-23">
+          <sp who="moliere" xml:id="I03-23">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Et moi, cent pistoles que c’est toi.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I03-24">
+          <sp who="la-grange" xml:id="I03-24">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>Cent pistoles comptant ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I03-25">
+          <sp who="moliere" xml:id="I03-25">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Comptant : quatre-vingt-dix pistoles sur Amyntas, et dix pistoles comptant.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I03-26">
+          <sp who="la-grange" xml:id="I03-26">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>Je le veux.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I03-27">
+          <sp who="moliere" xml:id="I03-27">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Cela est fait.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I03-28">
+          <sp who="la-grange" xml:id="I03-28">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>Ton argent court grand risque.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I03-29">
+          <sp who="moliere" xml:id="I03-29">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Le tien est bien aventuré.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I03-30">
+          <sp who="la-grange" xml:id="I03-30">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>À qui nous en rapporter ?</s>
@@ -1134,20 +1134,20 @@
         <div2 type="scene" n="4" xml:id="I04">
           <head>SCÈNE IV</head>
           <stage>Béjart, Molière, Lagrange, Du Croisy, Mesdemoiselles Du Parc, Béjart, De Brie, Molière, Du Croisy, Hérvé.</stage>
-          <sp who="MOLIERE" xml:id="I04-1">
+          <sp who="moliere" xml:id="I04-1">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Voici un homme qui nous jugera.</s>
               <s>Chevalier !</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I04-2">
+          <sp who="brecourt" xml:id="I04-2">
             <speaker>BRÉCOURT</speaker>
             <p>
               <s>Quoi ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I04-3">
+          <sp who="moliere" xml:id="I04-3">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Bon.</s>
@@ -1155,44 +1155,44 @@
               <s>Vouai-je pas dit que vous faites un rôle où l’on doit parler naturellement ?</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I04-4">
+          <sp who="brecourt" xml:id="I04-4">
             <speaker>BRÉCOURT</speaker>
             <p>
               <s>Il est vrai.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I04-5">
+          <sp who="moliere" xml:id="I04-5">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Allons donc.</s>
               <s>Chevalier !</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I04-6">
+          <sp who="brecourt" xml:id="I04-6">
             <speaker>BRÉCOURT</speaker>
             <p>
               <s>Quoi ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I04-7">
+          <sp who="moliere" xml:id="I04-7">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Juge-nous un peu sur une gageure que nous avons faite.</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I04-8">
+          <sp who="brecourt" xml:id="I04-8">
             <speaker>BRÉCOURT</speaker>
             <p>
               <s>Et quelle ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I04-9">
+          <sp who="moliere" xml:id="I04-9">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Nous disputons qui est le marquis de la critique de Molière : il gage que c’est moi, et moi je gage que c’est lui.</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I04-10">
+          <sp who="brecourt" xml:id="I04-10">
             <speaker>BRÉCOURT</speaker>
             <p>
               <s>Et moi, je juge que ce n’est ni l’un ni l’autre.</s>
@@ -1202,27 +1202,27 @@
               <s>Comme l’affaire de la comédie est de représenter en général tous les défauts des hommes, et principalement des hommes de notre siècle, il est impossible à Molière de faire aucun caractère qui ne rencontre quelqu’un dans le monde ; et s’il faut qu’on l’accuse d’avoir songé toutes les personnes ou l’on peut trouver les défauts qu’il peint, il faut sans doute qu’il ne fasse plus de comédies.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I04-11">
+          <sp who="moliere" xml:id="I04-11">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Ma foi, chevalier, tu veux justifier Molière, et épargner notre ami que voilà.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I04-12">
+          <sp who="la-grange" xml:id="I04-12">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>Point du tout.</s>
               <s>C’est toi qu’il épargne, et nous trouverons d’autres juges.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I04-13">
+          <sp who="moliere" xml:id="I04-13">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Soit.</s>
               <s>Mais, dis-moi, chevalier, crois-tu pas que ton Molière est épuisé maintenant, et qu’il ne trouvera plus de matière pour ?...</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I04-14">
+          <sp who="brecourt" xml:id="I04-14">
             <speaker>BRÉCOURT</speaker>
             <p>
               <s>Plus de matière ?</s>
@@ -1230,7 +1230,7 @@
               <s>Mon pauvre marquis, nous lui en fournirons toujours assez, et nous ne prenons guère le chemin de nous rendre sages pour tout ce qu’il fait et tout ce qu’il dit."</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I04-15">
+          <sp who="moliere" xml:id="I04-15">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Attendez, il faut marquer davantage tout cet endroit.</s>
@@ -1267,25 +1267,25 @@
               <s>Voilà à peu près comme cela doit être joué.</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I04-16">
+          <sp who="brecourt" xml:id="I04-16">
             <speaker>BRÉCOURT</speaker>
             <p>
               <s>C’est assez.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I04-17">
+          <sp who="moliere" xml:id="I04-17">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Poursuivez.</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I04-18">
+          <sp who="brecourt" xml:id="I04-18">
             <speaker>BRÉCOURT</speaker>
             <p>
               <s>"Voici Climène et Élise."</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I04-19">
+          <sp who="moliere" xml:id="I04-19">
             <speaker>MOLIÈRE, à Mesdemoiselles Du Parc et Molière.</speaker>
             <p>
               <s>Là-dessus vous arrivez toutes deux.</s>
@@ -1297,43 +1297,43 @@
               <s>Il faut parfois se faire violence.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I04-20">
+          <sp who="mademoiselle-moliere" xml:id="I04-20">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>"Certes, Madame, je vous ai reconnue de loin, et j’ai bien vu à votre air que ce ne pouvait être une autre que vous.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I04-21">
+          <sp who="mademoiselle-du-parc" xml:id="I04-21">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Vous voyez : je viens attendre ici la sortie d’un homme avec qui j’ai une affaire à démêler.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I04-22">
+          <sp who="mademoiselle-moliere" xml:id="I04-22">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Et moi de même."</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I04-23">
+          <sp who="moliere" xml:id="I04-23">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Mesdames, voilà des coffres qui vous serviront de fauteuils.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I04-24">
+          <sp who="mademoiselle-du-parc" xml:id="I04-24">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>"Allons, Madame, prenez place, s’il vous plaît.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I04-25">
+          <sp who="mademoiselle-moliere" xml:id="I04-25">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Après vous, Madame."</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I04-26">
+          <sp who="moliere" xml:id="I04-26">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Bon.</s>
@@ -1341,32 +1341,32 @@
               <s>"Parbleu ! Chevalier, tu devrais faire prendre médecine à tes canons.</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I04-27">
+          <sp who="brecourt" xml:id="I04-27">
             <speaker>BRÉCOURT</speaker>
             <p>
               <s>Comment ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I04-28">
+          <sp who="moliere" xml:id="I04-28">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Ils se portent fort mal.</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I04-29">
+          <sp who="brecourt" xml:id="I04-29">
             <speaker>BRÉCOURT</speaker>
             <p>
               <s>Serviteur à la turlupinade !</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I04-30">
+          <sp who="mademoiselle-moliere" xml:id="I04-30">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Mon Dieu !</s>
               <s>Madame, que je vous trouve le teint d’une blancheur éblouissante, et les lèvres d’un couleur de feu surprenant !</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I04-31">
+          <sp who="mademoiselle-du-parc" xml:id="I04-31">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Ah !</s>
@@ -1374,95 +1374,95 @@
               <s>Ne me regardez point, je suis du dernier laid aujourd’hui.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I04-32">
+          <sp who="mademoiselle-moliere" xml:id="I04-32">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Eh, Madame, levez un peu votre coiffe.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I04-33">
+          <sp who="mademoiselle-du-parc" xml:id="I04-33">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Fi !</s>
               <s>Je suis épouvantable, vous dis-je, et je me fais peur à moi-même.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I04-34">
+          <sp who="mademoiselle-moliere" xml:id="I04-34">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Vous êtes si belle !</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I04-35">
+          <sp who="mademoiselle-du-parc" xml:id="I04-35">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Point, point.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I04-36">
+          <sp who="mademoiselle-moliere" xml:id="I04-36">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Montrez-vous.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I04-37">
+          <sp who="mademoiselle-du-parc" xml:id="I04-37">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Ah !</s>
               <s>Fi donc, je vous prie !</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I04-38">
+          <sp who="mademoiselle-moliere" xml:id="I04-38">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>De grâce.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I04-39">
+          <sp who="mademoiselle-du-parc" xml:id="I04-39">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Mon Dieu, non.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I04-40">
+          <sp who="mademoiselle-moliere" xml:id="I04-40">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Si fait.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I04-41">
+          <sp who="mademoiselle-du-parc" xml:id="I04-41">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Vous me désespérez.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I04-42">
+          <sp who="mademoiselle-moliere" xml:id="I04-42">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Un moment.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I04-43">
+          <sp who="mademoiselle-du-parc" xml:id="I04-43">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Ahy.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I04-44">
+          <sp who="mademoiselle-moliere" xml:id="I04-44">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Résolument, vous vous montrerez.</s>
               <s>On ne peut point se passer de vous voir.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I04-45">
+          <sp who="mademoiselle-du-parc" xml:id="I04-45">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Mon Dieu, que vous êtes une étrange personne !</s>
               <s>Vous voulez furieusement ce que vous voulez.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I04-46">
+          <sp who="mademoiselle-moliere" xml:id="I04-46">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Ah ! Madame, vous n’avez aucun désavantage à paraître au grand jour, je vous jure.</s>
@@ -1470,7 +1470,7 @@
               <s>Vraiment, je les démentirai bien maintenant.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I04-47">
+          <sp who="mademoiselle-du-parc" xml:id="I04-47">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Hélas !</s>
@@ -1481,20 +1481,20 @@
         <div2 type="scene" n="5" xml:id="I05">
           <head>SCÈNE V</head>
           <stage>Molière et les mêmes acteurs à l’exception de Béjart.</stage>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I05-1">
+          <sp who="mademoiselle-de-brie" xml:id="I05-1">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Vous voulez bien, mesdames, que nous vous donnions, en passant, la plus agréable nouvelle du monde.</s>
               <s>Voilà Monsieur Lysidas, qui vient de nous avertir qu’on a fait une pièce contre Molière, que les grands comédiens vont jouer.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I05-2">
+          <sp who="moliere" xml:id="I05-2">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Il est vrai, on me l’a voulu lire ; et c’est un nommé br... Brou... Brossaut qui l’a faite.</s>
             </p>
           </sp>
-          <sp who="DU-CROISY" xml:id="I05-3">
+          <sp who="du-croisy" xml:id="I05-3">
             <speaker>DU CROISY</speaker>
             <p>
               <s>Monsieur, elle est affichée sous le nom de Boursaut ; mais, à vous dire le secret, bien des gens ont mis la main à cet ouvrage, et l’on en doit concevoir une assez haute attente.</s>
@@ -1502,13 +1502,13 @@
               <s>Chacun de nous a donné un coup de pinceau à son portrait ; mais nous nous sommes bien gardés d’y mettre nos noms : il lui aurait été trop glorieux de succomber, aux yeux du monde, sous les efforts de tout le Parnasse ; et pour rendre sa défaite plus ignominieuse, nous avons voulu choisir tout exprès un auteur sans réputation.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I05-4">
+          <sp who="mademoiselle-du-parc" xml:id="I05-4">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Pour moi, je vous avoue que j’en ai toutes les joies imaginables.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I05-5">
+          <sp who="moliere" xml:id="I05-5">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Et moi aussi.</s>
@@ -1516,7 +1516,7 @@
               <s>Le railleur sera raillé ; il aura sur les doigts, ma foi !</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I05-6">
+          <sp who="mademoiselle-du-parc" xml:id="I05-6">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Cela lui apprendra à vouloir satiriser tout.</s>
@@ -1525,13 +1525,13 @@
               <s>Il condamne toutes nos expressions élevées, et prétend que nous parlions toujours terre à terre !</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I05-7">
+          <sp who="mademoiselle-de-brie" xml:id="I05-7">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Le langage n’est rien ; mais il censure tous nos attachements, quelque innocents qu’ils puissent être ; et de la façon qu’il en parle, c’est être criminelle que d’avoir du mérite.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-CROISY" xml:id="I05-8">
+          <sp who="mademoiselle-du-croisy" xml:id="I05-8">
             <speaker>MADEMOISELLE DU CROISY</speaker>
             <p>
               <s>Cela est insupportable.</s>
@@ -1539,35 +1539,35 @@
               <s>Que ne laisse-t-il en repos nos maris, sans leur ouvrir les yeux et leur faire prendre garde à des choses dont ils ne s’avisent pas ?</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I05-9">
+          <sp who="mademoiselle-bejart" xml:id="I05-9">
             <speaker>MADEMOISELLE BÉJART</speaker>
             <p>
               <s>Passe pour tout cela ; mais il satirise même les femmes de bien, et ce méchant plaisant leur donne le titre d’honnêtes diablesses.</s>
+              <note>Voir Molière, "l’Ecole de femmes", Acte IV, scène VII : "Ces dragons de vertu, ces honnêtes diablesses."</note>
             </p>
-            <note>Voir Molière, "l’Ecole de femmes", Acte IV, scène VII : "Ces dragons de vertu, ces honnêtes diablesses."</note>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I05-10">
+          <sp who="mademoiselle-moliere" xml:id="I05-10">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>C’est un impertinent.</s>
               <s>Il faut qu’il en ait tout le soûl.</s>
             </p>
           </sp>
-          <sp who="DU-CROISY" xml:id="I05-11">
+          <sp who="du-croisy" xml:id="I05-11">
             <speaker>DU CROISY</speaker>
             <p>
               <s>La représentation de cette comédie, Madame, aura besoin d’être appuyée, et les comédiens de l’Hôtel...</s>
-              <stage>Il faut comprendre l’Hôtel de Bourgogne qui est la troupe concurrente de celle de Molière à Paris.</stage>
             </p>
+            <stage>Il faut comprendre l’Hôtel de Bourgogne qui est la troupe concurrente de celle de Molière à Paris.</stage>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I05-12">
+          <sp who="mademoiselle-du-parc" xml:id="I05-12">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Mon Dieu, qu’ils n’appréhendent rien.</s>
               <s>Je leur garantis le succès de leur pièce, corps pour corps.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I05-13">
+          <sp who="mademoiselle-moliere" xml:id="I05-13">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Vous avez raison, Madame.</s>
@@ -1575,27 +1575,27 @@
               <s>Je vous laisse à penser si tous ceux qui se croient satirisés par Molière, ne prendront pas l’occasion de se venger de lui en applaudissant à cette comédie.</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I05-14">
+          <sp who="brecourt" xml:id="I05-14">
             <speaker>BRÉCOURT, ironiquement.</speaker>
             <p>
               <s>Sans doute ; et pour moi je réponds de douze marquis, de six précieuses, de vingt coquettes, et de trente cocus, qui ne manqueront pas d’y battre des mains.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I05-15">
+          <sp who="mademoiselle-moliere" xml:id="I05-15">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>En effet.</s>
               <s>Pourquoi aller offenser toutes ces personnes-là, et particulièrement les cocus, qui sont les meilleurs gens du monde ?</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I05-16">
+          <sp who="moliere" xml:id="I05-16">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Par la sambleu !</s>
               <s>On m’a dit qu’on le va dauber, lui et toutes ses comédies, de la belle manière, et que les comédiens et les auteurs, depuis le cèdre jusqu’à l’hysope, sont diablement animés contre lui.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I05-17">
+          <sp who="mademoiselle-moliere" xml:id="I05-17">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Cela lui sied fort bien.</s>
@@ -1605,13 +1605,13 @@
               <s>Il est vrai que de semblables comédies n’ont pas ce grand concours de monde ; mais, en revanche, elles sont toujours bien écrites, personne n’écrit contre elles, et tous ceux qui les voient meurent d’envie de les trouver belles.</s>
             </p>
           </sp>
-          <sp who="DU-CROISY" xml:id="I05-18">
+          <sp who="du-croisy" xml:id="I05-18">
             <speaker>DU CROISY</speaker>
             <p>
               <s>Il est vrai que j’ai l’avantage de ne point faire d’ennemis, et que tous mes ouvrages ont l’approbation des savants.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I05-19">
+          <sp who="mademoiselle-moliere" xml:id="I05-19">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Vous faites bien d’être content de vous.</s>
@@ -1620,95 +1620,95 @@
               <s>Mais quand jouera-t-on le portrait du peintre ?</s>
             </p>
           </sp>
-          <sp who="DU-CROISY" xml:id="I05-20">
+          <sp who="du-croisy" xml:id="I05-20">
             <speaker>DU CROISY</speaker>
             <p>
               <s>Je ne sais ; mais je me prépare fort à paraître des premiers sur les rangs, pour crier : "Voilà qui est beau !"</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I05-21">
+          <sp who="moliere" xml:id="I05-21">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Et moi de même, parbleu !</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I05-22">
+          <sp who="la-grange" xml:id="I05-22">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>Et moi aussi, Dieu me sauve !</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I05-23">
+          <sp who="mademoiselle-du-parc" xml:id="I05-23">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Pour moi, j’y payerai de ma personne comme il faut ; et je réponds d’une bravoure d’approbation, qui mettra en déroute tous les jugements ennemis.</s>
               <s>C’est bien la moindre chose que nous devions faire, que d’épauler de nos louanges le vengeur de nos intérêts.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I05-24">
+          <sp who="mademoiselle-moliere" xml:id="I05-24">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>C’est fort bien dit.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I05-25">
+          <sp who="mademoiselle-de-brie" xml:id="I05-25">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Et ce qu’il nous faut faire toutes.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I05-26">
+          <sp who="mademoiselle-bejart" xml:id="I05-26">
             <speaker>MADEMOISELLE BÉJART</speaker>
             <p>
               <s>Assurément.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-CROISY" xml:id="I05-27">
+          <sp who="mademoiselle-du-croisy" xml:id="I05-27">
             <speaker>MADEMOISELLE DU CROISY</speaker>
             <p>
               <s>Sans doute.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-HERVE" xml:id="I05-28">
+          <sp who="mademoiselle-herve" xml:id="I05-28">
             <speaker>MADEMOISELLE HERVÉ</speaker>
             <p>
               <s>Point de quartier à ce contrefaiseur de gens.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I05-29">
+          <sp who="moliere" xml:id="I05-29">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Ma foi, chevalier, mon ami, il faudra que ton Molière se cache.</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I05-30">
+          <sp who="brecourt" xml:id="I05-30">
             <speaker>BRÉCOURT</speaker>
             <p>
               <s>Qui, lui ?</s>
               <s>Je te promets, marquis, qu’il fait dessein d’aller, sur le théâtre, rire avec tous les autres du portrait qu’on a fait de lui.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I05-31">
+          <sp who="moliere" xml:id="I05-31">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Parbleu !</s>
               <s>Ce sera donc du bout des dents qu’il y rira.</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I05-32">
+          <sp who="brecourt" xml:id="I05-32">
             <speaker>BRÉCOURT</speaker>
             <p>
               <s>Va, va, peut-être qu’il y trouvera plus de sujets de rire que tu ne penses.</s>
               <s>On m’a montré la pièce ; et comme tout ce qu’il y a d’agréable sont effectivement les idées qui ont été prises de Molière, la joie que cela pourra donner n’aura pas lieu de lui déplaire, sans doute ; car, pour l’endroit où on s’efforce de le noircir, je suis le plus trompé du monde, si cela est approuvé de personne ; et quant à tous les gens qu’ils ont tâché d’animer contre lui, sur ce qu’il fait, dit-on, des portraits trop ressemblants, outre que cela est de fort mauvaise grâce, je ne vois rien de plus ridicule et de plus mal repris ; et je n’avais pas cru jusqu’ici que ce fût un sujet de blâme pour un comédien, que de peindre trop bien les hommes.</s>
             </p>
           </sp>
-          <sp who="LA GRANGE" xml:id="I05-33">
+          <sp who="la-grange" xml:id="I05-33">
             <speaker>LA GRANGE</speaker>
             <p>
               <s>Les comédiens m’ont dit qu’ils l’attendaient sur la réponse, et que...</s>
             </p>
           </sp>
-          <sp who="BRECOURT" xml:id="I05-34">
+          <sp who="brecourt" xml:id="I05-34">
             <speaker>BRÉCOURT</speaker>
             <p>
               <s>Sur la réponse ?</s>
@@ -1717,13 +1717,13 @@
               <s>Voilà le vrai moyen de se venger d’eux comme il faut ; et de l’humeur dont je les connais, je suis fort assuré qu’une pièce nouvelle qui leur enlèvera le monde, les fâchera bien plus que toutes les satires qu’on pourrait faire de leurs personnes.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I05-35">
+          <sp who="moliere" xml:id="I05-35">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Mais, chevalier...</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I05-36">
+          <sp who="mademoiselle-bejart" xml:id="I05-36">
             <speaker>MADEMOISELLE BÉJART</speaker>
             <p>
               <s>Souffrez que j’interrompe pour un peu la répétition.</s>
@@ -1731,7 +1731,7 @@
               <s>Si j’avais été en votre place, j’aurais poussé les choses autrement. Tout le monde attend de vous une réponse vigoureuse ; et après la manière dont on m’a dit que vous étiez traité dans cette comédie, vous étiez en droit de tout dire contre les comédiens, et vous deviez n’en épargner aucun.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I05-37">
+          <sp who="moliere" xml:id="I05-37">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>J’enrage de vous ouïr parler de la sorte ; et voilà votre manie, à vous autres femmes.</s>
@@ -1743,13 +1743,13 @@
               <s>Et ne me vengerais-je pas bien d’eux en leur donnant ce qu’ils veulent bien recevoir ?</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I05-38">
+          <sp who="mademoiselle-de-brie" xml:id="I05-38">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Ils se sont fort plaints, toutefois, de trois ou quatre mots que vous avez dits d’eux dans la critique et dans vos précieuses.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I05-39">
+          <sp who="moliere" xml:id="I05-39">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Il est vrai, ces trois ou quatre mots sont fort offensants, et ils ont grande raison de les citer.</s>
@@ -1760,13 +1760,13 @@
               <s>Ce serait une mauvaise affaire pour moi.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I05-40">
+          <sp who="mademoiselle-de-brie" xml:id="I05-40">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Il n’y a pas grand plaisir pourtant à voir déchirer ses ouvrages.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I05-41">
+          <sp who="moliere" xml:id="I05-41">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Et qu’est-ce que cela me fait ?</s>
@@ -1776,13 +1776,13 @@
               <s>Et lorsqu’on attaque une pièce qui a eu du succès, n’est-ce pas attaquer plutôt le jugement de ceux qui l’ont approuvée, que l’art de celui qui l’a faite ?</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I05-42">
+          <sp who="mademoiselle-de-brie" xml:id="I05-42">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Ma foi, j’aurais joué ce petit Monsieur l’auteur, qui se mêle d’écrire contre des gens qui ne songent pas à lui.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I05-43">
+          <sp who="moliere" xml:id="I05-43">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Vous êtes folle.</s>
@@ -1800,13 +1800,13 @@
               <s>C’est de quoi je prierai civilement cet honnête Monsieur qui se mêle d’écrire pour eux, et voilà toute la réponse qu’ils auront de moi.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I05-44">
+          <sp who="mademoiselle-bejart" xml:id="I05-44">
             <speaker>MADEMOISELLE BÉJART</speaker>
             <p>
               <s>Mais enfin...</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I05-45">
+          <sp who="moliere" xml:id="I05-45">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Mais enfin, vous me feriez devenir fou.</s>
@@ -1815,13 +1815,13 @@
               <s>Je ne m’en souviens plus.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I05-46">
+          <sp who="mademoiselle-de-brie" xml:id="I05-46">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Vous en étiez à l’endroit...</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I05-47">
+          <sp who="moliere" xml:id="I05-47">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Mon Dieu !</s>
@@ -1831,55 +1831,55 @@
               <s>Faites donc pour le reste du mieux qu’il vous sera possible.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I05-48">
+          <sp who="mademoiselle-bejart" xml:id="I05-48">
             <speaker>MADEMOISELLE BÉJART</speaker>
             <p>
               <s>Par ma foi, la frayeur me prend, et je ne saurais aller jouer mon rôle, si je ne le répète tout entier.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I05-49">
+          <sp who="moliere" xml:id="I05-49">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Comment, vous ne sauriez aller jouer votre rôle ?</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-BEJART" xml:id="I05-50">
+          <sp who="mademoiselle-bejart" xml:id="I05-50">
             <speaker>MADEMOISELLE BÉJART</speaker>
             <p>
               <s>Non.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I05-51">
+          <sp who="mademoiselle-du-parc" xml:id="I05-51">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Ni moi le mien.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DE-BRIE" xml:id="I05-52">
+          <sp who="mademoiselle-de-brie" xml:id="I05-52">
             <speaker>MADEMOISELLE DE BRIE</speaker>
             <p>
               <s>Ni moi non plus.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-MOLIERE" xml:id="I05-53">
+          <sp who="mademoiselle-moliere" xml:id="I05-53">
             <speaker>MADEMOISELLE MOLIÈRE</speaker>
             <p>
               <s>Ni moi.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-HERVE" xml:id="I05-54">
+          <sp who="mademoiselle-herve" xml:id="I05-54">
             <speaker>MADEMOISELLE HERVÉ</speaker>
             <p>
               <s>Ni moi.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-CROISY" xml:id="I05-55">
+          <sp who="mademoiselle-du-croisy" xml:id="I05-55">
             <speaker>MADEMOISELLE DU CROISY</speaker>
             <p>
               <s>Ni moi.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I05-56">
+          <sp who="moliere" xml:id="I05-56">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Que pensez-vous donc faire ?</s>
@@ -1896,7 +1896,7 @@
               <s>Messieurs, je viens vous avertir que le roi est venu, et qu’il attend que vous commenciez.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I06-2">
+          <sp who="moliere" xml:id="I06-2">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Ah !</s>
@@ -1909,20 +1909,20 @@
         <div2 type="scene" n="7" xml:id="I07">
           <head>SCÈNE VII</head>
           <stage>Molière, La Grange, Du Croisy, Mesdemoiselles Du Parc, Béjart, De Brie, Molière, Du Croisy, Hervé.</stage>
-          <sp who="MOLIERE" xml:id="I07-1">
+          <sp who="moliere" xml:id="I07-1">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Eh !</s>
               <s>De grâce, tâchez de vous remettre, prenez courage, je vous prie.</s>
             </p>
           </sp>
-          <sp who="MADEMOISELLE-DU-PARC" xml:id="I07-2">
+          <sp who="mademoiselle-du-parc" xml:id="I07-2">
             <speaker>MADEMOISELLE DU PARC</speaker>
             <p>
               <s>Vous devez vous aller excuser.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I07-3">
+          <sp who="moliere" xml:id="I07-3">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Comment m’excuser ?...</s>
@@ -1938,7 +1938,7 @@
               <s>Messieurs, commencez donc.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I08-2">
+          <sp who="moliere" xml:id="I08-2">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Tout à l’heure, Monsieur.</s>
@@ -1955,7 +1955,7 @@
               <s>Messieurs, commencez donc.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I09-2">
+          <sp who="moliere" xml:id="I09-2">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Dans un moment, Monsieur.</s>
@@ -1976,7 +1976,7 @@
               <s>Messieurs, commencez donc.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I10-2">
+          <sp who="moliere" xml:id="I10-2">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Oui, Monsieur, nous y allons.</s>
@@ -1994,7 +1994,7 @@
               <s>Messieurs, commencez donc.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I11-2">
+          <sp who="moliere" xml:id="I11-2">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Voilà qui est fait, Monsieur.</s>
@@ -2008,7 +2008,7 @@
         <div2 type="scene" n="12" xml:id="I12">
           <head>SCÈNE XII</head>
           <stage>Béjart, Molière, La Grange, Du Croisy, Mesdemoiselles Du Parc, Béjart, De Brie, Molière, Du Croisy, Hervé.</stage>
-          <sp who="MOLIERE" xml:id="I12-1">
+          <sp who="moliere" xml:id="I12-1">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Monsieur, vous venez pour nous dire de commencer, mais...</s>
@@ -2020,7 +2020,7 @@
               <s>Non, messieurs, je viens pour vous dire qu’on a dit au roi l’embarras où vous vous trouviez, et que, par une bonté toute particulière, il remet votre nouvelle comédie à une autre fois, et se contente, pour aujourd’hui, de la première que vous pourrez donner.</s>
             </p>
           </sp>
-          <sp who="MOLIERE" xml:id="I12-3">
+          <sp who="moliere" xml:id="I12-3">
             <speaker>MOLIÈRE</speaker>
             <p>
               <s>Ah !</s>
