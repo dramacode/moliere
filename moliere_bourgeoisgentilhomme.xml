@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!-- Pb, renuméroter des vers -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_bourgeoisgentilhomme">
+<TEI xml:id="moliere_bourgeoisgentilhomme" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -13,15 +13,12 @@
         <date when="2014"/>
         <publisher>Publié par Paul Fièvre en mai 2010, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
         <availability status="restricted">
-          <licence target="projet-Molière"></licence>
+          <licence target="projet-Molière"/>
         </availability>
-        <idno></idno>
+        <idno/>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-          <author>Molière</author>
-          <title>Le Bourgeois gentilhomme, comédie-ballet</title>
-        </bibl>
+        <bibl> <author>Molière</author> <title>Le Bourgeois gentilhomme, comédie-ballet</title> </bibl>
         <genre>Comédie-ballet</genre>
         <inspiration>mœurs françaises</inspiration>
         <structure>Cinq actes</structure>
@@ -43,59 +40,60 @@
   <text>
     <front>
       <titlePage>
-      <docTitle>
-        <titlePart type="main">LE <lb/>BOURGEOIS<lb/> GENTILHOMME</titlePart>
-        <titlePart type="sub">COMÉDIE-BALLET</titlePart>
-      </docTitle>
-      <premiere date="1670-11-23" location="Théâtre du Palais-Royal">FAITE À CHAMBORD, <lb/>Pour le Divertissement du Roi,</premiere>
-      <docAuthor xml:id="MOLIERE" bio="moliere">Par J. B. P. MOLIÈRE</docAuthor>
-      <docImprint>Et se vend pour l'Auteur <lb/> À PARIS, <lb/> Chez PIERRE LE MONNIER, au Palais, vis-à-vis <lb/> la Porte de l'Église de la Sainte-Chapelle, <lb/> à l'Image Saint-Louis, et au Feu Divin.
+        <docTitle>
+          <titlePart type="main">LE <lb/>BOURGEOIS<lb/> GENTILHOMME</titlePart>
+          <titlePart type="sub">COMÉDIE-BALLET</titlePart>
+        </docTitle>
+        <premiere date="1670-11-23" location="Théâtre du Palais-Royal">FAITE À CHAMBORD, <lb/>Pour le Divertissement du Roi,</premiere>
+        <docAuthor bio="moliere" xml:id="MOLIERE">Par J. B. P. MOLIÈRE</docAuthor>
+        <docImprint>Et se vend pour l'Auteur <lb/> À PARIS, <lb/> Chez PIERRE LE MONNIER, au Palais, vis-à-vis <lb/> la Porte de l'Église de la Sainte-Chapelle, <lb/> à l'Image Saint-Louis, et au Feu Divin.
       </docImprint>
-      <docDate value="1671">M. DC. LXXI.</docDate>
-      <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
+        <docDate value="1671">M. DC. LXXI.</docDate>
+        <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
       </titlePage>
       <castList>
         <head rend="sc">acteurs</head>
-        <castItem><role xml:id="MONSIEUR-JOURDAIN" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">monsieur jourdain</role>, Bourgeois.</castItem>
-        <castItem><role xml:id="MADAME-JOURDAIN" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">madame jourdain</role>, sa Femme.</castItem>
-        <castItem><role xml:id="LUCILE" civil="F" type="H" statut="bourgeois" age="A" stat_amour="amoureux">lucile</role>, Fille de Monsieur Jourdain.</castItem>
-        <castItem><role xml:id="NICOLE" civil="F" type="H" statut="servante" age="A" stat_amour="néant">nicole</role>, Servante.</castItem>
-        <castItem><role xml:id="CLEONTE" civil="M" type="H" statut="bourgeois" age="A" stat_amour="amoureux">cléonte</role>, Amoureux de Lucile.</castItem>
-        <castItem><role xml:id="COVIELLE" civil="M" type="H" statut="valet" age="A" stat_amour="néant">covielle</role>, Valet de Cléonte.</castItem>
-        <castItem><role xml:id="DORANTE" civil="M" type="H" statut="comte" age="A" stat_amour="amoureux">dorante</role>, Comte, Amant de Dorimène.</castItem>
-        <castItem><role xml:id="DORIMENE" civil="F" type="H" statut="marquis" age="A" stat_amour="néant">dorimène</role>, Marquise.</castItem>
-        <castItem><role xml:id="MAITRE-DE-MUSIQUE" civil="M" type="H" statut="maître de mmusique" age="A" stat_amour="néant">maître de musique.</role>.</castItem>
-        <castItem><role xml:id="ELEVE-DU-MAITRE-DE-MUSIQUE" civil="M" type="H" statut="élève" age="A" stat_amour="néant">élève du maître de musique.</role></castItem>
-        <castItem><role xml:id="MAITRE-A-DANSER" civil="M" type="H" statut="maître à danser" age="A" stat_amour="néant">maître à danser.</role>.</castItem>
-        <castItem><role xml:id="MAITRE-D-ARMES" civil="M" type="H" statut="’maître d’armes" age="A" stat_amour="néant">maître d'armes.</role>.</castItem>
-        <castItem><role xml:id="MAITRE-DE-PHILOSOPHIE" civil="M" type="H" statut="philosophe" age="A" stat_amour="néant">maître de philosophie.</role>.</castItem>
-        <castItem><role xml:id="MAITRE-TAILLEUR" civil="M" type="H" statut="tailleur" age="A" stat_amour="néant">maître tailleur.</role>.</castItem>
-        <castItem><role xml:id="GARCON-TAILLEUR" civil="M" type="H" statut="tailleur" age="A" stat_amour="néant">garçon tailleur.</role>.</castItem>
-        <castItem><role xml:id="DEUX-LAQUAIS" civil="G" type="H" statut="laquais" age="A" stat_amour="néant">deux laquais.</role>.</castItem>
-        <castItem type="list">plusieurs musiciens, musiciennes, joueurs d’instruments, danseurs, cuisiniers, garçons tailleurs, <hi rend="n">Et autres Personnages des Intermèdes et du Ballet</hi>.</castItem></castList>
-      <set location="Paris" country="France" periode="XVIIème" link="">La Scène est à Paris.</set>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="monsieur-jourdain">monsieur jourdain</role>, Bourgeois.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="néant" statut="bourgeois" type="H" xml:id="madame-jourdain">madame jourdain</role>, sa Femme.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="lucile">lucile</role>, Fille de Monsieur Jourdain.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="néant" statut="servante" type="H" xml:id="nicole">nicole</role>, Servante.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="cleonte">cléonte</role>, Amoureux de Lucile.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="valet" type="H" xml:id="covielle">covielle</role>, Valet de Cléonte.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="amoureux" statut="comte" type="H" xml:id="dorante">dorante</role>, Comte, Amant de Dorimène.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="néant" statut="marquis" type="H" xml:id="dorimene">dorimène</role>, Marquise.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="maître de mmusique" type="H" xml:id="maitre-de-musique">maître de musique.</role>.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="élève" type="H" xml:id="l-eleve">élève du maître de musique.</role><role xml:id="musicien1"/><role xml:id="musicien2"/><role xml:id="musicienne"/></castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="maître à danser" type="H" xml:id="maitre-a-danser">maître à danser.</role>.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="maître d’armes" type="H" xml:id="maitre-d-armes">maître d'armes.</role>.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="philosophe" type="H" xml:id="maitre-de-philosophie">maître de philosophie.</role>.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="tailleur" type="H" xml:id="maitre-tailleur">maître tailleur.</role>.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="tailleur" type="H" xml:id="garcon-tailleur">garçon tailleur.</role>.</castItem>
+        <castItem><role age="A" civil="G" stat_amour="néant" statut="laquais" type="H" xml:id="laquais1">deux laquais.</role><role xml:id="laquais2"/>.</castItem>
+        <castItem type="list">plusieurs musiciens, musiciennes, joueurs d’instruments, danseurs, cuisiniers, garçons tailleurs, <hi rend="n">Et autres Personnages des Intermèdes et du Ballet</hi>.<role xml:id="mufti"/><role xml:id="turcs"/></castItem>
+      </castList>
+      <set country="France" link="" location="Paris" periode="XVIIème">La Scène est à Paris.</set>
     </front>
     <body>
       <head>LE BOURGEOIS GENTILHOMME <lb/>COMÉDIE-BALLET</head>
       <stage>L’Ouverture se fait par un grand assemblage d’Instruments ; et dans le milieu du Théâtre, on voit un Élève du Maître de Musique, qui compose sur une Table, un Air que le Bourgeois a demandé pour une Sérénade.</stage>
       <div1>
-        <head>ACTE PREMIER.</head>        
+        <head>ACTE PREMIER.</head>
         <div2>
           <head>SCÈNE PREMIÈRE.</head>
           <stage>Maître de musique, Maître à Danser, trois Musiciens, deux Violons, quatre Danseurs</stage>
           <sp who="maitre-de-musique">
-            <speaker>maître de musique, <hi rend="i n">parlant à ses Musiciens</hi></speaker>
+            <speaker>maître de musique, <hi rend="i">parlant à ses Musiciens</hi></speaker>
             <p>Venez, entrez dans cette Salle, et vous reposez là, en attendant qu’il vienne.</p>
           </sp>
           <sp who="maitre-a-danser">
-            <speaker>maître à danser, <hi rend="i n">parlant aux Danseurs</hi></speaker>
+            <speaker>maître à danser, <hi rend="i">parlant aux Danseurs</hi></speaker>
             <p>Et vous aussi, de ce côté.</p>
           </sp>
           <sp who="maitre-de-musique">
-            <speaker>maître de musique, <hi rend="i n">à l’Élève</hi></speaker>
+            <speaker>maître de musique, <hi rend="i">à l’Élève</hi></speaker>
             <p>Est-ce fait ?</p>
           </sp>
-          <sp who="l’eleve">
+          <sp who="l-eleve">
             <speaker>l'élève</speaker>
             <p>Oui.</p>
           </sp>
@@ -166,7 +164,7 @@
         </div2>
         <div2>
           <head>SCÈNE II.</head>
-          <stage>Monsieur Jourdain, deux Laquais, Maître de musique, Maître à danser, Violons, Musiciens <hi rend="n i">et</hi> Danseurs</stage>
+          <stage>Monsieur Jourdain, deux Laquais, Maître de musique, Maître à danser, Violons, Musiciens et Danseurs</stage>
           <sp who="monsieur-jourdain">
             <speaker>monsieur jourdain</speaker>
             <p>Hé bien, Messieurs ? Qu’est-ce ? Me ferez-vous voir votre petite drôlerie ?</p>
@@ -231,7 +229,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>Laquais, holà, mes deux Laquais.</p>
           </sp>
-          <sp who="premier-laquais">
+          <sp who="laquais1">
             <speaker>premier laquais</speaker>
             <p>Que voulez-vous, Monsieur ?</p>
           </sp>
@@ -256,7 +254,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>Laquais.</p>
           </sp>
-          <sp who="premier-laquais">
+          <sp who="laquais1">
             <speaker>premier laquais</speaker>
             <p>Monsieur.</p>
           </sp>
@@ -264,7 +262,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>L’autre Laquais.</p>
           </sp>
-          <sp who="second-laquais">
+          <sp who="laquais2">
             <speaker>second laquais</speaker>
             <p>Monsieur.</p>
           </sp>
@@ -296,12 +294,14 @@
             <speaker>monsieur jourdain</speaker>
             <p>Donnez-moi ma Robe pour mieux entendre… Attendez, je crois que je serai mieux sans Robe… Non, redonnez-la-moi, cela ira mieux.</p>
           </sp>
-          <sp who="musicien"> 
-            <speaker>musicien, <hi rend="i n">chantant</hi></speaker>
-            <lg><l>Je languis nuit et jour, et mon mal est extrême,</l>
-            <l>Depuis qu’à vos rigueurs vos beaux yeux m’ont soumis :</l>
-            <l>Si vous traitez ainsi, belle Iris, qui vous aime,</l>
-            <l>Hélas ! que pourriez-vous faire à vos ennemis ?</l></lg>
+          <sp who="musicien1">
+            <speaker>musicien<hi rend="i">, chantant</hi></speaker>
+            <lg>
+              <l>Je languis nuit et jour, et mon mal est extrême,</l>
+              <l>Depuis qu’à vos rigueurs vos beaux yeux m’ont soumis :</l>
+              <l>Si vous traitez ainsi, belle Iris, qui vous aime,</l>
+              <l>Hélas ! que pourriez-vous faire à vos ennemis ?</l>
+            </lg>
           </sp>
           <sp who="monsieur-jourdain">
             <speaker>monsieur jourdain</speaker>
@@ -331,13 +331,15 @@
             <speaker>monsieur jourdain</speaker>
             <p>Oui. Ah. </p>
             <stage>Monsieur Jourdain chante.</stage>
-            <lg><l>Je croyais Janneton</l>
-            <l>Aussi douce que belle ;</l>
-            <l>Je croyais Janneton</l>
-            <l>Plus douce qu’un Mouton :</l>
-            <p>Hélas ! hélas !</p>
-            <l>Elle est cent fois, mille fois plus cruelle,</l>
-            <l>Que n’est le Tigre aux Bois.</l></lg>
+            <lg>
+              <l>Je croyais Janneton</l>
+              <l>Aussi douce que belle ;</l>
+              <l>Je croyais Janneton</l>
+              <l>Plus douce qu’un Mouton :</l>
+              <p>Hélas ! hélas !</p>
+              <l>Elle est cent fois, mille fois plus cruelle,</l>
+              <l>Que n’est le Tigre aux Bois.</l>
+            </lg>
             <p>N’est-il pas joli ?</p>
           </sp>
           <sp who="maitre-de-musique">
@@ -483,31 +485,37 @@
         </div2>
         <div2>
           <head>dialogue en musique</head>
-          <stage>une musicienne, <hi rend="i n">et</hi> deux musiciens</stage>
-          <lg><l>Un cœur, dans l’amoureux Empire,</l>
-          <l>De mille soins est toujours agité :</l>
-          <l>On dit qu’avec plaisir on languit, on soupire ;</l>
-          <l>Mais, quoi qu’on puisse dire,</l>
-          <l>Il n’est rien de si doux que notre liberté.</l></lg>
-          <sp who="musicien">
+          <stage>une musicienne, et deux musiciens</stage>
+          <lg>
+            <l>Un cœur, dans l’amoureux Empire,</l>
+            <l>De mille soins est toujours agité :</l>
+            <l>On dit qu’avec plaisir on languit, on soupire ;</l>
+            <l>Mais, quoi qu’on puisse dire,</l>
+            <l>Il n’est rien de si doux que notre liberté.</l>
+          </lg>
+          <sp who="musicien1">
             <speaker>musicien</speaker>
-            <lg><l>Il n’est rien de si doux que les tendres ardeurs</l>
-            <l>Qui font vivre deux cœurs</l>
-            <l>Dans une même envie :</l>
-            <l>On ne peut être heureux sans amoureux désirs ;</l>
-            <l>Ôtez l’amour de la vie,</l>
-            <l>Vous en ôtez les plaisirs.</l></lg>
+            <lg>
+              <l>Il n’est rien de si doux que les tendres ardeurs</l>
+              <l>Qui font vivre deux cœurs</l>
+              <l>Dans une même envie :</l>
+              <l>On ne peut être heureux sans amoureux désirs ;</l>
+              <l>Ôtez l’amour de la vie,</l>
+              <l>Vous en ôtez les plaisirs.</l>
+            </lg>
           </sp>
-          <sp who=" second musicien">
+          <sp who="musicien2">
             <speaker>second musicien</speaker>
-            <lg><l>Il serait doux d’entrer sous l’amoureuse Loi,</l>
-            <l>Si l’on trouvait en Amour de la foi :</l>
-            <l>Mais hélas, ô rigueur cruelle,</l>
-            <l>On ne voit point de Bergère fidèle ;</l>
-            <l>Et ce Sexe inconstant, trop indigne du jour,</l>
-              <l>Doit faire pour jamais renoncer à l’Amour.</l></lg>
+            <lg>
+              <l>Il serait doux d’entrer sous l’amoureuse Loi,</l>
+              <l>Si l’on trouvait en Amour de la foi :</l>
+              <l>Mais hélas, ô rigueur cruelle,</l>
+              <l>On ne voit point de Bergère fidèle ;</l>
+              <l>Et ce Sexe inconstant, trop indigne du jour,</l>
+              <l>Doit faire pour jamais renoncer à l’Amour.</l>
+            </lg>
           </sp>
-          <sp who="premier musicien">
+          <sp who="musicien1">
             <speaker>premier musicien</speaker>
             <l>Aimable ardeur !</l>
           </sp>
@@ -515,11 +523,11 @@
             <speaker>musicienne</speaker>
             <l>Franchise heureuse !</l>
           </sp>
-          <sp who="second musicien">
+          <sp who="musicien2">
             <speaker>second musicien</speaker>
             <l>Sexe trompeur !</l>
           </sp>
-          <sp who="premier musicien">
+          <sp who="musicien1">
             <speaker>premier musicien</speaker>
             <l>Que tu m’es précieuse !</l>
           </sp>
@@ -527,11 +535,11 @@
             <speaker>musicienne</speaker>
             <l>Que tu plais à mon cœur !</l>
           </sp>
-          <sp who="second musicien">
+          <sp who="musicien2">
             <speaker>second musicien</speaker>
             <l>Que tu me fais d’horreur !</l>
           </sp>
-          <sp who="premier musicien">
+          <sp who="musicien1">
             <speaker>premier musicien</speaker>
             <l>Ah ! quitte pour aimer, cette haine mortelle !</l>
           </sp>
@@ -540,36 +548,46 @@
             <l>On peut, on peut te montrer</l>
             <l>Une Bergère fidèle.</l>
           </sp>
-          <sp who="second musicien">
-            <speaker> second musicien</speaker>
+          <sp who="musicien2">
+            <speaker>second musicien</speaker>
             <l>Hélas ! où la rencontrer ?</l>
           </sp>
           <sp who="musicienne">
             <speaker>musicienne</speaker>
-            <lg><l>Pour défendre notre gloire,</l>
-              <l>Je te veux offrir mon cœur.</l></lg>
+            <lg>
+              <l>Pour défendre notre gloire,</l>
+              <l>Je te veux offrir mon cœur.</l>
+            </lg>
           </sp>
-          <sp who="second musicien">
-            <speaker> second musicien</speaker>
-            <lg><l>Mais, Bergère, puis-je croire</l>
-              <l>Qu’il ne sera point trompeur ?</l></lg>
+          <sp who="musicien2">
+            <speaker>second musicien</speaker>
+            <lg>
+              <l>Mais, Bergère, puis-je croire</l>
+              <l>Qu’il ne sera point trompeur ?</l>
+            </lg>
           </sp>
           <sp who="musicienne">
             <speaker>musicienne</speaker>
-            <lg><l>Voyons par expérience</l>
-              <l>Qui des deux aimera mieux.</l></lg>
+            <lg>
+              <l>Voyons par expérience</l>
+              <l>Qui des deux aimera mieux.</l>
+            </lg>
           </sp>
-          <sp who="second musicien">
+          <sp who="musicien2">
             <speaker>second musicien</speaker>
-            <lg><l>Qui manquera de constance,</l>
-              <l>Le puissent perdre les Dieux.</l></lg>
+            <lg>
+              <l>Qui manquera de constance,</l>
+              <l>Le puissent perdre les Dieux.</l>
+            </lg>
           </sp>
-          <sp who="tous-trois">
+          <sp who="musicien1 musicien2 musicienne">
             <speaker>tous trois</speaker>
-            <lg><l>À des ardeurs si belles</l>
-            <l>Laissons-nous enflammer ;</l>
-            <l>Ah ! qu’il est doux d’aimer,</l>
-              <l>Quand deux cœurs sont fidèles !</l></lg>
+            <lg>
+              <l>À des ardeurs si belles</l>
+              <l>Laissons-nous enflammer ;</l>
+              <l>Ah ! qu’il est doux d’aimer,</l>
+              <l>Quand deux cœurs sont fidèles !</l>
+            </lg>
           </sp>
           <sp who="monsieur-jourdain">
             <speaker>monsieur jourdain</speaker>
@@ -596,7 +614,7 @@
             <p>C’est ce qu’il vous plaira. Allons.</p>
             <stage>Quatre Danseurs exécutent tous les mouvements différents, et toutes les sortes de pas que le Maître à Danser leur commande ; Et cette Danse fait le premier Intermède.</stage>
           </sp>
-          <label>Fin du Premier Acte.</label>        
+          <label>Fin du Premier Acte.</label>
         </div2>
       </div1>
       <div1>
@@ -720,8 +738,8 @@
         <div2>
           <head>SCÈNE II.</head>
           <stage>Maître d'armes, Maître de musique, Maître à danser, Monsieur Jourdain, deux Laquais</stage>
-          <sp who="maitre-d’armes">
-            <speaker>maître d'armes, <hi rend="i n">après lui avoir mis le fleuret à la main</hi></speaker>
+          <sp who="maitre-d-armes">
+            <speaker>maître d'armes<hi rend="i">, après lui avoir mis le fleuret à la main</hi></speaker>
             <p>Allons, Monsieur, la révérence. Votre corps droit. Un peu penché sur la cuisse gauche. Les jambes point tant écartées. Vos pieds sur une même ligne. Votre poignet à l’opposite de votre hanche. La pointe de votre Épée vis-à-vis de votre épaule. Le bras pas tout à fait si étendu. La main gauche à la hauteur de l’œil. L’épaule gauche plus quartée. La tête droite. Le regard assuré. Avancez. Le corps ferme. Touchez-moi l’Épée de quarte, et achevez de même. Une, Deux. Remettez-vous. Redoublez de pied ferme. Un saut en arrière. Quand vous portez la Botte, Monsieur, il faut que l’Épée parte la première, et que le corps soit bien effacé. Une, deux. Allons, touchez-moi l’Épée de tierce, et achevez de même. Avancez. Le corps ferme. Avancez. Partez de là. Une, deux. Remettez-vous. Redoublez. Un saut en arrière. En garde, Monsieur, en garde.</p>
             <stage>Le Maître d’Armes lui pousse deux ou trois Bottes, en lui disant, « En garde ».</stage>
           </sp>
@@ -733,7 +751,7 @@
             <speaker>maître de musique</speaker>
             <p>Vous faites des merveilles.</p>
           </sp>
-          <sp who="maitre-d’armes">
+          <sp who="maitre-d-armes">
             <speaker>maître d'armes</speaker>
             <p>Je vous l’ai déjà dit ; tout le secret des Armes ne consiste qu’en deux choses, à donner, et à ne point recevoir : Et comme je vous fis voir l’autre jour par raison démonstrative, il est impossible que vous receviez, si vous savez détourner l’Épée de votre ennemi de la ligne de votre corps ; ce qui ne dépend seulement que d’un petit mouvement du poignet ou en dedans, ou en dehors.</p>
           </sp>
@@ -741,7 +759,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>De cette façon donc un Homme, sans avoir du cœur, est sûr de tuer son Homme, et de n’être point tué.</p>
           </sp>
-          <sp who="maitre-d’armes">
+          <sp who="maitre-d-armes">
             <speaker>maître d'armes</speaker>
             <p>Sans doute. N’en vîtes-vous pas la démonstration ?</p>
           </sp>
@@ -749,7 +767,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>Oui.</p>
           </sp>
-          <sp who="maitre-d’armes">
+          <sp who="maitre-d-armes">
             <speaker>maître d'armes</speaker>
             <p>Et c’est en quoi l’on voit de quelle considération nous autres nous devons être dans un État, et combien la Science des Armes l’emporte hautement sur toutes les autres Sciences inutiles, comme la Danse, la Musique, la…</p>
           </sp>
@@ -761,7 +779,7 @@
             <speaker>maître de musique</speaker>
             <p>Apprenez, je vous prie, à mieux traiter l’excellence de la Musique.</p>
           </sp>
-          <sp who="maitre-d’armes">
+          <sp who="maitre-d-armes">
             <speaker>maître d'armes</speaker>
             <p>Vous êtes de plaisantes Gens, de vouloir comparer vos Sciences à la mienne !</p>
           </sp>
@@ -773,7 +791,7 @@
             <speaker>maître à danser</speaker>
             <p>Voilà un plaisant Animal, avec son Plastron !</p>
           </sp>
-          <sp who="maitre-d’armes">
+          <sp who="maitre-d-armes">
             <speaker>maître d'armes</speaker>
             <p>Mon petit Maître à Danser, je vous ferais danser comme il faut. Et vous, mon petit Musicien, je vous ferais chanter de la belle manière.</p>
           </sp>
@@ -782,7 +800,7 @@
             <p>Monsieur le Batteur de Fer, je vous apprendrai votre Métier.</p>
           </sp>
           <sp who="monsieur-jourdain">
-            <speaker>monsieur jourdain, <hi rend="i n">au Maître à danser</hi></speaker>
+            <speaker>monsieur jourdain, <hi rend="i">au Maître à danser</hi></speaker>
             <p>Êtes-vous fou de l’aller quereller, lui qui entend la tierce et la quarte, et qui sait tuer un homme par raison démonstrative ?</p>
           </sp>
           <sp who="maitre-a-danser">
@@ -793,7 +811,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>Tout doux, vous dis-je.</p>
           </sp>
-          <sp who="maitre-d’armes">
+          <sp who="maitre-d-armes">
             <speaker>maître d'armes</speaker>
             <p>Comment ? petit Impertinent.</p>
           </sp>
@@ -809,7 +827,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>Eh mon Maître à Danser.</p>
           </sp>
-          <sp who="maitre-d’armes">
+          <sp who="maitre-d-armes">
             <speaker>maître d'armes</speaker>
             <p>Si je me jette sur vous…</p>
           </sp>
@@ -825,7 +843,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>Tout beau.</p>
           </sp>
-          <sp who="maitre-d’armes">
+          <sp who="maitre-d-armes">
             <speaker>maître d'armes</speaker>
             <p>Je vous étrillerai d’un air…</p>
           </sp>
@@ -877,7 +895,7 @@
             <speaker>maître de philosophie</speaker>
             <p>Un Homme sage est au-dessus de toutes les injures qu’on lui peut dire ; et la grande réponse qu’on doit faire aux outrages, c’est la modération, et la patience.</p>
           </sp>
-          <sp who="maitre-d’armes">
+          <sp who="maitre-d-armes">
             <speaker>maître d'armes</speaker>
             <p>Ils ont tous deux l’audace, de vouloir comparer leurs Professions à la mienne.</p>
           </sp>
@@ -893,7 +911,7 @@
             <speaker>maître de musique</speaker>
             <p>Et moi, que la Musique en est une que tous les Siècles ont révérée.</p>
           </sp>
-          <sp who="maitre-d’armes">
+          <sp who="maitre-d-armes">
             <speaker>maître d'armes</speaker>
             <p>Et moi, je leur soutiens à tous deux, que la Science de tirer des Armes, est la plus belle et la plus nécessaire de toutes les Sciences.</p>
           </sp>
@@ -901,7 +919,7 @@
             <speaker>maître de philosophie</speaker>
             <p>Et que sera donc la Philosophie ? Je vous trouve tous trois bien impertinents, de parler devant moi avec cette arrogance ; et de donner impudemment le nom de Science à des choses que l’on ne doit pas même honorer du nom d’Art, et qui ne peuvent être comprises que sous le nom de Métier misérable de Gladiateur, de Chanteur, et de Baladin !</p>
           </sp>
-          <sp who="maitre-d’armes">
+          <sp who="maitre-d-armes">
             <speaker>maître d'armes</speaker>
             <p>Allez, Philosophe de chien.</p>
           </sp>
@@ -930,7 +948,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>Monsieur le Philosophe.</p>
           </sp>
-          <sp who="maitre-d’armes">
+          <sp who="maitre-d-armes">
             <speaker>maître d'armes</speaker>
             <p>La peste l’Animal !</p>
           </sp>
@@ -984,7 +1002,7 @@
           <head>SCÈNE IV.</head>
           <stage>Maître de philosophie, Monsieur Jourdain</stage>
           <sp who="maitre-de-philosophie">
-            <speaker>maître de philosophie, <hi rend="i n">en raccommodant son Collet</hi></speaker>
+            <speaker>maître de philosophie<hi rend="i">, en raccommodant son Collet</hi></speaker>
             <p>Venons à notre leçon.</p>
           </sp>
           <sp who="monsieur-jourdain">
@@ -1311,7 +1329,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>Comment, mon Habit n’est point encore arrivé ?</p>
           </sp>
-          <sp who="second-laquais">
+          <sp who="laquais2">
             <speaker>second laquais</speaker>
             <p>Non, Monsieur.</p>
           </sp>
@@ -1322,7 +1340,7 @@
         </div2>
         <div2>
           <head>SCÈNE V.</head>
-          <stage>Maître tailleur, Garçon tailleur <hi rend="i n">portant l’habit de Monsieur Jourdain</hi>, Monsieur Jourdain, Laquais</stage>
+          <stage>Maître tailleur, Garçon tailleur <hi rend="i">portant l’habit de Monsieur Jourdain</hi>, Monsieur Jourdain, Laquais</stage>
           <sp who="monsieur-jourdain">
             <speaker>monsieur jourdain</speaker>
             <p>Ah vous voilà. Je m’allais mettre en colère contre vous.</p>
@@ -1428,7 +1446,7 @@
             <p>Tout est bien.</p>
           </sp>
           <sp who="monsieur-jourdain">
-            <speaker>monsieur jourdain, <hi rend="i n">en regardant l’Habit du Tailleur</hi></speaker>
+            <speaker>monsieur jourdain, <hi rend="i">en regardant l’Habit du Tailleur</hi></speaker>
             <p>Ah, ah, Monsieur le Tailleur, voilà de mon étoffe du dernier Habit que vous m’avez fait. Je la reconnais bien.</p>
           </sp>
           <sp who="maitre-tailleur">
@@ -1452,7 +1470,7 @@
             <p>Attendez. Cela ne va pas comme cela. J’ai amené des Gens pour vous habiller en cadence, et ces sortes d’Habits se mettent avec cérémonie. Holà, entrez, vous autres. Mettez cet Habit à Monsieur, de la manière que vous faites aux Personnes de Qualité.</p>
             <stage>Quatre Garçons Tailleurs entrent, dont deux lui arrachent le Haut-de-chausse de ses Exercices, et deux autres la Camisole, puis ils lui mettent son Habit neuf ; et Monsieur Jourdain se promène entre eux, et leur montre son Habit, pour voir s’il est bien. Le tout à la cadence de toute la Symphonie.</stage>
           </sp>
-          <sp who="garçon-tailleur">
+          <sp who="garcon-tailleur">
             <speaker>garçon tailleur</speaker>
             <p>Mon Gentilhomme, donnez, s’il vous plaît, aux Garçons, quelque chose pour boire.</p>
           </sp>
@@ -1460,7 +1478,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>Comment m’appelez-vous ?</p>
           </sp>
-          <sp who="garçon-tailleur">
+          <sp who="garcon-tailleur">
             <speaker>garçon tailleur</speaker>
             <p>Mon gentilhomme.</p>
           </sp>
@@ -1468,7 +1486,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>Mon Gentilhomme ! Voilà ce que c’est, de se mettre en Personne de Qualité. Allez-vous-en demeurer toujours habillé en Bourgeois, on ne vous dira point mon Gentilhomme. Tenez, voilà pour Mon Gentilhomme.</p>
           </sp>
-          <sp who="garçon-tailleur">
+          <sp who="garcon-tailleur">
             <speaker>garçon tailleur</speaker>
             <p>Monseigneur, nous vous sommes bien obligés.</p>
           </sp>
@@ -1476,7 +1494,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>Monseigneur, oh, oh ! Monseigneur ! Attendez, mon ami, Monseigneur mérite quelque chose, et ce n’est pas une petite parole que Monseigneur. Tenez, voilà ce que Monseigneur vous donne.</p>
           </sp>
-          <sp who="garçon-tailleur">
+          <sp who="garcon-tailleur">
             <speaker>garçon tailleur</speaker>
             <p>Monseigneur, nous allons boire tous à la santé de votre Grandeur.</p>
           </sp>
@@ -1484,7 +1502,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>Votre Grandeur Oh, oh, oh ! Attendez, ne vous en allez pas. À moi, Votre Grandeur ! Ma foi, s’il va jusqu’à l’Altesse, il aura toute la Bourse. Tenez, voilà pour ma Grandeur.</p>
           </sp>
-          <sp who="garçon-tailleur">
+          <sp who="garcon-tailleur">
             <speaker>garçon tailleur</speaker>
             <p>Monseigneur, nous la remercions très humblement de ses libéralités.</p>
           </sp>
@@ -1505,7 +1523,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>Suivez-moi, que j’aille un peu montrer mon Habit par la Ville ; et surtout, ayez soin tous deux de marcher immédiatement sur mes pas, afin qu’on voie bien que vous êtes à moi.</p>
           </sp>
-          <sp who="laquais">
+          <sp who="laquais1">
             <speaker>laquais</speaker>
             <p>Oui, Monsieur.</p>
           </sp>
@@ -2363,7 +2381,7 @@
             <p>Madame Jourdain vous baise les mains.</p>
           </sp>
           <sp who="dorante">
-            <speaker>dorante, <hi rend="i n">bas, à Monsieur Jourdain</hi></speaker>
+            <speaker>dorante, <hi rend="i">bas, à Monsieur Jourdain</hi></speaker>
             <p>Notre belle marquise, comme je vous ai mandé par mon Billet, viendra tantôt ici pour le Ballet et le Repas ; et je l’ai fait consentir enfin au Cadeau que vous lui voulez donner.</p>
           </sp>
           <sp who="monsieur-jourdain">
@@ -2451,7 +2469,7 @@
             <p>Vous avez fait prudemment, et votre Femme aurait pu nous embarrasser. J’ai donné pour vous l’ordre qu’il faut au Cuisinier, et à toutes les choses qui sont nécessaires pour le Ballet. Il est de mon invention ; et pourvu que l’exécution puisse répondre à l’idée, je suis sûr qu’il sera trouvé…</p>
           </sp>
           <sp who="monsieur-jourdain">
-            <speaker>monsieur jourdain <hi rend="i n">s’aperçoit que Nicole écoute, et lui donne un soufflet</hi></speaker>
+            <speaker>monsieur jourdain <hi rend="i">s’aperçoit que Nicole écoute, et lui donne un soufflet</hi></speaker>
             <p>Ouais, vous êtes bien impertinente. Sortons, s’il vous plaît.</p>
           </sp>
         </div2>
@@ -3286,7 +3304,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>Que Diable est-ce là ! Ils n’ont rien que les grands Seigneurs à me reprocher ; et moi, je ne vois rien de si beau, que de hanter les grands Seigneurs ; il n’y a qu’honneur et que civilité avec eux, et je voudrais qu’il m’eût coûté deux doigts de la main, et être né Comte ou Marquis.</p>
           </sp>
-          <sp who="laquais">
+          <sp who="laquais1">
             <speaker>laquais</speaker>
             <p>Monsieur, voici Monsieur le Comte, et une Dame qu’il mène par la main.</p>
           </sp>
@@ -3298,7 +3316,7 @@
         <div2>
           <head>SCÈNE XV.</head>
           <stage>Dorimène, Dorante, Laquais</stage>
-          <sp who="laquais">
+          <sp who="laquais1">
             <speaker>laquais</speaker>
             <p>Monsieur dit comme cela, qu’il va venir ici tout à l’heure.</p>
           </sp>
@@ -3351,7 +3369,7 @@
           <head>SCÈNE XVI.</head>
           <stage>Monsieur Jourdain, Dorimène, Dorante, Laquais</stage>
           <sp who="monsieur-jourdain">
-            <speaker>monsieur jourdain, <hi rend="i n">après avoir fait deux révérences, se trouvant trop près de Dorimène</hi></speaker>
+            <speaker>monsieur jourdain, <hi rend="i">après avoir fait deux révérences, se trouvant trop près de Dorimène</hi></speaker>
             <p>Un peu plus loin, Madame.</p>
           </sp>
           <sp who="dorimene">
@@ -3407,7 +3425,7 @@
             <p>Je n’ai rien fait encore, Madame, pour mériter cette grâce.</p>
           </sp>
           <sp who="dorante">
-            <speaker>dorante, <hi rend="i n">bas, à Monsieur Jourdain</hi></speaker>
+            <speaker>dorante, <hi rend="i">bas, à Monsieur Jourdain</hi></speaker>
             <p>Prenez bien garde au moins, à ne lui point parler du Diamant que vous lui avez donné.</p>
           </sp>
           <sp who="monsieur-jourdain">
@@ -3450,7 +3468,7 @@
             <speaker>dorante</speaker>
             <p>Songeons à manger.</p>
           </sp>
-          <sp who="laquais">
+          <sp who="laquais1">
             <speaker>laquais</speaker>
             <p>Tout est prêt, Monsieur.</p>
           </sp>
@@ -3520,38 +3538,48 @@
             <speaker>dorante</speaker>
             <p>Monsieur Jourdain, prêtons silence à ces Messieurs ; ce qu’ils nous diront, vaudra mieux que tout ce que nous pourrions dire.</p>
             <stage>Les Musiciens et la Musicienne prennent des Verres, chantent deux Chansons à boire, et sont soutenus de toute la Symphonie.</stage>
-            <label>PREMIÈRE CHANSON À BOIRE.</label>
-            <lg><l>Un petit doigt, Philis, pour commencer le tour :</l>
-            <l>Ah ! qu’un Verre en vos mains a d’agréables charmes !</l>
-            <l>Vous, et le Vin, vous vous prêtez des armes,</l>
-            <l>Et je sens pour tous deux redoubler mon amour :</l>
-            <l>Entre lui, vous et moi, jurons, jurons ma Belle,</l>
-            <l>Une ardeur éternelle.</l></lg>
-            <lg><l>Qu’en mouillant votre bouche il en reçoit d’attraits,</l>
-            <l>Et que l’on voit par lui votre bouche embellie !</l>
-            <l>Ah ! l’un de l’autre ils me donnent envie,</l>
-            <l>Et de vous et de lui je m’enivre à longs traits :</l>
-            <l>Entre lui, vous et moi, jurons, jurons, ma Belle,</l>
-            <l>Une ardeur éternelle.</l></lg>
-            <label>SECONDE CHANSON À BOIRE.</label>
-            <lg><l>Buvons, chers Amis, buvons :</l>
-            <l>Le temps qui fuit nous y convie ;</l>
-            <l>Profitons de la vie</l>
-            <l>Autant que nous pouvons :</l>
-            <l>Quand on a passé l’onde noire,</l>
-            <l>Adieu le bon Vin, nos amours ;</l>
-            <l>Dépêchons-nous de boire,</l>
-            <l>On ne boit pas toujours.</l></lg>
-            <lg><l>Laissons raisonner les Sots</l>
-            <l>Sur le vrai bonheur de la vie ;</l>
-            <l>Notre Philosophie</l>
-            <l>Le met parmi les Pots :</l>
-            <l>Les biens, le savoir et la gloire,</l>
-            <l>N’ôtent point les soucis fâcheux ;</l>
-            <l>Et ce n’est qu’à bien boire</l>
-            <l>Que l’on peut être heureux.</l></lg>
-            <lg><l>Sus, sus du Vin partout, versez, Garçons versez,</l>
-            <l>Versez, versez toujours, tant qu’on vous dise assez.</l></lg>
+            <lg>
+              <label>PREMIÈRE CHANSON À BOIRE.</label>
+              <l>Un petit doigt, Philis, pour commencer le tour :</l>
+              <l>Ah ! qu’un Verre en vos mains a d’agréables charmes !</l>
+              <l>Vous, et le Vin, vous vous prêtez des armes,</l>
+              <l>Et je sens pour tous deux redoubler mon amour :</l>
+              <l>Entre lui, vous et moi, jurons, jurons ma Belle,</l>
+              <l>Une ardeur éternelle.</l>
+            </lg>
+            <lg>
+              <l>Qu’en mouillant votre bouche il en reçoit d’attraits,</l>
+              <l>Et que l’on voit par lui votre bouche embellie !</l>
+              <l>Ah ! l’un de l’autre ils me donnent envie,</l>
+              <l>Et de vous et de lui je m’enivre à longs traits :</l>
+              <l>Entre lui, vous et moi, jurons, jurons, ma Belle,</l>
+              <l>Une ardeur éternelle.</l>
+            </lg>
+            <lg>
+              <label>SECONDE CHANSON À BOIRE.</label>
+              <l>Buvons, chers Amis, buvons :</l>
+              <l>Le temps qui fuit nous y convie ;</l>
+              <l>Profitons de la vie</l>
+              <l>Autant que nous pouvons :</l>
+              <l>Quand on a passé l’onde noire,</l>
+              <l>Adieu le bon Vin, nos amours ;</l>
+              <l>Dépêchons-nous de boire,</l>
+              <l>On ne boit pas toujours.</l>
+            </lg>
+            <lg>
+              <l>Laissons raisonner les Sots</l>
+              <l>Sur le vrai bonheur de la vie ;</l>
+              <l>Notre Philosophie</l>
+              <l>Le met parmi les Pots :</l>
+              <l>Les biens, le savoir et la gloire,</l>
+              <l>N’ôtent point les soucis fâcheux ;</l>
+              <l>Et ce n’est qu’à bien boire</l>
+              <l>Que l’on peut être heureux.</l>
+            </lg>
+            <lg>
+              <l>Sus, sus du Vin partout, versez, Garçons versez,</l>
+              <l>Versez, versez toujours, tant qu’on vous dise assez.</l>
+            </lg>
           </sp>
           <sp who="dorimene">
             <speaker>dorimène</speaker>
@@ -3651,7 +3679,7 @@
             <stage>On ôte la table.</stage>
           </sp>
           <sp who="madame-jourdain">
-            <speaker>madame jourdain, <hi rend="i n">sortant</hi></speaker>
+            <speaker>madame jourdain, <hi rend="i">sortant</hi></speaker>
             <p>Je me moque de cela. Ce sont mes droits que je défends, et j’aurai pour moi toutes les Femmes.</p>
           </sp>
           <sp who="monsieur-jourdain">
@@ -3661,7 +3689,7 @@
         </div2>
         <div2>
           <head>SCÈNE III.</head>
-          <stage>Covielle, <hi rend="i n">déguisé</hi>, Monsieur Jourdain, Laquais</stage>
+          <stage>Covielle, <hi rend="i">déguisé</hi>, Monsieur Jourdain, Laquais</stage>
           <sp who="covielle">
             <speaker>covielle</speaker>
             <p>Monsieur, je ne sais pas si j’ai l’honneur d’être connu de vous.</p>
@@ -3909,7 +3937,7 @@
         </div2>
         <div2>
           <head>SCÈNE IV.</head>
-          <stage>Cléonte <hi rend="i n">en Turc, avec trois pages portant sa Veste</hi>, Monsieur Jourdain, Covielle <hi rend="i n">déguisé</hi>.</stage>
+          <stage>Cléonte <hi rend="i">en Turc, avec trois pages portant sa Veste</hi>, Monsieur Jourdain, Covielle <hi rend="i">déguisé</hi>.</stage>
           <sp who="cleonte">
             <speaker>cléonte</speaker>
             <p rend="i">Ambousahim oqui boraf, Iordina salamalequi.</p>
@@ -4006,83 +4034,95 @@
             <speaker>covielle</speaker>
             <p>Prenez la peine de vous tirer un peu plus loin, pour faire place à ce que j’aperçois venir. Vous pourrez voir une partie de l’histoire, tandis que je vous conterai le reste.</p>
             <stage>La Cérémonie Turque pour ennoblir le Bourgeois, se fait en Danse et en Musique, et compose le quatrième Intermède.</stage>
-            <stage rend="n">Le Mufti, quatre Dervis, six Turcs dansants, six Turcs Musiciens, et autres Joueurs d’Instruments à la Turque, sont les Acteurs de cette Cérémonie.</stage>
-            <stage rend="n">Le Mufti invoque Mahomet, avec les douze Turcs et les quatre Dervis ; après on lui amène le Bourgeois vêtu à la Turque, sans Turban et sans Sabre, auquel il chante ces paroles .</stage>
+            <stage>Le Mufti, quatre Dervis, six Turcs dansants, six Turcs Musiciens, et autres Joueurs d’Instruments à la Turque, sont les Acteurs de cette Cérémonie.</stage>
+            <stage>Le Mufti invoque Mahomet, avec les douze Turcs et les quatre Dervis ; après on lui amène le Bourgeois vêtu à la Turque, sans Turban et sans Sabre, auquel il chante ces paroles .</stage>
           </sp>
-          <sp who="le-mufti">
+          <sp who="mufti">
             <speaker>le mufti</speaker>
-            <lg><l>Se ti sabir,</l>
-            <l>Ti respondir</l>
-            <l>Se non sabir</l>
-            <l>Tazir, tazir.</l></lg>
-            <lg><l>Mi star Mufti</l>
-            <l>Ti qui star ti</l>
-            <l>Non intendir</l>
-           <l>Tazir, tazir.</l></lg>
+            <lg>
+              <l>Se ti sabir,</l>
+              <l>Ti respondir</l>
+              <l>Se non sabir</l>
+              <l>Tazir, tazir.</l>
+            </lg>
+            <lg>
+              <l>Mi star Mufti</l>
+              <l>Ti qui star ti</l>
+              <l>Non intendir</l>
+              <l>Tazir, tazir.</l>
+            </lg>
             <stage rend="n">Le Mufti demande en même langue aux Turcs assistants, de quelle Religion est le Bourgeois, et ils l’assurent qu’il est Mahométan. Le Mufti invoque Mahomet en langue Franque, et chante les paroles qui suivent.</stage>
           </sp>
-          <sp who="le-mufti">
+          <sp who="mufti">
             <speaker>le mufti</speaker>
-            <lg><l>Mahametta per Giourdina</l>
-            <l>Mi pregar sera é mattina</l>
-            <l>Voler far un Paladina</l>
-            <l>De Giourdina, de Giourdina.</l>
-            <l>Dar Turbanta, é dar scarcina</l>
-            <l>Con Galera ê Brigantina</l>
-            <l>Per deffender Palestina.</l>
-            <l>Mahametta, etc.</l></lg>
+            <lg>
+              <l>Mahametta per Giourdina</l>
+              <l>Mi pregar sera é mattina</l>
+              <l>Voler far un Paladina</l>
+              <l>De Giourdina, de Giourdina.</l>
+              <l>Dar Turbanta, é dar scarcina</l>
+              <l>Con Galera ê Brigantina</l>
+              <l>Per deffender Palestina.</l>
+              <l>Mahametta, etc.</l>
+            </lg>
             <stage rend="n">Le Mufti demande aux Turcs si le Bourgeois sera ferme dans la Religion Mahométane, et leur chante ces paroles.</stage>
           </sp>
-          <sp who="le-mufti">
+          <sp who="mufti">
             <speaker>le mufti</speaker>
             <l>Star bon Turca, Giourdina.</l>
           </sp>
-          <sp who="les-turcs">
+          <sp who="turcs">
             <speaker>les turcs</speaker>
             <l>Hi valla.</l>
           </sp>
-          <sp who="le-mufti">
-            <speaker>le mufti <hi rend="i n">danse et chante ces mots.</hi></speaker>
+          <sp who="mufti">
+            <speaker>le mufti <hi rend="i">danse et chante ces mots.</hi></speaker>
             <l>Hu la ba ba la chou ba la ba ba la da.</l>
             <stage rend="n">Les Turcs répondent les mêmes vers.</stage>
             <stage rend="n">Le Mufti propose de donner le Turban au Bourgeois, et chante les paroles qui suivent.</stage>
           </sp>
-          <sp who="le-mufti">
+          <sp who="mufti">
             <speaker>le mufti</speaker>
             <l>Ti non star Furba.</l>
           </sp>
-          <sp who="les-turcs">
+          <sp who="turcs">
             <speaker>les turcs</speaker>
             <l>No no no.</l>
           </sp>
-          <sp who="le-mufti">
+          <sp who="mufti">
             <speaker>le mufti</speaker>
             <l>Non star forfanta ?</l>
           </sp>
-          <sp who="les-turcs">
+          <sp who="turcs">
             <speaker>les turcs</speaker>
             <l>No no no.</l>
           </sp>
-          <sp who="le-mufti">
+          <sp who="mufti">
             <speaker>le mufti</speaker>
             <l>Donar Turbanta, donar Turbanta.</l>
           </sp>
-            <stage rend="n">Les Turcs répètent tout ce qu’a dit le Mufti pour donner le turban au Bourgeois. Le Mufti et les Dervis se coiffent avec des Turbans de cérémonies, et l’on présente au Mufti l’Alcoran, qui fait une seconde invocation avec tout le reste des Turcs assistants ; après son Invocation il donne au Bourgeois l’Épée, et chante ces paroles.</stage>
-          <sp who="le-mufti">
+          <stage rend="n">Les Turcs répètent tout ce qu’a dit le Mufti pour donner le turban au Bourgeois. Le Mufti et les Dervis se coiffent avec des Turbans de cérémonies, et l’on présente au Mufti l’Alcoran, qui fait une seconde invocation avec tout le reste des Turcs assistants ; après son Invocation il donne au Bourgeois l’Épée, et chante ces paroles.</stage>
+          <sp who="mufti">
             <speaker>le mufti</speaker>
-            <lg><l>Ti star nobilé non star fabola.</l>
-            <l>Pigliar schiabbola.</l></lg>
+            <lg>
+              <l>Ti star nobilé non star fabola.</l>
+              <l>Pigliar schiabbola.</l>
+            </lg>
             <stage rend="n">Les Turcs répètent les mêmes Vers, mettant tous le Sabre à la main, et six d’entre eux dansent autour du Bourgeois, auquel ils feignent de donner plusieurs coups de Sabre.</stage>
             <stage rend="n">Le Mufti commande aux Turcs de bâtonner le Bourgeois, et chante les paroles qui suivent.</stage>
-            <lg><l>Dara dara</l>
-            <l>Bastonara bastonara.</l></lg>
+            <lg>
+              <l>Dara dara</l>
+              <l>Bastonara bastonara.</l>
+            </lg>
             <stage rend="n">Les Turcs répètent les mêmes vers, et lui donnent plusieurs coups de Bâton en cadence.</stage>
             <stage rend="n">Le Mufti, après l'avoir fait bâtonner, lui dit en chantant.</stage>
           </sp>
-          <sp who="le-mufti">
+          <sp who="mufti">
             <speaker>le mufti</speaker>
-            <lg><l>Non tener honta</l>
-            <l>Questa star l’ultima affronta.</l></lg>
+            <lg>
+              <l>Non tener honta</l>
+              <l>Questa star l’ultima affronta.</l>
+            </lg>
             <stage rend="n">Les Turcs répètent les mêmes vers.</stage>
             <stage rend="n">Le Mufti recommence une Invocation et se retire après la Cérémonie avec tous les Turcs, en dansant et chantant avec plusieurs Instruments à la Turquesque.</stage>
           </sp>
@@ -4195,7 +4235,7 @@
             <p>Qu’est-ce que c’est donc que tout cela ?</p>
           </sp>
           <sp who="monsieur-jourdain">
-            <speaker>monsieur jourdain <hi rend="i n">danse et chante</hi>.</speaker>
+            <speaker>monsieur jourdain <hi rend="i">danse et chante</hi>.</speaker>
             <p rend="i">Hou la ba ba la chou ba la ba ba la da.</p>
           </sp>
           <sp who="madame-jourdain">
@@ -4203,7 +4243,7 @@
             <p>Hélas, mon Dieu, mon mari est devenu fou.</p>
           </sp>
           <sp who="monsieur-jourdain">
-            <speaker>monsieur jourdain, <hi rend="i n">sortant</hi></speaker>
+            <speaker>monsieur jourdain, <hi rend="i">sortant</hi></speaker>
             <p>Paix, insolente, portez respect à Monsieur le <hi rend="i">Mamamouchi</hi>.</p>
           </sp>
           <sp who="madame-jourdain">
@@ -4256,7 +4296,7 @@
             <p>Monsieur, nous venons rendre hommage, Madame, et moi, à votre nouvelle dignité, et nous réjouir avec vous du mariage que vous faites de votre Fille avec le Fils du Grand Turc.</p>
           </sp>
           <sp who="monsieur-jourdain">
-            <speaker>monsieur jourdain, <hi rend="i n">après avoir fait les révérences à la Turque</hi></speaker>
+            <speaker>monsieur jourdain, <hi rend="i">après avoir fait les révérences à la Turque</hi></speaker>
             <p>Monsieur, je vous souhaite la force des Serpents, et la prudence des Lions.</p>
           </sp>
           <sp who="dorimene">
@@ -4294,7 +4334,7 @@
         </div2>
         <div2>
           <head>SCÈNE IV.</head>
-          <stage>Cléonte, Covielle, Monieur Jourdain, <hi rend="i n">etc.</hi></stage>
+          <stage>Cléonte, Covielle, Monieur Jourdain, <hi rend="i">etc.</hi></stage>
           <sp who="dorante">
             <speaker>dorante</speaker>
             <p>Monsieur, nous venons faire la révérence à Votre Altesse, comme Amis de Monsieur votre Beau-Père, et l’assurer avec respect de nos très humbles services.</p>
@@ -4330,7 +4370,7 @@
         </div2>
         <div2>
           <head>SCÈNE V.</head>
-          <stage>Lucile, Monsieur Jourdain, Dorante, Dorimène, <hi rend="i n">etc</hi>.</stage>
+          <stage>Lucile, Monsieur Jourdain, Dorante, Dorimène, <hi rend="i">etc</hi>.</stage>
           <sp who="monsieur-jourdain">
             <speaker>monsieur jourdain</speaker>
             <p>Venez, ma Fille, approchez-vous, et venez donner votre main à Monsieur, qui vous fait l’honneur de vous demander en mariage.</p>
@@ -4378,7 +4418,7 @@
         </div2>
         <div2>
           <head>SCÈNE DERNIÈRE.</head>
-          <stage>Madame Jourdain, Monsieur Jourdain, Cléonte, <hi rend="i n">etc</hi>.</stage>
+          <stage>Madame Jourdain, Monsieur Jourdain, Cléonte, <hi rend="i">etc</hi>.</stage>
           <sp who="madame-jourdain">
             <speaker>madame jourdain</speaker>
             <p>Comment donc, qu’est-ce que c’est que ceci ? On dit que vous voulez donner votre Fille en mariage à un Carême-prenant ?</p>
@@ -4504,7 +4544,7 @@
             <p>Je n’ai que faire de votre mot.</p>
           </sp>
           <sp who="covielle">
-            <speaker>covielle, <hi rend="i n">à Monsieur Jourdain</hi></speaker>
+            <speaker>covielle, <hi rend="i">à Monsieur Jourdain</hi></speaker>
             <p>Monsieur, si elle veut écouter une parole en particulier, je vous promets de la faire consentir à ce que vous voulez.</p>
           </sp>
           <sp who="madame-jourdain">
@@ -4548,7 +4588,7 @@
             <p>Hé bien, quoi ?</p>
           </sp>
           <sp who="covielle">
-            <speaker>covielle, <hi rend="i n">à part</hi></speaker>
+            <speaker>covielle, <hi rend="i">à part</hi></speaker>
             <p>Il y a une heure, Madame, que nous vous faisons signe. Ne voyez-vous pas bien que tout ceci n’est fait que pour nous ajuster aux visions de votre Mari, que nous l’abusons sous ce déguisement, et que c’est Cléonte lui-même qui est le Fils du Grand Turc ?</p>
           </sp>
           <sp who="madame-jourdain">
@@ -4623,7 +4663,7 @@
         </div2>
         <div2>
           <head>PREMIÈRE ENTRÉE</head>
-          <stage rend="n">Un Homme vient donner les Livres du Ballet, qui d’abord est fatigué par une multitude de Gens de Provinces différentes, qui crient en Musique pour en avoir, et par trois Importuns qu’il trouve toujours sur ses pas</stage>.
+          <stage rend="n">Un Homme vient donner les Livres du Ballet, qui d’abord est fatigué par une multitude de Gens de Provinces différentes, qui crient en Musique pour en avoir, et par trois Importuns qu’il trouve toujours sur ses pas.</stage>
           <label>DIALOGUE DES GENS, <stage>qui en Musique demandent des Livres</stage>.</label>
           <sp who="tous">
             <speaker>tous</speaker>
@@ -4794,32 +4834,41 @@
           <sp who="tous">
             <speaker>tous</speaker>
             <l>À moi, Monsieur, à moi de grâce, à moi, Monsieur,</l>
-            <l>Un livre, s’il vous plaît, à votre Serviteur.</l> </sp>
+            <l>Un livre, s’il vous plaît, à votre Serviteur.</l>
+          </sp>
         </div2>
         <div2>
-            <head>SECONDE ENTRÉE.</head>
-            <stage rend="n">Les trois Importuns dansent.</stage>
+          <head>SECONDE ENTRÉE.</head>
+          <stage rend="n">Les trois Importuns dansent.</stage>
         </div2>
         <div2>
-            <head>TROISIÈME ENTRÉE.</head>
+          <head>TROISIÈME ENTRÉE.</head>
           <sp who="trois-espagnols-chantent">
             <speaker rend="n">Trois Espagnols chantent</speaker>
-            <lg><l>Sé que me muero de amor,</l>
-            <l>Y solicito el dolor.</l></lg>
-            <lg><l>Aun muriendo de querer</l>
-            <l>De tan buen ayre adolezco</l>
-            <l>Que es mas de lo que padezco</l>
-            <l>Lo que quiero padecer</l>
-            <l>Y no pudiendo exceder</l>
-            <l>A mi deseo el rigor.</l></lg>
-            <lg><l>Sé que me muero de amor,</l>
-            <l>Y solicito el dolor.</l></lg>
-            <lg><l>Lisonxeame la suerte</l>
-            <l>Con piedad tan advertida,</l>
-            <l>Que me assegura la vida</l>
-            <l>En el riesgo de la muerte</l>
-            <l>Vivir de su golpe fuerte</l>
-            <l>Es de mi salud primor.</l></lg>
+            <lg>
+              <l>Sé que me muero de amor,</l>
+              <l>Y solicito el dolor.</l>
+            </lg>
+            <lg>
+              <l>Aun muriendo de querer</l>
+              <l>De tan buen ayre adolezco</l>
+              <l>Que es mas de lo que padezco</l>
+              <l>Lo que quiero padecer</l>
+              <l>Y no pudiendo exceder</l>
+              <l>A mi deseo el rigor.</l>
+            </lg>
+            <lg>
+              <l>Sé que me muero de amor,</l>
+              <l>Y solicito el dolor.</l>
+            </lg>
+            <lg>
+              <l>Lisonxeame la suerte</l>
+              <l>Con piedad tan advertida,</l>
+              <l>Que me assegura la vida</l>
+              <l>En el riesgo de la muerte</l>
+              <l>Vivir de su golpe fuerte</l>
+              <l>Es de mi salud primor.</l>
+            </lg>
             <l>Sé que, etc.</l>
             <stage rend="n">Six Espagnols dansent.</stage>
           </sp>
@@ -4833,7 +4882,7 @@
             <l>Ay que locura.</l>
           </sp>
           <sp who="espagnol">
-            <speaker>espagnol, <hi rend="i n">chantant</hi></speaker>
+            <speaker>espagnol, <hi rend="i">chantant</hi></speaker>
             <l>El dolor solicita,</l>
             <l>El que al dolor se da</l>
             <l>Y nadie de amor muere</l>
@@ -4862,22 +4911,26 @@
           </sp>
         </div2>
         <div2>
-            <head>QUATRIÈME ENTRÉE</head>
+          <head>QUATRIÈME ENTRÉE</head>
           <sp who="italiens">
             <speaker>Italiens</speaker>
             <stage rend="n">Une Musicienne Italienne fait le premier Récit, dont voici les paroles.</stage>
-            <lg><l>Di rigori armata il seno</l>
-            <l>Contro amor mi ribellai,</l>
-            <l>Ma fui vinta in un baleno</l>
-            <l>In mirar duo vaghi rai,</l>
-            <l>Ahi che resiste puoco</l>
-            <l>Cor di gelo a stral di fuoco.</l></lg>
-            <lg><l>Ma si caro è’l mio tormento</l>
-            <l>Dolce è sí la piaga mia,</l>
-            <l>Ch’il penare è’l mio contento,</l>
-            <l>E’l sanarmi è tirannia.</l>
-            <l>Ahi che più giova, e piace</l>
-            <l>Quanto amor è più vivace.</l></lg>
+            <lg>
+              <l>Di rigori armata il seno</l>
+              <l>Contro amor mi ribellai,</l>
+              <l>Ma fui vinta in un baleno</l>
+              <l>In mirar duo vaghi rai,</l>
+              <l>Ahi che resiste puoco</l>
+              <l>Cor di gelo a stral di fuoco.</l>
+            </lg>
+            <lg>
+              <l>Ma si caro è’l mio tormento</l>
+              <l>Dolce è sí la piaga mia,</l>
+              <l>Ch’il penare è’l mio contento,</l>
+              <l>E’l sanarmi è tirannia.</l>
+              <l>Ahi che più giova, e piace</l>
+              <l>Quanto amor è più vivace.</l>
+            </lg>
             <stage rend="n">Après l’Air que la Musicienne a chanté, deux Scaramouches, deux Trivelins et un Arlequin représentent une Nuit à la manière des Comédiens Italiens, en cadence.</stage>
             <stage rend="n">Un Musicien italien se joint à la Musicienne italienne, et chante avec elle les paroles qui suivent.</stage>
           </sp>
@@ -4920,27 +4973,31 @@
             <speaker>tous deux</speaker>
             <l>Sù cantiamo, etc.</l>
           </sp>
-            <stage rend="n">Après le Dialogue italien, les Scaramouches et Trivelins dansent une Réjouissance.</stage>
+          <stage rend="n">Après le Dialogue italien, les Scaramouches et Trivelins dansent une Réjouissance.</stage>
         </div2>
         <div2>
-            <head>CINQUIÈME ENTRÉE.</head>
-            <stage rend="n sc">Français.</stage>
-            <stage rend="n">Deux Musiciens Poitevins dansent, et chantent les paroles qui suivent</stage>
-            <label>PREMIER MENUET.</label>
+          <head>CINQUIÈME ENTRÉE.</head>
+          <stage rend="n sc">Français.</stage>
+          <stage rend="n">Deux Musiciens Poitevins dansent, et chantent les paroles qui suivent</stage>
+          <label>PREMIER MENUET.</label>
           <sp who="deux-musiciens-poitevins">
             <l>AH ! qu’il fait beau dans ces Bocages,</l>
             <l>Ah ! que le Ciel donne un beau jour.</l>
           </sp>
           <sp who="autre-musicien">
             <speaker>autre musicien</speaker>
-            <lg><l>Le Rossignol, sous ces tendres feuillages,</l>
-            <l>Chante aux Échos son doux retour :</l></lg>
-            <lg><l>Ce beau séjour,</l>
-            <l>Ces doux ramages,</l>
-            <l>Ce beau séjour</l>
-            <l>Nous invite à l’Amour.</l></lg>
+            <lg>
+              <l>Le Rossignol, sous ces tendres feuillages,</l>
+              <l>Chante aux Échos son doux retour :</l>
+            </lg>
+            <lg>
+              <l>Ce beau séjour,</l>
+              <l>Ces doux ramages,</l>
+              <l>Ce beau séjour</l>
+              <l>Nous invite à l’Amour.</l>
+            </lg>
           </sp>
-            <label> SECOND MENUET.</label> 
+          <label> SECOND MENUET.</label>
           <sp who="tous-deux-ensemble">
             <speaker>tous deux ensemble</speaker>
             <l>Vois ma Climène,</l>
@@ -4955,11 +5012,11 @@
             <l>Si tu le veux,</l>
             <l>Être comme eux.</l>
           </sp>
-            <stage rend="n">Six autres Français viennent après vêtus galamment à la Poitevine, trois en Hommes, et trois en Femmes, accompagnés de huit Flûtes et de hautbois, et dansent les Menuets.</stage>
+          <stage rend="n">Six autres Français viennent après vêtus galamment à la Poitevine, trois en Hommes, et trois en Femmes, accompagnés de huit Flûtes et de hautbois, et dansent les Menuets.</stage>
         </div2>
         <div2>
-            <head>SIXIÈME ENTRÉE.</head>
-            <stage rend="n">Tout cela finit par le mélange des trois Nations, et les applaudissements en Danse et en Musique de toute l’assistance, qui chante les deux Vers qui suivent :</stage>
+          <head>SIXIÈME ENTRÉE.</head>
+          <stage rend="n">Tout cela finit par le mélange des trois Nations, et les applaudissements en Danse et en Musique de toute l’assistance, qui chante les deux Vers qui suivent :</stage>
           <sp who="toute-l'assistance">
             <l>Quels Spectacles charmants, quels plaisirs goûtons-nous,</l>
             <l>Les Dieux mêmes, les Dieux, n’en ont point de plus doux.</l>

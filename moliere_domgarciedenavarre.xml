@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_domgarciedenavarre" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,14 +46,15 @@
       </performance>
       <castList>
         <head>ACTEURS</head>
-        <castItem><role xml:id="DOM-GARCIE" civil="M" type="H" statut="prince" age="A" stat_amour="Elvire">DOM GARCIE</role>, prince de Navarre, amant d’Elvire.</castItem>
-        <castItem><role xml:id="ELVIRE" civil="F" type="H" statut="prince" age="A" stat_amour="néant">ELVIRE</role>, princesse de Léon.</castItem>
-        <castItem><role xml:id="ÉLISE" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">ÉLISE</role>.</castItem>
-        <castItem><role xml:id="DOM-ALPHONSE" civil="M" type="H" statut="prince" age="A" stat_amour="néant">DOM ALPHONSE</role>, prince de Léon, cru prince de Castille, sous le nom de Dom Sylve.</castItem>
-        <castItem><role xml:id="IGNES" civil="F" type="H" statut="comte" age="A" stat_amour="Dom Sylve">IGNÈS</role>, comtesse, amante de Dom Sylve, aimée de Mauregat, usurpateur de l’Etat de Léon.</castItem>
-        <castItem><role xml:id="DOM-ALVAR" civil="M" type="H" statut="confident" age="A" stat_amour="Elise">DOM ALVAR</role>, confident de Dom Garcie, amante d’Elise.</castItem>
-        <castItem><role xml:id="DOM-LOPE" civil="M" type="H" statut="confident" age="A" stat_amour="Elise">DOM LOPE</role>, autre confident de Dom Garcie, amant rebuté d’Elise.</castItem>
-        <castItem><role xml:id="DOM-PEDRE" civil="F" type="H" statut="écuyer" age="A" stat_amour="néant">DOM PEDRE</role>, écuyer d’Ignès.</castItem>
+        <castItem><role xml:id="dom-garcie" civil="M" type="H" statut="prince" age="A" stat_amour="Elvire">DOM GARCIE</role>, prince de Navarre, amant d’Elvire.</castItem>
+        <castItem><role xml:id="elvire" civil="F" type="H" statut="prince" age="A" stat_amour="néant">ELVIRE</role>, princesse de Léon.</castItem>
+        <castItem><role xml:id="elise" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">ÉLISE</role>.</castItem>
+        <castItem><role xml:id="dom-alphonse" civil="M" type="H" statut="prince" age="A" stat_amour="néant">DOM ALPHONSE</role>, prince de Léon, cru prince de Castille, sous le nom de Dom Sylve.</castItem>
+        <castItem><role xml:id="ignes" civil="F" type="H" statut="comte" age="A" stat_amour="Dom Sylve">IGNÈS</role>, comtesse, amante de Dom Sylve, aimée de Mauregat, usurpateur de l’Etat de Léon.</castItem>
+        <castItem><role xml:id="alvar" civil="M" type="H" statut="confident" age="A" stat_amour="Elise">DOM ALVAR</role>, confident de Dom Garcie, amante d’Elise.</castItem>
+        <castItem><role xml:id="lope" civil="M" type="H" statut="confident" age="A" stat_amour="Elise">DOM LOPE</role>, autre confident de Dom Garcie, amant rebuté d’Elise.</castItem>
+        <castItem><role xml:id="pedre" civil="M" type="H" statut="écuyer" age="A" stat_amour="néant">DOM PEDRE</role>, écuyer d’Ignès.</castItem>
+        <castItem><role xml:id="dom-sylve" civil="M">[DOM SYLVE]</role></castItem>
       </castList>
       <set location="Astorgue" country="Espagne" periode="XVIIème" link="">La scène est dans Astorgue, ville d’Espagne, dans le royaume de Léon.</set>
     </front>
@@ -63,8 +64,8 @@
         <div2 type="scene" n="1" xml:id="I01">
           <head>SCÈNE PREMIÈRE</head>
           <stage>Dona Elvire, Élise.</stage>
-          <sp who="DONA-ELVIRE" xml:id="I01-1">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I01-1">
+            <speaker>dona elvire</speaker>
             <l n="1" xml:id="l1">Non, ce n’est point un choix qui pour ces deux amants</l>
             <l n="2" xml:id="l2">Sut régler de mon cœur les secrets sentiments ;</l>
             <l n="3" xml:id="l3">Et le prince n’a point dans tout ce qu’il peut être</l>
@@ -80,15 +81,15 @@
             <l n="13" xml:id="l13">Et toute mon estime, égale entre les deux,</l>
             <l n="14" xml:id="l14">Laissa vers dom Garcie entraîner tous mes vœux.</l>
           </sp>
-          <sp who="ELISE" xml:id="I01-2">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="I01-2">
+            <speaker>élise</speaker>
             <l n="15" xml:id="l15">Cet amour que pour lui votre astre vous inspire</l>
             <l n="16" xml:id="l16">N’a sur vos actions pris que bien peu d’empire,</l>
             <l n="17" xml:id="l17">Puisque nos yeux, madame, ont pu longtemps douter</l>
             <l n="18" xml:id="l18">Qui de ces deux amants vous vouliez mieux traiter.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I01-3">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I01-3">
+            <speaker>dona elvire</speaker>
             <l n="19" xml:id="l19">De ces nobles rivaux l’amoureuse poursuite</l>
             <l n="20" xml:id="l20">À de fâcheux combats, élise, m’a réduite.</l>
             <l n="21" xml:id="l21">Quand je regardais l’un, rien ne me reprochait</l>
@@ -108,8 +109,8 @@
             <l n="35" xml:id="l35">Et voulait réparer, par ce faible avantage,</l>
             <l n="36" xml:id="l36">Ce qu’au fond de mon cœur je lui faisais d’outrage.</l>
           </sp>
-          <sp who="ELISE" xml:id="I01-4">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="I01-4">
+            <speaker>élise</speaker>
             <l n="37" xml:id="l37">Mais son premier amour, que vous avez appris,</l>
             <l n="38" xml:id="l38">Doit de cette contrainte affranchir vos esprits ;</l>
             <l n="39" xml:id="l39">Et puisqu’avant ses soins, où pour vous il s’engage,</l>
@@ -121,8 +122,8 @@
             <l n="45" xml:id="l45">Et vous pouvez, sans crainte, à cet amant confus</l>
             <l n="46" xml:id="l46">D’un devoir d’amitié couvrir tous vos refus.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I01-5">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I01-5">
+            <speaker>dona elvire</speaker>
             <l n="47" xml:id="l47">Il est vrai que j’ai lieu de chérir la nouvelle</l>
             <l n="48" xml:id="l48">Qui m’apprit que dom Sylve était un infidèle,</l>
             <l n="49" xml:id="l49">Puisque par ses ardeurs mon cœur tyrannisé</l>
@@ -136,15 +137,15 @@
             <l n="57" xml:id="l57">Et semble préparer, dans mon juste courroux,</l>
             <l n="58" xml:id="l58">Un éclat à briser tout commerce entre nous ?</l>
           </sp>
-          <sp who="ELISE" xml:id="I01-6">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="I01-6">
+            <speaker>élise</speaker>
             <l n="59" xml:id="l59">Mais si de votre bouche il n’a point su sa gloire,</l>
             <l n="60" xml:id="l60">Est-ce un crime pour lui que de n’oser la croire ?</l>
             <l n="61" xml:id="l61">Et ce qui d’un rival a pu flatter les feux</l>
             <l n="62" xml:id="l62">L’autorise-t-il pas à douter de vos vœux ?</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I01-7">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I01-7">
+            <speaker>dona elvire</speaker>
             <l n="63" xml:id="l63">Non, non, de cette sombre et lâche jalousie</l>
             <l n="64" xml:id="l64">Rien ne peut excuser l’étrange frénésie ;</l>
             <l n="65" xml:id="l65">Et par mes actions je l’ai trop informé</l>
@@ -172,8 +173,8 @@
             <l n="87" xml:id="l87">Et mes regards au prince, en un pareil martyre,</l>
             <l n="88" xml:id="l88">En disaient toujours plus que je n’en voulais dire.</l>
           </sp>
-          <sp who="ELISE" xml:id="I01-8">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="I01-8">
+            <speaker>élise</speaker>
             <l n="89" xml:id="l89">Enfin, si les soupçons de cet illustre amant,</l>
             <l n="90" xml:id="l90">Puisque vous le voulez, n’ont point de fondement,</l>
             <l n="91" xml:id="l91">Pour le moins font-ils foi d’une âme bien atteinte,</l>
@@ -186,8 +187,8 @@
             <l n="98" xml:id="l98">Et plus il est jaloux, plus nous devons l’aimer.</l>
             <l n="99" xml:id="l99">Ainsi, puisqu’en votre âme un prince magnanime...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I01-9">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I01-9">
+            <speaker>dona elvire</speaker>
             <l n="100" xml:id="l100">Ah ! Ne m’avancez point cette étrange maxime.</l>
             <l n="101" xml:id="l101">Partout la jalousie est un monstre odieux :</l>
             <l n="102" xml:id="l102">Rien n’en peut adoucir les traits injurieux ;</l>
@@ -232,23 +233,23 @@
             <l n="141" xml:id="l141">L’hymen ne peut nous joindre, et j’abhorre des nœuds</l>
             <l n="142" xml:id="l142">Qui deviendraient sans doute un enfer pour tous deux.</l>
           </sp>
-          <sp who="ELISE" xml:id="I01-10">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="I01-10">
+            <speaker>élise</speaker>
             <l n="143" xml:id="l143">Bien que l’on pût avoir des sentiments tout autres,</l>
             <l n="144" xml:id="l144">C’est au prince, madame, à se régler aux vôtres ;</l>
             <l n="145" xml:id="l145">Et dans votre billet ils sont si bien marqués,</l>
             <l n="146" xml:id="l146">Que quand il les verra de la sorte expliqués...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I01-11">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I01-11">
+            <speaker>dona elvire</speaker>
             <l n="147" xml:id="l147">Je n’y veux point, élise, employer cette lettre :</l>
             <l n="148" xml:id="l148">C’est un soin qu’à ma bouche il me vaut mieux commettre.</l>
             <l n="149" xml:id="l149">La faveur d’un écrit laisse aux mains d’un amant</l>
             <l n="150" xml:id="l150">Des témoins trop constants de notre attachement.</l>
             <l n="151" xml:id="l151">Ainsi donc empêchez qu’au prince on ne la livre.</l>
           </sp>
-          <sp who="ELISE" xml:id="I01-12">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="I01-12">
+            <speaker>élise</speaker>
             <l n="152" xml:id="l152">Toutes vos volontés sont des lois qu’on doit suivre.</l>
             <l n="153" xml:id="l153">J’admire cependant que le ciel ait jeté</l>
             <l n="154" xml:id="l154">Dans le goût des esprits tant de diversité,</l>
@@ -260,21 +261,21 @@
             <l n="160" xml:id="l160">Et ce qui pour mon âme est souvent un peu rude,</l>
             <l n="161" xml:id="l161">C’est de voir dom Alvar ne prendre aucun souci.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I01-13">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I01-13">
+            <speaker>dona elvire</speaker>
             <l n="162" xml:id="l162">Nous ne le croyions pas si proche : le voici.</l>
           </sp>
         </div2>
         <div2 type="scene" n="2" xml:id="I02">
           <head>SCÈNE II</head>
           <stage>Dona Elvire, Dom Alvare, Élise.</stage>
-          <sp who="DONA-ELVIRE" xml:id="I02-1">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I02-1">
+            <speaker>dona elvire</speaker>
             <l n="163" xml:id="l163">Votre retour surprend : qu’avez-vous à m’apprendre ?</l>
             <l n="164" xml:id="l164">Dom Alphonse vient-il ? A-t-on lieu de l’attendre ?</l>
           </sp>
-          <sp who="ALVAR" xml:id="I02-2">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="I02-2">
+            <speaker>dom alvar</speaker>
             <l n="165" xml:id="l165">Oui, madame ; et ce frère en Castille élevé</l>
             <l n="166" xml:id="l166">De rentrer dans ses droits voit le temps arrivé.</l>
             <l n="167" xml:id="l167">Jusqu’ici dom Louis, qui vit à sa prudence</l>
@@ -300,41 +301,41 @@
             <l n="187" xml:id="l187">On investit Léon, et dom Sylve en personne</l>
             <l n="188" xml:id="l188">Commande le secours que son père vous donne.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I02-3">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I02-3">
+            <speaker>dona elvire</speaker>
             <l n="189" xml:id="l189">Un secours si puissant doit flatter notre espoir ;</l>
             <l n="190" xml:id="l190">Mais je crains que mon frère y puisse trop devoir.</l>
           </sp>
-          <sp who="ALVAR" xml:id="I02-4">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="I02-4">
+            <speaker>dom alvar</speaker>
             <l n="191" xml:id="l191">Mais, madame, admirez que, malgré la tempête</l>
             <l n="192" xml:id="l192">Que votre usurpateur oit gronder sur sa tête,</l>
             <l n="193" xml:id="l193">Tous les bruits de Léon annoncent pour certain</l>
             <l n="194" xml:id="l194">Qu’à la comtesse Ignès il va donner la main.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I02-5">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I02-5">
+            <speaker>dona elvire</speaker>
             <l n="195" xml:id="l195">Il cherche dans l’hymen de cette illustre fille</l>
             <l n="196" xml:id="l196">L’appui du grand crédit où se voit sa famille.</l>
             <l n="197" xml:id="l197">Je ne reçois rien d’elle, et j’en suis en souci ;</l>
             <l n="198" xml:id="l198">Mais son cœur au tyran fut toujours endurci.</l>
           </sp>
-          <sp who="ELISE" xml:id="I02-6">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="I02-6">
+            <speaker>élise</speaker>
             <l n="199" xml:id="l199">De trop puissants motifs d’honneur et de tendresse</l>
             <l n="200" xml:id="l200">Opposent ses refus aux nœuds dont on la presse</l>
             <l n="201" xml:id="l201" part="I">Pour...</l>
           </sp>
-          <sp who="ALVAR" xml:id="I02-7">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="I02-7">
+            <speaker>dom alvar</speaker>
             <l n="201" part="F">Le prince entre ici.</l>
           </sp>
         </div2>
         <div2 type="scene" n="3" xml:id="I03">
           <head>SCÈNE III</head>
           <stage>Dom Garcie, Dona Elvire.</stage>
-          <sp who="DOM-GARCIE" xml:id="I03-1">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-1">
+            <speaker>dom garcie</speaker>
             <l n="201" part="F">Je viens m’intéresser,</l>
             <l n="202" xml:id="l202">Madame, au doux espoir qu’il vous vient d’annoncer.</l>
             <l n="203" xml:id="l203">Ce frère qui menace un tyran plein de crimes,</l>
@@ -368,8 +369,8 @@
             <l n="231" xml:id="l231">Et qu’ils osent briguer par d’illustres services</l>
             <l n="232" xml:id="l232">D’un frère et d’un état les suffrages propices.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-2">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-2">
+            <speaker>dona elvire</speaker>
             <l n="233" xml:id="l233">Je sais que vous pouvez, prince, en vengeant nos droits</l>
             <l n="234" xml:id="l234">Faire par votre amour parler cent beaux exploits ;</l>
             <l n="235" xml:id="l235">Mais ce n’est pas assez, pour le prix qu’il espère,</l>
@@ -377,53 +378,53 @@
             <l n="237" xml:id="l237">Done Elvire n’est pas au bout de cet effort,</l>
             <l n="238" xml:id="l238">Et je vous vois à vaincre un obstacle plus fort.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-3">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-3">
+            <speaker>dom garcie</speaker>
             <l n="239" xml:id="l239">Oui, madame, j’entends ce que vous voulez dire :</l>
             <l n="240" xml:id="l240">Je sais bien que pour vous mon cœur en vain soupire ;</l>
             <l n="241" xml:id="l241">Et l’obstacle puissant qui s’oppose à mes feux,</l>
             <l n="242" xml:id="l242">Sans que vous le nommiez, n’est pas secret pour eux.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-4">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-4">
+            <speaker>dona elvire</speaker>
             <l n="243" xml:id="l243">Souvent on entend mal ce qu’on croit bien entendre,</l>
             <l n="244" xml:id="l244">Et par trop de chaleur, prince, on se peut méprendre ;</l>
             <l n="245" xml:id="l245">Mais puisqu’il faut parler, désirez-vous savoir</l>
             <l n="246" xml:id="l246">Quand vous pourrez me plaire, et prendre quelque espoir ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-5">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-5">
+            <speaker>dom garcie</speaker>
             <l n="247" xml:id="l247">Ce me sera, madame, une faveur extrême.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-6">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-6">
+            <speaker>dona elvire</speaker>
             <l n="248" xml:id="l248">Quand vous saurez m’aimer comme il faut que l’on aime.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-7">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-7">
+            <speaker>dom garcie</speaker>
             <l n="249" xml:id="l249">Et que peut-on, hélas ! Observer sous les cieux</l>
             <l n="250" xml:id="l250">Qui ne cède à l’ardeur que m’inspirent vos yeux ?</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-8">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-8">
+            <speaker>dona elvire</speaker>
             <l n="251" xml:id="l251">Quand votre passion ne fera rien paraître</l>
             <l n="252" xml:id="l252">Dont se puisse indigner celle qui l’a fait naître.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-9">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-9">
+            <speaker>dom garcie</speaker>
             <l n="253" xml:id="l253" part="I">C’est là son plus grand soin.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-10">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-10">
+            <speaker>dona elvire</speaker>
             <l n="253" part="F">Quand tous ses mouvements</l>
             <l n="254" xml:id="l254">Ne prendront point de moi de trop bas sentiments.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-11">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-11">
+            <speaker>dom garcie</speaker>
             <l n="255" xml:id="l255" part="I">Ils vous révèrent trop.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-12">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-12">
+            <speaker>dona elvire</speaker>
             <l n="255" part="F">Quand d’un injuste ombrage</l>
             <l n="256" xml:id="l256">Votre raison saura me réparer l’outrage,</l>
             <l n="257" xml:id="l257">Et que vous bannirez enfin ce monstre affreux</l>
@@ -433,8 +434,8 @@
             <l n="261" xml:id="l261">S’oppose à leur attente, et contre eux, à tous coups,</l>
             <l n="262" xml:id="l262">Arme les mouvements de mon juste courroux.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-13">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-13">
+            <speaker>dom garcie</speaker>
             <l n="263" xml:id="l263">Ah ! Madame, il est vrai, quelque effort que je fasse,</l>
             <l n="264" xml:id="l264">Qu’un peu de jalousie en mon cœur trouve place,</l>
             <l n="265" xml:id="l265">Et qu’un rival, absent de vos divins appas,</l>
@@ -456,8 +457,8 @@
             <l n="281" xml:id="l281">Me donne l’assurance, au fort de tant d’assauts,</l>
             <l n="282" xml:id="l282">Que je ne puis trouver dans le peu que je vaux.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-14">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-14">
+            <speaker>dona elvire</speaker>
             <l n="283" xml:id="l283">Prince, de vos soupçons la tyrannie est grande :</l>
             <l n="284" xml:id="l284">Au moindre mot qu’il dit, un cœur veut qu’on l’entende,</l>
             <l n="285" xml:id="l285">Et n’aime pas ces feux dont l’importunité</l>
@@ -479,8 +480,8 @@
             <l n="301" xml:id="l301">Et peut-être qu’encore, pour vous en assurer,</l>
             <l n="302" xml:id="l302">Vous vous obstineriez à m’en faire jurer.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-15">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-15">
+            <speaker>dom garcie</speaker>
             <l n="303" xml:id="l303">Hé bien ! Madame, hé bien ! Je suis trop téméraire :</l>
             <l n="304" xml:id="l304">De tout ce qui vous plaît je dois me satisfaire.</l>
             <l n="305" xml:id="l305">Je ne demande point de plus grande clarté ;</l>
@@ -492,13 +493,13 @@
             <l n="311" xml:id="l311">Et je reçois la loi qu’il daigne me prescrire</l>
             <l n="312" xml:id="l312">Pour affranchir mon cœur de leur injuste empire.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-16">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-16">
+            <speaker>dona elvire</speaker>
             <l n="313" xml:id="l313">Vous promettez beaucoup, prince ; et je doute fort</l>
             <l n="314" xml:id="l314">Si vous pourrez sur vous faire ce grand effort.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-17">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-17">
+            <speaker>dom garcie</speaker>
             <l n="315" xml:id="l315">Ah ! Madame, il suffit, pour me rendre croyable,</l>
             <l n="316" xml:id="l316">Que ce qu’on vous promet doit être inviolable,</l>
             <l n="317" xml:id="l317">Et que l’heur d’obéir à sa divinité</l>
@@ -513,99 +514,99 @@
             <l n="326" xml:id="l326" part="I">Fait... !</l>
             <stage>Dom Pèdre apporte un billet.</stage>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-18">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-18">
+            <speaker>dona elvire</speaker>
             <l n="326" part="F">J’en étois en peine, et tu m’obliges fort.</l>
             <l n="327" xml:id="l327">Que le courrier attende. à ces regards qu’il jette,</l>
             <l n="328" xml:id="l328">Vois-je pas que déjà cet écrit l’inquiète ?</l>
             <l n="329" xml:id="l329">Prodigieux effet de son tempérament !</l>
             <l n="330" xml:id="l330">Qui vous arrête, prince, au milieu du serment ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-19">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-19">
+            <speaker>dom garcie</speaker>
             <l n="331" xml:id="l331">J’ai cru que vous aviez quelque secret ensemble,</l>
             <l n="332" xml:id="l332" part="I">Et je ne voulais pas l’interrompre.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-20">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-20">
+            <speaker>dona elvire</speaker>
             <l n="332" part="F">Il me semble</l>
             <l n="333" xml:id="l333">Que vous me répondez d’un ton fort altéré ;</l>
             <l n="334" xml:id="l334">Je vous vois tout à coup le visage égaré :</l>
             <l n="335" xml:id="l335">Ce changement soudain a lieu de me surprendre ;</l>
             <l n="336" xml:id="l336">D’où peut-il provenir ? Le pourrait-on apprendre ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-21">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-21">
+            <speaker>dom garcie</speaker>
             <l n="337" xml:id="l337">D’un mal qui tout à coup vient d’attaquer mon cœur.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-22">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-22">
+            <speaker>dona elvire</speaker>
             <l n="338" xml:id="l338">Souvent plus qu’on ne croit ces maux ont de rigueur,</l>
             <l n="339" xml:id="l339">Et quelque prompt secours vous serait nécessaire.</l>
             <l n="340" xml:id="l340">Mais encore, dites-moi, vous prend-il d’ordinaire ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-23">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-23">
+            <speaker>dom garcie</speaker>
             <l n="341" xml:id="l341" part="I">Parfois.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-24">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-24">
+            <speaker>dona elvire</speaker>
             <l n="341" part="F">Ah ! Prince faible ! Hé bien ! Par cet écrit</l>
             <l n="342" xml:id="l342">Guérissez-le, ce mal : il n’est que dans l’esprit.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-25">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-25">
+            <speaker>dom garcie</speaker>
             <l n="343" xml:id="l343">Par cet écrit, madame ? Ah ! Ma main le refuse :</l>
             <l n="344" xml:id="l344">Je vois votre pensée, et de quoi l’on m’accuse.</l>
             <l n="345" xml:id="l345" part="I">Si...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-26">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-26">
+            <speaker>dona elvire</speaker>
             <l n="345" part="F">Lisez-le, vous dis-je, et satisfaites-vous.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-27">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-27">
+            <speaker>dom garcie</speaker>
             <l n="346" xml:id="l346">Pour me traiter après de faible, de jaloux ?</l>
             <l n="347" xml:id="l347">Non, non. Je dois ici vous rendre un témoignage</l>
             <l n="348" xml:id="l348">Qu’à mon cœur cet écrit n’a point donné d’ombrage ;</l>
             <l n="349" xml:id="l349">Et bien que vos bontés m’en laissent le pouvoir,</l>
             <l n="350" xml:id="l350">Pour me justifier, je ne veux point le voir.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-28">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-28">
+            <speaker>dona elvire</speaker>
             <l n="351" xml:id="l351">Si vous vous obstinez à cette résistance,</l>
             <l n="352" xml:id="l352">J’aurais tort de vouloir vous faire violence ;</l>
             <l n="353" xml:id="l353">Et c’est assez enfin que vous avoir pressé</l>
             <l n="354" xml:id="l354">De voir de quelle main ce billet m’est tracé.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-29">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-29">
+            <speaker>dom garcie</speaker>
             <l n="355" xml:id="l355">Ma volonté toujours vous doit être soumise :</l>
             <l n="356" xml:id="l356">Si c’est votre plaisir que pour vous je le lise,</l>
             <l n="357" xml:id="l357">Je consens volontiers à prendre cet emploi.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-30">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-30">
+            <speaker>dona elvire</speaker>
             <l n="358" xml:id="l358">Oui, oui, prince, tenez : vous le lirez pour moi.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-31">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-31">
+            <speaker>dom garcie</speaker>
             <l n="359" xml:id="l359">C’est pour vous obéir, au moins, et je puis dire...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-32">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-32">
+            <speaker>dona elvire</speaker>
             <l n="360" xml:id="l360">C’est ce que vous voudrez : dépêchez-vous de lire.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-33">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-33">
+            <speaker>dom garcie</speaker>
             <l n="361" xml:id="l361">Il est de done Ignès, à ce que je connais.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-34">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-34">
+            <speaker>dona elvire</speaker>
             <l n="362" xml:id="l362">Oui. Je m’en réjouis et pour vous et pour moi.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-35">
-            <speaker>DOM GARCIE, lit.</speaker>
+          <sp who="dom-garcie" xml:id="I03-35">
+            <speaker>dom garcie, lit</speaker>
             <l n="363" xml:id="l363">"Malgré l’effort d’un long mépris,</l>
             <l n="364" xml:id="l364">Le tyran toujours m’aime, et depuis votre absence,</l>
             <l n="365" xml:id="l365">Vers moi, pour me porter au dessein qu’il a pris,</l>
@@ -623,8 +624,8 @@
             <stage>Il continue.</stage>
             <l n="376" xml:id="l376">Dans la haute vertu son âme est affermie.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-36">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-36">
+            <speaker>dona elvire</speaker>
             <l n="377" xml:id="l377">Je vais faire réponse à cette illustre amie.</l>
             <l n="378" xml:id="l378">Cependant apprenez, prince, à vous mieux armer</l>
             <l n="379" xml:id="l379">Contre ce qui prend droit de vous trop alarmer.</l>
@@ -633,19 +634,19 @@
             <l n="382" xml:id="l382">Mais, à n’en point mentir, il serait des moments</l>
             <l n="383" xml:id="l383">Où je pourrais entrer dans d’autres sentiments.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-37">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-37">
+            <speaker>dom garcie</speaker>
             <l n="384" xml:id="l384" part="I">Hé quoi ! Vous croyez donc... ?</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="I03-38">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="I03-38">
+            <speaker>dona elvire</speaker>
             <l n="384" part="F">Je crois ce qu’il faut croire.</l>
             <l n="385" xml:id="l385">Adieu : de mes avis conservez la mémoire ;</l>
             <l n="386" xml:id="l386">Et s’il est vrai pour moi que votre amour soit grand,</l>
             <l n="387" xml:id="l387">Donnez-en à mon cœur les preuves qu’il prétend.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="I03-39">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="I03-39">
+            <speaker>dom garcie</speaker>
             <l n="388" xml:id="l388">Croyez que désormais c’est toute mon envie,</l>
             <l n="389" xml:id="l389">Et qu’avant qu’y manquer je veux perdre la vie.</l>
           </sp>
@@ -656,8 +657,8 @@
         <div2 type="scene" n="1" xml:id="II01">
           <head>SCÈNE PREMIERE</head>
           <stage>Élise, Dom Lope.</stage>
-          <sp who="ELISE" xml:id="II01-1">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="II01-1">
+            <speaker>élise</speaker>
             <l n="390" xml:id="l390">Tout ce que fait le prince, à parler franchement,</l>
             <l n="391" xml:id="l391">N’est pas ce qui me donne un grand étonnement ;</l>
             <l n="392" xml:id="l392">Car que d’un noble amour une âme bien saisie</l>
@@ -673,20 +674,20 @@
             <l n="402" xml:id="l402">Mais qu’on ait sans amour tous les soins d’un jaloux,</l>
             <l n="403" xml:id="l403">C’est une nouveauté qui n’appartient qu’à vous.</l>
           </sp>
-          <sp who="LOPE" xml:id="II01-2">
-            <speaker>Dom Lope.</speaker>
+          <sp who="lope" xml:id="II01-2">
+            <speaker>dom lope</speaker>
             <l n="404" xml:id="l404">Que sur cette conduite à son aise l’on glose.</l>
             <l n="405" xml:id="l405">Chacun règle la sienne au but qu’il se propose ;</l>
             <l n="406" xml:id="l406">Et rebuté par vous des soins de mon amour,</l>
             <l n="407" xml:id="l407">Je songe auprès du prince à bien faire ma cour.</l>
           </sp>
-          <sp who="ELISE" xml:id="II01-3">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="II01-3">
+            <speaker>élise</speaker>
             <l n="408" xml:id="l408">Mais savez-vous qu’enfin il fera mal la sienne,</l>
             <l n="409" xml:id="l409">S’il faut qu’en cette humeur votre esprit l’entretienne ?</l>
           </sp>
-          <sp who="LOPE" xml:id="II01-4">
-            <speaker>Dom Lope.</speaker>
+          <sp who="lope" xml:id="II01-4">
+            <speaker>dom lope</speaker>
             <l n="410" xml:id="l410">Et quand, charmante élise, a-t-on vu, s’il vous plaît,</l>
             <l n="411" xml:id="l411">Qu’on cherche auprès des grands que son propre intérêt,</l>
             <l n="412" xml:id="l412">Qu’un parfait courtisan veuille charger leur suite</l>
@@ -708,8 +709,8 @@
             <l n="428" xml:id="l428">À nourrir leurs erreurs, et jamais dans leur âme</l>
             <l n="429" xml:id="l429">Ne porter les avis des choses qu’on y blâme.</l>
           </sp>
-          <sp who="ELISE" xml:id="II01-5">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="II01-5">
+            <speaker>élise</speaker>
             <l n="430" xml:id="l430">Ces maximes un temps leur peuvent succéder ;</l>
             <l n="431" xml:id="l431">Mais il est des revers qu’on doit appréhender ;</l>
             <l n="432" xml:id="l432">Et dans l’esprit des grands, qu’on tâche de surprendre,</l>
@@ -721,8 +722,8 @@
             <l n="438" xml:id="l438">Et ses nobles motifs, au prince rapportés,</l>
             <l n="439" xml:id="l439">Serviraient assez mal vos assiduités.</l>
           </sp>
-          <sp who="LOPE" xml:id="II01-6">
-            <speaker>Dom Lope.</speaker>
+          <sp who="lope" xml:id="II01-6">
+            <speaker>dom lope</speaker>
             <l n="440" xml:id="l440">Outre que je pourrais désavouer sans blâme</l>
             <l n="441" xml:id="l441">Ces libres vérités sur quoi s’ouvre mon âme,</l>
             <l n="442" xml:id="l442">Je sais fort bien qu’élise a l’esprit trop discret</l>
@@ -751,15 +752,15 @@
             <l n="465" xml:id="l465">Il reçût des effets de quelque préférence,</l>
             <l n="466" xml:id="l466">Et je veux, si je puis, m’épargner ce souci.</l>
           </sp>
-          <sp who="ELISE" xml:id="II01-7">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="II01-7">
+            <speaker>élise</speaker>
             <l n="467" xml:id="l467">Tout amant de bon sens en doit user ainsi.</l>
           </sp>
         </div2>
         <div2 type="scene" n="2" xml:id="II02">
           <head>SCÈNE II</head>
-          <sp who="ALVAR" xml:id="II02-1">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="II02-1">
+            <speaker>dom alvar</speaker>
             <l n="468" xml:id="l468">Enfin nous apprenons que le roi de Navarre</l>
             <l n="469" xml:id="l469">Pour les désirs du prince aujourd’hui se déclare ;</l>
             <l n="470" xml:id="l470">Et qu’un nouveau renfort de troupes nous attend</l>
@@ -771,20 +772,20 @@
         <div2 type="scene" n="3" xml:id="II03">
           <head>SCÈNE III</head>
           <stage>Dom Garcie, Élise.</stage>
-          <sp who="DOM-GARCIE" xml:id="II03-1">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II03-1">
+            <speaker>dom garcie</speaker>
             <l n="473" part="F">Que fait la princesse ?</l>
           </sp>
-          <sp who="ELISE" xml:id="II03-2">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="II03-2">
+            <speaker>élise</speaker>
             <l n="474" xml:id="l474">Quelques lettres, Seigneur ; je le présume ainsi.</l>
             <l n="475" xml:id="l475">Mais elle va savoir que vous êtes ici.</l>
           </sp>
         </div2>
         <div2 type="scene" n="4" xml:id="II04">
           <head>SCENE IV</head>
-          <sp who="DOM-GARCIE" xml:id="II04-1">
-            <speaker>DOM GARCIE, seul.</speaker>
+          <sp who="dom-garcie" xml:id="II04-1">
+            <speaker>dom garcie, seul</speaker>
             <l n="476" xml:id="l476">J’attendrai qu’elle ait fait. Près de souffrir sa vue,</l>
             <l n="477" xml:id="l477">D’un trouble tout nouveau je me sens l’âme émue ;</l>
             <l n="478" xml:id="l478">Et la crainte, mêlée à mon ressentiment,</l>
@@ -830,28 +831,28 @@
         <div2 type="scene" n="5" xml:id="II05">
           <head>SCÈNE V</head>
           <stage>Dona Elvire, Dom Garcie.</stage>
-          <sp who="DONA-ELVIRE" xml:id="II05-1">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-1">
+            <speaker>dona elvire</speaker>
             <l n="516" xml:id="l516">Vous avez bien voulu que je vous fisse attendre ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-2">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-2">
+            <speaker>dom garcie</speaker>
             <l n="517" xml:id="l517" part="I">Ha ! Qu’elle cache bien !</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-3">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-3">
+            <speaker>dona elvire</speaker>
             <l n="517" part="F">On vient de nous apprendre</l>
             <l n="518" xml:id="l518">Que le roi votre père approuve vos projets,</l>
             <l n="519" xml:id="l519">Et veut bien que son fils nous rende nos sujets ;</l>
             <l n="520" xml:id="l520">Et mon âme en a pris une allégresse extrême.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-4">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-4">
+            <speaker>dom garcie</speaker>
             <l n="521" xml:id="l521">Oui, madame, et mon cœur s’en réjouit de même ;</l>
             <l n="522" xml:id="l522" part="I">Mais...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-5">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-5">
+            <speaker>dona elvire</speaker>
             <l n="522" part="F">Le tyran sans doute aura peine à parer</l>
             <l n="523" xml:id="l523">Les foudres que partout il entend murmurer ;</l>
             <l n="524" xml:id="l524">Et j’ose me flatter que le même courage</l>
@@ -861,115 +862,115 @@
             <l n="528" xml:id="l528">Pourra, de tout Léon achevant la conquête,</l>
             <l n="529" xml:id="l529">Sous ses nobles efforts faire choir cette tête.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-6">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-6">
+            <speaker>dom garcie</speaker>
             <l n="530" xml:id="l530">Le succès en pourra parler dans quelques jours.</l>
             <l n="531" xml:id="l531">Mais, de grâce, passons à quelque autre discours.</l>
             <l n="532" xml:id="l532">Puis-je, sans trop oser, vous prier de me dire</l>
             <l n="533" xml:id="l533">À qui vous avez pris, madame, soin d’écrire,</l>
             <l n="534" xml:id="l534">Depuis que le destin nous a conduits ici ?</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-7">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-7">
+            <speaker>dona elvire</speaker>
             <l n="535" xml:id="l535">Pourquoi cette demande, et d’où vient ce souci ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-8">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-8">
+            <speaker>dom garcie</speaker>
             <l n="536" xml:id="l536">D’un désir curieux de pure fantaisie.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-9">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-9">
+            <speaker>dona elvire</speaker>
             <l n="537" xml:id="l537">La curiosité naît de la jalousie.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-10">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-10">
+            <speaker>dom garcie</speaker>
             <l n="538" xml:id="l538">Non, ce n’est rien du tout de ce que vous pensez :</l>
             <l n="539" xml:id="l539">Vos ordres de ce mal me défendent assez.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-11">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-11">
+            <speaker>dona elvire</speaker>
             <l n="540" xml:id="l540">Sans chercher plus avant quel intérêt vous presse,</l>
             <l n="541" xml:id="l541">J’ai deux fois à Léon écrit à la comtesse,</l>
             <l n="542" xml:id="l542">Et deux fois au marquis dom Louis à Burgos.</l>
             <l n="543" xml:id="l543">Avec cette réponse êtes-vous en repos ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-12">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-12">
+            <speaker>dom garcie</speaker>
             <l n="544" xml:id="l544">Vous n’avez point écrit à quelque autre personne,</l>
             <l n="545" xml:id="l545" part="I">Madame ?</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-13">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-13">
+            <speaker>dona elvire</speaker>
             <l n="545" part="F">Non, sans doute, et ce discours m’étonne.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-14">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-14">
+            <speaker>dom garcie</speaker>
             <l n="546" xml:id="l546">De grâce, songez bien avant que d’assurer :</l>
             <l n="547" xml:id="l547">En manquant de mémoire, on peut se parjurer.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-15">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-15">
+            <speaker>dona elvire</speaker>
             <l n="548" xml:id="l548">Ma bouche sur ce point ne peut être parjure.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-16">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-16">
+            <speaker>dom garcie</speaker>
             <l n="549" xml:id="l549">Elle a dit toutefois une haute imposture.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-17">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-17">
+            <speaker>dona elvire</speaker>
             <l n="550" xml:id="l550" part="I">Prince !</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-18">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-18">
+            <speaker>dom garcie</speaker>
             <l n="550" part="F">Madame ?</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-19">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-19">
+            <speaker>dona elvire</speaker>
             <l n="550" part="F">Ô ciel ! Quel est ce mouvement ?</l>
             <l n="551" xml:id="l551">Avez-vous, dites-moi, perdu le jugement ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-20">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-20">
+            <speaker>dom garcie</speaker>
             <l n="552" xml:id="l552">Oui, oui, je l’ai perdu, lorsque dans votre vue</l>
             <l n="553" xml:id="l553">J’ai pris, pour mon malheur, le poison qui me tue,</l>
             <l n="554" xml:id="l554">Et que j’ai cru trouver quelque sincérité</l>
             <l n="555" xml:id="l555">Dans les traîtres appas dont je fus enchanté.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-21">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-21">
+            <speaker>dona elvire</speaker>
             <l n="556" xml:id="l556">De quelle trahison pouvez-vous donc vous plaindre ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-22">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-22">
+            <speaker>dom garcie</speaker>
             <l n="557" xml:id="l557">Ah ! Que ce cœur est double et sait bien l’art de feindre !</l>
             <l n="558" xml:id="l558">Mais tous moyens de fuir lui vont être soustraits.</l>
             <l n="559" xml:id="l559">Jetez ici les yeux, et connaissez vos traits :</l>
             <l n="560" xml:id="l560">Sans avoir vu le reste, il m’est assez facile</l>
             <l n="561" xml:id="l561">De découvrir pour qui vous employez ce style.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-23">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-23">
+            <speaker>dona elvire</speaker>
             <l n="562" xml:id="l562">Voilà donc le sujet qui vous trouble l’esprit ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-24">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-24">
+            <speaker>dom garcie</speaker>
             <l n="563" xml:id="l563">Vous ne rougissez pas en voyant cet écrit ?</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-25">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-25">
+            <speaker>dona elvire</speaker>
             <l n="564" xml:id="l564">L’innocence à rougir n’est point accoutumée.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-26">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-26">
+            <speaker>dom garcie</speaker>
             <l n="565" xml:id="l565">Il est vrai qu’en ces lieux on la voit opprimée.</l>
             <l n="566" xml:id="l566">Ce billet démenti pour n’avoir point de seing...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-27">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-27">
+            <speaker>dona elvire</speaker>
             <l n="567" xml:id="l567">Pourquoi le démentir, puisqu’il est de ma main ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-28">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-28">
+            <speaker>dom garcie</speaker>
             <l n="568" xml:id="l568">Encore est-ce beaucoup que, de franchise pure,</l>
             <l n="569" xml:id="l569">Vous demeuriez d’accord que c’est votre écriture ;</l>
             <l n="570" xml:id="l570">Mais ce sera, sans doute, et j’en serais garant,</l>
@@ -977,17 +978,17 @@
             <l n="572" xml:id="l572">Ou du moins, ce qu’il a de tendresse évidente</l>
             <l n="573" xml:id="l573">Sera pour une amie ou pour quelque parente.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-29">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-29">
+            <speaker>dona elvire</speaker>
             <l n="574" xml:id="l574">Non, c’est pour un amant que ma main l’a formé,</l>
             <l n="575" xml:id="l575">Et j’ajoute de plus, pour un amant aimé.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-30">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-30">
+            <speaker>dom garcie</speaker>
             <l n="576" xml:id="l576" part="I">Et je puis, ô perfide ! ...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-31">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-31">
+            <speaker>dona elvire</speaker>
             <l n="576" part="F">Arrêtez, prince indigne,</l>
             <l n="577" xml:id="l577">De ce lâche transport l’égarement insigne.</l>
             <l n="578" xml:id="l578">Bien que de vous mon cœur ne prenne point de loi,</l>
@@ -1001,12 +1002,12 @@
             <l n="586" xml:id="l586">Et je veux, vous mettant juge en votre intérêt,</l>
             <l n="587" xml:id="l587">Vous faire prononcer vous-même votre arrêt.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II05-32">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II05-32">
+            <speaker>dom garcie</speaker>
             <l n="588" xml:id="l588">Ce sont propos obscurs, qu’on ne saurait comprendre.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II05-33">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II05-33">
+            <speaker>dona elvire</speaker>
             <l n="589" xml:id="l589">Bientôt à vos dépens vous me pourrez entendre.</l>
             <l n="590" xml:id="l590" part="I">Élise, holà !</l>
           </sp>
@@ -1014,12 +1015,12 @@
         <div2 type="scene" n="6" xml:id="II06">
           <head>SCÈNE VI</head>
           <stage>Élise, Dona Elvire, Dom Garcie.</stage>
-          <sp who="ELISE" xml:id="II06-1">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="II06-1">
+            <speaker>élise</speaker>
             <l n="590" part="F">Madame.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-2">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-2">
+            <speaker>dona elvire</speaker>
             <l n="590" part="F">Observez bien au moins</l>
             <l n="591" xml:id="l591">Si j’ose à vous tromper employer quelques soins,</l>
             <l n="592" xml:id="l592">Si par un seul coup d’œil, ou geste qui l’instruise,</l>
@@ -1027,8 +1028,8 @@
             <l n="594" xml:id="l594">Le billet que tantôt ma main avait tracé,</l>
             <l n="595" xml:id="l595">Répondez promptement, où l’avez-vous laissé ?</l>
           </sp>
-          <sp who="ELISE" xml:id="II06-3">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="II06-3">
+            <speaker>élise</speaker>
             <l n="596" xml:id="l596">Madame, j’ai sujet de m’avouer coupable :</l>
             <l n="597" xml:id="l597">Je ne sais comme il est demeuré sur ma table ;</l>
             <l n="598" xml:id="l598">Mais on vient de m’apprendre en ce même moment</l>
@@ -1042,31 +1043,31 @@
             <l n="606" xml:id="l606">Et dom Lope aussitôt prenant un prompt essor,</l>
             <l n="607" xml:id="l607">A dérobé la sienne aux soins de Léonor.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-4">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-4">
+            <speaker>dona elvire</speaker>
             <l n="608" xml:id="l608" part="I">Avez-vous ici l’autre ?</l>
           </sp>
-          <sp who="ELISE" xml:id="II06-5">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="II06-5">
+            <speaker>élise</speaker>
             <l n="608" part="F">Oui, la voilà, madame.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-6">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-6">
+            <speaker>dona elvire</speaker>
             <l n="609" xml:id="l609">Donnez. Nous allons voir qui mérite le blâme.</l>
             <l n="610" xml:id="l610">Avec votre moitié rassemblez celle-ci.</l>
             <l n="611" xml:id="l611">Lisez, et hautement : je veux l’entendre aussi.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II06-7">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II06-7">
+            <speaker>dom garcie</speaker>
             <l n="612" xml:id="l612" part="I">"Au prince dom Garcie." Ah !</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-8">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-8">
+            <speaker>dona elvire</speaker>
             <l n="612" part="F">Achevez de lire :</l>
             <l n="613" xml:id="l613">Votre âme pour ce mot ne doit pas s’interdire.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II06-9">
-            <speaker>DOM GARCIE lit.</speaker>
+          <sp who="dom-garcie" xml:id="II06-9">
+            <speaker>dom garcie lit</speaker>
             <l n="614" xml:id="l614">"Quoique votre rival, prince, alarme votre âme,</l>
             <l n="615" xml:id="l615">Vous devez toutefois vous craindre plus que lui ;</l>
             <l n="616" xml:id="l616">Et vous avez en vous à détruire aujourd’hui</l>
@@ -1080,35 +1081,35 @@
             <l n="624" xml:id="l624">Et lorsqu’on vous oblige à vous tenir heureux,</l>
             <l n="625" xml:id="l625">Ne vous obstinez point à ne pas vouloir l’être. "</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-10">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-10">
+            <speaker>dona elvire</speaker>
             <l n="626" xml:id="l626" part="I">Hé bien ! Que dites-vous ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II06-11">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II06-11">
+            <speaker>dom garcie</speaker>
             <l n="626" part="F">Ha ! Madame, je dis</l>
             <l n="627" xml:id="l627">Qu’à cet objet mes sens demeurent interdits,</l>
             <l n="628" xml:id="l628">Que je vois dans ma plainte une horrible injustice,</l>
             <l n="629" xml:id="l629">Et qu’il n’est point pour moi d’assez cruel supplice.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-12">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-12">
+            <speaker>dona elvire</speaker>
             <l n="630" xml:id="l630">Il suffit. Apprenez que si j’ai souhaité</l>
             <l n="631" xml:id="l631">Qu’à vos yeux cet écrit pût être présenté,</l>
             <l n="632" xml:id="l632">C’est pour le démentir, et cent fois me dédire</l>
             <l n="633" xml:id="l633">De tout ce que pour vous vous y venez de lire.</l>
             <l n="634" xml:id="l634" part="I">Adieu, prince.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II06-13">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II06-13">
+            <speaker>dom garcie</speaker>
             <l n="634" part="F">Madame, hélas ! Où fuyez-vous ?</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-14">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-14">
+            <speaker>dona elvire</speaker>
             <l n="635" xml:id="l635">Où vous ne serez point, trop odieux jaloux.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II06-15">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II06-15">
+            <speaker>dom garcie</speaker>
             <l n="636" xml:id="l636">Ha ! Madame, excusez un amant misérable,</l>
             <l n="637" xml:id="l637">Qu’un sort prodigieux a fait vers vous coupable,</l>
             <l n="638" xml:id="l638">Et qui, bien qu’il vous cause un courroux si puissant,</l>
@@ -1124,16 +1125,16 @@
             <l n="648" xml:id="l648">Si d’une preuve, hélas ! Qui me semblait si claire,</l>
             <l n="649" xml:id="l649" part="I">Je pouvais démentir...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-16">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-16">
+            <speaker>dona elvire</speaker>
             <l n="649" part="F">Oui, vous le pouviez faire ;</l>
             <l n="650" xml:id="l650">Et dans mes sentiments, assez bien déclarés,</l>
             <l n="651" xml:id="l651">Vos doutes rencontraient des garants assurés :</l>
             <l n="652" xml:id="l652">Vous n’aviez rien à craindre ; et d’autres, sur ce gage,</l>
             <l n="653" xml:id="l653">Auraient du monde entier bravé le témoignage.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II06-17">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II06-17">
+            <speaker>dom garcie</speaker>
             <l n="654" xml:id="l654">Moins on mérite un bien qu’on nous fait espérer,</l>
             <l n="655" xml:id="l655">Plus notre âme a de peine à pouvoir s’assurer ;</l>
             <l n="656" xml:id="l656">Un sort trop plein de gloire à nos yeux est fragile,</l>
@@ -1144,8 +1145,8 @@
             <l n="661" xml:id="l661">Votre âme se forçait à quelque complaisance,</l>
             <l n="662" xml:id="l662">Que déguisant pour moi votre sévérité...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-18">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-18">
+            <speaker>dona elvire</speaker>
             <l n="663" xml:id="l663">Et je pourrais descendre à cette lâcheté !</l>
             <l n="664" xml:id="l664">Moi prendre le parti d’une honteuse feinte !</l>
             <l n="665" xml:id="l665">Agir par les motifs d’une servile crainte !</l>
@@ -1162,8 +1163,8 @@
             <l n="676" xml:id="l676">Braver votre furie, et vous faire connaître</l>
             <l n="677" xml:id="l677">Qu’il n’a point été lâche, et ne veut jamais l’être.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II06-19">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II06-19">
+            <speaker>dom garcie</speaker>
             <l n="678" xml:id="l678">Hé bien ! Je suis coupable, et ne m’en défends pas ;</l>
             <l n="679" xml:id="l679">Mais je demande grâce à vos divins appas :</l>
             <l n="680" xml:id="l680">Je la demande au nom de la plus vive flamme</l>
@@ -1192,93 +1193,93 @@
             <l n="703" xml:id="l703">Au faible souvenir de mon affection !</l>
             <l n="704" xml:id="l704">C’est l’unique faveur que demande ma flamme.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-20">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-20">
+            <speaker>dona elvire</speaker>
             <l n="705" xml:id="l705" part="I">Ha ! Prince trop cruel !</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II06-21">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II06-21">
+            <speaker>dom garcie</speaker>
             <l n="705" part="F">Dites, parlez, madame.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-22">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-22">
+            <speaker>dona elvire</speaker>
             <l n="706" xml:id="l706">Faut-il encore pour vous conserver des bontés,</l>
             <l n="707" xml:id="l707">Et vous voir m’outrager par tant d’indignités ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II06-23">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II06-23">
+            <speaker>dom garcie</speaker>
             <l n="708" xml:id="l708">Un cœur ne peut jamais outrager quand il aime ;</l>
             <l n="709" xml:id="l709">Et ce que fait l’amour, il l’excuse lui-même.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-24">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-24">
+            <speaker>dona elvire</speaker>
             <l n="710" xml:id="l710">L’amour n’excuse point de tels emportements.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II06-25">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II06-25">
+            <speaker>dom garcie</speaker>
             <l n="711" xml:id="l711">Tout ce qu’il a d’ardeur passe en ses mouvements ;</l>
             <l n="712" xml:id="l712">Et plus il devient fort, plus il trouve de peine...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-26">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-26">
+            <speaker>dona elvire</speaker>
             <l n="713" xml:id="l713">Non, ne m’en parlez point, vous méritez ma haine.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II06-27">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II06-27">
+            <speaker>dom garcie</speaker>
             <l n="714" xml:id="l714" part="I">Vous me haïssez donc ?</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-28">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-28">
+            <speaker>dona elvire</speaker>
             <l n="714" part="F">J’y veux tâcher, au moins ;</l>
             <l n="715" xml:id="l715">Mais, hélas ! Je crains bien que j’y perde mes soins,</l>
             <l n="716" xml:id="l716">Et que tout le courroux qu’excite votre offense</l>
             <l n="717" xml:id="l717">Ne puisse jusque-là faire aller ma vengeance.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II06-29">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II06-29">
+            <speaker>dom garcie</speaker>
             <l n="718" xml:id="l718">D’un supplice si grand ne tentez point l’effort,</l>
             <l n="719" xml:id="l719">Puisque pour vous venger je vous offre ma mort :</l>
             <l n="720" xml:id="l720">Prononcez-en l’arrêt, et j’obéis sur l’heure.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-30">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-30">
+            <speaker>dona elvire</speaker>
             <l n="721" xml:id="l721">Qui ne saurait haïr ne peut vouloir qu’on meure.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II06-31">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II06-31">
+            <speaker>dom garcie</speaker>
             <l n="722" xml:id="l722">Et moi, je ne puis vivre à moins que vos bontés</l>
             <l n="723" xml:id="l723">Accordent un pardon à mes témérités.</l>
             <l n="724" xml:id="l724">Résolvez l’un des deux, de punir ou d’absoudre.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-32">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-32">
+            <speaker>dona elvire</speaker>
             <l n="725" xml:id="l725">Hélas ! J’ai trop fait voir ce que je puis résoudre.</l>
             <l n="726" xml:id="l726">Par l’aveu d’un pardon n’est-ce pas se trahir,</l>
             <l n="727" xml:id="l727">Que dire au criminel qu’on ne le peut haïr ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II06-33">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II06-33">
+            <speaker>dom garcie</speaker>
             <l n="728" xml:id="l728">Ah ! C’en est trop : souffrez, adorable princesse...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="II06-34">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="II06-34">
+            <speaker>dona elvire</speaker>
             <l n="729" xml:id="l729">Laissez : je me veux mal d’une telle faiblesse.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II06-35">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II06-35">
+            <speaker>dom garcie</speaker>
             <l n="730" xml:id="l730" part="I">Enfin je suis...</l>
           </sp>
         </div2>
         <div2 type="scene" n="7" xml:id="II07">
           <head>SCÈNE VII</head>
           <stage>Dom Lope, Dom Garcie.</stage>
-          <sp who="LOPE" xml:id="II07-1">
-            <speaker>Dom Lope.</speaker>
+          <sp who="lope" xml:id="II07-1">
+            <speaker>dom lope</speaker>
             <l n="730" part="F">Seigneur, je viens vous informer</l>
             <l n="731" xml:id="l731">D’un secret dont vos feux ont droit de s’alarmer.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II07-2">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II07-2">
+            <speaker>dom garcie</speaker>
             <l n="732" xml:id="l732">Ne me viens point parler de secret ni d’alarme</l>
             <l n="733" xml:id="l733">Dans les doux mouvements du transport qui me charme.</l>
             <l n="734" xml:id="l734">Après ce qu’à mes yeux on vient de présenter,</l>
@@ -1287,8 +1288,8 @@
             <l n="737" xml:id="l737">À tous ces vains rapports doit fermer mon oreille :</l>
             <l n="738" xml:id="l738" part="I">Ne m’en fais plus.</l>
           </sp>
-          <sp who="LOPE" xml:id="II07-3">
-            <speaker>Dom Lope.</speaker>
+          <sp who="lope" xml:id="II07-3">
+            <speaker>dom lope</speaker>
             <l n="738" part="F">Seigneur, je veux ce qu’il vous plaît :</l>
             <l n="739" xml:id="l739">Mes soins en tout ceci n’ont que votre intérêt.</l>
             <l n="740" xml:id="l740">J’ai cru que le secret que je viens de surprendre,</l>
@@ -1300,8 +1301,8 @@
             <l n="746" xml:id="l746">Et que surtout le peuple y fait pour son vrai roi</l>
             <l n="747" xml:id="l747">Un éclat à donner au tyran de l’effroi.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II07-4">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II07-4">
+            <speaker>dom garcie</speaker>
             <l n="748" xml:id="l748">La Castille du moins n’aura pas la victoire</l>
             <l n="749" xml:id="l749">Sans que nous essayions d’en partager la gloire ;</l>
             <l n="750" xml:id="l750">Et nos troupes aussi peuvent être en état</l>
@@ -1309,26 +1310,26 @@
             <l n="752" xml:id="l752">Mais quel est ce secret dont tu voulais m’instruire ?</l>
             <l n="753" xml:id="l753" part="I">Voyons un peu.</l>
           </sp>
-          <sp who="LOPE" xml:id="II07-5">
-            <speaker>Dom Lope.</speaker>
+          <sp who="lope" xml:id="II07-5">
+            <speaker>dom lope</speaker>
             <l n="753" part="F">Seigneur, je n’ai rien à vous dire.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II07-6">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II07-6">
+            <speaker>dom garcie</speaker>
             <l n="754" xml:id="l754">Va, va, parle, mon cœur t’en donne le pouvoir.</l>
           </sp>
-          <sp who="LOPE" xml:id="II07-7">
-            <speaker>Dom Lope.</speaker>
+          <sp who="lope" xml:id="II07-7">
+            <speaker>dom lope</speaker>
             <l n="755" xml:id="l755">Vos paroles, seigneur, m’en ont trop fait savoir ;</l>
             <l n="756" xml:id="l756">Et puisque mes avis ont de quoi vous déplaire,</l>
             <l n="757" xml:id="l757">Je saurai désormais trouver l’art de me taire.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="II07-8">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="II07-8">
+            <speaker>dom garcie</speaker>
             <l n="758" xml:id="l758">Enfin, je veux savoir la chose absolument.</l>
           </sp>
-          <sp who="LOPE" xml:id="II07-9">
-            <speaker>Dom Lope.</speaker>
+          <sp who="lope" xml:id="II07-9">
+            <speaker>dom lope</speaker>
             <l n="759" xml:id="l759">Je ne réplique point à ce commandement.</l>
             <l n="760" xml:id="l760">Mais, seigneur, en ce lieu le devoir de mon zèle</l>
             <l n="761" xml:id="l761">Trahirait le secret d’une telle nouvelle.</l>
@@ -1342,8 +1343,8 @@
         <div2 type="scene" n="1" xml:id="III01">
           <head>SCÈNE PREMIERE</head>
           <stage>Dona ELvire, Élise.</stage>
-          <sp who="DONA-ELVIRE" xml:id="III01-1">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="III01-1">
+            <speaker>dona elvire</speaker>
             <l n="764" xml:id="l764">Élise, que dis-tu de l’étrange faiblesse</l>
             <l n="765" xml:id="l765">Que vient de témoigner le cœur d’une princesse ?</l>
             <l n="766" xml:id="l766">Que dis-tu de me voir tomber si promptement</l>
@@ -1351,8 +1352,8 @@
             <l n="768" xml:id="l768">Et malgré tant d’éclat, relâcher mon courage</l>
             <l n="769" xml:id="l769">Au pardon trop honteux d’un si cruel outrage ?</l>
           </sp>
-          <sp who="ELISE" xml:id="III01-2">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="III01-2">
+            <speaker>élise</speaker>
             <l n="770" xml:id="l770">Moi, je dis que d’un cœur que nous pouvons chérir</l>
             <l n="771" xml:id="l771">Une injure sans doute est bien dure à souffrir ;</l>
             <l n="772" xml:id="l772">Mais que s’il n’en est point qui davantage irrite,</l>
@@ -1366,8 +1367,8 @@
             <l n="780" xml:id="l780">Et je sais quel pouvoir, malgré votre menace,</l>
             <l n="781" xml:id="l781">À de pareils forfaits donnera toujours grâce.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="III01-3">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="III01-3">
+            <speaker>dona elvire</speaker>
             <l n="782" xml:id="l782">Ah ! Sache, quelque ardeur qui m’impose des lois,</l>
             <l n="783" xml:id="l783">Que mon front a rougi pour la dernière fois,</l>
             <l n="784" xml:id="l784">Et que si désormais on pousse ma colère,</l>
@@ -1389,12 +1390,12 @@
             <l n="800" xml:id="l800">Et réduit tout mon cœur, que ce mal persécute,</l>
             <l n="801" xml:id="l801">À n’en plus redouter l’affront d’une rechute.</l>
           </sp>
-          <sp who="ELISE" xml:id="III01-4">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="III01-4">
+            <speaker>élise</speaker>
             <l n="802" xml:id="l802">Mais quel affront nous fait le transport d’un jaloux ?</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="III01-5">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="III01-5">
+            <speaker>dona elvire</speaker>
             <l n="803" xml:id="l803">En est-il un qui soit plus digne de courroux ?</l>
             <l n="804" xml:id="l804">Et puisque notre cœur fait un effort extrême</l>
             <l n="805" xml:id="l805">Lorsqu’il se peut résoudre à confesser qu’il aime,</l>
@@ -1405,16 +1406,16 @@
             <l n="810" xml:id="l810">Et n’est-il pas coupable alors qu’il ne croit pas</l>
             <l n="811" xml:id="l811">Ce qu’on ne dit jamais qu’après de grands combats ?</l>
           </sp>
-          <sp who="ELISE" xml:id="III01-6">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="III01-6">
+            <speaker>élise</speaker>
             <l n="812" xml:id="l812">Moi, je tiens que toujours un peu de défiance</l>
             <l n="813" xml:id="l813">En ces occasions n’a rien qui nous offense,</l>
             <l n="814" xml:id="l814">Et qu’il est dangereux qu’un cœur qu’on a charmé</l>
             <l n="815" xml:id="l815">Soit trop persuadé, madame, d’être aimé,</l>
             <l n="816" xml:id="l816" part="I">Si...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="III01-7">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="III01-7">
+            <speaker>dona elvire</speaker>
             <l n="816" part="F">N’en disputons plus : chacun a sa pensée.</l>
             <l n="817" xml:id="l817">C’est un scrupule enfin dont mon âme est blessée ;</l>
             <l n="818" xml:id="l818">Et contre mes désirs, je sens je ne sais quoi</l>
@@ -1427,8 +1428,8 @@
         <div2 type="scene" n="2" xml:id="III02">
           <head>SCÈNE II</head>
           <stage>Dom Sylve, Dona Elvire</stage>
-          <sp who="DOM-SYLVE" xml:id="III02-1">
-            <speaker>DOM SYLVE</speaker>
+          <sp who="dom-sylve" xml:id="III02-1">
+            <speaker>dom sylve</speaker>
             <l n="823" xml:id="l823">Je sais que mon abord, madame, est surprenant,</l>
             <l n="824" xml:id="l824">Et qu’être sans éclat entré dans cette ville,</l>
             <l n="825" xml:id="l825">Dont l’ordre d’un rival rend l’accès difficile,</l>
@@ -1453,8 +1454,8 @@
             <l n="844" xml:id="l844">Et je pouvais pour vous gagner cette victoire,</l>
             <l n="845" xml:id="l845">Si le ciel n’eût voulu m’en dérober la gloire.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="III02-2">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="III02-2">
+            <speaker>dona elvire</speaker>
             <l n="846" xml:id="l846">Je sais, seigneur, je sais que vous avez un cœur</l>
             <l n="847" xml:id="l847">Qui des plus grands périls vous peut rendre vainqueur ;</l>
             <l n="848" xml:id="l848">Et je ne doute point que ce généreux zèle,</l>
@@ -1482,8 +1483,8 @@
             <l n="870" xml:id="l870">Et ne vous plaignez point de voir un autre bras</l>
             <l n="871" xml:id="l871">Acquérir de la gloire où le vôtre n’est pas.</l>
           </sp>
-          <sp who="DOM-SYLVE" xml:id="III02-3">
-            <speaker>DOM SYLVE</speaker>
+          <sp who="dom-sylve" xml:id="III02-3">
+            <speaker>dom sylve</speaker>
             <l n="872" xml:id="l872">Oui, madame, mon cœur doit cesser de s’en plaindre :</l>
             <l n="873" xml:id="l873">Avec trop de raison vous voulez m’y contraindre ;</l>
             <l n="874" xml:id="l874">Et c’est injustement qu’on se plaint d’un malheur,</l>
@@ -1511,8 +1512,8 @@
             <l n="896" xml:id="l896">Et ne puis-je savoir quels crimes on m’impute,</l>
             <l n="897" xml:id="l897">Pour avoir mérité cette effroyable chute ?</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="III02-4">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="III02-4">
+            <speaker>dona elvire</speaker>
             <l n="898" xml:id="l898">Ne me demandez rien avant que regarder</l>
             <l n="899" xml:id="l899">Ce qu’à mes sentiments vous devez demander ;</l>
             <l n="900" xml:id="l900">Et sur cette froideur qui semble vous confondre</l>
@@ -1544,8 +1545,8 @@
             <l n="926" xml:id="l926">Voyez combien d’efforts pour vous elle a bravés,</l>
             <l n="927" xml:id="l927">Et rendez à son cœur ce que vous lui devez.</l>
           </sp>
-          <sp who="DOM-SYLVE" xml:id="III02-5">
-            <speaker>DOM SYLVE</speaker>
+          <sp who="dom-sylve" xml:id="III02-5">
+            <speaker>dom sylve</speaker>
             <l n="928" xml:id="l928">Ah ! Madame, à mes yeux n’offrez point son mérite :</l>
             <l n="929" xml:id="l929">Il n’est que trop présent à l’ingrat qui la quitte ;</l>
             <l n="930" xml:id="l930">Et si mon cœur vous dit ce que pour elle il sent,</l>
@@ -1581,8 +1582,8 @@
             <l n="960" xml:id="l960">J’ai celui de quitter une aimable personne,</l>
             <l n="961" xml:id="l961">Et tous les maux encore que mon amour me donne.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="III02-6">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="III02-6">
+            <speaker>dona elvire</speaker>
             <l n="962" xml:id="l962">Vous n’avez que les maux que vous voulez avoir,</l>
             <l n="963" xml:id="l963">Et toujours notre cœur est en notre pouvoir :</l>
             <l n="964" xml:id="l964">Il peut bien quelquefois montrer quelque faiblesse ;</l>
@@ -1592,20 +1593,20 @@
         <div2 type="scene" n="3" xml:id="III03">
           <head>SCÈNE III</head>
           <stage>Dom Gacie, Dona Elvire, Dom Sylve.</stage>
-          <sp who="DOM-GARCIE" xml:id="III03-1">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="III03-1">
+            <speaker>dom garcie</speaker>
             <l n="966" xml:id="l966">Madame, mon abord, comme je connais bien,</l>
             <l n="967" xml:id="l967">Assez mal à propos trouble votre entretien ;</l>
             <l n="968" xml:id="l968">Et mes pas en ce lieu, s’il faut que je le die,</l>
             <l n="969" xml:id="l969">Ne croyoient pas trouver si bonne compagnie.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="III03-2">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="III03-2">
+            <speaker>dona elvire</speaker>
             <l n="970" xml:id="l970">Cette vue, en effet, surprend au dernier point ;</l>
             <l n="971" xml:id="l971">Et de même que vous, je ne l’attendais point.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="III03-3">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="III03-3">
+            <speaker>dom garcie</speaker>
             <l n="972" xml:id="l972">Oui, madame, je crois que de cette visite,</l>
             <l n="973" xml:id="l973">Comme vous l’assurez, vous n’étiez point instruite.</l>
             <l n="974" xml:id="l974">Mais, seigneur, vous deviez nous faire au moins l’honneur</l>
@@ -1613,15 +1614,15 @@
             <l n="976" xml:id="l976">Et nous mettre en état, sans nous vouloir surprendre,</l>
             <l n="977" xml:id="l977">De vous rendre en ces lieux ce qu’on voudrait vous rendre.</l>
           </sp>
-          <sp who="DOM-SYLVE" xml:id="III03-4">
-            <speaker>DOM SYLVE</speaker>
+          <sp who="dom-sylve" xml:id="III03-4">
+            <speaker>dom sylve</speaker>
             <l n="978" xml:id="l978">Les héroïques soins vous occupent si fort,</l>
             <l n="979" xml:id="l979">Que de vous en tirer, seigneur, j’aurais eu tort ;</l>
             <l n="980" xml:id="l980">Et des grands conquérants les sublimes pensées</l>
             <l n="981" xml:id="l981">Sont aux civilités avec peine abaissées.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="III03-5">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="III03-5">
+            <speaker>dom garcie</speaker>
             <l n="982" xml:id="l982">Mais les grands conquérants, dont on vante les soins,</l>
             <l n="983" xml:id="l983">Loin d’aimer le secret, affectent les témoins.</l>
             <l n="984" xml:id="l984">Leur âme, dès l’enfance à la gloire élevée,</l>
@@ -1633,8 +1634,8 @@
             <l n="990" xml:id="l990">Et ne craignez-vous point qu’on puisse, aux yeux de tous,</l>
             <l n="991" xml:id="l991">Trouver cette action trop indigne de vous ?</l>
           </sp>
-          <sp who="DOM-SYLVE" xml:id="III03-6">
-            <speaker>DOM SYLVE</speaker>
+          <sp who="dom-sylve" xml:id="III03-6">
+            <speaker>dom sylve</speaker>
             <l n="992" xml:id="l992">Je ne sais si quelqu’un blâmera ma conduite,</l>
             <l n="993" xml:id="l993">Au secret que j’ai fait d’une telle visite ;</l>
             <l n="994" xml:id="l994">Mais je sais qu’aux projets qui veulent la clarté,</l>
@@ -1648,26 +1649,26 @@
             <l n="1002" xml:id="l1002">Et d’un sang un peu chaud réprimant les bouillons,</l>
             <l n="1003" xml:id="l1003">N’oublions pas tous deux devant qui nous parlons.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="III03-7">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="III03-7">
+            <speaker>dona elvire</speaker>
             <l n="1004" xml:id="l1004">Prince, vous avez tort ; et sa visite est telle,</l>
             <l n="1005" xml:id="l1005" part="I">Que vous...</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="III03-8">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="III03-8">
+            <speaker>dom garcie</speaker>
             <l n="1005" part="F">Ah ! C’en est trop que prendre sa querelle,</l>
             <l n="1006" xml:id="l1006">Madame, et votre esprit devrait feindre un peu mieux,</l>
             <l n="1007" xml:id="l1007">Lorsqu’il veut ignorer sa venue en ces lieux :</l>
             <l n="1008" xml:id="l1008">Cette chaleur si prompte à vouloir la défendre</l>
             <l n="1009" xml:id="l1009">Persuade assez mal qu’elle ait pu vous surprendre.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="III03-9">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="III03-9">
+            <speaker>dona elvire</speaker>
             <l n="1010" xml:id="l1010">Quoi que vous soupçonniez, il m’importe si peu,</l>
             <l n="1011" xml:id="l1011">Que j’aurais du regret d’en faire un désaveu.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="III03-10">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="III03-10">
+            <speaker>dom garcie</speaker>
             <l n="1012" xml:id="l1012">Poussez donc jusqu’au bout cet orgueil héroïque,</l>
             <l n="1013" xml:id="l1013">Et que sans hésiter tout votre cœur s’explique :</l>
             <l n="1014" xml:id="l1014">C’est au déguisement donner trop de crédit.</l>
@@ -1676,8 +1677,8 @@
             <l n="1017" xml:id="l1017">Dites que de ses feux vous ressentez l’atteinte,</l>
             <l n="1018" xml:id="l1018">Que pour vous sa présence a des charmes si doux...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="III03-11">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="III03-11">
+            <speaker>dona elvire</speaker>
             <l n="1019" xml:id="l1019">Et si je veux l’aimer, m’en empêcherez-vous ?</l>
             <l n="1020" xml:id="l1020">Avez-vous sur mon cœur quelque empire à prétendre ?</l>
             <l n="1021" xml:id="l1021">Et pour régler mes vœux, ai-je votre ordre à prendre ?</l>
@@ -1714,8 +1715,8 @@
         <div2 type="scene" n="4" xml:id="III04">
           <head>SCÈNE IV</head>
           <stage>Dom Garcie, Dom Sylve.</stage>
-          <sp who="DOM-GARCIE" xml:id="III04-1">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="III04-1">
+            <speaker>dom garcie</speaker>
             <l n="1050" xml:id="l1050">Tout vous rit, et votre âme, en cette occasion,</l>
             <l n="1051" xml:id="l1051">Jouit superbement de ma confusion.</l>
             <l n="1052" xml:id="l1052">Il vous est doux de voir un aveu plein de gloire</l>
@@ -1735,8 +1736,8 @@
             <l n="1066" xml:id="l1066">Je saurai bien trouver, dans mon juste courroux,</l>
             <l n="1067" xml:id="l1067">Les moyens d’empêcher qu’elle ne soit à vous.</l>
           </sp>
-          <sp who="DOM-SYLVE" xml:id="III04-2">
-            <speaker>DOM SYLVE</speaker>
+          <sp who="dom-sylve" xml:id="III04-2">
+            <speaker>dom sylve</speaker>
             <l n="1068" xml:id="l1068">Cet obstacle n’est pas ce qui me met en peine.</l>
             <l n="1069" xml:id="l1069">Nous verrons quelle attente en tout cas sera vaine ;</l>
             <l n="1070" xml:id="l1070">Et chacun, de ses feux pourra par sa valeur</l>
@@ -1748,8 +1749,8 @@
             <l n="1076" xml:id="l1076">Prince, affranchissez-moi d’une gêne secrète,</l>
             <l n="1077" xml:id="l1077">Et me donnez moyen de faire ma retraite.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="III04-3">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="III04-3">
+            <speaker>dom garcie</speaker>
             <l n="1078" xml:id="l1078">Non, non, ne craignez point qu’on pousse votre esprit</l>
             <l n="1079" xml:id="l1079">À violer ici l’ordre qu’on vous prescrit.</l>
             <l n="1080" xml:id="l1080">Quelque juste fureur qui me presse et vous flatte,</l>
@@ -1759,8 +1760,8 @@
             <l n="1084" xml:id="l1084">Mais, encore une fois, apprenez que ma tête</l>
             <l n="1085" xml:id="l1085">Peut seule dans vos mains mettre votre conquête.</l>
           </sp>
-          <sp who="DOM-SYLVE" xml:id="III04-4">
-            <speaker>DOM SYLVE</speaker>
+          <sp who="dom-sylve" xml:id="III04-4">
+            <speaker>dom sylve</speaker>
             <l n="1086" xml:id="l1086">Quand nous en serons là, le sort en notre bras</l>
             <l n="1087" xml:id="l1087">De tous nos intérêts vuidera les débats.</l>
           </sp>
@@ -1771,8 +1772,8 @@
         <div2 type="scene" n="1" xml:id="IV01">
           <head>SCÈNE PREMIÈRE</head>
           <stage>Dona Elvire, Dom Alvar.</stage>
-          <sp who="DONA-ELVIRE" xml:id="IV01-1">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV01-1">
+            <speaker>dona elvire</speaker>
             <l n="1088" xml:id="l1088">Retournez, dom Alvar, et perdez l’espérance</l>
             <l n="1089" xml:id="l1089">De me persuader l’oubli de cette offense.</l>
             <l n="1090" xml:id="l1090">Cette plaie en mon cœur ne saurait se guérir,</l>
@@ -1782,8 +1783,8 @@
             <l n="1094" xml:id="l1094">Et son vain repentir, qui porte ici vos pas,</l>
             <l n="1095" xml:id="l1095">Sollicite un pardon que vous n’obtiendrez pas.</l>
           </sp>
-          <sp who="ALVAR" xml:id="IV01-2">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="IV01-2">
+            <speaker>dom alvar</speaker>
             <l n="1096" xml:id="l1096">Madame, il fait pitié. Jamais cœur, que je pense,</l>
             <l n="1097" xml:id="l1097">Par un plus vif remords n’expia son offense ;</l>
             <l n="1098" xml:id="l1098">Et si dans sa douleur vous le considériez,</l>
@@ -1805,19 +1806,19 @@
             <l n="1114" xml:id="l1114">Et dom Lope qu’il chasse est un visible effet</l>
             <l n="1115" xml:id="l1115">Du vif remords qu’il sent de l’éclat qu’il a fait.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV01-3">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV01-3">
+            <speaker>dona elvire</speaker>
             <l n="1116" xml:id="l1116">Ah ! C’est trop promptement qu’il croit mon innocence ;</l>
             <l n="1117" xml:id="l1117">Il n’en a pas encore une entière assurance :</l>
             <l n="1118" xml:id="l1118">Dites-lui, dites-lui qu’il doit bien tout peser,</l>
             <l n="1119" xml:id="l1119">Et ne se hâter point, de peur de s’abuser.</l>
           </sp>
-          <sp who="ALVAR" xml:id="IV01-4">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="IV01-4">
+            <speaker>dom alvar</speaker>
             <l n="1120" xml:id="l1120" part="I">Madame, il sait trop bien...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV01-5">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV01-5">
+            <speaker>dona elvire</speaker>
             <l n="1120" part="F">Mais, dom Alvar, de grâce,</l>
             <l n="1121" xml:id="l1121">N’étendons pas plus loin un discours qui me lasse :</l>
             <l n="1122" xml:id="l1122">Il réveille un chagrin qui vient à contre-temps</l>
@@ -1827,13 +1828,13 @@
             <l n="1126" xml:id="l1126">Doit s’emparer si bien de tout mon déplaisir,</l>
             <l n="1127" xml:id="l1127">Qu’aucun autre souci n’a droit de me saisir.</l>
           </sp>
-          <sp who="ALVAR" xml:id="IV01-6">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="IV01-6">
+            <speaker>dom alvar</speaker>
             <l n="1128" xml:id="l1128">Madame, ce peut être une fausse nouvelle ;</l>
             <l n="1129" xml:id="l1129">Mais mon retour au prince en porte une cruelle.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV01-7">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV01-7">
+            <speaker>dona elvire</speaker>
             <l n="1130" xml:id="l1130">De quelque grand ennui qu’il puisse être agité,</l>
             <l n="1131" xml:id="l1131">Il en aura toujours moins qu’il n’a mérité.</l>
           </sp>
@@ -1841,8 +1842,8 @@
         <div2 type="scene" n="2" xml:id="IV02">
           <head>SCÈNE II</head>
           <stage>Élise, Dona Elvire.</stage>
-          <sp who="ELISE" xml:id="IV02-1">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="IV02-1">
+            <speaker>élise</speaker>
             <l n="1132" xml:id="l1132">J’attendois qu’il sortît, madame, pour vous dire</l>
             <l n="1133" xml:id="l1133">Ce qui veut maintenant que votre âme respire,</l>
             <l n="1134" xml:id="l1134">Puisque votre chagrin, dans un moment d’ici,</l>
@@ -1850,18 +1851,18 @@
             <l n="1136" xml:id="l1136">Un inconnu qui vient pour cette confidence</l>
             <l n="1137" xml:id="l1137">Vous fait par un des siens demander audience.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV02-2">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV02-2">
+            <speaker>dona elvire</speaker>
             <l n="1138" xml:id="l1138">élise, il faut le voir : qu’il vienne promptement.</l>
           </sp>
-          <sp who="ELISE" xml:id="IV02-3">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="IV02-3">
+            <speaker>élise</speaker>
             <l n="1139" xml:id="l1139">Mais il veut n’être vu que de vous seulement ;</l>
             <l n="1140" xml:id="l1140">Et par cet envoyé, madame, il sollicite</l>
             <l n="1141" xml:id="l1141">Qu’il puisse sans témoins vous rendre sa visite.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV02-4">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV02-4">
+            <speaker>dona elvire</speaker>
             <l n="1142" xml:id="l1142">Hé bien ! Nous serons seuls, et je vais l’ordonner,</l>
             <l n="1143" xml:id="l1143">Tandis que tu prendras le soin de l’amener.</l>
             <l n="1144" xml:id="l1144">Que mon impatience en ce moment est forte !</l>
@@ -1871,25 +1872,25 @@
         <div2 type="scene" n="3" xml:id="IV03">
           <head>SCÈNE III</head>
           <stage>Élise, Dom Pèdre.</stage>
-          <sp who="ELISE" xml:id="IV03-1">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="IV03-1">
+            <speaker>élise</speaker>
             <l n="1146" xml:id="l1146" part="I">Où... ?</l>
           </sp>
-          <sp who="PEDRE" xml:id="IV03-2">
-            <speaker>Dom PÈDRE</speaker>
+          <sp who="pedre" xml:id="IV03-2">
+            <speaker>dom pèdre</speaker>
             <l n="1146" part="F">Si vous me cherchez, madame, me voici.</l>
           </sp>
-          <sp who="ELISE" xml:id="IV03-3">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="IV03-3">
+            <speaker>élise</speaker>
             <l n="1147" xml:id="l1147" part="I">En quel lieu votre maître... ?</l>
           </sp>
-          <sp who="PEDRE" xml:id="IV03-4">
-            <speaker>Dom PÈDRE</speaker>
+          <sp who="pedre" xml:id="IV03-4">
+            <speaker>dom pèdre</speaker>
             <l n="1147" part="F">Il est proche d’ici :</l>
             <l n="1148" xml:id="l1148" part="I">Le ferai-je venir ?</l>
           </sp>
-          <sp who="ELISE" xml:id="IV03-5">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="IV03-5">
+            <speaker>élise</speaker>
             <l n="1148" part="F">Dites-lui qu’il s’avance,</l>
             <l n="1149" xml:id="l1149">Assuré qu’on l’attend avec impatience,</l>
             <l n="1150" xml:id="l1150">Et qu’il ne se verra d’aucuns yeux éclairé.</l>
@@ -1901,13 +1902,13 @@
         <div2 type="scene" n="4" xml:id="IV04">
           <head>SCÈNE IV</head>
           <stage>Élise, Donna Ignès.</stage>
-          <sp who="ELISE" xml:id="IV04-1">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="IV04-1">
+            <speaker>élise</speaker>
             <l n="1153" part="F">Seigneur, pour vous attendre</l>
             <l n="1154" xml:id="l1154">On a fait... Mais que vois-je ? Ha ! Madame, mes yeux...</l>
           </sp>
-          <sp who="IGNES" xml:id="IV04-2">
-            <speaker>Dona IGNÈS, en habit de cavalier.</speaker>
+          <sp who="ignes" xml:id="IV04-2">
+            <speaker>dona ignès, en habit de cavalier</speaker>
             <l n="1155" xml:id="l1155">Ne me découvrez point, élise, dans ces lieux,</l>
             <l n="1156" xml:id="l1156">Et laissez respirer ma triste destinée</l>
             <l n="1157" xml:id="l1157">Sous une feinte mort que je me suis donnée.</l>
@@ -1920,8 +1921,8 @@
             <l n="1164" xml:id="l1164">Pour me voir à l’abri de l’injuste poursuite</l>
             <l n="1165" xml:id="l1165">Qui pourrait dans ces lieux persécuter ma fuite.</l>
           </sp>
-          <sp who="ELISE" xml:id="IV04-3">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="IV04-3">
+            <speaker>élise</speaker>
             <l n="1166" xml:id="l1166">Ma surprise en public eût trahi vos désirs ;</l>
             <l n="1167" xml:id="l1167">Mais allez là dedans étouffer des soupirs,</l>
             <l n="1168" xml:id="l1168">Et des charmants transports d’une pleine allégresse</l>
@@ -1933,8 +1934,8 @@
         </div2>
         <div2 type="scene" n="5" xml:id="IV05">
           <head>SCÈNE V</head>
-          <sp who="ALVAR" xml:id="IV05-1">
-            <speaker>Dom ALVAR, seul.</speaker>
+          <sp who="alvar" xml:id="IV05-1">
+            <speaker>dom alvar, seul</speaker>
             <l n="1172" part="F">Le prince me renvoie</l>
             <l n="1173" xml:id="l1173">Vous prier que pour lui votre crédit s’emploie.</l>
             <l n="1174" xml:id="l1174">De ses jours, belle élise, on doit n’espérer rien,</l>
@@ -1945,14 +1946,14 @@
         <div2 type="scene" n="6" xml:id="IV06">
           <head>SCÈNE VI</head>
           <stage>Dom Garcie, Élise.</stage>
-          <sp who="DOM-GARCIE" xml:id="IV06-1">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV06-1">
+            <speaker>dom garcie</speaker>
             <l n="1177" xml:id="l1177">Ah ! Sois un peu sensible à ma disgrâce extrême,</l>
             <l n="1178" xml:id="l1178">Élise, et prends pitié d’un cœur infortuné,</l>
             <l n="1179" xml:id="l1179">Qu’aux plus vives douleurs tu vois abandonné.</l>
           </sp>
-          <sp who="ELISE" xml:id="IV06-2">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="IV06-2">
+            <speaker>élise</speaker>
             <l n="1180" xml:id="l1180">C’est avec d’autres yeux que ne fait la princesse,</l>
             <l n="1181" xml:id="l1181">Seigneur, que je verrais le tourment qui vous presse ;</l>
             <l n="1182" xml:id="l1182">Mais nous avons du ciel ou du tempérament</l>
@@ -1968,8 +1969,8 @@
             <l n="1192" xml:id="l1192">L’art de ces deux rapports fortement les assemble,</l>
             <l n="1193" xml:id="l1193">Et nous n’aimons rien tant que ce qui nous ressemble.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV06-3">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV06-3">
+            <speaker>dom garcie</speaker>
             <l n="1194" xml:id="l1194">Je le sais ; mais, hélas ! Les destins inhumains</l>
             <l n="1195" xml:id="l1195">S’opposent à l’effet de ces justes desseins,</l>
             <l n="1196" xml:id="l1196">Et, malgré tous mes soins, viennent toujours me tendre</l>
@@ -1987,33 +1988,33 @@
             <l n="1208" xml:id="l1208">Et venant m’excuser d’un trait de promptitude,</l>
             <l n="1209" xml:id="l1209">Dérober tout prétexte à son ingratitude.</l>
           </sp>
-          <sp who="ELISE" xml:id="IV06-4">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="IV06-4">
+            <speaker>élise</speaker>
             <l n="1210" xml:id="l1210">Laissez un peu de temps à son ressentiment ;</l>
             <l n="1211" xml:id="l1211">Et ne la voyez point, seigneur, si promptement.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV06-5">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV06-5">
+            <speaker>dom garcie</speaker>
             <l n="1212" xml:id="l1212">Ah ! Si tu me chéris, obtiens que je la voie :</l>
             <l n="1213" xml:id="l1213">C’est une liberté qu’il faut qu’elle m’octroie ;</l>
             <l n="1214" xml:id="l1214">Je ne pars point d’ici, qu’au moins son fier dédain...</l>
           </sp>
-          <sp who="ELISE" xml:id="IV06-6">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="IV06-6">
+            <speaker>élise</speaker>
             <l n="1215" xml:id="l1215">De grâce, différez l’effet de ce dessein.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV06-7">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV06-7">
+            <speaker>dom garcie</speaker>
             <l n="1216" xml:id="l1216">Non, ne m’oppose point une excuse frivole.</l>
           </sp>
-          <sp who="ELISE" xml:id="IV06-8">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="IV06-8">
+            <speaker>élise</speaker>
             <l n="1217" xml:id="l1217">Il faut que ce soit elle, avec une parole,</l>
             <l n="1218" xml:id="l1218">Qui trouve les moyens de le faire en aller.</l>
             <l n="1219" xml:id="l1219">Demeurez donc, seigneur : je m’en vais lui parler.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV06-9">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV06-9">
+            <speaker>dom garcie</speaker>
             <l n="1220" xml:id="l1220">Dis-lui que j’ai d’abord banni de ma présence</l>
             <l n="1221" xml:id="l1221">Celui dont les avis ont causé mon offense,</l>
             <l n="1222" xml:id="l1222" part="I">Que dom Lope jamais...</l>
@@ -2022,8 +2023,8 @@
         <div2 type="scene" n="7" xml:id="IV07">
           <head>SCÈNE VII</head>
           <stage>Dom Garcie, Dom Alvar.</stage>
-          <sp who="DOM-GARCIE" xml:id="IV07-1">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV07-1">
+            <speaker>dom garcie</speaker>
             <l n="1222" part="F">Que vois-je, ô justes cieux !</l>
             <l n="1223" xml:id="l1223">Faut-il que je m’assure au rapport de mes yeux ?</l>
             <l n="1224" xml:id="l1224">Ah ! Sans doute ils me sont des témoins trop fidèles,</l>
@@ -2033,73 +2034,73 @@
             <l n="1228" xml:id="l1228">C’était, c’était le ciel, dont la sourde menace</l>
             <l n="1229" xml:id="l1229">Présageait à mon cœur cette horrible disgrâce.</l>
           </sp>
-          <sp who="ALVAR" xml:id="IV07-2">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="IV07-2">
+            <speaker>dom alvar</speaker>
             <l n="1230" xml:id="l1230">Qu’avez-vous vu, seigneur, qui vous puisse émouvoir ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV07-3">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV07-3">
+            <speaker>dom garcie</speaker>
             <l n="1231" xml:id="l1231">J’ai vu ce que mon âme a peine à concevoir ;</l>
             <l n="1232" xml:id="l1232">Et le renversement de toute la nature</l>
             <l n="1233" xml:id="l1233">Ne m’étonnerait pas comme cette aventure.</l>
             <l n="1234" xml:id="l1234">C’en est fait... Le destin... Je ne saurais parler.</l>
           </sp>
-          <sp who="ALVAR" xml:id="IV07-4">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="IV07-4">
+            <speaker>dom alvar</speaker>
             <l n="1235" xml:id="l1235">Seigneur, que votre esprit tâche à se rappeler.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV07-5">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV07-5">
+            <speaker>dom garcie</speaker>
             <l n="1236" xml:id="l1236" part="I">J’ai vu... Vengeance, ô ciel !</l>
           </sp>
-          <sp who="ALVAR" xml:id="IV07-6">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="IV07-6">
+            <speaker>dom alvar</speaker>
             <l n="1236" part="F">Quelle atteinte soudaine...</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV07-7">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV07-7">
+            <speaker>dom garcie</speaker>
             <l n="1237" xml:id="l1237">J’en mourrai, dom Alvar, la chose est bien certaine.</l>
           </sp>
-          <sp who="ALVAR" xml:id="IV07-8">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="IV07-8">
+            <speaker>dom alvar</speaker>
             <l n="1238" xml:id="l1238" part="I">Mais, seigneur, qui pourrait... ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV07-9">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV07-9">
+            <speaker>dom garcie</speaker>
             <l n="1238" part="F">Ah ! Tout est ruiné ;</l>
             <l n="1239" xml:id="l1239">Je suis, je suis trahi, je suis assassiné :</l>
             <l n="1240" xml:id="l1240">Un homme... Sans mourir te le puis-je bien dire ?</l>
             <l n="1241" xml:id="l1241">Un homme dans les bras de l’infidèle Elvire.</l>
           </sp>
-          <sp who="ALVAR" xml:id="IV07-10">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="IV07-10">
+            <speaker>dom alvar</speaker>
             <l n="1242" xml:id="l1242">Ah ! Seigneur ! La princesse est vertueuse au point...</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV07-11">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV07-11">
+            <speaker>dom garcie</speaker>
             <l n="1243" xml:id="l1243">Ah ! Sur ce que j’ai vu ne me contestez point,</l>
             <l n="1244" xml:id="l1244">Dom Alvar : c’en est trop que soutenir sa gloire,</l>
             <l n="1245" xml:id="l1245">Lorsque mes yeux font foi d’une action si noire.</l>
           </sp>
-          <sp who="ALVAR" xml:id="IV07-12">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="IV07-12">
+            <speaker>dom alvar</speaker>
             <l n="1246" xml:id="l1246">Seigneur, nos passions nous font prendre souvent</l>
             <l n="1247" xml:id="l1247">Pour chose véritable un objet décevant.</l>
             <l n="1248" xml:id="l1248">Et de croire qu’une âme à la vertu nourrie</l>
             <l n="1249" xml:id="l1249" part="I">Se puisse...</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV07-13">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV07-13">
+            <speaker>dom garcie</speaker>
             <l n="1249" part="F">Dom Alvar, laissez-moi, je vous prie :</l>
             <l n="1250" xml:id="l1250">Un conseiller me choque en cette occasion,</l>
             <l n="1251" xml:id="l1251">Et je ne prends avis que de ma passion.</l>
           </sp>
-          <sp who="ALVAR" xml:id="IV07-14">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="IV07-14">
+            <speaker>dom alvar</speaker>
             <l n="1252" xml:id="l1252">Il ne faut rien répondre à cet esprit farouche.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV07-15">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV07-15">
+            <speaker>dom garcie</speaker>
             <l n="1253" xml:id="l1253">Ah ! Que sensiblement cette atteinte me touche !</l>
             <l n="1254" xml:id="l1254">Mais il faut voir qui c’est, et de ma main punir...</l>
             <l n="1255" xml:id="l1255">La voici. Ma fureur, te peux-tu retenir ?</l>
@@ -2108,27 +2109,27 @@
         <div2 type="scene" n="8" xml:id="IV08">
           <head>SCÈNE VIII</head>
           <stage>Dona Elvire, Dom Garcie, Élise.</stage>
-          <sp who="DONA-ELVIRE" xml:id="IV08-1">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV08-1">
+            <speaker>dona elvire</speaker>
             <l n="1256" xml:id="l1256">Hé bien ! Que voulez-vous ? Et quel espoir de grâce,</l>
             <l n="1257" xml:id="l1257">Après vos procédés, peut flatter votre audace ?</l>
             <l n="1258" xml:id="l1258">Osez-vous à mes yeux encore vous présenter,</l>
             <l n="1259" xml:id="l1259">Et que me direz-vous que je doive écouter ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV08-2">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV08-2">
+            <speaker>dom garcie</speaker>
             <l n="1260" xml:id="l1260">Que toutes les horreurs dont une âme est capable</l>
             <l n="1261" xml:id="l1261">À vos déloyautés n’ont rien de comparable,</l>
             <l n="1262" xml:id="l1262">Que le sort, les démons, et le ciel en courroux,</l>
             <l n="1263" xml:id="l1263">N’ont jamais rien produit de si méchant que vous.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV08-3">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV08-3">
+            <speaker>dona elvire</speaker>
             <l n="1264" xml:id="l1264">Ah ! Vraiment, j’attendais l’excuse d’un outrage ;</l>
             <l n="1265" xml:id="l1265">Mais, à ce que je vois, c’est un autre langage.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV08-4">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV08-4">
+            <speaker>dom garcie</speaker>
             <l n="1266" xml:id="l1266">Oui, oui, c’en est un autre ; et vous n’attendiez pas</l>
             <l n="1267" xml:id="l1267">Que j’eusse découvert le traître dans vos bras,</l>
             <l n="1268" xml:id="l1268">Qu’un funeste hasard par la porte entr’ouverte</l>
@@ -2166,37 +2167,37 @@
             <l n="1300" xml:id="l1300">Qu’ici j’immole tout à ma fureur extrême,</l>
             <l n="1301" xml:id="l1301">Et que mon désespoir achève par moi-même.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV08-5">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV08-5">
+            <speaker>dona elvire</speaker>
             <l n="1302" xml:id="l1302">Assez paisiblement vous a-t-on écouté ?</l>
             <l n="1303" xml:id="l1303">Et pourrai-je à mon tour parler en liberté ?</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV08-6">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV08-6">
+            <speaker>dom garcie</speaker>
             <l n="1304" xml:id="l1304">Et par quels beaux discours, que l’artifice inspire... ?</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV08-7">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV08-7">
+            <speaker>dona elvire</speaker>
             <l n="1305" xml:id="l1305">Si vous avez encore quelque chose à me dire,</l>
             <l n="1306" xml:id="l1306">Vous pouvez l’ajouter : je suis prête à l’ouïr ;</l>
             <l n="1307" xml:id="l1307">Sinon, faites au moins que je puisse jouir</l>
             <l n="1308" xml:id="l1308">De deux ou trois moments de paisible audience.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV08-8">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV08-8">
+            <speaker>dom garcie</speaker>
             <l n="1309" xml:id="l1309">Hé bien ! J’écoute. ô ciel, quelle est ma patience !</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV08-9">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV08-9">
+            <speaker>dona elvire</speaker>
             <l n="1310" xml:id="l1310">Je force ma colère, et veux, sans nulle aigreur,</l>
             <l n="1311" xml:id="l1311">Répondre à ce discours si rempli de fureur.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV08-10">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV08-10">
+            <speaker>dom garcie</speaker>
             <l n="1312" xml:id="l1312" part="I">C’est que vous voyez bien...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV08-11">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV08-11">
+            <speaker>dona elvire</speaker>
             <l n="1312" part="F">Ah ! J’ai prêté l’oreille</l>
             <l n="1313" xml:id="l1313">Autant qu’il vous a plu : rendez-moi la pareille.</l>
             <l n="1314" xml:id="l1314">J’admire mon destin, et jamais sous les cieux</l>
@@ -2236,12 +2237,12 @@
             <l n="1348" xml:id="l1348">J’aurais tort de vouloir démentir votre vue,</l>
             <l n="1349" xml:id="l1349">Et votre âme sans doute a dû paraître émue.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV08-12">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV08-12">
+            <speaker>dom garcie</speaker>
             <l n="1350" xml:id="l1350" part="I">Et n’est-ce pas... ?</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV08-13">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV08-13">
+            <speaker>dona elvire</speaker>
             <l n="1350" part="F">Encore un peu d’attention,</l>
             <l n="1351" xml:id="l1351">Et vous allez savoir ma résolution.</l>
             <l n="1352" xml:id="l1352">Il faut que de nous deux le destin s’accomplisse.</l>
@@ -2283,8 +2284,8 @@
             <l n="1388" xml:id="l1388">Voilà dans ces deux choix de quoi vous satisfaire :</l>
             <l n="1389" xml:id="l1389">Avisez maintenant celui qui peut vous plaire.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV08-14">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV08-14">
+            <speaker>dom garcie</speaker>
             <l n="1390" xml:id="l1390">Juste ciel ! Jamais rien peut-il être inventé</l>
             <l n="1391" xml:id="l1391">Avec plus d’artifice et de déloyauté ?</l>
             <l n="1392" xml:id="l1392">Tout ce que des enfers la malice étudie</l>
@@ -2312,30 +2313,30 @@
             <l n="1414" xml:id="l1414">Et quel fameux prodige, accusant ma fureur,</l>
             <l n="1415" xml:id="l1415">Peut de ce que j’ai vu justifier l’horreur.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV08-15">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV08-15">
+            <speaker>dona elvire</speaker>
             <l n="1416" xml:id="l1416">Songez que par ce choix vous allez vous prescrire</l>
             <l n="1417" xml:id="l1417">De ne plus rien prétendre au cœur de done Elvire.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV08-16">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV08-16">
+            <speaker>dom garcie</speaker>
             <l n="1418" xml:id="l1418">Soit : je souscris à tout, et mes vœux aussi bien,</l>
             <l n="1419" xml:id="l1419">En l’état où je suis, ne prétendent plus rien.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV08-17">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV08-17">
+            <speaker>dona elvire</speaker>
             <l n="1420" xml:id="l1420">Vous vous repentirez de l’éclat que vous faites.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV08-18">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV08-18">
+            <speaker>dom garcie</speaker>
             <l n="1421" xml:id="l1421">Non, non, tous ces discours sont de vaines défaites ;</l>
             <l n="1422" xml:id="l1422">Et c’est moi bien plutôt qui dois vous avertir</l>
             <l n="1423" xml:id="l1423">Que quelque autre dans peu se pourra repentir :</l>
             <l n="1424" xml:id="l1424">Le traître, quel qu’il soit, n’aura pas l’avantage</l>
             <l n="1425" xml:id="l1425">De dérober sa vie à l’effort de ma rage.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV08-19">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV08-19">
+            <speaker>dona elvire</speaker>
             <l n="1426" xml:id="l1426">Ah ! C’est trop en souffrir, et mon cœur irrité</l>
             <l n="1427" xml:id="l1427">Ne doit plus conserver une sotte bonté :</l>
             <l n="1428" xml:id="l1428">Abandonnons l’ingrat à son propre caprice,</l>
@@ -2346,20 +2347,20 @@
             <l n="1432" xml:id="l1432">Faites un peu sortir la personne chérie...</l>
             <l n="1433" xml:id="l1433">Allez, vous m’entendez : dites que je l’en prie.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV08-20">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV08-20">
+            <speaker>dom garcie</speaker>
             <l n="1434" xml:id="l1434" part="I">Et je puis...</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV08-21">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV08-21">
+            <speaker>dona elvire</speaker>
             <l n="1434" part="F">Attendez, vous serez satisfait.</l>
           </sp>
-          <sp who="ELISE" xml:id="IV08-22">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="IV08-22">
+            <speaker>élise</speaker>
             <l n="1435" xml:id="l1435">Voici de son jaloux sans doute un nouveau trait.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV08-23">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV08-23">
+            <speaker>dona elvire</speaker>
             <l n="1436" xml:id="l1436">Prenez garde qu’au moins cette noble colère</l>
             <l n="1437" xml:id="l1437">Dans la même fierté jusqu’au bout persévère ;</l>
             <l n="1438" xml:id="l1438">Et surtout désormais songez bien à quel prix</l>
@@ -2373,12 +2374,12 @@
         <div2 type="scene" n="9" xml:id="IV09">
           <head>SCÈNE IX</head>
           <stage>Dom Garcie, Dona Elvire, Dona Ignès, Dom Alvar.</stage>
-          <sp who="DOM-GARCIE" xml:id="IV09-1">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV09-1">
+            <speaker>dom garcie</speaker>
             <l n="1444" xml:id="l1444" part="I">ô ciel !</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="IV09-2">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="IV09-2">
+            <speaker>dona elvire</speaker>
             <l n="1444" part="F">Si la fureur dont votre âme est émue</l>
             <l n="1445" xml:id="l1445">Vous trouble jusque-là l’usage de la vue,</l>
             <l n="1446" xml:id="l1446">Vous avez d’autres yeux à pouvoir consulter</l>
@@ -2412,13 +2413,13 @@
             <l n="1474" xml:id="l1474">Et ne faisons des vœux, dans nos justes desseins,</l>
             <l n="1475" xml:id="l1475">Que pour nous voir bientôt affranchir de ses mains.</l>
           </sp>
-          <sp who="IGNES" xml:id="IV09-3">
-            <speaker>Dona IGNÈS</speaker>
+          <sp who="ignes" xml:id="IV09-3">
+            <speaker>dona ignès</speaker>
             <l n="1476" xml:id="l1476">Seigneur, de vos soupçons l’injuste violence</l>
             <l n="1477" xml:id="l1477">À la même vertu vient de faire une offense.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV09-4">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV09-4">
+            <speaker>dom garcie</speaker>
             <l n="1478" xml:id="l1478">Quelles tristes clartés dissipent mon erreur,</l>
             <l n="1479" xml:id="l1479">Enveloppent mes sens d’une profonde horreur,</l>
             <l n="1480" xml:id="l1480">Et ne laissent plus voir à mon âme abattue</l>
@@ -2438,12 +2439,12 @@
             <l n="1494" xml:id="l1494">Si j’ai pu renoncer à l’espoir de ses vœux,</l>
             <l n="1495" xml:id="l1495">Renoncer à la vie est beaucoup moins fâcheux.</l>
           </sp>
-          <sp who="ALVAR" xml:id="IV09-5">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="IV09-5">
+            <speaker>dom alvar</speaker>
             <l n="1496" xml:id="l1496" part="I">Seigneur...</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV09-6">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV09-6">
+            <speaker>dom garcie</speaker>
             <l n="1496" part="F">Non, dom Alvar, ma mort est nécessaire :</l>
             <l n="1497" xml:id="l1497">Il n’est soins ni raisons qui m’en puissent distraire.</l>
             <l n="1498" xml:id="l1498">Mais il faut que mon sort en se précipitant</l>
@@ -2461,14 +2462,14 @@
             <l n="1510" xml:id="l1510">Et j’aurai des douceurs dans mon instant fatal</l>
             <l n="1511" xml:id="l1511">De ravir cette gloire à l’espoir d’un rival.</l>
           </sp>
-          <sp who="ALVAR" xml:id="IV09-7">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="IV09-7">
+            <speaker>dom alvar</speaker>
             <l n="1512" xml:id="l1512">Un service, seigneur, de cette conséquence</l>
             <l n="1513" xml:id="l1513">Aurait bien le pouvoir d’effacer votre offense ;</l>
             <l n="1514" xml:id="l1514" part="I">Mais hasarder...</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="IV09-8">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="IV09-8">
+            <speaker>dom garcie</speaker>
             <l n="1514" part="F">Allons, par un juste devoir,</l>
             <l n="1515" xml:id="l1515">Faire à ce noble effort servir mon désespoir.</l>
           </sp>
@@ -2479,8 +2480,8 @@
         <div2 type="scene" n="1" xml:id="V01">
           <head>SCÈNE PREMIÈRE</head>
           <stage>Dom Alvar, Élise.</stage>
-          <sp who="ALVAR" xml:id="V01-1">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="V01-1">
+            <speaker>dom alvar</speaker>
             <l n="1516" xml:id="l1516">Oui, jamais il ne fut de si rude surprise :</l>
             <l n="1517" xml:id="l1517">Il venait de former cette haute entreprise ;</l>
             <l n="1518" xml:id="l1518">À l’avide désir d’immoler Mauregat</l>
@@ -2502,8 +2503,8 @@
             <l n="1534" xml:id="l1534">Dont il prétend payer le service éclatant</l>
             <l n="1535" xml:id="l1535">Du bras qui lui fait jour au trône qui l’attend.</l>
           </sp>
-          <sp who="ELISE" xml:id="V01-2">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="V01-2">
+            <speaker>élise</speaker>
             <l n="1536" xml:id="l1536">Oui, done Elvire a su ces nouvelles semées,</l>
             <l n="1537" xml:id="l1537">Et du vieux dom Louis les trouve confirmées,</l>
             <l n="1538" xml:id="l1538">Qui vient de lui mander que Léon dans ce jour</l>
@@ -2513,12 +2514,12 @@
             <l n="1542" xml:id="l1542">Dans ce peu qu’il en dit, il donne assez à voir</l>
             <l n="1543" xml:id="l1543">Que dom Sylve est l’époux qu’elle doit recevoir.</l>
           </sp>
-          <sp who="ALVAR" xml:id="V01-3">
-            <speaker>Dom ALVAR</speaker>
+          <sp who="alvar" xml:id="V01-3">
+            <speaker>dom alvar</speaker>
             <l n="1544" xml:id="l1544" part="I">Ce coup au cœur du prince...</l>
           </sp>
-          <sp who="ELISE" xml:id="V01-4">
-            <speaker>ÉLISE</speaker>
+          <sp who="elise" xml:id="V01-4">
+            <speaker>élise</speaker>
             <l n="1544" part="F">Est sans doute bien rude,</l>
             <l n="1545" xml:id="l1545">Et je le trouve à plaindre en son inquiétude.</l>
             <l n="1546" xml:id="l1546">Son intérêt pourtant, si j’en ai bien jugé,</l>
@@ -2532,8 +2533,8 @@
         <div2 type="scene" n="2" xml:id="V02">
           <head>SCÈNE II</head>
           <stage>Dona Elvire, Dona Ignès.</stage>
-          <sp who="DONA-ELVIRE" xml:id="V02-1">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="V02-1">
+            <speaker>dona elvire</speaker>
             <l n="1551" part="F">Faites, dom Alvar, venir le prince ici.</l>
             <l n="1552" xml:id="l1552">Souffrez que devant vous je lui parle, madame,</l>
             <l n="1553" xml:id="l1553">Sur cet événement dont on surprend mon âme ;</l>
@@ -2556,8 +2557,8 @@
             <l n="1570" xml:id="l1570">Et je crois que sa flamme a bien pu mériter</l>
             <l n="1571" xml:id="l1571">Cette compassion que je lui veux prêter.</l>
           </sp>
-          <sp who="IGNES" xml:id="V02-2">
-            <speaker>Dona IGNÈS</speaker>
+          <sp who="ignes" xml:id="V02-2">
+            <speaker>dona ignès</speaker>
             <l n="1572" xml:id="l1572">Madame, on auroit tort de trouver à redire</l>
             <l n="1573" xml:id="l1573">Aux tendres sentiments qu’on voit qu’il vous inspire :</l>
             <l n="1574" xml:id="l1574">Ce qu’il a fait pour vous... Il vient, et sa pâleur</l>
@@ -2567,13 +2568,13 @@
         <div2 type="scene" n="3" xml:id="V03">
           <head>SCÈNE III</head>
           <stage>Dom Garcie, Dona Elvire.</stage>
-          <sp who="DOM-GARCIE" xml:id="V03-1">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="V03-1">
+            <speaker>dom garcie</speaker>
             <l n="1576" xml:id="l1576">Madame, avec quel front faut-il que je m’avance,</l>
             <l n="1577" xml:id="l1577">Quand je viens vous offrir l’odieuse présence... ?</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="V03-2">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="V03-2">
+            <speaker>dona elvire</speaker>
             <l n="1578" xml:id="l1578">Prince, ne parlons plus de mon ressentiment :</l>
             <l n="1579" xml:id="l1579">Votre sort dans mon âme a fait du changement,</l>
             <l n="1580" xml:id="l1580">Et par le triste état où sa rigueur vous jette</l>
@@ -2609,8 +2610,8 @@
             <l n="1610" xml:id="l1610">Et ce fatal hommage, où mes vœux sont forcés,</l>
             <l n="1611" xml:id="l1611">Peut-être n’ira pas si loin que vous pensez.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="V03-3">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="V03-3">
+            <speaker>dom garcie</speaker>
             <l n="1612" xml:id="l1612">C’est faire voir, madame, une bonté trop rare,</l>
             <l n="1613" xml:id="l1613">Que vouloir adoucir le coup qu’on me prépare :</l>
             <l n="1614" xml:id="l1614">Sur moi sans de tels soins vous pouvez laisser choir</l>
@@ -2656,8 +2657,8 @@
         <div2 type="scene" n="4" xml:id="V04">
           <head>SCÈNE IV</head>
           <stage>Dona Elvire, Dona ignès.</stage>
-          <sp who="DONA-ELVIRE" xml:id="V04-1">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="V04-1">
+            <speaker>dona elvire</speaker>
             <l n="1652" xml:id="l1652">Madame, au désespoir où son destin l’expose</l>
             <l n="1653" xml:id="l1653">De tous mes déplaisirs n’imputez pas la cause :</l>
             <l n="1654" xml:id="l1654">Vous me rendrez justice en croyant que mon cœur</l>
@@ -2669,8 +2670,8 @@
             <l n="1660" xml:id="l1660">Et rendu mes regards coupables d’une flamme</l>
             <l n="1661" xml:id="l1661">Qui traite indignement les bontés de votre âme.</l>
           </sp>
-          <sp who="IGNES" xml:id="V04-2">
-            <speaker>Dona IGNÈS</speaker>
+          <sp who="ignes" xml:id="V04-2">
+            <speaker>dona ignès</speaker>
             <l n="1662" xml:id="l1662">C’est un événement dont sans doute vos yeux</l>
             <l n="1663" xml:id="l1663">N’ont point pour moi, madame, à quereller les cieux.</l>
             <l n="1664" xml:id="l1664">Si les faibles attraits qu’étale mon visage</l>
@@ -2686,8 +2687,8 @@
             <l n="1674" xml:id="l1674">Qui n’a pu retenir un cœur dont les tributs</l>
             <l n="1675" xml:id="l1675">Causent un si grand trouble à vos vœux combattus.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="V04-3">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="V04-3">
+            <speaker>dona elvire</speaker>
             <l n="1676" xml:id="l1676">Accusez-vous plutôt de l’injuste silence</l>
             <l n="1677" xml:id="l1677">Qui m’a de vos deux cœurs caché l’intelligence.</l>
             <l n="1678" xml:id="l1678">Ce secret, plus tôt su, peut-être à toutes deux</l>
@@ -2696,23 +2697,23 @@
             <l n="1681" xml:id="l1681">Au point de leur naissance ayant banni l’hommage,</l>
             <l n="1682" xml:id="l1682" part="I">Eussent pu renvoyer...</l>
           </sp>
-          <sp who="IGNES" xml:id="V04-4">
-            <speaker>Dona IGNÈS</speaker>
+          <sp who="ignes" xml:id="V04-4">
+            <speaker>dona ignès</speaker>
             <l n="1682" part="F">Madame, le voici.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="V04-5">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="V04-5">
+            <speaker>dona elvire</speaker>
             <l n="1683" xml:id="l1683">Sans rencontrer ses yeux vous pouvez être ici :</l>
             <l n="1684" xml:id="l1684">Ne sortez point, madame, et dans un tel martyre</l>
             <l n="1685" xml:id="l1685">Veuillez être témoin de ce que je vais dire.</l>
           </sp>
-          <sp who="IGNES" xml:id="V04-6">
-            <speaker>Dona IGNÈS</speaker>
+          <sp who="ignes" xml:id="V04-6">
+            <speaker>dona ignès</speaker>
             <l n="1686" xml:id="l1686">Madame, j’y consens, quoique je sache bien</l>
             <l n="1687" xml:id="l1687">Qu’on fuiroit en ma place un pareil entretien.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="V04-7">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="V04-7">
+            <speaker>dona elvire</speaker>
             <l n="1688" xml:id="l1688">Son succès, si le ciel seconde ma pensée,</l>
             <l n="1689" xml:id="l1689">Madame, n’aura rien dont vous soyez blessée.</l>
           </sp>
@@ -2720,8 +2721,8 @@
         <div2 type="scene" n="5" xml:id="V05">
           <head>SCÈNE V</head>
           <stage>Dona Elvire, Dom Sylve, Dona Ignès.</stage>
-          <sp who="DONA-ELVIRE" xml:id="V05-1">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="V05-1">
+            <speaker>dona elvire</speaker>
             <l n="1690" xml:id="l1690">Avant que vous parliez, je demande instamment</l>
             <l n="1691" xml:id="l1691">Que vous daigniez, Seigneur, m’écouter un moment.</l>
             <l n="1692" xml:id="l1692">Déjà la renommée a jusqu’à nos oreilles</l>
@@ -2758,8 +2759,8 @@
             <l n="1723" xml:id="l1723">Que personne jamais n’aura pouvoir sur moi,</l>
             <l n="1724" xml:id="l1724">Qu’une sainte retraite à toute autre poursuite...</l>
           </sp>
-          <sp who="DOM-SYLVE" xml:id="V05-2">
-            <speaker>DOM SYLVE</speaker>
+          <sp who="dom-sylve" xml:id="V05-2">
+            <speaker>dom sylve</speaker>
             <l n="1725" xml:id="l1725">J’ai de votre discours assez souffert la suite,</l>
             <l n="1726" xml:id="l1726">Madame ; et par deux mots je vous l’eusse épargné,</l>
             <l n="1727" xml:id="l1727">Si votre fausse alarme eût sur vous moins gagné.</l>
@@ -2812,8 +2813,8 @@
             <l n="1774" xml:id="l1774">Instruisez-m’en, de grâce, et par votre discours</l>
             <l n="1775" xml:id="l1775">Hâtez mon désespoir ou le bien de mes jours.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="V05-3">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="V05-3">
+            <speaker>dona elvire</speaker>
             <l n="1776" xml:id="l1776">Ne vous étonnez pas si je tarde à répondre,</l>
             <l n="1777" xml:id="l1777">Seigneur : ces nouveautés ont droit de me confondre.</l>
             <l n="1778" xml:id="l1778">Je n’entreprendrai point de dire à votre amour</l>
@@ -2821,15 +2822,15 @@
             <l n="1780" xml:id="l1780">Mais par ce cavalier, l’un de ses plus fidèles,</l>
             <l n="1781" xml:id="l1781">Vous en pourrez sans doute apprendre des nouvelles.</l>
           </sp>
-          <sp who="DOM-SYLVE" xml:id="V05-4">
-            <speaker>DOM SYLVE ou Dom Alphonse.</speaker>
+          <sp who="dom-sylve" xml:id="V05-4">
+            <speaker>dom sylve ou dom alphonse</speaker>
             <l n="1782" xml:id="l1782">Ah ! Madame, il m’est doux en ces perplexités</l>
             <l n="1783" xml:id="l1783">De voir ici briller vos célestes beautés.</l>
             <l n="1784" xml:id="l1784">Mais vous, avec quels yeux verrez-vous un volage,</l>
             <l n="1785" xml:id="l1785" part="I">Dont le crime... ?</l>
           </sp>
-          <sp who="IGNES" xml:id="V05-5">
-            <speaker>Dona IGNÈS</speaker>
+          <sp who="ignes" xml:id="V05-5">
+            <speaker>dona ignès</speaker>
             <l n="1785" part="F">Ah ! Gardez de me faire un outrage,</l>
             <l n="1786" xml:id="l1786">Et de vous hasarder à dire que vers moi</l>
             <l n="1787" xml:id="l1787">Un cœur dont je fais cas ait pu manquer de foi ;</l>
@@ -2844,8 +2845,8 @@
             <l n="1796" xml:id="l1796">Et qu’il n’est repentir, ni suprême puissance,</l>
             <l n="1797" xml:id="l1797">Qui gagnât sur mon cœur d’oublier cette offense.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="V05-6">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="V05-6">
+            <speaker>dona elvire</speaker>
             <l n="1798" xml:id="l1798">Mon frère (d’un tel nom souffrez-moi la douceur),</l>
             <l n="1799" xml:id="l1799">De quel ravissement comblez-vous une sœur !</l>
             <l n="1800" xml:id="l1800">Que j’aime votre choix et bénis l’aventure</l>
@@ -2856,8 +2857,8 @@
         <div2 type="scene" n="6" xml:id="V06">
           <head>SCÈNE VI</head>
           <stage>Dom Garcie, Dom Sylve, Dona Ignès.</stage>
-          <sp who="DOM-GARCIE" xml:id="V06-1">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="V06-1">
+            <speaker>dom garcie</speaker>
             <l n="1803" xml:id="l1803">De grâce, cachez-moi votre contentement,</l>
             <l n="1804" xml:id="l1804">Madame, et me laissez mourir dans la croyance</l>
             <l n="1805" xml:id="l1805">Que le devoir vous fait un peu de violence.</l>
@@ -2892,8 +2893,8 @@
             <l n="1834" xml:id="l1834">Ce n’est pas un spectacle où je doive courir ;</l>
             <l n="1835" xml:id="l1835">Madame, sans le voir, j’en saurai bien mourir.</l>
           </sp>
-          <sp who="IGNES" xml:id="V06-2">
-            <speaker>Dona IGNÈS</speaker>
+          <sp who="ignes" xml:id="V06-2">
+            <speaker>dona ignès</speaker>
             <l n="1836" xml:id="l1836">Seigneur, permettez-moi de blâmer votre plainte.</l>
             <l n="1837" xml:id="l1837">De vos maux la princesse a su paraître atteinte ;</l>
             <l n="1838" xml:id="l1838">Et cette joie encore, de quoi vous murmurez,</l>
@@ -2903,15 +2904,15 @@
             <l n="1842" xml:id="l1842">C’est dom Alphonse enfin, dont on a tant parlé,</l>
             <l n="1843" xml:id="l1843">Et ce fameux secret vient d’être dévoilé.</l>
           </sp>
-          <sp who="DOM-SYLVE" xml:id="V06-3">
-            <speaker>DOM SYLVE ou dom Alphonse.</speaker>
+          <sp who="dom-sylve" xml:id="V06-3">
+            <speaker>dom sylve ou dom alphonse</speaker>
             <l n="1844" xml:id="l1844">Mon cœur, grâces au ciel, après un long martyre,</l>
             <l n="1845" xml:id="l1845">Seigneur, sans vous rien prendre, a tout ce qu’il désire,</l>
             <l n="1846" xml:id="l1846">Et goûte d’autant mieux son bonheur en ce jour,</l>
             <l n="1847" xml:id="l1847">Qu’il se voit en état de servir votre amour.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="V06-4">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="V06-4">
+            <speaker>dom garcie</speaker>
             <l n="1848" xml:id="l1848">Hélas ! Cette bonté, seigneur, doit me confondre :</l>
             <l n="1849" xml:id="l1849">À mes plus chers désirs elle daigne répondre ;</l>
             <l n="1850" xml:id="l1850">Le coup que je craignais, le ciel l’a détourné,</l>
@@ -2927,8 +2928,8 @@
             <l n="1860" xml:id="l1860">Et quelque heureux succès que le sort me présente,</l>
             <l n="1861" xml:id="l1861">La mort, la seule mort est toute mon attente.</l>
           </sp>
-          <sp who="DONA-ELVIRE" xml:id="V06-5">
-            <speaker>DONA ELVIRE</speaker>
+          <sp who="elvire" xml:id="V06-5">
+            <speaker>dona elvire</speaker>
             <l n="1862" xml:id="l1862">Non, non : de ce transport le soumis mouvement,</l>
             <l n="1863" xml:id="l1863">Prince, jette en mon âme un plus doux sentiment.</l>
             <l n="1864" xml:id="l1864">Par lui de mes serments je me sens détachée ;</l>
@@ -2940,13 +2941,13 @@
             <l n="1870" xml:id="l1870">Et pour tout dire enfin, jaloux ou non jaloux,</l>
             <l n="1871" xml:id="l1871">Mon roi, sans me gêner, peut me donner à vous.</l>
           </sp>
-          <sp who="DOM-GARCIE" xml:id="V06-6">
-            <speaker>DOM GARCIE</speaker>
+          <sp who="dom-garcie" xml:id="V06-6">
+            <speaker>dom garcie</speaker>
             <l n="1872" xml:id="l1872">Ciel, dans l’excès des biens que cet aveu m’octroie,</l>
             <l n="1873" xml:id="l1873">Rends capable mon cœur de supporter sa joie !</l>
           </sp>
-          <sp who="DOM-SYLVE" xml:id="V06-7">
-            <speaker>DOM SYLVE ou dom Alphonse.</speaker>
+          <sp who="dom-sylve" xml:id="V06-7">
+            <speaker>dom sylve ou dom alphonse</speaker>
             <l n="1874" xml:id="l1874">Je veux que cet hymen, après nos vains débats,</l>
             <l n="1875" xml:id="l1875">Seigneur, joigne à jamais nos cœurs et nos états.</l>
             <l n="1876" xml:id="l1876">Mais ici le temps presse, et Léon nous appelle :</l>

@@ -507,6 +507,7 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
           <ref name="postscript"/>
           <ref name="salute"/>
           <ref name="signed"/>
+          <ref name="trailer"/>
         </choice>
         <zeroOrMore>
           <choice>
@@ -577,7 +578,10 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
         <ref name="rendering.block"/>
         <choice>
           <oneOrMore>
-            <ref name="s"/>
+            <choice>
+              <ref name="s"/>
+              <ref name="note"/>
+            </choice>
           </oneOrMore>
           <ref name="flow"/>
         </choice>
@@ -604,6 +608,7 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
         <oneOrMore>
           <choice>
             <ref name="l"/>
+            <ref name="label"/>
             <ref name="pb"/>
             <ref name="cb"/>
           </choice>
@@ -820,6 +825,7 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
               <ref name="p"/>
               <ref name="lg"/>
               <ref name="l"/>
+              <ref name="note"/>
               <ref name="stage"/>
               <ref name="quote-p"/>
             </choice>
@@ -1191,6 +1197,14 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
         </oneOrMore>
       </element>
     </define>
+    <define name="trailer">
+      <element name="trailer">
+        <a:documentation>Un titre de fin (livre, chapitre, page…)</a:documentation>
+        <ref name="xml-atts"/>
+        <ref name="rendering.block"/>
+        <ref name="flow"/>
+      </element>
+    </define>
     <define name="epigraph">
       <element name="epigraph">
         <a:documentation>Épigraphe, citation en exergue de section</a:documentation>
@@ -1444,6 +1458,7 @@ Zero width non joiner: x‌x‌x‌x‌x‌x‌x‌x‌x‌x
         <ref name="phr"/>
         <ref name="q"/>
         <ref name="ref"/>
+        <ref name="stage"/>
         <ref name="said"/>
         <ref name="seg"/>
         <ref name="surname"/>
