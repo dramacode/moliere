@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_mariageforce">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -50,16 +51,16 @@
       </performance>
       <castList>
         <head>PERSONNAGES</head>
-        <castItem><role xml:id="SGANARELLE" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">SGANARELLE</role>. Molière.</castItem>
-        <castItem><role xml:id="GERONIMO" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">GÉRONIMO</role>. La Thorillière.</castItem>
-        <castItem><role xml:id="GERONIMO" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">DORIMÈNE</role>, jeune coquette, promise à Sganarelle.Melle du Parc.</castItem>
-        <castItem><role xml:id="ALCANTOR" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCANTOR</role>, père de Dorimène. Béjart</castItem>
-        <castItem><role xml:id="ALCIDAS" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCIDAS</role>, frère de Dorimène. Béjart.</castItem>
-        <castItem><role xml:id="LYCASTE" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">LYCASTE</role>, amant de Dorimène. La Grange.</castItem>
-        <castItem><role xml:id="PREMIÈRE BOHEMIÉNNE" civil="F" type="H" statut="bohémien" age="A" stat_amour="néant">PREMIÈRE BOHEMIÉNNE</role>. Melle Béjart.</castItem>
-        <castItem><role xml:id="DEUXIÈME BOHEMIÉNNE" civil="F" type="H" statut="bohémien" age="A" stat_amour="néant">DEUXIÈME BOHEMIÉNNE</role>. Melle de Brie.</castItem>
-        <castItem><role xml:id="PANCRACE" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">PANCRACE </role>, docteur aristotélicien. Brécourt.</castItem>
-        <castItem><role xml:id="MARPHIRUS" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">MARPHURIUS</role>, docteur pyrrhonien. Du croisy.</castItem>
+        <castItem><role xml:id="sganarelle" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">SGANARELLE</role>. Molière.</castItem>
+        <castItem><role xml:id="geronimo" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">GÉRONIMO</role>. La Thorillière.</castItem>
+        <castItem><role xml:id="dorimene" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">DORIMÈNE</role>, jeune coquette, promise à Sganarelle.Melle du Parc.</castItem>
+        <castItem><role xml:id="alcantor" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCANTOR</role>, père de Dorimène. Béjart</castItem>
+        <castItem><role xml:id="alcidas" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCIDAS</role>, frère de Dorimène. Béjart.</castItem>
+        <castItem><role xml:id="lycaste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">LYCASTE</role>, amant de Dorimène. La Grange.</castItem>
+        <castItem><role xml:id="egyptienne1" civil="F" type="H" statut="bohémien" age="A" stat_amour="néant">PREMIÈRE BOHEMIÉNNE</role>. Melle Béjart.</castItem>
+        <castItem><role xml:id="egyptienne2" civil="F" type="H" statut="bohémien" age="A" stat_amour="néant">DEUXIÈME BOHEMIÉNNE</role>. Melle de Brie.</castItem>
+        <castItem><role xml:id="pancrace" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">PANCRACE </role>, docteur aristotélicien. Brécourt.</castItem>
+        <castItem><role xml:id="marphurius" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">MARPHURIUS</role>, docteur pyrrhonien. Du croisy.</castItem>
       </castList>
       <set location="Paris" country="France" periode="XVIIème" link="">[La scène est à Paris.]</set>
     </front>
@@ -69,266 +70,266 @@
         <div2 type="scene" n="1" xml:id="I01">
           <head>SCÈNE I</head>
           <stage>Sganarelle, Géronimo.</stage>
-          <sp who="SGANARELLE" xml:id="I01-1">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-1">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je suis de retour dans un moment.</s>
               <s>Que l’on ait bien soin du logis, et que tout aille comme il faut.</s>
               <s>Si l’on m’apporte de l’argent, que l’on me vienne querir vite chez le seigneur Géronimo ; et si l’on vient m’en demander, qu’on dise que je suis sorti et que je ne dois revenir de toute la journée.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-2">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-2">
+            <speaker>géronimo</speaker>
             <p>
               <s>Voilà un ordre fort prudent.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-3">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-3">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Ah !</s>
               <s>Seigneur Géronimo, je vous trouve à propos, et j’allais chez vous vous chercher.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-4">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-4">
+            <speaker>géronimo</speaker>
             <p>
               <s>Et pour quel sujet, s’il vous plaît ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-5">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-5">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Pour vous communiquer une affaire que j’ai en tête, et vous prier de m’en dire votre avis.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-6">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-6">
+            <speaker>géronimo</speaker>
             <p>
               <s>Très volontiers.</s>
               <s>Je suis bien aise de cette rencontre, et nous pouvons parler ici en toute liberté.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-7">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-7">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Mettez donc dessus, s’il vous plaît.</s>
               <s>Il s’agit d’une chose de conséquence, que l’on m’a proposée ; et il est bon de ne rien faire sans le conseil de ses amis.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-8">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-8">
+            <speaker>géronimo</speaker>
             <p>
               <s>Je vous suis obligé de m’avoir choisi pour cela.</s>
               <s>Vous n’avez qu’à me dire ce que c’est.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-9">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-9">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Mais auparavant je vous conjure de ne me point flatter du tout et de me dire nettement votre pensée.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-10">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-10">
+            <speaker>géronimo</speaker>
             <p>
               <s>Je le ferai, puisque vous le voulez.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-11">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-11">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je ne vois rien de plus condamnable qu’un ami qui ne nous parle pas franchement.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-12">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-12">
+            <speaker>géronimo</speaker>
             <p>
               <s>Vous avez raison.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-13">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-13">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Et dans ce siècle on trouve peu d’amis sincères.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-14">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-14">
+            <speaker>géronimo</speaker>
             <p>
               <s>Cela est vrai.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-15">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-15">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Promettez-moi donc, seigneur Géronimo, de me parler avec toute sorte de franchise.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-16">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-16">
+            <speaker>géronimo</speaker>
             <p>
               <s>Je vous le promets.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-17">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-17">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Jurez-en votre foi.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-18">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-18">
+            <speaker>géronimo</speaker>
             <p>
               <s>Oui, foi d’ami.</s>
               <s>Dites-moi seulement votre affaire.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-19">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-19">
+            <speaker>sganarelle</speaker>
             <p>
               <s>C’est que je veux savoir de vous si je ferai bien de me marier.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-20">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-20">
+            <speaker>géronimo</speaker>
             <p>
               <s>Qui, vous ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-21">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-21">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Oui, moi-même en propre personne.</s>
               <s>Quel est votre avis là-dessus ?</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-22">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-22">
+            <speaker>géronimo</speaker>
             <p>
               <s>Je vous prie auparavant de me dire une chose.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-23">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-23">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Et quoi ?</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-24">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-24">
+            <speaker>géronimo</speaker>
             <p>
               <s>Quel âge pouvez-vous bien avoir maintenant ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-25">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-25">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Moi ?</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-26">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-26">
+            <speaker>géronimo</speaker>
             <p>
               <s>Oui.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-27">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-27">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Ma foi, je ne sais ; mais je me porte bien.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-28">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-28">
+            <speaker>géronimo</speaker>
             <p>
               <s>Quoi ?</s>
               <s>vous ne savez pas à peu près votre âge ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-29">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-29">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Non : est-ce qu’on songe à cela ?</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-30">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-30">
+            <speaker>géronimo</speaker>
             <p>
               <s>Hé !</s>
               <s>Dites-moi un peu, s’il vous plaît : combien aviez-vous d’années lorsque nous fîmes connaissance ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-31">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-31">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Ma foi, je n’avais que vingt ans alors.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-32">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-32">
+            <speaker>géronimo</speaker>
             <p>
               <s>Combien fûmes-nous ensemble à Rome ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-33">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-33">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Huit ans.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-34">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-34">
+            <speaker>géronimo</speaker>
             <p>
               <s>Quel temps avez-vous demeuré en Angleterre ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-35">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-35">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Sept ans.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-36">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-36">
+            <speaker>géronimo</speaker>
             <p>
               <s>Et en Hollande, où vous fûtes ensuite ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-37">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-37">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Cinq ans et demi.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-38">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-38">
+            <speaker>géronimo</speaker>
             <p>
               <s>Combien y a-t-il que vous êtes revenu ici ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-39">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-39">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je revins en cinquante-six.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-40">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-40">
+            <speaker>géronimo</speaker>
             <p>
               <s>De cinquante-six à soixante-huit, il y a douze ans, ce me semble.</s>
               <s>Cinq ans en Hollande, font dix-sept ; sept ans en Angleterre, font vingt-quatre ; huit dans notre séjour à Rome font trente-deux ; et vingt que vous aviez lorsque nous nous connûmes, cela fait justement cinquante-deux : si bien, seigneur Sganarelle, que, sur votre propre confession, vous êtes environ à votre cinquante-deuxième ou cinquante-troisième année.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-41">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-41">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Qui, moi ?</s>
               <s>Cela ne se peut pas.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-42">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-42">
+            <speaker>géronimo</speaker>
             <p>
               <s>Mon Dieu, le calcul est juste ; et là-dessus je vous dirai franchement et en ami, comme vous m’avez fait promettre de vous parler, que le mariage n’est guère votre fait.</s>
               <s>C’est une chose à laquelle il faut que les jeunes gens pensent bien mûrement avant que de la faire ; mais les gens de votre âge n’y doivent point penser du tout ; et si l’on dit que la plus grande de toutes les folies est celle de se marier, je ne vois rien de plus mal à propos que de la faire, cette folie, dans la saison où nous devons être plus sages.</s>
@@ -336,59 +337,59 @@
               <s>Je ne vous conseille point de songer au mariage ; et je vous trouverois le plus ridicule du monde, si, ayant été libre jusqu’à cette heure, vous alliez vous charger maintenant de la plus pesante des chaînes.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-43">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-43">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Et moi je vous dis que je suis résolu de me marier, et que je ne serai point ridicule en épousant la fille que je recherche.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-44">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-44">
+            <speaker>géronimo</speaker>
             <p>
               <s>Ah !</s>
               <s>C’est une autre chose : vous ne m’aviez pas dit cela.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-45">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-45">
+            <speaker>sganarelle</speaker>
             <p>
               <s>C’est une fille qui me plaît, et que j’aime de tout mon cœur.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-46">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-46">
+            <speaker>géronimo</speaker>
             <p>
               <s>Vous l’aimez de tout votre cœur ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-47">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-47">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Sans doute, et je l’ai demandée à son père.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-48">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-48">
+            <speaker>géronimo</speaker>
             <p>
               <s>Vous l’avez demandée ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-49">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-49">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Oui.</s>
               <s>C’est un mariage qui se doit conclure ce soir, et j’ai donné parole.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-50">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-50">
+            <speaker>géronimo</speaker>
             <p>
               <s>Oh !</s>
               <s>Mariez-vous donc : je ne dis plus mot.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-51">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-51">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je quitterais le dessein que j’ai fait ?</s>
               <s>Vous semble-t-il, seigneur Géronimo, que je ne sois plus propre à songer à une femme ?</s>
@@ -401,121 +402,121 @@
               <s>Qu’en dites-vous ?</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-52">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-52">
+            <speaker>géronimo</speaker>
             <p>
               <s>Vous avez raison ; je m’étais trompé : vous ferez bien de vous marier.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-53">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-53">
+            <speaker>sganarelle</speaker>
             <p>
               <s>J’y ai répugné autrefois ; mais j’ai maintenant de puissantes raisons pour cela.</s>
               <s>Outre la joie que j’aurai de posséder une belle femme, qui me fera mille caresses, qui me dorlotera et me viendra frotter lorsque je serai las, outre cette joie, dis-je, je considère qu’en demeurant comme je suis, je laisse périr dans le monde la race des Sganarelles, et qu’en me mariant, je pourrai me voir revivre en d’autres moi-mêmes, que j’aurai le plaisir de voir des créatures qui seront sorties de moi, de petites figures qui me ressembleront comme deux gouttes d’eau, qui se joueront continuellement dans la maison, qui m’appelleront leur papa quand je reviendrai de la ville et me diront de petites folies les plus agréables du monde.</s>
               <s>Tenez, il me semble déjà que j’y suis, et que j’en vois une demi-douzaine autour de moi.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-54">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-54">
+            <speaker>géronimo</speaker>
             <p>
               <s>Il n’y a rien de plus agréable que cela ; et je vous conseille de vous marier le plus vite que vous pourrez.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-55">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-55">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Tout de bon, vous me le conseillez ?</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-56">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-56">
+            <speaker>géronimo</speaker>
             <p>
               <s>Assurément.</s>
               <s>Vous ne sauriez mieux faire.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-57">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-57">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Vraiment, je suis ravi que vous me donniez ce conseil en véritable ami.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-58">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-58">
+            <speaker>géronimo</speaker>
             <p>
               <s>Hé !</s>
               <s>Quelle est la personne, s’il vous plaît, avec qui vous vous allez marier ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-59">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-59">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Dorimène.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-60">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-60">
+            <speaker>géronimo</speaker>
             <p>
               <s>Cette jeune Dorimène, si galante et si bien parée ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-61">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-61">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Oui.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-62">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-62">
+            <speaker>géronimo</speaker>
             <p>
               <s>Fille du seigneur Alcantor ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-63">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-63">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Justement.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-64">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-64">
+            <speaker>géronimo</speaker>
             <p>
               <s>Et sœur d’un certain Alcidas, qui se mêle de porter l’épée ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-65">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-65">
+            <speaker>sganarelle</speaker>
             <p>
               <s>C’est cela.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-66">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-66">
+            <speaker>géronimo</speaker>
             <p>
               <s>Vertu de ma vie !</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-67">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-67">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Qu’en dites-vous ?</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-68">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-68">
+            <speaker>géronimo</speaker>
             <p>
               <s>Bon parti !</s>
               <s>Mariez-vous promptement.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-69">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-69">
+            <speaker>sganarelle</speaker>
             <p>
               <s>N’ai-je pas raison d’avoir fait ce choix ?</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-70">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-70">
+            <speaker>géronimo</speaker>
             <p>
               <s>Sans doute.</s>
               <s>Ah !</s>
@@ -523,34 +524,34 @@
               <s>Dépêchez-vous de l’être.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-71">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-71">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Vous me comblez de joie, de me dire cela.</s>
               <s>Je vous remercie de votre conseil, et je vous invite ce soir à mes noces.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-72">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-72">
+            <speaker>géronimo</speaker>
             <p>
               <s>Je n’y manquerai pas, et je veux y aller en masque, afin de les mieux honorer.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-73">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-73">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Serviteur.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I01-74">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I01-74">
+            <speaker>géronimo</speaker>
             <p>
               <s>La jeune Dorimène, fille du seigneur Alcantor, avec le seigneur Sganarelle, qui n’a que cinquante-trois ans : ô le beau mariage !</s>
               <s>Ô le beau mariage !</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I01-75">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I01-75">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Ce mariage doit être heureux, car il donne de la joie à tout le monde, et je fais rire tous ceux à qui j’en parle.</s>
               <s>Me voilà maintenant le plus content des hommes.</s>
@@ -560,14 +561,14 @@
         <div2 type="scene" n="2" xml:id="I02">
           <head>SCÈNE II</head>
           <stage>Dorimène, Sganarelle.</stage>
-          <sp who="DORIMENE" xml:id="I02-1">
-            <speaker>DORIMÈNE</speaker>
+          <sp who="dorimene" xml:id="I02-1">
+            <speaker>dorimène</speaker>
             <p>
               <s>Allons, petit garçon, qu’on tienne bien ma queue, et qu’on ne s’amuse pas à badiner.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I02-2">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I02-2">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Voici ma maîtresse qui vient.</s>
               <s>Ah !</s>
@@ -578,14 +579,14 @@
               <s>Où allez-vous, belle mignonne, chère épouse future de votre époux futur ?</s>
             </p>
           </sp>
-          <sp who="DORIMENE" xml:id="I02-3">
-            <speaker>DORIMÈNE</speaker>
+          <sp who="dorimene" xml:id="I02-3">
+            <speaker>dorimène</speaker>
             <p>
               <s>Je vais faire quelques emplettes.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I02-4">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I02-4">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Hé bien !</s>
               <s>Ma belle, c’est maintenant que nous allons être heureux l’un et l’autre.</s>
@@ -594,8 +595,8 @@
               <s>N’êtes-vous pas bien aise de ce mariage, mon aimable pouponne ?</s>
             </p>
           </sp>
-          <sp who="DORIMENE" xml:id="I02-5">
-            <speaker>DORIMÈNE</speaker>
+          <sp who="dorimene" xml:id="I02-5">
+            <speaker>dorimène</speaker>
             <p>
               <s>Tout à fait aise, je vous jure ; car enfin la sévérité de mon père m’a tenue jusques ici dans une sujétion la plus fâcheuse du monde.</s>
               <s>Il y a je ne sais combien que j’enrage du peu de liberté qu’il me donne, et j’ai cent fois souhaité qu’il me mariât, pour sortir promptement de la contrainte où j’étais avec lui, et me voir en état de faire ce que je voudrai.</s>
@@ -610,14 +611,14 @@
               <s>Je vous vois tout changé de visage.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I02-6">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I02-6">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Ce sont quelques vapeurs qui me viennent de monter à la tête.</s>
             </p>
           </sp>
-          <sp who="DORIMENE" xml:id="I02-7">
-            <speaker>DORIMÈNE</speaker>
+          <sp who="dorimene" xml:id="I02-7">
+            <speaker>dorimène</speaker>
             <p>
               <s>C’est un mal aujourd’hui qui attaque beaucoup de gens ; mais notre mariage vous dissipera tout cela.</s>
               <s>Adieu.</s>
@@ -629,30 +630,30 @@
         <div2 type="scene" n="3" xml:id="I03">
           <head>SCÈNE III</head>
           <stage>Géronimo, Sganarelle.</stage>
-          <sp who="GERONIMO" xml:id="I03-1">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I03-1">
+            <speaker>géronimo</speaker>
             <p>
               <s>Ah !</s>
               <s>Seigneur Sganarelle, je suis ravi de vous trouver encore ici ; et j’ai rencontré un orfèvre qui, sur le bruit que vous cherchez quelque beau diamant en bague pour faire un présent à votre épouse, m’a fort prié de vous venir parler pour lui, et de vous dire qu’il en a un à vendre, le plus parfait du monde.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I03-2">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I03-2">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Mon Dieu !</s>
               <s>cela n’est pas pressé.</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I03-3">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I03-3">
+            <speaker>géronimo</speaker>
             <p>
               <s>Comment ?</s>
               <s>Que veut dire cela ?</s>
               <s>Où est l’ardeur que vous montriez tout à l’heure ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I03-4">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I03-4">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Il m’est venu, depuis un moment, de petits scrupules sur le mariage.</s>
               <s>Avant que de passer plus avant, je voudrois bien agiter à fond cette matière, et que l’on m’expliquât un songe que j’ai fait cette nuit, et qui vient tout à l’heure de me revenir dans l’esprit.</s>
@@ -660,8 +661,8 @@
               <s>Il me semblait que j’étais dans un vaisseau, sur une mer bien agitée, et que...</s>
             </p>
           </sp>
-          <sp who="GERONIMO" xml:id="I03-5">
-            <speaker>GÉRONIMO</speaker>
+          <sp who="geronimo" xml:id="I03-5">
+            <speaker>géronimo</speaker>
             <p>
               <s>Seigneur Sganarelle, j’ai maintenant quelque petite affaire qui m’empêche de vous ouïr.</s>
               <s>Je n’entends rien du tout aux songes ; et quant au raisonnement du mariage, vous avez deux savants, deux philosophes vos voisins, qui sont gens à vous débiter tout ce qu’on peut dire sur ce sujet.</s>
@@ -669,8 +670,8 @@
               <s>Pour moi, je me contente de ce que je vous ai dit tantôt et demeure votre serviteur.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I03-6">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I03-6">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Il a raison.</s>
               <s>Il faut que je consulte un peu ces gens-là sur l’incertitude où je suis.</s>
@@ -680,272 +681,271 @@
         <div2 type="scene" n="4" xml:id="I04">
           <head>SCÈNE IV</head>
           <stage>Pancrace, Sganarelle.</stage>
-          <sp who="PANCRACE" xml:id="I04-1">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-1">
+            <speaker>pancrace</speaker>
             <p>
               <s>Allez, vous êtes un impertinent, mon ami, un homme bannissable de la république des lettres.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-2">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-2">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Ah !</s>
               <s>Bon, en voici un fort à propos.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-3">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-3">
+            <speaker>pancrace</speaker>
             <note type="C">Voir "Le Malade imaginaire" acte III, sc. X, Toinette : "Ignotantus, ignoranta, ignorantum."</note>
             <p>
               <s>Oui, je te soutiendrai par vives raisons que tu es un ignorant, ignorantissime, ignorantifiant et ignorantifié par tous les cas et modes imaginables.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-4">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-4">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Il a pris querelle contre quelqu’un.</s>
               <s>Seigneur...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-5">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-5">
+            <speaker>pancrace</speaker>
             <p>
               <s>Tu veux te mêler de raisonner, et tu ne sais pas seulement les éléments de la raison.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-6">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-6">
+            <speaker>sganarelle</speaker>
             <p>
               <s>La colère l’empêche de me voir.</s>
               <s>Seigneur...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-7">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-7">
+            <speaker>pancrace</speaker>
             <p>
               <s>C’est une proposition condamnable dans toutes les terres de la philosophie.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-8">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-8">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Il faut qu’on l’ait fort irrité.</s>
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-9">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-9">
+            <speaker>pancrace</speaker>
             <p>
               <s>Toto caelo, tota via aberras.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-10">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-10">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je baise les mains à Monsieur le Docteur.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-11">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-11">
+            <speaker>pancrace</speaker>
             <p>
               <s>Serviteur.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-12">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-12">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Peut-on... ?</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-13">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-13">
+            <speaker>pancrace</speaker>
             <p>
               <s>Sais-tu bien ce que tu as fait ?</s>
-              <note type="L">Syllogisme : terme de logique. Argument composé de trois propositions, lequel a cette propriété que quand il est en forme, la conclusion s’en suit nécessairement des deux premières, en sorte que si elle sont véritables et nécessaires, la conclusion est convaincante , et fait un démonstration et on l’appelle apodictique. [F]</note>
               <s>Un syllogisme in balordo.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-14">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-14">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je vous...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-15">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-15">
+            <speaker>pancrace</speaker>
             <p>
               <s>La majeure en est inepte, la mineure impertinente et la conclusion ridicule.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-16">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-16">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-17">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-17">
+            <speaker>pancrace</speaker>
             <p>
               <s>Je crèverais plutôt que d’avouer ce que tu dis, et je soutiendrai mon opinion jusqu’à la dernière goutte de mon encre.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-18">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-18">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Puis-je ?...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-19">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-19">
+            <speaker>pancrace</speaker>
             <p>
               <s>Oui, je défendrai cette proposition, pugnis et calcibus, unguibus et rostro.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-20">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-20">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Seigneur Aristote, peut-on savoir ce qui vous met si fort en colère ?</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-21">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-21">
+            <speaker>pancrace</speaker>
             <p>
               <s>Un sujet le plus juste du monde.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-22">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-22">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Et quoi, encore ?</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-23">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-23">
+            <speaker>pancrace</speaker>
             <p>
               <s>Un ignorant m’a voulu soutenir une proposition erronée, une proposition épouvantable, effroyable, exécrable.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-24">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-24">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Puis-je demander ce que c’est ?</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-25">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-25">
+            <speaker>pancrace</speaker>
             <p>
               <s>Ah !</s>
               <s>Seigneur Sganarelle, tout est renversé aujourd’hui, et le monde est tombé dans une corruption générale ; une licence épouvantable règne partout ; et les magistrats, qui sont établis pour maintenir l’ordre dans cet État, devraient rougir de honte, en souffrant un scandale aussi intolérable que celui dont je veux parler.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-26">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-26">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Quoi donc ?</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-27">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-27">
+            <speaker>pancrace</speaker>
             <p>
               <s>N’est-ce pas une chose horrible, une chose qui crie vengeance au Ciel, que d’endurer qu’on dise publiquement la forme d’un chapeau ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-28">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-28">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Comment ?</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-29">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-29">
+            <speaker>pancrace</speaker>
             <p>
               <s>Je soutiens qu’il faut dire la figure d’un chapeau, et non pas la forme ; d’autant qu’il y a cette différence entre la forme et la figure, que la forme est la disposition extérieure des corps qui sont animés, et la figure, la disposition extérieure des corps qui sont inanimés ; et puisque le chapeau est un corps inanimé, il faut dire la figure d’un chapeau et non pas la forme.</s>
               <s>Oui, ignorant que vous êtes, c’est comme il faut parler ; et ce sont les termes exprès d’Aristote dans le chapitre de la Qualité.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-30">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-30">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je pensais que tout fût perdu.</s>
               <s>Seigneur Docteur, ne songez plus à tout cela.</s>
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-31">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-31">
+            <speaker>pancrace</speaker>
             <p>
               <s>Je suis dans une colère, que je ne me sens pas.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-32">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-32">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Laissez la forme et le chapeau en paix.</s>
               <s>J’ai quelque chose à vous communiquer.</s>
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-33">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-33">
+            <speaker>pancrace</speaker>
             <p>
               <s>Impertinent fieffé !</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-34">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-34">
+            <speaker>sganarelle</speaker>
             <p>
               <s>De grâce, remettez-vous.</s>
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-35">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-35">
+            <speaker>pancrace</speaker>
             <p>
               <s>Ignorant !</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-36">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-36">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Eh !</s>
               <s>Mon Dieu ?</s>
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-37">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-37">
+            <speaker>pancrace</speaker>
             <p>
               <s>Me vouloir soutenir une proposition de la sorte !</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-38">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-38">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Il a tort.</s>
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-39">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-39">
+            <speaker>pancrace</speaker>
             <p>
               <s>Une proposition condamnée par Aristote !</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-40">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-40">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Cela est vrai.</s>
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-41">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-41">
+            <speaker>pancrace</speaker>
             <p>
               <s>En termes exprès.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-42">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-42">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Vous avez raison.</s>
               <s>Oui, vous êtes un sot et un impudent de vouloir disputer contre un docteur qui sait lire et écrire.</s>
@@ -958,14 +958,14 @@
               <s>Quel est votre avis là-dessus ?</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-43">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-43">
+            <speaker>pancrace</speaker>
             <p>
               <s>Plutôt que d’accorder qu’il faille dire la forme d’un chapeau, j’accorderais que datur vacuum in rerum natura, et que je ne suis qu’une bête.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-44">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-44">
+            <speaker>sganarelle</speaker>
             <p>
               <s>La peste soit de l’homme !</s>
               <s>Eh !</s>
@@ -973,381 +973,380 @@
               <s>On vous parle une heure durant, et vous ne répondez point à ce qu’on vous dit.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-45">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-45">
+            <speaker>pancrace</speaker>
             <p>
               <s>Je vous demande pardon.</s>
               <s>Une juste colère m’occupe l’esprit.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-46">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-46">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Eh !</s>
               <s>Laissez tout cela, et prenez la peine de m’écouter.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-47">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-47">
+            <speaker>pancrace</speaker>
             <p>
               <s>Soit.</s>
               <s>Que voulez-vous me dire ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-48">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-48">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je veux vous parler de quelque chose.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-49">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-49">
+            <speaker>pancrace</speaker>
             <p>
               <s>Et de quelle langue voulez-vous vous servir avec moi ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-50">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-50">
+            <speaker>sganarelle</speaker>
             <p>
               <s>De quelle langue ?</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-51">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-51">
+            <speaker>pancrace</speaker>
             <p>
               <s>Oui.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-52">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-52">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Parbleu !</s>
               <s>De la langue que j’ai dans la bouche.</s>
               <s>Je crois que je n’irai pas emprunter celle de mon voisin.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-53">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-53">
+            <speaker>pancrace</speaker>
             <p>
               <s>Je vous dis : de quel idiome, de quel langage ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-54">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-54">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Ah !</s>
               <s>C’est une autre affaire.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-55">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-55">
+            <speaker>pancrace</speaker>
             <p>
               <s>Voulez-vous me parler italien ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-56">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-56">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Non.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-57">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-57">
+            <speaker>pancrace</speaker>
             <p>
               <s>Espagnol ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-58">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-58">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Non.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-59">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-59">
+            <speaker>pancrace</speaker>
             <p>
               <s>Allemand ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-60">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-60">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Non.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-61">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-61">
+            <speaker>pancrace</speaker>
             <p>
               <s>Anglais ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-62">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-62">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Non.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-63">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-63">
+            <speaker>pancrace</speaker>
             <p>
               <s>Latin ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-64">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-64">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Non.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-65">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-65">
+            <speaker>pancrace</speaker>
             <p>
               <s>Grec ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-66">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-66">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Non.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-67">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-67">
+            <speaker>pancrace</speaker>
             <p>
               <s>Hébreu ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-68">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-68">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Non.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-69">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-69">
+            <speaker>pancrace</speaker>
             <p>
               <s>Syriaque ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-70">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-70">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Non.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-71">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-71">
+            <speaker>pancrace</speaker>
             <p>
               <s>Turc ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-72">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-72">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Non.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-73">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-73">
+            <speaker>pancrace</speaker>
             <p>
               <s>Arabe ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-74">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-74">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Non, non, français.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-75">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-75">
+            <speaker>pancrace</speaker>
             <p>
               <s>Ah !</s>
               <s>Français.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-76">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-76">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Fort bien.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-77">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-77">
+            <speaker>pancrace</speaker>
             <p>
               <s>Passez donc de l’autre côté ; car cette oreille-ci est destinée pour les langues scientifiques et étrangères, et l’autre est pour la maternelle.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-78">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-78">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Il faut bien des cérémonies avec ces sortes de gens-ci !</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-79">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-79">
+            <speaker>pancrace</speaker>
             <p>
               <s>Que voulez-vous ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-80">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-80">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Vous consulter sur une petite difficulté.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-81">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-81">
+            <speaker>pancrace</speaker>
             <p>
               <s>Sur une difficulté de philosophie, sans doute ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-82">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-82">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Pardonnez-moi : je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-83">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-83">
+            <speaker>pancrace</speaker>
             <p>
               <s>Vous voulez peut-être savoir si la substance et l’accident sont termes synonymes ou équivoques à l’égard de l’Être ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-84">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-84">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Point du tout.</s>
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-85">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-85">
+            <speaker>pancrace</speaker>
             <p>
-              <note type="L">Logique : Science qui enseigne à bien perfectionner le raisonnement, qui donne des règles certaines pour définir, diviser et argumenter. Aristote est le père de la logique (...). [F]</note>
               <s>Si la logique est un art ou une science ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-86">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-86">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Ce n’est pas cela.</s>
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-87">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-87">
+            <speaker>pancrace</speaker>
             <p>
               <s>Si elle a pour objet les trois opérations de l’esprit ou la troisième seulement ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-88">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-88">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Non.</s>
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-89">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-89">
+            <speaker>pancrace</speaker>
             <p>
               <s>S’il y a dix catégories ou s’il n’y en a qu’une ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-90">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-90">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Point.</s>
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-91">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-91">
+            <speaker>pancrace</speaker>
             <p>
               <s>Si la conclusion est de l’essence du syllogisme ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-92">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-92">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Nenni.</s>
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-93">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-93">
+            <speaker>pancrace</speaker>
             <p>
               <s>Si l’essence du bien est mise dans l’appétibilité ou dans la convenance ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-94">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-94">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Non.</s>
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-95">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-95">
+            <speaker>pancrace</speaker>
             <p>
               <s>Si le bien se réciproque avec la fin ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-96">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-96">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Eh !</s>
               <s>Non.</s>
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-97">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-97">
+            <speaker>pancrace</speaker>
             <p>
               <s>Si la fin nous peut émouvoir par son être réel, ou par son être intentionnel ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-98">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-98">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Non, non, non, non, non, de par tous les diables, non.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-99">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-99">
+            <speaker>pancrace</speaker>
             <p>
               <s>Expliquez donc votre pensée, car je ne puis pas la deviner.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-100">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-100">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je vous la veux expliquer aussi ; mais il faut m’écouter.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE_PANCRACE" xml:id="I04-101">
-            <speaker>SGANARELLE, en même temps que le Docteur.</speaker>
+          <sp who="sganarelle pancrace" xml:id="I04-101">
+            <speaker>sganarelle, en même temps que le docteur</speaker>
             <p>
               <s>L’affaire que j’ai à vous dire, c’est que j’ai envie de me marier avec une fille qui est jeune et belle.</s>
               <s>Je l’aime fort, et l’ai demandée à son père ; mais, comme j’appréhende...</s>
             </p>
           </sp>
-          <sp who="PANCRACE_SGANARELLE" xml:id="I04-102">
-            <speaker>PANCRACE, en même temps que le Sganarelle.</speaker>
+          <sp who="pancrace sganarelle" xml:id="I04-102">
+            <speaker>pancrace, en même temps que le sganarelle</speaker>
             <p>
               <s>La parole a été donnée à l’homme pour expliquer sa pensée ; et tout ainsi que les pensées sont les portraits des choses, de même nos paroles sont-elles les portraits de nos pensées ; mais ces portraits diffèrent des autres portraits en ce que les autres portraits sont distingués partout de leurs originaux, et que la parole enferme en soi son original, puisqu’elle n’est autre chose que la pensée expliquée par un signe extérieur : d’où vient que ceux qui pensent bien sont aussi ceux qui parlent le mieux.</s>
               <s>Expliquez-moi donc votre pensée par la parole, qui est le plus intelligible de tous les signes.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-103">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-103">
+            <speaker>sganarelle</speaker>
             <stage>Il repousse le Docteur dans sa maison, et tire la porte pour l’empêcher de sortir.</stage>
             <p>
               <s>Peste de l’homme !</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-104">
-            <speaker>PANCRACE, au dedans de la maison.</speaker>
+          <sp who="pancrace" xml:id="I04-104">
+            <speaker>pancrace, au dedans de la maison</speaker>
             <p>
               <s>Oui, la parole est animi index et speculum ; c’est le truchement du cœur, c’est l’image de l’âme.</s>
             </p>
@@ -1357,63 +1356,63 @@
               <s>Et puisque vous avez la faculté de ratiociner et de parler tout ensemble, à quoi tient-il que vous ne vous serviez de la parole pour me faire entendre votre pensée ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-105">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-105">
+            <speaker>sganarelle</speaker>
             <p>
               <s>C’est ce que je veux faire ; mais vous ne voulez pas m’écouter.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-106">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-106">
+            <speaker>pancrace</speaker>
             <p>
               <s>Je vous écoute, parlez.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-107">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-107">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je dis donc, Monsieur le Docteur, que...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-108">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-108">
+            <speaker>pancrace</speaker>
             <p>
               <s>Mais surtout soyez bref.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-109">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-109">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je le serai.</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-110">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-110">
+            <speaker>pancrace</speaker>
             <p>
               <s>Evitez la prolixité.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-111">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-111">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Hé !</s>
               <s>Monsi...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-112">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-112">
+            <speaker>pancrace</speaker>
             <p>
               <s>Tranchez-moi votre discours d’un apophthegme à la laconienne.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-113">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-113">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je vous...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-114">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-114">
+            <speaker>pancrace</speaker>
             <p>
               <s>Point d’ambages, de circonlocution.</s>
             </p>
@@ -1425,26 +1424,26 @@
             </p>
             <stage>Le Docteur sort de la maison.)</stage>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-115">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-115">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Quel diable de babillard !</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-116">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-116">
+            <speaker>pancrace</speaker>
             <p>
               <s>Homme de lettre, homme d’érudition.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-117">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-117">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Encore...</s>
             </p>
           </sp>
-          <sp who="PANCRACE" xml:id="I04-118">
-            <speaker>PANCRACE</speaker>
+          <sp who="pancrace" xml:id="I04-118">
+            <speaker>pancrace</speaker>
             <p>
               <s>Homme de suffisance, homme de capacité.</s>
             </p>
@@ -1477,8 +1476,8 @@
               <s>Médecine, astronomie, astrologie, physionomie, métoposcopie, chiromancie, géomancie, etc.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I04-119">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I04-119">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Au diable les savants qui ne veulent point écouter les gens !</s>
               <s>On me l’avait bien dit, que son maître Aristote n’était rien qu’un bavard.</s>
@@ -1490,80 +1489,80 @@
         <div2 type="scene" n="5" xml:id="I05">
           <head>SCÈNE V</head>
           <stage>Marphurius, Sganarelle.</stage>
-          <sp who="MARPHURIUS" xml:id="I05-1">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-1">
+            <speaker>marphurius</speaker>
             <p>
               <s>Que voulez-vous de moi, seigneur Sganarelle ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-2">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-2">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Seigneur Docteur, j’aurois besoin de votre conseil sur une petite affaire dont il s’agit, et je suis venu ici pour cela.</s>
               <s>Ah !</s>
               <s>Voilà qui va bien : il écoute le monde celui-ci.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-3">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-3">
+            <speaker>marphurius</speaker>
             <p>
               <s>Seigneur Sganarelle, changez, s’il vous plaît, cette façon de parler.</s>
               <s>Notre philosophie ordonne de ne point énoncer de proposition décisive, de parler de tout avec incertitude, de suspendre toujours son jugement ; et, par cette raison, vous ne devez pas dire : "Je suis venu ;" mais "Il me semble que je suis venu."</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-4">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-4">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Il me semble !</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-5">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-5">
+            <speaker>marphurius</speaker>
             <p>
               <s>Oui.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-6">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-6">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Parbleu !</s>
               <s>il faut bien qu’il me le semble, puisque cela est.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-7">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-7">
+            <speaker>marphurius</speaker>
             <p>
               <s>Ce n’est pas une conséquence ; et il peut vous sembler, sans que la chose soit véritable.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-8">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-8">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Comment ?</s>
               <s>il n’est pas vrai que je suis venu ?</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-9">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-9">
+            <speaker>marphurius</speaker>
             <p>
               <s>Cela est incertain, et nous devons douter de tout.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-10">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-10">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Quoi ?</s>
               <s>je ne suis pas ici, et vous ne me parlez pas ?</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-11">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-11">
+            <speaker>marphurius</speaker>
             <p>
               <s>Il m’apparoît que vous êtes là, et il me semble que je vous parle ; mais il n’est pas assuré que cela soit.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-12">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-12">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Eh !</s>
               <s>Que diable !</s>
@@ -1573,50 +1572,50 @@
               <s>Je viens vous dire que j’ai envie de me marier.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-13">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-13">
+            <speaker>marphurius</speaker>
             <p>
               <s>Je n’en sais rien.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-14">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-14">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je vous le dis.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-15">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-15">
+            <speaker>marphurius</speaker>
             <p>
               <s>Il se peut faire.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-16">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-16">
+            <speaker>sganarelle</speaker>
             <p>
               <s>La fille que je veux prendre est fort jeune et fort belle.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-17">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-17">
+            <speaker>marphurius</speaker>
             <p>
               <s>Il n’est pas impossible.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-18">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-18">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Ferai-je bien ou mal de l’épouser ?</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-19">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-19">
+            <speaker>marphurius</speaker>
             <p>
               <s>L’un ou l’autre.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-20">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-20">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Ah !</s>
               <s>Ah !</s>
@@ -1624,156 +1623,155 @@
               <s>Je vous demande si je ferai bien d’épouser la fille dont je vous parle.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-21">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-21">
+            <speaker>marphurius</speaker>
             <p>
               <s>Selon la rencontre.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-22">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-22">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Ferai-je mal ?</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-23">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-23">
+            <speaker>marphurius</speaker>
             <p>
               <s>Par aventure.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-24">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-24">
+            <speaker>sganarelle</speaker>
             <p>
               <s>De grâce, répondez-moi comme il faut.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-25">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-25">
+            <speaker>marphurius</speaker>
             <p>
               <s>C’est mon dessein.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-26">
-            <speaker>SGANARELLE</speaker>
-            <note type="L">Inclination : Se dit aussi de l’amour, du penchant, de l’attachement qu’on a pour quelqu’un. [F]</note>
+          <sp who="sganarelle" xml:id="I05-26">
+            <speaker>sganarelle</speaker>
             <p>
               <s>J’ai une grande inclination pour la fille.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-27">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-27">
+            <speaker>marphurius</speaker>
             <p>
               <s>Cela peut être.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-28">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-28">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Le père me l’a accordée.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-29">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-29">
+            <speaker>marphurius</speaker>
             <p>
               <s>Il se pourrait.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-30">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-30">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Mais, en l’épousant, je crains d’être cocu.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-31">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-31">
+            <speaker>marphurius</speaker>
             <p>
               <s>La chose est faisable.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-32">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-32">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Qu’en pensez-vous ?</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-33">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-33">
+            <speaker>marphurius</speaker>
             <p>
               <s>Il n’y a pas d’impossibilité.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-34">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-34">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Mais que feriez-vous, si vous étiez en ma place ?</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-35">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-35">
+            <speaker>marphurius</speaker>
             <p>
               <s>Je ne sais.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-36">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-36">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Que me conseillez-vous de faire ?</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-37">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-37">
+            <speaker>marphurius</speaker>
             <p>
               <s>Ce qui vous plaira.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-38">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-38">
+            <speaker>sganarelle</speaker>
             <p>
               <s>J’enrage.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-39">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-39">
+            <speaker>marphurius</speaker>
             <p>
               <s>Je m’en lave les mains.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-40">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-40">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Au diable soit le vieux rêveur !</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-41">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-41">
+            <speaker>marphurius</speaker>
             <p>
               <s>Il en sera ce qui pourra.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-42">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-42">
+            <speaker>sganarelle</speaker>
             <p>
               <s>La peste du bourreau !</s>
               <s>Je te ferai changer de note, chien de philosophe enragé.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-43">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-43">
+            <speaker>marphurius</speaker>
             <p>
               <s>Ah !</s>
               <s>Ah !</s>
               <s>Ah !</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-44">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-44">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Te voilà payé de ton galimatias, et me voilà content.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-45">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-45">
+            <speaker>marphurius</speaker>
             <p>
               <s>Comment ?</s>
               <s>Quelle insolence !</s>
@@ -1781,82 +1779,82 @@
               <s>Avoir eu l’audace de battre un philosophe comme moi !</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-46">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-46">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Corrigez, s’il vous plaît, cette manière de parler.</s>
               <s>Il faut douter de toutes choses, et vous ne devez pas dire que je vous ai battu, mais qu’il vous semble que je vous ai battu.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-47">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-47">
+            <speaker>marphurius</speaker>
             <p>
               <s>Ah !</s>
               <s>Je m’en vais faire ma plainte au commissaire du quartier des coups que j’ai reçus.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-48">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-48">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je m’en lave les mains.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-49">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-49">
+            <speaker>marphurius</speaker>
             <p>
               <s>J’en ai les marques sur ma personne.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-50">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-50">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Il se peut faire.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-51">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-51">
+            <speaker>marphurius</speaker>
             <p>
               <s>C’est toi qui m’as traité ainsi.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-52">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-52">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Il n’y a pas d’impossibilité.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-53">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-53">
+            <speaker>marphurius</speaker>
             <p>
               <s>J’aurai un décret contre toi.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-54">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-54">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je n’en sais rien.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-55">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-55">
+            <speaker>marphurius</speaker>
             <p>
               <s>Et tu seras condamné en justice.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-56">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-56">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Il en sera ce qui pourra.</s>
             </p>
           </sp>
-          <sp who="MARPHURIUS" xml:id="I05-57">
-            <speaker>MARPHURIUS</speaker>
+          <sp who="marphurius" xml:id="I05-57">
+            <speaker>marphurius</speaker>
             <p>
               <s>Laisse-moi faire.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I05-58">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I05-58">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Comment ?</s>
               <s>on ne sauroit tirer une parole positive de ce chien d’homme-là, et l’on est aussi savant à la fin qu’au commencement.</s>
@@ -1871,124 +1869,124 @@
           <head>SCÈNE VI</head>
           <stage>Deux égyptiennes, Sganarelle.</stage>
           <stage>Les Egyptiennes, avec leurs tambours de basque, entrent en chantant et dansant.</stage>
-          <sp who="SGANARELLE" xml:id="I06-1">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I06-1">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Elles sont gaillardes.</s>
               <s>Écoutez, vous autres, y a-t-il moyen de me dire ma bonne fortune ?</s>
             </p>
           </sp>
-          <sp who="Ière-EGYPTIENNE" xml:id="I06-2">
-            <speaker>Ière EGYPTIENNE</speaker>
+          <sp who="egyptienne1" xml:id="I06-2">
+            <speaker>ière egyptienne</speaker>
             <p>
               <s>Oui, mon bon Monsieur, nous voici deux qui te la diront.</s>
             </p>
           </sp>
-          <sp who="2ème-EGYPTIENNE" xml:id="I06-3">
-            <speaker>2ème EGYPTIENNE</speaker>
+          <sp who="egyptienne2" xml:id="I06-3">
+            <speaker>2ème egyptienne</speaker>
             <p>
               <s>Tu n’as seulement qu’à nous donner ta main, avec la croix dedans, et nous te dirons quelque chose pour ton bon profit.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I06-4">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I06-4">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Tenez, les voilà toutes deux avec ce que vous demandez.</s>
             </p>
           </sp>
-          <sp who="Ière-EGYPTIENNE" xml:id="I06-5">
-            <speaker>Ière EGYPTIENNE</speaker>
+          <sp who="egyptienne1" xml:id="I06-5">
+            <speaker>ière egyptienne</speaker>
             <p>
               <s>Tu as une bonne physionomie, mon bon Monsieur, une bonne physionomie.</s>
             </p>
           </sp>
-          <sp who="2ème-EGYPTIENNE" xml:id="I06-6">
-            <speaker>2ème EGYPTIENNE</speaker>
+          <sp who="egyptienne2" xml:id="I06-6">
+            <speaker>2ème egyptienne</speaker>
             <p>
               <s>Oui, bonne physionomie ; physionomie d’un homme qui sera un jour quelque chose.</s>
             </p>
           </sp>
-          <sp who="Ière-EGYPTIENNE" xml:id="I06-7">
-            <speaker>Ière EGYPTIENNE</speaker>
+          <sp who="egyptienne1" xml:id="I06-7">
+            <speaker>ière egyptienne</speaker>
             <p>
               <s>Tu seras marié avant qu’il soit peu, mon bon Monsieur, tu seras marié avant qu’il soit peu.</s>
             </p>
           </sp>
-          <sp who="2ème-EGYPTIENNE" xml:id="I06-8">
-            <speaker>2ème EGYPTIENNE</speaker>
+          <sp who="egyptienne2" xml:id="I06-8">
+            <speaker>2ème egyptienne</speaker>
             <p>
               <s>Tu épouseras une femme gentille, une femme gentille.</s>
             </p>
           </sp>
-          <sp who="Ière-EGYPTIENNE" xml:id="I06-9">
-            <speaker>Ière EGYPTIENNE</speaker>
+          <sp who="egyptienne1" xml:id="I06-9">
+            <speaker>ière egyptienne</speaker>
             <p>
               <s>Oui, une femme qui sera chérie et aimée de tout le monde.</s>
             </p>
           </sp>
-          <sp who="2ème-EGYPTIENNE" xml:id="I06-10">
-            <speaker>2ème EGYPTIENNE</speaker>
+          <sp who="egyptienne2" xml:id="I06-10">
+            <speaker>2ème egyptienne</speaker>
             <p>
               <s>Une femme qui te fera beaucoup d’amis, mon bon Monsieur, qui te fera beaucoup d’amis.</s>
             </p>
           </sp>
-          <sp who="Ière-EGYPTIENNE" xml:id="I06-11">
-            <speaker>Ière EGYPTIENNE</speaker>
+          <sp who="egyptienne1" xml:id="I06-11">
+            <speaker>ière egyptienne</speaker>
             <p>
               <s>Une femme qui fera venir l’abondance chez toi.</s>
             </p>
           </sp>
-          <sp who="2ème-EGYPTIENNE" xml:id="I06-12">
-            <speaker>2ème EGYPTIENNE</speaker>
+          <sp who="egyptienne2" xml:id="I06-12">
+            <speaker>2ème egyptienne</speaker>
             <p>
               <s>Une femme qui te donnera une grande réputation.</s>
             </p>
           </sp>
-          <sp who="Ière-EGYPTIENNE" xml:id="I06-13">
-            <speaker>Ière EGYPTIENNE</speaker>
+          <sp who="egyptienne1" xml:id="I06-13">
+            <speaker>ière egyptienne</speaker>
             <p>
               <s>Tu seras considéré par elle, mon bon Monsieur, tu seras considéré par elle.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I06-14">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I06-14">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Voilà qui est bien.</s>
               <s>Mais dites-moi un peu, suis-je menacé d’être cocu ?</s>
             </p>
           </sp>
-          <sp who="2ème-EGYPTIENNE" xml:id="I06-15">
-            <speaker>2ème EGYPTIENNE</speaker>
+          <sp who="egyptienne2" xml:id="I06-15">
+            <speaker>2ème egyptienne</speaker>
             <p>
               <s>Cocu ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I06-16">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I06-16">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Oui.</s>
             </p>
           </sp>
-          <sp who="Ière-EGYPTIENNE" xml:id="I06-17">
-            <speaker>Ière EGYPTIENNE</speaker>
+          <sp who="egyptienne1" xml:id="I06-17">
+            <speaker>ière egyptienne</speaker>
             <p>
               <s>Cocu ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I06-18">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I06-18">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Oui, si je suis menacé d’être cocu ?</s>
             </p>
           </sp>
-          <sp who="EGYPTIENNES" xml:id="I06-19">
-            <speaker>Toutes deux chantent et dansent.</speaker>
+          <sp who="egyptienne1 egyptienne2" xml:id="I06-19">
+            <speaker>toutes deux chantent et dansent</speaker>
             <p>
               <s>La, la, la, la...</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I06-20">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I06-20">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Que diable !</s>
               <s>Ce n’est pas là me répondre.</s>
@@ -1996,38 +1994,38 @@
               <s>Je vous demande à toutes deux si je serai cocu.</s>
             </p>
           </sp>
-          <sp who="2ème-EGYPTIENNE" xml:id="I06-21">
-            <speaker>2ème EGYPTIENNE</speaker>
+          <sp who="egyptienne2" xml:id="I06-21">
+            <speaker>2ème egyptienne</speaker>
             <p>
               <s>Cocu, vous ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I06-22">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I06-22">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Oui, si je serai cocu ?</s>
             </p>
           </sp>
-          <sp who="Ière-EGYPTIENNE" xml:id="I06-23">
-            <speaker>Ière EGYPTIENNE</speaker>
+          <sp who="egyptienne1" xml:id="I06-23">
+            <speaker>ière egyptienne</speaker>
             <p>
               <s>Vous, cocu ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I06-24">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I06-24">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Oui, si je le serai ou non ?</s>
             </p>
           </sp>
-          <sp who="EGYPTIENNES" xml:id="I06-25">
-            <speaker>Toutes deux chantent et dansent.</speaker>
+          <sp who="egyptienne1 egyptienne2" xml:id="I06-25">
+            <speaker>toutes deux chantent et dansent</speaker>
             <p>
               <s>La, la, la, la...</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I06-26">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I06-26">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Peste soit des carognes, qui me laissent dans l’inquiétude !</s>
               <s>Il faut absolument que je sache la destinée de mon mariage ; et pour cela, je veux aller trouver ce grand magicien dont tout le monde parle tant, et qui, par son art admirable, fait voir tout ce que l’on souhaite.</s>
@@ -2038,51 +2036,51 @@
         <div2 type="scene" n="7" xml:id="I07">
           <head>SCÈNE VII</head>
           <stage>Dorimène, Lycaste, Sganarelle.</stage>
-          <sp who="LYCASTE" xml:id="I07-1">
-            <speaker>LYCASTE</speaker>
+          <sp who="lycaste" xml:id="I07-1">
+            <speaker>lycaste</speaker>
             <p>
               <s>Quoi ?</s>
               <s>Belle Dorimène, c’est sans raillerie que vous parlez ?</s>
             </p>
           </sp>
-          <sp who="DORIMENE" xml:id="I07-2">
-            <speaker>DORIMÈNE</speaker>
+          <sp who="dorimene" xml:id="I07-2">
+            <speaker>dorimène</speaker>
             <p>
               <s>Sans raillerie.</s>
             </p>
           </sp>
-          <sp who="LYCASTE" xml:id="I07-3">
-            <speaker>LYCASTE</speaker>
+          <sp who="lycaste" xml:id="I07-3">
+            <speaker>lycaste</speaker>
             <p>
               <s>Vous vous mariez tout de bon ?</s>
             </p>
           </sp>
-          <sp who="DORIMENE" xml:id="I07-4">
-            <speaker>DORIMÈNE</speaker>
+          <sp who="dorimene" xml:id="I07-4">
+            <speaker>dorimène</speaker>
             <p>
               <s>Tout de bon.</s>
             </p>
           </sp>
-          <sp who="LYCASTE" xml:id="I07-5">
-            <speaker>LYCASTE</speaker>
+          <sp who="lycaste" xml:id="I07-5">
+            <speaker>lycaste</speaker>
             <p>
               <s>Et vos noces se feront dès ce soir ?</s>
             </p>
           </sp>
-          <sp who="DORIMENE" xml:id="I07-6">
-            <speaker>DORIMÈNE</speaker>
+          <sp who="dorimene" xml:id="I07-6">
+            <speaker>dorimène</speaker>
             <p>
               <s>Dès ce soir.</s>
             </p>
           </sp>
-          <sp who="LYCASTE" xml:id="I07-7">
-            <speaker>LYCASTE</speaker>
+          <sp who="lycaste" xml:id="I07-7">
+            <speaker>lycaste</speaker>
             <p>
               <s>Et vous pouvez, cruelle que vous êtes, oublier de la sorte l’amour que j’ai pour vous, et les obligeantes paroles que vous m’aviez données ?</s>
             </p>
           </sp>
-          <sp who="DORIMENE" xml:id="I07-8">
-            <speaker>DORIMÈNE</speaker>
+          <sp who="dorimene" xml:id="I07-8">
+            <speaker>dorimène</speaker>
             <p>
               <s>Moi ?</s>
               <s>Point du tout.</s>
@@ -2095,20 +2093,20 @@
               <s>Nous parlions de vous, et nous en disions tout le bien qu’on en sauroit dire.</s>
             </p>
           </sp>
-          <sp who="LYCASTE" xml:id="I07-9">
-            <speaker>LYCASTE</speaker>
+          <sp who="lycaste" xml:id="I07-9">
+            <speaker>lycaste</speaker>
             <p>
               <s>Est-ce là, Monsieur... ?</s>
             </p>
           </sp>
-          <sp who="DORIMENE" xml:id="I07-10">
-            <speaker>DORIMÈNE</speaker>
+          <sp who="dorimene" xml:id="I07-10">
+            <speaker>dorimène</speaker>
             <p>
               <s>Oui, c’est Monsieur qui me prend pour femme.</s>
             </p>
           </sp>
-          <sp who="LYCASTE" xml:id="I07-11">
-            <speaker>LYCASTE</speaker>
+          <sp who="lycaste" xml:id="I07-11">
+            <speaker>lycaste</speaker>
             <p>
               <s>Agréez, Monsieur, que je vous félicite de votre mariage, et vous présente en même temps mes très humbles services.</s>
               <s>Je vous assure que vous épousez là une très honnête personne ; et vous, Mademoiselle, je me réjouis avec vous aussi de l’heureux choix que vous avez fait.</s>
@@ -2116,15 +2114,15 @@
               <s>Oui, Monsieur, je veux faire amitié avec vous, et lier ensemble un petit commerce de visites et de divertissements.</s>
             </p>
           </sp>
-          <sp who="DORIMENE" xml:id="I07-12">
-            <speaker>DORIMÈNE</speaker>
+          <sp who="dorimene" xml:id="I07-12">
+            <speaker>dorimène</speaker>
             <p>
               <s>C’est trop d’honneur que vous nous faites à tous deux.</s>
               <s>Mais allons, le temps me presse, et nous aurons tout le loisir de nous entretenir ensemble.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I07-13">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I07-13">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Me voilà tout à fait dégoûté de mon mariage, et je crois que je ne ferai pas mal de m’aller dégager de ma parole.</s>
               <s>Il m’en a coûté quelque argent ; mais il vaut mieux encore perdre cela que de m’exposer à quelque chose de pis.</s>
@@ -2136,242 +2134,242 @@
         <div2 type="scene" n="8" xml:id="I08">
           <head>SCÈNE VIII</head>
           <stage>Alcantor, Sganarelle.</stage>
-          <sp who="ALCANTOR" xml:id="I08-1">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-1">
+            <speaker>alcantor</speaker>
             <p>
               <s>Ah !</s>
               <s>Mon gendre, soyez le bienvenu.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-2">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-2">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Monsieur, votre serviteur.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-3">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-3">
+            <speaker>alcantor</speaker>
             <p>
               <s>Vous venez pour conclure le mariage ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-4">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-4">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Excusez-moi.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-5">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-5">
+            <speaker>alcantor</speaker>
             <p>
               <s>Je vous promets que j’en ai autant d’impatience que vous.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-6">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-6">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je viens ici pour autre sujet.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-7">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-7">
+            <speaker>alcantor</speaker>
             <p>
               <s>J’ai donné ordre à toutes les choses nécessaires pour cette fête.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-8">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-8">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Il n’est pas question de cela.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-9">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-9">
+            <speaker>alcantor</speaker>
             <p>
               <s>Les violons sont retenus, le festin est commandé, et ma fille est parée pour vous recevoir.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-10">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-10">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Ce n’est pas ce qui m’amène.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-11">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-11">
+            <speaker>alcantor</speaker>
             <p>
               <s>Enfin vous allez être satisfait et rien ne peut retarder votre contentement.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-12">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-12">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Mon Dieu !</s>
               <s>C’est autre chose.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-13">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-13">
+            <speaker>alcantor</speaker>
             <p>
               <s>Allons, entrez donc, mon gendre.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-14">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-14">
+            <speaker>sganarelle</speaker>
             <p>
               <s>J’ai un petit mot à vous dire.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-15">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-15">
+            <speaker>alcantor</speaker>
             <p>
               <s>Ah !</s>
               <s>Mon Dieu, ne faisons point de cérémonie.</s>
               <s>Entrez vite, s’il vous plaît.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-16">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-16">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Non, vous dis-je.</s>
               <s>Je vous veux parler auparavant.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-17">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-17">
+            <speaker>alcantor</speaker>
             <p>
               <s>Vous voulez me dire quelque chose ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-18">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-18">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Oui.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-19">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-19">
+            <speaker>alcantor</speaker>
             <p>
               <s>Et quoi ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-20">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-20">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Seigneur Alcantor, j’ai demandé votre fille en mariage, il est vrai, et vous me l’avez accordée ; mais je me trouve un peu avancé en âge pour elle, et je considère que je ne suis point du tout son fait.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-21">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-21">
+            <speaker>alcantor</speaker>
             <p>
               <s>Pardonnez-moi, ma fille vous trouve bien comme vous êtes ; et je suis sûr qu’elle vivra fort contente avec vous.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-22">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-22">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Point.</s>
               <s>J’ai parfois des bizarreries épouvantables, et elle auroit trop à souffrir de ma mauvaise humeur.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-23">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-23">
+            <speaker>alcantor</speaker>
             <p>
               <s>Ma fille a de la complaisance, et vous verrez qu’elle s’accommodera entièrement à vous.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-24">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-24">
+            <speaker>sganarelle</speaker>
             <p>
               <s>J’ai quelques infirmités sur mon corps qui pourroient la dégoûter.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-25">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-25">
+            <speaker>alcantor</speaker>
             <p>
               <s>Cela n’est rien.</s>
               <s>Une honnête femme ne se dégoûte jamais de son mari.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-26">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-26">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Enfin voulez-vous que je vous dise ?</s>
               <s>Je ne vous conseille pas de me la donner.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-27">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-27">
+            <speaker>alcantor</speaker>
             <p>
               <s>Vous moquez-vous ?</s>
               <s>J’aimerois mieux mourir que d’avoir manqué à ma parole.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-28">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-28">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Mon Dieu, je vous en dispense, et je...</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-29">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-29">
+            <speaker>alcantor</speaker>
             <p>
               <s>Point du tout.</s>
               <s>Je vous l’ai promise ; et vous l’aurez en dépit de tous ceux qui y prétendent.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-30">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-30">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Que diable !</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-31">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-31">
+            <speaker>alcantor</speaker>
             <p>
               <s>Voyez-vous, j’ai une estime et une amitié pour vous toute particulière ; et je refuserais ma fille à un prince pour vous la donner.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-32">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-32">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Seigneur Alcantor, je vous suis obligé de l’honneur que vous me faites, mais je vous déclare que je ne me veux point marier.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-33">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-33">
+            <speaker>alcantor</speaker>
             <p>
               <s>Qui, vous ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-34">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-34">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Oui, moi.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-35">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-35">
+            <speaker>alcantor</speaker>
             <p>
               <s>Et la raison ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-36">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-36">
+            <speaker>sganarelle</speaker>
             <p>
               <s>La raison ?</s>
               <s>C’est que je ne me sens point propre pour le mariage, et que je veux imiter mon père, et tous ceux de ma race, qui ne se sont jamais voulu marier.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I08-37">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I08-37">
+            <speaker>alcantor</speaker>
             <p>
               <s>Écoutez, les volontés sont libres ; et je suis homme à ne contraindre jamais personne.</s>
               <s>Vous vous êtes engagé avec moi pour épouser ma fille, et tout est préparé pour cela ; mais puisque vous voulez retirer votre parole, je vais voir ce qu’il y a à faire ; et vous aurez bientôt de mes nouvelles.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I08-38">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I08-38">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Encore est-il plus raisonnable que je ne pensois, et je croyois avoir bien plus de peine à m’en dégager.</s>
               <s>Ma foi, quand j’y songe, j’ai fait fort sagement de me tirer de cette affaire ; et j’allois faire un pas dont je me serois peut-être longtemps repenti.</s>
@@ -2382,45 +2380,45 @@
         <div2 type="scene" n="9" xml:id="I09">
           <head>SCÈNE IX</head>
           <stage>Alcidas, Sganarelle.</stage>
-          <sp who="ALCIDAS" xml:id="I09-1">
-            <speaker>ALCIDAS, parlant toujours d’un ton doucereux.</speaker>
+          <sp who="alcidas" xml:id="I09-1">
+            <speaker>alcidas, parlant toujours d’un ton doucereux</speaker>
             <p>
               <s>Monsieur, je suis votre serviteur très humble.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-2">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-2">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Monsieur, je suis le vôtre de tout mon cœur.</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-3">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-3">
+            <speaker>alcidas</speaker>
             <p>
               <s>Mon père m’a dit, Monsieur, que vous vous étiez venu dégager de la parole que vous aviez donnée.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-4">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-4">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Oui, Monsieur : c’est avec regret ; mais...</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-5">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-5">
+            <speaker>alcidas</speaker>
             <p>
               <s>Oh !</s>
               <s>Monsieur, il n’y a pas de mal à cela.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-6">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-6">
+            <speaker>sganarelle</speaker>
             <p>
               <s>J’en suis fâché, je vous assure ; et je souhaiterois...</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-7">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-7">
+            <speaker>alcidas</speaker>
             <p>
               <s>Cela n’est rien, vous dis-je.</s>
             </p>
@@ -2429,167 +2427,167 @@
               <s>Monsieur, prenez la peine de choisir de ces deux épées laquelle vous voulez.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-8">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-8">
+            <speaker>sganarelle</speaker>
             <p>
               <s>De ces deux épées ?</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-9">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-9">
+            <speaker>alcidas</speaker>
             <p>
               <s>Oui, s’il vous plaît.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-10">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-10">
+            <speaker>sganarelle</speaker>
             <p>
               <s>À quoi bon ?</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-11">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-11">
+            <speaker>alcidas</speaker>
             <p>
               <s>Monsieur, comme vous refusez d’épouser ma sœur après la parole donnée, je crois que vous ne trouverez pas mauvais le petit compliment que je viens vous faire.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-12">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-12">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Comment ?</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-13">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-13">
+            <speaker>alcidas</speaker>
             <p>
               <s>D’autres gens feroient du bruit et s’emporteroient contre vous ; mais nous sommes personnes à traiter les choses dans la douceur ; et je viens vous dire civilement qu’il faut, si vous le trouvez bon, que nous nous coupions la gorge ensemble.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-14">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-14">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Voilà un compliment fort mal tourné.</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-15">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-15">
+            <speaker>alcidas</speaker>
             <p>
               <s>Allons, Monsieur, choisissez, je vous prie.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-16">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-16">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je suis votre valet, je n’ai point de gorge à me couper.</s>
               <s>La vilaine façon de parler que voilà !</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-17">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-17">
+            <speaker>alcidas</speaker>
             <p>
               <s>Monsieur, il faut que cela soit, s’il vous plaît.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-18">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-18">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Eh !</s>
               <s>Monsieur, rengainez ce compliment, je vous prie.</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-19">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-19">
+            <speaker>alcidas</speaker>
             <p>
               <s>Dépêchons vite, Monsieur : j’ai une petite affaire qui m’attend.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-20">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-20">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Je ne veux point de cela, vous dis-je.</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-21">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-21">
+            <speaker>alcidas</speaker>
             <p>
               <s>Vous ne voulez pas vous battre ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-22">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-22">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Nenni, ma foi.</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-23">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-23">
+            <speaker>alcidas</speaker>
             <p>
               <s>Tout de bon ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-24">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-24">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Tout de bon.</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-25">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-25">
+            <speaker>alcidas</speaker>
             <p>
               <s>Au moins, Monsieur, vous n’avez pas lieu de vous plaindre, et vous voyez que je fais les choses dans l’ordre.</s>
               <s>Vous nous manquez de parole, je me veux battre contre vous ; vous refusez de vous battre, je vous donne des coups de bâton : tout cela est dans les formes ; et vous êtes trop honnête homme pour ne pas approuver mon procédé.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-26">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-26">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Quel diable d’homme est-ce ci ?</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-27">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-27">
+            <speaker>alcidas</speaker>
             <p>
               <s>Allons, Monsieur, faites les choses galamment, et sans vous faire tirer l’oreille.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-28">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-28">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Encore ?</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-29">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-29">
+            <speaker>alcidas</speaker>
             <p>
               <s>Monsieur, je ne contrains personne ; mais il faut que vous vous battiez, ou que vous épousiez ma sœur.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-30">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-30">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Monsieur, je ne puis faire ni l’un ni l’autre, je vous assure.</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-31">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-31">
+            <speaker>alcidas</speaker>
             <p>
               <s>Assurément ?</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-32">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-32">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Assurément.</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-33">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-33">
+            <speaker>alcidas</speaker>
             <p>
               <s>Avec votre permission donc...</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-34">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-34">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Ah !</s>
               <s>Ah !</s>
@@ -2597,21 +2595,21 @@
               <s>Ah !</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-35">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-35">
+            <speaker>alcidas</speaker>
             <p>
               <s>Monsieur, j’ai tous les regrets du monde d’être obligé d’en user ainsi avec vous ; mais je ne cesserai point, s’il vous plaît que vous n’ayez promis de vous battre, ou d’épouser ma sœur.</s>
             </p>
           </sp>
-          <sp who="SGANARELLE" xml:id="I09-36">
-            <speaker>SGANARELLE</speaker>
+          <sp who="sganarelle" xml:id="I09-36">
+            <speaker>sganarelle</speaker>
             <p>
               <s>Hé bien !</s>
               <s>J’épouserai, j’épouserai...</s>
             </p>
           </sp>
-          <sp who="ALCIDAS" xml:id="I09-37">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I09-37">
+            <speaker>alcidas</speaker>
             <p>
               <s>Ah !</s>
               <s>Monsieur, je suis ravi que vous vous mettiez à la raison, et que les choses se passent doucement.</s>
@@ -2623,15 +2621,15 @@
         <div2 type="scene" n="10" xml:id="I10">
           <head>SCÈNE X</head>
           <stage>Alcantor, Alcidas, Sganarelle.</stage>
-          <sp who="ALCIDAS" xml:id="I10-1">
-            <speaker>ALCIDAS</speaker>
+          <sp who="alcidas" xml:id="I10-1">
+            <speaker>alcidas</speaker>
             <p>
               <s>Mon père, voilà Monsieur, qui est tout à fait raisonnable.</s>
               <s>Il a voulu faire les choses de bonne grâce, et vous pouvez lui donner ma sœur.</s>
             </p>
           </sp>
-          <sp who="ALCANTOR" xml:id="I10-2">
-            <speaker>ALCANTOR</speaker>
+          <sp who="alcantor" xml:id="I10-2">
+            <speaker>alcantor</speaker>
             <p>
               <s>Monsieur, voilà sa main, vous n’avez qu’à donner la vôtre.</s>
               <s>Loué soit le Ciel !</s>

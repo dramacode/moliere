@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,16 +46,16 @@
       </performance>
       <castList>
         <head>ACTEURS</head>
-        <castItem><role xml:id="ADRASTE" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ADRASTE</role>, gentilhomme français, amant d’Isidore.</castItem>
-        <castItem><role xml:id="DOM-PÈDRE" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">DOM PÈDRE</role>, Sicilien, amant d’Isidore.</castItem>
-        <castItem><role xml:id="ISIDORE" civil="M" type="H" statut="esclave" age="A" stat_amour="néant">ISIDORE</role>, Grecque, esclave de Dom Pèdre.</castItem>
-        <castItem><role xml:id="CLIMÈNE" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">CLIMÈNE</role>, sœur d’Adraste.</castItem>
-        <castItem><role xml:id="HALI" civil="M" type="H" statut="valet" age="A" stat_amour="néant">HALI</role>, valet d’Adraste.</castItem>
-        <castItem><role xml:id="LE SÉNATEUR" civil="M" type="H" statut="sénateur" age="A" stat_amour="néant">LE SÉNATEUR</role>.</castItem>
-        <castItem><role xml:id="LES MUSICIENS" civil="G" type="H" statut="musicien" age="A" stat_amour="néant">LES MUSICIENS</role>.</castItem>
-        <castItem><role xml:id="TROUPE D’ESCLAVES" civil="G" type="H" statut="esclave" age="A" stat_amour="néant">TROUPE D’ESCLAVES</role>.</castItem>
-        <castItem><role xml:id="TROUPE DE MAURES" civil="M" type="H" statut="maure" age="A" stat_amour="néant">TROUPE DE MAURES</role>.</castItem>
-        <castItem><role xml:id="DEUX LAQUAIS" civil="G" type="H" statut="laquais" age="A" stat_amour="néant">DEUX LAQUAIS</role>.</castItem>
+        <castItem><role xml:id="adraste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ADRASTE</role>, gentilhomme français, amant d’Isidore.</castItem>
+        <castItem><role xml:id="dom-pedre" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">DOM PÈDRE</role>, Sicilien, amant d’Isidore.</castItem>
+        <castItem><role xml:id="isidore" civil="M" type="H" statut="esclave" age="A" stat_amour="néant">ISIDORE</role>, Grecque, esclave de Dom Pèdre.</castItem>
+        <castItem><role xml:id="climene" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">CLIMÈNE</role>, sœur d’Adraste.</castItem>
+        <castItem><role xml:id="hali" civil="M" type="H" statut="valet" age="A" stat_amour="néant">HALI</role>, valet d’Adraste.</castItem>
+        <castItem><role xml:id="le-senateur" civil="M" type="H" statut="sénateur" age="A" stat_amour="néant">LE SÉNATEUR</role>.</castItem>
+        <castItem><role xml:id="musicien1" civil="G" type="H" statut="musicien" age="A" stat_amour="néant">LES MUSICIENS</role>.</castItem>
+        <castItem><role xml:id="troupe-d-esclaves" civil="G" type="H" statut="esclave" age="A" stat_amour="néant">TROUPE D’ESCLAVES</role>.<role xml:id="musicien2"/><role xml:id="musicien3"/></castItem>
+        <castItem><role xml:id="troupe-de-maures" civil="M" type="H" statut="maure" age="A" stat_amour="néant">TROUPE DE MAURES</role>.</castItem>
+        <castItem><role xml:id="deux-laquais" civil="G" type="H" statut="laquais" age="A" stat_amour="néant">DEUX LAQUAIS</role>.</castItem>
       </castList>
       <set location="Sicile" country="Italie" periode="XVIIème" link="">La scène est Sicile.</set>
     </front>
@@ -65,8 +65,8 @@
         <div2 type="scene" n="1" xml:id="I01">
           <head>SCÈNE PREMIÈRE</head>
           <stage>Hali, Musiciens.</stage>
-          <sp who="HALI" xml:id="I01-1">
-            <speaker>HALI, aux musiciens.</speaker>
+          <sp who="hali" xml:id="I01-1">
+            <speaker>hali, aux musiciens</speaker>
             <p>
               <s>Chut...</s>
               <s>N’avancez pas davantage, et demeurez dans cet endroit, jusqu’à ce que je vous appelle.</s>
@@ -82,141 +82,140 @@
         <div2 type="scene" n="2" xml:id="I02">
           <head>SCÈNE II</head>
           <stage>Adraste et Deux Laquais, Hali.</stage>
-          <sp who="ADRASTE" xml:id="I02-1">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I02-1">
+            <speaker>adraste</speaker>
             <p>
               <s>Est-ce toi, Hali ?</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I02-2">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I02-2">
+            <speaker>hali</speaker>
             <p>
               <s>Et qui pourrait-ce être que moi ?</s>
               <s>À ces heures de nuit, hors vous, et moi, Monsieur, je ne crois pas que personne s’avise de courir, maintenant, les rues.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I02-3">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I02-3">
+            <speaker>adraste</speaker>
             <p>
               <s>Aussi ne crois-je pas qu’on puisse voir personne qui sente, dans son cœur, la peine que je sens : car, enfin, ce n’est rien d’avoir à combattre l’indifférence, ou les rigueurs d’une beauté qu’on aime ; on a, toujours, au moins, le plaisir de la plainte, et la liberté des soupirs.</s>
               <s>Mais ne pouvoir trouver aucune occasion de parler à ce qu’on adore ; ne pouvoir savoir d’une belle, si l’amour qu’inspirent ses yeux, est pour lui plaire, ou lui déplaire ; c’est la plus fâcheuse, à mon gré, de toutes les inquiétudes ; et c’est où me réduit l’incommode jaloux, qui veille, avec tant de souci, sur ma charmante Grecque, et ne fait pas un pas sans la traîner à ses côtés.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I02-4">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I02-4">
+            <speaker>hali</speaker>
             <p>
               <s>Mais il est, en amour, plusieurs façons de se parler ; et il me semble, à moi, que vos yeux, et les siens, depuis près de deux mois, se sont dit bien des choses.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I02-5">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I02-5">
+            <speaker>adraste</speaker>
             <p>
               <s>Il est vrai qu’elle, et moi, souvent, nous nous sommes parlé des yeux : mais comment reconnaître que chacun, de notre côté, nous ayons, comme il faut, expliqué ce langage ?</s>
               <s>Et que sais-je, après tout, si elle entend bien tout ce que mes regards lui disent ?</s>
               <s>Et si les siens me disent ce que je crois, parfois, entendre ?</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I02-6">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I02-6">
+            <speaker>hali</speaker>
             <p>
               <s>Il faut chercher quelque moyen de se parler d’autre manière.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I02-7">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I02-7">
+            <speaker>adraste</speaker>
             <p>
               <s>As-tu là tes musiciens ?</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I02-8">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I02-8">
+            <speaker>hali</speaker>
             <p>
               <s>Oui.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I02-9">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I02-9">
+            <speaker>adraste</speaker>
             <p>
               <s>Fais-les approcher.</s>
               <s>Je veux, jusques au jour, les faire, ici, chanter ; et voir si leur musique n’obligera point cette belle à paraître à quelque fenêtre.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I02-10">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I02-10">
+            <speaker>hali</speaker>
             <p>
               <s>Les voici.</s>
               <s>Que chanteront-ils ?</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I02-11">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I02-11">
+            <speaker>adraste</speaker>
             <p>
               <s>Ce qu’ils jugeront de meilleur.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I02-12">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I02-12">
+            <speaker>hali</speaker>
             <p>
               <s>Il faut qu’ils chantent un trio qu’ils me chantèrent l’autre jour.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I02-13">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I02-13">
+            <speaker>adraste</speaker>
             <p>
               <s>Non, ce n’est pas ce qu’il me faut.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I02-14">
-            <speaker>HALI</speaker>
-            <note type="L">Bécarre : terme de musique. Marque qui signale l’effacement ponctuel d’un dièse ou d’un bémol signél à la clé.</note>
+          <sp who="hali" xml:id="I02-14">
+            <speaker>hali</speaker>
             <p>
               <s>Ah !</s>
               <s>Monsieur, c’est du beau bécarre.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I02-15">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I02-15">
+            <speaker>adraste</speaker>
             <p>
               <s>Que diantre veux-tu dire avec ton beau bécarre ?</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I02-16">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I02-16">
+            <speaker>hali</speaker>
             <p>
               <s>Monsieur, je tiens pour le bécarre : vous savez que je m’y connais.</s>
               <s>Le bécarre me charme : hors du bécarre, point de salut en harmonie.</s>
               <s>Écoutez un peu ce trio.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I02-17">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I02-17">
+            <speaker>adraste</speaker>
             <p>
               <s>Non, je veux quelque chose de tendre et de passionné ; quelque chose qui m’entretienne dans une douce rêverie.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I02-18">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I02-18">
+            <speaker>hali</speaker>
             <p>
               <s>Je vois bien que vous êtes pour le bémol : mais il y a moyen de nous contenter l’un l’autre.</s>
               <s>Il faut qu’ils vous chantent une certaine scène d’une petite comédie que je leur ai vu essayer.</s>
               <s>Ce sont deux bergers amoureux, tous remplis de langueur, qui sur bémol, viennent, séparément faire leurs plaintes dans un bois ; puis se découvrent l’un à l’autre, la cruauté de leurs maîtresses ; et, là-dessus, vient un berger joyeux, avec un bécarre admirable, qui se moque de leur faiblesse.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I02-19">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I02-19">
+            <speaker>adraste</speaker>
             <p>
               <s>J’y consens.</s>
               <s>Voyons ce que c’est.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I02-20">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I02-20">
+            <speaker>hali</speaker>
             <p>
               <s>Voici, tout juste, un lieu propre à servir de scène ; et voilà deux flambeaux pour éclairer la comédie.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I02-21">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I02-21">
+            <speaker>adraste</speaker>
             <p>
               <s>Place-toi contre ce logis, afin qu’au moindre bruit que l’on fera dedans, je fasse cacher les lumières.</s>
             </p>
@@ -225,8 +224,8 @@
         <div2 type="scene" n="3" xml:id="I03">
           <head>SCÈNE III</head>
           <stage>Chantée par trois musiciens.</stage>
-          <sp who="PREMIER-MUSICIEN" xml:id="I03-1">
-            <speaker>PREMIER MUSICIEN</speaker>
+          <sp who="musicien1" xml:id="I03-1">
+            <speaker>premier musicien</speaker>
             <l n="1" xml:id="l1">Si du triste récit de mon inquiétude,</l>
             <l n="2" xml:id="l2">Je trouble le repos de votre solitude,</l>
             <l n="3" xml:id="l3">Rochers, ne soyez point fâchés.</l>
@@ -234,42 +233,42 @@
             <l n="5" xml:id="l5">Tout rochers que vous êtes,</l>
             <l n="6" xml:id="l6">Vous en serez touchés.</l>
           </sp>
-          <sp who="DEUXIÈME-MUSICIEN" xml:id="I03-2">
-            <speaker>DEUXIÈME MUSICIEN</speaker>
+          <sp who="musicien2" xml:id="I03-2">
+            <speaker>deuxième musicien</speaker>
             <l n="7" xml:id="l7">Les oiseaux réjouis, dès que le jour s’avance,</l>
             <l n="8" xml:id="l8">Recommencent leurs chants dans ces vastes forêts ;</l>
             <l n="9" xml:id="l9">Et moi j’y recommence</l>
             <l n="10" xml:id="l10">Mes soupirs languissants, et mes tristes regrets.</l>
             <l n="11" xml:id="l11">Ah ! Mon cher Philène.</l>
           </sp>
-          <sp who="PREMIER-MUSICIEN" xml:id="I03-3">
-            <speaker>PREMIER MUSICIEN</speaker>
+          <sp who="musicien1" xml:id="I03-3">
+            <speaker>premier musicien</speaker>
             <l n="12" xml:id="l12">Ah ! Mon cher Tirsis.</l>
           </sp>
-          <sp who="DEUXIÈME-MUSICIEN" xml:id="I03-4">
-            <speaker>DEUXIÈME MUSICIEN</speaker>
+          <sp who="musicien2" xml:id="I03-4">
+            <speaker>deuxième musicien</speaker>
             <l n="13" xml:id="l13">Que je sens de peine !</l>
           </sp>
-          <sp who="PREMIER-MUSICIEN" xml:id="I03-5">
-            <speaker>PREMIER MUSICIEN</speaker>
+          <sp who="musicien1" xml:id="I03-5">
+            <speaker>premier musicien</speaker>
             <l n="14" xml:id="l14">Que j’ai de soucis !</l>
           </sp>
-          <sp who="DEUXIÈME-MUSICIEN" xml:id="I03-6">
-            <speaker>DEUXIÈME MUSICIEN</speaker>
+          <sp who="musicien2" xml:id="I03-6">
+            <speaker>deuxième musicien</speaker>
             <l n="13" xml:id="l13">Toujours sourde à mes vœux est l’ingrate Climène.</l>
           </sp>
-          <sp who="PREMIER-MUSICIEN" xml:id="I03-7">
-            <speaker>PREMIER MUSICIEN</speaker>
+          <sp who="musicien1" xml:id="I03-7">
+            <speaker>premier musicien</speaker>
             <l n="14" xml:id="l14">Cloris n’a point, pour moi, de regards adoucis.</l>
           </sp>
-          <sp who="PREMIER_DEUXIÈME-MUSICIEN" xml:id="I03-8">
-            <speaker>TOUS DEUX</speaker>
+          <sp who="musicien1 musicien2" xml:id="I03-8">
+            <speaker>tous deux</speaker>
             <l n="15" xml:id="l15">Ô loi trop inhumaine !</l>
             <l n="16" xml:id="l16">Amour, si tu ne peux les contraindre d’aimer,</l>
             <l n="17" xml:id="l17">Pourquoi leur laisses-tu le pouvoir de charmer ?</l>
           </sp>
-          <sp who="TROISIÈME-MUSICIEN" xml:id="I03-9">
-            <speaker>TROISIÈME MUSICIEN</speaker>
+          <sp who="musicien3" xml:id="I03-9">
+            <speaker>troisième musicien</speaker>
             <l n="18" xml:id="l18">Pauvres amants, quelle erreur</l>
             <l n="19" xml:id="l19">D’adorer des inhumaines ?</l>
             <l n="20" xml:id="l20">Jamais les âmes bien saines</l>
@@ -283,18 +282,18 @@
             <l n="28" xml:id="l28">Mais, lors que l’on est tigresse,</l>
             <l n="29" xml:id="l29">Ma foi, je suis tigre aussI.</l>
           </sp>
-          <sp who="PREMIER_DEUXIÈME-MUSICIEN" xml:id="I03-10">
-            <speaker>PREMIER et DEUXIÈME MUSICIEN</speaker>
+          <sp who="musicien1 musicien2" xml:id="I03-10">
+            <speaker>premier et deuxième musicien</speaker>
             <l n="30" xml:id="l30">Heureux, hélas ! Qui peut aimer ainsi.</l>
           </sp>
-          <sp who="HALI" xml:id="I03-11">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I03-11">
+            <speaker>hali</speaker>
             <p>
               <s>Monsieur, je viens d’ouïr quelque bruit au-dedans.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I03-12">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I03-12">
+            <speaker>adraste</speaker>
             <p>
               <s>Qu’on se retire vite, et qu’on éteigne les flambeaux.</s>
             </p>
@@ -303,90 +302,88 @@
         <div2 type="scene" n="4" xml:id="I04">
           <head>SCÈNE IV</head>
           <stage>Dom Pèdre, Adraste, Hali.</stage>
-          <sp who="DOM-PÈDRE" xml:id="I04-1">
-            <speaker>DOM PÈDRE, sortant en bonnet de nuit, et robe de chambre, avec une épée sous son bras.</speaker>
+          <sp who="dom-pedre" xml:id="I04-1">
+            <speaker>dom pèdre, sortant en bonnet de nuit, et robe de chambre, avec une épée sous son bras</speaker>
             <p>
               <s>Il y a quelque temps que j’entends chanter à ma porte ; et, sans doute, cela ne se fait pas pour rien.</s>
               <s>Il faut que, dans l’obscurité, je tâche à découvrir quelles gens ce peuvent être.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I04-2">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I04-2">
+            <speaker>adraste</speaker>
             <p>
               <s>Hali ?</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I04-3">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I04-3">
+            <speaker>hali</speaker>
             <p>
               <s>Quoi ?</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I04-4">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I04-4">
+            <speaker>adraste</speaker>
             <p>
               <s>N’entends-tu plus rien ?</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I04-5">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I04-5">
+            <speaker>hali</speaker>
             <p>
               <s>Non.</s>
             </p>
             <stage>Dom Pèdre est derrière eux, qui les écoute.</stage>
           </sp>
-          <sp who="ADRASTE" xml:id="I04-6">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I04-6">
+            <speaker>adraste</speaker>
             <p>
               <s>Quoi !</s>
               <s>Tous nos efforts ne pourront obtenir que je parle un moment à cette aimable Grecque ?</s>
               <s>Et ce jaloux maudit, ce traître de Sicilien, me fermera, toujours, tout accès auprès d’elle ?</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I04-7">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I04-7">
+            <speaker>hali</speaker>
             <p>
               <s>Je voudrais, de bon cœur, que le diable l’eût emporté, pour la fatigue qu’il nous donne ; le fâcheux, le bourreau qu’il est.</s>
               <s>Ah !</s>
               <s>si nous le tenions ici, que je prendrais de joie à venger sur son dos, tous les pas inutiles que sa jalousie nous fait faire !</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I04-8">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I04-8">
+            <speaker>adraste</speaker>
             <p>
               <s>Si faut-il bien, pourtant, trouver quelque moyen, quelque invention, quelque ruse, pour attraper notre brutal ; j’y suis trop engagé pour en avoir le démenti ; et quand j’y devrais employer...</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I04-9">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I04-9">
+            <speaker>hali</speaker>
             <p>
               <s>Monsieur, je ne sais pas ce que cela veut dire.</s>
               <s>Mais la porte est ouverte ; et, si vous le voulez, j’entrerai doucement, pour découvrir d’où cela vient.</s>
             </p>
             <stage>Dom Pèdre se retire sur sa porte.</stage>
           </sp>
-          <sp who="ADRASTE" xml:id="I04-10">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I04-10">
+            <speaker>adraste</speaker>
             <p>
               <s>Oui, fais, mais sans faire de bruit ; je ne m’éloigne pas de toI. Plût au Ciel, que ce fût la charmante Isidore !</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I04-11">
-            <speaker>DOM PÈDRE, lui donnant sur la joue.</speaker>
+          <sp who="dom-pedre" xml:id="I04-11">
+            <speaker>dom pèdre, lui donnant sur la joue</speaker>
             <p>
               <s>Qui va là ?</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I04-12">
-            <speaker>HALI, lui en faisant de même.</speaker>
+          <sp who="hali" xml:id="I04-12">
+            <speaker>hali, lui en faisant de même</speaker>
             <p>
               <s>Ami.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I04-13">
-            <speaker>DOM PÈDRE</speaker>
-            <note type="L">Rondache : espèce de bouclier dont se servent encore [au XVIIème] les espagnols, quad ils courent la nuit. [F]</note>
-            <note type="L">Mousqueton : petit mousquet qui est plus court ; mais plus gros de calibre que les mousquets ordinaires. [F]</note>
+          <sp who="dom-pedre" xml:id="I04-13">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Holà, Francisque, Dominique, Simon, Martin, Pierre, Thomas, Georges, Charles, Barthélemy ; allons, promptement, mon épée, ma rondache, ma hallebarde, mes pistolets, mes mousquetons, mes fusils ; vite, dépêchez ; allons, tue, point de quartier.</s>
             </p>
@@ -395,67 +392,67 @@
         <div2 type="scene" n="5" xml:id="I05">
           <head>SCÈNE V</head>
           <stage>Adraste, Hali.</stage>
-          <sp who="ADRASTE" xml:id="I05-1">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I05-1">
+            <speaker>adraste</speaker>
             <p>
               <s>Je n’entends remuer personne.</s>
               <s>Hali ?</s>
               <s>Hali ?</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I05-2">
-            <speaker>HALI, caché dans un coin.</speaker>
+          <sp who="hali" xml:id="I05-2">
+            <speaker>hali, caché dans un coin</speaker>
             <p>
               <s>Monsieur.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I05-3">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I05-3">
+            <speaker>adraste</speaker>
             <p>
               <s>Où, donc, te caches-tu ?</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I05-4">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I05-4">
+            <speaker>hali</speaker>
             <p>
               <s>Ces gens sont-ils sortis ?</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I05-5">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I05-5">
+            <speaker>adraste</speaker>
             <p>
               <s>Non, personne ne bouge.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I05-6">
-            <speaker>HALI, en sortant d’où il était caché.</speaker>
+          <sp who="hali" xml:id="I05-6">
+            <speaker>hali, en sortant d’où il était caché</speaker>
             <p>
               <s>S’ils viennent, ils seront frottés.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I05-7">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I05-7">
+            <speaker>adraste</speaker>
             <p>
               <s>Quoi !</s>
               <s>Tous nos soins seront, donc, inutiles ?</s>
               <s>Et, toujours, ce fâcheux jaloux se moquera de nos desseins ?</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I05-8">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I05-8">
+            <speaker>hali</speaker>
             <p>
               <s>Non, le courroux du point d’honneur me prend ; il ne sera pas dit qu’on triomphe de mon adresse ; ma qualité de fourbe s’indigne de tous ces obstacles ; et je prétends faire éclater les talents que j’ai eus du Ciel.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I05-9">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I05-9">
+            <speaker>adraste</speaker>
             <p>
               <s>Je voudrais, seulement, que par quelque moyen, par un billet, par quelque bouche, elle fût avertie des sentiments qu’on a pour elle, et savoir les siens là-dessus.</s>
               <s>Après on peut trouver facilement, les moyens...</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I05-10">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I05-10">
+            <speaker>hali</speaker>
             <p>
               <s>Laissez-moi faire seulement ; j’en essayerai tant de toutes les manières, que quelque chose, enfin, nous pourra réussir.</s>
               <s>Allons, le jour paraît ; je vais chercher mes gens, et venir attendre, en ce lieu, que notre jaloux sorte.</s>
@@ -465,105 +462,105 @@
         <div2 type="scene" n="6" xml:id="I06">
           <head>SCÈNE VI</head>
           <stage>Dom Pèdre, Isidore.</stage>
-          <sp who="ISIDORE" xml:id="I06-1">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I06-1">
+            <speaker>isidore</speaker>
             <p>
               <s>Je ne sais pas quel plaisir vous prenez à me réveiller si matin ; cela s’ajuste assez mal, ce me semble, au dessein que vous avez pris de me faire peindre aujourd’hui ; et ce n’est guère pour avoir le teint frais, et les yeux brillants, que se lever dès la pointe du jour.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I06-2">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I06-2">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>J’ai une affaire qui m’oblige à sortir à l’heure qu’il est.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I06-3">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I06-3">
+            <speaker>isidore</speaker>
             <p>
               <s>Mais l’affaire que vous avez, eût bien pu se passer, je crois, de ma présence ; et vous pouviez, sans vous incommoder, me laisser goûter les douceurs du sommeil du matin.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I06-4">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I06-4">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Oui ; mais je suis bien aise de vous voir, toujours, avec moi.</s>
               <s>Il n’est pas mal de s’assurer, un peu, contre les soins des surveillants6 ; et cette nuit, encore, on est venu chanter sous nos fenêtres.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I06-5">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I06-5">
+            <speaker>isidore</speaker>
             <p>
               <s>Il est vrai, la musique en était admirable.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I06-6">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I06-6">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>C’était pour vous que cela se faisait ?</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I06-7">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I06-7">
+            <speaker>isidore</speaker>
             <p>
               <s>Je le veux croire ainsi, puisque vous me le dites.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I06-8">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I06-8">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Vous savez qui était celui qui donnait cette sérénade ?</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I06-9">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I06-9">
+            <speaker>isidore</speaker>
             <p>
               <s>Non pas ; mais, qui que ce puisse être, je lui suis obligée.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I06-10">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I06-10">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Obligée !</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I06-11">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I06-11">
+            <speaker>isidore</speaker>
             <p>
               <s>Sans doute, puisqu’il cherche à me divertir.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I06-12">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I06-12">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Vous trouvez, donc, bon qu’on vous aime ?</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I06-13">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I06-13">
+            <speaker>isidore</speaker>
             <p>
               <s>Fort bon ; cela n’est jamais qu’obligeant.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I06-14">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I06-14">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Et vous voulez du bien à tous ceux qui prennent ce soin ?</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I06-15">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I06-15">
+            <speaker>isidore</speaker>
             <p>
               <s>Assurément.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I06-16">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I06-16">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>C’est dire fort net ses pensées.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I06-17">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I06-17">
+            <speaker>isidore</speaker>
             <p>
               <s>À quoi bon de dissimuler ?</s>
               <s>Quelque mine qu’on fasse, on est, toujours, bien aise d’être aimée : ces hommages à nos appas, ne sont, jamais, pour nous déplaire.</s>
@@ -571,43 +568,43 @@
               <s>Tous les soins qu’elles prennent, ne sont que pour cela ; et l’on n’en voit point de si fière, qui ne s’applaudisse en son cœur des conquêtes que font ses yeux.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I06-18">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I06-18">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Mais si vous prenez, vous, du plaisir, à vous voir aimée ; savez-vous bien, moi qui vous aime, que je n’y en prends nullement ?</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I06-19">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I06-19">
+            <speaker>isidore</speaker>
             <p>
               <s>Je ne sais pas pourquoi cela ; et si j’aimais quelqu’un, je n’aurais point de plus grand plaisir, que de le voir aimé de tout le monde.</s>
               <s>Y a-t-il rien qui marque, davantage, la beauté du choix que l’on fait ?</s>
               <s>Et n’est-ce pas pour s’applaudir, que ce que nous aimons, soit trouvé fort aimable ?</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I06-20">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I06-20">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Chacun aime à sa guise, et ce n’est pas là ma méthode.</s>
               <s>Je serai fort ravi qu’on ne vous trouve point si belle, et vous m’obligerez, de n’affecter point tant de la paraître à d’autres yeux.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I06-21">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I06-21">
+            <speaker>isidore</speaker>
             <p>
               <s>Quoi !</s>
               <s>Jaloux de ces choses-là ?</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I06-22">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I06-22">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Oui, jaloux de ces choses-là ; mais jaloux comme un tigre, et, si vous voulez, comme un diable.</s>
               <s>Mon amour vous veut toute à moi ; sa délicatesse s’offense d’un sourire d’un regard qu’on vous peut arracher ; et tous les soins qu’on me voit prendre, ne sont que pour fermer tout accès aux galants, et m’assurer la possession d’un cœur dont je ne puis souffrir qu’on me vole la moindre chose.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I06-23">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I06-23">
+            <speaker>isidore</speaker>
             <p>
               <s>Certes, voulez-vous que je dise ?</s>
               <s>Vous prenez un mauvais parti ; et la possession d’un cœur est fort mal assurée, lorsqu’on prétend le retenir par force.</s>
@@ -615,46 +612,46 @@
               <s>C’est un admirable moyen d’avancer ses affaires, et l’on ne tarde guère à profiter du chagrin, et de la colère que donne à l’esprit d’une femme, la contrainte et la servitude.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I06-24">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I06-24">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Si bien, donc, que si quelqu’un vous en contait, il vous trouverait disposée à recevoir ses vœux ?</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I06-25">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I06-25">
+            <speaker>isidore</speaker>
             <p>
               <s>Je ne vous dis rien là-dessus.</s>
               <s>Mais les femmes, enfin, n’aiment pas qu’on les gêne ; et c’est beaucoup risquer, que de leur montrer des soupçons, et de les tenir renfermées.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I06-26">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I06-26">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Vous reconnaissez peu ce que vous me devez : et il me semble qu’une esclave que l’on a affranchie, et dont on veut faire sa femme...</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I06-27">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I06-27">
+            <speaker>isidore</speaker>
             <p>
               <s>Quelle obligation vous ai-je, si vous changez mon esclavage en un autre beaucoup plus rude ?</s>
               <s>Si vous ne me laissez jouir d’aucune liberté, et me fatiguez, comme on voit, d’une garde continuelle ?</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I06-28">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I06-28">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Mais tout cela ne part que d’un excès d’amour.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I06-29">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I06-29">
+            <speaker>isidore</speaker>
             <p>
               <s>Si c’est votre façon d’aimer, je vous prie de me haïr.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I06-30">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I06-30">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Vous êtes, aujourd’hui, dans une humeur désobligeante ; et je pardonne ces paroles au chagrin où vous pouvez être, de vous être levée matin.</s>
             </p>
@@ -664,53 +661,53 @@
           <head>SCÈNE VII</head>
           <stage>Dom Pèdre, Hali, Isidore.</stage>
           <stage>Hali, faisant plusieurs révérences à Dom Pèdre.</stage>
-          <sp who="DOM-PÈDRE" xml:id="I07-1">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I07-1">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Trêve aux cérémonies, que voulez-vous ?</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I07-2">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I07-2">
+            <speaker>hali</speaker>
             <stage>Il se retourne devers Isidore, à chaque parole qu’il dit à Dom Pèdre : et lui fait des signes pour lui faire connaître le dessein de son maître.</stage>
             <p>
               <s>Signor (avec la permission de la Signore), je vous dirai (avec la permission de la Signore) que je viens vous trouver (avec la permission de la Signore) pour vous prier (avec la permission de la Signore) de vouloir bien (avec la permission de la Signore)...</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I07-3">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I07-3">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Avec la permission de la Signore, passez un peu de ce côté.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I07-4">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I07-4">
+            <speaker>hali</speaker>
             <p>
               <s>Signor, je suis un virtuose.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I07-5">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I07-5">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Je n’ai rien à donner.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I07-6">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I07-6">
+            <speaker>hali</speaker>
             <p>
               <s>Ce n’est pas ce que je demande.</s>
               <s>Mais comme je me mêle un peu de musique, et de danse, j’ai instruit quelques esclaves qui voudraient bien trouver un maître qui se plût à ces choses ; et comme je sais que vous êtes une personne considérable, je voudrais vous prier de les voir, et de les entendre, pour les acheter, s’ils vous plaisent, ou pour leur enseigner quelqu’un de vos amis qui voulût s’en accommoder.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I07-7">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I07-7">
+            <speaker>isidore</speaker>
             <p>
               <s>C’est une chose à voir, et cela nous divertira.</s>
               <s>Faites-les-nous venir.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I07-8">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I07-8">
+            <speaker>hali</speaker>
             <p>
               <s>Chala bala...</s>
               <s>Voici une chanson nouvelle, qui est du temps.</s>
@@ -723,8 +720,8 @@
           <head>SCÈNE VIII</head>
           <stage>Hali et Quatre Esclaves, Isidore, Dom Pèdre.</stage>
           <stage>Hali chante dans cette scène : et les esclaves dansent dans les intervalles de son chant.</stage>
-          <sp who="HALI" xml:id="I08-1">
-            <speaker>HALI, chante.</speaker>
+          <sp who="hali" xml:id="I08-1">
+            <speaker>hali, chante</speaker>
             <l n="31" xml:id="l31">D’un cœur ardent en tous lieux,</l>
             <l n="32" xml:id="l32">Un amant suit une belle ;</l>
             <l n="33" xml:id="l33">Mais d’un jaloux odieux,</l>
@@ -764,8 +761,8 @@
             <l n="67" xml:id="l67">Parlara, parlara,</l>
             <l n="68" xml:id="l68">Ti voler comprara.</l>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I08-2">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I08-2">
+            <speaker>dom pèdre</speaker>
             <l n="69" xml:id="l69">Savez-vous, mes drôles,</l>
             <l n="70" xml:id="l70">Que cette chanson</l>
             <l n="71" xml:id="l71">Sent, pour vos épaules,</l>
@@ -788,56 +785,56 @@
               <s>Fourbe, que je vous y trouve.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I08-3">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I08-3">
+            <speaker>hali</speaker>
             <p>
               <s>Hé bien oui, mon maître l’adore ; il n’a point de plus grand désir que de lui montrer son amour ; et si elle y consent, il la prendra pour femme.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I08-4">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I08-4">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Oui, oui, je la lui garde.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I08-5">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I08-5">
+            <speaker>hali</speaker>
             <p>
               <s>Nous l’aurons, malgré vous.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I08-6">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I08-6">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Comment, coquin...</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I08-7">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I08-7">
+            <speaker>hali</speaker>
             <p>
               <s>Nous l’aurons, dis-je, en dépit de vos dents.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I08-8">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I08-8">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Si je prends...</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I08-9">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I08-9">
+            <speaker>hali</speaker>
             <p>
               <s>Vous avez beau faire la garde, j’en ai juré, elle sera à nous.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I08-10">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I08-10">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Laisse-moi faire, je t’attraperai sans courir.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I08-11">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I08-11">
+            <speaker>hali</speaker>
             <p>
               <s>C’est nous qui vous attraperons ; elle sera notre femme, la chose est résolue ; il faut que j’y périsse, ou que j’en vienne à bout.</s>
             </p>
@@ -846,14 +843,14 @@
         <div2 type="scene" n="9" xml:id="I09">
           <head>SCÈNE IX</head>
           <stage>Adraste, Hali.</stage>
-          <sp who="HALI" xml:id="I09-1">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I09-1">
+            <speaker>hali</speaker>
             <p>
               <s>Monsieur, j’ai, déjà, fait quelque petite tentative, mais je...</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I09-2">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I09-2">
+            <speaker>adraste</speaker>
             <p>
               <s>Ne te mets point en peine, j’ai trouvé, par hasard, tout ce que je voulais : et je vais jouir du bonheur de voir, chez elle, cette belle.</s>
               <s>Je me suis rencontré chez le peintre Damon, qui m’a dit, qu’aujourd’hui, il venait faire le portrait de cette adorable personne : et comme il est, depuis longtemps, de mes plus intimes amis, il a voulu servir mes feux, et m’envoie à sa place, avec un petit mot de lettre, pour me faire accepter.</s>
@@ -861,28 +858,28 @@
               <s>Mais je ne doute pas que mon jaloux fâcheux ne soit, toujours, présent, et n’empêche tous les propos que nous pourrions avoir ensemble : et pour te dire vrai, j’ai, par le moyen d’une jeune esclave, un stratagème, pour tirer17 cette belle Grecque des mains de son jaloux, si je puis obtenir d’elle, qu’elle y consente.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I09-3">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I09-3">
+            <speaker>hali</speaker>
             <p>
               <s>Laissez-moi faire, je veux vous faire un peu de jour à la pouvoir entretenir.</s>
               <s>Il ne sera pas dit que je ne serve de rien dans cette affaire-là.</s>
               <s>Quand allez-vous ?</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I09-4">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I09-4">
+            <speaker>adraste</speaker>
             <p>
               <s>Tout de ce pas, et j’ai, déjà, préparé toutes choses.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I09-5">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I09-5">
+            <speaker>hali</speaker>
             <p>
               <s>Je vais, de mon côté, me préparer aussi.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I09-6">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I09-6">
+            <speaker>adraste</speaker>
             <p>
               <s>Je ne veux point perdre de temps.</s>
               <s>Holà.</s>
@@ -893,32 +890,32 @@
         <div2 type="scene" n="10" xml:id="I10">
           <head>SCÈNE X</head>
           <stage>Dom Pèdre, Adraste.</stage>
-          <sp who="DOM-PÈDRE" xml:id="I10-1">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I10-1">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Que cherchez-vous, cavalier, dans cette maison ?</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I10-2">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I10-2">
+            <speaker>adraste</speaker>
             <p>
               <s>J’y cherche le seigneur Dom Pèdre.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I10-3">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I10-3">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Vous l’avez devant vous.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I10-4">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I10-4">
+            <speaker>adraste</speaker>
             <p>
               <s>Il prendra, s’il lui plaît, la peine de lire cette lettre.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I10-5">
-            <speaker>DOM PÈDRE lit.</speaker>
+          <sp who="dom-pedre" xml:id="I10-5">
+            <speaker>dom pèdre lit</speaker>
             <p>
               <s>Je vous envoie, au lieu de moi, pour le portrait que vous savez, ce gentilhomme français, qui, comme curieux d’obliger les honnêtes gens, a bien voulu prendre ce soin, sur la proposition que je lui en ai faite.</s>
               <s>Il est, sans contredit, le premier homme du monde pour ces sortes d’ouvrages ; et j’ai cru que je ne pouvais rendre un service plus agréable, que de vous l’envoyer, dans le dessein que vous avez d’avoir un portrait achevé, de la personne que vous aimez.</s>
@@ -929,14 +926,14 @@
               <s>Seigneur Français, c’est une grande grâce que vous me voulez faire ; et je vous suis fort obligé.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I10-6">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I10-6">
+            <speaker>adraste</speaker>
             <p>
               <s>Toute mon ambition est de rendre service aux gens de nom, et de mérite.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I10-7">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I10-7">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Je vais faire venir la personne dont il s’agit.</s>
             </p>
@@ -945,8 +942,8 @@
         <div2 type="scene" n="11" xml:id="I11">
           <head>SCÈNE XI</head>
           <stage>Isidore, Dom Pèdre, Adraste, et deux Laquais.</stage>
-          <sp who="DOM-PÈDRE" xml:id="I11-1">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I11-1">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Voici un gentilhomme que Damon nous envoie, qui se veut bien donner la peine de vous peindre.</s>
             </p>
@@ -955,94 +952,94 @@
               <s>Holà, Seigneur Français, cette façon de saluer n’est point d’usage en ce pays.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I11-2">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I11-2">
+            <speaker>adraste</speaker>
             <p>
               <s>C’est la manière de France.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I11-3">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I11-3">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>La manière de France est bonne pour vos femmes ; mais pour les nôtres, elle est, un peu, trop familière.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I11-4">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I11-4">
+            <speaker>isidore</speaker>
             <p>
               <s>Je reçois cet honneur avec beaucoup de joie ; l’aventure me surprend fort ; et, pour dire le vrai, je ne m’attendais pas d’avoir un peintre si illustre.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I11-5">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I11-5">
+            <speaker>adraste</speaker>
             <p>
               <s>Il n’y a personne, sans doute, qui ne tînt à beaucoup de gloire, de toucher à un tel ouvrage.</s>
               <s>Je n’ai pas grande habileté ; mais le sujet, ici, ne fournit que trop de lui-même, et il y a moyen de faire quelque chose de beau sur un original fait comme celui-là.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I11-6">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I11-6">
+            <speaker>isidore</speaker>
             <p>
               <s>L’original est peu de chose, mais l’adresse du peintre en saura couvrir les défauts.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I11-7">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I11-7">
+            <speaker>adraste</speaker>
             <p>
               <s>Le peintre n’y en voit aucun ; et tout ce qu’il souhaite, est d’en pouvoir représenter les grâces aux yeux de tout le monde, aussi grandes qu’il les peut voir.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I11-8">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I11-8">
+            <speaker>isidore</speaker>
             <p>
               <s>Si votre pinceau flatte autant que votre langue, vous allez me faire un portrait qui ne me ressemblera pas.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I11-9">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I11-9">
+            <speaker>adraste</speaker>
             <p>
               <s>Le Ciel, qui fit l’original, nous ôte le moyen d’en faire un portrait qui puisse flatter.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I11-10">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I11-10">
+            <speaker>isidore</speaker>
             <p>
               <s>Le Ciel, quoi que vous en disiez, ne...</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I11-11">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I11-11">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Finissons cela, de grâce, laissons les compliments, et songeons au portrait.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I11-12">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I11-12">
+            <speaker>adraste</speaker>
             <p>
               <s>Allons, apportez tout.</s>
             </p>
             <stage>On apporte tout ce qu’il faut, pour peindre Isidore.</stage>
           </sp>
-          <sp who="ISIDORE" xml:id="I11-13">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I11-13">
+            <speaker>isidore</speaker>
             <p>
               <s>Où voulez-vous que je me place ?</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I11-14">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I11-14">
+            <speaker>adraste</speaker>
             <p>
               <s>Ici. Voici le lieu le plus avantageux, et qui reçoit le mieux les vues favorables de la lumière que nous cherchons.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I11-15">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I11-15">
+            <speaker>isidore</speaker>
             <p>
               <s>Suis-je bien ainsi ?</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I11-16">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I11-16">
+            <speaker>adraste</speaker>
             <p>
               <s>Oui.</s>
               <s>Levez-vous un peu, s’il vous plaît ; un peu plus de ce côté-là ; le corps tourné ainsi ; la tête un peu levée, afin que la beauté du cou paraisse.</s>
@@ -1054,20 +1051,20 @@
               <s>Là, un peu davantage ; encore tant soit peu.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I11-17">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I11-17">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Il y a bien de la peine à vous mettre ; ne sauriez-vous vous tenir comme il faut ?</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I11-18">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I11-18">
+            <speaker>isidore</speaker>
             <p>
               <s>Ce sont, ici, des choses toutes neuves pour moi ; et c’est à Monsieur à me mettre de la façon qu’il veut.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I11-19">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I11-19">
+            <speaker>adraste</speaker>
             <p>
               <s>Voilà qui va le mieux du monde, et vous vous tenez à merveilles.</s>
             </p>
@@ -1077,69 +1074,69 @@
               <s>Le tout dépend des attitudes qu’on donne aux personnes qu’on peint.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I11-20">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I11-20">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Fort bien.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I11-21">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I11-21">
+            <speaker>adraste</speaker>
             <p>
               <s>Un peu plus de ce côté ; vos yeux, toujours tournés vers moi, je vous en prie ; vos regards attachés aux miens.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I11-22">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I11-22">
+            <speaker>isidore</speaker>
             <p>
               <s>Je ne suis pas comme ces femmes qui veulent, en se faisant peindre, des portraits qui ne sont point elles, et ne sont point satisfaites du peintre, s’il ne les fait, toujours, plus belles que le jour.</s>
               <s>Il faudrait, pour les contenter, ne faire qu’un portrait pour toutes ; car, toutes, demandent les mêmes choses ; un teint tout de lis et de roses, un nez bien fait, une petite bouche, et de grands yeux vifs, bien fendus ; et surtout, le visage pas plus gros que le poing, l’eussent-elles d’un pied de large.</s>
               <s>Pour moi, je vous demande un portrait qui soit moi, et qui n’oblige point à demander qui c’est.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I11-23">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I11-23">
+            <speaker>adraste</speaker>
             <p>
               <s>Il serait malaisé qu’on demandât cela du vôtre ; et vous avez des traits à qui fort peu d’autres ressemblent.</s>
               <s>Qu’ils ont de douceurs, et de charmes !</s>
               <s>et qu’on court risque à les peindre !</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I11-24">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I11-24">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Le nez me semble, un peu trop gros.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I11-25">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I11-25">
+            <speaker>adraste</speaker>
             <p>
               <s>J’ai lu, je ne sais où, qu’Apelle peignit, autrefois, une maîtresse d’Alexandre ; d’une merveilleuse beauté, et qu’il en devint, la peignant, si éperdument amoureux, qu’il fut près d’en perdre la vie : de sorte qu’Alexandre, par générosité, lui céda l’objet de ses vœux.</s>
               <s>Il parle à Dom Pèdre.</s>
               <s>Je pourrais faire, ici, ce qu’Apelle fit autrefois ; mais vous ne feriez pas, peut-être, ce que fit Alexandre.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I11-26">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I11-26">
+            <speaker>isidore</speaker>
             <p>
               <s>Tout cela sent la nation ; et, toujours, messieurs les Français ont un fonds de galanterie qui se répand partout.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I11-27">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I11-27">
+            <speaker>adraste</speaker>
             <p>
               <s>On ne se trompe guère à ces sortes de choses ; et vous avez l’esprit trop éclairé, pour ne pas voir de quelle source partent les choses qu’on vous dit.</s>
               <s>Oui, quand Alexandre serait ici, et que ce serait votre amant, je ne pourrais m’empêcher de vous dire, que je n’ai rien vu de si beau que ce que je vois maintenant, et que...</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I11-28">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I11-28">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Seigneur Français, vous ne devriez pas, ce me semble, parler ; cela vous détourne de votre ouvrage.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I11-29">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I11-29">
+            <speaker>adraste</speaker>
             <p>
               <s>Ah !</s>
               <s>Point du tout, j’ai, toujours, de coutume de parler quand je peins ; et il est besoin, dans ces choses, d’un peu de conversation, pour réveiller l’esprit, et tenir les visages dans la gaieté nécessaire aux personnes que l’on veut peindre.</s>
@@ -1149,169 +1146,169 @@
         <div2 type="scene" n="12" xml:id="I12">
           <head>SCÈNE XII</head>
           <stage>Hali, vêtu en Espagnol, Dom Pèdre, Adraste, Isidore.</stage>
-          <sp who="DOM-PÈDRE" xml:id="I12-1">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I12-1">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Que veut cet homme-là ?</s>
               <s>Et qui laisse monter les gens, sans nous en venir avertir ?</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I12-2">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I12-2">
+            <speaker>hali</speaker>
             <p>
               <s>J’entre, ici, librement ; mais, entre cavaliers, telle liberté est permise.</s>
               <s>Seigneur, suis-je connu de vous ?</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I12-3">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I12-3">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Non, Seigneur.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I12-4">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I12-4">
+            <speaker>hali</speaker>
             <p>
               <s>Je suis Dom Gilles d’Avalos ; et l’histoire d’Espagne vous doit avoir instruit de mon mérite.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I12-5">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I12-5">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Souhaitez-vous quelque chose de moi ?</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I12-6">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I12-6">
+            <speaker>hali</speaker>
             <p>
               <s>Oui, un conseil sur un fait d’honneur : je sais qu’en ces matières il est malaisé de trouver un cavalier plus consommé que vous ; mais je vous demande pour grâce, que nous nous tirions à l’écart.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I12-7">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I12-7">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Nous voilà assez loin.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I12-8">
-            <speaker>ADRASTE, regardant Isidore.</speaker>
+          <sp who="adraste" xml:id="I12-8">
+            <speaker>adraste, regardant isidore</speaker>
             <p>
               <s>Elle a les yeux bleus.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I12-9">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I12-9">
+            <speaker>hali</speaker>
             <p>
               <s>Seigneur, j’ai reçu un soufflet : vous savez ce qu’est un soufflet, lorsqu’il se donne, à main ouverte, sur le beau milieu de la joue.</s>
               <s>J’ai ce soufflet fort sur le cœur ; et je suis dans l’incertitude, si pour me venger de l’affront, je dois me battre avec mon homme ; ou bien le faire assassiner.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I12-10">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I12-10">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Assassiner, c’est le plus sûr et le plus court chemin.</s>
               <s>Quel est votre ennemi ?</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I12-11">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I12-11">
+            <speaker>hali</speaker>
             <p>
               <s>Parlons bas, s’il vous plaît.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I12-12">
-            <speaker>ADRASTE, aux genoux d’Isidore, pendant que Dom Pèdre parle à Hali.</speaker>
+          <sp who="adraste" xml:id="I12-12">
+            <speaker>adraste, aux genoux d’isidore, pendant que dom pèdre parle à hali</speaker>
             <p>
               <s>Oui, charmante Isidore, mes regards vous le disent depuis plus de deux mois, et vous les avez entendus : je vous aime plus que tout ce que l’on peut aimer, et je n’ai point d’autre pensée, d’autre but, d’autre passion, que d’être à vous toute ma vie.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I12-13">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I12-13">
+            <speaker>isidore</speaker>
             <p>
               <s>Je ne sais si vous dites vrai, mais vous persuadez.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I12-14">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I12-14">
+            <speaker>adraste</speaker>
             <p>
               <s>Mais vous persuadé-je, jusqu’à vous inspirer quelque peu de bonté pour moi ?</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I12-15">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I12-15">
+            <speaker>isidore</speaker>
             <p>
               <s>Je ne crains que d’en trop avoir.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I12-16">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I12-16">
+            <speaker>adraste</speaker>
             <p>
               <s>En aurez-vous assez pour consentir, belle Isidore, au dessein que je vous ai dit ?</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I12-17">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I12-17">
+            <speaker>isidore</speaker>
             <p>
               <s>Je ne puis, encore, vous le dire.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I12-18">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I12-18">
+            <speaker>adraste</speaker>
             <p>
               <s>Qu’attendez-vous pour cela ?</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I12-19">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I12-19">
+            <speaker>isidore</speaker>
             <p>
               <s>À me résoudre.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I12-20">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I12-20">
+            <speaker>adraste</speaker>
             <p>
               <s>Ah !</s>
               <s>Quand on aime bien24, on se résout bientôt.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I12-21">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I12-21">
+            <speaker>isidore</speaker>
             <p>
               <s>Hé bien, allez, oui, j’y consens.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I12-22">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I12-22">
+            <speaker>adraste</speaker>
             <p>
               <s>Mais, consentez-vous, dites-moi, que ce soit dès ce moment même ?</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I12-23">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I12-23">
+            <speaker>isidore</speaker>
             <p>
               <s>Lorsqu’on est, une fois, résolu sur la chose, s’arrête-t-on sur le temps ?</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I12-24">
-            <speaker>DOM PÈDRE, à Hali.</speaker>
+          <sp who="dom-pedre" xml:id="I12-24">
+            <speaker>dom pèdre, à hali</speaker>
             <p>
               <s>Voilà mon sentiment, et je vous baise les mains.</s>
             </p>
           </sp>
-          <sp who="HALI" xml:id="I12-25">
-            <speaker>HALI</speaker>
+          <sp who="hali" xml:id="I12-25">
+            <speaker>hali</speaker>
             <p>
               <s>Seigneur, quand vous aurez reçu quelque soufflet, je suis homme aussi de conseil, et je pourrai vous rendre la pareille.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I12-26">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I12-26">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Je vous laisse aller, sans vous reconduire : mais entre cavaliers, cette liberté est permise.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I12-27">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I12-27">
+            <speaker>adraste</speaker>
             <p>
               <s>Non, il n’est rien qui puisse effacer de mon cœur les tendres témoignages...</s>
             </p>
@@ -1329,8 +1326,8 @@
               <s>Et vous, je vous conjure de ne vous relâcher point : et de garder un esprit gai, pour le dessein que j’ai d’achever notre ouvrage.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I12-28">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I12-28">
+            <speaker>isidore</speaker>
             <p>
               <s>Je conserverai, pour cela, toute la gaieté qu’il faut.</s>
             </p>
@@ -1339,34 +1336,33 @@
         <div2 type="scene" n="13" xml:id="I13">
           <head>SCÈNE XIII</head>
           <stage>Dom Pèdre, Isidore.</stage>
-          <sp who="ISIDORE" xml:id="I13-1">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I13-1">
+            <speaker>isidore</speaker>
             <p>
               <s>Qu’en dites-vous ?</s>
               <s>Ce gentilhomme me paraît le plus civil du monde ; et l’on doit demeurer d’accord, que les Français ont quelque chose, en eux, de poli, de galant, que n’ont point les autres nations.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I13-2">
-            <speaker>DOM PÈDRE</speaker>
-            <note type="L">Conter fleurette : se dit au figuré de certains petits ornements du langage, ou des galanteries, et des termes doucereux dont on se sert ordinairement pour cajoler les femmes. [F]</note>
+          <sp who="dom-pedre" xml:id="I13-2">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Oui ; mais ils ont cela de mauvais, qu’ils s’émancipent un peu trop, et s’attachent, en étourdis, à conter des fleurettes à tout ce qu’ils rencontrent.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I13-3">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I13-3">
+            <speaker>isidore</speaker>
             <p>
               <s>C’est qu’ils savent qu’on plaît aux dames par ces choses.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I13-4">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I13-4">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Oui, mais, s’ils plaisent aux dames, ils déplaisent fort aux messieurs ; et l’on n’est point bien aise de voir sur sa moustache, cajoler hardiment, sa femme, ou sa maîtresse.</s>
             </p>
           </sp>
-          <sp who="ISIDORE" xml:id="I13-5">
-            <speaker>ISIDORE</speaker>
+          <sp who="isidore" xml:id="I13-5">
+            <speaker>isidore</speaker>
             <p>
               <s>Ce qu’ils en font, n’est que par jeu.</s>
             </p>
@@ -1375,8 +1371,8 @@
         <div2 type="scene" n="14" xml:id="I14">
           <head>SCÈNE XIV</head>
           <stage>Climène, Dom Pèdre, Isidore.</stage>
-          <sp who="CLIMÈNE" xml:id="I14-1">
-            <speaker>CLIMÈNE, voilée.</speaker>
+          <sp who="climene" xml:id="I14-1">
+            <speaker>climène, voilée</speaker>
             <p>
               <s>Ah !</s>
               <s>Seigneur cavalier, sauvez-moi, s’il vous plaît, des mains d’un mari furieux dont je suis poursuivie.</s>
@@ -1386,8 +1382,8 @@
               <s>De grâce, Seigneur cavalier, sauvez-moi de sa fureur.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I14-2">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I14-2">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Entrez là-dedans, avec elle, et n’appréhendez rien.</s>
             </p>
@@ -1396,8 +1392,8 @@
         <div2 type="scene" n="14" xml:id="I15">
           <head>SCÈNE XV</head>
           <stage>Adraste, Dom Pèdre.</stage>
-          <sp who="DOM-PÈDRE" xml:id="I15-1">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I15-1">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Hé quoi !</s>
               <s>Seigneur, c’est vous ?</s>
@@ -1405,49 +1401,49 @@
               <s>Je pensais qu’il n’y eût que nous qui en fussions capables.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I15-2">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I15-2">
+            <speaker>adraste</speaker>
             <p>
               <s>Les Français excellent toujours, dans toutes les choses qu’ils font ; et quand nous nous mêlons d’être jaloux, nous le sommes vingt fois plus qu’un Sicilien.</s>
               <s>L’infâme, croit avoir trouvé chez vous, un assuré refuge : mais vous êtes trop raisonnable, pour blâmer mon ressentiment.</s>
               <s>Laissez-moi, je vous prie, la traiter comme elle mérite.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I15-3">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I15-3">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Ah !</s>
               <s>De grâce, arrêtez ; l’offense est trop petite, pour un courroux si grand.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I15-4">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I15-4">
+            <speaker>adraste</speaker>
             <p>
               <s>La grandeur d’une telle offense, n’est pas dans l’importance des choses que l’on fait.</s>
               <s>Elle est à transgresser les ordres qu’on nous donne ; et sur de pareilles matières, ce qui n’est qu’une bagatelle, devient fort criminel lorsqu’il est défendu.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I15-5">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I15-5">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>De la façon qu’elle a parlé, tout ce qu’elle en a fait a été sans dessein ; et je vous prie, enfin, de vous remettre bien ensemble.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I15-6">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I15-6">
+            <speaker>adraste</speaker>
             <p>
               <s>Hé quoi !</s>
               <s>vous prenez son parti, vous qui êtes si délicat sur ces sortes de choses !</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I15-7">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I15-7">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Oui, je prends son parti ; et si vous voulez m’obliger, vous oublierez votre colère, et vous vous réconcilierez tous deuX. C’est une grâce que je vous demande : et je la recevrai comme un essai de l’amitié que je veux qui soit entre nous.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I15-8">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I15-8">
+            <speaker>adraste</speaker>
             <p>
               <s>Il ne m’est pas permis, à ces conditions, de vous rien refuser ; je ferai ce que vous voudrez.</s>
             </p>
@@ -1456,21 +1452,21 @@
         <div2 type="scene" n="16" xml:id="I16">
           <head>SCÈNE XVI</head>
           <stage>Climène, Adraste, Dom Pèdre.</stage>
-          <sp who="DOM-PÈDRE" xml:id="I16-1">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I16-1">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Holà, venez ; vous n’avez qu’à me suivre, et j’ai fait votre paix.</s>
               <s>Vous ne pouviez, jamais, mieux tomber que chez moi.</s>
             </p>
           </sp>
-          <sp who="CLIMÈNE" xml:id="I16-2">
-            <speaker>CLIMÈNE</speaker>
+          <sp who="climene" xml:id="I16-2">
+            <speaker>climène</speaker>
             <p>
               <s>Je vous suis obligée plus qu’on ne saurait croire : mais je m’en vais prendre mon voile ; je n’ai garde, sans lui, de paraître à ses yeux.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I16-3">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I16-3">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>La voici qui s’en va venir ; et son âme, je vous assure, a paru toute réjouie, lorsque je lui ai dit que j’avais raccommodé tout.</s>
             </p>
@@ -1479,32 +1475,32 @@
         <div2 type="scene" n="17" xml:id="I17">
           <head>SCÈNE XVII</head>
           <stage>Isidore, sous le voile de Climène, Adraste, Dom Pèdre.</stage>
-          <sp who="DOM-PÈDRE" xml:id="I17-1">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I17-1">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Puisque vous m’avez bien voulu donner27 votre ressentiment, trouvez bon qu’en ce lieu je vous fasse toucher dans la main l’un de l’autre28, et que tous deux je vous conjure de vivre, pour l’amour de moi, dans une parfaite union.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I17-2">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I17-2">
+            <speaker>adraste</speaker>
             <p>
               <s>Oui, je vous le promets, que, pour l’amour de vous, je m’en vais, avec elle, vivre le mieux du monde.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I17-3">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I17-3">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Vous m’obligez sensiblement, et j’en garderai la mémoire.</s>
             </p>
           </sp>
-          <sp who="ADRASTE" xml:id="I17-4">
-            <speaker>ADRASTE</speaker>
+          <sp who="adraste" xml:id="I17-4">
+            <speaker>adraste</speaker>
             <p>
               <s>Je vous donne ma parole, Seigneur Dom Pèdre, qu’à votre considération je m’en vais la traiter du mieux qu’il me sera possible.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I17-5">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I17-5">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>C’est trop de grâce que vous me faites : il est bon de pacifier et d’adoucir toujours les choses.</s>
               <s>Holà, Isidore, venez.</s>
@@ -1514,22 +1510,22 @@
         <div2 type="scene" n="18" xml:id="I18">
           <head>SCÈNE XVIII</head>
           <stage>Climène, Dom Pèdre.</stage>
-          <sp who="DOM-PÈDRE" xml:id="I18-1">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I18-1">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Comment !</s>
               <s>Que veut dire cela ?</s>
             </p>
           </sp>
-          <sp who="CLIMÈNE" xml:id="I18-2">
-            <speaker>CLIMÈNE, sans voile.</speaker>
+          <sp who="climene" xml:id="I18-2">
+            <speaker>climène, sans voile</speaker>
             <p>
               <s>Ce que cela veut dire ?</s>
               <s>Qu’un jaloux est un monstre haï de tout le monde ; et qu’il n’y a personne qui ne soit ravi de lui nuire, n’y eût-il point d’autre intérêt : que toutes les serrures et les verrous du monde, ne retiennent point les personnes ; et que c’est le cœur qu’il faut arrêter par la douceur et par la complaisance : qu’Isidore est entre les mains du cavalier qu’elle aime, et que vous êtes pris pour dupe.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I18-3">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I18-3">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Dom Pèdre souffrira cette injure mortelle !</s>
               <s>Non, non, j’ai trop de cœur, et je vais demander l’appui de la justice, pour pousser le perfide à bout.</s>
@@ -1541,107 +1537,107 @@
         <div2 type="scene" n="19" xml:id="I19">
           <head>SCÈNE XIX</head>
           <stage>Le Sénateur, Dom Pèdre.</stage>
-          <sp who="LE-SÉNATEUR" xml:id="I19-1">
-            <speaker>LE SÉNATEUR</speaker>
+          <sp who="le-senateur" xml:id="I19-1">
+            <speaker>le sénateur</speaker>
             <p>
               <s>Serviteur, Seigneur Dom Pèdre.</s>
               <s>Que vous venez à propos !</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I19-2">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I19-2">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Je viens me plaindre à vous d’un affront qu’on m’a fait.</s>
             </p>
           </sp>
-          <sp who="LE-SÉNATEUR" xml:id="I19-3">
-            <speaker>LE SÉNATEUR</speaker>
+          <sp who="le-senateur" xml:id="I19-3">
+            <speaker>le sénateur</speaker>
             <p>
               <s>J’ai fait une mascarade la plus belle du monde.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I19-4">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I19-4">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Un traître de Français m’a joué une pièce.</s>
             </p>
           </sp>
-          <sp who="LE-SÉNATEUR" xml:id="I19-5">
-            <speaker>LE SÉNATEUR</speaker>
+          <sp who="le-senateur" xml:id="I19-5">
+            <speaker>le sénateur</speaker>
             <p>
               <s>Vous n’avez, dans votre vie, jamais rien vu de si beau.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I19-6">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I19-6">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Il m’a enlevé une fille que j’avais affranchie.</s>
             </p>
           </sp>
-          <sp who="LE-SÉNATEUR" xml:id="I19-7">
-            <speaker>LE SÉNATEUR</speaker>
+          <sp who="le-senateur" xml:id="I19-7">
+            <speaker>le sénateur</speaker>
             <p>
               <s>Ce sont gens vêtus en Maures, qui dansent admirablement.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I19-8">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I19-8">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Vous voyez si c’est une injure qui se doive souffrir.</s>
             </p>
           </sp>
-          <sp who="LE-SÉNATEUR" xml:id="I19-9">
-            <speaker>LE SÉNATEUR</speaker>
+          <sp who="le-senateur" xml:id="I19-9">
+            <speaker>le sénateur</speaker>
             <p>
               <s>Des habits merveilleux, et qui sont faits exprès.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I19-10">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I19-10">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Je demande l’appui de la justice contre cette action.</s>
             </p>
           </sp>
-          <sp who="LE-SÉNATEUR" xml:id="I19-11">
-            <speaker>LE SÉNATEUR</speaker>
+          <sp who="le-senateur" xml:id="I19-11">
+            <speaker>le sénateur</speaker>
             <p>
               <s>Je veux que vous voyiez cela ; on la va répéter pour en donner le divertissement au peuple.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I19-12">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I19-12">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Comment !</s>
               <s>De quoi parlez-vous là ?</s>
             </p>
           </sp>
-          <sp who="LE-SÉNATEUR" xml:id="I19-13">
-            <speaker>LE SÉNATEUR</speaker>
+          <sp who="le-senateur" xml:id="I19-13">
+            <speaker>le sénateur</speaker>
             <p>
               <s>Je parle de ma mascarade.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I19-14">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I19-14">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>Je vous parle de mon affaire.</s>
             </p>
           </sp>
-          <sp who="LE-SÉNATEUR" xml:id="I19-15">
-            <speaker>LE SÉNATEUR</speaker>
+          <sp who="le-senateur" xml:id="I19-15">
+            <speaker>le sénateur</speaker>
             <p>
               <s>Je ne veux point, aujourd’hui, d’autres affaires que de plaisir.</s>
               <s>Allons, Messieurs, venez ; voyons si cela ira bien.</s>
             </p>
           </sp>
-          <sp who="DOM-PÈDRE" xml:id="I19-16">
-            <speaker>DOM PÈDRE</speaker>
+          <sp who="dom-pedre" xml:id="I19-16">
+            <speaker>dom pèdre</speaker>
             <p>
               <s>La peste soit du fou, avec sa mascarade.</s>
             </p>
           </sp>
-          <sp who="LE-SÉNATEUR" xml:id="I19-17">
-            <speaker>LE SÉNATEUR</speaker>
+          <sp who="le-senateur" xml:id="I19-17">
+            <speaker>le sénateur</speaker>
             <p>
               <s>Diantre soit le fâcheux, avec son affaire.</s>
             </p>

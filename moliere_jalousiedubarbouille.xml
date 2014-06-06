@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><!--<?xml-stylesheet type="text/xsl" href="http://svn.code.sf.net/p/algone/code/teipub/tei2html.xsl"?>-->
-<!--odt2tei: 2014-03-24T14:53:07+01:00-->
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" n="moliere_jalousiedubarbouille" xml:lang="">
   <teiHeader>
     <fileDesc>
@@ -58,7 +57,7 @@
       <div>
         <castList>
           <head>ACTEURS</head>
-          <castItem><role xml:id="le-barbouille" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">LE BARBOUILLÉ</role>.</castItem>
+          <castItem><role xml:id="le-barbouille" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LE BARBOUILLÉ</role>.</castItem>
           <castItem><role xml:id="le-docteur" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">LE DOCTEUR</role>.</castItem>
           <castItem><role xml:id="angelique" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">ANGÉLIQUE</role>.</castItem>
           <castItem><role xml:id="valere" civil="M" type="H" statut="bourgeois" age="A" stat_amour="amoureux">VALÈRE</role>, amant d'Angélique.</castItem>
