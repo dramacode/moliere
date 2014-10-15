@@ -69,7 +69,7 @@
         <castItem><role age="A" civil="M" stat_amour="néant" statut="tailleur" type="H" xml:id="maitre-tailleur">maître tailleur.</role>.</castItem>
         <castItem><role age="A" civil="M" stat_amour="néant" statut="tailleur" type="H" xml:id="garcon-tailleur">garçon tailleur.</role>.</castItem>
         <castItem><role age="A" civil="G" stat_amour="néant" statut="laquais" type="H" xml:id="laquais1">deux laquais.</role><role xml:id="laquais2"/>.</castItem>
-        <castItem type="list">plusieurs musiciens, musiciennes, joueurs d’instruments, danseurs, cuisiniers, garçons tailleurs, <hi rend="n">Et autres Personnages des Intermèdes et du Ballet</hi>.<role xml:id="mufti"/><role xml:id="turcs"/><role xml:id="homme-du-bel-air"></role><role xml:id="vieille-bourgeoise-babillarde"></role><role xml:id="vieux-bourgeois-babillard"></role><role xml:id="suisse"></role><role xml:id="gascon"></role><role xml:id="autre-gascon"></role><role xml:id="tous"></role></castItem>
+        <castItem type="list">plusieurs musiciens, musiciennes, joueurs d’instruments, danseurs, cuisiniers, garçons tailleurs, <hi rend="n">Et autres Personnages des Intermèdes et du Ballet</hi>.<role xml:id="mufti"/><role xml:id="turcs"/><role xml:id="homme-du-bel-air"></role><role xml:id="vieille-bourgeoise-babillarde"></role><role xml:id="vieux-bourgeois-babillard"></role><role xml:id="suisse"></role><role xml:id="gascon"></role><role xml:id="autre-gascon"></role><role xml:id="tous"></role><role xml:id="autre-homme-du-bel-air"></role><role xml:id="femme-du-bel-air"></role><role xml:id="autre-femme-du-bel-air"></role><role xml:id="espagnol1"></role><role xml:id="espagnol2"></role><role xml:id="espagnol3"></role><role xml:id="musicien"></role><role xml:id="musicienne"></role></castItem>
       </castList>
       <set country="France" link="" location="Paris" periode="XVIIème">La Scène est à Paris.</set>
     </front>
@@ -4757,7 +4757,7 @@
             <l>Un vrai Cheval,</l>
             <l>Franc animal.</l>
           </sp>
-          <sp who="hommes-et-femmes-du-bel-air">
+          <sp who="femme-du-bel-air autre-femme-du-bel-air homme-du-bel-air autre-homme-du-bel-air">
             <speaker>hommes et femmes du bel air</speaker>
             <l>Ah ! quel bruit !</l>
             <l>Quel fracas !</l>
@@ -4845,7 +4845,7 @@
         </div2>
         <div2>
           <head>TROISIÈME ENTRÉE.</head>
-          <sp who="trois-espagnols-chantent">
+          <sp who="espagnol1 espagnol2 espagnol3">
             <speaker rend="n">Trois Espagnols chantent</speaker>
             <lg>
               <l>Sé que me muero de amor,</l>
@@ -4874,7 +4874,7 @@
             <l>Sé que, etc.</l>
             <stage rend="not-i">Six Espagnols dansent.</stage>
           </sp>
-          <sp who="trois-musiciens-espagnols">
+          <sp who="espagnol1 espagnol2 espagnol3">
             <speaker>trois musiciens espagnols</speaker>
             <l>Ay que locura, con tanto rigor</l>
             <l>Quexarse de Amor</l>
@@ -4883,28 +4883,28 @@
             <l>Ay que locura,</l>
             <l>Ay que locura.</l>
           </sp>
-          <sp who="espagnol">
+          <sp who="espagnol1">
             <speaker>espagnol, <hi rend="i">chantant</hi></speaker>
             <l>El dolor solicita,</l>
             <l>El que al dolor se da</l>
             <l>Y nadie de amor muere</l>
             <l>Sino quien no save amar.</l>
           </sp>
-          <sp who="deux-espagnols">
+          <sp who="espagnol2 espagnol3">
             <speaker>deux espagnols</speaker>
             <l>Dulce muerte es el amor</l>
             <l>Con correspondencia ygual,</l>
             <l>Y si esta gozamos o</l>
             <l>Porque la quieres turbar ?</l>
           </sp>
-          <sp who="un-espagnol">
+          <sp who="espagnol1">
             <speaker>un espagnol</speaker>
             <l>Alegrese Enamorado</l>
             <l>Y tome mi parecer</l>
             <l>Que en esto de querer</l>
             <l>Todo es hallar el vado.</l>
           </sp>
-          <sp who="tous-trois-ensemble">
+          <sp who="espagnol1 espagnol2 espagnol3">
             <speaker>tous trois ensemble.</speaker>
             <l>Vaya, vaya de fiestas,</l>
             <l>Vaya de vayle,</l>
@@ -4914,7 +4914,7 @@
         </div2>
         <div2>
           <head>QUATRIÈME ENTRÉE</head>
-          <sp who="italiens">
+          <sp who="musicienne musicien">
             <speaker>Italiens</speaker>
             <stage rend="not-i">Une Musicienne Italienne fait le premier Récit, dont voici les paroles.</stage>
             <lg>
@@ -4936,21 +4936,21 @@
             <stage rend="not-i">Après l’Air que la Musicienne a chanté, deux Scaramouches, deux Trivelins et un Arlequin représentent une Nuit à la manière des Comédiens Italiens, en cadence.</stage>
             <stage rend="not-i">Un Musicien italien se joint à la Musicienne italienne, et chante avec elle les paroles qui suivent.</stage>
           </sp>
-          <sp who="le-musicien-italien">
+          <sp who="musicien">
             <speaker>le musicien italien</speaker>
             <l>Bel tempo che vola</l>
             <l>Rapisce il contento,</l>
             <l>D’amor nella scola</l>
             <l>Si coglie il momento.</l>
           </sp>
-          <sp who="la-musicienne">
+          <sp who="musicienne">
             <speaker>la musicienne</speaker>
             <l>Insin che florida</l>
             <l>Ride l’età</l>
             <l>Che pur tropp’ orrida</l>
             <l>Da noi sen và.</l>
           </sp>
-          <sp who="tous-deux">
+          <sp who="musicien musicienne">
             <speaker>tous deux</speaker>
             <l>Sù cantiamo,</l>
             <l>Sù godiamo</l>
@@ -4971,7 +4971,7 @@
             <l>Più l’alma rigida</l>
             <l>Fiamme non ha.</l>
           </sp>
-          <sp who="tous-deux">
+          <sp who="musicien musicienne">
             <speaker>tous deux</speaker>
             <l>Sù cantiamo, etc.</l>
           </sp>
@@ -4982,12 +4982,12 @@
           <stage rend="not-i sc">Français.</stage>
           <stage rend="not-i">Deux Musiciens Poitevins dansent, et chantent les paroles qui suivent</stage>
           <label>PREMIER MENUET.</label>
-          <sp who="deux-musiciens-poitevins">
+          <sp who="musicien1 musicien2">
             <speaker></speaker>
             <l>AH ! qu’il fait beau dans ces Bocages,</l>
             <l>Ah ! que le Ciel donne un beau jour.</l>
           </sp>
-          <sp who="autre-musicien">
+          <sp who="musicien1">
             <speaker>autre musicien</speaker>
             <lg>
               <l>Le Rossignol, sous ces tendres feuillages,</l>
@@ -5001,7 +5001,7 @@
             </lg>
           </sp>
           <label> SECOND MENUET.</label>
-          <sp who="tous-deux-ensemble">
+          <sp who="musicien1 musicien2">
             <speaker>tous deux ensemble</speaker>
             <l>Vois ma Climène,</l>
             <l>Vois sous ce Chêne</l>
@@ -5020,7 +5020,7 @@
         <div2>
           <head>SIXIÈME ENTRÉE.</head>
           <stage rend="not-i">Tout cela finit par le mélange des trois Nations, et les applaudissements en Danse et en Musique de toute l’assistance, qui chante les deux Vers qui suivent :</stage>
-          <sp who="toute-l'assistance">
+          <sp who="tous">
             <speaker></speaker>
             <l>Quels Spectacles charmants, quels plaisirs goûtons-nous,</l>
             <l>Les Dieux mêmes, les Dieux, n’en ont point de plus doux.</l>
