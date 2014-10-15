@@ -62,7 +62,7 @@
       <docImprint>AVEC PRIVILÈGE DE SA MAJESTÉ.</docImprint>
       </titlePage>
     </front>
-    <body>
+    <body rend="not-i">
       <head>LIVRET DU « BOURGEOIS GENTILHOMME » <lb/>Comédie-Ballet</head>
         <div>
           <head>L’OUVERTURE</head>
@@ -72,12 +72,12 @@
           <head>DANS LE PREMIER ACTE.</head>
           <stage>Un Élève du Maître de Musique compose sur une table un Air que le Bourgeois a demandé pour une Sérénade.</stage>
           <castList>
-            <castItem><role xml:id="eleve-musique">L’Élève de Musique</role>,<actor><persName type="actor">Monsieur Gaye</persName></actor></castItem>
-            <castItem><role xml:id="la-musicienne"></role></castItem>
+            <castItem><role xml:id="monsieur-gaye">L’Élève de Musique</role>,<actor>Monsieur Gaye</actor></castItem>
+            <castItem><role xml:id="mademoiselle-hilaire"></role></castItem>
           </castList>
           <stage>Une Musicienne est priée de chanter l’air qu’a composé l’Élève.</stage>
-          <sp who="la-musicienne">
-            <speaker>la musicienne, <persName type="actor"><hi rend="i">Mlle Hilaire.</hi></persName></speaker>
+          <sp who="mademoiselle-hilaire">
+            <speaker>la musicienne, <hi rend="i">Mlle Hilaire.</hi></speaker>
             <l n="1" xml:id="l1">Je languis nuit et jour, et mon mal est extrême</l>
             <l n="2" xml:id="l2">Depuis qu’à vos rigueurs vos beaux yeux m’ont soumis ;</l>
             <l n="3" xml:id="l3">Si vous traitez ainsi, belle Iris, qui vous aime,</l>
@@ -85,11 +85,11 @@
           </sp>
             <stage>Après avoir fait chanter cet air au Bourgeois, on lui fait entendre dans un Dialogue un petit essai des diverses passions que peut exprimer la Musique : Il entre pour cela un Musicien et deux Violons.</stage>
           <castList>
-            <castItem><role xml:id="le-musicien">Le Musicien,</role><actor><persName type="actor">M. Langez</persName></actor></castItem>
-            <castItem><role xml:id="deux-violons">Les deux Violons.</role><actor><persName type="actor">Les Sieurs Laquaisse</persName> et <persName type="actor">Marchand</persName>.</actor></castItem>
+            <castItem><role xml:id="monsieur-langez">Le Musicien,</role><actor>M. Langez</actor></castItem>
+            <castItem><role xml:id="deux-violons">Les deux Violons.</role><actor>Les Sieurs Laquaisse et Marchand.</actor></castItem>
           </castList>
             <label>DIALOGUE EN MUSIQUE.</label>
-          <sp who="la-musicienne">
+          <sp who="mademoiselle-hilaire">
             <speaker>mademoiselle hilaire</speaker>
             <l n="5" xml:id="l5"><space/><space/>Un cœur dans l’amoureux empire</l>
             <l n="6" xml:id="l6"><space/><space/>De mille soins est toujours agité,</l>
@@ -177,18 +177,18 @@
             <l n="40" xml:id="l40"><space/><space/>À des ardeurs si belles</l>
             <l n="41" xml:id="l41"><space/><space/>Laissons nous enflammer.</l>
           </sp>
-          <sp who="tous-trois">
+          <sp who="monsieur-langez monsieur-gaye mademoiselle-hilaire">
             <speaker>tous trois.</speaker>
             <l n="42" xml:id="l42"><space/><space/>Ah ! qu’il est doux d’aimer</l>
             <l n="43" xml:id="l43"><space/><space/>Quand deux cœurs sont fidèles.</l>
           </sp>
             <stage>Ensuite de ce Dialogue le Maître à danser lui fait voir aussi un petit essai des plus beaux mouvements, et des plus belles attitudes dont une danse puisse être variée.</stage>
           <castList>
-            <castItem><role xml:id="quatre-danseurs">Quatre danseurs</role>, <actor>Messieurs <persName type="actor">la Pierre</persName>, <persName type="actor">Favier</persName>, <persName type="actor">S. André</persName> et <persName type="actor">Foignard cadet</persName>.</actor></castItem>
+            <castItem><role xml:id="quatre-danseurs">Quatre danseurs</role>, <actor>Messieurs la Pierre, Favier, S. André et Foignard cadet.</actor></castItem>
           </castList>
             <stage>Un Maître Tailleur lui vient apporter un habit, qui lui fait vêtir en cadence par six garçons Tailleurs.</stage>
           <castList>
-            <castItem><role xml:id="six-garcons-tailleurs">Les six garçons Tailleurs</role><actor>Messieurs <persName type="actor">Dolivet</persName>, <persName type="actor">le Chantre</persName>, <persName type="actor">Bonnart</persName>, <persName type="actor">Isaac</persName>, <persName type="actor">Magny</persName> et <persName type="actor">S. André</persName>.</actor></castItem>
+            <castItem><role xml:id="six-garcons-tailleurs">Les six garçons Tailleurs</role><actor>Messieurs Dolivet, le Chantre, Bonnart, Isaac, Magny et S. André.</actor></castItem>
           </castList>
             <stage>Le Bourgeois étant habillé leur donne de quoi boire, et les garçons Tailleurs s’en réjouissent par une danse.</stage>
         </div>
@@ -196,10 +196,12 @@
           <head>DANS LE SECOND ACTE.</head>
           <stage>Une femme de qualité vient dîner chez le Bourgeois, qui pour la mieux regarder lui fait ouïr à table quelques Chansons à boire, qui sont chantées par trois Musiciens qu’il a fait venir.</stage>
           <castList>
-            <castItem><role xml:id="trois-musiciens">Les trois Musiciens.</role><actor>Messieurs <persName type="actor">Blondel</persName>, <persName type="actor">la Grille</persName>, et <persName type="actor">Morel</persName>.</actor></castItem>
+            <castItem><role xml:id="blondel">Les trois Musiciens.</role><actor>Messieurs Blondel, la Grille, et Morel.</actor><role xml:id="morel"></role><role xml:id="grille"></role></castItem>
+            <castItem><role xml:id="gillet"></role></castItem>
+            <castItem><role xml:id="noblet"></role></castItem>
           </castList>
           <label>PREMIÈRE CHANSON À BOIRE.</label>
-          <sp who="grille-morel">
+          <sp who="grille morel">
             <speaker>MM. de la Grille et Morel </speaker>
             <lg><l n="44" xml:id="l44"><space/><space/>Un petit doigt, Philis, pour commencer le tour,</l>
             <l n="45" xml:id="l45"><space/><space/>Ah ! qu’un verre en vos mains sont d’agréables armes ;</l>
@@ -215,7 +217,7 @@
             <l n="55" xml:id="l55"><space/><space/>Une ardeur éternelle.</l></lg>
           </sp>
             <label>SECONDE CHANSON À BOIRE.</label>
-          <sp who="blondel-morel">
+          <sp who="blondel morel">
             <speaker>MM. Blondel et Morel</speaker>
             <lg><l n="56" xml:id="l56">Buvons, chers amis, buvons,</l>
             <l n="57" xml:id="l57"><space/><space/>Le Temps qui fuit nous y convie ;</l>
@@ -234,7 +236,7 @@
             <l n="70" xml:id="l70"><space/><space/>Et ce n’est qu’à bien boire</l>
             <l n="71" xml:id="l71"><space/><space/>Que l’on peut être heureux.</l></lg>
           </sp>
-          <sp who="tous-trois-ensemble">
+          <sp who="grille blondel morel">
             <speaker>Tous trois ensemble</speaker>
             <l n="72" xml:id="l72">Sus, sus du vin, partout versez, garçons versez,</l>
             <l n="73" xml:id="l73"><space/><space/>Versez, versez toujours, tant qu’on vous dise, assez.</l>
@@ -246,9 +248,9 @@
           <stage>Les Acteurs de la cérémonie sont</stage>
           <castList>
             <castItem><role xml:id="le-mufti">Un Mufti</role> représenté par le <actor>Seigneur Chiacheron</actor>.</castItem>
-            <castItem><role xml:id="turcs-musiciens">Douze Turcs Musiciens assistants à la cérémonie</role>. <actor>Messieurs <persName type="actor">le Gros</persName>, <persName type="actor">Estival</persName>, <persName type="actor">Blondel</persName>, <persName type="actor">Gingant l’aîné</persName>, <persName type="actor">Rebel</persName>, <persName type="actor">Gillet</persName>, <persName type="actor">Fernon cadet</persName>, <persName type="actor">Hédoüin</persName>, <persName type="actor">Bernard</persName>, <persName type="actor">Deschamps</persName>, <persName type="actor">Langez</persName> et <persName type="actor">Gaye</persName></actor>.</castItem>
-            <castItem><role xml:id="quatre-dervis">Quatre Dervis</role>.<actor>Messieurs <persName type="actor">Morel</persName>, <persName type="actor">Gingant cadet</persName>, <persName type="actor">Noblet</persName>, et <persName type="actor">Philbert</persName>.</actor></castItem>
-            <castItem><role xml:id="les-turcs">Six Turcs dansant.</role><actor>Messieurs <persName type="actor">Beauchamp</persName>, <persName type="actor">Dolivet</persName>, <persName type="actor">la Pierre</persName>, <persName type="actor">Favier</persName>, <persName type="actor">Mayeu</persName>, <persName type="actor">Chicanneau</persName>.</actor></castItem>
+            <castItem><role xml:id="turcs-musiciens">Douze Turcs Musiciens assistants à la cérémonie</role>. <actor>Messieurs le Gros, Estival, Blondel, Gingant l’aîné, Rebel, Gillet, Fernon cadet, Hédoüin, Bernard, Deschamps, Langez et Gaye</actor>.</castItem>
+            <castItem><role xml:id="quatre-dervis">Quatre Dervis</role>.<actor>Messieurs Morel, Gingant cadet, Noblet, et Philbert.</actor></castItem>
+            <castItem><role xml:id="les-turcs">Six Turcs dansant.</role><actor>Messieurs Beauchamp, Dolivet, la Pierre, Favier, Mayeu, Chicanneau.</actor></castItem>
           </castList>
           <stage>Le MUFTI invoque Mahomet avec les douze Turcs, et les quatre Derviches après, on lui amène le Bourgeois auquel il chante ces paroles.</stage>
           <sp who="le-mufti">
@@ -348,30 +350,32 @@
             <head>PREMIÈRE ENTRÉE</head>
             <stage>Un homme vient donner les Livres du Ballet, qui d’abord est fatigué par une multitude de gens de Provinces différentes, qui crient en Musique pour en avoir, et par trois importuns qu’il trouve toujours sous ses pas.</stage>
             <castList>
-              <castItem><role xml:id="donneur-livre">Le donneur de Livre</role><actor><persName type="actor">Monsieur Dolivet</persName>.</actor></castItem>
+              <castItem><role xml:id="donneur-livre">Le donneur de Livre</role><actor>Monsieur Dolivet.</actor></castItem>
             </castList>
             <castList>
               <head>Spectateur Musiciens.</head>
-              <castItem><actor><persName type="actor">MM. le Gros</persName>,</actor><role xml:id="homme-du-bel-air">homme du bel air</role>,</castItem>
-              <castItem><actor><persName type="actor">Estival</persName>,</actor></castItem>
-              <castItem><actor><persName type="actor">Hedouin</persName>,</actor></castItem>
-              <castItem><actor><persName type="actor">Gaye</persName>,</actor><role xml:id="gascon">Gascon</role>,</castItem>
-              <castItem><actor><persName type="actor">Morel</persName>,</actor></castItem>
-              <castItem><actor><persName type="actor">Gingant l'aîné</persName>,</actor></castItem>
-              <castItem><actor><persName type="actor">Gingant cadet</persName>,</actor><role xml:id="autre-gascon">Gascon</role>,</castItem>
-              <castItem><actor><persName type="actor">Blondet</persName>,</actor><role xml:id="vieux-bourgeois-babillard">vieux babillard</role>,</castItem>
-              <castItem><actor><persName type="actor">Langez</persName>,</actor><role xml:id="vieille-bourgeoise-babillarde">vieux babillard</role>,</castItem>
-              <castItem><actor><persName type="actor">Fernon</persName>,</actor><role xml:id="autre-homme-du-bel-air">homme du bel air</role>,</castItem>
-              <castItem><actor><persName type="actor">Deschamps</persName>,</actor></castItem>
-              <castItem><actor><persName type="actor">Gillet</persName>,</actor></castItem>
-              <castItem><actor><persName type="actor">Philbert</persName>,</actor><role xml:id="le-suisse">Suisse</role>,</castItem>
-              <castItem><actor><persName type="actor">Bernard</persName>,</actor></castItem>
-              <castItem><actor><persName type="actor">Noblet</persName>,</actor></castItem>
-              <castItem><actor><persName type="actor">Rebel</persName>,</actor><role xml:id="homme-du-bel-air3">homme du bel air</role>,</castItem>
+              <castItem><actor>MM. le Gros,</actor><role xml:id="homme-du-bel-air">homme du bel air</role>,</castItem>
+              <castItem><actor>Estival,</actor></castItem>
+              <castItem><actor>Hedouin,</actor></castItem>
+              <castItem><actor>Gaye,</actor><role xml:id="gascon">Gascon</role>,</castItem>
+              <castItem><actor>Morel,</actor></castItem>
+              <castItem><actor>Gingant l'aîné,</actor></castItem>
+              <castItem><actor>Gingant cadet,</actor><role xml:id="autre-gascon">Gascon</role>,</castItem>
+              <castItem><actor>Blondet,</actor><role xml:id="vieux-bourgeois-babillard">vieux babillard</role>,</castItem>
+              <castItem><actor>Langez,</actor><role xml:id="vieille-bourgeoise-babillarde">vieux babillard</role>,</castItem>
+              <castItem><actor>Fernon,</actor><role xml:id="autre-homme-du-bel-air">homme du bel air</role>,</castItem>
+              <castItem><actor>Deschamps,</actor></castItem>
+              <castItem><actor>Gillet,</actor></castItem>
+              <castItem><actor>Philbert,</actor><role xml:id="suisse">Suisse</role>,</castItem>
+              <castItem><actor>Bernard,</actor></castItem>
+              <castItem><actor>Noblet,</actor></castItem>
+              <castItem><actor>Rebel,</actor><role xml:id="homme-du-bel-air3">homme du bel air</role>,</castItem>
+              <castItem><role xml:id="tous"></role></castItem>
+              <castItem><role xml:id="femme-du-bel-air"></role><role xml:id="autre-femme-du-bel-air"></role></castItem>
             </castList>
             <castList>
               <castItem><role xml:id="quatre-pages">Quatre Pages de la Musique.</role></castItem>
-              <castItem><role xml:id="filles-coquettes">Filles coquettes.</role><actor><persName type="actor">Jeannot</persName>, <persName type="actor">Pierrot</persName>, <persName type="actor">Renier</persName>, <persName type="actor">Un Page de la Chapelle</persName>.</actor></castItem>
+              <castItem><role xml:id="filles-coquettes">Filles coquettes.</role><actor>Jeannot, Pierrot, Renier, Un Page de la Chapelle.</actor></castItem>
             </castList>
             <label>DIALOGUE DES GENS</label>
             <stage>Qui en Musique demandent des Livres.</stage>
@@ -416,7 +420,7 @@
               <l n="122" xml:id="l122"><space/><space/>Jé pense, mordy, que le fat</l>
               <l n="123" xml:id="l123"><space/><space/>N’a pas l’honnur dé mé connoistre.</l>
             </sp>
-            <sp who="le-suisse">
+            <sp who="suisse">
               <speaker>Le Suisse.</speaker>
               <l n="124" xml:id="l124"><space/><space/>Mon’-sieur le donneur de papieir,</l>
               <l n="125" xml:id="l125"><space/><space/>Que veul dir sty façon de fifre,</l>
@@ -465,7 +469,7 @@
               <l n="162" xml:id="l162"><space/><space/>Un vrai cheval,</l>
               <l n="163" xml:id="l163"><space/><space/>Franc animal.</l>
             </sp>
-            <sp who="hommes-femmes">
+            <sp who="femme-du-bel-air autre-femme-du-bel-air autre-homme-du-bel-air homme-du-bel-air homme-du-bel-air3">
               <speaker>Hommes, <hi rend="i n">et</hi> Femmes du bel air.</speaker>
               <l n="164" xml:id="l164"><space/><space/>Ah quel bruit !</l>
               <l n="165" xml:id="l165"><space/><space/>Quel fracas !</l>
@@ -557,7 +561,7 @@
             <head>TROISIÈME ENTRÉE.</head>
             <stage rend="i">Espagnols chantant.</stage>
             <stage>MM. Martin, Morel, et Gillet</stage>
-            <sp who="monsieur-morel">
+            <sp who="morel">
               <speaker>Monsieur Morel.</speaker>
               <lg><l n="216" xml:id="l216"><space/><space/>Se que me muera dé amor</l>
               <l n="217" xml:id="l217"><space/><space/>Y solicito el dolor.</l></lg>
@@ -582,7 +586,7 @@
               <stage rend="i">Deux Espagnols dansant ensemble.</stage>
               <stage>MM. Beauchamp, et Chicanneau.</stage>
               <stage rend="i">Trois Musiciens Espagnols.</stage>
-            <sp who="monsieur-morel">
+            <sp who="morel">
               <speaker>Monsieur Morel, <hi rend="i">Espagnol chantant</hi>.</speaker>
               <l n="233" xml:id="l233"><space/><space/>Ay que locura, contanto rigor</l>
               <l n="234" xml:id="l234"><space/><space/>Quexarse deamor</l>
@@ -591,28 +595,28 @@
               <l n="237" xml:id="l237"><space/><space/>Ay que locura,</l>
               <l n="238" xml:id="l238"><space/><space/>Ay que locura.</l>
             </sp>
-            <sp who="monsieur-gillet">
+            <sp who="gillet">
               <speaker>Monsieur Gillet, <hi rend="i">Espagnol chantant</hi>.</speaker>
               <l n="239" xml:id="l239"><space/><space/>El dolor solicita,</l>
               <l n="240" xml:id="l240"><space/><space/>El que al dolor se da</l>
               <l n="241" xml:id="l241"><space/><space/>Y nadie deamor muere</l>
               <l n="242" xml:id="l242"><space/><space/>Sino quien no saue amar.</l>
             </sp>
-            <sp who="morel-gillet">
+            <sp who="morel gillet">
               <speaker>Messieurs Morel, <hi rend="i n">et</hi> Gillet. <hi rend="i">Espagnols.</hi></speaker>
               <l n="243" xml:id="l243"><space/><space/>Dulce muerte es el amor</l>
               <l n="244" xml:id="l244"><space/><space/>Con correspondencia ygual,</l>
               <l n="245" xml:id="l245"><space/><space/>Y si esta gozamos oy,</l>
               <l n="246" xml:id="l246"><space/><space/>Por que la quieres turbar ?</l>
             </sp>
-            <sp who="monsieur-morel">
+            <sp who="morel">
               <speaker>Monsieur Morel. <hi rend="i">Seul.</hi></speaker>
               <l n="247" xml:id="l247"><space/><space/>Alegrese Enamorado</l>
               <l n="248" xml:id="l248"><space/><space/>Y tome mi parecer</l>
               <l n="249" xml:id="l249"><space/><space/>Que en esto dequerer</l>
               <l n="250" xml:id="l250"><space/><space/>Todo es hallar el vado.</l>
             </sp>
-            <sp who="tous-trois-ensemble">
+            <sp who="gillet morel noblet">
               <speaker>Tous trois ensemble.</speaker>
               <l n="251" xml:id="l251"><space/><space/>Vaya, vaya de fiestas,</l>
               <l n="252" xml:id="l252"><space/><space/>Vaya de vayle,</l>
@@ -624,7 +628,7 @@
             <head>QUATRIÈME ENTRÉE.</head>
             <stage>Italiens.</stage>
             <stage>Une Musicienne Italienne fait le premier récit, dont voici les paroles.</stage>
-            <sp who="la musicienne-italienne">
+            <sp who="mademoiselle-hilaire">
               <speaker> La Musicienne Italienne. <lb/> Mademoiselle Hilaire.</speaker>
               <lg><l n="255" xml:id="l255"><space/><space/>Di rigori armata il seno</l>
               <l n="256" xml:id="l256"><space/><space/>Contro amor mi ribellai,</l>
@@ -647,7 +651,7 @@
               <stage rend="i">Arlequin.</stage>
               <stage>Le Seigneur Dominique.</stage>
               <stage>Un Musicien Italien se joint à Mademoiselle Hilaire, et chante avec elle les paroles qui suivent.</stage>
-            <sp who="le musicien-italien">
+            <sp who="monsieur-gaye">
               <speaker>Le Musicien Italien. <lb/>Monsieur gaye</speaker>
               <l n="267" xml:id="l267"><space/><space/>Bel tempo che vola</l>
               <l n="268" xml:id="l268"><space/><space/>Rapiscé il contento,</l>
@@ -661,7 +665,7 @@
               <l n="273" xml:id="l273"><space/><space/>Che pur tropp’horrida</l>
               <l n="274" xml:id="l274"><space/><space/>Da noi sen và.</l>
             </sp>
-            <sp who="tous-deux">
+            <sp who="mademoiselle-hilaire monsieur-gaye">
               <speaker>Tous deux.</speaker>
               <l n="275" xml:id="l275"><space/><space/>Sù cantiamo,</l>
               <l n="276" xml:id="l276"><space/><space/>Sù godiamo,</l>
@@ -682,7 +686,7 @@
               <l n="285" xml:id="l285"><space/><space/>Più l’alma rigida</l>
               <l n="286" xml:id="l286"><space/><space/>Fiamme non hà.</l>
             </sp>
-            <sp who="tous-les-deux">
+            <sp who="mademoiselle-hilaire monsieur-gaye">
               <speaker>Tous les deux.</speaker>
               <l n="287" xml:id="l287"><space/><space/>Sù cantiamo, etc.</l>
             </sp>
@@ -695,12 +699,12 @@
             <stage>Messieurs la Grille, et Noblet.</stage>
             <label>MENUETS</label>
             <label>PREMIER MENUET</label>
-            <sp who="monsieur-Noblet">
+            <sp who="noblet">
               <speaker><hi rend="i">Chanté par</hi> M. Noblet.</speaker>
               <l n="288" xml:id="l288">Ah ! qu’il fait beau dans ces bocages,</l>
               <l n="289" xml:id="l289">Ah ! que le Ciel donne un beau jour.</l>
             </sp>
-            <sp who="monsieur-de-la-grille">
+            <sp who="grille">
               <speaker>M. de la Grille, <hi rend="i">chantant</hi>.</speaker>
               <l n="290" xml:id="l290">Le Rossignol, sous ces tendres feuillages</l>
               <l n="291" xml:id="l291"><space/><space/>Chante aux Échos leur doux retour :</l>
@@ -710,7 +714,7 @@
               <l n="295" xml:id="l295"><space/><space/>Nous invite à l’amour.</l>
             </sp>
               <label>SECOND MENUET.</label>
-            <sp who="tous-deux-ensemble">
+            <sp who="grille noblet">
               <speaker>TOUS DEUX ENSEMBLE.</speaker>
               <l n="296" xml:id="l296"><space/><space/>Vois ma Climène,</l>
               <l n="297" xml:id="l297"><space/><space/>Vois sous ce chêne</l>

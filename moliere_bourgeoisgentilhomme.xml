@@ -69,7 +69,7 @@
         <castItem><role age="A" civil="M" stat_amour="néant" statut="tailleur" type="H" xml:id="maitre-tailleur">maître tailleur.</role>.</castItem>
         <castItem><role age="A" civil="M" stat_amour="néant" statut="tailleur" type="H" xml:id="garcon-tailleur">garçon tailleur.</role>.</castItem>
         <castItem><role age="A" civil="G" stat_amour="néant" statut="laquais" type="H" xml:id="laquais1">deux laquais.</role><role xml:id="laquais2"/>.</castItem>
-        <castItem type="list">plusieurs musiciens, musiciennes, joueurs d’instruments, danseurs, cuisiniers, garçons tailleurs, <hi rend="n">Et autres Personnages des Intermèdes et du Ballet</hi>.<role xml:id="mufti"/><role xml:id="turcs"/></castItem>
+        <castItem type="list">plusieurs musiciens, musiciennes, joueurs d’instruments, danseurs, cuisiniers, garçons tailleurs, <hi rend="n">Et autres Personnages des Intermèdes et du Ballet</hi>.<role xml:id="mufti"/><role xml:id="turcs"/><role xml:id="homme-du-bel-air"></role><role xml:id="vieille-bourgeoise-babillarde"></role><role xml:id="vieux-bourgeois-babillard"></role><role xml:id="suisse"></role><role xml:id="gascon"></role><role xml:id="autre-gascon"></role><role xml:id="tous"></role></castItem>
       </castList>
       <set country="France" link="" location="Paris" periode="XVIIème">La Scène est à Paris.</set>
     </front>
@@ -336,7 +336,9 @@
               <l>Aussi douce que belle ;</l>
               <l>Je croyais Janneton</l>
               <l>Plus douce qu’un Mouton :</l>
+            </lg>
               <p>Hélas ! hélas !</p>
+            <lg>
               <l>Elle est cent fois, mille fois plus cruelle,</l>
               <l>Que n’est le Tigre aux Bois.</l>
             </lg>
@@ -726,7 +728,7 @@
             <speaker>monsieur jourdain</speaker>
             <p>Faites un peu ? Bon.</p>
           </sp>
-          <sp who="premier-laquais">
+          <sp who="laquais1">
             <speaker>premier laquais</speaker>
             <p>Monsieur, voilà votre Maître d’Armes qui est là.</p>
           </sp>
@@ -4051,7 +4053,7 @@
               <l>Non intendir</l>
               <l>Tazir, tazir.</l>
             </lg>
-            <stage rend="n">Le Mufti demande en même langue aux Turcs assistants, de quelle Religion est le Bourgeois, et ils l’assurent qu’il est Mahométan. Le Mufti invoque Mahomet en langue Franque, et chante les paroles qui suivent.</stage>
+            <stage rend="not-i">Le Mufti demande en même langue aux Turcs assistants, de quelle Religion est le Bourgeois, et ils l’assurent qu’il est Mahométan. Le Mufti invoque Mahomet en langue Franque, et chante les paroles qui suivent.</stage>
           </sp>
           <sp who="mufti">
             <speaker>le mufti</speaker>
@@ -4065,7 +4067,7 @@
               <l>Per deffender Palestina.</l>
               <l>Mahametta, etc.</l>
             </lg>
-            <stage rend="n">Le Mufti demande aux Turcs si le Bourgeois sera ferme dans la Religion Mahométane, et leur chante ces paroles.</stage>
+            <stage rend="not-i">Le Mufti demande aux Turcs si le Bourgeois sera ferme dans la Religion Mahométane, et leur chante ces paroles.</stage>
           </sp>
           <sp who="mufti">
             <speaker>le mufti</speaker>
@@ -4078,8 +4080,8 @@
           <sp who="mufti">
             <speaker>le mufti <hi rend="i">danse et chante ces mots.</hi></speaker>
             <l>Hu la ba ba la chou ba la ba ba la da.</l>
-            <stage rend="n">Les Turcs répondent les mêmes vers.</stage>
-            <stage rend="n">Le Mufti propose de donner le Turban au Bourgeois, et chante les paroles qui suivent.</stage>
+            <stage rend="not-i">Les Turcs répondent les mêmes vers.</stage>
+            <stage rend="not-i">Le Mufti propose de donner le Turban au Bourgeois, et chante les paroles qui suivent.</stage>
           </sp>
           <sp who="mufti">
             <speaker>le mufti</speaker>
@@ -4101,21 +4103,21 @@
             <speaker>le mufti</speaker>
             <l>Donar Turbanta, donar Turbanta.</l>
           </sp>
-          <stage rend="n">Les Turcs répètent tout ce qu’a dit le Mufti pour donner le turban au Bourgeois. Le Mufti et les Dervis se coiffent avec des Turbans de cérémonies, et l’on présente au Mufti l’Alcoran, qui fait une seconde invocation avec tout le reste des Turcs assistants ; après son Invocation il donne au Bourgeois l’Épée, et chante ces paroles.</stage>
+          <stage rend="not-i">Les Turcs répètent tout ce qu’a dit le Mufti pour donner le turban au Bourgeois. Le Mufti et les Dervis se coiffent avec des Turbans de cérémonies, et l’on présente au Mufti l’Alcoran, qui fait une seconde invocation avec tout le reste des Turcs assistants ; après son Invocation il donne au Bourgeois l’Épée, et chante ces paroles.</stage>
           <sp who="mufti">
             <speaker>le mufti</speaker>
             <lg>
               <l>Ti star nobilé non star fabola.</l>
               <l>Pigliar schiabbola.</l>
             </lg>
-            <stage rend="n">Les Turcs répètent les mêmes Vers, mettant tous le Sabre à la main, et six d’entre eux dansent autour du Bourgeois, auquel ils feignent de donner plusieurs coups de Sabre.</stage>
-            <stage rend="n">Le Mufti commande aux Turcs de bâtonner le Bourgeois, et chante les paroles qui suivent.</stage>
+            <stage rend="not-i">Les Turcs répètent les mêmes Vers, mettant tous le Sabre à la main, et six d’entre eux dansent autour du Bourgeois, auquel ils feignent de donner plusieurs coups de Sabre.</stage>
+            <stage rend="not-i">Le Mufti commande aux Turcs de bâtonner le Bourgeois, et chante les paroles qui suivent.</stage>
             <lg>
               <l>Dara dara</l>
               <l>Bastonara bastonara.</l>
             </lg>
-            <stage rend="n">Les Turcs répètent les mêmes vers, et lui donnent plusieurs coups de Bâton en cadence.</stage>
-            <stage rend="n">Le Mufti, après l'avoir fait bâtonner, lui dit en chantant.</stage>
+            <stage rend="not-i">Les Turcs répètent les mêmes vers, et lui donnent plusieurs coups de Bâton en cadence.</stage>
+            <stage rend="not-i">Le Mufti, après l'avoir fait bâtonner, lui dit en chantant.</stage>
           </sp>
           <sp who="mufti">
             <speaker>le mufti</speaker>
@@ -4123,8 +4125,8 @@
               <l>Non tener honta</l>
               <l>Questa star l’ultima affronta.</l>
             </lg>
-            <stage rend="n">Les Turcs répètent les mêmes vers.</stage>
-            <stage rend="n">Le Mufti recommence une Invocation et se retire après la Cérémonie avec tous les Turcs, en dansant et chantant avec plusieurs Instruments à la Turquesque.</stage>
+            <stage rend="not-i">Les Turcs répètent les mêmes vers.</stage>
+            <stage rend="not-i">Le Mufti recommence une Invocation et se retire après la Cérémonie avec tous les Turcs, en dansant et chantant avec plusieurs Instruments à la Turquesque.</stage>
           </sp>
           <label>Fin du Quatrième Acte</label>
         </div2>
@@ -4663,7 +4665,7 @@
         </div2>
         <div2>
           <head>PREMIÈRE ENTRÉE</head>
-          <stage rend="n">Un Homme vient donner les Livres du Ballet, qui d’abord est fatigué par une multitude de Gens de Provinces différentes, qui crient en Musique pour en avoir, et par trois Importuns qu’il trouve toujours sur ses pas.</stage>
+          <stage rend="not-i">Un Homme vient donner les Livres du Ballet, qui d’abord est fatigué par une multitude de Gens de Provinces différentes, qui crient en Musique pour en avoir, et par trois Importuns qu’il trouve toujours sur ses pas.</stage>
           <label>DIALOGUE DES GENS, <stage>qui en Musique demandent des Livres</stage>.</label>
           <sp who="tous">
             <speaker>tous</speaker>
@@ -4706,7 +4708,7 @@
             <l>Jé pense, mordy, qué lé fat</l>
             <l>N’a pas l’honnur dé mé connaître.</l>
           </sp>
-          <sp who="le-suisse">
+          <sp who="suisse">
             <speaker>le suisse</speaker>
             <l>Mon’-sieur le donneur de papieir,</l>
             <l>Que veul dir sti façon de fifre,</l>
@@ -4839,7 +4841,7 @@
         </div2>
         <div2>
           <head>SECONDE ENTRÉE.</head>
-          <stage rend="n">Les trois Importuns dansent.</stage>
+          <stage rend="not-i">Les trois Importuns dansent.</stage>
         </div2>
         <div2>
           <head>TROISIÈME ENTRÉE.</head>
@@ -4870,7 +4872,7 @@
               <l>Es de mi salud primor.</l>
             </lg>
             <l>Sé que, etc.</l>
-            <stage rend="n">Six Espagnols dansent.</stage>
+            <stage rend="not-i">Six Espagnols dansent.</stage>
           </sp>
           <sp who="trois-musiciens-espagnols">
             <speaker>trois musiciens espagnols</speaker>
@@ -4914,7 +4916,7 @@
           <head>QUATRIÈME ENTRÉE</head>
           <sp who="italiens">
             <speaker>Italiens</speaker>
-            <stage rend="n">Une Musicienne Italienne fait le premier Récit, dont voici les paroles.</stage>
+            <stage rend="not-i">Une Musicienne Italienne fait le premier Récit, dont voici les paroles.</stage>
             <lg>
               <l>Di rigori armata il seno</l>
               <l>Contro amor mi ribellai,</l>
@@ -4931,8 +4933,8 @@
               <l>Ahi che più giova, e piace</l>
               <l>Quanto amor è più vivace.</l>
             </lg>
-            <stage rend="n">Après l’Air que la Musicienne a chanté, deux Scaramouches, deux Trivelins et un Arlequin représentent une Nuit à la manière des Comédiens Italiens, en cadence.</stage>
-            <stage rend="n">Un Musicien italien se joint à la Musicienne italienne, et chante avec elle les paroles qui suivent.</stage>
+            <stage rend="not-i">Après l’Air que la Musicienne a chanté, deux Scaramouches, deux Trivelins et un Arlequin représentent une Nuit à la manière des Comédiens Italiens, en cadence.</stage>
+            <stage rend="not-i">Un Musicien italien se joint à la Musicienne italienne, et chante avec elle les paroles qui suivent.</stage>
           </sp>
           <sp who="le-musicien-italien">
             <speaker>le musicien italien</speaker>
@@ -4973,14 +4975,15 @@
             <speaker>tous deux</speaker>
             <l>Sù cantiamo, etc.</l>
           </sp>
-          <stage rend="n">Après le Dialogue italien, les Scaramouches et Trivelins dansent une Réjouissance.</stage>
+          <stage rend="not-i">Après le Dialogue italien, les Scaramouches et Trivelins dansent une Réjouissance.</stage>
         </div2>
         <div2>
           <head>CINQUIÈME ENTRÉE.</head>
-          <stage rend="n sc">Français.</stage>
-          <stage rend="n">Deux Musiciens Poitevins dansent, et chantent les paroles qui suivent</stage>
+          <stage rend="not-i sc">Français.</stage>
+          <stage rend="not-i">Deux Musiciens Poitevins dansent, et chantent les paroles qui suivent</stage>
           <label>PREMIER MENUET.</label>
           <sp who="deux-musiciens-poitevins">
+            <speaker></speaker>
             <l>AH ! qu’il fait beau dans ces Bocages,</l>
             <l>Ah ! que le Ciel donne un beau jour.</l>
           </sp>
@@ -5012,12 +5015,13 @@
             <l>Si tu le veux,</l>
             <l>Être comme eux.</l>
           </sp>
-          <stage rend="n">Six autres Français viennent après vêtus galamment à la Poitevine, trois en Hommes, et trois en Femmes, accompagnés de huit Flûtes et de hautbois, et dansent les Menuets.</stage>
+          <stage rend="not-i">Six autres Français viennent après vêtus galamment à la Poitevine, trois en Hommes, et trois en Femmes, accompagnés de huit Flûtes et de hautbois, et dansent les Menuets.</stage>
         </div2>
         <div2>
           <head>SIXIÈME ENTRÉE.</head>
-          <stage rend="n">Tout cela finit par le mélange des trois Nations, et les applaudissements en Danse et en Musique de toute l’assistance, qui chante les deux Vers qui suivent :</stage>
+          <stage rend="not-i">Tout cela finit par le mélange des trois Nations, et les applaudissements en Danse et en Musique de toute l’assistance, qui chante les deux Vers qui suivent :</stage>
           <sp who="toute-l'assistance">
+            <speaker></speaker>
             <l>Quels Spectacles charmants, quels plaisirs goûtons-nous,</l>
             <l>Les Dieux mêmes, les Dieux, n’en ont point de plus doux.</l>
           </sp>
