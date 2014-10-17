@@ -4,13 +4,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LA PRINCESSE D'ÉLIDE, COMÉDIE GALANTE</title>
+        <title>Les Plaisirs de l'île enchantée</title>
         <author key="Molière (1622-1673)">MOLIÈRE</author>
       </titleStmt>
+      <editionStmt><edition>OBVIL</edition><respStmt><name>Amélie Canu</name><resp>Édition XML/TEI</resp></respStmt><respStmt><name>Oriane Morvan</name><resp>Édition XML/TEI</resp></respStmt></editionStmt>
       <publicationStmt>
-        <date when="2011"/>
         <date when="2014"/>
-        <publisher>Publié par Paul Fièvre en octobre 2011, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
+        <publisher>Publié par Amélie Canu et Oriane Morvan en 2014.</publisher>
         <availability status="restricted">
           <licence target="projet-Molière"></licence>
         </availability>
@@ -46,7 +46,7 @@
         <titlePart type="sub">COURSE DE BAGUE, Collation ornée de Machines, Comédie de Molière de la Princesse d'Élide, mêlée de Danse et de Musique, Ballet du Palais d'Alcine, Feu d'Artifice : Et autres Fêtes galantes et magnifiques ; faites par le Roi à Versailles, le 7<hi rend="sup">e</hi> Mai 1664. Et continuées plusieurs autres Jours.</titlePart>
       </docTitle>
         <docImprint> À PARIS, Chez <hi rend="sc">Robert Ballard</hi>, seul Imprimeur du Roi, pour la Musique, rue Saint Jean de Beauvais, au Mont Parnasse. Et au Palais. <hi rend="sc">Thomas Jolly</hi> à la Salle des Merciers, à l'Enseigne de la Palme. <hi rend="sc">Guillaume de Luynes</hi>, même Salle, à l'Enseigne de la Justice. <hi rend="sc">Louis Billaine</hi> dans la grande Salle, à l'Enseigne de la Palme et du grand César.</docImprint>
-      <docDate value="1665">M. DC. LXV.</docDate>
+      <docDate>M. DC. LXV.</docDate>
         <docImprint rend="i">AVEC PRIVILÈGE DE SA MAJESTÉ.</docImprint>
       <performance>
 			<premiere location="Château de Versailles" date="1664-05-08">Représentée pour la première fois à Versailles, le 8e mai 1664, et donnée depuis au public sur le théâtre du Palais-Royal le 9e novembre de la même année 1664.</premiere>
@@ -90,6 +90,7 @@
          </argument>
           <castList>
             <castItem><role xml:id="guidon-le-sauvage"></role><actor xml:id="duc-de-saint-aignan"></actor></castItem>
+            <castItem><role xml:id="X"></role></castItem>
           </castList>
           <stage>Pour le Duc de Saint-Aignan, représentant Guidon le Sauvage.</stage>
           <label rend="sc">madrigal</label>
@@ -539,7 +540,7 @@
           </sp>
         </div>
         <div>
-          <head>["Une grande Table en forme de Croissant]</head>
+          <head>[Une grande Table en forme de Croissant]</head>
           <argument>
             <p>Ces Récits achevés, une grande Table en forme de Croissant, rond d’un côté, où l’on devait couvrir, et garnir de fleurs  celui où elle était creuse, vint à se découvrir.</p>
           <p>Trente-six Violons très bien vêtus, parurent derrière sur un petit Théâtre ; pendant que Messieurs de la Marche, et Parfait, Père, Frère, et Fils, Contrôleurs Généraux, sous les noms de l’Abondance, de la Joie, de la Propreté, et de la Bonne Chère ; la firent couvrir par les Plaisirs, par les Jeux, par les Ris, et par les Délices.</p>
