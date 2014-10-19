@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_plaisirsileenchantee">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_plaisirs-ile-enchantee">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -14,7 +14,8 @@
         <availability status="restricted">
           <licence target="projet-Molière"></licence>
         </availability>
-        <idno></idno>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_plaisirs-ile-enchantee/</idno>
+        <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_plaisirs-ile-enchantee.xml</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -815,10 +816,10 @@
               <p>Mais à peine commence-t-elle à se rassurer, qu’elle voit paraître, auprès de Roger et de quelques Chevaliers de sa suite, la sage Mélisse, sous la forme d’Atlas ; Elle court aussitôt pour empêcher l’effet de son intention ; mais elle arrive trop tard : Mélisse a déjà mis au doigt de ce brave Chevalier la fameuse bague qui détruit les enchantements. Lors un coup de tonnerre, suivi de plusieurs éclairs, marque la destruction du Palais, qui est aussitôt réduit en cendres par un Feu d’artifice, qui met fin à cette aventure, et aux divertissements de l’Île Enchantée.</p>
             </argument>
             <castList>
-              <castItem><role>Alcine,</role><actor>Mlle Du Parc.</actor></castItem>
+              <castItem><role>Alcine</role>, <actor>Mlle Du Parc.</actor></castItem>
               <castItem><role xml:id="melisse">Mélisse,</role><actor>De Lorge.</actor></castItem>
-              <castItem><role>Roger,</role><actor>M. Beauchamp.</actor></castItem>
-              <castItem><role>Chevaliers,</role><actor>MM. d’Heureux, Raynal, Du Pron, et Desbrosses.</actor></castItem>
+              <castItem><role>Roger</role>, <actor>M. Beauchamp.</actor></castItem>
+              <castItem><role>Chevaliers</role>, <actor>MM. d’Heureux, Raynal, Du Pron, et Desbrosses.</actor></castItem>
               <castItem><role xml:id="ecuyers">Écuyers,</role><actor>MM. La Marre, Le Chantre, De Gan, et Mercier.</actor></castItem>
             </castList>
           <label>FIN DU BALLET.</label>

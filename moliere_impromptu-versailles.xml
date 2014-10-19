@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_impromptuversailles">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_impromptu-versailles">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,6 +10,8 @@
       </titleStmt>
       <publicationStmt>
         <p>publié par Paul FIEVRE, octobre 2008.</p>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_impromptu-versailles/</idno>
+        <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_impromptu-versailles.xml</idno>
       </publicationStmt>
       <sourceDesc>
         <genre>Comédie</genre>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_georgedandin">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_george-dandin">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,6 +10,8 @@
       </titleStmt>
       <publicationStmt>
         <p>publié par Paul FIEVRE juillet 2009.</p>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_george-dandin/</idno>
+        <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_george-dandin.xml</idno>
       </publicationStmt>
       <sourceDesc>
         <genre>Comédie</genre>

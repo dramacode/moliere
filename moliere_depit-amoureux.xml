@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_depitamoureux" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_depit-amoureux" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,6 +11,8 @@
       <publicationStmp>
         <p>publié par Paul FIEVRE</p>
         <p>Mai 2006</p>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_depit-amoureux/</idno>
+        <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_depit-amoureux.xml</idno>
       </publicationStmp>
       <SourceDesc>
         <genre>Comédie</genre>

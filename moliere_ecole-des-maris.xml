@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_ecoledesmaris">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_ecole-des-maris">
 <teiHeader>
 	<fileDesc>
 	<titleStmt>
@@ -15,7 +15,8 @@
 			<availability status="restricted">
 				<licence target="projet-Molière"></licence>
 			</availability>
-			<idno></idno>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_ecole-des-maris/</idno>
+        <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_ecole-des-maris.xml</idno>
 		</publicationStmt>
 		<sourceDesc>
 			<bibl>
