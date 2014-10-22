@@ -4,9 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LES PRÉCIEUSES RIDICULES, COMÉDIE</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1659</date>
+        <title>Les Précieuses ridicules, comédie</title>
+        <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <editionStmt>
         <edition/>
@@ -18,13 +17,14 @@
         <measure quantity="50891" unit="character"/>
       </extent>
       <publicationStmt>
-        <publisher/>
+        <date when="2010"/>
         <date when="2014"/>
+        <publisher>Publié par Paul Fièvre en mai 2010, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
+        <availability status="restricted">
+          <licence target="projet-Molière"/>
+        </availability>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_precieuses-ridicules/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_precieuses-ridicules.xml</idno>
-        <availability status="restricted">
-          <licence target=" ? ">License ?</licence>
-        </availability>
       </publicationStmt>
       <sourceDesc>
         <genre>Comédie</genre>
@@ -41,7 +41,7 @@
         <date when="1659"/>
       </creation>
       <langUsage>
-        <language ident=""/>
+        <language ident="fr"/>
       </langUsage>
     </profileDesc>
   </teiHeader>

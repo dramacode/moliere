@@ -4,10 +4,12 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LA JALOUSIE DU BARBOUILLÉ, COMÉDIE</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1660</date>
+        <title>La Jalousie du Barbouillé, comédie</title>
+        <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
       <extent>
         <measure quantity="15" unit="page"/>
         <measure quantity="50" unit="paragraph"/>
@@ -15,9 +17,14 @@
         <measure quantity="25082" unit="character"/>
       </extent>
       <publicationStmt>
-        <p>publié par Paul FIEVRE, juin 2009</p>
+        <date when="2009"/>
+        <date when="2014"/>
+        <publisher>Publié par Paul Fièvre en juin 2009, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_jalousie-barbouille/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_jalousie-barbouille.xml</idno>
+        <availability status="restricted">
+          <licence target="projet-Molière"/>
+        </availability>
       </publicationStmt>
       <sourceDesc>
         <genre>Farce</genre>
@@ -30,35 +37,27 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="1660"/>
+        <date notBefore="1646" notAfter="1660"/>
       </creation>
       <langUsage>
-        <language ident=""/>
+        <language ident="fr"/>
       </langUsage>
     </profileDesc>
   </teiHeader>
   <text>
     <front>
       <titlePage>
-
 		<docTitle><titlePart type="main">LA JALOUSIE DU BARBOUILLÉ</titlePart><titlePart type="sub">COMÉDIE</titlePart></docTitle> 
-
 		<docDate value="1650">1650</docDate>
-
 		<docAuthor id="MOLIERE" bio="moliere">Molière</docAuthor>
-
-		<docImprint><privilege id="166*-**-**"/><acheveImprime id="166*-**-**"/></docImprint>
-
 		<performance>
-
 			<premiere date="1650" location="En province">Représentée pour la première fois en province en 1650.</premiere>
-
 		</performance>
         
       </titlePage>
       <div>
-        <castList>
           <head>ACTEURS</head>
+        <castList>
           <castItem><role xml:id="le-barbouille" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LE BARBOUILLÉ</role>.</castItem>
           <castItem><role xml:id="le-docteur" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">LE DOCTEUR</role>.</castItem>
           <castItem><role xml:id="angelique" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">ANGÉLIQUE</role>.</castItem>
