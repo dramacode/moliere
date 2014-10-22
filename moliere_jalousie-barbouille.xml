@@ -48,40 +48,37 @@
     <front>
       <titlePage>
 		<docTitle><titlePart type="main">LA JALOUSIE DU BARBOUILLÉ</titlePart><titlePart type="sub">COMÉDIE</titlePart></docTitle> 
-		<docDate value="1650">1650</docDate>
 		<docAuthor id="MOLIERE" bio="moliere">Molière</docAuthor>
-		<performance>
-			<premiere date="1650" location="En province">Représentée pour la première fois en province en 1650.</premiere>
-		</performance>
-        
+        <docEdition>D'après un manuscrit du XVIIIe siècle</docEdition>
       </titlePage>
       <div>
           <head>ACTEURS</head>
         <castList>
-          <castItem><role xml:id="le-barbouille" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LE BARBOUILLÉ</role>.</castItem>
+          <castItem><role xml:id="le-barbouille" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">BARBOUILLÉ</role>, mari d'Angélique.</castItem>
           <castItem><role xml:id="le-docteur" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">LE DOCTEUR</role>.</castItem>
-          <castItem><role xml:id="angelique" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">ANGÉLIQUE</role>.</castItem>
-          <castItem><role xml:id="valere" civil="M" type="H" statut="bourgeois" age="A" stat_amour="amoureux">VALÈRE</role>, amant d'Angélique.</castItem>
-          <castItem><role xml:id="cathau" civil="F" type="H" statut="suivante" age="A" stat_amour="néant">CATHAU</role>, suivante d'Angélique.</castItem>
-          <castItem><role xml:id="gorgibus" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">GORGIBUS</role>, père d'Angélique.</castItem>
+          <castItem><role xml:id="angelique" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">ANGÉLIQUE</role>, Fille de Gorgibus.</castItem>
+          <castItem><role xml:id="valere" civil="M" type="H" statut="bourgeois" age="A" stat_amour="amoureux">VALÈRE</role>, Amant d'Angélique.</castItem>
+          <castItem><role xml:id="cathau" civil="F" type="H" statut="suivante" age="A" stat_amour="néant">CATHAU</role>, Suivante d'Angélique.</castItem>
+          <castItem><role xml:id="gorgibus" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">GORGIBUS</role>, Père d'Angélique.</castItem>
           <castItem><role xml:id="villebrequin" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">VILLEBREQUIN</role>.</castItem>
-          <castItem><role xml:id="la-vallee" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LA VALLÉE</role>.</castItem>
+          <castItem><role xml:id="la-vallee"></role></castItem>
         </castList>
         <set location="(non indiqué)" country="France" periode="XVIIème" link="">[La localisation de la scène n'est pas indiquée.]</set>
       </div>
     </front>
     <body>
       <div1 type="act" xml:id="I">
+        <head>La Jalousie du Barbouillé</head>
         <div2 type="scene" xml:id="I01">
           <head>SCÈNE PREMIÈRE.</head>
           <sp who="le-barbouille" xml:id="I01-1">
-            <speaker>le barbouillé</speaker>
+            <speaker>Le Barbouillé</speaker>
             <p>Il faut avouer que je suis le plus malheureux de tous les hommes. J'ai une femme qui me fait enrager, au lieu de me donner du soulagement et de faire les choses à mon souhait, elle me fait donner au diable vingt fois le jour, au lieu de se tenir à la maison, elle aime la promenade, la bonne chère, et fréquente je ne sais quelle sorte de gens, ah pauvre Barbouillé que tu es misérable ! Il faut pourtant la punir, si je la tuais... l’invention ne vaut rien car tu serais pendu, si tu la faisais mettre en prison, la carogne en sortirait avec son passe-partout, que diable faire donc, mais voilà Monsieur le Docteur qui passe par ici, il faut que je lui demande un bon conseil sur ce que je dois faire.</p>
           </sp>
         </div2>
         <div2 type="scene" xml:id="I02">
-          <head>SCÈNE 2<hi rend="sup">e</hi>.</head>
-          <stage>LE DOCTEUR, BARBOUILLÉ.</stage>
+          <head>SCÈNE II<hi rend="sup">e</hi>.</head>
+          <stage>Le Docteur, le Barbouillé.</stage>
           <sp who="le-barbouille" xml:id="I02-1">
             <speaker>le barbouillé</speaker>
             <p>Je m’en allais vous chercher pour vous faire une prière sur une chose qui m’est d’importance.</p>
@@ -177,8 +174,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I03">
-          <head>SCÈNE 3<hi rend="sup">e</hi>.</head>
-          <stage>ANGÉLIQUE, VALÈRE, CATHAU.</stage>
+          <head>SCÈNE III<hi rend="sup">e</hi>.</head>
+          <stage>Angélique, Valère, Cathau.</stage>
           <sp who="angelique" xml:id="I03-1">
             <speaker>angélique</speaker>
             <p>Monsieur, je vous assure que vous m’obligez beaucoup de me tenir quelquefois compagnie : mon mari est si mal bâti, si débauché, si ivrogne, que ce m’est un supplice d’être avec lui, et je vous laisse à penser quelle satisfaction on peut avoir d’un rustre comme lui.</p>
@@ -193,8 +190,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I04">
-          <head>SCÈNE 4<hi rend="sup">e</hi>.</head>
-          <stage>LE BARBOUILLÉ, VALÈRE, ANGÉLIQUE, CATHAU.</stage>
+          <head>SCÈNE IV<hi rend="sup">e</hi>.</head>
+          <stage>Le Barbouillé, Valère, Angélique, Cathau.</stage>
           <sp who="valere" xml:id="I04-1">
             <speaker>valère</speaker>
             <p>Mademoiselle, je suis au désespoir de vous apporter de si méchantes nouvelles, mais aussi bien les auriez-vous apprises de quelque autre, et puisque votre frère est fort malade...</p>
@@ -227,8 +224,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I05">
-          <head>SCÈNE 5<hi rend="sup">e</hi>.</head>
-          <stage>GORGIBUS, VILLEBREQUIN, ANGÉLIQUE, CATHAU, LE BARBOUILLÉ.</stage>
+          <head>SCÈNE V<hi rend="sup">e</hi>.</head>
+          <stage>Gorgibus, Villebrequin, Angélique, Cathau, le Barbouillé.</stage>
           <sp who="gorgibus" xml:id="I05-1">
             <speaker>gorgibus</speaker>
             <p>Ne voilà pas encore mon maudit gendre qui querelle ma fille.</p>
@@ -261,8 +258,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I06">
-          <head>SCÈNE 6<hi rend="sup">e</hi>.</head>
-          <stage>LE DOCTEUR, VILLEBREQUIN, GORGIBUS, CATHAU, ANGÉLIQUE, LE BARBOUILLÉ.</stage>
+          <head>SCÈNE VI<hi rend="sup">e</hi>.</head>
+          <stage>Le Docteur, Villebrequin, Gorgibus, Cathau, Angélique, le Barbouillé.</stage>
           <sp who="le-docteur" xml:id="I06-1">
             <speaker>le docteur</speaker>
             <p>Qu'est ceci, quel désordre, quelle querelle, quel grabuge, quel vacarme, quel bruit ! quel différend, quelle combustion, qu’y a-t-il, Messieurs ? qu’y a-t-il ? qu’y a-t-il, çà, çà, voyons un peu s’il n’y a pas moyen de vous mettre d’accord, que je sois votre pacificateur, que j’apporte l’union chez vous.</p>
@@ -426,8 +423,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I07">
-          <head>SCÈNE 7<hi rend="sup">e</hi>.</head>
-          <stage>VALÈRE, LA VALLÉE. Angélique s’en va.</stage>
+          <head>SCÈNE VII<hi rend="sup">e</hi>.</head>
+          <stage>Valère, la Vallée. Angélique s’en va.</stage>
           <sp who="valere" xml:id="I07-1">
             <speaker>valère</speaker>
             <p>Monsieur, je vous suis obligé du soin que vous avez pris, et je vous promets de me rendre à l’assignation que vous me donnez, dans une heure.</p>
@@ -442,29 +439,29 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I08">
-          <head>SCÈNE 8<hi rend="sup">e</hi>.</head>
+          <head>SCÈNE VIII<hi rend="sup">e</hi>.</head>
           <sp who="angelique" xml:id="I08-1">
-            <speaker>angélique</speaker>
+          <speaker>Angélique</speaker>
             <p>Cependant que mon mari n’y est pas, je vais faire un tour à un bal que donne une de mes voisines, je serai revenue auparavant lui, car il est quelque part au cabaret, il ne s’apercevra pas que je suis sortie, ce maroufle-là me laisse toute seule à la maison, comme si j’étais son chien.</p>
           </sp>
         </div2>
         <div2 type="scene" xml:id="I09">
-          <head>SCÈNE 9<hi rend="sup">e</hi>.</head>
+          <head>SCÈNE IX<hi rend="sup">e</hi>.</head>
           <sp who="le-barbouille" xml:id="I09-1">
-            <speaker>le barbouillé</speaker>
+            <speaker>Le Barbouillé</speaker>
             <p>Je savais bien que j’aurais raison de ce diable de Docteur et de toute sa fichue doctrine, au diable l’ignorant, j’ai bien renvoyé toute la science par terre, il faut pourtant que j’aille un peu voir si notre bonne ménagère m’aura fait à souper.</p>
           </sp>
         </div2>
         <div2 type="scene" xml:id="I10">
-          <head>SCÈNE 10<hi rend="sup">e</hi>.</head>
+          <head>SCÈNE X<hi rend="sup">e</hi>.</head>
           <sp who="angelique" xml:id="I10-1">
-            <speaker>angélique</speaker>
+            <speaker>Angélique</speaker>
             <p>Que je suis malheureuse ! j’ai été trop tard, l’assemblée est finie, je suis arrivée justement comme tout le monde sortait, mais il n’importe, ce sera pour une autre fois. Je m’en vais cependant au logis comme si de rien n’était. Mais la porte est fermée. Cathau. Cathau.</p>
           </sp>
         </div2>
         <div2 type="scene" xml:id="I11">
-          <head>SCÈNE 11<hi rend="sup">e</hi>.</head>
-          <stage>LE BARBOUILLÉ, à la fenêtre, ANGÉLIQUE.</stage>
+          <head>SCÈNE XI<hi rend="sup">e</hi>.</head>
+          <stage>Le Barbouillé, à la fenêtre, Angélique.</stage>
           <sp who="le-barbouille" xml:id="I11-1">
             <speaker>le barbouillé</speaker>
             <p>Cathau, Cathau, eh bien qu’a-t-elle fait Cathau, et d’où venez-vous, madame la carogne, à l’heure qu’il est, et par le temps qu’il fait.</p>
@@ -583,8 +580,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I12">
-          <head>SCÈNE 12<hi rend="sup">e</hi>.</head>
-          <stage>GORGIBUS, VILLEBREQUIN, ANGÉLIQUE, LE BARBOUILLÉ.</stage>
+          <head>SCÈNE XII<hi rend="sup">e</hi>.</head>
+          <stage>Gorgibus, Villebrequin, Angélique, le Barbouillé.</stage>
           <sp who="gorgibus" xml:id="I12-1">
             <speaker>gorgibus</speaker>
             <p>Qu'est ceci, toujours de la dispute, de la querelle et de la dissension.</p>
@@ -619,8 +616,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I13">
-          <head>SCÈNE 13<hi rend="sup">e</hi>. et der<hi rend="sup">re</hi>.</head>
-          <stage>LE DOCTEUR à la fenêtre en bonnet de nuit, et en camisole. LE BARBOUILLÉ, VILLEBREQUIN, GORGIBUS, ANGÉLIQUE.</stage>
+          <head>SCÈNE XIII<hi rend="sup">e</hi> et der<hi rend="sup">re</hi>.</head>
+          <stage>Le Docteur à la fenêtre en bonnet de nuit, et en camisole. Le Barbouillé, Villebrequin, Gorgibus, Angélique.</stage>
           <sp who="le-docteur" xml:id="I13-1">
             <speaker>le docteur</speaker>
             <p>Hé quoi toujours du bruit, du désordre, de la dissension, des querelles, des débats, des différends, des combustions, des altercations éternelles, qu’est-ce, qu’y a-t-il donc, on ne saurait avoir du repos.</p>
