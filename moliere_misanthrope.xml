@@ -4,12 +4,16 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LE MISANTHROPE ou L’ATRABILAIRE AMOUREUX, COMÉDIE</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1666</date>
+        <title>Le Misanthrope, comédie</title>
+        <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
-        <p>publié par Paul FIEVRE, Mai 2006</p>
+        <date when="2006"/>
+        <date when="2014"/>
+        <publisher>Publié par Paul Fièvre en mai 2006, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
+        <availability status="restricted">
+          <licence target="projet-Molière"/>
+        </availability>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_misanthrope/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_misanthrope.xml</idno>
       </publicationStmt>
@@ -21,44 +25,36 @@
         <periode>1661-1670</periode>
         <taille>1750-2000</taille>
         <permalien/>
-        <sources>
-          <source id="1">
-            <author/>
-            <text/>
-          </source>
-        </sources>
       </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1667"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <titlePage>
         <docTitle>
-          <titlePart type="main">LE MISANTHROPE</titlePart>
-          <titlePart type="sub">ou L’ATRABILAIRE AMOUREUX</titlePart>
+          <titlePart type="main">LE <lb/>MISANTHROPE</titlePart>
           <titlePart type="sub">COMÉDIE</titlePart>
         </docTitle>
-        <docDate value="1683">M. DC. LXXXIII.</docDate>
-        <docAuthor id="MOLIERE" bio="moliere">PAR J B P DE MOLIÈRE</docAuthor>
-        <docImprint>
-          <privilege id="166*-**-**"/>
-          <acheveImprime id="166*-**-**"/>
-          <printer id="JACQUES">À AMSTERDAM, chez JACQUES LE JEUNE.</printer>
-        </docImprint>
-        <performance>
-          <premiere date="1666-06-04" location="Théâtre du Palais-Royal">Représenté pour la première fois le 4 juin 1666 au Théâtre du Palais Royal.</premiere>
-        </performance>
+        <docAuthor>PAR J. B. P. DE MOLIÈRE</docAuthor>
+        <docImprint>À PARIS <lb/>Chez JEAN RIBOU, au Palais, vis-à-vis la Porte <lb/> de l'Église de la Sainte-Chapelle, <lb/> à l'Image Saint-Louis.</docImprint>
+        <docDate>M. DC. LXVII.</docDate>
+        <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
       </titlePage>
       <div>
-        <head>LE LIBRAIRE
-<lb/>AU LECTEUR.</head>
+        <head>LE LIBRAIRE<lb/>AU LECTEUR</head>
         <p><hi rend="i">Le Misanthrope</hi>, dès sa première Représentation, ayant reçu au Théâtre, l’approbation que le Lecteur ne lui pourra refuser, et la Cour étant à Fontainebleau lorsqu’il parut ; j’ai cru que je ne pouvais rien faire de plus agréable pour le Public, que de lui faire part de cette Lettre, qui fut écrite, un jour après, à une Personne de Qualité sur le Sujet de cette Comédie. Celui qui l’écrivit étant un Homme dont le mérite et l’esprit est fort connu, sa Lettre fut vue de la meilleure partie de la Cour, et trouvée si juste parmi tout ce qu’il y a de Gens les plus éclairés en ces matières, que je me suis persuadé qu’après leur avoir plu, le Lecteur me serait obligé du soin que j’avais pris d’en chercher une Copie pour la lui
 <lb/>donner, et qu’il lui rendra la justice que tant de Personnes de la plus haute Naissance lui ont accordée.</p>
       </div>
       <div>
-        <head>LETTRE ÉCRITE
-<lb/>SUR LA COMÉDIE
-<lb/>DU MISANTHROPE</head>
+        <head>LETTRE ÉCRITE<lb/>SUR LA COMÉDIE<lb/>DU MISANTHROPE</head>
         <p>MONSIEUR,</p>
         <p>Vous devriez être satisfait de ce que je vous ai dit de la dernière Comédie de Monsieur de Molière, que vous avez vue aussi bien que moi, sans m’obliger à vous écrire mes sentiments. Je ne puis m’empêcher de faire ce que vous souhaitez ; mais souvenez-vous de la sincère amitié que vous m’avez promise : et n’allez pas exposer à Fontainebleau, au jugement des Courtisans, des Remarques que je n’ai faites que pour vous obéir. Songez à ménager ma réputation ; et pensez que les Gens de la Cour, de qui le Goût est si raffiné, n’auront pas, pour moi la même indulgence que vous.</p>
         <p>Il est à propos, avant que de parler à fond de cette Comédie, de voir quel a été le but de l’Auteur, et je crois qu’il mérite des Louanges, s’il est venu à bout de ce qu’il s’est proposé ; et c’est la première chose qu’il faut examiner. Je Pourrais vous dire en deux mots, si je voulais m’exempter de faire un grand Discours, qu’il a plu, et que, son intention étant de plaire, les Critiques ne peuvent pas dire qu’il ait mal fait, puisqu’en faisant mieux (si toutefois il est possible) son Dessein n’aurait peut-être pas si bien réussi.</p>
@@ -115,38 +111,30 @@
         <p>Vous trouverez, sans doute, ma Lettre trop longue ; mais je n’ai pu m’arrêter, et j’ai trouvé qu’il était difficile de parler sur un si grand Sujet, en peu de mots. Ce long Discours ne devrait pas déplaire aux Courtisans, puisqu’ils ont assez fait voir, par leurs applaudissements, qu’ils trouvaient la Comédie belle. En tout cas, je n’ai écrit que pour vous ; et j’espère que vous cacherez ceci, si vous jugez qu’il ne vaille pas la peine d’être montré. Ne craignez pas que j’y trouve à redire : je suis autrement soumis à votre jugement, qu’Oronte ne l’était aux avis du Misanthrope.</p>
       </div>
       <div>
-        <head>Extrait du Privilège du Roi.</head>
-        <p>Par Grâce &amp; Privilège du Roi, Donné à Fontainebleau le 21. Juin 1666.Signé par le Roi Conseil, BERAUD : Il est permis à I.B.P. de MOLIÈRE, Comédien de la Troupe de Monsieur le Duc d’Orléans, de faire imprimer, vendre, &amp; débiter une Comédie par lui composée, intitulée, <hi rend="i">Le Misanthrope</hi>, pendant cinq années : Et défenses sont faites à tous autres de l’imprimer, ni vendre, d’autre Édition que de celle de l’Exposant, ou de ceux qui auront droit de lui, à peine de quinze cents livres d’amende, confiscation des Exemplaires contrefaits, et de tous dépens, dommages &amp; intérêts, comme il est porté plus amplement par Lesdites Lettres.</p>
-        <p>Et ledit Sieur DE MOLIÈRE a cédé son droit de Privilège à JEAN RIBOU, Marchand Libraire à Paris, pour en jouir suivant l’accord entre eux.</p>
-        <p>Registré sur le Livre de la Communauté,</p>
-        <p>Signé, PIGET, Syndic.</p>
-        <p rend="i">Achevé d’imprimer  pour la première fois,</p>
-        <p rend="i">le 24. Décembre 1666</p>
-      </div>
-      <div>
         <head>ACTEURS</head>
         <castList>
-          <castItem><role xml:id="alceste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="Célimène">ALCESTE</role>, amant de Célimène.</castItem>
-          <castItem><role xml:id="philinte" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">PHILINTE</role>, un ami d’Alceste.</castItem>
-          <castItem><role xml:id="oronte" civil="M" type="H" statut="aristocrate" age="A" stat_amour="Célimène">ORONTE</role>, amant de Célimène.</castItem>
-          <castItem><role xml:id="celimene" civil="F" type="H" statut="aristocrate" age="A" stat_amour="Alceste">CÉLIMÈNE</role>, amante d’Alceste.</castItem>
-          <castItem><role xml:id="eliante" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">ÉLIANTE</role>, cousine de Célimène.</castItem>
-          <castItem><role xml:id="arsinoe" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">ARSINOÉ</role>, amie de Célimène.</castItem>
-          <castItem><role xml:id="acaste" civil="M" type="H" statut="marquis" age="A" stat_amour="néant">ACASTE</role>, marquis.</castItem>
-          <castItem><role xml:id="clitandre" civil="M" type="H" statut="marquis" age="A" stat_amour="néant">CLITANDRE</role>, marquis.</castItem>
-          <castItem><role xml:id="basque" civil="M" type="H" statut="valet" age="A" stat_amour="néant">BASQUE</role>, valet de Célimène.</castItem>
-          <castItem><role xml:id="dubois" civil="M" type="H" statut="valet" age="A" stat_amour="néant">DU BOIS</role>, valet d’Alceste.</castItem>
-          <castItem><role xml:id="garde" civil="M" type="H" statut="garde" age="A" stat_amour="néant">UN GARDE</role> de la maréchaussée de France.</castItem>
+          <castItem><role xml:id="alceste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="Célimène">ALCESTE</role>, Amant de Célimène.</castItem>
+          <castItem><role xml:id="philinte" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">PHILINTE</role>, Ami d’Alceste.</castItem>
+          <castItem><role xml:id="oronte" civil="M" type="H" statut="aristocrate" age="A" stat_amour="Célimène">ORONTE</role>, Amant de Célimène.</castItem>
+          <castItem><role xml:id="celimene" civil="F" type="H" statut="aristocrate" age="A" stat_amour="Alceste">CÉLIMÈNE</role>, Amante d’Alceste.</castItem>
+          <castItem><role xml:id="eliante" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">ÉLIANTE</role>, Cousine de Célimène.</castItem>
+          <castItem><role xml:id="arsinoe" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">ARSINOÉ</role>, Amie de Célimène.</castItem>
+          <castItem><role xml:id="acaste" civil="M" type="H" statut="marquis" age="A" stat_amour="néant">ACASTE</role>, Marquis.</castItem>
+          <castItem><role xml:id="clitandre" civil="M" type="H" statut="marquis" age="A" stat_amour="néant">CLITANDRE</role>, Marquis.</castItem>
+          <castItem><role xml:id="basque" civil="M" type="H" statut="valet" age="A" stat_amour="néant">BASQUE</role>, Valet de Célimène.</castItem>
+          <castItem><role xml:id="garde" civil="M" type="H" statut="garde" age="A" stat_amour="néant">UN GARDE</role> de la Maréchaussée de France.</castItem>
+          <castItem><role xml:id="dubois" civil="M" type="H" statut="valet" age="A" stat_amour="néant">DU BOIS</role>, Valet d’Alceste.</castItem>
         </castList>
+        <stage>La Scène est à Paris.</stage>
       </div>
     </front>
     <body>
-            <div>
-        
-        <head>ACTE PREMIER.</head>
+      <head>LE MISANTHROPE <lb/>COMÉDIE</head>
+        <div>
+        <head>ACTE PREMIER</head>
         <div type="scene">
-          <head><anchor xml:id="I01"/>SCÈNE PREMIÈRE.</head>
-          <stage>Philinte, Alceste.</stage>
+          <head><anchor xml:id="I01"/>SCÈNE PREMIÈRE</head>
+          <stage>Philinte, Alceste</stage>
           <p/>
           <sp who="philinte" xml:id="I01-1">
             <speaker>philinte</speaker>
@@ -630,8 +618,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="I02"/>SCÈNE II.</head>
-          <stage>Oronte, Alceste, Philinte.</stage>
+          <head><anchor xml:id="I02"/>SCÈNE II</head>
+          <stage>Oronte, Alceste, Philinte</stage>
           <p/>
           <sp who="oronte" xml:id="I02-1">
             <speaker>oronte</speaker>
@@ -829,7 +817,7 @@
             <l xml:id="l325">Ah ! qu’en termes galants, ces choses-là sont mises !</l>
           </sp>
           <sp who="alceste" xml:id="I02-32">
-            <speaker>alceste<stage>, bas.</stage></speaker>
+            <speaker>alceste<stage>, bas</stage></speaker>
             <l xml:id="l326">Morbleu, vil Complaisant, vous louez des Sottises ?</l>
           </sp>
           <sp who="oronte" xml:id="I02-33">
@@ -849,7 +837,7 @@
             <l xml:id="l333">La chute en est jolie, amoureuse, admirable.</l>
           </sp>
           <sp who="alceste" xml:id="I02-35">
-            <speaker>alceste<stage>, bas.</stage></speaker>
+            <speaker>alceste<stage>, bas</stage></speaker>
             <l xml:id="l334">La peste de ta chute ! Empoisonneur au Diable,</l>
             <l xml:id="l335">En eusses-tu fait une à te casser le nez.</l>
           </sp>
@@ -1048,7 +1036,7 @@
             <l xml:id="l434">Ma foi, mon grand Monsieur, je le prends comme il faut.</l>
           </sp>
           <sp who="philinte" xml:id="I02-65">
-            <speaker>philinte<stage>, se mettant entre-deux.</stage></speaker>
+            <speaker>philinte<stage>, se mettant entre-deux</stage></speaker>
             <l xml:id="l435">Eh ! Messieurs, c’en est trop, laissez cela, de grâce.</l>
           </sp>
           <sp who="oronte" xml:id="I02-66">
@@ -1062,8 +1050,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="I03"/>SCÈNE III.</head>
-          <stage>Philinte, Alceste.</stage>
+          <head><anchor xml:id="I03"/>SCÈNE III</head>
+          <stage>Philinte, Alceste</stage>
           <p/>
           <sp who="philinte" xml:id="I03-1">
             <speaker>philinte</speaker>
@@ -1130,17 +1118,16 @@
               <anchor xml:id="II"/>
             </p>
           </sp>
-          <trailer>
+          <label>
             <hi rend="i">Fin du Premier Acte</hi>
-          </trailer>
+          </label>
         </div>
       </div>
-      <div>
-        
-        <head>ACTE II.</head>
+      <div> 
+        <head>ACTE II</head>
         <div type="scene">
-          <head><anchor xml:id="II01"/>SCÈNE PREMIÈRE.</head>
-          <stage>Alceste, Célimène.</stage>
+          <head><anchor xml:id="II01"/>SCÈNE PREMIÈRE</head>
+          <stage>Alceste, Célimène</stage>
           <p/>
           <sp who="alceste" xml:id="II01-1">
             <speaker>alceste</speaker>
@@ -1293,8 +1280,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="II02"/>SCÈNE II.</head>
-          <stage>Célimène, Alceste, Basque.</stage>
+          <head><anchor xml:id="II02"/>SCÈNE II</head>
+          <stage>Célimène, Alceste, Basque</stage>
           <p/>
           <sp who="celimene" xml:id="II02-1">
             <speaker>célimène</speaker>
@@ -1350,8 +1337,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="II03"/>SCÈNE III.</head>
-          <stage>Basque, Alceste, Célimène.</stage>
+          <head><anchor xml:id="II03"/>SCÈNE III</head>
+          <stage>Basque, Alceste, Célimène</stage>
           <p/>
           <sp who="basque" xml:id="II03-1">
             <speaker>basque</speaker>
@@ -1410,8 +1397,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="II04"/>SCÈNE IV.</head>
-          <stage>Éliante, Philinte, Acaste, Clitandre, Alceste, Célimène, Basque.</stage>
+          <head><anchor xml:id="II04"/>SCÈNE IV</head>
+          <stage>Éliante, Philinte, Acaste, Clitandre, Alceste, Célimène, Basque</stage>
           <p/>
           <sp who="eliante" xml:id="II04-1">
             <speaker>éliante</speaker>
@@ -1490,7 +1477,7 @@
             <l xml:id="l582">Et ce n’est que du Bruit, que tout ce qu’on écoute.</l>
           </sp>
           <sp who="eliante" xml:id="II04-16">
-            <speaker>éliante<stage> à Philinte.</stage></speaker>
+            <speaker>éliante<stage> à Philinte</stage></speaker>
             <l xml:id="l583">Ce Début n’est pas mal ; et contre le Prochain,</l>
             <l xml:id="l584">La Conversation prend un assez bon train.</l>
           </sp>
@@ -1793,8 +1780,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="II05"/>SCÈNE V.</head>
-          <stage>Basque, Alceste, Célimène, Éliante, Acaste, Philinte, Clitandre.</stage>
+          <head><anchor xml:id="II05"/>SCÈNE V</head>
+          <stage>Basque, Alceste, Célimène, Éliante, Acaste, Philinte, Clitandre</stage>
           <p/>
           <sp who="basque" xml:id="II05-1">
             <speaker>basque</speaker>
@@ -1822,8 +1809,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="II06"/>SCÈNE VI.</head>
-          <stage>Garde, Alceste, Célimène, Éliante, Acaste, Philinte, Clitandre.</stage>
+          <head><anchor xml:id="II06"/>SCÈNE VI</head>
+          <stage>Garde, Alceste, Célimène, Éliante, Acaste, Philinte, Clitandre</stage>
           <p/>
           <sp who="garde" xml:id="II06-1">
             <speaker>garde</speaker>
@@ -1923,14 +1910,14 @@
             <l>J’y vais, Madame, et sur mes pas</l>
             <l xml:id="l776">Je reviens en ce Lieu, pour vider nos Débats.</l>
           </sp>
-          <trailer>Fin du Second Acte.</trailer>
+          <label>Fin du Second Acte.</label>
         </div>
       </div>
       <div xml:id="III">
-        <head>ACTE III.</head>
+        <head>ACTE III</head>
         <div type="scene">
-          <head><anchor xml:id="III01"/>SCÈNE PREMIÈRE.</head>
-          <stage>Clitandre, Acaste.</stage>
+          <head><anchor xml:id="III01"/>SCÈNE PREMIÈRE</head>
+          <stage>Clitandre, Acaste</stage>
           <p/>
           <sp who="clitandre" xml:id="III01-1">
             <speaker>clitandre</speaker>
@@ -2083,8 +2070,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="III02"/>SCÈNE II.</head>
-          <stage>Célimène, Acaste, Clitandre.</stage>
+          <head><anchor xml:id="III02"/>SCÈNE II</head>
+          <stage>Célimène, Acaste, Clitandre</stage>
           <p/>
           <sp who="celimene" xml:id="III02-1">
             <speaker>célimène</speaker>
@@ -2105,8 +2092,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="III03"/>SCÈNE III.</head>
-          <stage>Basque, Célimène, Acaste, Clitandre.</stage>
+          <head><anchor xml:id="III03"/>SCÈNE III</head>
+          <stage>Basque, Célimène, Acaste, Clitandre</stage>
           <p/>
           <sp who="basque" xml:id="III03-1">
             <speaker>basque</speaker>
@@ -2155,8 +2142,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="III04"/>SCÈNE IV.</head>
-          <stage>Arsinoé, Célimène.</stage>
+          <head><anchor xml:id="III04"/>SCÈNE IV</head>
+          <stage>Arsinoé, Célimène</stage>
           <p/>
           <sp who="celimene" xml:id="III04-1">
             <speaker>célimène</speaker>
@@ -2381,8 +2368,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="III05"/>SCÈNE V.</head>
-          <stage>Alceste, Arsinoé.</stage>
+          <head><anchor xml:id="III05"/>SCÈNE V</head>
+          <stage>Alceste, Arsinoé</stage>
           <p/>
           <sp who="arsinoe" xml:id="III05-1">
             <speaker>arsinoé</speaker>
@@ -2528,15 +2515,14 @@
             <l xml:id="l1131">Et si, pour d’autres yeux, le vôtre peut brûler,</l>
             <l xml:id="l1132">On pourra vous offrir de quoi vous consoler.</l>
           </sp>
-          <trailer>Fin du Troisième Acte.</trailer>
+          <label>Fin du Troisième Acte.</label>
         </div>
       </div>
-      <div xml:id="IV">
-        
-        <head>ACTE IV.</head>
+      <div xml:id="IV"> 
+        <head>ACTE IV</head>
         <div type="scene">
-          <head><anchor xml:id="IV01"/>SCÈNE PREMIÈRE.</head>
-          <stage>Éliante, Philinte.</stage>
+          <head><anchor xml:id="IV01"/>SCÈNE PREMIÈRE</head>
+          <stage>Éliante, Philinte</stage>
           <p/>
           <sp who="philinte" xml:id="IV01-1">
             <speaker>philinte</speaker>
@@ -2658,8 +2644,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="IV02"/>SCÈNE II.</head>
-          <stage>Alceste, Éliante, Philinte.</stage>
+          <head><anchor xml:id="IV02"/>SCÈNE II</head>
+          <stage>Alceste, Éliante, Philinte</stage>
           <p/>
           <sp who="alceste" xml:id="IV02-1">
             <speaker>alceste</speaker>
@@ -2787,8 +2773,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="IV03"/>SCÈNE III.</head>
-          <stage>Célimène, Alceste.</stage>
+          <head><anchor xml:id="IV03"/>SCÈNE III</head>
+          <stage>Célimène, Alceste</stage>
           <p/>
           <sp who="alceste" xml:id="IV03-1">
             <speaker>alceste</speaker>
@@ -3074,8 +3060,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="IV04"/>SCÈNE IV.</head>
-          <stage>Du Bois, Célimène, Alceste.</stage>
+          <head><anchor xml:id="IV04"/>SCÈNE IV</head>
+          <stage>Du Bois, Célimène, Alceste</stage>
           <p/>
           <sp who="alceste" xml:id="IV04-1">
             <speaker>alceste</speaker>
@@ -3243,15 +3229,14 @@
               <anchor xml:id="V"/>
             </p>
           </sp>
-          <trailer>Fin du Quatrième Acte.</trailer>
+          <label>Fin du Quatrième Acte.</label>
         </div>
       </div>
       <div>
-        
-        <head>ACTE V.</head>
+        <head>ACTE V</head>
         <div type="scene">
-          <head><anchor xml:id="V01"/>Scène Première.</head>
-          <stage>Alceste, Philinte.</stage>
+          <head><anchor xml:id="V01"/>SCÈNE PREMIÈRE</head>
+          <stage>Alceste, Philinte</stage>
           <p/>
           <sp who="alceste" xml:id="V01-1">
             <speaker>alceste</speaker>
@@ -3405,12 +3390,10 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="V02"/>SCÈNE II.</head>
-          <stage>Oronte, Célimène, Alceste, Oronte.</stage>
-          <sp who="">
-            <speaker>
-              <anchor xml:id="V02-1"/>
-            </speaker>
+          <head><anchor xml:id="V02"/>SCÈNE II</head>
+          <stage>Oronte, Célimène, Alceste</stage>
+          <sp who="oronte">
+            <speaker>oronte<anchor xml:id="V02-1"/></speaker>
             <l xml:id="l1587">Oui, c’est à vous, de voir, si par des Noeuds si doux,</l>
             <l xml:id="l1588">Madame, vous voulez m’attacher tout à vous :</l>
             <l xml:id="l1589">Il me faut de votre Âme, une pleine assurance,</l>
@@ -3541,8 +3524,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="V03"/>SCÈNE III.</head>
-          <stage>Éliante, Philinte, Célimène, Oronte, Alceste.</stage>
+          <head><anchor xml:id="V03"/>SCÈNE III</head>
+          <stage>Éliante, Philinte, Célimène, Oronte, Alceste</stage>
           <p/>
           <sp who="celimene" xml:id="V03-1">
             <speaker>célimène</speaker>
@@ -3586,8 +3569,8 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="V04"/>SCÈNE <hi rend="i">DERNIÈRE.</hi></head>
-          <stage>Acaste, Clitandre, Arsinoé, Philinte, Éliante, Oronte, Célimène, Alceste.</stage>
+          <head><anchor xml:id="V04"/>SCÈNE DERNIÈRE</head>
+          <stage>Acaste, Clitandre, Arsinoé, Philinte, Éliante, Oronte, Célimène, Alceste</stage>
           <p/>
           <sp who="acaste" xml:id="V04-1">
             <speaker>acaste</speaker>
@@ -3634,10 +3617,10 @@
             <l xml:id="l1692">C’est moi-même, Messieurs, sans nulle vanité.</l>
             <p>Pour le petit <hi rend="i">M</hi>arquis, qui me tint hier longtemps, la main, je trouve qu’il n’y a rien de si mince que toute sa <hi rend="i">P</hi>ersonne ; et ce sont de ces <hi rend="i">M</hi>érites qui n’ont que la <hi rend="i">C</hi>ape et l’<hi rend="i">É</hi>pée. Pour l’<hi rend="i">H</hi>omme aux <hi rend="i">R</hi>ubans verts....</p>
             <l xml:id="l1693">À vous le Dé, Monsieur.</l>
-            <p rend="outdent">Pour l’<hi rend="i">H</hi>omme aux <hi rend="i">R</hi>ubans verts, il me divertit quelquefois ,</p>
+            <p>Pour l’<hi rend="i">H</hi>omme aux <hi rend="i">R</hi>ubans verts, il me divertit quelquefois ,</p>
             <p>avec ses brusqueries, et son chagrin bourru ; mais il est cent moments, où je le trouve le plus fâcheux du <hi rend="i">M</hi>onde. Et pour l’<hi rend="i">H</hi>omme à la <hi rend="i">V</hi>este...</p>
             <l>Voici votre Paquet.</l>
-            <p rend="outdent">Et pour l’<hi rend="i">H</hi>omme à la <hi rend="i">V</hi>este, qui s’est jeté dans le bel <hi rend="i">E</hi>sprit, et veut être <hi rend="i">A</hi>uteur malgré tout le <hi rend="i">M</hi>onde, je ne puis me donner la peine d’écouter ce qu’il dit ; et sa <hi rend="i">P</hi>rose me fatigue autant que ses <hi rend="i">V</hi>ers.Mettez-vous, donc, en tête, que je ne me divertis pas toujours si bien que vous pensez ; que je vous trouve à dire plus que je ne voudrais, dans toutes les <hi rend="i">P</hi>arties où l’on m’entraîne ; et que c’est un merveilleux assaisonnement aux <hi rend="i">P</hi>laisirs qu’on goûte ,</p>
+            <p>Et pour l’<hi rend="i">H</hi>omme à la <hi rend="i">V</hi>este, qui s’est jeté dans le bel <hi rend="i">E</hi>sprit, et veut être <hi rend="i">A</hi>uteur malgré tout le <hi rend="i">M</hi>onde, je ne puis me donner la peine d’écouter ce qu’il dit ; et sa <hi rend="i">P</hi>rose me fatigue autant que ses <hi rend="i">V</hi>ers.Mettez-vous, donc, en tête, que je ne me divertis pas toujours si bien que vous pensez ; que je vous trouve à dire plus que je ne voudrais, dans toutes les <hi rend="i">P</hi>arties où l’on m’entraîne ; et que c’est un merveilleux assaisonnement aux <hi rend="i">P</hi>laisirs qu’on goûte ,</p>
             <p>        que la présence des <hi rend="i">G</hi>ens qu’on aime.</p>
           </sp>
           <sp who="clitandre" xml:id="V04-7">
@@ -3820,12 +3803,10 @@
             <l xml:id="l1811">Allons, Madame, allons employer toute chose,</l>
             <l xml:id="l1812">Pour rompre le Dessein que son Coeur se propose.</l>
           </sp>
-            <trailer>
-              <hi rend="i">FIN</hi>
-            </trailer>
+            <label><hi rend="i">FIN</hi>
+            </label>
         </div>
       </div>
-
     </body>
   </text>
 </TEI>
