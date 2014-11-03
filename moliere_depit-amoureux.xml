@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_depit-amoureux" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -92,7 +92,6 @@
         <p rend="i">Les Exemplaires ont été fournis.</p>
       </div>
       <castList>
-        <head>ACTEURS</head>
         <head>ACTEURS</head>
         <castItem><role xml:id="eraste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="amoureux">ÉRASTE</role>, amant de Lucile.</castItem>
         <castItem><role xml:id="albert" civil="M" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">ALBERT</role>, père de Lucile.</castItem>
@@ -996,7 +995,7 @@
             <l>Quoi, faire un tel accueil à nos soins obligeants !</l>
             <l n="340">Oh que ceci chez nous va surprendre les gens !</l>
           </sp>
-          <label>Fin du premier Acte</label>
+          <trailer>Fin du premier Acte</trailer>
         </div2>
       </div1>
       <div1 type="act" xml:id="II">
@@ -1925,7 +1924,7 @@
             <l>Que le lièvre craintif.... miséricorde ! à l’aide !</l>
             <stage>Albert lui vient sonner aux oreilles une cloche qui le fait fuir.</stage>
           </sp>
-          <label>Fin du second Acte.</label>
+          <trailer>Fin du second Acte.</trailer>
         </div2>
       </div1>
       <div1 type="act" xml:id="III">
@@ -2877,7 +2876,7 @@
             <l n="1135">Malheureux Mascarille ! à quels maux aujourd’hui</l>
             <l>Te vois-tu condamné pour le péché d’autrui ?</l>
           </sp>
-          <label>Fin du troisième Acte.</label>
+          <trailer>Fin du troisième Acte.</trailer>
         </div2>
       </div1>
       <div1 type="act" xml:id="IV">
@@ -3608,7 +3607,7 @@
             <speaker>marinette</speaker>
             <l>Que Marinette est sotte après son Gros-René !</l>
           </sp>
-          <label>Fin du quatrième Acte.</label>
+          <trailer>Fin du quatrième Acte.</trailer>
         </div2>
       </div1>
       <div1 type="act" xml:id="V">
@@ -4284,7 +4283,7 @@
             <l n="1795">Pour la troisième fois, allons-nous-en chez nous</l>
             <p>Poursuivre en liberté des entretiens si doux.</p>
           </sp>
-          <label>FIN.</label>
+          <trailer>FIN.</trailer>
         </div2>
       </div1>
     </body>
