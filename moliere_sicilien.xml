@@ -75,13 +75,13 @@
           <head>SCÈNE I</head>
           <stage>Hali, Musiciens</stage>
           <sp who="hali" xml:id="I01-1">
-            <speaker>hali, <hi rend="i">aux musiciens.</hi></speaker>
-            <p>Chut … N’avancez pas davantage, et demeurez dans cet endroit jusqu’à ce que je vous appelle.Il fait noir comme dans un Four; Le ciel s’est habillé, ce soir, en Scaramouche ; et je ne vois pas une Étoile qui montre le bout de son nez.Sotte condition que celle d’un Esclave ! de ne vivre jamais pour soi, et d’être, toujours, tout entier aux passions d’un Maître ! de n’être réglé que par ses humeurs, et de se voir réduit à faire ses propres affaires de tous les soucis qu’il peut prendre ! Le mien me fait, ici, épouser ses inquiétudes ; et parce qu’il est Amoureux, il faut que nuit, et jour, je n’aie aucun repos.Mais voici des Flambeaux, et, sans doute, c’est lui.</p>
+            <speaker>hali, <hi rend="i">aux Musiciens.</hi></speaker>
+            <p>Chut … N’avancez pas davantage, et demeurez dans cet endroit jusqu’à ce que je vous appelle. Il fait noir comme dans un Four; Le ciel s’est habillé, ce soir, en Scaramouche ; et je ne vois pas une Étoile qui montre le bout de son nez. Sotte condition que celle d’un Esclave ! de ne vivre jamais pour soi, et d’être, toujours, tout entier aux passions d’un Maître ! de n’être réglé que par ses humeurs, et de se voir réduit à faire ses propres affaires de tous les soucis qu’il peut prendre ! Le mien me fait, ici, épouser ses inquiétudes ; et parce qu’il est Amoureux, il faut que nuit, et jour, je n’aie aucun repos. Mais voici des Flambeaux, et, sans doute, c’est lui.</p>
           </sp>
         </div>
         <div xml:id="I02" type="scene">
           <head>SCÈNE II</head>
-          <stage>Adraste et Deux Laquais, Hali</stage>
+          <stage>Adraste <hi rend="i">et deux laquais, </hi>Hali</stage>
           <sp who="adraste" xml:id="I02-1">
             <speaker>adraste</speaker>
             <p>Est-ce toi, Hali ?</p>
@@ -172,65 +172,75 @@
           <stage>Chantée par trois Musiciens</stage>
           <sp who="musicien1" xml:id="I03-1">
             <speaker>premier musicien</speaker>
+            <lg rend="i">
             <l>Si du triste récit de mon inquiétude,</l>
-            <l>Je trouble le repos de votre <hi rend="i">S</hi>olitude,</l>
-            <l>Rochers, ne soyez point fâchés;<hi rend="i"/></l>
+            <l>Je trouble le repos de votre Solitude,</l>
+            <l>Rochers, ne soyez point fâchés ;</l>
             <l>Quand vous saurez l’excès de mes peines secrètes,</l>
             <l>Tout rochers que vous êtes,</l>
             <l>Vous en serez touchés.</l>
+            </lg>
           </sp>
           <sp who="musicien2" xml:id="I03-2">
             <speaker>deuxième musicien</speaker>
-            <l>Les <hi rend="i">O</hi>iseaux réjouis, dès que le jour s’avance,</l>
-            <l>Recommencent leurs chants dans ces vastes <hi rend="i">F</hi>orêts ;</l>
+            <lg rend="i">
+            <l>Les Oiseaux réjouis, dès que le jour s’avance,</l>
+            <l>Recommencent leurs chants dans ces vastes Forêts ;</l>
             <l>Et moi j’y recommence</l>
             <l>Mes soupirs languissants, et mes tristes regrets.</l>
-            <l>Ah ! <hi rend="i">m</hi>on cher Philène.</l>
+            <l>Ah ! mon cher Philène.</l>
+            </lg>
           </sp>
           <sp who="musicien1" xml:id="I03-3">
             <speaker>premier musicien</speaker>
-            <l>Ah ! <hi rend="i">m</hi>on cher Tirsis</l>
+            <l rend="i">Ah ! mon cher Tirsis.</l>
           </sp>
           <sp who="musicien2" xml:id="I03-4">
             <speaker>deuxième musicien</speaker>
-            <l>Que je sens de peine !</l>
+            <l rend="i">Que je sens de peine !</l>
           </sp>
           <sp who="musicien1" xml:id="I03-5">
             <speaker>premier musicien</speaker>
-            <l>Que j’ai de soucis !</l>
+            <l rend="i">Que j’ai de soucis !</l>
           </sp>
           <sp who="musicien2" xml:id="I03-6">
             <speaker>deuxième musicien</speaker>
-            <l>Toujours sourde à mes vœux est l’ingrate Climène.</l>
+            <l rend="i">Toujours sourde à mes vœux est l’ingrate Climène.</l>
           </sp>
           <sp who="musicien1" xml:id="I03-7">
             <speaker>premier musicien</speaker>
-            <l>Cloris n’a point, pour moi, de regards adoucis.</l>
+            <l rend="i">Cloris n’a point, pour moi, de regards adoucis.</l>
           </sp>
           <sp who="musicien1 musicien2" xml:id="I03-8">
             <speaker>tous deux</speaker>
-            <l>Ô <hi rend="i">L</hi>oi trop inhumaine !</l>
+            <lg rend="i">
+            <l>Ô Loi trop inhumaine !</l>
             <l>Amour, si tu ne peux les contraindre d’aimer,</l>
             <l>Pourquoi leur laisses-tu le pouvoir de charmer ?</l>
+            </lg>
           </sp>
           <sp who="musicien3" xml:id="I03-9">
             <speaker>troisième musicien</speaker>
+            <lg rend="i">
             <l>Pauvres amants, quelle erreur</l>
             <l>D’adorer des inhumaines ?</l>
-            <l>Jamais les <hi rend="i">Â</hi>mes bien saines</l>
+            <l>Jamais les Âmes bien saines</l>
             <l>Ne se payent de rigueur ;</l>
-            <l>Et les faveurs sont les chaînes</l>
-            <l>Qui doivent lier un <hi rend="i">C</hi>œur.</l>
-            <l>On voit cent <hi rend="i">B</hi>elles ici,</l>
+            <l>Et les Faveurs sont les chaînes</l>
+            <l>Qui doivent lier un Cœur.</l>
+            </lg>
+            <lg rend="i">
+            <l>On voit cent Belles ici,</l>
             <l>Auprès de qui je m’empresse ;</l>
             <l>À leur vouer ma tendresse,</l>
             <l>Je mets mon plus doux souci ;</l>
-            <l>Mais, <hi rend="i">lorsque</hi> l’on est <hi rend="i">T</hi>igresse,</l>
-            <l>Ma foi, je suis tigre auss<hi rend="i">i</hi>.</l>
+            <l>Mais, lorsque l’on est Tigresse,</l>
+            <l>Ma foi, je suis Tigre aussi.</l>
+            </lg>
           </sp>
           <sp who="musicien1 musicien2" xml:id="I03-10">
             <speaker>premier et deuxième musicien</speaker>
-            <l>Heureux, hélas ! <hi rend="i">q</hi>ui peut aimer ainsi.</l>
+            <l rend="i">Heureux, hélas ! qui peut aimer ainsi.</l>
           </sp>
           <sp who="hali" xml:id="I03-11">
             <speaker>hali</speaker>
@@ -238,14 +248,14 @@
           </sp>
           <sp who="adraste" xml:id="I03-12">
             <speaker>adraste</speaker>
-            <p>Qu’on se retire vite, et qu’on éteigne les flambeaux.</p>
+            <p>Qu’on se retire vite, et qu’on éteigne les Flambeaux.</p>
           </sp>
         </div>
         <div xml:id="I04" type="scene">
           <head>SCÈNE IV</head>
           <stage>Don Pèdre, Adraste, Hali</stage>
           <sp who="dom-pedre" xml:id="I04-1">
-            <speaker>d. pèdre, sortant en <hi rend="i">B</hi>onnet de nuit, et <hi rend="i">R</hi>obe de <hi rend="i">C</hi>hambre, avec une <hi rend="i">É</hi>pée sous son bras.</speaker>
+            <speaker>don pèdre, <hi rend="i">sortant en Bonnet de nuit, et Robe de Chambre, avec une Épée sous son bras.</hi></speaker>
             <p>Il y a quelque temps que j’entends chanter à ma Porte ; et, sans doute, cela ne se fait pas pour rien.Il faut que, dans l’obscurité, je tâche à découvrir quelles Gens ce peuvent être.</p>
           </sp>
           <sp who="adraste" xml:id="I04-2">
@@ -263,6 +273,7 @@
           <sp who="hali" xml:id="I04-5">
             <speaker>hali</speaker>
             <p>Non.</p>
+            <stage>Don Pèdre est derrière eux, qui les écoute.</stage>
           </sp>
           <sp who="adraste" xml:id="I04-6">
             <speaker>adraste</speaker>
@@ -279,21 +290,22 @@
           <sp who="hali" xml:id="I04-9">
             <speaker>hali</speaker>
             <p>Monsieur, je ne sais pas ce que cela veut dire.Mais la Porte est ouverte ; et, si vous le voulez, j’entrerai doucement, pour découvrir d’où cela vient.</p>
+            <stage>Don Pèdre se retire sur sa Porte.</stage>
           </sp>
           <sp who="adraste" xml:id="I04-10">
             <speaker>adraste</speaker>
             <p>Oui, fais, mais sans faire de bruit ; je ne m’éloigne pas de toi. Plût au Ciel, que ce fût la charmante Isidore !</p>
           </sp>
           <sp who="dom-pedre" xml:id="I04-11">
-            <speaker>d. pèdre, lui donnant sur la joue.</speaker>
+            <speaker>don pèdre, <hi rend="i">lui donnant sur la joue.</hi></speaker>
             <p>Qui va là ?</p>
           </sp>
           <sp who="hali" xml:id="I04-12">
-            <speaker>hali, lui en faisant de même.</speaker>
+            <speaker>hali, <hi rend="i">lui en faisant de même.</hi></speaker>
             <p>Ami.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I04-13">
-            <speaker>d. pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Holà, Francisque, Dominique, Simon, Martin, Pierre, Thomas, Georges, Charles, Barthélemy ; allons, promptement, mon Épée, ma Rondache, ma Hallebarde, mes Pistolets, mes Mousquetons, mes Fusils ; vite, dépêchez ; allons, tue, point de quartier.</p>
           </sp>
         </div>
@@ -305,7 +317,7 @@
             <p>Je n’entends remuer Personne.Hali ? Hali ?</p>
           </sp>
           <sp who="hali" xml:id="I05-2">
-            <speaker>hali, caché dans un coin.</speaker>
+            <speaker>hali, <hi rend="i">caché dans un coin.</hi></speaker>
             <p>Monsieur.</p>
           </sp>
           <sp who="adraste" xml:id="I05-3">
@@ -321,7 +333,7 @@
             <p>Non, personne ne bouge.</p>
           </sp>
           <sp who="hali" xml:id="I05-6">
-            <speaker>hali, en sortant d’où il était caché.</speaker>
+            <speaker>hali, <hi rend="i">en sortant d’où il était caché.</hi></speaker>
             <p>S’ils viennent, ils seront frottés.</p>
           </sp>
           <sp who="adraste" xml:id="I05-7">
@@ -349,7 +361,7 @@
             <p>Je ne sais pas quel plaisir vous prenez à me réveiller si matin ; cela s’ajuste assez mal, ce me semble, au dessein que vous avez pris de me faire peindre aujourd’hui ; et ce n’est guère pour avoir le teint frais, et les yeux brillants, que se lever ainsi dès la pointe du jour.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I06-2">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>J’ai une Affaire qui m’oblige à sortir à l’heure qu’il est.</p>
           </sp>
           <sp who="isidore" xml:id="I06-3">
@@ -357,7 +369,7 @@
             <p>Mais l’Affaire que vous avez, eût bien pu se passer, je crois, de ma présence ; et vous pouviez, sans vous incommoder, me laisser goûter les douceurs du Sommeil du matin.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I06-4">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Oui ; mais je suis bien aise de vous voir, toujours, avec moi.Il n’est pas mal de s’assurer, un peu, contre les soins des Surveillants ; et cette nuit, encore, on est venu chanter sous nos fenêtres.</p>
           </sp>
           <sp who="isidore" xml:id="I06-5">
@@ -365,7 +377,7 @@
             <p>Il est vrai, la Musique en était admirable.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I06-6">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>C’était pour vous que cela se faisait ?</p>
           </sp>
           <sp who="isidore" xml:id="I06-7">
@@ -373,7 +385,7 @@
             <p>Je le veux croire ainsi, puisque vous me le dites.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I06-8">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Vous savez qui était celui qui donnait cette Sérénade ?</p>
           </sp>
           <sp who="isidore" xml:id="I06-9">
@@ -381,7 +393,7 @@
             <p>Non pas ; mais, qui que ce puisse être, je lui suis obligée.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I06-10">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Obligée !</p>
           </sp>
           <sp who="isidore" xml:id="I06-11">
@@ -389,7 +401,7 @@
             <p>Sans doute, puisqu’il cherche à me divertir.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I06-12">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Vous trouvez, donc, bon qu’on vous aime ?</p>
           </sp>
           <sp who="isidore" xml:id="I06-13">
@@ -397,7 +409,7 @@
             <p>Fort bon ; cela n’est jamais qu’obligeant.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I06-14">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Et vous voulez du bien à tous ceux qui prennent ce soin ?</p>
           </sp>
           <sp who="isidore" xml:id="I06-15">
@@ -405,7 +417,7 @@
             <p>Assurément.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I06-16">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>C’est dire fort net ses pensées.</p>
           </sp>
           <sp who="isidore" xml:id="I06-17">
@@ -413,7 +425,7 @@
             <p>À quoi bon de dissimuler ? Quelque mine qu’on fasse, on est, toujours, bien aise d’être aimée : ces hommages à nos appas, ne sont, jamais, pour nous déplaire.Quoi qu’on en puisse dire, la grande ambition des Femmes est, croyez-moi, d’inspirer de l’amour.Tous les soins qu’elles prennent, ne sont que pour cela ; et l’on n’en voit point de si fière, qui ne s’applaudisse, en son cœur des Conquêtes que font ses yeux.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I06-18">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Mais si vous prenez, vous, du plaisir, à vous voir aimée ; savez-vous bien, moi qui vous aime, que je n’y en prends nullement ?</p>
           </sp>
           <sp who="isidore" xml:id="I06-19">
@@ -421,7 +433,7 @@
             <p>Je ne sais pas pourquoi cela ; et si j’aimais quelqu’un, je n’aurais point de plus grand plaisir, que de le voir aimé de tout le Monde.Y a-t-il rien qui marque, davantage, la beauté du choix que l’on fait ? et n’est-ce pas pour s’applaudir, que ce que nous aimons, soit trouvé fort aimable ?</p>
           </sp>
           <sp who="dom-pedre" xml:id="I06-20">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Chacun aime à sa guise, et ce n’est pas là ma méthode.Je serai fort ravi qu’on ne vous trouve point si belle, et vous m’obligerez, de n’affecter point tant de la paraître à d’autres yeux.</p>
           </sp>
           <sp who="isidore" xml:id="I06-21">
@@ -429,7 +441,7 @@
             <p>Quoi ! jaloux de ces choses-là ?</p>
           </sp>
           <sp who="dom-pedre" xml:id="I06-22">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Oui, jaloux de ces choses-là ; mais jaloux comme un Tigre, et, si vous voulez, comme un Diable.Mon amour vous veut toute à moi ; sa délicatesse s’offense d’un sourire, d’un regard qu’on vous peut arracher ; et tous les soins qu’on me voit prendre, ne sont que pour fermer tout accès aux Galants, et m’assurer la possession d’un cœur dont je ne puis souffrir qu’on me vole la moindre chose.</p>
           </sp>
           <sp who="isidore" xml:id="I06-23">
@@ -437,7 +449,7 @@
             <p>Certes, voulez-vous que je dise ? Vous prenez un mauvais parti ; et la possession d’un cœur est fort mal assurée, lorsqu’on prétend le retenir par force.Pour moi, je vous l’avoue, si j’étais Galant d’une femme qui fût au pouvoir de quelqu’un, je mettrais toute mon étude à rendre ce quelqu’un jaloux, et l’obliger à veiller, nuit, et jour, celle que je voudrais gagner.C’est un admirable moyen d’avancer ses affaires, et l’on ne tarde guères, à profiter du chagrin, et de la colère que donne à l’esprit d’une Femme, la contrainte et la servitude.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I06-24">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Si bien, donc, que si quelqu’un vous en contait, il vous trouverait disposée à recevoir ses vœux ?</p>
           </sp>
           <sp who="isidore" xml:id="I06-25">
@@ -445,7 +457,7 @@
             <p>Je ne vous dis rien là-dessus.Mais les Femmes, enfin, n’aiment pas qu’on les gêne ; et c’est beaucoup risquer, que de leur montrer des soupçons, et de les tenir renfermées.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I06-26">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Vous reconnaissez peu ce que vous me devez : et il me semble qu’une Esclave que l’on a affranchie, et dont on veut faire sa Femme....</p>
           </sp>
           <sp who="isidore" xml:id="I06-27">
@@ -453,7 +465,7 @@
             <p>Quelle obligation vous ai-je, si vous changez mon Esclavage en un autre beaucoup plus rude ? Si vous ne me laissez jouir d’aucune liberté, et me fatiguez, comme on voit, d’une garde continuelle ?</p>
           </sp>
           <sp who="dom-pedre" xml:id="I06-28">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Mais tout cela ne part que d’un excès d’amour.</p>
           </sp>
           <sp who="isidore" xml:id="I06-29">
@@ -461,7 +473,7 @@
             <p>Si c’est votre façon d’aimer, je vous prie de me haïr.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I06-30">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Vous êtes, aujourd’hui, dans une humeur désobligeante ; et je pardonne ces paroles au chagrin où vous pouvez être, de vous être levée matin.</p>
           </sp>
         </div>
@@ -470,16 +482,16 @@
           <stage>Don Pèdre, Hali, Isidore</stage>
           <stage>Hali, faisant plusieurs révérences à Don Pèdre.</stage>
           <sp who="dom-pedre" xml:id="I07-1">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Trêve aux cérémonies, que voulez-vous ?</p>
           </sp>
           <sp who="hali" xml:id="I07-2">
             <speaker>hali</speaker>
-            <stage>Il se retourne devers Isidore, à chaque parole qu’il dit à D. Pèdre : et lui fait des signes pour lui faire connaître le dessein de son Maître.</stage>
+            <stage>Il se retourne devers Isidore, à chaque parole qu’il dit à Don Pèdre : et lui fait des signes pour lui faire connaître le dessein de son Maître.</stage>
             <p>Signor (avec la permission de la Signore), je vous dirai (avec la permission de la Signore) que je viens vous trouver (avec la permission de la Signore) pour vous prier (avec la permission de la Signore) de vouloir bien (avec la permission de la Signore)...</p>
           </sp>
           <sp who="dom-pedre" xml:id="I07-3">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Avec la permission de la Signore, passez un peu de ce côté.</p>
           </sp>
           <sp who="hali" xml:id="I07-4">
@@ -487,7 +499,7 @@
             <p>Signor, je suis un Virtuose.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I07-5">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Je n’ai rien à donner.</p>
           </sp>
           <sp who="hali" xml:id="I07-6">
@@ -496,11 +508,11 @@
           </sp>
           <sp who="isidore" xml:id="I07-7">
             <speaker>isidore</speaker>
-            <p>C’est une chose à voir, et cela nous divertira.Faites-les-nous venir.</p>
+            <p>C’est une chose à voir, et cela nous divertira. Faites-les-nous venir.</p>
           </sp>
           <sp who="hali" xml:id="I07-8">
             <speaker>hali</speaker>
-            <p>Chala bala .... Voici une Chanson nouvelle, qui est du temps.Écoutez bien.Chala bala.</p>
+            <p><hi rend="i">Chala bala</hi> .... Voici une Chanson nouvelle, qui est du temps. Écoutez bien. <hi rend="i">Chala bala.</hi></p>
           </sp>
         </div>
         <div xml:id="I08" type="scene">
@@ -508,15 +520,17 @@
           <stage>Hali chante dans cette Scène : et les Esclaves dansent dans les intervalles de son chant.</stage>
           <stage>Hali <hi rend="i">et</hi> quatre Esclaves, Isidore, Don Pèdre</stage>
           <sp who="hali" xml:id="I08-1">
-            <speaker>hali chante.</speaker>
-            <l>D’un <hi rend="i">C</hi>œur ardent en tous lieux,</l>
-            <l>Un <hi rend="i">A</hi>mant suit une <hi rend="i">B</hi>elle ;</l>
-            <l>Mais d’un <hi rend="i">J</hi>aloux odieux,</l>
+            <speaker>hali <hi rend="i">chante.</hi></speaker>
+            <lg rend="i">
+            <l>D’un Cœur ardent en tous lieux,</l>
+            <l>Un Amant suit une Belle ;</l>
+            <l>Mais d’un Jaloux odieux,</l>
             <l>La vigilance éternelle,</l>
             <l>Fait qu’il ne peut que des yeux</l>
             <l>S’entretenir avec elle.</l>
             <l>Est-il peine plus cruelle</l>
-            <l>Pour un cœur bien amoureux ?</l>
+            <l>Pour un Cœur bien amoureux ?</l>
+            </lg>
             <l>Chiribirida ouch alla,</l>
             <l>Starbon Turca,</l>
             <l>Non aver danara</l>
@@ -528,16 +542,18 @@
             <l>Far boler caldara,</l>
             <l>Parlara, parlara,</l>
             <l>Ti voler comprara.</l>
-            <l>C’est un supplice, à tous coups,</l>
-            <l>Sous qui cet <hi rend="i">A</hi>mant expire :</l>
+            <lg rend="i">
+            <l>C’est un supplice à tous coups,</l>
+            <l>Sous qui cet Amant expire :</l>
             <l>Mais si d’un œil un peu doux,</l>
-            <l>La <hi rend="i">B</hi>elle voit son martyre,</l>
+            <l>La Belle voit son martyre,</l>
             <l>Et consent qu’aux yeux de tous,</l>
             <l>Pour ses attraits il soupire,</l>
             <l>Il pourrait, bientôt, se rire</l>
-            <l>De tous les soins du jalou<hi rend="i">x</hi>.</l>
-            <l>Chiribirida ouch alla !</l>
-            <l>Starbon turca,</l>
+            <l>De tous les soins du Jaloux.</l>
+            </lg>
+            <l>Chiribirida ouch alla,</l>
+            <l>Starbon Turca,</l>
             <l>Non aver danara</l>
             <l>Ti voler comprara,</l>
             <l>Mi servir a ti,</l>
@@ -549,19 +565,21 @@
             <l>Ti voler comprara.</l>
           </sp>
           <sp who="dom-pedre" xml:id="I08-2">
-            <speaker>d. pèdre</speaker>
-            <l>Savez-vous, mes <hi rend="i">D</hi>rôles,</l>
-            <l>Que cette <hi rend="i">C</hi>hanson</l>
+            <speaker>don pèdre</speaker>
+            <lg rend="i">
+            <l>Savez-vous, mes Drôles,</l>
+            <l>Que cette Chanson</l>
             <l>Sent, pour vos épaules,</l>
             <l>Les coups de bâton ?</l>
+            </lg>
             <l>Chiribirida ouch alla,</l>
             <l>Mi ti non comprara,</l>
             <l>Ma ti bastonara,</l>
             <l>Si, si, non andara,</l>
-            <l>andara, andara,</l>
+            <l>Andara, andara,</l>
             <l>O ti bastonara.</l>
             <p>Oh ! oh ! quels Égrillards ! Allons, rentrons ici, j’ai changé de pensée, et puis le temps se couvre un peu.</p>
-            <stage>(À Hali, qui paraît encore là). </stage>
+            <stage>À Hali, qui paraît encore là. </stage>
             <p>Ah ! Fourbe, que je vous y trouve.</p>
           </sp>
           <sp who="hali" xml:id="I08-3">
@@ -569,7 +587,7 @@
             <p>Hé bien oui, mon Maître l’adore ; il n’a point de plus grand désir que de lui montrer son amour ; et si elle y consent, il la prendra pour Femme.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I08-4">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Oui, oui, je la lui garde.</p>
           </sp>
           <sp who="hali" xml:id="I08-5">
@@ -577,7 +595,7 @@
             <p>Nous l’aurons, malgré vous.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I08-6">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Comment, Coquin...</p>
           </sp>
           <sp who="hali" xml:id="I08-7">
@@ -585,7 +603,7 @@
             <p>Nous l’aurons, dis-je, en dépit de vos dents.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I08-8">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Si je prends...</p>
           </sp>
           <sp who="hali" xml:id="I08-9">
@@ -593,7 +611,7 @@
             <p>Vous avez beau faire la garde, j’en ai juré, elle sera à nous.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I08-10">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Laisse-moi faire, je t’attraperai sans courir.</p>
           </sp>
           <sp who="hali" xml:id="I08-11">
@@ -633,7 +651,7 @@
           <head>SCÈNE X</head>
           <stage>Don Pèdre, Adraste</stage>
           <sp who="dom-pedre" xml:id="I10-1">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Que cherchez-vous, Cavalier, dans cette maison ?</p>
           </sp>
           <sp who="adraste" xml:id="I10-2">
@@ -645,15 +663,19 @@
             <p>Il prendra, s’il lui plaît, la peine de lire cette Lettre.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I10-5">
-            <speaker>d. pèdre<hi rend="i"> lit.</hi></speaker>
-            <p>Je vous envoie, au lieu de moi, pour le <hi rend="i">P</hi>ortrait que vous savez, ce <hi rend="i">Gentilhomme Français</hi>, qui, comme curieux d’obliger les honnêtes <hi rend="i">G</hi>ens, a bien voulu prendre ce soin, sur la proposition que je lui en ai faite.Il est, sans contredit, le premier <hi rend="i">H</hi>omme du <hi rend="i">M</hi>onde pour ces sortes d’ouvrages ; et j’ai cru que je ne pouvais rendre un service plus agréable, que de vous l’envoyer, dans le dessein que vous avez d’avoir un <hi rend="i">P</hi>ortrait achevé, de la <hi rend="i">P</hi>ersonne que vous aimez.Gardez-vous bien, surtout, de lui parler d’aucune récompense : car c’est un <hi rend="i">H</hi>omme qui s’en offenserait, et qui ne fait les choses que pour la gloire, et pour la réputation.</p>
+            <speaker>don pèdre <hi rend="i">lit.</hi></speaker>
+            <p rend="i">Je vous envoie, au lieu de moi, pour le Portrait que vous savez, ce Gentilhomme Français, qui, comme curieux d’obliger les honnêtes Gens, a bien voulu prendre ce soin, sur la proposition que je lui en ai faite. Il est, sans contredit, le premier Homme du Monde pour ces sortes d’Ouvrages ; et j’ai cru que je ne pouvais rendre un service plus agréable, que de vous l’envoyer, dans le dessein que vous avez d’avoir un Portrait achevé, de la Personne que vous aimez. Gardez-vous bien, surtout, de lui parler d’aucune récompense : car c’est un Homme qui s’en offenserait, et qui ne fait les choses que pour la gloire, et pour la réputation.</p>
+          </sp>
+          <sp who="dom-pedre">
+            <speaker>don pèdre, <hi rend="i">parlant au Français.</hi></speaker>
+            <p>Seigneur Français, c'est une grande grâce que vous me voulez faire ; et je vous suis fort obligé.</p>
           </sp>
           <sp who="adraste" xml:id="I10-6">
             <speaker>adraste</speaker>
             <p>Toute mon ambition est de rendre service aux Gens de nom, et de mérite.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I10-7">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Je vais faire venir la Personne dont il s’agit.</p>
           </sp>
         </div>
@@ -661,9 +683,9 @@
           <head>SCÈNE XI</head>
           <stage>Isidore, Don Pèdre, Adraste, <hi rend="i">et</hi> deux Laquais.</stage>
           <sp who="dom-pedre" xml:id="I11-1">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Voici un Gentilhomme que Damon nous envoie, qui se veut bien donner la peine de vous peindre.</p>
-            <stage>Adraste baise Isidore, en la saluant : et Don Pèdre lui dit. </stage>
+            <stage>Adraste baise Isidore, en la saluant : et <hi rend="sc">Don Pèdre</hi> lui dit.</stage>
             <p>Holà, Seigneur Français, cette façon de saluer n’est point d’usage en ce Pays.</p>
           </sp>
           <sp who="adraste" xml:id="I11-2">
@@ -671,7 +693,7 @@
             <p>C’est la manière de France.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I11-3">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>La manière de France est bonne pour vos Femmes ; mais pour les nôtres, elle est, un peu, trop familière.</p>
           </sp>
           <sp who="isidore" xml:id="I11-4">
@@ -703,7 +725,7 @@
             <p>Le Ciel, quoi que vous en disiez, ne ....</p>
           </sp>
           <sp who="dom-pedre" xml:id="I11-11">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Finissons cela, de grâce, laissons les compliments, et songeons au Portrait.</p>
           </sp>
           <sp who="adraste" xml:id="I11-12">
@@ -725,12 +747,12 @@
           </sp>
           <sp who="adraste" xml:id="I11-16">
             <speaker>adraste</speaker>
-            <p>Oui.Levez-vous un peu, s’il vous plaît ; Un peu plus de ce côté-là ; le Corps tourné ainsi ; la tête un peu levée, afin que la beauté du cou paraisse.Ceci un peu plus découvert.</p>
+            <p>Oui. Levez-vous un peu, s’il vous plaît ; Un peu plus de ce côté-là ; le Corps tourné ainsi ; la tête un peu levée, afin que la beauté du cou paraisse.Ceci un peu plus découvert.</p>
             <stage>Il parle de sa gorge.</stage>
-            <p>Bon.Là, un peu davantage ; encore tant soit peu.</p>
+            <p>Bon. Là, un peu davantage ; encore tant soit peu.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I11-17">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Il y a bien de la peine à vous mettre ; ne sauriez-vous vous tenir comme il faut ?</p>
           </sp>
           <sp who="isidore" xml:id="I11-18">
@@ -741,7 +763,7 @@
             <speaker>adraste</speaker>
             <p>Voilà qui va le mieux du Monde, et vous vous tenez à merveilles.</p>
             <stage>La faisant tourner un peu devers lui.</stage>
-            <p>Comme cela, s’il vous plaît.Le tout dépend des attitudes qu’on donne aux Personnes qu’on peint.</p>
+            <p>Comme cela, s’il vous plaît. Le tout dépend des attitudes qu’on donne aux Personnes qu’on peint.</p>
           </sp>
           <sp who="adraste" xml:id="I11-21">
             <speaker>adraste</speaker>
@@ -756,12 +778,14 @@
             <p>Il serait malaisé qu’on demandât cela du vôtre ; et vous avez des traits à qui fort peu d’autres ressemblent.Qu’ils ont de douceurs, et de charmes ! et qu’on court de risque à les peindre !</p>
           </sp>
           <sp who="dom-pedre" xml:id="I11-24">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Le nez me semble, un peu trop gros.</p>
           </sp>
           <sp who="adraste" xml:id="I11-25">
             <speaker>adraste</speaker>
-            <p>J’ai lu, je ne sais où, qu’Apelle peignit, autrefois, une Maîtresse d’Alexandre ; et qu’il en devint, la peignant, si éperdument amoureux, qu’il fut près d’en perdre la vie : de sorte qu’Alexandre, par générosité, lui céda l’Objet de ses vœux.Il parle à Dom Pèdre.Je pourrais faire, ici, ce qu’Apelle fit autrefois ; mais vous ne feriez pas, peut-être, ce que fit Alexandre.</p>
+            <p>J’ai lu, je ne sais où, qu’Apelle peignit, autrefois, une Maîtresse d’Alexandre ; et qu’il en devint, la peignant, si éperdument amoureux, qu’il fut près d’en perdre la vie : de sorte qu’Alexandre, par générosité, lui céda l’Objet de ses vœux.</p>
+            <stage>Il parle à Dom Pèdre.</stage>
+            <p>Je pourrais faire, ici, ce qu’Apelle fit autrefois ; mais vous ne feriez pas, peut-être, ce que fit Alexandre.</p>
           </sp>
           <sp who="isidore" xml:id="I11-26">
             <speaker>isidore</speaker>
@@ -772,7 +796,7 @@
             <p>On ne se trompe guère à ces sortes de choses ; et vous avez l’Esprit trop éclairé, pour ne pas voir de quelle source partent les choses qu’on vous dit.Oui, quand Alexandre serait ici, et que ce serait votre Amant, je ne pourrais m’empêcher de vous dire, que je n’ai rien vu de si beau que ce que je vois maintenant, et que ....</p>
           </sp>
           <sp who="dom-pedre" xml:id="I11-28">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Seigneur Français, vous ne devriez pas, ce me semble, parler ; cela vous détourne de votre Ouvrage.</p>
           </sp>
           <sp who="adraste" xml:id="I11-29">
@@ -782,9 +806,9 @@
         </div>
         <div xml:id="I12" type="scene">
           <head>SCÈNE XII</head>
-          <stage>Hali, vêtu en Espagnol, Don Pèdre, Adraste, Isidore</stage>
+          <stage>Hali, <hi rend="i">vêtu en Espagnol,</hi> Don Pèdre, Adraste, Isidore</stage>
           <sp who="dom-pedre" xml:id="I12-1">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Que veut cet Homme-là ? Et qui laisse monter les Gens, sans nous en venir avertir ?</p>
           </sp>
           <sp who="hali" xml:id="I12-2">
@@ -792,7 +816,7 @@
             <p>J’entre, ici, librement ; mais, entre Cavaliers, telle liberté est permise.Seigneur, suis-je connu de vous ?</p>
           </sp>
           <sp who="dom-pedre" xml:id="I12-3">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Non, Seigneur.</p>
           </sp>
           <sp who="hali" xml:id="I12-4">
@@ -800,7 +824,7 @@
             <p>Je suis D[om] Gilles d’Avalos ; et l’histoire d’Espagne vous doit avoir instruit de mon mérite.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I12-5">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Souhaitez-vous quelque chose de moi ?</p>
           </sp>
           <sp who="hali" xml:id="I12-6">
@@ -808,11 +832,11 @@
             <p>Oui, un conseil sur un Fait d’honneur : Je sais qu’en ces matières il est malaisé de trouver un Cavalier plus consommé que vous ; mais je vous demande pour grâce, que nous nous tirions à l’écart.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I12-7">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Nous voilà assez loin.</p>
           </sp>
           <sp who="adraste" xml:id="I12-8">
-            <speaker>adraste, regardant <hi rend="i">I</hi>sidore.</speaker>
+            <speaker>adraste, <hi rend="i">regardant Isidore.</hi></speaker>
             <p>Elle a les yeux bleus.</p>
           </sp>
           <sp who="hali" xml:id="I12-9">
@@ -820,7 +844,7 @@
             <p>Seigneur, j’ai reçu un Soufflet: Vous savez ce qu’est un soufflet, lorsqu’il se donne, à main ouverte, sur le beau milieu de la joue.J’ai ce Soufflet fort sur le cœur ; et je suis dans l’incertitude, si pour me venger de l’affront, je dois me battre avec mon Homme ; ou bien le faire assassiner.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I12-10">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Assassiner, c’est le plus court chemin.Quel est votre ennemi ?</p>
           </sp>
           <sp who="hali" xml:id="I12-11">
@@ -828,7 +852,7 @@
             <p>Parlons bas, s’il vous plaît.</p>
           </sp>
           <sp who="adraste" xml:id="I12-12">
-            <speaker>ADRASTE<hi rend="i"> aux genoux d’Isidore, pendant que D. Pèdre parle à Hali.</hi></speaker>
+            <speaker>adraste <hi rend="i">aux genoux d’Isidore, pendant que Don Pèdre parle à Hali.</hi></speaker>
             <p>Oui, charmante Isidore, mes regards vous le disent depuis plus de deux mois, et vous les avez entendus : je vous aime plus que tout ce que l’on peut aimer, et je n’ai point d’autre pensée, d’autre but, d’autre passion, que d’être à vous toute ma vie.</p>
           </sp>
           <sp who="isidore" xml:id="I12-13">
@@ -876,7 +900,7 @@
             <p>Lorsqu’on est, une fois, résolu sur la chose, s’arrête-t-on sur le temps ?</p>
           </sp>
           <sp who="dom-pedre" xml:id="I12-24">
-            <speaker>d. pèdre<hi rend="i">, à Hali.</hi></speaker>
+            <speaker>don pèdre<hi rend="i">, à Hali.</hi></speaker>
             <p>Voilà mon sentiment, et je vous baise les mains.</p>
           </sp>
           <sp who="hali" xml:id="I12-25">
@@ -884,15 +908,15 @@
             <p>Seigneur, quand vous aurez reçu quelque Soufflet, je suis Homme aussi de conseil, et je pourrai vous rendre la pareille.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I12-26">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Je vous laisse aller, sans vous reconduire : mais entre Cavaliers, cette liberté est permise.</p>
           </sp>
           <sp who="adraste" xml:id="I12-27">
             <speaker>adraste</speaker>
             <p>Non, il n’est rien qui puisse effacer de mon cœur les tendres témoignages...</p>
-            <stage>À Don Pèdre, apercevant Adraste, qui parle de près à Isidore.</stage>
-            <p>Je regardais ce petit trou qu’elle a au côté du menton : et je croyais, d’abord, que ce fût une tache.Mais c’est assez pour aujourd’hui, nous finirons une autre fois.</p>
-            <stage>Parlant à D. Pèdre.</stage>
+            <stage>Don Pèdre, apercevant Adraste, qui parle de près à Isidore.</stage>
+            <p>Je regardais ce petit trou qu’elle a au côté du menton : et je croyais, d’abord, que ce fût une tache. Mais c’est assez pour aujourd’hui, nous finirons une autre fois.</p>
+            <stage>Parlant à Don Pèdre.</stage>
             <p>Non, ne regardez rien encore ; faites serrer cela, je vous prie.</p>
             <stage>À Isidore.</stage>
             <p>Et vous, je vous conjure de ne vous relâcher point : et de garder un Esprit gai, pour le dessein que j’ai d’achever notre Ouvrage.</p>
@@ -910,7 +934,7 @@
             <p>Qu’en dites-vous ? Ce Gentilhomme me paraît le plus civil du Monde ; et l’on doit demeurer d’accord, que les Français ont quelque chose, en eux, de poli, de galant, que n’ont point les autres Nations.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I13-2">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Oui ; mais ils ont cela de mauvais, qu’ils s’émancipent un peu trop, et s’attachent, en étourdis, à conter des fleurettes à tout ce qu’ils rencontrent.</p>
           </sp>
           <sp who="isidore" xml:id="I13-3">
@@ -918,7 +942,7 @@
             <p>C’est qu’ils savent qu’on plaît aux Dames par ces choses.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I13-4">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Oui, mais, s’ils plaisent aux Dames, ils déplaisent fort aux Messieurs ; et l’on n’est point bien aise de voir sur sa moustache, cajoler hardiment, sa Femme, ou sa Maîtresse.</p>
           </sp>
           <sp who="isidore" xml:id="I13-5">
@@ -930,11 +954,11 @@
           <head>SCÈNE XIV.</head>
           <stage>Climène, Don Pèdre, Isidore</stage>
           <sp who="climene" xml:id="I14-1">
-            <speaker>climène, voilée.</speaker>
+            <speaker>climène, <hi rend="i">voilée.</hi></speaker>
             <p>Ah ! Seigneur Cavalier, sauvez-moi, s’il vous plaît, des mains d’un Mari furieux dont je suis poursuivie.Sa jalousie est incroyable, et passe dans ses mouvements tout ce qu’on peut imaginer.Il va jusques à vouloir que je sois, toujours, voilée ; et pour m’avoir trouvée le visage un peu découvert, il a mis l’épée à la main, et m’a réduite à me jeter chez vous, pour vous demander votre appui contre son injustice.Mais je le vois paraître.De grâce, Seigneur cavalier, sauvez-moi de sa fureur.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I14-2">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Entrez là-dedans, avec elle, et n’appréhendez rien.</p>
           </sp>
         </div>
@@ -942,7 +966,7 @@
           <head>SCÈNE XV</head>
           <stage>Adraste, Don Pèdre</stage>
           <sp who="dom-pedre" xml:id="I15-1">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Hé quoi ! Seigneur, c’est vous ? Tant de jalousie pour un Français ! Je pensais qu’il n’y eût que nous qui en fussions capables.</p>
           </sp>
           <sp who="adraste" xml:id="I15-2">
@@ -950,7 +974,7 @@
             <p>Les Français excellent toujours, dans toutes les choses qu’ils font ; et quand nous nous mêlons d’être jaloux, nous le sommes vingt fois plus qu’un Sicilien.L’Infâme, croit avoir trouvé, chez vous, un assuré refuge : mais vous êtes trop raisonnable, pour blâmer mon ressentiment.Laissez-moi, je vous prie, la traiter comme elle mérite.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I15-3">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Ah ! de grâce, arrêtez ; l’offense est trop petite, pour un courroux si grand.</p>
           </sp>
           <sp who="adraste" xml:id="I15-4">
@@ -958,7 +982,7 @@
             <p>La grandeur d’une telle offense, n’est pas dans l’importance des choses que l’on fait.Elle est à transgresser les ordres qu’on nous donne ; et sur de pareilles matières, ce qui n’est qu’une bagatelle, devient fort criminel lorsqu’il est défendu.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I15-5">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>De la façon qu’elle a parlé, tout ce qu’elle en a fait a été sans dessein ; et je vous prie, enfin, de vous remettre bien ensemble.</p>
           </sp>
           <sp who="adraste" xml:id="I15-6">
@@ -966,7 +990,7 @@
             <p>Hé quoi ! vous prenez son parti, vous qui êtes si délicat sur ces sortes de choses !</p>
           </sp>
           <sp who="dom-pedre" xml:id="I15-7">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Oui, je prends son parti ; et si vous voulez m’obliger, vous oublierez votre colère, et vous vous réconcilierez tous deux. C’est une grâce que je vous demande : et je la recevrai comme un essai de l’amitié que je veux qui soit entre nous.</p>
           </sp>
           <sp who="adraste" xml:id="I15-8">
@@ -978,7 +1002,7 @@
           <head>SCÈNE XVI</head>
           <stage>Climène, Adraste, Don Pèdre</stage>
           <sp who="dom-pedre" xml:id="I16-1">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Holà, venez ; Vous n’avez qu’à me suivre, et j’ai fait votre paix.Vous ne pouviez, jamais, mieux tomber que chez moi.</p>
           </sp>
           <sp who="climene" xml:id="I16-2">
@@ -986,15 +1010,15 @@
             <p>Je vous suis obligée plus qu’on ne saurait croire : mais je m’en vais prendre mon Voile ; je n’ai garde, sans lui, de paraître à ses yeux.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I16-3">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>La voici qui s’en va venir ; et son âme, je vous assure, a paru toute réjouie, lorsque je lui ai dit que j’avais raccommodé tout.</p>
           </sp>
         </div>
         <div xml:id="I17" type="scene">
           <head>SCÈNE XVII</head>
-          <stage>Isidore, sous le voile de Climène, Adraste, Don Pèdre</stage>
+          <stage>Isidore, <hi rend="i">sous le voile de Climène,</hi> Adraste, Don Pèdre</stage>
           <sp who="dom-pedre" xml:id="I17-1">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Puisque vous m’avez bien voulu donner votre ressentiment, trouvez bon qu’en ce lieu je vous fasse toucher dans la main l’un de l’autre, et que tous deux je vous conjure de vivre, pour l’amour de moi, dans une parfaite union.</p>
           </sp>
           <sp who="adraste" xml:id="I17-2">
@@ -1002,7 +1026,7 @@
             <p>Oui, je vous le promets, que, pour l’amour de vous, je m’en vais, avec elle, vivre le mieux du monde.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I17-3">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Vous m’obligez sensiblement, et j’en garderai la mémoire.</p>
           </sp>
           <sp who="adraste" xml:id="I17-4">
@@ -1010,7 +1034,7 @@
             <p>Je vous donne ma parole, Seigneur Dom Pèdre, qu’à votre considération je m’en vais la traiter du mieux qu’il me sera possible.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I17-5">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>C’est trop de grâce que vous me faites : il est bon de pacifier et d’adoucir toujours les choses.Holà, Isidore, venez.</p>
           </sp>
         </div>
@@ -1018,16 +1042,16 @@
           <head>SCÈNE XVIII</head>
           <stage>Climène, Don Pèdre</stage>
           <sp who="dom-pedre" xml:id="I18-1">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Comment ! que veut dire cela ?</p>
           </sp>
           <sp who="climene" xml:id="I18-2">
-            <speaker>climène, sans voile.</speaker>
+            <speaker>climène, <hi rend="i">sans Voile.</hi></speaker>
             <p>Ce que cela veut dire ? Qu’un Jaloux est un Monstre haï de tout le Monde ; et qu’il n’y a Personne qui ne soit ravi de lui nuire, n’y eût-il point d’autre intérêt : Que toutes les Serrures et les Verrous du Monde, ne retiennent point les Personnes ; et que c’est le cœur qu’il faut arrêter par la douceur et par la complaisance : Qu’Isidore est entre les mains du Cavalier qu’elle aime, et que vous êtes pris pour Dupe.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I18-3">
-            <speaker>dom pèdre</speaker>
-            <p>Dom Pèdre souffrira cette injure mortelle ! Non, non, j’ai trop de cœur, et je vais demander l’appui de la justice, pour pousser le Perfide à bout.C’est ici le Logis d’un Sénateur.Holà ?</p>
+            <speaker>don pèdre</speaker>
+            <p>Dom Pèdre souffrira cette injure mortelle ! Non, non, j’ai trop de cœur, et je vais demander l’appui de la justice, pour pousser le Perfide à bout.C’est ici le Logis d’un Sénateur. Holà ?</p>
           </sp>
         </div>
         <div xml:id="I19" type="scene">
@@ -1038,7 +1062,7 @@
             <p>Serviteur, Seigneur Dom Pèdre.Que vous venez à propos !</p>
           </sp>
           <sp who="dom-pedre" xml:id="I19-2">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Je viens me plaindre à vous d’un affront qu’on m’a fait.</p>
           </sp>
           <sp who="le-senateur" xml:id="I19-3">
@@ -1046,7 +1070,7 @@
             <p>J’ai fait une Mascarade la plus belle du Monde.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I19-4">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Un traître de Français m’a joué une Pièce.</p>
           </sp>
           <sp who="le-senateur" xml:id="I19-5">
@@ -1054,7 +1078,7 @@
             <p>Vous n’avez, dans votre vie, jamais rien vu de si beau.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I19-6">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Il m’a enlevé une Fille que j’avais affranchie.</p>
           </sp>
           <sp who="le-senateur" xml:id="I19-7">
@@ -1062,7 +1086,7 @@
             <p>Ce sont Gens vêtus en Maures, qui dansent admirablement.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I19-8">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Vous voyez si c’est une injure qui se doive souffrir.</p>
           </sp>
           <sp who="le-senateur" xml:id="I19-9">
@@ -1070,7 +1094,7 @@
             <p>Des Habits merveilleux, et qui sont faits exprès.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I19-10">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Je vous demande l’appui de la Justice contre cette action.</p>
           </sp>
           <sp who="le-senateur" xml:id="I19-11">
@@ -1078,7 +1102,7 @@
             <p>Je veux que vous voyiez cela ; on la va répéter pour en donner le divertissement au Peuple.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I19-12">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Comment ! de quoi parlez-vous là ?</p>
           </sp>
           <sp who="le-senateur" xml:id="I19-13">
@@ -1086,7 +1110,7 @@
             <p>Je parle de ma Mascarade.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I19-14">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>Je vous parle de mon Affaire.</p>
           </sp>
           <sp who="le-senateur" xml:id="I19-15">
@@ -1094,7 +1118,7 @@
             <p>Je ne veux point, aujourd’hui, d’autres affaires que de plaisir.Allons, Messieurs, venez ; voyons si cela ira bien.</p>
           </sp>
           <sp who="dom-pedre" xml:id="I19-16">
-            <speaker>dom pèdre</speaker>
+            <speaker>don pèdre</speaker>
             <p>La peste soit du Fou, avec sa Mascarade.</p>
           </sp>
           <sp who="le-senateur" xml:id="I19-17">
@@ -1104,7 +1128,7 @@
         </div>
         <div xml:id="I20">
           <head>SCÈNE DERNIÈRE</head>
-          <p>Plusieurs Maures font une Danse entre eux, par où finit la Comédie.</p>
+          <stage>Plusieurs Maures font une Danse entre eux, par où finit la Comédie.</stage>
           <label>FIN</label>
         </div>
       </div>
