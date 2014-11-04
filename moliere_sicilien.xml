@@ -4,14 +4,17 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LE SICILIEN OU L’AMOUR PEINTRE, COMÉDIE</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1655</date>
+        <title>Le Sicilien, ou l'Amour peintre. Comédie</title>
+        <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
-        <p>publié par Paul FIEVRE Octobre 2011</p>
-        <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_sicilien/</idno>
+        <date when="2011"/>
+        <date when="2014"/>
+        <publisher>Publié par Paul Fièvre en octobre 2011, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>        <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_sicilien/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_sicilien.xml</idno>
+        <availability status="restricted">
+          <licence target="projet-Molière"/>
+        </availability>
       </publicationStmt>
       <sourceDesc>
         <genre>Comédie</genre>
@@ -29,56 +32,56 @@
         </sources>
       </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1668"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
+      <titlePage>
       <docTitle>
-        <titlePart type="main">LE SICILIEN </titlePart>
-        <titlePart type="sub">OU L’AMOUR PEINTRE</titlePart>
+        <titlePart type="main">LE <lb/>SICILIEN,</titlePart>
+        <titlePart type="sub">OU <lb/> L’AMOUR<lb/> PEINTRE</titlePart>
         <titlePart type="sub">COMÉDIE</titlePart>
       </docTitle>
-      <docDate value="1655">M. DC LXVIII. AVEC PRIILÈGE DU ROI</docDate>
-      <docAuthor id="MOLIERE" bio="moliere">par J.B.P. DE MOLIÈRE</docAuthor>
-      <docImprint>
-        <privilege id="16**-**-**"/>
-        <acheveImprime id="16**-**-**"/>
-        <printer id="">À PARIS, Chez Jean Ribou, au Palais, vis à vis de la Sainte Chapelle, à l’Image Saint-Louis.</printer>
-      </docImprint>
-      <performance>
-        <premiere date="1667-01-05" location="Château de Saint-Germain-en-Laye">Représenté pour la première fois à Saint-Germain-en-Laye le 5 janvier 1667.</premiere>
-      </performance>
-      <castList>
+        <docAuthor id="MOLIERE" bio="moliere">PAR J. B. P. DE MOLIÈRE</docAuthor>
+        <docImprint>À PARIS, <lb/>Chez Jean Ribou, au Palais, vis à vis <lb/>la Porte de la Sainte Chapelle, <lb/>à l’Image Saint-Louis. <lb/>M. DC. LXVIII.<lb/> <hi rend="i">AVEC PRIVILÈGE DU ROI</hi></docImprint>
+      </titlePage>
+      <div>
         <head>ACTEURS</head>
-        <castItem><role xml:id="adraste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ADRASTE</role>, gentilhomme français, amant d’Isidore.</castItem>
-        <castItem><role xml:id="dom-pedre" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">DOM PÈDRE</role>, Sicilien, amant d’Isidore.</castItem>
-        <castItem><role xml:id="isidore" civil="M" type="H" statut="esclave" age="A" stat_amour="néant">ISIDORE</role>, Grecque, esclave de Dom Pèdre.</castItem>
-        <castItem><role xml:id="climene" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">CLIMÈNE</role>, sœur d’Adraste.</castItem>
-        <castItem><role xml:id="hali" civil="M" type="H" statut="valet" age="A" stat_amour="néant">HALI</role>, valet d’Adraste.</castItem>
+      <castList>
+        <castItem><role xml:id="adraste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ADRASTE</role>, Gentilhomme Français, Amant d’Isidore.</castItem>
+        <castItem><role xml:id="dom-pedre" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">DON PÈDRE</role>, Sicilien, Amant d’Isidore.</castItem>
+        <castItem><role xml:id="isidore" civil="M" type="H" statut="esclave" age="A" stat_amour="néant">ISIDORE</role>, Grecque, Esclave de Dom Pèdre.</castItem>
+        <castItem><role xml:id="climene" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">CLIMÈNE</role>, Sœur d’Adraste.</castItem>
+        <castItem><role xml:id="hali" civil="M" type="H" statut="valet" age="A" stat_amour="néant">HALI</role>, Valet d’Adraste.</castItem>
         <castItem><role xml:id="le-senateur" civil="M" type="H" statut="sénateur" age="A" stat_amour="néant">LE SÉNATEUR</role>.</castItem>
-        <castItem><role xml:id="musicien1" civil="G" type="H" statut="musicien" age="A" stat_amour="néant">LES MUSICIENS</role>.</castItem>
-        <castItem><role xml:id="troupe-d-esclaves" civil="G" type="H" statut="esclave" age="A" stat_amour="néant">TROUPE D’ESCLAVES</role>.<role xml:id="musicien2"/><role xml:id="musicien3"/></castItem>
+        <castItem><role xml:id="musicien1" civil="G" type="H" statut="musicien" age="A" stat_amour="néant">LES MUSICIENS</role>.<role xml:id="musicien2"/><role xml:id="musicien3"/></castItem>
+        <castItem><role xml:id="troupe-d-esclaves" civil="G" type="H" statut="esclave" age="A" stat_amour="néant">TROUPE D’ESCLAVES</role>.</castItem>
         <castItem><role xml:id="troupe-de-maures" civil="M" type="H" statut="maure" age="A" stat_amour="néant">TROUPE DE MAURES</role>.</castItem>
         <castItem><role xml:id="deux-laquais" civil="G" type="H" statut="laquais" age="A" stat_amour="néant">DEUX LAQUAIS</role>.</castItem>
       </castList>
-      <set location="Sicile" country="Italie" periode="XVIIème" link="">La scène est Sicile.</set>
+      </div>
     </front>
     <body>
       <div>
-        <head>LE SICILIEN
-<lb/>OU
-<lb/>L’AMOUR PEINTRE
-<lb/>COMÉDIE</head>
+        <head>LE SICILIEN <lb/>OU <lb/>L’AMOUR PEINTRE <lb/>COMÉDIE</head>
         <div xml:id="I" type="scene">
-          <head>SCÈNE <hi rend="i">I.</hi></head>
-          <stage>HALI, MUSICIENS.</stage>
+          <head>SCÈNE I</head>
+          <stage>Hali, Musiciens</stage>
           <sp who="hali" xml:id="I01-1">
             <speaker>hali, <hi rend="i">aux musiciens.</hi></speaker>
             <p>Chut … N’avancez pas davantage, et demeurez dans cet endroit jusqu’à ce que je vous appelle.Il fait noir comme dans un Four; Le ciel s’est habillé, ce soir, en Scaramouche ; et je ne vois pas une Étoile qui montre le bout de son nez.Sotte condition que celle d’un Esclave ! de ne vivre jamais pour soi, et d’être, toujours, tout entier aux passions d’un Maître ! de n’être réglé que par ses humeurs, et de se voir réduit à faire ses propres affaires de tous les soucis qu’il peut prendre ! Le mien me fait, ici, épouser ses inquiétudes ; et parce qu’il est Amoureux, il faut que nuit, et jour, je n’aie aucun repos.Mais voici des Flambeaux, et, sans doute, c’est lui.</p>
           </sp>
         </div>
         <div xml:id="I02" type="scene">
-          <head>SCÈNE II.</head>
-          <stage>ADRASTE et Deux Laquais, hali</stage>
+          <head>SCÈNE II</head>
+          <stage>Adraste et Deux Laquais, Hali</stage>
           <sp who="adraste" xml:id="I02-1">
             <speaker>adraste</speaker>
             <p>Est-ce toi, Hali ?</p>
@@ -165,10 +168,10 @@
           </sp>
         </div>
         <div xml:id="I03" type="scene">
-          <head>SCÈNE III.</head>
-          <stage>Chantée par trois Musiciens.</stage>
+          <head>SCÈNE III</head>
+          <stage>Chantée par trois Musiciens</stage>
           <sp who="musicien1" xml:id="I03-1">
-            <speaker>1er. musicien</speaker>
+            <speaker>premier musicien</speaker>
             <l>Si du triste récit de mon inquiétude,</l>
             <l>Je trouble le repos de votre <hi rend="i">S</hi>olitude,</l>
             <l>Rochers, ne soyez point fâchés;<hi rend="i"/></l>
@@ -177,7 +180,7 @@
             <l>Vous en serez touchés.</l>
           </sp>
           <sp who="musicien2" xml:id="I03-2">
-            <speaker>2<hi rend="sup">ème</hi>. musicien</speaker>
+            <speaker>deuxième musicien</speaker>
             <l>Les <hi rend="i">O</hi>iseaux réjouis, dès que le jour s’avance,</l>
             <l>Recommencent leurs chants dans ces vastes <hi rend="i">F</hi>orêts ;</l>
             <l>Et moi j’y recommence</l>
@@ -185,23 +188,23 @@
             <l>Ah ! <hi rend="i">m</hi>on cher Philène.</l>
           </sp>
           <sp who="musicien1" xml:id="I03-3">
-            <speaker>1er. musicien</speaker>
+            <speaker>premier musicien</speaker>
             <l>Ah ! <hi rend="i">m</hi>on cher Tirsis</l>
           </sp>
           <sp who="musicien2" xml:id="I03-4">
-            <speaker>2<hi rend="sup">ème</hi>. musicien</speaker>
+            <speaker>deuxième musicien</speaker>
             <l>Que je sens de peine !</l>
           </sp>
           <sp who="musicien1" xml:id="I03-5">
-            <speaker>1er. musicien</speaker>
+            <speaker>premier musicien</speaker>
             <l>Que j’ai de soucis !</l>
           </sp>
           <sp who="musicien2" xml:id="I03-6">
-            <speaker>2<hi rend="sup">ème.</hi> musicien</speaker>
+            <speaker>deuxième musicien</speaker>
             <l>Toujours sourde à mes vœux est l’ingrate Climène.</l>
           </sp>
           <sp who="musicien1" xml:id="I03-7">
-            <speaker>1er. musicien</speaker>
+            <speaker>premier musicien</speaker>
             <l>Cloris n’a point, pour moi, de regards adoucis.</l>
           </sp>
           <sp who="musicien1 musicien2" xml:id="I03-8">
@@ -211,7 +214,7 @@
             <l>Pourquoi leur laisses-tu le pouvoir de charmer ?</l>
           </sp>
           <sp who="musicien3" xml:id="I03-9">
-            <speaker>3<hi rend="sup">ème</hi>. musicien</speaker>
+            <speaker>troisième musicien</speaker>
             <l>Pauvres amants, quelle erreur</l>
             <l>D’adorer des inhumaines ?</l>
             <l>Jamais les <hi rend="i">Â</hi>mes bien saines</l>
@@ -226,7 +229,7 @@
             <l>Ma foi, je suis tigre auss<hi rend="i">i</hi>.</l>
           </sp>
           <sp who="musicien1 musicien2" xml:id="I03-10">
-            <speaker>1er et 2<hi rend="sup">ème</hi>. musicien</speaker>
+            <speaker>premier et deuxième musicien</speaker>
             <l>Heureux, hélas ! <hi rend="i">q</hi>ui peut aimer ainsi.</l>
           </sp>
           <sp who="hali" xml:id="I03-11">
@@ -239,8 +242,8 @@
           </sp>
         </div>
         <div xml:id="I04" type="scene">
-          <head>SCÈNE IV.</head>
-          <stage>DOM PÈDRE, ADRASTE, hali</stage>
+          <head>SCÈNE IV</head>
+          <stage>Don Pèdre, Adraste, Hali</stage>
           <sp who="dom-pedre" xml:id="I04-1">
             <speaker>d. pèdre, sortant en <hi rend="i">B</hi>onnet de nuit, et <hi rend="i">R</hi>obe de <hi rend="i">C</hi>hambre, avec une <hi rend="i">É</hi>pée sous son bras.</speaker>
             <p>Il y a quelque temps que j’entends chanter à ma Porte ; et, sans doute, cela ne se fait pas pour rien.Il faut que, dans l’obscurité, je tâche à découvrir quelles Gens ce peuvent être.</p>
@@ -295,8 +298,8 @@
           </sp>
         </div>
         <div xml:id="I05" type="scene">
-          <head>SCÈNE V.</head>
-          <stage>ADRASTE, hali</stage>
+          <head>SCÈNE V</head>
+          <stage>Adraste, Hali</stage>
           <sp who="adraste" xml:id="I05-1">
             <speaker>adraste</speaker>
             <p>Je n’entends remuer Personne.Hali ? Hali ?</p>
@@ -339,8 +342,8 @@
           </sp>
         </div>
         <div xml:id="I06" type="scene">
-          <head>SCÈNE VI.</head>
-          <stage>DOM PÈDRE, ISIDORE</stage>
+          <head>SCÈNE VI</head>
+          <stage>Don Pèdre, Isidore</stage>
           <sp who="isidore" xml:id="I06-1">
             <speaker>isidore</speaker>
             <p>Je ne sais pas quel plaisir vous prenez à me réveiller si matin ; cela s’ajuste assez mal, ce me semble, au dessein que vous avez pris de me faire peindre aujourd’hui ; et ce n’est guère pour avoir le teint frais, et les yeux brillants, que se lever ainsi dès la pointe du jour.</p>
@@ -463,9 +466,9 @@
           </sp>
         </div>
         <div xml:id="I07" type="scene">
-          <head>SCÈNE VII.</head>
-          <stage>DOM PÈDRE, HALI, ISIDORE</stage>
-          <stage>Hali, faisant plusieurs révérences à Dom Pèdre.</stage>
+          <head>SCÈNE VII</head>
+          <stage>Don Pèdre, Hali, Isidore</stage>
+          <stage>Hali, faisant plusieurs révérences à Don Pèdre.</stage>
           <sp who="dom-pedre" xml:id="I07-1">
             <speaker>dom pèdre</speaker>
             <p>Trêve aux cérémonies, que voulez-vous ?</p>
@@ -501,9 +504,9 @@
           </sp>
         </div>
         <div xml:id="I08" type="scene">
-          <head>SCÈNE VIII.</head>
+          <head>SCÈNE VIII</head>
           <stage>Hali chante dans cette Scène : et les Esclaves dansent dans les intervalles de son chant.</stage>
-          <stage>HALI ET QUATRE ESCLAVES, ISIDORE, DOM PÈDRE.</stage>
+          <stage>Hali <hi rend="i">et</hi> quatre Esclaves, Isidore, Don Pèdre</stage>
           <sp who="hali" xml:id="I08-1">
             <speaker>hali chante.</speaker>
             <l>D’un <hi rend="i">C</hi>œur ardent en tous lieux,</l>
@@ -599,8 +602,8 @@
           </sp>
         </div>
         <div xml:id="I09" type="scene">
-          <head>SCÈNE IX.</head>
-          <stage>ADRASTE, HALI</stage>
+          <head>SCÈNE IX</head>
+          <stage>Adraste, Hali</stage>
           <sp who="hali" xml:id="I09-1">
             <speaker>hali</speaker>
             <p>Monsieur, j’ai, déjà, fait quelque petite tentative, mais je ....</p>
@@ -627,8 +630,8 @@
           </sp>
         </div>
         <div xml:id="I10" type="scene">
-          <head>SCÈNE X.</head>
-          <stage>DOM PÈDRE, ADRASTE</stage>
+          <head>SCÈNE X</head>
+          <stage>Don Pèdre, Adraste</stage>
           <sp who="dom-pedre" xml:id="I10-1">
             <speaker>dom pèdre</speaker>
             <p>Que cherchez-vous, Cavalier, dans cette maison ?</p>
@@ -655,12 +658,12 @@
           </sp>
         </div>
         <div xml:id="I11" type="scene">
-          <head>SCÈNE XI.</head>
-          <stage>ISIDORE, DOM PÈDRE, ADRASTE, et deux Laquais.</stage>
+          <head>SCÈNE XI</head>
+          <stage>Isidore, Don Pèdre, Adraste, <hi rend="i">et</hi> deux Laquais.</stage>
           <sp who="dom-pedre" xml:id="I11-1">
             <speaker>dom pèdre</speaker>
             <p>Voici un Gentilhomme que Damon nous envoie, qui se veut bien donner la peine de vous peindre.</p>
-            <stage>Adraste baise Isidore, en la saluant : et Dom Pèdre lui dit. </stage>
+            <stage>Adraste baise Isidore, en la saluant : et Don Pèdre lui dit. </stage>
             <p>Holà, Seigneur Français, cette façon de saluer n’est point d’usage en ce Pays.</p>
           </sp>
           <sp who="adraste" xml:id="I11-2">
@@ -778,8 +781,8 @@
           </sp>
         </div>
         <div xml:id="I12" type="scene">
-          <head>SCÈNE XII.</head>
-          <stage>HALI, vêtu en Espagnol, DOM PÈDRE, ADRASTE, isidore</stage>
+          <head>SCÈNE XII</head>
+          <stage>Hali, vêtu en Espagnol, Don Pèdre, Adraste, Isidore</stage>
           <sp who="dom-pedre" xml:id="I12-1">
             <speaker>dom pèdre</speaker>
             <p>Que veut cet Homme-là ? Et qui laisse monter les Gens, sans nous en venir avertir ?</p>
@@ -887,7 +890,7 @@
           <sp who="adraste" xml:id="I12-27">
             <speaker>adraste</speaker>
             <p>Non, il n’est rien qui puisse effacer de mon cœur les tendres témoignages...</p>
-            <stage>À Dom Pèdre, apercevant Adraste, qui parle de près à Isidore.</stage>
+            <stage>À Don Pèdre, apercevant Adraste, qui parle de près à Isidore.</stage>
             <p>Je regardais ce petit trou qu’elle a au côté du menton : et je croyais, d’abord, que ce fût une tache.Mais c’est assez pour aujourd’hui, nous finirons une autre fois.</p>
             <stage>Parlant à D. Pèdre.</stage>
             <p>Non, ne regardez rien encore ; faites serrer cela, je vous prie.</p>
@@ -900,8 +903,8 @@
           </sp>
         </div>
         <div xml:id="I13" type="scene">
-          <head>SCÈNE XIII.</head>
-          <stage>DOM PÈDRE, ISIDORE</stage>
+          <head>SCÈNE XIII</head>
+          <stage>Don Pèdre, Isidore</stage>
           <sp who="isidore" xml:id="I13-1">
             <speaker>isidore</speaker>
             <p>Qu’en dites-vous ? Ce Gentilhomme me paraît le plus civil du Monde ; et l’on doit demeurer d’accord, que les Français ont quelque chose, en eux, de poli, de galant, que n’ont point les autres Nations.</p>
@@ -925,7 +928,7 @@
         </div>
         <div xml:id="I14" type="scene">
           <head>SCÈNE XIV.</head>
-          <stage>CLIMÈNE, DOM PÈDRE, isidore</stage>
+          <stage>Climène, Don Pèdre, Isidore</stage>
           <sp who="climene" xml:id="I14-1">
             <speaker>climène, voilée.</speaker>
             <p>Ah ! Seigneur Cavalier, sauvez-moi, s’il vous plaît, des mains d’un Mari furieux dont je suis poursuivie.Sa jalousie est incroyable, et passe dans ses mouvements tout ce qu’on peut imaginer.Il va jusques à vouloir que je sois, toujours, voilée ; et pour m’avoir trouvée le visage un peu découvert, il a mis l’épée à la main, et m’a réduite à me jeter chez vous, pour vous demander votre appui contre son injustice.Mais je le vois paraître.De grâce, Seigneur cavalier, sauvez-moi de sa fureur.</p>
@@ -936,8 +939,8 @@
           </sp>
         </div>
         <div xml:id="I15" type="scene">
-          <head>SCÈNE XV.</head>
-          <stage>ADRASTE, DOM PÈDRE.</stage>
+          <head>SCÈNE XV</head>
+          <stage>Adraste, Don Pèdre</stage>
           <sp who="dom-pedre" xml:id="I15-1">
             <speaker>dom pèdre</speaker>
             <p>Hé quoi ! Seigneur, c’est vous ? Tant de jalousie pour un Français ! Je pensais qu’il n’y eût que nous qui en fussions capables.</p>
@@ -972,8 +975,8 @@
           </sp>
         </div>
         <div xml:id="I16" type="scene">
-          <head>SCÈNE XVI.</head>
-          <stage>CLIMÈNE, ADRASTE, DOM PÈDRE.</stage>
+          <head>SCÈNE XVI</head>
+          <stage>Climène, Adraste, Don Pèdre</stage>
           <sp who="dom-pedre" xml:id="I16-1">
             <speaker>dom pèdre</speaker>
             <p>Holà, venez ; Vous n’avez qu’à me suivre, et j’ai fait votre paix.Vous ne pouviez, jamais, mieux tomber que chez moi.</p>
@@ -988,8 +991,8 @@
           </sp>
         </div>
         <div xml:id="I17" type="scene">
-          <head>SCÈNE XVII.</head>
-          <stage>ISIDORE, sous le voile de Climène, ADRASTE, DOM PÈDRE.</stage>
+          <head>SCÈNE XVII</head>
+          <stage>Isidore, sous le voile de Climène, Adraste, Don Pèdre</stage>
           <sp who="dom-pedre" xml:id="I17-1">
             <speaker>dom pèdre</speaker>
             <p>Puisque vous m’avez bien voulu donner votre ressentiment, trouvez bon qu’en ce lieu je vous fasse toucher dans la main l’un de l’autre, et que tous deux je vous conjure de vivre, pour l’amour de moi, dans une parfaite union.</p>
@@ -1012,8 +1015,8 @@
           </sp>
         </div>
         <div xml:id="I18" type="scene">
-          <head>SCÈNE XVIII.</head>
-          <stage>CLIMÈNE, DOM PÈDRE.</stage>
+          <head>SCÈNE XVIII</head>
+          <stage>Climène, Don Pèdre</stage>
           <sp who="dom-pedre" xml:id="I18-1">
             <speaker>dom pèdre</speaker>
             <p>Comment ! que veut dire cela ?</p>
@@ -1028,8 +1031,8 @@
           </sp>
         </div>
         <div xml:id="I19" type="scene">
-          <head>SCÈNE XIX.</head>
-          <stage>LE SÉNATEUR, DOM PÈDRE.</stage>
+          <head>SCÈNE XIX</head>
+          <stage>Le Sénateur, Don Pèdre</stage>
           <sp who="le-senateur" xml:id="I19-1">
             <speaker>le sénateur</speaker>
             <p>Serviteur, Seigneur Dom Pèdre.Que vous venez à propos !</p>
@@ -1100,19 +1103,11 @@
           </sp>
         </div>
         <div xml:id="I20">
-          <head>SCÈNE DERNIÈRE.</head>
-          <p>Plusieurs Maures font une <hi rend="i">D</hi>anse entre eux, par où finit la <hi rend="i">Comédie</hi>.</p>
+          <head>SCÈNE DERNIÈRE</head>
+          <p>Plusieurs Maures font une Danse entre eux, par où finit la Comédie.</p>
+          <label>FIN</label>
         </div>
       </div>
     </body>
-    <back>
-      <div>
-        <head>PRIVILÈGE DU ROI.</head>
-        <p>LOUIS par la Grace de Dieu, Roi de France &amp; de Navarre : A nos amés &amp; féaux Conseillers les Gens tenants nos Cours du Parlement, Maîtres de Requêtes ordinaires de Notre Hôtel, Baillis, Sénéchaux, leurs Lieutenants, &amp; tous autres nos Justiciers et Officiers qu’il appartiendra, Salut. I.B.P. POQUELIN DE MOLIÈRE, Comédien de la Troupe de notre très cher &amp; très amé frère Unique le Duc d’Orléans, Nous a fait exposer, qu’il aurait depuis peu composé pour notre divertissement, une pièce de Théâtre qui est intitulée LE SICILIEN, belle &amp; très agréable, laquelle il désirerait faire imprimer, Mais comme il serait arrivé qu’en ayant ci-devant composé quelques autres, aucunes d’icelles auraient été prises &amp; transcrites par des Particuliers , qui les ont fait imprimer, vendre, &amp; débiter, en vertu des Lettres de Privilège qu’ils auraient surprises en notre Grande Chancellerie, à son préjudice et dommage, pour raison de quoi il a eu Instance en notre Conseil jugée à l’encontre d’un Libraire, en faveur de l’Exposant ; lequel craignant que celle-ci ne lui soit pareillement prise, et que par ce moyen il ne soit privé du fruit qu’il en peut retirer, Nous aurait requis lui accorder nos Lettres, avec les défenses sur ce nécessaires. A CES CAUSES, désirant favorablement traiter l’Exposant, Nous lui avons permis et permettons par ces Présentes, de faire imprimer la Pièce par tel des Imprimeurs par Nous réservés que bon lui semblera, &amp; icelle vendre &amp; débiter en tous les Lieux de notre Royaume qu’il désirera, durant l’espace de Cinq années, à commencer du jour qu’elle sera achevée d’imprimer pour la première fois, à condition qu’il en sera mis deux Exemplaires en notre Bibliothèque publique, un en celle de notre Château du Louvre, et un en celle de notre très cher et féal chevalier Chancelier de France, le Sieur Séguier, avant que de l’exposer en vente, à peine de nullité des Présentes : pendant lequel temps faisons défenses à toutes Personnes, de quelque qualité &amp; condition qu’elles soient, de l’imprimer, ni faire imprimer, vendre ni débiter, en Aucun Lieu de notre obéissance sous quelque prétexte que ce soit, sans le consentement de l’Exposant, ou de ceux ayant droit de lui, à peine de confiscation des Exemplaires, quinze cents livres d’amende, applicables un tiers à l’Hôpital Général, un tiers audit Exposant, &amp; de tous dépens, dommages, &amp; intérêts : Voulons en outre, qu’en mettant un Extrait des Présentes au commencement ou à la fin de chacun Exemplaire, comme aussi qu’aux Copies des présentes collationnées par l’un de nos amés et féaux Secrétaires, foi soit ajoutée comme à l’Original. Commandons au premier notre Huissier ou Sergent sur ce requis, faire pour l’exécution des Présentes, tous Exploits nécessaires, sans pour ce demander autre permission : CAR TEL EST NOTRE PLAISIR. Donné à Paris le dernier jour d’Octobre, l’an de grâce mil six cent soixante-sept. Et de notre Règne le vingt-cinquième. Signé ; par le Roi en son Conseil, TRUCHOT. Et scellé.</p>
-        <p rend="i">Registre sur le livre de la Communauté, suivant l’Arrêt de la Cour de Parlement.</p>
-        <p rend="i">Ledit SIEUR DE MOLIÈRE a cédé &amp; transporté son droit de privilège à JEAN RIBOU Marchand Libraire à Paris, pour en jouir le temps porté par icelui, suivant l’accord fait entre eux.</p>
-        <p rend="i">Achevé  d’imprimer pour la première fois le 9. Novembre 1667.</p>
-      </div>
-    </back>
   </text>
 </TEI>
