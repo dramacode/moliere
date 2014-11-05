@@ -4,14 +4,18 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LE MARIAGE FORCÉ, COMÉDIE-BALLET.</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1664</date>
+        <title>Le Mariage forcé, Comédie-ballet.</title>
+        <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
-        <p>publié par Paul FIEVRE, mars 2010.</p>
+        <date when="2010"/>
+        <date when="2014"/>
+        <publisher>Publié par Paul Fièvre en mars 2010, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>  
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_mariage-force/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_mariage-force.xml</idno>
+        <availability status="restricted">
+          <licence target="projet-Molière"/>
+        </availability>
       </publicationStmt>
       <sourceDesc>
         <genre>Comédie-ballet</genre>
@@ -29,45 +33,45 @@
         </sources>
       </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1668"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
+      <titlePage>
       <docTitle>
-        <titlePart type="main">LE MARIAGE FORCÉ</titlePart>
-        <titlePart type="sub">COMÉDIE.</titlePart>
+        <titlePart type="main">LE <lb/>MARIAGE <lb/>FORCÉ</titlePart>
+        <titlePart type="sub">COMÉDIE</titlePart>
       </docTitle>
-      <docDate value="1668">M. DC. LXVIII. avec privilège de Sa Majesté.</docDate>
-      <docAuthor id="MOLIERE" bio="moliere">par J.B.P. de MOLIÈRE</docAuthor>
+        <docAuthor id="MOLIERE" bio="moliere">Par J. B. P. DE MOLIÈRE</docAuthor>
+        <docImprint>À PARIS, <lb/>Chez JEAN RIBOU, au Palais, <lb/>vis-à-vis la Porte de l'Église <lb/> de la Sainte-Chapelle, <lb/>à l'Image Saint-Louis <lb/>M. DC. LXVIII. <lb/><hi rend="i">AVEC PRIVILÈGE DU ROI</hi></docImprint>
+      </titlePage>
       <div>
-        <head>Extrait du Privilège du Roi</head>
-        <p>PAR Grâce et Privilège du Roi, donné à Saint Germain en Laye, ce 20 jour de Février 1668, Signé, Par le Roi en son Conseil, MARGERET : il est permis à J. B. P. de  MOLIÈRE de faire imprimer par tel Libraire ou Imprimeur qu’il voudra choisir, une Pièce de Théâtre de sa composition, intitulée, LE MARIAGE FORCÉ, pendant le temps et espace de cinq années entières et accomplies, à commencer du jour qu’elle sera achevée d’imprimer : et défenses sont faites à tous autres Libraires et Imprimeurs, d’imprimer, ou faire imprimer, vendre et débiter ladite Pièce, sans le consentement de l’Exposant, ou de ceux qui auront droit de lui ; à peine aux contrevenants, de trois mille livres d’amende, confiscation des exemplaires contrefaits, et de tous dépens, dommages et interêts, ainsi que plus au long il est porté par les dites Lettres de Privilège.</p>
-        <p>Et le dit Sieur DE MOLIÈRE a cédé et transporté son droit de Privilège, à JEAN RIBOU, Marchand Libraire à Paris, pour en jouir, suivant l’accord fait entre eux.</p>
-        <p>Registre sur le Livre de la Communauté, suivant l’arrêt de la Cour de Parlement.</p>
-        <acheveImprime id="1668-03-09">Achevé d’imprimer pour la première fois le 9 mars 1668.</acheveImprime>
-        <editor id="BALLARD">À PARIS, Par JEAN RIBOU, au Palais, vis à vis la porte de l’Eglise de la Sainte Chapelle, à l’Image Saint-Louis.</editor>
-      </div>
-      <performance>
-        <premiere date="1664-01-29" location="Château du Louvre">Représentée pour la première fois au Louvre, par ordre de sa majesté, le 29e du mois de janvier 1664, et donnée depuis au public sur le Théâtre du Palais-Royal le 15e du mois de février de la même année 1664 par la Troupe de Monsieur, frère unique du Roi.</premiere>
-      </performance>
-      <castList>
         <head>PERSONNAGES</head>
-        <castItem><role xml:id="sganarelle" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">SGANARELLE</role>. Molière.</castItem>
-        <castItem><role xml:id="geronimo" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">GÉRONIMO</role>. La Thorillière.</castItem>
-        <castItem><role xml:id="dorimene" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">DORIMÈNE</role>, jeune coquette, promise à Sganarelle.Melle du Parc.</castItem>
-        <castItem><role xml:id="alcantor" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCANTOR</role>, père de Dorimène. Béjart</castItem>
-        <castItem><role xml:id="alcidas" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCIDAS</role>, frère de Dorimène. Béjart.</castItem>
-        <castItem><role xml:id="lycaste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">LYCASTE</role>, amant de Dorimène. La Grange.</castItem>
-        <castItem><role xml:id="egyptienne1" civil="F" type="H" statut="bohémien" age="A" stat_amour="néant">PREMIÈRE BOHEMIÉNNE</role>. Melle Béjart.</castItem>
-        <castItem><role xml:id="egyptienne2" civil="F" type="H" statut="bohémien" age="A" stat_amour="néant">DEUXIÈME BOHEMIÉNNE</role>. Melle de Brie.</castItem>
-        <castItem><role xml:id="pancrace" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">PANCRACE </role>, docteur aristotélicien. Brécourt.</castItem>
-        <castItem><role xml:id="marphurius" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">MARPHURIUS</role>, docteur pyrrhonien. Du croisy.</castItem>
+      <castList>
+        <castItem><role xml:id="sganarelle" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">SGANARELLE</role></castItem>
+        <castItem><role xml:id="geronimo" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">GÉRONIMO</role></castItem>
+        <castItem><role xml:id="dorimene" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">DORIMÈNE</role>, jeune Coquette, promise à Sganarelle.</castItem>
+        <castItem><role xml:id="alcantor" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCANTOR</role>, Père de Dorimène.</castItem>
+        <castItem><role xml:id="alcidas" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCIDAS</role>, Frère de Dorimène.</castItem>
+        <castItem><role xml:id="lycaste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">LYCASTE</role>, Amant de Dorimène.</castItem>
+        <castItem><role xml:id="egyptienne1" civil="F" type="H" statut="bohémien" age="A" stat_amour="néant">DEUX ÉGYPTIENNES</role>.<role xml:id="egyptienne2"></role></castItem>
+        <castItem><role xml:id="pancrace" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">PANCRACE</role>, Docteur Aristotélicien.</castItem>
+        <castItem><role xml:id="marphurius" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">MARPHURIUS</role>, Docteur Pyrrhonien.</castItem>
       </castList>
-      <set location="Paris" country="France" periode="XVIIème" link="">[La scène est à Paris.]</set>
+      </div>
     </front>
     <body>
+      <head>LE MARIAGE FORCÉ <lb/>COMÉDIE</head>
       <div xml:id="I" type="scene">
-        <head>SCÈNE I.</head>
-        <stage>Sganarelle, Géronimo.</stage>
+        <head>SCÈNE I</head>
+        <stage>Sganarelle, Géronimo</stage>
         <p/>
         <sp who="sganarelle" xml:id="I01-1">
           <speaker>sganarelle</speaker>
@@ -372,7 +376,7 @@
       </div>
       <div xml:id="I02" type="scene">
         <head>SCÈNE II</head>
-        <stage>Dorimène, Sganarelle.</stage>
+        <stage>Dorimène, Sganarelle</stage>
         <p/>
         <sp who="dorimene" xml:id="I02-1">
           <speaker>dorimène</speaker>
@@ -405,7 +409,7 @@
       </div>
       <div xml:id="I03" type="scene">
         <head>SCÈNE III</head>
-        <stage>Géronimo, Sganarelle.</stage>
+        <stage>Géronimo, Sganarelle</stage>
         <p/>
         <sp who="geronimo" xml:id="I03-1">
           <speaker>géronimo</speaker>
@@ -434,7 +438,7 @@
       </div>
       <div xml:id="I04" type="scene">
         <head>SCÈNE IV</head>
-        <stage>Pancrace, Sganarelle.</stage>
+        <stage>Pancrace, Sganarelle</stage>
         <p/>
         <sp who="pancrace" xml:id="I04-1">
           <speaker>pancrace</speaker>
@@ -935,7 +939,7 @@
       </div>
       <div xml:id="I05" type="scene">
         <head>SCÈNE V</head>
-        <stage>Marphurius, Sganarelle.</stage>
+        <stage>Marphurius, Sganarelle</stage>
         <p/>
         <sp who="marphurius" xml:id="I05-1">
           <speaker>marphurius</speaker>
@@ -1171,8 +1175,8 @@
         </sp>
       </div>
       <div xml:id="I06" type="scene">
-        <head>SCÈNE VI.</head>
-        <stage>Deux égyptiennes, Sganarelle.</stage>
+        <head>SCÈNE VI</head>
+        <stage>Deux Égyptiennes, Sganarelle</stage>
         <stage>Les Égyptiennes, avec leurs Tambours de Basque, entrent en chantant, et dansant.</stage>
         <p/>
         <sp who="sganarelle" xml:id="I06-1">
@@ -1245,9 +1249,7 @@
         </sp>
         <sp who="sganarelle" xml:id="I06-18">
           <speaker>sganarelle</speaker>
-        </sp>
-        <sp who="oui" xml:id="I06-19">
-          <speaker>Oui, si je suis menacé d’être Cocu ? (<hi rend="i">Toutes</hi> deux chantent et dansent</speaker>
+          <p>Oui, si je suis menacé d’être Cocu ? (<hi rend="i">Toutes</hi> deux chantent et dansent</p>
           <p>: La, la, la, la...). ...</p>
         </sp>
         <sp who="sganarelle" xml:id="I06-20">
@@ -1268,9 +1270,7 @@
         </sp>
         <sp who="sganarelle" xml:id="I06-22">
           <speaker>sganarelle</speaker>
-        </sp>
-        <sp who="oui" xml:id="I06-23">
-          <speaker>Oui, si je le serai, ou non ? (<hi rend="i">T</hi>outes deux chantent et dansent</speaker>
+          <p>Oui, si je le serai, ou non ? (<hi rend="i">T</hi>outes deux chantent et dansent</p>
           <p>: La, la, la, la...) ...</p>
         </sp>
         <sp who="sganarelle" xml:id="I06-26">
@@ -1280,7 +1280,7 @@
       </div>
       <div xml:id="I07" type="scene">
         <head>SCÈNE VII</head>
-        <stage>Dorimène, Lycaste, Sganarelle.</stage>
+        <stage>Dorimène, Lycaste, Sganarelle</stage>
         <p/>
         <sp who="lycaste" xml:id="I07-1">
           <speaker>lycaste</speaker>
@@ -1337,7 +1337,7 @@
       </div>
       <div xml:id="I08" type="scene">
         <head>SCÈNE VIII</head>
-        <stage>Alcantor, Sganarelle.</stage>
+        <stage>Alcantor, Sganarelle</stage>
         <p/>
         <sp who="alcantor" xml:id="I08-1">
           <speaker>alcantor</speaker>
@@ -1494,7 +1494,7 @@
       </div>
       <div xml:id="I09" type="scene">
         <head>SCÈNE IX</head>
-        <stage>Alcidas, Sganarelle.</stage>
+        <stage>Alcidas, Sganarelle</stage>
         <p/>
         <sp who="alcidas" xml:id="I09-1">
           <speaker>alcidas, parlant toujours d’un ton doucereux.</speaker>
@@ -1648,7 +1648,7 @@
       </div>
       <div xml:id="I10" type="scene">
         <head>SCÈNE X</head>
-        <stage>Alcantor, Alcidas, Sganarelle.</stage>
+        <stage>Alcantor, Alcidas, Sganarelle</stage>
         <p/>
         <sp who="alcidas" xml:id="I10-1">
           <speaker>alcidas</speaker>
@@ -1658,6 +1658,7 @@
           <speaker>alcantor</speaker>
           <p>Monsieur, voilà sa main: vous n’avez qu’à donner la vôtre.Loué soit le Ciel ! M’en voilà déchargé; et c’est vous désormais que regarde le soin de sa conduite.Allons nous réjouir, et célébrer cet heureux Mariage.</p>
         </sp>
+        <label>FIN</label>
       </div>
     </body>
   </text>
