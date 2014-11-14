@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="obvil-theatre.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_misanthrope" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -49,11 +50,11 @@
         <docDate>M. DC. LXVII.</docDate>
         <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
       </titlePage>
-      <div xml:id="libraire" type="preface">
+      <div xml:id="libraire">
         <head>LE LIBRAIRE<lb/>AU LECTEUR</head>
         <p><hi rend="i">Le Misanthrope</hi>, dès sa première Représentation, ayant reçu au Théâtre, l’approbation que le Lecteur ne lui pourra refuser, et la Cour étant à Fontainebleau lorsqu’il parut ; j’ai cru que je ne pouvais rien faire de plus agréable pour le Public, que de lui faire part de cette Lettre, qui fut écrite, un jour après, à une Personne de Qualité sur le Sujet de cette Comédie. Celui qui l’écrivit étant un Homme dont le mérite et l’esprit est fort connu, sa Lettre fut vue de la meilleure partie de la Cour, et trouvée si juste parmi tout ce qu’il y a de Gens les plus éclairés en ces matières, que je me suis persuadé qu’après leur avoir plu, le Lecteur me serait obligé du soin que j’avais pris d’en chercher une Copie pour la lui donner, et qu’il lui rendra la justice que tant de Personnes de la plus haute Naissance lui ont accordée.</p>
       </div>
-      <div xml:id="lettre" type="letter">
+      <div xml:id="lettre" type="preface">
         <head>LETTRE ÉCRITE<lb/>SUR LA COMÉDIE<lb/>DU MISANTHROPE</head>
         <p>MONSIEUR,</p>
         <p>Vous devriez être satisfait de ce que je vous ai dit de la dernière Comédie de Monsieur de Molière, que vous avez vue aussi bien que moi, sans m’obliger à vous écrire mes sentiments. Je ne puis m’empêcher de faire ce que vous souhaitez ; mais souvenez-vous de la sincère amitié que vous m’avez promise : et n’allez pas exposer à Fontainebleau, au jugement des Courtisans, des Remarques que je n’ai faites que pour vous obéir. Songez à ménager ma réputation ; et pensez que les Gens de la Cour, de qui le Goût est si raffiné, n’auront pas, pour moi la même indulgence que vous.</p>
@@ -130,7 +131,7 @@
     </front>
     <body>
       <head>LE MISANTHROPE <lb/>COMÉDIE</head>
-      <div xml:id="I">
+      <div xml:id="I" type="act">
         <head>ACTE PREMIER</head>
         <div type="scene" xml:id="I01">
           <head>SCÈNE PREMIÈRE</head>
@@ -1101,7 +1102,7 @@
           <trailer>Fin du Premier Acte</trailer>
         </div>
       </div>
-      <div xml:id="II"> 
+      <div xml:id="II" type="act"> 
         <head>ACTE II</head>
         <div type="scene" xml:id="II01">
           <head>SCÈNE PREMIÈRE</head>
@@ -1876,7 +1877,7 @@
           <trailer>Fin du Second Acte.</trailer>
         </div>
       </div>
-      <div xml:id="III">
+      <div xml:id="III" type="act">
         <head>ACTE III</head>
         <div type="scene" xml:id="III01">
           <head>SCÈNE PREMIÈRE</head>
@@ -2469,7 +2470,7 @@
           <trailer>Fin du Troisième Acte.</trailer>
         </div>
       </div>
-      <div xml:id="IV"> 
+      <div xml:id="IV" type="act"> 
         <head>ACTE IV</head>
         <div type="scene" xml:id="IV01">
           <head>SCÈNE PREMIÈRE</head>
@@ -3142,7 +3143,7 @@
           <trailer>Fin du Quatrième Acte.</trailer>
         </div>
       </div>
-      <div xml:id="V">
+      <div xml:id="V" type="act">
         <head>ACTE V</head>
         <div type="scene" xml:id="V01">
           <head>SCÈNE PREMIÈRE</head>
