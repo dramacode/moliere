@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_princesse-elide">
   <teiHeader>
       <fileDesc>
@@ -44,7 +45,7 @@
       <front>
          <titlePage>
             <docTitle>
-               <titlePart type="main">LA PRINCESSE D'ÉLIDE</titlePart>
+              <titlePart type="main">LA PRINCESSE D'ÉLIDE<note>Cette pièce fut représentée pour la première fois lors de la deuxième journée des <ref target="http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_plaisirs-ile-enchantee/">Plaisirs de l’île enchantée</ref>.</note></titlePart>
               <titlePart type="sub">Course de Bague, <lb/>Collation ornée de Machines, <lb/>Comédie de Molière de La Princesse d'Élide, <lb/>mêlée de Danse et de Musique, <lb/>Ballet du Palais d'Alcine, Feu d'Artifice : <lb/>Et autres Fêtes galantes et magnifiques ; <lb/>faites par le Roi à Versailles, le 7<hi rend="sup">e</hi> Mai 1664. <lb/>Et continuées plusieurs autres Jours.</titlePart>
             </docTitle>
            <docImprint> À PARIS, <lb/>Chez <hi rend="sc">Robert Ballard</hi>, seul Imprimeur du Roi, pour la <lb/>Musique, rue Saint Jean de Beauvais, au Mont Parnasse. <lb/>Et au Palais. <lb/><hi rend="sc">Thomas Jolly</hi> à la Salle des Merciers, <lb/>à l'Enseigne de la Palme. <lb/><hi rend="sc">Guillaume de Luynes</hi>, même Salle, <lb/>à l'Enseigne de la Justice. <lb/><hi rend="sc">Louis Billaine</hi> dans la grande Salle, <lb/>à l'Enseigne de la Palme et du grand César. <lb/>M. DC. LXV. <lb/><hi rend="i">AVEC PRIVILÈGE DE SA MAJESTÉ.</hi></docImprint>

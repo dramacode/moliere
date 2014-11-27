@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_plaisirs-ile-enchantee">
   <teiHeader>
     <fileDesc>
@@ -603,7 +604,7 @@
           </argument>
           <div type="act">
             <head>LA PRINCESSE D'ÉLIDE</head>
-            <p><ref target="">La Princesse d'Élide fut représentée lors de la deuxième journée</ref></p>
+            <p><ref target="http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_princesse-elide/">La Princesse d'Élide fut représentée lors de la deuxième journée</ref></p>
           </div>
         </div>
       <div>
