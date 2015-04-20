@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/tei2html.xsl"?>
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_fourberies-scapin">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LES FOURBERIES DE SCAPIN, COMÉDIE</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1671</date>
+        <title>Les Fourberies de Scapin, Comédie</title>
+        <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
-        <p>publié par Paul FIEVRE, mai 2009</p>
+        <date when="2009"/>
+        <date when="2015"/>
+        <publisher>Publié par Paul Fièvre en mai 2009, révision en 2015 par Amélie Canu et Oriane Morvan</publisher>
+        <availability status="restricted">
+          <licence target="projet-Molière"/>
+        </availability>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_fourberies-scapin/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_fourberies-scapin.xml</idno>
       </publicationStmt>
       <sourceDesc>
+        <bibl>
+          <author>Molière</author>
+          <title>Les Fourberies de Scapin, Comédie</title>
+        </bibl>
         <genre>Comédie</genre>
         <inspiration>mœurs françaises</inspiration>
         <type>prose</type>
@@ -22,50 +29,46 @@
         <periode>1671-1680</periode>
         <taille>(mesure non pertinente)</taille>
         <permalien>http://gallica.bnf.fr/ark :/12148/btv1b8610792g</permalien>
-        <sources>
-          <source id="1">
-            <author/>
-            <text/>
-          </source>
-        </sources>
       </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1671"></date>
+      </creation>
+      <langUsage>
+        <language ident="fre"/>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
+      <titlePage>
       <docTitle>
-        <titlePart type="main">LES FOURBERIES DE SCAPIN</titlePart>
+        <titlePart type="main">LES <lb/>FOURBERIES <lb/>DE <lb/>SCAPIN</titlePart>
         <titlePart type="sub">COMÉDIE</titlePart>
       </docTitle>
-      <docDate value="1671">M. DC. LXXI. AVEC PRIVILÈGE DU ROI.</docDate>
-      <docAuthor id="MOLIERE" bio="moliere">PAR J.B.P. MOLIERE</docAuthor>
+        <docAuthor>PAR J.B.P. MOLIERE</docAuthor>    
       <docImprint>
-        <privilege id="1671-03-18">
-          <head>PRIVILÈGE DU ROI</head>
-          <p>Louis, par la grâce de Dieu, Roi de France et de Navarre : à nos âmes et féaux conseiller, les gens tenants nos cours de parlement, maîtres des requêtes ordinaires de notre hôtel, baillifs, sénéchaux, prévôts, et leurs lieutenants, et à tous autres nos justiciers et officiers qu’il appartiendra, SALUT. Notre cher et bine aimé J.B.P. Molière nous a très humblement fait remontrer, qu’il avait ci-devant composé pour notre divertissement plusieurs pièces de théâtre, partie desquelles il aurait fait imprimer par divers imprimeurs et libraires, en conséquence des privilège que nous lui en avons accordé pour l’impression de chacune en particulier : mais la plupart des dits privilèges étant expirés, et les autres prêts d’expirer, plusieurs des dites pièces ont été imprimées en vertu de lettres obtenues par surprise en notre Grande chancellerie, portant permission d’imprimer ou faire imprimer les œuvres du dit Molière, sans en avoir son consentement ; dans lesquelles réimpressions il s’est fait quantité de fautes qui blessent la réputation  de l’auteur : ce qui a obligé de revoir et corriger tous ces ouvrages pour les donner au public et corriger tous ses ouvrages pour les donner au public dans leur dernière perfection. Mais comme il lui faut faire une grande dépense tant pour l’impression que pour les figures qu’il faut graver, il craint que quelques envieux de son travail ne lui fassent contrefaire par concurrence, de même que l’on a déjà fait de plusieurs des ses dites pièces ; ce qui l’empêcherait de retirer les frais qu’il aurait faits, et lui causerait une perte très considérable, s’il ne lui était pourvu de nos lettre sur ce nécessaires. À ces causes, désirant traiter favorablement l’exposant, Nous lui avons permis et permettons par ces présentes, de faire imprimer, vendre et débiter en tous lieux de notre royaume et terres de notre obéissance, toutes les pièces de théâtre par lui composées jusqu’à présent, lesquelles ont été représentées, et ce conjointement ou séparément, en un ou plusieurs volumes, en telle marge et caractère, et autant de fois qu’il voudra, durent le temps et espace de neuf années, à compter du jour que chaque pièce ou volume sera achevé d’imprimer pour la première fois, en vertu des présentes : pendant lequel temps faisons très expresses inhibitions et défenses à toute personnes, de quelque qualité et condition qu’elles soient, d’imprimer, vendre, ou distribuer aucune des dites pièces de théâtre, sans le consentement de l’exposant, ou de ceux qui auront droit de lui, sous prétexte d’augmentation, correction, changement de titre, fausse marque, ou autrement, en quelque manière que ce soit, ni en extraire aucune chose, à peine de dix mille livres d’amende, payable sans déport par chacun des contrevenants, applicable au tiers à l’Hôtel Dieu de notre bonne Ville de Paris, un tiers au dénonciateur, et l’autre tiers à l’exposant, de confiscation des exemplaires contrefaits, et de tous dépens, dommages et intérêts. En outre, défendons sur les mêmes peines, à tous marchands forains nos sujets, ou étrangers, d’en apporter, vendre, ou échanger en notre royaume, sur les mêmes peines, et de confiscation des autres marchandises qui s’en trouveront jointes ; outre lesquelles nous voulons que tous libraires, ou relieurs, qui seront saisis d’aucun exemplaires contrefaits des dites pièces de théâtre, soient cassés et séquestrés sur corps de la Librairie, sans pouvoir à l’avenir s’en mêler en aucune manière ; à condition qu’il sera mis deux exemplaires de chacune des dites pièces qui seront imprimées en vertu des présentes, en notre bibliothèque publique, un autre au cabinet des livres de notre château du Louvre, et un en celle de notre très cher et féal chevalier, chancelier de France, le sieur SEGUIER, avant que de l’exposer en vente, à peine de nullité des présentes ; du contenu desquelles voulons et vous mandons, que vous fassiez jouir pleinement et et paisiblement l’exposant, et ceux qui auront droit de lui, sans souffrir qu’il leur soit donné aucun trouble empêchement,. Voulons aussi qu’en mettant au commencement ou à la fin de chacun des dits exemplaires, un extrait des présentes, elles soient tenues pour bine et dument signifiées, et que foi y soit ajoutée, et aux copies collationnées par l’un de nos âmes et féaux conseillers et secrétaires, comme à l’original. Mandons au premier notre huissier ou sergent sur ce requis, de faire pour ce requis, de faire pour l’exécution d’icelles, tous exploits, saisies, exécution, et autres actes nécessaires, sans demander autre permission, visa ni pareatis, car tel notre bon plaisir, nonobstant Clameur de Haro, charte normande, déclarations, arrêts et règlements, statuts, et confirmation d’iceux privilèges obtenus ou à obtenir, soit que le temps de ceux qui ont été obtenus soient expirés, ou non, oppositions, ou appellations quelconques et sans préjudice d’icelles, pour lesquelles nous n’entendons qu’il diffère, et dont nous retenons le connaissance à Nous et à notre conseil, et qui ne pourront nuire au dit exposant, en faveur duquel et du mérite de ses ouvrages, nous dérogeons à ce que dessus pour ce regard seulement, donné à Saint Germain en Laye le dix-huitième jour de mars, l’an de grâce mille six cent soixante et onze, et de notre règne le vingt huit.</p>
-          <p>Signé, par le Roi en son conseil d’ALENCE, et scellé.  </p>
-        </privilege>
-        <printer id="LEMONNIER">Et se vend pour l’Auteur, Chez Pierre Le Monnier, au Palais, vis à vis la Porte de L’Eglise de la Sainte-Chapelle, à l’Image Saint Louis, et au Feu Divin.</printer>
-        <acheveImprime id="1671-08-18">Achevé d’imprimer pour la première fois le 18 jour d’août 1671.</acheveImprime>
+        <hi rend="i">Et se vend pour l’Auteur</hi>, <lb/>À PARIS, <lb/>Chez PIERRE LE MONNIER, au Palais, <lb/>vis-à-vis la Porte de l’Église de la Sainte-Chapelle, <lb/> à l’Image Saint Louis, et au Feu Divin.
       </docImprint>
-      <performance>
-        <premiere date="1671-05-24" location="Théâtre du Palais-Royal">Représentée la première fois à Paris sur le Théâtre de la salle du Palais-Royal le 24e mai 1671 par la troupe du Roi.</premiere>
-      </performance>
+        <docDate>M. DC. LXXI.</docDate>
+        <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
+      </titlePage>
       <castList>
         <head>ACTEURS</head>
-        <castItem><role xml:id="argante" civil="M" type="H" statut="" age="A" stat_amour="néant">ARGANTE</role>Argante, père d’Octave et de Zerbinette.</castItem>
-        <castItem><role xml:id="geronte" civil="M" type="H" statut="" age="A" stat_amour="néant">GÉRONTE</role>, père de Léandre et de Hyacinte.</castItem>
-        <castItem><role xml:id="octave" civil="M" type="H" statut="" age="A" stat_amour="néant">OCTAVE</role>, fils d’Argante, et amant de Hyacinte.</castItem>
-        <castItem><role xml:id="leandre" civil="M" type="H" statut="" age="A" stat_amour="néant">LÉANDRE</role>, fils de Géronte, et amant de Zerbinette.</castItem>
-        <castItem><role xml:id="zerbinette" civil="F" type="H" statut="" age="A" stat_amour="néant">ZERBINETTE</role>, crue Egyptienne, et reconnue fille d’Argante, et amante de Léandre.</castItem>
-        <castItem><role xml:id="hyacinthe" civil="F" type="H" statut="" age="A" stat_amour="néant">HYANCINTE</role>, fille de Géronte, et amante d’Octave</castItem>
-        <castItem><role xml:id="scapin" civil="M" type="H" statut="valet" age="A" stat_amour="néant">SCAPIN</role>, valet de Léandre, et fourbe.</castItem>
-        <castItem><role xml:id="silvestre" civil="M" type="H" statut="valet" age="A" stat_amour="néant">SILVESTRE</role>, valet d’Octave.</castItem>
-        <castItem><role xml:id="nerine" civil="F" type="H" statut="nourrice" age="A" stat_amour="néant">NÉRINE</role>, nourrice de Hyacinte.</castItem>
-        <castItem><role xml:id="carle" civil="M" type="H" statut="fourbe" age="A" stat_amour="néant">CARLE</role>, fourbe.</castItem>
+        <castItem><role xml:id="argante" civil="M" type="H" statut="" age="A" stat_amour="néant">ARGANTE</role>, Père d’Octave et de Zerbinette.</castItem>
+        <castItem><role xml:id="geronte" civil="M" type="H" statut="" age="A" stat_amour="néant">GÉRONTE</role>, Père de Léandre et de Hyacinte.</castItem>
+        <castItem><role xml:id="octave" civil="M" type="H" statut="" age="A" stat_amour="néant">OCTAVE</role>, Fils d’Argante, et Amant de Hyacinte.</castItem>
+        <castItem><role xml:id="leandre" civil="M" type="H" statut="" age="A" stat_amour="néant">LÉANDRE</role>, Fils de Géronte, et Amant de Zerbinette.</castItem>
+        <castItem><role xml:id="zerbinette" civil="F" type="H" statut="" age="A" stat_amour="néant">ZERBINETTE</role>, crue Égyptienne, et reconnue Fille d’Argante, et Amante de Léandre.</castItem>
+        <castItem><role xml:id="hyacinthe" civil="F" type="H" statut="" age="A" stat_amour="néant">HYANCINTE</role>, Fille de Géronte, et Amante d’Octave</castItem>
+        <castItem><role xml:id="scapin" civil="M" type="H" statut="valet" age="A" stat_amour="néant">SCAPIN</role>, Valet d'Octave, et Fourbe.</castItem>
+        <castItem><role xml:id="silvestre" civil="M" type="H" statut="valet" age="A" stat_amour="néant">SILVESTRE</role>, Valet de Léandre.</castItem>
+        <castItem><role xml:id="nerine" civil="F" type="H" statut="nourrice" age="A" stat_amour="néant">NÉRINE</role>, Nourrice de Hyacinte.</castItem>
+        <castItem><role xml:id="carle" civil="M" type="H" statut="fourbe" age="A" stat_amour="néant">CARLE</role>, Fourbe.</castItem>
         <castItem><role xml:id="deux-porteurs" civil="G" type="H" statut="porteur" age="A" stat_amour="néant">DEUX PORTEURS</role>.</castItem>
       </castList>
-      <set location="Naples" country="Italie" periode="XVIIème" link="">La scène est à Naples.</set>
+      <set location="Naples" country="Italie" periode="XVIIème" link="">La Scène est à Naples.</set>
     </front>
     <body>
       <div1 type="acte" n="1" xml:id="I">
