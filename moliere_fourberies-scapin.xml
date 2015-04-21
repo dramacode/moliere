@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_fourberies-scapin">
   <teiHeader>
     <fileDesc>
@@ -79,10 +81,9 @@
           <sp who="octave" xml:id="I01-1">
             <speaker>octave</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Fâcheuses nouvelles pour un cœur amoureux !</s>
-              <s>Dures extrémités où je me vois réduit !</s>
-              <s>Tu viens, Silvestre, d’apprendre au port que mon père revient ?</s>
+              <s>Ah fâcheuses nouvelles pour un Cœur amoureux !</s>              
+                <s>Dures extrémités où je me vois réduit !</s>
+              <s>Tu viens, Silvestre, d’apprendre au Port que mon Père revient ?</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="I01-2">
@@ -100,7 +101,7 @@
           <sp who="silvestre" xml:id="I01-4">
             <speaker>silvestre</speaker>
             <p>
-              <s>Ce matin même</s>
+              <s>Ce matin même.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I01-5">
@@ -118,19 +119,19 @@
           <sp who="octave" xml:id="I01-7">
             <speaker>octave</speaker>
             <p>
-              <s>Avec une fille du seigneur Géronte ?</s>
+              <s>Avec une Fille du seigneur Géronte ?</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="I01-8">
             <speaker>silvestre</speaker>
             <p>
-              <s>Du seigneur Géronte.</s>
+              <s>Du Seigneur Géronte.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I01-9">
             <speaker>octave</speaker>
             <p>
-              <s>Et que cette fille est mandée de Tarente ici pour cela ?</s>
+              <s>Et que cette Fille est mandée de Tarente ici pour cela ?</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="I01-10">
@@ -142,31 +143,31 @@
           <sp who="octave" xml:id="I01-11">
             <speaker>octave</speaker>
             <p>
-              <s>Et tu tiens ces nouvelles de mon oncle ?</s>
+              <s>Et tu tiens ces nouvelles de mon Oncle ?</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="I01-12">
             <speaker>silvestre</speaker>
             <p>
-              <s>De votre oncle.</s>
+              <s>De votre Oncle.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I01-13">
             <speaker>octave</speaker>
             <p>
-              <s>À qui mon père les a mandées par une lettre ?</s>
+              <s>À qui mon Père les a mandées par une Lettre ?</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="I01-14">
             <speaker>silvestre</speaker>
             <p>
-              <s>Par une lettre.</s>
+              <s>Par une Lettre.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I01-15">
             <speaker>octave</speaker>
             <p>
-              <s>Et cet oncle, dis-tu, suit toutes nos affaires.</s>
+              <s>Et cet Oncle, dis-tu, sait toutes nos affaires.</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="I01-16">
@@ -178,14 +179,13 @@
           <sp who="octave" xml:id="I01-17">
             <speaker>octave</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Parle, si tu veux, et ne te fais point, de la sorte, arracher les mots de la bouche.</s>
+              <s>Ah parle, si tu veux, et ne te fais point de la sorte, arracher les mots de la bouche.</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="I01-18">
             <speaker>silvestre</speaker>
             <p>
-              <s>Qu’ai-je à parler davantage ?</s>
+              <s>Qu’ai-je à parler davantage ! </s>
               <s>Vous n’oubliez aucune circonstance, et vous dites les choses tout justement comme elles sont.</s>
             </p>
           </sp>
@@ -198,8 +198,7 @@
           <sp who="silvestre" xml:id="I01-20">
             <speaker>silvestre</speaker>
             <p>
-              <s>Ma foi !</s>
-              <s>Je m’y trouve autant embarrassé que vous, et j’aurais bon besoin que l’on me conseillât moi-même.</s>
+              <s>Ma foi, je m’y trouve autant embarrassé que vous, et j’aurais bon besoin que l’on me conseillât moi-même.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I01-21">
@@ -217,7 +216,7 @@
           <sp who="octave" xml:id="I01-23">
             <speaker>octave</speaker>
             <p>
-              <s>Lorsque mon père apprendra les choses, je vais voir fondre sur moi un orage soudain d’impétueuses réprimandes.</s>
+              <s>Lorsque mon Père apprendra les choses, je vais voir fondre sur moi un orage soudain d’impétueuses réprimandes.</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="I01-24">
@@ -230,8 +229,7 @@
           <sp who="octave" xml:id="I01-25">
             <speaker>octave</speaker>
             <p>
-              <s>Ô Ciel !</s>
-              <s>Par où sortir de l’embarras où je me trouve ?</s>
+              <s>Ô Ciel ! par où sortir de l’embarras où je me trouve ?</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="I01-26">
@@ -243,14 +241,13 @@
           <sp who="octave" xml:id="I01-27">
             <speaker>octave</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Tu me fais mourir par tes leçons hors de saison.</s>
+              <s>Ah tu me fais mourir, par tes leçons hors de saison.</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="I01-28">
             <speaker>silvestre</speaker>
             <p>
-              <s>Vous me faites bien plus mourir par vos actions étourdies.</s>
+              <s>Vous me faites bien plus mourir, par vos actions étourdies.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I01-29">
@@ -268,7 +265,7 @@
           <sp who="scapin" xml:id="I02-1">
             <speaker>scapin</speaker>
             <p>
-              <s>Qu’est-ce, seigneur Octave, qu’avez-vous ?</s>
+              <s>Qu’est-ce, Seigneur Octave, qu’avez-vous ?</s>
               <s>Qu’y a-t-il ?</s>
               <s>Quel désordre est-ce là ?</s>
               <s>Je vous vois tout troublé.</s>
@@ -277,8 +274,7 @@
           <sp who="octave" xml:id="I02-2">
             <speaker>octave</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Mon pauvre Scapin, je suis perdu, je suis désespéré, je suis le plus infortuné de tous les hommes.</s>
+              <s>Ah, mon pauvre Scapin, je suis perdu ; je suis désespéré ; je suis le plus infortuné de tous les Hommes.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-3">
@@ -302,42 +298,38 @@
           <sp who="octave" xml:id="I02-6">
             <speaker>octave</speaker>
             <p>
-              <s>Mon père arrive avec le seigneur Géronte, et ils me veulent marier.</s>
+              <s>Mon Père arrive avec le seigneur Géronte, et ils me veulent marier.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-7">
             <speaker>scapin</speaker>
             <p>
-              <s>Hé bien !</s>
-              <s>Qu’y a-t-il là de si funeste ?</s>
+              <s>Hé bien, qu’y a-t-il là de si funeste ?</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I02-8">
             <speaker>octave</speaker>
             <p>
-              <s>Hélas !</s>
-              <s>Tu ne sais pas la cause de mon inquiétude ?</s>
+              <s>Hélas ! tu ne sais pas la cause de mon inquiétude.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-9">
             <speaker>scapin</speaker>
             <p>
-              <s>Non ; mais il ne tiendra qu’à vous que je ne la sache bientôt ; et je suis homme consolatif, homme à m’intéresser aux affaires des jeunes gens.</s>
+              <s>Non ; mais il ne tiendra qu’à vous que je ne la sache bientôt ; et je suis Homme consolatif, Homme à m’intéresser aux affaires des jeunes Gens.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I02-10">
             <speaker>octave</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Scapin, si tu pouvais trouver quelque invention, forger quelque machine, pour me tirer de la peine où je suis, je croirais t’être redevable de plus que de la vie.</s>
+              <s>Ah ! Scapin, si tu pouvais trouver quelque invention, forger quelque machine, pour me tirer de la peine où je suis, je croirais t’être redevable de plus que de la vie.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-11">
             <speaker>scapin</speaker>
             <p>
               <s>À vous dire la vérité, il y a peu de choses qui me soient impossibles, quand je m’en veux mêler.</s>
-              <s>J’ai sans doute reçu du Ciel un génie assez beau pour toutes les fabriques de ces gentillesses d’esprit, de ces galanteries ingénieuses à qui le vulgaire ignorant donne le nom de fourberies ; et je puis dire, sans vanité, qu’on n’a guère vu d’homme qui fût plus habile ouvrier de ressorts et d’intrigues, qui ait acquis plus de gloire que moi dans ce noble métier : mais, ma foi !</s>
-              <s>Le mérite est trop maltraité aujourd’hui, et j’ai renoncé à toutes choses depuis certain chagrin d’une affaire qui m’arriva.</s>
+              <s>J’ai sans doute reçu du Ciel un génie assez beau pour toutes les fabriques de ces gentillesses d’Esprit, de ces galanteries ingénieuses à qui le vulgaire ignorant donne le nom de Fourberies ; et je puis dire sans vanité, qu’on n’a guère vu d’Homme qui fût plus habile Ouvrier de ressorts et d’intrigues ; qui ait acquis plus de gloire que moi dans ce noble Métier : Mais, ma foi, le mérite est trop maltraité aujourd’hui, et j’ai renoncé à toutes choses depuis certain chagrin d’une affaire qui m’arriva.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I02-12">
@@ -350,7 +342,7 @@
           <sp who="scapin" xml:id="I02-13">
             <speaker>scapin</speaker>
             <p>
-              <s>Une aventure où je me brouillai avec la justice.</s>
+              <s>Une aventure où je me brouillai avec la Justice.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I02-14">
@@ -368,22 +360,22 @@
           <sp who="silvestre" xml:id="I02-16">
             <speaker>silvestre</speaker>
             <p>
-              <s>Toi et la justice !</s>
+              <s>Toi, et la Justice ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-17">
             <speaker>scapin</speaker>
             <p>
               <s>Oui.</s>
-              <s>Elle en usa fort mal avec moi, et je me dépitai de telle sorte contre l’ingratitude du siècle que je résolus de ne plus rien faire.</s>
-              <s>Baste !</s>
+              <s>Elle en usa fort mal avec moi, et je me dépitai de telle sorte contre l’ingratitude du Siècle, que je résolus de ne plus rien faire.</s>
+              <s>Baste.</s>
               <s>Ne laissez pas de me conter votre aventure.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I02-18">
             <speaker>octave</speaker>
             <p>
-              <s>Tu sais, Scapin, qu’il y a deux mois que le seigneur Géronte et mon père s’embarquèrent ensemble pour un voyage qui regarde certain commerce où leurs intérêts sont mêlés.</s>
+              <s>Tu sais, Scapin, qu’il y a deux mois que le seigneur Géronte, et mon Père, s’embarquèrent ensemble pour un Voyage qui regarde certain commerce où leurs intérêts sont mêlés.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-19">
@@ -395,19 +387,19 @@
           <sp who="octave" xml:id="I02-20">
             <speaker>octave</speaker>
             <p>
-              <s>Et que Léandre et moi nous fûmes laissés par nos pères, moi sous la conduite de Silvestre, et Léandre sous ta direction.</s>
+              <s>Et que Léandre et moi nous fûmes laissés par nos Pères ; moi sous la conduite de Silvestre ; et Léandre sous ta direction.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-21">
             <speaker>scapin</speaker>
             <p>
-              <s>Oui : je me suis fort bien acquitté de ma charge.</s>
+              <s>Oui, je me suis fort bien acquitté de ma charge.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I02-22">
             <speaker>octave</speaker>
             <p>
-              <s>Quelque temps après, Léandre fit rencontre d’une jeune égyptienne dont il devint amoureux.</s>
+              <s>Quelque temps après, Léandre fit rencontre d’une jeune Égyptienne dont il devint amoureux.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-23">
@@ -419,9 +411,9 @@
           <sp who="octave" xml:id="I02-24">
             <speaker>octave</speaker>
             <p>
-              <s>Comme nous sommes grands amis, il me fit aussitôt confidence de son amour, et me mena voir cette fille, que je trouvai belle à la vérité, mais non pas tant qu’il voulait que je la trouvasse.</s>
-              <s>Il ne m’entretenait que d’elle chaque jour ; m’exagérait à tous moments sa beauté et sa grâce ; me louait son esprit, et me parlait avec transport des charmes de son entretien, dont il me rapportait jusqu’aux moindres paroles, qu’il s’efforçait toujours de me faire trouver les plus spirituelles du monde.</s>
-              <s>Il me querellait quelquefois de n’être pas assez sensible aux choses qu’il me venait dire, et me blâmait sans cesse de l’indifférence où j’étais pour les jeux de l’amour.</s>
+              <s>Comme nous sommes grands Amis, il me fit aussitôt confidence de son amour, et me mena voir cette Fille, que je trouvai belle à la vérité, mais non pas tant qu’il voulait que je la trouvasse.</s>
+              <s>Il ne m’entretenait que d’elle chaque jour ; m’exagérait à tous moments sa beauté, et sa grâce ; me louait son esprit, et me parlait avec transport des charmes de son entretien, dont il me rapportait jusqu’aux moindres paroles, qu’il s’efforçait toujours de me faire trouver les plus spirituelles du Monde.</s>
+              <s>Il me querellait quelquefois de n’être pas assez sensible aux choses qu’il me venait dire, et me blâmait sans cesse de l’indifférence où j’étais pour les feux de l’Amour.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-25">
@@ -433,9 +425,9 @@
           <sp who="octave" xml:id="I02-26">
             <speaker>octave</speaker>
             <p>
-              <s>Un jour que je l’accompagnais pour aller chez les gens qui gardent l’objet de ses vœux, nous entendîmes, dans une petite maison d’une rue écartée, quelques plaintes mêlées de beaucoup de sanglots.</s>
+              <s>Un jour que je l’accompagnais pour aller chez les Gens qui gardent l’Objet de ses vœux, nous entendîmes dans une petite Maison d’une Rue écartée, quelques plaintes mêlées de beaucoup de sanglots.</s>
               <s>Nous demandons ce que c’est.</s>
-              <s>Une femme nous dit, en soupirant, que nous pouvions voir là quelque chose de pitoyable en des personnes étrangères, et qu’à moins que d’être insensibles, nous en serions touchés.</s>
+              <s>Une Femme nous dit en soupirant, que nous pouvions voir là quelque chose de pitoyable en des Personnes étrangères ; et qu’à moins que d’être insensibles, nous en serions touchés.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-27">
@@ -448,19 +440,19 @@
             <speaker>octave</speaker>
             <p>
               <s>La curiosité me fit presser Léandre de voir ce que c’était.</s>
-              <s>Nous entrons dans une salle, où nous voyons une vieille femme mourante, assistée d’une servante qui faisait des regrets, et d’une jeune fille toute fondante en larmes, la plus belle et la plus touchante qu’on puisse jamais voir.</s>
+              <s>Nous entrons dans une Salle, où nous voyons une vieille Femme mourante, assistée d’une Servante qui faisait des regrets, et d’une jeune Fille toute fondante en larmes, la plus belle, et la plus touchante qu’on puisse jamais voir.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-29">
             <speaker>scapin</speaker>
             <p>
-              <s>Ah, ah !</s>
+              <s>Ah, ah.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I02-30">
             <speaker>octave</speaker>
             <p>
-              <s>Un autre aurait paru effroyable en l’état où elle était ; car elle n’avait pour habillement qu’une méchante petite jupe avec des brassières de nuit qui étaient de simple futaine ; et sa coiffure était une cornette jaune, retroussée au haut de sa tête, qui laissait tomber en désordre ses cheveux sur ses épaules ; et cependant, faite comme cela, elle brillait de mille attraits, et ce n’était qu’agréments et que charmes que toute sa personne.</s>
+              <s>Un autre aurait paru effroyable en l’état où elle était ; car elle n’avait pour habillement qu’une méchante petite Jupe, avec des Brassières de nuit qui étaient de simple futaine ; et sa coiffure était une Cornette jaune, retroussée au haut de sa tête, qui laissait tomber en désordre ses cheveux sur ses épaules ; et cependant faite comme cela, elle brillait de mille attraits, et ce n’était qu’agréments et que charmes, que toute sa Personne.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-31">
@@ -478,14 +470,13 @@
           <sp who="scapin" xml:id="I02-33">
             <speaker>scapin</speaker>
             <p>
-              <s>Oh !</s>
-              <s>Je n’en doute point ; et, sans l’avoir vue, je vois bien qu’elle était tout à fait charmante.</s>
+              <s>Oh je n’en doute point ; et sans l’avoir vue, je vois bien qu’elle était tout à fait charmante.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I02-34">
             <speaker>octave</speaker>
             <p>
-              <s>Ses larmes n’étaient point de ces larmes désagréables qui défigurent un visage ; elle avait à pleure une grâce touchante, et sa douleur était la plus belle du monde.</s>
+              <s>Ses larmes n’étaient point de ces larmes désagréables, qui défigurent un visage ; Elle avait à pleurer, une grâce touchante ; et sa douleur était la plus belle du Monde.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-35">
@@ -497,7 +488,7 @@
           <sp who="octave" xml:id="I02-36">
             <speaker>octave</speaker>
             <p>
-              <s>Elle faisait fondre chacun en larmes, en se jetant amoureusement sur le corps de cette mourante, qu’elle appelait sa chère mère ; et il n’y avait personne qui n’eût l’âme percée de voir un si bon naturel.</s>
+              <s>Elle faisait fondre chacun en larmes, en se jetant amoureusement sur le corps de cette Mourante, qu’elle appelait sa chère Mère ; et il n’y avait Personne qui n’eût l’âme percée, de voir un si bon naturel.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-37">
@@ -509,19 +500,20 @@
           <sp who="octave" xml:id="I02-38">
             <speaker>octave</speaker>
             <p>
-              <s>Ah ! Scapin, un barbare l’aurait aimée.</s>
+              <s>Ah ! Scapin, un Barbare l’aurait aimée.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-39">
             <speaker>scapin</speaker>
             <p>
-              <s>Assurément : le moyen de s’en empêcher ?</s>
+              <s>Assurément.</s>
+              <s>Le moyen de s’en empêcher ?</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I02-40">
             <speaker>octave</speaker>
             <p>
-              <s>Après quelques paroles, dont je tâchai d’adoucir la douleur de cette charmante affligée, nous sortîmes de là ; et demandant à Léandre ce qu’il lui semblait de cette personne, il me répondit froidement qu’il la trouvait assez jolie.</s>
+              <s>Après quelques paroles, dont je tâchai d’adoucir la douleur de cette charmante Affligée, nous sortîmes de là ; et demandant à Léandre ce qu’il lui semblait de cette Personne, il me répondit froidement qu’il la trouvait assez jolie.</s>
               <s>Je fus piqué de la froideur avec laquelle il m’en parlait, et je ne voulus point lui découvrir l’effet que ses beautés avaient fait sur mon âme.</s>
             </p>
           </sp>
@@ -529,13 +521,14 @@
             <speaker>silvestre</speaker>
             <p>
               <s>Si vous n’abrégez ce récit, nous en voilà pour jusqu’à demain.</s>
-              <s>Laissez-le-moi finir en deux mots. Son cœur prend feu dès ce moment.</s>
-              <s>Il ne saurait plus vivre, qu’il n’aille consoler son aimable affligée.</s>
-              <s>Ses fréquentes visites sont rejetées de la servante, devenue la gouvernante par le trépas de la mère : voilà mon homme au désespoir.</s>
-              <s>Il presse, supplie, conjure : point d’affaire.</s>
-              <s>On lui dit que la fille, quoique sans bien, et sans appui, est de famille honnête ; et qu’à moins que de l’épouser, on ne peut souffrir ses poursuites.</s>
+              <s>Laissez-le-moi finir en deux mots.</s> 
+              <s>Son cœur prend feu dès ce moment.</s>
+              <s>Il ne saurait plus vivre, qu’il n’aille consoler son aimable Affligée.</s>
+              <s>Ses fréquentes visites sont rejetées de la Servante, devenue la Gouvernante par le trépas de la Mère ; voilà mon Homme au désespoir.</s>
+              <s>Il presse, supplie, conjure ; point d’affaire.</s>
+              <s>On lui dit que la Fille, quoique sans bien, et sans appui, est de Famille honnête ; et qu’à moins que de l’épouser, on ne peut souffrir ses poursuites.</s>
               <s>Voilà son amour augmenté par les difficultés.</s>
-              <s>Il consulte dans sa tête, agite, raisonne, balance, prend sa résolution : le voilà marié avec elle depuis trois jours.</s>
+              <s>Il consulte dans sa tête, agite, raisonne, balance, prend sa résolution ; Le voilà marié avec elle depuis trois jours.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-42">
@@ -547,13 +540,13 @@
           <sp who="silvestre" xml:id="I02-43">
             <speaker>silvestre</speaker>
             <p>
-              <s>Maintenant mets avec cela le retour imprévu du père, qu’on n’attendait que dans deux mois ; la découverte que l’oncle a faite du secret de notre mariage, et l’autre mariage qu’on veut faire de lui avec la fille que le seigneur Géronte a eue d’une seconde femme qu’on dit qu’il a épousée à Tarente.</s>
+              <s>Maintenant mets avec cela le retour imprévu du Père, qu’on n’attendait que dans deux mois ; La découverte que l’Oncle a faite du secret de notre Mariage, et l’autre Mariage qu’on veut faire de lui avec la Fille que le seigneur Géronte a eue d’une seconde Femme qu’on dit qu’il a épousée à Tarente.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I02-44">
             <speaker>octave</speaker>
             <p>
-              <s>Et par-dessus tout cela mets encore l’indigence où se trouve cette aimable personne, et l’impuissance où je me vois d’avoir de quoi la secourir.</s>
+              <s>Et par-dessus tout cela, mets encore l’indigence où se trouve cette aimable Personne, et l’impuissance où je me vois d’avoir de quoi la secourir.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I02-45">
@@ -563,17 +556,16 @@
               <s>Vous voilà bien embarrassés tous deux pour une bagatelle.</s>
               <s>C’est bien là de quoi se tant alarmer.</s>
               <s>N’as-tu point de honte, toi, de demeurer court à si peu de chose ?</s>
-              <s>Que diable !</s>
-              <s>Te voilà grand et gros comme père et mère, et tu ne saurais trouver dans ta tête, forger dans ton esprit quelque ruse galante, quelque honnête petit stratagème, pour ajuster vos affaires ?</s>
-              <s>Fi !</s>
-              <s>Peste soit du butor !</s>
-              <s>Je voudrais bien que l’on m’eût donné autrefois nos vieillards à duper ; je les aurais joués tous deux par-dessous la jambe ; et je n’étais pas plus grand que cela, que je me signalais déjà par cent tours d’adresse jolis.</s>
+              <s>Que diable, te voilà grand et gros comme Père et Mère, et tu ne saurais trouver dans ta tête, forger dans ton esprit quelque ruse galante, quelque honnête petit stratagème, pour ajuster vos affaires ?</s>
+              <s>Fi.</s>
+              <s>Peste soit du Butor.</s>
+              <s>Je voudrais bien que l’on m’eût donné autrefois nos Vieillards à duper ; je les aurais joués tous deux par-dessous la jambe ; et je n’étais pas plus grand que cela, que je me signalais déjà par cent tours d’adresse jolis.</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="I02-46">
             <speaker>silvestre</speaker>
             <p>
-              <s>J’avoue que le Ciel ne m’a pas donné tes talents, et que je n’ai pas l’esprit, comme toi, de me brouiller avec la justice.</s>
+              <s>J’avoue que le Ciel ne m’a pas donné tes talents, et que je n’ai pas l’esprit comme toi, de me brouiller avec la Justice.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I02-47">
@@ -589,8 +581,7 @@
           <sp who="hyacinthe" xml:id="I03-1">
             <speaker>hyacinthe</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Octave, est-il vrai ce que Silvestre vient de dire à Nérine ?</s>
+              <s>Ah, Octave, est-il vrai ce que Silvestre vient de dire à Nérine ?</s>
               <s>Que votre père est de retour, et qu’il veut vous marier ?</s>
             </p>
           </sp>
@@ -598,8 +589,7 @@
             <speaker>octave</speaker>
             <p>
               <s>Oui, belle Hyacinte, et ces nouvelles m’ont donné une atteinte cruelle.</s>
-              <s>Mais que vois-je ?</s>
-              <s>Vous pleurez !</s>
+              <s>Mais que vois-je ? vous pleurez !</s>
               <s>Pourquoi ces larmes ?</s>
               <s>Me soupçonnez-vous, dites-moi, de quelque infidélité, et n’êtes-vous pas assurée de l’amour que j’ai pour vous ?</s>
             </p>
@@ -613,35 +603,33 @@
           <sp who="octave" xml:id="I03-4">
             <speaker>octave</speaker>
             <p>
-              <s>Eh !</s>
-              <s>Peut-on vous aimer qu’on ne vous aime toute sa vie ?</s>
+              <s>Eh peut-on vous aimer, qu’on ne vous aime toute sa vie ?</s>
             </p>
           </sp>
           <sp who="hyacinthe" xml:id="I03-5">
             <speaker>hyacinthe</speaker>
             <p>
-              <s>J’ai ouï dire, Octave, que votre sexe aime moins longtemps que le nôtre, et que les ardeurs que les hommes font voir sont des feux qui s’éteignent aussi facilement qu’ils naissent.</s>
+              <s>J’ai ouï dire, Octave, que votre Sexe aime moins longtemps que le nôtre, et que les ardeurs que les Hommes font voir, sont des feux qui s’éteignent aussi facilement qu’ils naissent.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I03-6">
             <speaker>octave</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Ma chère Hyacinte, mon cœur n’est donc pas fait comme celui des autres hommes, et je sens bien pour moi que je vous aimerai jusqu’au tombeau.</s>
+              <s>Ah ! ma chère Hyacinte, mon cœur n’est donc pas fait comme celui des autres Hommes, et je sens bien pour moi que je vous aimerai jusqu’au tombeau.</s>
             </p>
           </sp>
           <sp who="hyacinthe" xml:id="I03-7">
             <speaker>hyacinthe</speaker>
             <p>
-              <s>Je veux croire que vous sentez ce que vous dites, et je ne doute point que vos paroles ne soient sincères ; mais je crains un pouvoir qui combattra dans votre cœur les tendres sentiments que vous pouvez avoir pour moi.</s>
-              <s>Vous dépendez d’un père, qui veut vous marier à une autre personne ; et je suis sûre que je mourrai, si ce malheur m’arrive.</s>
+              <s>Je veux croire que vous sentez ce que vous dites, et je ne doute point que vos paroles ne soient sincères ; mais je crains un pouvoir, qui combattra dans votre cœur les tendres sentiments que vous pouvez avoir pour moi.</s>
+              <s>Vous dépendez d’un Père, qui veut vous marier à une autre Personne ; et je suis sûre que je mourrai, si ce malheur m’arrive.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I03-8">
             <speaker>octave</speaker>
             <p>
-              <s>Non, belle Hyacinte, il n’y a point de père qui puisse me contraindre à vous manquer de foi, et je me résoudrai à quitter mon pays, et le jour même, s’il est besoin, plutôt qu’à vous quitter.</s>
-              <s>J’ai déjà pris, sans l’avoir vue, une aversion effroyable pour celle que l’on me destine ; et, sans être cruel, je souhaiterais que la mer l’écartât d’ici pour jamais.</s>
+              <s>Non, belle Hyacinte, il n’y a point de Père qui puisse me contraindre à vous manquer de foi, et je me résoudrai à quitter mon Pays, et le jour même, s’il est besoin, plutôt qu’à vous quitter.</s>
+              <s>J’ai déjà pris, sans l’avoir vue, une aversion effroyable pour celle que l’on me destine ; et sans être cruel, je souhaiterais que la Mer l’écartât d’ici pour jamais.</s>
               <s>Ne pleurez donc point, je vous prie, mon aimable Hyacinte, car vos larmes me tuent, et je ne les puis voir sans me sentir percer le cœur.</s>
             </p>
           </sp>
@@ -676,33 +664,31 @@
             </p>
           </sp>
           <sp who="scapin" xml:id="I03-14">
-            <speaker>scapin, à part</speaker>
+            <speaker>scapin</speaker>
             <p>
-              <s>Elle n’est pas tant sotte, ma foi !</s>
-              <s>Et je la trouve assez passable.</s>
+              <s>Elle n’est pas tant sotte, ma foi, et je la trouve assez passable.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I03-15">
-            <speaker>octave, montrant scapin</speaker>
+            <speaker>octave</speaker>
             <p>
-              <s>Voici un homme qui pourrait bien, s’il le voulait, nous être, dans tous nos besoins, d’un secours merveilleux.</s>
+              <s>Voici un Homme qui pourrait bien, s’il le voulait, nous être dans tous nos besoins, d’un secours merveilleux.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I03-16">
             <speaker>scapin</speaker>
             <p>
-              <s>J’ai fait de grands serments de ne me mêler plus du monde ; mais, si vous m’en priez bien fort tous deux, peut-être...</s>
+              <s>J’ai fait de grands serments de ne me mêler plus du Monde ; mais si vous m’en priez bien fort tous deux, peut-être…</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I03-17">
             <speaker>octave</speaker>
             <p>
-              <s>Ah !</s>
-              <s>S’il ne tient qu’à te prier bien fort pour obtenir ton aide, je te conjure de tout mon cœur de prendre la conduite de notre barque.</s>
+              <s>Ah s’il ne tient qu’à te prier bien fort, pour obtenir ton aide, je te conjure de tout mon cœur de prendre la conduite de notre Barque.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I03-18">
-            <speaker>scapin, à hyacinthe</speaker>
+            <speaker>scapin</speaker>
             <p>
               <s>Et vous, ne me dites-vous rien ?</s>
             </p>
@@ -710,7 +696,7 @@
           <sp who="hyacinthe" xml:id="I03-19">
             <speaker>hyacinthe</speaker>
             <p>
-              <s>Je vous conjure, à son exemple, par tout ce qui vous est le plus cher au monde, de vouloir servir notre amour.</s>
+              <s>Je vous conjure, à son exemple, par tout ce qui vous est le plus cher au Monde, de vouloir servir notre amour.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I03-20">
@@ -723,20 +709,14 @@
           <sp who="octave" xml:id="I03-21">
             <speaker>octave</speaker>
             <p>
-              <s>Crois que...</s>
+              <s>Crois que…</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I03-22">
             <speaker>scapin</speaker>
             <p>
-              <s>Chut !</s>
-            </p>
-            <stage>À Hyacinte.</stage>
-            <p>
-              <s>Allez-vous-en, vous, et soyez en repos.</s>
-            </p>
-            <stage>À Octave.</stage>
-            <p>
+              <s>Chut.</s>
+              <s>Allez-vous-en vous, et soyez en repos.</s>
               <s>Et vous, préparez-vous à soutenir avec fermeté l’abord de votre père.</s>
             </p>
           </sp>
@@ -749,7 +729,7 @@
           <sp who="scapin" xml:id="I03-24">
             <speaker>scapin</speaker>
             <p>
-              <s>Il faut pourtant paraître ferme au premier choc, de peur que, sur votre faiblesse, il ne prenne le pied de vous mener comme un enfant.</s>
+              <s>Il faut pourtant paraître ferme au premier choc, de peur que sur votre faiblesse il ne prenne le pied de vous mener comme un Enfant.</s>
               <s>Là, tâchez de vous composer par étude.</s>
               <s>Un peu de hardiesse, et songez à répondre résolument sur tout ce qu’il pourra vous dire.</s>
             </p>
@@ -763,8 +743,8 @@
           <sp who="scapin" xml:id="I03-26">
             <speaker>scapin</speaker>
             <p>
-              <s>Çà, essayons un peu, pour vous accoutumer.</s>
-              <s>Répétons un peu votre rôle et voyons si vous ferez bien.</s>
+              <s>Çà, essayons un peu pour vous accoutumer.</s>
+              <s>Répétons un peu votre rôle, et voyons si vous ferez bien.</s>
               <s>Allons.</s>
               <s>La mine résolue, la tête haute, les regards assurés.</s>
             </p>
@@ -791,19 +771,14 @@
             <speaker>scapin</speaker>
             <p>
               <s>Bon.</s>
-              <s>Imaginez-vous que je suis votre père qui arrive, et répondez-moi fermement, comme si c’était à lui-même.</s>
-              <s>"Comment, pendard, vaurien, infâme, fils indigne d’un père comme moi, oses-tu bien paraître devant mes yeux, après tes bons déportements, après le lâche tour que tu m’as joué pendant mon absence ?</s>
-              <s>Est-ce là le fruit de mes soins, maraud ?</s>
-              <s>Est-ce là le fruit de mes soins ?</s>
-              <s>Le respect qui m’est dû ?</s>
-              <s>Le respect que tu me conserves ?</s>
-              <s>" Allons donc. "</s>
-              <s>Tu as l’insolence, fripon, de t’engager sans le consentement de ton père, de contracter un mariage clandestin ?</s>
-              <s>Réponds-moi, coquin, réponds-moi.</s>
-              <s>Voyons un peu tes belles raisons."</s>
-              <s>Oh !</s>
-              <s>Que diable !</s>
-              <s>Vous demeurez interdit !</s>
+              <s>Imaginez-vous que je suis votre Père qui arrive, et répondez-moi fermement comme si c’était à lui-même.</s>
+              <s>Comment, Pendard, Vaurien, Infâme, Fils indigne d’un Père comme moi, oses-tu bien paraître devant mes yeux après tes bons déportements, après le lâche tour que tu m’as joué pendant mon absence ?</s>
+              <s>Est-ce là le fruit de mes soins, Maraud, est-ce là le fruit de mes soins ? le respect qui m’est dû ? le respect que tu me conserves ?</s>
+              <s>Allons donc.</s>
+              <s>Tu as l’insolence, Fripon, de t’engager sans le consentement de ton Père ; de contracter un Mariage clandestin ?</s>
+              <s>Réponds-moi, Coquin, réponds-moi.</s>
+              <s>Voyons un peu tes belles raisons.</s>
+              <s>Oh ! que diable, vous demeurez interdit.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I03-31">
@@ -815,9 +790,8 @@
           <sp who="scapin" xml:id="I03-32">
             <speaker>scapin</speaker>
             <p>
-              <s>Eh !</s>
-              <s>Oui.</s>
-              <s>C’est par cette raison qu’il ne faut pas être comme un innocent.</s>
+              <s>Eh oui.</s>
+              <s>C’est par cette raison qu’il ne faut pas être comme un Innocent.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I03-33">
@@ -841,25 +815,23 @@
           <sp who="silvestre" xml:id="I03-36">
             <speaker>silvestre</speaker>
             <p>
-              <s>Voilà votre père qui vient.</s>
+              <s>Voilà votre Père qui vient.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="I03-37">
             <speaker>octave</speaker>
             <p>
-              <s>Ô Ciel !</s>
-              <s>Je suis perdu.</s>
+              <s>Ô Ciel ! je suis perdu.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I03-38">
             <speaker>scapin</speaker>
             <p>
-              <s>Holà !</s>
-              <s>Octave, demeurez.</s>
-              <s>Octave !</s>
+              <s>Holà, Octave, demeurez.</s>
+              <s>Octave.</s>
               <s>Le voilà enfui.</s>
-              <s>Quelle pauvre espèce d’homme !</s>
-              <s>Ne laissons pas d’attendre le vieillard.</s>
+              <s>Quelle pauvre espèce d’Homme !</s>
+              <s>Ne laissons pas d’attendre le Vieillard.</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="I03-39">
@@ -905,7 +877,7 @@
           <sp who="argante" xml:id="I04-5">
             <speaker>argante</speaker>
             <p>
-              <s>Je voudrais bien savoir ce qu’ils me pourront dire sur ce beau mariage.</s>
+              <s>Je voudrais bien savoir ce qu’ils me pourront dire sur ce beau Mariage.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-6">
@@ -977,7 +949,7 @@
           <sp who="argante" xml:id="I04-17">
             <speaker>argante</speaker>
             <p>
-              <s>Je saurai mettre mon pendard de fils en lieu de sûreté.</s>
+              <s>Je saurai mettre mon pendard de Fils en lieu de sûreté.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-18">
@@ -1001,9 +973,7 @@
           <sp who="argante" xml:id="I04-21">
             <speaker>argante</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Ah !</s>
-              <s>Vous voilà donc, sage gouverneur de famille, beau directeur de jeunes gens.</s>
+              <s>Ah, ah, vous voilà donc, sage Gouverneur de Famille, beau Directeur de jeunes Gens.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-22">
@@ -1015,10 +985,7 @@
           <sp who="argante" xml:id="I04-23">
             <speaker>argante</speaker>
             <p>
-              <s>Bonjour, Scapin.</s>
-            </p>
-            <p>
-              <s>Vous avez suivi mes ordres vraiment d’une belle manière, et mon fils s’est comporté fort sagement pendant mon absence.</s>
+              <s>Bonjour, Scapin, vous avez suivi mes ordres vraiment d’une belle manière, et mon Fils s’est comporté fort sagement pendant mon absence.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-24">
@@ -1034,7 +1001,7 @@
             </p>
             <stage>À Silvestre.</stage>
             <p>
-              <s>Tu ne dis mot, coquin, tu ne dis mot.</s>
+              <s>Tu ne dis mot, Coquin, tu ne dis mot.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-26">
@@ -1046,8 +1013,7 @@
           <sp who="argante" xml:id="I04-27">
             <speaker>argante</speaker>
             <p>
-              <s>Mon Dieu !</s>
-              <s>Fort bon.</s>
+              <s>Mon Dieu, fort bon.</s>
               <s>Laisse-moi un peu quereller en repos.</s>
             </p>
           </sp>
@@ -1072,7 +1038,7 @@
           <sp who="argante" xml:id="I04-31">
             <speaker>argante</speaker>
             <p>
-              <s>Ce maraud-là.</s>
+              <s>Ce Maraud-là.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-32">
@@ -1121,7 +1087,7 @@
           <sp who="argante" xml:id="I04-39">
             <speaker>argante</speaker>
             <p>
-              <s>Un fils qui se marie sans le consentement de son père ?</s>
+              <s>Un Fils qui se marie sans le consentement de son Père ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-40">
@@ -1135,48 +1101,42 @@
             <speaker>argante</speaker>
             <p>
               <s>Je ne suis pas de cet avis, moi, et je veux faire du bruit tout mon soûl.</s>
-              <s>Quoi ?</s>
-              <s>Tu ne trouves pas que j’ai tous les sujets du monde d’être en colère ?</s>
+              <s>Quoi, tu ne trouves pas que j’ai tous les sujets du monde d’être en colère ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-42">
             <speaker>scapin</speaker>
             <p>
-              <s>Si fait.</s>
-              <s>J’y ai d’abord été, moi, lorsque j’ai su la chose, et je me suis intéressé pour vous, jusqu’à quereller votre fils.</s>
-              <s>Demandez-lui un peu quelles belles réprimandes je lui ai faites, et comme je l’ai chapitré sur le peu de respect qu’il gardait à un père dont il devait baiser les pas ?</s>
-              <s>On ne peut pas lui mieux parler, quand ce serait vous-même. Mais quoi ?</s>
-              <s>Je me suis rendu à la raison, et j’ai considéré que, dans le fond, il n’a pas tant de tort qu’on pourrait croire.</s>
+              <s>Si fait, j’y ai d’abord été moi, lorsque j’ai su la chose, et je me suis intéressé pour vous, jusqu’à quereller votre Fils.</s>
+              <s>Demandez-lui un peu quelles belles réprimandes je lui ai faites, et comme je l’ai chapitré sur le peu de respect qu’il gardait à un Père, dont il devait baiser les pas ?</s>
+              <s>On ne peut pas lui mieux parler, quand ce serait vous-même.</s>
+              <s>Mais quoi, je me suis rendu à la raison, et j’ai considéré que dans le fond, il n’a pas tant de tort qu’on pourrait croire.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="I04-43">
             <speaker>argante</speaker>
             <p>
               <s>Que me viens-tu conter ?</s>
-              <s>Il n’a pas tant de tort de s’aller marier de but en blanc avec une inconnue ?</s>
+              <s>Il n’a pas tant de tort de s’aller marier de but en blanc avec une Inconnue ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-44">
             <speaker>scapin</speaker>
             <p>
-              <s>Que voulez-vous ?</s>
-              <s>Il y a été poussé par sa destinée.</s>
+              <s>Que voulez-vous, il y a été poussé par sa destinée.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="I04-45">
             <speaker>argante</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Ah !</s>
-              <s>Voici une raison la plus belle du monde.</s>
-              <s>On n’a plus qu’à commettre tous les crimes imaginables, tromper, voler, assassiner, et dire pour excuse qu’on y a été poussé par sa destinée.</s>
+              <s>Ah, ah, voici une raison la plus belle du monde.</s>
+              <s>On n’a plus qu’à commettre tous les crimes imaginables, tromper, voler, assassiner et dire pour excuse qu’on y a été poussé par sa destinée.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-46">
             <speaker>scapin</speaker>
             <p>
-              <s>Mon Dieu !</s>
-              <s>Vous prenez mes paroles trop en philosophe.</s>
+              <s>Mon Dieu, vous prenez mes paroles trop en Philosophe.</s>
               <s>Je veux dire qu’il s’est trouvé fatalement engagé dans cette affaire.</s>
             </p>
           </sp>
@@ -1190,40 +1150,41 @@
             <speaker>scapin</speaker>
             <p>
               <s>Voulez-vous qu’il soit aussi sage que vous ?</s>
-              <s>Les jeunes gens sont jeunes, et n’ont pas toute la prudence qu’il leur faudrait pour ne rien faire que de raisonnable : témoin notre Léandre, qui, malgré toutes mes leçons, malgré toutes mes remontrances, est allé faire de son côté pis encore que votre fils.</s>
-              <s>Je voudrais bien savoir si vous-même n’avez pas été jeune, et n’avez pas, dans votre temps, fait des fredaines comme les autres.</s>
-              <s>J’ai ouï dire, moi, que vous avez été autrefois un compagnon parmi les femmes, que vous faisiez de votre drôle avec les plus galantes de ce temps-là, et que vous n’en approchiez point que vous ne poussassiez à bout.</s>
+              <s>Les jeunes Gens sont jeunes, et n’ont pas toute la prudence qu’il leur faudrait, pour ne rien faire que de raisonnable ; témoin notre Léandre, qui malgré toutes mes leçons, malgré toutes mes remontrances, est allé faire de son côté pis encore que votre Fils.</s>
+              <s>Je voudrais bien savoir si vous-même n’avez pas été jeune, et n’avez pas dans votre temps fait des fredaines comme les autres.</s>
+              <s>J’ai ouï dire, moi, que vous avez été autrefois un Compagnon parmi les femmes, que vous faisiez de votre drôle avec les plus galantes de ce temps-là ; et que vous n’en approchiez point, que vous ne poussassiez à bout.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="I04-49">
             <speaker>argante</speaker>
             <p>
-              <s>Cela est vrai, j’en demeure d’accord ; mais je m’en suis toujours tenu à la galanterie, et je n’ai point été jusqu’à faire ce qu’il a fait.</s>
+              <s>Cela est vrai.</s>
+              <s>J’en demeure d’accord ; mais je m’en suis toujours tenu à la galanterie, et je n’ai point été jusqu’à faire ce qu’il a fait.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-50">
             <speaker>scapin</speaker>
             <p>
               <s>Que vouliez-vous qu’il fît ?</s>
-              <s>Il voit une jeune personne qui lui veut du bien</s>
-              <s>(Car il tient cela de vous, d’être aimé de toutes les femmes)</s>
-              <s>. Il la trouve charmante. Il lui rend des visites, lui conte des douceurs, soupire galamment, fait le passionné.</s>
+              <s>Il voit une jeune Personne qui lui veut du bien ; (car il tient cela de vous, d’être aimé de toutes les Femmes).</s>
+              <s>Il la trouve charmante.</s>
+              <s>Il lui rend des visites ; lui conte des douceurs, soupire galamment, fait le passionné.</s>
               <s>Elle se rend à sa poursuite.</s>
               <s>Il pousse sa fortune.</s>
-              <s>Le voilà surpris avec elle par ses parents, qui, la force à la main, le contraignent de l’épouser.</s>
+              <s>Le voilà surpris avec elle par ses Parents, qui la force à la main le contraignent de l’épouser.</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="I04-51">
             <speaker>silvestre</speaker>
             <p>
-              <s>L’habile fourbe que voilà !</s>
+              <s>L’habile Fourbe que voilà !</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-52">
             <speaker>scapin</speaker>
             <p>
               <s>Eussiez-vous voulu qu’il se fût laissé tuer ?</s>
-              <s>Il vaut mieux encore être marié qu’être mort.</s>
+              <s>Il vaut mieux encore être marié, qu’être mort.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="I04-53">
@@ -1235,7 +1196,8 @@
           <sp who="scapin" xml:id="I04-54">
             <speaker>scapin</speaker>
             <p>
-              <s>Demandez-lui plutôt : il ne vous dira pas le contraire.</s>
+              <s>Demandez-lui plutôt.</s>
+              <s> il ne vous dira pas le contraire.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="I04-55">
@@ -1259,7 +1221,7 @@
           <sp who="argante" xml:id="I04-58">
             <speaker>argante</speaker>
             <p>
-              <s>Il devait donc aller tout aussitôt protester de violence chez un notaire.</s>
+              <s>Il devait donc aller tout aussitôt protester de violence chez un Notaire.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-59">
@@ -1271,13 +1233,13 @@
           <sp who="argante" xml:id="I04-60">
             <speaker>argante</speaker>
             <p>
-              <s>Cela m’aurait donné plus de facilité à rompre ce mariage.</s>
+              <s>Cela m’aurait donné plus de facilité à rompre ce Mariage.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-61">
             <speaker>scapin</speaker>
             <p>
-              <s>Rompre ce mariage !</s>
+              <s>Rompre ce Mariage !</s>
             </p>
           </sp>
           <sp who="argante" xml:id="I04-62">
@@ -1307,8 +1269,7 @@
           <sp who="argante" xml:id="I04-66">
             <speaker>argante</speaker>
             <p>
-              <s>Quoi ?</s>
-              <s>Je n’aurai pas pour moi les droits de père, et la raison de la violence qu’on a faite à mon fils ?</s>
+              <s>Quoi, je n’aurai pas pour moi les droits de Père, et la raison de la violence qu’on a faite à mon Fils ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-67">
@@ -1338,10 +1299,10 @@
           <sp who="scapin" xml:id="I04-71">
             <speaker>scapin</speaker>
             <p>
-              <s>Votre fils.</s>
+              <s>Votre Fils.</s>
               <s>Voulez-vous qu’il confesse qu’il ait été capable de crainte, et que ce soit par force qu’on lui ait fait faire les choses ?</s>
               <s>Il n’a garde d’aller avouer cela.</s>
-              <s>Ce serait se faire tort, et se montrer indigne d’un père comme vous.</s>
+              <s>Ce serait se faire tort, et se montrer indigne d’un Père comme vous.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="I04-72">
@@ -1353,13 +1314,13 @@
           <sp who="scapin" xml:id="I04-73">
             <speaker>scapin</speaker>
             <p>
-              <s>Il faut, pour son honneur, et pour le vôtre, qu’il dise dans le monde que c’est de bon gré qu’il l’a épousée.</s>
+              <s>Il faut, pour son honneur, et pour le vôtre, qu’il dise dans le monde, que c’est de bon gré qu’il l’a épousée.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="I04-74">
             <speaker>argante</speaker>
             <p>
-              <s>Et je veux, moi, pour mon honneur et pour le sien, qu’il dise le contraire.</s>
+              <s>Et je veux moi, pour mon honneur et pour le sien, qu’il dise le contraire.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-75">
@@ -1407,7 +1368,7 @@
           <sp who="argante" xml:id="I04-82">
             <speaker>argante</speaker>
             <p>
-              <s>Comment, bon !</s>
+              <s>Comment, bon ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-83">
@@ -1443,8 +1404,9 @@
           <sp who="argante" xml:id="I04-88">
             <speaker>argante</speaker>
             <p>
-              <s>Hoy !</s>
-              <s>Voici qui est plaisant : je ne déshériterai pas mon fils.</s>
+              <s>Hoy. </s>
+              <s>Voici qui est plaisant.</s>
+              <s>Je ne déshériterai pas mon Fils.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-89">
@@ -1499,7 +1461,7 @@
           <sp who="scapin" xml:id="I04-97">
             <speaker>scapin</speaker>
             <p>
-              <s>La tendresse paternelle fera son office.</s>
+              <s>La tendresse Paternelle fera son office.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="I04-98">
@@ -1535,8 +1497,7 @@
           <sp who="scapin" xml:id="I04-103">
             <speaker>scapin</speaker>
             <p>
-              <s>Mon Dieu !</s>
-              <s>Je vous connais, vous êtes bon naturellement.</s>
+              <s>Mon Dieu, je vous connais, vous êtes bon naturellement.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="I04-104">
@@ -1544,9 +1505,7 @@
             <p>
               <s>Je ne suis point bon, et je suis méchant quand je veux.</s>
               <s>Finissons ce discours qui m’échauffe la bile.</s>
-            </p>
-            <p>
-              <s>Va-t’en, pendard, va-t’en me chercher mon fripon, tandis que j’ira rejoindre le seigneur Géronte, pour lui conter ma disgrâce.</s>
+              <s>Va-t’en, Pendard, va-t’en me chercher mon Fripon, tandis que j’ira rejoindre le Seigneur Géronte, pour lui conter ma disgrâce.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I04-105">
@@ -1559,12 +1518,8 @@
             <speaker>argante</speaker>
             <p>
               <s>Je vous remercie.</s>
-            </p>
-            <stage>A part.</stage>
-            <p>
-              <s>Ah !</s>
-              <s>Pourquoi faut-il qu’il soit fils unique !</s>
-              <s>Et que n’ai-je à cette heure la fille que le Ciel m’a ôtée, pour la faire mon héritière !</s>
+              <s>Ah pourquoi faut-il qu’il soit Fils unique !</s>
+              <s>Et que n’ai-je à cette heure la Fille que le Ciel m’a ôtée, pour la faire mon Héritière !</s>
             </p>
           </sp>
         </div2>
@@ -1574,21 +1529,21 @@
           <sp who="silvestre" xml:id="I05-1">
             <speaker>silvestre</speaker>
             <p>
-              <s>J’avoue que tu es un grand homme, et voilà l’affaire en bon train ; mais l’argent, d’autre part, nous presse pour notre subsistance, et nous avons, de tous côtés, des gens qui aboient après nous.</s>
+              <s>J’avoue que tu es un grand Homme, et voilà l’affaire en bon train ; mais l’argent d’autre part nous presse pour notre subsistance, et nous avons de tous côtés des Gens qui aboient après nous.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I05-2">
             <speaker>scapin</speaker>
             <p>
               <s>Laisse-moi faire, la machine est trouvée.</s>
-              <s>Je cherche seulement dans ma tête un homme qui nous soit affidé, pour jouer un personnage dont j’ai besoin.</s>
+              <s>Je cherche seulement dans ma tête un Homme qui nous soit affidé, pour jouer un Personnage dont j’ai besoin.</s>
               <s>Attends.</s>
               <s>Tiens-toi un peu.</s>
-              <s>Enfonce ton bonnet en méchant garçon.</s>
+              <s>Enfonce ton bonnet en méchant Garçon.</s>
               <s>Campe-toi sur un pied.</s>
               <s>Mets la main au côté.</s>
               <s>Fais les yeux furibonds.</s>
-              <s>Marche un peu en roi de théâtre.</s>
+              <s>Marche un peu en Roi de Théâtre.</s>
               <s>Voilà qui est bien.</s>
               <s>Suis-moi.</s>
               <s>J’ai des secrets pour déguiser ton visage et ta voix.</s>
@@ -1597,13 +1552,13 @@
           <sp who="silvestre" xml:id="I05-3">
             <speaker>silvestre</speaker>
             <p>
-              <s>Je te conjure au moins de ne m’aller point brouiller avec la justice.</s>
+              <s>Je te conjure au moins, de ne m’aller point brouiller avec la Justice.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="I05-4">
             <speaker>scapin</speaker>
             <p>
-              <s>Va, va : nous partagerons les périls en frères ; et trois ans de galère de plus ou de moins ne sont pas pour arrêter un noble cœur.</s>
+              <s>Va, va ; nous partagerons les périls en Frères ; et trois ans de Galère de plus, ou de moins, ne sont pas pour arrêter un noble cœur.</s>
             </p>
           </sp>
           <trailer>Fin du Premier Acte.</trailer>
@@ -1617,22 +1572,20 @@
           <sp who="geronte" xml:id="II01-1">
             <speaker>géronte</speaker>
             <p>
-              <s>Oui, sans doute, par le temps qu’il fait, nous aurons ici nos gens aujourd’hui ; et un matelot qui vient de Tarente m’a assuré qu’il avait vu mon homme qui était près de s’embarquer.</s>
-              <s>Mais l’arrivée de ma fille trouvera les choses mal disposées à ce que nous nous proposions ; et ce que vous venez de m’apprendre de votre fils rompt étrangement les mesures que nous avions prises ensemble.</s>
+              <s>Oui, sans doute, par le temps qu’il fait, nous aurons ici nos Gens aujourd’hui ; et un Matelot qui vient de Tarente, m’a assuré qu’il avait vu mon Homme qui était près de s’embarquer.</s>
+              <s>Mais l’arrivée de ma Fille trouvera les choses mal disposées à ce que nous nous proposions ; et ce que vous venez de m’apprendre de votre Fils, rompt étrangement les mesures que nous avions prises ensemble.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II01-2">
             <speaker>argante</speaker>
             <p>
-              <s>Ne vous mettez pas en peine : je vous réponds de renverser tout cet obstacle, et j’y vais travailler de ce pas.</s>
+              <s>Ne vous mettez pas en peine ; je vous réponds de renverser tout cet obstacle, et j’y vais travailler de ce pas.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II01-3">
             <speaker>géronte</speaker>
             <p>
-              <s>Ma foi !</s>
-              <s>seigneur Argante, voulez-vous que je vous dise ?</s>
-              <s>L’éducation des enfants est une chose à quoi il faut s’attacher fortement.</s>
+              <s>Ma foi, Seigneur Argante, voulez-vous que je vous dise ; l’éducation des Enfants est une chose à quoi il faut s’attacher fortement.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II01-4">
@@ -1645,7 +1598,7 @@
           <sp who="geronte" xml:id="II01-5">
             <speaker>géronte</speaker>
             <p>
-              <s>À propos de ce que les mauvais déportements des jeunes gens viennent le plus souvent de la mauvaise éducation que leurs pères leur donnent.</s>
+              <s>À propos, de ce que les mauvais déportements des jeunes Gens viennent le plus souvent de la mauvaise éducation que leurs Pères leur donnent.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II01-6">
@@ -1670,7 +1623,7 @@
           <sp who="geronte" xml:id="II01-9">
             <speaker>géronte</speaker>
             <p>
-              <s>Que si vous aviez, en brave père, bien morigéné votre fils, il ne vous aurait pas joué le tour qu’il vous a fait.</s>
+              <s>Que si vous aviez en brave Père, bien morigéné votre Fils, il ne vous aurait pas joué le tour qu’il vous a fait.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II01-10">
@@ -1689,8 +1642,7 @@
           <sp who="argante" xml:id="II01-12">
             <speaker>argante</speaker>
             <p>
-              <s>Et si ce fils que vous avez, en brave père, si bien morigéné, avait fait pis encore que le mien ?</s>
-              <s>Eh ?</s>
+              <s>Et si ce Fils que vous avez, en brave Père, si bien morigéné, avait fait pis encore que le mien ; Eh ?</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II01-13">
@@ -1714,13 +1666,13 @@
           <sp who="argante" xml:id="II01-16">
             <speaker>argante</speaker>
             <p>
-              <s>Cela veut dire, seigneur Géronte, qu’il ne faut pas être si prompt à condamner la conduite des autres ; et que ceux qui veulent gloser, doivent bien regarder chez eux s’il n’y a rien qui cloche.</s>
+              <s>Cela veut dire, Seigneur Géronte, qu’il ne faut pas être si prompt à condamner la conduite des autres ; et que ceux qui veulent gloser, doivent bien regarder chez eux s’il n’y a rien qui cloche.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II01-17">
             <speaker>géronte</speaker>
             <p>
-              <s>Je n’entends point cette énigme.</s>
+              <s>Je n’entends point cette Énigme.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II01-18">
@@ -1732,7 +1684,7 @@
           <sp who="geronte" xml:id="II01-19">
             <speaker>géronte</speaker>
             <p>
-              <s>Est-ce que vous auriez ouï dire quelque chose de mon fils ?</s>
+              <s>Est-ce que vous auriez ouï dire quelque chose de mon Fils ?</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II01-20">
@@ -1751,7 +1703,7 @@
             <speaker>argante</speaker>
             <p>
               <s>Votre Scapin, dans mon dépit, ne m’a dit la chose qu’en gros ; et vous pourrez de lui, ou de quelque autre, être instruit du détail.</s>
-              <s>Pour moi, je vais vite consulter un avocat, et aviser des biais que j’ai à prendre.</s>
+              <s>Pour moi, je vais vite consulter un Avocat, et aviser des biais que j’ai à prendre.</s>
               <s>Jusqu’au revoir.</s>
             </p>
           </sp>
@@ -1763,16 +1715,15 @@
             <speaker>géronte</speaker>
             <p>
               <s>Que pourrait-ce être que cette affaire-ci ?</s>
-              <s>Pis encore que le sien ?</s>
-              <s>Pour moi, je ne vois pas ce que l’on peut faire de pis ; et je trouve que se marier sans le consentement de son père est une action qui passe tout ce qu’on peut s’imaginer.</s>
-              <s>Ah !</s>
-              <s>Vous voilà.</s>
+              <s>Pis encore que le sien !</s>
+              <s>Pour moi, je ne vois pas ce que l’on peut faire de pis ; et je trouve que se marier sans le consentement de son Père, est une action qui passe tout ce qu’on peut s’imaginer.</s>
+              <s>Ah vous voilà.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II02-2">
             <speaker>léandre, <hi rend="i">en courant à lui pour l’embrasser</hi></speaker>
             <p>
-              <s>Ah ! mon père, que j’ai de joie de vous voir de retour !</s>
+              <s>Ah ! mon Père, que j’ai de joie de vous voir de retour !</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II02-3">
@@ -1785,7 +1736,7 @@
           <sp who="leandre" xml:id="II02-4">
             <speaker>léandre</speaker>
             <p>
-              <s>Souffrez que je vous embrasse, et que...</s>
+              <s>Souffrez que je vous embrasse, et que…</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II02-5">
@@ -1797,15 +1748,13 @@
           <sp who="leandre" xml:id="II02-6">
             <speaker>léandre</speaker>
             <p>
-              <s>Quoi ?</s>
-              <s>Vous me refusez, mon père, de vous exprimer mon transport par mes embrassements !</s>
+              <s>Quoi, vous me refusez, mon Père, de vous exprimer mon transport par mes embrassements ?</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II02-7">
             <speaker>géronte</speaker>
             <p>
-              <s>Oui !</s>
-              <s>Nous avons quelque chose à démêler ensemble.</s>
+              <s>Oui, nous avons quelque chose à démêler ensemble.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II02-8">
@@ -1860,7 +1809,7 @@
           <sp who="leandre" xml:id="II02-16">
             <speaker>léandre</speaker>
             <p>
-              <s>Que voulez-vous, mon père, que j’ai fait ?</s>
+              <s>Que voulez-vous, mon Père, que j’ai fait ?</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II02-17">
@@ -1914,9 +1863,7 @@
           <sp who="geronte" xml:id="II02-25">
             <speaker>géronte</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Ah !</s>
-              <s>Ce mot vous fait rougir.</s>
+              <s>Ah, ah, ce mot vous fait rougir.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II02-26">
@@ -1928,10 +1875,11 @@
           <sp who="geronte" xml:id="II02-27">
             <speaker>géronte</speaker>
             <p>
-              <s>Ce lieu n’est pas tout à fait propre à vuider cette affaire, et nous allons l’examiner ailleurs.</s>
-              <s>Qu’on se rende au logis, j’y vais revenir tout à l’heure.</s>
+              <s>Ce lieu n’est pas tout à fait propre à vider cette affaire, et nous allons l’examiner ailleurs.</s>
+              <s>Qu’on se rende au Logis. </s>
+              <s>j’y vais revenir tout à l’heure.</s>
               <s>Ah !</s>
-              <s>Traître, s’il faut que tu me déshonores, je te renonce pour mon fils ; et tu peux bien pour jamais te résoudre à fuir de ma présence.</s>
+              <s>Traître, s’il faut que tu me déshonores, je te renonce pour mon Fils, et tu peux bien pour jamais te résoudre à fuir de ma présence.</s>
             </p>
           </sp>
         </div2>
@@ -1942,41 +1890,37 @@
             <speaker>léandre</speaker>
             <p>
               <s>Me trahir de cette manière !</s>
-              <s>Un coquin qui doit, par cent raisons, être le premier à cacher les choses que je lui confie, est le premier à les aller découvrir à mon père.</s>
-              <s>Ah !</s>
-              <s>Je jure le Ciel que cette trahison ne demeurera pas impunie.</s>
+              <s>Un Coquin, qui doit par cent raisons être le premier à cacher les choses que je lui confie, est le premier à les aller découvrir à mon Père.</s>
+              <s>Ah ! je jure le Ciel, que cette trahison ne demeurera pas impunie.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="II03-2">
             <speaker>octave</speaker>
             <p>
               <s>Mon cher Scapin, que ne dois-je point à tes soins !</s>
-              <s>Que tu es un homme admirable !</s>
-              <s>Et que le Ciel m’est favorable de t’envoyer à mon secours !</s>
+              <s>Que tu es un Homme admirable !</s>
+              <s>Et que le Ciel m’est favorable, de t’envoyer à mon secours !</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II03-3">
             <speaker>léandre</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Ah !</s>
-              <s>Vous voilà.</s>
-              <s>Je suis ravi de vous trouver, Monsieur le coquin.</s>
+              <s>Ah, ah, vous voilà.</s>
+              <s>Je suis ravi de vous trouver, Monsieur le Coquin.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II03-4">
             <speaker>scapin</speaker>
             <p>
-              <s>Monsieur, votre serviteur.</s>
+              <s>Monsieur, votre Serviteur.</s>
               <s>C’est trop d’honneur que vous me faites.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II03-5">
             <speaker>léandre, <hi rend="i">en mettant l’épée à la main</hi></speaker>
             <p>
-              <s>Vous faites le méchant plaisant.</s>
-              <s>Ah !</s>
-              <s>Je vous apprendrai...</s>
+              <s>Vous faites le méchant Plaisant.</s>
+              <s>Ah ! je vous apprendrai…</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II03-6">
@@ -1988,7 +1932,7 @@
           <sp who="octave" xml:id="II03-7">
             <speaker>octave, <hi rend="i">se mettant entre deux, pour empêcher Léandre de le frapper</hi></speaker>
             <p>
-              <s>Ah ! Léandre.</s>
+              <s>Ah, Léandre.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II03-8">
@@ -2000,13 +1944,13 @@
           <sp who="scapin" xml:id="II03-9">
             <speaker>scapin</speaker>
             <p>
-              <s>Eh ! Monsieur.</s>
+              <s>Eh, Monsieur.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="II03-10">
             <speaker>octave, <hi rend="i">le retenant</hi></speaker>
             <p>
-              <s>De grâce !</s>
+              <s>De grâce. </s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II03-11">
@@ -2030,20 +1974,20 @@
           <sp who="leandre" xml:id="II03-14">
             <speaker>léandre, <hi rend="i">voulant le frapper</hi></speaker>
             <p>
-              <s>Ce que tu m’as fait, traître !</s>
+              <s>Ce que tu m’as fait, traître ?</s>
             </p>
           </sp>
           <sp who="octave" xml:id="II03-15">
             <speaker>octave, <hi rend="i">le retenant</hi></speaker>
             <p>
-              <s>Eh ! doucement.</s>
+              <s>Eh doucement.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II03-16">
             <speaker>léandre</speaker>
             <p>
               <s>Non, Octave, je veux qu’il me confesse lui-même tout à l’heure la perfidie qu’il m’a faite.</s>
-              <s>Oui, coquin, je sais le trait que tu m’as joué, on vient de me l’apprendre ; et tu ne croyais pas peut-être que l’on me dût révéler ce secret ; mais je veux en avoir la confession de ta propre bouche, ou je vais te passer cette épée au travers du corps.</s>
+              <s>Oui, Coquin, je sais le trait que tu m’as joué, on vient de me l’apprendre ; et tu ne croyais pas peut-être que l’on me dût révéler ce secret : mais je veux en avoir la confession de ta propre bouche, ou je vais te passer cette épée au travers du corps.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II03-17">
@@ -2067,7 +2011,7 @@
           <sp who="leandre" xml:id="II03-20">
             <speaker>léandre</speaker>
             <p>
-              <s>Oui, coquin, et ta conscience ne te dit que trop ce que c’est.</s>
+              <s>Oui, Coquin, et ta conscience ne te dit que trop ce que c’est.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II03-21">
@@ -2091,20 +2035,19 @@
           <sp who="scapin" xml:id="II03-24">
             <speaker>scapin</speaker>
             <p>
-              <s>Hé bien !</s>
-              <s>Monsieur, puisque vous le voulez, je vous confesse que j’ai bu avec mes amis ce petit quartaut de vin d’Espagne dont on vous fit présent il y a quelques jours ; et que c’est moi qui fis une fente au tonneau, et répandis de l’eau autour, pour faire croire que le vin s’était échappé.</s>
+              <s>Hé bien Monsieur, puisque vous le voulez, je vous confesse que j’ai bu avec mes Amis ce petit Quartaut de vin d’Espagne dont on vous fit présent il y a quelques jours ; et que c’est moi qui fis une fente au Tonneau, et répandis de l’eau autour, pour faire croire que le Vin s’était échappé.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II03-25">
             <speaker>léandre</speaker>
             <p>
-              <s>C’est toi, pendard, qui m’as bu mon vin d’Espagne, et qui as été cause que j’ai tant querellé la servante, croyant que c’était elle qui m’avait fait le tour ?</s>
+              <s>C’est toi, Pendard, qui m’as bu mon Vin d’Espagne, et qui as été cause que j’ai tant querellé la Servante, croyant que c’était elle qui m’avait fait le tour ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II03-26">
             <speaker>scapin</speaker>
             <p>
-              <s>Oui, Monsieur : je vous en demande pardon.</s>
+              <s>Oui, Monsieur, je vous en demande pardon.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II03-27">
@@ -2122,7 +2065,7 @@
           <sp who="leandre" xml:id="II03-29">
             <speaker>léandre</speaker>
             <p>
-              <s>Non : c’est une autre affaire qui me touche bien plus, et je veux que tu me la dises.</s>
+              <s>Non, c’est une autre affaire qui me touche bien plus, et je veux que tu me la dises.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II03-30">
@@ -2140,7 +2083,7 @@
           <sp who="scapin" xml:id="II03-32">
             <speaker>scapin</speaker>
             <p>
-              <s>Eh !</s>
+              <s>Eh.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="II03-33">
@@ -2152,15 +2095,15 @@
           <sp who="scapin" xml:id="II03-34">
             <speaker>scapin</speaker>
             <p>
-              <s>Oui, Monsieur, il est vrai qu’il y a trois semaines que vous m’envoyâtes porter, le soir, une petite montre à la jeune égyptienne que vous aimez.</s>
-              <s>Je revins au logis mes habits tout couverts de boue, et le visage plein de sang, et vous dis que j’avais trouvé des voleurs qui m’avaient bien battu, et m’avaient dérobé la montre.</s>
+              <s>Oui, Monsieur, il est vrai qu’il y a trois semaines que vous m’envoyâtes porter le soir, une petite Montre à la jeune Égyptienne que vous aimez.</s>
+              <s>Je revins au Logis mes habits tout couverts de boue, et le visage plein de sang, et vous dis que j’avais trouvé des Voleurs qui m’avaient bien battu, et m’avaient dérobé la Montre.</s>
               <s>C’était moi, Monsieur, qui l’avais retenue.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II03-35">
             <speaker>léandre</speaker>
             <p>
-              <s>C’est toi qui as retenu ma montre ?</s>
+              <s>C’est toi qui as retenu ma Montre ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II03-36">
@@ -2172,9 +2115,7 @@
           <sp who="leandre" xml:id="II03-37">
             <speaker>léandre</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Ah !</s>
-              <s>J’apprends ici de jolies choses, et j’ai un serviteur fort fidèle vraiment.</s>
+              <s>Ah, ah, j’apprends ici de jolies choses, et j’ai un Serviteur fort fidèle vraiment.</s>
               <s>Mais ce n’est pas encore cela que je demande.</s>
             </p>
           </sp>
@@ -2187,7 +2128,7 @@
           <sp who="leandre" xml:id="II03-39">
             <speaker>léandre</speaker>
             <p>
-              <s>Non, infâme : c’est autre chose encore que je veux que tu me confesses.</s>
+              <s>Non, Infâme, c’est autre chose encore que je veux que tu me confesses.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II03-40">
@@ -2217,57 +2158,56 @@
           <sp who="octave" xml:id="II03-44">
             <speaker>octave, <hi rend="i">se mettant au-devant</hi></speaker>
             <p>
-              <s>Eh !</s>
+              <s>Eh.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II03-45">
             <speaker>scapin</speaker>
             <p>
-              <s>Hé bien !</s>
-              <s>Oui, Monsieur : vous vous souvenez de ce loup-garou, il y a six mois, qui vous donna tant de coups de bâton la nuit, et vous pensa faire rompre le cou dans une cave où vous tombâtes en fuyant.</s>
+              <s>Hé bien oui, Monsieur, vous vous souvenez de ce Loup-garou il y a six mois qui vous donna tant de coups de bâton la nuit, et vous pensa faire rompre le cou dans une Cave où vous tombâtes en fuyant.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II03-46">
             <speaker>léandre</speaker>
             <p>
-              <s>Hé bien !</s>
+              <s>Hé bien ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II03-47">
             <speaker>scapin</speaker>
             <p>
-              <s>C’était moi, Monsieur, qui faisais le loup-garou.</s>
+              <s>C’était moi, Monsieur, qui faisais le Loup-garou.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II03-48">
             <speaker>léandre</speaker>
             <p>
-              <s>C’était toi, traître, qui faisais le loup-garou ?</s>
+              <s>C’était toi, traître, qui faisais le Loup-garou ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II03-49">
             <speaker>scapin</speaker>
             <p>
-              <s>Oui, Monsieur, seulement pour vous faire peur, et vous ôter l’envie de nous faire courir, toutes les nuits ; comme vous aviez de coutume.</s>
+              <s>Oui, Monsieur, seulement pour vous faire peur, et vous ôter l’envie de nous faire courir toutes les nuits comme vous aviez de coutume.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II03-50">
             <speaker>léandre</speaker>
             <p>
-              <s>Je saurai me souvenir, en temps et lieu, de tout ce que je viens d’apprendre.</s>
-              <s>Mais je veux venir au fait, et que tu me confesses ce que tu as dit à mon père.</s>
+              <s>Je saurai me souvenir en temps et lieu de tout ce que je viens d’apprendre.</s>
+              <s>Mais je veux venir au fait, et que tu me confesses ce que tu as dit à mon Père.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II03-51">
             <speaker>scapin</speaker>
             <p>
-              <s>À votre père ?</s>
+              <s>À votre Père ?</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II03-52">
             <speaker>léandre</speaker>
             <p>
-              <s>Oui, fripon, à mon père.</s>
+              <s>Oui, Fripon, à mon Père.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II03-53">
@@ -2291,7 +2231,7 @@
           <sp who="leandre" xml:id="II03-56">
             <speaker>léandre</speaker>
             <p>
-              <s>Assurément ?</s>
+              <s>Assurément.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II03-57">
@@ -2320,7 +2260,7 @@
           <sp who="carle" xml:id="II04-1">
             <speaker>carle</speaker>
             <p>
-              <s>Monsieur, je vous apporte une nouvelle qui est fâcheuse pour votre amour ?</s>
+              <s>Monsieur, je vous apporte une nouvelle qui est fâcheuse pour votre amour.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II04-2">
@@ -2332,7 +2272,7 @@
           <sp who="carle" xml:id="II04-3">
             <speaker>carle</speaker>
             <p>
-              <s>Vos égyptiens sont sur le point de vous enlever Zerbinette, et elle-même, les larmes aux yeux, m’a chargé de venir promptement vous dire que si, dans deux heures, vous ne songez à leur porter l’argent qu’il vous ont demandé pour elle, vous l’allez perdre pour jamais.</s>
+              <s>Vos Égyptiens sont sur le point de vous enlever Zerbinette ; et elle-même, les larmes aux yeux, m’a chargé de venir promptement vous dire, que si dans deux heures vous ne songez à leur porter l’argent qu’il vous ont demandé pour elle, vous l’allez perdre pour jamais.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II04-4">
@@ -2350,14 +2290,14 @@
           <sp who="leandre" xml:id="II04-6">
             <speaker>léandre</speaker>
             <p>
-              <s>Ah ! mon pauvre Scapin, j’implore ton secours !</s>
+              <s>Ah ! mon pauvre Scapin, j’implore ton secours.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II04-7">
             <speaker>scapin, <hi rend="i">passant devant lui avec un air fier</hi></speaker>
             <p>
-              <s>« Ah ! mon pauvre Scapin. »</s>
-              <s>Je suis « mon pauvre Scapin » à cette heure qu’on a besoin de moi.</s>
+              <s>« Ah ! mon pauvre Scapin.</s>
+              <s>Je suis mon pauvre Scapin à cette heure qu’on a besoin de moi.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II04-8">
@@ -2384,7 +2324,7 @@
           <sp who="scapin" xml:id="II04-11">
             <speaker>scapin</speaker>
             <p>
-              <s>Point, point : vous ferez mieux de me tuer.</s>
+              <s>Point, point, vous ferez mieux de me tuer.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II04-12">
@@ -2396,14 +2336,13 @@
           <sp who="scapin" xml:id="II04-13">
             <speaker>scapin</speaker>
             <p>
-              <s>Non : tuez-moi, vous dis-je.</s>
+              <s>Non, tuez-moi, vous dis-je.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II04-14">
             <speaker>léandre</speaker>
             <p>
-              <s>Ah !</s>
-              <s>De grâce, ne songe plus à tout cela, et pense à me donner le secours que je te demande !</s>
+              <s>Ah, de grâce, ne songe plus à tout cela, et pense à me donner le secours que je te demande.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="II04-15">
@@ -2421,7 +2360,7 @@
           <sp who="leandre" xml:id="II04-17">
             <speaker>léandre</speaker>
             <p>
-              <s>Je te conjure d’oublier mon emportement et de me prêter ton adresse.</s>
+              <s>Je te conjure d’oublier mon emportement, et de me prêter ton adresse.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="II04-18">
@@ -2451,7 +2390,7 @@
           <sp who="scapin" xml:id="II04-22">
             <speaker>scapin</speaker>
             <p>
-              <s>Me venir faire, à l’improviste, un affront comme celui-là !</s>
+              <s>Me venir faire à l’improviste un affront comme celui-là !</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II04-23">
@@ -2463,7 +2402,7 @@
           <sp who="scapin" xml:id="II04-24">
             <speaker>scapin</speaker>
             <p>
-              <s>Me traiter de coquin, de fripon, de pendard, d’infâme !</s>
+              <s>Me traiter de Coquin, de Fripon, de Pendard, d’Infâme !</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II04-25">
@@ -2487,14 +2426,14 @@
           <sp who="octave" xml:id="II04-28">
             <speaker>octave</speaker>
             <p>
-              <s>Ah ! ma foi ! Scapin, il se faut rendre à cela.</s>
+              <s>Ah ! ma foi, Scapin, il se faut rendre à cela.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II04-29">
             <speaker>scapin</speaker>
             <p>
               <s>Levez-vous.</s>
-              <s>Une autre fois, ne soyez point si prompt.</s>
+              <s>Une autre fois ne soyez point si prompt.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II04-30">
@@ -2524,7 +2463,7 @@
           <sp who="leandre" xml:id="II04-34">
             <speaker>léandre</speaker>
             <p>
-              <s>Cinq cents écus.</s>
+              <s>Cinq cents Écus.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II04-35">
@@ -2536,22 +2475,18 @@
           <sp who="octave" xml:id="II04-36">
             <speaker>octave</speaker>
             <p>
-              <s>Deux cents pistoles.</s>
+              <s>Deux cents Pistoles.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II04-37">
             <speaker>scapin</speaker>
             <p>
-              <s>Je veux tirer cet argent de vos pères.</s>
+              <s>Je veux tirer cet argent de vos Pères.</s>
             </p>
             <stage>À Octave.</stage>
             <p>
-              <s>Pour ce qui est du vôtre, la machine est déjà toute trouvée ;</s>
-            </p>
-            <stage>À Léandre</stage>
-            <p>
-              <s>et quant au vôtre, bien qu’avare au dernier degré, il y faudra moins de façons encore, car vous savez que, pour l’esprit, il n’en a pas, grâces à Dieu ! grande provision et je le livre pour une espèce d’homme à qui l’on fera toujours croire tout ce que l’on voudra.</s>
-              <s>Cela ne vous offense point : il ne tombe entre lui et vous aucun soupçon de ressemblance ; et vous savez assez l’opinion de tout le monde, qui veut qu’il ne soit votre père que pour la forme.</s>
+              <s>Pour ce qui est du vôtre, la machine est déjà toute trouvée : Et quant au vôtre, bien qu’avare au dernier degré, il y faudra moins de façons encore ; car vous savez que pour l’esprit, il n’en a pas grâces à Dieu grande provision, et je le livre pour une espèce d’Homme à qui l’on fera toujours croire tout ce que l’on voudra.</s>
+              <s>Cela ne vous offense point, il ne tombe entre lui et vous aucun soupçon de ressemblance ; et vous savez assez l’opinion de tout le monde, qui veut qu’il ne soit votre Père que pour la forme.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II04-38">
@@ -2563,13 +2498,10 @@
           <sp who="scapin" xml:id="II04-39">
             <speaker>scapin</speaker>
             <p>
-              <s>Bon, bon, on fait bien scrupule de cela : vous moquez-vous ?</s>
-              <s>Mais j’aperçois venir le père d’Octave.</s>
+              <s>Bon, bon ; on fait bien scrupule de cela, vous moquez-vous ?</s>
+              <s>Mais j’aperçois venir le Père d’Octave.</s>
               <s>Commençons par lui, puisqu’il se présente.</s>
               <s>Allez-vous-en tous deux.</s>
-            </p>
-            <stage>À Octave</stage>
-            <p>
               <s>Et vous, avertissez votre Silvestre de venir vite jouer son rôle.</s>
             </p>
           </sp>
@@ -2588,8 +2520,7 @@
             <p>
               <s>Avoir si peu de conduite et de considération !</s>
               <s>S’aller jeter dans un engagement comme celui-là !</s>
-              <s>Ah, ah !</s>
-              <s>Jeunesse impertinente !</s>
+              <s>Ah, ah, Jeunesse impertinente !</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II05-3">
@@ -2607,7 +2538,7 @@
           <sp who="scapin" xml:id="II05-5">
             <speaker>scapin</speaker>
             <p>
-              <s>Vous rêvez à l’affaire de votre fils.</s>
+              <s>Vous rêvez à l’affaire de votre Fils.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-6">
@@ -2620,7 +2551,7 @@
             <speaker>scapin</speaker>
             <p>
               <s>Monsieur, la vie est mêlée de traverses.</s>
-              <s>Il est bon de s’y tenir sans cesse préparé ; et j’ai ouï dire, il y a longtemps, une parole d’un ancien que j’ai toujours retenue.</s>
+              <s>Il est bon de s’y tenir sans cesse préparé ; et j’ai ouï dire il y a longtemps une parole d’un Ancien que j’ai toujours retenue.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-8">
@@ -2632,35 +2563,35 @@
           <sp who="scapin" xml:id="II05-9">
             <speaker>scapin</speaker>
             <p>
-              <s>Que pour peu qu’un père de famille ait été absent de chez lui, il doit promener son esprit sur tous les fâcheux accidents que son retour peut rencontrer : se figurer sa maison brûlée, son argent dérobé, sa femme morte, son fils estropié ; sa fille subornée ; et ce qu’il trouve qu’il ne lui est point arrivé, l’imputer à bonne fortune.</s>
-              <s>Pour moi, j’ai pratiqué toujours cette leçon dans ma petite philosophie ; et je ne suis jamais revenu au logis, que je ne me sois tenu prêt à la colère de mes maîtres, aux réprimandes, aux injures, aux coups de pied au cul, aux bastonnades, aux étrivières ; et ce qui a manqué à m’arriver, j’en ai rendu grâce à mon bon destin.</s>
+              <s>Que pour peu qu’un Père de Famille ait été absent de chez lui, il doit promener son esprit sur tous les fâcheux accidents que son retour peut rencontrer ; se figurer sa Maison brûlée, son argent dérobé, sa Femme morte, son Fils estropié, sa Fille subornée ; et ce qu’il trouve qu’il ne lui est point arrivé, l’imputer à bonne fortune.</s>
+              <s>Pour moi, j’ai pratiqué toujours cette leçon dans ma petite philosophie ; et je ne suis jamais revenu au Logis, que je ne me sois tenu prêt à la colère de mes Maîtres, aux réprimandes, aux injures, aux coups de pied au cul, aux bastonnades, aux étrivières ; et ce qui a manqué à m’arriver, j’en ai rendu grâce à mon bon destin.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-10">
             <speaker>argante</speaker>
             <p>
-              <s>Voilà qui est bien. Mais ce mariage impertinent qui trouble celui que nous voulons faire est une chose que je ne puis souffrir, et je viens de consulter des avocats pour le faire casser.</s>
+              <s>Voilà qui est bien ; mais ce Mariage impertinent qui trouble celui que nous voulons faire, est une chose que je ne puis souffrir, et je viens de consulter des Avocats pour le faire casser.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II05-11">
             <speaker>scapin</speaker>
             <p>
-              <s>Ma foi !</s>
-              <s>Monsieur, si vous m’en croyez, vous tâcherez, par quelque autre voie, d’accommoder l’affaire.</s>
-              <s>Vous savez ce que c’est que les procès en ce pays-ci, et vous allez vous enfoncer dans d’étranges épines.</s>
+              <s>Ma foi, Monsieur, si vous m’en croyez, vous tâcherez par quelque autre voie, d’accommoder l’affaire.</s>
+              <s>Vous savez ce que c’est que les Procès en ce Pays-ci, et vous allez vous enfoncer dans d’étranges épines.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-12">
             <speaker>argante</speaker>
             <p>
-              <s>Tu as raison, je le vois bien. Mais quelle autre voie ?</s>
+              <s>Tu as raison, je le vois bien.</s>
+              <s> Mais quelle autre voie ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II05-13">
             <speaker>scapin</speaker>
             <p>
               <s>Je pense que j’en ai trouvé une.</s>
-              <s>La compassion que m’a donnée tantôt votre chagrin m’a obligé à chercher dans ma tête quelque moyen pour vous tirer d’inquiétude ; car je ne saurais voir d’honnêtes pères chagrinés par leurs enfants que cela ne m’émeuve ; et, de tout temps, je me suis senti pour votre personne une inclination particulière.</s>
+              <s>La compassion que m’a donnée tantôt votre chagrin, m’a obligé à chercher dans ma tête quelque moyen pour vous tirer d’inquiétude : car je ne saurais voir d’honnêtes Pères chagrinés par leurs Enfants, que cela ne m’émeuve ; et de tout temps je me suis senti pour votre personne une inclination particulière.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-14">
@@ -2672,10 +2603,10 @@
           <sp who="scapin" xml:id="II05-15">
             <speaker>scapin</speaker>
             <p>
-              <s>J’ai donc été trouver le frère de cette fille qui a été épousée.</s>
-              <s>C’est un de ces braves de profession, de ces gens qui sont tous coups d’épée, qui ne parlent que d’échiner, et ne font non plus de conscience de tuer un homme que d’avaler un verre de vin.</s>
-              <s>Je l’ai mis sur ce mariage, lui ai fait voir quelle facilité offrait la raison de la violence pour le faire casser, vos prérogatives du nom de père, et l’appui que vous donnerait auprès de la justice et votre droit, et votre argent, et vos amis.</s>
-              <s>Enfin je l’ai tant tourné de tous les côtés, qu’il a prêté l’oreille aux propositions que je lui ai faites d’ajuster l’affaire pour quelque somme ; et il donnera son consentement à rompre le mariage, pourvu que vous lui donniez de l’argent.</s>
+              <s>J’ai donc été trouver le Frère de cette Fille qui a été épousée.</s>
+              <s>C’est un de ces Braves de profession, de ces Gens qui sont tous coups d’épée ; qui ne parlent que d’échiner, et ne font non plus de conscience de tuer un Homme, que d’avaler un Verre de Vin.</s>
+              <s>Je l’ai mis sur ce Mariage ; lui ai fait voir quelle facilité offrait la raison de la violence, pour le faire casser ; vos prérogatives du nom de Père, et l’appui que vous donnerait auprès de la Justice et votre droit, et votre argent, et vos Amis.</s>
+              <s>Enfin je l’ai tant tourné de tous les côtés, qu’il a prêté l’oreille aux propositions que je lui ai faites d’ajuster l’affaire pour quelque somme ; et il donnera son consentement à rompre le Mariage, pourvu que vous lui donniez de l’argent.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-16">
@@ -2687,8 +2618,7 @@
           <sp who="scapin" xml:id="II05-17">
             <speaker>scapin</speaker>
             <p>
-              <s>Oh !</s>
-              <s>D’abord, des choses par-dessus les maisons.</s>
+              <s>Oh d’abord, des choses par-dessus les Maisons.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-18">
@@ -2712,31 +2642,31 @@
           <sp who="scapin" xml:id="II05-21">
             <speaker>scapin</speaker>
             <p>
-              <s>Il ne parlait pas moins que de cinq ou six cents pistoles.</s>
+              <s>Il ne parlait pas moins que de cinq ou six cents Pistoles.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-22">
             <speaker>argante</speaker>
             <p>
-              <s>Cinq ou six cents fièvres quartaines qui le puissent serrer !</s>
-              <s>Se moque-t-il des gens ?</s>
+              <s>Cinq ou six cents fièvres quartaines qui le puissent serrer.</s>
+              <s>Se moque-t-il des Gens ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II05-23">
             <speaker>scapin</speaker>
             <p>
-              <s>C’est ce que je lui ai dit. J’ai rejeté bien loin de pareilles propositions, et je lui ai bien fait entendre que vous n’étiez point une dupe, pour vous demander des cinq ou six cents pistoles.</s>
-              <s>Enfin, après plusieurs discours, voici où s’est réduit le résultat de notre conférence.</s>
-              <s>"Nous voilà au temps, m’a-t-il dit, que je dois partir pour l’armée.</s>
-              <s>Je suis après à m’équiper, et le besoin que j’ai de quelque argent me fait consentir, malgré moi, à ce qu’on me propose.</s>
-              <s>Il me faut un cheval de service, et je n’en saurais avoir un qui soit tant soit peu raisonnable à moins de soixante pistoles."</s>
+              <s>C’est ce que je lui ai dit. </s>
+              <s> J’ai rejeté bien loin de pareilles propositions, et je lui ai bien fait entendre que vous n’étiez point une dupe, pour vous demander des cinq ou six cents Pistoles.</s>
+              <s>Enfin après plusieurs discours, voici où s’est réduit le résultat de notre conférence.</s>
+              <s>Nous voilà au temps, m’a-t-il dit, que je dois partir pour l’Armée.</s>
+              <s>Je suis après à m’équiper ; et le besoin que j’ai de quelque argent, me fait consentir malgré moi à ce qu’on me propose.</s>
+              <s>Il me faut un Cheval de service, et je n’en saurais avoir un, qui soit tant soit peu raisonnable, à moins de soixante Pistoles.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-24">
             <speaker>argante</speaker>
             <p>
-              <s>Hé bien !</s>
-              <s>Pour soixante pistoles, je les donne.</s>
+              <s>Hé bien, pour soixante pistoles, je les donne.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II05-25">
@@ -2772,9 +2702,8 @@
           <sp who="argante" xml:id="II05-30">
             <speaker>argante</speaker>
             <p>
-              <s>Comment, diantre !</s>
-              <s>Qu’il se promène !</s>
-              <s>Il n’aura rien du tout.</s>
+              <s>Comment diantre !</s>
+              <s>Qu’il se promène ; il n’aura rien du tout.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II05-31">
@@ -2786,34 +2715,32 @@
           <sp who="argante" xml:id="II05-32">
             <speaker>argante</speaker>
             <p>
-              <s>Non, c’est un impertinent.</s>
+              <s>Non, c’est un Impertinent.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II05-33">
             <speaker>scapin</speaker>
             <p>
-              <s>Voulez-vous que son valet aille à pied ?</s>
+              <s>Voulez-vous que son Valet aille à pied ?</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-34">
             <speaker>argante</speaker>
             <p>
-              <s>Qu’il aille comme il lui plaira, et le maître aussi.</s>
+              <s>Qu’il aille comme il lui plaira, et le Maître aussi.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II05-35">
             <speaker>scapin</speaker>
             <p>
-              <s>Mon Dieu !</s>
-              <s>Monsieur, ne vous arrêtez point à peu de chose.</s>
-              <s>N’allez point plaider, je vous prie, et donnez tout pour vous sauver des mains de la justice.</s>
+              <s>Mon Dieu, Monsieur, ne vous arrêtez point à peu de chose.</s>
+              <s>N’allez point plaider, je vous prie, et donnez tout pour vous sauver des mains de la Justice.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-36">
             <speaker>argante</speaker>
             <p>
-              <s>Hé bien !</s>
-              <s>Soit, je me résous à donner encore ces trente pistoles.</s>
+              <s>Hé bien soit, je me résous à donner encore ces trente Pistoles.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II05-37">
@@ -2825,15 +2752,13 @@
           <sp who="argante" xml:id="II05-38">
             <speaker>argante</speaker>
             <p>
-              <s>Oh !</s>
-              <s>Qu’il aille au diable avec son mulet ?</s>
-              <s>C’en est trop, et nous irons devant les juges.</s>
+              <s>Oh qu’il aille au diable avec son Mulet ; c’en est trop, et nous irons devant les Juges.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II05-39">
             <speaker>scapin</speaker>
             <p>
-              <s>De grâce, Monsieur...</s>
+              <s>De grâce, Monsieur…</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-40">
@@ -2845,41 +2770,41 @@
           <sp who="scapin" xml:id="II05-41">
             <speaker>scapin</speaker>
             <p>
-              <s>Monsieur, un petit mulet.</s>
+              <s>Monsieur, un petit Mulet.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-42">
             <speaker>argante</speaker>
             <p>
-              <s>Je ne lui donnerais pas seulement un âne.</s>
+              <s>Je ne lui donnerais pas seulement un Âne.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II05-43">
             <speaker>scapin</speaker>
             <p>
-              <s>Considérez...</s>
+              <s>Considérez…</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-44">
             <speaker>argante</speaker>
             <p>
-              <s>Non !</s>
-              <s>J’aime mieux plaider.</s>
+              <s>Non, j’aime mieux plaider.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II05-45">
             <speaker>scapin</speaker>
             <p>
-              <s>Eh !</s>
-              <s>Monsieur, de quoi parlez-vous là, et à quoi vous résolvez-vous ?</s>
-              <s>Jetez les yeux sur les détours de la justice ; voyez combien d’appels et de degrés de jurisdiction, combien de procédures embarrassantes, combien d’animaux ravissants par les griffes desquels il vous faudra passer, sergents, procureurs, avocats, greffiers, substituts, rapporteurs, juges, et leurs clercs.</s>
-              <s>Il n’y pas un de tous ces gens-là qui, pour la moindre chose, ne soit capable de donner un soufflet au meilleur droit du monde. Un sergent baillera de faux exploits, sur quoi vous serez condamné sans que vous le sachiez. Votre procureur s’entendra avec votre partie, et vous vendra à beaux deniers comptants.</s>
-              <s>Votre avocat, gagné de même, ne se trouvera point lorsqu’on plaidera votre cause, ou dira des raisons qui ne feront que battre la campagne, et n’iront point au fait.</s>
-              <s>Le greffier délivrera par contumace des sentences et arrêts contre vous. Le clerc du rapporteur soustraira des pièces, ou le rapporteur même ne dira pas ce qu’il a vu.</s>
-              <s>Et quand, par les plus grandes précautions du monde, vous aurez paré tout cela, vous serez ébahi que vos juges auront été sollicités contre vous, ou par des gens dévots, ou par des femmes qu’ils aimeront.</s>
-              <s>Eh !</s>
-              <s>Monsieur, si vous le pouvez sauvez-vous de cet enfer-là.</s>
-              <s>C’est être damné dès ce monde que d’avoir à plaider ; et la seule pensée d’un procès serait capable de me faire fuir jusqu’aux Indes.</s>
+              <s>Eh, Monsieur, de quoi parlez-vous là, et à quoi vous résolvez-vous ?</s>
+              <s>Jetez les yeux sur les détours de la Justice. </s>
+              <s>Voyez combien d’appels et de degrés de Jurisdiction ; combien de Procédures embarrassantes ; combien d’Animaux ravissants par les griffes desquels il vous faudra passer, Sergents, Procureurs, Avocats, Greffiers, Substituts, Rapporteurs, Juges, et leurs Clercs.</s>
+              <s>Il n’y pas un de tous ces Gens-là, qui pour la moindre chose, ne soit capable de donner un soufflet au meilleur droit du monde. Un Sergent baillera de faux Exploits, sur quoi vous serez condamné sans que vous le sachiez.</s>
+              <s>Votre Procureur s’entendra avec votre Partie et vous vendra à beaux deniers comptants.</s>
+              <s>Votre Avocat gagné de même, ne se trouvera point lorsqu’on plaidera votre Cause, ou dira des raisons qui ne feront que battre la campagne, et n’iront point au fait.</s>
+              <s>Le Greffier délivrera par contumace des Sentences et Arrêts contre vous. </s>
+              <s> Le Clerc du Rapporteur soustraira des Pièces, ou le Rapporteur même ne dira pas ce qu’il a vu.</s>
+              <s>Et quand par les plus grandes précautions du monde vous aurez paré tout cela, vous serez ébahi que vos Juges auront été sollicités contre vous, ou par des Gens dévots, ou par des Femmes qu’ils aimeront.</s>
+              <s>Eh, Monsieur, si vous le pouvez, sauvez-vous de cet Enfer-là.</s>
+              <s>C’est être damné dès ce Monde, que d’avoir à plaider ; et la seule pensée d’un Procès serait capable de me faire fuir jusqu’aux Indes.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-46">
@@ -2891,13 +2816,13 @@
           <sp who="scapin" xml:id="II05-47">
             <speaker>scapin</speaker>
             <p>
-              <s>Monsieur, pour le mulet, pour son cheval, et celui de son homme, pour le harnois et les pistolets, et pour payer quelque petite chose qu’il doit à son hôtesse, il demande en tout deux cents pistoles.</s>
+              <s>Monsieur, pour le Mulet, pour son Cheval, et celui de son Homme, pour le Harnais et les Pistolets, et pour payer quelque petite chose qu’il doit à son Hôtesse, il demande en tout deux cents Pistoles.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-48">
             <speaker>argante</speaker>
             <p>
-              <s>Deux cents pistoles ?</s>
+              <s>Deux cents Pistoles ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II05-49">
@@ -2915,7 +2840,7 @@
           <sp who="scapin" xml:id="II05-51">
             <speaker>scapin</speaker>
             <p>
-              <s>Faites réflexion...</s>
+              <s>Faites réflexion…</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-52">
@@ -2927,7 +2852,7 @@
           <sp who="scapin" xml:id="II05-53">
             <speaker>scapin</speaker>
             <p>
-              <s>Ne vous allez point jeter...</s>
+              <s>Ne vous allez point jeter…</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-54">
@@ -2939,7 +2864,12 @@
           <sp who="scapin" xml:id="II05-55">
             <speaker>scapin</speaker>
             <p>
-              <s>Mais, pour plaider, il vous faudra de l’argent : il vous en faudra pour l’exploit ; il vous en faudra pour le contrôle ; il vous en faudra pour la procuration, pour la présentation, conseils, productions ; et journées du procureur ; il vous en faudra pour les consultations et plaidoiries des avocats, pour le droit de retirer le sac, et pour les grosses d’écritures ; il vous en faudra pour le rapport des substituts ; pour les épices de conclusion ; pour l’enregistrement du greffier, façon d’appointement, sentences et arrêts, contrôles, signatures, et expéditions de leurs clercs, sans parler de tous les présents qu’il vous faudra faire. Donnez cet argent-là à cet homme-ci, vous voilà hors d’affaire.</s>
+              <s>Mais pour plaider, il vous faudra de l’argent.</s>
+              <s> Il vous en faudra pour l’exploit ; il vous en faudra pour le Contrôle.</s>
+              <s>Il vous en faudra pour la Procuration, pour la Présentation, Conseils, Productions, et Journées du Procureur.</s>
+              <s>Il vous en faudra pour les Consultations et Plaidoiries des Avocats ; pour le droit de retirer le Sac, et pour les Grosses d’Écritures.</s>
+              <s>Il vous en faudra pour le Rapport des Substituts ; pour les Épices de Conclusion ; pour l’Enregistrement du Greffier, façon d’Appointement, Sentences et Arrêts, Contrôles, Signatures, et Expéditions de leurs Clercs, sans parler de tous les Présents qu’il vous faudra faire.</s>
+              <s>Donnez cet argent-là à cet Homme-ci, vous voilà hors d’affaire.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-56">
@@ -2951,32 +2881,33 @@
           <sp who="scapin" xml:id="II05-57">
             <speaker>scapin</speaker>
             <p>
-              <s>Oui : vous y gagnerez. J’ai fait un petit calcul en moi-même de tous les frais de la justice ; et j’ai trouvé qu’en donnant deux cents pistoles à votre homme, vous en aurez de reste pour le moins cent cinquante, sans compter les soins, les pas, et les chagrins que vous épargnerez.</s>
-              <s>Quand il n’y aurait à essuyer que les sottises que disent devant tout le monde de méchants plaisants d’avocats, j’aimerais mieux donner trois cents pistoles que plaider.</s>
+              <s>Oui, vous y gagnerez. </s>
+              <s> J’ai fait un petit calcul en moi-même de tous les frais de la Justice ; et j’ai trouvé qu’en donnant deux cents Pistoles à votre Homme, vous en aurez de reste pour le moins cent cinquante, sans compter les soins, les pas, et les chagrins que vous épargnerez.</s>
+              <s>Quand il n’y aurait à essuyer que les sottises que disent devant tout le Monde de méchants plaisants d’Avocats, j’aimerais mieux donner trois cents Pistoles, que de plaider.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-58">
             <speaker>argante</speaker>
             <p>
-              <s>Je me moque de cela, et je défie les avocats de rien dire de moi.</s>
+              <s>Je me moque de cela, et je défie les Avocats de rien dire de moi.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II05-59">
             <speaker>scapin</speaker>
             <p>
-              <s>Vous ferez ce qu’il vous plaira ; mais si j’étais que de vous, je fuirais les procès.</s>
+              <s>Vous ferez ce qu’il vous plaira ; mais si j’étais que de vous, je fuirais les Procès.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II05-60">
             <speaker>argante</speaker>
             <p>
-              <s>Je ne donnerai point deux cents pistoles.</s>
+              <s>Je ne donnerai point deux cents Pistoles.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II05-61">
             <speaker>scapin</speaker>
             <p>
-              <s>Voici l’homme dont il s’agit.</s>
+              <s>Voici l’Homme dont il s’agit.</s>
             </p>
           </sp>
         </div2>
@@ -2986,7 +2917,7 @@
           <sp who="silvestre" xml:id="II06-1">
             <speaker>silvestre</speaker>
             <p>
-              <s>Scapin, fais-moi connaître un peu cet Argante, qui est père d’Octave.</s>
+              <s>Scapin, fais-moi connaître un peu cet Argante, qui est Père d’Octave.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II06-2">
@@ -2998,29 +2929,26 @@
           <sp who="silvestre" xml:id="II06-3">
             <speaker>silvestre</speaker>
             <p>
-              <s>Je viens d’apprendre qu’il veut me mettre en procès, et faire rompre par justice le mariage de ma sœur.</s>
+              <s>Je viens d’apprendre qu’il veut me mettre en Procès, et faire rompre par Justice le Mariage de ma Sœur.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II06-4">
             <speaker>scapin</speaker>
             <p>
-              <s>Je ne sais pas s’il a cette pensée ; mais il ne veut point consentir aux deux cents pistoles que vous voulez, et il dit que c’est trop.</s>
+              <s>Je ne sais pas s’il a cette pensée ; mais il ne veut point consentir aux deux cents Pistoles que vous voulez, et il dit que c’est trop.</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="II06-5">
             <speaker>silvestre</speaker>
             <p>
-              <s>Par la mort !</s>
-              <s>Par la tête !</s>
-              <s>Par le ventre !</s>
-              <s>Si je le trouve, je le veux échiner, dussé-je être roué tout vif.</s>
+              <s>Par la mort, Par la tête, Par le ventre, si je le trouve, je le veux échiner, dussé-je être roué tout vif.</s>
             </p>
             <stage>Argante, pour n’être point vu, se tient en tremblant, couvert de Scapin.</stage>
           </sp>
           <sp who="scapin" xml:id="II06-6">
             <speaker>scapin</speaker>
             <p>
-              <s>Monsieur, ce père d’Octave a du cœur, et peut-être ne vous craindra-t-il point.</s>
+              <s>Monsieur, ce Père d’Octave a du cœur, et peut-être ne vous craindra-t-il point.</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="II06-7">
@@ -3028,10 +2956,8 @@
             <p>
               <s>Lui ?</s>
               <s>Lui ?</s>
-              <s>Par le sang !</s>
-              <s>Par la tête !</s>
-              <s>S’il était là, je lui donnerais tout à l’heure de l’épée dans le ventre.</s>
-              <s>Qui est cet homme-là ?</s>
+              <s>Par le sang, Par la tête, s’il était là, je lui donnerais tout à l’heure de l’épée dans le ventre.</s>
+              <s>Qui est cet Homme-là ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II06-8">
@@ -3043,19 +2969,19 @@
           <sp who="silvestre" xml:id="II06-9">
             <speaker>silvestre</speaker>
             <p>
-              <s>N’est-ce point quelqu’un de ses amis ?</s>
+              <s>N’est-ce point quelqu’un de ses Amis ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II06-10">
             <speaker>scapin</speaker>
             <p>
-              <s>Non, Monsieur, au contraire, c’est son ennemi capital.</s>
+              <s>Non, Monsieur, au contraire, c’est son Ennemi capital.</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="II06-11">
             <speaker>silvestre</speaker>
             <p>
-              <s>Son ennemi capital ?</s>
+              <s>Son Ennemi capital ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II06-12">
@@ -3067,9 +2993,8 @@
           <sp who="silvestre" xml:id="II06-13">
             <speaker>silvestre</speaker>
             <p>
-              <s>Ah, parbleu !</s>
-              <s>J’en suis ravi.</s>
-              <s>Vous êtes ennemi, Monsieur, de ce faquin d’Argante, eh ?</s>
+              <s>Ah, parbleu, j’en suis ravi.</s>
+              <s>Vous êtes Ennemi, Monsieur, de ce faquin d’Argante ; Eh ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II06-14">
@@ -3081,66 +3006,62 @@
           <sp who="silvestre" xml:id="II06-15">
             <speaker>silvestre, <hi rend="i">lui prend rudement la main</hi></speaker>
             <p>
-              <s>Touchez là, touchez.</s>
-              <s>Je vous donne ma parole, et vous jure sur mon honneur, par l’épée que je porte, par tous les serments que je saurais faire, qu’avant la fin du jour je vous déferai de ce maraud fieffé, de ce faquin d’Argante.</s>
+              <s>Touchez là. </s>
+              <s>Touchez.</s>
+              <s>Je vous donne ma parole, et vous jure sur mon honneur, par l’épée que je porte, par tous les serments que je saurais faire, qu’avant la fin du jour je vous déferai de ce Maraud fieffé, de ce faquin d’Argante.</s>
               <s>Reposez-vous sur moi.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II06-16">
             <speaker>scapin</speaker>
             <p>
-              <s>Monsieur, les violences en ce pays-ci ne sont guère souffertes.</s>
+              <s>Monsieur, les violences en ce Pays-ci ne sont guère souffertes.</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="II06-17">
             <speaker>silvestre</speaker>
             <p>
-              <s>Je me moque de tout, et n’ai rien à perdre.</s>
+              <s>Je me moque de tout, et je n’ai rien à perdre.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II06-18">
             <speaker>scapin</speaker>
             <p>
-              <s>Il se tiendra sur ses gardes assurément ; et il a des parents, des amis, et des domestiques, dont il se fera un secours contre votre ressentiment.</s>
+              <s>Il se tiendra sur ses gardes assurément ; et il a des Parents, des Amis, et des Domestiques, dont il se fera un secours contre votre ressentiment.</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="II06-19">
             <speaker>silvestre</speaker>
             <p>
-              <s>C’est ce que je demande, morbleu !</s>
-              <s>C’est ce que je demande.</s>
+              <s>C’est ce que je demande, morbleu, c’est ce que je demande.</s>
             </p>
             <stage>Il met l’épée à la main, et pousse de tous les côtés, comme s’il y avait plusieurs Personnes devant lui.</stage>
             <p>
-              <s>Ah, tête !</s>
-              <s>Ah, ventre !</s>
+              <s>Ah tête ! ah ventre !</s>
               <s>Que ne le trouvé-je à cette heure avec tout son secours !</s>
-              <s>Que ne paraît-il à mes yeux au milieu de trente personnes !</s>
+              <s>Que ne paraît-il à mes yeux au milieu de trente Personnes !</s>
               <s>Que ne les vois-je fondre sur moi les armes à la main !</s>
-              <s>Comment, marauds, vous avez la hardiesse de vous attaquer à moi ?</s>
-              <s>Allons, morbleu !</s>
-              <s>Tue, point de quartier.</s>
+              <s>Comment, Marauds, vous avez la hardiesse de vous attaquer à moi ?</s>
+              <s>Allons, morbleu, tue, point de quartier.</s>
               <s>Donnons.</s>
               <s>Ferme.</s>
               <s>Poussons.</s>
-              <s>Bon pied, bon œil, Ah ! coquins, ah !</s>
-              <s>Canaille, vous en voulez par là ; je vous en ferai tâter votre soûl.</s>
-              <s>Soutenez, marauds, soutenez.</s>
+              <s>Bon pied, bon œil.</s>
+              <s>Ah Coquins, ah Canaille, vous en voulez par là ; je vous en ferai tâter votre soûl.</s>
+              <s>Soutenez, Marauds, soutenez.</s>
               <s>Allons.</s>
               <s>À cette botte.</s>
               <s>À cette autre.</s>
               <s>À celle-ci.</s>
               <s>À celle-là.</s>
               <s>Comment, vous reculez ?</s>
-              <s>Pied ferme, morbleu !</s>
-              <s>Pied ferme.</s>
+              <s>Pied ferme, morbleu, pied ferme.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II06-20">
             <speaker>scapin</speaker>
             <p>
-              <s>Eh, eh, eh !</s>
-              <s>Monsieur, nous n’en sommes pas.</s>
+              <s>Eh, eh, eh, Monsieur, nous n’en sommes pas.</s>
             </p>
           </sp>
           <sp who="silvestre" xml:id="II06-21">
@@ -3152,9 +3073,8 @@
           <sp who="scapin" xml:id="II06-22">
             <speaker>scapin</speaker>
             <p>
-              <s>Hé bien, vous voyez combien de personnes tuées pour deux cents pistoles.</s>
-              <s>Oh sus !</s>
-              <s>Je vous souhaite une bonne fortune.</s>
+              <s>Hé bien, vous voyez combien de Personnes tuées pour deux cents Pistoles.</s>
+              <s>Oh sus, je vous souhaite une bonne fortune.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II06-23">
@@ -3172,7 +3092,7 @@
           <sp who="argante" xml:id="II06-25">
             <speaker>argante</speaker>
             <p>
-              <s>Je me résous à donner les deux cents pistoles.</s>
+              <s>Je me résous à donner les deux cents Pistoles.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II06-26">
@@ -3191,7 +3111,7 @@
             <speaker>scapin</speaker>
             <p>
               <s>Vous n’avez qu’à me les donner.</s>
-              <s>Il ne faut pas pour votre honneur que vous paraissiez là, après avoir passé ici pour autre que ce que vous êtes ; et de plus, je craindrais qu’en vous faisant connaître il n’allât s’aviser de vous demander davantage.</s>
+              <s>Il ne faut pas pour votre honneur, que vous paraissiez là, après avoir passé ici pour autre que ce que vous êtes ; et de plus, je craindrais qu’en vous faisant connaître, il n’allât s’aviser de vous demander davantage.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II06-29">
@@ -3209,15 +3129,15 @@
           <sp who="argante" xml:id="II06-31">
             <speaker>argante</speaker>
             <p>
-              <s>Non pas ; mais...</s>
+              <s>Non pas, mais…</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II06-32">
             <speaker>scapin</speaker>
             <p>
-              <s>Parbleu, Monsieur, je suis un fourbe, ou je suis honnête homme : c’est l’un des deux.</s>
-              <s>Est-ce que je voudrais vous tromper, et que dans tout ceci j’ai d’autre intérêt que le vôtre, et celui de mon maître, à qui vous voulez vous allier ?</s>
-              <s>Si je vous suis suspect, je ne me mêle plus de rien, et vous n’avez qu’à chercher, dès cette heure, qui accommodera vos affaires.</s>
+              <s>Parbleu, Monsieur, je suis un Fourbe, ou je suis honnête Homme ; c’est l’un des deux.</s>
+              <s>Est-ce que je voudrais vous tromper, et que dans tout ceci j’ai d’autre intérêt que le vôtre, et celui de mon Maître, à qui vous voulez vous allier ?</s>
+              <s>Si je vous suis suspect, je ne me mêle plus de rien, et vous n’avez qu’à chercher dès cette heure qui accommodera vos affaires.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II06-33">
@@ -3236,15 +3156,14 @@
           <sp who="argante" xml:id="II06-35">
             <speaker>argante</speaker>
             <p>
-              <s>Mon Dieu !</s>
-              <s>Tiens.</s>
+              <s>Mon Dieu, tiens.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II06-36">
             <speaker>scapin</speaker>
             <p>
               <s>Non, vous dis-je, ne vous fiez point à moi.</s>
-              <s>Que sait-on si je ne veux point vous attraper votre argent ?</s>
+              <s>Que sait-on, si je ne veux point vous attraper votre argent ?</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II06-37">
@@ -3257,7 +3176,7 @@
           <sp who="scapin" xml:id="II06-38">
             <speaker>scapin</speaker>
             <p>
-              <s>Laissez-moi faire, il n’a pas affaire à un sot.</s>
+              <s>Laissez-moi faire, il n’a pas affaire à un Sot.</s>
             </p>
           </sp>
           <sp who="argante" xml:id="II06-39">
@@ -3270,14 +3189,9 @@
             <speaker>scapin</speaker>
             <p>
               <s>Je ne manquerai pas d’y aller.</s>
-            </p>
-            <stage>Seul.</stage>
-            <p>
               <s>Et un.</s>
               <s>Je n’ai qu’à chercher l’autre.</s>
-              <s>Ah !</s>
-              <s>Ma foi !</s>
-              <s>Le voici.</s>
+              <s>Ah, ma foi, le voici.</s>
               <s>Il semble que le Ciel, l’un après l’autre, les amène dans mes filets.</s>
             </p>
           </sp>
@@ -3288,16 +3202,14 @@
           <sp who="scapin" xml:id="II07-1">
             <speaker>scapin</speaker>
             <p>
-              <s>Ô Ciel !</s>
-              <s>Ô disgrâce imprévue !</s>
-              <s>Ô misérable père !</s>
+              <s>Ô Ciel ! ô disgrâce imprévue ! ô misérable père !</s>
               <s>Pauvre Géronte, que feras-tu ?</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-2">
             <speaker>géronte</speaker>
             <p>
-              <s>Que dit-il la de moi, avec ce visage affligé ?</s>
+              <s>Que dit-il là de moi, avec ce visage affligé ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-3">
@@ -3345,14 +3257,13 @@
           <sp who="geronte" xml:id="II07-10">
             <speaker>géronte</speaker>
             <p>
-              <s>Holà !</s>
-              <s>Es-tu aveugle, que tu ne me vois pas ?</s>
+              <s>Holà, es-tu aveugle, que tu ne me vois pas ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-11">
             <speaker>scapin</speaker>
             <p>
-              <s>Ah ! Monsieur, il n’y a pas moyen de vous rencontrer.</s>
+              <s>Ah, Monsieur, il n’y a pas moyen de vous rencontrer.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-12">
@@ -3365,7 +3276,7 @@
           <sp who="scapin" xml:id="II07-13">
             <speaker>scapin</speaker>
             <p>
-              <s>Monsieur...</s>
+              <s>Monsieur…</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-14">
@@ -3377,20 +3288,19 @@
           <sp who="scapin" xml:id="II07-15">
             <speaker>scapin</speaker>
             <p>
-              <s>Monsieur, votre fils...</s>
+              <s>Monsieur, votre fils…</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-16">
             <speaker>géronte</speaker>
             <p>
-              <s>Hé bien !</s>
-              <s>Mon fils...</s>
+              <s>Hé bien mon fils…</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-17">
             <speaker>scapin</speaker>
             <p>
-              <s>Est tombé dans une disgrâce la plus étrange du monde.</s>
+              <s>Est tombé dans une disgrâce la plus étrange du Monde.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-18">
@@ -3402,10 +3312,10 @@
           <sp who="scapin" xml:id="II07-19">
             <speaker>scapin</speaker>
             <p>
-              <s>Je l’ai trouvé tantôt tout triste, de je ne sais quoi que vous lui avez dit, où vous m’avez mêlé assez mal à propos ; et, cherchant à divertir cette tristesse, nous nous sommes allés promener sur le port.</s>
-              <s>Là, entre autres plusieurs choses, nous avons arrêté nos yeux sur une galère turque assez bien équipée.</s>
-              <s>Un jeune Turc de bonne mine nous a invités d’y entrer, et nous a présenté la main.</s>
-              <s>Nous y avons passé ; il nous a fait mille civilités, nous a donné la collation, où nous avons mangé des fruits les plus excellents qui se puissent voir, et bu du vin que nous avons trouvé le meilleur du monde.</s>
+              <s>Je l’ai trouvé tantôt, tout triste, de je ne sais quoi que vous lui avez dit, où vous m’avez mêlé assez mal à propos ; et cherchant à divertir cette tristesse, nous nous sommes allés promener sur le Port.</s>
+              <s>Là, entre autres plusieurs choses, nous avons arrêté nos yeux sur une Galère Turque assez bien équipée.</s>
+              <s>Un jeune Turc de bonne mine, nous a invités d’y entrer, et nous a présenté la main.</s>
+              <s>Nous y avons passé ; il nous a fait mille civilités, nous a donné la Collation, où nous avons mangé des Fruits les plus excellents qui se puissent voir, et bu du Vin que nous avons trouvé le meilleur du monde.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-20">
@@ -3418,14 +3328,13 @@
             <speaker>scapin</speaker>
             <p>
               <s>Attendez, Monsieur, nous y voici.</s>
-              <s>Pendant que nous mangions, il a fait mettre la galère en mer, et, se voyant éloigné du port, il m’a fait mettre dans un esquif, et m’envoie vous dire que, si vous ne lui envoyez par moi tout à l’heure cinq cents écus, il va vous emmener votre fils en Alger.</s>
+              <s>Pendant que nous mangions, il a fait mettre la Galère en Mer, et, se voyant éloigné du Port, il m’a fait mettre dans un Esquif, et m’envoie vous dire que si vous ne lui envoyez par moi tout à l’heure cinq cents Écus, il va vous emmener votre Fils en Alger.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-22">
             <speaker>géronte</speaker>
             <p>
-              <s>Comment, diantre !</s>
-              <s>Cinq cents écus ?</s>
+              <s>Comment, diantre, cinq cents Écus ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-23">
@@ -3437,20 +3346,19 @@
           <sp who="geronte" xml:id="II07-24">
             <speaker>géronte</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Le pendard de Turc, m’assassiner de la façon !</s>
+              <s>Ah le pendard de Turc, m’assassiner de la façon !</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-25">
             <speaker>scapin</speaker>
             <p>
-              <s>C’est à vous, Monsieur, d’aviser promptement aux moyens de sauver des fers un fils que vous aimez avec tant de tendresse.</s>
+              <s>C’est à vous, Monsieur, d’aviser promptement aux moyens de sauver des fers un Fils que vous aimez avec tant de tendresse.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-26">
             <speaker>géronte</speaker>
             <p>
-              <s>Que diable allait-il faire dans cette galère ?</s>
+              <s>Que diable allait-il faire dans cette Galère ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-27">
@@ -3462,32 +3370,32 @@
           <sp who="geronte" xml:id="II07-28">
             <speaker>géronte</speaker>
             <p>
-              <s>Va-t’en, Scapin, va-t’en vite dire à ce Turc que je vais envoyer la justice après lui.</s>
+              <s>Va-t’en, Scapin, va-t’en vite dire à ce Turc que je vais envoyer la Justice après lui.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-29">
             <speaker>scapin</speaker>
             <p>
-              <s>La justice en pleine mer !</s>
-              <s>Vous moquez-vous des gens ?</s>
+              <s>La Justice en pleine Mer !</s>
+              <s>Vous moquez-vous des Gens ?</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-30">
             <speaker>géronte</speaker>
             <p>
-              <s>Que diable alloit-il faire dans cette galère ?</s>
+              <s>Que diable allait-il faire dans cette Galère ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-31">
             <speaker>scapin</speaker>
             <p>
-              <s>Une méchante destinée conduit quelquefois les personnes.</s>
+              <s>Une méchante destinée conduit quelquefois les Personnes.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-32">
             <speaker>géronte</speaker>
             <p>
-              <s>Il faut, Scapin, il faut que tu fasses ici l’action d’un serviteur fidèle.</s>
+              <s>Il faut, Scapin, il faut que tu fasses ici, l’action d’un serviteur fidèle.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-33">
@@ -3499,21 +3407,19 @@
           <sp who="geronte" xml:id="II07-34">
             <speaker>géronte</speaker>
             <p>
-              <s>Que tu ailles dire à ce Turc qu’il me renvoie mon fils, et que tu te mets à sa place jusqu’à ce que j’aie amassé la somme qu’il demande.</s>
+              <s>Que tu ailles dire à ce Turc, qu’il me renvoie mon Fils, et que tu te mets à sa place, jusqu’à ce que j’aie amassé la somme qu’il demande.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-35">
             <speaker>scapin</speaker>
             <p>
-              <s>Eh !</s>
-              <s>Monsieur, songez-vous à ce que vous dites ?</s>
-              <s>Et vous figurez-vous que ce Turc ait si peu de sens, que d’aller recevoir un misérable comme moi à la place de votre fils ?</s>
+              <s>Eh, Monsieur, songez-vous à ce que vous dites ? et vous figurez-vous que ce Turc ait si peu de sens, que d’aller recevoir un misérable comme moi, à la place de votre Fils ?</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-36">
             <speaker>géronte</speaker>
             <p>
-              <s>Que diable allait-il faire dans cette galère ?</s>
+              <s>Que diable allait-il faire dans cette Galère ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-37">
@@ -3526,19 +3432,19 @@
           <sp who="geronte" xml:id="II07-38">
             <speaker>géronte</speaker>
             <p>
-              <s>Tu dis qu’il demande...</s>
+              <s>Tu dis qu’il demande…</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-39">
             <speaker>scapin</speaker>
             <p>
-              <s>Cinq cents écus.</s>
+              <s>Cinq cents Écus.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-40">
             <speaker>géronte</speaker>
             <p>
-              <s>Cinq cents écus ! N’a-t-il point de conscience ?</s>
+              <s>Cinq cents Écus ! N’a-t-il point de conscience ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-41">
@@ -3550,7 +3456,7 @@
           <sp who="geronte" xml:id="II07-42">
             <speaker>géronte</speaker>
             <p>
-              <s>Sait-il bien ce que c’est que cinq cents écus ?</s>
+              <s>Sait-il bien ce que c’est que cinq cents Écus ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-43">
@@ -3562,33 +3468,32 @@
           <sp who="geronte" xml:id="II07-44">
             <speaker>géronte</speaker>
             <p>
-              <s>Croit-il, le traître, que mille cinq cents livres se trouvent dans le pas d’un cheval ?</s>
+              <s>Croit-il, le traître, que mille cinq cents livres se trouvent dans le pas d’un Cheval ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-45">
             <speaker>scapin</speaker>
             <p>
-              <s>Ce sont des gens qui n’entendent point de raison.</s>
+              <s>Ce sont des Gens qui n’entendent point de raison.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-46">
             <speaker>géronte</speaker>
             <p>
-              <s>Mais que diable allait-il faire à cette galère ?</s>
+              <s>Mais que diable allait-il faire à cette Galère ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-47">
             <speaker>scapin</speaker>
             <p>
-              <s>Il est vrai ; mais quoi ?</s>
-              <s>On ne prévoyait pas les choses.</s>
+              <s>Il est vrai ; mais quoi ! on ne prévoyait pas les choses.</s>
               <s>De grâce, Monsieur, dépêchez.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-48">
             <speaker>géronte</speaker>
             <p>
-              <s>Tiens, voilà la clef de mon armoire.</s>
+              <s>Tiens, voilà la clef de mon Armoire.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-49">
@@ -3612,7 +3517,7 @@
           <sp who="geronte" xml:id="II07-52">
             <speaker>géronte</speaker>
             <p>
-              <s>Tu trouveras une grosse clef du côté gauche, qui est celle de mon grenier.</s>
+              <s>Tu trouveras une grosse clef du côté gauche, qui est celle de mon Grenier.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-53">
@@ -3624,32 +3529,29 @@
           <sp who="geronte" xml:id="II07-54">
             <speaker>géronte</speaker>
             <p>
-              <s>Tu iras prendre toutes les hardes qui sont dans cette grande manne, et tu les vendras aux fripiers, pour aller racheter mon fils.</s>
+              <s>Tu iras prendre toutes les Hardes qui sont dans cette grande Manne, et tu les vendras aux Fripiers, pour aller racheter mon Fils.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-55">
             <speaker>scapin, <hi rend="i">en lui rendant la clef</hi></speaker>
             <p>
-              <s>Eh !</s>
-              <s>Monsieur, rêvez-vous ?</s>
+              <s>Eh, Monsieur, rêvez-vous ?</s>
               <s>Je n’aurais pas cent francs de tout ce que vous dites ; et de plus, vous savez le peu de temps qu’on m’a donné.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-56">
             <speaker>géronte</speaker>
             <p>
-              <s>Mais que diable allait-il faire à cette galère ?</s>
+              <s>Mais que diable allait-il faire à cette Galère ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-57">
             <speaker>scapin</speaker>
             <p>
-              <s>Oh !</s>
-              <s>Que de paroles perdues !</s>
-              <s>Laissez là cette galère, et songez que le temps presse, et que vous courez risque de perdre votre fils.</s>
-              <s>Hélas !</s>
-              <s>Mon pauvre maître, peut-être que je ne te verrai de ma vie, et qu’à l’heure que je parle, on t’emmène esclave en Alger.</s>
-              <s>Mais le Ciel me sera témoin que j’ai fait pour toi tout ce que j’ai pu ; et que si tu manques à être racheté, il n’en faut accuser que le peu d’amitié d’un père.</s>
+              <s>Oh que de paroles perdues !</s>
+              <s>Laissez là cette Galère, et songez que le temps presse, et que vous courez risque de perdre votre Fils.</s>
+              <s>Hélas ! mon pauvre Maître, peut-être que je ne te verrai de ma vie, et qu’à l’heure que je parle on t’emmène esclave en Alger.</s>
+              <s>Mais le Ciel me sera témoin que j’ai fait pour toi tout ce que j’ai pu ; et que si tu manques à être racheté, il n’en faut accuser que le peu d’amitié d’un Père.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-58">
@@ -3667,19 +3569,19 @@
           <sp who="geronte" xml:id="II07-60">
             <speaker>géronte</speaker>
             <p>
-              <s>N’est-ce pas quatre cents écus que tu dis ?</s>
+              <s>N’est-ce pas quatre cents Écus que tu dis ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-61">
             <speaker>scapin</speaker>
             <p>
-              <s>Non : cinq cents écus.</s>
+              <s>Non : cinq cents Écus.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-62">
             <speaker>géronte</speaker>
             <p>
-              <s>Cinq cents écus ?</s>
+              <s>Cinq cents Écus ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-63">
@@ -3691,7 +3593,7 @@
           <sp who="geronte" xml:id="II07-64">
             <speaker>géronte</speaker>
             <p>
-              <s>Que diable allait-il faire à cette galère ?</s>
+              <s>Que diable allait-il faire à cette Galère ?</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-65">
@@ -3716,14 +3618,13 @@
           <sp who="geronte" xml:id="II07-68">
             <speaker>géronte</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Maudite galère !</s>
+              <s>Ah maudite Galère !</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-69">
             <speaker>scapin</speaker>
             <p>
-              <s>Cette galère lui tient au cœur.</s>
+              <s>Cette Galère lui tient au cœur.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-70">
@@ -3734,7 +3635,7 @@
             <stage>Il lui présente sa bourse, qu’il ne laisse pourtant pas aller ; et dans ses transports il fait aller son bras de côté et d’autre, et Scapin le sien pour avoir la bourse.</stage>
             <p>
               <s>Tiens.</s>
-              <s>Va-t’en racheter mon fils.</s>
+              <s>Va-t’en racheter mon Fils.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-71">
@@ -3746,7 +3647,7 @@
           <sp who="geronte" xml:id="II07-72">
             <speaker>géronte</speaker>
             <p>
-              <s>Mais dis à ce Turc que c’est un scélérat.</s>
+              <s>Mais dis à ce Turc que c’est un Scélérat.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-73">
@@ -3758,7 +3659,7 @@
           <sp who="geronte" xml:id="II07-74">
             <speaker>géronte</speaker>
             <p>
-              <s>Un infâme.</s>
+              <s>Un Infâme.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-75">
@@ -3770,7 +3671,7 @@
           <sp who="geronte" xml:id="II07-76">
             <speaker>géronte</speaker>
             <p>
-              <s>Un homme sans foi, un voleur.</s>
+              <s>Un Homme sans foi, un Voleur.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-77">
@@ -3782,7 +3683,7 @@
           <sp who="geronte" xml:id="II07-78">
             <speaker>géronte</speaker>
             <p>
-              <s>Qu’il me tire cinq cents écus contre toute sorte de droit.</s>
+              <s>Qu’il me tire cinq cents Écus contre toute sorte de droit.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-79">
@@ -3818,13 +3719,13 @@
           <sp who="geronte" xml:id="II07-84">
             <speaker>géronte <hi rend="i">remet la bourse dans sa poche, et s’en va</hi></speaker>
             <p>
-              <s>Va, va, vite requérir mon fils.</s>
+              <s>Va, va, vite requérir mon Fils.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-85">
             <speaker>scapin, <hi rend="i">allant après lui</hi></speaker>
             <p>
-              <s>Holà ! Monsieur.</s>
+              <s>Holà, Monsieur.</s>
             </p>
           </sp>
           <sp who="geronte" xml:id="II07-86">
@@ -3854,8 +3755,7 @@
           <sp who="geronte" xml:id="II07-90">
             <speaker>géronte</speaker>
             <p>
-              <s>Ah !</s>
-              <s>C’est la douleur qui me trouble l’esprit.</s>
+              <s>Ah, c’est la douleur qui me trouble l’esprit.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-91">
@@ -3867,16 +3767,15 @@
           <sp who="geronte" xml:id="II07-92">
             <speaker>géronte</speaker>
             <p>
-              <s>Que diable allait-il faire dans cette galère ?</s>
-              <s>Ah !</s>
-              <s>Maudite galère !</s>
-              <s>Traître de Turc à tous les diables !</s>
+              <s>Que diable allait-il faire dans cette Galère ?</s>
+              <s>Ah maudite Galère !</s>
+              <s>Traître de Turc à tous les Diables !</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II07-93">
             <speaker>scapin</speaker>
             <p>
-              <s>Il ne peut digérer les cinq cents écus que je lui arrache ; mais il n’est pas quitte envers moi, et je veux qu’il me paye en une autre monnaie l’imposture qu’il m’a faite auprès de son fils.</s>
+              <s>Il ne peut digérer les cinq cents Écus que je lui arrache ; mais il n’est pas quitte envers moi, et je veux qu’il me paye en une autre monnaie, l’imposture qu’il m’a faite auprès de son Fils.</s>
             </p>
           </sp>
         </div2>
@@ -3886,8 +3785,7 @@
           <sp who="octave" xml:id="II08-1">
             <speaker>octave</speaker>
             <p>
-              <s>Hé bien !</s>
-              <s>Scapin, as-tu réussi pour moi dans ton entreprise ?</s>
+              <s>Hé bien, Scapin, as-tu réussi pour moi dans ton entreprise ?</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II08-2">
@@ -3899,14 +3797,13 @@
           <sp who="scapin" xml:id="II08-3">
             <speaker>scapin</speaker>
             <p>
-              <s>Voilà deux cents pistoles que j’ai tirées de votre père.</s>
+              <s>Voilà deux cents Pistoles que j’ai tirées de votre Père.</s>
             </p>
           </sp>
           <sp who="octave" xml:id="II08-4">
             <speaker>octave</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Que tu me donnes de joie !</s>
+              <s>Ah que tu me donnes de joie !</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II08-5">
@@ -3924,9 +3821,8 @@
           <sp who="scapin" xml:id="II08-7">
             <speaker>scapin</speaker>
             <p>
-              <s>Holà, holà !</s>
-              <s>Tout doucement.</s>
-              <s>Comme diantre vous allez vite !</s>
+              <s>Holà, holà, tout doucement.</s>
+              <s>Comme diantre vous allez vite.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II08-8">
@@ -3938,20 +3834,19 @@
           <sp who="scapin" xml:id="II08-9">
             <speaker>scapin</speaker>
             <p>
-              <s>Allez, j’ai votre affaire ici</s>
+              <s>Allez, j’ai votre affaire ici.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II08-10">
             <speaker>léandre <hi rend="i">revient</hi></speaker>
             <p>
-              <s>Ah !</s>
-              <s>Tu me redonnes la vie.</s>
+              <s>Ah tu me redonnes la vie.</s>
             </p>
           </sp>
           <sp who="scapin" xml:id="II08-11">
             <speaker>scapin</speaker>
             <p>
-              <s>Mais à condition que vous me permettez à moi une petite vengeance contre votre père, pour le tour qu’il m’a fait.</s>
+              <s>Mais à condition que vous me permettrez à moi, une petite vengeance contre votre Père, pour le tour qu’il m’a fait.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II08-12">
@@ -3963,7 +3858,7 @@
           <sp who="scapin" xml:id="II08-13">
             <speaker>scapin</speaker>
             <p>
-              <s>Vous me le promettez devant témoin.</s>
+              <s>Vous me le promettez devant Témoin.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II08-14">
@@ -3975,7 +3870,7 @@
           <sp who="scapin" xml:id="II08-15">
             <speaker>scapin</speaker>
             <p>
-              <s>Tenez, voilà cinq cents écus.</s>
+              <s>Tenez, voilà cinq cents Écus.</s>
             </p>
           </sp>
           <sp who="leandre" xml:id="II08-16">
