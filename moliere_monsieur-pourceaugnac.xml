@@ -56,21 +56,15 @@
         <docImprint rend="uc i">Avec Privilège du Roi</docImprint>
       </titlePage>
       <div>
-      <head>Extrait du Privilège du Roi. </head>
-      <p>Par Grace &amp; Privilège du Roi, Donné à Paris, le 20. jour de Février, l’an de grâce 1670. Signé, par le Roi en son Conseil, BOUCHET. Il est permis à Jean Baptiste Pocquelin de Molière, l’un de nos Comédiens, de faire imprimer, vendre, &amp; débiter une Pièce de Théâtre, intitulée MONSIEUR DE POURCEAUGNAC ; &amp; ce par tel Imprimeur, ou Libraire qu’il voudra choisir, pendant le temps &amp;  espace de cinq années entières &amp; accomplies, à compter du jour que ladite Pièce sera achevée d’imprimer pour la première fois : Et défenses sont faites à toutes Personnes de quelque qualité &amp; condition qu’ils soient, d’imprimer, faire imprimer, vendre, ni débiter ladite Pièce, sans le consentement de l’Exposant, ou de ceux qui auront droit de lui, à peine de six mil livres d’amende, confiscation des Exemplaires contrefaits, &amp; de tous dépens, dommages et intérêts, ainsi que plus au long il est porté audit Privilège.</p>
-      <p>Registré sur le Livre de la Communauté, suivant l’Arrêt de la Cour du 8. Avril 1653, le 28. Février 1670. Signé A. SOUBRON Syndic.</p>
-      <p>Ledit J.B.P. de Molière a cédé le présent Privilège, à Jean Ribou, Marchand Libraire à Paris, pour en jouir suivant l’accord fait entre eux.</p>
-      <p rend="i">Achevé d’imprimer pour la première fois, le 3. jour de Mars 1670. </p>      </div>
-      <div>
-        <head>PERSONNAGES</head>
+        <head rend="uc">Acteurs</head>
       <castList>
         <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="pourceaugnac">MONSIEUR DE POURCEAUGNAC</role>.</castItem>
         <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="oronte">ORONTE</role>.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="julie">JULIE</role>, fille d’Oronte.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="bourgeois" type="H" xml:id="nerine">NÉRINE</role>, femme d’intrigue.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="bourgeois" type="H" xml:id="lucette">LUCETTE</role>, feinte gasconne.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="eraste">ÉRASTE</role>, amant de Julie.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="sbrigani">SBRIGANI</role>, napolitain, homme d’intrigue.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="julie">JULIE</role>, Fille d’Oronte.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="néant" statut="bourgeois" type="H" xml:id="nerine">NÉRINE</role>, Femme d’intrigue.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="néant" statut="bourgeois" type="H" xml:id="lucette">LUCETTE</role>, feinte Gasconne.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="eraste">ÉRASTE</role>, Amant de Julie.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="sbrigani">SBRIGANI</role>, Napolitain, Homme d’intrigue.</castItem>
         <castItem><role age="A" civil="M" stat_amour="néant" statut="médecin" type="H" xml:id="medecin1">PREMIER MÉDECIN</role>.</castItem>
         <castItem><role age="A" civil="M" stat_amour="néant" statut="médecin" type="H" xml:id="medecin2">SECOND MÉDECIN</role>.</castItem>
         <castItem><role age="A" civil="M" stat_amour="néant" statut="apothcaire" type="H" xml:id="apothicaire">L’APOTHICAIRE</role>.</castItem>
@@ -85,14 +79,24 @@
         <castItem><role age="A" civil="M" stat_amour="néant" statut="exempt" type="H" xml:id="exempt">UN EXEMPT</role>.</castItem>
         <castItem><role age="A" civil="G" stat_amour="néant" statut="achers" type="H" xml:id="deux-archers">DEUX ARCHERS</role>.</castItem>
         <castItem><role age="A" civil="G" stat_amour="néant" statut="musicien" type="H" xml:id="musiciens">PLUSIEURS MUSICIENS</role><role xml:id="musicien"/><role xml:id="egyptienne"/><role xml:id="egyptien"/>.</castItem>
-        <castItem><role age="A" civil="G" stat_amour="néant" statut="danseur" type="H" xml:id="joueurs-instruments_danseurs">JOUEURS d’INSTRUMENTS et DANSEURS</role>.<role xml:id="enfants"></role></castItem>
+        <castItem><role age="A" civil="G" stat_amour="néant" statut="danseur" type="H" xml:id="joueurs-instruments_danseurs">JOUEURS d’INSTRUMENTS, ET DANSEURS</role>.<role xml:id="enfants"></role></castItem>
+        <castItem>
+          <role xml:id="premiere-voix"></role>
+          <role xml:id="deuxieme-voix"></role>
+          <role xml:id="troisieme-voix"></role>
+          <role xml:id="tous-ensemble"></role>
+          <role xml:id="jeanet"></role>
+          <role xml:id="les-enfants"></role>
+          <role xml:id="l-avocat-bredouilleur"></role>
+          <role xml:id="l-avocat"></role>
+        </castItem>
       </castList>
-        <stage country="France" link="" location="Paris" periode="XVIIème">La scène est à Paris.</stage>
+        <stage country="France" link="" location="Paris" periode="XVIIème">La Scène est à Paris.</stage>
       </div>
     </front>
     <body>
-      <div>
-        <head>Prologue</head>
+      <div rend="not-i">
+        <head>[Prologue]</head>
         <stage>L’Ouverture<anchor xml:id="P01"/> se fait par Éraste, qui conduit un grand Concert de Voix et d’Instruments, pour une Sérénade, dont les Paroles, chantées par trois Voix, en manière de Dialogue, sont faites sur le Sujet de la Comédie, et expriment les sentiments de deux Amants, qui étant bien ensemble, sont traversés par le caprice des Parents.</stage>
         <sp who="premiere-voix">
           <speaker><anchor xml:id="P01-1"/>Première Voix.</speaker>
@@ -121,7 +125,7 @@
           <l>Et pour vaincre toute chose,</l>
           <l>Il ne faut que s’aimer bien.</l>
         </sp>
-        <sp who="les-trois-voix-ensemble">
+        <sp who="premiere-voix deuxieme-voix troisieme-voix">
           <speaker><anchor xml:id="P01-4"/>Les trois Voix ensemble.</speaker>
           <l>Aimons-nous donc d’une ardeur éternelle,</l>
           <l>Les rigueurs des <hi rend="i">P</hi>arents, la contrainte cruelle,</l>
@@ -2701,7 +2705,7 @@
             <speaker>sbrigani</speaker>
             <p>Vous êtes Homme d’accommodement ; n’y a-t-il pas moyen d’ajuster cela avec quelques Pistoles ?</p>
           </sp>
-          <sp who="l-exempt-a-ses-archers" xml:id="III05-7">
+          <sp who="l-exempt" xml:id="III05-7">
             <speaker>l’exempt à ses <hi rend="i">A</hi>rchers.</speaker>
             <p>Retirez-vous un peu.</p>
           </sp>
@@ -2918,7 +2922,7 @@
             <l>Ne songeons qu’à nous réjouir,</l>
             <l>La grande affaire est le plaisir.</l>
           </sp>
-          <sp who="chœur-de-musiciens">
+          <sp who="musiciens">
             <speaker>Chœur de Musiciens.</speaker>
             <l>Ne songeons qu’à nous réjouir,</l>
             <l>La grande affaire est le plaisir.</l>
@@ -2974,7 +2978,7 @@
             <l>Sus, sus, chantons tous ensemble,</l>
             <l>Dansons, sautons, jouons-nous.</l>
           </sp>
-          <sp who="un-musicien-seul" xml:id="III08-12">
+          <sp who="musicien1" xml:id="III08-12">
             <speaker>Un Musicien seul.</speaker>
             <l><hi rend="i">Lors que</hi> pour rire on s’assemble</l>
             <l>Les plus sages, ce me semble,</l>
@@ -2984,8 +2988,8 @@
             <speaker>Tous ensemble.</speaker>
             <l>Ne songeons qu’à nous réjouir,</l>
             <l>La grande affaire est le plaisir.</l>
-            <trailer>FIN</trailer>
           </sp>
+          <trailer>FIN</trailer>
         </div>
       </div>
     </body>
