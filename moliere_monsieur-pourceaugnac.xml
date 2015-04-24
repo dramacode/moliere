@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_monsieur-pourceaugnac" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MONSIEUR DE POURCEAUGNAC, COMÉDIE-BALLET.</title>
-        <author academie="" born="1622" born_location="Paris" death="1673" death_location="Paris">Molière</author>
-        <date>1669</date>
+        <title>Monsieur De Pourceaugnac, Comédie-Ballet</title>
+        <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
-        <p>publié par Paul FIEVRE, août 2009, revu mai 2013.</p>
+        <date when="2013"/>
+        <date when="2015"/>
+        <publisher>Publié par Paul Fièvre en mai 2013, révision en 2015 par Amélie Canu et Oriane Morvan</publisher>
+        <availability status="restricted">
+          <licence target="projet-Molière"/>
+        </availability>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_monsieur-pourceaugnac/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_monsieur-pourceaugnac.xml</idno>
       </publicationStmt>
       <sourceDesc>
+        <bibl>
+          <author>Molière</author>
+          <title>Monsieur de Pourceaugnac</title>
+        </bibl>
         <genre>Comédie-ballet</genre>
         <inspiration>mœurs françaises</inspiration>
         <type>mixte</type>
@@ -23,26 +33,27 @@
         <permalien>http://gallica.bnf.fr/ark :/12148/btv1b8610798z</permalien>
       </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1669">1669</date>
+      </creation>
+      <langUsage>
+        <language ident="fre"></language>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <titlePage>
         <docTitle>
-          <titlePart type="main">MONSIEUR DE POURCEAUGNAC</titlePart>
-          <titlePart type="sub">COMÉDIE</titlePart>
-          <titlePart type="sub">FAITE A CHAMBORD</titlePart>
-          <titlePart type="sub">pour le Divertissement du Roi</titlePart>
+          <titlePart type="main" rend="uc">Monsieur De Pourceaugnac,</titlePart>
+          <titlePart type="sub" rend="uc">Comédie</titlePart>
+          <titlePart type="sub">Faite à Chambord, <lb/>pour le Divertissement du Roi</titlePart>
         </docTitle>
-        <docDate value="1665">1665</docDate>
-        <docAuthor bio="moliere" id="MOLIERE">Molière</docAuthor>
-        <docImprint>
-          <privilege id=""/>
-          <acheveImprime id=""/>
-          <editor id=""/>
-        </docImprint>
-        <performance>
-          <premiere date="1669-11-15" location="Théâtre du Palais-Royal">Faite à Chambord, pour le divertissement du roi, au mois de septembre 1669, et représentée en public à Paris, pour la première fois, sur le Théâtre du Palais-Royal, le 15e novembre de la même année 1669, par la Troupe du Roi.</premiere>
-        </performance>
+        <docAuthor rend="i uc">Par J. B. P. Molière</docAuthor>
+        <docImprint>À PARIS, <lb/> Chez JEAN RIBOU, au Palais, vis-à-vis<lb/>la Porte de l'Église de la Sainte-Chapelle, <lb/>À l'Image Saint-Louis</docImprint>
+        <docDate>M. DC. LXX</docDate>
+        <docImprint rend="uc i">Avec Privilège du Roi</docImprint>
       </titlePage>
       <div>
       <head>Extrait du Privilège du Roi. </head>
