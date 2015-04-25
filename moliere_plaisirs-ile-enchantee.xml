@@ -57,7 +57,7 @@
     </front>
     <body>
       <head rend="center i">LES PLAISIRS DE L’ÎLE ENCHANTÉE. COURSE DE BAGUE, Collation ornée de Machines, Comédie de Molière, Intitulée la Princesse d’Élide, mêlée de Danse et de Musique, Ballet du Palais d’Alcine, Feu d’Artifice : Et autres Fêtes galantes et magnifiques ; faites par le Roy à Versailles, le 7<hi rend="sup">e</hi> Mai 1664. Et continuées Plusieurs autres Jours.</head>
-      <div xml:id="premiere-journee">
+      <div xml:id="I" type="act">
         <head>[PREMIÈRE JOURNÉE DES PLAISIRS DE L'ÎLE ENCHANTÉE]</head>
         <div type="scene">
           <head>[L'entrée des artistes]</head>
@@ -594,7 +594,7 @@
           <label>Fin de la première Journée.</label>
         </div>
       </div>
-        <div xml:id="I02">
+        <div xml:id="II" type="act">
           <head>SECONDE JOURNÉE<lb/>DES PLAISIRS<lb/>DE L’ÎLE ENCHANTÉE.</head>
           <argument>
             <p>Lorsque la nuit du second jour fut venue, Leurs Majestés se rendirent dans un autre rond environné de palissades comme le premier, et sur la même ligne, s’avançant toujours vers le Lac, où l’on feignait que le Palais d’Alcine était bâti.</p>
@@ -602,14 +602,14 @@
             <p>Le Roi fit donc couvrir de toiles, en si peu de temps qu’on avait lieu de s’en étonner, tout ce rond d’une espèce de Dôme, pour défendre contre le vent le grand nombre de Flambeaux et de Bougies qui devaient éclairer le Théâtre, dont la décoration était fort agréable.</p>
               <p>Aussitôt qu’on eut tiré la toile un grand Concert de plusieurs instruments se fit entendre : Et l’Aurore représentée par Mlle Hilaire, ouvrit la Scène, et chanta ce Récit :</p>
           </argument>
-          <div type="act">
+          <div>
             <head>LA PRINCESSE D'ÉLIDE</head>
             <p><ref target="http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_princesse-elide/">La Princesse d'Élide fut représentée lors de la deuxième journée</ref></p>
           </div>
         </div>
-      <div>
+      <div xml:id="III" type="act">
           <head>TROISIÈME JOURNÉE<lb/>DES PLAISIRS<lb/>DE L’ÎLE ENCHANTÉE.</head>
-        <div>
+        <div type="scene">
           <head>[DIALOGUE D'ALCINE, CÉLIE ET DIRCÉ]</head>
           <argument>
             <p>Plus on s’avançait vers le grand Rond d'eau qui représentait le Lac, sur lequel était autrefois bâti le Palais d’Alcine : plus on s’approchait de la fin des divertissements de l’Île Enchantée, comme s’il n’eût pas été juste que tant de braves Chevaliers demeurassent plus longtemps dans une oisiveté qui eût fait tort à leur gloire.</p>
@@ -766,7 +766,7 @@
           <p>Quatre Géants d’une grandeur démesurée, vinrent à paraître avec quatre Nains ; qui par l’opposition de leur petite taille, faisaient paraître celle des Géants encore plus excessive. Ces Colosses étaient commis à la garde du Palais, et ce fut par eux que commença la première Entrée du Ballet.</p>
           </argument>
         </div>
-        <div type="act">
+        <div>
         <head>BALLET<lb/>DU PALAIS <lb/>D’ALCINE.</head>
           <div type="scene">
           <head>PREMIÈRE ENTRÉE</head>
