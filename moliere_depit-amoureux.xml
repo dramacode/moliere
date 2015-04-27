@@ -1,119 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_depit-amoureux" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LE DÉPIT AMOUREUX</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1656</date>
+        <title>Le Dépit amoureux</title>
+        <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
-      <publicationStmp>
-        <p>publié par Paul FIEVRE</p>
-        <p>Mai 2006</p>
+      <publicationStmt>
+        <date when="2006"/>
+        <date when="2015"/>
+        <publisher>Publié par Paul Fièvre en mai 2006, révision en 2015 par Amélie Canu et Oriane Morvan</publisher>
+        <availability status="restricted">
+          <licence target="projet-Molière"/>
+        </availability>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_depit-amoureux/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_depit-amoureux.xml</idno>
-      </publicationStmp>
-      <SourceDesc>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Molière</author>
+          <title>Le Dépit amoureux</title>
+        </bibl>
         <genre>Comédie</genre>
         <inspiration>moeurs françaises</inspiration>
         <structure>Cinq actes</structure>
         <type>vers</type>
         <periode>1651-1660</periode>
         <taille>1750-2000</taille>
-        <permalien/>
-        <sources>
-          <source id="1">
-            <author/>
-            <text/>
-          </source>
-        </sources>
-      </SourceDesc>
+      </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1663">1663</date>
+      </creation>
+      <langUsage>
+        <language ident="fre"></language>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <titlePage>
         <docTitle>
-          <titlePart type="main">LE DÉPIT AMOUREUX</titlePart>
-          <titlePart type="sub">COMÉDIE</titlePart>
+          <titlePart type="main" rend="uc">[LE] Dépit amoureux</titlePart>
+          <titlePart type="sub" rend="uc i">Comédie, </titlePart>
+          <titlePart>REPRÉSENTÉ SUR LE <lb/>Théâtre du Palais Royal</titlePart>
         </docTitle>
-        <docDate value="1656">1656</docDate>
-        <docAuthor id="MOLIERE" bio="moliere">Molière</docAuthor>
-        <docImprint>
-          <privilege id="16**-**-**"/>
-          <acheveImprime id="16**-**-**"/>
-          <printer id=""/>
+        <docAuthor rend="uc">De j. b. p. molière</docAuthor>
+        <docImprint>À PARIS, <lb/>Chez CLAUDE BARBIN, au Palais, sur le<lb/> Degré devant la Sainte-Chapelle, au Signe <lb/>de la Croix.
         </docImprint>
-        <performance>
-    			<premiere date="1668-01-13" location="Th&#xE9;&#xE2;tre du Palais-Royal">Représenté pour la première fois le 13 janvier 1668, au Théâtre du Palais-Royal.</premiere>
-    		</performance>
-        <privilege id="**/**/****"/>
-        <acheveImprime id="**/**/****"/>
-        <premiere>
-    			<date id="**/**/****"/>
-    			<lieu>***</lieu>
-    		</premiere>
-      </titlePage>
+        <docDate>M. DC. LXIII.</docDate>
+        <docImprint rend="uc i">Avec privilège du roi</docImprint>
+        </titlePage>
       <div>
-        <head>DÉPIT AMOUREUX</head>
-        <p rend="center b"><hi rend="i">COMÉDIE</hi>,</p>
-        <p rend="center">REPRÉSENTÉE SUR LE</p>
-        <p rend="center">Théâtre du Palais Royal.</p>
-        <p rend="center">DE  I.B.P. MOLIÈRE.</p>
-        <p rend="center">À PARIS,</p>
-        <p rend="center">Chez CLAUDE BARBIN, au Palais, sur le</p>
-        <p rend="center">Degré devant la Sainte chapelle, au Signe</p>
-        <p rend="center">de la Croix.</p>
-        <p rend="center">M.DC.LXIII.</p>
-        <p rend="center i">AVEC PRIVILÈGE DU ROY</p>
-        <p rend="center">À MONSIEUR</p>
-        <p rend="center">MONSIEUR</p>
-        <p rend="center">HOURLIER,</p>
-        <p rend="center">ÉCUYER SIEUR DE</p>
-        <p rend="center">MÉRICOURT, CONSEILLER DU ROI,</p>
-        <p rend="center">LIEUTENANT GÉNÉRAL CIVIL &amp;</p>
-        <p rend="center">CRIMINEL DU BAILLIAGE DU PALAIS,</p>
-        <p rend="center">À PARIS.</p>
-      </div>
-      <div>
-        <head>MONSIEUR,</head>
-        <p rend="i">Si cette pièce n’avait reçu les applaudissements de toute la France, si elle n’avait été le charme de Paris, et si elle n’avait été le divertissement du plus grand Monarque de la Terre, je ne prendrais pas la liberté de vous l’offrir. Il y a longtemps que j’avais résolu de vous présenter quelque chose qui vous marquât mes respects; Mais ne trouvant rien qui fût digne de vous être offert,  qui fût proportionné à vos mérites, j’avais toujours différé le juste et respectueux hommage que je m’étais proposé de vous rendre ; &amp; j’eusse peut-être encore tardé longtemps à le faire, si le Dépit amoureux, de l’Auteur le plus approuvé de ce siècle, ne me fût tombé entre les mains. J’ai cru, Monsieur, que je ne devais pas laisser échapper cette occasion de satisfaire aux lois que je m’étais imposées, &amp; que tous les gens d’esprit demandant tous les jours cette pièce, pour avoir le plaisir de la lecture comme ils ont eu celui de la représentation, ils seraient bien aises de rencontrer votre nom à la tête. Pour moi, Monsieur, ma joie sera tout à fait grande de le voir passer, non seulement dans plusieurs mains, mais encore dans la bouche des plus charmantes personnes du monde. C’est alors que chacun se souviendra de toutes les belles et avantageuses qualités que vous possédez, que les uns loueront votre Prudence, les autres votre esprit, les autres votre Justice, les autre[s] la douceur qui est inséparable de tout ce que vous faites, et qui est si vivement dépeinte sur votre visage, qu’il n’est personne qui puisse douter que vos actions en soient remplies. Jugez, Monsieur, quelle satisfaction j’aurai de savoir que l’on rendra à votre mérite ce qui lui est dû, que l’on vous donnera des louanges que vous avez si légitimement méritées, que l’on m’estimera d’avoir fait un si juste choix, si glorieux pour moi, et que l’on louera le zèle et le respect avec lequel je suis,</p>
-        <p rend="i">MONSIEUR,</p>
-        <p rend="i">Votre très humble et très obéissant serviteur,</p>
-        <p rend="i">G. QUINET.</p>
-      </div>
-      <div>
-        <head>EXTRAIT DU PRIVILÈGE <hi rend="i">du Roi</hi>.</head>
-        <p>Par grâce &amp; Privilège du Roi  donné à Paris le dernier jour de May 1660, Signé  <hi rend="sc">Le Juge</hi> , Il est permis au Sieur  <hi rend="sc">Molière</hi>  de faire imprimer une Pièce de Théâtre intitulée  <hi rend="i">Le Dépit Amoureux</hi> , pendant l ’ espace de cinq années, à commencer du jour que ledit Livre sera achevé d  ’ imprimer : Et défenses sont faites à tous autres de l ’ imprimer, à peine de ce qui porté par lesdites Lettres.</p>
-        <p>Et ledit sieur <hi rend="sc">Molière</hi>  a  cé dé &amp; transporté son droit de privilège à  <hi rend="sc">Claude Barbin &amp; Gabriel Quinet</hi>  Marchands Libraires à Paris, pour en jouir le temps porté par icelui.</p>
-        <p rend="i">Achevé d’imprimer le 24. Novembre 1662.</p>
-        <p>Registré sur le Livre de la Communauté le 27. Octobre 1662. Signé DU BRAY, Syndic.</p>
-        <p rend="i">Les Exemplaires ont été fournis.</p>
-      </div>
+        <head rend="uc">Les personnages</head>
       <castList>
-        <head>ACTEURS</head>
-        <castItem><role xml:id="eraste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="amoureux">ÉRASTE</role>, amant de Lucile.</castItem>
-        <castItem><role xml:id="albert" civil="M" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">ALBERT</role>, père de Lucile.</castItem>
-        <castItem><role xml:id="gros-rene" civil="M" type="H" statut="valet" age="A" stat_amour="n&#xE9;ant">GROS RENÉ</role>, valet d'Eraste.</castItem>
-        <castItem><role xml:id="valere" civil="M" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">VALÈRE</role>, fils de Polydore.</castItem>
-        <castItem><role xml:id="lucile" civil="F" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">LUCILE</role>, fille d'Albert.</castItem>
-        <castItem><role xml:id="marinette" civil="F" type="H" statut="suivante" age="A" stat_amour="n&#xE9;ant">MARINETTE</role>, suivante de Lucile.</castItem>
-        <castItem><role xml:id="polydore" civil="M" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">POLYDORE</role>, père de Valère.</castItem>
-        <castItem><role xml:id="frosine" civil="F" type="H" statut="confident" age="A" stat_amour="n&#xE9;ant">FROSINE</role>, confidente d'Ascagne.</castItem>
-        <castItem><role xml:id="ascagne" civil="F" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">ASCAGNE</role>, fille sous l'habit d'homme.</castItem>
-        <castItem><role xml:id="mascarille" civil="M" type="H" statut="valet" age="A" stat_amour="n&#xE9;ant">MASCARILLE</role>, valet de Valère.</castItem>
-        <castItem><role xml:id="metaphraste" civil="M" type="H" statut="p&#xE9;dant" age="A" stat_amour="n&#xE9;ant">MÉTAPHRASTE</role>, pédant.</castItem>
-        <castItem><role xml:id="la-rapiere" civil="M" type="H" statut="bretteur" age="A" stat_amour="n&#xE9;ant">LA RAPIÈRE</role>, bretteur.</castItem>
+        <castItem><role xml:id="eraste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="amoureux">ÉRASTE</role>, Amant de Lucile.</castItem>
+        <castItem><role xml:id="albert" civil="M" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">ALBERT</role>, Père de Lucile.</castItem>
+        <castItem><role xml:id="gros-rene" civil="M" type="H" statut="valet" age="A" stat_amour="n&#xE9;ant">GROS RENÉ</role>, Valet d'Eraste.</castItem>
+        <castItem><role xml:id="valere" civil="M" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">VALÈRE</role>, Fils de Polydore.</castItem>
+        <castItem><role xml:id="lucile" civil="F" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">LUCILE</role>, Fille d'Albert.</castItem>
+        <castItem><role xml:id="marinette" civil="F" type="H" statut="suivante" age="A" stat_amour="n&#xE9;ant">MARINETTE</role>, Suivante de Lucile.</castItem>
+        <castItem><role xml:id="polydore" civil="M" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">POLYDORE</role>, Père de Valère.</castItem>
+        <castItem><role xml:id="frosine" civil="F" type="H" statut="confident" age="A" stat_amour="n&#xE9;ant">FROSINE</role>, Confidente d'Ascagne.</castItem>
+        <castItem><role xml:id="ascagne" civil="F" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">ASCAGNE</role>, Fille sous l'habit d'homme.</castItem>
+        <castItem><role xml:id="mascarille" civil="M" type="H" statut="valet" age="A" stat_amour="n&#xE9;ant">MASCARILLE</role>, Valet de Valère.</castItem>
+        <castItem><role xml:id="metaphraste" civil="M" type="H" statut="p&#xE9;dant" age="A" stat_amour="n&#xE9;ant">MÉTAPHRASTE</role>, Pédant.</castItem>
+        <castItem><role xml:id="la-rapiere" civil="M" type="H" statut="bretteur" age="A" stat_amour="n&#xE9;ant">LA RAPIÈRE</role>, Bretteur.</castItem>
       </castList>
-      <set location="(non indiqu&#xE9;)" country="France" periode="XVII&#xE8;me" link=""/>
+      </div>
     </front>
     <body>
       <div1 type="act" xml:id="I">
         <head>ACTE PREMIER</head>
         <div2 type="scene" xml:id="I01">
           <head>SCÈNE PREMIÈRE</head>
-          <stage>ÉRASTE, GROS-RENÉ.</stage>
+          <stage>Éraste, Gros-René</stage>
           <sp who="eraste" xml:id="I01-1">
             <speaker>éraste</speaker>
             <l>Veux-tu que je te dise ? une atteinte secrète</l>
@@ -223,8 +188,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I02">
-          <head>SCÈNE II.</head>
-          <stage>MARINETTE, ÉRASTE, GROS-RENÉ.</stage>
+          <head>SCÈNE II</head>
+          <stage>Marinette, Éraste, Gros-René</stage>
           <sp who="gros-rene" xml:id="I02-1">
             <speaker>gros-rené</speaker>
             <l>Ssst, Marinette.</l>
@@ -534,8 +499,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I03">
-          <head>SCÈNE III.</head>
-          <stage>ÉRASTE, VALÈRE, GROS-RENÉ.</stage>
+          <head>SCÈNE III</head>
+          <stage>Éraste, Valère, Gros-René</stage>
           <sp who="eraste" xml:id="I03-1">
             <speaker>éraste</speaker>
             <l>Hé bien ? Seigneur Valère.</l>
@@ -685,8 +650,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I04">
-          <head>SCÈNE IV.</head>
-          <stage>MASCARILLE, ÉRASTE, GROS-RENÉ.</stage>
+          <head>SCÈNE IV</head>
+          <stage>Mascarille, Éraste, Gros-René</stage>
           <sp who="mascarille" xml:id="I04-1">
             <speaker>mascarille</speaker>
             <l>Non, je ne trouve point d’état plus malheureux,</l>
@@ -960,8 +925,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I05">
-          <head>SCÈNE V.</head>
-          <stage>MARINETTE, GROS-RENÉ, ÉRASTE</stage>
+          <head>SCÈNE V</head>
+          <stage>Marinette, Gros-René, Éraste</stage>
           <sp who="marinette" xml:id="I05-1">
             <speaker>marinette</speaker>
             <l>Je viens vous avertir que tantôt sur le soir</l>
@@ -995,14 +960,14 @@
             <l>Quoi, faire un tel accueil à nos soins obligeants !</l>
             <l n="340">Oh que ceci chez nous va surprendre les gens !</l>
           </sp>
-          <trailer>Fin du premier Acte</trailer>
+          <trailer>Fin du premier Acte.</trailer>
         </div2>
       </div1>
       <div1 type="act" xml:id="II">
-        <head>ACTE II.</head>
+        <head>ACTE II</head>
         <div2 type="scene" xml:id="II01">
-          <head>SCÈNE PREMIÈRE.</head>
-          <stage>ASCAGNE, FROSINE.</stage>
+          <head>SCÈNE PREMIÈRE</head>
+          <stage>Ascagne, Frosine</stage>
           <sp who="frosine" xml:id="II01-1">
             <speaker>frosine</speaker>
             <l>Ascagne, je suis fille à secret, Dieu merci.</l>
@@ -1227,8 +1192,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II02">
-          <head>SCÈNE II.</head>
-          <stage>VALÈRE, ASCAGNE, FROSINE</stage>
+          <head>SCÈNE II</head>
+          <stage>Valère, Ascagne, Frosine</stage>
           <sp who="valere" xml:id="II02-1">
             <speaker>valère</speaker>
             <l n="475">Si vous êtes tous deux en quelque conférence</l>
@@ -1421,8 +1386,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II03">
-          <head>SCÈNE III.</head>
-          <stage>FROSINE, ASCAGNE, MARINETTE, LUCILE.</stage>
+          <head>SCÈNE III</head>
+          <stage>Frosine, Ascagne, Marinette, Lucile</stage>
           <sp who="lucile" xml:id="II03-1">
             <speaker>lucile</speaker>
             <l>C’en est fait ; c’est ainsi que je me puis venger :</l>
@@ -1496,8 +1461,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II04">
-          <head>SCÈNE IV.</head>
-          <stage>MARINETTE, LUCILE.</stage>
+          <head>SCÈNE IV</head>
+          <stage>Marinette, Lucile</stage>
           <sp who="marinette" xml:id="II04-1">
             <speaker>marinette</speaker>
             <l>La résolution, Madame, est assez prompte.</l>
@@ -1591,8 +1556,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II05">
-          <head>SCÈNE V.</head>
-          <stage>MARINETTE, LUCILE, ALBERT.</stage>
+          <head>SCÈNE V</head>
+          <stage>Marinette, Lucile, Albert</stage>
           <sp who="albert" xml:id="II05-1">
             <speaker>albert</speaker>
             <l>Rentrez, Lucile, et me faites venir</l>
@@ -1620,8 +1585,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II06">
-          <head>SCÈNE VI.</head>
-          <stage>ALBERT, MÉTAPHRASTE.</stage>
+          <head>SCÈNE VI</head>
+          <stage>Albert, Métaphraste</stage>
           <sp who="metaphraste" xml:id="II06-1">
             <speaker>métaphraste</speaker>
             <l>Mandatum tuum curo diligenter.</l>
@@ -1928,9 +1893,9 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="III">
-        <head>ACTE III.</head>
+        <head>ACTE III</head>
         <div2 type="scene" xml:id="III01">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>SCÈNE PREMIÈRE</head>
           <sp who="mascarille" xml:id="III01-1">
             <speaker>mascarille</speaker>
             <l>Le Ciel parfois seconde un dessein téméraire,</l>
@@ -1950,8 +1915,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III02">
-          <head>SCÈNE II.</head>
-          <stage>MASCARILLE, ALBERT.</stage>
+          <head>SCÈNE II</head>
+          <stage>Mascarille, Albert</stage>
           <sp who="albert" xml:id="III02-1">
             <speaker>albert</speaker>
             <l>Qui frappe ?</l>
@@ -2050,7 +2015,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III03">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <sp who="albert" xml:id="III03-1">
             <speaker>albert</speaker>
             <l>O ! Juste Ciel, je tremble !</l>
@@ -2074,8 +2039,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III04">
-          <head>SCÈNE IV.</head>
-          <stage>ALBERT, POLYDORE.</stage>
+          <head>SCÈNE IV</head>
+          <stage>Albert, Polydore</stage>
           <sp who="polydore" xml:id="III04-1">
             <speaker>polydore</speaker>
             <l>S’être ainsi marié sans qu’on en ait su rien !</l>
@@ -2300,7 +2265,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III05">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <sp who="polydore" xml:id="III05-1">
             <speaker>polydore</speaker>
             <l>Je lis dedans son âme, et vois ce qui le presse.</l>
@@ -2315,8 +2280,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III06">
-          <head>SCÈNE VI.</head>
-          <stage>POLYDORE, VALÈRE.</stage>
+          <head>SCÈNE VI</head>
+          <stage>Polydore, Valère</stage>
           <sp who="polydore" xml:id="III06-1">
             <speaker>polydore</speaker>
             <l>Enfin, le beau mignon, vos bons déportements</l>
@@ -2359,7 +2324,7 @@
         </div2>
         <div2 type="scene" xml:id="III07">
           <head>SCÈNE VII</head>
-          <stage>MASCARILLE, VALÈRE.</stage>
+          <stage>Mascarille, Valère</stage>
           <sp who="valere" xml:id="III07-1">
             <speaker>valère</speaker>
             <l>Mascarille, mon père,</l>
@@ -2464,8 +2429,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III08">
-          <head>SCÈNE VIII.</head>
-          <stage>VALÈRE, ALBERT, MASCARILLE.</stage>
+          <head>SCÈNE VIII</head>
+          <stage>Valère, Albert, Mascarille</stage>
           <sp who="albert" xml:id="III08-1">
             <speaker>albert</speaker>
             <l>Plus je reviens du trouble où j’ai donné d’abord,</l>
@@ -2590,10 +2555,10 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III09">
-          <head>SCÈNE IX.</head>
-          <stage>VALÈRE, ALBERT, MASCARILLE, LUCILE.</stage>
+          <head>SCÈNE IX</head>
+          <stage>Valère, Albert, Mascarille, Lucile</stage>
           <sp who="mascarille" xml:id="III09-1">
-            <speaker>mascarille    </speaker>
+            <speaker>mascarille</speaker>
             <l>Seigneur Albert, au moins, silence. Enfin, Madame,</l>
             <l>Toute chose conspire au bonheur de votre âme,</l>
             <l>Et Monsieur votre père averti de vos feux,</l>
@@ -2733,8 +2698,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III10">
-          <head>SCÈNE X.</head>
-          <stage>VALÈRE, MASCARILLE, ALBERT.</stage>
+          <head>SCÈNE X</head>
+          <stage>Valère, Mascarille, Albert</stage>
           <sp who="mascarille" xml:id="III10-1">
             <speaker>mascarille </speaker>
             <l>Je crois qu’elle me vient de donner un soufflet :</l>
@@ -2839,8 +2804,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III11">
-          <head>SCÈNE XI.</head>
-          <stage>VALÈRE, MASCARILLE</stage>
+          <head>SCÈNE XI</head>
+          <stage>Valère, Mascarille</stage>
           <sp who="valere" xml:id="III11-1">
             <speaker>valère</speaker>
             <l>Hé bien ! ce beau succès que tu devais produire…</l>
@@ -2880,10 +2845,10 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="IV">
-        <head>ACTE IV.</head>
+        <head>ACTE IV</head>
         <div2 type="scene" xml:id="IV01">
-          <head>SCÈNE PREMIÈRE.</head>
-          <stage> ASCAGNE, FROSINE.</stage>
+          <head>SCÈNE PREMIÈRE</head>
+          <stage> Ascagne, Frosine</stage>
           <sp who="frosine" xml:id="IV01-1">
             <speaker>frosine </speaker>
             <l>L’aventure est fâcheuse.</l>
@@ -2971,8 +2936,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV02">
-          <head>SCÈNE II.</head>
-          <stage>ÉRASTE, GROS-RENÉ.</stage>
+          <head>SCÈNE II</head>
+          <stage>Éraste, Gros-René</stage>
           <sp who="eraste" xml:id="IV02-1">
             <speaker>éraste</speaker>
             <l>Encore rebuté ?</l>
@@ -3111,8 +3076,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV03">
-          <head>SCÈNE III.</head>
-          <stage>ÉRASTE, LUCILE, MARINETTE, GROS-RENÉ.</stage>
+          <head>SCÈNE III</head>
+          <stage>Éraste, Lucile, Marinette, Gros-René</stage>
           <sp who="marinette" xml:id="IV03-1">
             <speaker>marinette</speaker>
             <l>Je l’aperçois encor ; mais ne vous rendez point.</l>
@@ -3233,7 +3198,7 @@
           </sp>
           <sp who="lucile" xml:id="IV03-19">
             <speaker>lucile</speaker>
-            <stage>ÉRASTE continue.</stage>
+            <stage>Éraste continue.</stage>
             <l>Vous m’assuriez par là d’agréer mon service ?</l>
             <l n="1350">C’est une fausseté digne de ce supplice.</l>
           </sp>
@@ -3450,8 +3415,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV04">
-          <head>SCÈNE IV.</head>
-          <stage>MARINETTE, GROS-RENÉ.</stage>
+          <head>SCÈNE IV</head>
+          <stage>Marinette, Gros-René</stage>
           <sp who="marinette" xml:id="IV04-1">
             <speaker>marinette</speaker>
             <l>Oh ! la lâche personne !</l>
@@ -3611,7 +3576,7 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="V">
-        <head>ACTE V.</head>
+        <head>ACTE V</head>
         <div2 type="scene" xml:id="V01">
           <head>SCÈNE PREMIÈRE</head>
           <sp who="mascarille" xml:id="V01-1">
@@ -3665,8 +3630,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V02">
-          <head>SCÈNE II.</head>
-          <stage>VALÈRE, MASCARILLE.</stage>
+          <head>SCÈNE II</head>
+          <stage>Valère, Mascarille</stage>
           <sp who="valere" xml:id="V02-1">
             <speaker>valère</speaker>
             <l>Je n’ai jamais trouvé de jour plus ennuyeux :</l>
@@ -3727,8 +3692,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V03">
-          <head>SCÈNE III.</head>
-          <stage>VALÈRE, LA RAPIÈRE, MASCARILLE.</stage>
+          <head>SCÈNE III</head>
+          <stage>Valère, La Rapière, Mascarille</stage>
           <sp who="la-rapiere" xml:id="V03-1">
             <speaker>la rapière</speaker>
             <l>Monsieur, de bonne part je viens d’être informé,</l>
@@ -3845,8 +3810,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V04">
-          <head>SCÈNE IV.</head>
-          <stage>ASCAGNE, FROSINE.</stage>
+          <head>SCÈNE IV</head>
+          <stage>Ascagne, Frosine</stage>
           <sp who="ascagne" xml:id="V04-1">
             <speaker>ascagne</speaker>
             <l n="1580">Est-il bien vrai, Frosine ? et ne rêvé-je point ?</l>
@@ -3905,8 +3870,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V05">
-          <head>SCÈNE V.</head>
-          <stage>ASCAGNE, FROSINE, POLYDORE.</stage>
+          <head>SCÈNE V</head>
+          <stage>Ascagne, Frosine, Polydore</stage>
           <sp who="polydore" xml:id="V05-1">
             <speaker>polydore</speaker>
             <l>Approchez-vous, ma fille, un tel nom m’est permis ;</l>
@@ -3925,8 +3890,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V06">
-          <head>SCÈNE VI.</head>
-          <stage>MASCARILLE, POLYDORE, VALÈRE.</stage>
+          <head>SCÈNE VI</head>
+          <stage>Mascarille, Polydore, Valère</stage>
           <sp who="mascarille" xml:id="V06-1">
             <speaker>mascarille</speaker>
             <l>Les disgrâces souvent sont du Ciel révélées :</l>
@@ -4039,8 +4004,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V07">
-          <head>SCÈNE VII.</head>
-          <stage>MASCARILLE, LUCILE, ÉRASTE, POLYDORE, ALBERT, VALÈRE.</stage>
+          <head>SCÈNE VII</head>
+          <stage>Mascarille, Lucile, Éraste, Polydore, Albert, Valère</stage>
           <sp who="albert" xml:id="V07-1">
             <speaker> albert</speaker>
             <l>Hé bien ? les combattants ? on amène le nôtre.</l>
@@ -4075,8 +4040,8 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V08">
-          <head>SCÈNE VIII.</head>
-          <stage>MASCARILLE, LUCILE, ÉRASTE, ALBERT, VALÈRE, GROS-RENÉ, MARINETTE, ASCAGNE, ROSINE, POLYDORE.</stage>
+          <head>SCÈNE VIII</head>
+          <stage>Mascarille, Lucile, Éraste, Albert, Valère, Gros-René, Marinette, Ascagne, Frosine, Polydore</stage>
           <sp who="valere" xml:id="V08-1">
             <speaker>valère</speaker>
             <l>Il ne le fera pas,</l>
@@ -4283,7 +4248,7 @@
             <l n="1795">Pour la troisième fois, allons-nous-en chez nous</l>
             <p>Poursuivre en liberté des entretiens si doux.</p>
           </sp>
-          <trailer>FIN.</trailer>
+          <trailer>FIN</trailer>
         </div2>
       </div1>
     </body>
