@@ -45,7 +45,7 @@
     <front>
       <titlePage>
         <docTitle>
-          <titlePart type="main" rend="uc">[LE] Dépit amoureux</titlePart>
+          <titlePart type="main" rend="uc">[Le] Dépit amoureux</titlePart>
           <titlePart type="sub" rend="uc i">Comédie, </titlePart>
           <titlePart>REPRÉSENTÉ SUR LE <lb/>Théâtre du Palais Royal</titlePart>
         </docTitle>
@@ -169,7 +169,7 @@
             <l>La maîtresse ne peut abuser votre foi,</l>
             <l>À moins que la suivante en fasse autant pour moi :</l>
             <l>Mais j’en fuis la pensée avec un soin extrême.</l>
-            <l>Je veux croire les gens, quand on me dit « <hi rend="i">j</hi>e t’aime » ;</l>
+            <l>Je veux croire les gens, quand on me dit <hi rend="i">je t’aime</hi> ;</l>
             <l n="75">Et ne vais point chercher, pour m’estimer heureux,</l>
             <l>Si Mascarille ou non, s’arrache les cheveux.</l>
             <l>Que tantôt Marinette endure qu’à son aise</l>
@@ -206,7 +206,7 @@
           <sp who="marinette" xml:id="I02-4">
             <speaker>marinette</speaker>
             <l>Vous êtes aussi là ! Monsieur, depuis une heure</l>
-            <l> 85                    Vous m’avez fait trotter comme un Basque, je meure !</l>
+            <l n="85">Vous m’avez fait trotter comme un Basque, je meure !</l>
           </sp>
           <sp who="eraste" xml:id="I02-5">
             <speaker>éraste</speaker>
@@ -317,6 +317,7 @@
           </sp>
           <sp who="eraste" xml:id="I02-22">
             <speaker>éraste <hi rend="i">lit</hi></speaker>
+            <lg>
             <l n="135">Vous m’avez dit que votre amour</l>
             <l>Était capable de tout faire,</l>
             <l>Il se couronnera lui-même dans ce jour,</l>
@@ -325,6 +326,7 @@
             <l n="140">Je vous en donne la licence :</l>
             <l>Et, si c’est en votre faveur,</l>
             <l>Je vous réponds de mon obéissance.</l>
+            </lg>
             <l>Ah ! quel bonheur ! O toi, qui me l’as apporté</l>
             <l>Je te dois regarder comme une Déité.</l>
           </sp>
@@ -335,10 +337,12 @@
           </sp>
           <sp who="eraste" xml:id="I02-24">
             <speaker>éraste <hi rend="i">lit</hi></speaker>
+            <lg>
             <l>Faites parler les droits qu’on a dessus mon cœur ;</l>
             <l>Je vous en donne la licence :</l>
             <l>Et, si c’est en votre faveur,</l>
             <l n="150">Je vous réponds de mon obéissance.</l>
+            </lg>
           </sp>
           <sp who="marinette" xml:id="I02-25">
             <speaker>marinette</speaker>
@@ -626,7 +630,7 @@
             <l>Hé bien ? cet espoir si certain ….</l>
           </sp>
           <sp who="valere" xml:id="I03-28">
-            <speaker>valère, riant</speaker>
+            <speaker>valère, <hi rend="i">riant</hi></speaker>
             <l>Adieu, seigneur Éraste.</l>
           </sp>
           <sp who="gros-rene" xml:id="I03-29">
@@ -1226,8 +1230,8 @@
           </sp>
           <sp who="valere" xml:id="II02-7">
             <speaker>valère</speaker>
-            <l>Ces protestations ne coûtent pas grand -chose,</l>
-            <l>Alors qu’à leur effet un pareil si s’oppose :</l>
+            <l>Ces protestations ne coûtent pas grand-chose,</l>
+            <l>Alors qu’à leur effet un pareil <hi rend="i">si</hi> s’oppose :</l>
             <l n="485">Mais vous seriez bien pris, si quelque événement</l>
             <l>Allait mettre à l’épreuve un si doux compliment.</l>
           </sp>
@@ -1523,7 +1527,7 @@
             <l>De ne permettre rien un soir qu’on voulait rire.</l>
             <l n="625">Quelque autre, sous espoir de matrimonion,</l>
             <l>Aurait ouvert l’oreille à la tentation ;</l>
-            <l>Mais moi, nescio vos.</l>
+            <l>Mais moi, <hi rend="i">nescio vos</hi>.</l>
           </sp>
           <sp who="lucile" xml:id="II04-8">
             <speaker>lucile</speaker>
@@ -1589,7 +1593,7 @@
           <stage>Albert, Métaphraste</stage>
           <sp who="metaphraste" xml:id="II06-1">
             <speaker>métaphraste</speaker>
-            <l>Mandatum tuum curo diligenter.</l>
+            <l rend="i">Mandatum tuum curo diligenter.</l>
           </sp>
           <sp who="albert" xml:id="II06-2">
             <speaker>albert</speaker>
@@ -1597,7 +1601,7 @@
           </sp>
           <sp who="metaphraste" xml:id="II06-3">
             <speaker>métaphraste</speaker>
-            <l>Maître est dit a <hi rend="i">Magister</hi>,            670</l>
+            <l n="670">Maître est dit <hi rend="i">a Magister</hi>,</l>
             <l>C’est comme qui dirait trois fois plus grand.</l>
           </sp>
           <sp who="albert" xml:id="II06-4">
@@ -1605,7 +1609,10 @@
             <l>Je meure,</l>
             <l>Si je savais cela. Mais, soit, à la bonne heure.</l>
             <l>Maître, donc…</l>
-            <l>MÉTAPHRASTE.Poursuivez.</l>
+          </sp>
+            <sp who="metaphraste">
+              <speaker>métaphraste</speaker>
+            <l>Poursuivez.</l>
           </sp>
           <sp who="albert" xml:id="II06-5">
             <speaker>albert</speaker>
@@ -1617,8 +1624,8 @@
           </sp>
           <sp who="metaphraste" xml:id="II06-6">
             <speaker>métaphraste</speaker>
-            <l>Il est vrai : <hi rend="i">F</hi>ilio non potest praeferri</l>
-            <l>Nisi filius.</l>
+            <l>Il est vrai : <hi rend="i">Filio non potest praeferri</hi></l>
+            <l rend="i">Nisi filius.</l>
           </sp>
           <sp who="albert" xml:id="II06-7">
             <speaker>albert</speaker>
@@ -1651,7 +1658,7 @@
             <speaker>métaphraste</speaker>
             <l>Peut-être a-t-il l’humeur du frère de Marc Tulle,</l>
             <l>Dont avec Atticus le même fait sermon,</l>
-            <l>Et comme aussi les Grecs disent Atanaton…</l>
+            <l>Et comme aussi les Grecs disent <hi rend="i">Atanaton</hi>…</l>
           </sp>
           <sp who="albert" xml:id="II06-11">
             <speaker>albert</speaker>
@@ -1675,8 +1682,8 @@
           <sp who="metaphraste" xml:id="II06-14">
             <speaker>métaphraste</speaker>
             <l>Dans un lieu reculé du bois, voulez-vous dire ;</l>
-            <l>Un endroit écarté, <hi rend="i">L</hi>atine, secessus ;</l>
-            <l n="710">Virgile l’a dit : <hi rend="i">E</hi>st in secessu locus<hi rend="i">…</hi></l>
+            <l>Un endroit écarté, <hi rend="i">Latine, secessus</hi> ;</l>
+            <l n="710">Virgile l’a dit : <hi rend="i">Est in secessu locus</hi>…</l>
           </sp>
           <sp who="albert" xml:id="II06-15">
             <speaker>albert</speaker>
@@ -1699,8 +1706,8 @@
           <sp who="metaphraste" xml:id="II06-18">
             <speaker>métaphraste</speaker>
             <l n="720">Il faut choisir pourtant les mots mis en usage</l>
-            <l>Par les meilleurs auteurs : tu, vivendo, bonos,</l>
-            <l>Comme on dit, scribendo, sequare peritos.</l>
+            <l>Par les meilleurs auteurs : <hi rend="i">tu, vivendo, bonos</hi>,</l>
+            <l>Comme on dit, <hi rend="i">scribendo, sequare peritos</hi>.</l>
           </sp>
           <sp who="albert" xml:id="II06-19">
             <speaker>albert </speaker>
@@ -1796,13 +1803,17 @@
           <sp who="albert" xml:id="II06-39">
             <speaker>albert</speaker>
             <l>Je le crois.</l>
-            <p>MÉTAPHRASTE.</p>
+          </sp>
+          <sp who="metaphraste">
+            <speaker>Métaphraste</speaker>
             <l>J’ai promis que je ne dirais rien.</l>
           </sp>
           <sp who="albert" xml:id="II06-40">
             <speaker>albert</speaker>
             <l>Suffit.</l>
-            <p>MÉTAPHRASTE.</p>
+          </sp>
+          <sp who="metaphraste">
+            <speaker>Métaphraste</speaker>
             <l>Dès à présent je suis muet.</l>
           </sp>
           <sp who="albert" xml:id="II06-41">
@@ -1841,7 +1852,7 @@
           <sp who="metaphraste" xml:id="II06-48">
             <speaker>métaphraste</speaker>
             <l>Quoi ! voulez-vous poursuivre ?</l>
-            <l>Ce n’est pas encor fait ? <hi rend="i">per jovem</hi> ! je suis ivre.</l>
+            <l>Ce n’est pas encor fait ? <hi rend="i">per Jovem</hi> ! je suis ivre.</l>
           </sp>
           <sp who="albert" xml:id="II06-49">
             <speaker>albert </speaker>
@@ -1864,7 +1875,7 @@
             <l>D’un savant qui se tait.</l>
           </sp>
           <sp who="albert" xml:id="II06-53">
-            <speaker>albert, s’en allant</speaker>
+            <speaker>albert, <hi rend="i">s’en allant</hi></speaker>
             <l>Parbleu, tu te tairas !</l>
           </sp>
           <sp who="metaphraste" xml:id="II06-54">
