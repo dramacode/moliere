@@ -89,6 +89,7 @@
           <role xml:id="les-enfants"></role>
           <role xml:id="l-avocat-bredouilleur"></role>
           <role xml:id="l-avocat"></role>
+          <role xml:id="choeur"></role>
         </castItem>
       </castList>
         <stage country="France" link="" location="Paris" periode="XVIIème">La Scène est à Paris.</stage>
@@ -1419,7 +1420,7 @@
       <div>
         <head>ACTE II</head>
         <div type="scene">
-          <head><anchor xml:id="II01"/>SCÈNE PREMIÈRE</head>
+          <head>SCÈNE PREMIÈRE</head>
           <stage>Sbrigani, Premier Médecin</stage>
           <sp who="medecin1">
             <speaker>le médecin</speaker>
@@ -1487,7 +1488,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="II02"/>SCÈNE II</head>
+          <head>SCÈNE II</head>
           <stage>Oronte, Premier Médecin</stage>
           <sp who="medecin1">
             <speaker>le médecin</speaker>
@@ -1579,7 +1580,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="II03"/>SCÈNE III</head>
+          <head>SCÈNE III</head>
           <stage>Sbrigani, <hi rend="i">en Marchand Flamand</hi>, Oronte</stage>
           <sp who="sbrigani" xml:id="II03-1">
             <speaker>sbrigani</speaker>
@@ -1699,11 +1700,11 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="II04"/>SCÈNE IV</head>
+          <head>SCÈNE IV</head>
           <stage>Monsieur de Pourceaugnac, Sbrigani</stage>
           <sp who="pourceaugnac">
-            <speaker>m.<anchor xml:id="II04-1"/> pourceaugnac</speaker>
-            <p>Piglia-lo sù, piglia-lo sù, Signor Monsu. Que diable est-ce là ? Ah !</p>
+            <speaker>m. pourceaugnac</speaker>
+            <p><hi rend="i">Piglialo su, piglialo su, Signor Monsù</hi>. Que diable est-ce là ? Ah !</p>
           </sp>
           <sp who="sbrigani" xml:id="II04-2">
             <speaker>sbrigani</speaker>
@@ -1735,7 +1736,7 @@
           </sp>
           <sp who="pourceaugnac" xml:id="II04-9">
             <speaker>m. pourceaugnac</speaker>
-            <p>Je vous laisse entre les mains de Monsieur.Des Médecins habillés de noir.Dans une chaise.Tâter le pouls.Comme ainsi soit.Il est fou.Deux gros joufflus.Grands chapeaux.Bon <hi rend="i">di</hi>, bon d<hi rend="i">i</hi>.Six Pantalons.Ta, ra, ta, ta : Ta, ra, ta, ta.Alegramente Monsu Pourceaugnac.Apothicaire.Lavement.Prenez, Monsieur, prenez, prenez.Il est bénin, bénin, bénin. C’est pour déterger, pour déterger, déterger.Piglia-lo sù, Signor Monsu, piglia-lo, piglia-lo, piglia-lo sù.Jamais je n’ai été si soûl de sottises.</p>
+            <p>Je vous laisse entre les mains de Monsieur.Des Médecins habillés de noir.Dans une chaise.Tâter le pouls.Comme ainsi soit.Il est fou.Deux gros joufflus.Grands chapeaux.<hi rend="i">Buon dì, buon dì</hi>.Six Pantalons.Ta, ra, ta, ta : Ta, ra, ta, ta. <hi rend="i">Allegramente Monsù Pourceaugnac</hi>. Apothicaire. Lavement. Prenez, Monsieur, prenez, prenez. Il est bénin, bénin, bénin. C’est pour déterger, pour déterger, déterger. <hi rend="i">Piglialo su, Signor Monsù, piglialo, piglialo, piglialo su</hi>.Jamais je n’ai été si soûl de sottises.</p>
           </sp>
           <sp who="sbrigani" xml:id="II04-10">
             <speaker>sbrigani</speaker>
@@ -1779,7 +1780,7 @@
           </sp>
           <sp who="sbrigani" xml:id="II04-20">
             <speaker>sbrigani</speaker>
-            <p>Ah, ah, vous êtes donc de complexion amoureuse, et vous avez ouï parler que ce Monsieur Oronte a une Fille...</p>
+            <p>Ah, ah, vous êtes donc de complexion amoureuse, et vous avez ouï parler que ce Monsieur Oronte a une Fille…</p>
           </sp>
           <sp who="pourceaugnac" xml:id="II04-21">
             <speaker>m. pourceaugnac</speaker>
@@ -1867,7 +1868,7 @@
           </sp>
           <sp who="sbrigani" xml:id="II04-42">
             <speaker>sbrigani</speaker>
-            <p>Peut-être dans le fond n’y a-t-il pas tant de mal que tout le monde croit ; et puis il y a des Gens, après tout, qui se mettent au-dessus de ces sortes de choses, et qui ne croient pas que leur honneur dépende...</p>
+            <p>Peut-être dans le fond n’y a-t-il pas tant de mal que tout le monde croit ; et puis il y a des Gens, après tout, qui se mettent au-dessus de ces sortes de choses, et qui ne croient pas que leur honneur dépende…</p>
           </sp>
           <sp who="pourceaugnac" xml:id="II04-43">
             <speaker>m. pourceaugnac</speaker>
@@ -1931,11 +1932,11 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="II06"/>SCÈNE VI</head>
+          <head>SCÈNE VI</head>
           <stage>Julie, Oronte, Monsieur de Pourceaugnac</stage>
           <sp who="julie" xml:id="II06-1">
             <speaker>julie</speaker>
-            <p>On vient de me dire, mon Père, que Monsieur de Pourceaugnac est arrivé.Ah le voilà sans doute, et mon cœur me le dit.Qu’il est bien fait ! qu’il a bon air ! et que je suis contente d’avoir un tel Époux ! Souffrez que je l’embrasse, et que je lui témoigne...</p>
+            <p>On vient de me dire, mon Père, que Monsieur de Pourceaugnac est arrivé.Ah le voilà sans doute, et mon cœur me le dit.Qu’il est bien fait ! qu’il a bon air ! et que je suis contente d’avoir un tel Époux ! Souffrez que je l’embrasse, et que je lui témoigne…</p>
           </sp>
           <sp who="oronte" xml:id="II06-2">
             <speaker>oronte</speaker>
@@ -1963,8 +1964,8 @@
           </sp>
           <sp who="oronte" xml:id="II06-8">
             <speaker>oronte</speaker>
-            <p>Je voudrais bien, dis-je, savoir par quelle raison, s’il vous plaît, vous avez la hardiesse de...</p>
-            <stage><anchor xml:id="II06-9"/><hi rend="i">Julie s’approche</hi> de <hi rend="i">M. de Pourceaugnac le regarde d’un air languissant, et lui veut prendre la main.</hi></stage>
+            <p>Je voudrais bien, dis-je, savoir par quelle raison, s’il vous plaît, vous avez la hardiesse de…</p>
+            <stage>Julie s’approche de Monsieur de Pourceaugnac, le regarde d’un air languissant, et lui veut prendre la main.</stage>
           </sp>
           <sp who="pourceaugnac">
             <speaker>m. pourceaugnac</speaker>
@@ -2040,7 +2041,7 @@
           </sp>
           <sp who="oronte" xml:id="II06-27">
             <speaker>oronte</speaker>
-            <p>Je vous en empêcherai bien tous deux, je vous assure.Voyez un peu quel vertigo lui prend.</p>
+            <p>Je vous en empêcherai bien tous deux, je vous assure.Voyez un peu quel <hi rend="i">vertigo</hi> lui prend.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="II06-28">
             <speaker>m. pourceaugnac</speaker>
@@ -2092,11 +2093,11 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="II07"/>SCÈNE VII</head>
+          <head>SCÈNE VII</head>
           <stage>Lucette, Oronte, Monsieur de Pourceaugnac</stage>
           <sp who="lucette" xml:id="II07-1">
             <speaker>lucette</speaker>
-            <p>Ah ! tu es assy, et à la fy yeu te trobi aprés abé fait tant de passés.Podes-tu, scélérat, podes-tu sousteni ma bisto ?</p>
+            <p>Ah ! tu es assy, et à la fy yeu te trobi aprés abé fait tant de passés. Podes-tu, scélérat, podes-tu sousteni ma bisto ?</p>
           </sp>
           <sp who="pourceaugnac" xml:id="II07-2">
             <speaker>m. pourceaugnac</speaker>
@@ -2112,11 +2113,11 @@
           </sp>
           <sp who="pourceaugnac" xml:id="II07-5">
             <speaker>m. pourceaugnac</speaker>
-            <p>Que diable est-ce ci ?</p>
+            <p>Que Diable est-ce ci ?</p>
           </sp>
           <sp who="lucette" xml:id="II07-6">
             <speaker>lucette</speaker>
-            <p>Lou trayté me quitel trés ans aprés, sul preteste de qualques affayres que l’apelabon dins soun Païs, et despey noun ly resçauput quaso de noubelo ; may dins lou tens qui soungeabi lou mens, m’an dounat abist, que begnio dins aquesto Bilo, per se remarida danbé un autro jouena Fillo, que sous Parens ly an proucurado, sensse saupré res de sou prumié mariatge.Yeu ay tout quitat en diligensso, et me souy rendu dodins aqueste Loc lou pu leu qu’ay pouscut, per m’oupousa en aquel criminel mariatge, et confondre as elys de tout le mounde lou plus méchant des Hommes.</p>
+            <p>Lou trayté me quitel trés ans aprés, sul preteste de qualques affayres que l’apelabon dins soun Païs, et despey noun ly resçauput quaso de noubelo ; may dins lou tens qui soungeabi lou mens, m’an dounat abist, que begnio dins aquesto Bilo, per se remarida danbé un autro joüena Fillo, que sous Parens ly an proucurado, sensse saupré res de sou prumié mariatge.Yeu ay tout quitat en diligensso, et me souy rendu dodins aqueste Loc lou pu leu qu’ay pouscut, per m’oupousa en aquel criminel mariatge, et confondre as elys de tout le mounde lou plus méchant des Hommes.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="II07-7">
             <speaker>m. pourceaugnac</speaker>
@@ -2136,7 +2137,7 @@
           </sp>
           <sp who="oronte" xml:id="II07-11">
             <speaker>oronte</speaker>
-            <p>Je ne saurais m’empêcher de pleurer.Allez, vous êtes un méchant Homme.</p>
+            <p>Je ne saurais m’empêcher de pleurer. Allez, vous êtes un méchant Homme.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="II07-12">
             <speaker>m. pourceaugnac</speaker>
@@ -2144,11 +2145,11 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="II08"/>SCÈNE VIII</head>
+          <head>SCÈNE VIII</head>
           <stage>Nérine <hi rend="i">en Picarde</hi>, Lucette, Oronte, Monsieur de Pourceaugnac</stage>
           <sp who="nerine" xml:id="II08-1">
             <speaker>nérine</speaker>
-            <p>Ah je n’en pis plus, je sis toute essoflée. Ah finfaron, tu m’as bien fait courir, tu ne m’écaperas mie.Justice, justice ; je boute empeschement au Mariage.Chés mon Mery, Monsieur, et je veux faire pindre che bon pindar-là.</p>
+            <p>Ah je n’en pis plus, je sis toute essoflée. Ah finfaron, tu m’as bien fait courir, tu ne m’écaperas mie. Justice, justice ; je boute empeschement au Mariage. Chés mon Mery, Monsieur, et je veux faire pindre che bon pindar-là.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="II08-2">
             <speaker>m. pourceaugnac</speaker>
@@ -2160,7 +2161,7 @@
           </sp>
           <sp who="lucette" xml:id="II08-4">
             <speaker>lucette</speaker>
-            <p>Et que boulés-bous dire, ambe bostre empachomen, et bostro pendarié ? Quaquel Homo es bostre marit ?</p>
+            <p>Et que boulés-bous dire, ambe bostre empachomen, et bostro pendarié ? Quaquel Homo es bostre Marit ?</p>
           </sp>
           <sp who="nerine" xml:id="II08-5">
             <speaker>nérine</speaker>
@@ -2263,7 +2264,7 @@
             <p>Venez, Madelaine, me n’ainfain, venez-ves-en ichy faire honte à vo père de l’inpudainche qu’il a.</p>
           </sp>
           <sp who="jeanet" xml:id="II08-30">
-            <speaker>JEANET, FANCHON, MADELAINE.</speaker>
+            <speaker>jeanet, fanchon, madelaine</speaker>
             <p>Ah mon Papa, mon Papa, mon Papa.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="II08-31">
@@ -2279,12 +2280,12 @@
             <p>Ne rougis-tu mie de dire ches mots-là, et d’estre insainsible aux cairesses de chette pauvre ainfain ? Tu ne te sauveras mie de mes pates ; et en dépit de tes dains ; je feray bien voir que je sis ta Femme, et je te feray pindre.</p>
           </sp>
           <sp who="les-enfants" xml:id="II08-34">
-            <speaker>LES ENFANTS, tous ensemble.</speaker>
+            <speaker>les enfants, <hi rend="i">tous ensemble</hi>.</speaker>
             <p>Mon Papa, mon Papa, mon Papa.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="II08-35">
             <speaker>m. pourceaugnac</speaker>
-            <p>Au secours, au secours, où fuirai-je ? Je n’en puis plus.</p>
+            <p>Au secours, au secours, où fuirai-je ? je n’en puis plus.</p>
           </sp>
           <sp who="oronte" xml:id="II08-36">
             <speaker>oronte</speaker>
@@ -2292,17 +2293,17 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="II09"/>SCÈNE IX</head>
+          <head>SCÈNE IX</head>
           <sp who="sbrigani" xml:id="II09-1">
             <speaker>sbrigani</speaker>
             <p>Je conduis de l’œil toutes choses, et tout ceci ne va pas mal.Nous fatiguerons tant notre Provincial, qu’il faudra, ma foi, qu’il déguerpisse.</p>
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="II10"/>SCÈNE X</head>
+          <head>SCÈNE X</head>
           <stage>Monsieur de Pourceaugnac, Sbrigani</stage>
           <sp who="pourceaugnac">
-            <speaker>m.<anchor xml:id="II10-1"/> pourceaugnac</speaker>
+            <speaker>m. pourceaugnac</speaker>
             <p>Ah je suis assommé.Quelle peine ! Quelle maudite Ville ! Assassiné de tous côtés !</p>
           </sp>
           <sp who="sbrigani" xml:id="II10-2">
@@ -2379,10 +2380,10 @@
           </sp>
         </div>
         <div rend="not-i" type="scene">
-          <head><anchor xml:id="II11"/>SCÈNE XI</head>
+          <head>SCÈNE XI</head>
           <stage>Sbrigani, Monsieur de Pourceaugnac, deux Avocats Musiciens, <hi rend="i">dont l’un parle fort lentement, et l’autre fort vite, accompagnés de</hi> deux Procureurs <hi rend="i">et de</hi> deux Sergents</stage>
           <sp who="l-avocat" xml:id="II11-1">
-            <speaker>l’avocat, traînant <hi rend="i">s</hi>es paroles.</speaker>
+            <speaker>l’avocat, traînant ses paroles.</speaker>
             <l>La polygamie est un cas,</l>
             <l>Est un cas pendable.</l>
           </sp>
@@ -2393,37 +2394,37 @@
             <l>Et tout le droit</l>
             <l>Sur cet endroit</l>
             <l>Conclut tout droit.</l>
-            <l>Si vous consultez nos <hi rend="i">A</hi>uteurs,</l>
-            <l>Législateurs et <hi rend="i">G</hi>lossateurs,</l>
+            <l>Si vous consultez nos Auteurs,</l>
+            <l>Législateurs et Glossateurs,</l>
             <l>Justinian, Papinian,</l>
             <l>Ulpian et Tribonian,</l>
-            <l>Ferna<hi rend="i">n</hi>d, Rebuffe, Jean Imole,</l>
+            <l>Fernand, Rebuffe, Jean Imole,</l>
             <l>Paul, Castre, Julian, Barthole,</l>
-            <l>Jason, Alcia<hi rend="i">t</hi>, et Cujas,</l>
-            <l>Ce grand <hi rend="i">H</hi>omme si capable ;<hi rend="i"/></l>
-            <l>La <hi rend="i">P</hi>olygamie est un cas</l>
+            <l>Jason, Alciat et Cujas,</l>
+            <l>Ce grand Homme si capable ;</l>
+            <l>La Polygamie est un cas</l>
             <l>Est un cas pendable.</l>
-            <l>Tous les <hi rend="i">P</hi>euples policés,</l>
-            <l>Et bien sensés ;<hi rend="i"/></l>
+            <l>Tous les Peuples policés,</l>
+            <l>Et bien sensés ;</l>
             <l>Les Français, Anglais, Hollandais,</l>
             <l>Danois, Suédois, Polonais,</l>
             <l>Portugais, Espagnols, Flamands,</l>
             <l>Italiens, Allemands,</l>
             <l>Sur ce fait tiennent loi semblable,</l>
-            <l>Et l’affaire est sans embarras ;<hi rend="i"/></l>
+            <l>Et l’affaire est sans embarras ;</l>
             <l>La polygamie est un cas,</l>
             <l>Est un cas pendable.</l>
             <stage>Monsieur de Pourceaugnac les bat. Deux Procureurs et deux Sergents dansent une Entrée, qui finit l’Acte.</stage>
           </sp>
           <trailer>
-            <hi rend="i">Fin du Second Acte</hi>
+            Fin du Second Acte.
           </trailer>
         </div>
       </div>
       <div>
         <head>ACTE III</head>
         <div type="scene">
-          <head><anchor xml:id="III01"/>SCÈNE PREMIÈRE</head>
+          <head>SCÈNE PREMIÈRE</head>
           <stage>Éraste, Sbrigani</stage>
           <sp who="sbrigani" xml:id="III01-1">
             <speaker>sbrigani</speaker>
@@ -2463,7 +2464,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="III02"/>SCÈNE II</head>
+          <head>SCÈNE II</head>
           <stage>Monsieur de Pourceaugnac <hi rend="i">en Femme</hi>, Sbrigani</stage>
           <sp who="sbrigani" xml:id="III02-1">
             <speaker>sbrigani</speaker>
@@ -2543,11 +2544,11 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="III03"/>SCÈNE III</head>
+          <head>SCÈNE III</head>
           <stage>Deux Suisses, Monsieur de Pourceaugnac</stage>
           <sp who="suisse1" xml:id="III03-1">
             <speaker>premier suisse</speaker>
-            <p>Allons, dépêchons, Camerade, li faut allair tous deux nous à la Crève pour regarter un peu chousticier sti Monsiu de Porcegnac qui l’a esté contané par ortonnance à l’être pendu par son cou.</p>
+            <p>Allons, dépêchons, Camerade, li faut allair tous deux nous à la Crève pour regarter un peu chousticier sti Monsiu de Porcegnac qui l’a esté contané par Ortonnance à l’être pendu par son cou.</p>
           </sp>
           <sp who="suisse1" xml:id="III03-2">
             <speaker>premier suisse</speaker>
@@ -2571,11 +2572,11 @@
           </sp>
           <sp who="suisse1" xml:id="III03-7">
             <speaker>premier suisse</speaker>
-            <p>Sti diable li vouloir trois femmes à li tout seul ; li est bien assez t’une.</p>
+            <p>Sti diable li vouloir trois Femmes à li tout seul ; li est bien assez t’une.</p>
           </sp>
           <sp who="suisse2" xml:id="III03-8">
             <speaker>deuxième suisse</speaker>
-            <p>Ah ! pon chour, Mameselle.</p>
+            <p>Ah pon chour, Mameselle.</p>
           </sp>
           <sp who="suisse1" xml:id="III03-9">
             <speaker>premier suisse</speaker>
@@ -2587,7 +2588,7 @@
           </sp>
           <sp who="suisse2" xml:id="III03-11">
             <speaker>deuxième suisse</speaker>
-            <p>Li est belle, par mon foi !</p>
+            <p>Li est belle, par mon foi.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="III03-12">
             <speaker>m. pourceaugnac</speaker>
@@ -2603,7 +2604,7 @@
           </sp>
           <sp who="suisse2" xml:id="III03-15">
             <speaker>deuxième suisse</speaker>
-            <p>L’est un Gentilhomme Limossin, qui sera pendu chantiment, à un grand potence.</p>
+            <p>L’est un Gentilhomme Limossin qui sera pendu chantiment, à un grand potence.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="III03-16">
             <speaker>m. pourceaugnac</speaker>
@@ -2619,15 +2620,15 @@
           </sp>
           <sp who="suisse1" xml:id="III03-19">
             <speaker>premier suisse</speaker>
-            <p>Mon foy ! moi couchair pien avec fous.</p>
+            <p>Mon foy, moi couchair pien avec fous.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="III03-20">
             <speaker>m. pourceaugnac</speaker>
-            <p>Ah ! c’en est trop, et ces sortes d’ordures-là ne se disent point à une Femme de ma condition.</p>
+            <p>Ah c’en est trop, et ces sortes d’ordures-là ne se disent point à une Femme de ma condition.</p>
           </sp>
           <sp who="suisse2" xml:id="III03-21">
             <speaker>deuxième suisse</speaker>
-            <p>Laisse, toi ; l’est moi qui le veut couchair avec elle.</p>
+            <p>Laisse, toi, l’est moi qui le veut couchair avec elle.</p>
           </sp>
           <sp who="suisse1" xml:id="III03-22">
             <speaker>premier suisse</speaker>
@@ -2635,7 +2636,7 @@
           </sp>
           <sp who="suisse1" xml:id="III03-23">
             <speaker>premier suisse</speaker>
-            <p>Moi li fouloir, moi.</p>
+            <p>Moi li vouloir, moi.</p>
             <stage>Ils le tirent avec violence.</stage>
           </sp>
           <sp who="suisse1" xml:id="III03-24">
@@ -2652,11 +2653,11 @@
           </sp>
           <sp who="pourceaugnac" xml:id="III03-27">
             <speaker>m. pourceaugnac</speaker>
-            <p>Au secours ! À la force.</p>
+            <p>Au secours, à la force.</p>
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="III04"/>SCÈNE IV</head>
+          <head>SCÈNE IV</head>
           <stage>Un Exempt, deux Archers, <hi rend="i">le</hi> Premier <hi rend="i">et le</hi> Second Suisses, Monsieur de Pourceaugnac</stage>
           <sp who="exempt" xml:id="III04-1">
             <speaker>l’exempt</speaker>
@@ -2716,11 +2717,11 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="III05"/>SCÈNE V</head>
+          <head>SCÈNE V</head>
           <stage>L’Exempt, Archers, Sbrigani, Monsieur de Pourceaugnac</stage>
           <sp who="sbrigani" xml:id="III05-1">
             <speaker>sbrigani</speaker>
-            <p>AhCiel ! que veut dire cela ?</p>
+            <p>Ah Ciel ! que veut dire cela ?</p>
           </sp>
           <sp who="pourceaugnac" xml:id="III05-2">
             <speaker>m. pourceaugnac</speaker>
@@ -2743,7 +2744,7 @@
             <p>Vous êtes Homme d’accommodement ; n’y a-t-il pas moyen d’ajuster cela avec quelques Pistoles ?</p>
           </sp>
           <sp who="exempt" xml:id="III05-7">
-            <speaker>l’exempt à ses <hi rend="i">A</hi>rchers.</speaker>
+            <speaker>l’exempt <hi rend="i">à ses Archers</hi>.</speaker>
             <p>Retirez-vous un peu.</p>
           </sp>
           <sp who="sbrigani" xml:id="III05-8">
@@ -2812,7 +2813,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="III06"/>SCÈNE VI</head>
+          <head>SCÈNE VI</head>
           <stage>Oronte, Sbrigani</stage>
           <sp who="sbrigani">
             <speaker>sbrigani</speaker>
@@ -2840,11 +2841,11 @@
           </sp>
         </div>
         <div type="scene">
-          <head><anchor xml:id="III07"/>SCÈNE VII</head>
+          <head>SCÈNE VII</head>
           <stage>Éraste, Julie, Sbrigani, Oronte</stage>
           <sp who="eraste">
             <speaker>éraste</speaker>
-            <p><anchor xml:id="III07-1"/>Allons, vous viendrez malgré vous, et je veux vous remettre entre les mains de votre Père.Tenez, Monsieur, voilà votre Fille que j’ai tirée de force d’entre les mains de l’Homme avec qui elle s’enfuyait ; non pas pour l’amour d’elle : mais pour votre seule considération ; car après l’action qu’elle a faite, je dois la mépriser, et me guérir absolument de l’amour que j’avais pour elle.</p>
+            <p>Allons, vous viendrez malgré vous, et je veux vous remettre entre les mains de votre Père.Tenez, Monsieur, voilà votre Fille que j’ai tirée de force d’entre les mains de l’Homme avec qui elle s’enfuyait ; non pas pour l’amour d’elle : mais pour votre seule considération ; car après l’action qu’elle a faite, je dois la mépriser, et me guérir absolument de l’amour que j’avais pour elle.</p>
           </sp>
           <sp who="oronte" xml:id="III07-2">
             <speaker>oronte</speaker>
@@ -2948,14 +2949,14 @@
           </sp>
         </div>
         <div rend="not-i" type="scene">
-          <head><anchor xml:id="III08"/>SCÈNE VIII</head>
+          <head>SCÈNE VIII</head>
           <stage>Plusieurs Masques <hi rend="i">de toutes les manières, dont les uns occupent plusieurs Balcons, et les autres sont dans la Place, qui par plusieurs Chansons et diverses Danses et Jeux, cherchent à se donner des plaisirs innocents</hi>.</stage>
           <sp who="egyptienne">
             <speaker>l’égyptienne</speaker>
             <l>Sortez, sortez de ces lieux,</l>
-            <l>Soucis, <hi rend="i">c</hi>hagrins et <hi rend="i">t</hi>ristesse,</l>
-            <l>Venez, venez, <hi rend="i">r</hi>is et <hi rend="i">j</hi>eux ;<hi rend="i"/></l>
-            <l>Plaisirs, <hi rend="i">a</hi>mour et <hi rend="i">t</hi>endresse.</l>
+            <l>Soucis, chagrins et tristesse,</l>
+            <l>Venez, venez, ris et jeux,</l>
+            <l>Plaisirs, amour et tendresse.</l>
             <l>Ne songeons qu’à nous réjouir,</l>
             <l>La grande affaire est le plaisir.</l>
           </sp>
@@ -2966,7 +2967,7 @@
           </sp>
           <sp who="egyptienne" xml:id="III08-2">
             <speaker>l’égyptienne</speaker>
-            <l><anchor xml:id="III08-3"/><anchor xml:id="l90"/><anchor xml:id="l89"/>À me suivre tous ici</l>
+            <l>À me suivre tous ici,</l>
             <l>Votre ardeur est non commune,</l>
             <l>Et vous êtes en souci</l>
             <l>De votre bonne fortune :</l>
@@ -2977,23 +2978,23 @@
             <speaker>l’égyptien</speaker>
             <l>Aimons jusques au trépas,</l>
             <l>La raison nous y convie :</l>
-            <l>Hélas ! <hi rend="i">si</hi> l’on n’aimait pas,</l>
+            <l>Hélas ! si l’on n’aimait pas,</l>
             <l>Que serait-ce de la vie ?</l>
-            <l>Ah ! <hi rend="i">p</hi>erdons plutôt le jour</l>
+            <l>Ah ! perdons plutôt le jour,</l>
             <l>Que de perdre notre amour.</l>
             <stage>Tous deux en Dialogue :</stage>
           </sp>
           <sp who="egyptien" xml:id="III08-5">
             <speaker>l’égyptien</speaker>
-            <l>Les <hi rend="i">B</hi>iens,</l>
+            <l>Les Biens,</l>
           </sp>
           <sp who="egyptienne" xml:id="III08-6">
             <speaker>l’égyptienne</speaker>
-            <l>La <hi rend="i">G</hi>loire,</l>
+            <l>La Gloire,</l>
           </sp>
           <sp who="egyptien" xml:id="III08-7">
             <speaker>l’égyptien</speaker>
-            <l>Les <hi rend="i">G</hi>randeurs,</l>
+            <l>Les Grandeurs,</l>
           </sp>
           <sp who="egyptienne" xml:id="III08-8">
             <speaker>l’égyptienne</speaker>
@@ -3011,13 +3012,15 @@
             <speaker>Tous deux, ensemble.</speaker>
             <l>Soyons toujours amoureux,</l>
             <l>C’est le moyen d’être heureux.</l>
-            <l>Le petit CHŒUR chante après ces deux derniers Vers.</l>
+          </sp>
+            <sp who="choeur">
+              <speaker><hi rend="i">Le petit</hi> choeur <hi rend="i">chante après ces deux derniers Vers</hi>.</speaker>
             <l>Sus, sus, chantons tous ensemble,</l>
             <l>Dansons, sautons, jouons-nous.</l>
           </sp>
           <sp who="musicien1" xml:id="III08-12">
             <speaker>Un Musicien seul.</speaker>
-            <l><hi rend="i">Lors que</hi> pour rire on s’assemble</l>
+            <l>Lors que pour rire on s’assemble,</l>
             <l>Les plus sages, ce me semble,</l>
             <l>Sont ceux qui sont les plus fous.</l>
           </sp>
