@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_psyche" xml:lang="fr">
+<?xml version="1.0"?>
+<?xml-model href="teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_psyche" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -44,44 +43,44 @@
       </performance>
       <castList>
         <head>PERSONNAGES du PROLOGUE</head>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="dieu" type="D" xml:id="flore">FLORE</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="dieu" type="D" xml:id="vertumne">VERTUMNE</role>, dieu des jardins.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="dieu" type="D" xml:id="palaemon">PALÉMON</role>, dieu des eaux.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="dieu" type="D" xml:id="venus">VÉNUS</role>.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="grâce" type="D" xml:id="amour">L’AMOUR</role>, Grâce.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="grâce" type="D" xml:id="aegiale">AEGIALE</role>, Grâce.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="grâce" type="D" xml:id="phaene">PHÈNE</role>, Grâce.</castItem>
-        <castItem><role age="A" civil="G" stat_amour="néant" statut="nymphes" type="D" xml:id="nymphes">NYMPHES</role>, de la suite de Flore chantantes.</castItem>
-        <castItem><role age="A" civil="G" stat_amour="néant" statut="dryade" type="D" xml:id="dryades-et-sylvains">DRYADES et SYLVAINS</role>, de la suite de Vertumne dansants.</castItem>
-        <castItem><role age="A" civil="G" stat_amour="néant" statut="sylvain" type="D" xml:id="sylvain-chantants">SYLVAINS</role>, chantants.</castItem>
-        <castItem><role age="A" civil="G" stat_amour="néant" statut="dieu" type="D" xml:id="dieux-fleuves-dansants">DIEUX des FLEUVES</role>, de la suite de Palémon dansants.</castItem>
-        <castItem><role age="A" civil="G" stat_amour="néant" statut="dieu" type="D" xml:id="dieux-fleuves-chantants">DIEUX des FLEUVES</role>, chantants.</castItem>
-        <castItem><role age="A" civil="G" stat_amour="néant" statut="nnaïade" type="D" xml:id="naidades">NAÏDADES</role>.</castItem>
-        <castItem><role age="A" civil="G" stat_amour="néant" statut="amour" type="D" xml:id="amours">AMOURS</role>, de la suite de Vénus dansants.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="flore">FLORE</role>.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="vertumne">VERTUMNE</role>, dieu des jardins.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="palaemon">PALÉMON</role>, dieu des eaux.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="venus">VÉNUS</role>.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="gr&#xE2;ce" type="D" xml:id="amour">L’AMOUR</role>, Grâce.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="gr&#xE2;ce" type="D" xml:id="aegiale">AEGIALE</role>, Grâce.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="gr&#xE2;ce" type="D" xml:id="phaene">PHÈNE</role>, Grâce.</castItem>
+        <castItem><role age="A" civil="G" stat_amour="n&#xE9;ant" statut="nymphes" type="D" xml:id="nymphes">NYMPHES</role>, de la suite de Flore chantantes.</castItem>
+        <castItem><role age="A" civil="G" stat_amour="n&#xE9;ant" statut="dryade" type="D" xml:id="dryades-et-sylvains">DRYADES et SYLVAINS</role>, de la suite de Vertumne dansants.</castItem>
+        <castItem><role age="A" civil="G" stat_amour="n&#xE9;ant" statut="sylvain" type="D" xml:id="sylvain-chantants">SYLVAINS</role>, chantants.</castItem>
+        <castItem><role age="A" civil="G" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="dieux-fleuves-dansants">DIEUX des FLEUVES</role>, de la suite de Palémon dansants.</castItem>
+        <castItem><role age="A" civil="G" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="dieux-fleuves-chantants">DIEUX des FLEUVES</role>, chantants.</castItem>
+        <castItem><role age="A" civil="G" stat_amour="n&#xE9;ant" statut="nna&#xEF;ade" type="D" xml:id="naidades">NAÏDADES</role>.</castItem>
+        <castItem><role age="A" civil="G" stat_amour="n&#xE9;ant" statut="amour" type="D" xml:id="amours">AMOURS</role>, de la suite de Vénus dansants.</castItem>
       </castList>
       <castList>
         <head>PERSONNAGES DE LA TRAGI-COMÉDIE</head>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="dieu" type="D" xml:id="jupiter">JUPITER</role>.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="dieu" type="D" xml:id="venus">VÉNUS</role>.</castItem> 
-	      <castItem><role age="A" civil="M" stat_amour="néant" statut="dieu" type="D" xml:id="amour">L’AMOUR</role>.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="grâce" type="D" xml:id="aegiale">AEGIALE</role>, Grâce.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="grâce" type="D" xml:id="phaene">PHÈNE</role>, Grâce.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="prince" type="H" xml:id="psyche">PSYCHÉ</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="roi" type="H" xml:id="le-roi">LE ROI</role>, père de Psyché.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="prince" type="H" xml:id="aglaure">AGLAURE</role>, sœur de Psyché.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="prince" type="H" xml:id="cidippe">CIDIPPE</role>, sœur de Psyché.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="prince" type="H" xml:id="cleomene">CLÉOMÈNE</role>, prince amant de Psyché.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="dieu" type="D" xml:id="agenor">AGÉNOR</role>, prince amant de Psyché.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="dieu" type="D" xml:id="zephire">LE ZÉPHIRE</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="aristocrate" type="D" xml:id="lycas">LYCAS</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="dieu" type="D" xml:id="dieu-fleuve">Le DIEU d’un FLEUVE</role>.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="jupiter">JUPITER</role>.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="venus">VÉNUS</role>.</castItem> 
+	      <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="amour">L’AMOUR</role>.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="gr&#xE2;ce" type="D" xml:id="aegiale">AEGIALE</role>, Grâce.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="gr&#xE2;ce" type="D" xml:id="phaene">PHÈNE</role>, Grâce.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="prince" type="H" xml:id="psyche">PSYCHÉ</role>.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="roi" type="H" xml:id="le-roi">LE ROI</role>, père de Psyché.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="prince" type="H" xml:id="aglaure">AGLAURE</role>, sœur de Psyché.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="prince" type="H" xml:id="cidippe">CIDIPPE</role>, sœur de Psyché.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="prince" type="H" xml:id="cleomene">CLÉOMÈNE</role>, prince amant de Psyché.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="agenor">AGÉNOR</role>, prince amant de Psyché.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="zephire">LE ZÉPHIRE</role>.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="aristocrate" type="D" xml:id="lycas">LYCAS</role>.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="dieu-fleuve">Le DIEU d’un FLEUVE</role>.</castItem>
       </castList>
       <castList>
         <head>PERSONNAGES du PREMIER INTERMÈDE</head>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="bourgeois" type="H" xml:id="femme-desolee">FEMME DÉSOLÉE</role>, chantante.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="hommes-dansants">DEUX HOMMES AFFLIGÉS</role>, chantants.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="affliges">HOMMES AFFLIGÉS</role>, dansants.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="bourgeois" type="H" xml:id="femmes-dansants">FEMMES DESOLÉES</role>, dansantes.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="bourgeois" type="H" xml:id="femme-desolee">FEMME DÉSOLÉE</role>, chantante.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="bourgeois" type="H" xml:id="hommes-dansants">DEUX HOMMES AFFLIGÉS</role>, chantants.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="bourgeois" type="H" xml:id="affliges">HOMMES AFFLIGÉS</role>, dansants.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="bourgeois" type="H" xml:id="femmes-dansants">FEMMES DESOLÉES</role>, dansantes.</castItem>
       </castList>
       <castList>
         <head>PERSONNAGES du DEUXIÈME INTERMÈDE</head>
@@ -2530,22 +2529,24 @@
             <l n="1581" xml:id="l1581">Ensevelis mon crime dans tes flots,</l>
             <l n="1582" xml:id="l1582">Et pour finir des maux si déplorables,</l>
             <l n="1583" xml:id="l1583">Laisse-moi dans ton lit assurer mon repos.</l>
-            <l n="1584" xml:id="l1584">Le Dieu du fleuve</l>
-            <l n="1585" xml:id="l1585">Ton trépas souillerait mes ondes ;</l>
-            <l n="1586" xml:id="l1586">Psyché, le Ciel te le défend,</l>
-            <l n="1587" xml:id="l1587">Et peut-être qu’après des douleurs si profondes,</l>
-            <l n="1588" xml:id="l1588">Un autre sort t’attend.</l>
-            <l n="1589" xml:id="l1589">Fuis plutôt de Vénus l’implacable colère :</l>
-            <l n="1590" xml:id="l1590">Je la vois qui te cherche et qui te veut punir.</l>
-            <l n="1591" xml:id="l1591">L’amour du fils a fait la haine de la mère.</l>
-            <l n="1592" xml:id="l1592">Fuis, je saurai la retenir.</l>
           </sp>
-          <sp who="psyche" xml:id="a4-04-2">
+          <sp who="dieu-fleuve" xml:id="a4-04-2">
+            <speaker>Le Dieu du fleuve</speaker>
+            <l n="1584" xml:id="l1584">Ton trépas souillerait mes ondes ;</l>
+            <l n="1585" xml:id="l1585">Psyché, le Ciel te le défend,</l>
+            <l n="1586" xml:id="l1586">Et peut-être qu’après des douleurs si profondes,</l>
+            <l n="1587" xml:id="l1587">Un autre sort t’attend.</l>
+            <l n="1588" xml:id="l1588">Fuis plutôt de Vénus l’implacable colère :</l>
+            <l n="1589" xml:id="l1589">Je la vois qui te cherche et qui te veut punir.</l>
+            <l n="1590" xml:id="l1590">L’amour du fils a fait la haine de la mère.</l>
+            <l n="1591" xml:id="l1591">Fuis, je saurai la retenir.</l>
+          </sp>
+          <sp who="psyche" xml:id="a4-04-3">
             <speaker>psyché</speaker>
-            <l n="1593" xml:id="l1593">J’attends ses fureurs vengeresses.</l>
-            <l n="1594" xml:id="l1594">Qu’auront-elles pour moi qui ne me soit trop doux ?</l>
-            <l n="1595" xml:id="l1595">Qui cherche le trépas, ne craint Dieux, ni Déesses,</l>
-            <l n="1596" xml:id="l1596">Et peut braver tout leur courroux.</l>
+            <l n="1592" xml:id="l1592">J’attends ses fureurs vengeresses.</l>
+            <l n="1593" xml:id="l1593">Qu’auront-elles pour moi qui ne me soit trop doux ?</l>
+            <l n="1594" xml:id="l1594">Qui cherche le trépas, ne craint Dieux, ni Déesses,</l>
+            <l n="1595" xml:id="l1595">Et peut braver tout leur courroux.</l>
           </sp>
         </div2>
         <div2 n="5" type="scene" xml:id="a4-05">
@@ -2553,106 +2554,106 @@
           <stage>Vénus, Psyché.</stage>
           <sp who="venus" xml:id="a4-05-1">
             <speaker>vénus</speaker>
-            <l n="1597" xml:id="l1597">Orgueilleuse Psyché, vous m’osez donc attendre,</l>
-            <l n="1598" xml:id="l1598">Après m’avoir sur terre enlevé mes honneurs,</l>
-            <l n="1599" xml:id="l1599">Après que vos traits suborneurs</l>
-            <l n="1600" xml:id="l1600">Ont reçu les encens qu’aux miens seuls on doit rendre ?</l>
-            <l n="1601" xml:id="l1601">J’ai vu mes temples désertés,</l>
-            <l n="1602" xml:id="l1602">J’ai vu tous les mortels séduits par vos beautés</l>
-            <l n="1603" xml:id="l1603">Idolâtrer en vous la beauté souveraine,</l>
-            <l n="1604" xml:id="l1604">Vous offrir des respects jusqu’alors inconnus,</l>
-            <l n="1605" xml:id="l1605">Et ne se mettre pas en peine</l>
-            <l n="1606" xml:id="l1606">S’il était une autre Vénus ;</l>
-            <l n="1607" xml:id="l1607">Et je vous vois encor l’audace</l>
-            <l n="1608" xml:id="l1608">De n’en pas redouter les justes châtiments,</l>
-            <l n="1609" xml:id="l1609">Et de me regarder en face,</l>
-            <l n="1610" xml:id="l1610">Comme si c’était peu que mes ressentiments.</l>
+            <l n="1596" xml:id="l1596">Orgueilleuse Psyché, vous m’osez donc attendre,</l>
+            <l n="1597" xml:id="l1597">Après m’avoir sur terre enlevé mes honneurs,</l>
+            <l n="1598" xml:id="l1598">Après que vos traits suborneurs</l>
+            <l n="1599" xml:id="l1599">Ont reçu les encens qu’aux miens seuls on doit rendre ?</l>
+            <l n="1600" xml:id="l1600">J’ai vu mes temples désertés,</l>
+            <l n="1601" xml:id="l1601">J’ai vu tous les mortels séduits par vos beautés</l>
+            <l n="1602" xml:id="l1602">Idolâtrer en vous la beauté souveraine,</l>
+            <l n="1603" xml:id="l1603">Vous offrir des respects jusqu’alors inconnus,</l>
+            <l n="1604" xml:id="l1604">Et ne se mettre pas en peine</l>
+            <l n="1605" xml:id="l1605">S’il était une autre Vénus ;</l>
+            <l n="1606" xml:id="l1606">Et je vous vois encor l’audace</l>
+            <l n="1607" xml:id="l1607">De n’en pas redouter les justes châtiments,</l>
+            <l n="1608" xml:id="l1608">Et de me regarder en face,</l>
+            <l n="1609" xml:id="l1609">Comme si c’était peu que mes ressentiments.</l>
           </sp>
           <sp who="psyche" xml:id="a4-05-2">
             <speaker>psyché</speaker>
-            <l n="1611" xml:id="l1611">Si de quelques mortels on m’a vue adorée,</l>
-            <l n="1612" xml:id="l1612">Est-ce un crime pour moi d’avoir eu des appas,</l>
-            <l n="1613" xml:id="l1613">Dont leur âme inconsidérée</l>
-            <l n="1614" xml:id="l1614">Laissait charmer des yeux qui ne vous voyaient pas ?</l>
-            <l n="1615" xml:id="l1615">Je suis ce que le Ciel m’a faite,</l>
-            <l n="1616" xml:id="l1616">Je n’ai que les beautés qu’il m’a voulu prêter :</l>
-            <l n="1617" xml:id="l1617">Si les vœux qu’on m’offrait vous ont mal satisfaite,</l>
-            <l n="1618" xml:id="l1618">Pour forcer tous les cœurs à vous les reporter,</l>
-            <l n="1619" xml:id="l1619">Vous n’aviez qu’à vous présenter,</l>
-            <l n="1620" xml:id="l1620">Qu’à ne leur cacher plus cette beauté parfaite,</l>
-            <l n="1621" xml:id="l1621">Qui pour les rendre à leur devoir,</l>
-            <l n="1622" xml:id="l1622">Pour se faire adorer n’a qu’à se faire voir.</l>
+            <l n="1610" xml:id="l1610">Si de quelques mortels on m’a vue adorée,</l>
+            <l n="1611" xml:id="l1611">Est-ce un crime pour moi d’avoir eu des appas,</l>
+            <l n="1612" xml:id="l1612">Dont leur âme inconsidérée</l>
+            <l n="1613" xml:id="l1613">Laissait charmer des yeux qui ne vous voyaient pas ?</l>
+            <l n="1614" xml:id="l1614">Je suis ce que le Ciel m’a faite,</l>
+            <l n="1615" xml:id="l1615">Je n’ai que les beautés qu’il m’a voulu prêter :</l>
+            <l n="1616" xml:id="l1616">Si les vœux qu’on m’offrait vous ont mal satisfaite,</l>
+            <l n="1617" xml:id="l1617">Pour forcer tous les cœurs à vous les reporter,</l>
+            <l n="1618" xml:id="l1618">Vous n’aviez qu’à vous présenter,</l>
+            <l n="1619" xml:id="l1619">Qu’à ne leur cacher plus cette beauté parfaite,</l>
+            <l n="1620" xml:id="l1620">Qui pour les rendre à leur devoir,</l>
+            <l n="1621" xml:id="l1621">Pour se faire adorer n’a qu’à se faire voir.</l>
           </sp>
           <sp who="venus" xml:id="a4-05-3">
             <speaker>vénus</speaker>
-            <l n="1623" xml:id="l1623">Il fallait vous en mieux défendre.</l>
-            <l n="1624" xml:id="l1624">Ces respects, ces encens se devaient refuser ;</l>
-            <l n="1625" xml:id="l1625">Et pour les mieux désabuser,</l>
-            <l n="1626" xml:id="l1626">Il fallait à leurs yeux vous-même me les rendre.</l>
-            <l n="1627" xml:id="l1627">Vous avez aimé cette erreur,</l>
-            <l n="1628" xml:id="l1628">Pour qui vous ne deviez avoir que de l’horreur ;</l>
-            <l n="1629" xml:id="l1629">Vous avez bien fait plus : votre humeur arrogante</l>
-            <l n="1630" xml:id="l1630">Sur le mépris de mille rois</l>
-            <l n="1631" xml:id="l1631">Jusques aux Cieux a porté de son choix</l>
-            <l n="1632" xml:id="l1632">L’ambition extravagante.</l>
+            <l n="1622" xml:id="l1622">Il fallait vous en mieux défendre.</l>
+            <l n="1623" xml:id="l1623">Ces respects, ces encens se devaient refuser ;</l>
+            <l n="1624" xml:id="l1624">Et pour les mieux désabuser,</l>
+            <l n="1625" xml:id="l1625">Il fallait à leurs yeux vous-même me les rendre.</l>
+            <l n="1626" xml:id="l1626">Vous avez aimé cette erreur,</l>
+            <l n="1627" xml:id="l1627">Pour qui vous ne deviez avoir que de l’horreur ;</l>
+            <l n="1628" xml:id="l1628">Vous avez bien fait plus : votre humeur arrogante</l>
+            <l n="1629" xml:id="l1629">Sur le mépris de mille rois</l>
+            <l n="1630" xml:id="l1630">Jusques aux Cieux a porté de son choix</l>
+            <l n="1631" xml:id="l1631">L’ambition extravagante.</l>
           </sp>
           <sp who="psyche" xml:id="a4-05-4">
             <speaker>psyché</speaker>
-            <l n="1633" xml:id="l1633">J’aurais porté mon choix, Déesse, jusqu’aux Cieux ?</l>
+            <l n="1632" xml:id="l1632">J’aurais porté mon choix, Déesse, jusqu’aux Cieux ?</l>
           </sp>
           <sp who="venus" xml:id="a4-05-5">
             <speaker>vénus</speaker>
-            <l n="1634" xml:id="l1634">Votre insolence est sans seconde :</l>
-            <l n="1635" xml:id="l1635">Dédaigner tous les rois du monde,</l>
-            <l n="1636" xml:id="l1636">N’est-ce pas aspirer aux Dieux ?</l>
+            <l n="1633" xml:id="l1633">Votre insolence est sans seconde :</l>
+            <l n="1634" xml:id="l1634">Dédaigner tous les rois du monde,</l>
+            <l n="1635" xml:id="l1635">N’est-ce pas aspirer aux Dieux ?</l>
           </sp>
           <sp who="psyche" xml:id="a4-05-6">
             <speaker>psyché</speaker>
-            <l n="1637" xml:id="l1637">Si l’Amour pour eux tous m’avait endurci l’âme,</l>
-            <l n="1638" xml:id="l1638">Et me réservait toute à lui,</l>
-            <l n="1639" xml:id="l1639">En puis-je être coupable, et faut-il qu’aujourd’hui,</l>
-            <l n="1640" xml:id="l1640">Pour prix d’une si belle flamme,</l>
-            <l n="1641" xml:id="l1641">Vous vouliez m’accabler d’un éternel ennui ?</l>
+            <l n="1636" xml:id="l1636">Si l’Amour pour eux tous m’avait endurci l’âme,</l>
+            <l n="1637" xml:id="l1637">Et me réservait toute à lui,</l>
+            <l n="1638" xml:id="l1638">En puis-je être coupable, et faut-il qu’aujourd’hui,</l>
+            <l n="1639" xml:id="l1639">Pour prix d’une si belle flamme,</l>
+            <l n="1640" xml:id="l1640">Vous vouliez m’accabler d’un éternel ennui ?</l>
           </sp>
           <sp who="venus" xml:id="a4-05-7">
             <speaker>vénus</speaker>
-            <l n="1642" xml:id="l1642">Psyché, vous deviez mieux connaître</l>
-            <l n="1643" xml:id="l1643">Qui vous étiez, et quel était ce dieu.</l>
+            <l n="1641" xml:id="l1641">Psyché, vous deviez mieux connaître</l>
+            <l n="1642" xml:id="l1642">Qui vous étiez, et quel était ce dieu.</l>
           </sp>
           <sp who="psyche" xml:id="a4-05-8">
             <speaker>psyché</speaker>
-            <l n="1644" xml:id="l1644">Et m’en a-t-il donné ni le temps, ni le lieu,</l>
-            <l n="1645" xml:id="l1645">Lui qui de tout mon cœur d’abord s’est rendu maître ?</l>
+            <l n="1643" xml:id="l1643">Et m’en a-t-il donné ni le temps, ni le lieu,</l>
+            <l n="1644" xml:id="l1644">Lui qui de tout mon cœur d’abord s’est rendu maître ?</l>
           </sp>
           <sp who="venus" xml:id="a4-05-9">
             <speaker>vénus</speaker>
-            <l n="1646" xml:id="l1646">Tout votre cœur s’en est laissé charmer,</l>
-            <l n="1647" xml:id="l1647">Et vous l’avez aimé dès qu’il vous a dit : "J’aime."</l>
+            <l n="1645" xml:id="l1645">Tout votre cœur s’en est laissé charmer,</l>
+            <l n="1646" xml:id="l1646">Et vous l’avez aimé dès qu’il vous a dit : "J’aime."</l>
           </sp>
           <sp who="psyche" xml:id="a4-05-10">
             <speaker>psyché</speaker>
-            <l n="1648" xml:id="l1648">Pouvais-je n’aimer pas le Dieu qui fait aimer,</l>
-            <l n="1649" xml:id="l1649">Et qui me parlait pour lui-même ?</l>
-            <l n="1650" xml:id="l1650">C’est votre fils, vous savez son pouvoir,</l>
-            <l n="1651" xml:id="l1651">Vous en connaissez le mérite.</l>
+            <l n="1647" xml:id="l1647">Pouvais-je n’aimer pas le Dieu qui fait aimer,</l>
+            <l n="1648" xml:id="l1648">Et qui me parlait pour lui-même ?</l>
+            <l n="1649" xml:id="l1649">C’est votre fils, vous savez son pouvoir,</l>
+            <l n="1650" xml:id="l1650">Vous en connaissez le mérite.</l>
           </sp>
           <sp who="venus" xml:id="a4-05-11">
             <speaker>vénus</speaker>
-            <l n="1652" xml:id="l1652">Oui, c’est mon fils, mais un fils qui m’irrite,</l>
-            <l n="1653" xml:id="l1653">Un fils qui me rend mal ce qu’il me sait devoir,</l>
-            <l n="1654" xml:id="l1654">Un fils qui fait qu’on m’abandonne,</l>
-            <l n="1655" xml:id="l1655">Et qui pour mieux flatter ses indignes amours,</l>
-            <l n="1656" xml:id="l1656">Depuis que vous l’aimez, ne blesse plus personne</l>
-            <l n="1657" xml:id="l1657">Qui vienne à mes autels implorer mon secours.</l>
-            <l n="1658" xml:id="l1658">Vous m’en avez fait un rebelle :</l>
-            <l n="1659" xml:id="l1659">On m’en verra vengée, et hautement, sur vous,</l>
-            <l n="1660" xml:id="l1660">Et je vous apprendrai s’il faut qu’une mortelle</l>
-            <l n="1661" xml:id="l1661">Souffre qu’un Dieu soupire à ses genoux,</l>
-            <l n="1662" xml:id="l1662">Suivez-moi, vous verrez, par votre expérience,</l>
-            <l n="1663" xml:id="l1663">À quelle folle confiance</l>
-            <l n="1664" xml:id="l1664">Vous portait cette ambition ;</l>
-            <l n="1665" xml:id="l1665">Venez, et préparez autant de patience</l>
-            <l n="1666" xml:id="l1666">Qu’on vous voit de présomption.</l>
+            <l n="1651" xml:id="l1651">Oui, c’est mon fils, mais un fils qui m’irrite,</l>
+            <l n="1652" xml:id="l1652">Un fils qui me rend mal ce qu’il me sait devoir,</l>
+            <l n="1653" xml:id="l1653">Un fils qui fait qu’on m’abandonne,</l>
+            <l n="1654" xml:id="l1654">Et qui pour mieux flatter ses indignes amours,</l>
+            <l n="1655" xml:id="l1655">Depuis que vous l’aimez, ne blesse plus personne</l>
+            <l n="1656" xml:id="l1656">Qui vienne à mes autels implorer mon secours.</l>
+            <l n="1657" xml:id="l1657">Vous m’en avez fait un rebelle :</l>
+            <l n="1658" xml:id="l1658">On m’en verra vengée, et hautement, sur vous,</l>
+            <l n="1659" xml:id="l1659">Et je vous apprendrai s’il faut qu’une mortelle</l>
+            <l n="1660" xml:id="l1660">Souffre qu’un Dieu soupire à ses genoux,</l>
+            <l n="1661" xml:id="l1661">Suivez-moi, vous verrez, par votre expérience,</l>
+            <l n="1662" xml:id="l1662">À quelle folle confiance</l>
+            <l n="1663" xml:id="l1663">Vous portait cette ambition ;</l>
+            <l n="1664" xml:id="l1664">Venez, et préparez autant de patience</l>
+            <l n="1665" xml:id="l1665">Qu’on vous voit de présomption.</l>
           </sp>
         </div2>
       </div1>
@@ -2666,51 +2667,51 @@
           <head>SCÈNE I</head>
           <sp who="psyche" xml:id="a5-01-1">
             <speaker>psyché</speaker>
-            <l n="1667" xml:id="l1667">Effroyables replis des ondes infernales,</l>
-            <l n="1668" xml:id="l1668">Noirs palais où Mégère et ses sœurs font leur cour,</l>
-            <l n="1669" xml:id="l1669">Éternels ennemis du jour,</l>
-            <l n="1670" xml:id="l1670">Parmi vos Ixions et parmi vos Tantales,</l>
-            <l n="1671" xml:id="l1671">Parmi tant de tourments, qui n’ont point d’intervalles,</l>
-            <l n="1672" xml:id="l1672">Est-il dans votre affreux séjour</l>
-            <l n="1673" xml:id="l1673">Quelques peines qui soient égales</l>
-            <l n="1674" xml:id="l1674">Aux travaux où Vénus condamne mon amour ?</l>
-            <l n="1675" xml:id="l1675">Elle n’en peut être assouvie,</l>
-            <l n="1676" xml:id="l1676">Et depuis qu’à ses lois je me trouve asservie,</l>
-            <l n="1677" xml:id="l1677">Depuis qu’elle me livre à ses ressentiments,</l>
-            <l n="1678" xml:id="l1678">Il m’a fallu dans ces cruels moments</l>
-            <l n="1679" xml:id="l1679">Plus d’une âme et plus d’une vie,</l>
-            <l n="1680" xml:id="l1680">Pour remplir ses commandements.</l>
-            <l n="1681" xml:id="l1681">Je souffrirais tout avec joie,</l>
-            <l n="1682" xml:id="l1682">Si, parmi les rigueurs que sa haine déploie,</l>
-            <l n="1683" xml:id="l1683">Mes yeux pouvaient revoir, ne fût-ce qu’un moment,</l>
-            <l n="1684" xml:id="l1684">Ce cher, cet adorable amant :</l>
-            <l n="1685" xml:id="l1685">Je n’ose le nommer ; ma bouche criminelle</l>
-            <l n="1686" xml:id="l1686">D’avoir trop exigé de lui,</l>
-            <l n="1687" xml:id="l1687">S’en est rendue indigne, et, dans ce dur ennui,</l>
-            <l n="1688" xml:id="l1688">La souffrance la plus mortelle</l>
-            <l n="1689" xml:id="l1689">Dont m’accable à toute heure un renaissant trépas,</l>
-            <l n="1690" xml:id="l1690">Est celle de ne le voir pas.</l>
-            <l n="1691" xml:id="l1691">Si son courroux durait encore,</l>
-            <l n="1692" xml:id="l1692">Jamais aucun malheur n’approcherait du mien ;</l>
-            <l n="1693" xml:id="l1693">Mais s’il avait pitié d’une âme qui l’adore,</l>
-            <l n="1694" xml:id="l1694">Quoi qu’il fallût souffrir, je ne souffrirais rien.</l>
-            <l n="1695" xml:id="l1695">Oui, Destins, s’il calmait cette juste colère,</l>
-            <l n="1696" xml:id="l1696">Tous mes malheurs seraient finis :</l>
-            <l n="1697" xml:id="l1697">Pour me rendre insensible aux fureurs de la mère,</l>
-            <l n="1698" xml:id="l1698">Il ne faut qu’un regard du fils.</l>
-            <l n="1699" xml:id="l1699">Je n’en veux plus douter, il partage ma peine,</l>
-            <l n="1700" xml:id="l1700">Il voit ce que je souffre, et souffre comme moi</l>
-            <l n="1701" xml:id="l1701">Tout ce que j’endure le gêne :</l>
-            <l n="1702" xml:id="l1702">Lui-même il s’en impose une amoureuse loi :</l>
-            <l n="1703" xml:id="l1703">En dépit de Vénus, en dépit de mon crime ;</l>
-            <l n="1704" xml:id="l1704">C’est lui qui me soutient, c’est lui qui me ranime</l>
-            <l n="1705" xml:id="l1705">Au milieu des périls où l’on me fait courir ;</l>
-            <l n="1706" xml:id="l1706">Il garde la tendresse où son feu le convie,</l>
-            <l n="1707" xml:id="l1707">Et prend soin de me rendre une nouvelle vie,</l>
-            <l n="1708" xml:id="l1708">Chaque fois qu’il me faut mourir,</l>
-            <l n="1709" xml:id="l1709">Mais que me veulent ces deux ombres</l>
-            <l n="1710" xml:id="l1710">Qu’à travers le faux jour de ces demeures sombres</l>
-            <l n="1711" xml:id="l1711">J’entrevois s’avancer vers moi ?</l>
+            <l n="1666" xml:id="l1666">Effroyables replis des ondes infernales,</l>
+            <l n="1667" xml:id="l1667">Noirs palais où Mégère et ses sœurs font leur cour,</l>
+            <l n="1668" xml:id="l1668">Éternels ennemis du jour,</l>
+            <l n="1669" xml:id="l1669">Parmi vos Ixions et parmi vos Tantales,</l>
+            <l n="1670" xml:id="l1670">Parmi tant de tourments, qui n’ont point d’intervalles,</l>
+            <l n="1671" xml:id="l1671">Est-il dans votre affreux séjour</l>
+            <l n="1672" xml:id="l1672">Quelques peines qui soient égales</l>
+            <l n="1673" xml:id="l1673">Aux travaux où Vénus condamne mon amour ?</l>
+            <l n="1674" xml:id="l1674">Elle n’en peut être assouvie,</l>
+            <l n="1675" xml:id="l1675">Et depuis qu’à ses lois je me trouve asservie,</l>
+            <l n="1676" xml:id="l1676">Depuis qu’elle me livre à ses ressentiments,</l>
+            <l n="1677" xml:id="l1677">Il m’a fallu dans ces cruels moments</l>
+            <l n="1678" xml:id="l1678">Plus d’une âme et plus d’une vie,</l>
+            <l n="1679" xml:id="l1679">Pour remplir ses commandements.</l>
+            <l n="1680" xml:id="l1680">Je souffrirais tout avec joie,</l>
+            <l n="1681" xml:id="l1681">Si, parmi les rigueurs que sa haine déploie,</l>
+            <l n="1682" xml:id="l1682">Mes yeux pouvaient revoir, ne fût-ce qu’un moment,</l>
+            <l n="1683" xml:id="l1683">Ce cher, cet adorable amant :</l>
+            <l n="1684" xml:id="l1684">Je n’ose le nommer ; ma bouche criminelle</l>
+            <l n="1685" xml:id="l1685">D’avoir trop exigé de lui,</l>
+            <l n="1686" xml:id="l1686">S’en est rendue indigne, et, dans ce dur ennui,</l>
+            <l n="1687" xml:id="l1687">La souffrance la plus mortelle</l>
+            <l n="1688" xml:id="l1688">Dont m’accable à toute heure un renaissant trépas,</l>
+            <l n="1689" xml:id="l1689">Est celle de ne le voir pas.</l>
+            <l n="1690" xml:id="l1690">Si son courroux durait encore,</l>
+            <l n="1691" xml:id="l1691">Jamais aucun malheur n’approcherait du mien ;</l>
+            <l n="1692" xml:id="l1692">Mais s’il avait pitié d’une âme qui l’adore,</l>
+            <l n="1693" xml:id="l1693">Quoi qu’il fallût souffrir, je ne souffrirais rien.</l>
+            <l n="1694" xml:id="l1694">Oui, Destins, s’il calmait cette juste colère,</l>
+            <l n="1695" xml:id="l1695">Tous mes malheurs seraient finis :</l>
+            <l n="1696" xml:id="l1696">Pour me rendre insensible aux fureurs de la mère,</l>
+            <l n="1697" xml:id="l1697">Il ne faut qu’un regard du fils.</l>
+            <l n="1698" xml:id="l1698">Je n’en veux plus douter, il partage ma peine,</l>
+            <l n="1699" xml:id="l1699">Il voit ce que je souffre, et souffre comme moi</l>
+            <l n="1700" xml:id="l1700">Tout ce que j’endure le gêne :</l>
+            <l n="1701" xml:id="l1701">Lui-même il s’en impose une amoureuse loi :</l>
+            <l n="1702" xml:id="l1702">En dépit de Vénus, en dépit de mon crime ;</l>
+            <l n="1703" xml:id="l1703">C’est lui qui me soutient, c’est lui qui me ranime</l>
+            <l n="1704" xml:id="l1704">Au milieu des périls où l’on me fait courir ;</l>
+            <l n="1705" xml:id="l1705">Il garde la tendresse où son feu le convie,</l>
+            <l n="1706" xml:id="l1706">Et prend soin de me rendre une nouvelle vie,</l>
+            <l n="1707" xml:id="l1707">Chaque fois qu’il me faut mourir,</l>
+            <l n="1708" xml:id="l1708">Mais que me veulent ces deux ombres</l>
+            <l n="1709" xml:id="l1709">Qu’à travers le faux jour de ces demeures sombres</l>
+            <l n="1710" xml:id="l1710">J’entrevois s’avancer vers moi ?</l>
           </sp>
         </div2>
         <div2 n="2" type="scene" xml:id="a5-02">
@@ -2718,172 +2719,172 @@
           <stage>Psyché, Cléomène, Agénor.</stage>
           <sp who="psyche" xml:id="a5-02-1">
             <speaker>psyché</speaker>
-            <l n="1712" xml:id="l1712">Cléomène, Agénor, est-ce vous que je vois ?</l>
-            <l n="1713" xml:id="l1713">Qui vous a ravi la lumière ?</l>
+            <l n="1711" xml:id="l1711">Cléomène, Agénor, est-ce vous que je vois ?</l>
+            <l n="1712" xml:id="l1712">Qui vous a ravi la lumière ?</l>
           </sp>
           <sp who="cleomene" xml:id="a5-02-2">
             <speaker>cléomène</speaker>
-            <l n="1714" xml:id="l1714">La plus juste douleur qui d’un beau désespoir</l>
-            <l n="1715" xml:id="l1715">Nous eût pu fournir la matière,</l>
-            <l n="1716" xml:id="l1716">Cette pompe funèbre, où du sort le plus noir</l>
-            <l n="1717" xml:id="l1717">Vous attendiez la rigueur la plus fière,</l>
-            <l n="1718" xml:id="l1718">L’injustice la plus entière.</l>
+            <l n="1713" xml:id="l1713">La plus juste douleur qui d’un beau désespoir</l>
+            <l n="1714" xml:id="l1714">Nous eût pu fournir la matière,</l>
+            <l n="1715" xml:id="l1715">Cette pompe funèbre, où du sort le plus noir</l>
+            <l n="1716" xml:id="l1716">Vous attendiez la rigueur la plus fière,</l>
+            <l n="1717" xml:id="l1717">L’injustice la plus entière.</l>
           </sp>
           <sp who="agenor" xml:id="a5-02-3">
             <speaker>agénor</speaker>
-            <l n="1719" xml:id="l1719">Sur ce même rocher où le Ciel en courroux</l>
-            <l n="1720" xml:id="l1720">Vous promettait, au lieu d’époux,</l>
-            <l n="1721" xml:id="l1721">Un serpent dont soudain vous seriez dévorée,</l>
-            <l n="1722" xml:id="l1722">Nous tenions la main préparée</l>
-            <l n="1723" xml:id="l1723">A repousser sa rage, ou mourir avec vous.</l>
-            <l n="1724" xml:id="l1724">Vous le savez, Princesse ; et lorsqu’à notre vue,</l>
-            <l n="1725" xml:id="l1725">Par le milieu des airs vous êtes disparue,</l>
-            <l n="1726" xml:id="l1726">Du haut de ce rocher, pour suivre vos beautés,</l>
-            <l n="1727" xml:id="l1727">Ou plutôt pour goûter cette amoureuse joie</l>
-            <l n="1728" xml:id="l1728">D’offrir pour vous au monstre une première proie.</l>
-            <l n="1729" xml:id="l1729">D’amour et de douleur l’un et l’autre emportés,</l>
-            <l n="1730" xml:id="l1730">Nous nous somme précipités.</l>
+            <l n="1718" xml:id="l1718">Sur ce même rocher où le Ciel en courroux</l>
+            <l n="1719" xml:id="l1719">Vous promettait, au lieu d’époux,</l>
+            <l n="1720" xml:id="l1720">Un serpent dont soudain vous seriez dévorée,</l>
+            <l n="1721" xml:id="l1721">Nous tenions la main préparée</l>
+            <l n="1722" xml:id="l1722">A repousser sa rage, ou mourir avec vous.</l>
+            <l n="1723" xml:id="l1723">Vous le savez, Princesse ; et lorsqu’à notre vue,</l>
+            <l n="1724" xml:id="l1724">Par le milieu des airs vous êtes disparue,</l>
+            <l n="1725" xml:id="l1725">Du haut de ce rocher, pour suivre vos beautés,</l>
+            <l n="1726" xml:id="l1726">Ou plutôt pour goûter cette amoureuse joie</l>
+            <l n="1727" xml:id="l1727">D’offrir pour vous au monstre une première proie.</l>
+            <l n="1728" xml:id="l1728">D’amour et de douleur l’un et l’autre emportés,</l>
+            <l n="1729" xml:id="l1729">Nous nous somme précipités.</l>
           </sp>
           <sp who="cleomene" xml:id="a5-02-4">
             <speaker>cléomène</speaker>
-            <l n="1731" xml:id="l1731">Heureusement déçus au sens de votre oracle,</l>
-            <l n="1732" xml:id="l1732">Nous en avons ici reconnu le miracle,</l>
-            <l n="1733" xml:id="l1733">Et su que le serpent prêt à vous dévorer</l>
-            <l n="1734" xml:id="l1734">Était le Dieu qui fait qu’on aime,</l>
-            <l n="1735" xml:id="l1735">Et qui, tout Dieu qu’il est, vous adorant lui-même,</l>
-            <l n="1736" xml:id="l1736">Ne pouvait endurer</l>
-            <l n="1737" xml:id="l1737">Qu’un mortel comme nous osât vous adorer.</l>
+            <l n="1730" xml:id="l1730">Heureusement déçus au sens de votre oracle,</l>
+            <l n="1731" xml:id="l1731">Nous en avons ici reconnu le miracle,</l>
+            <l n="1732" xml:id="l1732">Et su que le serpent prêt à vous dévorer</l>
+            <l n="1733" xml:id="l1733">Était le Dieu qui fait qu’on aime,</l>
+            <l n="1734" xml:id="l1734">Et qui, tout Dieu qu’il est, vous adorant lui-même,</l>
+            <l n="1735" xml:id="l1735">Ne pouvait endurer</l>
+            <l n="1736" xml:id="l1736">Qu’un mortel comme nous osât vous adorer.</l>
           </sp>
           <sp who="agenor" xml:id="a5-02-5">
             <speaker>agénor</speaker>
-            <l n="1738" xml:id="l1738">Pour prix de vous avoir suivie,</l>
-            <l n="1739" xml:id="l1739">Nous jouissons ici d’un trépas assez doux :</l>
-            <l n="1740" xml:id="l1740">Qu’avions-nous affaire de vie,</l>
-            <l n="1741" xml:id="l1741">Si nous ne pouvions être à vous ?</l>
-            <l n="1742" xml:id="l1742">Nous revoyons ici vos charmes</l>
-            <l n="1743" xml:id="l1743">Qu’aucun des deux là haut n’aurait revus jamais ;</l>
-            <l n="1744" xml:id="l1744">Heureux si nous voyons la moindre de vos larmes</l>
-            <l n="1745" xml:id="l1745">Honorer des malheurs que vous nous avez faits.</l>
+            <l n="1737" xml:id="l1737">Pour prix de vous avoir suivie,</l>
+            <l n="1738" xml:id="l1738">Nous jouissons ici d’un trépas assez doux :</l>
+            <l n="1739" xml:id="l1739">Qu’avions-nous affaire de vie,</l>
+            <l n="1740" xml:id="l1740">Si nous ne pouvions être à vous ?</l>
+            <l n="1741" xml:id="l1741">Nous revoyons ici vos charmes</l>
+            <l n="1742" xml:id="l1742">Qu’aucun des deux là haut n’aurait revus jamais ;</l>
+            <l n="1743" xml:id="l1743">Heureux si nous voyons la moindre de vos larmes</l>
+            <l n="1744" xml:id="l1744">Honorer des malheurs que vous nous avez faits.</l>
           </sp>
           <sp who="psyche" xml:id="a5-02-6">
             <speaker>psyché</speaker>
-            <l n="1746" xml:id="l1746">Puis-je avoir des larmes de reste</l>
-            <l n="1747" xml:id="l1747">Après qu’on a porté les miens au dernier point ?</l>
-            <l n="1748" xml:id="l1748">Unissons nos soupirs dans un sort si funeste :</l>
-            <l n="1749" xml:id="l1749">Les soupirs ne s’épuisent point.</l>
-            <l n="1750" xml:id="l1750">Mais vous soupireriez, Princes, pour une ingrate ;</l>
-            <l n="1751" xml:id="l1751">Vous n’avez point voulu survivre à mes malheurs ;</l>
-            <l n="1752" xml:id="l1752">Et quelque douleur qui m’abatte,</l>
-            <l n="1753" xml:id="l1753">Ce n’est point pour vous que je meurs.</l>
+            <l n="1745" xml:id="l1745">Puis-je avoir des larmes de reste</l>
+            <l n="1746" xml:id="l1746">Après qu’on a porté les miens au dernier point ?</l>
+            <l n="1747" xml:id="l1747">Unissons nos soupirs dans un sort si funeste :</l>
+            <l n="1748" xml:id="l1748">Les soupirs ne s’épuisent point.</l>
+            <l n="1749" xml:id="l1749">Mais vous soupireriez, Princes, pour une ingrate ;</l>
+            <l n="1750" xml:id="l1750">Vous n’avez point voulu survivre à mes malheurs ;</l>
+            <l n="1751" xml:id="l1751">Et quelque douleur qui m’abatte,</l>
+            <l n="1752" xml:id="l1752">Ce n’est point pour vous que je meurs.</l>
           </sp>
           <sp who="cleomene" xml:id="a5-02-7">
             <speaker>cléomène</speaker>
-            <l n="1754" xml:id="l1754">L’avons-nous mérité, nous dont toute la flamme</l>
-            <l n="1755" xml:id="l1755">N’a fait que vous lasser du récit de nos maux ?</l>
+            <l n="1753" xml:id="l1753">L’avons-nous mérité, nous dont toute la flamme</l>
+            <l n="1754" xml:id="l1754">N’a fait que vous lasser du récit de nos maux ?</l>
           </sp>
           <sp who="psyche" xml:id="a5-02-8">
             <speaker>psyché</speaker>
-            <l n="1756" xml:id="l1756">Vous pouviez mériter, Princes, toute mon âme,</l>
-            <l n="1757" xml:id="l1757">Si vous n’eussiez été rivaux.</l>
-            <l n="1758" xml:id="l1758">Ces qualités incomparables</l>
-            <l n="1759" xml:id="l1759">Qui de l’un et de l’autre accompagnaient les vœux,</l>
-            <l n="1760" xml:id="l1760">Vous rendaient tous deux trop aimables,</l>
-            <l n="1761" xml:id="l1761">Pour mépriser aucun des deux.</l>
+            <l n="1755" xml:id="l1755">Vous pouviez mériter, Princes, toute mon âme,</l>
+            <l n="1756" xml:id="l1756">Si vous n’eussiez été rivaux.</l>
+            <l n="1757" xml:id="l1757">Ces qualités incomparables</l>
+            <l n="1758" xml:id="l1758">Qui de l’un et de l’autre accompagnaient les vœux,</l>
+            <l n="1759" xml:id="l1759">Vous rendaient tous deux trop aimables,</l>
+            <l n="1760" xml:id="l1760">Pour mépriser aucun des deux.</l>
           </sp>
           <sp who="agenor" xml:id="a5-02-9">
             <speaker>agénor</speaker>
-            <l n="1762" xml:id="l1762">Vous avez pu sans être injuste ni cruelle</l>
-            <l n="1763" xml:id="l1763">Nous refuser un cœur réservé pour un Dieu.</l>
-            <l n="1764" xml:id="l1764">Mais revoyez Vénus : le Destin nous rappelle,</l>
-            <l n="1765" xml:id="l1765">Et nous force à vous dire adieu.</l>
+            <l n="1761" xml:id="l1761">Vous avez pu sans être injuste ni cruelle</l>
+            <l n="1762" xml:id="l1762">Nous refuser un cœur réservé pour un Dieu.</l>
+            <l n="1763" xml:id="l1763">Mais revoyez Vénus : le Destin nous rappelle,</l>
+            <l n="1764" xml:id="l1764">Et nous force à vous dire adieu.</l>
           </sp>
           <sp who="psyche" xml:id="a5-02-10">
             <speaker>psyché</speaker>
-            <l n="1766" xml:id="l1766">Ne vous donne-t-il point le loisir de me dire</l>
-            <l n="1767" xml:id="l1767">Quel est ici votre séjour ?</l>
+            <l n="1765" xml:id="l1765">Ne vous donne-t-il point le loisir de me dire</l>
+            <l n="1766" xml:id="l1766">Quel est ici votre séjour ?</l>
           </sp>
           <sp who="cleomene" xml:id="a5-02-11">
             <speaker>cléomène</speaker>
-            <l n="1768" xml:id="l1768">Dans des bois toujours verts, où d’amour on respire,</l>
-            <l n="1769" xml:id="l1769">Aussitôt qu’on est mort d’amour.</l>
-            <l n="1770" xml:id="l1770">D’amour on y revit, d’amour on y soupire,</l>
-            <l n="1771" xml:id="l1771">Sous les plus douces lois de son heureux empire,</l>
-            <l n="1772" xml:id="l1772">Et l’éternelle nuit n’ose en chasser le jour,</l>
-            <l n="1773" xml:id="l1773">Que lui-même il attire</l>
-            <l n="1774" xml:id="l1774">Sur nos fantômes, qu’il inspire,</l>
-            <l n="1775" xml:id="l1775">Et dont aux Enfers même il se fait une cour.</l>
+            <l n="1767" xml:id="l1767">Dans des bois toujours verts, où d’amour on respire,</l>
+            <l n="1768" xml:id="l1768">Aussitôt qu’on est mort d’amour.</l>
+            <l n="1769" xml:id="l1769">D’amour on y revit, d’amour on y soupire,</l>
+            <l n="1770" xml:id="l1770">Sous les plus douces lois de son heureux empire,</l>
+            <l n="1771" xml:id="l1771">Et l’éternelle nuit n’ose en chasser le jour,</l>
+            <l n="1772" xml:id="l1772">Que lui-même il attire</l>
+            <l n="1773" xml:id="l1773">Sur nos fantômes, qu’il inspire,</l>
+            <l n="1774" xml:id="l1774">Et dont aux Enfers même il se fait une cour.</l>
           </sp>
           <sp who="agenor" xml:id="a5-02-12">
             <speaker>agénor</speaker>
-            <l n="1776" xml:id="l1776">Vos envieuses sœurs, après nous descendues,</l>
-            <l n="1777" xml:id="l1777">Pour vous perdre se sont perdues ;</l>
-            <l n="1778" xml:id="l1778">Et l’une et l’autre tour à tour,</l>
-            <l n="1779" xml:id="l1779">Pour le prix d’un conseil qui leur coûte la vie,</l>
-            <l n="1780" xml:id="l1780">A côté d’Ixion, à côté de Titye,</l>
-            <l n="1781" xml:id="l1781">Souffre tantôt la roue, et tantôt le vautour.</l>
-            <l n="1782" xml:id="l1782">L’Amour ; par les Zéphyrs, s’est fait prompte justice</l>
-            <l n="1783" xml:id="l1783">De leur envenimée et jalouse malice :</l>
-            <l n="1784" xml:id="l1784">Ces ministres ailés de son juste courroux,</l>
-            <l n="1785" xml:id="l1785">Sous couleur de les rendre encore auprès de vous,</l>
-            <l n="1786" xml:id="l1786">Ont plongé l’une et l’autre au fond d’un précipice,</l>
-            <l n="1787" xml:id="l1787">Où le spectacle affreux de leurs corps déchirés</l>
-            <l n="1788" xml:id="l1788">N’étale que le moindre et le premier supplice</l>
-            <l n="1789" xml:id="l1789">De ces conseils dont l’artifice</l>
-            <l n="1790" xml:id="l1790">Fait les maux dont vous soupirez.</l>
+            <l n="1775" xml:id="l1775">Vos envieuses sœurs, après nous descendues,</l>
+            <l n="1776" xml:id="l1776">Pour vous perdre se sont perdues ;</l>
+            <l n="1777" xml:id="l1777">Et l’une et l’autre tour à tour,</l>
+            <l n="1778" xml:id="l1778">Pour le prix d’un conseil qui leur coûte la vie,</l>
+            <l n="1779" xml:id="l1779">A côté d’Ixion, à côté de Titye,</l>
+            <l n="1780" xml:id="l1780">Souffre tantôt la roue, et tantôt le vautour.</l>
+            <l n="1781" xml:id="l1781">L’Amour ; par les Zéphyrs, s’est fait prompte justice</l>
+            <l n="1782" xml:id="l1782">De leur envenimée et jalouse malice :</l>
+            <l n="1783" xml:id="l1783">Ces ministres ailés de son juste courroux,</l>
+            <l n="1784" xml:id="l1784">Sous couleur de les rendre encore auprès de vous,</l>
+            <l n="1785" xml:id="l1785">Ont plongé l’une et l’autre au fond d’un précipice,</l>
+            <l n="1786" xml:id="l1786">Où le spectacle affreux de leurs corps déchirés</l>
+            <l n="1787" xml:id="l1787">N’étale que le moindre et le premier supplice</l>
+            <l n="1788" xml:id="l1788">De ces conseils dont l’artifice</l>
+            <l n="1789" xml:id="l1789">Fait les maux dont vous soupirez.</l>
           </sp>
           <sp who="psyche" xml:id="a5-02-13">
             <speaker>psyché</speaker>
-            <l n="1791" part="I" xml:id="l1791">Que je les plains !</l>
+            <l n="1790" part="I" xml:id="l1790">Que je les plains !</l>
           </sp>
           <sp who="cleomene" xml:id="a5-02-14">
             <speaker>cléomène</speaker>
-            <l n="1791" part="F">Vous êtes seule à plaindre.</l>
-            <l n="1792" xml:id="l1792">Mais nous demeurons trop à vous entretenir :</l>
-            <l n="1793" xml:id="l1793">Adieu, puissions-nous vivre en votre souvenir !</l>
-            <l n="1794" xml:id="l1794">Puissiez-vous, et bientôt, n’avoir plus rien à craindre !</l>
-            <l n="1795" xml:id="l1795">Puisse, et bientôt, l’Amour vous enlever aux Cieux,</l>
-            <l n="1796" xml:id="l1796">Vous y mettre à côté des Dieux,</l>
-            <l n="1797" xml:id="l1797">Et, rallumant un feu qui ne se puisse éteindre,</l>
-            <l n="1798" xml:id="l1798">Affranchir à jamais l’éclat de vos beaux yeux</l>
-            <l n="1799" xml:id="l1799">D’augmenter le jour en ces lieux !</l>
+            <l n="1790" part="F">Vous êtes seule à plaindre.</l>
+            <l n="1791" xml:id="l1791">Mais nous demeurons trop à vous entretenir :</l>
+            <l n="1792" xml:id="l1792">Adieu, puissions-nous vivre en votre souvenir !</l>
+            <l n="1793" xml:id="l1793">Puissiez-vous, et bientôt, n’avoir plus rien à craindre !</l>
+            <l n="1794" xml:id="l1794">Puisse, et bientôt, l’Amour vous enlever aux Cieux,</l>
+            <l n="1795" xml:id="l1795">Vous y mettre à côté des Dieux,</l>
+            <l n="1796" xml:id="l1796">Et, rallumant un feu qui ne se puisse éteindre,</l>
+            <l n="1797" xml:id="l1797">Affranchir à jamais l’éclat de vos beaux yeux</l>
+            <l n="1798" xml:id="l1798">D’augmenter le jour en ces lieux !</l>
           </sp>
         </div2>
         <div2 n="3" type="scene" xml:id="a5-03">
           <head>SCÈNE III</head>
           <sp who="psyche" xml:id="a5-03-1">
             <speaker>psyché</speaker>
-            <l n="1800" xml:id="l1800">Pauvres amants ! Leur amour dure encore,</l>
-            <l n="1801" xml:id="l1801">Tous morts qu’ils sont, l’un et l’autre m’adore,</l>
-            <l n="1802" xml:id="l1802">Moi dont la dureté reçut si mal leurs vœux :</l>
-            <l n="1803" xml:id="l1803">Tu n’en fais pas ainsi, toi qui seul m’as ravie,</l>
-            <l n="1804" xml:id="l1804">Amant, que j’aime encor cent fois plus que ma vie,</l>
-            <l n="1805" xml:id="l1805">Et qui brises de si beaux nœuds.</l>
-            <l n="1806" xml:id="l1806">Ne me fuis plus, et souffre que j’espère</l>
-            <l n="1807" xml:id="l1807">Que tu pourras un jour rabaisser l’œil sur moi,</l>
-            <l n="1808" xml:id="l1808">Qu’à force de souffrir j’aurai de quoi te plaire,</l>
-            <l n="1809" xml:id="l1809">De quoi me rengager ta foi.</l>
-            <l n="1810" xml:id="l1810">Mais ce que j’ai souffert m’a trop défigurée,</l>
-            <l n="1811" xml:id="l1811">Pour rappeler un tel espoir ;</l>
-            <l n="1812" xml:id="l1812">L’œil abattu, triste, désespérée,</l>
-            <l n="1813" xml:id="l1813">Languissante, et décolorée,</l>
-            <l n="1814" xml:id="l1814">De quoi puis-je me prévaloir,</l>
-            <l n="1815" xml:id="l1815">Si, par quelque miracle impossible à prévoir,</l>
-            <l n="1816" xml:id="l1816">Ma beauté qui t’a plu ne se voit réparée ?</l>
-            <l n="1817" xml:id="l1817">Je porte ici de quoi la réparer :</l>
-            <l n="1818" xml:id="l1818">Ce trésor de beauté divine,</l>
-            <l n="1819" xml:id="l1819">Qu’en mes mains pour Vénus a remis Proserpine,</l>
-            <l n="1820" xml:id="l1820">Enferme des appas dont je puis m’emparer,</l>
-            <l n="1821" xml:id="l1821">Et l’éclat en doit être extrême,</l>
-            <l n="1822" xml:id="l1822">Puisque Vénus, la beauté même,</l>
-            <l n="1823" xml:id="l1823">Les demande pour se parer.</l>
-            <l n="1824" xml:id="l1824">En dérober un peu serait-ce un si grand crime ?</l>
-            <l n="1825" xml:id="l1825">Pour plaire aux yeux d’un Dieu qui s’est fait mon amant,</l>
-            <l n="1826" xml:id="l1826">Pour regagner son cœur, et finir mon tourment,</l>
-            <l n="1827" xml:id="l1827">Tout n’est-il pas trop légitime ?</l>
-            <l n="1828" xml:id="l1828">Ouvrons. Quelles vapeurs m’offusquent le cerveau,</l>
-            <l n="1829" xml:id="l1829">Et que vois-je sortir de cette boîte ouverte ?</l>
-            <l n="1830" xml:id="l1830">Amour, si ta pitié ne s’oppose à ma perte,</l>
-            <l n="1831" xml:id="l1831">Pour ne revivre plus je descends au tombeau.</l>
+            <l n="1799" xml:id="l1799">Pauvres amants ! Leur amour dure encore,</l>
+            <l n="1800" xml:id="l1800">Tous morts qu’ils sont, l’un et l’autre m’adore,</l>
+            <l n="1801" xml:id="l1801">Moi dont la dureté reçut si mal leurs vœux :</l>
+            <l n="1802" xml:id="l1802">Tu n’en fais pas ainsi, toi qui seul m’as ravie,</l>
+            <l n="1803" xml:id="l1803">Amant, que j’aime encor cent fois plus que ma vie,</l>
+            <l n="1804" xml:id="l1804">Et qui brises de si beaux nœuds.</l>
+            <l n="1805" xml:id="l1805">Ne me fuis plus, et souffre que j’espère</l>
+            <l n="1806" xml:id="l1806">Que tu pourras un jour rabaisser l’œil sur moi,</l>
+            <l n="1807" xml:id="l1807">Qu’à force de souffrir j’aurai de quoi te plaire,</l>
+            <l n="1808" xml:id="l1808">De quoi me rengager ta foi.</l>
+            <l n="1809" xml:id="l1809">Mais ce que j’ai souffert m’a trop défigurée,</l>
+            <l n="1810" xml:id="l1810">Pour rappeler un tel espoir ;</l>
+            <l n="1811" xml:id="l1811">L’œil abattu, triste, désespérée,</l>
+            <l n="1812" xml:id="l1812">Languissante, et décolorée,</l>
+            <l n="1813" xml:id="l1813">De quoi puis-je me prévaloir,</l>
+            <l n="1814" xml:id="l1814">Si, par quelque miracle impossible à prévoir,</l>
+            <l n="1815" xml:id="l1815">Ma beauté qui t’a plu ne se voit réparée ?</l>
+            <l n="1816" xml:id="l1816">Je porte ici de quoi la réparer :</l>
+            <l n="1817" xml:id="l1817">Ce trésor de beauté divine,</l>
+            <l n="1818" xml:id="l1818">Qu’en mes mains pour Vénus a remis Proserpine,</l>
+            <l n="1819" xml:id="l1819">Enferme des appas dont je puis m’emparer,</l>
+            <l n="1820" xml:id="l1820">Et l’éclat en doit être extrême,</l>
+            <l n="1821" xml:id="l1821">Puisque Vénus, la beauté même,</l>
+            <l n="1822" xml:id="l1822">Les demande pour se parer.</l>
+            <l n="1823" xml:id="l1823">En dérober un peu serait-ce un si grand crime ?</l>
+            <l n="1824" xml:id="l1824">Pour plaire aux yeux d’un Dieu qui s’est fait mon amant,</l>
+            <l n="1825" xml:id="l1825">Pour regagner son cœur, et finir mon tourment,</l>
+            <l n="1826" xml:id="l1826">Tout n’est-il pas trop légitime ?</l>
+            <l n="1827" xml:id="l1827">Ouvrons. Quelles vapeurs m’offusquent le cerveau,</l>
+            <l n="1828" xml:id="l1828">Et que vois-je sortir de cette boîte ouverte ?</l>
+            <l n="1829" xml:id="l1829">Amour, si ta pitié ne s’oppose à ma perte,</l>
+            <l n="1830" xml:id="l1830">Pour ne revivre plus je descends au tombeau.</l>
             <stage>Elle s’évanouit, et l’Amour descend auprès d’elle en volant.</stage>
           </sp>
         </div2>
@@ -2892,48 +2893,48 @@
           <stage>L’Amour, Psyché, évanouie.</stage>
           <sp who="amour" xml:id="a5-04-1">
             <speaker>l’amour</speaker>
-            <l n="1832" xml:id="l1832">Votre péril, Psyché, dissipe ma colère ;</l>
-            <l n="1833" xml:id="l1833">Ou plutôt de mes feux l’ardeur n’a point cessé,</l>
-            <l n="1834" xml:id="l1834">Et, bien qu’ au dernier point vous m’ayez su déplaire,</l>
-            <l n="1835" xml:id="l1835">Je ne me suis intéressé</l>
-            <l n="1836" xml:id="l1836">Que contre celle de ma mère.</l>
-            <l n="1837" xml:id="l1837">J’ai vu tous vos travaux, j’ai suivi vos malheurs,</l>
-            <l n="1838" xml:id="l1838">Mes soupirs ont partout accompagné vos pleurs.</l>
-            <l n="1839" xml:id="l1839">Tournez les yeux vers moi : je suis encor le même.</l>
-            <l n="1840" xml:id="l1840">Quoi ? je dis et redis tout haut que je vous aime.</l>
-            <l n="1841" xml:id="l1841">Et vous ne dites point, Psyché, que vous m’aimez !</l>
-            <l n="1842" xml:id="l1842">Est-ce que pour jamais vos beaux yeux sont fermés,</l>
-            <l n="1843" xml:id="l1843">Qu’à jamais la clarté leur vient d’être ravie ?</l>
-            <l n="1844" xml:id="l1844">Ô Mort, devois-tu prendre un dard si criminel,</l>
-            <l n="1845" xml:id="l1845">Et, sans aucun respect pour mon être éternel,</l>
-            <l n="1846" xml:id="l1846">Attenter à ma propre vie ?</l>
-            <l n="1847" xml:id="l1847">Combien de fois, ingrate Déité,</l>
-            <l n="1848" xml:id="l1848">Ai-je grossi ton noir empire,</l>
-            <l n="1849" xml:id="l1849">Par les mépris et par la cruauté,</l>
-            <l n="1850" xml:id="l1850">D’une orgueilleuse ou farouche beauté ?</l>
-            <l n="1851" xml:id="l1851">Combien même, s’il le faut dire,</l>
-            <l n="1852" xml:id="l1852">T’ai-je immolé de fidèles amants,</l>
-            <l n="1853" xml:id="l1853">À force de ravissements ?</l>
-            <l n="1854" xml:id="l1854">Va, je ne blesserai plus d’âmes,</l>
-            <l n="1855" xml:id="l1855">Je ne percerai plus de cœurs</l>
-            <l n="1856" xml:id="l1856">Qu’avec des dards trempés aux divines liqueurs</l>
-            <l n="1857" xml:id="l1857">Qui nourrissent du Ciel les immortelles flammes,</l>
-            <l n="1858" xml:id="l1858">Et n’en lancerai plus que pour faire, à tes yeux,</l>
-            <l n="1859" xml:id="l1859">Autant d’amants, autant de Dieux.</l>
-            <l n="1860" xml:id="l1860">Et vous, impitoyable mère,</l>
-            <l n="1861" xml:id="l1861">Qui la forcez à m’arracher</l>
-            <l n="1862" xml:id="l1862">Tout ce que j’avais de plus cher,</l>
-            <l n="1863" xml:id="l1863">Craignez à votre tour l’effet de ma colère.</l>
-            <l n="1864" xml:id="l1864">Vous me voulez faire la loi,</l>
-            <l n="1865" xml:id="l1865">Vous qu’on voit si souvent la recevoir de moi !</l>
-            <l n="1866" xml:id="l1866">Vous qui portez un cœur sensible comme un autre,</l>
-            <l n="1867" xml:id="l1867">Vous enviez au mien les délices du vôtre !</l>
-            <l n="1868" xml:id="l1868">Mais dans ce même cœur j’enfoncerai des coups</l>
-            <l n="1869" xml:id="l1869">Qui ne seront suivis que de chagrins jaloux ;</l>
-            <l n="1870" xml:id="l1870">Je vous accablerai de honteuses surprises,</l>
-            <l n="1871" xml:id="l1871">Et choisirai partout à vos vœux les plus doux</l>
-            <l n="1872" xml:id="l1872">Des Adonis et des Anchises</l>
-            <l n="1873" xml:id="l1873">Qui n’auront que haine pour vous.</l>
+            <l n="1831" xml:id="l1831">Votre péril, Psyché, dissipe ma colère ;</l>
+            <l n="1832" xml:id="l1832">Ou plutôt de mes feux l’ardeur n’a point cessé,</l>
+            <l n="1833" xml:id="l1833">Et, bien qu’ au dernier point vous m’ayez su déplaire,</l>
+            <l n="1834" xml:id="l1834">Je ne me suis intéressé</l>
+            <l n="1835" xml:id="l1835">Que contre celle de ma mère.</l>
+            <l n="1836" xml:id="l1836">J’ai vu tous vos travaux, j’ai suivi vos malheurs,</l>
+            <l n="1837" xml:id="l1837">Mes soupirs ont partout accompagné vos pleurs.</l>
+            <l n="1838" xml:id="l1838">Tournez les yeux vers moi : je suis encor le même.</l>
+            <l n="1839" xml:id="l1839">Quoi ? je dis et redis tout haut que je vous aime.</l>
+            <l n="1840" xml:id="l1840">Et vous ne dites point, Psyché, que vous m’aimez !</l>
+            <l n="1841" xml:id="l1841">Est-ce que pour jamais vos beaux yeux sont fermés,</l>
+            <l n="1842" xml:id="l1842">Qu’à jamais la clarté leur vient d’être ravie ?</l>
+            <l n="1843" xml:id="l1843">Ô Mort, devois-tu prendre un dard si criminel,</l>
+            <l n="1844" xml:id="l1844">Et, sans aucun respect pour mon être éternel,</l>
+            <l n="1845" xml:id="l1845">Attenter à ma propre vie ?</l>
+            <l n="1846" xml:id="l1846">Combien de fois, ingrate Déité,</l>
+            <l n="1847" xml:id="l1847">Ai-je grossi ton noir empire,</l>
+            <l n="1848" xml:id="l1848">Par les mépris et par la cruauté,</l>
+            <l n="1849" xml:id="l1849">D’une orgueilleuse ou farouche beauté ?</l>
+            <l n="1850" xml:id="l1850">Combien même, s’il le faut dire,</l>
+            <l n="1851" xml:id="l1851">T’ai-je immolé de fidèles amants,</l>
+            <l n="1852" xml:id="l1852">À force de ravissements ?</l>
+            <l n="1853" xml:id="l1853">Va, je ne blesserai plus d’âmes,</l>
+            <l n="1854" xml:id="l1854">Je ne percerai plus de cœurs</l>
+            <l n="1855" xml:id="l1855">Qu’avec des dards trempés aux divines liqueurs</l>
+            <l n="1856" xml:id="l1856">Qui nourrissent du Ciel les immortelles flammes,</l>
+            <l n="1857" xml:id="l1857">Et n’en lancerai plus que pour faire, à tes yeux,</l>
+            <l n="1858" xml:id="l1858">Autant d’amants, autant de Dieux.</l>
+            <l n="1859" xml:id="l1859">Et vous, impitoyable mère,</l>
+            <l n="1860" xml:id="l1860">Qui la forcez à m’arracher</l>
+            <l n="1861" xml:id="l1861">Tout ce que j’avais de plus cher,</l>
+            <l n="1862" xml:id="l1862">Craignez à votre tour l’effet de ma colère.</l>
+            <l n="1863" xml:id="l1863">Vous me voulez faire la loi,</l>
+            <l n="1864" xml:id="l1864">Vous qu’on voit si souvent la recevoir de moi !</l>
+            <l n="1865" xml:id="l1865">Vous qui portez un cœur sensible comme un autre,</l>
+            <l n="1866" xml:id="l1866">Vous enviez au mien les délices du vôtre !</l>
+            <l n="1867" xml:id="l1867">Mais dans ce même cœur j’enfoncerai des coups</l>
+            <l n="1868" xml:id="l1868">Qui ne seront suivis que de chagrins jaloux ;</l>
+            <l n="1869" xml:id="l1869">Je vous accablerai de honteuses surprises,</l>
+            <l n="1870" xml:id="l1870">Et choisirai partout à vos vœux les plus doux</l>
+            <l n="1871" xml:id="l1871">Des Adonis et des Anchises</l>
+            <l n="1872" xml:id="l1872">Qui n’auront que haine pour vous.</l>
           </sp>
         </div2>
         <div2 n="5" type="scene" xml:id="a5-05">
@@ -2941,141 +2942,141 @@
           <stage>Vénus, L’Amour, Psyché, évanouie.</stage>
           <sp who="venus" xml:id="a5-05-1">
             <speaker>vénus</speaker>
-            <l n="1874" xml:id="l1874">La menace est respectueuse,</l>
-            <l n="1875" xml:id="l1875">Et d’un enfant qui fait le révolté</l>
-            <l n="1876" xml:id="l1876">La colère présomptueuse...</l>
+            <l n="1873" xml:id="l1873">La menace est respectueuse,</l>
+            <l n="1874" xml:id="l1874">Et d’un enfant qui fait le révolté</l>
+            <l n="1875" xml:id="l1875">La colère présomptueuse...</l>
           </sp>
           <sp who="amour" xml:id="a5-05-2">
             <speaker>l’amour</speaker>
-            <l n="1877" xml:id="l1877">Je ne suis plus enfant, et je l’ai trop été,</l>
-            <l n="1878" xml:id="l1878">Et ma colère est juste autant qu’impétueuse.</l>
+            <l n="1876" xml:id="l1876">Je ne suis plus enfant, et je l’ai trop été,</l>
+            <l n="1877" xml:id="l1877">Et ma colère est juste autant qu’impétueuse.</l>
           </sp>
           <sp who="venus" xml:id="a5-05-3">
             <speaker>vénus</speaker>
-            <l n="1879" xml:id="l1879">L’impétuosité s’en devrait retenir,</l>
-            <l n="1880" xml:id="l1880">Et vous pourriez vous souvenir</l>
-            <l n="1881" xml:id="l1881">Que vous me devez la naissance.</l>
+            <l n="1878" xml:id="l1878">L’impétuosité s’en devrait retenir,</l>
+            <l n="1879" xml:id="l1879">Et vous pourriez vous souvenir</l>
+            <l n="1880" xml:id="l1880">Que vous me devez la naissance.</l>
           </sp>
           <sp who="amour" xml:id="a5-05-4">
             <speaker>l’amour</speaker>
-            <l n="1882" xml:id="l1882">Et vous pourriez n’oublier pas</l>
-            <l n="1883" xml:id="l1883">Que vous avez un cœur et des appas</l>
-            <l n="1884" xml:id="l1884">Qui relèvent de ma puissance,</l>
-            <l n="1885" xml:id="l1885">Que mon arc de la vôtre est l’unique soutien,</l>
-            <l n="1886" xml:id="l1886">Que sans mes traits elle n’est rien,</l>
-            <l n="1887" xml:id="l1887">Et que si les cœurs les plus braves</l>
-            <l n="1888" xml:id="l1888">En triomphe par vous se sont laissé traîner,</l>
-            <l n="1889" xml:id="l1889">Vous n’avez jamais fait d’esclaves</l>
-            <l n="1890" xml:id="l1890">Que ceux qu’il m’a plu d’enchaîner.</l>
-            <l n="1891" xml:id="l1891">Ne me vantez donc plus ces droits de la naissance</l>
-            <l n="1892" xml:id="l1892">Qui tyrannisent mes désirs ;</l>
-            <l n="1893" xml:id="l1893">Et si vous ne voulez perdre mille soupirs,</l>
-            <l n="1894" xml:id="l1894">Songez, en me voyant, à la reconnaissance,</l>
-            <l n="1895" xml:id="l1895">Vous qui tenez de ma puissance</l>
-            <l n="1896" xml:id="l1896">Et votre gloire et vos plaisirs.</l>
+            <l n="1881" xml:id="l1881">Et vous pourriez n’oublier pas</l>
+            <l n="1882" xml:id="l1882">Que vous avez un cœur et des appas</l>
+            <l n="1883" xml:id="l1883">Qui relèvent de ma puissance,</l>
+            <l n="1884" xml:id="l1884">Que mon arc de la vôtre est l’unique soutien,</l>
+            <l n="1885" xml:id="l1885">Que sans mes traits elle n’est rien,</l>
+            <l n="1886" xml:id="l1886">Et que si les cœurs les plus braves</l>
+            <l n="1887" xml:id="l1887">En triomphe par vous se sont laissé traîner,</l>
+            <l n="1888" xml:id="l1888">Vous n’avez jamais fait d’esclaves</l>
+            <l n="1889" xml:id="l1889">Que ceux qu’il m’a plu d’enchaîner.</l>
+            <l n="1890" xml:id="l1890">Ne me vantez donc plus ces droits de la naissance</l>
+            <l n="1891" xml:id="l1891">Qui tyrannisent mes désirs ;</l>
+            <l n="1892" xml:id="l1892">Et si vous ne voulez perdre mille soupirs,</l>
+            <l n="1893" xml:id="l1893">Songez, en me voyant, à la reconnaissance,</l>
+            <l n="1894" xml:id="l1894">Vous qui tenez de ma puissance</l>
+            <l n="1895" xml:id="l1895">Et votre gloire et vos plaisirs.</l>
           </sp>
           <sp who="venus" xml:id="a5-05-5">
             <speaker>vénus</speaker>
-            <l n="1897" xml:id="l1897">Comment l’avez-vous défendue,</l>
-            <l n="1898" xml:id="l1898">Cette gloire dont vous parlez ?</l>
-            <l n="1899" xml:id="l1899">Comment me l’avez-vous rendue ?</l>
-            <l n="1900" xml:id="l1900">Et quand vous avez vu mes autels désolés,</l>
-            <l n="1901" xml:id="l1901">Mes temples violés,</l>
-            <l n="1902" xml:id="l1902">Mes honneurs ravalés,</l>
-            <l n="1903" xml:id="l1903">Si vous avez pris part à tant d’ignominie,</l>
-            <l n="1904" xml:id="l1904">Comment en a-t-on vu punie</l>
-            <l n="1905" xml:id="l1905">Psyché, qui me les a volés ?</l>
-            <l n="1906" xml:id="l1906">Je vous ai commandé de la rendre charmée</l>
-            <l n="1907" xml:id="l1907">Du plus vil de tous les mortels,</l>
-            <l n="1908" xml:id="l1908">Qui ne daignât répondre à son âme enflammée</l>
-            <l n="1909" xml:id="l1909">Que par des rebuts éternels,</l>
-            <l n="1910" xml:id="l1910">Par les mépris les plus cruels :</l>
-            <l n="1911" xml:id="l1911">Et vous-même l’avez aimée !</l>
-            <l n="1912" xml:id="l1912">Vous avez contre moi séduit des immortels ;</l>
-            <l n="1913" xml:id="l1913">C’est pour vous qu’à mes yeux les Zéphyrs l’ont cachée,</l>
-            <l n="1914" xml:id="l1914">Qu’Apollon même suborné,</l>
-            <l n="1915" xml:id="l1915">Par un oracle adroitement tourné,</l>
-            <l n="1916" xml:id="l1916">Me l’avait si bien arrachée,</l>
-            <l n="1917" xml:id="l1917">Que si sa curiosité</l>
-            <l n="1918" xml:id="l1918">Par une aveugle défiance</l>
-            <l n="1919" xml:id="l1919">Ne l’eût rendue à ma vengeance,</l>
-            <l n="1920" xml:id="l1920">Elle échappait à mon cœur irrité.</l>
-            <l n="1921" xml:id="l1921">Voyez l’état où votre amour l’a mise,</l>
-            <l n="1922" xml:id="l1922">Votre Psyché : son âme va partir ;</l>
-            <l n="1923" xml:id="l1923">Voyez, et si la vôtre en est encore éprise,</l>
-            <l n="1924" xml:id="l1924">Recevez son dernier soupir.</l>
-            <l n="1925" xml:id="l1925">Menacez, bravez-moi, cependant qu’elle expire :</l>
-            <l n="1926" xml:id="l1926">Tant d’insolence vous sied bien,</l>
-            <l n="1927" xml:id="l1927">Et je dois endurer quoi qu’il vous plaise dire,</l>
-            <l n="1928" xml:id="l1928">Moi qui sans vos traits ne puis rien.</l>
+            <l n="1896" xml:id="l1896">Comment l’avez-vous défendue,</l>
+            <l n="1897" xml:id="l1897">Cette gloire dont vous parlez ?</l>
+            <l n="1898" xml:id="l1898">Comment me l’avez-vous rendue ?</l>
+            <l n="1899" xml:id="l1899">Et quand vous avez vu mes autels désolés,</l>
+            <l n="1900" xml:id="l1900">Mes temples violés,</l>
+            <l n="1901" xml:id="l1901">Mes honneurs ravalés,</l>
+            <l n="1902" xml:id="l1902">Si vous avez pris part à tant d’ignominie,</l>
+            <l n="1903" xml:id="l1903">Comment en a-t-on vu punie</l>
+            <l n="1904" xml:id="l1904">Psyché, qui me les a volés ?</l>
+            <l n="1905" xml:id="l1905">Je vous ai commandé de la rendre charmée</l>
+            <l n="1906" xml:id="l1906">Du plus vil de tous les mortels,</l>
+            <l n="1907" xml:id="l1907">Qui ne daignât répondre à son âme enflammée</l>
+            <l n="1908" xml:id="l1908">Que par des rebuts éternels,</l>
+            <l n="1909" xml:id="l1909">Par les mépris les plus cruels :</l>
+            <l n="1910" xml:id="l1910">Et vous-même l’avez aimée !</l>
+            <l n="1911" xml:id="l1911">Vous avez contre moi séduit des immortels ;</l>
+            <l n="1912" xml:id="l1912">C’est pour vous qu’à mes yeux les Zéphyrs l’ont cachée,</l>
+            <l n="1913" xml:id="l1913">Qu’Apollon même suborné,</l>
+            <l n="1914" xml:id="l1914">Par un oracle adroitement tourné,</l>
+            <l n="1915" xml:id="l1915">Me l’avait si bien arrachée,</l>
+            <l n="1916" xml:id="l1916">Que si sa curiosité</l>
+            <l n="1917" xml:id="l1917">Par une aveugle défiance</l>
+            <l n="1918" xml:id="l1918">Ne l’eût rendue à ma vengeance,</l>
+            <l n="1919" xml:id="l1919">Elle échappait à mon cœur irrité.</l>
+            <l n="1920" xml:id="l1920">Voyez l’état où votre amour l’a mise,</l>
+            <l n="1921" xml:id="l1921">Votre Psyché : son âme va partir ;</l>
+            <l n="1922" xml:id="l1922">Voyez, et si la vôtre en est encore éprise,</l>
+            <l n="1923" xml:id="l1923">Recevez son dernier soupir.</l>
+            <l n="1924" xml:id="l1924">Menacez, bravez-moi, cependant qu’elle expire :</l>
+            <l n="1925" xml:id="l1925">Tant d’insolence vous sied bien,</l>
+            <l n="1926" xml:id="l1926">Et je dois endurer quoi qu’il vous plaise dire,</l>
+            <l n="1927" xml:id="l1927">Moi qui sans vos traits ne puis rien.</l>
           </sp>
           <sp who="amour" xml:id="a5-05-6">
             <speaker>l’amour</speaker>
-            <l n="1929" xml:id="l1929">Vous ne pouvez que trop, Déesse impitoyable :</l>
-            <l n="1930" xml:id="l1930">Le Destin l’abandonne à tout votre courroux ;</l>
-            <l n="1931" xml:id="l1931">Mais soyez moins inexorable</l>
-            <l n="1932" xml:id="l1932">Aux prières, aux pleurs d’un fils à vos genoux.</l>
-            <l n="1933" xml:id="l1933">Ce doit vous être un spectacle assez doux</l>
-            <l n="1934" xml:id="l1934">De voir d’un œil Psyché mourante,</l>
-            <l n="1935" xml:id="l1935">Et de l’autre ce fils, d’une voix suppliante</l>
-            <l n="1936" xml:id="l1936">Ne vouloir plus tenir son bonheur que de vous.</l>
-            <l n="1937" xml:id="l1937">Rendez-moi ma Psyché, rendez-lui tous ses charmes,</l>
-            <l n="1938" xml:id="l1938">Rendez-la, Déesse, à mes larmes,</l>
-            <l n="1939" xml:id="l1939">Rendez à mon amour, rendez à ma douleur</l>
-            <l n="1940" xml:id="l1940">Le charme de mes yeux, et le choix de mon cœur.</l>
+            <l n="1928" xml:id="l1928">Vous ne pouvez que trop, Déesse impitoyable :</l>
+            <l n="1929" xml:id="l1929">Le Destin l’abandonne à tout votre courroux ;</l>
+            <l n="1930" xml:id="l1930">Mais soyez moins inexorable</l>
+            <l n="1931" xml:id="l1931">Aux prières, aux pleurs d’un fils à vos genoux.</l>
+            <l n="1932" xml:id="l1932">Ce doit vous être un spectacle assez doux</l>
+            <l n="1933" xml:id="l1933">De voir d’un œil Psyché mourante,</l>
+            <l n="1934" xml:id="l1934">Et de l’autre ce fils, d’une voix suppliante</l>
+            <l n="1935" xml:id="l1935">Ne vouloir plus tenir son bonheur que de vous.</l>
+            <l n="1936" xml:id="l1936">Rendez-moi ma Psyché, rendez-lui tous ses charmes,</l>
+            <l n="1937" xml:id="l1937">Rendez-la, Déesse, à mes larmes,</l>
+            <l n="1938" xml:id="l1938">Rendez à mon amour, rendez à ma douleur</l>
+            <l n="1939" xml:id="l1939">Le charme de mes yeux, et le choix de mon cœur.</l>
           </sp>
           <sp who="venus" xml:id="a5-05-7">
             <speaker>vénus</speaker>
-            <l n="1941" xml:id="l1941">Quelque amour que Psyché vous donne,</l>
-            <l n="1942" xml:id="l1942">De ses malheurs par moi n’attendez pas la fin :</l>
-            <l n="1943" xml:id="l1943">Si le Destin me l’abandonne,</l>
-            <l n="1944" xml:id="l1944">Je l’abandonne à son destin.</l>
-            <l n="1945" xml:id="l1945">Ne m’importunez plus, et, dans cette infortune,</l>
-            <l n="1946" xml:id="l1946">Laissez-la sans Vénus triompher, ou périr.</l>
+            <l n="1940" xml:id="l1940">Quelque amour que Psyché vous donne,</l>
+            <l n="1941" xml:id="l1941">De ses malheurs par moi n’attendez pas la fin :</l>
+            <l n="1942" xml:id="l1942">Si le Destin me l’abandonne,</l>
+            <l n="1943" xml:id="l1943">Je l’abandonne à son destin.</l>
+            <l n="1944" xml:id="l1944">Ne m’importunez plus, et, dans cette infortune,</l>
+            <l n="1945" xml:id="l1945">Laissez-la sans Vénus triompher, ou périr.</l>
           </sp>
           <sp who="amour" xml:id="a5-05-8">
             <speaker>l’amour</speaker>
-            <l n="1947" xml:id="l1947">Hélas ! si je vous importune,</l>
-            <l n="1948" xml:id="l1948">Je ne le ferois pas si je pouvois mourir.</l>
+            <l n="1946" xml:id="l1946">Hélas ! si je vous importune,</l>
+            <l n="1947" xml:id="l1947">Je ne le ferois pas si je pouvois mourir.</l>
           </sp>
           <sp who="venus" xml:id="a5-05-9">
             <speaker>vénus</speaker>
-            <l n="1949" xml:id="l1949">Cette douleur n’est pas commune,</l>
-            <l n="1950" xml:id="l1950">Qui force un immortel à souhaiter la mort.</l>
+            <l n="1948" xml:id="l1948">Cette douleur n’est pas commune,</l>
+            <l n="1949" xml:id="l1949">Qui force un immortel à souhaiter la mort.</l>
           </sp>
           <sp who="amour" xml:id="a5-05-10">
             <speaker>l’amour</speaker>
-            <l n="1951" xml:id="l1951">Voyez par son excès si mon amour est fort.</l>
-            <l n="1952" xml:id="l1952">Ne lui ferez-vous grâce aucune ?</l>
+            <l n="1950" xml:id="l1950">Voyez par son excès si mon amour est fort.</l>
+            <l n="1951" xml:id="l1951">Ne lui ferez-vous grâce aucune ?</l>
           </sp>
           <sp who="venus" xml:id="a5-05-11">
             <speaker>vénus</speaker>
-            <l n="1953" xml:id="l1953">Je vous l’avoue, il me touche le cœur,</l>
-            <l n="1954" xml:id="l1954">Votre amour ; il désarme, il fléchit ma rigueur :</l>
-            <l n="1955" xml:id="l1955">Votre Psyché reverra la lumière.</l>
+            <l n="1952" xml:id="l1952">Je vous l’avoue, il me touche le cœur,</l>
+            <l n="1953" xml:id="l1953">Votre amour ; il désarme, il fléchit ma rigueur :</l>
+            <l n="1954" xml:id="l1954">Votre Psyché reverra la lumière.</l>
           </sp>
           <sp who="amour" xml:id="a5-05-12">
             <speaker>l’amour</speaker>
-            <l n="1956" xml:id="l1956">Que je vous vais partout faire donner d’encens !</l>
+            <l n="1955" xml:id="l1955">Que je vous vais partout faire donner d’encens !</l>
           </sp>
           <sp who="venus" xml:id="a5-05-13">
             <speaker>vénus</speaker>
-            <l n="1957" xml:id="l1957">Oui, vous la reverrez dans sa beauté première ;</l>
-            <l n="1958" xml:id="l1958">Mais de vos vœux reconnaissants</l>
-            <l n="1959" xml:id="l1959">Je veux la déférence entière,</l>
-            <l n="1960" xml:id="l1960">Je veux qu’un vrai respect laisse à mon amitié</l>
-            <l n="1961" xml:id="l1961">Vous choisir une autre moitié.</l>
+            <l n="1956" xml:id="l1956">Oui, vous la reverrez dans sa beauté première ;</l>
+            <l n="1957" xml:id="l1957">Mais de vos vœux reconnaissants</l>
+            <l n="1958" xml:id="l1958">Je veux la déférence entière,</l>
+            <l n="1959" xml:id="l1959">Je veux qu’un vrai respect laisse à mon amitié</l>
+            <l n="1960" xml:id="l1960">Vous choisir une autre moitié.</l>
           </sp>
           <sp who="amour" xml:id="a5-05-14">
             <speaker>l’amour</speaker>
-            <l n="1962" xml:id="l1962">Et moi, je ne veux plus de grâce :</l>
-            <l n="1963" xml:id="l1963">Je reprends toute mon audace,</l>
-            <l n="1964" xml:id="l1964">Je veux Psyché, je veux sa foi,</l>
-            <l n="1965" xml:id="l1965">Je veux qu’elle revive et revive pour moi,</l>
-            <l n="1966" xml:id="l1966">Et tiens indifférent que votre haine lasse</l>
-            <l n="1967" xml:id="l1967">En faveur d’une autre se passe.</l>
-            <l n="1968" xml:id="l1968">Jupiter qui paraît va juger entre nous</l>
-            <l n="1969" xml:id="l1969">De mes emportements et de votre courroux.</l>
+            <l n="1961" xml:id="l1961">Et moi, je ne veux plus de grâce :</l>
+            <l n="1962" xml:id="l1962">Je reprends toute mon audace,</l>
+            <l n="1963" xml:id="l1963">Je veux Psyché, je veux sa foi,</l>
+            <l n="1964" xml:id="l1964">Je veux qu’elle revive et revive pour moi,</l>
+            <l n="1965" xml:id="l1965">Et tiens indifférent que votre haine lasse</l>
+            <l n="1966" xml:id="l1966">En faveur d’une autre se passe.</l>
+            <l n="1967" xml:id="l1967">Jupiter qui paraît va juger entre nous</l>
+            <l n="1968" xml:id="l1968">De mes emportements et de votre courroux.</l>
             <stage>Après quelques éclairs et roulements de tonnerre, Jupiter paraît en l’air sur son aigle.</stage>
           </sp>
         </div2>
@@ -3084,170 +3085,172 @@
           <stage>Jupiter, Vénus, L’Amour, Psyché.</stage>
           <sp who="amour" xml:id="a5-06-1">
             <speaker>l’amour</speaker>
-            <l n="1970" xml:id="l1970">Vous à qui seul tout est possible,</l>
-            <l n="1971" xml:id="l1971">Père des Dieux, souverain des mortels,</l>
-            <l n="1972" xml:id="l1972">Fléchissez la rigueur d’une mère inflexible,</l>
-            <l n="1973" xml:id="l1973">Qui sans moi n’aura point d’autels.</l>
-            <l n="1974" xml:id="l1974">J’ai pleuré, j’ai prié, je soupire, menace,</l>
-            <l n="1975" xml:id="l1975">Et perds menaces et soupirs :</l>
-            <l n="1976" xml:id="l1976">Elle ne veut pas voir que de mes déplaisirs</l>
-            <l n="1977" xml:id="l1977">Dépend du monde entier l’heureuse ou triste face,</l>
-            <l n="1978" xml:id="l1978">Et que si Psyché perd le jour,</l>
-            <l n="1979" xml:id="l1979">Si Psyché n’est à moi, je ne suis plus l’Amour.</l>
-            <l n="1980" xml:id="l1980">Oui, je romprai mon arc, je briserai mes flèches,</l>
-            <l n="1981" xml:id="l1981">J’éteindrai jusqu’à mon flambeau,</l>
-            <l n="1982" xml:id="l1982">Je laisserai languir la Nature au tombeau ;</l>
-            <l n="1983" xml:id="l1983">Ou, si je daigne aux cœurs faire encor quelques brèches,</l>
-            <l n="1984" xml:id="l1984">Avec ces pointes d’or qui me font obéir,</l>
-            <l n="1985" xml:id="l1985">Je vous blesserai tous là-haut pour des mortelles,</l>
-            <l n="1986" xml:id="l1986">Et ne décocherai sur elles</l>
-            <l n="1987" xml:id="l1987">Que des traits émoussés qui forcent à haïr,</l>
-            <l n="1988" xml:id="l1988">Et qui ne font que des rebelles,</l>
-            <l n="1989" xml:id="l1989">Des ingrates, et des cruelles.</l>
-            <l n="1990" xml:id="l1990">Par quelle tyrannique loi</l>
-            <l n="1991" xml:id="l1991">Tiendrai-je à vous servir mes armes toujours prêtes</l>
-            <l n="1992" xml:id="l1992">Et vous ferai-je à tous conquêtes sur conquêtes,</l>
-            <l n="1993" xml:id="l1993">Si vous me défendez d’en faire une pour moi ?</l>
+            <l n="1969" xml:id="l1969">Vous à qui seul tout est possible,</l>
+            <l n="1970" xml:id="l1970">Père des Dieux, souverain des mortels,</l>
+            <l n="1971" xml:id="l1971">Fléchissez la rigueur d’une mère inflexible,</l>
+            <l n="1972" xml:id="l1972">Qui sans moi n’aura point d’autels.</l>
+            <l n="1973" xml:id="l1973">J’ai pleuré, j’ai prié, je soupire, menace,</l>
+            <l n="1974" xml:id="l1974">Et perds menaces et soupirs :</l>
+            <l n="1975" xml:id="l1975">Elle ne veut pas voir que de mes déplaisirs</l>
+            <l n="1976" xml:id="l1976">Dépend du monde entier l’heureuse ou triste face,</l>
+            <l n="1977" xml:id="l1977">Et que si Psyché perd le jour,</l>
+            <l n="1978" xml:id="l1978">Si Psyché n’est à moi, je ne suis plus l’Amour.</l>
+            <l n="1979" xml:id="l1979">Oui, je romprai mon arc, je briserai mes flèches,</l>
+            <l n="1980" xml:id="l1980">J’éteindrai jusqu’à mon flambeau,</l>
+            <l n="1981" xml:id="l1981">Je laisserai languir la Nature au tombeau ;</l>
+            <l n="1982" xml:id="l1982">Ou, si je daigne aux cœurs faire encor quelques brèches,</l>
+            <l n="1983" xml:id="l1983">Avec ces pointes d’or qui me font obéir,</l>
+            <l n="1984" xml:id="l1984">Je vous blesserai tous là-haut pour des mortelles,</l>
+            <l n="1985" xml:id="l1985">Et ne décocherai sur elles</l>
+            <l n="1986" xml:id="l1986">Que des traits émoussés qui forcent à haïr,</l>
+            <l n="1987" xml:id="l1987">Et qui ne font que des rebelles,</l>
+            <l n="1988" xml:id="l1988">Des ingrates, et des cruelles.</l>
+            <l n="1989" xml:id="l1989">Par quelle tyrannique loi</l>
+            <l n="1990" xml:id="l1990">Tiendrai-je à vous servir mes armes toujours prêtes</l>
+            <l n="1991" xml:id="l1991">Et vous ferai-je à tous conquêtes sur conquêtes,</l>
+            <l n="1992" xml:id="l1992">Si vous me défendez d’en faire une pour moi ?</l>
           </sp>
           <sp who="jupiter" xml:id="a5-06-2">
             <speaker>jupiter</speaker>
-            <l n="1994" xml:id="l1994">Ma fille, sois-lui moins sévère,</l>
-            <l n="1995" xml:id="l1995">Tu tiens de sa Psyché le destin en tes mains ;</l>
-            <l n="1996" xml:id="l1996">La Parque au moindre mot va suivre ta colère :</l>
-            <l n="1997" xml:id="l1997">Parle, et laisse-toi vaincre aux tendresses de mère,</l>
-            <l n="1998" xml:id="l1998">Ou redoute un courroux que moi-même je crains.</l>
-            <l n="1999" xml:id="l1999">Veux-tu donner le monde en proie</l>
-            <l n="2000" xml:id="l2000">A la haine, au désordre, à la confusion ?</l>
-            <l n="2001" xml:id="l2001">Et d’un dieu d’union,</l>
-            <l n="2002" xml:id="l2002">D’un dieu de douceurs et de joie,</l>
-            <l n="2003" xml:id="l2003">Faire un dieu d’amertume et de division ?</l>
-            <l n="2004" xml:id="l2004">Considère ce que nous sommes,</l>
-            <l n="2005" xml:id="l2005">Et si les passions doivent nous dominer :</l>
-            <l n="2006" xml:id="l2006">Plus la vengeance a de quoi plaire aux hommes,</l>
-            <l n="2007" xml:id="l2007">Plus il sied bien aux Dieux de pardonner.</l>
+            <l n="1993" xml:id="l1993">Ma fille, sois-lui moins sévère,</l>
+            <l n="1994" xml:id="l1994">Tu tiens de sa Psyché le destin en tes mains ;</l>
+            <l n="1995" xml:id="l1995">La Parque au moindre mot va suivre ta colère :</l>
+            <l n="1996" xml:id="l1996">Parle, et laisse-toi vaincre aux tendresses de mère,</l>
+            <l n="1997" xml:id="l1997">Ou redoute un courroux que moi-même je crains.</l>
+            <l n="1998" xml:id="l1998">Veux-tu donner le monde en proie</l>
+            <l n="1999" xml:id="l1999">A la haine, au désordre, à la confusion ?</l>
+            <l n="2000" xml:id="l2000">Et d’un dieu d’union,</l>
+            <l n="2001" xml:id="l2001">D’un dieu de douceurs et de joie,</l>
+            <l n="2002" xml:id="l2002">Faire un dieu d’amertume et de division ?</l>
+            <l n="2003" xml:id="l2003">Considère ce que nous sommes,</l>
+            <l n="2004" xml:id="l2004">Et si les passions doivent nous dominer :</l>
+            <l n="2005" xml:id="l2005">Plus la vengeance a de quoi plaire aux hommes,</l>
+            <l n="2006" xml:id="l2006">Plus il sied bien aux Dieux de pardonner.</l>
           </sp>
           <sp who="venus" xml:id="a5-06-3">
             <speaker>vénus</speaker>
-            <l n="2008" xml:id="l2008">Je pardonne à ce fils rebelle.</l>
-            <l n="2009" xml:id="l2009">Mais voulez-vous qu’il me soit reproché</l>
-            <l n="2010" xml:id="l2010">Qu’une misérable mortelle,</l>
-            <l n="2011" xml:id="l2011">L’objet de mon courroux, l’orgueilleuse Psyché,</l>
-            <l n="2012" xml:id="l2012">Sous ombre qu’elle est un peu belle,</l>
-            <l n="2013" xml:id="l2013">Par un hymen dont je rougis,</l>
-            <l n="2014" xml:id="l2014">Souille mon alliance, et le lit de mon fils ?</l>
+            <l n="2007" xml:id="l2007">Je pardonne à ce fils rebelle.</l>
+            <l n="2008" xml:id="l2008">Mais voulez-vous qu’il me soit reproché</l>
+            <l n="2009" xml:id="l2009">Qu’une misérable mortelle,</l>
+            <l n="2010" xml:id="l2010">L’objet de mon courroux, l’orgueilleuse Psyché,</l>
+            <l n="2011" xml:id="l2011">Sous ombre qu’elle est un peu belle,</l>
+            <l n="2012" xml:id="l2012">Par un hymen dont je rougis,</l>
+            <l n="2013" xml:id="l2013">Souille mon alliance, et le lit de mon fils ?</l>
           </sp>
           <sp who="jupiter" xml:id="a5-06-4">
             <speaker>jupiter</speaker>
-            <l n="2015" xml:id="l2015">Hé bien ! Je la fais immortelle</l>
-            <l n="2016" xml:id="l2016">Afin d’y rendre tout égal.</l>
+            <l n="2014" xml:id="l2014">Hé bien ! Je la fais immortelle</l>
+            <l n="2015" xml:id="l2015">Afin d’y rendre tout égal.</l>
           </sp>
           <sp who="venus" xml:id="a5-06-5">
             <speaker>vénus</speaker>
-            <l n="2017" xml:id="l2017">Je n’ai plus de mépris ni de haine pour elle,</l>
-            <l n="2018" xml:id="l2018">Et l’admets à l’honneur de ce nœud conjugal.</l>
-            <l n="2019" xml:id="l2019">Psyché, reprenez la lumière,</l>
-            <l n="2020" xml:id="l2020">Pour ne la reperdre jamais :</l>
-            <l n="2021" xml:id="l2021">Jupiter a fait votre paix,</l>
-            <l n="2022" xml:id="l2022">Et je quitte cette humeur fière</l>
-            <l n="2023" xml:id="l2023">Qui s’opposait à vos souhaits.</l>
+            <l n="2016" xml:id="l2016">Je n’ai plus de mépris ni de haine pour elle,</l>
+            <l n="2017" xml:id="l2017">Et l’admets à l’honneur de ce nœud conjugal.</l>
+            <l n="2018" xml:id="l2018">Psyché, reprenez la lumière,</l>
+            <l n="2019" xml:id="l2019">Pour ne la reperdre jamais :</l>
+            <l n="2020" xml:id="l2020">Jupiter a fait votre paix,</l>
+            <l n="2021" xml:id="l2021">Et je quitte cette humeur fière</l>
+            <l n="2022" xml:id="l2022">Qui s’opposait à vos souhaits.</l>
           </sp>
           <sp who="psyche" xml:id="a5-06-6">
             <speaker>psyché</speaker>
-            <l n="2024" xml:id="l2024">C’est donc vous, ô grande Déesse,</l>
-            <l n="2025" xml:id="l2025">Qui redonnez la vie à ce cœur innocent !</l>
+            <l n="2023" xml:id="l2023">C’est donc vous, ô grande Déesse,</l>
+            <l n="2024" xml:id="l2024">Qui redonnez la vie à ce cœur innocent !</l>
           </sp>
           <sp who="venus" xml:id="a5-06-7">
             <speaker>vénus</speaker>
-            <l n="2026" xml:id="l2026">Jupiter vous fait grâce, et ma colère cesse.</l>
-            <l n="2027" xml:id="l2027">Vivez, Vénus l’ordonne ; aimez, elle y consent.</l>
+            <l n="2025" xml:id="l2025">Jupiter vous fait grâce, et ma colère cesse.</l>
+            <l n="2026" xml:id="l2026">Vivez, Vénus l’ordonne ; aimez, elle y consent.</l>
           </sp>
           <sp who="psyche" xml:id="a5-06-8">
             <speaker>psyché, à l’amour</speaker>
-            <l n="2028" xml:id="l2028">Je vous revois enfin, cher objet de ma flamme !</l>
+            <l n="2027" xml:id="l2027">Je vous revois enfin, cher objet de ma flamme !</l>
           </sp>
           <sp who="amour" xml:id="a5-06-9">
             <speaker>l’amour à psyché</speaker>
-            <l n="2029" xml:id="l2029">Je vous possède enfin, délices de mon âme !</l>
+            <l n="2028" xml:id="l2028">Je vous possède enfin, délices de mon âme !</l>
           </sp>
           <sp who="jupiter" xml:id="a5-06-10">
             <speaker>jupiter</speaker>
-            <l n="2030" xml:id="l2030">Venez, amants, venez aux Cieux</l>
-            <l n="2031" xml:id="l2031">Achever un si grand et si digne hyménée ;</l>
-            <l n="2032" xml:id="l2032">Viens-y, belle Psyché, changer de destinée,</l>
-            <l n="2033" xml:id="l2033">Viens prendre place au rang des Dieux.</l>
+            <l n="2029" xml:id="l2029">Venez, amants, venez aux Cieux</l>
+            <l n="2030" xml:id="l2030">Achever un si grand et si digne hyménée ;</l>
+            <l n="2031" xml:id="l2031">Viens-y, belle Psyché, changer de destinée,</l>
+            <l n="2032" xml:id="l2032">Viens prendre place au rang des Dieux.</l>
             <stage>Deux grandes machines descendent aux deux côtés de Jupiter, cependant qu’il dit ces derniers vers. Vénus avec sa suite monte dans l’une, l’Amour avec Psyché dans l’autre, et tous ensemble remontent au ciel.</stage>
             <stage>Les Divinités, qui avaient été partagées entre Vénus et son fils, se réunissent en les voyant d’accord ; et toutes ensemble, par des concerts, des chants, et des danses, célèbrent la fête des noces de l’Amour.</stage>
             <stage>Apollon paraît le premier et comme Dieu de l’harmonie, commence à chanter, pour inviter les autres Dieux à se réjouir.</stage>
           </sp>
           <sp who="apollon" xml:id="a5-06-11">
             <speaker>récit d’apollon</speaker>
-            <l n="2034" xml:id="l2034">Unissons-nous, troupe immortelle :</l>
-            <l n="2035" xml:id="l2035">Le Dieu d’amour devient heureux amant,</l>
-            <l n="2036" xml:id="l2036">Et Vénus a repris sa douceur naturelle</l>
-            <l n="2037" xml:id="l2037">En faveur d’un fils si charmant ;</l>
-            <l n="2038" xml:id="l2038">Il va goûter en paix, après un long tourment,</l>
-            <l n="2039" xml:id="l2039">Une félicité qui doit être éternelle.</l>
+            <l n="2033" xml:id="l2033">Unissons-nous, troupe immortelle :</l>
+            <l n="2034" xml:id="l2034">Le Dieu d’amour devient heureux amant,</l>
+            <l n="2035" xml:id="l2035">Et Vénus a repris sa douceur naturelle</l>
+            <l n="2036" xml:id="l2036">En faveur d’un fils si charmant ;</l>
+            <l n="2037" xml:id="l2037">Il va goûter en paix, après un long tourment,</l>
+            <l n="2038" xml:id="l2038">Une félicité qui doit être éternelle.</l>
           </sp>
           <sp who="choeur" xml:id="a5-06-12">
             <speaker>toutes les divinités chantent ensemble ce couplet à la gloire de l’amour</speaker>
-            <l n="2040" xml:id="l2040">Célébrons ce grand jour ;</l>
-            <l n="2041" xml:id="l2041">Célébrons tous une fête si belle ;</l>
-            <l n="2042" xml:id="l2042">Que nos chants en tous lieux en portent la nouvelle,</l>
-            <l n="2043" xml:id="l2043">Qu’ils fassent retenir le céleste séjour :</l>
-            <l n="2044" xml:id="l2044">Chantons, répétons, tour à tour,</l>
-            <l n="2045" xml:id="l2045">Qu’il n’est point d’âme si cruelle</l>
-            <l n="2046" xml:id="l2046">Qui tôt ou tard ne se rende à l’Amour.</l>
+            <l n="2039" xml:id="l2039">Célébrons ce grand jour ;</l>
+            <l n="2040" xml:id="l2040">Célébrons tous une fête si belle ;</l>
+            <l n="2041" xml:id="l2041">Que nos chants en tous lieux en portent la nouvelle,</l>
+            <l n="2042" xml:id="l2042">Qu’ils fassent retenir le céleste séjour :</l>
+            <l n="2043" xml:id="l2043">Chantons, répétons, tour à tour,</l>
+            <l n="2044" xml:id="l2044">Qu’il n’est point d’âme si cruelle</l>
+            <l n="2045" xml:id="l2045">Qui tôt ou tard ne se rende à l’Amour.</l>
           </sp>
           <sp who="apollon" xml:id="a5-06-13">
             <speaker>apollon, continue</speaker>
-            <l n="2047" xml:id="l2047">Le Dieu qui nous engage</l>
-            <l n="2048" xml:id="l2048">A lui faire la cour</l>
-            <l n="2049" xml:id="l2049">Défend qu’on soit trop sage :</l>
-            <l n="2050" xml:id="l2050">Les plaisirs ont leur tour :</l>
-            <l n="2051" xml:id="l2051">C’est leur plus doux usage</l>
-            <l n="2052" xml:id="l2052">Que de finir les soins du jour.</l>
-            <l n="2053" xml:id="l2053">La nuit est le partage</l>
-            <l n="2054" xml:id="l2054">Des jeux et de l’amour.</l>
-            <l n="2055" xml:id="l2055">Ce serait grand dommage</l>
-            <l n="2056" xml:id="l2056">Qu’en ce charmant séjour</l>
-            <l n="2057" xml:id="l2057">On eût un cœur sauvage :</l>
-            <l n="2058" xml:id="l2058">Les plaisirs ont leur tour ;</l>
-            <l n="2059" xml:id="l2059">C’est leur plus doux usage</l>
-            <l n="2060" xml:id="l2060">Que de finir les soins du jour.</l>
-            <l n="2061" xml:id="l2061">La nuit est le partage</l>
-            <l n="2062" xml:id="l2062">Des jeux et de l’amour.</l>
+            <l n="2046" xml:id="l2046">Le Dieu qui nous engage</l>
+            <l n="2047" xml:id="l2047">A lui faire la cour</l>
+            <l n="2048" xml:id="l2048">Défend qu’on soit trop sage :</l>
+            <l n="2049" xml:id="l2049">Les plaisirs ont leur tour :</l>
+            <l n="2050" xml:id="l2050">C’est leur plus doux usage</l>
+            <l n="2051" xml:id="l2051">Que de finir les soins du jour.</l>
+            <l n="2052" xml:id="l2052">La nuit est le partage</l>
+            <l n="2053" xml:id="l2053">Des jeux et de l’amour.</l>
+            <l n="2054" xml:id="l2054">Ce serait grand dommage</l>
+            <l n="2055" xml:id="l2055">Qu’en ce charmant séjour</l>
+            <l n="2056" xml:id="l2056">On eût un cœur sauvage :</l>
+            <l n="2057" xml:id="l2057">Les plaisirs ont leur tour ;</l>
+            <l n="2058" xml:id="l2058">C’est leur plus doux usage</l>
+            <l n="2059" xml:id="l2059">Que de finir les soins du jour.</l>
+            <l n="2060" xml:id="l2060">La nuit est le partage</l>
+            <l n="2061" xml:id="l2061">Des jeux et de l’amour.</l>
             <stage>Deux Muses, qui ont toujours évité de s’engager sous les lois de l’Amour, conseillent aux belles qui n’ont point encore aimé de s’en défendre avec soin, à leur exemple.</stage>
           </sp>
           <sp who="muses" xml:id="a5-06-14">
             <speaker>chanson des muses/</speaker>
-            <l n="2063" xml:id="l2063">Gardez-vous, beautés sévères :</l>
-            <l n="2064" xml:id="l2064">Les amours font trop d’affaires ;</l>
-            <l n="2065" xml:id="l2065">Craignez toujours de vous laisser charmer.</l>
-            <l n="2066" xml:id="l2066">Quand il faut que l’on soupire,</l>
-            <l n="2067" xml:id="l2067">Tout le mal n’est pas de s’enflammer :</l>
-            <l n="2068" xml:id="l2068">Le martyre</l>
-            <l n="2069" xml:id="l2069">De le dire</l>
-            <l n="2070" xml:id="l2070">Coûte plus cent fois que d’aimer.</l>
-            <l n="2071" xml:id="l2071">Second couplet des muses</l>
-            <l n="2072" xml:id="l2072">On ne peut aimer sans peines,</l>
-            <l n="2073" xml:id="l2073">Il est peu de douces chaînes,</l>
-            <l n="2074" xml:id="l2074">À tout moment on se sent alarmer :</l>
-            <l n="2075" xml:id="l2075">Quand il faut que l’on soupire,</l>
-            <l n="2076" xml:id="l2076">Tout le mal n’est pas de s’enflammer ;</l>
-            <l n="2077" xml:id="l2077">Le martyre</l>
-            <l n="2078" xml:id="l2078">De le dire</l>
-            <l n="2079" xml:id="l2079">Coûte plus cent fois que d’aimer.</l>
+            <l n="2062" xml:id="l2062">Gardez-vous, beautés sévères :</l>
+            <l n="2063" xml:id="l2063">Les amours font trop d’affaires ;</l>
+            <l n="2064" xml:id="l2064">Craignez toujours de vous laisser charmer.</l>
+            <l n="2065" xml:id="l2065">Quand il faut que l’on soupire,</l>
+            <l n="2066" xml:id="l2066">Tout le mal n’est pas de s’enflammer :</l>
+            <l n="2067" xml:id="l2067">Le martyre</l>
+            <l n="2068" xml:id="l2068">De le dire</l>
+            <l n="2069" xml:id="l2069">Coûte plus cent fois que d’aimer.</l>
+          </sp>
+          <sp who="muses" xml:id="a5-06-15">
+            <speaker>Second couplet des muses</speaker>
+            <l n="2070" xml:id="l2070">On ne peut aimer sans peines,</l>
+            <l n="2071" xml:id="l2071">Il est peu de douces chaînes,</l>
+            <l n="2072" xml:id="l2072">À tout moment on se sent alarmer :</l>
+            <l n="2073" xml:id="l2073">Quand il faut que l’on soupire,</l>
+            <l n="2074" xml:id="l2074">Tout le mal n’est pas de s’enflammer ;</l>
+            <l n="2075" xml:id="l2075">Le martyre</l>
+            <l n="2076" xml:id="l2076">De le dire</l>
+            <l n="2077" xml:id="l2077">Coûte plus cent fois que d’aimer.</l>
             <stage>Bacchus fait entendre qu’il n’est pas si dangereux que l’Amour.</stage>
           </sp>
-          <sp who="bacchus" xml:id="a5-06-15">
+          <sp who="bacchus" xml:id="a5-06-16">
             <speaker>récit de bacchus</speaker>
-            <l n="2080" xml:id="l2080">Si quelquefois,</l>
-            <l n="2081" xml:id="l2081">Suivant nos douces lois,</l>
-            <l n="2082" xml:id="l2082">La raison se perd et s’oublie,</l>
-            <l n="2083" xml:id="l2083">Ce que le vin nous cause de folie</l>
-            <l n="2084" xml:id="l2084">Commence et finit en un jour</l>
-            <l n="2085" xml:id="l2085">Mais quand un cœur est enivré d’amour,</l>
-            <l n="2086" xml:id="l2086">Souvent c’est pour toute la vie.</l>
+            <l n="2078" xml:id="l2078">Si quelquefois,</l>
+            <l n="2079" xml:id="l2079">Suivant nos douces lois,</l>
+            <l n="2080" xml:id="l2080">La raison se perd et s’oublie,</l>
+            <l n="2081" xml:id="l2081">Ce que le vin nous cause de folie</l>
+            <l n="2082" xml:id="l2082">Commence et finit en un jour</l>
+            <l n="2083" xml:id="l2083">Mais quand un cœur est enivré d’amour,</l>
+            <l n="2084" xml:id="l2084">Souvent c’est pour toute la vie.</l>
           </sp>
         </div2>
         <div2 n="7" type="scene" xml:id="a5-07">
@@ -3255,14 +3258,14 @@
           <stage>Mome déclare qu’il n’a point de plus doux emploi que de médire, et que ce n’est qu’à l’Amour seul qu’il n’ose se jouer.</stage>
           <sp who="mome" xml:id="a5-07-1">
             <speaker>récit de mome</speaker>
-            <l n="2087" xml:id="l2087">Je cherche à médire</l>
-            <l n="2088" xml:id="l2088">Sur la terre et dans les Cieux ;</l>
-            <l n="2089" xml:id="l2089">Je soumets à ma satire</l>
-            <l n="2090" xml:id="l2090">Les plus grands des Dieux.</l>
-            <l n="2091" xml:id="l2091">Il n’est dans l’univers que l’Amour qui m’étonne :</l>
-            <l n="2092" xml:id="l2092">Il est le seul que j’épargne aujourd’hui ;</l>
-            <l n="2093" xml:id="l2093">Il n’appartient qu’à lui</l>
-            <l n="2094" xml:id="l2094">De n’épargner personne.</l>
+            <l n="2085" xml:id="l2085">Je cherche à médire</l>
+            <l n="2086" xml:id="l2086">Sur la terre et dans les Cieux ;</l>
+            <l n="2087" xml:id="l2087">Je soumets à ma satire</l>
+            <l n="2088" xml:id="l2088">Les plus grands des Dieux.</l>
+            <l n="2089" xml:id="l2089">Il n’est dans l’univers que l’Amour qui m’étonne :</l>
+            <l n="2090" xml:id="l2090">Il est le seul que j’épargne aujourd’hui ;</l>
+            <l n="2091" xml:id="l2091">Il n’appartient qu’à lui</l>
+            <l n="2092" xml:id="l2092">De n’épargner personne.</l>
           </sp>
         </div2>
         <div2 n="8" type="scene" xml:id="a5-08">
@@ -3270,39 +3273,39 @@
           <stage>Bacchus et Mome, qui les conduisent, chantent au milieu d’eux chacun une chanson, Bacchus à la louange du vin, et Mome une chanson enjouée sur le sujet et les avantages de la raillerie.</stage>
           <sp who="bacchus" xml:id="a5-08-1">
             <speaker>récit de bacchus</speaker>
-            <l n="2095" xml:id="l2095">Admirons le jus de la treille :</l>
-            <l n="2096" xml:id="l2096">Qu’il est puissant ! qu’il a d’attraits !</l>
-            <l n="2097" xml:id="l2097">Il sert aux douceurs de la paix,</l>
-            <l n="2098" xml:id="l2098">Et dans la guerre il fait merveille ;</l>
-            <l n="2099" xml:id="l2099">Mais surtout pour les amours</l>
-            <l n="2100" xml:id="l2100">Le vin est d’un grand secours.</l>
+            <l n="2093" xml:id="l2093">Admirons le jus de la treille :</l>
+            <l n="2094" xml:id="l2094">Qu’il est puissant ! qu’il a d’attraits !</l>
+            <l n="2095" xml:id="l2095">Il sert aux douceurs de la paix,</l>
+            <l n="2096" xml:id="l2096">Et dans la guerre il fait merveille ;</l>
+            <l n="2097" xml:id="l2097">Mais surtout pour les amours</l>
+            <l n="2098" xml:id="l2098">Le vin est d’un grand secours.</l>
           </sp>
           <sp who="mome" xml:id="a5-08-2">
             <speaker>récit de mome</speaker>
-            <l n="2101" xml:id="l2101">Folâtrons, divertissons-nous,</l>
-            <l n="2102" xml:id="l2102">Raillons, nous ne saurions mieux faire :</l>
-            <l n="2103" xml:id="l2103">La raillerie est nécessaire</l>
-            <l n="2104" xml:id="l2104">Dans les jeux les plus doux.</l>
-            <l n="2105" xml:id="l2105">Sans la douceur que l’on goûte à médire,</l>
-            <l n="2106" xml:id="l2106">On trouve peu de plaisirs sans ennui :</l>
-            <l n="2107" xml:id="l2107">Rien n’est si plaisant que de rire,</l>
-            <l n="2108" xml:id="l2108">Quand on rit aux dépens d’autrui.</l>
-            <l n="2109" xml:id="l2109">Plaisantons, ne pardonnons rien,</l>
-            <l n="2110" xml:id="l2110">Rions, rien n’est plus à la mode :</l>
-            <l n="2111" xml:id="l2111">On court péril d’être incommode</l>
-            <l n="2112" xml:id="l2112">En disant trop de bien.</l>
-            <l n="2113" xml:id="l2113">Sans la douceur que l’on goûte à médire,</l>
-            <l n="2114" xml:id="l2114">On trouve peu de plaisirs sans ennui :</l>
-            <l n="2115" xml:id="l2115">Rien n’est si plaisant que de rire,</l>
-            <l n="2116" xml:id="l2116">Quand on rit aux dépens d’autrui.</l>
+            <l n="2099" xml:id="l2099">Folâtrons, divertissons-nous,</l>
+            <l n="2100" xml:id="l2100">Raillons, nous ne saurions mieux faire :</l>
+            <l n="2101" xml:id="l2101">La raillerie est nécessaire</l>
+            <l n="2102" xml:id="l2102">Dans les jeux les plus doux.</l>
+            <l n="2103" xml:id="l2103">Sans la douceur que l’on goûte à médire,</l>
+            <l n="2104" xml:id="l2104">On trouve peu de plaisirs sans ennui :</l>
+            <l n="2105" xml:id="l2105">Rien n’est si plaisant que de rire,</l>
+            <l n="2106" xml:id="l2106">Quand on rit aux dépens d’autrui.</l>
+            <l n="2107" xml:id="l2107">Plaisantons, ne pardonnons rien,</l>
+            <l n="2108" xml:id="l2108">Rions, rien n’est plus à la mode :</l>
+            <l n="2109" xml:id="l2109">On court péril d’être incommode</l>
+            <l n="2110" xml:id="l2110">En disant trop de bien.</l>
+            <l n="2111" xml:id="l2111">Sans la douceur que l’on goûte à médire,</l>
+            <l n="2112" xml:id="l2112">On trouve peu de plaisirs sans ennui :</l>
+            <l n="2113" xml:id="l2113">Rien n’est si plaisant que de rire,</l>
+            <l n="2114" xml:id="l2114">Quand on rit aux dépens d’autrui.</l>
             <stage>Mars arrive au milieu du théâtre, suivi de sa troupe guerrière, qu’il excite à profiter de leur loisir en prenant part aux divertissements.</stage>
           </sp>
           <sp who="mars" xml:id="a5-08-3">
             <speaker>récit de mars</speaker>
-            <l n="2117" xml:id="l2117">Laissons en paix toute la terre,</l>
-            <l n="2118" xml:id="l2118">Cherchons de doux amusements ;</l>
-            <l n="2119" xml:id="l2119">Parmi les jeux les plus charmants</l>
-            <l n="2120" xml:id="l2120">Mêlons l’image de la guerre.</l>
+            <l n="2115" xml:id="l2115">Laissons en paix toute la terre,</l>
+            <l n="2116" xml:id="l2116">Cherchons de doux amusements ;</l>
+            <l n="2117" xml:id="l2117">Parmi les jeux les plus charmants</l>
+            <l n="2118" xml:id="l2118">Mêlons l’image de la guerre.</l>
             <stage>Entrée de ballet.</stage>
             <stage>Suivants de Mars, qui font, en dansant avec des enseignes, une manière d’exercice.</stage>
           </sp>
@@ -3313,23 +3316,23 @@
           <stage>Un chœur de toutes les voix et de tous les instruments, qui sont au nombre de quarante, se joint à la danse générale et termine la fête des noces de l’Amour et de Psyché.</stage>
           <sp who="choeur" xml:id="a5-09-1">
             <speaker>dernier choeur</speaker>
-            <l n="2121" xml:id="l2121">Chantons les plaisirs charmants</l>
-            <l n="2122" xml:id="l2122">Des heureux amants ;</l>
-            <l n="2123" xml:id="l2123">Que tout le Ciel s’empresse</l>
-            <l n="2124" xml:id="l2124">À leur faire sa cour ;</l>
+            <l n="2119" xml:id="l2119">Chantons les plaisirs charmants</l>
+            <l n="2120" xml:id="l2120">Des heureux amants ;</l>
+            <l n="2121" xml:id="l2121">Que tout le Ciel s’empresse</l>
+            <l n="2122" xml:id="l2122">À leur faire sa cour ;</l>
+            <l n="2123" xml:id="l2123">Célébrons ce beau jour</l>
+            <l n="2124" xml:id="l2124">Par mille doux chants d’allégresse,</l>
             <l n="2125" xml:id="l2125">Célébrons ce beau jour</l>
-            <l n="2126" xml:id="l2126">Par mille doux chants d’allégresse,</l>
-            <l n="2127" xml:id="l2127">Célébrons ce beau jour</l>
-            <l n="2128" xml:id="l2128">Par mille doux chants pleins d’amour.</l>
+            <l n="2126" xml:id="l2126">Par mille doux chants pleins d’amour.</l>
             <stage>Dans le grand salon du palais des Tuileries, où Psyché a été représentée devant Leurs Majestés, il y avait des timbales, des trompettes et des tambours mêlés dans ces derniers concerts, et ce dernier couplet se chantait ainsi :</stage>
-            <l n="2129" xml:id="l2129">Chantons les plaisirs charmants</l>
-            <l n="2130" xml:id="l2130">Des heureux amants</l>
-            <l n="2131" xml:id="l2131">Répondez-nous, trompettes,</l>
-            <l n="2132" xml:id="l2132">Timbales et tambours ;</l>
+            <l n="2127" xml:id="l2127">Chantons les plaisirs charmants</l>
+            <l n="2128" xml:id="l2128">Des heureux amants</l>
+            <l n="2129" xml:id="l2129">Répondez-nous, trompettes,</l>
+            <l n="2130" xml:id="l2130">Timbales et tambours ;</l>
+            <l n="2131" xml:id="l2131">Accordez-vous toujours</l>
+            <l n="2132" xml:id="l2132">Avec le doux son des musettes,</l>
             <l n="2133" xml:id="l2133">Accordez-vous toujours</l>
-            <l n="2134" xml:id="l2134">Avec le doux son des musettes,</l>
-            <l n="2135" xml:id="l2135">Accordez-vous toujours</l>
-            <l n="2136" xml:id="l2136">Avec le doux chant des amours.</l>
+            <l n="2134" xml:id="l2134">Avec le doux chant des amours.</l>
           </sp>
         </div2>
       </div1>
