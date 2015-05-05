@@ -30,7 +30,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="1669">1669</date>
+        <date when="1682">1682</date>
       </creation>
       <langUsage>
         <language ident="fre"></language>
@@ -39,44 +39,43 @@
   </teiHeader>
   <text>
     <front>
+      <titlePage>
       <docTitle>
-        <titlePart type="main">DOM JUAN</titlePart>
-        <titlePart type="main">ou LE FESTIN DE PIERRE</titlePart>
-        <titlePart type="sub">COMÉDIE</titlePart>
+        <titlePart type="main">Dom Juan</titlePart>
+        <titlePart type="main">ou Le Festin de Pierre</titlePart>
+        <titlePart type="sub">Comédie</titlePart>
       </docTitle>
-      <docDate value="1665">1665</docDate>
-      <docAuthor id="MOLIERE" bio="moliere">Molière</docAuthor>
-      <docImprint>
-        <privilege id=""/>
-        <acheveImprime id=""/>
-        <editor id=""/>
-      </docImprint>
-      <performance>
-        <premiere date="1665-02-15" location="Théâtre du Palais-Royal">Représentée pour la première fois le 15 février 1665 sur le Théâtre de la salle du Palais-Royal par la Troupe de Monsieur, frère unique du Roi.</premiere>
-      </performance>
-      <castList>
+        <docAuthor>Par J. B. P. Molière</docAuthor>
+        <docImprint>Représentée pour la première fois, <lb/>le 15 février 1665, sur le Théâtre <lb/>de la salle du Palais-Royal. <lb/>Par la Troupe de Monsieur, <lb/>Frère Unique du Roi.</docImprint>
+        <docImprint>À PARIS, <lb/>Chez DENIS THIERRY, rue Saint-Jacques, <lb/>à l'enseigne de la Ville de Paris, <lb/>CLAUDE BARBIN, au Palais, sur le second <lb/> Perron de la Sainte Chapelle. <lb/>et PIERRE TRABOUILLET <lb/>, au Palais, dans la <lb/>Galerie des Prisonniers, à l'image Saint Hubert, et à la Fortune, proche le Greffe des Eaux et Forêts.</docImprint>
+      <docDate when="1682">M. DC. LXXXII.</docDate>
+        <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
+      </titlePage>
+      <div>
         <head>PERSONNAGES</head>
-        <castItem><role xml:id="dom-juan" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM JUAN</role>, fils de Dom Louis.</castItem>
+      <castList>
+        <castItem><role xml:id="dom-juan" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM JUAN</role>, Fils de Dom Louis.</castItem>
         <castItem><role xml:id="sganarelle" civil="M" type="H" statut="valet" age="V" stat_amour="néant">SGANARELLE</role>, valet de Dom Juan.</castItem>
-        <castItem><role xml:id="elvire" civil="F" statut="bourgeois" age="V" stat_amour="amoureux">ELVIRE</role>, femme de Dom Juan.</castItem>
-        <castItem><role xml:id="gusman" civil="M" type="H" statut="écuyer" age="V" stat_amour="néant">GUSMAN</role>, écuyer d’Elvire.</castItem>
-        <castItem><role xml:id="dom-carlos" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM CARLOS</role>, frère d’Elvire.</castItem>
-        <castItem><role xml:id="dom-alfonse" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM ALFONSE</role>, frère d’Elvire</castItem>
-        <castItem><role xml:id="dom-louis" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM LOUIS</role>, père de Dom Juan.</castItem>
-        <castItem><role xml:id="pauvre" civil="M" type="H" statut="pauvre" age="V" stat_amour="néant">FRANCISQUE</role>, pauvre.</castItem>
-        <castItem><role xml:id="charlotte" civil="F" type="H" statut="paysan" age="V" stat_amour="néant">CHARLOTTE</role>, paysanne.</castItem>
-        <castItem><role xml:id="mathurine" civil="F" type="H" statut="paysan" age="V" stat_amour="néant">MATHURINE</role>, paysanne.</castItem>
-        <castItem><role xml:id="pierrot" civil="M" type="H" statut="paysan" age="V" stat_amour="néant">PIERROT</role>, paysan.</castItem>
-        <castItem><role xml:id="commandeur" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">La STATUE du COMMANDEUR</role>.</castItem>
-        <castItem><role xml:id="la-violette" civil="M" type="H" statut="laquais" age="V" stat_amour="néant">LA VIOLETTE</role>, laquais de Dom Juan.</castItem>
-        <castItem><role xml:id="ragotin" civil="M" type="H" statut="laquais" age="V" stat_amour="néant">RAGOTIN</role>, laquais de Dom Juan.</castItem>
-        <castItem><role xml:id="monsieur-dimanche" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">MONSIEUR DIMANCHE</role>, marchand.</castItem>
-        <castItem><role xml:id="la-ramee" civil="M" type="H" statut="spadassin" age="V" stat_amour="néant">LA RAMÉE</role>, spadassin.</castItem>
-        <castItem><role xml:id="suite-dom-juan" civil="G" type="H" statut="suite" age="V" stat_amour="néant">Suite de DOM JUAN</role>.</castItem>
-        <castItem><role xml:id="suite-dom-carlos" civil="G" type="H" statut="suite" age="V" stat_amour="néant">Suite de Dom Carlos et de Dom Alonse</role>, frères.><role xml:id="dom-alonse" civil="M"/></castItem>
+        <castItem><role xml:id="elvire" civil="F" statut="bourgeois" age="V" stat_amour="amoureux">ELVIRE</role>, Femme de Dom Juan.</castItem>
+        <castItem><role xml:id="gusman" civil="M" type="H" statut="écuyer" age="V" stat_amour="néant">GUSMAN</role>, Écuyer d’Elvire.</castItem>
+        <castItem><role xml:id="dom-carlos" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM CARLOS</role>, Frère d’Elvire.</castItem>
+        <castItem><role xml:id="dom-alonse" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM ALONSE</role>, Frère d’Elvire</castItem>
+        <castItem><role xml:id="dom-louis" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM LOUIS</role>, Père de Dom Juan.</castItem>
+        <castItem><role xml:id="pauvre" civil="M" type="H" statut="pauvre" age="V" stat_amour="néant">FRANCISQUE</role>, Pauvre.</castItem>
+        <castItem><role xml:id="charlotte" civil="F" type="H" statut="paysan" age="V" stat_amour="néant">CHARLOTTE</role>, Paysanne.</castItem>
+        <castItem><role xml:id="mathurine" civil="F" type="H" statut="paysan" age="V" stat_amour="néant">MATHURINE</role>, Paysanne.</castItem>
+        <castItem><role xml:id="pierrot" civil="M" type="H" statut="paysan" age="V" stat_amour="néant">PIERROT</role>, Paysan.</castItem>
+        <castItem><role xml:id="commandeur" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">La STATUE du Commandeur</role>.</castItem>
+        <castItem><role xml:id="la-violette" civil="M" type="H" statut="laquais" age="V" stat_amour="néant">LA VIOLETTE</role>, Laquais de Dom Juan.</castItem>
+        <castItem><role xml:id="ragotin" civil="M" type="H" statut="laquais" age="V" stat_amour="néant">RAGOTIN</role>, Laquais de Dom Juan.</castItem>
+        <castItem><role xml:id="monsieur-dimanche" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">MONSIEUR DIMANCHE</role>, Marchand.</castItem>
+        <castItem><role xml:id="la-ramee" civil="M" type="H" statut="spadassin" age="V" stat_amour="néant">LA RAMÉE</role>, Spadassin.</castItem>
+        <castItem><role xml:id="suite-dom-juan" civil="G" type="H" statut="suite" age="V" stat_amour="néant">SUITE de Dom Juan</role>.</castItem>
+        <castItem><role xml:id="suite-dom-carlos" civil="G" type="H" statut="suite" age="V" stat_amour="néant">SUITE de Dom Carlos et de Dom Alonse</role>, Frères.</castItem>
         <castItem><role xml:id="spectre" civil="M" type="A" statut="fantôme" age="V" stat_amour="néant">UN SPECTRE</role>.</castItem>
       </castList>
-      <set location="Sicile" country="Italie" periode="XVIIème" link="">La scène est en Sicile.</set>
+      <set location="Sicile" country="Italie" periode="XVIIème" link="">La Scène est en Sicile.</set>
+      </div>
     </front>
     <body>
       <div1 type="acte" n="1" xml:id="I">
