@@ -61,7 +61,7 @@
         <castItem><role xml:id="dom-carlos" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM CARLOS</role>, Frère d’Elvire.</castItem>
         <castItem><role xml:id="dom-alonse" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM ALONSE</role>, Frère d’Elvire</castItem>
         <castItem><role xml:id="dom-louis" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM LOUIS</role>, Père de Dom Juan.</castItem>
-        <castItem><role xml:id="pauvre" civil="M" type="H" statut="pauvre" age="V" stat_amour="néant">FRANCISQUE</role>, Pauvre.</castItem>
+        <castItem><role xml:id="francisque" civil="M" type="H" statut="pauvre" age="V" stat_amour="néant">FRANCISQUE</role>, Pauvre.</castItem>
         <castItem><role xml:id="charlotte" civil="F" type="H" statut="paysan" age="V" stat_amour="néant">CHARLOTTE</role>, Paysanne.</castItem>
         <castItem><role xml:id="mathurine" civil="F" type="H" statut="paysan" age="V" stat_amour="néant">MATHURINE</role>, Paysanne.</castItem>
         <castItem><role xml:id="pierrot" civil="M" type="H" statut="paysan" age="V" stat_amour="néant">PIERROT</role>, Paysan.</castItem>
@@ -2342,156 +2342,36 @@
         </div2>
         <div2 type="scene" n="2" xml:id="III02">
           <head>SCÈNE II</head>
-          <stage>Dom Juan, Sganarelle, Un Pauvre.</stage>
+          <stage>Don Juan, Sganarelle, Francisque</stage>
           <sp who="sganarelle" xml:id="III02-1">
             <speaker>sganarelle</speaker>
             <p>
-              <s>Enseignez-nous un peu le chemin qui mène à la ville.</s>
+              <s>Enseignez-nous un peu le chemin qui mène à la Ville.</s>
             </p>
           </sp>
-          <sp who="pauvre" xml:id="III02-2">
-            <speaker>le pauvre</speaker>
+          <sp who="francisque" xml:id="III02-2">
+            <speaker>francisque</speaker>
             <p>
               <s>Vous n’avez qu’à suivre cette route, Messieurs, et détourner à main droite quand vous serez au bout de la forêt.</s>
-              <s>Mais je vous donne avis que vous devez vous tenir sur vos gardes, et que depuis quelque temps il y a des voleurs ici autour.</s>
+              <s>Mais je vous donne avis que vous devez vous tenir sur vos gardes, et que depuis quelque temps, il y a des voleurs ici autour.</s>
             </p>
           </sp>
           <sp who="dom-juan" xml:id="III02-3">
             <speaker>dom juan</speaker>
             <p>
-              <s>Je te suis bien obligé, mon ami, et je te rends grâce de tout mon cœur.</s>
+              <s>Je te suis bien obligé, mon ami, et je te rends grâces de tout mon cœur de ton bon avis.</s>
             </p>
           </sp>
-          <sp who="pauvre" xml:id="III02-4">
-            <speaker>le pauvre</speaker>
+          <sp who="sganarelle" xml:id="III02-4">
+            <speaker>sganarelle<hi rend="i">regardant dans la forêt.</hi></speaker>
             <p>
-              <s>Si vous vouliez, Monsieur, me secourir de quelque aumône ?</s>
+              <s>Ha, Monsieur, quel bruit, quel cliquetis !</s>
             </p>
           </sp>
           <sp who="dom-juan" xml:id="III02-5">
-            <speaker>dom juan</speaker>
+            <speaker>dom juan <hi rend="i">en se retournant.</hi></speaker>
             <p>
-              <s>Ah !</s>
-              <s>Ah !</s>
-              <s>Ton avis est intéressé, à ce que je vois.</s>
-            </p>
-          </sp>
-          <sp who="pauvre" xml:id="III02-6">
-            <speaker>le pauvre</speaker>
-            <p>
-              <s>Je suis un pauvre homme, Monsieur, retiré tout seul dans ce bois depuis dix ans, et je ne manquerai pas de prier le Ciel qu’il vous donne toute sorte de biens.</s>
-            </p>
-          </sp>
-          <sp who="dom-juan" xml:id="III02-7">
-            <speaker>dom juan</speaker>
-            <p>
-              <s>Eh !</s>
-              <s>Prie-le qu’il te donne un habit, sans te mettre en peine des affaires des autres.</s>
-            </p>
-          </sp>
-          <sp who="sganarelle" xml:id="III02-8">
-            <speaker>sganarelle</speaker>
-            <p>
-              <s>Vous ne connaissez pas Monsieur, bonhomme ; il ne croit qu’en deux et deux sont quatre et en quatre et quatre sont huit.</s>
-            </p>
-          </sp>
-          <sp who="dom-juan" xml:id="III02-9">
-            <speaker>dom juan</speaker>
-            <p>
-              <s>Quelle est ton occupation parmi ces arbres ?</s>
-            </p>
-          </sp>
-          <sp who="pauvre" xml:id="III02-10">
-            <speaker>le pauvre</speaker>
-            <p>
-              <s>De prier le Ciel tout le jour pour la prospérité des gens de bien qui me donnent quelque chose.</s>
-            </p>
-          </sp>
-          <sp who="dom-juan" xml:id="III02-11">
-            <speaker>dom juan</speaker>
-            <p>
-              <s>Il ne se peut donc pas que tu ne sois bien à ton aise ?</s>
-            </p>
-          </sp>
-          <sp who="pauvre" xml:id="III02-12">
-            <speaker>le pauvre</speaker>
-            <p>
-              <s>Hélas !</s>
-              <s>Monsieur, je suis dans la plus grande nécessité du monde.</s>
-            </p>
-          </sp>
-          <sp who="dom-juan" xml:id="III02-13">
-            <speaker>dom juan</speaker>
-            <p>
-              <s>Tu te moques : un homme qui prie le Ciel tout le jour ne peut pas manquer d’être bien dans ses affaires.</s>
-            </p>
-          </sp>
-          <sp who="pauvre" xml:id="III02-14">
-            <speaker>le pauvre</speaker>
-            <p>
-              <s>Je vous assure, Monsieur, que le plus souvent je n’ai pas un morceau de pain à me mettre sous les dents.</s>
-            </p>
-          </sp>
-          <sp who="dom-juan" xml:id="III02-15">
-            <speaker>dom juan</speaker>
-            <p>
-              <s>Voilà qui est étrange, et tu es bien mal reconnu de tes soins.</s>
-              <s>Ah !</s>
-              <s>ah !</s>
-              <s>Je m’en vais te donner un louis d’or tout à l’heure, pourvu que tu veuilles jurer.</s>
-            </p>
-          </sp>
-          <sp who="pauvre" xml:id="III02-16">
-            <speaker>le pauvre</speaker>
-            <p>
-              <s>Ah !</s>
-              <s>Monsieur, voudriez-vous que je commisse un tel péché ?</s>
-            </p>
-          </sp>
-          <sp who="dom-juan" xml:id="III02-17">
-            <speaker>dom juan</speaker>
-            <p>
-              <s>Tu n’as qu’à voir si tu veux gagner un louis d’or ou non.</s>
-              <s>En voici un que je te donne, si tu jures ; tiens, il faut jurer.</s>
-            </p>
-          </sp>
-          <sp who="pauvre" xml:id="III02-18">
-            <speaker>le pauvre</speaker>
-            <p>
-              <s>Monsieur !</s>
-            </p>
-          </sp>
-          <sp who="dom-juan" xml:id="III02-19">
-            <speaker>dom juan</speaker>
-            <p>
-              <s>À moins de cela, tu ne l’auras pas.</s>
-            </p>
-          </sp>
-          <sp who="sganarelle" xml:id="III02-20">
-            <speaker>sganarelle</speaker>
-            <p>
-              <s>Va, va, jure un peu, il n’y a pas de mal.</s>
-            </p>
-          </sp>
-          <sp who="dom-juan" xml:id="III02-21">
-            <speaker>dom juan</speaker>
-            <p>
-              <s>Prends, le voilà ; prends, te dis-je, mais jure donc.</s>
-            </p>
-          </sp>
-          <sp who="pauvre" xml:id="III02-22">
-            <speaker>le pauvre</speaker>
-            <p>
-              <s>Non, Monsieur, j’aime mieux mourir de faim.</s>
-            </p>
-          </sp>
-          <sp who="dom-juan" xml:id="III02-23">
-            <speaker>dom juan</speaker>
-            <p>
-              <s>Va, va, je te le donne pour l’amour de l’humanité.</s>
-              <s>Mais que vois-je là ?</s>
-              <s>Un homme attaqué par trois autres ?</s>
-              <s>La partie est trop inégale, et je ne dois pas souffrir cette lâcheté.</s>
+              <s>Que vois-je là ? un homme attaqué par trois autres ! la partie est trop inégale, et je ne dois pas souffrir cette lâcheté.</s>
             </p>
             <stage>Il court au lieu du combat.</stage>
           </sp>
@@ -2620,63 +2500,55 @@
         </div2>
         <div2 type="scene" n="4" xml:id="III04">
           <head>SCÈNE IV</head>
-          <stage>Dom Alonse, et trois Suivants, Dom Carlos, Dom Juan, Sganarelle</stage>
+          <stage>Don Alonse, <hi rend="i">et trois Suivants,</hi> Don Carlos, Don Juan, Sganarelle</stage>
           <sp who="dom-alonse" xml:id="III04-1">
             <speaker>dom alonse</speaker>
             <p>
-              <s>Faites boire là mes chevaux, et qu’on les amène après nous ; je veux un peu marcher à pied.</s>
-              <s>Ô Ciel !</s>
-              <s>Que vois-je ici !</s>
-              <s>Quoi ?</s>
-              <s>Mon frère, vous voilà avec notre ennemi mortel ?</s>
+              <s>Faites boire là mes chevaux, et qu’on les amène après nous, je veux un peu marcher à pied.</s>
+              <s>Ô Ciel que vois-je ici ! quoi, mon frère, vous voilà avec notre ennemi mortel !</s>
             </p>
           </sp>
           <sp who="dom-carlos" xml:id="III04-2">
             <speaker>dom carlos</speaker>
             <p>
-              <s>Notre ennemi mortel ?</s>
+              <s>Notre Ennemi mortel ?</s>
             </p>
           </sp>
           <sp who="dom-juan" xml:id="III04-3">
-            <speaker>dom juan ; se reculant de trois pas et mettant fièrement la main sur la garde de son épée</speaker>
+            <speaker>don juan <hi rend="i">se reculant trois pas et mettant fièrement la main sur la garde de son épée</hi></speaker>
             <p>
-              <s>Oui, je suis Dom Juan moi-même, et l’avantage du nombre ne m’obligea pas à vouloir déguiser mon nom.</s>
+              <s>Oui je suis Don Juan moi-même, et l’avantage du nombre ne m’obligera pas à vouloir déguiser mon nom.</s>
             </p>
           </sp>
           <sp who="dom-alonse" xml:id="III04-4">
             <speaker>dom alonse</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Traître, il faut que tu périsses, et...</s>
+              <s>Ah traître, il faut que tu périsses et...</s>
             </p>
           </sp>
           <sp who="dom-carlos" xml:id="III04-5">
             <speaker>dom carlos</speaker>
             <p>
-              <s>Ah !</s>
-              <s>Mon frère, arrêtez.</s>
-              <s>Je lui suis redevable de la vie ; et sans le secours de son bras, j’aurais été tué par des voleurs que j’ai trouvés !</s>
+              <s>Ah, mon frère, arrêtez, je lui suis redevable de la vie, et sans le secours de son bras, j’aurais été tué par des voleurs que j’ai trouvés.</s>
             </p>
           </sp>
           <sp who="dom-alonse" xml:id="III04-6">
             <speaker>dom alonse</speaker>
             <p>
-              <s>Et voulez-vous que cette considération empêche notre vengeance ?</s>
-              <s>Tous les services que nous rend une main ennemie ne sont d’aucun mérite pour engager notre âme ; et s’il faut mesurer l’obligation à l’injure, votre reconnaissance, mon frère, est ici ridicule ; et comme l’honneur est infiniment plus précieux que la vie, c’est ne devoir rien proprement que d’être redevable de la vie à qui nous a ôté l’honneur.</s>
+              <s>Et voulez-vous que cette considération empêche notre vengeance ? tous les services que nous rend une main ennemie, ne sont d’aucun mérite pour engager notre âme ; et s’il faut mesurer l’obligation à l’injure, votre reconnaissance, mon frère, est ici ridicule ; et comme l’honneur est infiniment plus précieux que la vie, c’est ne devoir rien proprement que d’être redevable de la vie à qui nous a ôté l’honneur.</s>
             </p>
           </sp>
           <sp who="dom-carlos" xml:id="III04-7">
             <speaker>dom carlos</speaker>
             <p>
-              <s>Je sais la différence, mon frère, qu’un gentilhomme doit toujours mettre entre l’un et l’autre, et la reconnaissance de l’obligation n’efface point en moi le ressentiment de l’injure ; mais souffrez que je lui rende ici ce qu’il m’a prêté, que je m’acquitte sur-le-champ de la vie que je lui dois, par un délai de notre vengeance, et lui laisse la liberté de jouir, durant quelques jours, du fruit de son bienfait.</s>
+              <s>Je sais la différence, mon frère, qu’un Gentilhomme doit toujours mettre entre l’un et l’autre, et la reconnaissance de l’obligation n’efface point en moi le ressentiment de l’injure ; mais souffrez que je lui rende ici ce qu’il m’a prêté, que je m’acquitte sur-le-champ de la vie que je lui dois, par un délai de notre vengeance, et lui laisse la liberté de jouir, durant quelques jours, du fruit de son bienfait.</s>
             </p>
           </sp>
           <sp who="dom-alonse" xml:id="III04-8">
             <speaker>dom alonse</speaker>
             <p>
-              <s>Non, non, c’est hasarder notre vengeance que de la reculer et l’occasion de la prendre peut ne plus revenir.</s>
-              <s>Le Ciel nous l’offre ici, c’est à nous d’en profiter.</s>
-              <s>Lorsque l’honneur est blessé mortellement, on ne doit point songer à garder aucunes mesures ; et si vous répugnez à prêter votre bras à cette action, vous n’avez qu’a vous retirer et laisser à ma main la gloire d’un tel sacrifice.</s>
+              <s>Non, non, c’est hasarder notre vengeance que de la reculer et l’occasion de la prendre peut ne plus revenir ; le Ciel nous l’offre ici, c’est à nous d’en profiter.</s>
+              <s>Lorsque l’honneur est blessé mortellement, on ne doit point songer à garder aucunes mesures, et si vous répugnez à prêter votre bras à cette action, vous n’avez qu’à vous retirer, et laisser à ma main la gloire d’un tel sacrifice.</s>
             </p>
           </sp>
           <sp who="dom-carlos" xml:id="III04-9">
