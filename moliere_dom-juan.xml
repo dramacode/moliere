@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Dom Juan, ou Le Festin de Pierre, Comédie</title>
+        <title>Don Juan, ou Le Festin de Pierre, Comédie</title>
         <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
@@ -19,7 +19,7 @@
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_dom-juan.xml</idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Molière, </author><title>Dom Juan, ou Le Festin de Pierre, Comédie</title>, dans <title>Les Oeuvres posthumes de Monsieur de Molière</title>, t. VII, Paris, 1682.</bibl>
+        <bibl><author>Molière, </author><title>Don Juan, ou Le Festin de Pierre, Comédie</title>, dans <title>Les Oeuvres posthumes de Monsieur de Molière</title>, t. VII, Paris, 1682.</bibl>
         <genre>Comédie</genre>
         <inspiration>mœurs italiennes</inspiration>
         <type>prose</type>
@@ -41,7 +41,7 @@
     <front>
       <titlePage>
       <docTitle>
-        <titlePart type="main">Dom Juan</titlePart>
+        <titlePart type="main">Don Juan</titlePart>
         <titlePart type="main">ou Le Festin de Pierre</titlePart>
         <titlePart type="sub">Comédie</titlePart>
       </docTitle>
@@ -54,24 +54,24 @@
       <div>
         <head>PERSONNAGES</head>
       <castList>
-        <castItem><role xml:id="dom-juan" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM JUAN</role>, Fils de Dom Louis.</castItem>
-        <castItem><role xml:id="sganarelle" civil="M" type="H" statut="valet" age="V" stat_amour="néant">SGANARELLE</role>, valet de Dom Juan.</castItem>
-        <castItem><role xml:id="elvire" civil="F" statut="bourgeois" age="V" stat_amour="amoureux">ELVIRE</role>, Femme de Dom Juan.</castItem>
+        <castItem><role xml:id="don-juan" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM JUAN</role>, Fils de Don Louis.</castItem>
+        <castItem><role xml:id="sganarelle" civil="M" type="H" statut="valet" age="V" stat_amour="néant">SGANARELLE</role>, valet de Don Juan.</castItem>
+        <castItem><role xml:id="elvire" civil="F" statut="bourgeois" age="V" stat_amour="amoureux">ELVIRE</role>, Femme de Don Juan.</castItem>
         <castItem><role xml:id="gusman" civil="M" type="H" statut="écuyer" age="V" stat_amour="néant">GUSMAN</role>, Écuyer d’Elvire.</castItem>
-        <castItem><role xml:id="dom-carlos" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM CARLOS</role>, Frère d’Elvire.</castItem>
-        <castItem><role xml:id="dom-alonse" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM ALONSE</role>, Frère d’Elvire</castItem>
-        <castItem><role xml:id="dom-louis" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM LOUIS</role>, Père de Dom Juan.</castItem>
+        <castItem><role xml:id="don-carlos" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM CARLOS</role>, Frère d’Elvire.</castItem>
+        <castItem><role xml:id="don-alonse" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM ALONSE</role>, Frère d’Elvire</castItem>
+        <castItem><role xml:id="don-louis" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM LOUIS</role>, Père de Don Juan.</castItem>
         <castItem><role xml:id="francisque" civil="M" type="H" statut="pauvre" age="V" stat_amour="néant">FRANCISQUE</role>, Pauvre.</castItem>
         <castItem><role xml:id="charlotte" civil="F" type="H" statut="paysan" age="V" stat_amour="néant">CHARLOTTE</role>, Paysanne.</castItem>
         <castItem><role xml:id="mathurine" civil="F" type="H" statut="paysan" age="V" stat_amour="néant">MATHURINE</role>, Paysanne.</castItem>
         <castItem><role xml:id="pierrot" civil="M" type="H" statut="paysan" age="V" stat_amour="néant">PIERROT</role>, Paysan.</castItem>
         <castItem><role xml:id="commandeur" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">La STATUE du Commandeur</role>.</castItem>
-        <castItem><role xml:id="la-violette" civil="M" type="H" statut="laquais" age="V" stat_amour="néant">LA VIOLETTE</role>, Laquais de Dom Juan.</castItem>
-        <castItem><role xml:id="ragotin" civil="M" type="H" statut="laquais" age="V" stat_amour="néant">RAGOTIN</role>, Laquais de Dom Juan.</castItem>
+        <castItem><role xml:id="la-violette" civil="M" type="H" statut="laquais" age="V" stat_amour="néant">LA VIOLETTE</role>, Laquais de Don Juan.</castItem>
+        <castItem><role xml:id="ragotin" civil="M" type="H" statut="laquais" age="V" stat_amour="néant">RAGOTIN</role>, Laquais de Don Juan.</castItem>
         <castItem><role xml:id="monsieur-dimanche" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">MONSIEUR DIMANCHE</role>, Marchand.</castItem>
         <castItem><role xml:id="la-ramee" civil="M" type="H" statut="spadassin" age="V" stat_amour="néant">LA RAMÉE</role>, Spadassin.</castItem>
-        <castItem><role xml:id="suite-dom-juan" civil="G" type="H" statut="suite" age="V" stat_amour="néant">SUITE de Dom Juan</role>.</castItem>
-        <castItem><role xml:id="suite-dom-carlos" civil="G" type="H" statut="suite" age="V" stat_amour="néant">SUITE de Dom Carlos et de Dom Alonse</role>, Frères.</castItem>
+        <castItem><role xml:id="suite-don-juan" civil="G" type="H" statut="suite" age="V" stat_amour="néant">SUITE de Don Juan</role>.</castItem>
+        <castItem><role xml:id="suite-don-carlos" civil="G" type="H" statut="suite" age="V" stat_amour="néant">SUITE de Don Carlos et de Don Alonse</role>, Frères.</castItem>
         <castItem><role xml:id="spectre" civil="M" type="A" statut="fantôme" age="V" stat_amour="néant">UN SPECTRE</role>.</castItem>
       </castList>
       <set location="Sicile" country="Italie" periode="XVIIème" link="">La Scène est en Sicile.</set>
@@ -116,7 +116,7 @@
             <speaker>gusman</speaker>
             <p>
               <s>Quoi ?</s>
-              <s>Ce départ si peu prévu serait une infidélité de Dom Juan ?</s>
+              <s>Ce départ si peu prévu serait une infidélité de Don Juan ?</s>
               <s>Il pourrait faire cette injure aux chastes feux de Done Elvire ?</s>
             </p>
           </sp>
@@ -149,7 +149,7 @@
             <speaker>sganarelle</speaker>
             <p>
               <s>Eh !</s>
-              <s>mon pauvre Gusman, mon ami, tu ne sais pas encore, crois-moi, quel homme est Dom Juan.</s>
+              <s>mon pauvre Gusman, mon ami, tu ne sais pas encore, crois-moi, quel homme est Don Juan.</s>
             </p>
           </sp>
           <sp who="gusman" xml:id="I01-10">
@@ -162,7 +162,7 @@
             <speaker>sganarelle</speaker>
             <p>
               <s>Je n’ai pas grande peine à le comprendre, moi ; et si tu connaissais le pèlerin, tu trouverais la chose assez facile pour lui.</s>
-              <s>Je ne dis pas qu’il ait changé de sentiments pour Done Elvire, je n’en ai point de certitude encore : tu sais que, par son ordre, je partis avant lui, et depuis son arrivée il ne m’a point entretenu ; mais, par précaution, je t’apprends, inter nos, que tu vois en Dom Juan, mon maître, le plus grand scélérat que la terre ait jamais porté, un enragé, un chien, un diable, un Turc, un hérétique, qui ne croit ni Ciel, ni Enfer, ni loup-garou, qui passe cette vie en véritable bête brute, un pourceau d’Epicure, un vrai Sardanapale, qui ferme l’oreille à toutes les remontrances [chrétiennes] qu’on lui peut faire, et traite de billevesées tout ce que nous croyons.</s>
+              <s>Je ne dis pas qu’il ait changé de sentiments pour Done Elvire, je n’en ai point de certitude encore : tu sais que, par son ordre, je partis avant lui, et depuis son arrivée il ne m’a point entretenu ; mais, par précaution, je t’apprends, inter nos, que tu vois en Don Juan, mon maître, le plus grand scélérat que la terre ait jamais porté, un enragé, un chien, un diable, un Turc, un hérétique, qui ne croit ni Ciel, ni Enfer, ni loup-garou, qui passe cette vie en véritable bête brute, un pourceau d’Epicure, un vrai Sardanapale, qui ferme l’oreille à toutes les remontrances [chrétiennes] qu’on lui peut faire, et traite de billevesées tout ce que nous croyons.</s>
               <s>Tu me dis qu’il a épousé ta maîtresse : crois qu’il aurait plus fait pour sa passion, et qu’avec elle il aurait encore épousé toi, son chien et son chat.</s>
               <s>Un mariage ne lui coûte rien à contracter ; il ne se sert point d’autres pièges pour attraper les belles, et c’est un épouseur à toutes mains.</s>
               <s>Dame, demoiselle, bourgeoise, paysanne, il ne trouve rien de trop chaud ni de trop froid pour lui ; et si je te disais le nom de toutes celles qu’il a épousées en divers lieux, ce serait un chapitre à durer jusques au soir.</s>
@@ -176,9 +176,9 @@
         </div2>
         <div2 type="scene" n="2" xml:id="I02">
           <head>SCÈNE II</head>
-          <stage>Dom Juan, Sganarelle.</stage>
-          <sp who="dom-juan" xml:id="I02-1">
-            <speaker>dom juan</speaker>
+          <stage>Don Juan, Sganarelle.</stage>
+          <sp who="don-juan" xml:id="I02-1">
+            <speaker>don juan</speaker>
             <p>
               <s>Quel homme te parlait là ?</s>
               <s>Il a bien de l’air, ce me semble, du bon Gusman de Done Elvire.</s>
@@ -190,8 +190,8 @@
               <s>C’est quelque chose aussi à peu près de cela.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-3">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-3">
+            <speaker>don juan</speaker>
             <p>
               <s>Quoi ?</s>
               <s>C’est lui ?</s>
@@ -203,8 +203,8 @@
               <s>Lui-même.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-5">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-5">
+            <speaker>don juan</speaker>
             <p>
               <s>Et depuis quand est-il en cette ville ?</s>
             </p>
@@ -215,8 +215,8 @@
               <s>D’hier au soir.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-7">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-7">
+            <speaker>don juan</speaker>
             <p>
               <s>Et quel sujet l’amène ?</s>
             </p>
@@ -227,8 +227,8 @@
               <s>Je crois que vous jugez assez ce qui le peut inquiéter.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-9">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-9">
+            <speaker>don juan</speaker>
             <p>
               <s>Notre départ sans doute ?</s>
             </p>
@@ -239,8 +239,8 @@
               <s>Le bonhomme en est tout mortifié, et m’en demandait le sujet.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-11">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-11">
+            <speaker>don juan</speaker>
             <p>
               <s>Et quelle réponse as-tu faite ?</s>
             </p>
@@ -251,8 +251,8 @@
               <s>Que vous ne m’en aviez rien dit.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-13">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-13">
+            <speaker>don juan</speaker>
             <p>
               <s>Mais encore, quelle est ta pensée là-dessus ?</s>
               <s>Que t’imagines-tu de cette affaire ?</s>
@@ -264,8 +264,8 @@
               <s>Moi, je crois, sans vous faire tort, que vous avez quelque nouvel amour en tête.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-15">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-15">
+            <speaker>don juan</speaker>
             <p>
               <s>Tu le crois ?</s>
             </p>
@@ -276,8 +276,8 @@
               <s>Oui.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-17">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-17">
+            <speaker>don juan</speaker>
             <p>
               <s>Ma foi !</s>
               <s>Tu ne te trompes pas, et je dois t’avouer qu’un autre objet a chassé Elvire de ma pensée.</s>
@@ -288,11 +288,11 @@
             <p>
               <s>Eh !</s>
               <s>Mon Dieu !</s>
-              <s>Je sais mon Dom Juan sur le bout du doigt, et connais votre cœur pour le plus grand coureur du monde : il se plaît à se promener de liens en liens, et n’aime guère demeurer en place.</s>
+              <s>Je sais mon Don Juan sur le bout du doigt, et connais votre cœur pour le plus grand coureur du monde : il se plaît à se promener de liens en liens, et n’aime guère demeurer en place.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-19">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-19">
+            <speaker>don juan</speaker>
             <p>
               <s>Et ne trouves-tu pas, dis-moi, que j’ai raison d’en user de la sorte ?</s>
             </p>
@@ -304,8 +304,8 @@
               <s>Monsieur.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-21">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-21">
+            <speaker>don juan</speaker>
             <p>
               <s>Quoi ?</s>
               <s>Parle.</s>
@@ -318,8 +318,8 @@
               <s>Mais si vous ne le vouliez pas, ce serait peut-être une autre affaire.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-23">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-23">
+            <speaker>don juan</speaker>
             <p>
               <s>Eh bien !</s>
               <s>Je te donne la liberté de parler et de me dire tes sentiments.</s>
@@ -331,8 +331,8 @@
               <s>En ce cas, Monsieur, je vous dirai franchement que je n’approuve point votre méthode, et que je trouve fort vilain d’aimer de tous côtés comme vous faites.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-25">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-25">
+            <speaker>don juan</speaker>
             <p>
               <s>Quoi ?</s>
               <s>Tu veux qu’on se lie à demeurer au premier objet qui nous prend, qu’on renonce au monde pour lui, et qu’on n’ait plus d’yeux pour personne ?</s>
@@ -355,8 +355,8 @@
               <s>Il semble que vous avez appris cela par cœur, et vous parlez tout comme un livre.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-27">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-27">
+            <speaker>don juan</speaker>
             <p>
               <s>Qu’as-tu à dire là-dessus ?</s>
             </p>
@@ -371,8 +371,8 @@
               <s>Laissez faire : une autre fois je mettrai mes raisonnements par écrit, pour disputer avec vous.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-29">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-29">
+            <speaker>don juan</speaker>
             <p>
               <s>Tu feras bien.</s>
             </p>
@@ -383,8 +383,8 @@
               <s>Mais, Monsieur, cela serait-il de la permission que vous m’avez donnée, si je vous disais que je suis tant soit peu scandalisé de la vie que vous menez ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-31">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-31">
+            <speaker>don juan</speaker>
             <p>
               <s>Comment ?</s>
               <s>Quelle vie est-ce que je mène ?</s>
@@ -397,8 +397,8 @@
               <s>Mais, par exemple, de vous voir tous les mois vous marier comme vous faites...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-33">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-33">
+            <speaker>don juan</speaker>
             <p>
               <s>Y a-t-il rien de plus agréable ?</s>
             </p>
@@ -409,8 +409,8 @@
               <s>Il est vrai, je conçois que cela est fort agréable et fort divertissant, et je m’en accommoderais assez, moi, s’il n’y avait point de mal, mais, Monsieur, se jouer ainsi d’un mystère sacré, et...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-35">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-35">
+            <speaker>don juan</speaker>
             <p>
               <s>Va, va, c’est une affaire entre le Ciel et moi, et nous la démêlerons bien ensemble, sans que tu t’en mettes en peine.</s>
             </p>
@@ -422,8 +422,8 @@
               <s>Monsieur, j’ai toujours ouï dire, que c’est une méchante raillerie que de se railler du Ciel, et que les libertins ne font jamais une bonne fin.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-37">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-37">
+            <speaker>don juan</speaker>
             <p>
               <s>Holà !</s>
               <s>Maître sot, vous savez que je vous ai dit que je n’aime pas les faiseurs de remontrances.</s>
@@ -439,8 +439,8 @@
               <s>Apprenez de moi, qui suis votre valet, que le Ciel punit tôt ou tard les impies, qu’une méchante vie amène une méchante mort, et que...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-39">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-39">
+            <speaker>don juan</speaker>
             <p>
               <s>Paix !</s>
             </p>
@@ -451,8 +451,8 @@
               <s>De quoi est-il question ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-41">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-41">
+            <speaker>don juan</speaker>
             <p>
               <s>Il est question de te dire qu’une beauté me tient au cœur, et qu’entraîné par ses appas, je l’ai suivie jusques en cette ville.</s>
             </p>
@@ -463,8 +463,8 @@
               <s>Et n’y craignez-vous rien, Monsieur, de la mort de ce commandeur que vous tuâtes il y a six mois ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-43">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-43">
+            <speaker>don juan</speaker>
             <p>
               <s>Et pourquoi craindre ?</s>
               <s>Ne l’ai-je pas bien tué ?</s>
@@ -476,8 +476,8 @@
               <s>Fort bien, le mieux du monde, et il aurait tort de se plaindre.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-45">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-45">
+            <speaker>don juan</speaker>
             <p>
               <s>J’ai eu ma grâce de cette affaire.</s>
             </p>
@@ -488,8 +488,8 @@
               <s>Oui, mais cette grâce n’éteint pas peut-être le ressentiment des parents et des amis, et...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-47">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-47">
+            <speaker>don juan</speaker>
             <p>
               <s>Ah !</s>
               <s>N’allons point songer au mal qui nous peut arriver, et songeons seulement à ce qui nous peut donner du plaisir.</s>
@@ -508,8 +508,8 @@
               <s>Monsieur...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-49">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-49">
+            <speaker>don juan</speaker>
             <p>
               <s>Hen ?</s>
             </p>
@@ -521,8 +521,8 @@
               <s>Il n’est rien tel en ce monde que de se contenter.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-51">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-51">
+            <speaker>don juan</speaker>
             <p>
               <s>Prépare-toi donc à venir avec moi, et prends soin toi-même d’apporter toutes mes armes, afin que...</s>
               <s>Ah !</s>
@@ -536,8 +536,8 @@
               <s>Monsieur, vous ne me l’avez pas demandé.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I02-53">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I02-53">
+            <speaker>don juan</speaker>
             <p>
               <s>Est-elle folle, de n’avoir pas changé d’habit, et de venir en ce lieu-ci avec son équipage de campagne ?</s>
             </p>
@@ -545,16 +545,16 @@
         </div2>
         <div2 type="scene" n="3" xml:id="I03">
           <head>SCÈNE III</head>
-          <stage>Dona Elvire, Dom Juan, Sganarelle.</stage>
+          <stage>Dona Elvire, Don Juan, Sganarelle.</stage>
           <sp who="elvire" xml:id="I03-1">
             <speaker>dona elvire</speaker>
             <p>
-              <s>Me ferez-vous la grâce, Dom Juan, de vouloir bien me reconnaître ?</s>
+              <s>Me ferez-vous la grâce, Don Juan, de vouloir bien me reconnaître ?</s>
               <s>Et puis-je au moins espérer que vous daigniez tourner le visage de ce côté ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I03-2">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I03-2">
+            <speaker>don juan</speaker>
             <p>
               <s>Madame, je vous avoue que je suis surpris, et que je ne vous attendais pas ici.</s>
             </p>
@@ -569,11 +569,11 @@
               <s>Mes justes soupçons chaque jour avaient beau me parler : j’en rejetais la voix qui vous rendait criminel à mes yeux, et j’écoutais avec plaisir mille chimères ridicules qui vous peignaient innocent à mon cœur.</s>
               <s>Mais enfin cet abord ne me permet plus de douter, et le coup d’œil qui m’a reçue m’apprend bien plus de choses que je ne voudrais en savoir.</s>
               <s>Je serai bien aise pourtant d’ouïr de votre bouche les raisons de votre départ.</s>
-              <s>Parlez, Dom Juan, je vous prie, et voyons de quel air vous saurez vous justifier !</s>
+              <s>Parlez, Don Juan, je vous prie, et voyons de quel air vous saurez vous justifier !</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I03-4">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I03-4">
+            <speaker>don juan</speaker>
             <p>
               <s>Madame, voilà Sganarelle qui sait pourquoi je suis parti.</s>
             </p>
@@ -593,8 +593,8 @@
               <s>Il n’importe de quelle bouche j’entende ces raisons.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I03-7">
-            <speaker>dom juan, faisant signe d’approcher à sganarelle</speaker>
+          <sp who="don-juan" xml:id="I03-7">
+            <speaker>don juan, faisant signe d’approcher à sganarelle</speaker>
             <p>
               <s>Allons, parle donc à Madame.</s>
             </p>
@@ -611,8 +611,8 @@
               <s>Approchez, puisqu’on le veut ainsi, et me dites un peu les causes d’un départ si prompt.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I03-10">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I03-10">
+            <speaker>don juan</speaker>
             <p>
               <s>Tu ne répondras pas ?</s>
             </p>
@@ -624,8 +624,8 @@
               <s>Vous vous moquez de votre serviteur.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I03-12">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I03-12">
+            <speaker>don juan</speaker>
             <p>
               <s>Veux-tu répondre, te dis-je ?</s>
             </p>
@@ -648,8 +648,8 @@
               <s>Monsieur...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I03-16">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I03-16">
+            <speaker>don juan</speaker>
             <p>
               <s>Si...</s>
             </p>
@@ -664,11 +664,11 @@
           <sp who="elvire" xml:id="I03-18">
             <speaker>dona elvire</speaker>
             <p>
-              <s>Vous plaît-il, Dom juan, nous éclaircir ces beaux mystères ?</s>
+              <s>Vous plaît-il, Don juan, nous éclaircir ces beaux mystères ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I03-19">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I03-19">
+            <speaker>don juan</speaker>
             <p>
               <s>Madame, à vous dire la vérité...</s>
             </p>
@@ -685,8 +685,8 @@
               <s>Voilà comme il faut vous défendre ; et non pas être interdit comme vous êtes.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I03-21">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I03-21">
+            <speaker>don juan</speaker>
             <p>
               <s>Je vous avoue, Madame, que je n’ai point le talent de dissimuler, et que je porte un cœur sincère.</s>
               <s>Je ne vous dirai point que je suis toujours dans les mêmes sentiments pour vous, et que je brûle de vous rejoindre, puisque enfin il est assuré que je ne suis parti que pour vous fuir ; non point par les raisons que vous pouvez vous figurer, mais par un pur motif de conscience, et pour ne croire pas qu’avec vous davantage je puisse vivre sans péché.</s>
@@ -704,8 +704,8 @@
               <s>Mais sache que ton crime ne demeurera pas impuni, et que le même Ciel dont tu te joues me saura venger de ta perfidie.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I03-23">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I03-23">
+            <speaker>don juan</speaker>
             <p>
               <s>Sganarelle, le Ciel !</s>
             </p>
@@ -716,8 +716,8 @@
               <s>Vraiment oui, nous nous moquons bien de cela, nous autres.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I03-25">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="I03-25">
+            <speaker>don juan</speaker>
             <p>
               <s>Madame...</s>
             </p>
@@ -738,8 +738,8 @@
               <s>Si le remords le pouvait prendre !</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="I03-28">
-            <speaker>dom juan, après une petite réflexion</speaker>
+          <sp who="don-juan" xml:id="I03-28">
+            <speaker>don juan, après une petite réflexion</speaker>
             <p>
               <s>Allons songer à l’exécution de notre entreprise amoureuse.</s>
             </p>
@@ -1085,7 +1085,7 @@
             <speaker>charlotte</speaker>
             <p>
               <s>Ah !</s>
-              <s>Mon quieu, qu’il est genti, et que ç’auroit été dommage qu’il eût esté nayé !</s>
+              <s>Mon quieu, qu’il est genti, et que ç’auroit été donmage qu’il eût esté nayé !</s>
             </p>
           </sp>
           <sp who="pierrot" xml:id="II01-46">
@@ -1097,9 +1097,9 @@
         </div2>
         <div2 type="scene" n="2" xml:id="II02">
           <head>SCÈNE II</head>
-          <stage>Dom Juan, Sganarelle, Charlotte.</stage>
-          <sp who="dom-juan" xml:id="II02-1">
-            <speaker>dom juan</speaker>
+          <stage>Don Juan, Sganarelle, Charlotte.</stage>
+          <sp who="don-juan" xml:id="II02-1">
+            <speaker>don juan</speaker>
             <p>
               <s>Nous avons manqué notre coup, Sganarelle, et cette bourrasque imprévue a renversé avec notre barque le projet que nous avions fait ; mais, à te dire vrai, la paysanne que je viens de quitter répare ce malheur, et je lui ai trouvé des charmes qui effacent de mon esprit tout le chagrin que me donnait le mauvais succès de notre entreprise.</s>
               <s>Il ne faut pas que ce cœur m’échappe, et j’y ai déjà jeté des dispositions à ne pas me souffrir longtemps de pousser des soupirs.</s>
@@ -1115,8 +1115,8 @@
               <s>Allons.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-3">
-            <speaker>dom juan, apercevant charlotte</speaker>
+          <sp who="don-juan" xml:id="II02-3">
+            <speaker>don juan, apercevant charlotte</speaker>
             <p>
               <s>Ah !</s>
               <s>Ah !</s>
@@ -1132,8 +1132,8 @@
               <s>Autre pièce nouvelle.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-5">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-5">
+            <speaker>don juan</speaker>
             <p>
               <s>D’où me vient, la belle, une rencontre si agréable ?</s>
               <s>Quoi ?</s>
@@ -1146,8 +1146,8 @@
               <s>Vous voyez, Monsieur.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-7">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-7">
+            <speaker>don juan</speaker>
             <p>
               <s>Etes-vous de ce village ?</s>
             </p>
@@ -1158,8 +1158,8 @@
               <s>Oui, Monsieur.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-9">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-9">
+            <speaker>don juan</speaker>
             <p>
               <s>Et vous y demeurez ?</s>
             </p>
@@ -1170,8 +1170,8 @@
               <s>Oui, Monsieur.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-11">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-11">
+            <speaker>don juan</speaker>
             <p>
               <s>Vous vous appelez ?</s>
             </p>
@@ -1182,8 +1182,8 @@
               <s>Charlotte, pour vous servir.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-13">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-13">
+            <speaker>don juan</speaker>
             <p>
               <s>Ah !</s>
               <s>La belle personne, et que ses yeux sont pénétrants !</s>
@@ -1195,8 +1195,8 @@
               <s>Monsieur, vous me rendez toute honteuse.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-15">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-15">
+            <speaker>don juan</speaker>
             <p>
               <s>Ah !</s>
               <s>N’ayez point de honte d’entendre dire vos vérités.</s>
@@ -1223,8 +1223,8 @@
               <s>Monsieur, cela vous plaît à dire, et je ne sais pas si c’est pour vous railler de moi.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-17">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-17">
+            <speaker>don juan</speaker>
             <p>
               <s>Moi, me railler de vous ?</s>
               <s>Dieu m’en garde !</s>
@@ -1237,8 +1237,8 @@
               <s>Je vous suis bien obligée, si ça est.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-19">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-19">
+            <speaker>don juan</speaker>
             <p>
               <s>Point du tout ; vous ne m’êtes point obligée de tout ce que je dis, et ce n’est qu’à votre beauté que vous en êtes redevable.</s>
             </p>
@@ -1249,8 +1249,8 @@
               <s>Monsieur, tout ça est trop bien dit pour moi, et je n’ai pas d’esprit pour vous répondre.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-21">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-21">
+            <speaker>don juan</speaker>
             <p>
               <s>Sganarelle, regarde un peu ses mains.</s>
             </p>
@@ -1262,8 +1262,8 @@
               <s>Monsieur, elles sont noires comme je ne sais quoi.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-23">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-23">
+            <speaker>don juan</speaker>
             <p>
               <s>Ha !</s>
               <s>Que dites-vous là ?</s>
@@ -1276,8 +1276,8 @@
               <s>Monsieur, c’est trop d’honneur que vous me faites, et si j’avqis su ça tantôt, je n’aurais pas manqué de les laver avec du son.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-25">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-25">
+            <speaker>don juan</speaker>
             <p>
               <s>Et dites-moi un peu, belle Charlotte, vous n’êtes pas mariée sans doute ?</s>
             </p>
@@ -1288,8 +1288,8 @@
               <s>Non, Monsieur ; mais je dois bientôt l’être avec Piarrot, le fils de la voisine Simonette.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-27">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-27">
+            <speaker>don juan</speaker>
             <p>
               <s>Quoi ?</s>
               <s>Une personne comme vous serait la femme d’un simple paysan !</s>
@@ -1306,8 +1306,8 @@
               <s>Ce que vous dites me fait aise, et j’aurais toutes les envies du monde de vous croire ; mais on m’a toujou dit qu’il ne faut jamais croire les Monsieux, et que vous autres courtisans êtes des enjoleus, qui ne songez qu’à abuser les filles.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-29">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-29">
+            <speaker>don juan</speaker>
             <p>
               <s>Je ne suis pas de ces gens-là.</s>
             </p>
@@ -1325,8 +1325,8 @@
               <s>Je suis une pauvre paysanne ; mais j’ai l’honneur en recommandation, et j’aimerais mieux me voir morte, que de me voir déshonorée.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-32">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-32">
+            <speaker>don juan</speaker>
             <p>
               <s>Moi, j’aurais l’âme assez méchante pour abuser une personne comme vous ?</s>
               <s>Je serais assez lâche pour vous déshonorer ?</s>
@@ -1341,8 +1341,8 @@
               <s>Non, non, ne craignez point : il se mariera avec vous tant que vous voudrez.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-34">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-34">
+            <speaker>don juan</speaker>
             <p>
               <s>Ah !</s>
               <s>Charlotte, je vois bien que vous ne me connaissez pas encore.</s>
@@ -1358,8 +1358,8 @@
               <s>Je ne sais si vous dites vrai, ou non ; mais vous faites que l’on vous croit.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-36">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-36">
+            <speaker>don juan</speaker>
             <p>
               <s>Lorsque vous me croirez, vous me rendrez justice assurément, et je vous réitère encore la promesse que je vous ai faite.</s>
               <s>Ne l’acceptez-vous pas, et ne voulez-vous pas consentir à être ma femme ?</s>
@@ -1371,8 +1371,8 @@
               <s>Oui, pourvu que ma tante le veuille.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-38">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-38">
+            <speaker>don juan</speaker>
             <p>
               <s>Touchez donc là, Charlotte, puisque vous le voulez bien de votre part.</s>
             </p>
@@ -1383,8 +1383,8 @@
               <s>Mais au moins, Monsieur, ne m’allez pas tromper, je vous prie : il y aurait de la conscience à vous, et vous voyez comme j’y vais à la bonne foi.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-40">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-40">
+            <speaker>don juan</speaker>
             <p>
               <s>Comment ?</s>
               <s>Il semble que vous doutiez encore de ma sincérité !</s>
@@ -1398,8 +1398,8 @@
               <s>Mon Dieu, ne jurez point, je vous crois.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-42">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-42">
+            <speaker>don juan</speaker>
             <p>
               <s>Donnez-moi donc un petit baiser pour gage de votre parole.</s>
             </p>
@@ -1411,8 +1411,8 @@
               <s>Monsieur, attendez que je soyons mariés, je vous prie ; après, ça, je vous baiserai tant que vous voudrez.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II02-44">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II02-44">
+            <speaker>don juan</speaker>
             <p>
               <s>Eh bien !</s>
               <s>Belle Charlotte, je veux : tout ce que vous voulez abandonnez-moi seulement votre main, et souffrez que, par mille baisers, je lui exprime le ravissement où je suis...</s>
@@ -1421,16 +1421,16 @@
         </div2>
         <div2 type="scene" n="3" xml:id="II03">
           <head>SCÈNE III</head>
-          <stage>Dom Juan, Sganarelle, Pierrot, Charlotte.</stage>
+          <stage>Don Juan, Sganarelle, Pierrot, Charlotte.</stage>
           <sp who="pierrot" xml:id="II03-1">
-            <speaker>pierrot, se mettant entre-deux et poussant dom juan</speaker>
+            <speaker>pierrot, se mettant entre-deux et poussant don juan</speaker>
             <p>
               <s>Tout doucement, Monsieur, tenez-vous, s’il vous plaît.</s>
               <s>Vous vous échauffez trop, et vous pourriez gagner la Puresie.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II03-2">
-            <speaker>dom juan, repoussant rudement pierrot</speaker>
+          <sp who="don-juan" xml:id="II03-2">
+            <speaker>don juan, repoussant rudement pierrot</speaker>
             <p>
               <s>Qui m’amène cet impertinent ?</s>
             </p>
@@ -1441,8 +1441,8 @@
               <s>Je vous dis qu’ou vous tegniez, et qu’ou ne caressiais point nos accordées.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II03-4">
-            <speaker>dom juan, continue de la repousser</speaker>
+          <sp who="don-juan" xml:id="II03-4">
+            <speaker>don juan, continue de la repousser</speaker>
             <p>
               <s>Ah !</s>
               <s>Que de bruit !</s>
@@ -1469,8 +1469,8 @@
               <s>Je ne veux pas, moi.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II03-8">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II03-8">
+            <speaker>don juan</speaker>
             <p>
               <s>Ah !</s>
             </p>
@@ -1483,8 +1483,8 @@
               <s>Allez-v’s-en caresser les vôtres.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II03-10">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II03-10">
+            <speaker>don juan</speaker>
             <p>
               <s>Heu ?</s>
             </p>
@@ -1494,7 +1494,7 @@
             <p>
               <s>Heu.</s>
             </p>
-            <stage>Dom Juan lui donne un soufflet.</stage>
+            <stage>Don Juan lui donne un soufflet.</stage>
             <p>
               <s>Testigué !</s>
               <s>Ne me frappez pas.</s>
@@ -1574,8 +1574,8 @@
               <s>Si j’avais su ça tantost, je me serais bian gardé de le tirer de gliau, et je gli aurois baillé un bon coup d’aviron sur la teste.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II03-20">
-            <speaker>dom juan, s’approchant de pierrot pour le frapper</speaker>
+          <sp who="don-juan" xml:id="II03-20">
+            <speaker>don juan, s’approchant de pierrot pour le frapper</speaker>
             <p>
               <s>Qu’est-ce que vous dites ?</s>
             </p>
@@ -1587,8 +1587,8 @@
               <s>Je ne crains personne.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II03-22">
-            <speaker>dom juan, passe du côté où est pierrot</speaker>
+          <sp who="don-juan" xml:id="II03-22">
+            <speaker>don juan, passe du côté où est pierrot</speaker>
             <p>
               <s>Attendez-moi un peu.</s>
             </p>
@@ -1599,8 +1599,8 @@
               <s>Je me moque de tout, moi.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II03-24">
-            <speaker>dom juan court après pierrot</speaker>
+          <sp who="don-juan" xml:id="II03-24">
+            <speaker>don juan court après pierrot</speaker>
             <p>
               <s>Voyons cela.</s>
             </p>
@@ -1611,8 +1611,8 @@
               <s>J’en avons bien vu d’autres.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II03-26">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II03-26">
+            <speaker>don juan</speaker>
             <p>
               <s>Houais !</s>
             </p>
@@ -1627,13 +1627,13 @@
             </p>
           </sp>
           <sp who="pierrot" xml:id="II03-28">
-            <speaker>pierrot, passe devant sganarelle, et dit fièrement à dom juan</speaker>
+            <speaker>pierrot, passe devant sganarelle, et dit fièrement à don juan</speaker>
             <p>
               <s>Je veux lui dire, moi.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II03-29">
-            <speaker>dom juan, lève la main pour donner un soufflet à pierrot, qui baisse la tête et sganarelle reçoit le soufflet</speaker>
+          <sp who="don-juan" xml:id="II03-29">
+            <speaker>don juan, lève la main pour donner un soufflet à pierrot, qui baisse la tête et sganarelle reçoit le soufflet</speaker>
             <p>
               <s>Ah !</s>
               <s>Je vous apprendrai.</s>
@@ -1645,8 +1645,8 @@
               <s>Peste soit du maroufle !</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II03-31">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II03-31">
+            <speaker>don juan</speaker>
             <p>
               <s>Te voilà payé de ta charité.</s>
             </p>
@@ -1658,8 +1658,8 @@
               <s>Je vas dire à sa tante tout ce ménage-ci.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II03-33">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II03-33">
+            <speaker>don juan</speaker>
             <p>
               <s>Enfin je m’en vais être le plus heureux de tous les hommes, et je ne changerais pas mon bonheur à toutes les choses du monde.</s>
               <s>Que de plaisirs quand vous serez ma femme !</s>
@@ -1669,7 +1669,7 @@
         </div2>
         <div2 type="scene" n="4" xml:id="II04">
           <head>SCÈNE IV</head>
-          <stage>Dom Juan, Sganarelle, Charlotte, Mathurine.</stage>
+          <stage>Don Juan, Sganarelle, Charlotte, Mathurine.</stage>
           <sp who="sganarelle" xml:id="II04-1">
             <speaker>sganarelle, apercevant mathurine</speaker>
             <p>
@@ -1678,14 +1678,14 @@
             </p>
           </sp>
           <sp who="mathurine" xml:id="II04-2">
-            <speaker>mathurine, à dom juan</speaker>
+            <speaker>mathurine, à don juan</speaker>
             <p>
               <s>Monsieur, que faites-vous donc là avec Charlotte ?</s>
               <s>Est-ce que vous lui parlez d’amour aussi ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-3">
-            <speaker>dom juan, à mathurine</speaker>
+          <sp who="don-juan" xml:id="II04-3">
+            <speaker>don juan, à mathurine</speaker>
             <p>
               <s>Non, au contraire, c’est elle qui me témoignait une envie d’être ma femme, et je lui répondais que j’étais engagé à vous.</s>
             </p>
@@ -1696,8 +1696,8 @@
               <s>Qu’est-ce que c’est donc que vous veut Mathurine ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-5">
-            <speaker>dom juan, bas, à charlotte</speaker>
+          <sp who="don-juan" xml:id="II04-5">
+            <speaker>don juan, bas, à charlotte</speaker>
             <p>
               <s>Elle est jalouse de me voir vous parler, et voudrait bien que je l’épousasse ; mais je lui dis que c’est vous que je veux, Mathurine.</s>
             </p>
@@ -1709,8 +1709,8 @@
               <s>Charlotte...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-7">
-            <speaker>dom juan, bas, à mathurine</speaker>
+          <sp who="don-juan" xml:id="II04-7">
+            <speaker>don juan, bas, à mathurine</speaker>
             <p>
               <s>Tout ce que vous lui direz sera inutile ; elle s’est mis cela dans la tête.</s>
             </p>
@@ -1722,8 +1722,8 @@
               <s>Mathurine...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-9">
-            <speaker>dom juan, bas, à charlotte</speaker>
+          <sp who="don-juan" xml:id="II04-9">
+            <speaker>don juan, bas, à charlotte</speaker>
             <p>
               <s>C’est en vain que vous lui parlerez ; vous ne lui ôterez point cette fantaisie.</s>
             </p>
@@ -1734,8 +1734,8 @@
               <s>Est-ce que... ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-11">
-            <speaker>dom juan, bas, à mathurine</speaker>
+          <sp who="don-juan" xml:id="II04-11">
+            <speaker>don juan, bas, à mathurine</speaker>
             <p>
               <s>Il n’y a pas moyen de lui faire entendre raison.</s>
             </p>
@@ -1746,8 +1746,8 @@
               <s>Je voudrais...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-13">
-            <speaker>dom juan, bas, à charlotte</speaker>
+          <sp who="don-juan" xml:id="II04-13">
+            <speaker>don juan, bas, à charlotte</speaker>
             <p>
               <s>Elle est obstinée comme tous les diables.</s>
             </p>
@@ -1758,8 +1758,8 @@
               <s>Vraiment...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-15">
-            <speaker>dom juan, bas, à mathurine</speaker>
+          <sp who="don-juan" xml:id="II04-15">
+            <speaker>don juan, bas, à mathurine</speaker>
             <p>
               <s>Ne lui dites rien, c’est une folle.</s>
             </p>
@@ -1770,8 +1770,8 @@
               <s>Je pense...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-17">
-            <speaker>dom juan, bas, à charlotte</speaker>
+          <sp who="don-juan" xml:id="II04-17">
+            <speaker>don juan, bas, à charlotte</speaker>
             <p>
               <s>Laissez-la là, c’est une extravagante.</s>
             </p>
@@ -1794,8 +1794,8 @@
               <s>Quoi ?...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-21">
-            <speaker>dom juan, bas, à mathurine</speaker>
+          <sp who="don-juan" xml:id="II04-21">
+            <speaker>don juan, bas, à mathurine</speaker>
             <p>
               <s>Je gage qu’elle va vous dire que je lui ai promis de l’épouser.</s>
             </p>
@@ -1806,8 +1806,8 @@
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-23">
-            <speaker>dom juan, bas, à charlotte</speaker>
+          <sp who="don-juan" xml:id="II04-23">
+            <speaker>don juan, bas, à charlotte</speaker>
             <p>
               <s>Gageons qu’elle vous soutiendra que je lui ai donné parole de la prendre pour femme.</s>
             </p>
@@ -1837,8 +1837,8 @@
               <s>S’il vous a vue la première, il m’a vue la seconde, et m’a promis de m’épouser.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-28">
-            <speaker>dom juan, bas, à mathurine</speaker>
+          <sp who="don-juan" xml:id="II04-28">
+            <speaker>don juan, bas, à mathurine</speaker>
             <p>
               <s>Eh bien !</s>
               <s>Que vous ai-je dit ?</s>
@@ -1850,8 +1850,8 @@
               <s>Je vous baise les mains, c’est moi, et non pas vous, qu’il a promis d’épouser.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-30">
-            <speaker>dom juan, bas, à charlotte</speaker>
+          <sp who="don-juan" xml:id="II04-30">
+            <speaker>don juan, bas, à charlotte</speaker>
             <p>
               <s>N’ai-je pas deviné ?</s>
             </p>
@@ -1886,8 +1886,8 @@
               <s>Est-ce, Monsieur, que vous lui avez promis de l’épouser ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-36">
-            <speaker>dom juan, bas, à charlotte</speaker>
+          <sp who="don-juan" xml:id="II04-36">
+            <speaker>don juan, bas, à charlotte</speaker>
             <p>
               <s>Vous vous raillez de moi.</s>
             </p>
@@ -1898,8 +1898,8 @@
               <s>Est-il vrai, Monsieur, que vous lui avez donné parole d’être son mari ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-38">
-            <speaker>dom juan, bas, à mathurine</speaker>
+          <sp who="don-juan" xml:id="II04-38">
+            <speaker>don juan, bas, à mathurine</speaker>
             <p>
               <s>Pouvez-vous avoir cette pensée ?</s>
             </p>
@@ -1910,8 +1910,8 @@
               <s>Vous voyez qu’al le soutient.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-40">
-            <speaker>dom juan, bas, à charlotte</speaker>
+          <sp who="don-juan" xml:id="II04-40">
+            <speaker>don juan, bas, à charlotte</speaker>
             <p>
               <s>Laissez-la faire.</s>
             </p>
@@ -1922,8 +1922,8 @@
               <s>Vous êtes témoin comme al l’assure.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-42">
-            <speaker>dom juan, bas, à mathurine</speaker>
+          <sp who="don-juan" xml:id="II04-42">
+            <speaker>don juan, bas, à mathurine</speaker>
             <p>
               <s>Laissez-la dire.</s>
             </p>
@@ -1977,19 +1977,19 @@
             </p>
           </sp>
           <sp who="charlotte" xml:id="II04-51">
-            <speaker>charlotte, à dom juan</speaker>
+            <speaker>charlotte, à don juan</speaker>
             <p>
               <s>Dites.</s>
             </p>
           </sp>
           <sp who="mathurine" xml:id="II04-52">
-            <speaker>mathurine, à dom juan</speaker>
+            <speaker>mathurine, à don juan</speaker>
             <p>
               <s>Parlez.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-53">
-            <speaker>dom juan, embarrassé, leur dit à toutes deux</speaker>
+          <sp who="don-juan" xml:id="II04-53">
+            <speaker>don juan, embarrassé, leur dit à toutes deux</speaker>
             <p>
               <s>Que voulez-vous que je dise ?</s>
               <s>Vous soutenez également toutes deux que je vous ai promis de vous prendre pour femmes.</s>
@@ -2045,8 +2045,8 @@
               <s>Croyez-moi l’une et l’autre : ne vous amusez point à tous les contes qu’on vous fait, et demeurez dans votre village.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-57">
-            <speaker>dom juan, revenant</speaker>
+          <sp who="don-juan" xml:id="II04-57">
+            <speaker>don juan, revenant</speaker>
             <p>
               <s>Je voudrais bien savoir pourquoi Sganarelle ne me suit pas.</s>
             </p>
@@ -2056,7 +2056,7 @@
             <p>
               <s>Mon maître est un fourbe ; il n’a dessein que de vous abuser, et en a bien abusé d’autres ; c’est l’épouseur du genre humain, et...</s>
             </p>
-            <stage>Il aperçoit Dom Juan.</stage>
+            <stage>Il aperçoit Don Juan.</stage>
             <p>
               <s>Cela est faux ; et quiconque vous dira cela, vous lui devez dire qu’il en a menti.</s>
               <s>Mon maître n’est point l’épouseur du genre humain, il n’est point fourbe, il n’a pas dessein de vous tromper, et n’en a point abusé d’autres.</s>
@@ -2064,8 +2064,8 @@
               <s>Tenez, le voilà ; demandez le plutôt à lui-même.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-59">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II04-59">
+            <speaker>don juan</speaker>
             <p>
               <s>Oui.</s>
             </p>
@@ -2076,8 +2076,8 @@
               <s>Monsieur, comme le monde est plein de médisants, je vais au-devant des choses ; et je leur disais que, si quelqu’un leur venait dire du mal de vous, elles se gardassent bien de le croire, et ne manquassent pas de lui dire qu’il en aurait menti.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-61">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II04-61">
+            <speaker>don juan</speaker>
             <p>
               <s>Sganarelle.</s>
             </p>
@@ -2088,8 +2088,8 @@
               <s>Oui, Monsieur est homme d’honneur, je le garantis tel.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II04-63">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II04-63">
+            <speaker>don juan</speaker>
             <p>
               <s>Hon !</s>
             </p>
@@ -2103,15 +2103,15 @@
         </div2>
         <div2 type="scene" n="5" xml:id="II05">
           <head>SCÈNE V</head>
-          <stage>Dom Juan, La Ramée, Charlotte, Mathurine, Sganarelle.</stage>
+          <stage>Don Juan, La Ramée, Charlotte, Mathurine, Sganarelle.</stage>
           <sp who="la-ramee" xml:id="II05-1">
             <speaker>la ramée</speaker>
             <p>
               <s>Monsieur, je viens vous avertir qu’il ne fait pas bon ici pour vous.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II05-2">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II05-2">
+            <speaker>don juan</speaker>
             <p>
               <s>Comment ?</s>
             </p>
@@ -2123,8 +2123,8 @@
               <s>L’affaire presse, et le plus tôt que vous pourrez sortir d’ici sera le meilleur.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II05-4">
-            <speaker>dom juan, à charlotte et mathurine</speaker>
+          <sp who="don-juan" xml:id="II05-4">
+            <speaker>don juan, à charlotte et mathurine</speaker>
             <p>
               <s>Une affaire pressante m’oblige de partir d’ici ; mais je vous prie de vous ressouvenir de la parole que je vous ai donnée, et de croire que vous aurez de mes nouvelles avant qu’il soit demain au soir.</s>
               <s>Comme la partie n’est pas égale, il faut user dé stratagème, et éluder adroitement le malheur qui me cherche.</s>
@@ -2138,8 +2138,8 @@
               <s>M’exposer à être tué sous vos habits, et...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="II05-6">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="II05-6">
+            <speaker>don juan</speaker>
             <p>
               <s>Allons vite, c’est trop d’honneur que je vous fais, et bien heureux est le valet qui peut avoir la gloire de mourir pour son maître.</s>
             </p>
@@ -2157,15 +2157,15 @@
         <head>ACTE III</head>
         <div2 type="scene" n="1" xml:id="III01">
           <head>SCÈNE I</head>
-          <stage>Dom Juan, <hi rend="i">en habit de campagne</hi>, Sganarelle, <hi rend="i">en médecin.</hi></stage>
+          <stage>Don Juan, <hi rend="i">en habit de campagne</hi>, Sganarelle, <hi rend="i">en médecin.</hi></stage>
           <sp who="sganarelle" xml:id="III01-1">
             <speaker>sganarelle</speaker>
             <p>
               <s>Ma foi Monsieur, avouez que j’ai eu raison, et que nous voilà l’un et l’autre déguisés à merveille, votre premier dessein n’était point du tout à propos, et ceci nous cache bien mieux que tout ce que vous vouliez faire.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III01-2">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III01-2">
+            <speaker>don juan</speaker>
             <p>
               <s>Il est vrai que te voilà bien, et je ne sais où tu as été déterrer cet attirail ridicule.</s>
             </p>
@@ -2177,8 +2177,8 @@
               <s>Mais savez-vous, Monsieur, que cet habit me met déjà en considération, que je suis salué des gens que je rencontre, et que l’on me vient consulter ainsi qu’un habile homme.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III01-4">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III01-4">
+            <speaker>don juan</speaker>
             <p>
               <s>Comment donc ?</s>
             </p>
@@ -2189,8 +2189,8 @@
               <s>Cinq ou six Paysans et Paysannes, en me voyant passer, me sont venus demander mon avis sur différentes maladies.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III01-6">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III01-6">
+            <speaker>don juan</speaker>
             <p>
               <s>Tu leur as répondu, que tu n’y entendais rien.</s>
             </p>
@@ -2201,8 +2201,8 @@
               <s>Moi, point du tout, j’ai voulu soutenir l’honneur de mon habit, j’ai raisonné sur le mal, et leur ai fait des ordonnances à chacun.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III01-8">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III01-8">
+            <speaker>don juan</speaker>
             <p>
               <s>Et quels remèdes encore leur as-tu ordonnés ?</s>
             </p>
@@ -2213,8 +2213,8 @@
               <s>Ma foi, Monsieur, j’en ai pris par où j’en ai pu attraper, j’ai fait mes ordonnances à l’aventure, et ce serait une chose plaisante si ces malades guérissaient, et qu’on m’en vînt remercier.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III01-10">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III01-10">
+            <speaker>don juan</speaker>
             <p>
               <s>Et pourquoi non, par quelle raison n’aurais-tu pas les mêmes privilèges qu’ont tous les autres Médecins ?</s>
               <s>Ils n’ont pas plus de part que toi aux guérisons des malades, et tout leur art est pure grimace, ils ne font rien que recevoir la gloire des heureux succès, et tu peux profiter comme eux du bonheur du malade, et voir attribuer à tes remèdes tout ce qui peut venir des faveurs du hasard, et des forces de la nature.</s>
@@ -2226,8 +2226,8 @@
               <s>Comment Monsieur, vous êtes aussi impie en Médecine.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III01-12">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III01-12">
+            <speaker>don juan</speaker>
             <p>
               <s>C’est une des grandes erreurs qui soit parmi les hommes.</s>
             </p>
@@ -2238,8 +2238,8 @@
               <s>Quoi ! vous ne croyez pas au Séné, ni à la Casse, ni au Vin émétique ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III01-14">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III01-14">
+            <speaker>don juan</speaker>
             <p>
               <s>Et pourquoi veux-tu que j’y croie ?</s>
             </p>
@@ -2250,8 +2250,8 @@
               <s>Vous avez l’âme bien mécréante, cependant vous voyez depuis un temps que le Vin émétique fait bruire ses fuseaux, les miracles ont converti les plus incrédules esprits, et il n’y a pas trois semaines que j’en ai vu, moi qui vous parle, un effet merveilleux.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III01-16">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III01-16">
+            <speaker>don juan</speaker>
             <p>
               <s>Et quel ?</s>
             </p>
@@ -2263,8 +2263,8 @@
               <s>On ne savait plus que lui ordonner, et tous les remèdes ne faisaient rien ; on s’avisa à la fin de lui donner de l’émétique.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III01-18">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III01-18">
+            <speaker>don juan</speaker>
             <p>
               <s>Il réchappa, n’est-ce pas ?</s>
             </p>
@@ -2275,8 +2275,8 @@
               <s>Non, il mourut.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III01-20">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III01-20">
+            <speaker>don juan</speaker>
             <p>
               <s>L’effet est admirable.</s>
             </p>
@@ -2288,8 +2288,8 @@
               <s>Voulez-vous rien de plus efficace ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III01-22">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III01-22">
+            <speaker>don juan</speaker>
             <p>
               <s>Tu as raison.</s>
             </p>
@@ -2301,8 +2301,8 @@
               <s>Vous savez bien que vous me permettez les disputes, et que vous ne me défendez que les remontrances.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III01-24">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III01-24">
+            <speaker>don juan</speaker>
             <p>
               <s>Eh bien.</s>
             </p>
@@ -2313,8 +2313,8 @@
               <s>Je veux savoir un peu vos pensées à fonds, et vous connaître un peu mieux que je ne fais : çà quand voulez-vous mettre fin à vos débauches, et mener la vie d’un honnête homme ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III01-26">
-            <speaker>dom juan <hi rend="i">lève la main pour lui donner un soufflet.</hi></speaker>
+          <sp who="don-juan" xml:id="III01-26">
+            <speaker>don juan <hi rend="i">lève la main pour lui donner un soufflet.</hi></speaker>
             <p>
               <s>Ah, maître sot ! vous allez d’abord aux remontrances.</s>
             </p>
@@ -2325,8 +2325,8 @@
               <s>Morbleu, je suis bien sot en effet de vouloir m’amuser à raisonner avec vous ; faites tout ce que vous voudrez, il m’importe bien que vous vous perdiez ou non, et que…</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III01-28">
-            <speaker>dom juan <hi rend="i">en colère.</hi></speaker>
+          <sp who="don-juan" xml:id="III01-28">
+            <speaker>don juan <hi rend="i">en colère.</hi></speaker>
             <p>
               <s>Tais-toi.</s>
               <s>Songeons à notre affaire. </s>
@@ -2356,8 +2356,8 @@
               <s>Mais je vous donne avis que vous devez vous tenir sur vos gardes, et que depuis quelque temps, il y a des voleurs ici autour.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III02-3">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III02-3">
+            <speaker>don juan</speaker>
             <p>
               <s>Je te suis bien obligé, mon ami, et je te rends grâces de tout mon cœur de ton bon avis.</s>
             </p>
@@ -2368,8 +2368,8 @@
               <s>Ha, Monsieur, quel bruit, quel cliquetis !</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III02-5">
-            <speaker>dom juan <hi rend="i">en se retournant.</hi></speaker>
+          <sp who="don-juan" xml:id="III02-5">
+            <speaker>don juan <hi rend="i">en se retournant.</hi></speaker>
             <p>
               <s>Que vois-je là ? un homme attaqué par trois autres ! la partie est trop inégale, et je ne dois pas souffrir cette lâcheté.</s>
             </p>
@@ -2378,207 +2378,207 @@
         </div2>
         <div2 type="scene" n="3" xml:id="III03">
           <head>SCÈNE III</head>
-          <stage>Dom Juan, Dom Carlos, Sganarelle.</stage>
+          <stage>Don Juan, Don Carlos, Sganarelle.</stage>
           <sp who="sganarelle" xml:id="III03-1">
             <speaker>sganarelle</speaker>
             <p>
               <s>Mon maître est un vrai enragé d’aller se présenter à un péril qui ne le cherche pas ; mais, ma foi ! le secours a servi, et les deux ont fait fuir les trois.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III03-2">
-            <speaker>dom carlos, l’épée à la main</speaker>
+          <sp who="don-carlos" xml:id="III03-2">
+            <speaker>don carlos, l’épée à la main</speaker>
             <p>
               <s>On voit, par la fuite de ces voleurs, de quel secours est votre bras.</s>
               <s>Souffrez, Monsieur, que je vous rende grâce d’une action si généreuse, et que...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III03-3">
-            <speaker>dom juan, revenant l’épée à la main</speaker>
+          <sp who="don-juan" xml:id="III03-3">
+            <speaker>don juan, revenant l’épée à la main</speaker>
             <p>
               <s>Je n’ai rien fait, Monsieur, que vous n’eussiez fait en ma place.</s>
               <s>Notre propre honneur est intéressé dans de pareilles aventures, et l’action de ces coquins était si lâche que c’eût été y prendre part que de ne s’y pas opposer.</s>
               <s>Mais par quelle rencontre vous êtes-vous trouvé entre leurs mains ?</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III03-4">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III03-4">
+            <speaker>don carlos</speaker>
             <p>
               <s>Je m’étais par hasard égaré d’un frère et de tous ceux de notre suite ; et comme je cherchais à les rejoindre, j’ai fait rencontre de ces voleurs, qui d’abord ont tué mon cheval ; et qui, sans votre valeur, en auraient fait autant de moi.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III03-5">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III03-5">
+            <speaker>don juan</speaker>
             <p>
               <s>Votre dessein est-il d’aller du côté de la ville ?</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III03-6">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III03-6">
+            <speaker>don carlos</speaker>
             <p>
               <s>Oui, mais sans y vouloir entrer ; et nous nous voyons obligés, mon frère et moi, à tenir la campagne pour une de ces fâcheuses affaires qui réduisent les gentilshommes à se sacrifier, eux et leur famille, à la sévérité de leur honneur, puisque enfin le plus doux succès en est toujours funeste, et que, si l’on ne quitte pas la vie, on est contraint de quitter le Royaume ; et c’est en quoi je trouve la condition d’un gentilhomme malheureuse, de ne pouvoir point s’assurer sur toute la prudence et toute l’honnêteté de sa conduite, d’être asservi par les lois de l’honneur au dérèglement de la conduite d’autrui, et de voir sa vie, son repos et ses biens dépendre de la fantaisie du premier téméraire qui s’avisera de lui faire une de ces injures pour qui un honnête homme doit périr.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III03-7">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III03-7">
+            <speaker>don juan</speaker>
             <p>
               <s>On a cet avantage, qu’on fait courir le même risque et passer mal aussi le temps à ceux qui prennent fantaisie de nous venir faire une offense de gaieté de cœur.</s>
               <s>Mais ne serait-ce point une indiscrétion que de vous demander quelle peut être votre affaire ?</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III03-8">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III03-8">
+            <speaker>don carlos</speaker>
             <p>
               <s>La chose en est aux termes de n’en plus faire de secret, et lorsque l’injure a une fois éclaté, notre honneur ne va point à vouloir cacher notre honte, mais à faire éclater notre vengeance, et à publier même le dessein que nous en avons.</s>
-              <s>Ainsi, Monsieur, je ne feindrai point de vous dire que l’offense que nous cherchons à venger est une sœur séduite et enlevée d’un convent ; et que l’auteur de cette offense est un Dom Juan Tenorio, fils de Dom Louis Tenorio.</s>
+              <s>Ainsi, Monsieur, je ne feindrai point de vous dire que l’offense que nous cherchons à venger est une sœur séduite et enlevée d’un convent ; et que l’auteur de cette offense est un Don Juan Tenorio, fils de Don Louis Tenorio.</s>
               <s>Nous le cherchons depuis quelques jours, et nous l’avons suivi ce matin sur le rapport d’un valet qui nous a dit qu’il sortait à cheval, accompagné de quatre ou cinq, et qu’il avait pris le long de cette côte ; mais tous nos soins ont été inutiles, et nous n’avons pu découvrir ce qu’il est devenu.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III03-9">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III03-9">
+            <speaker>don juan</speaker>
             <p>
-              <s>Le connaissez-vous, Monsieur, ce Dom Juan dont vous parlez ?</s>
+              <s>Le connaissez-vous, Monsieur, ce Don Juan dont vous parlez ?</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III03-10">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III03-10">
+            <speaker>don carlos</speaker>
             <p>
               <s>Non, quant à moi.</s>
               <s>Je ne l’ai jamais vu, et je l’ai seulement ouï dépeindre à mon frère ; mais la renommée n’en dit pas force bien, et c’est un homme dont la vie...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III03-11">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III03-11">
+            <speaker>don juan</speaker>
             <p>
               <s>Arrêtez, Monsieur, s’il vous plaît.</s>
               <s>Il est un peu de mes amis, et ce serait à moi une espèce de lâcheté, que d’en ouïr dire du mal.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III03-12">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III03-12">
+            <speaker>don carlos</speaker>
             <p>
               <s>Pour l’amour de vous, Monsieur, je n’en dirai rien du tout, et c’est bien la moindre chose que je vous doive, après m’avoir sauvé la vie, que de me taire devant vous d’une personne que vous connaissez, lorsque je ne puis en parler sans en dire du mal ; mais, quelque ami que vous lui soyez, j’ose espérer que vous n’approuverez pas son action, et ne trouverez pas étrange que nous cherchions d’en prendre la vengeance.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III03-13">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III03-13">
+            <speaker>don juan</speaker>
             <p>
               <s>Au contraire, je vous y veux servir, et vous épargner des soins inutiles.</s>
-              <s>Je suis ami de Dom Juan, je ne puis pas m’en empêcher ; mais il n’est pas raisonnable qu’il offense impunément des gentilshommes, et je m’engage à vous faire faire raison par lui.</s>
+              <s>Je suis ami de Don Juan, je ne puis pas m’en empêcher ; mais il n’est pas raisonnable qu’il offense impunément des gentilshommes, et je m’engage à vous faire faire raison par lui.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III03-14">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III03-14">
+            <speaker>don carlos</speaker>
             <p>
               <s>Et quelle raison peut-on faire à ces sortes d’injures ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III03-15">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III03-15">
+            <speaker>don juan</speaker>
             <p>
-              <s>Toute celle que votre honneur et souhaiter ; et, sans vous donner la peine de chercher Dom Juan davantage, je m’oblige à le faire trouver au lieu que vous voudrez, et quand il vous plaira.</s>
+              <s>Toute celle que votre honneur et souhaiter ; et, sans vous donner la peine de chercher Don Juan davantage, je m’oblige à le faire trouver au lieu que vous voudrez, et quand il vous plaira.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III03-16">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III03-16">
+            <speaker>don carlos</speaker>
             <p>
               <s>Cet espoir est bien doux, Monsieur, à des cœurs offensés ; mais, après ce que je vous dois, ce me serait une trop sensible douleur que vous fussiez de la partie.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III03-17">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III03-17">
+            <speaker>don juan</speaker>
             <p>
-              <s>Je suis si attaché à Dom Juan qu’il ne saurait se battre que je ne me batte aussi ; mais enfin j’en réponds comme de moi-même, et vous n’avez qu’à dire quand vous voulez qu’il paraisse et vous donne satisfaction.</s>
+              <s>Je suis si attaché à Don Juan qu’il ne saurait se battre que je ne me batte aussi ; mais enfin j’en réponds comme de moi-même, et vous n’avez qu’à dire quand vous voulez qu’il paraisse et vous donne satisfaction.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III03-18">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III03-18">
+            <speaker>don carlos</speaker>
             <p>
               <s>Que ma destinée est cruelle !</s>
-              <s>Faut-il que je vous doive la vie, et que Dom Juan soit de vos amis ?</s>
+              <s>Faut-il que je vous doive la vie, et que Don Juan soit de vos amis ?</s>
             </p>
           </sp>
         </div2>
         <div2 type="scene" n="4" xml:id="III04">
           <head>SCÈNE IV</head>
           <stage>Don Alonse, <hi rend="i">et trois Suivants,</hi> Don Carlos, Don Juan, Sganarelle</stage>
-          <sp who="dom-alonse" xml:id="III04-1">
-            <speaker>dom alonse</speaker>
+          <sp who="don-alonse" xml:id="III04-1">
+            <speaker>don alonse</speaker>
             <p>
               <s>Faites boire là mes chevaux, et qu’on les amène après nous, je veux un peu marcher à pied.</s>
               <s>Ô Ciel que vois-je ici ! quoi, mon frère, vous voilà avec notre ennemi mortel !</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III04-2">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III04-2">
+            <speaker>don carlos</speaker>
             <p>
               <s>Notre Ennemi mortel ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III04-3">
+          <sp who="don-juan" xml:id="III04-3">
             <speaker>don juan <hi rend="i">se reculant trois pas et mettant fièrement la main sur la garde de son épée</hi></speaker>
             <p>
               <s>Oui je suis Don Juan moi-même, et l’avantage du nombre ne m’obligera pas à vouloir déguiser mon nom.</s>
             </p>
           </sp>
-          <sp who="dom-alonse" xml:id="III04-4">
-            <speaker>dom alonse</speaker>
+          <sp who="don-alonse" xml:id="III04-4">
+            <speaker>don alonse</speaker>
             <p>
               <s>Ah traître, il faut que tu périsses et...</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III04-5">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III04-5">
+            <speaker>don carlos</speaker>
             <p>
               <s>Ah, mon frère, arrêtez, je lui suis redevable de la vie, et sans le secours de son bras, j’aurais été tué par des voleurs que j’ai trouvés.</s>
             </p>
           </sp>
-          <sp who="dom-alonse" xml:id="III04-6">
-            <speaker>dom alonse</speaker>
+          <sp who="don-alonse" xml:id="III04-6">
+            <speaker>don alonse</speaker>
             <p>
               <s>Et voulez-vous que cette considération empêche notre vengeance ? tous les services que nous rend une main ennemie, ne sont d’aucun mérite pour engager notre âme ; et s’il faut mesurer l’obligation à l’injure, votre reconnaissance, mon frère, est ici ridicule ; et comme l’honneur est infiniment plus précieux que la vie, c’est ne devoir rien proprement que d’être redevable de la vie à qui nous a ôté l’honneur.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III04-7">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III04-7">
+            <speaker>don carlos</speaker>
             <p>
               <s>Je sais la différence, mon frère, qu’un Gentilhomme doit toujours mettre entre l’un et l’autre, et la reconnaissance de l’obligation n’efface point en moi le ressentiment de l’injure ; mais souffrez que je lui rende ici ce qu’il m’a prêté, que je m’acquitte sur-le-champ de la vie que je lui dois, par un délai de notre vengeance, et lui laisse la liberté de jouir, durant quelques jours, du fruit de son bienfait.</s>
             </p>
           </sp>
-          <sp who="dom-alonse" xml:id="III04-8">
-            <speaker>dom alonse</speaker>
+          <sp who="don-alonse" xml:id="III04-8">
+            <speaker>don alonse</speaker>
             <p>
               <s>Non, non, c’est hasarder notre vengeance que de la reculer et l’occasion de la prendre peut ne plus revenir ; le Ciel nous l’offre ici, c’est à nous d’en profiter.</s>
               <s>Lorsque l’honneur est blessé mortellement, on ne doit point songer à garder aucunes mesures, et si vous répugnez à prêter votre bras à cette action, vous n’avez qu’à vous retirer, et laisser à ma main la gloire d’un tel sacrifice.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III04-9">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III04-9">
+            <speaker>don carlos</speaker>
             <p>
               <s>De grâce, mon frère...</s>
             </p>
           </sp>
-          <sp who="dom-alonse" xml:id="III04-10">
-            <speaker>dom alonse</speaker>
+          <sp who="don-alonse" xml:id="III04-10">
+            <speaker>don alonse</speaker>
             <p>
               <s>Tous ces discours sont superflus : il faut qu’il meure.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III04-11">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III04-11">
+            <speaker>don carlos</speaker>
             <p>
               <s>Arrêtez-vous, dis-je, mon frère.</s>
               <s>Je ne souffrirai point du tout qu’on attaque ses jours, et je jure le Ciel que je le défendrai ici contre qui que ce soit, et je saurai lui faire un rempart de cette même vie qu’il a sauvée ; et pour adresser vos coups, il faudra que vous me perciez.</s>
             </p>
           </sp>
-          <sp who="dom-alonse" xml:id="III04-12">
-            <speaker>dom alonse</speaker>
+          <sp who="don-alonse" xml:id="III04-12">
+            <speaker>don alonse</speaker>
             <p>
               <s>Quoi ?</s>
               <s>Vous prenez le parti de notre ennemi contre moi ; et loin d’être saisi à son aspect des mêmes transports que je sens, vous faites voir pour lui des sentiments pleins de douceur ?</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III04-13">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III04-13">
+            <speaker>don carlos</speaker>
             <p>
               <s>Mon frère, montrons de la modération dans une action légitime, et ne vengeons point notre honneur avec cet emportement que vous témoignez.</s>
               <s>Ayons du cœur dont nous soyons les maîtres, une valeur qui n’ait rien de farouche, et qui se porte aux choses par une pure délibération de notre raison, et non point par le mouvement d’une aveugle colère.</s>
@@ -2586,31 +2586,31 @@
               <s>Notre vengeance, pour être différée, n’en sera pas moins éclatante : au contraire, elle en tirera de l’avantage ; et cette occasion de l’avoir pu prendre la fera paraître plus juste aux yeux de tout le monde.</s>
             </p>
           </sp>
-          <sp who="dom-alonse" xml:id="III04-14">
-            <speaker>dom alonse</speaker>
+          <sp who="don-alonse" xml:id="III04-14">
+            <speaker>don alonse</speaker>
             <p>
               <s>Ô l’étrange faiblesse, et l’aveuglement effroyable d’hasarder ainsi les intérêts de son honneur pour la ridicule pensée d’une obligation chimérique !</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III04-15">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III04-15">
+            <speaker>don carlos</speaker>
             <p>
               <s>Non, mon frère, ne vous mettez pas en peine.</s>
               <s>Si je fais une faute, je saurai bien la réparer, et je me charge de tout le soin de notre honneur ; je sais à quoi il nous oblige, et cette suspension d’un jour, que ma reconnaissance lui demande, ne fera qu’augmenter l’ardeur que j’ai de le satisfaire.</s>
-              <s>Dom Juan, vous voyez que j’ai soin de vous rendre le bien que j’ai reçu de vous, et vous devez par là juger du reste, croire que je m’acquitte avec même chaleur de ce que je dois, et que je ne serai pas moins exact à vous payer l’injure que le bienfait.</s>
+              <s>Don Juan, vous voyez que j’ai soin de vous rendre le bien que j’ai reçu de vous, et vous devez par là juger du reste, croire que je m’acquitte avec même chaleur de ce que je dois, et que je ne serai pas moins exact à vous payer l’injure que le bienfait.</s>
               <s>Je ne veux point vous obliger ici à expliquer vos sentiments, et je vous donne la liberté de penser à loisir aux résolutions que vous avez à prendre.</s>
               <s>Vous connaissez assez la grandeur de l’offense que vous nous avez faite, et je vous fais juge vous-même des réparations qu’elle demande.</s>
-              <s>Il est des moyens doux pour nous satisfaire ; il en est de violents et de sanglants ; mais enfin, quelque choix que vous fassiez, vous m’avez donné parole de me faire faire raison par Dom Juan : songez à me la faire, je vous prie, et vous ressouvenez que, hors d’ici, je ne dois plus qu’à mon honneur.</s>
+              <s>Il est des moyens doux pour nous satisfaire ; il en est de violents et de sanglants ; mais enfin, quelque choix que vous fassiez, vous m’avez donné parole de me faire faire raison par Don Juan : songez à me la faire, je vous prie, et vous ressouvenez que, hors d’ici, je ne dois plus qu’à mon honneur.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III04-16">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III04-16">
+            <speaker>don juan</speaker>
             <p>
               <s>Je n’ai rien exigé de vous, et vous tiendrai ce que j’ai promis.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="III04-17">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="III04-17">
+            <speaker>don carlos</speaker>
             <p>
               <s>Allons, mon frère : un moment de douceur ne fait aucune injure à la sévérité de notre devoir.</s>
             </p>
@@ -2618,9 +2618,9 @@
         </div2>
         <div2 type="scene" n="5" xml:id="III05">
           <head>SCÈNE V</head>
-          <stage>Dom Juan, Sganarelle.</stage>
-          <sp who="dom-juan" xml:id="III05-1">
-            <speaker>dom juan</speaker>
+          <stage>Don Juan, Sganarelle.</stage>
+          <sp who="don-juan" xml:id="III05-1">
+            <speaker>don juan</speaker>
             <p>
               <s>Holà, hé, Sganarelle !</s>
             </p>
@@ -2631,8 +2631,8 @@
               <s>Plaît-il ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-3">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-3">
+            <speaker>don juan</speaker>
             <p>
               <s>Comment ?</s>
               <s>coquin, tu fuis quand on m’attaque ?</s>
@@ -2645,8 +2645,8 @@
               <s>Je crois que cet habit est purgatif, et que c’est prendre médecine que de le porter.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-5">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-5">
+            <speaker>don juan</speaker>
             <p>
               <s>Peste soit l’insolent !</s>
               <s>Couvre au moins ta poltronnerie d’un voile plus honnête.</s>
@@ -2660,8 +2660,8 @@
               <s>Non.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-7">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-7">
+            <speaker>don juan</speaker>
             <p>
               <s>C’est un frère d’Elvire.</s>
             </p>
@@ -2672,8 +2672,8 @@
               <s>Un...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-9">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-9">
+            <speaker>don juan</speaker>
             <p>
               <s>Il est assez honnête homme, il en a bien usé, et j’ai regret d’avoir démêlé avec lui.</s>
             </p>
@@ -2684,8 +2684,8 @@
               <s>Il vous serait aisé de pacifier toutes choses.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-11">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-11">
+            <speaker>don juan</speaker>
             <p>
               <s>Oui ; mais ma passion est usée pour Done Elvire, et l’engagement ne compatit point avec mon humeur.</s>
               <s>J’aime la liberté en amour, tu le sais, et je ne saurais me résoudre à renfermer mon cœur entre quatre murailles.</s>
@@ -2700,8 +2700,8 @@
               <s>Vous ne le savez pas ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-13">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-13">
+            <speaker>don juan</speaker>
             <p>
               <s>Non, vraiment.</s>
             </p>
@@ -2713,8 +2713,8 @@
               <s>C’est le tombeau que le Commandeur faisait faire lorsque vous le tuâtes.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-15">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-15">
+            <speaker>don juan</speaker>
             <p>
               <s>Ah !</s>
               <s>Tu as raison.</s>
@@ -2728,8 +2728,8 @@
               <s>Monsieur, n’allez point là.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-17">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-17">
+            <speaker>don juan</speaker>
             <p>
               <s>Pourquoi ?</s>
             </p>
@@ -2740,8 +2740,8 @@
               <s>Cela n’est pas civil, d’aller voir un homme que vous avez tué.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-19">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-19">
+            <speaker>don juan</speaker>
             <p>
               <s>Au contraire, c’est une visite dont je lui veux faire civilité, et qu’il doit recevoir de bonne grâce, s’il est galant homme.</s>
               <s>Allons, entrons dedans.</s>
@@ -2761,8 +2761,8 @@
               <s>Qu’en dites-vous, Monsieur ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-21">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-21">
+            <speaker>don juan</speaker>
             <p>
               <s>Qu’on ne peut voir aller plus loin l’ambition d’un homme mort ; et ce que je trouve admirable, c’est qu’un homme qui s’est passé, durant sa vie, d’une assez simple demeure, en veuille avoir une si magnifique pour quand il n’en a plus que faire.</s>
             </p>
@@ -2773,8 +2773,8 @@
               <s>Voici la statue du Commandeur.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-23">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-23">
+            <speaker>don juan</speaker>
             <p>
               <s>Parbleu !</s>
               <s>Le voilà bon, avec son habit d’empereur romain !</s>
@@ -2788,8 +2788,8 @@
               <s>Il jette des regards sur nous qui me feraient peur, si j’étais tout seul, et je pense qu’il ne prend pas plaisir de nous voir.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-25">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-25">
+            <speaker>don juan</speaker>
             <p>
               <s>Il aurait tort, et ce serait mal recevoir l’honneur que je lui fais.</s>
               <s>Demande-lui s’il veut venir souper avec moi.</s>
@@ -2801,8 +2801,8 @@
               <s>C’est une chose dont il n’a pas besoin, je crois.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-27">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-27">
+            <speaker>don juan</speaker>
             <p>
               <s>Demande-lui, te dis-je.</s>
             </p>
@@ -2814,8 +2814,8 @@
               <s>Ce serait être fou que d’aller parler à une statue.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-29">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-29">
+            <speaker>don juan</speaker>
             <p>
               <s>Fais ce que je te dis.</s>
             </p>
@@ -2826,15 +2826,15 @@
               <s>Quelle bizarrerie !</s>
               <s>Seigneur Commandeur...</s>
               <s>Je ris de ma sottise, mais c’est mon maître qui me la fait faire.</s>
-              <s>Seigneur Commandeur, mon maître Dom Juan vous demande si vous voulez lui faire l’honneur de venir souper avec lui.</s>
+              <s>Seigneur Commandeur, mon maître Don Juan vous demande si vous voulez lui faire l’honneur de venir souper avec lui.</s>
             </p>
             <stage>La Statue baisse la tête.</stage>
             <p>
               <s>Ha !</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-31">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-31">
+            <speaker>don juan</speaker>
             <p>
               <s>Qu’est-ce ?</s>
               <s>Qu’as-tu ?</s>
@@ -2847,8 +2847,8 @@
               <s>La Statue...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-33">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-33">
+            <speaker>don juan</speaker>
             <p>
               <s>Eh bien !</s>
               <s>Que veux-tu dire, traître ?</s>
@@ -2860,8 +2860,8 @@
               <s>Je vous dis que la Statue...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-35">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-35">
+            <speaker>don juan</speaker>
             <p>
               <s>Eh bien !</s>
               <s>La Statue ?</s>
@@ -2874,8 +2874,8 @@
               <s>La Statue m’a fait signe.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-37">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-37">
+            <speaker>don juan</speaker>
             <p>
               <s>La peste le coquin !</s>
             </p>
@@ -2888,8 +2888,8 @@
               <s>Peut-être...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-39">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-39">
+            <speaker>don juan</speaker>
             <p>
               <s>Viens, maraud, viens, je te veux bien faire toucher au doigt ta poltronnerie.</s>
               <s>Prends garde.</s>
@@ -2905,8 +2905,8 @@
               <s>Monsieur ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="III05-41">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="III05-41">
+            <speaker>don juan</speaker>
             <p>
               <s>Allons, sortons d’ici.</s>
             </p>
@@ -2923,9 +2923,9 @@
         <head>ACTE IV</head>
         <div2 type="scene" n="1" xml:id="IV01">
           <head>SCÈNE I</head>
-          <stage>Dom Juan, Sganarelle.</stage>
-          <sp who="dom-juan" xml:id="IV01-1">
-            <speaker>dom juan</speaker>
+          <stage>Don Juan, Sganarelle.</stage>
+          <sp who="don-juan" xml:id="IV01-1">
+            <speaker>don juan</speaker>
             <p>
               <s>Quoi qu’il en soit, laissons cela : c’est une bagatelle, et nous pouvons avoir été trompés par un faux jour, ou surpris de quelque vapeur qui nous ait troublé la vue.</s>
             </p>
@@ -2938,8 +2938,8 @@
               <s>Il n’est rien de plus véritable que ce signe de tête ; et je ne doute point que le Ciel, scandalisé de votre vie, n’ait produit ce miracle pour vous convaincre, et pour vous retirer de...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV01-3">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV01-3">
+            <speaker>don juan</speaker>
             <p>
               <s>Écoute.</s>
               <s>Si tu m’importunes davantage de tes sottes moralités, si tu me dis encore le moindre mot là-dessus, je vais appeler quelqu’un, demander un nerf de bœuf, te faire tenir par trois ou quatre, et te rouer de mille coups.</s>
@@ -2953,8 +2953,8 @@
               <s>Vous vous expliquez clairement ; c’est ce qu’il y a de bon en vous, que vous n’allez point chercher de détours : vous dites les choses avec une netteté admirable.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV01-5">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV01-5">
+            <speaker>don juan</speaker>
             <p>
               <s>Allons, qu’on me fasse souper le plus tôt que l’on pourra.</s>
               <s>Une chaise, petit garçon.</s>
@@ -2963,7 +2963,7 @@
         </div2>
         <div2 type="scene" n="2" xml:id="IV02">
           <head>SCÈNE II</head>
-          <stage>Dom Juan, La Violette, Sganarelle.</stage>
+          <stage>Don Juan, La Violette, Sganarelle.</stage>
           <sp who="la-violette" xml:id="IV02-1">
             <speaker>la violette</speaker>
             <p>
@@ -2989,8 +2989,8 @@
               <s>Qu’il attende, tant qu’il voudra.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV02-5">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV02-5">
+            <speaker>don juan</speaker>
             <p>
               <s>Non, au contraire, faites-le entrer.</s>
               <s>C’est une fort mauvaise politique que de se faire celer aux créanciers.</s>
@@ -3000,9 +3000,9 @@
         </div2>
         <div2 type="scene" n="3" xml:id="IV03">
           <head>SCÈNE III</head>
-          <stage>Dom Juan, Monsieur Dimanche, Sganarelle, Suite.</stage>
-          <sp who="dom-juan" xml:id="IV03-1">
-            <speaker>dom juan, faisant de grandes civilités</speaker>
+          <stage>Don Juan, Monsieur Dimanche, Sganarelle, Suite.</stage>
+          <sp who="don-juan" xml:id="IV03-1">
+            <speaker>don juan, faisant de grandes civilités</speaker>
             <p>
               <s>Ah !</s>
               <s>Monsieur Dimanche, approchez.</s>
@@ -3016,8 +3016,8 @@
               <s>Monsieur, je vous suis fort obligé.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-3">
-            <speaker>dom juan, parlant à ses laquais</speaker>
+          <sp who="don-juan" xml:id="IV03-3">
+            <speaker>don juan, parlant à ses laquais</speaker>
             <p>
               <s>Parbleu !</s>
               <s>Coquins, je vous apprendrai à laisser M.</s>
@@ -3030,8 +3030,8 @@
               <s>Monsieur, cela n’est rien.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-5">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-5">
+            <speaker>don juan</speaker>
             <p>
               <s>Comment ?</s>
               <s>Vous dire que je n’y suis pas, à M.</s>
@@ -3044,8 +3044,8 @@
               <s>Monsieur, je suis votre serviteur : j’étais venu...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-7">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-7">
+            <speaker>don juan</speaker>
             <p>
               <s>Allons vite, un siège pour M. Dimanche.</s>
             </p>
@@ -3056,8 +3056,8 @@
               <s>Monsieur, je suis bien comme cela.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-9">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-9">
+            <speaker>don juan</speaker>
             <p>
               <s>Point, point, je veux que vous soyez assis contre moi.</s>
             </p>
@@ -3068,8 +3068,8 @@
               <s>Cela n’est point nécessaire.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-11">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-11">
+            <speaker>don juan</speaker>
             <p>
               <s>Ôtez ce pliant, et apportez un fauteuil.</s>
             </p>
@@ -3080,8 +3080,8 @@
               <s>Monsieur, vous vous moquez, et...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-13">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-13">
+            <speaker>don juan</speaker>
             <p>
               <s>Non, non, je sais ce que je vous dois, et je ne veux point qu’on mette de différence entre nous deux.</s>
             </p>
@@ -3092,8 +3092,8 @@
               <s>Monsieur...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-15">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-15">
+            <speaker>don juan</speaker>
             <p>
               <s>Allons, asseyez-vous.</s>
             </p>
@@ -3105,8 +3105,8 @@
               <s>J’étais...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-17">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-17">
+            <speaker>don juan</speaker>
             <p>
               <s>Mettez-vous là, vous dis-je.</s>
             </p>
@@ -3118,8 +3118,8 @@
               <s>Je viens pour...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-19">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-19">
+            <speaker>don juan</speaker>
             <p>
               <s>Non, je ne vous écoute point si vous n’êtes assis.</s>
             </p>
@@ -3131,8 +3131,8 @@
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-21">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-21">
+            <speaker>don juan</speaker>
             <p>
               <s>Parbleu !</s>
               <s>Monsieur Dimanche, vous vous portez bien.</s>
@@ -3145,8 +3145,8 @@
               <s>Je suis venu...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-23">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-23">
+            <speaker>don juan</speaker>
             <p>
               <s>Vous avez un fonds de santé admirable, des lèvres fraîches, un teint vermeil, et des yeux vifs.</s>
             </p>
@@ -3157,8 +3157,8 @@
               <s>Je voudrais bien...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-25">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-25">
+            <speaker>don juan</speaker>
             <p>
               <s>Comment se porte Madame Dimanche, votre épouse ?</s>
             </p>
@@ -3169,8 +3169,8 @@
               <s>Fort bien, Monsieur, Dieu merci.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-27">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-27">
+            <speaker>don juan</speaker>
             <p>
               <s>C’est une brave femme.</s>
             </p>
@@ -3182,8 +3182,8 @@
               <s>Je venais...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-29">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-29">
+            <speaker>don juan</speaker>
             <p>
               <s>Et votre petite fille Claudine, comment se porte-t-elle ?</s>
             </p>
@@ -3194,8 +3194,8 @@
               <s>Le mieux du monde.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-31">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-31">
+            <speaker>don juan</speaker>
             <p>
               <s>La jolie petite fille que c’est !</s>
               <s>Je l’aime de tout mon cœur.</s>
@@ -3208,8 +3208,8 @@
               <s>Je vous...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-33">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-33">
+            <speaker>don juan</speaker>
             <p>
               <s>Et le petit Colin, fait-il toujours bien du bruit avec son tambour ?</s>
             </p>
@@ -3221,8 +3221,8 @@
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-35">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-35">
+            <speaker>don juan</speaker>
             <p>
               <s>Et votre petit chien Brusquet ?</s>
               <s>Gronde-t-il toujours aussi fort, et mord-il toujours bien aux jambes les gens qui vont chez vous ?</s>
@@ -3234,8 +3234,8 @@
               <s>Plus que jamais, Monsieur, et nous ne saurions en chévir.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-37">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-37">
+            <speaker>don juan</speaker>
             <p>
               <s>Ne vous étonnez pas si je m’informe des nouvelles de toute la famille, car j’y prends beaucoup d’intérêt.</s>
             </p>
@@ -3247,8 +3247,8 @@
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-39">
-            <speaker>dom juan, lui tendant la main</speaker>
+          <sp who="don-juan" xml:id="IV03-39">
+            <speaker>don juan, lui tendant la main</speaker>
             <p>
               <s>Touchez donc là, Monsieur Dimanche.</s>
               <s>Êtes-vous bien de mes amis ?</s>
@@ -3260,8 +3260,8 @@
               <s>Monsieur, je suis votre serviteur.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-41">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-41">
+            <speaker>don juan</speaker>
             <p>
               <s>Parbleu !</s>
               <s>Je suis à vous de tout mon cœur.</s>
@@ -3274,8 +3274,8 @@
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-43">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-43">
+            <speaker>don juan</speaker>
             <p>
               <s>Il n’y a rien que je ne fisse pour vous.</s>
             </p>
@@ -3286,8 +3286,8 @@
               <s>Monsieur, vous avez trop de bonté pour moi.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-45">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-45">
+            <speaker>don juan</speaker>
             <p>
               <s>Et cela sans intérêt, je vous prie de le croire.</s>
             </p>
@@ -3299,8 +3299,8 @@
               <s>Mais, Monsieur...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-47">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-47">
+            <speaker>don juan</speaker>
             <p>
               <s>Oh !</s>
               <s>çà, Monsieur Dimanche, sans façon, voulez-vous souper avec moi ?</s>
@@ -3313,8 +3313,8 @@
               <s>Je...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-49">
-            <speaker>dom juan, se levant</speaker>
+          <sp who="don-juan" xml:id="IV03-49">
+            <speaker>don juan, se levant</speaker>
             <p>
               <s>Allons, vite un flambeau pour conduire Monsieur Dimanche et que quatre ou cinq de mes gens prennent des mousquetons pour l’escorter.</s>
             </p>
@@ -3327,8 +3327,8 @@
             </p>
             <stage>Sganarelle ôte les sièges promptement.</stage>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-51">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-51">
+            <speaker>don juan</speaker>
             <p>
               <s>Comment ?</s>
               <s>Je veux qu’on vous escorte, et je m’intéresse trop à votre personne.</s>
@@ -3342,8 +3342,8 @@
               <s>Monsieur...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-53">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-53">
+            <speaker>don juan</speaker>
             <p>
               <s>C’est une chose que je ne cache pas, et je le dis à tout le monde.</s>
             </p>
@@ -3354,8 +3354,8 @@
               <s>Si...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-55">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-55">
+            <speaker>don juan</speaker>
             <p>
               <s>Voulez-vous que je vous reconduise ?</s>
             </p>
@@ -3367,8 +3367,8 @@
               <s>Monsieur, vous vous moquez, Monsieur...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV03-57">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV03-57">
+            <speaker>don juan</speaker>
             <p>
               <s>Embrassez-moi donc, s’il vous plaît.</s>
               <s>Je vous prie encore une fois d’être persuadé que je suis tout à vous, et qu’il n’y a rien au monde que je ne fisse pour votre service.</s>
@@ -3508,22 +3508,22 @@
         </div2>
         <div2 type="scene" n="4" xml:id="IV04">
           <head>SCÈNE IV</head>
-          <stage>Dom Louis, Dom Juan, La Violette, Sganarelle.</stage>
+          <stage>Don Louis, Don Juan, La Violette, Sganarelle.</stage>
           <sp who="la-violette" xml:id="IV04-1">
             <speaker>la violette</speaker>
             <p>
               <s>Monsieur, voilà Monsieur votre père.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV04-2">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV04-2">
+            <speaker>don juan</speaker>
             <p>
               <s>Ah !</s>
               <s>Me voici bien : il me fallait cette visite pour me faire enrager.</s>
             </p>
           </sp>
-          <sp who="dom-louis" xml:id="IV04-3">
-            <speaker>dom louis</speaker>
+          <sp who="don-louis" xml:id="IV04-3">
+            <speaker>don louis</speaker>
             <p>
               <s>Je vois bien que je vous embarrasse et que vous vous passeriez fort aisément de ma venue.</s>
               <s>À dire vrai, nous nous incommodons étrangement l’un et l’autre ; et si vous êtes las de me voir, je suis bien las aussi de vos déportements.</s>
@@ -3543,14 +3543,14 @@
               <s>Apprenez enfin qu’un gentilhomme qui vit mal est un monstre dans la nature, que la vertu est le premier titre de noblesse, que je regarde bien moins au nom qu’on signe qu’aux actions qu’on fait, et que je ferais plus d’état du fils d’un crocheteur qui serait honnête homme, que du fils d’un monarque qui vivrait comme vous.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV04-4">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV04-4">
+            <speaker>don juan</speaker>
             <p>
               <s>Monsieur, si vous étiez assis, vous en seriez mieux pour parler.</s>
             </p>
           </sp>
-          <sp who="dom-louis" xml:id="IV04-5">
-            <speaker>dom louis</speaker>
+          <sp who="don-louis" xml:id="IV04-5">
+            <speaker>don louis</speaker>
             <p>
               <s>Non, insolent, je ne veux point m’asseoir, ni parler davantage, et je vois bien que toutes mes paroles ne font rien sur ton âme.</s>
               <s>Mais sache, fils indigne, que la tendresse paternelle est poussée à bout par tes actions, que je saurai, plus tôt que tu ne penses, mettre une borne à tes dérèglements, prévenir sur toi le courroux du Ciel, et laver par ta punition la honte de t’avoir fait naître.</s>
@@ -3560,9 +3560,9 @@
         </div2>
         <div2 type="scene" n="4" xml:id="IV05">
           <head>SCÈNE V</head>
-          <stage>Dom Juan, Sganarelle.</stage>
-          <sp who="dom-juan" xml:id="IV05-1">
-            <speaker>dom juan</speaker>
+          <stage>Don Juan, Sganarelle.</stage>
+          <sp who="don-juan" xml:id="IV05-1">
+            <speaker>don juan</speaker>
             <p>
               <s>Eh !</s>
               <s>Mourez le plus tôt que vous pourrez, c’est le mieux que vous puissiez faire.</s>
@@ -3577,8 +3577,8 @@
               <s>Monsieur, vous avez tort.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV05-3">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV05-3">
+            <speaker>don juan</speaker>
             <p>
               <s>J’ai tort ?</s>
             </p>
@@ -3589,8 +3589,8 @@
               <s>Monsieur...</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV05-5">
-            <speaker>dom juan, se lève de son siège</speaker>
+          <sp who="don-juan" xml:id="IV05-5">
+            <speaker>don juan, se lève de son siège</speaker>
             <p>
               <s>J’ai tort ?</s>
             </p>
@@ -3610,8 +3610,8 @@
               <s>À quoi me réduis-tu ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV05-7">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV05-7">
+            <speaker>don juan</speaker>
             <p>
               <s>Me fera-t-on souper bientôt ?</s>
             </p>
@@ -3619,15 +3619,15 @@
         </div2>
         <div2 type="scene" n="6" xml:id="IV06">
           <head>SCÈNE VI</head>
-          <stage>Dom Juan, Dona Elvire, Ragotin, Sganarelle.</stage>
+          <stage>Don Juan, Dona Elvire, Ragotin, Sganarelle.</stage>
           <sp who="ragotin" xml:id="IV06-1">
             <speaker>ragotin</speaker>
             <p>
               <s>Monsieur, voici une dame voilée qui vient vous parler.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV06-2">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV06-2">
+            <speaker>don juan</speaker>
             <p>
               <s>Que pourrait-ce être ?</s>
             </p>
@@ -3641,15 +3641,15 @@
           <sp who="elvire" xml:id="IV06-4">
             <speaker>dona elvire</speaker>
             <p>
-              <s>Ne soyez point surpris, Dom Juan, de me voir à cette heure et dans cet équipage.</s>
+              <s>Ne soyez point surpris, Don Juan, de me voir à cette heure et dans cet équipage.</s>
               <s>C’est un motif pressant qui m’oblige à cette visite, et ce que j’ai à vous dire ne veut point du tout de retardement.</s>
               <s>Je ne viens point ici pleine de ce courroux que j’ai tantôt fait éclater, et vous me voyez bien changée de ce que j’étais ce marin.</s>
               <s>Ce n’est plus cette Dona Elvire qui faisait des vœux contre vous, et dont l’âme irritée ne jetait que menaces et ne respirait que vengeance.</s>
               <s>Le Ciel a banni de mon âme toutes ces insignes ardeurs que je sentais pour vous, tous ces transports tumultueux d’un attachement criminel, tous ces honteux emportements d’un amour terrestre et grossier ; et il n’a laissé dans mon cœur pour vous qu’une flamme épurée de tout le commerce des sens, une tendresse toute sainte, un amour détaché de tout, qui n’agit point pour soi, et ne se met en peine que de votre intérêt.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV06-5">
-            <speaker>dom juan, à sganarelle</speaker>
+          <sp who="don-juan" xml:id="IV06-5">
+            <speaker>don juan, à sganarelle</speaker>
             <p>
               <s>Tu pleures, je pense.</s>
             </p>
@@ -3664,10 +3664,10 @@
             <speaker>dona elvire</speaker>
             <p>
               <s>C’est ce parfait et pur amour qui me conduit ici pour votre bien, pour vous faire part d’un avis du Ciel, et tâcher de vous retirer du précipice où vous courez.</s>
-              <s>Oui, Dom Juan, je sais tous les dérèglements de votre vie, et ce même Ciel, qui m’a touché le cœur et fait jeter les yeux sur les égarements de ma conduite, m’a inspiré de vous venir trouver, et de vous dire, de sa part, que vos offenses ont épuisé sa miséricorde, que sa colère redoutable est prête de tomber sur vous, qu’il est en vous de l’éviter par un prompt repentir, et que peut-être vous n’avez pas encore un jour à vous pouvoir soustraire au plus grand de tous les malheurs.</s>
+              <s>Oui, Don Juan, je sais tous les dérèglements de votre vie, et ce même Ciel, qui m’a touché le cœur et fait jeter les yeux sur les égarements de ma conduite, m’a inspiré de vous venir trouver, et de vous dire, de sa part, que vos offenses ont épuisé sa miséricorde, que sa colère redoutable est prête de tomber sur vous, qu’il est en vous de l’éviter par un prompt repentir, et que peut-être vous n’avez pas encore un jour à vous pouvoir soustraire au plus grand de tous les malheurs.</s>
               <s>Pour moi, je ne tiens plus à vous par aucun attachement du monde ; je suis revenue, grâces au Ciel, de toutes mes folles pensées ; ma retraite est résolue, et je ne demande qu’assez de vie pour pouvoir expier la faute que j’ai faite, et mériter, par une austère pénitence, le pardon de l’aveuglement où m’ont plongée les transports d’une passion condamnable.</s>
               <s>Mais, dans cette retraite, j’aurais une douleur extrême qu’une personne que j’ai chérie tendrement devînt un exemple funeste de la justice du Ciel ; et ce me sera une joie incroyable si je puis vous porter à détourner de dessus votre tête l’épouvantable coup qui vous menace.</s>
-              <s>De grâce, Dom Juan, accordez-moi, pour dernière faveur, cette douce consolation ; ne me refusez point votre salut, que je vous demande avec larmes ; et si vous n’êtes point touché de votre intérêt, soyez-le au moins de mes prières, et m’épargnez le cruel déplaisir de vous voir condamner à des supplices éternels.</s>
+              <s>De grâce, Don Juan, accordez-moi, pour dernière faveur, cette douce consolation ; ne me refusez point votre salut, que je vous demande avec larmes ; et si vous n’êtes point touché de votre intérêt, soyez-le au moins de mes prières, et m’épargnez le cruel déplaisir de vous voir condamner à des supplices éternels.</s>
             </p>
           </sp>
           <sp who="sganarelle" xml:id="IV06-8">
@@ -3681,7 +3681,7 @@
             <p>
               <s>Je vous ai aimé avec une tendresse extrême, rien au monde ne m’a été si cher que vous ; j’ai oublié mon devoir pour vous, j’ai fait toutes choses pour vous ; et toute la récompense que je vous en demande, c’est de corriger votre vie, et de prévenir votre perte.</s>
               <s>Sauvez-vous, je vous prie, ou pour l’amour de vous, ou pour l’amour de moi.</s>
-              <s>Encore une fois, Dom Juan, je vous le demande avec larmes ; et si ce n’est assez des larmes d’une personne que vous avez aimée, je vous en conjure par tout ce qui est le plus capable de vous toucher.</s>
+              <s>Encore une fois, Don Juan, je vous le demande avec larmes ; et si ce n’est assez des larmes d’une personne que vous avez aimée, je vous en conjure par tout ce qui est le plus capable de vous toucher.</s>
             </p>
           </sp>
           <sp who="sganarelle" xml:id="IV06-10">
@@ -3696,8 +3696,8 @@
               <s>Je m’en vais, après ce discours, et voilà tout ce que j’avais à vous dire.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV06-12">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV06-12">
+            <speaker>don juan</speaker>
             <p>
               <s>Madame, il est tard, demeurez ici : on vous y logera le mieux qu’on pourra.</s>
             </p>
@@ -3705,11 +3705,11 @@
           <sp who="elvire" xml:id="IV06-13">
             <speaker>dona elvire</speaker>
             <p>
-              <s>Non, Dom Juan, ne me retenez pas davantage.</s>
+              <s>Non, Don Juan, ne me retenez pas davantage.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV06-14">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV06-14">
+            <speaker>don juan</speaker>
             <p>
               <s>Madame, vous me ferez plaisir de demeurer, je vous assure.</s>
             </p>
@@ -3724,9 +3724,9 @@
         </div2>
         <div2 type="scene" n="7" xml:id="IV07">
           <head>SCÈNE VII</head>
-          <stage>Dom Juan, Sganarelle, suite.</stage>
-          <sp who="dom-juan" xml:id="IV07-1">
-            <speaker>dom juan</speaker>
+          <stage>Don Juan, Sganarelle, suite.</stage>
+          <sp who="don-juan" xml:id="IV07-1">
+            <speaker>don juan</speaker>
             <p>
               <s>Sais-tu bien que j’ai encore senti quelque peu d’émotion pour elle, que j’ai trouvé de l’agrément dans cette nouveauté bizarre, et que son habit négligé, son air languissant et ses larmes ont réveillé en moi quelques petits restes d’un feu éteint ?</s>
             </p>
@@ -3737,8 +3737,8 @@
               <s>C’est-à-dire que ses paroles n’ont fait aucun effet sur vous.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV07-3">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV07-3">
+            <speaker>don juan</speaker>
             <p>
               <s>Vite à souper.</s>
             </p>
@@ -3749,8 +3749,8 @@
               <s>Fort bien.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV07-5">
-            <speaker>dom juan, se mettant à table</speaker>
+          <sp who="don-juan" xml:id="IV07-5">
+            <speaker>don juan, se mettant à table</speaker>
             <p>
               <s>Sganarelle, il faut songer à s’amender pourtant.</s>
             </p>
@@ -3761,8 +3761,8 @@
               <s>Oui-da !</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV07-7">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV07-7">
+            <speaker>don juan</speaker>
             <p>
               <s>Oui, ma foi !</s>
               <s>Il faut s’amender ; encore vingt ou trente ans de cette vie-ci, et puis nous songerons à nous.</s>
@@ -3774,8 +3774,8 @@
               <s>Oh !</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV07-9">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV07-9">
+            <speaker>don juan</speaker>
             <p>
               <s>Qu’en dis-tu ?</s>
             </p>
@@ -3788,8 +3788,8 @@
             </p>
             <stage>Il prend un morceau d’un des plats qu’on apporte et le met dans sa bouche.</stage>
           </sp>
-          <sp who="dom-juan" xml:id="IV07-11">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV07-11">
+            <speaker>don juan</speaker>
             <p>
               <s>Il me semble que tu as la joue enflée ; qu’est-ce que c’est ?</s>
               <s>Parle donc, qu’as-tu là ?</s>
@@ -3801,8 +3801,8 @@
               <s>Rien.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV07-13">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV07-13">
+            <speaker>don juan</speaker>
             <p>
               <s>Montre un peu.</s>
               <s>Parbleu !</s>
@@ -3821,8 +3821,8 @@
               <s>Monsieur, je voulais voir si votre cuisinier n’avait point mis trop de sel ou trop de poivre.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV07-15">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV07-15">
+            <speaker>don juan</speaker>
             <p>
               <s>Allons, mets-toi là, et mange.</s>
               <s>J’ai affaire de toi quand j’aurai soupé.</s>
@@ -3844,8 +3844,8 @@
             </p>
             <stage>Pendant qu’un laquais donne à boire à Sganarelle, l’autre laquais ôte encore son assiette.</stage>
           </sp>
-          <sp who="dom-juan" xml:id="IV07-17">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV07-17">
+            <speaker>don juan</speaker>
             <p>
               <s>Qui peut frapper de cette sorte ?</s>
             </p>
@@ -3856,8 +3856,8 @@
               <s>Qui diable nous vient troubler dans notre repas ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV07-19">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV07-19">
+            <speaker>don juan</speaker>
             <p>
               <s>Je veux souper en repos au moins, et qu’on ne laisse entrer personne.</s>
             </p>
@@ -3868,8 +3868,8 @@
               <s>Laissez-moi faire, je m’y en vais moi-même.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV07-21">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV07-21">
+            <speaker>don juan</speaker>
             <p>
               <s>Qu’est-ce donc ?</s>
               <s>Qu’y a-t-il ?</s>
@@ -3882,8 +3882,8 @@
               <s>qui est là !</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV07-23">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV07-23">
+            <speaker>don juan</speaker>
             <p>
               <s>Allons voir, et montrons que rien ne me saurait ébranler.</s>
             </p>
@@ -3898,9 +3898,9 @@
         </div2>
         <div2 type="scene" n="8" xml:id="IV08">
           <head>SCÈNE VIII</head>
-          <stage>Dom Juan, la statue du Commandeur, qui vient se mettre à table, Sganarelle, Suite.</stage>
-          <sp who="dom-juan" xml:id="IV08-1">
-            <speaker>dom juan</speaker>
+          <stage>Don Juan, la statue du Commandeur, qui vient se mettre à table, Sganarelle, Suite.</stage>
+          <sp who="don-juan" xml:id="IV08-1">
+            <speaker>don juan</speaker>
             <p>
               <s>Une chaise et un couvert, vite donc.</s>
             </p>
@@ -3915,8 +3915,8 @@
               <s>Monsieur, je n’ai plus de faim.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV08-3">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV08-3">
+            <speaker>don juan</speaker>
             <p>
               <s>Mets-toi là, te dis-je.</s>
               <s>À boire.</s>
@@ -3930,8 +3930,8 @@
               <s>Monsieur, je n’ai pas soif.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV08-5">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV08-5">
+            <speaker>don juan</speaker>
             <p>
               <s>Bois, et chante ta chanson, pour régaler le Commandeur.</s>
             </p>
@@ -3942,8 +3942,8 @@
               <s>Je suis enrhumé, Monsieur.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV08-7">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV08-7">
+            <speaker>don juan</speaker>
             <p>
               <s>Il n’importe.</s>
               <s>Allons.</s>
@@ -3953,13 +3953,13 @@
           <sp who="commandeur" xml:id="IV08-8">
             <speaker>la statue</speaker>
             <p>
-              <s>Dom Juan, c’est assez.</s>
+              <s>Don Juan, c’est assez.</s>
               <s>Je vous invite à venir demain souper avec moi.</s>
               <s>En aurez-vous le courage ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV08-9">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="IV08-9">
+            <speaker>don juan</speaker>
             <p>
               <s>Oui, j’irai, accompagné du seul Sganarelle.</s>
             </p>
@@ -3970,8 +3970,8 @@
               <s>Je vous rends grâce, il est demain jeûne pour moi.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="IV08-11">
-            <speaker>dom juan, à sganarelle</speaker>
+          <sp who="don-juan" xml:id="IV08-11">
+            <speaker>don juan, à sganarelle</speaker>
             <p>
               <s>Prends ce flambeau.</s>
             </p>
@@ -3988,9 +3988,9 @@
         <head>ACTE V</head>
         <div2 type="scene" n="1" xml:id="V01">
           <head>SCÈNE I</head>
-          <stage>Dom Louis, Dom Juan, Sganarelle.</stage>
-          <sp who="dom-louis" xml:id="V01-1">
-            <speaker>dom louis</speaker>
+          <stage>Don Louis, Don Juan, Sganarelle.</stage>
+          <sp who="don-louis" xml:id="V01-1">
+            <speaker>don louis</speaker>
             <p>
               <s>Quoi ?</s>
               <s>Mon fils, serait-il possible que la bonté du Ciel eût exaucé mes vœux ?</s>
@@ -3998,8 +3998,8 @@
               <s>Ne m’abusez-vous point d’un faux espoir, et puis-je prendre quelque assurance sur la nouveauté surprenante d’une telle conversion ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V01-2">
-            <speaker>dom juan, faisant l’hypocrite</speaker>
+          <sp who="don-juan" xml:id="V01-2">
+            <speaker>don juan, faisant l’hypocrite</speaker>
             <p>
               <s>Oui, vous me voyez revenu de toutes mes erreurs ; je ne suis plus le même d’hier au soir, et le Ciel tout d’un coup a fait en moi un changement qui va surprendre tout le monde : il a touché mon âme et dessillé mes yeux, et je regarde avec horreur le long aveuglement où j’ai été, et les désordres criminels de la vie que j’ai menée.</s>
               <s>J’en repasse dans mon esprit toutes les abominations, et m’étonne comme le Ciel les a pu souffrir si longtemps, et n’a pas vingt fois sur ma tête laissé tomber les coups de sa justice redoutable.</s>
@@ -4007,8 +4007,8 @@
               <s>C’est à quoi je vais travailler ; et je vous prie, Monsieur, de vouloir bien contribuer à ce dessein, et de m’aider vous-même à faire choix d’une personne qui me serve de guide, et sous la conduite de qui je puisse marcher sûrement dans le chemin où je m’en vais entrer.</s>
             </p>
           </sp>
-          <sp who="dom-louis" xml:id="V01-3">
-            <speaker>dom louis</speaker>
+          <sp who="don-louis" xml:id="V01-3">
+            <speaker>don louis</speaker>
             <p>
               <s>Ah !</s>
               <s>Mon fils, que la tendresse d’un père est aisément rappelée, et que les offenses d’un fils s’évanouissent vite au moindre mot de repentir !</s>
@@ -4021,7 +4021,7 @@
         </div2>
         <div2 type="scene" n="2" xml:id="V02">
           <head>SCÈNE II</head>
-          <stage>Dom Juan, Sganarelle.</stage>
+          <stage>Don Juan, Sganarelle.</stage>
           <sp who="sganarelle" xml:id="V02-1">
             <speaker>sganarelle</speaker>
             <p>
@@ -4030,8 +4030,8 @@
               <s>Il y a longtemps que j’attendais cela, et voilà, grâce au Ciel, tous mes souhaits accomplis.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V02-2">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V02-2">
+            <speaker>don juan</speaker>
             <p>
               <s>La peste le benêt !</s>
             </p>
@@ -4042,8 +4042,8 @@
               <s>Comment, le benêt ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V02-4">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V02-4">
+            <speaker>don juan</speaker>
             <p>
               <s>Quoi ?</s>
               <s>Tu prends pour de bon argent ce que je viens de dire, et tu crois que ma bouche était d’accord avec mon cœur ?</s>
@@ -4062,8 +4062,8 @@
               <s>Quel homme !</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V02-6">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V02-6">
+            <speaker>don juan</speaker>
             <p>
               <s>Non, non, je ne suis point changé, et mes sentiments sont toujours les mêmes.</s>
             </p>
@@ -4074,8 +4074,8 @@
               <s>Vous ne vous rendez pas à la surprenante merveille de cette statue mouvante et parlante ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V02-8">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V02-8">
+            <speaker>don juan</speaker>
             <p>
               <s>Il y a bien quelque chose là dedans que je ne comprends pas ; mais quoi que ce puisse être, cela n’est pas capable ni de convaincre mon esprit, ni d’ébranler mon âme ; et si j’ai dit que je voulais corriger ma conduite et me jeter dans un train de vie exemplaire, c’est un dessein que j’ai formé par pure politique, un stratagème utile, une grimace nécessaire où je veux me contraindre, pour ménager un père dont j’ai besoin, et me mettre à couvert, du côté des hommes, de cent fâcheuses aventures qui pourraient m’arriver.</s>
               <s>Je veux bien, Sganarelle, t’en faire confidence, et je suis bien aise d’avoir un témoin du fond de mon âme et des véritables motifs qui m’obligent à faire les choses.</s>
@@ -4088,8 +4088,8 @@
               <s>Vous ne croyez rien du tout, et vous voulez cependant vous ériger en homme de bien ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V02-10">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V02-10">
+            <speaker>don juan</speaker>
             <p>
               <s>Et pourquoi non ?</s>
               <s>Il y en a tant d’autres comme moi, qui se mêlent de ce métier, et qui se servent du même masque pour abuser le monde !</s>
@@ -4103,8 +4103,8 @@
               <s>Quel homme !</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V02-12">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V02-12">
+            <speaker>don juan</speaker>
             <p>
               <s>Il n’y a plus de honte maintenant à cela : l’hypocrisie est un vice à la mode, et tous les vices à la mode passent pour vertus.</s>
               <s>Le personnage d’homme de bien est le meilleur de tous les personnages qu’on puisse jouer aujourd’hui, et la profession d’hypocrite a de merveilleux avantages.</s>
@@ -4135,8 +4135,8 @@
               <s>Sachez, Monsieur, que tant va la cruche à l’eau, qu’enfin elle se brise ; et comme dit fort bien cet auteur que je ne connais pas, l’homme est en ce monde ainsi que l’oiseau sur la branche ; la branche est attachée à l’arbre ; qui s’attache à l’arbre, suit de bons préceptes ; les bons préceptes valent mieux que les belles paroles ; les belles paroles se trouvent à la Cour ; à la Cour sont les courtisans ; les courtisans suivent la mode ; la mode vient de la fantaisie ; la fantaisie est une faculté de l’âme ; l’âme est ce qui nous donne la vie ; la vie finit par la mort ; la mort nous fait penser au Ciel ; le Ciel est au-dessus de la terre ; la terre n’est point la mer ; la mer est sujette aux orages ; les orages tourmentent les vaisseaux ; les vaisseaux ont besoin d’un bon pilote ; un bon pilote a de la prudence ; la prudence n’est point dans les jeunes gens ; les jeunes gens doivent obéissance aux vieux ; les vieux aiment les richesses ; les richesses font les riches ; les riches ne sont pas pauvres ; les pauvres ont de la nécessité, nécessité n’a point de loi ; qui n’a point de loi vit en bête brute ; et par conséquent, vous serez damné à tous les diables.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V02-14">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V02-14">
+            <speaker>don juan</speaker>
             <p>
               <s>Ô beau raisonnement !</s>
             </p>
@@ -4150,127 +4150,127 @@
         </div2>
         <div2 type="scene" n="3" xml:id="V03">
           <head>SCÈNE III</head>
-          <stage>Dom Carlos, Dom Juan, Sganarelle.</stage>
-          <sp who="dom-carlos" xml:id="V03-1">
-            <speaker>dom carlos</speaker>
+          <stage>Don Carlos, Don Juan, Sganarelle.</stage>
+          <sp who="don-carlos" xml:id="V03-1">
+            <speaker>don carlos</speaker>
             <p>
-              <s>Dom Juan, je vous trouve à propos, et suis bien aise de vous parler ici plutôt que chez vous, pour vous demander vos résolutions.</s>
+              <s>Don Juan, je vous trouve à propos, et suis bien aise de vous parler ici plutôt que chez vous, pour vous demander vos résolutions.</s>
               <s>Vous savez que ce soin me regarde, et que je me suis en votre présence chargé de cette affaire.</s>
               <s>Pour moi je ne le cèle point, je souhaite fort que les choses aillent dans la douceur ; et il n’y a rien que je ne fasse pour porter votre esprit à vouloir prendre cette voie, et pour vous voir publiquement confirmer à ma sœur le nom de votre femme.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V03-2">
-            <speaker>dom juan, d’un ton hypocrite</speaker>
+          <sp who="don-juan" xml:id="V03-2">
+            <speaker>don juan, d’un ton hypocrite</speaker>
             <p>
               <s>Hélas !</s>
               <s>Je voudrais bien, de tout mon cœur, vous donner la satisfaction que vous souhaitez ; mais le Ciel s’y oppose directement : il a inspiré à mon âme le dessein de changer de vie, et je n’ai point d’autres pensées maintenant que de quitter entièrement tous les attachements du monde, de me dépouiller au plus tôt de toutes sortes de vanités, et de corriger désormais par une austère conduite tous les dérèglements criminels où m’a porté le feu d’une aveugle jeunesse.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="V03-3">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="V03-3">
+            <speaker>don carlos</speaker>
             <p>
-              <s>Ce dessein, Dom Juan, ne choque point ce que je dis ; et la compagnie d’une femme légitime peut bien s’accommoder avec les louables pensées que le Ciel vous inspire.</s>
+              <s>Ce dessein, Don Juan, ne choque point ce que je dis ; et la compagnie d’une femme légitime peut bien s’accommoder avec les louables pensées que le Ciel vous inspire.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V03-4">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V03-4">
+            <speaker>don juan</speaker>
             <p>
               <s>Hélas !</s>
               <s>Point du tout.</s>
               <s>C’est un dessein que votre sœur elle-même a pris : elle a résolu sa retraite, et nous avons été touchés tous deux en même temps.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="V03-5">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="V03-5">
+            <speaker>don carlos</speaker>
             <p>
               <s>Sa retraite ne peut nous satisfaire, pouvant être imputée au mépris que vous feriez d’elle et de notre famille ; et notre honneur demande qu’elle vive avec vous.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V03-6">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V03-6">
+            <speaker>don juan</speaker>
             <p>
               <s>Je vous assure que cela ne se peut.</s>
               <s>J’en avais, pour moi, toutes les envies du monde, et je me suis même encore aujourd’hui conseillé au Ciel pour cela ; mais, lorsque je l’ai consulté j’ai entendu une voix qui m’a dit que je ne devais point songer à votre sœur, et qu’avec elle assurément je ne ferais point mon salut.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="V03-7">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="V03-7">
+            <speaker>don carlos</speaker>
             <p>
-              <s>Croyez-vous, Dom Juan, nous éblouir par ces belles excuses ?</s>
+              <s>Croyez-vous, Don Juan, nous éblouir par ces belles excuses ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V03-8">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V03-8">
+            <speaker>don juan</speaker>
             <p>
               <s>J’obéis à la voix du Ciel.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="V03-9">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="V03-9">
+            <speaker>don carlos</speaker>
             <p>
               <s>Quoi ?</s>
               <s>Vous voulez que je me paye d’un semblable discours ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V03-10">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V03-10">
+            <speaker>don juan</speaker>
             <p>
               <s>C’est le Ciel qui le veut ainsi.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="V03-11">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="V03-11">
+            <speaker>don carlos</speaker>
             <p>
               <s>Vous aurez fait sortir ma sœur d’un convent, pour la laisser ensuite ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V03-12">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V03-12">
+            <speaker>don juan</speaker>
             <p>
               <s>Le Ciel l’ordonne de la sorte.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="V03-13">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="V03-13">
+            <speaker>don carlos</speaker>
             <p>
               <s>Nous souffrirons cette tache en notre famille ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V03-14">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V03-14">
+            <speaker>don juan</speaker>
             <p>
               <s>Prenez-vous-en au Ciel.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="V03-15">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="V03-15">
+            <speaker>don carlos</speaker>
             <p>
               <s>Et quoi ?</s>
               <s>Toujours le Ciel ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V03-16">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V03-16">
+            <speaker>don juan</speaker>
             <p>
               <s>Le Ciel le souhaite comme cela.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="V03-17">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="V03-17">
+            <speaker>don carlos</speaker>
             <p>
-              <s>Il suffit, Dom Juan, je vous entends.</s>
+              <s>Il suffit, Don Juan, je vous entends.</s>
               <s>Ce n’est pas ici que je veux vous prendre, et le lieu ne le souffre pas ; mais, avant qu’il soit peu, je saurai vous trouver.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V03-18">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V03-18">
+            <speaker>don juan</speaker>
             <p>
               <s>Vous ferez ce que vous voudrez ; vous savez que je ne manque point de cœur, et que je sais me servir de mon épée quand il le faut.</s>
               <s>Je m’en vais passer tout à l’heure dans cette petite rue écartée qui mène au grand convent ; mais je vous déclare, pour moi, que ce n’est point moi qui me veux battre : le Ciel m’en défend la pensée ; et si vous m’attaquez, nous verrons ce qui en arrivera.</s>
             </p>
           </sp>
-          <sp who="dom-carlos" xml:id="V03-19">
-            <speaker>dom carlos</speaker>
+          <sp who="don-carlos" xml:id="V03-19">
+            <speaker>don carlos</speaker>
             <p>
               <s>Nous verrons, de vrai, nous verrons.</s>
             </p>
@@ -4278,7 +4278,7 @@
         </div2>
         <div2 type="scene" n="4" xml:id="V04">
           <head>SCÈNE IV</head>
-          <stage>Dom Juan, Sganarelle.</stage>
+          <stage>Don Juan, Sganarelle.</stage>
           <sp who="sganarelle" xml:id="V04-1">
             <speaker>sganarelle</speaker>
             <p>
@@ -4287,8 +4287,8 @@
               <s>J’espérais toujours de votre salut ; mais c’est maintenant que j’en désespère ; et je crois que le Ciel, qui vous a souffert jusques ici, ne pourra souffrir du tout cette dernière horreur.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V04-2">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V04-2">
+            <speaker>don juan</speaker>
             <p>
               <s>Va, va, le Ciel n’est pas si exact que tu penses ; et si toutes les fois que les hommes...</s>
             </p>
@@ -4300,8 +4300,8 @@
               <s>Monsieur, c’est le Ciel qui vous parle, et c’est un avis qu’il vous donne.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V04-4">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V04-4">
+            <speaker>don juan</speaker>
             <p>
               <s>Si le Ciel me donne un avis, il faut qu’il parle un peu plus clairement, s’il veut que je l’entende.</s>
             </p>
@@ -4309,11 +4309,11 @@
         </div2>
         <div2 type="scene" n="5" xml:id="V05">
           <head>SCÈNE V</head>
-          <stage>Dom Juan, un Spectre, en femme voilée, Sganarelle.</stage>
+          <stage>Don Juan, un Spectre, en femme voilée, Sganarelle.</stage>
           <sp who="spectre" xml:id="V05-1">
             <speaker>le spectre</speaker>
             <p>
-              <s>Dom Juan n’a plus qu’un moment à pouvoir profiter de la miséricorde du Ciel ; et s’il ne se repent ici, sa perte est résolue.</s>
+              <s>Don Juan n’a plus qu’un moment à pouvoir profiter de la miséricorde du Ciel ; et s’il ne se repent ici, sa perte est résolue.</s>
             </p>
           </sp>
           <sp who="sganarelle" xml:id="V05-2">
@@ -4322,8 +4322,8 @@
               <s>Entendez-vous, Monsieur ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V05-3">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V05-3">
+            <speaker>don juan</speaker>
             <p>
               <s>Qui ose tenir ces paroles ?</s>
               <s>Je crois connaître cette voix.</s>
@@ -4336,8 +4336,8 @@
               <s>Monsieur, c’est un spectre : je le reconnais au marcher.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V05-5">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V05-5">
+            <speaker>don juan</speaker>
             <p>
               <s>Spectre, fantôme ; ou diable, je veux voir ce que c’est.</s>
             </p>
@@ -4350,12 +4350,12 @@
               <s>Voyez-vous, Monsieur, ce changement de figure ?</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V05-7">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V05-7">
+            <speaker>don juan</speaker>
             <p>
               <s>Non, non, rien n’est capable de m’imprimer de la terreur, et je veux éprouver avec mon épée si c’est un corps ou un esprit.</s>
             </p>
-            <stage>Le Spectre s’envole dans le temps que Dom Juan le veut frapper.</stage>
+            <stage>Le Spectre s’envole dans le temps que Don Juan le veut frapper.</stage>
           </sp>
           <sp who="sganarelle" xml:id="V05-8">
             <speaker>sganarelle</speaker>
@@ -4364,8 +4364,8 @@
               <s>Monsieur, rendez-vous à tant de preuves, et jetez-vous vite dans le repentir.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V05-9">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V05-9">
+            <speaker>don juan</speaker>
             <p>
               <s>Non, non, il ne sera pas dit, quoi qu’il arrive, que je sois capable de me repentir.</s>
               <s>Allons, suis-moi.</s>
@@ -4374,15 +4374,15 @@
         </div2>
         <div2 type="scene" n="6" xml:id="V06">
           <head>SCÈNE VI</head>
-          <stage>La Statue, Dom Juan, Sganarelle.</stage>
+          <stage>La Statue, Don Juan, Sganarelle.</stage>
           <sp who="commandeur" xml:id="V06-1">
             <speaker>la statue</speaker>
             <p>
-              <s>Arrêtez, Dom Juan ! Vous m’avez hier donné parole de venir manger avec moi.</s>
+              <s>Arrêtez, Don Juan ! Vous m’avez hier donné parole de venir manger avec moi.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V06-2">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V06-2">
+            <speaker>don juan</speaker>
             <p>
               <s>Oui.</s>
               <s>Où faut-il aller ?</s>
@@ -4394,8 +4394,8 @@
               <s>Donnez-moi la main.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V06-4">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V06-4">
+            <speaker>don juan</speaker>
             <p>
               <s>La voilà.</s>
             </p>
@@ -4403,18 +4403,18 @@
           <sp who="commandeur" xml:id="V06-5">
             <speaker>la statue</speaker>
             <p>
-              <s>Dom Juan, l’endurcissement au péché traîne une mort funeste, et les grâces du Ciel que l’on renvoie ouvrent un chemin à sa foudre.</s>
+              <s>Don Juan, l’endurcissement au péché traîne une mort funeste, et les grâces du Ciel que l’on renvoie ouvrent un chemin à sa foudre.</s>
             </p>
           </sp>
-          <sp who="dom-juan" xml:id="V06-6">
-            <speaker>dom juan</speaker>
+          <sp who="don-juan" xml:id="V06-6">
+            <speaker>don juan</speaker>
             <p>
               <s>Ô Ciel !</s>
               <s>Que sens-je ?</s>
               <s>Un feu invisible me brûle, je n’en puis plus, et tout mon corps devient un brasier ardent.</s>
               <s>Ah !</s>
             </p>
-            <stage>Le tonnerre tombe avec un grand bruit et de grands éclairs sur Dom Juan ; la terre s’ouvre et l’abîme ; et il sort de grands feux de l’endroit où il est tombé.</stage>
+            <stage>Le tonnerre tombe avec un grand bruit et de grands éclairs sur Don Juan ; la terre s’ouvre et l’abîme ; et il sort de grands feux de l’endroit où il est tombé.</stage>
           </sp>
           <sp who="sganarelle" xml:id="V06-7">
             <speaker>sganarelle</speaker>
