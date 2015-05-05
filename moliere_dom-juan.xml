@@ -1,33 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_dom-juan" xml:lang="fr">
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_dom-juan" xml:lang="fre">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>DOM JUAN ou LE FESTIN DE PIERRE, COMÉDIE </title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">Molière</author>
-        <date>1665</date>
+        <title>Dom Juan, ou Le Festin de Pierre, Comédie</title>
+        <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
-        <p>publié par Paul FIEVRE, juillet 2009.</p>
+        <date when="2009"/>
+        <date when="2015"/>
+        <publisher>Publié par Paul Fièvre en juillet 2009, révision en 2015 par Amélie Canu et Oriane Morvan</publisher>
+        <availability status="restricted">
+          <licence target="projet-Molière"/>
+        </availability>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_dom-juan/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_dom-juan.xml</idno>
       </publicationStmt>
       <sourceDesc>
+        <bibl><author>Molière, </author><title>Dom Juan, ou Le Festin de Pierre, Comédie</title>, dans <title>Les Oeuvres posthumes de Monsieur de Molière</title>, t. VII, Paris, 1682.</bibl>
         <genre>Comédie</genre>
         <inspiration>mœurs italiennes</inspiration>
         <type>prose</type>
         <structure>Cinq actes</structure>
         <periode>1661-1670</periode>
         <taille>(mesure non pertinente)</taille>
-        <sources>
-          <source id="1">
-            <author/>
-            <text/>
-          </source>
-        </sources>
       </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1669">1669</date>
+      </creation>
+      <langUsage>
+        <language ident="fre"></language>
+      </langUsage>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
