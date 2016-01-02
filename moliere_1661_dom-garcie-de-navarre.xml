@@ -1,60 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
-      <titleStmt/>
-      <editionStmt/>
+      <titleStmt>
+        <title>Dom Garcie de Navarre</title>
+        <title type="sub">Comédie</title>
+        <author key="Molière (1622-1673)">Molière</author>
+      </titleStmt>
       <publicationStmt>
         <availability status="restricted"/>
       </publicationStmt>
-      <sourceDesc/>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
     </fileDesc>
     <profileDesc>
-      <creation/>
+      <creation>
+        <date when="1661"/>
+      </creation>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
     <front>
       <titlePage>
-       <label rend="center">DOM  GARCIE</label>
-      <label rend="center"/>
-      <label rend="center">DE NAVARRE</label>
-      <label rend="center"/>
-      <label rend="center">OU</label>
-      <label rend="center"/>
-      <label rend="center">LE PRINCE JALOUX</label>
-      <label rend="center"/>
-      <label rend="center i">COMÉDIE</label>
-      <label rend="center i"/>
-      <label rend="center">PAR J.B.P. MOLIÈRE</label>
-      <label rend="center"/>
-      <label rend="center i">Représentée pour la première fois, le quatrième Février 1661. Sur le Théâtre</label>
-      <label rend="center i">de la salle du Palais-Royal.</label>
-      <label rend="center i"/>
-      <label rend="center i"/>
-      <label rend="center">Par la Troupe de MONSIEUR,</label>
-      <label rend="center">Frère unique du Roi.</label>
-       
+        <label rend="center">DOM  GARCIE</label>
+        <label rend="center"/>
+        <label rend="center">DE NAVARRE</label>
+        <label rend="center"/>
+        <label rend="center">OU</label>
+        <label rend="center"/>
+        <label rend="center">LE PRINCE JALOUX</label>
+        <label rend="center"/>
+        <label rend="center i">COMÉDIE</label>
+        <label rend="center i"/>
+        <label rend="center">PAR J.B.P. MOLIÈRE</label>
+        <label rend="center"/>
+        <label rend="center i">Représentée pour la première fois, le quatrième Février 1661. Sur le Théâtre</label>
+        <label rend="center i">de la salle du Palais-Royal.</label>
+        <label rend="center i"/>
+        <label rend="center i"/>
+        <label rend="center">Par la Troupe de MONSIEUR,</label>
+        <label rend="center">Frère unique du Roi.</label>
       </titlePage>
       <div>
         <head>ACTEURS</head>
-<castList>
-        <castItem><role xml:id="dom-garcie" civil="M" type="H" statut="prince" age="A" stat_amour="Elvire">DOM GARCIE</role>, prince de Navarre, amant d’Elvire.</castItem>
-        <castItem><role xml:id="dona-elvire" civil="F" type="H" statut="prince" age="A" stat_amour="néant">ELVIRE</role>, princesse de Léon.</castItem>
-        <castItem><role xml:id="elise" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">ÉLISE</role>.</castItem>
-        <castItem><role xml:id="dom-alphonse" civil="M" type="H" statut="prince" age="A" stat_amour="néant">DOM ALPHONSE</role>, prince de Léon, cru prince de Castille, sous le nom de Dom Sylve.</castItem>
-        <castItem><role xml:id="dona-ignes" civil="F" type="H" statut="comte" age="A" stat_amour="Dom Sylve">IGNÈS</role>, comtesse, amante de Dom Sylve, aimée de Mauregat, usurpateur de l’Etat de Léon.</castItem>
-        <castItem><role xml:id="dom-alvar" civil="M" type="H" statut="confident" age="A" stat_amour="Elise">DOM ALVAR</role>, confident de Dom Garcie, amante d’Elise.</castItem>
-        <castItem><role xml:id="dom-lope" civil="M" type="H" statut="confident" age="A" stat_amour="Elise">DOM LOPE</role>, autre confident de Dom Garcie, amant rebuté d’Elise.</castItem>
-        <castItem><role xml:id="dom-pedre" civil="M" type="H" statut="écuyer" age="A" stat_amour="néant">DOM PEDRE</role>, écuyer d’Ignès.</castItem>
-        <castItem><role xml:id="dom-sylve" civil="M">[DOM SYLVE]</role></castItem>
-      </castList>
-      <set location="Astorgue" country="Espagne" periode="XVIIème" link="">La scène est dans Astorgue, ville d’Espagne, dans le royaume de Léon.</set>      </div>
+        <castList>
+          <castItem><role xml:id="dom-garcie" civil="M" type="H" statut="prince" age="A" stat_amour="Elvire">DOM GARCIE</role>, prince de Navarre, amant d’Elvire.</castItem>
+          <castItem><role xml:id="dona-elvire" civil="F" type="H" statut="prince" age="A" stat_amour="néant">ELVIRE</role>, princesse de Léon.</castItem>
+          <castItem><role xml:id="elise" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">ÉLISE</role>.</castItem>
+          <castItem><role xml:id="dom-alphonse" civil="M" type="H" statut="prince" age="A" stat_amour="néant">DOM ALPHONSE</role>, prince de Léon, cru prince de Castille, sous le nom de Dom Sylve.</castItem>
+          <castItem><role xml:id="dona-ignes" civil="F" type="H" statut="comte" age="A" stat_amour="Dom Sylve">IGNÈS</role>, comtesse, amante de Dom Sylve, aimée de Mauregat, usurpateur de l’Etat de Léon.</castItem>
+          <castItem><role xml:id="dom-alvar" civil="M" type="H" statut="confident" age="A" stat_amour="Elise">DOM ALVAR</role>, confident de Dom Garcie, amante d’Elise.</castItem>
+          <castItem><role xml:id="dom-lope" civil="M" type="H" statut="confident" age="A" stat_amour="Elise">DOM LOPE</role>, autre confident de Dom Garcie, amant rebuté d’Elise.</castItem>
+          <castItem><role xml:id="dom-pedre" civil="M" type="H" statut="écuyer" age="A" stat_amour="néant">DOM PEDRE</role>, écuyer d’Ignès.</castItem>
+          <castItem>
+            <role xml:id="dom-sylve" civil="M">[DOM SYLVE]</role>
+          </castItem>
+        </castList>
+        <set location="Astorgue" country="Espagne" periode="XVIIème" link="">La scène est dans Astorgue, ville d’Espagne, dans le royaume de Léon.</set>
+      </div>
     </front>
     <body>
       <div xml:id="I" type="act">
@@ -613,12 +626,12 @@
             <l n="374" xml:id="l374">Puissiez-vous jouir, belle Elvire,</l>
             <l n="375" xml:id="l375">D’un destin plus doux que le mien.</l>
           </sp>
-          <sp who="dona-ignes">
+          <sp who="dona-ignes" xml:id="I03-36">
             <speaker>D. Ignès</speaker>
             <stage>Il continue.</stage>
             <l n="376" xml:id="l376">Dans la haute vertu son âme est affermie.</l>
           </sp>
-          <sp who="dona-elvire" xml:id="I03-36">
+          <sp who="dona-elvire" xml:id="I03-37">
             <speaker>d. elvire</speaker>
             <l n="377" xml:id="l377">Je vais faire réponse à cette illustre amie,</l>
             <l n="378" xml:id="l378">Cependant apprenez, Prince, à vous mieux armer</l>
@@ -628,18 +641,18 @@
             <l n="382" xml:id="l382">Mais à n’en point mentir il serait des moments,</l>
             <l n="383" xml:id="l383">Où je pourrais entrer dans d’autres sentiments.</l>
           </sp>
-          <sp who="dom-garcie" xml:id="I03-37">
+          <sp who="dom-garcie" xml:id="I03-38">
             <speaker>d. garcie</speaker>
             <l n="384" xml:id="l384">Hé, quoi vous croyez donc…</l>
           </sp>
-          <sp who="dona-elvire" xml:id="I03-38">
+          <sp who="dona-elvire" xml:id="I03-39">
             <speaker>d. elvire</speaker>
             <l>Je crois ce qu’il faut croire.</l>
             <l n="385" xml:id="l385">Adieu, de mes avis conservez la mémoire,</l>
             <l n="386" xml:id="l386">Et s’il est vrai pour moi, que votre amour soit grand,</l>
             <l n="387" xml:id="l387">Donnez-en à mon cœur les preuves qu’il prétend.</l>
           </sp>
-          <sp who="dom-garcie" xml:id="I03-39">
+          <sp who="dom-garcie" xml:id="I03-40">
             <speaker>d. garcie</speaker>
             <l n="388" xml:id="l388">Croyez que désormais, c’est toute mon envie,</l>
             <l n="389" xml:id="l389">Et qu’avant qu’y manquer, je veux perdre la vie.</l>

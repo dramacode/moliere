@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_mariage-force" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Le Mariage forcé, Comédie-ballet.</title>
+        <title>Le Mariage forcé</title>
         <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
@@ -19,19 +18,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <genre>Comédie-ballet</genre>
-        <inspiration>mœurs françaises</inspiration>
-        <type>prose</type>
-        <structure>Un acte</structure>
-        <periode>1661-1670</periode>
-        <taille>(mesure non pertinente)</taille>
-        <permalien/>
-        <sources>
-          <source id="1">
-            <author/>
-            <text/>
-          </source>
-        </sources>
+        <p/>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -41,6 +28,11 @@
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie-ballet</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
@@ -56,15 +48,15 @@
       <div>
         <head>PERSONNAGES</head>
       <castList>
-        <castItem><role xml:id="sganarelle" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">SGANARELLE</role></castItem>
-        <castItem><role xml:id="geronimo" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">GÉRONIMO</role></castItem>
-        <castItem><role xml:id="dorimene" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">DORIMÈNE</role>, jeune Coquette, promise à Sganarelle.</castItem>
-        <castItem><role xml:id="alcantor" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCANTOR</role>, Père de Dorimène.</castItem>
-        <castItem><role xml:id="alcidas" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ALCIDAS</role>, Frère de Dorimène.</castItem>
-        <castItem><role xml:id="lycaste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">LYCASTE</role>, Amant de Dorimène.</castItem>
-        <castItem><role xml:id="egyptienne1" civil="F" type="H" statut="bohémien" age="A" stat_amour="néant">DEUX ÉGYPTIENNES</role>.<role xml:id="egyptienne2"></role></castItem>
-        <castItem><role xml:id="pancrace" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">PANCRACE</role>, Docteur Aristotélicien.</castItem>
-        <castItem><role xml:id="marphurius" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">MARPHURIUS</role>, Docteur Pyrrhonien.</castItem>
+        <castItem><role xml:id="sganarelle" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">Sganarelle</role></castItem>
+        <castItem><role xml:id="geronimo" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">Géronimo</role></castItem>
+        <castItem><role xml:id="dorimene" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">Dorimène</role>, jeune Coquette, promise à Sganarelle.</castItem>
+        <castItem><role xml:id="alcantor" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Alcantor</role>, Père de Dorimène.</castItem>
+        <castItem><role xml:id="alcidas" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Alcidas</role>, Frère de Dorimène.</castItem>
+        <castItem><role xml:id="lycaste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Lycaste</role>, Amant de Dorimène.</castItem>
+        <castItem><role xml:id="egyptienne1" civil="F" type="H" statut="bohémien" age="A" stat_amour="néant">Deux égyptiennes</role>.<role xml:id="egyptienne2"></role></castItem>
+        <castItem><role xml:id="pancrace" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">Pancrace</role>, Docteur Aristotélicien.</castItem>
+        <castItem><role xml:id="marphurius" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">Marphurius</role>, Docteur Pyrrhonien.</castItem>
       </castList>
       </div>
     </front>

@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_impromptu-versailles">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>L’IMPROMPTU DE VERSAILLES, COMÉDIE en un acte</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1663</date>
+        <title>L’Impromptu de Versailles</title>
+        <author>Molière</author>
       </titleStmt>
       <publicationStmt>
-        <p>publié par Paul FIEVRE, octobre 2008.</p>
+        <publisher>publié par Paul FIEVRE, octobre 2008. </publisher>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_impromptu-versailles/</idno>
-        <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_impromptu-versailles.xml</idno>
       </publicationStmt>
       <sourceDesc>
-        <genre>Comédie</genre>
-        <inspiration>mœurs françaises</inspiration>
-        <structure>Un acte</structure>
-        <type>prose</type>
-        <periode>1661-1670</periode>
-        <taille>(mesure non pertinente)</taille>
-        <permalien/>
+        <p/>
       </sourceDesc>
     </fileDesc>
+   <profileDesc>
+      <creation>
+        <date when="1668"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
@@ -60,7 +64,7 @@
       <set location="Versailles" country="France" periode="XVIIème" link="">La scène est à Versailles dans la salle de la Comédie. </set>
     </front>
     <body>
-      <div1 type="acte" n="1" xml:id="I">
+      <div1 n="1" xml:id="I">
         <head/>
         <div2 type="scene" n="1" xml:id="I01">
           <head>SCÈNE PREMIÈRE</head>

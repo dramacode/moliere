@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_critique-ecole-des-femmes">
   <teiHeader>
@@ -7,7 +6,7 @@
       <titleStmt>
         <title>La Critique de l'École des femmes</title>
         <title type="sub">Comédie</title>
-        <author key="Molière (1622-1673)">MOLIÈRE</author>
+        <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
         <date when="2010"/>
@@ -24,12 +23,6 @@
           <author>Molière</author>
           <title>La Critique de l'École des Femmes. Comédie</title>
         </bibl>
-        <genre>Comédie</genre>
-        <inspiration>moeurs françaises</inspiration>
-        <structure>Un acte</structure>
-        <type>prose</type>
-        <periode>1661-1670</periode>
-        <taille>(mesure non pertinente)</taille>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -37,8 +30,13 @@
         <date when="1663"/>
       </creation>
       <langUsage>
-        <language ident="FR"/>
+        <language ident="fr"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>

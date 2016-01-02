@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xml:id="moliere_ecole-des-femmes" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -20,22 +19,24 @@
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_ecole-des-femmes.xml</idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl> <author>Molière</author> <title>L'École des Femmes. Comédie</title> </bibl>
-        <genre>Comédie</genre>
-        <inspiration>moeurs françaises</inspiration>
-        <structure>Cinq actes</structure>
-        <type>vers</type>
-        <periode>1661-1670</periode>
-        <taille>1750-2000</taille>
+        <bibl>
+          <author>Molière</author>
+          <title>L'École des Femmes. Comédie</title>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="1663"/>
+        <date when="1662"/>
       </creation>
       <langUsage>
-        <language ident="FR"/>
+        <language ident="fr"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
@@ -51,8 +52,7 @@
       <div type="dedication">
         <head>À MADAME</head>
         <p rend="sc">Madame,</p>
-        <p>Je suis le plus embarrassé homme du monde, lorsqu'il me faut dédier un Livre, et je me trouve si peu fait au style d'Épitre Dédicatoire, que je ne sais par où sortir de celle-ci. Un autre Auteur qui serait en ma place, trouverait d'abord cent belle choses à dire de <hi rend="sc">Votre Altesse Royale</hi>, sur le titre de <hi rend="sc">L'École des Femmes</hi>, et l'offre qu'il vous en ferait. Mais, pour moi, <hi rend="sc">Madame</hi>, je vous avoue mon faible. Je ne sais point cet art de trouver des rapports entre des choses si peu proportionnées ; et quelques belles lumières, que mes Confrères les Auteurs me donnent tous les jours sur de pareils sujets, je ne vois point ce que <hi rend="sc">Votre Altesse Royale</hi> pourrait avoir à démêler avec la Comédie que je lui présente. On n'est pas en peine, sans doute, comme il faut faire pour vous louer. La matière, <hi rend="sc">Madame</hi>, ne saute que trop aux yeux, et de quelque côté qu'on vous regarde, on rencontre Gloire sur Gloire, et qualités sur qualités. Vous en avez, <hi rend="sc">Madame</hi>, du côté du rang, et de la naissance, qui vous font respecter de toute la terre. Vous en avez du côté des Grâces, et de l'Esprit et du Corps, qui vous font admirer de toutes les personnes, qui vous voient. Vous en avez du côté de l'âme, qui, si l'on ose parler ainsi, vous font aimer de tous ceux qui ont l'honneur d'approcher de vous : Je veux dire cette douceur pleine de Charmes, dont vous daignez tempérer la fierté des grands titres que vous portez ; cette bonté tout obligeante ; cette affabilité généreuse, que vous faîtes paraître pour tout le monde : Et ce sont particulièrement ces dernières pour qui je suis, et dont je sens fort bien que je ne me pourrai taire quelque jour. Mais encore une fois, <hi rend="sc"
-          >Madame</hi>, je ne sais point le biais de faire entrer ici des vérités si éclatantes, et ce sont choses, à mon avis, et d'une trop vaste étendue, et d'un mérite trop relevé, pour les vouloir renfermer dans une Épître, et les mêler avec des bagatelles. Tout bien considéré, <hi rend="sc">Madame</hi>, Je ne vois rien à faire ici pour moi, que de vous Dédier simplement ma Comédie, et de vous assurer avec tout le respect, qu'il m'est possible, que je suis <hi rend="sc">Votre Altesse Royale</hi>, <lb/><lb/><hi rend="sc">Madame</hi>, <lb/><lb/>Le très humble, très obéissant, et très obligé serviteur, J. B. MOLIÈRE.</p>
+        <p>Je suis le plus embarrassé homme du monde, lorsqu'il me faut dédier un Livre, et je me trouve si peu fait au style d'Épitre Dédicatoire, que je ne sais par où sortir de celle-ci. Un autre Auteur qui serait en ma place, trouverait d'abord cent belle choses à dire de <hi rend="sc">Votre Altesse Royale</hi>, sur le titre de <hi rend="sc">L'École des Femmes</hi>, et l'offre qu'il vous en ferait. Mais, pour moi, <hi rend="sc">Madame</hi>, je vous avoue mon faible. Je ne sais point cet art de trouver des rapports entre des choses si peu proportionnées ; et quelques belles lumières, que mes Confrères les Auteurs me donnent tous les jours sur de pareils sujets, je ne vois point ce que <hi rend="sc">Votre Altesse Royale</hi> pourrait avoir à démêler avec la Comédie que je lui présente. On n'est pas en peine, sans doute, comme il faut faire pour vous louer. La matière, <hi rend="sc">Madame</hi>, ne saute que trop aux yeux, et de quelque côté qu'on vous regarde, on rencontre Gloire sur Gloire, et qualités sur qualités. Vous en avez, <hi rend="sc">Madame</hi>, du côté du rang, et de la naissance, qui vous font respecter de toute la terre. Vous en avez du côté des Grâces, et de l'Esprit et du Corps, qui vous font admirer de toutes les personnes, qui vous voient. Vous en avez du côté de l'âme, qui, si l'on ose parler ainsi, vous font aimer de tous ceux qui ont l'honneur d'approcher de vous : Je veux dire cette douceur pleine de Charmes, dont vous daignez tempérer la fierté des grands titres que vous portez ; cette bonté tout obligeante ; cette affabilité généreuse, que vous faîtes paraître pour tout le monde : Et ce sont particulièrement ces dernières pour qui je suis, et dont je sens fort bien que je ne me pourrai taire quelque jour. Mais encore une fois, <hi rend="sc">Madame</hi>, je ne sais point le biais de faire entrer ici des vérités si éclatantes, et ce sont choses, à mon avis, et d'une trop vaste étendue, et d'un mérite trop relevé, pour les vouloir renfermer dans une Épître, et les mêler avec des bagatelles. Tout bien considéré, <hi rend="sc">Madame</hi>, Je ne vois rien à faire ici pour moi, que de vous Dédier simplement ma Comédie, et de vous assurer avec tout le respect, qu'il m'est possible, que je suis <hi rend="sc">Votre Altesse Royale</hi>, <lb/><lb/><hi rend="sc">Madame</hi>, <lb/><lb/>Le très humble, très obéissant, et très obligé serviteur, J. B. MOLIÈRE.</p>
       </div>
       <div type="preface">
         <head>PRÉFACE</head>
@@ -70,7 +70,9 @@
           <castItem><role age="A" civil="F" stat_amour="néant" statut="bourgeois" type="H" xml:id="chrysalde">CHRYSALDE</role>, Ami d'Arnolphe.</castItem>
           <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="enrique">ENRIQUE</role>, Beau-frère de Chrysalde.</castItem>
           <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="oronte">ORONTE</role>, Père d'Horace, et grand ami d'Arnolphe.</castItem>
-          <castItem><role civil="M" xml:id="notaire">[Le notaire]</role></castItem>
+          <castItem>
+            <role civil="M" xml:id="notaire">[Le notaire]</role>
+          </castItem>
         </castList>
         <stage country="France" link="" location="Paris" periode="XVIIème">La Scène est dans une place de Ville.</stage>
       </div>
@@ -2397,21 +2399,21 @@
             <l>Du tiers du dot qu’elle a, mais cet ordre n’est rien,</l>
             <l>Et l’on va plus avant lorsque l’on le veut bien.</l>
           </sp>
-          <sp who="arnolphe">
+          <sp who="arnolphe" xml:id="IV02-16">
             <speaker>arnolphe <hi rend="i">sans le voir</hi>.</speaker>
             <l>Si…</l>
           </sp>
-          <sp who="notaire" xml:id="IV02-16">
+          <sp who="notaire" xml:id="IV02-17">
             <speaker>le notaire <hi rend="i">Arnolphe l’apercevant</hi>.</speaker>
             <l n="1060" part="Y">Pour le préciput il les regarde ensemble.</l>
             <l>Je dis que le futur peut comme bon lui semble</l>
             <l>Douer la future.</l>
           </sp>
-          <sp who="arnolphe" xml:id="IV02-17">
+          <sp who="arnolphe" xml:id="IV02-18">
             <speaker>arnolphe <hi rend="i">l’ayant aperçu</hi></speaker>
             <l>Euh !</l>
           </sp>
-          <sp who="notaire" xml:id="IV02-18">
+          <sp who="notaire" xml:id="IV02-19">
             <speaker>le notaire</speaker>
             <l>Il peut l’avantager</l>
             <l>Lors qu’il l’aime beaucoup et qu’il veut l’obliger,</l>
@@ -2430,32 +2432,32 @@
             <l>Sais-je pas que le tiers du bien de la future</l>
             <l>Entre en communauté ? pour…</l>
           </sp>
-          <sp who="arnolphe" xml:id="IV02-19">
+          <sp who="arnolphe" xml:id="IV02-20">
             <speaker>arnolphe</speaker>
             <l part="Y">Oui, c’est chose sûre,</l>
             <l>Vous savez tout cela mais qui vous en dit mot ?</l>
           </sp>
-          <sp who="notaire" xml:id="IV02-20">
+          <sp who="notaire" xml:id="IV02-21">
             <speaker>le notaire</speaker>
             <l>Vous qui me prétendez faire passer pour sot,</l>
             <l n="1080">En me haussant l’épaule, et faisant la grimace.</l>
           </sp>
-          <sp who="arnolphe" xml:id="IV02-21">
+          <sp who="arnolphe" xml:id="IV02-22">
             <speaker>arnolphe</speaker>
             <l>La peste soit fait l’homme, et sa chienne de face.</l>
             <l>Adieu. C’est le moyen de vous faire finir.</l>
           </sp>
-          <sp who="notaire" xml:id="IV02-22">
+          <sp who="notaire" xml:id="IV02-23">
             <speaker>le notaire</speaker>
             <l>Pour dresser un Contrat m’a-t-on pas fait venir ?</l>
           </sp>
-          <sp who="arnolphe" xml:id="IV02-23">
+          <sp who="arnolphe" xml:id="IV02-24">
             <speaker>arnolphe</speaker>
             <l>Oui, je vous ai mandé : mais la chose est remise,</l>
             <l n="1085">Et l’on vous mandera quand l’heure sera prise.</l>
             <l>Voyez quel Diable d’homme avec son entretien ?</l>
           </sp>
-          <sp who="notaire" xml:id="IV02-24">
+          <sp who="notaire" xml:id="IV02-25">
             <speaker>le notaire</speaker>
             <l>Je pense qu’il en tient, et je crois penser bien.</l>
           </sp>

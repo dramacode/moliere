@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_tartuffe" xml:lang="fr">
   <teiHeader>
@@ -23,12 +22,6 @@
           <author>Molière</author>
           <title>Le Tartuffe, ou L’Imposteur, Comédie</title>
         </bibl>
-        <genre>Comédie</genre>
-        <inspiration>mœurs françaises</inspiration>
-        <structure>Cinq actes</structure>
-        <type>vers</type>
-        <periode>1661-1670</periode>
-        <taille>1750-2000</taille>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -36,19 +29,24 @@
         <date when="1669">1669</date>
       </creation>
       <langUsage>
-        <language ident="fre"></language>
+        <language ident="fre"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie-ballet</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
     <front>
       <titlePage>
-      <docTitle>
-        <titlePart type="main" rend="uc">Le Tartuffe,</titlePart>
-        <titlePart type="sub" rend="uc">ou l’Imposteur,</titlePart>
-        <titlePart type="sub" rend="uc">Comédie</titlePart>
-      </docTitle>
-      <docAuthor>Par J. B. P. de Molière</docAuthor>
+        <docTitle>
+          <titlePart type="main" rend="uc">Le Tartuffe,</titlePart>
+          <titlePart type="sub" rend="uc">ou l’Imposteur,</titlePart>
+          <titlePart type="sub" rend="uc">Comédie</titlePart>
+        </docTitle>
+        <docAuthor>Par J. B. P. de Molière</docAuthor>
         <docImprint><hi rend="i">Imprimé aux dépens de l'Auteur, et se vend</hi><lb/>À PARIS, <lb/>
           Chez JEAN RIBOU, au Palais, vis-à-vis<lb/> la Porte de l'Église de la Sainte-Chapelle,
           <lb/>à l'Image Saint-Louis. </docImprint>
@@ -106,20 +104,20 @@
       </div>
       <div>
         <head>ACTEURS</head>
-      <castList>
-        <castItem><role xml:id="madame-pernelle" civil="F" type="H" statut="bourgeois" age="V" stat_amour="néant">MADAME PERNELLE</role>, Mère d’Orgon.</castItem>
-        <castItem><role xml:id="orgon" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">ORGON </role>, Mari d’Elmire.</castItem>
-        <castItem><role xml:id="elmire" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">ELMIRE</role>, Femme d’Orgon.</castItem>
-        <castItem><role xml:id="damis" civil="M" type="H" statut="bourgeois" age="J" stat_amour="néant">DAMIS</role>, Fils d’Orgon.</castItem>
-        <castItem><role xml:id="mariane" civil="F" type="H" statut="bourgeois" age="J" stat_amour="Valère">MARIANE</role>, Fille d’Orgon, et Amante de Valère.</castItem>
-        <castItem><role xml:id="valere" civil="M" type="H" statut="bourgeois" age="A" stat_amour="Mariane">VALÈRE</role>, Amant de Mariane.</castItem>
-        <castItem><role xml:id="cleante" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">CLÉANTE</role>, Beau-frère d’Orgon.</castItem>
-        <castItem><role xml:id="tartuffe" civil="M" type="H" statut="dévot" age="A" stat_amour="néant">TARTUFFE</role>, Faux Dévot.</castItem>
-        <castItem><role xml:id="dorine" civil="F" type="H" statut="suivante" age="A" stat_amour="néant">DORINE</role>, Suivante de Mariane.</castItem>
-        <castItem><role xml:id="loyal" civil="M" type="H" statut="sergent" age="A" stat_amour="néant">MONSIEUR LOYAL</role>, Sergent.</castItem>
-        <castItem><role xml:id="exempt" civil="M" type="H" statut="exempt" age="A" stat_amour="néant">UN EXEMPT</role>.</castItem>
-        <castItem><role xml:id="flipote" civil="F" type="H" statut="servante" age="A" stat_amour="néant">FLIPOTE</role>, Servante de Mme Pernelle.</castItem>
-      </castList>
+        <castList>
+          <castItem><role xml:id="madame-pernelle" rend="female veteran">Madame Pernelle</role>, Mère d’Orgon.</castItem>
+          <castItem><role xml:id="orgon" rend="male">Orgon</role>, Mari d’Elmire.</castItem>
+          <castItem><role xml:id="elmire" rend="female">Elmire</role>, Femme d’Orgon.</castItem>
+          <castItem><role xml:id="damis" rend="male junior">Damis</role>, Fils d’Orgon.</castItem>
+          <castItem><role xml:id="mariane" rend="female junior love">Mariane</role>, Fille d’Orgon, et Amante de Valère.</castItem>
+          <castItem><role xml:id="valere" rend="male junior love">Valère</role>, Amant de Mariane.</castItem>
+          <castItem><role xml:id="cleante" rend="male">Cléante</role>, Beau-frère d’Orgon.</castItem>
+          <castItem><role xml:id="tartuffe" rend="male love">Tartuffe</role>, Faux Dévot.</castItem>
+          <castItem><role xml:id="dorine" rend="female">Dorine</role>, Suivante de Mariane.</castItem>
+          <castItem><role xml:id="loyal" rend="male">Monsieur Loyal</role>, Sergent.</castItem>
+          <castItem><role xml:id="exempt" rend="male">Un exempt</role>.</castItem>
+          <castItem><role xml:id="flipote" rend="female">Flipote</role>, Servante de Mme Pernelle.</castItem>
+        </castList>
         <set>La Scène est à Paris.</set>
       </div>
     </front>
@@ -3898,73 +3896,73 @@
         <div2 type="scene" xml:id="V04">
           <head>SCÈNE IV</head>
           <stage>Monsieur Loyal, Madame Pernelle, Orgon, Damis, Mariane, Dorine, Elmire, Cléante</stage>
-          <sp who="loyal">
-          <speaker>Monsieur Loyal</speaker>
-          <l n="1717" xml:id="l1717">Bonjour, ma chère Sœur. Faites, je vous supplie,</l>
-          <l n="1718" xml:id="l1718">Que je parle à Monsieur.</l>
+          <sp xml:id="V04-1" who="loyal">
+            <speaker>Monsieur Loyal</speaker>
+            <l n="1717" xml:id="l1717">Bonjour, ma chère Sœur. Faites, je vous supplie,</l>
+            <l n="1718" xml:id="l1718">Que je parle à Monsieur.</l>
           </sp>
-          <sp xml:id="V04-1" who="dorine">
+          <sp xml:id="V04-2" who="dorine">
             <speaker>Dorine</speaker>
             <l n="1718" part="F">Il est en compagnie,</l>
             <l n="1719" xml:id="l1719">Et je doute qu’il puisse, à présent, voir quelqu’un.</l>
           </sp>
-          <sp xml:id="V04-2" who="loyal">
+          <sp xml:id="V04-3" who="loyal">
             <speaker>Monsieur Loyal</speaker>
             <l n="1720" xml:id="l1720">Je ne suis pas pour être, en ces lieux, importun.</l>
             <l n="1721" xml:id="l1721">Mon abord n’aura rien, je crois, qui lui déplaise,</l>
             <l n="1722" xml:id="l1722">Et je viens pour un fait dont il sera bien aise.</l>
           </sp>
-          <sp xml:id="V04-3" who="dorine">
+          <sp xml:id="V04-4" who="dorine">
             <speaker>Dorine</speaker>
             <l n="1723" xml:id="l1723">Votre nom ?</l>
           </sp>
-          <sp xml:id="V04-4" who="loyal">
+          <sp xml:id="V04-5" who="loyal">
             <speaker>Monsieur Loyal</speaker>
             <l n="1723" part="F">Dites-lui seulement que je viens</l>
             <l n="1724" xml:id="l1724">De la part de Monsieur Tartuffe, pour son bien.</l>
           </sp>
-          <sp xml:id="V04-5" who="dorine">
+          <sp xml:id="V04-6" who="dorine">
             <speaker>Dorine</speaker>
             <l n="1725" xml:id="l1725">C’est un Homme qui vient, avec douce manière,</l>
             <l n="1726" xml:id="l1726">De la part de Monsieur Tartuffe, pour affaire,</l>
             <l n="1727" xml:id="l1727">Dont vous serez, dit-il, bien aise.</l>
           </sp>
-          <sp xml:id="V04-6" who="cleante">
+          <sp xml:id="V04-7" who="cleante">
             <speaker>Cléante</speaker>
             <l n="1727" part="F">Il vous faut voir</l>
             <l n="1728" xml:id="l1728">Ce que c’est que cet Homme, et ce qu’il peut vouloir.</l>
           </sp>
-          <sp xml:id="V04-7" who="orgon">
+          <sp xml:id="V04-8" who="orgon">
             <speaker>Orgon</speaker>
             <l n="1729" xml:id="l1729">Pour nous raccommoder, il vient ici, peut-être.</l>
             <l n="1730" xml:id="l1730">Quels sentiments aurai-je à lui faire paraître ?</l>
           </sp>
-          <sp xml:id="V04-8" who="cleante">
+          <sp xml:id="V04-9" who="cleante">
             <speaker>Cléante</speaker>
             <l n="1731" xml:id="l1731">Votre ressentiment ne doit point éclater,</l>
             <l n="1732" xml:id="l1732">Et s’il parle d’accord, il le faut écouter.</l>
           </sp>
-          <sp xml:id="V04-9" who="loyal">
+          <sp xml:id="V04-10" who="loyal">
             <speaker>Monsieur Loyal</speaker>
             <l n="1733" xml:id="l1733">Salut, Monsieur. Le Ciel perde qui vous veut nuire,</l>
             <l n="1734" xml:id="l1734">Et vous soit favorable autant que je désire.</l>
           </sp>
-          <sp xml:id="V04-10" who="orgon">
+          <sp xml:id="V04-11" who="orgon">
             <speaker>Orgon</speaker>
             <l n="1735" xml:id="l1735">Ce doux début s’accorde avec mon jugement,</l>
             <l n="1736" xml:id="l1736">Et présage déjà quelque accommodement.</l>
           </sp>
-          <sp xml:id="V04-11" who="loyal">
+          <sp xml:id="V04-12" who="loyal">
             <speaker>Monsieur Loyal</speaker>
             <l n="1737" xml:id="l1737">Toute votre Maison m’a toujours été chère,</l>
             <l n="1738" xml:id="l1738">Et j’étais serviteur de Monsieur votre Père.</l>
           </sp>
-          <sp xml:id="V04-12" who="orgon">
+          <sp xml:id="V04-13" who="orgon">
             <speaker>Orgon</speaker>
             <l n="1739" xml:id="l1739">Monsieur, j’ai grande honte, et demande pardon,</l>
             <l n="1740" xml:id="l1740">D’être sans vous connaître, ou savoir votre nom.</l>
           </sp>
-          <sp xml:id="V04-13" who="loyal">
+          <sp xml:id="V04-14" who="loyal">
             <speaker>Monsieur Loyal</speaker>
             <l n="1741" xml:id="l1741">Je m’appelle Loyal, natif de Normandie,</l>
             <l n="1742" xml:id="l1742">Et suis Huissier à Verge, en dépit de l’Envie.</l>
@@ -3973,11 +3971,11 @@
             <l n="1745" xml:id="l1745">Et je vous viens, Monsieur, avec votre licence,</l>
             <l n="1746" xml:id="l1746">Signifier l’Exploit de certaine Ordonnance.</l>
           </sp>
-          <sp xml:id="V04-14" who="orgon">
+          <sp xml:id="V04-15" who="orgon">
             <speaker>Orgon</speaker>
             <l n="1747" xml:id="l1747">Quoi ! vous êtes ici…</l>
           </sp>
-          <sp xml:id="V04-15" who="loyal">
+          <sp xml:id="V04-16" who="loyal">
             <speaker>Monsieur Loyal</speaker>
             <l n="1747" part="F">Monsieur, sans passion,</l>
             <l n="1748" xml:id="l1748">Ce n’est rien seulement qu’une Sommation,</l>
@@ -3985,11 +3983,11 @@
             <l n="1750" xml:id="l1750">Mettre vos meubles hors, et faire place à d’autres,</l>
             <l n="1751" xml:id="l1751">Sans délai, ni remise, ainsi que besoin est...</l>
           </sp>
-          <sp xml:id="V04-16" who="orgon">
+          <sp xml:id="V04-17" who="orgon">
             <speaker>Orgon</speaker>
             <l n="1752" xml:id="l1752">Moi, sortir de céans ?</l>
           </sp>
-          <sp xml:id="V04-17" who="loyal">
+          <sp xml:id="V04-18" who="loyal">
             <speaker>Monsieur Loyal</speaker>
             <l n="1752" part="F">Oui, Monsieur, s’il vous plaît.</l>
             <l n="1753" xml:id="l1753">La Maison à présent, comme savez de reste,</l>
@@ -3998,44 +3996,44 @@
             <l n="1756" xml:id="l1756">En vertu d’un Contrat duquel je suis Porteur.</l>
             <l n="1757" xml:id="l1757">Il est en bonne forme, et l’on n’y peut rien dire.</l>
           </sp>
-          <sp xml:id="V04-18" who="damis">
+          <sp xml:id="V04-19" who="damis">
             <speaker>Damis</speaker>
             <l n="1758" xml:id="l1758">Certes, cette impudence est grande, et je l’admire.</l>
           </sp>
-          <sp xml:id="V04-19" who="loyal">
+          <sp xml:id="V04-20" who="loyal">
             <speaker>Monsieur Loyal</speaker>
             <l n="1759" xml:id="l1759">Monsieur, je ne dois point avoir affaire à vous ;</l>
             <l n="1760" xml:id="l1760">C’est à Monsieur, il est, et raisonnable, et doux,</l>
             <l n="1761" xml:id="l1761">Et d’un Homme de bien il sait trop bien l’office,</l>
             <l n="1762" xml:id="l1762">Pour se vouloir du tout opposer à Justice.</l>
           </sp>
-          <sp xml:id="V04-20" who="orgon">
+          <sp xml:id="V04-21" who="orgon">
             <speaker>Orgon</speaker>
             <l n="1763" xml:id="l1763">Mais…</l>
           </sp>
-          <sp xml:id="V04-21" who="loyal">
+          <sp xml:id="V04-22" who="loyal">
             <speaker>Monsieur Loyal</speaker>
             <l n="1763" part="F">Oui, Monsieur, je sais que pour un million</l>
             <l n="1764" xml:id="l1764">Vous ne voudriez pas faire rébellion ;</l>
             <l n="1765" xml:id="l1765">Et que vous souffrirez en honnête Personne,</l>
             <l n="1766" xml:id="l1766">Que j’exécute ici les ordres qu’on me donne.</l>
           </sp>
-          <sp xml:id="V04-22" who="damis">
+          <sp xml:id="V04-23" who="damis">
             <speaker>Damis</speaker>
             <l n="1767" xml:id="l1767">Vous pourriez bien ici, sur votre noir jupon,</l>
             <l n="1768" xml:id="l1768">Monsieur l’Huissier à Verge, attirer le bâton.</l>
           </sp>
-          <sp xml:id="V04-23" who="loyal">
+          <sp xml:id="V04-24" who="loyal">
             <speaker>Monsieur Loyal</speaker>
             <l n="1769" xml:id="l1769">Faites que votre Fils se taise, ou se retire,</l>
             <l n="1770" xml:id="l1770">Monsieur ; j’aurais regret d’être obligé d’écrire,</l>
             <l n="1771" xml:id="l1771">Et de vous voir couché dans mon Procès-verbal.</l>
           </sp>
-          <sp xml:id="V04-24" who="dorine">
+          <sp xml:id="V04-25" who="dorine">
             <speaker>Dorine</speaker>
             <l n="1772" xml:id="l1772">Ce Monsieur Loyal porte un air bien déloyal !</l>
           </sp>
-          <sp xml:id="V04-25" who="loyal">
+          <sp xml:id="V04-26" who="loyal">
             <speaker>Monsieur Loyal</speaker>
             <l n="1773" xml:id="l1773">Pour tous les Gens de bien, j’ai de grandes tendresses,</l>
             <l n="1774" xml:id="l1774">Et ne me suis voulu, Monsieur, charger des Pièces,</l>
@@ -4044,12 +4042,12 @@
             <l n="1777" xml:id="l1777">Qui n’ayant pas pour vous le zèle qui me pousse,</l>
             <l n="1778" xml:id="l1778">Auraient pu procéder d’une façon moins douce.</l>
           </sp>
-          <sp xml:id="V04-26" who="orgon">
+          <sp xml:id="V04-27" who="orgon">
             <speaker>Orgon</speaker>
             <l n="1779" xml:id="l1779">Et que peut-on de pis, que d’ordonner aux Gens</l>
             <l n="1780" xml:id="l1780">De sortir de chez eux ?</l>
           </sp>
-          <sp xml:id="V04-27" who="loyal">
+          <sp xml:id="V04-28" who="loyal">
             <speaker>Monsieur Loyal</speaker>
             <l n="1780" part="F">On vous donne du temps,</l>
             <l n="1781" xml:id="l1781">Et jusques à demain, je ferai surséance</l>
@@ -4069,42 +4067,42 @@
             <l n="1795" xml:id="l1795">Je vous conjure aussi, Monsieur, d’en user bien,</l>
             <l n="1796" xml:id="l1796">Et qu’au dû de ma Charge on ne me trouble en rien.</l>
           </sp>
-          <sp xml:id="V04-28" who="orgon">
+          <sp xml:id="V04-29" who="orgon">
             <speaker>Orgon</speaker>
             <l n="1797" xml:id="l1797">Du meilleur de mon cœur, je donnerais sur l’heure</l>
             <l n="1798" xml:id="l1798">Les cent plus beaux Louis de ce qui me demeure,</l>
             <l n="1799" xml:id="l1799">Et pouvoir à plaisir, sur ce mufle asséner</l>
             <l n="1800" xml:id="l1800">Le plus grand coup de poing qui se puisse donner.</l>
           </sp>
-          <sp xml:id="V04-29" who="cleante">
+          <sp xml:id="V04-30" who="cleante">
             <speaker>Cléante</speaker>
             <l n="1801" xml:id="l1801">Laissez, ne gâtons rien.</l>
           </sp>
-          <sp xml:id="V04-30" who="damis">
+          <sp xml:id="V04-31" who="damis">
             <speaker>Damis</speaker>
             <l n="1801" part="F">À cette audace étrange,</l>
             <l n="1802" xml:id="l1802">J’ai peine à me tenir, et la main me démange.</l>
           </sp>
-          <sp xml:id="V04-31" who="dorine">
+          <sp xml:id="V04-32" who="dorine">
             <speaker>Dorine</speaker>
             <l n="1803" xml:id="l1803">Avec un si bon dos, ma foi, Monsieur Loyal,</l>
             <l n="1804" xml:id="l1804">Quelques coups de bâton ne vous siéraient pas mal.</l>
           </sp>
-          <sp xml:id="V04-32" who="loyal">
+          <sp xml:id="V04-33" who="loyal">
             <speaker>Monsieur Loyal</speaker>
             <l n="1805" xml:id="l1805">On pourrait bien punir ces paroles infâmes,</l>
             <l n="1806" xml:id="l1806">Mamie, et l’on décrète aussi contre les Femmes.</l>
           </sp>
-          <sp xml:id="V04-33" who="cleante">
+          <sp xml:id="V04-34" who="cleante">
             <speaker>Cléante</speaker>
             <l n="1807" xml:id="l1807">Finissons tout cela, Monsieur, c’en est assez ;</l>
             <l n="1808" xml:id="l1808">Donnez tôt ce papier, de grâce, et nous laissez.</l>
           </sp>
-          <sp xml:id="V04-34" who="loyal">
+          <sp xml:id="V04-35" who="loyal">
             <speaker>Monsieur Loyal</speaker>
             <l n="1809" xml:id="l1809">Jusqu’au revoir. Le Ciel vous tienne tous en joie.</l>
           </sp>
-          <sp xml:id="V04-35" who="orgon">
+          <sp xml:id="V04-36" who="orgon">
             <speaker>Orgon</speaker>
             <l n="1810" xml:id="l1810">Puisse-t-il te confondre, et celui qui t’envoie !</l>
           </sp>
