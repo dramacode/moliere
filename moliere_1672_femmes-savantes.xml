@@ -1,69 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<!-- 
+TODO, identification des vers à vérifier sur la Pleïade, styler mes vers rompus
+-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LES FEMMES SAVANTES, COMÉDIE</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1672</date>
+        <title>Les femmes savantes</title>
+        <author>Molière</author>
       </titleStmt>
       <publicationStmt>
-        <p>publié par Paul FIEVRE Juillet 2008</p>
+        <publisher>publié par Paul FIEVRE Juillet 2008</publisher>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_femmes-savantes/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_femmes-savantes.xml</idno>
       </publicationStmt>
       <sourceDesc>
-        <genre>Comédie</genre>
-        <inspiration>mœurs françaises</inspiration>
-        <structure>Cinq actes</structure>
-        <type>vers</type>
-        <periode>1671-1680</periode>
-        <taille>1750-2000</taille>
-        <permalien/>
-        <sources>
-          <source id="1">
-            <author/>
-            <text/>
-          </source>
-        </sources>
+        <p/>
       </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1669">1672</date>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div>
         <head>Extrait du Privilège du Roi.</head>
-        <p rend="margin"><hi rend="i"><space rend="tab">    </space></hi>Par Grâce &amp; Privilège du Roi, donné à Paris le 31. Décembre 1670. Signé, Par le Roi en son Conseil GUITONNEAU. Il est permis à I.B.P. MOLIÈRE, de faire imprimer par tel Imprimeur ou Libraire qu’il voudra choisir une Pièce de Théâtre de sa composition intitulée <hi rend="i">Les Femmes Savantes</hi> ; et ce pendant le temps &amp; espace de dix ans, à compter du jour que ladite Pièce sera achevée d’imprimer pour la première fois : Et défenses sont faites à toutes Personnes de quelque qualité &amp; condition, qu’ils [<hi rend="i">sic</hi>] soient, d’imprimer, ou faire imprimer ladite Pièce, sans le consentement de l’Exposant, ou de ceux qui auront droit de lui, à peine de six mil livres d’amende, &amp; de tous dépens, dommages &amp; intérêts ainsi que plus au long il est porté audit Privilège.</p>
+        <p rend="margin"><hi rend="i"><space rend="tab"> </space></hi>Par Grâce &amp; Privilège du Roi, donné à Paris le 31. Décembre 1670. Signé, Par le Roi en son Conseil GUITONNEAU. Il est permis à I.B.P. MOLIÈRE, de faire imprimer par tel Imprimeur ou Libraire qu’il voudra choisir une Pièce de Théâtre de sa composition intitulée <hi rend="i">Les Femmes Savantes</hi> ; et ce pendant le temps &amp; espace de dix ans, à compter du jour que ladite Pièce sera achevée d’imprimer pour la première fois : Et défenses sont faites à toutes Personnes de quelque qualité &amp; condition, qu’ils [<hi rend="i">sic</hi>] soient, d’imprimer, ou faire imprimer ladite Pièce, sans le consentement de l’Exposant, ou de ceux qui auront droit de lui, à peine de six mil livres d’amende, &amp; de tous dépens, dommages &amp; intérêts ainsi que plus au long il est porté audit Privilège.</p>
         <p/>
         <p rend="margin">Registré sur le Livre de la Communauté, le 13 Mars 1671.</p>
+        <p rend="margin"><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Signé,  L. SEVESTRE <space/>Syndic</p>
         <p/>
-        <p rend="margin"><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space> </p>
-        <p rend="margin"><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Signé,  L. SEVESTRE <space/>Syndic</p>
-        <p/>
-        <p rend="margin i"><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Achevé d
-        ’
-        imprimer le 10. Décembre 1672. </p>
+        <p rend="margin i"><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Achevé d’ imprimer le 10. Décembre 1672. </p>
       </div>
       <div>
         <head>ACTEURS.</head>
-      <castList>
-        <head>ACTEURS</head>
-        <castItem><role xml:id="chrysale" civil="M">CHRYSALE</role>, bon bourgeois.</castItem>
-        <castItem><role xml:id="philaminte" civil="F">PHILAMINTE</role>, femme de Chrysale.</castItem>
-        <castItem><role xml:id="armande" civil="F">ARMANDE</role>fille de Chrysale et de Philaminte.</castItem>
-        <castItem><role xml:id="henriette" civil="F">HENRIETTE</role>fille de Chrysale et de Philaminte.</castItem>
-        <castItem><role xml:id="ariste" civil="M">ARISTE</role>, frère de Chrysale.</castItem>
-        <castItem><role xml:id="belise" civil="F">BÉLISE</role>, sœur de Chrysale.</castItem>
-        <castItem><role xml:id="clitandre" civil="M">CLITANDRE</role>, amant d’Henriette.</castItem>
-        <castItem><role xml:id="trissotin" civil="M">TRISSOTIN</role>, bel esprit.</castItem>
-        <castItem><role xml:id="vadius" civil="M">VADIUS</role>, savant.</castItem>
-        <castItem><role xml:id="martine" civil="">MARTINE</role>, servante de cuisine.</castItem>
-        <castItem><role xml:id="l-epine" civil="M">L’ÉPINE</role>, laquais.</castItem>
-        <castItem><role xml:id="julien" civil="M">JULIEN</role>, valet de Vadius.</castItem>
-        <castItem><role xml:id="le-notaire" civil="M">LE NOTAIRE</role>.</castItem>
-      </castList>
+        <castList>
+          <head>ACTEURS</head>
+          <castItem><role xml:id="chrysale" civil="M">Chrysale</role>, bon bourgeois.</castItem>
+          <castItem><role xml:id="philaminte" civil="F">Philaminte</role>, femme de Chrysale.</castItem>
+          <castItem><role xml:id="armande" civil="F">Armande</role>fille de Chrysale et de Philaminte.</castItem>
+          <castItem><role xml:id="henriette" civil="F">Henriette</role>fille de Chrysale et de Philaminte.</castItem>
+          <castItem><role xml:id="ariste" civil="M">Ariste</role>, frère de Chrysale.</castItem>
+          <castItem><role xml:id="belise" civil="F">Bélise</role>, sœur de Chrysale.</castItem>
+          <castItem><role xml:id="clitandre" civil="M">Clitandre</role>, amant d’Henriette.</castItem>
+          <castItem><role xml:id="trissotin" civil="M">Trissotin</role>, bel esprit.</castItem>
+          <castItem><role xml:id="vadius" civil="M">Vadius</role>, savant.</castItem>
+          <castItem><role xml:id="martine" civil="">Martine</role>, servante de cuisine.</castItem>
+          <castItem><role xml:id="l-epine" civil="M">L’épine</role>, laquais.</castItem>
+          <castItem><role xml:id="julien" civil="M">Julien</role>, valet de Vadius.</castItem>
+          <castItem><role xml:id="le-notaire" civil="M">Le notaire</role>.</castItem>
+        </castList>
         <stage>La Scène est à Paris.</stage>
       </div>
     </front>
@@ -87,7 +85,7 @@
           </sp>
           <sp who="armande" xml:id="I01-3">
             <speaker>armande</speaker>
-            <l>5<space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Ah ce oui se peut-il supporter ?</l>
+            <l>5<space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Ah ce oui se peut-il supporter ?</l>
             <l><anchor xml:id="l6"/>Et sans un mal de cœur saurait-on l’écouter ?</l>
           </sp>
           <sp who="henriette" xml:id="I01-4">
@@ -107,7 +105,7 @@
             <speaker>armande</speaker>
             <l>Ah fi, vous dis-je.</l>
             <l><anchor xml:id="l9"/>Ne concevez-vous point ce que, dès qu’on l’entend,</l>
-            <l><anchor xml:id="l10"/>10<space rend="tab">    </space><space rend="tab">    </space>Un tel mot à l’Esprit offre de dégoûtant ?</l>
+            <l><anchor xml:id="l10"/>10<space rend="tab"> </space><space rend="tab"> </space>Un tel mot à l’Esprit offre de dégoûtant ?</l>
             <l><anchor xml:id="l11"/>De quelle étrange image on est par lui blessée ?</l>
             <l><anchor xml:id="l12"/>Sur quelle sale vue il traîne la pensée ?</l>
             <l><anchor xml:id="l13"/>N’en frissonnez-vous point ? et pouvez-vous, ma Sœur,</l>
@@ -115,7 +113,7 @@
           </sp>
           <sp who="henriette" xml:id="I01-8">
             <speaker>henriette</speaker>
-            <l><anchor xml:id="l15"/>15<space rend="tab">    </space><space rend="tab">    </space>Les suites de ce mot, quand je les envisage,</l>
+            <l><anchor xml:id="l15"/>15<space rend="tab"> </space><space rend="tab"> </space>Les suites de ce mot, quand je les envisage,</l>
             <l><anchor xml:id="l16"/>Me font voir un Mari, des Enfants, un Ménage ;</l>
             <l><anchor xml:id="l17"/>Et je ne vois rien là, si j’en puis raisonner,</l>
             <l><anchor xml:id="l18"/>Qui blesse la pensée, et fasse frissonner.</l>
@@ -126,12 +124,12 @@
           </sp>
           <sp who="henriette" xml:id="I01-10">
             <speaker>henriette</speaker>
-            <l><anchor xml:id="l20"/>20<space rend="tab">    </space><space rend="tab">    </space>Et qu’est-ce qu’à mon âge on a de mieux à faire,</l>
+            <l><anchor xml:id="l20"/>20<space rend="tab"> </space><space rend="tab"> </space>Et qu’est-ce qu’à mon âge on a de mieux à faire,</l>
             <l><anchor xml:id="l21"/>Que d’attacher à soi, par le titre d’époux,</l>
             <l><anchor xml:id="l22"/>Un Homme qui vous aime, et soit aimé de vous ;</l>
             <l><anchor xml:id="l23"/>Et de cette union de tendresse suivie,</l>
             <l><anchor xml:id="l24"/>Se faire les douceurs d’une innocente vie ?</l>
-            <l><anchor xml:id="l25"/>25<space rend="tab">    </space><space rend="tab">    </space>Ce nœud bien assorti n’a-t-il pas des appas ?</l>
+            <l><anchor xml:id="l25"/>25<space rend="tab"> </space><space rend="tab"> </space>Ce nœud bien assorti n’a-t-il pas des appas ?</l>
           </sp>
           <sp who="armande" xml:id="I01-11">
             <speaker>armande</speaker>
@@ -139,27 +137,27 @@
             <l><anchor xml:id="l27"/>Que vous jouez au Monde un petit Personnage,</l>
             <l><anchor xml:id="l28"/>De vous claquemurer aux choses du Ménage,</l>
             <l><anchor xml:id="l29"/>Et de n’entrevoir point de plaisirs plus touchants,</l>
-            <l><anchor xml:id="l30"/>30<space rend="tab">    </space><space rend="tab">    </space>Qu’un idole d’Époux,et des marmots d’Enfants !</l>
+            <l><anchor xml:id="l30"/>30<space rend="tab"> </space><space rend="tab"> </space>Qu’un idole d’Époux,et des marmots d’Enfants !</l>
             <l><anchor xml:id="l31"/>Laissez aux Gens grossiers, aux Personnes vulgaires,</l>
             <l><anchor xml:id="l32"/>Les bas amusements de ces sortes d’affaires.</l>
             <l><anchor xml:id="l33"/>À de plus hauts objets élevez vos désirs,</l>
             <l><anchor xml:id="l34"/>Songez à prendre un goût des plus nobles plaisirs,</l>
-            <l><anchor xml:id="l35"/>35<space rend="tab">    </space><space rend="tab">    </space>Et traitant de mépris les sens et la matière,</l>
+            <l><anchor xml:id="l35"/>35<space rend="tab"> </space><space rend="tab"> </space>Et traitant de mépris les sens et la matière,</l>
             <l><anchor xml:id="l36"/>À l’Esprit comme nous donnez-vous toute entière :</l>
             <l><anchor xml:id="l37"/>Vous avez notre Mère en exemple à vos yeux,</l>
             <l><anchor xml:id="l38"/>Que du nom de Savante on honore en tous lieux,</l>
             <l><anchor xml:id="l39"/>Tâchez ainsi que moi de vous montrer sa Fille,</l>
-            <l><anchor xml:id="l40"/>40<space rend="tab">    </space><space rend="tab">    </space>Aspirez auxClartés qui sont dans la Famille,</l>
+            <l><anchor xml:id="l40"/>40<space rend="tab"> </space><space rend="tab"> </space>Aspirez auxClartés qui sont dans la Famille,</l>
             <l><anchor xml:id="l41"/>Et vous rendez sensible aux charmantes douceurs</l>
             <l><anchor xml:id="l42"/>Que l’amour de l’Étude épanche dans les cœurs :</l>
             <l><anchor xml:id="l43"/>Loin d’être aux lois d’un Homme en Esclave asservie ;</l>
             <l><anchor xml:id="l44"/>Mariez-vous, ma Sœur, à la Philosophie,</l>
-            <l><anchor xml:id="l45"/>45<space rend="tab">    </space><space rend="tab">    </space>Qui nous monte au-dessus de tout leGenre Humain, <space rend="tab">    </space></l>
+            <l><anchor xml:id="l45"/>45<space rend="tab"> </space><space rend="tab"> </space>Qui nous monte au-dessus de tout leGenre Humain, <space rend="tab"> </space></l>
             <l><anchor xml:id="l46"/>Et donne à la Raison l’empire souverain,</l>
             <l><anchor xml:id="l47"/>Soumettant à ses lois la partie animale</l>
             <l><anchor xml:id="l48"/>Dont l’appétit grossier aux Bêtes nous ravale.</l>
             <l><anchor xml:id="l49"/>Ce sont là les beaux feux, les doux attachements,</l>
-            <l><anchor xml:id="l50"/>50<space rend="tab">    </space><space rend="tab">    </space>Qui doivent de la vie occuper les moments ;</l>
+            <l><anchor xml:id="l50"/>50<space rend="tab"> </space><space rend="tab"> </space>Qui doivent de la vie occuper les moments ;</l>
             <l><anchor xml:id="l51"/>Et les soins où je vois tant de Femmes sensibles,</l>
             <l><anchor xml:id="l52"/>Me paraissent aux yeux des pauvretés horribles.</l>
           </sp>
@@ -167,22 +165,22 @@
             <speaker>henriette</speaker>
             <l><anchor xml:id="l53"/>Le Ciel, dont nous voyons que l’ordre est tout-puissant,</l>
             <l><anchor xml:id="l54"/>Pour différents emplois nous fabrique en naissant ;</l>
-            <l><anchor xml:id="l55"/>55<space rend="tab">    </space><space rend="tab">    </space>Et toutEsprit n’est pas composé d’une étoffe</l>
+            <l><anchor xml:id="l55"/>55<space rend="tab"> </space><space rend="tab"> </space>Et toutEsprit n’est pas composé d’une étoffe</l>
             <l><anchor xml:id="l56"/>Qui se trouve taillée à faire un Philosophe.</l>
             <l><anchor xml:id="l57"/>Si le vôtre est né propre aux élévations</l>
             <l><anchor xml:id="l58"/>Où montent des Savants les spéculations,</l>
             <l><anchor xml:id="l59"/>Le mien est fait, ma Sœur, pour aller terre à terre,</l>
-            <l><anchor xml:id="l60"/>60<space rend="tab">    </space><space rend="tab">    </space>Et dans les petits soins son faible se resserre.</l>
+            <l><anchor xml:id="l60"/>60<space rend="tab"> </space><space rend="tab"> </space>Et dans les petits soins son faible se resserre.</l>
             <l><anchor xml:id="l61"/>Ne troublons point du Ciel les justes règlements,</l>
             <l><anchor xml:id="l62"/>Et de nos deux instincts suivons les mouvements ;</l>
             <l><anchor xml:id="l63"/>Habitez par l’essor d’un grand et beau génie,</l>
             <l><anchor xml:id="l64"/>Les hautes régions de la Philosophie,</l>
-            <l><anchor xml:id="l65"/>65<space rend="tab">    </space><space rend="tab">    </space>Tandis que monEsprit se tenant ici-bas,</l>
+            <l><anchor xml:id="l65"/>65<space rend="tab"> </space><space rend="tab"> </space>Tandis que monEsprit se tenant ici-bas,</l>
             <l><anchor xml:id="l66"/>Goûtera de l’Hymen les terrestres appas.</l>
             <l><anchor xml:id="l67"/>Ainsi dans nos desseins l’une à l’autre contraire,</l>
             <l><anchor xml:id="l68"/>Nous saurons toutes deux imiter notre Mère ;</l>
             <l><anchor xml:id="l69"/>Vous, du côté de l’âme et des nobles désirs,</l>
-            <l><anchor xml:id="l70"/>70<space rend="tab">    </space><space rend="tab">    </space>Moi, du côté des sens et des grossiers plaisirs ;</l>
+            <l><anchor xml:id="l70"/>70<space rend="tab"> </space><space rend="tab"> </space>Moi, du côté des sens et des grossiers plaisirs ;</l>
             <l><anchor xml:id="l71"/>Vous, aux productions d’Esprit et de lumière,</l>
             <l><anchor xml:id="l72"/>Moi, dans celles, ma Sœur, qui sont de la matière.</l>
           </sp>
@@ -190,7 +188,7 @@
             <speaker>armande</speaker>
             <l><anchor xml:id="l73"/>Quand sur une Personne on prétend se régler,</l>
             <l><anchor xml:id="l74"/>C’est par les beaux côtés qu’il lui faut ressembler ;</l>
-            <l><anchor xml:id="l75"/>75<space rend="tab">    </space><space rend="tab">    </space>Et ce n’est point du tout la prendre pour modèle,</l>
+            <l><anchor xml:id="l75"/>75<space rend="tab"> </space><space rend="tab"> </space>Et ce n’est point du tout la prendre pour modèle,</l>
             <l><anchor xml:id="l76"/>Ma Sœur, que de tousser et de cracher comme elle.</l>
           </sp>
           <sp who="henriette" xml:id="I01-14">
@@ -198,7 +196,7 @@
             <l><anchor xml:id="l77"/>Mais vous ne seriez pas ce dont vous vous vantez,</l>
             <l><anchor xml:id="l78"/>Si ma Mère n’eût eu que de ces beaux côtés ;</l>
             <l><anchor xml:id="l79"/>Et bien vous prend, ma Sœur, que son noble génie</l>
-            <l><anchor xml:id="l80"/>80<space rend="tab">    </space><space rend="tab">    </space>N’ait pas vaqué toujours à laPhilosophie.</l>
+            <l><anchor xml:id="l80"/>80<space rend="tab"> </space><space rend="tab"> </space>N’ait pas vaqué toujours à laPhilosophie.</l>
             <l><anchor xml:id="l81"/>De grâce souffrez-moi par un peu de bonté</l>
             <l><anchor xml:id="l82"/>Des bassesses à qui vous devez la clarté ;</l>
             <l><anchor xml:id="l83"/>Et ne supprimez point, voulant qu’on vous seconde,</l>
@@ -206,7 +204,7 @@
           </sp>
           <sp who="armande" xml:id="I01-15">
             <speaker>armande</speaker>
-            <l><anchor xml:id="l85"/>85<space rend="tab">    </space><space rend="tab">    </space>Je vois que votreEsprit ne peut être guéri</l>
+            <l><anchor xml:id="l85"/>85<space rend="tab"> </space><space rend="tab"> </space>Je vois que votreEsprit ne peut être guéri</l>
             <l><anchor xml:id="l86"/>Du fol entêtement de vous faire un Mari :</l>
             <l><anchor xml:id="l87"/>Mais sachons, s’il vous plaît, qui vous songez à prendre ?</l>
             <l><anchor xml:id="l88"/>Votre visée au moins n’est pas mise à Clitandre.</l>
@@ -214,7 +212,7 @@
           <sp who="henriette" xml:id="I01-16">
             <speaker>henriette</speaker>
             <l><anchor xml:id="l89"/>Et par quelle raison n’y serait-elle pas ?</l>
-            <l><anchor xml:id="l90"/>90<space rend="tab">    </space><space rend="tab">    </space>Manque-t-il de mérite ? est-ce un choix qui soit bas ?</l>
+            <l><anchor xml:id="l90"/>90<space rend="tab"> </space><space rend="tab"> </space>Manque-t-il de mérite ? est-ce un choix qui soit bas ?</l>
           </sp>
           <sp who="armande" xml:id="I01-17">
             <speaker>armande</speaker>
@@ -225,12 +223,12 @@
           </sp>
           <sp who="henriette" xml:id="I01-18">
             <speaker>henriette</speaker>
-            <l><anchor xml:id="l95"/>95<space rend="tab">    </space><space rend="tab">    </space>Oui,mais tous ces soupirs chez vous sont choses vaines,</l>
+            <l><anchor xml:id="l95"/>95<space rend="tab"> </space><space rend="tab"> </space>Oui,mais tous ces soupirs chez vous sont choses vaines,</l>
             <l><anchor xml:id="l96"/>Et vous ne tombez point aux bassesses humaines ;</l>
             <l><anchor xml:id="l97"/>Votre esprit à l’Hymen renonce pour toujours,</l>
             <l><anchor xml:id="l98"/>Et la Philosophie a toutes vos amours :</l>
             <l><anchor xml:id="l99"/>Ainsi n’ayant au cœur nul dessein pour Clitandre,</l>
-            <l><anchor xml:id="l100"/>100<space rend="tab">    </space><space rend="tab">    </space>Que vous importe-t-il qu’on y puisse prétendre ?</l>
+            <l><anchor xml:id="l100"/>100<space rend="tab"> </space><space rend="tab"> </space>Que vous importe-t-il qu’on y puisse prétendre ?</l>
           </sp>
           <sp who="armande" xml:id="I01-19">
             <speaker>armande</speaker>
@@ -241,7 +239,7 @@
           </sp>
           <sp who="henriette" xml:id="I01-20">
             <speaker>henriette</speaker>
-            <l><anchor xml:id="l105"/>105<space rend="tab">    </space><space rend="tab">    </space>Je n’ai pas empêché qu’à vos perfections</l>
+            <l><anchor xml:id="l105"/>105<space rend="tab"> </space><space rend="tab"> </space>Je n’ai pas empêché qu’à vos perfections</l>
             <l><anchor xml:id="l106"/>Il n’ait continué ses adorations ;</l>
             <l><anchor xml:id="l107"/>Et je n’ai fait que prendre, au refus de votre âme,</l>
             <l><anchor xml:id="l108"/>Ce qu’est venu m’offrir l’hommage de sa flamme.</l>
@@ -249,7 +247,7 @@
           <sp who="armande" xml:id="I01-21">
             <speaker>armande</speaker>
             <l><anchor xml:id="l109"/>Mais à l’offre des vœux d’un Amant dépité,</l>
-            <l><anchor xml:id="l110"/>110<space rend="tab">    </space><space rend="tab">    </space>Trouvez-vous, je vous prie, entière sûreté ?</l>
+            <l><anchor xml:id="l110"/>110<space rend="tab"> </space><space rend="tab"> </space>Trouvez-vous, je vous prie, entière sûreté ?</l>
             <l><anchor xml:id="l111"/>Croyez-vous pour vos yeux sa passion bien forte,</l>
             <l><anchor xml:id="l112"/>Et qu’en son cœur pour moi toute flamme soit morte ?</l>
           </sp>
@@ -260,7 +258,7 @@
           <sp who="armande" xml:id="I01-23">
             <speaker>armande</speaker>
             <l><anchor xml:id="l114"/>Ne soyez pas, ma Sœur, d’une si bonne foi,</l>
-            <l><anchor xml:id="l115"/>115<space rend="tab">    </space><space rend="tab">    </space>Et croyez, quand il dit qu’il me quitte et vous aime,</l>
+            <l><anchor xml:id="l115"/>115<space rend="tab"> </space><space rend="tab"> </space>Et croyez, quand il dit qu’il me quitte et vous aime,</l>
             <l><anchor xml:id="l116"/>Qu’il n’y songe pas bien, et se trompe lui-même.</l>
           </sp>
           <sp who="henriette" xml:id="I01-24">
@@ -268,7 +266,7 @@
             <l><anchor xml:id="l117"/>Je ne sais ; Mais enfin, si c’est votre plaisir,</l>
             <l><anchor xml:id="l118"/>Il nous est bien aisé de nous en éclaircir.</l>
             <l><anchor xml:id="l119"/>Je l’aperçois qui vient, et sur cette matière</l>
-            <l><anchor xml:id="l120"/>120<space rend="tab">    </space><space rend="tab">    </space>Il pourra nous donner une pleine lumière.</l>
+            <l><anchor xml:id="l120"/>120<space rend="tab"> </space><space rend="tab"> </space>Il pourra nous donner une pleine lumière.</l>
           </sp>
         </div>
         <div xml:id="I02" type="scene">
@@ -284,7 +282,7 @@
           </sp>
           <sp who="armande" xml:id="I02-2">
             <speaker>armande</speaker>
-            <l><anchor xml:id="l125"/>125<space rend="tab">    </space><space rend="tab">    </space>Non, non,je ne veux point à votre passion</l>
+            <l><anchor xml:id="l125"/>125<space rend="tab"> </space><space rend="tab"> </space>Non, non,je ne veux point à votre passion</l>
             <l><anchor xml:id="l126"/>Imposer la rigueur d’une explication ;</l>
             <l><anchor xml:id="l127"/>Je ménage les Gens, et sais comme embarrasse</l>
             <l><anchor xml:id="l128"/>Le contraignant effort de ces aveux en face.</l>
@@ -292,27 +290,27 @@
           <sp who="clitandre" xml:id="I02-3">
             <speaker>clitandre</speaker>
             <l><anchor xml:id="l129"/>Non, Madame, mon cœur qui dissimule peu,</l>
-            <l><anchor xml:id="l130"/>130<space rend="tab">    </space><space rend="tab">    </space>Ne sent nulle contrainte à faire un libre aveu ;</l>
+            <l><anchor xml:id="l130"/>130<space rend="tab"> </space><space rend="tab"> </space>Ne sent nulle contrainte à faire un libre aveu ;</l>
             <l><anchor xml:id="l131"/>Dans aucun embarras un tel pas ne me jette,</l>
             <l><anchor xml:id="l132"/>Et j’avouerai tout haut d’une âme franche et nette,</l>
             <l><anchor xml:id="l133"/>Que les tendres liens où je suis arrêté,</l>
             <l><anchor xml:id="l134"/>Mon amour et mes vœux, sont tout de ce côté.</l>
-            <l><anchor xml:id="l135"/>135<space rend="tab">    </space><space rend="tab">    </space>Qu’à nulle émotion cet aveu ne vous porte ;<space rend="tab">    </space></l>
+            <l><anchor xml:id="l135"/>135<space rend="tab"> </space><space rend="tab"> </space>Qu’à nulle émotion cet aveu ne vous porte ;<space rend="tab"> </space></l>
             <l><anchor xml:id="l136"/>Vous avez bien voulu les choses de la sorte,</l>
             <l><anchor xml:id="l137"/>Vos attraits m’avaient pris, et mes tendres soupirs</l>
             <l><anchor xml:id="l138"/>Vous ont assez prouvé l’ardeur de mes désirs :</l>
             <l><anchor xml:id="l139"/>Mon cœur vous consacrait une flamme immortelle,</l>
-            <l><anchor xml:id="l140"/>140<space rend="tab">    </space><space rend="tab">    </space>Mais vos yeux n’ont pas cru leur conquête assez belle ;<space rend="tab">    </space></l>
+            <l><anchor xml:id="l140"/>140<space rend="tab"> </space><space rend="tab"> </space>Mais vos yeux n’ont pas cru leur conquête assez belle ;<space rend="tab"> </space></l>
             <l><anchor xml:id="l141"/>J’ai souffert sous leur joug cent mépris différents,</l>
             <l><anchor xml:id="l142"/>Ils régnaient sur mon âme en superbes tyrans,</l>
             <l><anchor xml:id="l143"/>Et je me suis cherché, lassé de tant de peines,</l>
             <l><anchor xml:id="l144"/>Des vainqueurs plus humains, et de moins rudes chaînes :</l>
-            <l><anchor xml:id="l145"/>145<space rend="tab">    </space><space rend="tab">    </space>Je les ai rencontrés, Madame, dans ces yeux,</l>
+            <l><anchor xml:id="l145"/>145<space rend="tab"> </space><space rend="tab"> </space>Je les ai rencontrés, Madame, dans ces yeux,</l>
             <l><anchor xml:id="l146"/>Et leurs traits à jamais me seront précieux ;</l>
             <l><anchor xml:id="l147"/>D’un regard pitoyable ils ont séché mes larmes,</l>
             <l><anchor xml:id="l148"/>Et n’ont pas dédaigné le rebut de vos charmes ;</l>
             <l><anchor xml:id="l149"/>De si rares bontés m’ont si bien su toucher,</l>
-            <l><anchor xml:id="l150"/>150<space rend="tab">    </space><space rend="tab">    </space>Qu’il n’est rien qui me puisse à mes fers arracher ;</l>
+            <l><anchor xml:id="l150"/>150<space rend="tab"> </space><space rend="tab"> </space>Qu’il n’est rien qui me puisse à mes fers arracher ;</l>
             <l><anchor xml:id="l151"/>Et j’ose maintenant vous conjurer, Madame,</l>
             <l><anchor xml:id="l152"/>De ne vouloir tenter nul effort sur ma flamme,</l>
             <l><anchor xml:id="l153"/>De ne point essayer à rappeler un cœur</l>
@@ -320,7 +318,7 @@
           </sp>
           <sp who="armande" xml:id="I02-4">
             <speaker>armande</speaker>
-            <l><anchor xml:id="l155"/>155<space rend="tab">    </space><space rend="tab">    </space>Eh qui vous dit, Monsieur, que l’on ait cette envie,</l>
+            <l><anchor xml:id="l155"/>155<space rend="tab"> </space><space rend="tab"> </space>Eh qui vous dit, Monsieur, que l’on ait cette envie,</l>
             <l><anchor xml:id="l156"/>Et que de vous enfin si fort on se soucie ?</l>
             <l><anchor xml:id="l157"/>Je vous trouve plaisant, de vous le figurer ;</l>
             <l><anchor xml:id="l158"/>Et bien impertinent, de me le déclarer.</l>
@@ -328,7 +326,7 @@
           <sp who="henriette" xml:id="I02-5">
             <speaker>henriette</speaker>
             <l><anchor xml:id="l159"/>Eh doucement, ma Sœur. Où donc est la Morale</l>
-            <l><anchor xml:id="l160"/>160<space rend="tab">    </space><space rend="tab">    </space>Qui sait si bien régir la partie animale,</l>
+            <l><anchor xml:id="l160"/>160<space rend="tab"> </space><space rend="tab"> </space>Qui sait si bien régir la partie animale,</l>
             <l><anchor xml:id="l161"/>Et retenir la bride aux efforts du courroux ?</l>
           </sp>
           <sp who="armande" xml:id="I02-6">
@@ -336,7 +334,7 @@
             <l><anchor xml:id="l162"/>Mais vous qui m’en parlez, où la pratiquez-vous,</l>
             <l><anchor xml:id="l163"/>De répondre à l’amour que l’on vous fait paraître,</l>
             <l><anchor xml:id="l164"/>Sans le congé de ceux qui vous ont donné l’être ?</l>
-            <l><anchor xml:id="l165"/>165<space rend="tab">    </space><space rend="tab">    </space>Sachez que le devoir vous soumet à leurs lois,</l>
+            <l><anchor xml:id="l165"/>165<space rend="tab"> </space><space rend="tab"> </space>Sachez que le devoir vous soumet à leurs lois,</l>
             <l><anchor xml:id="l166"/>Qu’il ne vous est permis d’aimer que par leur choix,</l>
             <l><anchor xml:id="l167"/>Qu’ils ont sur votre cœur l’autorité suprême,</l>
             <l><anchor xml:id="l168"/>Et qu’il est criminel d’en disposer vous-même.</l>
@@ -344,12 +342,12 @@
           <sp who="henriette" xml:id="I02-7">
             <speaker>henriette</speaker>
             <l><anchor xml:id="l169"/>Je rends grâce aux bontés que vous me faites voir,</l>
-            <l><anchor xml:id="l170"/>170<space rend="tab">    </space><space rend="tab">    </space>De m’enseigner si bien les choses du devoir ;</l>
+            <l><anchor xml:id="l170"/>170<space rend="tab"> </space><space rend="tab"> </space>De m’enseigner si bien les choses du devoir ;</l>
             <l><anchor xml:id="l171"/>Mon cœur sur vos leçons veut régler sa conduite,</l>
             <l><anchor xml:id="l172"/>Et pour vous faire voir, ma Sœur, que j’en profite ;</l>
             <l><anchor xml:id="l173"/>Clitandre, prenez soin d’appuyer votre amour</l>
             <l><anchor xml:id="l174"/>De l’agrément de ceux dont j’ai reçu le jour,</l>
-            <l><anchor xml:id="l175"/>175<space rend="tab">    </space><space rend="tab">    </space>Faites-vous sur mes vœux un pouvoir légitime,</l>
+            <l><anchor xml:id="l175"/>175<space rend="tab"> </space><space rend="tab"> </space>Faites-vous sur mes vœux un pouvoir légitime,</l>
             <l><anchor xml:id="l176"/>Et me donnez moyen de vous aimer sans crime.</l>
           </sp>
           <sp who="clitandre" xml:id="I02-8">
@@ -360,7 +358,7 @@
           <sp who="armande" xml:id="I02-9">
             <speaker>armande</speaker>
             <l><anchor xml:id="l179"/>Vous triomphez, ma Sœur, et faites une mine</l>
-            <l><anchor xml:id="l180"/>180<space rend="tab">    </space><space rend="tab">    </space>Àvous imaginer que cela me chagrine.</l>
+            <l><anchor xml:id="l180"/>180<space rend="tab"> </space><space rend="tab"> </space>Àvous imaginer que cela me chagrine.</l>
           </sp>
           <sp who="henriette" xml:id="I02-10">
             <speaker>henriette</speaker>
@@ -368,7 +366,7 @@
             <l><anchor xml:id="l182"/>Les droits de la Raison sont toujours tout-puissants,</l>
             <l><anchor xml:id="l183"/>Et que par les leçons qu’on prend dans la Sagesse,</l>
             <l><anchor xml:id="l184"/>Vous êtes au-dessus d’une telle faiblesse.</l>
-            <l><anchor xml:id="l185"/>185<space rend="tab">    </space><space rend="tab">    </space>Loin de vous soupçonner d’aucun chagrin, je crois</l>
+            <l><anchor xml:id="l185"/>185<space rend="tab"> </space><space rend="tab"> </space>Loin de vous soupçonner d’aucun chagrin, je crois</l>
             <l><anchor xml:id="l186"/>Qu’ici vous daignerez vous employer pour moi,</l>
             <l><anchor xml:id="l187"/>Appuyer sa demande, et de votre suffrage</l>
             <l><anchor xml:id="l188"/>Presser l’heureux moment de notre Mariage.</l>
@@ -376,7 +374,7 @@
           </sp>
           <sp who="armande" xml:id="I02-11">
             <speaker>armande</speaker>
-            <l><anchor xml:id="l190"/>190<space rend="tab">    </space><space rend="tab">    </space>Votre petitEsprit se mêle de railler,</l>
+            <l><anchor xml:id="l190"/>190<space rend="tab"> </space><space rend="tab"> </space>Votre petitEsprit se mêle de railler,</l>
             <l><anchor xml:id="l191"/>Et d’un cœur qu’on vous jette on vous voit toute fière.</l>
           </sp>
           <sp who="henriette" xml:id="I02-12">
@@ -387,7 +385,7 @@
           </sp>
           <sp who="armande" xml:id="I02-13">
             <speaker>armande</speaker>
-            <l><anchor xml:id="l195"/>195<space rend="tab">    </space><space rend="tab">    </space>Àrépondre à cela je ne daigne descendre,</l>
+            <l><anchor xml:id="l195"/>195<space rend="tab"> </space><space rend="tab"> </space>Àrépondre à cela je ne daigne descendre,</l>
             <l><anchor xml:id="l196"/>Et ce sont sots discours qu’il ne faut pas entendre.</l>
           </sp>
           <sp who="henriette" xml:id="I02-14">
@@ -406,7 +404,7 @@
           </sp>
           <sp who="clitandre" xml:id="I03-2">
             <speaker>clitandre</speaker>
-            <l><anchor xml:id="l200"/>200<space rend="tab">    </space><space rend="tab">    </space>Elle mérite assez une telle franchise,</l>
+            <l><anchor xml:id="l200"/>200<space rend="tab"> </space><space rend="tab"> </space>Elle mérite assez une telle franchise,</l>
             <l><anchor xml:id="l201"/>Et toutes les hauteurs de sa folle fierté</l>
             <l><anchor xml:id="l202"/>Sont dignes tout au moins de ma sincérité :</l>
             <l><anchor xml:id="l203"/>Mais puisqu’il m’est permis, je vais à votre Père,</l>
@@ -415,12 +413,12 @@
           <sp who="henriette" xml:id="I03-3">
             <speaker>henriette</speaker>
             <l>Le plus sûr est de gagner ma Mère :</l>
-            <l><anchor xml:id="l205"/>205<space rend="tab">    </space><space rend="tab">    </space>MonPère est d’une humeur à consentir à tout,</l>
+            <l><anchor xml:id="l205"/>205<space rend="tab"> </space><space rend="tab"> </space>MonPère est d’une humeur à consentir à tout,</l>
             <l><anchor xml:id="l206"/>Mais il met peu de poids aux choses qu’il résout ;</l>
             <l><anchor xml:id="l207"/>Il a reçu du Ciel certaine bonté d’âme,</l>
             <l><anchor xml:id="l208"/>Qui le soumet d’abord à ce que veut sa Femme ;</l>
             <l><anchor xml:id="l209"/>C’est elle qui gouverne, et d’un ton absolu</l>
-            <l><anchor xml:id="l210"/>210<space rend="tab">    </space><space rend="tab">    </space>Elle dicte pour loi ce qu’elle a résolu.</l>
+            <l><anchor xml:id="l210"/>210<space rend="tab"> </space><space rend="tab"> </space>Elle dicte pour loi ce qu’elle a résolu.</l>
             <l><anchor xml:id="l211"/>Je voudrais bien vous voir pour elle, et pour ma Tante,</l>
             <l><anchor xml:id="l212"/>Une âme, je l’avoue, un peu plus complaisante,</l>
             <l><anchor xml:id="l213"/>Un esprit qui flattant les visions du leur,</l>
@@ -428,27 +426,27 @@
           </sp>
           <sp who="clitandre" xml:id="I03-4">
             <speaker>clitandre</speaker>
-            <l><anchor xml:id="l215"/>215<space rend="tab">    </space><space rend="tab">    </space>Mon cœur n’a jamais pu, tant il est né sincère,</l>
+            <l><anchor xml:id="l215"/>215<space rend="tab"> </space><space rend="tab"> </space>Mon cœur n’a jamais pu, tant il est né sincère,</l>
             <l><anchor xml:id="l216"/>Même dans votre Sœur flatter leur caractère,</l>
             <l><anchor xml:id="l217"/>Et les Femmes Docteurs ne sont point de mon goût.</l>
             <l><anchor xml:id="l218"/>Je consens qu’une femme ait des clartés de tout,</l>
             <l><anchor xml:id="l219"/>Mais je ne lui veux point la passion choquante</l>
-            <l><anchor xml:id="l220"/>220<space rend="tab">    </space><space rend="tab">    </space>De se rendre savante afin d’êtreSavante ;</l>
+            <l><anchor xml:id="l220"/>220<space rend="tab"> </space><space rend="tab"> </space>De se rendre savante afin d’êtreSavante ;</l>
             <l><anchor xml:id="l221"/>Et j’aime que souvent aux questions qu’on fait,</l>
             <l><anchor xml:id="l222"/>Elle sache ignorer les choses qu’elle sait ;</l>
             <l><anchor xml:id="l223"/>De son étude enfin je veux qu’elle se cache,</l>
             <l><anchor xml:id="l224"/>Et qu’elle ait du savoir sans vouloir qu’on le sache,</l>
-            <l><anchor xml:id="l225"/>225<space rend="tab">    </space><space rend="tab">    </space>Sans citer lesAuteurs, sans dire de grands mots,</l>
+            <l><anchor xml:id="l225"/>225<space rend="tab"> </space><space rend="tab"> </space>Sans citer lesAuteurs, sans dire de grands mots,</l>
             <l><anchor xml:id="l226"/>Et clouer de l’esprit à ses moindres propos.</l>
             <l><anchor xml:id="l227"/>Je respecte beaucoup Madame votre Mère,</l>
             <l><anchor xml:id="l228"/>Mais je ne puis du tout approuver sa chimère,</l>
             <l><anchor xml:id="l229"/>Et me rendre l’écho des choses qu’elle dit</l>
-            <l><anchor xml:id="l230"/>230<space rend="tab">    </space><space rend="tab">    </space>Aux encens qu’elle donne à sonHéros d’esprit.</l>
+            <l><anchor xml:id="l230"/>230<space rend="tab"> </space><space rend="tab"> </space>Aux encens qu’elle donne à sonHéros d’esprit.</l>
             <l><anchor xml:id="l231"/>Son Monsieur Trissotin me chagrine, m’assomme,</l>
             <l><anchor xml:id="l232"/>Et j’enrage de voir qu’elle estime un tel Homme,</l>
             <l><anchor xml:id="l233"/>Qu’elle nous mette au rang des grands et beaux Esprits</l>
             <l><anchor xml:id="l234"/>Un Benêt dont partout on siffle les Écrits,</l>
-            <l><anchor xml:id="l235"/>235<space rend="tab">    </space><space rend="tab">    </space>UnPédant dont on voit la plume libérale</l>
+            <l><anchor xml:id="l235"/>235<space rend="tab"> </space><space rend="tab"> </space>UnPédant dont on voit la plume libérale</l>
             <l><anchor xml:id="l236"/>D’officieux papiers fournir toute la Halle.</l>
           </sp>
           <sp who="henriette" xml:id="I03-5">
@@ -456,7 +454,7 @@
             <l><anchor xml:id="l237"/>Ses Écrits, ses discours, tout m’en semble ennuyeux,</l>
             <l><anchor xml:id="l238"/>Et je me trouve assez votre goût et vos yeux :</l>
             <l><anchor xml:id="l239"/>Mais comme sur ma Mère il a grande puissance,</l>
-            <l><anchor xml:id="l240"/>240<space rend="tab">    </space><space rend="tab">    </space>Vous devez vous forcer à quelque complaisance.</l>
+            <l><anchor xml:id="l240"/>240<space rend="tab"> </space><space rend="tab"> </space>Vous devez vous forcer à quelque complaisance.</l>
             <l><anchor xml:id="l241"/>Un Amant fait sa Cour où s’attache son cœur,</l>
             <l><anchor xml:id="l242"/>Il veut de tout le Monde y gagner la faveur ;</l>
             <l><anchor xml:id="l243"/>Et pour n’avoir personne à sa flamme contraire,</l>
@@ -464,22 +462,22 @@
           </sp>
           <sp who="clitandre" xml:id="I03-6">
             <speaker>clitandre</speaker>
-            <l><anchor xml:id="l245"/>245<space rend="tab">    </space><space rend="tab">    </space>Oui, vous avez raison ; mais Monsieur Trissotin</l>
+            <l><anchor xml:id="l245"/>245<space rend="tab"> </space><space rend="tab"> </space>Oui, vous avez raison ; mais Monsieur Trissotin</l>
             <l><anchor xml:id="l246"/>M’inspire au fond de l’âme un dominant chagrin.</l>
             <l><anchor xml:id="l247"/>Je ne puis consentir, pour gagner ses suffrages,</l>
             <l><anchor xml:id="l248"/>À me déshonorer, en prisant ses Ouvrages ;</l>
             <l><anchor xml:id="l249"/>C’est par eux qu’à mes yeux il a d’abord paru,</l>
-            <l><anchor xml:id="l250"/>250<space rend="tab">    </space><space rend="tab">    </space>Et je le connaissais avant que l’avoir vu.</l>
+            <l><anchor xml:id="l250"/>250<space rend="tab"> </space><space rend="tab"> </space>Et je le connaissais avant que l’avoir vu.</l>
             <l><anchor xml:id="l251"/>Je vis dans le fatras des Écrits qu’il nous donne,</l>
             <l><anchor xml:id="l252"/>Ce qu’étale en tous lieux sa pédante Personne,</l>
             <l><anchor xml:id="l253"/>La constante hauteur de sa présomption ;</l>
             <l><anchor xml:id="l254"/>Cette intrépidité de bonne opinion ;</l>
-            <l><anchor xml:id="l255"/>255<space rend="tab">    </space><space rend="tab">    </space>Cet indolent état de confiance extrême,<space rend="tab">    </space></l>
+            <l><anchor xml:id="l255"/>255<space rend="tab"> </space><space rend="tab"> </space>Cet indolent état de confiance extrême,<space rend="tab"> </space></l>
             <l><anchor xml:id="l256"/>Qui le rend en tout temps si content de soi-même,</l>
             <l><anchor xml:id="l257"/>Qui fait qu’à son mérite incessamment il rit ;</l>
             <l><anchor xml:id="l258"/>Qu’il se sait si bon gré de tout ce qu’il écrit ;</l>
             <l><anchor xml:id="l259"/>Et qu’il ne voudrait pas changer sa renommée</l>
-            <l><anchor xml:id="l260"/>260<space rend="tab">    </space><space rend="tab">    </space>Contre tous les honneurs d’unGénéral d’Armée.</l>
+            <l><anchor xml:id="l260"/>260<space rend="tab"> </space><space rend="tab"> </space>Contre tous les honneurs d’unGénéral d’Armée.</l>
           </sp>
           <sp who="henriette" xml:id="I03-7">
             <speaker>henriette</speaker>
@@ -490,7 +488,7 @@
             <l><anchor xml:id="l262"/>Jusques à sa Figure encor la chose alla,</l>
             <l><anchor xml:id="l263"/>Et je vis par les Vers qu’à la tête il nous jette,</l>
             <l><anchor xml:id="l264"/>De quel air il fallait que fût fait le Poète ;</l>
-            <l><anchor xml:id="l265"/>265<space rend="tab">    </space><space rend="tab">    </space>Et j’en avais si bien deviné tous les traits,</l>
+            <l><anchor xml:id="l265"/>265<space rend="tab"> </space><space rend="tab"> </space>Et j’en avais si bien deviné tous les traits,</l>
             <l><anchor xml:id="l266"/>Que rencontrant un Homme un jour dans le Palais,</l>
             <l><anchor xml:id="l267"/>Je gageai que c’était Trissotin en personne,</l>
             <l><anchor xml:id="l268"/>Et je vis qu’en effet la gageure était bonne.</l>
@@ -502,7 +500,7 @@
           <sp who="clitandre" xml:id="I03-10">
             <speaker>clitandre</speaker>
             <l>Non, je dis la chose comme elle est :</l>
-            <l><anchor xml:id="l270"/>270<space rend="tab">    </space><space rend="tab">    </space>Mais je vois votreTante. Agréez, s’il vous plaît,</l>
+            <l><anchor xml:id="l270"/>270<space rend="tab"> </space><space rend="tab"> </space>Mais je vois votreTante. Agréez, s’il vous plaît,</l>
             <l><anchor xml:id="l271"/>Que mon cœur lui déclare ici notre mystère,</l>
             <l><anchor xml:id="l272"/>Et gagne sa faveur auprès de votre Mère.</l>
           </sp>
@@ -515,7 +513,7 @@
             <speaker>clitandre</speaker>
             <l><anchor xml:id="l273"/>Souffrez, pour vous parler, Madame, qu’un Amant</l>
             <l><anchor xml:id="l274"/>Prenne l’occasion de cet heureux moment,</l>
-            <l><anchor xml:id="l275"/>275<space rend="tab">    </space><space rend="tab">    </space>Et se découvre à vous de la sincère flamme…</l>
+            <l><anchor xml:id="l275"/>275<space rend="tab"> </space><space rend="tab"> </space>Et se découvre à vous de la sincère flamme…</l>
           </sp>
           <sp who="belise" xml:id="I04-2">
             <speaker>bélise</speaker>
@@ -523,12 +521,12 @@
             <l><anchor xml:id="l277"/>Si je vous ai su mettre au rang de mes Amants,</l>
             <l><anchor xml:id="l278"/>Contentez-vous des yeux pour vos seuls truchements,</l>
             <l><anchor xml:id="l279"/>Et ne m’expliquez point par un autre langage</l>
-            <l><anchor xml:id="l280"/>280<space rend="tab">    </space><space rend="tab">    </space>Des désirs qui chez moi passent pour un outrage ;</l>
+            <l><anchor xml:id="l280"/>280<space rend="tab"> </space><space rend="tab"> </space>Des désirs qui chez moi passent pour un outrage ;</l>
             <l><anchor xml:id="l281"/>Aimez-moi, soupirez, brûlez pour mes appas,</l>
             <l><anchor xml:id="l282"/>Mais qu’il me soit permis de ne le savoir pas :</l>
             <l><anchor xml:id="l283"/>Je puis fermer les yeux sur vos flammes secrètes,</l>
             <l><anchor xml:id="l284"/>Tant que vous vous tiendrez aux muets Interprètes ;</l>
-            <l><anchor xml:id="l285"/>285<space rend="tab">    </space><space rend="tab">    </space>Mais si la bouche vient à s’en vouloir mêler,</l>
+            <l><anchor xml:id="l285"/>285<space rend="tab"> </space><space rend="tab"> </space>Mais si la bouche vient à s’en vouloir mêler,</l>
             <l><anchor xml:id="l286"/>Pour jamais de ma vue il vous faut exiler.</l>
           </sp>
           <sp who="clitandre" xml:id="I04-3">
@@ -536,7 +534,7 @@
             <l><anchor xml:id="l287"/>Des projets de mon cœur ne prenez point d’alarme ;</l>
             <l><anchor xml:id="l288"/>Henriette, Madame, est l’objet qui me charme,</l>
             <l><anchor xml:id="l289"/>Et je viens ardemment conjurer vos bontés</l>
-            <l><anchor xml:id="l290"/>290<space rend="tab">    </space><space rend="tab">    </space>De seconder l’amour que j’ai pour ses beautés.</l>
+            <l><anchor xml:id="l290"/>290<space rend="tab"> </space><space rend="tab"> </space>De seconder l’amour que j’ai pour ses beautés.</l>
           </sp>
           <sp who="belise" xml:id="I04-4">
             <speaker>bélise</speaker>
@@ -547,12 +545,12 @@
           </sp>
           <sp who="clitandre" xml:id="I04-5">
             <speaker>clitandre</speaker>
-            <l><anchor xml:id="l295"/>295<space rend="tab">    </space><space rend="tab">    </space>Ceci n’est point du tout un trait d’esprit, Madame,</l>
+            <l><anchor xml:id="l295"/>295<space rend="tab"> </space><space rend="tab"> </space>Ceci n’est point du tout un trait d’esprit, Madame,</l>
             <l><anchor xml:id="l296"/>Et c’est un pur aveu de ce que j’ai dans l’âme.</l>
             <l><anchor xml:id="l297"/>Les Cieux, par les liens d’une immuable ardeur,</l>
             <l><anchor xml:id="l298"/>Aux beautés d’Henriette ont attaché mon cœur ;</l>
             <l><anchor xml:id="l299"/>Henriette me tient sous son aimable empire,</l>
-            <l><anchor xml:id="l300"/>300<space rend="tab">    </space><space rend="tab">    </space>Et l’hymen d’Henriette est le bien où j’aspire ;</l>
+            <l><anchor xml:id="l300"/>300<space rend="tab"> </space><space rend="tab"> </space>Et l’hymen d’Henriette est le bien où j’aspire ;</l>
             <l><anchor xml:id="l301"/>Vous y pouvez beaucoup, et tout ce que je veux,</l>
             <l><anchor xml:id="l302"/>C’est que vous y daigniez favoriser mes vœux.</l>
           </sp>
@@ -560,7 +558,7 @@
             <speaker>bélise</speaker>
             <l><anchor xml:id="l303"/>Je vois où doucement veut aller la demande,</l>
             <l><anchor xml:id="l304"/>Et je sais sous ce nom ce qu’il faut que j’entende ;</l>
-            <l><anchor xml:id="l305"/>305<space rend="tab">    </space><space rend="tab">    </space>La figure est adroite, et pour n’en point sortir,<space rend="tab">    </space><space rend="tab">    </space></l>
+            <l><anchor xml:id="l305"/>305<space rend="tab"> </space><space rend="tab"> </space>La figure est adroite, et pour n’en point sortir,<space rend="tab"> </space><space rend="tab"> </space></l>
             <l><anchor xml:id="l306"/>Aux choses que mon cœur m’offre à vous repartir,</l>
             <l><anchor xml:id="l307"/>Je dirai qu’Henriette à l’Hymen est rebelle,</l>
             <l><anchor xml:id="l308"/>Et que sans rien prétendre, il faut brûler pour elle.</l>
@@ -568,7 +566,7 @@
           <sp who="clitandre" xml:id="I04-7">
             <speaker>clitandre</speaker>
             <l><anchor xml:id="l309"/>Eh, Madame, à quoi bon un pareil embarras,</l>
-            <l><anchor xml:id="l310"/>310<space rend="tab">    </space><space rend="tab">    </space>Et pourquoi voulez-vous penser ce qui n’est pas ?</l>
+            <l><anchor xml:id="l310"/>310<space rend="tab"> </space><space rend="tab"> </space>Et pourquoi voulez-vous penser ce qui n’est pas ?</l>
           </sp>
           <sp who="belise" xml:id="I04-8">
             <speaker>bélise</speaker>
@@ -576,7 +574,7 @@
             <l><anchor xml:id="l312"/>De ce que vos regards m’ont souvent fait entendre ;</l>
             <l><anchor xml:id="l313"/>Il suffit que l’on est contente du détour</l>
             <l><anchor xml:id="l314"/>Dont s’est adroitement avisé votre amour,</l>
-            <l><anchor xml:id="l315"/>315<space rend="tab">    </space><space rend="tab">    </space>Et que sous laFigure où le respect l’engage,</l>
+            <l><anchor xml:id="l315"/>315<space rend="tab"> </space><space rend="tab"> </space>Et que sous laFigure où le respect l’engage,</l>
             <l><anchor xml:id="l316"/>On veut bien se résoudre à souffrir son hommage,</l>
             <l><anchor xml:id="l317"/>Pourvu que ses transports par l’honneur éclairés</l>
             <l><anchor xml:id="l318"/>N’offrent à mes autels que des vœux épurés.</l>
@@ -588,7 +586,7 @@
           <sp who="belise" xml:id="I04-10">
             <speaker>bélise</speaker>
             <l>Adieu, pour ce coup ceci doit vous suffire,</l>
-            <l><anchor xml:id="l320"/>320<space rend="tab">    </space><space rend="tab">    </space>Et je vous ai plus dit que je ne voulais dire.</l>
+            <l><anchor xml:id="l320"/>320<space rend="tab"> </space><space rend="tab"> </space>Et je vous ai plus dit que je ne voulais dire.</l>
           </sp>
           <sp who="clitandre" xml:id="I04-11">
             <speaker>clitandre</speaker>
@@ -609,7 +607,7 @@
           </sp>
           <sp who="clitandre" xml:id="I04-15">
             <speaker>clitandre</speaker>
-            <l><anchor xml:id="l325"/>325<space rend="tab">    </space><space rend="tab">    </space>Diantre soit de la folle avec ses visions.<space rend="tab">    </space></l>
+            <l><anchor xml:id="l325"/>325<space rend="tab"> </space><space rend="tab"> </space>Diantre soit de la folle avec ses visions.<space rend="tab"> </space></l>
             <l><anchor xml:id="l326"/>A-t-on rien vu d’égal à ces préventions ?</l>
             <l><anchor xml:id="l327"/>Allons commettre un autre au soin que l’on me donne,</l>
             <l><anchor xml:id="l328"/>Et prenons le secours d’une sage personne.</l>
@@ -623,7 +621,7 @@
           <sp who="ariste" xml:id="II01-1">
             <speaker>ariste</speaker>
             <l><anchor xml:id="l329"/>Oui, je vous porterai la réponse au plus tôt ;</l>
-            <l><anchor xml:id="l330"/>330<space rend="tab">    </space>J’appuierai, presserai, ferai tout ce qu’il faut.</l>
+            <l><anchor xml:id="l330"/>330<space rend="tab"> </space>J’appuierai, presserai, ferai tout ce qu’il faut.</l>
             <l><anchor xml:id="l331"/>Qu’un Amant, pour un mot, a de choses à dire !</l>
             <l><anchor xml:id="l332"/>Et qu’impatiemment il veut ce qu’il désire !</l>
             <l><anchor xml:id="l333"/>Jamais...</l>
@@ -643,7 +641,7 @@
           </sp>
           <sp who="chrysale" xml:id="II02-3">
             <speaker>chrysale</speaker>
-            <l><anchor xml:id="l335"/>335<space rend="tab">    </space>Non ; mais, si vous voulez, je suis prêt à l’apprendre.</l>
+            <l><anchor xml:id="l335"/>335<space rend="tab"> </space>Non ; mais, si vous voulez, je suis prêt à l’apprendre.</l>
           </sp>
           <sp who="ariste" xml:id="II02-4">
             <speaker>ariste</speaker>
@@ -660,7 +658,7 @@
           <sp who="chrysale" xml:id="II02-7">
             <speaker>chrysale</speaker>
             <l><anchor xml:id="l339"/>D’Homme d’honneur, d’esprit, de cœur, et de conduite,</l>
-            <l><anchor xml:id="l340"/>340<space rend="tab">    </space>Et je vois peu deGens qui soient de son mérite.</l>
+            <l><anchor xml:id="l340"/>340<space rend="tab"> </space>Et je vois peu deGens qui soient de son mérite.</l>
           </sp>
           <sp who="ariste" xml:id="II02-8">
             <speaker>ariste</speaker>
@@ -685,7 +683,7 @@
           </sp>
           <sp who="chrysale" xml:id="II02-13">
             <speaker>chrysale</speaker>
-            <l>345<space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Nous n’avions alors que vingt-huit ans,</l>
+            <l>345<space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Nous n’avions alors que vingt-huit ans,</l>
             <l><anchor xml:id="l346"/>Et nous étions, ma foi, tous deux de Verts-Galants.</l>
           </sp>
           <sp who="ariste" xml:id="II02-14">
@@ -701,7 +699,7 @@
           <sp who="ariste" xml:id="II02-16">
             <speaker>ariste</speaker>
             <l>Voilà qui va des mieux :</l>
-            <l><anchor xml:id="l350"/>350<space rend="tab">    </space><space rend="tab">    </space>Mais venons au sujet qui m’amène en ces lieux.</l>
+            <l><anchor xml:id="l350"/>350<space rend="tab"> </space><space rend="tab"> </space>Mais venons au sujet qui m’amène en ces lieux.</l>
           </sp>
         </div>
         <div xml:id="II03" type="scene">
@@ -724,7 +722,7 @@
           </sp>
           <sp who="belise" xml:id="II03-4">
             <speaker>bélise</speaker>
-            <l><anchor xml:id="l355"/>355<space rend="tab">    </space><space rend="tab">    </space>Non, non,je vous entends, vous ignorez l’histoire,</l>
+            <l><anchor xml:id="l355"/>355<space rend="tab"> </space><space rend="tab"> </space>Non, non,je vous entends, vous ignorez l’histoire,</l>
             <l><anchor xml:id="l356"/>Et l’affaire n’est pas ce que vous pouvez croire.</l>
           </sp>
           <sp who="ariste" xml:id="II03-5">
@@ -746,7 +744,7 @@
           </sp>
           <sp who="ariste" xml:id="II03-9">
             <speaker>ariste</speaker>
-            <l>360<space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Il me l’a dit lui-même.</l>
+            <l>360<space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Il me l’a dit lui-même.</l>
           </sp>
           <sp who="belise" xml:id="II03-10">
             <speaker>bélise</speaker>
@@ -768,7 +766,7 @@
           </sp>
           <sp who="belise" xml:id="II03-14">
             <speaker>bélise</speaker>
-            <l><anchor xml:id="l365"/>365<space rend="tab">    </space><space rend="tab">    </space>Encor mieux. On ne peut tromper plus galamment.</l>
+            <l><anchor xml:id="l365"/>365<space rend="tab"> </space><space rend="tab"> </space>Encor mieux. On ne peut tromper plus galamment.</l>
             <l><anchor xml:id="l366"/>Henriette, entre nous, est un amusement,</l>
             <l><anchor xml:id="l367"/>Un voile ingénieux, un prétexte, mon Frère,</l>
             <l><anchor xml:id="l368"/>À couvrir d’autres feux dont je sais le mystère,</l>
@@ -776,7 +774,7 @@
           </sp>
           <sp who="ariste" xml:id="II03-15">
             <speaker>ariste</speaker>
-            <l><anchor xml:id="l370"/>370<space rend="tab">    </space><space rend="tab">    </space>Mais puisque vous savez tant de choses, maSœur,</l>
+            <l><anchor xml:id="l370"/>370<space rend="tab"> </space><space rend="tab"> </space>Mais puisque vous savez tant de choses, maSœur,</l>
             <l><anchor xml:id="l371"/>Dites-nous, s’il vous plaît, cet autre Objet qu’il aime.</l>
           </sp>
           <sp who="belise" xml:id="II03-16">
@@ -787,27 +785,27 @@
             <speaker>ariste</speaker>
             <l>Oui. Quoi ?</l>
           </sp>
-          <sp who="belise" xml:id="II03-20">
+          <sp who="belise" xml:id="II03-18">
             <speaker>bélise</speaker>
             <l>Moi.</l>
           </sp>
-          <sp who="ariste" xml:id="II03-21">
+          <sp who="ariste" xml:id="II03-19">
             <speaker>ariste</speaker>
-            <l><anchor xml:id="l373"/><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Vous ?</l>
+            <l><anchor xml:id="l373"/><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Vous ?</l>
           </sp>
-          <sp who="belise" xml:id="II03-22">
+          <sp who="belise" xml:id="II03-20">
             <speaker>bélise</speaker>
-            <l><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Moi-même.</l>
+            <l><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Moi-même.</l>
           </sp>
-          <sp who="ariste">
+          <sp who="ariste" xml:id="II03-21">
             <speaker>ariste</speaker>
             <l>Hay, ma Sœur !</l>
           </sp>
-          <sp who="belise">
+          <sp who="belise" xml:id="II03-22">
             <speaker>bélise</speaker>
-            <l><space rend="tab">    </space>Qu’est-ce donc que veut dire ce<hi rend="i">H</hi>ay,</l>
+            <l><space rend="tab"> </space>Qu’est-ce donc que veut dire ce<hi rend="i">H</hi>ay,</l>
             <l><anchor xml:id="l374"/>Et qu’a de surprenant le discours que je fais ?</l>
-            <l><anchor xml:id="l375"/>375<space rend="tab">    </space><space rend="tab">    </space>On est faite d’un air je pense à pouvoir dire</l>
+            <l><anchor xml:id="l375"/>375<space rend="tab"> </space><space rend="tab"> </space>On est faite d’un air je pense à pouvoir dire</l>
             <l><anchor xml:id="l376"/>Qu’on n’a pas pour un Cœur soumis à son empire ;</l>
             <l><anchor xml:id="l377"/>Et Dorante, Damis, Cléonte, et Lycidas,</l>
             <l><anchor xml:id="l378"/>Peuvent bien faire voir qu’on a quelques appas.</l>
@@ -826,7 +824,7 @@
           </sp>
           <sp who="belise" xml:id="II03-26">
             <speaker>bélise</speaker>
-            <l>380<space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Aucun n’a pris cette licence ;</l>
+            <l>380<space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Aucun n’a pris cette licence ;</l>
             <l><anchor xml:id="l381"/>Ils m’ont su révérer si fort jusqu’à ce jour,</l>
             <l><anchor xml:id="l382"/>Qu’ils ne m’ont jamais dit un mot de leur amour :</l>
             <l><anchor xml:id="l383"/>Mais pour m’offrir leur cœur, et vouer leur service,</l>
@@ -834,7 +832,7 @@
           </sp>
           <sp who="ariste" xml:id="II03-27">
             <speaker>ariste</speaker>
-            <l><anchor xml:id="l385"/>385<space rend="tab">    </space><space rend="tab">    </space>On ne voit presque point céans venir Damis.</l>
+            <l><anchor xml:id="l385"/>385<space rend="tab"> </space><space rend="tab"> </space>On ne voit presque point céans venir Damis.</l>
           </sp>
           <sp who="belise" xml:id="II03-28">
             <speaker>bélise</speaker>
@@ -854,7 +852,7 @@
           </sp>
           <sp who="belise" xml:id="II03-32">
             <speaker>bélise</speaker>
-            <l><anchor xml:id="l390"/>390<space rend="tab">    </space><space rend="tab">    </space>C’est par un désespoir où j’ai réduit leurs feux.</l>
+            <l><anchor xml:id="l390"/>390<space rend="tab"> </space><space rend="tab"> </space>C’est par un désespoir où j’ai réduit leurs feux.</l>
           </sp>
           <sp who="ariste" xml:id="II03-33">
             <speaker>ariste</speaker>
@@ -868,7 +866,7 @@
             <speaker>bélise</speaker>
             <l><anchor xml:id="l393"/>Ah chimères ! Ce sont des chimères, dit-on !</l>
             <l><anchor xml:id="l394"/>Chimères, moi ! Vraiment chimères est fort bon !</l>
-            <l><anchor xml:id="l395"/>395<space rend="tab">    </space><space rend="tab">    </space>Je me réjouis fort de chimères, mesFrères,</l>
+            <l><anchor xml:id="l395"/>395<space rend="tab"> </space><space rend="tab"> </space>Je me réjouis fort de chimères, mesFrères,</l>
             <l><anchor xml:id="l396"/>Et je ne savais pas que j’eusse des chimères.</l>
           </sp>
         </div>
@@ -885,7 +883,7 @@
             <l>Cela croît tous les jours.</l>
             <l><anchor xml:id="l398"/>Mais, encore une fois, reprenons le discours.</l>
             <l><anchor xml:id="l399"/>Clitandre vous demande Henriette pour Femme,</l>
-            <l><anchor xml:id="l400"/>400<space rend="tab">    </space><space rend="tab">    </space>Voyez quelle réponse on doit faire à sa flamme ?</l>
+            <l><anchor xml:id="l400"/>400<space rend="tab"> </space><space rend="tab"> </space>Voyez quelle réponse on doit faire à sa flamme ?</l>
           </sp>
           <sp who="chrysale" xml:id="II04-3">
             <speaker>chrysale</speaker>
@@ -900,7 +898,7 @@
           <sp who="chrysale" xml:id="II04-5">
             <speaker>chrysale</speaker>
             <l>C’est un intérêt qui n’est pas d’importance ;</l>
-            <l><anchor xml:id="l405"/>405<space rend="tab">    </space><space rend="tab">    </space>Il est riche en vertu, cela vaut des trésors,</l>
+            <l><anchor xml:id="l405"/>405<space rend="tab"> </space><space rend="tab"> </space>Il est riche en vertu, cela vaut des trésors,</l>
             <l><anchor xml:id="l406"/>Et puis son Père et moi n’étions qu’un en deux corps.</l>
           </sp>
           <sp who="ariste" xml:id="II04-6">
@@ -915,7 +913,7 @@
           <sp who="ariste" xml:id="II04-8">
             <speaker>ariste</speaker>
             <l><anchor xml:id="l409"/>Oui ; mais pour appuyer votre consentement,</l>
-            <l><anchor xml:id="l410"/>410<space rend="tab">    </space><space rend="tab">    </space>MonFrère, il n’est pas mal d’avoir son agrément,</l>
+            <l><anchor xml:id="l410"/>410<space rend="tab"> </space><space rend="tab"> </space>MonFrère, il n’est pas mal d’avoir son agrément,</l>
             <l><anchor xml:id="l411"/>Allons...</l>
           </sp>
           <sp who="chrysale" xml:id="II04-9">
@@ -934,7 +932,7 @@
           </sp>
           <sp who="ariste" xml:id="II04-12">
             <speaker>ariste</speaker>
-            <l><anchor xml:id="l415"/>415<space rend="tab">    </space><space rend="tab">    </space>Soit. Je vais là-dessus sonder votre Henriette,</l>
+            <l><anchor xml:id="l415"/>415<space rend="tab"> </space><space rend="tab"> </space>Soit. Je vais là-dessus sonder votre Henriette,</l>
             <l><anchor xml:id="l416"/>Et reviendrai savoir...</l>
           </sp>
           <sp who="chrysale" xml:id="II04-13">
@@ -951,7 +949,7 @@
             <speaker>martine</speaker>
             <l><anchor xml:id="l418"/>Me voilà bien chanceuse ! Hélas l’an dit bien vrai :</l>
             <l><anchor xml:id="l419"/>Qui veut noyer son Chien, l’accuse de la rage,</l>
-            <l><anchor xml:id="l420"/>420<space rend="tab">    </space><space rend="tab">    </space>Et service d’autrui n’est pas un héritage.</l>
+            <l><anchor xml:id="l420"/>420<space rend="tab"> </space><space rend="tab"> </space>Et service d’autrui n’est pas un héritage.</l>
           </sp>
           <sp who="chrysale" xml:id="II05-2">
             <speaker>chrysale</speaker>
@@ -985,7 +983,7 @@
           <sp who="martine" xml:id="II05-9">
             <speaker>martine</speaker>
             <l>On me menace,</l>
-            <l><anchor xml:id="l425"/>425<space rend="tab">    </space><space rend="tab">    </space>Si je ne sors d’ici, de me bailler cent coups.</l>
+            <l><anchor xml:id="l425"/>425<space rend="tab"> </space><space rend="tab"> </space>Si je ne sors d’ici, de me bailler cent coups.</l>
           </sp>
           <sp who="chrysale" xml:id="II05-10">
             <speaker>chrysale</speaker>
@@ -1002,7 +1000,7 @@
             <speaker>philaminte</speaker>
             <l>Quoi, je vous vois, Maraude ?</l>
             <l><anchor xml:id="l429"/>Vite, sortez, Friponne ; allons, quittez ces lieux,</l>
-            <l><anchor xml:id="l430"/>430<space rend="tab">    </space><space rend="tab">    </space>Et ne vous présentez jamais devant mes yeux.</l>
+            <l><anchor xml:id="l430"/>430<space rend="tab"> </space><space rend="tab"> </space>Et ne vous présentez jamais devant mes yeux.</l>
           </sp>
           <sp who="chrysale" xml:id="II06-2">
             <speaker>chrysale</speaker>
@@ -1081,7 +1079,7 @@
           </sp>
           <sp who="chrysale" xml:id="II06-20">
             <speaker>chrysale</speaker>
-            <l>445 <space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Ma foi !Je ne sais pas.</l>
+            <l>445 <space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Ma foi !Je ne sais pas.</l>
           </sp>
           <sp who="philaminte" xml:id="II06-21">
             <speaker>philaminte</speaker>
@@ -1175,7 +1173,7 @@
           </sp>
           <sp who="belise" xml:id="II06-41">
             <speaker>bélise</speaker>
-            <l>470 <space rend="tab">    </space><space rend="tab">    </space>Il est vrai que ce sont des pitiés,</l>
+            <l>470 <space rend="tab"> </space><space rend="tab"> </space>Il est vrai que ce sont des pitiés,</l>
             <l><anchor xml:id="l471"/>Toute construction est par elle détruite,</l>
             <l><anchor xml:id="l472"/>Et des lois du Langage on l’a cent fois instruite.</l>
           </sp>
@@ -1201,7 +1199,7 @@
           </sp>
           <sp who="belise" xml:id="II06-46">
             <speaker>bélise</speaker>
-            <l>480 <space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Ô cervelle indocile !</l>
+            <l>480 <space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Ô cervelle indocile !</l>
             <l><anchor xml:id="l481"/>Faut-il qu’avec les soins qu’on prend incessamment,</l>
             <l><anchor xml:id="l482"/>On ne te puisse apprendre à parler congrûment ?</l>
             <l><anchor xml:id="l483"/>De pas, mis avec rien, tu fais la récidive,</l>
@@ -1263,7 +1261,7 @@
           </sp>
           <sp who="philaminte" xml:id="II06-58">
             <speaker>philaminte</speaker>
-            <l>500 <space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Quel martyre !</l>
+            <l>500 <space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Quel martyre !</l>
           </sp>
           <sp who="belise" xml:id="II06-59">
             <speaker>bélise</speaker>
@@ -1520,7 +1518,7 @@
           </sp>
           <sp who="chrysale" xml:id="II09-6">
             <speaker>chrysale</speaker>
-            <l>645 <space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Non.</l>
+            <l>645 <space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Non.</l>
           </sp>
           <sp who="ariste" xml:id="II09-7">
             <speaker>ariste</speaker>
@@ -1770,7 +1768,7 @@
           <p/>
           <sp who="philaminte" xml:id="III02-1">
             <speaker>philaminte</speaker>
-            <l>725 <space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Holà,pourquoi donc fuyez-vous ?</l>
+            <l>725 <space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Holà,pourquoi donc fuyez-vous ?</l>
           </sp>
           <sp who="henriette" xml:id="III02-2">
             <speaker>henriette</speaker>
@@ -1835,7 +1833,7 @@
           </sp>
           <sp who="belise" xml:id="III02-15">
             <speaker>bélise</speaker>
-            <l>745 <space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Cela ne tarit pas.</l>
+            <l>745 <space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Cela ne tarit pas.</l>
           </sp>
           <sp who="philaminte" xml:id="III02-16">
             <speaker>philaminte</speaker>
@@ -1858,7 +1856,7 @@
           </sp>
           <sp who="philaminte" xml:id="III02-19">
             <speaker>philaminte</speaker>
-            <l>755 <space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Donnons vite audience.</l>
+            <l>755 <space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Donnons vite audience.</l>
           </sp>
           <sp who="belise" xml:id="III02-21">
             <speaker>bélise</speaker>
@@ -1877,15 +1875,15 @@
           </sp>
           <sp who="belise" xml:id="III02-24">
             <speaker>bélise</speaker>
-            <l>760 <space rend="tab">    </space>Silence,ma nièce.</l>
+            <l>760 <space rend="tab"> </space>Silence,ma nièce.</l>
           </sp>
           <sp who="trissotin" xml:id="III02-25">
             <speaker>trissotin</speaker>
-              <l>SONNET, À LA PRINCESSE URANIE, sur sa fièvre</l>
-              <l rend="i">Votre prudence est endormie,</l>
-              <l rend="i">De traiter magnifiquement,</l>
-              <l rend="i">Et de loger superbement</l>
-              <l rend="i">Votre plus cruelle Ennemie.</l>
+            <l>SONNET, À LA PRINCESSE URANIE, sur sa fièvre</l>
+            <l rend="i">Votre prudence est endormie,</l>
+            <l rend="i">De traiter magnifiquement,</l>
+            <l rend="i">Et de loger superbement</l>
+            <l rend="i">Votre plus cruelle Ennemie.</l>
           </sp>
           <sp who="belise" xml:id="III02-26">
             <speaker>bélise</speaker>
@@ -1893,7 +1891,7 @@
           </sp>
           <sp who="armande" xml:id="III02-27">
             <speaker>armande</speaker>
-            <l>765 <space rend="tab">    </space><space rend="tab">    </space>Qu’il a le tour galant !</l>
+            <l>765 <space rend="tab"> </space><space rend="tab"> </space>Qu’il a le tour galant !</l>
           </sp>
           <sp who="philaminte" xml:id="III02-28">
             <speaker>philaminte</speaker>
@@ -1940,7 +1938,7 @@
             <l><anchor xml:id="l779"/>Faites-la sortir, quoi qu’on die,</l>
             <l><anchor xml:id="l780"/>De votre riche <hi rend="i">A</hi>ppartement,</l>
             <l><anchor xml:id="l781"/>Où cette <hi rend="i">I</hi>ngrate insolemment</l>
-            <l><anchor xml:id="l782"/>775 <space rend="tab">    </space>Attaque votre belle vie.</l>
+            <l><anchor xml:id="l782"/>775 <space rend="tab"> </space>Attaque votre belle vie.</l>
           </sp>
           <sp who="belise" xml:id="III02-38">
             <speaker>bélise</speaker>
@@ -2071,22 +2069,22 @@
           </sp>
           <sp who="trissotin" xml:id="III02-65">
             <speaker>trissotin</speaker>
-            <l><anchor xml:id="l826"/><anchor xml:id="III02-66"/><anchor xml:id="l827"/><anchor xml:id="III02-67"/>Et nuit et jour vous fait outrage <hi rend="i"/>?</l>
+            <l><anchor xml:id="l826"/>Et nuit et jour vous fait outrage <hi rend="i"/>?</l>
             <l><anchor xml:id="l828"/>Si vous la conduisez aux <hi rend="i">B</hi>ains,</l>
             <l><anchor xml:id="l829"/>Sans la marchander davantage,</l>
             <l><anchor xml:id="l830"/>Noyez-la de vos propres mains.</l>
           </sp>
-          <sp who="philaminte" xml:id="III02-68">
+          <sp who="philaminte" xml:id="III02-66">
             <speaker>philaminte</speaker>
             <l><anchor xml:id="l831"/>On n’en peut plus !</l>
           </sp>
-          <sp who="belise" xml:id="III02-69">
+          <sp who="belise" xml:id="III02-67">
             <speaker>bélise</speaker>
             <l>On pâme.</l>
           </sp>
-          <sp who="armande" xml:id="III02-70">
+          <sp who="armande" xml:id="III02-68">
             <speaker>armande</speaker>
-            <l>810 <space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>On se meurt de plaisir.</l>
+            <l>810 <space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>On se meurt de plaisir.</l>
           </sp>
           <sp who="philaminte" xml:id="III02-71">
             <speaker>philaminte</speaker>
@@ -2152,78 +2150,78 @@
             <speaker>philaminte</speaker>
             <p rend="margin">Ah ? voyons l’Épigramme.</p>
           </sp>
-          <sp who="trissotin">
+          <sp who="trissotin" xml:id="III02-86">
             <speaker>trissotin</speaker>
-            <l><space rend="tab">    </space><space rend="tab">    </space>SUR UN CARROSSE DE COULEUR AMARANTE,</l>
-            <l><space rend="tab">    </space>DONNÉ À UNE DAME DE SES AMIES.</l>
+            <l><space rend="tab"> </space><space rend="tab"> </space>SUR UN CARROSSE DE COULEUR AMARANTE,</l>
+            <l><space rend="tab"> </space>DONNÉ À UNE DAME DE SES AMIES.</l>
           </sp>
-          <sp who="philaminte">
+          <sp who="philaminte" xml:id="III02-87">
             <speaker>philaminte</speaker>
             <l>825 Ces Titres ont toujours quelque chose de rare.</l>
           </sp>
-          <sp who="philaminte">
+          <sp who="philaminte" xml:id="III02-88">
             <speaker>armande</speaker>
             <l>À cent beaux traits d’Esprit leur nouveauté prépare.</l>
           </sp>
-          <sp who="trissotin" xml:id="III02-86">
+          <sp who="trissotin" xml:id="III02-89">
             <speaker>trissotin</speaker>
             <l rend="i">L’amour si chèrement m’a vendu son lien,</l>
           </sp>
-          <sp who="philaminte" xml:id="III02-89">
+          <sp who="philaminte" xml:id="III02-90">
             <speaker>philaminte, armande et bélise</speaker>
             <l><anchor xml:id="l854"/>Ah !</l>
           </sp>
-          <sp who="trissotin" xml:id="III02-90">
+          <sp who="trissotin" xml:id="III02-91">
             <speaker>trissotin</speaker>
             <l>Qu’il m’en coûte déjà la moitié de mon bien.</l>
             <l><anchor xml:id="l855"/>Et quand tu vois ce beau <hi rend="i">C</hi>arrosse</l>
-            <l><anchor xml:id="l856"/>830 <space rend="tab">    </space>Où tant d’or se relève en bosse,</l>
+            <l><anchor xml:id="l856"/>830 <space rend="tab"> </space>Où tant d’or se relève en bosse,</l>
             <l><anchor xml:id="l857"/>Qu’il étonne tout le <hi rend="i">P</hi>ays,</l>
             <l><anchor xml:id="l858"/>Et fait pompeusement triompher ma Laïs,</l>
           </sp>
-          <sp who="philaminte" xml:id="III02-91">
+          <sp who="philaminte" xml:id="III02-92">
             <speaker>philaminte</speaker>
             <l><anchor xml:id="l859"/>Ah <hi rend="i">m</hi>a Laïs ! voilà de l’érudition.</l>
           </sp>
-          <sp who="belise" xml:id="III02-92">
+          <sp who="belise" xml:id="III02-93">
             <speaker>bélise</speaker>
             <l><anchor xml:id="l860"/>L’enveloppe est jolie, et vaut un million.</l>
           </sp>
-          <sp who="trissotin" xml:id="III02-93">
+          <sp who="trissotin" xml:id="III02-94">
             <speaker>trissotin</speaker>
             <l><anchor xml:id="l861"/>Et quand tu vois ce beau <hi rend="i">C</hi>arrosse,</l>
             <l><anchor xml:id="l862"/>Où tant d’or se relève en bosse,</l>
             <l><anchor xml:id="l863"/>Qu’il étonne tout le <hi rend="i">P</hi>ays,</l>
             <l><anchor xml:id="l864"/>Et fait pompeusement triompher ma Laïs,</l>
-            <l><anchor xml:id="l865"/>835 <space rend="tab">    </space>Ne dis plus qu’il est<hi rend="i">A</hi>marante :</l>
+            <l><anchor xml:id="l865"/>835 <space rend="tab"> </space>Ne dis plus qu’il est<hi rend="i">A</hi>marante :</l>
             <l><anchor xml:id="l866"/>Dis plutôt qu’il est de ma <hi rend="i">R</hi>ente.</l>
           </sp>
-          <sp who="armande" xml:id="III02-94">
+          <sp who="armande" xml:id="III02-95">
             <speaker>armande</speaker>
             <l><anchor xml:id="l867"/>Oh, oh, oh ! Celui-là ne s’attend point du tout.</l>
           </sp>
-          <sp who="philaminte" xml:id="III02-95">
+          <sp who="philaminte" xml:id="III02-96">
             <speaker>philaminte</speaker>
             <l><anchor xml:id="l868"/>On n’a que lui qui puisse écrire de ce goût.</l>
           </sp>
-          <sp who="belise" xml:id="III02-96">
+          <sp who="belise" xml:id="III02-97">
             <speaker>bélise</speaker>
             <l><anchor xml:id="l869"/>Ne dis plus qu’il est <hi rend="i">A</hi>marante :</l>
             <l><anchor xml:id="l870"/>Dis plutôt qu’il est de ma <hi rend="i">R</hi>ente.</l>
             <l><anchor xml:id="l871"/>Voilà qui se décline : ma <hi rend="i">R</hi>ente, de ma <hi rend="i">R</hi>ente, à ma <hi rend="i">R</hi>ente.</l>
           </sp>
-          <sp who="philaminte" xml:id="III02-97">
+          <sp who="philaminte" xml:id="III02-98">
             <speaker>philaminte</speaker>
             <l><anchor xml:id="l872"/>Je ne sais du moment que je vous ai connu,</l>
             <l><anchor xml:id="l873"/>840 Si sur votre sujet j’ai l’esprit prévenu,</l>
             <l><anchor xml:id="l874"/>Mais j’admire partout vos Vers et votre Prose.</l>
           </sp>
-          <sp who="trissotin" xml:id="III02-98">
+          <sp who="trissotin" xml:id="III02-99">
             <speaker>trissotin</speaker>
             <l><anchor xml:id="l875"/>Si vous vouliez de vous nous montrer quelque chose,</l>
             <l><anchor xml:id="l876"/>À notre tour aussi nous pourrions admirer.</l>
           </sp>
-          <sp who="philaminte" xml:id="III02-99">
+          <sp who="philaminte" xml:id="III02-100">
             <speaker>philaminte</speaker>
             <l><anchor xml:id="l877"/>Je n’ai rien fait en Vers, mais j’ai lieu d’espérer</l>
             <l><anchor xml:id="l878"/>845 Que je pourrai bientôt vous montrer en Amie,</l>
@@ -2239,25 +2237,25 @@
             <l><anchor xml:id="l888"/>855 De borner nos talents à des futilités,</l>
             <l><anchor xml:id="l889"/>Et nous fermer la porte aux sublimes clartés.</l>
           </sp>
-          <sp who="armande" xml:id="III02-100">
+          <sp who="armande" xml:id="III02-101">
             <speaker>armande</speaker>
             <l><anchor xml:id="l890"/>C’est faire à notre Sexe une trop grande offense,</l>
             <l><anchor xml:id="l891"/>De n’étendre l’effort de notre intelligence,</l>
             <l><anchor xml:id="l892"/>Qu’à juger d’une Jupe, et de l’air d’un Manteau,</l>
             <l><anchor xml:id="l893"/>860 Ou des beautés d’un Point, ou d’un Brocart nouveau.</l>
           </sp>
-          <sp who="belise" xml:id="III02-101">
+          <sp who="belise" xml:id="III02-102">
             <speaker>bélise</speaker>
             <l><anchor xml:id="l894"/>Il faut se relever de ce honteux partage,</l>
             <l><anchor xml:id="l895"/>Et mettre hautement notre Esprit hors de Page.</l>
           </sp>
-          <sp who="trissotin" xml:id="III02-102">
+          <sp who="trissotin" xml:id="III02-103">
             <speaker>trissotin</speaker>
             <l><anchor xml:id="l896"/>Pour les Dames on sait mon respect en tous lieux,</l>
             <l><anchor xml:id="l897"/>Et si je rends hommage aux brillants de leurs yeux,</l>
             <l><anchor xml:id="l898"/>865 De leur esprit aussi j’honore les lumières.</l>
           </sp>
-          <sp who="philaminte" xml:id="III02-103">
+          <sp who="philaminte" xml:id="III02-104">
             <speaker>philaminte</speaker>
             <l><anchor xml:id="l899"/>Le Sexe aussi vous rend justice en ces matières ;</l>
             <l><anchor xml:id="l900"/>Mais nous voulons montrer à de certains Esprits,</l>
@@ -2271,69 +2269,69 @@
             <l><anchor xml:id="l908"/>875 Et sur les questions qu’on pourra proposer</l>
             <l><anchor xml:id="l909"/>Faire entrer chaque Secte, et n’en point épouser.</l>
           </sp>
-          <sp who="trissotin" xml:id="III02-104">
+          <sp who="trissotin" xml:id="III02-105">
             <speaker>trissotin</speaker>
             <l><anchor xml:id="l910"/>Je m’attache pour l’ordre au Péripatétisme.</l>
           </sp>
-          <sp who="philaminte" xml:id="III02-105">
+          <sp who="philaminte" xml:id="III02-106">
             <speaker>philaminte</speaker>
             <l><anchor xml:id="l911"/>Pour les abstractions j’aime le Platonisme.</l>
           </sp>
-          <sp who="armande" xml:id="III02-106">
+          <sp who="armande" xml:id="III02-107">
             <speaker>armande</speaker>
             <l><anchor xml:id="l912"/>Épicure me plaît, et ses Dogmes sont forts.</l>
           </sp>
-          <sp who="belise" xml:id="III02-107">
+          <sp who="belise" xml:id="III02-108">
             <speaker>bélise</speaker>
             <l><anchor xml:id="l913"/>880 Je m’accommode assez pour moi des petits Corps ;</l>
             <l><anchor xml:id="l914"/>Mais le Vide à souffrir me semble difficile,</l>
             <l><anchor xml:id="l915"/>Et je goûte bien mieux la matière subtile.</l>
           </sp>
-          <sp who="trissotin" xml:id="III02-108">
+          <sp who="trissotin" xml:id="III02-109">
             <speaker>trissotin</speaker>
             <l><anchor xml:id="l916"/>Descartes pour l’aimant donne fort dans mon sens.</l>
           </sp>
-          <sp who="armande" xml:id="III02-109">
+          <sp who="armande" xml:id="III02-110">
             <speaker>armande</speaker>
             <l><anchor xml:id="l917"/>J’aime ses tourbillons.</l>
           </sp>
-          <sp who="philaminte" xml:id="III02-110">
+          <sp who="philaminte" xml:id="III02-111">
             <speaker>philaminte</speaker>
             <l>Moi ses Mondes tombants.</l>
           </sp>
-          <sp who="armande" xml:id="III02-111">
+          <sp who="armande" xml:id="III02-112">
             <speaker>armande</speaker>
             <l><anchor xml:id="l918"/>885 Il me tarde de voir notre Assemblée ouverte,</l>
             <l><anchor xml:id="l919"/>Et de nous signaler par quelque découverte.</l>
           </sp>
-          <sp who="trissotin" xml:id="III02-112">
+          <sp who="trissotin" xml:id="III02-113">
             <speaker>trissotin</speaker>
             <l><anchor xml:id="l920"/>On en attend beaucoup de vos vives clartés,</l>
             <l><anchor xml:id="l921"/>Et pour vous la nature a peu d’obscurités.</l>
           </sp>
-          <sp who="philaminte" xml:id="III02-113">
+          <sp who="philaminte" xml:id="III02-114">
             <speaker>philaminte</speaker>
             <l><anchor xml:id="l922"/>Pour moi, sans me flatter, j’en ai déjà fait une,</l>
             <l><anchor xml:id="l923"/>890 Et j’ai vu clairement des Hommes dans la Lune.</l>
           </sp>
-          <sp who="belise" xml:id="III02-114">
+          <sp who="belise" xml:id="III02-115">
             <speaker>bélise</speaker>
             <l><anchor xml:id="l924"/>Je n’ai point encor vu d’Hommes, comme je crois,</l>
             <l><anchor xml:id="l925"/>Mais j’ai vu des Clochers tout comme je vous vois.</l>
           </sp>
-          <sp who="armande" xml:id="III02-115">
+          <sp who="armande" xml:id="III02-116">
             <speaker>armande</speaker>
             <l><anchor xml:id="l926"/>Nous approfondirons, ainsi que la Physique,</l>
             <l><anchor xml:id="l927"/>Grammaire, Histoire, Vers, Morale, et Politique.</l>
           </sp>
-          <sp who="philaminte" xml:id="III02-116">
+          <sp who="philaminte" xml:id="III02-117">
             <speaker>philaminte</speaker>
             <l><anchor xml:id="l928"/>895 La Morale a des traits dont mon cœur est épris,</l>
             <l><anchor xml:id="l929"/>Et c’était autrefois l’amour des grands Esprits ;</l>
             <l><anchor xml:id="l930"/>Mais aux Stoïciens je donne l’avantage,</l>
             <l><anchor xml:id="l931"/>Et je ne trouve rien de si beau que leur Sage.</l>
           </sp>
-          <sp who="armande" xml:id="III02-117">
+          <sp who="armande" xml:id="III02-118">
             <speaker>armande</speaker>
             <l><anchor xml:id="l932"/>Pour la Langue, on verra dans peu nos Règlements,</l>
             <l><anchor xml:id="l933"/>900 Et nous y prétendons faire des remuements.</l>
@@ -2346,7 +2344,7 @@
             <l><anchor xml:id="l940"/>Par les proscriptions de tous ces mots divers,</l>
             <l><anchor xml:id="l941"/>Dont nous voulons purger et la Prose et les Vers.</l>
           </sp>
-          <sp who="philaminte" xml:id="III02-118">
+          <sp who="philaminte" xml:id="III02-119">
             <speaker>philaminte</speaker>
             <l><anchor xml:id="l942"/>Mais le plus beau projet de notre Académie,</l>
             <l><anchor xml:id="l943"/>910 Une entreprise noble et dont je suis ravie ;</l>
@@ -2359,19 +2357,19 @@
             <l><anchor xml:id="l950"/>Ces sources d’un amas d’équivoques infâmes,</l>
             <l><anchor xml:id="l951"/>Dont on vient faire insulte à la pudeur des Femmes.</l>
           </sp>
-          <sp who="trissotin" xml:id="III02-119">
+          <sp who="trissotin" xml:id="III02-120">
             <speaker>trissotin</speaker>
             <l><anchor xml:id="l952"/>Voilà certainement d’admirables projets !</l>
           </sp>
-          <sp who="belise" xml:id="III02-120">
+          <sp who="belise" xml:id="III02-121">
             <speaker>bélise</speaker>
             <l><anchor xml:id="l953"/>920 Vous verrez nos Statuts quand ils seront tous faits.</l>
           </sp>
-          <sp who="trissotin" xml:id="III02-121">
+          <sp who="trissotin" xml:id="III02-122">
             <speaker>trissotin</speaker>
             <l><anchor xml:id="l954"/>Ils ne sauraient manquer d’être tous beaux et sages.</l>
           </sp>
-          <sp who="armande" xml:id="III02-122">
+          <sp who="armande" xml:id="III02-123">
             <speaker>armande</speaker>
             <l><anchor xml:id="l955"/>Nous serons par nos Lois les Juges des Ouvrages.</l>
             <l><anchor xml:id="l956"/>Par nos Lois, Prose et Vers, tout nous sera soumis.</l>
@@ -2383,7 +2381,6 @@
         <div xml:id="III03" type="scene">
           <head>SCÈNE III.</head>
           <stage>L’Epine, Trissotin, Philaminte, Bélise, Armande, Henriette, Vadius.</stage>
-          <p/>
           <sp who="l-epine" xml:id="III03-1">
             <speaker>l’épine</speaker>
             <l><anchor xml:id="l960"/>Monsieur, un Homme est là qui veut parler à vous,</l>
@@ -2786,7 +2783,7 @@
           </sp>
           <sp who="philaminte" xml:id="III04-6">
             <speaker>philaminte</speaker>
-            <l>1075 <space rend="tab">    </space><space rend="tab">    </space>Oui, vous. Faites laSotte un peu.</l>
+            <l>1075 <space rend="tab"> </space><space rend="tab"> </space>Oui, vous. Faites laSotte un peu.</l>
           </sp>
           <sp who="belise" xml:id="III04-7">
             <speaker>bélise</speaker>
@@ -2985,7 +2982,7 @@
           </sp>
           <sp who="armande" xml:id="IV02-5">
             <speaker>armande</speaker>
-            <l>1155 <space rend="tab">    </space>Et vingt fois, commeOuvrages nouveaux,</l>
+            <l>1155 <space rend="tab"> </space>Et vingt fois, commeOuvrages nouveaux,</l>
             <l><anchor xml:id="l1189"/>J’ai lu des Vers de vous qu’il n’a point trouvé beaux.</l>
           </sp>
           <sp who="philaminte" xml:id="IV02-6">
@@ -3179,7 +3176,7 @@
           </sp>
           <sp who="clitandre" xml:id="IV03-7">
             <speaker>clitandre</speaker>
-            <l>1285 <space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Sans être fort habile,</l>
+            <l>1285 <space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Sans être fort habile,</l>
             <l><anchor xml:id="l1319"/>La preuve m’en serait je pense assez facile.</l>
             <l><anchor xml:id="l1320"/>Si les raisons manquaient, je suis sûr qu’en tout cas</l>
             <l><anchor xml:id="l1321"/>Les exemples fameux ne me manqueraient pas.</l>
@@ -3489,7 +3486,7 @@
           </sp>
           <sp who="chrysale" xml:id="IV05-7">
             <speaker>chrysale</speaker>
-            <l>1435 <space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Et dès ce soir je veux,</l>
+            <l>1435 <space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Et dès ce soir je veux,</l>
             <l><anchor xml:id="l1469"/>Pour la contrecarrer, vous marier vous deux.</l>
           </sp>
           <sp who="clitandre" xml:id="IV05-8">
@@ -3810,7 +3807,7 @@
           </sp>
           <sp who="chrysale" xml:id="V02-21">
             <speaker>chrysale</speaker>
-            <l>1590 <space rend="tab">    </space>C’est moi qui dois disposer de maFille.</l>
+            <l>1590 <space rend="tab"> </space>C’est moi qui dois disposer de maFille.</l>
           </sp>
           <sp who="henriette" xml:id="V02-22">
             <speaker>henriette</speaker>
@@ -4131,7 +4128,7 @@
           </sp>
           <sp who="philaminte" xml:id="V04-6">
             <speaker>philaminte</speaker>
-            <l>1695 <space rend="tab">    </space><space rend="tab">    </space><space rend="tab">    </space>Vous vous troublez beaucoup !</l>
+            <l>1695 <space rend="tab"> </space><space rend="tab"> </space><space rend="tab"> </space>Vous vous troublez beaucoup !</l>
             <l><anchor xml:id="l1729"/>Mon cœur n’est point du tout ébranlé de ce coup.</l>
             <l><anchor xml:id="l1730"/>Faites, faites paraître une âme moins commune</l>
             <l><anchor xml:id="l1731"/>À braver comme moi les traits de la Fortune.</l>

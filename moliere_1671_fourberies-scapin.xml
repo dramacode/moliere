@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_fourberies-scapin">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Les Fourberies de Scapin, Comédie</title>
+        <title>Les Fourberies de Scapin</title>
         <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
+        <publisher>Publié par Paul Fièvre en mai 2009, révision en 2015 par Amélie Canu et Oriane Morvan</publisher>
         <date when="2009"/>
         <date when="2015"/>
-        <publisher>Publié par Paul Fièvre en mai 2009, révision en 2015 par Amélie Canu et Oriane Morvan</publisher>
         <availability status="restricted">
           <licence target="projet-Molière"/>
         </availability>
@@ -22,55 +21,54 @@
         <bibl>
           <author>Molière</author>
           <title>Les Fourberies de Scapin, Comédie</title>
+          <ref target="http://gallica.bnf.fr/ark :/12148/btv1b8610792g">http://gallica.bnf.fr/ark :/12148/btv1b8610792g</ref>
         </bibl>
-        <genre>Comédie</genre>
-        <inspiration>mœurs françaises</inspiration>
-        <type>prose</type>
-        <structure>Trois actes</structure>
-        <periode>1671-1680</periode>
-        <taille>(mesure non pertinente)</taille>
-        <permalien>http://gallica.bnf.fr/ark :/12148/btv1b8610792g</permalien>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="1671"></date>
+        <date when="1671"/>
       </creation>
       <langUsage>
-        <language ident="fre"/>
+        <language ident="fr"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
     <front>
       <titlePage>
-      <docTitle>
-        <titlePart type="main">LES <lb/>FOURBERIES <lb/>DE <lb/>SCAPIN</titlePart>
-        <titlePart type="sub">COMÉDIE</titlePart>
-      </docTitle>
-        <docAuthor>PAR J.B.P. MOLIERE</docAuthor>    
-      <docImprint>
-        <hi rend="i">Et se vend pour l’Auteur</hi>, <lb/>À PARIS, <lb/>Chez PIERRE LE MONNIER, au Palais, <lb/>vis-à-vis la Porte de l’Église de la Sainte-Chapelle, <lb/> à l’Image Saint Louis, et au Feu Divin.
+        <docTitle>
+          <titlePart type="main">LES <lb/>FOURBERIES <lb/>DE <lb/>SCAPIN</titlePart>
+          <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docAuthor>PAR J.B.P. MOLIERE</docAuthor>
+        <docImprint>
+          <hi rend="i">Et se vend pour l’Auteur</hi>, <lb/>À PARIS, <lb/>Chez PIERRE LE MONNIER, au Palais, <lb/>vis-à-vis la Porte de l’Église de la Sainte-Chapelle, <lb/> à l’Image Saint Louis, et au Feu Divin.
       </docImprint>
         <docDate>M. DC. LXXI.</docDate>
         <docImprint rend="i">AVEC PRIVILÈGE DU ROI.</docImprint>
       </titlePage>
       <div>
         <head>ACTEURS</head>
-      <castList>
-        <castItem><role xml:id="argante" civil="M" type="H" statut="" age="A" stat_amour="néant">ARGANTE</role>, Père d’Octave et de Zerbinette.</castItem>
-        <castItem><role xml:id="geronte" civil="M" type="H" statut="" age="A" stat_amour="néant">GÉRONTE</role>, Père de Léandre et de Hyacinte.</castItem>
-        <castItem><role xml:id="octave" civil="M" type="H" statut="" age="A" stat_amour="néant">OCTAVE</role>, Fils d’Argante, et Amant de Hyacinte.</castItem>
-        <castItem><role xml:id="leandre" civil="M" type="H" statut="" age="A" stat_amour="néant">LÉANDRE</role>, Fils de Géronte, et Amant de Zerbinette.</castItem>
-        <castItem><role xml:id="zerbinette" civil="F" type="H" statut="" age="A" stat_amour="néant">ZERBINETTE</role>, crue Égyptienne, et reconnue Fille d’Argante, et Amante de Léandre.</castItem>
-        <castItem><role xml:id="hyacinthe" civil="F" type="H" statut="" age="A" stat_amour="néant">HYANCINTE</role>, Fille de Géronte, et Amante d’Octave</castItem>
-        <castItem><role xml:id="scapin" civil="M" type="H" statut="valet" age="A" stat_amour="néant">SCAPIN</role>, Valet d'Octave, et Fourbe.</castItem>
-        <castItem><role xml:id="silvestre" civil="M" type="H" statut="valet" age="A" stat_amour="néant">SILVESTRE</role>, Valet de Léandre.</castItem>
-        <castItem><role xml:id="nerine" civil="F" type="H" statut="nourrice" age="A" stat_amour="néant">NÉRINE</role>, Nourrice de Hyacinte.</castItem>
-        <castItem><role xml:id="carle" civil="M" type="H" statut="fourbe" age="A" stat_amour="néant">CARLE</role>, Fourbe.</castItem>
-        <castItem><role xml:id="deux-porteurs" civil="G" type="H" statut="porteur" age="A" stat_amour="néant">DEUX PORTEURS</role>.</castItem>
-      </castList>
-      <set location="Naples" country="Italie" periode="XVIIème" link="">La Scène est à Naples.</set>
+        <castList>
+          <castItem><role xml:id="argante" civil="M" type="H" statut="" age="A" stat_amour="néant">Argante</role>, Père d’Octave et de Zerbinette.</castItem>
+          <castItem><role xml:id="geronte" civil="M" type="H" statut="" age="A" stat_amour="néant">Géronte</role>, Père de Léandre et de Hyacinte.</castItem>
+          <castItem><role xml:id="octave" civil="M" type="H" statut="" age="A" stat_amour="néant">Octave</role>, Fils d’Argante, et Amant de Hyacinte.</castItem>
+          <castItem><role xml:id="leandre" civil="M" type="H" statut="" age="A" stat_amour="néant">Léandre</role>, Fils de Géronte, et Amant de Zerbinette.</castItem>
+          <castItem><role xml:id="zerbinette" civil="F" type="H" statut="" age="A" stat_amour="néant">Zerbinette</role>, crue Égyptienne, et reconnue Fille d’Argante, et Amante de Léandre.</castItem>
+          <castItem><role xml:id="hyacinthe" civil="F" type="H" statut="" age="A" stat_amour="néant">Hyancinte</role>, Fille de Géronte, et Amante d’Octave</castItem>
+          <castItem><role xml:id="scapin" civil="M" type="H" statut="valet" age="A" stat_amour="néant">Scapin</role>, Valet d'Octave, et Fourbe.</castItem>
+          <castItem><role xml:id="silvestre" civil="M" type="H" statut="valet" age="A" stat_amour="néant">Silvestre</role>, Valet de Léandre.</castItem>
+          <castItem><role xml:id="nerine" civil="F" type="H" statut="nourrice" age="A" stat_amour="néant">Nérine</role>, Nourrice de Hyacinte.</castItem>
+          <castItem><role xml:id="carle" civil="M" type="H" statut="fourbe" age="A" stat_amour="néant">Carle</role>, Fourbe.</castItem>
+          <castItem><role xml:id="deux-porteurs" civil="G" type="H" statut="porteur" age="A" stat_amour="néant">Deux porteurs</role>.</castItem>
+        </castList>
+        <set location="Naples" country="Italie" periode="XVIIème" link="">La Scène est à Naples.</set>
       </div>
     </front>
     <body>
@@ -82,8 +80,8 @@
           <sp who="octave" xml:id="I01-1">
             <speaker>octave</speaker>
             <p>
-              <s>Ah fâcheuses nouvelles pour un Cœur amoureux !</s>              
-                <s>Dures extrémités où je me vois réduit !</s>
+              <s>Ah fâcheuses nouvelles pour un Cœur amoureux !</s>
+              <s>Dures extrémités où je me vois réduit !</s>
               <s>Tu viens, Silvestre, d’apprendre au Port que mon Père revient ?</s>
             </p>
           </sp>
@@ -522,7 +520,7 @@
             <speaker>silvestre</speaker>
             <p>
               <s>Si vous n’abrégez ce récit, nous en voilà pour jusqu’à demain.</s>
-              <s>Laissez-le-moi finir en deux mots.</s> 
+              <s>Laissez-le-moi finir en deux mots.</s>
               <s>Son cœur prend feu dès ce moment.</s>
               <s>Il ne saurait plus vivre, qu’il n’aille consoler son aimable Affligée.</s>
               <s>Ses fréquentes visites sont rejetées de la Servante, devenue la Gouvernante par le trépas de la Mère ; voilà mon Homme au désespoir.</s>
@@ -3892,7 +3890,7 @@
             <speaker>silvestre</speaker>
             <p>
               <s>Oui, vos Amants ont arrêté entre eux que vous fussiez ensemble ; et nous nous acquittons de l’ordre qu’ils nous ont donné.</s>
-            </p> 
+            </p>
           </sp>
           <sp who="hyacinthe" xml:id="III01-2">
             <speaker>hyacinthe</speaker>
@@ -3988,7 +3986,7 @@
           <sp who="scapin" xml:id="III01-16">
             <speaker>scapin</speaker>
             <p>
-              <s>Vous vous moquez ; la tranquillité en amour est un calme désagréable.</s> 
+              <s>Vous vous moquez ; la tranquillité en amour est un calme désagréable.</s>
               <s> Un bonheur tout uni, nous devient ennuyeux ; il faut du haut et du bas dans la vie ; et les difficultés qui se mêlent aux choses, réveillent les ardeurs, augmentent les plaisirs.</s>
             </p>
           </sp>
@@ -4605,9 +4603,9 @@
               <s>Je ne saurais m’en souvenir, que je ne rie de tout mon cœur.</s>
               <s>Ah, ah, ah.</s>
               <s>Il est allé trouver ce chien d’avare, Ah, ah ah ; et lui a dit, qu’en se promenant sur le Port avec son Fils, hi, hi, ils avaient vu une Galère Turque où on les avait invités d’entrer.</s>
-                <s>Qu’un jeune Turc leur y avait donné la Collation.</s>
-                <s>Ah.</s>
-                <s>Que, tandis qu’ils mangeaient, on avait mis la Galère en Mer ; et que le Turc l’avait renvoyé lui seul à terre dans un Esquif, avec ordre de dire au Père de son Maître qu’il emmenait son fils en Alger, s’il ne lui envoyait tout à l’heure cinq cents Écus.</s>
+              <s>Qu’un jeune Turc leur y avait donné la Collation.</s>
+              <s>Ah.</s>
+              <s>Que, tandis qu’ils mangeaient, on avait mis la Galère en Mer ; et que le Turc l’avait renvoyé lui seul à terre dans un Esquif, avec ordre de dire au Père de son Maître qu’il emmenait son fils en Alger, s’il ne lui envoyait tout à l’heure cinq cents Écus.</s>
               <s>Ah, ah, ah.</s>
               <s>Voilà mon ladre, mon vilain dans de furieuses angoisses ; et la tendresse qu’il a pour son Fils, fait un combat étrange avec son avarice.</s>
               <s>Cinq cents Écus qu’on lui demande, sont justement cinq cents coups de poignard qu’on lui donne.</s>

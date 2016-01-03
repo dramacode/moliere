@@ -1,29 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_malade-imaginaire" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LE MALADE IMAGINAIRE, COMÉDIE mêlée de musique et de danses </title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1673</date>
+        <title>Le malade imaginaire</title>
+        <author>Molière</author>
       </titleStmt>
+      <sourceDesc>
+        <p/>
+      </sourceDesc>
       <publicationStmt>
-        <p>publié par Paul FIEVRE, juin 2009</p>
+        <publisher>publié par Paul FIEVRE, juin 2009</publisher>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_malade-imaginaire/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_malade-imaginaire.xml</idno>
       </publicationStmt>
-      <sourceDesc>
-        <genre>Comédie</genre>
-        <inspiration>mœurs françaises</inspiration>
-        <structure>Trois actes, un prologue</structure>
-        <type>mixte</type>
-        <periode>1671-1680</periode>
-        <taille>250-500</taille>
-        <permalien/>
-      </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1675"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie mêlée de Musique et de Danses</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
@@ -57,18 +62,18 @@
       </castList>
       <castList>
         <head>PERSONNAGES de la COMÉDIE</head>
-        <castItem><role xml:id="argan" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant"/>ARGAN, malade imaginaire.</castItem>
-        <castItem><role xml:id="beline" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant"/>BÉLINE, seconde femme d’Argan.</castItem>
-        <castItem><role xml:id="angelique" civil="F" type="H" statut="bourgeois" age="J" stat_amour="amoureux"/>ANGÉLIQUE, fille d’Argan, et amante de Cléante.</castItem>
-        <castItem><role xml:id="louison" civil="F" type="H" statut="bourgeois" age="E" stat_amour="néant"/>LOUISON, petite fille d’Argan, et sœur d’Angélique..</castItem>
-        <castItem><role xml:id="beralde" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant"/>BÉRALDE, frère d’Argan.</castItem>
-        <castItem><role xml:id="cleante" civil="M" type="H" statut="bourgeois" age="A" stat_amour="amoureux"/>CLÉANTE, amant d’Angélique.</castItem>
-        <castItem><role xml:id="monsieur-diafoirus" civil="M" type="H" statut="médecin" age="A" stat_amour="néant"/>Monsieur DIAFOIRUS, médecin.</castItem>
-        <castItem><role xml:id="thomas-diafoirus" civil="M" type="H" statut="médecin" age="A" stat_amour="amoureux"/>THOMAS DIAFOIRUS, son fils, et amant d’Angélique.</castItem>
-        <castItem><role xml:id="monsieur-purgon" civil="M" type="H" statut="médecin" age="A" stat_amour="néant"/>Monsieur PURGON, médecin d’Argan.</castItem>
-        <castItem><role xml:id="monsieur-fleurant" civil="M" type="H" statut="apothicaire" age="A" stat_amour="néant"/>Monsieur FLEURANT, apothicaire.</castItem>
-        <castItem><role xml:id="monsieur-bonnefoy" civil="M" type="H" statut="notaire" age="A" stat_amour="néant"/>Monsieur BONNEFOY, notaire.</castItem>
-        <castItem><role xml:id="toinette" civil="F" type="H" statut="servante" age="A" stat_amour="néant"/>TOINETTE, servante.<role xml:id="le-notaire"></role></castItem>
+        <castItem><role xml:id="argan">Argan</role>, <roleDesc>Malade Imaginaire</roleDesc>.</castItem>
+        <castItem><role xml:id="beline">Béline</role>, <roleDesc>seconde femme d’Argan</roleDesc>.</castItem>
+        <castItem><role xml:id="angelique">Angélique</role>, <roleDesc>Fille d’Argan et Amante de Cléante</roleDesc>.</castItem>
+        <castItem><role xml:id="louison">Louison</role>, <roleDesc>petite Fille d’Argan, et Sœur d’Angélique</roleDesc>.</castItem>
+        <castItem><role xml:id="beralde">Béralde</role>, <roleDesc>Frère d’Argan</roleDesc>.</castItem>
+        <castItem><role xml:id="cleante">Cléante</role>, <roleDesc>Amant d’Angélique</roleDesc>.</castItem>
+        <castItem><role xml:id="monsieur-diafoirus">Monsieur Diafoirus</role>, <roleDesc>Médecin</roleDesc>.</castItem>
+        <castItem><role xml:id="thomas-diafoirus">Thomas Diafoirus</role>, <roleDesc>son Fils, et Amant d’Angélique</roleDesc>.</castItem>
+        <castItem><role xml:id="monsieur-purgon">Monsieur Purgon</role>, <roleDesc>Médecin d’Argan</roleDesc>.</castItem>
+        <castItem><role xml:id="monsieur-fleurant">Monsieur Fleurant</role>, <roleDesc>Apothicaire</roleDesc>.</castItem>
+        <castItem><role xml:id="monsieur-bonnefoy">Monsieur Bonnefoy</role>, <roleDesc>Notaire</roleDesc>.</castItem>
+        <castItem><role xml:id="toinette">Toinette</role>, <roleDesc>Servante</roleDesc>.</castItem>
       </castList>
       <set location="Paris" country="France" periode="XVIIème" link="">La scène est à Paris. </set>
     </front>
@@ -1702,12 +1707,24 @@
       <div1 type="act" n="9" xml:id="PI">
         <head>PREMIER INTERMÈDE</head>
         <castList>
-          <castItem><role xml:id="polichinelle">Polichinelle</role></castItem>
-          <castItem><role xml:id="la-guet">La Guet</role></castItem>
-          <castItem><role xml:id="musiciens">Musiciens</role></castItem>
-          <castItem><role xml:id="danseurs">Danseurs</role></castItem>
-          <castItem><role xml:id="une-vieille">Une vieille</role></castItem>
-          <castItem><role xml:id="archers">Archers</role></castItem>
+          <castItem>
+            <role xml:id="polichinelle">Polichinelle</role>
+          </castItem>
+          <castItem>
+            <role xml:id="la-guet">La Guet</role>
+          </castItem>
+          <castItem>
+            <role xml:id="musiciens">Musiciens</role>
+          </castItem>
+          <castItem>
+            <role xml:id="danseurs">Danseurs</role>
+          </castItem>
+          <castItem>
+            <role xml:id="une-vieille">Une vieille</role>
+          </castItem>
+          <castItem>
+            <role xml:id="archers">Archers</role>
+          </castItem>
         </castList>
         <stage>Polichinelle, dans la nuit, vient pour donner une sérénade à sa maîtresse. Il est interrompu d’abord par des violons, contre lesquels il se met en colère, et ensuite par le Guet, composé de musiciens et de danseurs.</stage>
         <sp who="polichinelle" xml:id="PI-1">
@@ -2150,7 +2167,6 @@
           <stage>Ils dansent tous, en réjouissance de l’argent qu’ils ont reçu. Le théâtre change et représente la même chambre.</stage>
         </sp>
       </div1>
-
       <div1 type="acte" n="3" xml:id="II">
         <head>ACTE II</head>
         <div2 type="scene" n="1" xml:id="II01">
@@ -3306,8 +3322,9 @@
             <p>Voici qui vous apprendra à mentir.</p>
           </sp>
           <sp who="louison" xml:id="II08-29">
-            <speaker>louison<hi rend="i">, se jette à genoux.</hi></speaker> 
-            <p>Ah !Mon papa, je vous demande pardon.C’est que ma sœur m’avait dit de ne pas vous le dire ; mais je m’en vais vous dire tout.</p></sp>
+            <speaker>louison<hi rend="i">, se jette à genoux.</hi></speaker>
+            <p>Ah !Mon papa, je vous demande pardon.C’est que ma sœur m’avait dit de ne pas vous le dire ; mais je m’en vais vous dire tout.</p>
+          </sp>
           <sp who="argan" xml:id="II08-30">
             <speaker>argan</speaker>
             <p>Il faut premièrement que vous ayez le fouet pour avoir menti.
@@ -3565,102 +3582,102 @@
           </sp>
         </div2>
       </div1>
-        <div1 type="act" n="10" xml:id="SI">
-          <head>SECOND INTERMÈDE.</head>
-          <stage>Le frère du Malade imaginaire lui amène, pour le divertir, plusieurs Egyptiens et Egyptiennes, vêtus en Mores, qui font des danses entremêlées de chansons.</stage>
-          <castList>
-            <castItem><role xml:id="more1"/><role xml:id="more2"/><role xml:id="more3"/><role xml:id="more4"/>Femmes mores</castItem>
-          </castList>
-          <sp who="more1" xml:id="SI-1">
-            <speaker>première femme more</speaker>
-            <l n="275" xml:id="l275">Profitez du printemps</l>
-            <l n="276" xml:id="l276">De vos beaux ans,</l>
-            <l n="277" xml:id="l277">Aimable jeunesse ;</l>
-            <l n="278" xml:id="l278">Profitez du printemps</l>
-            <l n="279" xml:id="l279">De vos beaux ans,</l>
-            <l n="280" xml:id="l280">Donnez-vous à la tendresse.</l>
-            <l n="281" xml:id="l281">Les plaisirs les plus charmants,</l>
-            <l n="282" xml:id="l282">Sans l’amoureuse flamme,</l>
-            <l n="283" xml:id="l283">Pour contenter une âme</l>
-            <l n="284" xml:id="l284">N’ont points d’attraits assez puissants.</l>
-            <l n="285" xml:id="l285">Profitez du printemps</l>
-            <l n="286" xml:id="l286">De vos beaux ans,</l>
-            <l n="287" xml:id="l287">Aimable jeunesse ;</l>
-            <l n="288" xml:id="l288">Profitez du printemps</l>
-            <l n="289" xml:id="l289">De vos beaux ans,</l>
-            <l n="290" xml:id="l290">Donnez-vous à la tendresse.</l>
-            <l n="291" xml:id="l291">Ne perdez point ces précieux moments :</l>
-            <l n="292" xml:id="l292">La beauté passe,</l>
-            <l n="293" xml:id="l293">Le temps l’efface,</l>
-            <l n="294" xml:id="l294">L’âge de glace</l>
-            <l n="295" xml:id="l295">Vient à sa place,</l>
-            <l n="296" xml:id="l296">Qui nous ôte le goût de ces doux passe-temps.</l>
-            <l n="297" xml:id="l297">Profitez du printemps</l>
-            <l n="298" xml:id="l298">De vos beaux ans</l>
-            <l n="299" xml:id="l299">Aimable jeunesse ;</l>
-            <l n="300" xml:id="l300">Profitez du printemps</l>
-            <l n="301" xml:id="l301">De vos beaux ans.</l>
-            <l n="302" xml:id="l302">Donnez-vous à la tendresse.</l>
-          </sp>
-          <sp who="more2" xml:id="SI-2">
-            <speaker>seconde femme more</speaker>
-            <l n="303" xml:id="l303">Quand d’aimer on nous presse</l>
-            <l n="304" xml:id="l304">À quoi songez-vous ?</l>
-            <l n="305" xml:id="l305">Nos cœurs, dans la jeunesse,</l>
-            <l n="306" xml:id="l306">N’ont vers la tendresse</l>
-            <l n="307" xml:id="l307">Qu’un penchant trop doux ;</l>
-            <l n="308" xml:id="l308">L’amour a pour nous prendre</l>
-            <l n="309" xml:id="l309">De si doux attraits,</l>
-            <l n="310" xml:id="l310">Que de soi, sans attendre,</l>
-            <l n="311" xml:id="l311">On voudrait se rendre</l>
-            <l n="312" xml:id="l312">À ses premiers traits :</l>
-            <l n="313" xml:id="l313">Mais tout ce qu’on écoute</l>
-            <l n="314" xml:id="l314">Des vives douleurs</l>
-            <l n="315" xml:id="l315">Et des pleurs</l>
-            <l n="316" xml:id="l316">Qu’il nous coûte</l>
-            <l n="317" xml:id="l317">Fait qu’on en redoute</l>
-            <l n="318" xml:id="l318">Toutes les douceurs.</l>
-          </sp>
-          <sp who="more3" xml:id="SI-3">
-            <speaker>troisième femme more</speaker>
-            <l n="319" xml:id="l319">Il est doux, à notre âge,</l>
-            <l n="320" xml:id="l320">D’aimer tendrement</l>
-            <l n="321" xml:id="l321">Un amant</l>
-            <l n="322" xml:id="l322">Qui s’engage :</l>
-            <l n="323" xml:id="l323">Mais s’il est volage,</l>
-            <l n="324" xml:id="l324">Hélas ! quel tourment !</l>
-          </sp>
-          <sp who="more4" xml:id="SI-4">
-            <speaker>quatrième femme more</speaker>
-            <l n="325" xml:id="l325">L’amant qui se dégage</l>
-            <l n="326" xml:id="l326">N’est pas le malheur :</l>
-            <l n="327" xml:id="l327">La douleur</l>
-            <l n="328" xml:id="l328">Et la rage,</l>
-            <l n="329" xml:id="l329">C’est que le volage</l>
-            <l n="330" xml:id="l330">Garde notre cœur.</l>
-          </sp>
-          <sp who="more2" xml:id="SI-5">
-            <speaker>seconde femme more</speaker>
-            <l n="331" xml:id="l331">Quel parti faut-il prendre</l>
-            <l n="332" xml:id="l332">Pour nos jeunes cœurs ?</l>
-          </sp>
-          <sp who="more4" xml:id="SI-6">
-            <speaker>quatrième femme more</speaker>
-            <l n="333" xml:id="l333">Devons-nous nous y rendre</l>
-            <l n="334" xml:id="l334">Malgré ses rigueurs ?</l>
-          </sp>
-          <sp who="more1 more2 more3 more4" xml:id="SI-7">
-            <speaker>ensemble</speaker>
-            <l n="335" xml:id="l335">Oui, suivons ses ardeurs,</l>
-            <l n="336" xml:id="l336">Ses transports, ses caprices,</l>
-            <l n="337" xml:id="l337">Ses douces langueurs ;</l>
-            <l n="338" xml:id="l338">S’il a quelques supplices,</l>
-            <l n="339" xml:id="l339">Il a cent délices</l>
-            <l n="340" xml:id="l340">Qui charment les cœurs.</l>
-            <stage>Entrée de ballet</stage>
-            <stage>Tous les Mores dansent ensemble et font sauter des singes qu’ils ont amenés avec eux.</stage>
-          </sp>
-        </div1>
+      <div1 type="act" n="10" xml:id="SI">
+        <head>SECOND INTERMÈDE.</head>
+        <stage>Le frère du Malade imaginaire lui amène, pour le divertir, plusieurs Egyptiens et Egyptiennes, vêtus en Mores, qui font des danses entremêlées de chansons.</stage>
+        <castList>
+          <castItem><role xml:id="more1"/><role xml:id="more2"/><role xml:id="more3"/><role xml:id="more4"/>Femmes mores</castItem>
+        </castList>
+        <sp who="more1" xml:id="SI-1">
+          <speaker>première femme more</speaker>
+          <l n="275" xml:id="l275">Profitez du printemps</l>
+          <l n="276" xml:id="l276">De vos beaux ans,</l>
+          <l n="277" xml:id="l277">Aimable jeunesse ;</l>
+          <l n="278" xml:id="l278">Profitez du printemps</l>
+          <l n="279" xml:id="l279">De vos beaux ans,</l>
+          <l n="280" xml:id="l280">Donnez-vous à la tendresse.</l>
+          <l n="281" xml:id="l281">Les plaisirs les plus charmants,</l>
+          <l n="282" xml:id="l282">Sans l’amoureuse flamme,</l>
+          <l n="283" xml:id="l283">Pour contenter une âme</l>
+          <l n="284" xml:id="l284">N’ont points d’attraits assez puissants.</l>
+          <l n="285" xml:id="l285">Profitez du printemps</l>
+          <l n="286" xml:id="l286">De vos beaux ans,</l>
+          <l n="287" xml:id="l287">Aimable jeunesse ;</l>
+          <l n="288" xml:id="l288">Profitez du printemps</l>
+          <l n="289" xml:id="l289">De vos beaux ans,</l>
+          <l n="290" xml:id="l290">Donnez-vous à la tendresse.</l>
+          <l n="291" xml:id="l291">Ne perdez point ces précieux moments :</l>
+          <l n="292" xml:id="l292">La beauté passe,</l>
+          <l n="293" xml:id="l293">Le temps l’efface,</l>
+          <l n="294" xml:id="l294">L’âge de glace</l>
+          <l n="295" xml:id="l295">Vient à sa place,</l>
+          <l n="296" xml:id="l296">Qui nous ôte le goût de ces doux passe-temps.</l>
+          <l n="297" xml:id="l297">Profitez du printemps</l>
+          <l n="298" xml:id="l298">De vos beaux ans</l>
+          <l n="299" xml:id="l299">Aimable jeunesse ;</l>
+          <l n="300" xml:id="l300">Profitez du printemps</l>
+          <l n="301" xml:id="l301">De vos beaux ans.</l>
+          <l n="302" xml:id="l302">Donnez-vous à la tendresse.</l>
+        </sp>
+        <sp who="more2" xml:id="SI-2">
+          <speaker>seconde femme more</speaker>
+          <l n="303" xml:id="l303">Quand d’aimer on nous presse</l>
+          <l n="304" xml:id="l304">À quoi songez-vous ?</l>
+          <l n="305" xml:id="l305">Nos cœurs, dans la jeunesse,</l>
+          <l n="306" xml:id="l306">N’ont vers la tendresse</l>
+          <l n="307" xml:id="l307">Qu’un penchant trop doux ;</l>
+          <l n="308" xml:id="l308">L’amour a pour nous prendre</l>
+          <l n="309" xml:id="l309">De si doux attraits,</l>
+          <l n="310" xml:id="l310">Que de soi, sans attendre,</l>
+          <l n="311" xml:id="l311">On voudrait se rendre</l>
+          <l n="312" xml:id="l312">À ses premiers traits :</l>
+          <l n="313" xml:id="l313">Mais tout ce qu’on écoute</l>
+          <l n="314" xml:id="l314">Des vives douleurs</l>
+          <l n="315" xml:id="l315">Et des pleurs</l>
+          <l n="316" xml:id="l316">Qu’il nous coûte</l>
+          <l n="317" xml:id="l317">Fait qu’on en redoute</l>
+          <l n="318" xml:id="l318">Toutes les douceurs.</l>
+        </sp>
+        <sp who="more3" xml:id="SI-3">
+          <speaker>troisième femme more</speaker>
+          <l n="319" xml:id="l319">Il est doux, à notre âge,</l>
+          <l n="320" xml:id="l320">D’aimer tendrement</l>
+          <l n="321" xml:id="l321">Un amant</l>
+          <l n="322" xml:id="l322">Qui s’engage :</l>
+          <l n="323" xml:id="l323">Mais s’il est volage,</l>
+          <l n="324" xml:id="l324">Hélas ! quel tourment !</l>
+        </sp>
+        <sp who="more4" xml:id="SI-4">
+          <speaker>quatrième femme more</speaker>
+          <l n="325" xml:id="l325">L’amant qui se dégage</l>
+          <l n="326" xml:id="l326">N’est pas le malheur :</l>
+          <l n="327" xml:id="l327">La douleur</l>
+          <l n="328" xml:id="l328">Et la rage,</l>
+          <l n="329" xml:id="l329">C’est que le volage</l>
+          <l n="330" xml:id="l330">Garde notre cœur.</l>
+        </sp>
+        <sp who="more2" xml:id="SI-5">
+          <speaker>seconde femme more</speaker>
+          <l n="331" xml:id="l331">Quel parti faut-il prendre</l>
+          <l n="332" xml:id="l332">Pour nos jeunes cœurs ?</l>
+        </sp>
+        <sp who="more4" xml:id="SI-6">
+          <speaker>quatrième femme more</speaker>
+          <l n="333" xml:id="l333">Devons-nous nous y rendre</l>
+          <l n="334" xml:id="l334">Malgré ses rigueurs ?</l>
+        </sp>
+        <sp who="more1 more2 more3 more4" xml:id="SI-7">
+          <speaker>ensemble</speaker>
+          <l n="335" xml:id="l335">Oui, suivons ses ardeurs,</l>
+          <l n="336" xml:id="l336">Ses transports, ses caprices,</l>
+          <l n="337" xml:id="l337">Ses douces langueurs ;</l>
+          <l n="338" xml:id="l338">S’il a quelques supplices,</l>
+          <l n="339" xml:id="l339">Il a cent délices</l>
+          <l n="340" xml:id="l340">Qui charment les cœurs.</l>
+          <stage>Entrée de ballet</stage>
+          <stage>Tous les Mores dansent ensemble et font sauter des singes qu’ils ont amenés avec eux.</stage>
+        </sp>
+      </div1>
       <div1 type="acte" n="4" xml:id="IV">
         <head>ACTE III</head>
         <div2 type="scene" n="1" xml:id="IV01">
@@ -4569,7 +4586,8 @@
             <speaker>argan</speaker>
             <p>Il me semble parfois que j’ai un voile devant les yeux.</p>
           </sp>
-          <sp who="toinette" xml:id="IV10-23"><speaker>toinette</speaker>
+          <sp who="toinette" xml:id="IV10-23">
+            <speaker>toinette</speaker>
             <p>Le poumon.</p>
             <p>J’ai quelquefois des maux de cœur.</p>
           </sp>
@@ -5229,246 +5247,246 @@
           </sp>
         </div2>
       </div1>
-        <div1 type="scene" xml:id="TI">
-          <head>TROISIÈME INTERMÈDE</head>
-          <stage>C’est une cérémonie burlesque d’un homme qu’on fait médecin en récit, chant, et danse.</stage>
-          <stage>Entrée de ballet</stage>
-          <stage><anchor xml:id="chorus"/>Plusieurs tapissiers viennent préparer la salle et placer les bancs en cadence ; ensuite de quoi toute l’assemblée (composée de huit porte-seringues, six apothicaires, vingt-deux docteurs, celui qui se fait recevoir médecin, huit chirurgiens dansants, et deux chantants) entre, et prend ses places, selon les rangs.</stage>
-          <sp who="chorus" xml:id="TI-1">
-            <speaker>choeur des docteurs</speaker>
-            <l n="341" xml:id="l341">Praeses</l>
-            <l n="342" xml:id="l342">Sçavantissimi doctores,</l>
-            <l n="343" xml:id="l343">Medicinae professores,</l>
-            <l n="344" xml:id="l344">Qui hic assemblati estis,</l>
-            <l n="345" xml:id="l345">Et vos, altri Messiores,</l>
-            <l n="346" xml:id="l346">Sententiarum Facultatis</l>
-            <l n="347" xml:id="l347">Fideles executores,</l>
-            <l n="348" xml:id="l348">Chirurgiani et apothicari,</l>
-            <l n="349" xml:id="l349">Atque tota compania aussi,</l>
-            <l n="350" xml:id="l350">Salus, honor, et argentum,</l>
-            <l n="351" xml:id="l351">Atque bonum appetitum.</l>
-            <l n="352" xml:id="l352">Non possum, docti Confreri,</l>
-            <l n="353" xml:id="l353">En moi satis admirari</l>
-            <l n="354" xml:id="l354">Qualis bona inventio</l>
-            <l n="355" xml:id="l355">Est medici professio,</l>
-            <l n="356" xml:id="l356">Quam hella chosa est, et bene trovata,</l>
-            <l n="357" xml:id="l357">Medicina illa benedicta,</l>
-            <l n="358" xml:id="l358">Quae suo nomine solo,</l>
-            <l n="359" xml:id="l359">Surprenanti miraculo,</l>
-            <l n="360" xml:id="l360">Depuis si longo tempore,</l>
-            <l n="361" xml:id="l361">Facit à gogo vivere</l>
-            <l n="362" xml:id="l362">Tant de gens omni genere.</l>
-            <l n="363" xml:id="l363">Per totam terram videmus</l>
-            <l n="364" xml:id="l364">Grandam vogam ubi sumus,</l>
-            <l n="365" xml:id="l365">Et quod grandes et petiti</l>
-            <l n="366" xml:id="l366">Sunt de nobis infatuti.</l>
-            <l n="367" xml:id="l367">Totus mundus, currens ad nostros remedios,</l>
-            <l n="368" xml:id="l368">Nos regardat sicut Deos ;</l>
-            <l n="369" xml:id="l369">Et nostris ordonnanciis</l>
-            <l n="370" xml:id="l370">Principes et reges soumissos videtis.</l>
-            <l n="371" xml:id="l371">Donque il est nostrae sapientiae,</l>
-            <l n="372" xml:id="l372">Boni sensus atque prudentiae,</l>
-            <l n="373" xml:id="l373">De fortement travaillare</l>
-            <l n="374" xml:id="l374">A nos bene conservare</l>
-            <l n="375" xml:id="l375">In tali credito, voga, et honore,</l>
-            <l n="376" xml:id="l376">Et prandere gardam à non recevere</l>
-            <l n="377" xml:id="l377">In nostro docto corpore</l>
-            <l n="378" xml:id="l378">Quam personas capabiles,</l>
-            <l n="379" xml:id="l379">Et totas dignas ramplire</l>
-            <l n="380" xml:id="l380">Has plaças honorabiles.</l>
-            <l n="381" xml:id="l381">C’est pour cela que nunc convocati estis :</l>
-            <l n="382" xml:id="l382">Et credo quod trovabitis</l>
-            <l n="383" xml:id="l383">Dignam matieram medici</l>
-            <l n="384" xml:id="l384">In sçavanti homine que voici,</l>
-            <l n="385" xml:id="l385">Lequel, in choisis omnibus,</l>
-            <l n="386" xml:id="l386">Dono ad interrogandum,</l>
-            <l n="387" xml:id="l387">Et à fond examinandum</l>
-            <l n="388" xml:id="l388">Vostris capacitatibus.</l>
-            <l n="389" xml:id="l389">Primus Doctor</l>
-            <l n="390" xml:id="l390">Si mihi licenciam dat Dominus Praeses,</l>
-            <l n="391" xml:id="l391">Et tanti docti Doctores,</l>
-            <l n="392" xml:id="l392">Et assistantes illustres,</l>
-            <l n="393" xml:id="l393">Très sçavanti Bacheliero,</l>
-            <l n="394" xml:id="l394">Quem estimo et honoro,</l>
-            <l n="395" xml:id="l395">Domandabo causam et rationem quare</l>
-            <l n="396" xml:id="l396">Opium facit dormire.</l>
-            <l n="397" xml:id="l397">Bachelierus</l>
-            <l n="398" xml:id="l398">Mihi a docto Doctore</l>
-            <l n="399" xml:id="l399">Domandatur causam et rationem quare</l>
-            <l n="400" xml:id="l400">Opium facit dormire :</l>
-            <l n="401" xml:id="l401">A quoi respondeo,</l>
-            <l n="402" xml:id="l402">Quia est in eo</l>
-            <l n="403" xml:id="l403">Virtus dormitiva,</l>
-            <l n="404" xml:id="l404">Cujus est natura</l>
-            <l n="405" xml:id="l405">Sensus assoupire.</l>
-          </sp>
-          <sp who="chorus" xml:id="TI-2">
-            <speaker>chorus</speaker>
-            <l n="406" xml:id="l406">Bene, bene, bene, bene respondere :</l>
-            <l n="407" xml:id="l407">Dignus, dignus est entrare</l>
-            <l n="408" xml:id="l408">In nostro docto corpore.</l>
-            <l n="409" xml:id="l409">Secundus Doctor</l>
-            <l n="410" xml:id="l410">Cum permissione Domini Praesidis,</l>
-            <l n="411" xml:id="l411">Doctissimae Facultatis,</l>
-            <l n="412" xml:id="l412">Et totius his nostris actis</l>
-            <l n="413" xml:id="l413">Companiae assistantis,</l>
-            <l n="414" xml:id="l414">Domandabo tibi, docte Bacheliere,</l>
-            <l n="415" xml:id="l415">Quae sunt remedia</l>
-            <l n="416" xml:id="l416">Quae in maladia</l>
-            <l n="417" xml:id="l417">Ditte hydropisia</l>
-            <l n="418" xml:id="l418">Convenit facere.</l>
-            <l n="419" xml:id="l419">Bachelierus</l>
-            <l n="420" xml:id="l420">Clysterium donare,</l>
-            <l n="421" xml:id="l421">Postea seignare,</l>
-            <l n="422" xml:id="l422">Ensuitta purgare.</l>
-          </sp>
-          <sp who="chorus" xml:id="TI-3">
-            <speaker>chorus</speaker>
-            <l n="423" xml:id="l423">Bene, bene, bene, bene respondere.</l>
-            <l n="424" xml:id="l424">Dignus, dignus est entrare</l>
-            <l n="425" xml:id="l425">In nostro docto corpore.</l>
-            <l n="426" xml:id="l426">Tertius Doctor</l>
-            <l n="427" xml:id="l427">Si bonum semblatur Domino Praesidi,</l>
-            <l n="428" xml:id="l428">Doctissimae Facultati,</l>
-            <l n="429" xml:id="l429">Et companiae praesenti,</l>
-            <l n="430" xml:id="l430">Domandabo tibi, docte Bacheliere,</l>
-            <l n="431" xml:id="l431">Quae remedia eticis,</l>
-            <l n="432" xml:id="l432">Pulmonicis, atque asmaticis,</l>
-            <l n="433" xml:id="l433">Trovas à propos facere.</l>
-            <l n="434" xml:id="l434">Bachelierus</l>
-            <l n="435" xml:id="l435">Clysterium donare,</l>
-            <l n="436" xml:id="l436">Postea seignare,</l>
-            <l n="437" xml:id="l437">Ensuitta purgare.</l>
-            <l n="438" xml:id="l438">Bene, bene, bene, bene respondere :</l>
-            <l n="439" xml:id="l439">Dignus, dignus est entrare</l>
-            <l n="440" xml:id="l440">In nostro docto corpore.</l>
-            <l n="441" xml:id="l441">Quartus Doctor</l>
-            <l n="442" xml:id="l442">Super illas maladias</l>
-            <l n="443" xml:id="l443">Doctus Bachelierus dixit maravillas</l>
-            <l n="444" xml:id="l444">Mais si non ennuyo Dominum Praesidem,</l>
-            <l n="445" xml:id="l445">Doctissimam Facultatem,</l>
-            <l n="446" xml:id="l446">Et totam honorabilem</l>
-            <l n="447" xml:id="l447">Companiam ecoutantem,</l>
-            <l n="448" xml:id="l448">Faciam illi unam quaestionem.</l>
-            <l n="449" xml:id="l449">De hiero maladus unus</l>
-            <l n="450" xml:id="l450">Tombavit in meas manus :</l>
-            <l n="451" xml:id="l451">Habet grandam fievram cum redoublamentis,</l>
-            <l n="452" xml:id="l452">Grandam dolorem capitis,</l>
-            <l n="453" xml:id="l453">Et grandum malum au costé,</l>
-            <l n="454" xml:id="l454">Cum granda difficultate</l>
-            <l n="455" xml:id="l455">Et pœna de respirare :</l>
-            <l n="456" xml:id="l456">Veillas mihi dire,</l>
-            <l n="457" xml:id="l457">Docte Bacheliere,</l>
-            <l n="458" xml:id="l458">Quid illi facere ?</l>
-            <l n="459" xml:id="l459">Bachelierus</l>
-            <l n="460" xml:id="l460">Clysterium donare,</l>
-            <l n="461" xml:id="l461">Postea seignare,</l>
-            <l n="462" xml:id="l462">Ensuitta purgare.</l>
-            <l n="463" xml:id="l463">Quintus Doctor</l>
-            <l n="464" xml:id="l464">Mais si maladia</l>
-            <l n="465" xml:id="l465">Opiniatria</l>
-            <l n="466" xml:id="l466">Non vult se garire,</l>
-            <l n="467" xml:id="l467">Quid illi facere ?</l>
-            <l n="468" xml:id="l468">Bachelierus</l>
-            <l n="469" xml:id="l469">Clysterium donare,</l>
-            <l n="470" xml:id="l470">Postea seignare,</l>
-            <l n="471" xml:id="l471">Ensuitta purgare.</l>
-            <l n="472" xml:id="l472">Bene, bene, bene, bene respondere :</l>
-            <l n="473" xml:id="l473">Dignus, dignus est entrare</l>
-            <l n="474" xml:id="l474">In nostro docto corpore.</l>
-            <l n="475" xml:id="l475">Praeses</l>
-            <l n="476" xml:id="l476">Juras gardare statuta</l>
-            <l n="477" xml:id="l477">Per Facultatem praescripta</l>
-            <l n="478" xml:id="l478">Cum sensu et jugeamento ?</l>
-            <l n="479" xml:id="l479">Bachelierus</l>
-            <l n="480" xml:id="l480">Juro.</l>
-            <l n="481" xml:id="l481">Praeses</l>
-            <l n="482" xml:id="l482">Essere, in omnibus,</l>
-            <l n="483" xml:id="l483">Consultationibus,</l>
-            <l n="484" xml:id="l484">Ancieni aviso,</l>
-            <l n="485" xml:id="l485">Aut bono,</l>
-            <l n="486" xml:id="l486">Aut mauvaiso ?</l>
-            <l n="487" xml:id="l487">Bachelierus</l>
-            <l n="488" xml:id="l488">Juro.</l>
-            <l n="489" xml:id="l489">Praeses</l>
-            <l n="490" xml:id="l490">De non jamais te servire</l>
-            <l n="491" xml:id="l491">De remediis aucunis</l>
-            <l n="492" xml:id="l492">Quam de ceux seulement doctae Facultatis,</l>
-            <l n="493" xml:id="l493">Maladus dust-il crevare,</l>
-            <l n="494" xml:id="l494">Et mori de suo malo ?</l>
-            <l n="495" xml:id="l495">Bachelierus</l>
-            <l n="496" xml:id="l496">Juro.</l>
-            <l n="497" xml:id="l497">Praeses</l>
-            <l n="498" xml:id="l498">Ego, cum isto boneto</l>
-            <l n="499" xml:id="l499">Venerabili et docto,</l>
-            <l n="500" xml:id="l500">Dono tibi et concedo</l>
-            <l n="501" xml:id="l501">Virtutem et puissanciam</l>
-            <l n="502" xml:id="l502">Medicandi,</l>
-            <l n="503" xml:id="l503">Purgandi,</l>
-            <l n="504" xml:id="l504">Seignandi,</l>
-            <l n="505" xml:id="l505">Perçandi,</l>
-            <l n="506" xml:id="l506">Taillandi,</l>
-            <l n="507" xml:id="l507">Coupandi.</l>
-            <l n="508" xml:id="l508">Et occidendi</l>
-            <l n="509" xml:id="l509">Impune per totam terram.</l>
-            <stage>Entrée de Ballet</stage>
-            <stage>Tous les Chirurgiens et Apothicaires viennent lui faire la révérence en cadence.</stage>
-            <l n="510" xml:id="l510">Bachelierus</l>
-            <l n="511" xml:id="l511">Grandes doctores doctrinae</l>
-            <l n="512" xml:id="l512">De la rhubarbe et du séné,</l>
-            <l n="513" xml:id="l513">Ce seroit sans douta à moi chosa folla,</l>
-            <l n="514" xml:id="l514">Inepta et ridicula,</l>
-            <l n="515" xml:id="l515">Si j’alloibam m’engageare</l>
-            <l n="516" xml:id="l516">Vobis louangeas donare,</l>
-            <l n="517" xml:id="l517">Et entreprenoibam adjoutare</l>
-            <l n="518" xml:id="l518">Des lumieras au soleillo,</l>
-            <l n="519" xml:id="l519">Et des étoilas au cielo,</l>
-            <l n="520" xml:id="l520">Des ondas à l’Oceano,</l>
-            <l n="521" xml:id="l521">Et des rosas au printanno.</l>
-            <l n="522" xml:id="l522">Agreate qu’avec uno moto,</l>
-            <l n="523" xml:id="l523">Pro toto remercimento,</l>
-            <l n="524" xml:id="l524">Rendam gratiam corpori tam docto.</l>
-            <l n="525" xml:id="l525">Vobis, vobis debeo</l>
-            <l n="526" xml:id="l526">Bien plus qu’à naturae et qu’à patri meo :</l>
-            <l n="527" xml:id="l527">Natura et pater meus</l>
-            <l n="528" xml:id="l528">Hominem me habent factum ;</l>
-            <l n="529" xml:id="l529">Mais vos me, ce qui est bien plus,</l>
-            <l n="530" xml:id="l530">Avetis factum medicum,</l>
-            <l n="531" xml:id="l531">Honor, favor, et gratia</l>
-            <l n="532" xml:id="l532">Qui, in hoc corde que voilà,</l>
-            <l n="533" xml:id="l533">Imprimant ressentimenta</l>
-            <l n="534" xml:id="l534">Qui dureront in secula.</l>
-            <l n="535" xml:id="l535">Vivat, vivat, vivat, vivat, cent fois vivat,</l>
-            <l n="536" xml:id="l536">Novus Doctor, qui tam bene parlat !</l>
-            <l n="537" xml:id="l537">Mille, mille annis et manget et bibat,</l>
-            <l n="538" xml:id="l538">Et seignet et tuat !</l>
-            <stage>Entrée de Ballet</stage>
-            <stage>Tous les Chirurgiens et les Apothicaires dansent au son des instruments et des voix, et des battements de mains, et des mortiers d’apothicaires.</stage>
-            <l n="539" xml:id="l539">Chirurgus</l>
-            <l n="540" xml:id="l540">Puisse-t-il voir doctas</l>
-            <l n="541" xml:id="l541">Suas ordonnancias</l>
-            <l n="542" xml:id="l542">Omnium chirurgorum</l>
-            <l n="543" xml:id="l543">Et apothiquarum</l>
-            <l n="544" xml:id="l544">Remplire boutiquas !</l>
-            <l n="545" xml:id="l545">Vivat, vivat, vivat, vivat, cent fois vivat</l>
-            <l n="546" xml:id="l546">Novus Doctor, qui tam bene parlat !</l>
-            <l n="547" xml:id="l547">Mille, mille annis et manget et bibat,</l>
-            <l n="548" xml:id="l548">Et seignet et tuat !</l>
-            <l n="549" xml:id="l549">Chirurgus</l>
-            <l n="550" xml:id="l550">Puissent toti anni</l>
-            <l n="551" xml:id="l551">Lui essere boni</l>
-            <l n="552" xml:id="l552">Et favorabiles,</l>
-            <l n="553" xml:id="l553">Et n’habere jamais</l>
-            <l n="554" xml:id="l554">Quam pestas, verolas,</l>
-            <l n="555" xml:id="l555">Fievras, pluresias,</l>
-            <l n="556" xml:id="l556">Fluxus de sang, et dyssenterias !</l>
-            <l n="557" xml:id="l557">Viva, vivat, vivat, vivat, cent fois vivat</l>
-            <l n="558" xml:id="l558">Novus Doctor, qui tam bene parlat !</l>
-            <l n="559" xml:id="l559">Mille, mille annis et manget et bibat,</l>
-            <l n="560" xml:id="l560">Et seignet et tuat !</l>
-            <stage>Dernière entrée de Ballet</stage>
-          </sp>
-        </div1>
+      <div1 type="scene" xml:id="TI">
+        <head>TROISIÈME INTERMÈDE</head>
+        <stage>C’est une cérémonie burlesque d’un homme qu’on fait médecin en récit, chant, et danse.</stage>
+        <stage>Entrée de ballet</stage>
+        <stage><anchor xml:id="chorus"/>Plusieurs tapissiers viennent préparer la salle et placer les bancs en cadence ; ensuite de quoi toute l’assemblée (composée de huit porte-seringues, six apothicaires, vingt-deux docteurs, celui qui se fait recevoir médecin, huit chirurgiens dansants, et deux chantants) entre, et prend ses places, selon les rangs.</stage>
+        <sp who="chorus" xml:id="TI-1">
+          <speaker>choeur des docteurs</speaker>
+          <l n="341" xml:id="l341">Praeses</l>
+          <l n="342" xml:id="l342">Sçavantissimi doctores,</l>
+          <l n="343" xml:id="l343">Medicinae professores,</l>
+          <l n="344" xml:id="l344">Qui hic assemblati estis,</l>
+          <l n="345" xml:id="l345">Et vos, altri Messiores,</l>
+          <l n="346" xml:id="l346">Sententiarum Facultatis</l>
+          <l n="347" xml:id="l347">Fideles executores,</l>
+          <l n="348" xml:id="l348">Chirurgiani et apothicari,</l>
+          <l n="349" xml:id="l349">Atque tota compania aussi,</l>
+          <l n="350" xml:id="l350">Salus, honor, et argentum,</l>
+          <l n="351" xml:id="l351">Atque bonum appetitum.</l>
+          <l n="352" xml:id="l352">Non possum, docti Confreri,</l>
+          <l n="353" xml:id="l353">En moi satis admirari</l>
+          <l n="354" xml:id="l354">Qualis bona inventio</l>
+          <l n="355" xml:id="l355">Est medici professio,</l>
+          <l n="356" xml:id="l356">Quam hella chosa est, et bene trovata,</l>
+          <l n="357" xml:id="l357">Medicina illa benedicta,</l>
+          <l n="358" xml:id="l358">Quae suo nomine solo,</l>
+          <l n="359" xml:id="l359">Surprenanti miraculo,</l>
+          <l n="360" xml:id="l360">Depuis si longo tempore,</l>
+          <l n="361" xml:id="l361">Facit à gogo vivere</l>
+          <l n="362" xml:id="l362">Tant de gens omni genere.</l>
+          <l n="363" xml:id="l363">Per totam terram videmus</l>
+          <l n="364" xml:id="l364">Grandam vogam ubi sumus,</l>
+          <l n="365" xml:id="l365">Et quod grandes et petiti</l>
+          <l n="366" xml:id="l366">Sunt de nobis infatuti.</l>
+          <l n="367" xml:id="l367">Totus mundus, currens ad nostros remedios,</l>
+          <l n="368" xml:id="l368">Nos regardat sicut Deos ;</l>
+          <l n="369" xml:id="l369">Et nostris ordonnanciis</l>
+          <l n="370" xml:id="l370">Principes et reges soumissos videtis.</l>
+          <l n="371" xml:id="l371">Donque il est nostrae sapientiae,</l>
+          <l n="372" xml:id="l372">Boni sensus atque prudentiae,</l>
+          <l n="373" xml:id="l373">De fortement travaillare</l>
+          <l n="374" xml:id="l374">A nos bene conservare</l>
+          <l n="375" xml:id="l375">In tali credito, voga, et honore,</l>
+          <l n="376" xml:id="l376">Et prandere gardam à non recevere</l>
+          <l n="377" xml:id="l377">In nostro docto corpore</l>
+          <l n="378" xml:id="l378">Quam personas capabiles,</l>
+          <l n="379" xml:id="l379">Et totas dignas ramplire</l>
+          <l n="380" xml:id="l380">Has plaças honorabiles.</l>
+          <l n="381" xml:id="l381">C’est pour cela que nunc convocati estis :</l>
+          <l n="382" xml:id="l382">Et credo quod trovabitis</l>
+          <l n="383" xml:id="l383">Dignam matieram medici</l>
+          <l n="384" xml:id="l384">In sçavanti homine que voici,</l>
+          <l n="385" xml:id="l385">Lequel, in choisis omnibus,</l>
+          <l n="386" xml:id="l386">Dono ad interrogandum,</l>
+          <l n="387" xml:id="l387">Et à fond examinandum</l>
+          <l n="388" xml:id="l388">Vostris capacitatibus.</l>
+          <l n="389" xml:id="l389">Primus Doctor</l>
+          <l n="390" xml:id="l390">Si mihi licenciam dat Dominus Praeses,</l>
+          <l n="391" xml:id="l391">Et tanti docti Doctores,</l>
+          <l n="392" xml:id="l392">Et assistantes illustres,</l>
+          <l n="393" xml:id="l393">Très sçavanti Bacheliero,</l>
+          <l n="394" xml:id="l394">Quem estimo et honoro,</l>
+          <l n="395" xml:id="l395">Domandabo causam et rationem quare</l>
+          <l n="396" xml:id="l396">Opium facit dormire.</l>
+          <l n="397" xml:id="l397">Bachelierus</l>
+          <l n="398" xml:id="l398">Mihi a docto Doctore</l>
+          <l n="399" xml:id="l399">Domandatur causam et rationem quare</l>
+          <l n="400" xml:id="l400">Opium facit dormire :</l>
+          <l n="401" xml:id="l401">A quoi respondeo,</l>
+          <l n="402" xml:id="l402">Quia est in eo</l>
+          <l n="403" xml:id="l403">Virtus dormitiva,</l>
+          <l n="404" xml:id="l404">Cujus est natura</l>
+          <l n="405" xml:id="l405">Sensus assoupire.</l>
+        </sp>
+        <sp who="chorus" xml:id="TI-2">
+          <speaker>chorus</speaker>
+          <l n="406" xml:id="l406">Bene, bene, bene, bene respondere :</l>
+          <l n="407" xml:id="l407">Dignus, dignus est entrare</l>
+          <l n="408" xml:id="l408">In nostro docto corpore.</l>
+          <l n="409" xml:id="l409">Secundus Doctor</l>
+          <l n="410" xml:id="l410">Cum permissione Domini Praesidis,</l>
+          <l n="411" xml:id="l411">Doctissimae Facultatis,</l>
+          <l n="412" xml:id="l412">Et totius his nostris actis</l>
+          <l n="413" xml:id="l413">Companiae assistantis,</l>
+          <l n="414" xml:id="l414">Domandabo tibi, docte Bacheliere,</l>
+          <l n="415" xml:id="l415">Quae sunt remedia</l>
+          <l n="416" xml:id="l416">Quae in maladia</l>
+          <l n="417" xml:id="l417">Ditte hydropisia</l>
+          <l n="418" xml:id="l418">Convenit facere.</l>
+          <l n="419" xml:id="l419">Bachelierus</l>
+          <l n="420" xml:id="l420">Clysterium donare,</l>
+          <l n="421" xml:id="l421">Postea seignare,</l>
+          <l n="422" xml:id="l422">Ensuitta purgare.</l>
+        </sp>
+        <sp who="chorus" xml:id="TI-3">
+          <speaker>chorus</speaker>
+          <l n="423" xml:id="l423">Bene, bene, bene, bene respondere.</l>
+          <l n="424" xml:id="l424">Dignus, dignus est entrare</l>
+          <l n="425" xml:id="l425">In nostro docto corpore.</l>
+          <l n="426" xml:id="l426">Tertius Doctor</l>
+          <l n="427" xml:id="l427">Si bonum semblatur Domino Praesidi,</l>
+          <l n="428" xml:id="l428">Doctissimae Facultati,</l>
+          <l n="429" xml:id="l429">Et companiae praesenti,</l>
+          <l n="430" xml:id="l430">Domandabo tibi, docte Bacheliere,</l>
+          <l n="431" xml:id="l431">Quae remedia eticis,</l>
+          <l n="432" xml:id="l432">Pulmonicis, atque asmaticis,</l>
+          <l n="433" xml:id="l433">Trovas à propos facere.</l>
+          <l n="434" xml:id="l434">Bachelierus</l>
+          <l n="435" xml:id="l435">Clysterium donare,</l>
+          <l n="436" xml:id="l436">Postea seignare,</l>
+          <l n="437" xml:id="l437">Ensuitta purgare.</l>
+          <l n="438" xml:id="l438">Bene, bene, bene, bene respondere :</l>
+          <l n="439" xml:id="l439">Dignus, dignus est entrare</l>
+          <l n="440" xml:id="l440">In nostro docto corpore.</l>
+          <l n="441" xml:id="l441">Quartus Doctor</l>
+          <l n="442" xml:id="l442">Super illas maladias</l>
+          <l n="443" xml:id="l443">Doctus Bachelierus dixit maravillas</l>
+          <l n="444" xml:id="l444">Mais si non ennuyo Dominum Praesidem,</l>
+          <l n="445" xml:id="l445">Doctissimam Facultatem,</l>
+          <l n="446" xml:id="l446">Et totam honorabilem</l>
+          <l n="447" xml:id="l447">Companiam ecoutantem,</l>
+          <l n="448" xml:id="l448">Faciam illi unam quaestionem.</l>
+          <l n="449" xml:id="l449">De hiero maladus unus</l>
+          <l n="450" xml:id="l450">Tombavit in meas manus :</l>
+          <l n="451" xml:id="l451">Habet grandam fievram cum redoublamentis,</l>
+          <l n="452" xml:id="l452">Grandam dolorem capitis,</l>
+          <l n="453" xml:id="l453">Et grandum malum au costé,</l>
+          <l n="454" xml:id="l454">Cum granda difficultate</l>
+          <l n="455" xml:id="l455">Et pœna de respirare :</l>
+          <l n="456" xml:id="l456">Veillas mihi dire,</l>
+          <l n="457" xml:id="l457">Docte Bacheliere,</l>
+          <l n="458" xml:id="l458">Quid illi facere ?</l>
+          <l n="459" xml:id="l459">Bachelierus</l>
+          <l n="460" xml:id="l460">Clysterium donare,</l>
+          <l n="461" xml:id="l461">Postea seignare,</l>
+          <l n="462" xml:id="l462">Ensuitta purgare.</l>
+          <l n="463" xml:id="l463">Quintus Doctor</l>
+          <l n="464" xml:id="l464">Mais si maladia</l>
+          <l n="465" xml:id="l465">Opiniatria</l>
+          <l n="466" xml:id="l466">Non vult se garire,</l>
+          <l n="467" xml:id="l467">Quid illi facere ?</l>
+          <l n="468" xml:id="l468">Bachelierus</l>
+          <l n="469" xml:id="l469">Clysterium donare,</l>
+          <l n="470" xml:id="l470">Postea seignare,</l>
+          <l n="471" xml:id="l471">Ensuitta purgare.</l>
+          <l n="472" xml:id="l472">Bene, bene, bene, bene respondere :</l>
+          <l n="473" xml:id="l473">Dignus, dignus est entrare</l>
+          <l n="474" xml:id="l474">In nostro docto corpore.</l>
+          <l n="475" xml:id="l475">Praeses</l>
+          <l n="476" xml:id="l476">Juras gardare statuta</l>
+          <l n="477" xml:id="l477">Per Facultatem praescripta</l>
+          <l n="478" xml:id="l478">Cum sensu et jugeamento ?</l>
+          <l n="479" xml:id="l479">Bachelierus</l>
+          <l n="480" xml:id="l480">Juro.</l>
+          <l n="481" xml:id="l481">Praeses</l>
+          <l n="482" xml:id="l482">Essere, in omnibus,</l>
+          <l n="483" xml:id="l483">Consultationibus,</l>
+          <l n="484" xml:id="l484">Ancieni aviso,</l>
+          <l n="485" xml:id="l485">Aut bono,</l>
+          <l n="486" xml:id="l486">Aut mauvaiso ?</l>
+          <l n="487" xml:id="l487">Bachelierus</l>
+          <l n="488" xml:id="l488">Juro.</l>
+          <l n="489" xml:id="l489">Praeses</l>
+          <l n="490" xml:id="l490">De non jamais te servire</l>
+          <l n="491" xml:id="l491">De remediis aucunis</l>
+          <l n="492" xml:id="l492">Quam de ceux seulement doctae Facultatis,</l>
+          <l n="493" xml:id="l493">Maladus dust-il crevare,</l>
+          <l n="494" xml:id="l494">Et mori de suo malo ?</l>
+          <l n="495" xml:id="l495">Bachelierus</l>
+          <l n="496" xml:id="l496">Juro.</l>
+          <l n="497" xml:id="l497">Praeses</l>
+          <l n="498" xml:id="l498">Ego, cum isto boneto</l>
+          <l n="499" xml:id="l499">Venerabili et docto,</l>
+          <l n="500" xml:id="l500">Dono tibi et concedo</l>
+          <l n="501" xml:id="l501">Virtutem et puissanciam</l>
+          <l n="502" xml:id="l502">Medicandi,</l>
+          <l n="503" xml:id="l503">Purgandi,</l>
+          <l n="504" xml:id="l504">Seignandi,</l>
+          <l n="505" xml:id="l505">Perçandi,</l>
+          <l n="506" xml:id="l506">Taillandi,</l>
+          <l n="507" xml:id="l507">Coupandi.</l>
+          <l n="508" xml:id="l508">Et occidendi</l>
+          <l n="509" xml:id="l509">Impune per totam terram.</l>
+          <stage>Entrée de Ballet</stage>
+          <stage>Tous les Chirurgiens et Apothicaires viennent lui faire la révérence en cadence.</stage>
+          <l n="510" xml:id="l510">Bachelierus</l>
+          <l n="511" xml:id="l511">Grandes doctores doctrinae</l>
+          <l n="512" xml:id="l512">De la rhubarbe et du séné,</l>
+          <l n="513" xml:id="l513">Ce seroit sans douta à moi chosa folla,</l>
+          <l n="514" xml:id="l514">Inepta et ridicula,</l>
+          <l n="515" xml:id="l515">Si j’alloibam m’engageare</l>
+          <l n="516" xml:id="l516">Vobis louangeas donare,</l>
+          <l n="517" xml:id="l517">Et entreprenoibam adjoutare</l>
+          <l n="518" xml:id="l518">Des lumieras au soleillo,</l>
+          <l n="519" xml:id="l519">Et des étoilas au cielo,</l>
+          <l n="520" xml:id="l520">Des ondas à l’Oceano,</l>
+          <l n="521" xml:id="l521">Et des rosas au printanno.</l>
+          <l n="522" xml:id="l522">Agreate qu’avec uno moto,</l>
+          <l n="523" xml:id="l523">Pro toto remercimento,</l>
+          <l n="524" xml:id="l524">Rendam gratiam corpori tam docto.</l>
+          <l n="525" xml:id="l525">Vobis, vobis debeo</l>
+          <l n="526" xml:id="l526">Bien plus qu’à naturae et qu’à patri meo :</l>
+          <l n="527" xml:id="l527">Natura et pater meus</l>
+          <l n="528" xml:id="l528">Hominem me habent factum ;</l>
+          <l n="529" xml:id="l529">Mais vos me, ce qui est bien plus,</l>
+          <l n="530" xml:id="l530">Avetis factum medicum,</l>
+          <l n="531" xml:id="l531">Honor, favor, et gratia</l>
+          <l n="532" xml:id="l532">Qui, in hoc corde que voilà,</l>
+          <l n="533" xml:id="l533">Imprimant ressentimenta</l>
+          <l n="534" xml:id="l534">Qui dureront in secula.</l>
+          <l n="535" xml:id="l535">Vivat, vivat, vivat, vivat, cent fois vivat,</l>
+          <l n="536" xml:id="l536">Novus Doctor, qui tam bene parlat !</l>
+          <l n="537" xml:id="l537">Mille, mille annis et manget et bibat,</l>
+          <l n="538" xml:id="l538">Et seignet et tuat !</l>
+          <stage>Entrée de Ballet</stage>
+          <stage>Tous les Chirurgiens et les Apothicaires dansent au son des instruments et des voix, et des battements de mains, et des mortiers d’apothicaires.</stage>
+          <l n="539" xml:id="l539">Chirurgus</l>
+          <l n="540" xml:id="l540">Puisse-t-il voir doctas</l>
+          <l n="541" xml:id="l541">Suas ordonnancias</l>
+          <l n="542" xml:id="l542">Omnium chirurgorum</l>
+          <l n="543" xml:id="l543">Et apothiquarum</l>
+          <l n="544" xml:id="l544">Remplire boutiquas !</l>
+          <l n="545" xml:id="l545">Vivat, vivat, vivat, vivat, cent fois vivat</l>
+          <l n="546" xml:id="l546">Novus Doctor, qui tam bene parlat !</l>
+          <l n="547" xml:id="l547">Mille, mille annis et manget et bibat,</l>
+          <l n="548" xml:id="l548">Et seignet et tuat !</l>
+          <l n="549" xml:id="l549">Chirurgus</l>
+          <l n="550" xml:id="l550">Puissent toti anni</l>
+          <l n="551" xml:id="l551">Lui essere boni</l>
+          <l n="552" xml:id="l552">Et favorabiles,</l>
+          <l n="553" xml:id="l553">Et n’habere jamais</l>
+          <l n="554" xml:id="l554">Quam pestas, verolas,</l>
+          <l n="555" xml:id="l555">Fievras, pluresias,</l>
+          <l n="556" xml:id="l556">Fluxus de sang, et dyssenterias !</l>
+          <l n="557" xml:id="l557">Viva, vivat, vivat, vivat, cent fois vivat</l>
+          <l n="558" xml:id="l558">Novus Doctor, qui tam bene parlat !</l>
+          <l n="559" xml:id="l559">Mille, mille annis et manget et bibat,</l>
+          <l n="560" xml:id="l560">Et seignet et tuat !</l>
+          <stage>Dernière entrée de Ballet</stage>
+        </sp>
+      </div1>
     </body>
   </text>
 </TEI>

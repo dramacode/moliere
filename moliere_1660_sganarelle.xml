@@ -13,7 +13,7 @@
         <date when="2014"/>
         <publisher>Publié par Paul Fièvre en mai 2006, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
         <availability status="restricted">
-          <licence target="projet-Molière"></licence>
+          <licence target="projet-Molière"/>
         </availability>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_sganarelle/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_sganarelle.xml</idno>
@@ -23,12 +23,6 @@
           <title>Sganarelle ou Le Cocu imaginaire. Comédie</title>
           <author>Molière</author>
         </bibl>
-        <genre>Comédie</genre>
-        <inspiration>moeurs françaises</inspiration>
-        <structure>Un acte</structure>
-        <type>vers</type>
-        <periode>1651-1660</periode>
-        <taille>500-750</taille>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -39,6 +33,11 @@
       <langUsage>
         <language ident="FR"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
@@ -70,18 +69,18 @@
       </div>
       <div>
         <head>ACTEURS</head>
-      <castList>
-        <castItem><role xml:id="gorgibus" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">GORGIBUS</role>, Bourgeois de Paris.</castItem>
-        <castItem><role xml:id="celie" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">CÉLIE</role>, sa Fille.</castItem>
-        <castItem><role xml:id="lelie" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LÉLIE</role>, Amant de Célie.</castItem>
-        <castItem><role xml:id="grosrene" civil="M" type="H" statut="valet" age="A" stat_amour="néant">GROS-RENÉ</role>, valet de Lélie.</castItem>
-        <castItem><role xml:id="sganarelle" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">SGANARELLE</role>, Bourgeois de Paris, et Cocu Imaginaire.</castItem>
-        <castItem><role xml:id="femme-sganarelle" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">SA FEMME</role>.</castItem>
-        <castItem><role xml:id="villebrequin" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">VILLEBREQUIN</role>, Père de Valère.</castItem>
-        <castItem><role xml:id="suivante" civil="F" type="H" statut="suivante" age="A" stat_amour="néant">LA SUIVANTE</role> de Célie.</castItem>
-        <castItem><role xml:id="le-parent" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">UN PARENT</role>de Sganarelle.</castItem>
-      </castList>
-      <stage location="Paris" country="France" periode="XVIIème" link="">La Scène est à Paris.</stage>
+        <castList>
+          <castItem><role xml:id="gorgibus" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Gorgibus</role>, Bourgeois de Paris.</castItem>
+          <castItem><role xml:id="celie" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">Célie</role>, sa Fille.</castItem>
+          <castItem><role xml:id="lelie" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Lélie</role>, Amant de Célie.</castItem>
+          <castItem><role xml:id="grosrene" civil="M" type="H" statut="valet" age="A" stat_amour="néant">Gros-René</role>, valet de Lélie.</castItem>
+          <castItem><role xml:id="sganarelle" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Sganarelle</role>, Bourgeois de Paris, et Cocu Imaginaire.</castItem>
+          <castItem><role xml:id="femme-sganarelle" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">Sa femme</role>.</castItem>
+          <castItem><role xml:id="villebrequin" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Villebrequin</role>, Père de Valère.</castItem>
+          <castItem><role xml:id="suivante" civil="F" type="H" statut="suivante" age="A" stat_amour="néant">La suivante</role> de Célie.</castItem>
+          <castItem><role xml:id="le-parent" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Un parent</role> de Sganarelle.</castItem>
+        </castList>
+        <stage location="Paris" country="France" periode="XVIIème" link="">La Scène est à Paris.</stage>
       </div>
     </front>
     <body>
@@ -575,7 +574,7 @@
         </div2>
         <div2 type="scene" xml:id="I08">
           <head>SCÈNE VIII.</head>
-            <p>Je ne vous dirai rien de cette scène, puisqu’elle ne contient que ces trois vers.</p>
+          <p>Je ne vous dirai rien de cette scène, puisqu’elle ne contient que ces trois vers.</p>
           <sp who="lelie" xml:id="I08-2">
             <speaker>lélie, <hi rend="i">seul</hi>.</speaker>
             <l n="250">Non non, à trop de peur mon âme s’abandonne,</l>
@@ -705,7 +704,7 @@
         <div2 type="scene" xml:id="I10">
           <head>SCÈNE X.</head>
           <stage>Lélie seul.</stage>
-            <p rend="argument">Lélie se plaint dans cette Scène de l’infidélité de sa Maîtresse, et l’outrage qu’elle lui fait, ne l’abattant pas moins que les longs travaux de son voyage, le fait tomber en faiblesse. Plusieurs ont assez ridiculement repris cette Scène, sans avoir pour justifier leur impertinence, autre chose à dire sinon que l’infidélité d’une Maîtresse n’était pas capable de faire évanouir un homme. D’autres ont dit encore, que cet évanouissement était mal placé, et que l’on voyait bien que l’Auteur ne s’en était servi que pour faire naître l’incident qui paraît ensuite. Mais je répondrai en deux mots aux uns et aux autres : et je dis d’abord aux premiers, qu’ils n’ont pas bien considéré, que l’Auteur avait préparé cet incident longtemps devant, et que l’infidélité de la Maîtresse de Lélie, n’est pas seule la cause de son évanouissement, qu’il en a encore deux puissantes raisons, dont l’une est les longs et pénibles travaux d’un voyage de huit jours qu’il avait fait en poste, et l’autre qu’il n’avait point mangé depuis son arrivée, comme l’Auteur l’a découvert ci-devant aux Auditeurs, en faisant que Gros-René le presse d’aller manger un morceau afin de pouvoir résister aux attaques du sort (et c’est pour cela que je vous ai prié de remarquer la Scène qu’ils font ensemble) tellement il n’est pas impossible qu’un homme qui arrive d’un long voyage, qui n’a point mangé depuis son arrivée, et qui apprend l’infidélité d’une Maîtresse, s’évanouisse. Voilà ce que j’ai à dire aux premiers censeurs de cet incident miraculeux. Pour ce qui regarde les seconds, quoiqu’ils paraissent le reprendre avec plus de justice, je les confondrai encore plus tôt, et pour commencer à leur faire voir leur ignorance, je veux leur accorder que l’Auteur n’a fait évanouir Lélie, que pour donner lieu à l’incident qui suit ; mais ne doivent-ils pas savoir que quand un Auteur a un bel incident à insérer dans une Pièce, s’il trouve des moyens vraisemblables pour le faire naître, il en doit d’autant être plus estimé, que la chose est beaucoup plus difficile, et qu’au contraire, s’il ne le fait paraître que par des moyens erronés et tirés par la queue, il doit passer pour un ignorant, puisque c’est une des qualités la plus nécessaire à un Auteur, que de savoir inventer avec vraisemblance ; c’est pourquoi, puisqu’il y a tant de possibilité et de vraisemblance dans l’évanouissement de Lélie, que l’on pourrait dire qu’il était absolument nécessaire qu’il s’évanouisse, puisqu’il aurait paru peu amoureux si, étant arrivé à Paris, il s’était allé amuser à manger, au lieu d’aller trouver sa Maîtresse : ils condamnent des choses qu’ils devraient estimer, puisque la conduite de cet incident avec toutes les préparations nécessaires, fait voir que l’Auteur pense mûrement à ce qu’il fait, et que rien ne se peut égaler à la solidité de son esprit. Voilà quelle est ma pensée là-dessus, et pour vous montrer que les raisons que j’ai apportées sont vraies, vous n’avez qu’à lire ces vers.</p>
+          <p rend="argument">Lélie se plaint dans cette Scène de l’infidélité de sa Maîtresse, et l’outrage qu’elle lui fait, ne l’abattant pas moins que les longs travaux de son voyage, le fait tomber en faiblesse. Plusieurs ont assez ridiculement repris cette Scène, sans avoir pour justifier leur impertinence, autre chose à dire sinon que l’infidélité d’une Maîtresse n’était pas capable de faire évanouir un homme. D’autres ont dit encore, que cet évanouissement était mal placé, et que l’on voyait bien que l’Auteur ne s’en était servi que pour faire naître l’incident qui paraît ensuite. Mais je répondrai en deux mots aux uns et aux autres : et je dis d’abord aux premiers, qu’ils n’ont pas bien considéré, que l’Auteur avait préparé cet incident longtemps devant, et que l’infidélité de la Maîtresse de Lélie, n’est pas seule la cause de son évanouissement, qu’il en a encore deux puissantes raisons, dont l’une est les longs et pénibles travaux d’un voyage de huit jours qu’il avait fait en poste, et l’autre qu’il n’avait point mangé depuis son arrivée, comme l’Auteur l’a découvert ci-devant aux Auditeurs, en faisant que Gros-René le presse d’aller manger un morceau afin de pouvoir résister aux attaques du sort (et c’est pour cela que je vous ai prié de remarquer la Scène qu’ils font ensemble) tellement il n’est pas impossible qu’un homme qui arrive d’un long voyage, qui n’a point mangé depuis son arrivée, et qui apprend l’infidélité d’une Maîtresse, s’évanouisse. Voilà ce que j’ai à dire aux premiers censeurs de cet incident miraculeux. Pour ce qui regarde les seconds, quoiqu’ils paraissent le reprendre avec plus de justice, je les confondrai encore plus tôt, et pour commencer à leur faire voir leur ignorance, je veux leur accorder que l’Auteur n’a fait évanouir Lélie, que pour donner lieu à l’incident qui suit ; mais ne doivent-ils pas savoir que quand un Auteur a un bel incident à insérer dans une Pièce, s’il trouve des moyens vraisemblables pour le faire naître, il en doit d’autant être plus estimé, que la chose est beaucoup plus difficile, et qu’au contraire, s’il ne le fait paraître que par des moyens erronés et tirés par la queue, il doit passer pour un ignorant, puisque c’est une des qualités la plus nécessaire à un Auteur, que de savoir inventer avec vraisemblance ; c’est pourquoi, puisqu’il y a tant de possibilité et de vraisemblance dans l’évanouissement de Lélie, que l’on pourrait dire qu’il était absolument nécessaire qu’il s’évanouisse, puisqu’il aurait paru peu amoureux si, étant arrivé à Paris, il s’était allé amuser à manger, au lieu d’aller trouver sa Maîtresse : ils condamnent des choses qu’ils devraient estimer, puisque la conduite de cet incident avec toutes les préparations nécessaires, fait voir que l’Auteur pense mûrement à ce qu’il fait, et que rien ne se peut égaler à la solidité de son esprit. Voilà quelle est ma pensée là-dessus, et pour vous montrer que les raisons que j’ai apportées sont vraies, vous n’avez qu’à lire ces vers.</p>
           <sp who="lelie" xml:id="I10-2">
             <speaker>lélie <hi rend="i">seul</hi>.</speaker>
             <l>Ah ! que viens-je d’entendre ?</l>
@@ -994,8 +993,8 @@
         </div2>
         <div2 type="scene" xml:id="I17">
           <head>SCÈNE XVII.</head>
-            <stage>Sganarelle seul.</stage>
-            <p rend="argument">Si j’avais tantôt besoin de ces excellents Peintres que je vous ai nommés, pour vous dépeindre le visage de Sganarelle ; j’aurais maintenant besoin et de leur pinceau et de la plume des plus excellents Orateurs pour vous décrire cette Scène. Jamais il ne se vit rien de plus beau, jamais rien de mieux joué, et jamais Vers ne furent si généralement estimés. Sganarelle joue seul dans cette Scène, repassant dans son esprit tout ce que l’on peut dire d’un Cocu, et les raisons pour lesquelles il ne s’en doit pas mettre en peine, s’en démêle si bien, que son raisonnement pourrait en un besoin consoler ceux qui sont de ce nombre. Je vous envoie les Vers de cette Scène, afin que si vous connaissez quelqu’un à votre pays qui soit de la Confrérie dont Sganarelle se croit être, vous le puissiez par-là retirer de la mélancolie où il pourrait s’être plongé.</p>
+          <stage>Sganarelle seul.</stage>
+          <p rend="argument">Si j’avais tantôt besoin de ces excellents Peintres que je vous ai nommés, pour vous dépeindre le visage de Sganarelle ; j’aurais maintenant besoin et de leur pinceau et de la plume des plus excellents Orateurs pour vous décrire cette Scène. Jamais il ne se vit rien de plus beau, jamais rien de mieux joué, et jamais Vers ne furent si généralement estimés. Sganarelle joue seul dans cette Scène, repassant dans son esprit tout ce que l’on peut dire d’un Cocu, et les raisons pour lesquelles il ne s’en doit pas mettre en peine, s’en démêle si bien, que son raisonnement pourrait en un besoin consoler ceux qui sont de ce nombre. Je vous envoie les Vers de cette Scène, afin que si vous connaissez quelqu’un à votre pays qui soit de la Confrérie dont Sganarelle se croit être, vous le puissiez par-là retirer de la mélancolie où il pourrait s’être plongé.</p>
           <sp who="sganarelle" xml:id="I17-1">
             <speaker>sganarelle <hi rend="i">seul.</hi></speaker>
             <l>Que le Ciel la préserve à jamais de danger.</l>
@@ -1069,7 +1068,7 @@
             <l>Déjà pour commencer dans l’ardeur qui m’enflamme,</l>
             <l>Je vais dire partout qu’il couche avec ma femme.</l>
             <argument>
-            <p>Avouez-moi maintenant la vérité, est-il pas vrai, Monsieur, que vous avez trouvé ces Vers tout à fait beaux, que vous ne vous êtes pu vous empêcher de les relire encore une fois, et que vous demeurez d’accord que Paris a eu raison de nommer cette scène, la belle Scène ?</p>
+              <p>Avouez-moi maintenant la vérité, est-il pas vrai, Monsieur, que vous avez trouvé ces Vers tout à fait beaux, que vous ne vous êtes pu vous empêcher de les relire encore une fois, et que vous demeurez d’accord que Paris a eu raison de nommer cette scène, la belle Scène ?</p>
             </argument>
           </sp>
         </div2>
@@ -1212,7 +1211,7 @@
             <speaker>sganarelle</speaker>
             <l>C’est un habillement</l>
             <l n="520">Que j’ai pris pour la pluie.</l>
-              <stage>À part.</stage>
+            <stage>À part.</stage>
             <l>Ah ! quel contentement</l>
             <l>J’aurais à le tuer, prenons-en le courage.</l>
           </sp>
@@ -1414,12 +1413,12 @@
             <l>Que celle aux mains de qui vous aviez pris ce gage,</l>
             <l n="590">Était liée à vous des nœuds du mariage.</l>
           </sp>
-          <sp who="sganarelle">
+          <sp who="sganarelle" xml:id="I22-19">
             <speaker>Sganarelle <hi rend="i">montrant sa femme.</hi></speaker>
             <l>Sans doute, et je l’avais de ses mains arraché,</l>
             <l>Et n’eusse pas sans lui découvert son péché.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I22-19">
+          <sp who="femme-sganarelle" xml:id="I22-20">
             <speaker>la femme de sganarelle</speaker>
             <l>Que me viens-tu conter par ta plainte importune ?</l>
             <l>Je l’avais sous mes pieds rencontré par fortune,</l>
@@ -1428,39 +1427,39 @@
             <stage>Montrant Lélie.</stage>
             <l>Je n’ai pas reconnu les traits de sa peinture.</l>
           </sp>
-          <sp who="celie" xml:id="I22-20">
+          <sp who="celie" xml:id="I22-21">
             <speaker>célie</speaker>
             <l>C’est moi qui du portrait ai causé l’aventure,</l>
             <l>Et je l’ai laissé choir en cette pâmoison</l>
             <stage>À Sganarelle.</stage>
             <l n="600">Qui m’a fait par vos soins remettre à la maison.</l>
           </sp>
-          <sp who="suivante" xml:id="I22-21">
+          <sp who="suivante" xml:id="I22-22">
             <speaker>la suivante</speaker>
             <l>Vous voyez que sans moi vous y seriez encore,</l>
             <l>Et vous aviez besoin de mon peu d’Ellébore.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I22-22">
+          <sp who="sganarelle" xml:id="I22-23">
             <speaker>sganarelle</speaker>
             <l>Prendrons-nous tout ceci pour de l’argent comptant ?</l>
             <l>Mon front l’a sur mon âme eu bien chaude pourtant.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I22-23">
+          <sp who="femme-sganarelle" xml:id="I22-24">
             <speaker>sa femme </speaker>
             <l n="605">Ma crainte toutefois n’est pas trop dissipée</l>
             <l>Et doux que soit le mal, je crains d’être trompée.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I22-24">
+          <sp who="sganarelle" xml:id="I22-25">
             <speaker>sganarelle </speaker>
             <l>Hé ! mutuellement croyons-nous gens de bien,</l>
             <l>Je risque plus du mien que tu ne fais du tien :</l>
             <l>Accepte sans façon le marché qu’on propose.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I22-25">
+          <sp who="femme-sganarelle" xml:id="I22-26">
             <speaker>sa femme</speaker>
             <l n="610">Soit, mais gare le bois si j’apprends quelque chose.</l>
           </sp>
-          <sp who="celie" xml:id="I22-26">
+          <sp who="celie" xml:id="I22-27">
             <speaker>célie, <hi rend="i">à Lélie, après avoir parlé bas ensemble.</hi></speaker>
             <l>Ah ! Dieux ! s’il est ainsi, qu’est-ce donc que j’ai fait ?</l>
             <l>Je dois de mon courroux appréhender l’effet :</l>
@@ -1471,7 +1470,7 @@
             <l>J’ai promis à mon père, et ce qui me désole…</l>
             <l>Mais je le vois venir.</l>
           </sp>
-          <sp who="lelie" xml:id="I22-27">
+          <sp who="lelie" xml:id="I22-28">
             <speaker>lélie</speaker>
             <l>Il me tiendra parole.</l>
           </sp>

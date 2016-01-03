@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_amour-medecin" xml:lang="fr">
   <teiHeader>
@@ -14,7 +13,7 @@
         <date when="2014"/>
         <publisher>Publié par Paul Fièvre en janvier 2009, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
         <availability status="restricted">
-          <licence target="projet-Molière"></licence>
+          <licence target="projet-Molière"/>
         </availability>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_amour-medecin/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_amourmedecin.xml</idno>
@@ -24,12 +23,6 @@
           <author>Molière</author>
           <title>L'Amour médecin. Comédie</title>
         </bibl>
-        <genre>Comédie</genre>
-        <inspiration>moeurs françaises</inspiration>
-        <type>prose</type>
-        <structure>Trois actes</structure>
-        <periode>1661-1670</periode>
-        <taille>(mesure non pertinente)</taille>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -37,8 +30,13 @@
         <date when="1665"/>
       </creation>
       <langUsage>
-        <language ident="FR"/>
+        <language ident="fr"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
@@ -48,9 +46,10 @@
           <titlePart type="main">L'AMOUR <lb/>MÉDECIN</titlePart>
           <titlePart type="sub">COMÉDIE</titlePart>
         </docTitle>
-        <docAuthor bio="moliere" id="MOLIERE"><hi rend="i">Par J. B. P.</hi> MOLIÈRE</docAuthor>
+        <docAuthor><hi rend="i">Par J. B. P.</hi> MOLIÈRE</docAuthor>
         <docImprint>À PARIS, <lb/> Chez <hi rend="sc">Théodore Girard</hi>, dans la <lb/>grande
-          Salle du Palais du côté de la <lb/>Cour des Aides, à l'Envie. <lb/>M. DC. LXVI. <lb/> <hi rend="i">AVEC PRIVILÈGE DU ROI.</hi>
+          Salle du Palais du côté de la <lb/>Cour des Aides, à l'Envie. <lb/>M. DC. LXVI. <lb/>
+          <hi rend="i">AVEC PRIVILÈGE DU ROI.</hi>
         </docImprint>
       </titlePage>
       <div type="dedication">
@@ -70,41 +69,45 @@
       </div>
       <div>
         <head>LES PERSONNAGES</head>
-      <castList>
-        <castItem><role civil="M" xml:id="sganarelle">SGANARELLE</role>, Père de Lucinde.</castItem>
-        <castItem><role civil="F" xml:id="aminte">AMINTE</role>.</castItem>
-        <castItem><role civil="F" xml:id="lucrece">LUCRÈCE</role>.</castItem>
-        <castItem><role civil="M" xml:id="m-guillaume">MONSIEUR GUILLAUME</role>, Vendeur de
+        <castList>
+          <castItem><role rend="male" xml:id="sganarelle">SGANARELLE</role>, Père de Lucinde.</castItem>
+          <castItem><role rend="female" xml:id="aminte">AMINTE</role>.</castItem>
+          <castItem><role rend="female" xml:id="lucrece">LUCRÈCE</role>.</castItem>
+          <castItem><role rend="male" xml:id="m-guillaume">MONSIEUR GUILLAUME</role>, Vendeur de
           Tapisseries.</castItem>
-        <castItem><role civil="M" xml:id="m-josse">MONSIEUR JOSSE</role>, Orfèvre.</castItem>
-        <castItem><role civil="F" xml:id="lucinde">LUCINDE</role>, Fille de Sganarelle.</castItem>
-        <castItem><role civil="F" xml:id="lisette">LISETTE</role>, Suivante de Lucinde.</castItem>
-        <castItem><role civil="M" xml:id="m-tomes">MONSIEUR TOMÈS</role>, Médecin.</castItem>
-        <castItem><role civil="M" xml:id="m-des-fonandres">MONSIEUR DES FONANDRÈS</role>,
+          <castItem><role rend="male" xml:id="m-josse">MONSIEUR JOSSE</role>, Orfèvre.</castItem>
+          <castItem><role rend="female" xml:id="lucinde">LUCINDE</role>, Fille de Sganarelle.</castItem>
+          <castItem><role rend="female" xml:id="lisette">LISETTE</role>, Suivante de Lucinde.</castItem>
+          <castItem><role rend="male" xml:id="m-tomes">MONSIEUR TOMÈS</role>, Médecin.</castItem>
+          <castItem><role rend="male" xml:id="m-des-fonandres">MONSIEUR DES FONANDRÈS</role>,
           Médecin.</castItem>
-        <castItem><role civil="M" xml:id="m-macroton">MONSIEUR MACROTON</role>,
+          <castItem><role rend="male" xml:id="m-macroton">MONSIEUR MACROTON</role>,
           Médecin.</castItem>
-        <castItem><role civil="M" xml:id="m-bahys">MONSIEUR BAHYS</role>, Médecin.</castItem>
-        <castItem><role civil="M" xml:id="m-filerin">MONSIEUR FILERIN</role>, Médecin.</castItem>
-        <castItem><role civil="M" xml:id="clitandre">CLITANDRE</role>, Amant de Lucinde.</castItem>
-        <castItem><role civil="M" xml:id="notaire">UN NOTAIRE</role>.</castItem>
-        <castItem><role civil="M" xml:id="champagne">L'OPÉRATEUR</role>, Orviétan.</castItem>
-        <castItem>
-          <role xml:id="trivelins-scaramouches">PLUSIEURS TRIVELINS ET SCARAMOUCHES.</role>
-        </castItem>
-        <castItem>
-          <role xml:id="comedie">LA COMÉDIE.</role>
-        </castItem>
-        <castItem>
-          <role xml:id="musique">LA MUSIQUE.</role>
-        </castItem>
-        <castItem>
-          <role xml:id="ballet">LE BALLET.</role>
-        </castItem>
-        <castItem><role xml:id="operateur"/></castItem>
-        <castItem><role xml:id="tous"/></castItem>
-      </castList>
-      <stage country="France" link="" location="Paris" periode="XVIIème">La Scène est à Paris dans une
+          <castItem><role rend="male" xml:id="m-bahys">MONSIEUR BAHYS</role>, Médecin.</castItem>
+          <castItem><role rend="male" xml:id="m-filerin">MONSIEUR FILERIN</role>, Médecin.</castItem>
+          <castItem><role rend="male" xml:id="clitandre">CLITANDRE</role>, Amant de Lucinde.</castItem>
+          <castItem><role rend="male" xml:id="notaire">UN NOTAIRE</role>.</castItem>
+          <castItem><role rend="male" xml:id="champagne">L'OPÉRATEUR</role>, Orviétan.</castItem>
+          <castItem>
+            <role xml:id="trivelins-scaramouches">PLUSIEURS TRIVELINS ET SCARAMOUCHES.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="comedie">LA COMÉDIE.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="musique">LA MUSIQUE.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="ballet">LE BALLET.</role>
+          </castItem>
+          <castItem>
+            <role xml:id="operateur"/>
+          </castItem>
+          <castItem>
+            <role xml:id="tous"/>
+          </castItem>
+        </castList>
+        <stage country="France" link="" location="Paris" periode="XVIIème">La Scène est à Paris dans une
         Salle de la maison de Sganarelle.</stage>
       </div>
     </front>
@@ -662,8 +665,7 @@
         </div2>
         <div2 type="titre2" xml:id="II02">
           <head>SCÈNE II</head>
-          <stage>Messieurs Tomès, Des Fonandrès, Macroton, <hi rend="i n">et</hi> Bahys, <hi
-              rend="i n">Médecins</hi>. Sganarelle, Lisette.</stage>
+          <stage>Messieurs Tomès, Des Fonandrès, Macroton, <hi rend="i n">et</hi> Bahys, <hi rend="i n">Médecins</hi>. Sganarelle, Lisette.</stage>
           <sp who="sganarelle" xml:id="II02-1">
             <speaker>sganarelle</speaker>
             <p>Hé bien, Messieurs.</p>
@@ -873,84 +875,83 @@
             <p>Hé, de grâce, Messieurs, laissez toutes ces cérémonies, et songez que les choses
               pressent.</p>
           </sp>
-          <sp who="m-tomes">
+          <sp who="m-tomes" xml:id="II04-9">
             <speaker>monsieur tomès</speaker>
             <stage>Ils parlent tous quatre ensemble.</stage>
             <p>La maladie de votre fille…</p>
           </sp>
-          <sp who="m-des-fonandres" xml:id="II04-9">
+          <sp who="m-des-fonandres" xml:id="II04-10">
             <speaker>monsieur des fonandrès</speaker>
             <p>L’avis de tous ces Messieurs tous ensemble…</p>
           </sp>
-          <sp who="m-macroton" xml:id="II04-10">
+          <sp who="m-macroton" xml:id="II04-11">
             <speaker>monsieur macroton</speaker>
             <p>Après avoir bien consulté…</p>
           </sp>
-          <sp who="m-bahys" xml:id="II04-11">
+          <sp who="m-bahys" xml:id="II04-12">
             <speaker>monsieur bahys</speaker>
             <p>Pour raisonner…</p>
           </sp>
-          <sp who="sganarelle" xml:id="II04-12">
+          <sp who="sganarelle" xml:id="II04-13">
             <speaker>sganarelle</speaker>
             <p>Hé, Messieurs, parlez l’un après l’autre, de grâce.</p>
           </sp>
-          <sp who="m-tomes" xml:id="II04-13">
+          <sp who="m-tomes" xml:id="II04-14">
             <speaker>monsieur tomès</speaker>
             <p>Monsieur, nous avons raisonné sur la maladie de votre fille ; et mon avis, à moi,
               est, que cela procède d’une grande chaleur de sang : ainsi je conclus à la saigner le
               plus tôt que vous pourrez.</p>
           </sp>
-          <sp who="m-des-fonandres" xml:id="II04-14">
+          <sp who="m-des-fonandres" xml:id="II04-15">
             <speaker>monsieur des fonandrès</speaker>
             <p>Et moi, je dis que sa maladie est une pourriture d’humeurs, causée par une trop
               grande réplétion : ainsi je conclus à lui donner de l’émétique.</p>
           </sp>
-          <sp who="m-tomes" xml:id="II04-15">
+          <sp who="m-tomes" xml:id="II04-16">
             <speaker>monsieur tomès</speaker>
             <p>Je soutiens que l’émétique la tuera.</p>
           </sp>
-          <sp who="m-des-fonandres" xml:id="II04-16">
+          <sp who="m-des-fonandres" xml:id="II04-17">
             <speaker>monsieur des fonandrès</speaker>
             <p>Et moi, que la saignée la fera mourir.</p>
           </sp>
-          <sp who="m-tomes" xml:id="II04-17">
+          <sp who="m-tomes" xml:id="II04-18">
             <speaker>monsieur tomès</speaker>
             <p>C’est bien à vous de faire l’habile homme.</p>
           </sp>
-          <sp who="m-des-fonandres" xml:id="II04-18">
+          <sp who="m-des-fonandres" xml:id="II04-19">
             <speaker>monsieur des fonandrès</speaker>
             <p>Oui, c’est à moi, et je vous prêterai le collet en tout genre d’érudition.</p>
           </sp>
-          <sp who="m-tomes" xml:id="II04-19">
+          <sp who="m-tomes" xml:id="II04-20">
             <speaker>monsieur tomès</speaker>
             <p>Souvenez-vous de l’homme que vous fîtes crever ces jours passés.</p>
           </sp>
-          <sp who="m-des-fonandres" xml:id="II04-20">
+          <sp who="m-des-fonandres" xml:id="II04-21">
             <speaker>monsieur des fonandrès</speaker>
             <p>Souvenez-vous de la Dame que vous avez envoyée en l’autre monde, il y a trois
               jours.</p>
           </sp>
-          <sp who="m-tomes" xml:id="II04-21">
+          <sp who="m-tomes" xml:id="II04-22">
             <speaker>monsieur tomès</speaker>
             <p>Je vous ai dit mon avis.</p>
           </sp>
-          <sp who="m-des-fonandres" xml:id="II04-22">
+          <sp who="m-des-fonandres" xml:id="II04-23">
             <speaker>monsieur des fonandrès</speaker>
             <p>Je vous ai dit ma pensée.</p>
           </sp>
-          <sp who="m-tomes" xml:id="II04-23">
+          <sp who="m-tomes" xml:id="II04-24">
             <speaker>monsieur tomès</speaker>
             <p>Si vous ne faites saigner tout à l’heure votre fille, c’est une personne morte.</p>
           </sp>
-          <sp who="m-des-fonandres" xml:id="II04-24">
+          <sp who="m-des-fonandres" xml:id="II04-25">
             <speaker>monsieur des fonandrès</speaker>
             <p>Si vous la faites saigner, elle ne sera pas en vie dans un quart d’heure.</p>
           </sp>
         </div2>
         <div2 type="titre2" xml:id="II05">
           <head>SCÈNE V</head>
-          <stage>Sganarelle, Messieurs Macroton <hi rend="i n">et</hi> Bahys, <hi rend="i n"
-              >médecins</hi>.</stage>
+          <stage>Sganarelle, Messieurs Macroton <hi rend="i n">et</hi> Bahys, <hi rend="i n">médecins</hi>.</stage>
           <sp who="sganarelle" xml:id="II05-1">
             <speaker>sganarelle</speaker>
             <p>À qui croire des deux ? et quelle résolution prendre sur des avis si opposés ?
@@ -985,8 +986,7 @@
               ma-la-die. chro-ni-que. et. qu’el-le. peut. pé-ri-cli-ter, si. on. ne. lui. don-ne.
               du. se-cours ; d’au-tant. que. les. symp-tô-mes. qu’el-le. A, sont. in-di-ca-tifs.
               d’u-ne. va-peur. fu-li-gi-neu-se. et. mor-di-can-te, qui. lui. pi-co-te. les.
-              mem-bra-nes. du. cer-veau. Or. cet-te. va-peur. que. nous. nom-mons. en. Grec. <hi
-                rend="i">At-mos</hi>. est. cau-sé.e. par. des. hu-meurs. pu-tri-des, te-na-ces, et.
+              mem-bra-nes. du. cer-veau. Or. cet-te. va-peur. que. nous. nom-mons. en. Grec. <hi rend="i">At-mos</hi>. est. cau-sé.e. par. des. hu-meurs. pu-tri-des, te-na-ces, et.
               con-glu-ti-neu-ses, qui. sont. con-te-nues. dans. le. bas. ven-tre.</p>
           </sp>
           <sp who="m-bahys" xml:id="II05-6">

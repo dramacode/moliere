@@ -1,35 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MÉLICERTE, COMÉDIE PASTORALE HcROÏQUE</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1666</date>
+        <title>Mélicerte</title>
+        <author>Molière</author>
       </titleStmt>
       <publicationStmt>
-        <p>publié par Paul FIEVRE, Mai 2006, revu Octobre 2013</p>
+        <publisher>publié par Paul FIEVRE, Mai 2006, revu Octobre 2013</publisher>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_melicerte/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_melicerte.xml</idno>
       </publicationStmt>
       <sourceDesc>
-        <genre>Comédie héroïque</genre>
-        <inspiration>pastorale</inspiration>
-        <structure>Deux actes</structure>
-        <type>vers</type>
-        <periode>1661-1670</periode>
-        <taille>500-750</taille>
-        <permalien/>
-        <sources>
-          <source id="1">
-            <author/>
-            <text/>
-          </source>
-        </sources>
+        <p/>
       </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1666"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie pastorale héroïque</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
@@ -52,16 +51,16 @@
       <div>
         <head>ACTEURS</head>
         <castList>
-          <castItem><role xml:id="acante" civil="M" type="H" statut="berger" age="A" stat_amour="Daphné">ACANTE</role>, amant de Daphné.</castItem>
-          <castItem><role xml:id="tyrene" civil="M" type="H" statut="berger" age="A" stat_amour="Eroxène">TYRÈNE</role>, amant d’Éroxène.</castItem>
-          <castItem><role xml:id="daphne" civil="F" type="H" statut="berger" age="A" stat_amour="néant">DAPHNÉ</role>, bergère.</castItem>
-          <castItem><role xml:id="eroxene" civil="F" type="H" statut="berger" age="A" stat_amour="néant">ÉROXÈNE</role>, bergère.</castItem>
-          <castItem><role xml:id="lycarsis" civil="M" type="H" statut="pâtre" age="A" stat_amour="néant">LYCARSYS</role>, pâtre, cru père de Myrtil.</castItem>
-          <castItem><role xml:id="myrtil" civil="M" type="H" statut="berger" age="A" stat_amour="Mélicerte">MYRTIL</role>, amant de Mélicerte.</castItem>
-          <castItem><role xml:id="melicerte" civil="F" type="D" statut="nymphe" age="A" stat_amour="Myrtil">MÉLICERTE</role>, nymphe ou bergère, amante de Myrtil.</castItem>
-          <castItem><role xml:id="corinne" civil="F" type="H" statut="confident" age="A" stat_amour="néant">CORINNE</role>, confidente de Mélicerte.</castItem>
-          <castItem><role xml:id="nicandre" civil="M" type="H" statut="berger" age="A" stat_amour="néant">NICANDRE</role>, berger.</castItem>
-          <castItem><role xml:id="mopse" civil="M" type="H" statut="berger" age="A" stat_amour="néant">MOPSE</role>, berger, cru oncle de Mélicerte.</castItem>
+          <castItem><role xml:id="acante" civil="M" type="H" statut="berger" age="A" stat_amour="Daphné">Acante</role>, amant de Daphné.</castItem>
+          <castItem><role xml:id="tyrene" civil="M" type="H" statut="berger" age="A" stat_amour="Eroxène">Tyrène</role>, amant d’Éroxène.</castItem>
+          <castItem><role xml:id="daphne" civil="F" type="H" statut="berger" age="A" stat_amour="néant">Daphné</role>, bergère.</castItem>
+          <castItem><role xml:id="eroxene" civil="F" type="H" statut="berger" age="A" stat_amour="néant">Éroxène</role>, bergère.</castItem>
+          <castItem><role xml:id="lycarsis" civil="M" type="H" statut="pâtre" age="A" stat_amour="néant">Lycarsys</role>, pâtre, cru père de Myrtil.</castItem>
+          <castItem><role xml:id="myrtil" civil="M" type="H" statut="berger" age="A" stat_amour="Mélicerte">Myrtil</role>, amant de Mélicerte.</castItem>
+          <castItem><role xml:id="melicerte" civil="F" type="D" statut="nymphe" age="A" stat_amour="Myrtil">Mélicerte</role>, nymphe ou bergère, amante de Myrtil.</castItem>
+          <castItem><role xml:id="corinne" civil="F" type="H" statut="confident" age="A" stat_amour="néant">Corinne</role>, confidente de Mélicerte.</castItem>
+          <castItem><role xml:id="nicandre" civil="M" type="H" statut="berger" age="A" stat_amour="néant">Nicandre</role>, berger.</castItem>
+          <castItem><role xml:id="mopse" civil="M" type="H" statut="berger" age="A" stat_amour="néant">Mopse</role>, berger, cru oncle de Mélicerte.</castItem>
         </castList>
         <set location="Thessalie" country="Grèce" periode="Temps mythologiques" link="">La scène est en Thessalie, dans la vallée de Tempé.</set>
       </div>

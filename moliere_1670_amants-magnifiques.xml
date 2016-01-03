@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xml:id="moliere_amants-magnifiques" xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -20,14 +19,11 @@
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_amants-magnifiques.xml</idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl> <author>Molière</author> <title>Les Amants magnifiques. Comédie</title> </bibl>
-        <genre>Comédie</genre>
-        <inspiration>moeurs françaises</inspiration>
-        <type>mixte</type>
-        <structure>Cinq actes</structure>
-        <periode>1661-1670</periode>
-        <taille>250-500</taille>
-        <permalien>http://gallica.bnf.fr/ark:/12148/bpt6k832702</permalien>
+        <bibl>
+          <author>Molière</author>
+          <title>Les Amants magnifiques. Comédie</title>
+          <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k832702">http://gallica.bnf.fr/ark:/12148/bpt6k832702</ref>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -35,8 +31,13 @@
         <date when="1670"/>
       </creation>
       <langUsage>
-        <language ident="FR"/>
+        <language ident="fr"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
@@ -55,26 +56,41 @@
       <div>
         <head>PERSONNAGES DE LA COMÉDIE</head>
         <castList>
-          <castItem><role civil="F" xml:id="aristione">ARISTIONE</role>, Princesse, Mère d'Ériphile.</castItem>
-          <castItem><role civil="F" xml:id="eriphile">ÉRIPHILE</role>, Fille de la Princesse.</castItem>
-          <castItem><role civil="F" xml:id="cleonice">CLÉONICE</role>, Confidente d'Ériphile.</castItem>
-          <castItem><role civil="F" xml:id="chorebe">CHORÈBE</role>, de la suite de la Princesse.</castItem>
-          <castItem><role civil="M" xml:id="iphicrate">IPHICRATE</role>, Amant magnifique.</castItem>
-          <castItem><role civil="M" xml:id="timocles">TIMOCLÈS</role>, Amant magnifique.</castItem>
-          <castItem><role civil="M" xml:id="sostrate">SOSTRATE</role>, Général d'Armée, Amant d'Ériphile.</castItem>
-          <castItem><role civil="M" xml:id="clitidas">CLITIDAS</role>, Plaisant de Cour, de la suite d'Ériphile.</castItem>
-          <castItem><role civil="M" xml:id="anaxarque">ANAXARQUE</role>, Astrologue.</castItem>
-          <castItem><role civil="M" xml:id="cleon">CLÉON</role>, Fils d'Anaxarque.</castItem>
-          <castItem><role civil="F" xml:id="venus">UNE FAUSSE VÉNUS,</role> d'intelligence avec Anaxarque.</castItem>
+          <castItem><role civil="F" xml:id="aristione">Aristione</role>, Princesse, Mère d'Ériphile.</castItem>
+          <castItem><role civil="F" xml:id="eriphile">Ériphile</role>, Fille de la Princesse.</castItem>
+          <castItem><role civil="F" xml:id="cleonice">Cléonice</role>, Confidente d'Ériphile.</castItem>
+          <castItem><role civil="F" xml:id="chorebe">Chorèbe</role>, de la suite de la Princesse.</castItem>
+          <castItem><role civil="M" xml:id="iphicrate">Iphicrate</role>, Amant magnifique.</castItem>
+          <castItem><role civil="M" xml:id="timocles">Timoclès</role>, Amant magnifique.</castItem>
+          <castItem><role civil="M" xml:id="sostrate">Sostrate</role>, Général d'Armée, Amant d'Ériphile.</castItem>
+          <castItem><role civil="M" xml:id="clitidas">Clitidas</role>, Plaisant de Cour, de la suite d'Ériphile.</castItem>
+          <castItem><role civil="M" xml:id="anaxarque">Anaxarque</role>, Astrologue.</castItem>
+          <castItem><role civil="M" xml:id="cleon">Cléon</role>, Fils d'Anaxarque.</castItem>
+          <castItem><role civil="F" xml:id="venus">Une fausse Vénus</role>, d'intelligence avec Anaxarque.</castItem>
         </castList>
         <castList>
-          <castItem><role xml:id="neptune"/></castItem>
-          <castItem><role xml:id="dieu-marin"/></castItem>
-          <castItem><role xml:id="fleuve"/></castItem>
-          <castItem><role xml:id="triton"/><role xml:id="tous-tritons"/></castItem>
-          <castItem> <role xml:id="amour"/></castItem>
-          <castItem><role xml:id="eole"/></castItem>
-          <castItem> <role xml:id="pecheur"/></castItem>
+          <castItem>
+            <role xml:id="neptune"/>
+          </castItem>
+          <castItem>
+            <role xml:id="dieu-marin"/>
+          </castItem>
+          <castItem>
+            <role xml:id="fleuve"/>
+          </castItem>
+          <castItem>
+            <role xml:id="triton"/>
+            <role xml:id="tous-tritons"/>
+          </castItem>
+          <castItem>
+            <role xml:id="amour"/>
+          </castItem>
+          <castItem>
+            <role xml:id="eole"/>
+          </castItem>
+          <castItem>
+            <role xml:id="pecheur"/>
+          </castItem>
         </castList>
         <stage>La Scène est en Thessalie, dans la délicieuse Vallée de Tempé.</stage>
       </div>
@@ -989,7 +1005,9 @@
           <castItem>DEUX SATYRES<role xml:id="satyre1"/><role xml:id="satyre2"/>.</castItem>
           <castItem><role xml:id="climene">CLIMÈNE</role><role xml:id="tous-deux"/>.</castItem>
           <castItem><role xml:id="philinte">PHILINTE</role>.</castItem>
-          <castItem><role xml:id="bergers"/></castItem>
+          <castItem>
+            <role xml:id="bergers"/>
+          </castItem>
         </castList>
         <div2 xml:id="V01">
           <head>PROLOGUE</head>

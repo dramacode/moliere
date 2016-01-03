@@ -1,36 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_sicilien" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Le Sicilien, ou l'Amour peintre. Comédie</title>
+        <title>Le Sicilien</title>
+        <title type="sub">ou l'Amour peintre</title>
         <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
+        <publisher>Publié par Paul Fièvre en octobre 2011, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
         <date when="2011"/>
         <date when="2014"/>
-        <publisher>Publié par Paul Fièvre en octobre 2011, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>        <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_sicilien/</idno>
+         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_sicilien/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_sicilien.xml</idno>
         <availability status="restricted">
           <licence target="projet-Molière"/>
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <genre>Comédie</genre>
-        <inspiration>mœurs françaises</inspiration>
-        <structure>Un acte</structure>
-        <type>mixte</type>
-        <periode>1661-1670</periode>
-        <taille>0-250</taille>
-        <permalien>http://gallica.bnf.fr/ark :/12148/bpt6k5690145v</permalien>
-        <sources>
-          <source id="1">
-            <author/>
-            <text/>
-          </source>
-        </sources>
+        <p>
+          <ref target="http://gallica.bnf.fr/ark :/12148/bpt6k5690145v">http://gallica.bnf.fr/ark :/12148/bpt6k5690145v</ref>
+        </p>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -40,33 +31,39 @@
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
     <front>
       <titlePage>
-      <docTitle>
-        <titlePart type="main">LE <lb/>SICILIEN,</titlePart>
-        <titlePart type="sub">OU <lb/> L’AMOUR<lb/> PEINTRE</titlePart>
-        <titlePart type="sub">COMÉDIE</titlePart>
-      </docTitle>
-        <docAuthor id="MOLIERE" bio="moliere">PAR J. B. P. DE MOLIÈRE</docAuthor>
-        <docImprint>À PARIS, <lb/>Chez Jean Ribou, au Palais, vis à vis <lb/>la Porte de la Sainte Chapelle, <lb/>à l’Image Saint-Louis. <lb/>M. DC. LXVIII.<lb/> <hi rend="i">AVEC PRIVILÈGE DU ROI</hi></docImprint>
+        <docTitle>
+          <titlePart type="main">LE <lb/>SICILIEN,</titlePart>
+          <titlePart type="sub">OU <lb/> L’AMOUR<lb/> PEINTRE</titlePart>
+          <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docAuthor>PAR J. B. P. DE MOLIÈRE</docAuthor>
+        <docImprint>À PARIS, <lb/>Chez Jean Ribou, au Palais, vis à vis <lb/>la Porte de la Sainte Chapelle, <lb/>à l’Image Saint-Louis. <lb/>M. DC. LXVIII.<lb/>
+          <hi rend="i">AVEC PRIVILÈGE DU ROI</hi></docImprint>
       </titlePage>
       <div>
         <head>ACTEURS</head>
-      <castList>
-        <castItem><role xml:id="adraste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">ADRASTE</role>, Gentilhomme Français, Amant d’Isidore.</castItem>
-        <castItem><role xml:id="dom-pedre" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">DON PÈDRE</role>, Sicilien, Amant d’Isidore.</castItem>
-        <castItem><role xml:id="isidore" civil="M" type="H" statut="esclave" age="A" stat_amour="néant">ISIDORE</role>, Grecque, Esclave de Dom Pèdre.</castItem>
-        <castItem><role xml:id="climene" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">CLIMÈNE</role>, Sœur d’Adraste.</castItem>
-        <castItem><role xml:id="hali" civil="M" type="H" statut="valet" age="A" stat_amour="néant">HALI</role>, Valet d’Adraste.</castItem>
-        <castItem><role xml:id="le-senateur" civil="M" type="H" statut="sénateur" age="A" stat_amour="néant">LE SÉNATEUR</role>.</castItem>
-        <castItem><role xml:id="musicien1" civil="G" type="H" statut="musicien" age="A" stat_amour="néant">LES MUSICIENS</role>.<role xml:id="musicien2"/><role xml:id="musicien3"/></castItem>
-        <castItem><role xml:id="troupe-d-esclaves" civil="G" type="H" statut="esclave" age="A" stat_amour="néant">TROUPE D’ESCLAVES</role>.</castItem>
-        <castItem><role xml:id="troupe-de-maures" civil="M" type="H" statut="maure" age="A" stat_amour="néant">TROUPE DE MAURES</role>.</castItem>
-        <castItem><role xml:id="deux-laquais" civil="G" type="H" statut="laquais" age="A" stat_amour="néant">DEUX LAQUAIS</role>.</castItem>
-      </castList>
+        <castList>
+          <castItem><role xml:id="adraste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Adraste</role>, Gentilhomme Français, Amant d’Isidore.</castItem>
+          <castItem><role xml:id="dom-pedre" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Don Pèdre</role>, Sicilien, Amant d’Isidore.</castItem>
+          <castItem><role xml:id="isidore" civil="M" type="H" statut="esclave" age="A" stat_amour="néant">Isidore</role>, Grecque, Esclave de Dom Pèdre.</castItem>
+          <castItem><role xml:id="climene" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">Climène</role>, Sœur d’Adraste.</castItem>
+          <castItem><role xml:id="hali" civil="M" type="H" statut="valet" age="A" stat_amour="néant">Hali</role>, Valet d’Adraste.</castItem>
+          <castItem><role xml:id="le-senateur" civil="M" type="H" statut="sénateur" age="A" stat_amour="néant">Le sénateur</role>.</castItem>
+          <castItem><role xml:id="musicien1" civil="G" type="H" statut="musicien" age="A" stat_amour="néant">Les musiciens</role>.<role xml:id="musicien2"/><role xml:id="musicien3"/></castItem>
+          <castItem><role xml:id="troupe-d-esclaves" civil="G" type="H" statut="esclave" age="A" stat_amour="néant">Troupe d’esclaves</role>.</castItem>
+          <castItem><role xml:id="troupe-de-maures" civil="M" type="H" statut="maure" age="A" stat_amour="néant">Troupe de maures</role>.</castItem>
+          <castItem><role xml:id="deux-laquais" civil="G" type="H" statut="laquais" age="A" stat_amour="néant">Deux laquais</role>.</castItem>
+        </castList>
       </div>
     </front>
     <body>
@@ -174,22 +171,22 @@
           <sp who="musicien1" xml:id="I03-1">
             <speaker>premier musicien</speaker>
             <lg rend="i">
-            <l>Si du triste récit de mon inquiétude,</l>
-            <l>Je trouble le repos de votre Solitude,</l>
-            <l>Rochers, ne soyez point fâchés ;</l>
-            <l>Quand vous saurez l’excès de mes peines secrètes,</l>
-            <l>Tout rochers que vous êtes,</l>
-            <l>Vous en serez touchés.</l>
+              <l>Si du triste récit de mon inquiétude,</l>
+              <l>Je trouble le repos de votre Solitude,</l>
+              <l>Rochers, ne soyez point fâchés ;</l>
+              <l>Quand vous saurez l’excès de mes peines secrètes,</l>
+              <l>Tout rochers que vous êtes,</l>
+              <l>Vous en serez touchés.</l>
             </lg>
           </sp>
           <sp who="musicien2" xml:id="I03-2">
             <speaker>deuxième musicien</speaker>
             <lg rend="i">
-            <l>Les Oiseaux réjouis, dès que le jour s’avance,</l>
-            <l>Recommencent leurs chants dans ces vastes Forêts ;</l>
-            <l>Et moi j’y recommence</l>
-            <l>Mes soupirs languissants, et mes tristes regrets.</l>
-            <l>Ah ! mon cher Philène.</l>
+              <l>Les Oiseaux réjouis, dès que le jour s’avance,</l>
+              <l>Recommencent leurs chants dans ces vastes Forêts ;</l>
+              <l>Et moi j’y recommence</l>
+              <l>Mes soupirs languissants, et mes tristes regrets.</l>
+              <l>Ah ! mon cher Philène.</l>
             </lg>
           </sp>
           <sp who="musicien1" xml:id="I03-3">
@@ -215,28 +212,28 @@
           <sp who="musicien1 musicien2" xml:id="I03-8">
             <speaker>tous deux</speaker>
             <lg rend="i">
-            <l>Ô Loi trop inhumaine !</l>
-            <l>Amour, si tu ne peux les contraindre d’aimer,</l>
-            <l>Pourquoi leur laisses-tu le pouvoir de charmer ?</l>
+              <l>Ô Loi trop inhumaine !</l>
+              <l>Amour, si tu ne peux les contraindre d’aimer,</l>
+              <l>Pourquoi leur laisses-tu le pouvoir de charmer ?</l>
             </lg>
           </sp>
           <sp who="musicien3" xml:id="I03-9">
             <speaker>troisième musicien</speaker>
             <lg rend="i">
-            <l>Pauvres amants, quelle erreur</l>
-            <l>D’adorer des inhumaines ?</l>
-            <l>Jamais les Âmes bien saines</l>
-            <l>Ne se payent de rigueur ;</l>
-            <l>Et les Faveurs sont les chaînes</l>
-            <l>Qui doivent lier un Cœur.</l>
+              <l>Pauvres amants, quelle erreur</l>
+              <l>D’adorer des inhumaines ?</l>
+              <l>Jamais les Âmes bien saines</l>
+              <l>Ne se payent de rigueur ;</l>
+              <l>Et les Faveurs sont les chaînes</l>
+              <l>Qui doivent lier un Cœur.</l>
             </lg>
             <lg rend="i">
-            <l>On voit cent Belles ici,</l>
-            <l>Auprès de qui je m’empresse ;</l>
-            <l>À leur vouer ma tendresse,</l>
-            <l>Je mets mon plus doux souci ;</l>
-            <l>Mais, lorsque l’on est Tigresse,</l>
-            <l>Ma foi, je suis Tigre aussi.</l>
+              <l>On voit cent Belles ici,</l>
+              <l>Auprès de qui je m’empresse ;</l>
+              <l>À leur vouer ma tendresse,</l>
+              <l>Je mets mon plus doux souci ;</l>
+              <l>Mais, lorsque l’on est Tigresse,</l>
+              <l>Ma foi, je suis Tigre aussi.</l>
             </lg>
           </sp>
           <sp who="musicien1 musicien2" xml:id="I03-10">
@@ -523,14 +520,14 @@
           <sp who="hali" xml:id="I08-1">
             <speaker>hali <hi rend="i">chante.</hi></speaker>
             <lg rend="i">
-            <l>D’un Cœur ardent en tous lieux,</l>
-            <l>Un Amant suit une Belle ;</l>
-            <l>Mais d’un Jaloux odieux,</l>
-            <l>La vigilance éternelle,</l>
-            <l>Fait qu’il ne peut que des yeux</l>
-            <l>S’entretenir avec elle.</l>
-            <l>Est-il peine plus cruelle</l>
-            <l>Pour un Cœur bien amoureux ?</l>
+              <l>D’un Cœur ardent en tous lieux,</l>
+              <l>Un Amant suit une Belle ;</l>
+              <l>Mais d’un Jaloux odieux,</l>
+              <l>La vigilance éternelle,</l>
+              <l>Fait qu’il ne peut que des yeux</l>
+              <l>S’entretenir avec elle.</l>
+              <l>Est-il peine plus cruelle</l>
+              <l>Pour un Cœur bien amoureux ?</l>
             </lg>
             <l>Chiribirida ouch alla,</l>
             <l>Starbon Turca,</l>
@@ -544,14 +541,14 @@
             <l>Parlara, parlara,</l>
             <l>Ti voler comprara.</l>
             <lg rend="i">
-            <l>C’est un supplice à tous coups,</l>
-            <l>Sous qui cet Amant expire :</l>
-            <l>Mais si d’un œil un peu doux,</l>
-            <l>La Belle voit son martyre,</l>
-            <l>Et consent qu’aux yeux de tous,</l>
-            <l>Pour ses attraits il soupire,</l>
-            <l>Il pourrait, bientôt, se rire</l>
-            <l>De tous les soins du Jaloux.</l>
+              <l>C’est un supplice à tous coups,</l>
+              <l>Sous qui cet Amant expire :</l>
+              <l>Mais si d’un œil un peu doux,</l>
+              <l>La Belle voit son martyre,</l>
+              <l>Et consent qu’aux yeux de tous,</l>
+              <l>Pour ses attraits il soupire,</l>
+              <l>Il pourrait, bientôt, se rire</l>
+              <l>De tous les soins du Jaloux.</l>
             </lg>
             <l>Chiribirida ouch alla,</l>
             <l>Starbon Turca,</l>
@@ -568,10 +565,10 @@
           <sp who="dom-pedre" xml:id="I08-2">
             <speaker>don pèdre</speaker>
             <lg rend="i">
-            <l>Savez-vous, mes Drôles,</l>
-            <l>Que cette Chanson</l>
-            <l>Sent, pour vos épaules,</l>
-            <l>Les coups de bâton ?</l>
+              <l>Savez-vous, mes Drôles,</l>
+              <l>Que cette Chanson</l>
+              <l>Sent, pour vos épaules,</l>
+              <l>Les coups de bâton ?</l>
             </lg>
             <l>Chiribirida ouch alla,</l>
             <l>Mi ti non comprara,</l>
@@ -671,15 +668,15 @@
             <speaker>don pèdre <hi rend="i">lit.</hi></speaker>
             <p rend="i">Je vous envoie, au lieu de moi, pour le Portrait que vous savez, ce Gentilhomme Français, qui, comme curieux d’obliger les honnêtes Gens, a bien voulu prendre ce soin, sur la proposition que je lui en ai faite. Il est, sans contredit, le premier Homme du Monde pour ces sortes d’Ouvrages ; et j’ai cru que je ne pouvais rendre un service plus agréable, que de vous l’envoyer, dans le dessein que vous avez d’avoir un Portrait achevé, de la Personne que vous aimez. Gardez-vous bien, surtout, de lui parler d’aucune récompense : car c’est un Homme qui s’en offenserait, et qui ne fait les choses que pour la gloire, et pour la réputation.</p>
           </sp>
-          <sp who="dom-pedre">
+          <sp who="dom-pedre" xml:id="I10-6">
             <speaker>don pèdre, <hi rend="i">parlant au Français.</hi></speaker>
             <p>Seigneur Français, c'est une grande grâce que vous me voulez faire ; et je vous suis fort obligé.</p>
           </sp>
-          <sp who="adraste" xml:id="I10-6">
+          <sp who="adraste" xml:id="I10-7">
             <speaker>adraste</speaker>
             <p>Toute mon ambition est de rendre service aux Gens de nom, et de mérite.</p>
           </sp>
-          <sp who="dom-pedre" xml:id="I10-7">
+          <sp who="dom-pedre" xml:id="I10-8">
             <speaker>don pèdre</speaker>
             <p>Je vais faire venir la Personne dont il s’agit.</p>
           </sp>

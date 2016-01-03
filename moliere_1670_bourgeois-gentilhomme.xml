@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_bourgeois-gentilhomme" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Le Bourgeois gentilhomme, comédie-ballet</title>
+        <title>Le Bourgeois gentilhomme</title>
         <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
@@ -22,14 +21,8 @@
         <bibl>
           <author>Molière</author>
           <title>Le Bourgeois gentilhomme, comédie-ballet</title>
+          <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k83269v">http://gallica.bnf.fr/ark:/12148/bpt6k83269v</ref>
         </bibl>
-        <genre>Comédie-ballet</genre>
-        <inspiration>mœurs françaises</inspiration>
-        <structure>Cinq actes</structure>
-        <type>mixte</type>
-        <periode>1661-1670</periode>
-        <taille>250-500</taille>
-        <permalien>http://gallica.bnf.fr/ark:/12148/bpt6k83269v</permalien>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -40,6 +33,11 @@
       <langUsage>
         <language ident="fre"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie-ballet</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
@@ -57,28 +55,28 @@
       </titlePage>
       <castList>
         <head rend="sc">acteurs</head>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="monsieur-jourdain">monsieur jourdain</role>, Bourgeois.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="bourgeois" type="H" xml:id="madame-jourdain">madame jourdain</role>, sa Femme.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="lucile">lucile</role>, Fille de Monsieur Jourdain.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="servante" type="H" xml:id="nicole">nicole</role>, Servante.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="cleonte">cléonte</role>, Amoureux de Lucile.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="valet" type="H" xml:id="covielle">covielle</role>, Valet de Cléonte.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="amoureux" statut="comte" type="H" xml:id="dorante">dorante</role>, Comte, Amant de Dorimène.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="marquis" type="H" xml:id="dorimene">dorimène</role>, Marquise.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="maître de mmusique" type="H" xml:id="maitre-de-musique">maître de musique.</role>.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="monsieur-jourdain">Monsieur Jourdain</role>, Bourgeois.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="néant" statut="bourgeois" type="H" xml:id="madame-jourdain">Madame Jourdain</role>, sa Femme.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="lucile">Lucile</role>, Fille de Monsieur Jourdain.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="néant" statut="servante" type="H" xml:id="nicole">Nicole</role>, Servante.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="cleonte">Cléonte</role>, Amoureux de Lucile.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="valet" type="H" xml:id="covielle">Covielle</role>, Valet de Cléonte.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="amoureux" statut="comte" type="H" xml:id="dorante">Dorante</role>, Comte, Amant de Dorimène.</castItem>
+        <castItem><role age="A" civil="F" stat_amour="néant" statut="marquis" type="H" xml:id="dorimene">Dorimène</role>, Marquise.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="maître de mmusique" type="H" xml:id="maitre-de-musique">Maître de musique.</role>.</castItem>
         <castItem>
-          <role age="A" civil="M" stat_amour="néant" statut="élève" type="H" xml:id="l-eleve">élève du maître de musique.</role>
+          <role age="A" civil="M" stat_amour="néant" statut="élève" type="H" xml:id="l-eleve">Élève du maître de musique.</role>
           <role xml:id="musicien1"/>
           <role xml:id="musicien2"/>
           <role xml:id="musicienne"/>
         </castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="maître à danser" type="H" xml:id="maitre-a-danser">maître à danser.</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="maître d’armes" type="H" xml:id="maitre-d-armes">maître d'armes.</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="philosophe" type="H" xml:id="maitre-de-philosophie">maître de philosophie.</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="tailleur" type="H" xml:id="maitre-tailleur">maître tailleur.</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="tailleur" type="H" xml:id="garcon-tailleur">garçon tailleur.</role>.</castItem>
-        <castItem><role age="A" civil="G" stat_amour="néant" statut="laquais" type="H" xml:id="laquais1">deux laquais.</role><role xml:id="laquais2"/>.</castItem>
-        <castItem type="list">plusieurs musiciens, musiciennes, joueurs d’instruments, danseurs, cuisiniers, garçons tailleurs, <hi rend="n">Et autres Personnages des Intermèdes et du Ballet</hi>.<role xml:id="mufti"/><role xml:id="turcs"/><role xml:id="homme-du-bel-air"/><role xml:id="vieille-bourgeoise-babillarde"/><role xml:id="vieux-bourgeois-babillard"/><role xml:id="suisse"/><role xml:id="gascon"/><role xml:id="autre-gascon"/><role xml:id="tous"/><role xml:id="autre-homme-du-bel-air"/><role xml:id="femme-du-bel-air"/><role xml:id="autre-femme-du-bel-air"/><role xml:id="espagnol1"/><role xml:id="espagnol2"/><role xml:id="espagnol3"/><role xml:id="musicien"/></castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="maître à danser" type="H" xml:id="maitre-a-danser">Maître à danser.</role>.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="maître d’armes" type="H" xml:id="maitre-d-armes">Maître d'armes.</role>.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="philosophe" type="H" xml:id="maitre-de-philosophie">Maître de philosophie.</role>.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="tailleur" type="H" xml:id="maitre-tailleur">Maître tailleur.</role>.</castItem>
+        <castItem><role age="A" civil="M" stat_amour="néant" statut="tailleur" type="H" xml:id="garcon-tailleur">Garçon tailleur.</role>.</castItem>
+        <castItem><role age="A" civil="G" stat_amour="néant" statut="laquais" type="H" xml:id="laquais1">Deux laquais.</role><role xml:id="laquais2"/>.</castItem>
+        <castItem type="list">Plusieurs musiciens, musiciennes, joueurs d’instruments, danseurs, cuisiniers, garçons tailleurs, <hi rend="n">Et autres Personnages des Intermèdes et du Ballet</hi>.<role xml:id="mufti"/><role xml:id="turcs"/><role xml:id="homme-du-bel-air"/><role xml:id="vieille-bourgeoise-babillarde"/><role xml:id="vieux-bourgeois-babillard"/><role xml:id="suisse"/><role xml:id="gascon"/><role xml:id="autre-gascon"/><role xml:id="tous"/><role xml:id="autre-homme-du-bel-air"/><role xml:id="femme-du-bel-air"/><role xml:id="autre-femme-du-bel-air"/><role xml:id="espagnol1"/><role xml:id="espagnol2"/><role xml:id="espagnol3"/><role xml:id="musicien"/></castItem>
       </castList>
       <set country="France" link="" location="Paris" periode="XVIIème">La Scène est à Paris.</set>
     </front>

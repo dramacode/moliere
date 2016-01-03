@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_monsieur-pourceaugnac" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Monsieur De Pourceaugnac, Comédie-Ballet</title>
+        <title>Monsieur De Pourceaugnac</title>
         <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
@@ -22,14 +21,8 @@
         <bibl>
           <author>Molière</author>
           <title>Monsieur de Pourceaugnac</title>
+          <ref target="http://gallica.bnf.fr/ark :/12148/btv1b8610798z">http://gallica.bnf.fr/ark :/12148/btv1b8610798z</ref>
         </bibl>
-        <genre>Comédie-ballet</genre>
-        <inspiration>mœurs françaises</inspiration>
-        <type>mixte</type>
-        <structure>Cinq actes</structure>
-        <periode>1661-1670</periode>
-        <taille>0-250</taille>
-        <permalien>http://gallica.bnf.fr/ark :/12148/btv1b8610798z</permalien>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -37,8 +30,13 @@
         <date when="1669">1669</date>
       </creation>
       <langUsage>
-        <language ident="fre"></language>
+        <language ident="fr"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie-Ballet</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
@@ -56,41 +54,41 @@
       </titlePage>
       <div>
         <head rend="uc">Acteurs</head>
-      <castList>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="pourceaugnac">MONSIEUR DE POURCEAUGNAC</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="oronte">ORONTE</role>.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="julie">JULIE</role>, Fille d’Oronte.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="bourgeois" type="H" xml:id="nerine">NÉRINE</role>, Femme d’intrigue.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="bourgeois" type="H" xml:id="lucette">LUCETTE</role>, feinte Gasconne.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="eraste">ÉRASTE</role>, Amant de Julie.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="sbrigani">SBRIGANI</role>, Napolitain, Homme d’intrigue.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="médecin" type="H" xml:id="medecin1">PREMIER MÉDECIN</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="médecin" type="H" xml:id="medecin2">SECOND MÉDECIN</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="apothcaire" type="H" xml:id="apothicaire">L’APOTHICAIRE</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="paysan" type="H" xml:id="paysan">UN PAYSAN</role>.</castItem>
-        <castItem><role age="A" civil="F" stat_amour="néant" statut="paysan" type="H" xml:id="paysanne">UNE PAYSANNE</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="musicien" type="H" xml:id="musicien1">PREMIER MUSICIEN</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="musicien" type="H" xml:id="musicien2">SECOND MUSICIEN</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="avocat" type="H" xml:id="avocat1">PREMIER AVOCAT</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="avocat" type="H" xml:id="avocat2">SECOND AVOCAT</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="suisse" type="H" xml:id="suisse1">PREMIER SUISSE</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="suisse" type="H" xml:id="suisse2">SECOND SUISSE</role>.</castItem>
-        <castItem><role age="A" civil="M" stat_amour="néant" statut="exempt" type="H" xml:id="exempt">UN EXEMPT</role>.</castItem>
-        <castItem><role age="A" civil="G" stat_amour="néant" statut="achers" type="H" xml:id="deux-archers">DEUX ARCHERS</role>.</castItem>
-        <castItem><role age="A" civil="G" stat_amour="néant" statut="musicien" type="H" xml:id="musiciens">PLUSIEURS MUSICIENS</role><role xml:id="musicien"/><role xml:id="egyptienne"/><role xml:id="egyptien"/>.</castItem>
-        <castItem><role age="A" civil="G" stat_amour="néant" statut="danseur" type="H" xml:id="joueurs-instruments_danseurs">JOUEURS d’INSTRUMENTS, ET DANSEURS</role>.<role xml:id="enfants"></role></castItem>
-        <castItem>
-          <role xml:id="premiere-voix"></role>
-          <role xml:id="deuxieme-voix"></role>
-          <role xml:id="troisieme-voix"></role>
-          <role xml:id="tous-ensemble"></role>
-          <role xml:id="jeanet"></role>
-          <role xml:id="les-enfants"></role>
-          <role xml:id="l-avocat-bredouilleur"></role>
-          <role xml:id="l-avocat"></role>
-          <role xml:id="choeur"></role>
-        </castItem>
-      </castList>
+        <castList>
+          <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="pourceaugnac">Monsieur de Pourceaugnac</role>.</castItem>
+          <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="oronte">Oronte</role>.</castItem>
+          <castItem><role age="A" civil="F" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="julie">Julie</role>, Fille d’Oronte.</castItem>
+          <castItem><role age="A" civil="F" stat_amour="néant" statut="bourgeois" type="H" xml:id="nerine">Nérine</role>, Femme d’intrigue.</castItem>
+          <castItem><role age="A" civil="F" stat_amour="néant" statut="bourgeois" type="H" xml:id="lucette">Lucette</role>, feinte Gasconne.</castItem>
+          <castItem><role age="A" civil="M" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="eraste">Éraste</role>, Amant de Julie.</castItem>
+          <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="sbrigani">Sbrigani</role>, Napolitain, Homme d’intrigue.</castItem>
+          <castItem><role age="A" civil="M" stat_amour="néant" statut="médecin" type="H" xml:id="medecin1">Premier médecin</role>.</castItem>
+          <castItem><role age="A" civil="M" stat_amour="néant" statut="médecin" type="H" xml:id="medecin2">Second médecin</role>.</castItem>
+          <castItem><role age="A" civil="M" stat_amour="néant" statut="apothcaire" type="H" xml:id="apothicaire">L’apothicaire</role>.</castItem>
+          <castItem><role age="A" civil="M" stat_amour="néant" statut="paysan" type="H" xml:id="paysan">Un paysan</role>.</castItem>
+          <castItem><role age="A" civil="F" stat_amour="néant" statut="paysan" type="H" xml:id="paysanne">Une paysanne</role>.</castItem>
+          <castItem><role age="A" civil="M" stat_amour="néant" statut="musicien" type="H" xml:id="musicien1">Premier musicien</role>.</castItem>
+          <castItem><role age="A" civil="M" stat_amour="néant" statut="musicien" type="H" xml:id="musicien2">Second musicien</role>.</castItem>
+          <castItem><role age="A" civil="M" stat_amour="néant" statut="avocat" type="H" xml:id="avocat1">Premier avocat</role>.</castItem>
+          <castItem><role age="A" civil="M" stat_amour="néant" statut="avocat" type="H" xml:id="avocat2">Second avocat</role>.</castItem>
+          <castItem><role age="A" civil="M" stat_amour="néant" statut="suisse" type="H" xml:id="suisse1">Premier suisse</role>.</castItem>
+          <castItem><role age="A" civil="M" stat_amour="néant" statut="suisse" type="H" xml:id="suisse2">Second suisse</role>.</castItem>
+          <castItem><role age="A" civil="M" stat_amour="néant" statut="exempt" type="H" xml:id="exempt">Un exempt</role>.</castItem>
+          <castItem><role age="A" civil="G" stat_amour="néant" statut="achers" type="H" xml:id="deux-archers">Deux archers</role>.</castItem>
+          <castItem><role age="A" civil="G" stat_amour="néant" statut="musicien" type="H" xml:id="musiciens">Plusieurs musiciens</role><role xml:id="musicien"/><role xml:id="egyptienne"/><role xml:id="egyptien"/>.</castItem>
+          <castItem><role age="A" civil="G" stat_amour="néant" statut="danseur" type="H" xml:id="joueurs-instruments_danseurs">Joueurs d’instruments, et danseurs</role>.
+            <role xml:id="enfants"/>
+            <role xml:id="premiere-voix"/>
+            <role xml:id="deuxieme-voix"/>
+            <role xml:id="troisieme-voix"/>
+            <role xml:id="tous-ensemble"/>
+            <role xml:id="jeanet"/>
+            <role xml:id="les-enfants"/>
+            <role xml:id="l-avocat-bredouilleur"/>
+            <role xml:id="l-avocat"/>
+            <role xml:id="choeur"/>
+          </castItem>
+        </castList>
         <stage country="France" link="" location="Paris" periode="XVIIème">La Scène est à Paris.</stage>
       </div>
     </front>
@@ -1131,7 +1129,7 @@
           <sp who="eraste" xml:id="I07-11">
             <speaker>éraste</speaker>
             <p>C’est ce que je veux faire.</p>
-              <stage>bas au Médecin.</stage>
+            <stage>bas au Médecin.</stage>
             <p>Je vous recommande surtout de ne le point laisser sortir de vos mains, car parfois il veut s’échapper.</p>
           </sp>
           <sp who="medecin1" xml:id="I07-12">
@@ -1398,14 +1396,14 @@
           <sp who="musicien1 musicien2" xml:id="I11-8">
             <speaker>Les deux Musiciens, <hi rend="i">accompagnés des Matassins et des instruments, dansent à l’entour de M. de Pourceaugnac, et s’arrêtant devant lui, chantent</hi> :</speaker>
             <lg rend="i">
-            <l>Piglialo su</l>
-            <l>Signor Monsù,</l>
-            <l>Piglialo, piglialo, piglialo su,</l>
-            <l>Che non ti farà male,</l>
-            <l>Piglialo su questo servitiale,</l>
-            <l>Piglialo su</l>
-            <l>Signor Monsù,</l>
-            <l>Piglialo, piglialo, piglialo su.</l>
+              <l>Piglialo su</l>
+              <l>Signor Monsù,</l>
+              <l>Piglialo, piglialo, piglialo su,</l>
+              <l>Che non ti farà male,</l>
+              <l>Piglialo su questo servitiale,</l>
+              <l>Piglialo su</l>
+              <l>Signor Monsù,</l>
+              <l>Piglialo, piglialo, piglialo su.</l>
             </lg>
           </sp>
           <sp who="pourceaugnac" xml:id="I11-9">
@@ -3012,8 +3010,8 @@
             <l>Soyons toujours amoureux,</l>
             <l>C’est le moyen d’être heureux.</l>
           </sp>
-            <sp who="choeur">
-              <speaker><hi rend="i">Le petit</hi> choeur <hi rend="i">chante après ces deux derniers Vers</hi>.</speaker>
+          <sp who="choeur">
+            <speaker><hi rend="i">Le petit</hi> choeur <hi rend="i">chante après ces deux derniers Vers</hi>.</speaker>
             <l>Sus, sus, chantons tous ensemble,</l>
             <l>Dansons, sautons, jouons-nous.</l>
           </sp>

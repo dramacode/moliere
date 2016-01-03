@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_etourdi">
   <teiHeader>
@@ -14,7 +13,7 @@
         <date when="2014"/>
         <publisher>Publié par Paul Fièvre, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
         <availability status="restricted">
-          <licence target="projet-Molière"></licence>
+          <licence target="projet-Molière"/>
         </availability>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_etourdi/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_etourdi.xml</idno>
@@ -24,34 +23,33 @@
           <author>Molière</author>
           <title>L'Étourdi ou Les Contre-temps. Comédie</title>
         </bibl>
-        <genre>Comédie</genre>
-        <inspiration>moeurs françaises</inspiration>
-        <structure>Cinq actes</structure>
-        <type>vers</type>
-        <periode>1651-1660</periode>
-        <taille>2000-2250</taille>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="1663"/>
+        <date when="1655"/>
       </creation>
       <langUsage>
         <language ident="FR"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
     <front>
       <titlePage>
-      <docTitle>
-        <titlePart type="main">L'ÉTOURDI <lb/>OU LES CONTRETEMPS,</titlePart>
-        <titlePart type="sub">COMÉDIE</titlePart>
-      </docTitle>
-      <argument>
-        <p>Représentée sur le <lb/>Théâtre du Palais Royal</p>
-      </argument>
-      <docAuthor rend="i">Par J. B. P. MOLIÈRE</docAuthor>
+        <docTitle>
+          <titlePart type="main">L'ÉTOURDI <lb/>OU LES CONTRETEMPS,</titlePart>
+          <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <argument>
+          <p>Représentée sur le <lb/>Théâtre du Palais Royal</p>
+        </argument>
+        <docAuthor rend="i">Par J. B. P. MOLIÈRE</docAuthor>
         <docImprint>À PARIS, <lb/>Chez GABRIEL QUINET, <lb/>au Palais, dans la Galerie des Prisonniers, <lb/>à l'Ange Gabriel. <lb/>M. DC. LXIII. <lb/><hi rend="i">AVEC PRIVILÈGE DU ROI.</hi></docImprint>
       </titlePage>
       <div type="dedication">
@@ -65,21 +63,21 @@
       </div>
       <div>
         <head>ACTEURS</head>
-      <castList>
-        <castItem><role xml:id="lelie" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LÉLIE</role>, fils de Pandolphe.</castItem>
-        <castItem><role xml:id="celie" civil="F" type="H" statut="esclave" age="A" stat_amour="néant">CÉLIE</role>, esclave de Trufaldin.</castItem>
-        <castItem><role xml:id="mascarille" civil="M" type="H" statut="valet" age="A" stat_amour="néant">MASCARILLE</role>, valet de Lélie.</castItem>
-        <castItem><role xml:id="hippolyte" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">HIPPOLYTE</role>, fille d'Anselme.</castItem>
-        <castItem><role xml:id="anselme" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">ANSELME</role>, vieillard.</castItem>
-        <castItem><role xml:id="trufaldin" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">TRUFALDIN</role>, vieillard.</castItem>
-        <castItem><role xml:id="pandolfe" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">PANDOLPHE</role>, vieillard.</castItem>
-        <castItem><role xml:id="leandre" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LÉANDRE</role>, fils de famille.</castItem>
-        <castItem><role xml:id="andres" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">ANDRÈS</role>, cru Égyptien.</castItem>
-        <castItem><role xml:id="ergaste" civil="M" type="H" statut="vallet" age="A" stat_amour="néant">ERGASTE</role>, valet.</castItem>
-        <castItem><role xml:id="courrier" civil="M" type="H" statut="courrier" age="A" stat_amour="néant">UN COURRIER</role>.</castItem>
-        <castItem><role xml:id="troupe-masques" civil="G" type="H" statut="masque" age="A" stat_amour="néant">Deux troupes de Masques</role>.</castItem>
-      </castList>
-      <stage location="Messine" country="Italie" periode="XVIIème" link="">La Scène est à Messine.</stage>
+        <castList>
+          <castItem><role xml:id="lelie" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Lélie</role>, fils de Pandolphe.</castItem>
+          <castItem><role xml:id="celie" civil="F" type="H" statut="esclave" age="A" stat_amour="néant">Célie</role>, esclave de Trufaldin.</castItem>
+          <castItem><role xml:id="mascarille" civil="M" type="H" statut="valet" age="A" stat_amour="néant">Mascarille</role>, valet de Lélie.</castItem>
+          <castItem><role xml:id="hippolyte" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Hippolyte</role>, fille d'Anselme.</castItem>
+          <castItem><role xml:id="anselme" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">Anselme</role>, vieillard.</castItem>
+          <castItem><role xml:id="trufaldin" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">Trufaldin</role>, vieillard.</castItem>
+          <castItem><role xml:id="pandolfe" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">Pandolphe</role>, vieillard.</castItem>
+          <castItem><role xml:id="leandre" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Léandre</role>, fils de famille.</castItem>
+          <castItem><role xml:id="andres" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Andrès</role>, cru Égyptien.</castItem>
+          <castItem><role xml:id="ergaste" civil="M" type="H" statut="vallet" age="A" stat_amour="néant">Ergaste</role>, valet.</castItem>
+          <castItem><role xml:id="courrier" civil="M" type="H" statut="courrier" age="A" stat_amour="néant">Un courrier</role>.</castItem>
+          <castItem><role xml:id="troupe-masques" civil="G" type="H" statut="masque" age="A" stat_amour="néant">Deux troupes de Masques</role>.</castItem>
+        </castList>
+        <stage location="Messine" country="Italie" periode="XVIIème" link="">La Scène est à Messine.</stage>
       </div>
     </front>
     <body>
@@ -1994,22 +1992,22 @@
             <l>Lui rendre seulement la lettre que voici.</l>
             <label>LETTRE.</label>
             <lg rend="i">
-            <l>Le Ciel, dont la bonté prend souci de ma vie,</l>
-            <l>Vient de me faire ouïr par un bruit assez doux,</l>
-            <l n="805">Que ma fille à quatre ans par des voleurs ravie,</l>
-            <l>Sous le nom de Célie est esclave chez vous.</l>
+              <l>Le Ciel, dont la bonté prend souci de ma vie,</l>
+              <l>Vient de me faire ouïr par un bruit assez doux,</l>
+              <l n="805">Que ma fille à quatre ans par des voleurs ravie,</l>
+              <l>Sous le nom de Célie est esclave chez vous.</l>
             </lg>
             <lg rend="i">
-            <l>Si vous sûtes jamais ce que c’est qu’être père,</l>
-            <l>Et vous trouvez sensible aux tendresses du sang,</l>
-            <l>Conservez-moi chez vous cette fille si chère,</l>
-            <l n="810">Comme si de la vôtre elle tenait le rang.</l>
+              <l>Si vous sûtes jamais ce que c’est qu’être père,</l>
+              <l>Et vous trouvez sensible aux tendresses du sang,</l>
+              <l>Conservez-moi chez vous cette fille si chère,</l>
+              <l n="810">Comme si de la vôtre elle tenait le rang.</l>
             </lg>
             <lg rend="i">
-            <l>Pour l’aller retirer, je pars d’ici moi-même,</l>
-            <l>Et vous vais de vos soins récompenser si bien,</l>
-            <l>Que par votre bonheur que je veux rendre extrême,</l>
-            <l>Vous bénirez le jour où vous causez le mien.</l>
+              <l>Pour l’aller retirer, je pars d’ici moi-même,</l>
+              <l>Et vous vais de vos soins récompenser si bien,</l>
+              <l>Que par votre bonheur que je veux rendre extrême,</l>
+              <l>Vous bénirez le jour où vous causez le mien.</l>
             </lg>
             <p rend="i">De Madrid.</p>
             <p rend="i">Dom Pedro de Gusman, Marquis de Montalcane.</p>
@@ -3993,82 +3991,82 @@
         <div2 type="scene" xml:id="V03">
           <head>SCÈNE III</head>
           <stage>Mascarille, Célie, Andrès</stage>
-          <sp who="andres">
+          <sp who="andres" xml:id="V03-1">
             <speaker>andrès</speaker>
             <l>Seigneur Suisse, êtes-vous de ce logis le maître ?</l>
           </sp>
-          <sp who="mascarille" xml:id="V03-1">
+          <sp who="mascarille" xml:id="V03-2">
             <speaker>mascarille</speaker>
             <l>Moi, pour serfir à fous.</l>
           </sp>
-          <sp who="andres" xml:id="V03-2">
+          <sp who="andres" xml:id="V03-3">
             <speaker>andrès</speaker>
             <l>Pourrons-nous y bien être ?</l>
           </sp>
-          <sp who="mascarille" xml:id="V03-3">
+          <sp who="mascarille" xml:id="V03-4">
             <speaker>mascarille</speaker>
             <l>Oui, moi pour d’estrancher chappon champre garni ;</l>
             <l>Mais ché non point locher te gent te méchant vi.</l>
           </sp>
-          <sp who="andres" xml:id="V03-4">
+          <sp who="andres" xml:id="V03-5">
             <speaker>andrès</speaker>
             <l n="1755">Je crois votre maison franche de tout ombrage.</l>
           </sp>
-          <sp who="mascarille" xml:id="V03-5">
+          <sp who="mascarille" xml:id="V03-6">
             <speaker>mascarille </speaker>
             <l>Fous nouviau dant sti fil, moi foir à la fissage.</l>
           </sp>
-          <sp who="andres" xml:id="V03-6">
+          <sp who="andres" xml:id="V03-7">
             <speaker>andrès</speaker>
             <l>Oui.</l>
           </sp>
-          <sp who="mascarille" xml:id="V03-7">
+          <sp who="mascarille" xml:id="V03-8">
             <speaker>mascarille</speaker>
             <l>La matame est-il mariage al montsieur ?</l>
           </sp>
-          <sp who="andres" xml:id="V03-8">
+          <sp who="andres" xml:id="V03-9">
             <speaker>andrès</speaker>
             <l>Quoi ?</l>
           </sp>
-          <sp who="mascarille" xml:id="V03-9">
+          <sp who="mascarille" xml:id="V03-10">
             <speaker>mascarille</speaker>
             <l>S’il être son fame, ou s’il être son sœur ?</l>
           </sp>
-          <sp who="andres" xml:id="V03-10">
+          <sp who="andres" xml:id="V03-11">
             <speaker>andrès</speaker>
             <l>Non.</l>
           </sp>
-          <sp who="mascarille" xml:id="V03-11">
+          <sp who="mascarille" xml:id="V03-12">
             <speaker>mascarille</speaker>
             <l>Mon foi, pien choli : finir pour marchandisse,</l>
             <l n="1760">Ou pien pour temanter à la Palais choustice ?</l>
             <l>La procès, il fault rien, il coûter tant tarchant ;</l>
             <l>La procurair larron, la focat pien méchant.</l>
           </sp>
-          <sp who="andres" xml:id="V03-12">
+          <sp who="andres" xml:id="V03-13">
             <speaker>andrès</speaker>
             <l>Ce n’est pas pour cela.</l>
           </sp>
-          <sp who="mascarille" xml:id="V03-13">
+          <sp who="mascarille" xml:id="V03-14">
             <speaker>mascarille</speaker>
             <l>Fous tonc mener sti file,</l>
             <l>Pour fenir pourmener, et recarter la file ?</l>
           </sp>
-          <sp who="andres" xml:id="V03-14">
+          <sp who="andres" xml:id="V03-15">
             <speaker>andrès</speaker>
             <l n="1765">Il n’importe. Je suis à vous dans un moment.</l>
             <l>Je vais faire venir la vieille promptement,</l>
             <l>Contremander aussi notre voiture prête.</l>
           </sp>
-          <sp who="mascarille" xml:id="V03-15">
+          <sp who="mascarille" xml:id="V03-16">
             <speaker>mascarille</speaker>
             <l>Li ne porte pas pien ?</l>
           </sp>
-          <sp who="andres" xml:id="V03-16">
+          <sp who="andres" xml:id="V03-17">
             <speaker>andrès</speaker>
             <l>Elle a mal à la tête.</l>
           </sp>
-          <sp who="mascarille" xml:id="V03-17">
+          <sp who="mascarille" xml:id="V03-18">
             <speaker>mascarille</speaker>
             <l>Moi, chavoir de pon fin, et de fromage pon.</l>
             <l n="1770">Entre fous, entre fous, dans mon petit maisson.</l>

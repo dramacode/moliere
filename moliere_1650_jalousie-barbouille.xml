@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_jalousie-barbouille" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>La Jalousie du Barbouillé, comédie</title>
+        <title>La Jalousie du Barbouillé</title>
+        <title type="sub">Comédie</title>
         <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <editionStmt>
@@ -43,26 +43,33 @@
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
     <front>
       <titlePage>
-		<docTitle><titlePart type="main">LA JALOUSIE DU BARBOUILLÉ</titlePart><titlePart type="sub">COMÉDIE</titlePart></docTitle> 
-		<docAuthor id="MOLIERE" bio="moliere">Molière</docAuthor>
+        <docTitle>
+          <titlePart type="main">LA JALOUSIE DU BARBOUILLÉ</titlePart>
+          <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docAuthor id="MOLIERE" bio="moliere">Molière</docAuthor>
         <docEdition>D'après un manuscrit du XVIIIe siècle</docEdition>
       </titlePage>
       <div>
-          <head>ACTEURS</head>
+        <head>ACTEURS</head>
         <castList>
-          <castItem><role xml:id="le-barbouille" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">BARBOUILLÉ</role>, mari d'Angélique.</castItem>
-          <castItem><role xml:id="le-docteur" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">LE DOCTEUR</role>.</castItem>
-          <castItem><role xml:id="angelique" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">ANGÉLIQUE</role>, Fille de Gorgibus.</castItem>
-          <castItem><role xml:id="valere" civil="M" type="H" statut="bourgeois" age="A" stat_amour="amoureux">VALÈRE</role>, Amant d'Angélique.</castItem>
-          <castItem><role xml:id="cathau" civil="F" type="H" statut="suivante" age="A" stat_amour="néant">CATHAU</role>, Suivante d'Angélique.</castItem>
-          <castItem><role xml:id="gorgibus" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">GORGIBUS</role>, Père d'Angélique.</castItem>
-          <castItem><role xml:id="villebrequin" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">VILLEBREQUIN</role>.</castItem>
-          <castItem><role xml:id="la-vallee"></role></castItem>
+          <castItem><role xml:id="le-barbouille" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Barbouillé</role>, mari d'Angélique.</castItem>
+          <castItem><role xml:id="le-docteur" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">Le docteur</role>.</castItem>
+          <castItem><role xml:id="angelique" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">Angélique</role>, Fille de Gorgibus.</castItem>
+          <castItem><role xml:id="valere" civil="M" type="H" statut="bourgeois" age="A" stat_amour="amoureux">Valère</role>, Amant d'Angélique.</castItem>
+          <castItem><role xml:id="cathau" civil="F" type="H" statut="suivante" age="A" stat_amour="néant">Cathau</role>, Suivante d'Angélique.</castItem>
+          <castItem><role xml:id="gorgibus" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">Gorgibus</role>, Père d'Angélique.</castItem>
+          <castItem><role xml:id="villebrequin" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Villebrequin</role>.<role xml:id="la-vallee"/></castItem>
         </castList>
         <set location="(non indiqué)" country="France" periode="XVIIème" link="">[La localisation de la scène n'est pas indiquée.]</set>
       </div>
@@ -88,90 +95,90 @@
             <speaker>le docteur</speaker>
             <p>Il faut que tu sois bien mal appris, bien Lourdaud, et bien mal morigéné, mon ami, puisque tu m’abordes sans ôter ton chapeau, sans observer <hi rend="i">rationem loci, temporis et personæ</hi>. Quoi débuter d’abord par un discours mal digéré, au lieu de dire <hi rend="i">Salve, vel Salvus sis Doctor, Doctorum Eruditissime,</hi> eh pour qui me prends-tu, mon ami ?</p>
           </sp>
-          <sp who="le-barbouille">
+          <sp who="le-barbouille" xml:id="I02-3">
             <speaker>le barbouillé</speaker>
             <p>Ma foi excusez-moi, c’est que j’avais l’Esprit en écharpe, et je ne songeais pas à ce que je faisais, mais je sais bien que vous êtes galant homme.</p>
           </sp>
-          <sp who="le-docteur" xml:id="I02-3">
+          <sp who="le-docteur" xml:id="I02-4">
             <speaker>le docteur</speaker>
             <p>Sais-tu bien d’où vient le mot de <hi rend="i">galant homme</hi> ?</p>
           </sp>
-          <sp who="le-barbouille" xml:id="I02-4">
+          <sp who="le-barbouille" xml:id="I02-5">
             <speaker>le barbouillé</speaker>
             <p>Qu'il vienne de Villejuif ou d’Aubervilliers, je ne m’en soucie guère.</p>
           </sp>
-          <sp who="le-docteur" xml:id="I02-5">
+          <sp who="le-docteur" xml:id="I02-6">
             <speaker>le docteur</speaker>
             <p>Sache que le mot de galant homme vient d’<hi rend="i">élégant</hi>, prenant le <hi rend="i">g</hi> et l’<hi rend="i">a</hi> de la dernière syllabe cela fait <hi rend="i">ga</hi>, et puis prenant <hi rend="i">l</hi>, ajoutant un <hi rend="i">a</hi> et les deux dernières lettres, cela fait <hi rend="i">galant</hi> et puis ajoutant <hi rend="i">homme</hi>, cela fait <hi rend="i">galant homme</hi>. Mais encore pour qui me prends-tu !</p>
           </sp>
-          <sp who="le-barbouille" xml:id="I02-6">
+          <sp who="le-barbouille" xml:id="I02-7">
             <speaker>le barbouillé</speaker>
             <p>Je vous prends pour un Docteur. Or çà, parlons un peu de l’affaire que je vous veux proposer, il faut que vous sachiez.</p>
           </sp>
-          <sp who="le-docteur" xml:id="I02-7">
+          <sp who="le-docteur" xml:id="I02-8">
             <speaker>le docteur</speaker>
             <p>Sache auparavant que je ne suis pas seulement un Docteur, mais que je suis 1. 2. 3. 4. 5. 6. 7. 8. 9 et 10 fois Docteur.</p>
             <p>1º Parce que comme l’unité est la Base, le fondement et le premier de tous les nombres, aussi moi je suis le premier de tous les Docteurs, le docte des doctes.</p>
             <p>2º Parce qu’il y a deux facultés nécessaires pour la parfaite connaissance de toutes choses, le Sens et l’Entendement, et comme je suis tout Sens et tout Entendement je suis deux fois Docteur.</p>
           </sp>
-          <sp who="le-barbouille" xml:id="I02-8">
+          <sp who="le-barbouille" xml:id="I02-9">
             <speaker>le barbouillé</speaker>
             <p>D'accord, c'est que...</p>
           </sp>
-          <sp who="le-docteur" xml:id="I02-9">
+          <sp who="le-docteur" xml:id="I02-10">
             <speaker>le docteur</speaker>
             <p>3º Parce que le nombre de 3 est celui de la perfection selon Aristote, et, comme je suis parfait, et que toutes mes Productions le sont aussi, je suis 3 fois Docteur.</p>
           </sp>
-          <sp who="le-barbouille" xml:id="I02-10">
+          <sp who="le-barbouille" xml:id="I02-11">
             <speaker>le barbouillé</speaker>
             <p>Eh bien, Monsieur le Docteur.</p>
           </sp>
-          <sp who="le-docteur" xml:id="I02-11">
+          <sp who="le-docteur" xml:id="I02-12">
             <speaker>le docteur </speaker>
             <p>4º Parce que la Philosophie a quatre parties, la Logique, Morale, Physique, et Métaphysique, et comme je les possède toutes quatre et que je suis parfaitement versé en icelles, je suis quatre fois Docteur.</p>
           </sp>
-          <sp who="le-barbouille" xml:id="I02-12">
+          <sp who="le-barbouille" xml:id="I02-13">
             <speaker>le barbouillé</speaker>
             <p>Que diable, je n’en doute pas, écoutez-moi donc.</p>
           </sp>
-          <sp who="le-docteur" xml:id="I02-13">
+          <sp who="le-docteur" xml:id="I02-14">
             <speaker>le docteur</speaker>
             <p>5º Parce qu’il y a cinq universelles, le Genre, l’Espèce, la Différence, le Propre et l’Accident, sans la connoissance desquels il est impossible de faire aucun bon raisonnement, et comme je m’en sers avec avantage, et que j’en connais l’utilité, je suis cinq fois Docteur.</p>
           </sp>
-          <sp who="le-barbouille" xml:id="I02-14">
+          <sp who="le-barbouille" xml:id="I02-15">
             <speaker>le barbouillé</speaker>
             <p>Il faut que j’aie bonne patience.</p>
           </sp>
-          <sp who="le-docteur" xml:id="I02-15">
+          <sp who="le-docteur" xml:id="I02-16">
             <speaker>le docteur</speaker>
             <p>6º Parce que le nombre de six est le nombre du travail, et comme je travaille incessamment pour ma gloire, je suis six fois docteur.</p>
           </sp>
-          <sp who="le-barbouille" xml:id="I02-16">
+          <sp who="le-barbouille" xml:id="I02-17">
             <speaker>le barbouillé</speaker>
             <p>Ho, parle tant que tu voudras.</p>
           </sp>
-          <sp who="le-docteur" xml:id="I02-17">
+          <sp who="le-docteur" xml:id="I02-18">
             <speaker>le docteur</speaker>
             <p>7° Parce que le nombre de sept est le nombre de la félicité, et comme je possède une parfaite connaissance de tout ce qui peut rendre heureux, et que je le suis en effet par mes talents, je me sens obligé de dire de moi-même <hi rend="i">O ter quatuorque beatum</hi> !</p>
             <p>8° Parce que le nombre de 8 est le nombre de la justice à cause de l’Égalité qui se rencontre en lui, et que la justice et la prudence avec laquelle je mesure et pèse toutes mes actions me rendent huit fois Docteur. 9° Parce qu’il y a neuf muses, et que je suis également chéri d’elles. 10° Parce que, comme on ne peut passer le nombre de dix sans faire une Répétition des autres nombres, et qu’il est le nombre universel, aussi, aussi quand on m’a trouvé, on a trouvé le Docteur universel, je contiens en moi tous les autres Docteurs, ainsi tu vois par des Raisons plausibles, vraies, démonstratives et convaincantes, que je suis 1. 2. 3. 4. 5. 6. 7. 8. 9. et 10 fois Docteur.</p>
           </sp>
-          <sp who="le-barbouille" xml:id="I02-18">
+          <sp who="le-barbouille" xml:id="I02-19">
             <speaker>le barbouillé</speaker>
             <p>Que diable est ceci, je croyais trouver un homme bien savant qui me donnerait un bon Conseil, et je trouve un Ramoneur de cheminée qui au lieu de me parler, s’amuse à jouer à la mourre. 1. 2. 3. 4. ah, ah, ah, oh bien ce n’est pas cela, c’est que je vous prie de m’écouter, et croyez que je ne suis pas un homme à vous faire perdre vos peines, et que si vous me satisfaisiez sur ce que je veux de vous, je vous donnerai ce que vous voudrez, de l’argent, si vous en voulez.</p>
           </sp>
-          <sp who="le-docteur" xml:id="I02-19">
+          <sp who="le-docteur" xml:id="I02-20">
             <speaker>le docteur</speaker>
             <p>Eh, de l’argent.</p>
           </sp>
-          <sp who="le-barbouille" xml:id="I02-20">
+          <sp who="le-barbouille" xml:id="I02-21">
             <speaker>le barbouillé</speaker>
             <p>Oui de l’argent et toute autre chose que vous pourriez demander.</p>
           </sp>
-          <sp who="le-docteur" xml:id="I02-21">
+          <sp who="le-docteur" xml:id="I02-22">
             <speaker>le docteur, <hi rend="i">troussant sa robe derrière son cul</hi></speaker>
             <p>Tu me prends donc pour un homme à qui l’argent fait tout faire, pour un homme attaché à l’intérêt, pour une âme mercenaire, sache, mon ami, que quand tu me donnerais une bourse pleine de pistoles, et que cette bourse serait dans une riche boîte, cette boîte dans un Étui précieux, cet Étui dans un coffret admirable, ce coffret dans un cabinet curieux, ce cabinet dans une chambre magnifique, cette chambre dans un appartement agréable, cet appartement dans un château pompeux, ce château dans une Citadelle incomparable, cette citadelle dans une ville célèbre, cette ville dans une Île fertile, cette Île dans une province opulente, cette province dans une Monarchie florissante, cette Monarchie dans tout le monde, et que tu me donnerais le monde où serait cette Monarchie florissante, où serait cette province opulente, où serait cette Île fertile, où serait cette ville célèbre, où serait cette Citadelle incomparable, où serait ce Château pompeux, où serait cet appartement agréable, où serait cette chambre magnifique, où serait ce cabinet curieux, où serait ce coffret admirable, où serait cet Étui précieux, où serait cette riche boîte dans laquelle serait enfermée la bourse pleine de pistoles, que je me soucierais aussi peu de ton argent et de toi, que de cela.</p>
           </sp>
-          <sp who="le-barbouille" xml:id="I02-22">
+          <sp who="le-barbouille" xml:id="I02-23">
             <speaker>le barbouillé</speaker>
             <p>Ma foi je m’y suis mépris à cause qu’il est vêtu comme un Médecin, j’ai cru qu’il lui fallait parler d’argent, mais puisqu’il n’en veut point, il n’y a rien de plus aisé que de le contenter, je m’en vais courir après lui.</p>
           </sp>
@@ -203,27 +210,27 @@
             <speaker>angélique</speaker>
             <p>Monsieur, ne m’en dites pas davantage, je suis votre servante et vous rends grâces de la peine que vous avez prise.</p>
           </sp>
-          <sp who="le-barbouille">
+          <sp who="le-barbouille" xml:id="I04-3">
             <speaker>le barbouillé</speaker>
             <p>Ma foi, sans aller chez le Notaire, voilà le certificat de mon cocuage, ah, ah, Madame la carogne, je vous trouve avec un homme après toutes les défenses que je vous ai faites, et vous me voulez envoyer de Gemini en Capricorne !</p>
           </sp>
-          <sp who="angelique" xml:id="I04-3">
+          <sp who="angelique" xml:id="I04-4">
             <speaker>angélique</speaker>
             <p>Eh bien faut-il gronder pour cela. Ce Monsieur vient de m’apprendre que mon frère est bien malade, où est le sujet de querelles.</p>
           </sp>
-          <sp who="cathau" xml:id="I04-4">
+          <sp who="cathau" xml:id="I04-5">
             <speaker>cathau</speaker>
             <p>Ah le voilà venu, je m’étonnais bien si nous aurions longtemps du repos.</p>
           </sp>
-          <sp who="le-barbouille" xml:id="I04-5">
+          <sp who="le-barbouille" xml:id="I04-6">
             <speaker>le barbouillé</speaker>
             <p>Vous vous gâteriez par ma foi toutes deux, Mesdames les carognes, et toi Cathau tu corromps ma femme, depuis que tu la sers, elle ne vaut pas la moitié de ce qu’elle valait.</p>
           </sp>
-          <sp who="cathau" xml:id="I04-6">
+          <sp who="cathau" xml:id="I04-7">
             <speaker>cathau</speaker>
             <p>Vraiment oui vous nous la baillez bonne.</p>
           </sp>
-          <sp who="angelique" xml:id="I04-7">
+          <sp who="angelique" xml:id="I04-8">
             <speaker>angélique</speaker>
             <p>Laisse là cet Ivrogne, ne vois-tu pas qu’il est si soûl qu’il ne sait ce qu’il dit ?</p>
           </sp>
@@ -243,23 +250,23 @@
             <speaker>gorgibus</speaker>
             <p>Eh quoi toujours se quereller, vous n’aurez point la paix dans votre ménage ?</p>
           </sp>
-          <sp who="le-barbouille">
+          <sp who="le-barbouille" xml:id="I05-4">
             <speaker>le barbouillé</speaker>
             <p>Cette coquine-là m’appelle ivrogne, tiens je suis bien tenté de te bailler une quinte major en présence de tes parents.</p>
           </sp>
-          <sp who="gorgibus" xml:id="I05-4">
+          <sp who="gorgibus" xml:id="I05-5">
             <speaker>gorgibus</speaker>
             <p>Je dédonne au diable l’escarcelle si vous l’aviez fait.</p>
           </sp>
-          <sp who="angelique" xml:id="I05-5">
+          <sp who="angelique" xml:id="I05-6">
             <speaker>angélique</speaker>
             <p>Mais aussi c’est lui qui commence toujours à...</p>
           </sp>
-          <sp who="cathau" xml:id="I05-6">
+          <sp who="cathau" xml:id="I05-7">
             <speaker>cathau</speaker>
             <p>Que maudite soit l’heure que vous avez choisi ce grigou...</p>
           </sp>
-          <sp who="villebrequin" xml:id="I05-7">
+          <sp who="villebrequin" xml:id="I05-8">
             <speaker>villebrequin</speaker>
             <p>Allons taisez-vous, la paix.</p>
           </sp>
@@ -448,7 +455,7 @@
         <div2 type="scene" xml:id="I08">
           <head>SCÈNE VIII<hi rend="sup">e</hi>.</head>
           <sp who="angelique" xml:id="I08-1">
-          <speaker>Angélique</speaker>
+            <speaker>Angélique</speaker>
             <p>Cependant que mon mari n’y est pas, je vais faire un tour à un bal que donne une de mes voisines, je serai revenue auparavant lui, car il est quelque part au Cabaret, il ne s’apercevra pas que je suis sortie, ce maroufle-là me laisse toute seule à la maison comme si j’étais son chien.</p>
           </sp>
         </div2>

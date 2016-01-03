@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_depit-amoureux" xml:lang="fr">
   <teiHeader>
@@ -23,12 +22,6 @@
           <author>Molière</author>
           <title>Le Dépit amoureux</title>
         </bibl>
-        <genre>Comédie</genre>
-        <inspiration>moeurs françaises</inspiration>
-        <structure>Cinq actes</structure>
-        <type>vers</type>
-        <periode>1651-1660</periode>
-        <taille>1750-2000</taille>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -36,8 +29,13 @@
         <date when="1663">1663</date>
       </creation>
       <langUsage>
-        <language ident="fre"></language>
+        <language ident="fre"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
@@ -53,23 +51,23 @@
         </docImprint>
         <docDate>M. DC. LXIII.</docDate>
         <docImprint rend="uc i">Avec privilège du roi</docImprint>
-        </titlePage>
+      </titlePage>
       <div>
         <head rend="uc">Les personnages</head>
-      <castList>
-        <castItem><role xml:id="eraste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="amoureux">ÉRASTE</role>, Amant de Lucile.</castItem>
-        <castItem><role xml:id="albert" civil="M" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">ALBERT</role>, Père de Lucile.</castItem>
-        <castItem><role xml:id="gros-rene" civil="M" type="H" statut="valet" age="A" stat_amour="n&#xE9;ant">GROS RENÉ</role>, Valet d'Eraste.</castItem>
-        <castItem><role xml:id="valere" civil="M" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">VALÈRE</role>, Fils de Polydore.</castItem>
-        <castItem><role xml:id="lucile" civil="F" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">LUCILE</role>, Fille d'Albert.</castItem>
-        <castItem><role xml:id="marinette" civil="F" type="H" statut="suivante" age="A" stat_amour="n&#xE9;ant">MARINETTE</role>, Suivante de Lucile.</castItem>
-        <castItem><role xml:id="polydore" civil="M" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">POLYDORE</role>, Père de Valère.</castItem>
-        <castItem><role xml:id="frosine" civil="F" type="H" statut="confident" age="A" stat_amour="n&#xE9;ant">FROSINE</role>, Confidente d'Ascagne.</castItem>
-        <castItem><role xml:id="ascagne" civil="F" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">ASCAGNE</role>, Fille sous l'habit d'homme.</castItem>
-        <castItem><role xml:id="mascarille" civil="M" type="H" statut="valet" age="A" stat_amour="n&#xE9;ant">MASCARILLE</role>, Valet de Valère.</castItem>
-        <castItem><role xml:id="metaphraste" civil="M" type="H" statut="p&#xE9;dant" age="A" stat_amour="n&#xE9;ant">MÉTAPHRASTE</role>, Pédant.</castItem>
-        <castItem><role xml:id="la-rapiere" civil="M" type="H" statut="bretteur" age="A" stat_amour="n&#xE9;ant">LA RAPIÈRE</role>, Bretteur.</castItem>
-      </castList>
+        <castList>
+          <castItem><role xml:id="eraste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="amoureux">Éraste</role>, Amant de Lucile.</castItem>
+          <castItem><role xml:id="albert" civil="M" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">Albert</role>, Père de Lucile.</castItem>
+          <castItem><role xml:id="gros-rene" civil="M" type="H" statut="valet" age="A" stat_amour="n&#xE9;ant">Gros René</role>, Valet d'Eraste.</castItem>
+          <castItem><role xml:id="valere" civil="M" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">Valère</role>, Fils de Polydore.</castItem>
+          <castItem><role xml:id="lucile" civil="F" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">Lucile</role>, Fille d'Albert.</castItem>
+          <castItem><role xml:id="marinette" civil="F" type="H" statut="suivante" age="A" stat_amour="n&#xE9;ant">Marinette</role>, Suivante de Lucile.</castItem>
+          <castItem><role xml:id="polydore" civil="M" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">Polydore</role>, Père de Valère.</castItem>
+          <castItem><role xml:id="frosine" civil="F" type="H" statut="confident" age="A" stat_amour="n&#xE9;ant">Frosine</role>, Confidente d'Ascagne.</castItem>
+          <castItem><role xml:id="ascagne" civil="F" type="H" statut="aristocrate" age="A" stat_amour="n&#xE9;ant">Ascagne</role>, Fille sous l'habit d'homme.</castItem>
+          <castItem><role xml:id="mascarille" civil="M" type="H" statut="valet" age="A" stat_amour="n&#xE9;ant">Mascarille</role>, Valet de Valère.</castItem>
+          <castItem><role xml:id="metaphraste" civil="M" type="H" statut="p&#xE9;dant" age="A" stat_amour="n&#xE9;ant">Métaphraste</role>, Pédant.</castItem>
+          <castItem><role xml:id="la-rapiere" civil="M" type="H" statut="bretteur" age="A" stat_amour="n&#xE9;ant">La Rapière</role>, Bretteur.</castItem>
+        </castList>
       </div>
     </front>
     <body>
@@ -317,14 +315,14 @@
           <sp who="eraste" xml:id="I02-22">
             <speaker>éraste <hi rend="i">lit</hi></speaker>
             <lg>
-            <l n="135">Vous m’avez dit que votre amour</l>
-            <l>Était capable de tout faire,</l>
-            <l>Il se couronnera lui-même dans ce jour,</l>
-            <l>S’il peut avoir l’aveu d’un père.</l>
-            <l>Faites parler les droits qu’on a dessus mon cœur ;</l>
-            <l n="140">Je vous en donne la licence :</l>
-            <l>Et, si c’est en votre faveur,</l>
-            <l>Je vous réponds de mon obéissance.</l>
+              <l n="135">Vous m’avez dit que votre amour</l>
+              <l>Était capable de tout faire,</l>
+              <l>Il se couronnera lui-même dans ce jour,</l>
+              <l>S’il peut avoir l’aveu d’un père.</l>
+              <l>Faites parler les droits qu’on a dessus mon cœur ;</l>
+              <l n="140">Je vous en donne la licence :</l>
+              <l>Et, si c’est en votre faveur,</l>
+              <l>Je vous réponds de mon obéissance.</l>
             </lg>
             <l>Ah ! quel bonheur ! Ô toi, qui me l’as apporté</l>
             <l>Je te dois regarder comme une Déité.</l>
@@ -337,10 +335,10 @@
           <sp who="eraste" xml:id="I02-24">
             <speaker>éraste <hi rend="i">lit</hi></speaker>
             <lg>
-            <l>Faites parler les droits qu’on a dessus mon cœur ;</l>
-            <l>Je vous en donne la licence :</l>
-            <l>Et, si c’est en votre faveur,</l>
-            <l n="150">Je vous réponds de mon obéissance.</l>
+              <l>Faites parler les droits qu’on a dessus mon cœur ;</l>
+              <l>Je vous en donne la licence :</l>
+              <l>Et, si c’est en votre faveur,</l>
+              <l n="150">Je vous réponds de mon obéissance.</l>
             </lg>
           </sp>
           <sp who="marinette" xml:id="I02-25">
@@ -1609,11 +1607,11 @@
             <l>Si je savais cela. Mais, soit ; à la bonne heure.</l>
             <l>Maître, donc…</l>
           </sp>
-            <sp who="metaphraste">
-              <speaker>métaphraste</speaker>
+          <sp who="metaphraste" xml:id="II06-5">
+            <speaker>métaphraste</speaker>
             <l>Poursuivez.</l>
           </sp>
-          <sp who="albert" xml:id="II06-5">
+          <sp who="albert" xml:id="II06-6">
             <speaker>albert</speaker>
             <l>Je veux poursuivre aussi ;</l>
             <l>Mais ne poursuivez point, vous, d’interrompre ainsi.</l>
@@ -1621,12 +1619,12 @@
             <l>Mon fils me rend chagrin ; vous savez que je l’aime,</l>
             <l>Et que soigneusement je l’ai toujours nourri.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-6">
+          <sp who="metaphraste" xml:id="II06-7">
             <speaker>métaphraste</speaker>
             <l>Il est vrai : <hi rend="i">Filio non potest praeferri</hi></l>
             <l rend="i">Nisi filius.</l>
           </sp>
-          <sp who="albert" xml:id="II06-7">
+          <sp who="albert" xml:id="II06-8">
             <speaker>albert</speaker>
             <l>Maître, en discourant ensemble,</l>
             <l n="680">Ce jargon n’est pas fort nécessaire, me semble ;</l>
@@ -1643,34 +1641,34 @@
             <l>Laissez donc en repos votre science auguste,</l>
             <l>Et que votre langage à mon faible s’ajuste.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-8">
+          <sp who="metaphraste" xml:id="II06-9">
             <speaker>métaphraste</speaker>
             <l>Soit.</l>
           </sp>
-          <sp who="albert" xml:id="II06-9">
+          <sp who="albert" xml:id="II06-10">
             <speaker>albert</speaker>
             <l>À mon fils, l’hymen semble lui faire peur,</l>
             <l>Et, sur quelque parti que je sonde son cœur,</l>
             <l n="695">Pour un pareil lien il est froid, et recule.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-10">
+          <sp who="metaphraste" xml:id="II06-11">
             <speaker>métaphraste</speaker>
             <l>Peut-être a-t-il l’humeur du frère de Marc Tulle,</l>
             <l>Dont avec Atticus le même fait sermon,</l>
             <l>Et comme aussi les Grecs disent <hi rend="i">Atanaton</hi>…</l>
           </sp>
-          <sp who="albert" xml:id="II06-11">
+          <sp who="albert" xml:id="II06-12">
             <speaker>albert</speaker>
             <l>Mon Dieu, Maître éternel, laissez là, je vous prie,</l>
             <l n="700">Les Grecs, les Albanais, avec l’Esclavonie</l>
             <l>Et tous ces autres gens dont vous venez parler ;</l>
             <l>Eux et mon fils n’ont rien ensemble à démêler.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-12">
+          <sp who="metaphraste" xml:id="II06-13">
             <speaker>métaphraste</speaker>
             <l>Hé bien, donc ? votre fils ?</l>
           </sp>
-          <sp who="albert" xml:id="II06-13">
+          <sp who="albert" xml:id="II06-14">
             <speaker>albert</speaker>
             <l>Je ne sais si dans l’âme,</l>
             <l>Il ne sentirait point une secrète flamme.</l>
@@ -1678,206 +1676,206 @@
             <l>Et je l’aperçus hier, sans en être aperçu,</l>
             <l>Dans un recoin du bois où nul ne se retire.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-14">
+          <sp who="metaphraste" xml:id="II06-15">
             <speaker>métaphraste</speaker>
             <l>Dans un lieu reculé du bois, voulez-vous dire ;</l>
             <l>Un endroit écarté, <hi rend="i">Latine, secessus</hi> ;</l>
             <l n="710">Virgile l’a dit : <hi rend="i">Est in secessu locus</hi>…</l>
           </sp>
-          <sp who="albert" xml:id="II06-15">
+          <sp who="albert" xml:id="II06-16">
             <speaker>albert</speaker>
             <l>Comment aurait-il pu l’avoir dit, ce Virgile ?</l>
             <l>Puisque je suis certain que dans ce lieu tranquille</l>
             <l>Âme du monde enfin n’était lors que nous deux.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-16">
+          <sp who="metaphraste" xml:id="II06-17">
             <speaker>métaphraste</speaker>
             <l>Virgile est nommé là comme un auteur fameux</l>
             <l n="715">D’un terme plus choisi que le mot que vous dites,</l>
             <l>Et non comme témoin de ce que hier vous vîtes.</l>
           </sp>
-          <sp who="albert" xml:id="II06-17">
+          <sp who="albert" xml:id="II06-18">
             <speaker>albert</speaker>
             <l>Et moi, je vous dis, moi, que je n’ai pas besoin</l>
             <l>De terme plus choisi, d’auteur ni de témoin,</l>
             <l>Et qu’il suffit ici de mon seul témoignage.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-18">
+          <sp who="metaphraste" xml:id="II06-19">
             <speaker>métaphraste</speaker>
             <l n="720">Il faut choisir pourtant les mots mis en usage</l>
             <l>Par les meilleurs auteurs : <hi rend="i">tu, vivendo, bonos</hi>,</l>
             <l>Comme on dit, <hi rend="i">scribendo, sequare peritos</hi>.</l>
           </sp>
-          <sp who="albert" xml:id="II06-19">
+          <sp who="albert" xml:id="II06-20">
             <speaker>albert </speaker>
             <l>Homme, ou démon, veux-tu m’entendre sans conteste ?</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-20">
+          <sp who="metaphraste" xml:id="II06-21">
             <speaker>métaphraste </speaker>
             <l>Quintilien en fait le précepte.</l>
           </sp>
-          <sp who="albert" xml:id="II06-21">
+          <sp who="albert" xml:id="II06-22">
             <speaker>albert</speaker>
             <l>La peste</l>
             <l>Soit du causeur !</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-22">
+          <sp who="metaphraste" xml:id="II06-23">
             <speaker>métaphraste</speaker>
             <l n="725">Et dit là-dessus doctement</l>
             <l>Un mot, que vous serez bien aise assurément</l>
             <l>D’entendre.</l>
           </sp>
-          <sp who="albert" xml:id="II06-23">
+          <sp who="albert" xml:id="II06-24">
             <speaker>albert</speaker>
             <l>Je serai le diable qui t’emporte,</l>
             <l>Chien d’homme. Ô ! que je suis tenté d’étrange sorte</l>
             <l>De faire sur ce mufle une application !</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-24">
+          <sp who="metaphraste" xml:id="II06-25">
             <speaker>métaphraste</speaker>
             <l n="730">Mais qui cause, Seigneur, votre inflammation ?</l>
             <l>Que voulez-vous de moi ?</l>
           </sp>
-          <sp who="albert" xml:id="II06-25">
+          <sp who="albert" xml:id="II06-26">
             <speaker>albert</speaker>
             <l>Je veux que l’on m’écoute,</l>
             <l>Vous ai-je dit vingt fois, quand je parle.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-26">
+          <sp who="metaphraste" xml:id="II06-27">
             <speaker>métaphraste</speaker>
             <l>Ha ! sans doute,</l>
             <l>Vous serez satisfait, s’il ne tient qu’à cela.</l>
             <l>Je me tais.</l>
           </sp>
-          <sp who="albert" xml:id="II06-27">
+          <sp who="albert" xml:id="II06-28">
             <speaker>albert </speaker>
             <l>Vous ferez sagement.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-28">
+          <sp who="metaphraste" xml:id="II06-29">
             <speaker>métaphraste</speaker>
             <l>Me voilà</l>
             <l>Tout prêt de vous ouïr.</l>
           </sp>
-          <sp who="albert" xml:id="II06-29">
+          <sp who="albert" xml:id="II06-30">
             <speaker>albert</speaker>
             <l>Tant mieux.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-30">
+          <sp who="metaphraste" xml:id="II06-31">
             <speaker>métaphraste</speaker>
             <l n="735">Que je trépasse,</l>
             <l>Si je dis plus mot.</l>
           </sp>
-          <sp who="albert" xml:id="II06-31">
+          <sp who="albert" xml:id="II06-32">
             <speaker>albert</speaker>
             <l>Dieu vous en fasse la grâce.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-32">
+          <sp who="metaphraste" xml:id="II06-33">
             <speaker>métaphraste</speaker>
             <l>Vous n’accuserez point mon caquet désormais.</l>
           </sp>
-          <sp who="albert" xml:id="II06-33">
+          <sp who="albert" xml:id="II06-34">
             <speaker>albert </speaker>
             <l>Ainsi soit-il.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-34">
+          <sp who="metaphraste" xml:id="II06-35">
             <speaker>métaphraste</speaker>
             <l>Parlez quand vous voudrez.</l>
           </sp>
-          <sp who="albert" xml:id="II06-35">
+          <sp who="albert" xml:id="II06-36">
             <speaker>albert</speaker>
             <l>J’y vais.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-36">
+          <sp who="metaphraste" xml:id="II06-37">
             <speaker>métaphraste</speaker>
             <l>Et n’appréhendez plus l’interruption nôtre.</l>
           </sp>
-          <sp who="albert" xml:id="II06-37">
+          <sp who="albert" xml:id="II06-38">
             <speaker>albert </speaker>
             <l>C’est assez dit.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-38">
+          <sp who="metaphraste" xml:id="II06-39">
             <speaker>métaphraste</speaker>
             <l n="740">Je suis exact plus qu’aucun autre.</l>
           </sp>
-          <sp who="albert" xml:id="II06-39">
+          <sp who="albert" xml:id="II06-40">
             <speaker>albert</speaker>
             <l>Je le crois.</l>
           </sp>
-          <sp who="metaphraste">
+          <sp who="metaphraste" xml:id="II06-41">
             <speaker>Métaphraste</speaker>
             <l>J’ai promis que je ne dirais rien.</l>
           </sp>
-          <sp who="albert" xml:id="II06-40">
+          <sp who="albert" xml:id="II06-42">
             <speaker>albert</speaker>
             <l>Suffit.</l>
           </sp>
-          <sp who="metaphraste">
+          <sp who="metaphraste" xml:id="II06-43">
             <speaker>Métaphraste</speaker>
             <l>Dès à présent je suis muet.</l>
           </sp>
-          <sp who="albert" xml:id="II06-41">
+          <sp who="albert" xml:id="II06-44">
             <speaker>albert</speaker>
             <l>Fort bien.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-42">
+          <sp who="metaphraste" xml:id="II06-45">
             <speaker>métaphraste</speaker>
             <l>Parlez : courage ; au moins, je vous donne audience ;</l>
             <l>Vous ne vous plaindrez pas de mon peu de silence,</l>
             <l n="745">Je ne desserre pas la bouche seulement.</l>
           </sp>
-          <sp who="albert" xml:id="II06-43">
+          <sp who="albert" xml:id="II06-46">
             <speaker>albert </speaker>
             <l>Le traître !</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-44">
+          <sp who="metaphraste" xml:id="II06-47">
             <speaker>métaphraste</speaker>
             <l>Mais, de grâce, achevez vitement ;</l>
             <l>Depuis longtemps j’écoute, il est bien raisonnable</l>
             <l>Que je parle à mon tour.</l>
           </sp>
-          <sp who="albert" xml:id="II06-45">
+          <sp who="albert" xml:id="II06-48">
             <speaker>albert</speaker>
             <l>Donc, bourreau détestable…</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-46">
+          <sp who="metaphraste" xml:id="II06-49">
             <speaker>métaphraste</speaker>
             <l>Hé ! bon Dieu ! voulez-vous que j’écoute à jamais ?</l>
             <l n="750">Partageons le parler, au moins, ou je m’en vais.</l>
           </sp>
-          <sp who="albert" xml:id="II06-47">
+          <sp who="albert" xml:id="II06-50">
             <speaker>albert</speaker>
             <l>Ma patience est bien…</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-48">
+          <sp who="metaphraste" xml:id="II06-51">
             <speaker>métaphraste</speaker>
             <l>Quoi ! voulez-vous poursuivre ?</l>
             <l>Ce n’est pas encor fait ? <hi rend="i">per Jovem</hi>, je suis ivre.</l>
           </sp>
-          <sp who="albert" xml:id="II06-49">
+          <sp who="albert" xml:id="II06-52">
             <speaker>albert </speaker>
             <l>Je n’ai pas dit…</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-50">
+          <sp who="metaphraste" xml:id="II06-53">
             <speaker>métaphraste</speaker>
             <l>Encor ! bon Dieu ! que de discours !</l>
             <l>Rien n’est-il suffisant d’en arrêter le cours ?</l>
           </sp>
-          <sp who="albert" xml:id="II06-51">
+          <sp who="albert" xml:id="II06-54">
             <speaker>albert</speaker>
             <l>J’enrage.</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-52">
+          <sp who="metaphraste" xml:id="II06-55">
             <speaker>métaphraste</speaker>
             <l n="755">Derechef ? ô ! l’étrange torture !</l>
             <l>Hé ! laissez-moi parler un peu, je vous conjure ;</l>
             <l>Un sot qui ne dit mot ne se distingue pas</l>
             <l>D’un savant qui se tait.</l>
           </sp>
-          <sp who="albert" xml:id="II06-53">
+          <sp who="albert" xml:id="II06-56">
             <speaker>albert, <hi rend="i">s’en allant</hi></speaker>
             <l>Parbleu, tu te tairas !</l>
           </sp>
-          <sp who="metaphraste" xml:id="II06-54">
+          <sp who="metaphraste" xml:id="II06-57">
             <speaker>métaphraste</speaker>
             <l>D’où vient fort à propos cette Sentence expresse</l>
             <l n="760">D’un Philosophe, parle, afin qu’on te connaisse.</l>
@@ -3202,10 +3200,10 @@
           <sp who="eraste" xml:id="IV03-18">
             <speaker>éraste <hi rend="i">lit</hi></speaker>
             <lg rend="i">
-            <l n="1345">Vous m’aimez d’une amour extrême,</l>
-            <l>Éraste ; et de mon cœur voulez être éclairci :</l>
-            <l>Si je n’aime Éraste de même,</l>
-            <l>Au moins, aimé-je fort qu’Éraste m’aime ainsi.</l>
+              <l n="1345">Vous m’aimez d’une amour extrême,</l>
+              <l>Éraste ; et de mon cœur voulez être éclairci :</l>
+              <l>Si je n’aime Éraste de même,</l>
+              <l>Au moins, aimé-je fort qu’Éraste m’aime ainsi.</l>
             </lg>
           </sp>
           <sp who="lucile" xml:id="IV03-19">
@@ -3217,10 +3215,10 @@
           <sp who="lucile" xml:id="IV03-20">
             <speaker>lucile <hi rend="i">lit</hi></speaker>
             <lg rend="i">
-            <l>J’ignore le destin de mon amour ardente,</l>
-            <l>Et jusqu’à quand je souffrirai :</l>
-            <l>Mais je sais, ô beauté charmante,</l>
-            <l>Que toujours je vous aimerai.</l>
+              <l>J’ignore le destin de mon amour ardente,</l>
+              <l>Et jusqu’à quand je souffrirai :</l>
+              <l>Mais je sais, ô beauté charmante,</l>
+              <l>Que toujours je vous aimerai.</l>
             </lg>
           </sp>
           <sp who="eraste" xml:id="IV03-21">
@@ -3595,7 +3593,7 @@
           <head>SCÈNE PREMIÈRE</head>
           <sp who="mascarille" xml:id="V01-1">
             <speaker>mascarille</speaker>
-            <l rend ="i">Dès que l’obscurité régnera dans la ville,</l>
+            <l rend="i">Dès que l’obscurité régnera dans la ville,</l>
             <l rend="i">Je me veux introduire au logis de Lucile :</l>
             <l rend="i">Va vite de ce pas préparer pour tantôt,</l>
             <l n="1460" rend="i">Et la lanterne sourde, et les armes qu’il faut.</l>

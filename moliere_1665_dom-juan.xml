@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_dom-juan" xml:lang="fre">
   <teiHeader>
@@ -20,12 +19,6 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><author>Molière, </author><title>Don Juan, ou Le Festin de Pierre, Comédie</title>, dans <title>Les Oeuvres posthumes de Monsieur de Molière</title>, t. VII, Paris, 1682.</bibl>
-        <genre>Comédie</genre>
-        <inspiration>mœurs italiennes</inspiration>
-        <type>prose</type>
-        <structure>Cinq actes</structure>
-        <periode>1661-1670</periode>
-        <taille>(mesure non pertinente)</taille>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -35,6 +28,11 @@
       <langUsage>
         <language ident="fre"></language>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
@@ -54,25 +52,25 @@
       <div>
         <head>PERSONNAGES</head>
       <castList>
-        <castItem><role xml:id="don-juan" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM JUAN</role>, Fils de Don Louis.</castItem>
-        <castItem><role xml:id="sganarelle" civil="M" type="H" statut="valet" age="V" stat_amour="néant">SGANARELLE</role>, valet de Don Juan.</castItem>
-        <castItem><role xml:id="elvire" civil="F" statut="bourgeois" age="V" stat_amour="amoureux">ELVIRE</role>, Femme de Don Juan.</castItem>
-        <castItem><role xml:id="gusman" civil="M" type="H" statut="écuyer" age="V" stat_amour="néant">GUSMAN</role>, Écuyer d’Elvire.</castItem>
-        <castItem><role xml:id="don-carlos" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM CARLOS</role>, Frère d’Elvire.</castItem>
-        <castItem><role xml:id="don-alonse" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM ALONSE</role>, Frère d’Elvire</castItem>
-        <castItem><role xml:id="don-louis" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">DOM LOUIS</role>, Père de Don Juan.</castItem>
-        <castItem><role xml:id="francisque" civil="M" type="H" statut="pauvre" age="V" stat_amour="néant">FRANCISQUE</role>, Pauvre.</castItem>
-        <castItem><role xml:id="charlotte" civil="F" type="H" statut="paysan" age="V" stat_amour="néant">CHARLOTTE</role>, Paysanne.</castItem>
-        <castItem><role xml:id="mathurine" civil="F" type="H" statut="paysan" age="V" stat_amour="néant">MATHURINE</role>, Paysanne.</castItem>
-        <castItem><role xml:id="pierrot" civil="M" type="H" statut="paysan" age="V" stat_amour="néant">PIERROT</role>, Paysan.</castItem>
-        <castItem><role xml:id="commandeur" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">La STATUE du Commandeur</role>.</castItem>
-        <castItem><role xml:id="la-violette" civil="M" type="H" statut="laquais" age="V" stat_amour="néant">LA VIOLETTE</role>, Laquais de Don Juan.</castItem>
-        <castItem><role xml:id="ragotin" civil="M" type="H" statut="laquais" age="V" stat_amour="néant">RAGOTIN</role>, Laquais de Don Juan.</castItem>
-        <castItem><role xml:id="monsieur-dimanche" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">MONSIEUR DIMANCHE</role>, Marchand.</castItem>
-        <castItem><role xml:id="la-ramee" civil="M" type="H" statut="spadassin" age="V" stat_amour="néant">LA RAMÉE</role>, Spadassin.</castItem>
-        <castItem><role xml:id="suite-don-juan" civil="G" type="H" statut="suite" age="V" stat_amour="néant">SUITE de Don Juan</role>.</castItem>
-        <castItem><role xml:id="suite-don-carlos" civil="G" type="H" statut="suite" age="V" stat_amour="néant">SUITE de Don Carlos et de Don Alonse</role>, Frères.</castItem>
-        <castItem><role xml:id="spectre" civil="M" type="A" statut="fantôme" age="V" stat_amour="néant">UN SPECTRE</role>.</castItem>
+        <castItem><role xml:id="don-juan" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">Dom Juan</role>, Fils de Don Louis.</castItem>
+        <castItem><role xml:id="sganarelle" civil="M" type="H" statut="valet" age="V" stat_amour="néant">Sganarelle</role>, valet de Don Juan.</castItem>
+        <castItem><role xml:id="elvire" civil="F" statut="bourgeois" age="V" stat_amour="amoureux">Elvire</role>, Femme de Don Juan.</castItem>
+        <castItem><role xml:id="gusman" civil="M" type="H" statut="écuyer" age="V" stat_amour="néant">Gusman</role>, Écuyer d’Elvire.</castItem>
+        <castItem><role xml:id="don-carlos" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">Dom Carlos</role>, Frère d’Elvire.</castItem>
+        <castItem><role xml:id="don-alonse" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">Dom Alonse</role>, Frère d’Elvire</castItem>
+        <castItem><role xml:id="don-louis" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">Dom Louis</role>, Père de Don Juan.</castItem>
+        <castItem><role xml:id="francisque" civil="M" type="H" statut="pauvre" age="V" stat_amour="néant">Francisque</role>, Pauvre.</castItem>
+        <castItem><role xml:id="charlotte" civil="F" type="H" statut="paysan" age="V" stat_amour="néant">Charlotte</role>, Paysanne.</castItem>
+        <castItem><role xml:id="mathurine" civil="F" type="H" statut="paysan" age="V" stat_amour="néant">Mathurine</role>, Paysanne.</castItem>
+        <castItem><role xml:id="pierrot" civil="M" type="H" statut="paysan" age="V" stat_amour="néant">Pierrot</role>, Paysan.</castItem>
+        <castItem><role xml:id="commandeur" civil="M" type="H" statut="aristocrate" age="V" stat_amour="néant">La statue du Commandeur</role>.</castItem>
+        <castItem><role xml:id="la-violette" civil="M" type="H" statut="laquais" age="V" stat_amour="néant">La Violette</role>, Laquais de Don Juan.</castItem>
+        <castItem><role xml:id="ragotin" civil="M" type="H" statut="laquais" age="V" stat_amour="néant">Ragotin</role>, Laquais de Don Juan.</castItem>
+        <castItem><role xml:id="monsieur-dimanche" civil="M" type="H" statut="commerçant" age="V" stat_amour="néant">Monsieur Dimanche</role>, Marchand.</castItem>
+        <castItem><role xml:id="la-ramee" civil="M" type="H" statut="spadassin" age="V" stat_amour="néant">La Ramée</role>, Spadassin.</castItem>
+        <castItem><role xml:id="suite-don-juan" civil="G" type="H" statut="suite" age="V" stat_amour="néant">Suite de Don Juan</role>.</castItem>
+        <castItem><role xml:id="suite-don-carlos" civil="G" type="H" statut="suite" age="V" stat_amour="néant">Suite de Don Carlos et de Don Alonse</role>, Frères.</castItem>
+        <castItem><role xml:id="spectre" civil="M" type="A" statut="fantôme" age="V" stat_amour="néant">Un spectre</role>.</castItem>
       </castList>
       <set location="Sicile" country="Italie" periode="XVIIème" link="">La Scène est en Sicile.</set>
       </div>

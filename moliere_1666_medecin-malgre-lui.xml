@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_medecin-malgre-lui" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LE MÉDECIN MALGRÉ LUI, COMÉDIE.</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1660</date>
+        <title>Le médecin malgré lui</title>
+        <author>Molière</author>
       </titleStmt>
       <publicationStmt>
-        <p>publié par Paul FIEVRE, Octobre 2010</p>
+        <publisher>publié par Paul FIEVRE, Octobre 2010</publisher>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_medecin-malgre-lui/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_medecin-malgre-lui.xml</idno>
       </publicationStmt>
       <sourceDesc>
-        <genre>Comédie</genre>
-        <inspiration>mœurs françaises</inspiration>
-        <structure>Un acte</structure>
-        <type>prose</type>
-        <periode>1651-1660</periode>
-        <taille>(mesure non pertinente)</taille>
-        <permalien>http://gallica.bnf.fr/ark :/12148/bpt6k5690145v.image.r=Moli%C3%A8re+M%C3%A9decin+malgr%C3%A9+lui.f198.pagination.langFR</permalien>
-        <sources>
-          <source id="1">
-            <author/>
-            <text/>
-          </source>
-        </sources>
+        <p>
+          <ref target="http://gallica.bnf.fr/ark :/12148/bpt6k5690145v.image.r=Moli%C3%A8re+M%C3%A9decin+malgr%C3%A9+lui.f198.pagination.langFR">http://gallica.bnf.fr/ark :/12148/bpt6k5690145v.image.r=Moli%C3%A8re+M%C3%A9decin+malgr%C3%A9+lui.f198.pagination.langFR</ref>
+        </p>
       </sourceDesc>
+      <profileDesc>
+        <creation>
+          <date when="1666"/>
+        </creation>
+        <langUsage>
+          <language ident="fr"/>
+        </langUsage>
+        <textClass>
+          <keywords>
+            <term type="genre" subtype="comedy">Comédie</term>
+          </keywords>
+        </textClass>
+      </profileDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <front>
-       <div>
-              <castList>
-        <head>PERSONNAGES</head>
-        <castItem><role xml:id="sganarelle" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">SGANRELLE</role>, mari de Martine.</castItem>
-        <castItem><role xml:id="martine" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">MARTINE</role>, femme de Sganarelle.</castItem>
-        <castItem><role xml:id="monsieur-robert" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">MONSIEUR ROBERT</role>, voisin de Sganarelle.</castItem>
-        <castItem><role xml:id="valere" civil="M" type="H" statut="domestique" age="A" stat_amour="néant">VALÈRE</role>, domestique de Géronte.</castItem>
-        <castItem><role xml:id="lucas" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">LUCAS</role>, mari de Jacqueline.</castItem>
-        <castItem><role xml:id="geronte" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">GÉRONTE</role>, père de Lucinde.</castItem>
-        <castItem><role xml:id="jacqueline" civil="F" type="H" statut="nourrice" age="A" stat_amour="néant">JACQUELINE</role>, nourrice chez Géronte, et femme de Lucas.</castItem>
-        <castItem><role xml:id="lucinde" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">LUCINDE</role>, fille de Géronte.</castItem>
-        <castItem><role xml:id="leandre" civil="M" type="H" statut="aristocrate" age="A" stat_amour="amoureux">LÉANDRE</role>, amant de Lucinde.</castItem>
-        <castItem><role xml:id="thibaut" civil="M" type="H" statut="paysan" age="A" stat_amour="néant">THIBAUT</role>, père de Perrin.</castItem>
-        <castItem><role xml:id="perrin" civil="M" type="H" statut="paysan" age="A" stat_amour="néant">PERRIN</role>, fils de Thibaut, paysan.</castItem>
-      </castList>
-
+      <div>
+        <castList>
+          <head>PERSONNAGES</head>
+          <castItem><role xml:id="sganarelle" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Sganarelle</role>, mari de Martine.</castItem>
+          <castItem><role xml:id="martine" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">Martine</role>, femme de Sganarelle.</castItem>
+          <castItem><role xml:id="monsieur-robert" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Monsieur Robert</role>, voisin de Sganarelle.</castItem>
+          <castItem><role xml:id="valere" civil="M" type="H" statut="domestique" age="A" stat_amour="néant">Valère</role>, domestique de Géronte.</castItem>
+          <castItem><role xml:id="lucas" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Lucas</role>, mari de Jacqueline.</castItem>
+          <castItem><role xml:id="geronte" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">Géronte</role>, père de Lucinde.</castItem>
+          <castItem><role xml:id="jacqueline" civil="F" type="H" statut="nourrice" age="A" stat_amour="néant">Jacqueline</role>, nourrice chez Géronte, et femme de Lucas.</castItem>
+          <castItem><role xml:id="lucinde" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">Lucinde</role>, fille de Géronte.</castItem>
+          <castItem><role xml:id="leandre" civil="M" type="H" statut="aristocrate" age="A" stat_amour="amoureux">Léandre</role>, amant de Lucinde.</castItem>
+          <castItem><role xml:id="thibaut" civil="M" type="H" statut="paysan" age="A" stat_amour="néant">Thibaut</role>, père de Perrin.</castItem>
+          <castItem><role xml:id="perrin" civil="M" type="H" statut="paysan" age="A" stat_amour="néant">Perrin</role>, fils de Thibaut, paysan.</castItem>
+        </castList>
       </div>
       <div>
         <head>EXTRAIT DU PRIVILÈGE 
@@ -58,7 +58,6 @@
         <p>Et ledit sieur de MOLIÈRE, a cédé &amp;transporté son droit de Privilège à JEAN RIBOU, Marchand Libraire à Paris, pour en jouir suivant l’accord entre eux.</p>
         <p rend="i">Achevé d’imprimer pour la première fois, le 24. Décembre 1666.</p>
       </div>
-     
     </front>
     <body>
       <div>

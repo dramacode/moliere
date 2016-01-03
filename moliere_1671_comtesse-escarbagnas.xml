@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_comtesse-escarbagnas" xml:lang="">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LA COMTESSE D'ESCARBAGNAS, COMÉDIE</title>
-        <author born="1622" born_location="Paris" death="1673" death_location="Paris" academie="">MOLIÈRE</author>
-        <date>1666</date>
+        <title>La Comtesse d'Escarbagnas</title>
+        <author>Molière</author>
       </titleStmt>
       <extent>
         <measure quantity="23" unit="page"/>
@@ -16,51 +14,54 @@
         <measure quantity="39232" unit="character"/>
       </extent>
       <publicationStmt>
-        <p>publié par Paul FIEVRE, septembre 2011</p>
+        <publisher>publié par Paul FIEVRE, septembre 2011</publisher>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_comtesse-escarbagnas/</idno>
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_comtesse-escarbagnas.xml</idno>
       </publicationStmt>
       <sourceDesc>
-        <genre>Comédie</genre>
-        <inspiration>moeurs françaises</inspiration>
-        <structure>Un acte</structure>
-        <type>prose</type>
-        <periode>1671-1680</periode>
+        <p/>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="1666"/>
+        <date when="1671"/>
       </creation>
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
     </profileDesc>
   </teiHeader>
   <text>
     <front>
       <titlePage>
-		<docTitle><titlePart type="main">LA COMTESSE D'ESCARBAGNAS</titlePart><titlePart type="sub">COMÉDIE</titlePart></docTitle> 
-		<docDate value="1671">M. DC. LXXI.</docDate>
-		<docAuthor id="MOLIERE" bio="moliere">Molière</docAuthor>
-		<docImprint><privilege id="166*-**-**"/><acheveImprime id="166*-**-**"/></docImprint>
-		<performance>
-			<premiere date="1671-12-02" location="Château de Saint-Germain-en-Laye">Représentée pour la première fois le 2 décembre 1671 au Château de Saint-Germain-en-Laye.</premiere>
-		</performance>
-  </titlePage>
+        <docTitle>
+          <titlePart type="main">LA COMTESSE D'ESCARBAGNAS</titlePart>
+          <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docDate>M. DC. LXXI.</docDate>
+        <docAuthor>Molière</docAuthor>
+        <docImprint>
+          <p date="1671-12-02" location="Château de Saint-Germain-en-Laye">Représentée pour la première fois le 2 décembre 1671 au Château de Saint-Germain-en-Laye.</p>
+        </docImprint>
+      </titlePage>
       <div>
         <castList>
           <head>PERSONNAGES</head>
-          <castItem><role xml:id="la-comtesse" civil="F" type="H" statut="comte" age="A" stat_amour="néant">LA COMTESSE D'ESCARBAGNAS</role>.</castItem>
-          <castItem><role xml:id="le-comte" civil="M" type="H" statut="comte" age="A" stat_amour="néant">LE COMTE</role>, son fils.</castItem>
-          <castItem><role xml:id="le-vicomte" civil="M" type="H" statut="vicomte" age="A" stat_amour="Julie">LE VICOMTE</role>, amant de Julie.</castItem>
-          <castItem><role xml:id="julie" civil="F" type="H" statut="aristocrate" age="A" stat_amour="Le Vicomte">JULIE</role>, amante du Vicomte.</castItem>
-          <castItem><role xml:id="monsieur-tibaudier" civil="M" type="H" statut="bourgeois" age="A" stat_amour="La Comtesse">MONSIEUR THIBAUDIER</role>, conseiller, amant de la Comtesse.</castItem>
-          <castItem><role xml:id="monsieur-harpin" civil="M" type="H" statut="receveur des impôts" age="A" stat_amour="La Comtesse">MONSIEUR HARPIN</role>, receveur des tailles, autre amant de la Comtesse.</castItem>
-          <castItem><role xml:id="monsieur-bobinet" civil="M" type="H" statut="précepteur" age="A" stat_amour="néant">MONSIEUR BOBINET</role>, précepteur de Monsieur le Comte.</castItem>
-          <castItem><role xml:id="andree" civil="F" type="H" statut="suivante" age="A" stat_amour="néant">ANDRÉE</role>, suivante de la Comtesse.</castItem>
-          <castItem><role xml:id="jeannot" civil="M" type="H" statut="laquais" age="A" stat_amour="néant">JEANNOT</role>, laquais de Monsieur Tibaudier.</castItem>
-          <castItem><role xml:id="criquet" civil="M" type="H" statut="laquais" age="A" stat_amour="néant">CRIQUET</role>, laquais de la Comtesse.</castItem>
+          <castItem><role xml:id="la-comtesse" rend="female">La comtesse d'Escarbagnas</role>.</castItem>
+          <castItem><role xml:id="le-comte" rend="male">Le comte</role>, son fils.</castItem>
+          <castItem><role xml:id="le-vicomte" rend="male love">Le vicomte</role>, amant de Julie.</castItem>
+          <castItem><role xml:id="julie"  rend="female love">Julie</role>, amante du Vicomte.</castItem>
+          <castItem><role xml:id="monsieur-tibaudier" rend="male love">Monsieur Thibaudier</role>, conseiller, amant de la Comtesse.</castItem>
+          <castItem><role xml:id="monsieur-harpin"  rend="male love">Monsieur Harpin</role>, receveur des tailles, autre amant de la Comtesse.</castItem>
+          <castItem><role xml:id="monsieur-bobinet" rend="male">Monsieur Bobinet</role>, précepteur de Monsieur le Comte.</castItem>
+          <castItem><role xml:id="andree" rend="female">Andrée</role>, suivante de la Comtesse.</castItem>
+          <castItem><role xml:id="jeannot" rend="male">Jeannot</role>, laquais de Monsieur Tibaudier.</castItem>
+          <castItem><role xml:id="criquet" rend="male">Criquet</role>, laquais de la Comtesse.</castItem>
         </castList>
         <set location="Angoulême" country="France" periode="XVIIème" link="">La scène est à Angoulême.</set>
       </div>
@@ -1045,26 +1046,26 @@
           <quote>
             <label>BOUTS-RIMÉS COMMANDÉS<lb/><hi rend="i">sur le bel Air.</hi></label>
             <lg>
-            <l>Que vous m’embarrassez avec votre ----- ----grenouille,</l>
-            <l>Qui traîne `a ses talons le doux mot d’ ---------hypocras,</l>
-            <l>Je hais des bouts-rimés le puéril ----------------fatras,</l>
-            <l>Et tiens qu’il vaudrait mieux filer une --------- quenouille.</l>
+              <l>Que vous m’embarrassez avec votre ----- ----grenouille,</l>
+              <l>Qui traîne `a ses talons le doux mot d’ ---------hypocras,</l>
+              <l>Je hais des bouts-rimés le puéril ----------------fatras,</l>
+              <l>Et tiens qu’il vaudrait mieux filer une --------- quenouille.</l>
             </lg>
             <lg>
-            <l>La gloire du bel air n’a rien qui me ------ -- ----chatouille</l>
-            <l>Vous m’assommez l’esprit avec un gros ------ platras,</l>
-            <l>Et je tiens heureux ceux qui sont morts à ----- Coutras,</l>
-            <l>Voyant tout le papier qu’en sonnets on -------- barbouille,</l>
+              <l>La gloire du bel air n’a rien qui me ------ -- ----chatouille</l>
+              <l>Vous m’assommez l’esprit avec un gros ------ platras,</l>
+              <l>Et je tiens heureux ceux qui sont morts à ----- Coutras,</l>
+              <l>Voyant tout le papier qu’en sonnets on -------- barbouille,</l>
             </lg>
             <lg>
-            <l>M’accable derechef la haine du ----------------- cagot,</l>
-            <l>Plus méchant mille fois, que n’est un vieux -- magot,</l>
-            <l>Plutôt qu’un bout-rimé me fasse entrer en ---- danse.</l>
+              <l>M’accable derechef la haine du ----------------- cagot,</l>
+              <l>Plus méchant mille fois, que n’est un vieux -- magot,</l>
+              <l>Plutôt qu’un bout-rimé me fasse entrer en ---- danse.</l>
             </lg>
             <lg>
-            <l>Je vous en chante, clair, comme un ----------- chardonneret,</l>
-            <l>Au bout de l’Univers je suis dans une -------- manse,</l>
-            <l>Adieu, grand Prince, adieu, tenez-vous ------- guilleret.</l>
+              <l>Je vous en chante, clair, comme un ----------- chardonneret,</l>
+              <l>Au bout de l’Univers je suis dans une -------- manse,</l>
+              <l>Adieu, grand Prince, adieu, tenez-vous ------- guilleret.</l>
             </lg>
           </quote>
           <label>FIN</label>
