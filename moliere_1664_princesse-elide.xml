@@ -54,20 +54,17 @@
       <div>
         <head>ACTEURS</head>
         <castList>
-          <castItem><role xml:id="princesse-elide" civil="F" type="H" statut="prince" age="A" stat_amour="néant">LA PRINCESSE D'ÉLIDE</role>, <actor>Mlle de Molière.</actor></castItem>
-          <castItem><role xml:id="aglante" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">AGLANTE</role>, Cousine de la Princesse, <actor>Mlle Du Parc.</actor></castItem>
-          <castItem><role xml:id="cynthie" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">CYNTHIE</role>, Cousine de la Princesse, <actor>Mlle de Brie.</actor></castItem>
-          <castItem><role xml:id="philis" civil="F" type="H" statut="suivante" age="A" stat_amour="néant">PHILIS</role>, Suivante de la Princesse, <actor>Mlle Béjart.</actor></castItem>
-          <castItem><role xml:id="iphitas" civil="M" type="H" statut="prince" age="A" stat_amour="néant">IPHITAS</role>, Père de la Princesse, <actor>le Sieur Hubert.</actor></castItem>
-          <castItem><role xml:id="euryale" civil="M" type="H" statut="prince" age="A" stat_amour="néant">EURYALE</role>, le prince d'Ithaque, <actor>le Sieur de la Grange.</actor></castItem>
-          <castItem><role xml:id="aristomene" civil="M" type="H" statut="prince" age="A" stat_amour="néant">ARISTOMÈNE</role>, ou le prince de Messène, <actor>le Sieur du Croisy.</actor></castItem>
-          <castItem><role xml:id="theocle" civil="M" type="H" statut="prince" age="A" stat_amour="néant">THÉOCLE</role>, ou le prince de Pyle, <actor>le Sieur Béjart.</actor></castItem>
-          <castItem><role xml:id="arbate" civil="M" type="H" statut="gouverneur" age="A" stat_amour="néant">ARBATE</role>, Gouverneur du prince d'Ithaque, <actor>le Sieur de la Thorillière.</actor></castItem>
-          <castItem><role xml:id="moron" civil="M" type="H" statut="bouffon" age="A" stat_amour="néant">MORON</role>, plaisant de la Princesse, <actor>le Sieur de Molière</actor></castItem>
-          <castItem>
-            <role xml:id="lycas" civil="M" type="H" statut="suivant" age="A" stat_amour="néant">UN SUIVANT.</role>
-            <actor>Le Sieur Prévost.</actor>
-          </castItem>
+          <castItem><role xml:id="princesse-elide" rend="female">La princesse d'Élide</role>, <actor>Mlle de Molière</actor>.</castItem>
+          <castItem><role xml:id="aglante" rend="female">Aglante</role>, Cousine de la Princesse, <actor>Mlle Du Parc</actor>.</castItem>
+          <castItem><role xml:id="cynthie" rend="female">Cynthie</role>, Cousine de la Princesse, <actor>Mlle de Brie</actor>.</castItem>
+          <castItem><role xml:id="philis" rend="female">Philis</role>, Suivante de la Princesse, <actor>Mlle Béjart</actor>.</castItem>
+          <castItem><role xml:id="iphitas" rend="male">Iphitas</role>, Père de la Princesse, <actor>le Sieur Hubert</actor>.</castItem>
+          <castItem><role xml:id="euryale" rend="male">Euryale</role>, le prince d'Ithaque, <actor>le Sieur de la Grange</actor>.</castItem>
+          <castItem><role xml:id="aristomene" rend="male">Aristomène</role>, ou le prince de Messène, <actor>le Sieur du Croisy</actor>.</castItem>
+          <castItem><role xml:id="theocle" rend="male">Théocle</role>, ou le prince de Pyle, <actor>le Sieur Béjart</actor>.</castItem>
+          <castItem><role xml:id="arbate" rend="male">Arbate</role>, Gouverneur du prince d'Ithaque, <actor>le Sieur de la Thorillière</actor>.</castItem>
+          <castItem><role xml:id="moron" rend="male">Moron</role>, plaisant de la Princesse, <actor>le Sieur de Molière</actor></castItem>
+          <castItem><role xml:id="lycas" rend="male">Un suivant</role>, <actor>Le Sieur Prévost</actor>.</castItem>
           <castItem>
             <role xml:id="satyre"/>
           </castItem>
@@ -2177,12 +2174,10 @@
         <stage>Aussi fit-elle une avantageuse conclusion aux divertissements de ce jour, que toute la Cour ne loua pas moins que celui qui l’avait précédé, se retirant avec une satisfaction qui lui fit bien espérer de la suite d’une Fête si complète.</stage>
         <castList>
           <castItem>
-            <role xml:id="bergers">Les Bergers étaient</role>
-            <actor> : les Sieurs Chicanneau, Du Pron, Noblet, et La Pierre.</actor>
+            <role xml:id="bergers">Les Bergers étaient</role> : <actor>les Sieurs Chicanneau, Du Pron, Noblet, et La Pierre</actor>.
           </castItem>
           <castItem>
-            <role xml:id="bergeres">Et les Bergères.</role>
-            <actor>: les Sieurs Baltazard, Magny, Arnald, et Bonard.</actor>
+            <role xml:id="bergeres">Et les Bergères</role> : <actor>les Sieurs Baltazard, Magny, Arnald, et Bonard</actor>.
           </castItem>
         </castList>
       </div>

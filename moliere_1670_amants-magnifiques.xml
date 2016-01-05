@@ -9,9 +9,9 @@
         <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <publicationStmt>
+        <publisher>Publié par Paul Fièvre en juillet 2012, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
         <date when="2012"/>
         <date when="2014"/>
-        <publisher>Publié par Paul Fièvre en juillet 2012, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
         <availability status="restricted">
           <licence target="projet-Molière"/>
         </availability>
@@ -56,17 +56,17 @@
       <div>
         <head>PERSONNAGES DE LA COMÉDIE</head>
         <castList>
-          <castItem><role civil="F" xml:id="aristione">Aristione</role>, Princesse, Mère d'Ériphile.</castItem>
-          <castItem><role civil="F" xml:id="eriphile">Ériphile</role>, Fille de la Princesse.</castItem>
-          <castItem><role civil="F" xml:id="cleonice">Cléonice</role>, Confidente d'Ériphile.</castItem>
-          <castItem><role civil="F" xml:id="chorebe">Chorèbe</role>, de la suite de la Princesse.</castItem>
-          <castItem><role civil="M" xml:id="iphicrate">Iphicrate</role>, Amant magnifique.</castItem>
-          <castItem><role civil="M" xml:id="timocles">Timoclès</role>, Amant magnifique.</castItem>
-          <castItem><role civil="M" xml:id="sostrate">Sostrate</role>, Général d'Armée, Amant d'Ériphile.</castItem>
-          <castItem><role civil="M" xml:id="clitidas">Clitidas</role>, Plaisant de Cour, de la suite d'Ériphile.</castItem>
-          <castItem><role civil="M" xml:id="anaxarque">Anaxarque</role>, Astrologue.</castItem>
-          <castItem><role civil="M" xml:id="cleon">Cléon</role>, Fils d'Anaxarque.</castItem>
-          <castItem><role civil="F" xml:id="venus">Une fausse Vénus</role>, d'intelligence avec Anaxarque.</castItem>
+          <castItem><role rend="female" xml:id="aristione">Aristione</role>, Princesse, Mère d'Ériphile.</castItem>
+          <castItem><role rend="female" xml:id="eriphile">Ériphile</role>, Fille de la Princesse.</castItem>
+          <castItem><role rend="female" xml:id="cleonice">Cléonice</role>, Confidente d'Ériphile.</castItem>
+          <castItem><role rend="female" xml:id="chorebe">Chorèbe</role>, de la suite de la Princesse.</castItem>
+          <castItem><role rend="male" xml:id="iphicrate">Iphicrate</role>, Amant magnifique.</castItem>
+          <castItem><role rend="male" xml:id="timocles">Timoclès</role>, Amant magnifique.</castItem>
+          <castItem><role rend="male" xml:id="sostrate">Sostrate</role>, Général d'Armée, Amant d'Ériphile.</castItem>
+          <castItem><role rend="male" xml:id="clitidas">Clitidas</role>, Plaisant de Cour, de la suite d'Ériphile.</castItem>
+          <castItem><role rend="male" xml:id="anaxarque">Anaxarque</role>, Astrologue.</castItem>
+          <castItem><role rend="male" xml:id="cleon">Cléon</role>, Fils d'Anaxarque.</castItem>
+          <castItem><role rend="female" xml:id="venus">Une fausse Vénus</role>, d'intelligence avec Anaxarque.</castItem>
         </castList>
         <castList>
           <castItem>
@@ -997,14 +997,14 @@
         <stage>Le Théâtre est une Forêt, où la Princesse est invitée d’aller, une Nymphe lui en fait les honneurs en chantant, et pour la divertir on lui joue une petite Comédie en Musique, dont voici le sujet : un Berger se plaint à deux Bergers ses amis, des froideurs de celle qu’il aime, les deux amis le consolent ; et comme la Bergère aimée arrive, tous trois se retirent pour l’observer : après quelque plainte amoureuse elle se repose sur un gazon, et s’abandonne aux douceurs du sommeil ; l’Amant fait approcher ses amis pour contempler les grâces de sa Bergère, et invite toutes choses à contribuer à son repos. La Bergère en s’éveillant, voit son Berger à ses pieds, se plaint de sa poursuite : Mais considérant sa constance elle lui accorde sa demande, et consent d’en être aimée en présence des deux Bergers amis : Deux Satyres arrivant se plaignent de son changement, et étant touchés de cette disgrâce, cherchent leur consolation dans le vin.</stage>
         <castList>
           <head>LES PERSONNAGES de la Pastorale</head>
-          <castItem><role xml:id="nymphe">LA NYMPHE DE LA VALLÉE DE TEMPÉ</role>.</castItem>
-          <castItem><role xml:id="tircis">TIRCIS</role>.</castItem>
-          <castItem><role xml:id="lycaste">LYCASTE</role>.</castItem>
-          <castItem><role xml:id="menandre">MÉNANDRE</role>.</castItem>
-          <castItem><role xml:id="caliste">CALISTE</role>.</castItem>
-          <castItem>DEUX SATYRES<role xml:id="satyre1"/><role xml:id="satyre2"/>.</castItem>
-          <castItem><role xml:id="climene">CLIMÈNE</role><role xml:id="tous-deux"/>.</castItem>
-          <castItem><role xml:id="philinte">PHILINTE</role>.</castItem>
+          <castItem><role xml:id="nymphe">La nymphe de la vallée de Tempé</role>.</castItem>
+          <castItem><role xml:id="tircis">Tircis</role>.</castItem>
+          <castItem><role xml:id="lycaste">Lycaste</role>.</castItem>
+          <castItem><role xml:id="menandre">Ménandre</role>.</castItem>
+          <castItem><role xml:id="caliste">Caliste</role>.</castItem>
+          <castItem>Deux satyres<role xml:id="satyre1"/><role xml:id="satyre2"/>.</castItem>
+          <castItem><role xml:id="climene">Climène</role><role xml:id="tous-deux"/>.</castItem>
+          <castItem><role xml:id="philinte">Philinte</role>.</castItem>
           <castItem>
             <role xml:id="bergers"/>
           </castItem>
@@ -1980,10 +1980,10 @@
         <head>SIXIÈME INTERMÈDE <lb/>qui est la solennité des jeux Pythiens.</head>
         <stage>Le Théâtre est une grande Salle en manière d’Amphithéâtre, ouvert d’une grande arcade, dans le fond, au-dessus de laquelle est une Tribune fermée d’un rideau ; et dans l’éloignement paraît un Autel pour le Sacrifice. Six hommes, habillés comme s’ils étaient presque nus, portant chacun une hache sur l’épaule, comme Ministres du Sacrifice, entrent par le portique, au son des Violons, et sont suivis de deux Sacrificateurs Musiciens, d’une Prêtresse Musicienne, et leur suite.</stage>
         <castList>
-          <castItem><role xml:id="pretresse">LA PRÊTRESSE</role>.</castItem>
-          <castItem><role xml:id="grecque1">TROIS GRECQUES</role><role xml:id="grecque2"/><role xml:id="grecque3"/>.</castItem>
-          <castItem><role xml:id="choeur">LE CHOEUR</role>.</castItem>
-          <castItem><role xml:id="apollon">APOLLON</role>.</castItem>
+          <castItem><role xml:id="pretresse">La prêtresse</role>.</castItem>
+          <castItem><role xml:id="grecque1">Trois grecques</role><role xml:id="grecque2"/><role xml:id="grecque3"/>.</castItem>
+          <castItem><role xml:id="choeur">Le chœur</role>.</castItem>
+          <castItem><role xml:id="apollon">Apollon</role>.</castItem>
         </castList>
         <sp who="pretresse" xml:id="XI-1">
           <speaker>la prêtresse</speaker>

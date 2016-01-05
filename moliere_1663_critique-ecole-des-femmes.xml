@@ -61,13 +61,13 @@
       <div>
         <head>LES PERSONNAGES</head>
       <castList>
-        <castItem><role xml:id="uranie" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">URANIE</role>.</castItem>
-        <castItem><role xml:id="elise" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">ÉLISE</role>.</castItem>
-        <castItem><role xml:id="climene" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">CLIMÈNE</role>.</castItem>
-        <castItem><role xml:id="galopin" civil="M" type="H" statut="laquais" age="A" stat_amour="néant">GALOPIN</role>, Laquais.</castItem>
-        <castItem><role xml:id="le-marquis" civil="M" type="H" statut="marquis" age="A" stat_amour="néant">LE MARQUIS</role>.</castItem>
-        <castItem><role xml:id="dorante" civil="M" type="H" statut="chevalier" age="A" stat_amour="néant">DORANTE</role>, ou le Chevalier.</castItem>
-        <castItem><role xml:id="lysidas" civil="M" type="H" statut="poète" age="A" stat_amour="néant">LYSIDAS</role>, Poète.</castItem>
+        <castItem><role xml:id="uranie" rend="female">Uranie</role>.</castItem>
+        <castItem><role xml:id="elise" rend="female">Élise</role>.</castItem>
+        <castItem><role xml:id="climene" rend="female">Climène</role>.</castItem>
+        <castItem><role xml:id="galopin" rend="male">Galopin</role>, <roleDesc>Laquais</roleDesc>.</castItem>
+        <castItem><role xml:id="le-marquis" rend="male">Le marquis</role>.</castItem>
+        <castItem><role xml:id="dorante" rend="male">Dorante</role>, ou le Chevalier.</castItem>
+        <castItem><role xml:id="lysidas" rend="male">Lysidas</role>, <roleDesc>Poète</roleDesc>.</castItem>
       </castList>
       </div>
     </front>
