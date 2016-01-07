@@ -45,44 +45,44 @@
         <head>Acteurs</head>
         <castList>
           <head>PERSONNAGES du PROLOGUE</head>
-          <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="flore">Flore</role>.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="vertumne">Vertumne</role>, dieu des jardins.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="palaemon">Palémon</role>, dieu des eaux.</castItem>
-          <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="venus">Vénus</role>.</castItem>
-          <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="gr&#xE2;ce" type="D" xml:id="amour">L’amour</role>, Grâce.</castItem>
-          <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="gr&#xE2;ce" type="D" xml:id="aegiale">Ægiale</role>, Grâce.</castItem>
-          <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="gr&#xE2;ce" type="D" xml:id="phaene">Phène</role>, Grâce.</castItem>
-          <castItem><role age="A" civil="G" stat_amour="n&#xE9;ant" statut="nymphes" type="D" xml:id="nymphes">Nymphes</role>, de la suite de Flore chantantes.</castItem>
-          <castItem><role age="A" civil="G" stat_amour="n&#xE9;ant" statut="dryade" type="D" xml:id="dryades-et-sylvains">Dryades et sylvains</role>, de la suite de Vertumne dansants.</castItem>
-          <castItem><role age="A" civil="G" stat_amour="n&#xE9;ant" statut="sylvain" type="D" xml:id="sylvain-chantants">Sylvains</role>, chantants.</castItem>
-          <castItem><role age="A" civil="G" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="dieux-fleuves-dansants">Dieux des fleuves</role>, de la suite de Palémon dansants.</castItem>
-          <castItem><role age="A" civil="G" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="dieux-fleuves-chantants">Dieux des fleuves</role>, chantants.</castItem>
-          <castItem><role age="A" civil="G" stat_amour="n&#xE9;ant" statut="nna&#xEF;ade" type="D" xml:id="naidades">Naïdades</role>.</castItem>
-          <castItem><role age="A" civil="G" stat_amour="n&#xE9;ant" statut="amour" type="D" xml:id="amours">Amours</role>, de la suite de Vénus dansants.</castItem>
+          <castItem><role xml:id="flore" rend="female">Flore</role>.</castItem>
+          <castItem><role xml:id="vertumne" rend="male">Vertumne</role>, dieu des jardins.</castItem>
+          <castItem><role xml:id="palaemon" rend="male">Palémon</role>, dieu des eaux.</castItem>
+          <castItem><role xml:id="venus1" rend="female">Vénus</role>.</castItem>
+          <castItem><role xml:id="amour1" rend="female">L’amour</role>, Grâce.</castItem>
+          <castItem><role xml:id="aegiale1" rend="female">Ægiale</role>, Grâce.</castItem>
+          <castItem><role xml:id="phaene1" rend="female">Phène</role>, Grâce.</castItem>
+          <castItem><role xml:id="nymphes">Nymphes</role>, de la suite de Flore chantantes.</castItem>
+          <castItem><role xml:id="dryades-et-sylvains">Dryades et sylvains</role>, de la suite de Vertumne dansants.</castItem>
+          <castItem><role xml:id="sylvain-chantants">Sylvains</role>, chantants.</castItem>
+          <castItem><role xml:id="dieux-fleuves-dansants">Dieux des fleuves</role>, de la suite de Palémon dansants.</castItem>
+          <castItem><role xml:id="dieux-fleuves-chantants">Dieux des fleuves</role>, chantants.</castItem>
+          <castItem><role xml:id="naidades">Naïdades</role>.</castItem>
+          <castItem><role xml:id="amours">Amours</role>, de la suite de Vénus dansants.</castItem>
         </castList>
         <castList>
           <head>PERSONNAGES DE LA TRAGI-COMÉDIE</head>
-          <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="jupiter">Jupiter</role>.</castItem>
-          <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="venus">Vénus</role>.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="amour">L’amour</role>.</castItem>
-          <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="gr&#xE2;ce" type="D" xml:id="aegiale">Ægiale</role>, Grâce.</castItem>
-          <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="gr&#xE2;ce" type="D" xml:id="phaene">Phène</role>, Grâce.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="prince" type="H" xml:id="psyche">Psyché</role>.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="roi" type="H" xml:id="le-roi">Le roi</role>, père de Psyché.</castItem>
-          <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="prince" type="H" xml:id="aglaure">Aglaure</role>, sœur de Psyché.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="prince" type="H" xml:id="cidippe">Cidippe</role>, sœur de Psyché.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="prince" type="H" xml:id="cleomene">Cléomène</role>, prince amant de Psyché.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="agenor">Agénor</role>, prince amant de Psyché.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="zephire">Le zéphire</role>.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="aristocrate" type="D" xml:id="lycas">Lycas</role>.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="dieu" type="D" xml:id="dieu-fleuve">Le Dieu d’un fleuve</role>.</castItem>
+          <castItem><role xml:id="jupiter" rend="male">Jupiter</role>.</castItem>
+          <castItem><role xml:id="venus" rend="female">Vénus</role>.</castItem>
+          <castItem><role xml:id="amour" rend="male">L’amour</role>.</castItem>
+          <castItem><role xml:id="aegiale" rend="female">Ægiale</role>, Grâce.</castItem>
+          <castItem><role xml:id="phaene" rend="female">Phène</role>, Grâce.</castItem>
+          <castItem><role xml:id="psyche" rend="male">Psyché</role>.</castItem>
+          <castItem><role xml:id="le-roi" rend="male">Le roi</role>, père de Psyché.</castItem>
+          <castItem><role xml:id="aglaure" rend="female">Aglaure</role>, sœur de Psyché.</castItem>
+          <castItem><role xml:id="cidippe" rend="male">Cidippe</role>, sœur de Psyché.</castItem>
+          <castItem><role xml:id="cleomene" rend="male">Cléomène</role>, prince amant de Psyché.</castItem>
+          <castItem><role xml:id="agenor" rend="male">Agénor</role>, prince amant de Psyché.</castItem>
+          <castItem><role xml:id="zephire" rend="male">Le zéphire</role>.</castItem>
+          <castItem><role xml:id="lycas" rend="male">Lycas</role>.</castItem>
+          <castItem><role xml:id="dieu-fleuve" rend="male">Le dieu d’un fleuve</role>.</castItem>
         </castList>
         <castList>
           <head>PERSONNAGES du PREMIER INTERMÈDE</head>
-          <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="bourgeois" type="H" xml:id="femme-desolee">Femme désolée</role>, chantante.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="bourgeois" type="H" xml:id="hommes-dansants">Deux hommes affligés</role>, chantants.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="n&#xE9;ant" statut="bourgeois" type="H" xml:id="affliges">Hommes affligés</role>, dansants.</castItem>
-          <castItem><role age="A" civil="F" stat_amour="n&#xE9;ant" statut="bourgeois" type="H" xml:id="femmes-dansants">Femmes desolées</role>, dansantes.</castItem>
+          <castItem><role xml:id="femme-desolee" rend="female">Femme désolée</role>, chantante.</castItem>
+          <castItem><role xml:id="hommes-dansants" rend="male">Deux hommes affligés</role>, chantants.</castItem>
+          <castItem><role xml:id="affliges" rend="male">Hommes affligés</role>, dansants.</castItem>
+          <castItem><role xml:id="femmes-dansants" rend="female">Femmes desolées</role>, dansantes.</castItem>
         </castList>
         <castList>
           <head>PERSONNAGES du DEUXIÈME INTERMÈDE</head>
@@ -92,7 +92,7 @@
         </castList>
         <castList>
           <head>PERSONNAGES du TROISIÈME INTERMÈDE</head>
-          <castItem><role xml:id="zephyr">un Zéphyr</role>, chantant.</castItem>
+          <castItem><role xml:id="zephyr">un zéphyr</role>, chantant.</castItem>
           <castItem><role xml:id="deux-amours">Deux amours</role>, chantants.</castItem>
           <castItem><role xml:id="zephyrs-dansants">Zéphyrs</role>, dansants.</castItem>
           <castItem><role xml:id="amours-dansants">Amours</role>, dansantes.</castItem>
@@ -105,8 +105,8 @@
         <castList>
           <head>PERSONNAGES du CINQUIÈME INTERMÈDE</head>
           <castItem><role xml:id="apollon">Apollon</role>.</castItem>
-          <castItem><role xml:id="muses">Les Muses</role> chantantes.</castItem>
-          <castItem><role xml:id="les-arts">Les Arts</role>, travestis en bergers galants, dansants.</castItem>
+          <castItem><role xml:id="muses">Les muses</role> chantantes.</castItem>
+          <castItem><role xml:id="les-arts">Les arts</role>, travestis en bergers galants, dansants.</castItem>
           <castItem><role xml:id="bacchus">Bacchus</role>.</castItem>
           <castItem><role xml:id="silene">Silène</role>.</castItem>
           <castItem><role xml:id="deux-satyres-chantants">Deux satyres</role> chantants.</castItem>
@@ -122,16 +122,16 @@
           <castItem><role xml:id="guerriers-boculiers">Guerriers</role> portant des masses et des boucliers.</castItem>
           <castItem><role xml:id="choeur">Chœur</role> des divinités célestes.</castItem>
         </castList>
-        <set country="(pays imaginaire)" link="" location="Palais du Roi" periode="Temps mythologiques">La scène du prologue est dans un lieu champêtre, la tragi-comédie se situe dans le palais du roi.</set>
+        <p>La scène du prologue est dans un lieu champêtre, la tragi-comédie se situe dans le palais du roi.</p>
       </div>
       <div xml:id="i0">
-        <head>LE LIBRAIRE AU LECTEUR.</head>
+        <head>LE LIBRAIRE AU LECTEUR</head>
         <p rend="margin">Cet Ouvrage n’est pas tout d’une main. M. Quinault a fait les Paroles qui s’y chantent en Musique, à la réserve de la Plainte Italienne. M. de Molière a dressé le Plan de la Pièce, et réglé la disposition, où il s’est plus attaché aux beautés et à la pompe du Spectacle qu’à l’exacte régularité. Quant à la Versification, il n’a pas eu le loisir de la faire entière. Le Carnaval approchait, et les Ordres pressants du Roi, qui se voulait donner ce magnifique Divertissement plusieurs fois avant le Carême, l’ont mis dans la nécessité de souffrir un peu de secours. Ainsi il n’y a que le Prologue, le Premier Acte, la première Scène du Second et la première du Troisième, dont les Vers soient de lui. Monsieur Corneille a employé une quinzaine au reste ; et, par ce moyen, Sa Majesté s’est trouvée servie dans le temps qu’elle l’avait ordonné.</p>
       </div>
     </front>
     <body>
       <div>
-        <head>PROLOGUE.</head>
+        <head>PROLOGUE</head>
         <stage>La Scène représente sur le devant un Lieu champêtre, et dans l’enfoncement un Rocher percé à jour, à travers duquel on voit la Mer en éloignement.</stage>
         <stage>Flore paraît au milieu du Théâtre, accompagnée de Vertumne Dieu des Arbres et des Fruits, et de Palæmon Dieu des Eaux. Chacun de ces Dieux conduit une Troupe de Divinités ; l’un mène à sa suite des Dryades et des Sylvains ; et l’autre des Dieux des Fleuves et des Naïades. Flore chante ce Récit pour inviter Vénus à descendre en Terre :</stage>
         <sp who="flore" xml:id="i0-1">
@@ -334,9 +334,9 @@
         </sp>
       </div>
       <div xml:id="I">
-        <head>ACTE I.</head>
+        <head>ACTE I</head>
         <div xml:id="I01" type="scene">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>SCÈNE PREMIÈRE</head>
           <stage>Aglaure, Cidippe.</stage>
           <p/>
           <sp who="aglaure" xml:id="I01-1">
@@ -516,7 +516,7 @@
           </sp>
         </div>
         <div xml:id="I02" type="scene">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <stage>Cléomène, Agénor, Aglaure, Cidippe.</stage>
           <p/>
           <sp who="aglaure" xml:id="I02-1">
@@ -660,7 +660,7 @@
           </sp>
         </div>
         <div xml:id="I03" type="scene">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <stage>Psyché, Cidippe, Aglaure, Cléomène, Agénor.</stage>
           <p/>
           <sp who="cidippe" xml:id="I03-1">
@@ -825,7 +825,7 @@
           </sp>
         </div>
         <div xml:id="I04" type="scene">
-          <head>SCÈNE IV.</head>
+          <head>SCÈNE IV</head>
           <stage>Lycas, Psyché, Aglaure, Cidippe, Cléomène, Agénor.</stage>
           <p/>
           <sp who="lycas" xml:id="I04-1">
@@ -882,7 +882,7 @@
           </sp>
         </div>
         <div xml:id="I05" type="scene">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <stage>Aglaure, Cidippe, Lycas</stage>
           <p/>
           <sp who="aglaure" xml:id="I05-1">
@@ -913,7 +913,7 @@
           </sp>
         </div>
         <div xml:id="I06" type="scene">
-          <head>SCÈNE VI.</head>
+          <head>SCÈNE VI</head>
           <stage>Aglaure, Cidippe.</stage>
           <p/>
           <sp who="cidippe" xml:id="I06-1">
@@ -989,9 +989,9 @@
         </sp>
       </div>
       <div xml:id="II">
-        <head>ACTE II.</head>
+        <head>ACTE II</head>
         <div xml:id="II-01" type="scene">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>SCÈNE PREMIÈRE</head>
           <stage>Le Roi, Psyché, Aglaure, Cidippe, Lycas, Suite.</stage>
           <p/>
           <sp who="psyche" xml:id="II-01-1">
@@ -1200,7 +1200,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <stage>Psyché, Aglaure, Cidippe.</stage>
           <p/>
           <sp who="psyche" xml:id="II-02-1">
@@ -1282,7 +1282,7 @@
           </sp>
         </div>
         <div xml:id="II-03" type="scene">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <sp who="psyche" xml:id="II-03-1">
             <speaker>psyché<hi rend="i">, seule</hi></speaker>
             <l n="785" xml:id="l785">Enfin, seule, et toute à moi-même,</l>
@@ -1312,7 +1312,7 @@
           </sp>
         </div>
         <div xml:id="II-04" type="scene">
-          <head>SCÈNE IV.</head>
+          <head>SCÈNE IV</head>
           <stage>Cléomène, Agénor, Psyché/</stage>
           <p/>
           <sp who="cleomene" xml:id="II-04-1">
@@ -1448,7 +1448,7 @@
           </sp>
         </div>
         <div xml:id="II-05" type="scene">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <sp who="amour" xml:id="II-05-1">
             <speaker>l’amour, en l’air.</speaker>
             <l n="899" xml:id="l899">Allez mourir, Rivaux d’un dieu jaloux,</l>
@@ -1462,7 +1462,7 @@
         </div>
       </div>
       <div xml:id="ii">
-        <head>SECOND INTERMÈDE.</head>
+        <head>SECOND INTERMÈDE</head>
         <stage>La Scène se change en une Cour magnifique, ornée de Colonnes de Lapis enrichies de Figures d’or, qui forment un Palais pompeux et brillant, que l’Amour destine pour Psyché. Six Cyclopes avec quatre Fées y font une Entrée de Ballet, où ils achèvent en cadence quatre gros vases d’Argent que les Fées leur ont apportés. Cette Entrée est entrecoupée par ce Récit de Vulcain, qu’il fait à deux reprises :</stage>
         <l n="906" xml:id="l906">Dépêchez, préparez ces lieux</l>
         <l n="907" xml:id="l907">Pour le plus aimable des Dieux,</l>
@@ -1486,7 +1486,7 @@
         <l n="924" xml:id="l924">Travaillez, etc.</l>
       </div>
       <div xml:id="III">
-        <head>ACTE III.</head>
+        <head>ACTE III</head>
         <div xml:id="III-01" type="scene">
           <head>SCÈNE PREMIÈRE</head>
           <stage>L’Amour, Zéphire.</stage>
@@ -1544,7 +1544,7 @@
           </sp>
         </div>
         <div xml:id="III-02" type="scene">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <sp who="psyche" xml:id="III-02-1">
             <speaker>psyché</speaker>
             <l n="995" xml:id="l995">Où suis-je ? et dans un lieu que je croyais barbare,</l>
@@ -1587,7 +1587,7 @@
           </sp>
         </div>
         <div xml:id="III-03" type="scene">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <stage>L’Amour, Psyché, Zéphire.</stage>
           <p/>
           <sp who="amour" xml:id="III-03-1">
@@ -1827,7 +1827,7 @@
         </div>
       </div>
       <div xml:id="iii">
-        <head>TROISIÈME INTERMÈDE.</head>
+        <head>TROISIÈME INTERMÈDE</head>
         <stage>Il se fait une Entrée de Ballet de quatre Amours et quatre Zéphyrs, interrompue deux fois par un Dialogue chanté par un Amour et un Zéphyr.</stage>
         <p/>
         <sp who="zephyr" xml:id="iii-1">
@@ -1844,7 +1844,7 @@
           <l n="1227" xml:id="l1227">Quels sont leurs plaisirs.</l>
         </sp>
         <sp who="zephyr amour" xml:id="iii-2">
-          <speaker><hi rend="i">I</hi>ls chantent ensemble.</speaker>
+          <speaker>Ils chantent ensemble.</speaker>
           <l n="1228" xml:id="l1228">Chacun est obligé d’aimer</l>
           <l n="1229" xml:id="l1229">À son tour,</l>
           <l n="1230" xml:id="l1230">Et plus on a de quoi charmer,</l>
@@ -1858,21 +1858,21 @@
           <l n="1235" xml:id="l1235">De fâcheux détour.</l>
         </sp>
         <sp who="zephyr amour" xml:id="iii-4">
-          <speaker><hi rend="i">L</hi>es deux ensemble.</speaker>
+          <speaker>Les deux ensemble.</speaker>
           <l n="1236" xml:id="l1236">Chacun est obligé d’aimer</l>
           <l n="1237" xml:id="l1237">À son tour,</l>
           <l n="1238" xml:id="l1238">Et plus on a de quoi charmer,</l>
           <l n="1239" xml:id="l1239">Plus on doit à l’Amour.</l>
         </sp>
         <sp who="amour" xml:id="iii-5">
-          <speaker>l’amour, seul.</speaker>
+          <speaker>L’amour, seul.</speaker>
           <l n="1240" xml:id="l1240">Pourquoi se défendre ?</l>
           <l n="1241" xml:id="l1241">Que sert-il d’attendre ?</l>
           <l n="1242" xml:id="l1242">Quand on perd un jour,</l>
           <l n="1243" xml:id="l1243">On le perd sans retour.</l>
         </sp>
         <sp who="zephyr amour" xml:id="iii-6">
-          <speaker><hi rend="i">L</hi>es deux ensemble.</speaker>
+          <speaker>Les deux ensemble.</speaker>
           <l n="1244" xml:id="l1244">Chacun est obligé d’aimer</l>
           <l n="1245" xml:id="l1245">À son tour,</l>
           <l n="1246" xml:id="l1246">Et plus on a de quoi charmer,</l>
@@ -1880,7 +1880,7 @@
           <stage>Second Couplet</stage>
         </sp>
         <sp who="zephyr" xml:id="iii-7">
-          <speaker>le zéphir</speaker>
+          <speaker>Le zéphir</speaker>
           <l n="1248" xml:id="l1248">L’Amour a des charmes,</l>
           <l n="1249" xml:id="l1249">Rendons-lui les armes,</l>
           <l n="1250" xml:id="l1250">Ses soins et ses pleurs</l>
@@ -1900,7 +1900,7 @@
           <l n="1261" xml:id="l1261">Par un heureux moment.</l>
         </sp>
         <sp who="zephyr" xml:id="iii-9">
-          <speaker>le zephyr, seul.</speaker>
+          <speaker>Le zephyr, seul.</speaker>
           <l n="1262" xml:id="l1262">On craint, on espère,</l>
           <l n="1263" xml:id="l1263">Il faut du mystère,</l>
           <l n="1264" xml:id="l1264">Mais on n’obtient guère</l>
@@ -1914,14 +1914,14 @@
           <l n="1269" xml:id="l1269">Par un heureux moment.</l>
         </sp>
         <sp who="amour" xml:id="iii-11">
-          <speaker>l’amour, seul.</speaker>
+          <speaker>L’amour, seul.</speaker>
           <l n="1270" xml:id="l1270">Que peut-on mieux faire</l>
           <l n="1271" xml:id="l1271">Qu’aimer et que plaire ?</l>
           <l n="1272" xml:id="l1272">C’est un soin charmant</l>
           <l n="1273" xml:id="l1273">Que l’emploi d’un Amant.</l>
         </sp>
         <sp who="zephyr amour" xml:id="iii-12">
-          <speaker><hi rend="i">L</hi>es deux ensemble.</speaker>
+          <speaker>Les deux ensemble.</speaker>
           <l n="1274" xml:id="l1274">S’il faut des soins et des travaux,</l>
           <l n="1275" xml:id="l1275">En aimant,</l>
           <l n="1276" xml:id="l1276">On est payé de mille maux</l>
@@ -1930,9 +1930,9 @@
         </sp>
       </div>
       <div xml:id="IV">
-        <head>ACTE IV.</head>
+        <head>ACTE IV</head>
         <div xml:id="IV-01" type="scene">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>SCÈNE PREMIÈRE</head>
           <stage>Aglaure, Cidippe.</stage>
           <p/>
           <sp who="aglaure" xml:id="IV-01-1">
@@ -2032,7 +2032,7 @@
           </sp>
         </div>
         <div xml:id="IV-02" type="scene">
-          <head>SCÈNE II.</head>
+          <head>SCÈNE II</head>
           <stage>Psyché, Aglaure, Cidippe.</stage>
           <p/>
           <sp who="psyche" xml:id="IV-02-1">
@@ -2162,7 +2162,7 @@
           </sp>
         </div>
         <div xml:id="IV-03" type="scene">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <stage>L’Amour, Psyché.</stage>
           <p/>
           <sp who="amour" xml:id="IV-03-1">
@@ -2355,7 +2355,7 @@
           </sp>
         </div>
         <div xml:id="IV-04" type="scene">
-          <head>SCÈNE IV.</head>
+          <head>SCÈNE IV</head>
           <p rend="margin">PSYCHÉ, [LE DIEU DU FLEUVE].</p>
           <p/>
           <sp who="psyche" xml:id="IV-04-1">
@@ -2414,7 +2414,7 @@
           </sp>
         </div>
         <div xml:id="IV-05" type="scene">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <stage>Vénus, Psyché.</stage>
           <p/>
           <sp who="venus" xml:id="IV-05-1">
@@ -2519,13 +2519,13 @@
         </div>
       </div>
       <div xml:id="iv">
-        <head>QUATRIÈME INTERMÈDE.</head>
+        <head>QUATRIÈME INTERMÈDE</head>
         <stage>La Scène représente les Enfers. On y voit une Mer toute de feu, dont les flots sont dans une perpétuelle agitation. Cette Mer effroyable est bornée par des Ruines enflammées ; et au milieu de ses flots agités, au travers d’une Gueule affreuse, paraît le Palais Infernal de Pluton. Huit Furies en sortent, et forment une Entrée de Ballet, où elles se réjouissent de la rage qu’elles ont allumée dans l’âme de la plus douce des Divinités. Un Lutin mêle quantité de sauts périlleux à leurs Danses, cependant que Psyché qui a passé aux Enfers par le commandement de Vénus, repasse dans la Barque de Charon, avec la Boîte qu’elle a reçue de Proserpine pour cette Déesse.</stage>
       </div>
       <div xml:id="V">
-        <head>ACTE V.</head>
+        <head>ACTE V</head>
         <div xml:id="V-01" type="scene">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>SCÈNE PREMIÈRE</head>
           <sp who="psyche" xml:id="V-01-1">
             <speaker>psyché</speaker>
             <l n="1666" xml:id="l1666">Effroyables replis des ondes infernales,</l>
@@ -2712,7 +2712,7 @@
           </sp>
         </div>
         <div xml:id="V-03" type="scene">
-          <head>SCÈNE III.</head>
+          <head>SCÈNE III</head>
           <sp who="psyche" xml:id="V-03-1">
             <speaker>psyché</speaker>
             <l n="1799" xml:id="l1799">Pauvres Amants ! leur amour dure encore,</l>
@@ -2751,7 +2751,7 @@
           </sp>
         </div>
         <div xml:id="V-04" type="scene">
-          <head>SCÈNE IV.</head>
+          <head>SCÈNE IV</head>
           <stage>L’Amour, Psyché, évanouie.</stage>
           <p/>
           <sp who="amour" xml:id="V-04-1">
@@ -2801,7 +2801,7 @@
           </sp>
         </div>
         <div xml:id="V-05" type="scene">
-          <head>SCÈNE V.</head>
+          <head>SCÈNE V</head>
           <stage>Vénus, L’Amour, Psyché, évanouie.</stage>
           <p/>
           <sp who="venus" xml:id="V-05-1">
@@ -2945,7 +2945,7 @@
           </sp>
         </div>
         <div xml:id="V-06" type="scene">
-          <head>SCÈNE DERNIÈRE.</head>
+          <head>SCÈNE DERNIÈRE</head>
           <stage>Jupiter, Vénus, L’Amour, Psyché.</stage>
           <p/>
           <sp who="amour" xml:id="V-06-1">
@@ -3131,7 +3131,7 @@
           </sp>
         </div>
         <div>
-          <head><hi rend="i">Composée de quatre Polichinelles et de deux Matassins</hi> qui suivent Mome, et viennent <hi rend="i">jouer</hi> leur plaisanterie et leur badinage aux divertissement de cette grande <hi rend="i">F</hi>ête.</head>
+          <head><hi rend="i">Composée de quatre Polichinelles et de deux Matassins</hi> qui suivent Mome, et viennent <hi rend="i">jouer</hi> leur plaisanterie et leur badinage aux divertissement de cette grande <hi rend="i">F</hi>ête</head>
           <stage>Bacchus et Mome qui les conduisent, chantent au milieu d’eux chacun une chanson, Bacchus à la louange du Vin, et Mome une Chanson enjouée, sur le sujet et les avantages de la raillerie.</stage>
           <p/>
           <sp who="bacchus" xml:id="V-08-1">
@@ -3199,7 +3199,7 @@
         </div>
       </div>
       <div>
-        <head>Extrait du Privilège du Roi.</head>
+        <head>Extrait du Privilège du Roi</head>
         <p rend="margin">Par Grâce &amp; Privilège du Roi, Donné à Paris le 31. jour de Décembre, l’an de grâce 1670. Signé par le Roi en son Conseil GUITONNEAU.Il est permis à Jean-Baptiste Pocquelin de Molière, l’un des Comédiens de Sa Majesté, de faire imprimer  vendre &amp; débiter une Pièce de Théâtre, intitulée LES AMOURS DE PSYCHÉ, par tel Imprimeur ou Libraire qu’il voudra choisir, pendant le temps de dix années entières &amp; accomplies, à compter du jour où ladite Pièce sera achevée d’imprimer pour la première fois : Et défenses sont faites à toutes Personnes, de quelque qualité et condition qu’elles soient, d’imprimer, faire imprimer, vendre, ni débiter ladite Pièce, sans le consentement de l’Exposant, ou de ceux qui auront droit de lui, à peine de six mille livres d’amende, confiscation des Exemplaires contrefaits, et de tous dépens, dommages &amp; intérêts, ainsi que plus au long il est porté audit Privilège.</p>
         <p/>
         <p><space rend="tab"> </space>Registré sur le Livre de la Communauté des Imprimeurs &amp; Marchands Libraires de Paris, suivant l’Arrêt de la Cour de Parlement du 8. Avril 1653, aux charges &amp; conditions portées ès présentes Lettres, fait ce 13. Mars mil six cents soixante-et-onze.</p>
