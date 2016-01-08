@@ -8,10 +8,29 @@
         <title type="sub">Comédie galante</title>
         <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Paul Fièvre</name>
+          <resp>2011, transcription XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Amélie Canu</name>
+          <resp>2014, révision</resp>
+        </respStmt>
+        <respStmt>
+          <name>Oriane Morvan</name>
+          <resp>2014, révision</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale (conversions, validation)</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
+        <publisher>Publié par Paul Fièvre en octobre 2011, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
         <date when="2011"/>
         <date when="2014"/>
-        <publisher>Publié par Paul Fièvre en octobre 2011, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
         <availability status="restricted">
           <licence target="projet-Molière"/>
         </availability>
@@ -78,17 +97,17 @@
       </div>
     </front>
     <body>
-      <div xml:id="i">
-        <head>PREMIER INTERMÈDE</head>
+      <div xml:id="i" type="interlude">
+        <head>Premier Intermède</head>
         <div type="scene" xml:id="i01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène Première</head>
           <castList>
             <castItem>
               <role xml:id="l-aurore"/>
             </castItem>
           </castList>
           <sp who="l-aurore">
-            <speaker><hi rend="i">récit de </hi>l’aurore</speaker>
+            <speaker><hi rend="i">Récit de </hi>l’Aurore</speaker>
             <lg>
               <l rend="i">Quand l’Amour à vos yeux offre un choix agréable,</l>
               <l>Jeunes beautés laissez-vous enflammer.</l>
@@ -108,7 +127,7 @@
           </sp>
         </div>
         <div type="scene" xml:id="i02">
-          <head>SCÈNE DEUXIÈME</head>
+          <head>Scène Deuxième</head>
           <castList>
             <castItem>
               <role xml:id="valets-de-chiens"/>
@@ -130,7 +149,7 @@
             <l>Holà ? ho debout, vite debout.</l>
           </sp>
           <sp xml:id="i02-2" who="valet-1">
-            <speaker>premier</speaker>
+            <speaker>Premier</speaker>
             <l>Jusqu’aux plus sombres lieux le jour se communique,</l>
           </sp>
           <sp xml:id="i02-3" who="valet-2">
@@ -153,7 +172,7 @@
             <l>Debout, vite debout, dépêchons, debout.</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-6">
-            <speaker>lyciscas, <hi rend="i">en s’éveillant</hi></speaker>
+            <speaker>Lyciscas, <hi rend="i">en s’éveillant</hi></speaker>
             <p>Par la morbleu vous êtes de grands braillards vous autres,</p>
             <p>Et vous avez la gueule ouverte de bon matin !</p>
           </sp>
@@ -163,7 +182,7 @@
             <l>Allons debout, Lyciscas debout.</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-8">
-            <speaker>lyciscas</speaker>
+            <speaker>Lyciscas</speaker>
             <p>Hé ! laissez-moi dormir encore un peu je vous conjure !</p>
           </sp>
           <sp who="musiciens" xml:id="i02-9">
@@ -171,7 +190,7 @@
             <l>Non, non debout, Lyciscas debout.</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-10">
-            <speaker>lyciscas</speaker>
+            <speaker>Lyciscas</speaker>
             <l>Je ne vous demande plus qu’un petit quart d’heure !</l>
           </sp>
           <sp who="musiciens" xml:id="i02-11">
@@ -179,7 +198,7 @@
             <l>Point, point debout, vite debout.</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-12">
-            <speaker>lyciscas</speaker>
+            <speaker>Lyciscas</speaker>
             <l>Hé ! je vous prie !</l>
           </sp>
           <sp who="musiciens" xml:id="i02-13">
@@ -187,7 +206,7 @@
             <l>Debout.</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-14">
-            <speaker>lyciscas</speaker>
+            <speaker>Lyciscas</speaker>
             <l>Un moment.</l>
           </sp>
           <sp who="musiciens" xml:id="i02-15">
@@ -195,7 +214,7 @@
             <l>Debout.</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-16">
-            <speaker>lyciscas</speaker>
+            <speaker>Lyciscas</speaker>
             <l>De grâce.</l>
           </sp>
           <sp who="musiciens" xml:id="i02-17">
@@ -203,7 +222,7 @@
             <l>Debout.</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-18">
-            <speaker>lyciscas</speaker>
+            <speaker>Lyciscas</speaker>
             <l>Eh.</l>
           </sp>
           <sp who="musiciens" xml:id="i02-19">
@@ -211,7 +230,7 @@
             <l>Debout.</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-20">
-            <speaker>lyciscas</speaker>
+            <speaker>Lyciscas</speaker>
             <l>Je…</l>
           </sp>
           <sp who="musiciens" xml:id="i02-21">
@@ -219,7 +238,7 @@
             <l>Debout.</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-22">
-            <speaker>lyciscas</speaker>
+            <speaker>Lyciscas</speaker>
             <p>J’aurai fait incontinent.</p>
           </sp>
           <sp who="musiciens" xml:id="i02-23">
@@ -229,11 +248,11 @@
             <l>Vite debout, dépêchons, debout.</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-24">
-            <speaker>lyciscas </speaker>
+            <speaker>Lyciscas</speaker>
             <p>Eh bien laissez-moi, je vais me lever : Vous êtes d’étranges gens de me tourmenter comme cela : vous serez cause que je ne me porterai pas bien de toute la journée ; car, voyez-vous, le sommeil est nécessaire à l’homme, et lorsqu’on ne dort pas sa réfection, il arrive… que… on est…</p>
           </sp>
           <sp who="valet-1" xml:id="i02-25">
-            <speaker>premier</speaker>
+            <speaker>Premier</speaker>
             <l>Lyciscas.</l>
           </sp>
           <sp who="valet-2" xml:id="i02-26">
@@ -249,19 +268,19 @@
             <l>Lyciscas.</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-29">
-            <speaker>lyciscas</speaker>
+            <speaker>Lyciscas</speaker>
             <p>Diable soit les brailleurs, je voudrais que vous eussiez la gueule pleine de bouillie bien chaude.</p>
           </sp>
           <sp who="musiciens" xml:id="i02-30">
-            <speaker>musiciens </speaker>
+            <speaker>musiciens</speaker>
             <l>Debout, debout vite debout, dépêchons debout.</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-31">
-            <speaker>lyciscas</speaker>
+            <speaker>Lyciscas</speaker>
             <p>Ah ! quelle fatigue, de ne pas dormir son soûl.</p>
           </sp>
           <sp who="valet-1" xml:id="i02-32">
-            <speaker>premier</speaker>
+            <speaker>Premier</speaker>
             <l>Holà ?  oh.</l>
           </sp>
           <sp who="valet-2" xml:id="i02-33">
@@ -277,7 +296,7 @@
             <l>Oh ! oh ! oh ! oh ! oh !</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-36">
-            <speaker>lyciscas</speaker>
+            <speaker>Lyciscas</speaker>
             <p>Oh ! oh ! oh ! oh. La peste soit des gens avec leurs chiens de hurlements, je me donne au Diable si je ne vous assomme : Mais voyez un peu quel diable d’enthousiasme il leur prend, de me venir chanter aux oreilles comme cela, je…</p>
           </sp>
           <sp who="musiciens" xml:id="i02-37">
@@ -285,7 +304,7 @@
             <l>Debout.</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-38">
-            <speaker>lyciscas</speaker>
+            <speaker>Lyciscas</speaker>
             <p>Encore.</p>
           </sp>
           <sp who="musiciens" xml:id="i02-39">
@@ -293,7 +312,7 @@
             <l>Debout.</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-40">
-            <speaker>lyciscas</speaker>
+            <speaker>Lyciscas</speaker>
             <p>Le diable vous emporte.</p>
           </sp>
           <sp who="musiciens" xml:id="i02-41">
@@ -301,7 +320,7 @@
             <l>Debout.</l>
           </sp>
           <sp who="lyciscas" xml:id="i02-42">
-            <speaker>lyciscas, <hi rend="i">en se levant</hi></speaker>
+            <speaker>Lyciscas, <hi rend="i">en se levant</hi></speaker>
             <p>Quoi toujours ? a-t-on jamais vu une pareille furie de chanter ? par le sang bleu j’enrage, puisque me voilà éveillé il faut que j’éveille les autres, et que je les tourmente comme on m’a fait. Allons ho ? Messieurs, debout, debout, vite c’est trop dormir. Je vais faire un bruit de Diable partout, debout, debout, debout ; Allons vite, ho, ho, ho ! Debout, debout, pour la Chasse ordonnée il faut préparer tout, debout, debout, Lyciscas debout ! Ho ! ho ! ho ! ho ! ho.</p>
           </sp>
           <argument>
@@ -309,14 +328,14 @@
           </argument>
         </div>
       </div>
-      <div type="act" xml:id="I">
-        <head>ACTE PREMIER</head>
+      <div type="act" xml:id="I" n="1">
+        <head>Acte Premier</head>
         <argument>
           <label rend="n">ARGUMENT</label>
           <p>Cette Chasse qui se préparait ainsi, était celle d’un Prince d’Élide, lequel étant d’humeur galante et magnifique, et souhaitant que la Princesse sa Fille se résolût à aimer et à penser au mariage, qui était fort contre son inclination, avait fait venir en sa cour les Princes d’Ithaque, de Messène et de Pyle ; afin que dans l’exercice de la Chasse qu’elle aimait fort, et dans d’autres Jeux, comme des Courses de Chars et semblables magnificences, quelqu’un de ces Princes pût lui plaire et devenir son Époux.</p>
         </argument>
         <div type="scene" xml:id="I01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène Première</head>
           <argument>
             <p>Euryale Prince d’Ithaque amoureux de la Princesse d’Élide, et Arbate son Gouverneur, lequel indulgent à la passion du Prince, le loua de son amour au lieu de l’en blâmer, en des termes fort galants.</p>
           </argument>
@@ -516,7 +535,7 @@
           </sp>
         </div>
         <div type="scene" xml:id="I02">
-          <head>SCÈNE DEUXIÈME</head>
+          <head>Scène Deuxième</head>
           <argument>
             <p>Moron représenté par le Sieur de Molière, arrive, et ayant le souvenir d’un furieux Sanglier, devant lequel il avait fui à la Chasse, demande secours, et rencontrant Euryale et Arbate, se met au milieu d’eux pour plus de sûreté, après leur avoir témoigné sa peur et leur disant cent choses plaisantes sur son peu de bravoure.</p>
           </argument>
@@ -712,7 +731,7 @@
           </sp>
         </div>
         <div type="scene" xml:id="I03">
-          <head>SCÈNE TROISIÈME</head>
+          <head>Scène Troisième</head>
           <argument>
             <p>La Princesse d’Élide parut ensuite, avec les Princes de Messène et de Pyle, lesquels firent remarquer en eux des caractères bien différents de celui du Prince d’Ithaque ; et lui cédèrent dans le cœur de la Princesse tous les avantages qu’il pouvait désirer : Cette aimable Princesse ne témoigna pas pourtant que le mérite de ce Prince eût fait aucune impression sur son esprit, et qu’elle l’eût quasi remarqué ; elle témoigna toujours, comme une autre Diane, n’aimer que la Chasse et les Forêts, et lorsque le Prince de Messène voulut lui faire valoir le service qu’il lui avait rendu, en la défaisant d’un fort grand Sanglier qui l’avait attaquée ; elle lui dit que sans rien diminuer de sa reconnaissance, elle trouvait son secours d’autant moins considérable, qu’elle en avait tué toute seule d’aussi furieux, et fût peut-être bien encore venue à bout de celui-ci.</p>
           </argument>
@@ -742,7 +761,7 @@
             <l>De pouvoir d’un péril affranchir ce qu’on aime.</l>
           </sp>
           <sp who="princesse-elide" xml:id="I03-3">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <l>Et pensez-vous, Seigneur, puisqu’il me faut parler,</l>
             <l>Qu’il eût en ce péril de quoi tant m’ébranler ?</l>
             <l n="285">Que l’Arc, et que le Dard, pour moi si pleins de charmes,</l>
@@ -767,7 +786,7 @@
             <l>Mais, Madame…</l>
           </sp>
           <sp who="princesse-elide" xml:id="I03-5">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <l>Hé bien, soit, je vois que votre envie</l>
             <l>Est de persuader que je vous dois la vie ;</l>
             <l>J’y consens ; oui sans vous c’était fait de mes jours,</l>
@@ -777,7 +796,7 @@
           </sp>
         </div>
         <div type="scene" xml:id="I04">
-          <head>SCÈNE QUATRIÈME</head>
+          <head>Scène Quatrième</head>
           <stage>Euryale, Moron, Arbate.</stage>
           <sp who="moron" xml:id="I04-1">
             <speaker>moron</speaker>
@@ -821,13 +840,13 @@
           <label rend="i">Fin du premier Acte.</label>
         </div>
       </div>
-      <div xml:id="ii">
-        <head>DEUXIÈME INTERMÈDE</head>
+      <div xml:id="ii" type="interlude">
+        <head>Deuxième Intermède</head>
         <argument>
           <p>L’agréable Moron laissa aller le Prince pour parler de sa passion naissante aux bois et aux rochers, et faisant retentir partout le beau nom de sa Bergère Philis, un Écho ridicule lui répondant bizarrement, il y prit si grand plaisir que riant en cent manières, il fit répondre autant de fois cet Écho, sans témoigner d’en être ennuyé : Mais un Ours vint interrompre ce beau divertissement, et le surprit si fort par cette vue peu attendue, qu’il donna des sensibles marques de sa peur : Il lui fit faire devant l’Ours toutes les soumissions dont il se pût aviser pour l’adoucir : Enfin se jetant à un arbre pour y monter, comme il vit que l’Ours y voulait grimper aussi bien que lui ; Il cria au secours d’une voix si haute, qu’elle attira huit Paysans armés de bâtons à deux bouts et d’épieux, pendant qu’un autre Ours parut ensuite du premier. Il se fit un Combat qui finit par la mort d’un des Ours, et par la fuite de l’autre :</p>
         </argument>
         <div type="scene" xml:id="ii01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène Première</head>
           <sp who="moron" xml:id="ii01-1">
             <speaker>moron</speaker>
             <p>Jusqu’au revoir ; pour moi je reste ici, et j’ai une petite conversation à faire avec ces arbres et ces rochers.</p>
@@ -849,7 +868,7 @@
           </sp>
         </div>
         <div type="scene" xml:id="ii02">
-          <head>SCÈNE DEUXIÈME</head>
+          <head>Scène Deuxième</head>
           <stage>Un Ours, Moron.</stage>
           <sp who="moron" xml:id="ii02-1">
             <speaker>moron</speaker>
@@ -861,16 +880,16 @@
         </div>
       </div>
       <div type="act" xml:id="II">
-        <head>ACTE DEUXIÈME</head>
+        <head>Acte Deuxième</head>
         <argument>
           <label rend="n">ARGUMENT</label>
           <p>Le Prince d’Ithaque et la Princesse eurent une conversation fort galante sur la Course des chars qui se préparait : Elle avait dit auparavant à une des Princesses ses Parentes, que l’insensibilité du Prince d’Ithaque lui donnait de la peine et lui était honteuse : qu’encore qu’elle ne voulût rien aimer, il était bien fâcheux de voir qu’il n’aimait rien ; et que quoi qu’elle eût résolu de n’aller point voir les Courses, elle s’y voulait rendre, dans le dessein de tâcher à triompher de la liberté d’un homme qui la chérissait si fort. Il était facile de juger que le mérite de ce Prince produisait son effet ordinaire, que ses belles qualités avaient touché ce cœur superbe : et commencé à fondre une partie de cette glace qui avait résisté jusques alors à toutes les ardeurs de l’Amour, et plus il affectait (par le conseil de Moron qu’il avait gagné, et qui connaissait fort le cœur de la Princesse) de paraître insensible, et quoiqu’il ne fût que trop amoureux, plus la Princesse se mettait dans la tête de l’engager, quoiqu’elle n’eût pas fait dessein de s’engager elle-même. Les Princes de Messène et de Pyle prirent lors congé d’elle pour s’aller préparer aux Courses, et lui parlant de l’espérance qu’ils avaient de vaincre, par le désir qu’ils sentaient de lui plaire : Celui d’Ithaque lui témoigna au contraire, que n’ayant jamais rien aimé, il allait essayer à vaincre pour sa propre satisfaction, ce qui la piqua encore davantage à vouloir soumettre un cœur déjà assez soumis, mais qui savait déguiser ses sentiments le mieux du monde.</p>
         </argument>
         <div type="scene" xml:id="II01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène Première</head>
           <stage>La princesse. Aglante. Cynthie.</stage>
           <sp who="princesse-elide" xml:id="II01-1">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <l>Oui j’aime à demeurer dans ces paisibles lieux,</l>
             <l>On n’y découvre rien qui n’enchante les yeux,</l>
             <l>Et de tous nos Palais la savante structure</l>
@@ -894,7 +913,7 @@
             <l>Devrait bien mériter l’honneur de vos regards.</l>
           </sp>
           <sp who="princesse-elide" xml:id="II01-3">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <l n="345">Quel droit ont-ils chacun d’y vouloir ma présence ?</l>
             <l>Et que dois-je après tout à leur magnificence ?</l>
             <l>Ce sont soins que produit l’ardeur de m’acquérir,</l>
@@ -903,7 +922,7 @@
             <l n="350">Je me tromperai fort si pas un d’eux l’emporte.</l>
           </sp>
           <sp who="cynthie" xml:id="II01-4">
-            <speaker>cynthie</speaker>
+            <speaker>Cynthie</speaker>
             <l>Jusques à quand ce cœur veut-il s’effaroucher</l>
             <l>Des innocents desseins qu’on a de le toucher ?</l>
             <l>Et regarde les soins que pour vous on se donne,</l>
@@ -930,15 +949,15 @@
             <p>Pour moi je tiens que cette passion est la plus agréable affaire de la vie, qu’il est nécessaire d’aimer pour vivre heureusement, et que tous les plaisirs sont fades s’il ne s’y mêle un peu d’amour.</p>
           </sp>
           <sp who="princesse-elide" xml:id="II01-6">
-            <speaker>la princesse </speaker>
+            <speaker>La Princesse</speaker>
             <p>Pouvez-vous bien toutes deux, étant ce que vous êtes, prononcer ces paroles ; et ne devez-vous pas rougir d’appuyer une passion qui n’est qu’erreur, que faiblesse et qu’emportement, et dont tous les désordres ont tant de répugnance avec la gloire de notre sexe. J’en prétends soutenir l’honneur jusqu’au dernier moment de ma vie : Et ne veux point du tout me commettre à ces gens qui sont les esclaves auprès de nous, pour devenir un jour nos Tyrans : Toutes ces larmes, tous ces soupirs, tous ces hommages, tous ces respects sont des embûches qu’on tend à notre cœur, et qui souvent l’engagent à commettre des lâchetés. Pour moi quand je regarde certains exemples, et les bassesses épouvantables où cette passion ravale les personnes sur qui elle étend sa puissance : Je sens tout mon cœur qui s’émeut : et je ne puis souffrir qu’une âme qui fait profession d’un peu de fierté, ne trouve pas une honte horrible à de telles faiblesses.</p>
           </sp>
           <sp who="cynthie" xml:id="II01-7">
-            <speaker>cynthie</speaker>
+            <speaker>Cynthie</speaker>
             <p>Eh ! Madame, il est de certaines faiblesses qui ne sont point honteuses, et qu’il est beau même d’avoir dans les plus hauts degrés de gloire. J’espère que vous changerez un jour de pensée, et s’il plaît au Ciel nous verrons votre cœur avant qu’il soit peu…</p>
           </sp>
           <sp who="princesse-elide" xml:id="II01-8">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Arrêtez, n’achevez pas ce souhait étrange, j’ai une horreur trop invincible pour ces sortes d’abaissements, et si jamais j’étais capable d’y descendre, je serais personne sans doute à ne me le point pardonner.</p>
           </sp>
           <sp who="aglante" xml:id="II01-9">
@@ -946,27 +965,27 @@
             <p>Prenez garde ; Madame, l’Amour sait se venger des mépris que l’on fait de lui, et peut-être…</p>
           </sp>
           <sp who="princesse-elide" xml:id="II01-10">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Non, non je brave tous ses traits, et le grand pouvoir qu’on lui donne n’est rien qu’une chimère, qu’une excuse des faibles cœurs qui le font invincible pour autoriser leur faiblesse.</p>
           </sp>
           <sp who="cynthie" xml:id="II01-11">
-            <speaker>cynthie</speaker>
+            <speaker>Cynthie</speaker>
             <p>Mais enfin toute la terre reconnaît sa puissance, et vous voyez que les Dieux même sont assujettis à son empire : On nous fait voir que Jupiter n’a pas aimé pour une fois ; et que Diane même dont vous affectez tant l’exemple n’a pas rougi de pousser des soupirs d’amour.</p>
           </sp>
           <sp who="princesse-elide" xml:id="II01-12">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Les croyances publiques sont toujours mêlées d’erreur : Les Dieux ne sont point faits comme se les fait le vulgaire, et c’est leur manquer de respect que de leur attribuer les faiblesses des hommes.</p>
           </sp>
         </div>
         <div type="scene" xml:id="II02">
-          <head>SCÈNE DEUXIÈME</head>
+          <head>Scène Deuxième</head>
           <stage>Moron. la Princesse, Aglante, Cynthie, Philis.</stage>
           <sp who="aglante" xml:id="II02-1">
             <speaker>aglante</speaker>
             <p>Viens, approche Moron, viens nous aider à défendre l’Amour contre les sentiments de la Princesse.</p>
           </sp>
           <sp who="princesse-elide" xml:id="II02-2">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Voilà votre parti fortifié d’un grand défenseur.</p>
           </sp>
           <sp who="moron" xml:id="II02-3">
@@ -974,7 +993,7 @@
             <p>Ma foi, Madame, je crois qu’après mon exemple il n’y a plus rien à dire, et qu’il ne faut plus mettre en doute le pouvoir de l’Amour. J’ai bravé ses armes assez longtemps, et fait de mon drôle comme un autre ; mais enfin ma fierté a baissé l’oreille, et vous avez une traîtresse qui m’a rendu plus doux qu’un Agneau : Après cela, on ne doit plus faire aucun scrupule d’aimer, et puisque j’ai bien passé par là, il peut bien y en passer d’autres.</p>
           </sp>
           <sp who="cynthie" xml:id="II02-4">
-            <speaker>cynthie</speaker>
+            <speaker>Cynthie</speaker>
             <p>Quoi ? Moron se mêle d’aimer ?</p>
           </sp>
           <sp who="moron" xml:id="II02-5">
@@ -982,7 +1001,7 @@
             <p>Fort bien.</p>
           </sp>
           <sp who="cynthie" xml:id="II02-6">
-            <speaker>cynthie</speaker>
+            <speaker>Cynthie</speaker>
             <p>Et de vouloir être aimé ?</p>
           </sp>
           <sp who="moron" xml:id="II02-7">
@@ -990,31 +1009,31 @@
             <p>Et pourquoi non ? Est-ce qu’on n’est pas assez bien fait pour cela ? Je pense que ce visage est assez passable, et que pour le bel air, Dieu merci, nous ne le cédons à personne.</p>
           </sp>
           <sp who="cynthie" xml:id="II02-8">
-            <speaker>cynthie </speaker>
+            <speaker>Cynthie</speaker>
             <p>Sans doute, on aurait tort…</p>
           </sp>
         </div>
         <div type="scene" xml:id="II03">
-          <head>SCÈNE TROISIÈME</head>
+          <head>Scène Troisième</head>
           <stage>Lycas, La Princesse, Aglante, Cynthie, Philis, Moron.</stage>
           <sp who="lycas" xml:id="II03-1">
-            <speaker>lycas</speaker>
+            <speaker>Lycas</speaker>
             <p>Madame, le Prince votre Père vient vous trouver ici, et conduit avec lui les Princes de Pyle, et d’Ithaque, et celui de Messène.</p>
           </sp>
           <sp who="princesse-elide" xml:id="II03-2">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Ô Ciel ! que prétend-il faire en me les amenant ? Aurait-il résolu ma perte, et voudrait-il bien me forcer au choix de quelqu’un d’eux ?</p>
           </sp>
         </div>
         <div type="scene" xml:id="II04">
-          <head>SCÈNE QUATRIÈME</head>
+          <head>Scène Quatrième</head>
           <stage>Le Prince, Euryale, Aristomène, Théocle, La Princesse, Aglante, Cynthie, Philis, Moron.</stage>
           <sp who="princesse-elide" xml:id="II04-1">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Seigneur, je vous demande la licence de prévenir par deux paroles, la déclaration des pensées que vous pouvez avoir. Il y a deux vérités, Seigneur, aussi constantes l’une que l’autre, et dont je puis vous assurer également : l’Une que vous avez un absolu pouvoir sur moi, et que vous ne sauriez m’ordonner rien où je ne réponde aussitôt par une obéissance aveugle. L’autre que je regarde l’Hyménée ainsi que le trépas, et qu’il m’est impossible de forcer cette aversion naturelle : Me donner un Mari, et me donner la mort c’est une même chose ; mais votre volonté va la première, et mon obéissance m’est bien plus chère que ma vie : Après cela parlez, Seigneur, prononcez librement ce que vous voulez.</p>
           </sp>
           <sp who="iphitas" xml:id="II04-2">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Ma Fille tu as tort de prendre de telles alarmes, et je me plains de toi, qui peux mettre dans ta pensée que je sois assez mauvais Père pour vouloir faire violence à tes sentiments, et me servir tyranniquement de la puissance que le Ciel me donne sur toi. Je souhaite à la vérité que ton cœur puisse aimer quelqu’un : Tous mes vœux seraient satisfaits si cela pouvait arriver, et je n’ai proposé les Fêtes et les Jeux que je fais célébrer ici ; qu’afin d’y pouvoir attirer tout ce que la Grèce a d’illustre ; et que parmi cette noble jeunesse tu puisses enfin rencontrer où arrêter tes yeux et déterminer tes pensées. Je ne demande dis-je, au Ciel autre bonheur que celui de te voir un Époux. J’ai pour obtenir cette grâce fait encore ce matin un sacrifice à Vénus ; et si je sais bien expliquer le langage des Dieux, elle m’a promis un miracle ; mais quoi qu’il en soit je veux en user avec toi en Père qui chérit sa Fille : Si tu trouves où attacher tes vœux, ton choix sera le mien, et je ne considérerai ni intérêts d’État, ni avantage d’Alliance. Si ton cœur demeure insensible, je n’entreprendrai point de le forcer : Mais au moins sois complaisante aux civilités qu’on te rend, et ne m’oblige point à faire les excuses de ta froideur : Traite ces Princes avec l’estime que tu leur dois, reçois avec reconnaissance les témoignages de leur zèle, et viens voir cette Course où leur adresse va paraître.</p>
           </sp>
           <sp who="theocle" xml:id="II04-3">
@@ -1031,7 +1050,7 @@
             <stage>Ils la quittent.</stage>
           </sp>
           <sp who="princesse-elide" xml:id="II04-6">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>D’où sort cette fierté où l’on ne s’attendait point ? Princesses, que dites-vous de ce jeune Prince ? Avez-vous remarqué de quel ton il l’a pris ?</p>
           </sp>
           <sp who="aglante" xml:id="II04-7">
@@ -1043,39 +1062,39 @@
             <p>Ah ! quelle brave botte il vient là de lui porter !</p>
           </sp>
           <sp who="princesse-elide" xml:id="II04-9">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Ne trouvez-vous pas qu’il y aurait plaisir d’abaisser son orgueil, et de soumettre un peu ce cœur qui tranche tant du brave ?</p>
           </sp>
           <sp who="cynthie" xml:id="II04-10">
-            <speaker>cynthie</speaker>
+            <speaker>Cynthie</speaker>
             <p>Comme vous êtes accoutumée à ne jamais recevoir que des hommages et des adorations de tout le monde, un compliment pareil au sien doit vous surprendre à la vérité.</p>
           </sp>
           <sp who="princesse-elide" xml:id="II04-11">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Je vous avoue que cela m’a donné de l’émotion, et que je souhaiterais fort de trouver les moyens de châtier cette hauteur. Je n’avais pas beaucoup d’envie de me trouver à cette Course ; mais j’y veux aller exprès, et employer toute chose pour lui donner de l’amour.</p>
           </sp>
           <sp who="cynthie" xml:id="II04-12">
-            <speaker>cynthie</speaker>
+            <speaker>Cynthie</speaker>
             <p>Prenez garde, Madame, l’entreprise est périlleuse, et lorsqu’on veut donner de l’amour, on court risque d’en recevoir.</p>
           </sp>
           <sp who="princesse-elide" xml:id="II04-13">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Ah ! n’appréhendez rien, je vous prie, allons, je vous réponds de moi.</p>
           </sp>
           <label rend="i">Fin du deuxième Acte.</label>
         </div>
       </div>
-      <div xml:id="iii">
-        <head>TROISIÈME INTERMÈDE</head>
+      <div xml:id="iii" type="interlude">
+        <head>Troisième Intermède</head>
         <div type="scene" xml:id="iii01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène Première</head>
           <stage>Moron, Philis.</stage>
           <sp who="moron" xml:id="iii01-1">
             <speaker>moron</speaker>
             <p>Philis demeure ici ?</p>
           </sp>
           <sp who="philis" xml:id="iii01-2">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Non laisse-moi suivre les autres.</p>
           </sp>
           <sp who="moron" xml:id="iii01-3">
@@ -1083,7 +1102,7 @@
             <p>Ah ! cruelle si c’était Tircis qui t’en priât, tu demeurerais bien vite.</p>
           </sp>
           <sp who="philis" xml:id="iii01-4">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Cela se pourrait faire, et je demeure d’accord que je trouve bien mieux mon compte avec l’un qu’avec l’autre ; car il me divertit avec sa voix, et toi tu m’étourdis de ton caquet. Lorsque tu chanteras aussi bien que lui, je te promets de t’écouter.</p>
           </sp>
           <sp who="moron" xml:id="iii01-5">
@@ -1091,7 +1110,7 @@
             <p>Eh ! demeure un peu !</p>
           </sp>
           <sp who="philis" xml:id="iii01-6">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Je ne saurais.</p>
           </sp>
           <sp who="moron" xml:id="iii01-7">
@@ -1099,7 +1118,7 @@
             <p>De grâce !</p>
           </sp>
           <sp who="philis" xml:id="iii01-8">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Point te dis-je.</p>
           </sp>
           <sp who="moron" xml:id="iii01-9">
@@ -1107,7 +1126,7 @@
             <p>Je ne te laisserai point aller.</p>
           </sp>
           <sp who="philis" xml:id="iii01-10">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Ah ! que de façons.</p>
           </sp>
           <sp who="moron" xml:id="iii01-11">
@@ -1115,7 +1134,7 @@
             <p>Je ne te demande qu’un moment à être avec toi !</p>
           </sp>
           <sp who="philis" xml:id="iii01-12">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Eh bien ! oui, j’y demeurerai, pourvu que tu me promettes une chose !</p>
           </sp>
           <sp who="moron" xml:id="iii01-13">
@@ -1123,7 +1142,7 @@
             <p>Et quelle ?</p>
           </sp>
           <sp who="philis" xml:id="iii01-14">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>De ne me point parler du tout.</p>
           </sp>
           <sp who="moron" xml:id="iii01-15">
@@ -1131,7 +1150,7 @@
             <p>Eh ! Philis !</p>
           </sp>
           <sp who="philis" xml:id="iii01-16">
-            <speaker>philis </speaker>
+            <speaker>Philis</speaker>
             <p>À moins que de cela je ne demeurerai point avec toi.</p>
           </sp>
           <sp who="moron" xml:id="iii01-17">
@@ -1139,7 +1158,7 @@
             <p>Veux-tu me…</p>
           </sp>
           <sp who="philis" xml:id="iii01-18">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Laisse-moi aller !</p>
           </sp>
           <sp who="moron" xml:id="iii01-19">
@@ -1147,17 +1166,17 @@
             <p>Eh bien, oui, demeure : je ne dirai mot.</p>
           </sp>
           <sp who="philis" xml:id="iii01-20">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Prends-y bien garde au moins ; car à la moindre parole je prends la fuite.</p>
           </sp>
           <sp who="moron" xml:id="iii01-21">
-            <speaker>moron </speaker>
+            <speaker>moron</speaker>
             <stage>Il fait une scène de gestes.</stage>
             <p>Soit. Ah ! Philis… Eh… Elle s’enfuit, et je ne saurais l’attraper. Voilà ce que c’est, si je savais chanter j’en ferais bien mieux mes affaires. La plupart des Femmes aujourd’hui se laissent prendre par les oreilles : Elles sont cause que tout le monde se mêle de Musique, et l’on ne réussit auprès d’elles, que par les petites chansons, et les petits vers qu’on leur fait entendre. Il faut que j’apprenne à chanter pour faire comme les autres, bon, voici justement mon homme.</p>
           </sp>
         </div>
         <div type="scene" xml:id="iii02">
-          <head>SCÈNE DEUXIÈME</head>
+          <head>Scène Deuxième</head>
           <stage>Satyre, Moron.</stage>
           <sp who="satyre" xml:id="iii02-1">
             <speaker>satyre</speaker>
@@ -1248,25 +1267,25 @@
         </div>
       </div>
       <div type="act" xml:id="III">
-        <head>ACTE TROISIÈME</head>
+        <head>Acte Troisième</head>
         <argument>
           <label rend="n">ARGUMENT</label>
           <p>La Princesse d’Élide était cependant dans d’étranges inquiétudes : le Prince d’Ithaque avait gagné le prix des Courses, elle avait dans la suite de ce divertissement fait des merveilles à chanter et à la danse, sans qu’il parût que les dons de la nature et de l’art eussent été quasi remarqués par le Prince d’Ithaque ; elle en fit de grandes plaintes à la Princesse sa parente ; elle en parla à Moron, qui fit passer cet insensible pour un brutal : Et enfin le voyant arriver lui-même, elle ne put s’empêcher de lui en toucher fort sérieusement quelque chose : Il lui répondit ingénument qu’il n’aimait rien, et qu’hors l’amour de sa liberté, et les plaisirs qu’elle trouvait si agréables de la solitude et de la Chasse rien ne le touchait.</p>
         </argument>
         <div type="scene" xml:id="III01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène Première</head>
           <stage>La Princesse, Aglante, Cynthie, Philis.</stage>
           <sp who="cynthie" xml:id="III01-1">
-            <speaker>cynthie</speaker>
+            <speaker>Cynthie</speaker>
             <p>Il est vrai, Madame, que ce jeune Prince a fait voir une adresse non commune, et que l’air dont il a paru a été quelque chose de surprenant. Il sort vainqueur de cette Course, mais je doute fort qu’il en sorte avec le même cœur qu’il y a porté : Car enfin, vous lui avez tiré des traits dont il est difficile de se défendre, et sans parler de tout le reste, la grâce de votre danse, et la douceur de votre voix ont eu des charmes aujourd’hui à toucher les plus insensibles.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III01-2">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Le voici qui s’entretient avec Moron ; nous saurons un peu de quoi il lui parle : Ne rompons point encore leur entretien, et prenons cette route pour revenir à leur rencontre.</p>
           </sp>
         </div>
         <div type="scene" xml:id="III02">
-          <head>SCÈNE DEUXIÈME</head>
+          <head>Scène Deuxième</head>
           <stage>Euryale, Moron, Arbate.</stage>
           <sp who="euryale" xml:id="III02-1">
             <speaker>euryale</speaker>
@@ -1286,10 +1305,10 @@
           </sp>
         </div>
         <div type="scene" xml:id="III03">
-          <head>SCÈNE TROISIÈME</head>
+          <head>Scène Troisième</head>
           <stage>La Princesse, Moron.</stage>
           <sp who="princesse-elide" xml:id="III03-1">
-            <speaker>la princesse </speaker>
+            <speaker>La Princesse</speaker>
             <p>Tu as donc familiarité, Moron, avec le Prince d’Ithaque ?</p>
           </sp>
           <sp who="moron" xml:id="III03-2">
@@ -1297,7 +1316,7 @@
             <p>Ah ! Madame il y a longtemps que nous nous connaissons.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III03-3">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>D’où vient qu’il n’est pas venu jusqu’ici, et qu’il a pris cette autre route quand il m’a vue ?</p>
           </sp>
           <sp who="moron" xml:id="III03-4">
@@ -1305,7 +1324,7 @@
             <p>C’est un homme bizarre qui ne se plaît qu’à entretenir ses pensées.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III03-5">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Étais-tu tantôt au compliment qu’il m’a fait ?</p>
           </sp>
           <sp who="moron" xml:id="III03-6">
@@ -1313,7 +1332,7 @@
             <p>Oui, Madame, j’y étais, et je l’ai trouvé un peu impertinent, n’en déplaise à Sa Principauté.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III03-7">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Pour moi je le confesse, Moron, cette fuite m’a choquée, et j’ai toutes les envies du monde de l’engager pour rabattre un peu son orgueil.</p>
           </sp>
           <sp who="moron" xml:id="III03-8">
@@ -1321,7 +1340,7 @@
             <p>Ma foi, Madame, vous ne feriez pas mal, il le mériterait bien : mais à vous dire vrai, je doute fort que vous y puissiez réussir.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III03-9">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Comment ?</p>
           </sp>
           <sp who="moron" xml:id="III03-10">
@@ -1329,7 +1348,7 @@
             <p>Comment ! c’est le plus orgueilleux petit vilain que vous ayez jamais vu. Il lui semble qu’il n’y a personne au monde qui le mérite, et que la terre n’est pas digne de le porter.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III03-11">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Mais encore, ne t’a-t-il point parlé de moi ?</p>
           </sp>
           <sp who="moron" xml:id="III03-12">
@@ -1337,7 +1356,7 @@
             <p>Lui ? non.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III03-13">
-            <speaker>la princesse </speaker>
+            <speaker>La Princesse</speaker>
             <p>Il ne t’a rien dit de ma voix, et de ma danse ?</p>
           </sp>
           <sp who="moron" xml:id="III03-14">
@@ -1345,7 +1364,7 @@
             <p>Pas le moindre mot.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III03-15">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Certes ce mépris est choquant, et je ne puis souffrir cette hauteur étrange de ne rien estimer.</p>
           </sp>
           <sp who="moron" xml:id="III03-16">
@@ -1353,7 +1372,7 @@
             <p>Il n’estime et n’aime que lui.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III03-17">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Il n’y a rien que je ne fasse, pour le soumettre comme il faut.</p>
           </sp>
           <sp who="moron" xml:id="III03-18">
@@ -1361,7 +1380,7 @@
             <p>Nous n’avons point de marbre dans nos montagnes qui soit plus dur, et plus insensible que lui.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III03-19">
-            <speaker>la princesse </speaker>
+            <speaker>La Princesse</speaker>
             <p>Le voilà.</p>
           </sp>
           <sp who="moron" xml:id="III03-20">
@@ -1369,19 +1388,19 @@
             <p>Voyez-vous comme il passe, sans prendre garde à vous ?</p>
           </sp>
           <sp who="princesse-elide" xml:id="III03-21">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>De grâce, Moron, va le faire aviser que je suis ici, et l’oblige à me venir aborder.</p>
           </sp>
         </div>
         <div type="scene" xml:id="III04">
-          <head>SCÈNE QUATRIÈME</head>
+          <head>Scène Quatrième</head>
           <stage>La Princesse, Euryale, Moron, Arbate.</stage>
           <sp who="moron" xml:id="III04-1">
             <speaker>moron</speaker>
             <p>Seigneur, je vous donne avis que tout va bien : la Princesse souhaite que vous l’abordiez : mais songez bien à continuer votre rôle, et de peur de l’oublier ne soyez pas longtemps avec elle.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III04-2">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Vous êtes bien solitaire, Seigneur, et c’est une humeur bien extraordinaire que la vôtre, de renoncer ainsi à notre sexe, et de fuir à votre âge cette galanterie, dont se piquent tous vos pareils.</p>
           </sp>
           <sp who="euryale" xml:id="III04-3">
@@ -1389,7 +1408,7 @@
             <p>Cette humeur, Madame, n’est pas si extraordinaire qu’on n’en trouvât des exemples sans aller loin d’ici, et vous ne sauriez condamner la résolution que j’ai prise de n’aimer jamais rien, sans condamner aussi vos sentiments.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III04-4">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Il y a grande différence, et ce qui sied bien à un sexe, ne sied pas bien à l’autre. Il est beau qu’une femme soit insensible, et conserve son cœur exempt des flammes de l’amour ; mais ce qui est vertu en elle, devient un crime dans un homme. Et comme la beauté est le partage de notre sexe, vous ne sauriez ne nous point aimer, sans nous dérober les hommages qui nous sont dus, et commettre une offense dont nous devons toutes nous ressentir.</p>
           </sp>
           <sp who="euryale" xml:id="III04-5">
@@ -1397,7 +1416,7 @@
             <p>Je ne vois pas, Madame, que celles qui ne veulent point aimer, doivent prendre aucun intérêt à ces sortes d’offenses.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III04-6">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Ce n’est pas une raison, Seigneur, et sans vouloir aimer, on est toujours bien aise d’être aimée.</p>
           </sp>
           <sp who="euryale" xml:id="III04-7">
@@ -1405,7 +1424,7 @@
             <p>Pour moi je ne suis pas de même, et dans le dessein où je suis, de ne rien aimer, je serais fâché d’être aimé.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III04-8">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Et la raison ?</p>
           </sp>
           <sp who="euryale" xml:id="III04-9">
@@ -1413,7 +1432,7 @@
             <p>C’est qu’on a obligation à ceux qui nous aiment, et que je serais fâché d’être ingrat.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III04-10">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Si bien donc, que pour fuir l’ingratitude, vous aimeriez qui vous aimerait ?</p>
           </sp>
           <sp who="euryale" xml:id="III04-11">
@@ -1421,15 +1440,15 @@
             <p>Moi ? Madame, point du tout. Je dis bien que je serais fâché d’être ingrat : mais je me résoudrais plutôt de l’être, que d’aimer.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III04-12">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Telle personne vous aimerait, peut-être que votre cœur…</p>
           </sp>
           <sp who="euryale" xml:id="III04-13">
-            <speaker>euryale </speaker>
+            <speaker>euryale</speaker>
             <p>Non ! Madame, rien n’est capable de toucher mon cœur, ma liberté est la seule maîtresse à qui je consacre mes vœux, et quand le Ciel emploierait ses soins à composer une beauté parfaite, quand il emploierait en elle tous les dons les plus merveilleux, et du corps et de l’âme. Enfin quand il exposerait à mes yeux un miracle d’esprit, d’adresse, et de beauté, et que cette personne m’aimerait avec toutes les tendresses imaginables, je vous l’avoue franchement, je ne l’aimerais pas.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III04-14">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>A-t-on jamais rien vu de tel !</p>
           </sp>
           <sp who="moron" xml:id="III04-15">
@@ -1437,7 +1456,7 @@
             <p>Peste soit du petit brutal, j’aurais bien envie de lui bailler un coup de poing.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III04-16">
-            <speaker>la princesse <hi rend="i">parlant en soi</hi></speaker>
+            <speaker>La Princesse <hi rend="i">parlant en soi</hi></speaker>
             <p>Cet orgueil me confond, et j’ai un tel dépit, que je ne me sens pas.</p>
           </sp>
           <sp who="moron" xml:id="III04-17">
@@ -1449,7 +1468,7 @@
             <p>Ah ! Moron, je n’en puis plus, et je me suis fait des efforts étranges.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III04-19">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>C’est avoir une insensibilité bien grande, que de parler comme vous faites.</p>
           </sp>
           <sp who="euryale" xml:id="III04-20">
@@ -1458,14 +1477,14 @@
           </sp>
         </div>
         <div type="scene" xml:id="III05">
-          <head>SCÈNE CINQUIÈME</head>
+          <head>Scène Cinquième</head>
           <stage>La Princesse, Moron, Philis, Tircis.</stage>
           <sp who="moron" xml:id="III05-1">
             <speaker>moron</speaker>
             <p>Il ne vous en doit rien, Madame, en dureté de cœur.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III05-2">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Je donnerais volontiers tout ce que j’ai au monde, pour avoir l’avantage d’en triompher.</p>
           </sp>
           <sp who="moron" xml:id="III05-3">
@@ -1473,7 +1492,7 @@
             <p>Je le crois !</p>
           </sp>
           <sp who="princesse-elide" xml:id="III05-4">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Ne pourrais-tu, Moron, me servir dans un tel dessein ?</p>
           </sp>
           <sp who="moron" xml:id="III05-5">
@@ -1481,15 +1500,15 @@
             <p>Vous savez bien, Madame, que je suis tout à votre service.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III05-6">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Parle-lui de moi dans tes entretiens, vante-lui adroitement ma personne, et les avantages de ma naissance, et tâche d’ébranler ses sentiments, par la douceur de quelque espoir. Je te permets de dire tout ce que tu voudras, pour tâcher à me l’engager.</p>
           </sp>
           <sp who="moron" xml:id="III05-7">
-            <speaker>moron </speaker>
+            <speaker>moron</speaker>
             <p>Laissez-moi faire.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III05-8">
-            <speaker>la princesse </speaker>
+            <speaker>La Princesse</speaker>
             <p>C’est une chose qui me tient au cœur, je souhaite ardemment qu’il m’aime.</p>
           </sp>
           <sp who="moron" xml:id="III05-9">
@@ -1497,7 +1516,7 @@
             <p>Il est bien fait ? oui, ce petit pendard-là ; Il a bon air, bonne physionomie, et je crois qu’il serait assez le fait d’une jeune Princesse.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III05-10">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Enfin tu peux tout espérer de moi, si tu trouves moyen d’enflammer pour moi son cœur.</p>
           </sp>
           <sp who="moron" xml:id="III05-11">
@@ -1505,7 +1524,7 @@
             <p>Il n’y a rien qui ne se puisse faire ; mais, Madame s’il venait à vous aimer, que feriez-vous s’il vous plaît ?</p>
           </sp>
           <sp who="princesse-elide" xml:id="III05-12">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Ah ! ce serait lors que je prendrais plaisir à triompher pleinement de sa vanité, à punir son mépris par mes froideurs, et exercer sur lui toutes les cruautés que je pourrais imaginer.</p>
           </sp>
           <sp who="moron" xml:id="III05-13">
@@ -1513,7 +1532,7 @@
             <p>Il ne se rendra jamais.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III05-14">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Ah ! Moron, il faut faire en sorte qu’il se rende.</p>
           </sp>
           <sp who="moron" xml:id="III05-15">
@@ -1521,19 +1540,19 @@
             <p>Non, il n’en fera rien, je le connais, ma peine serait inutile.</p>
           </sp>
           <sp who="princesse-elide" xml:id="III05-16">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Si faut-il pourtant tenter toute chose, et éprouver si son âme est entièrement insensible. Allons, je veux lui parler, et suivre une pensée qui vient de me venir.</p>
           </sp>
           <label rend="i">Fin du troisième Acte.</label>
         </div>
       </div>
-      <div xml:id="iv">
-        <head>QUATRIEME INTERMÈDE</head>
+      <div xml:id="iv" type="interlude">
+        <head>Quatrieme Intermède</head>
         <div type="scene" xml:id="iv01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène Première</head>
           <stage>Philis, Tircis.</stage>
           <sp who="philis" xml:id="iv01-1">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Viens, Tircis, laissons-les aller, et me dis un peu ton martyre de la façon que tu sais faire ? Il y a longtemps que tes yeux me parlent ; mais je suis plus aise d’ouïr ta voix.</p>
           </sp>
           <sp who="tircis" xml:id="iv01-2">
@@ -1544,19 +1563,19 @@
             <l>Sans que je touche ton cœur.</l>
           </sp>
           <sp who="philis" xml:id="iv01-3">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Va, va, c’est déjà quelque chose que de toucher l’oreille, et le temps amène tout. Chante-moi cependant quelque plainte nouvelle que tu aies composée pour moi.</p>
           </sp>
         </div>
         <div type="scene" xml:id="iv02">
-          <head>SCÈNE DEUXIÈME</head>
+          <head>Scène Deuxième</head>
           <stage>Moron, Philis, Tircis.</stage>
           <sp who="moron" xml:id="iv02-1">
             <speaker>moron</speaker>
             <p>Ah ! ah ! je vous y prends, cruelle, vous vous écartez des autres pour ouïr mon rival ?</p>
           </sp>
           <sp who="philis" xml:id="iv02-2">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Oui, je m’écarte pour cela, je te le dis encore : Je me plais avec lui, et l’on écoute volontiers les amants lorsqu’ils se plaignent aussi agréablement qu’il fait. Que ne chantes-tu comme lui ? Je prendrais plaisir à t’écouter.</p>
           </sp>
           <sp who="moron" xml:id="iv02-3">
@@ -1564,7 +1583,7 @@
             <p>Si je ne sais chanter, je sais faire autre chose, et quand…</p>
           </sp>
           <sp who="philis" xml:id="iv02-4">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Tais-toi ! je veux l’entendre. Dis, Tircis, ce que tu voudras.</p>
           </sp>
           <sp who="moron" xml:id="iv02-5">
@@ -1572,7 +1591,7 @@
             <p>Ah ! cruelle…</p>
           </sp>
           <sp who="philis" xml:id="iv02-6">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Silence, dis-je, ou je me mettrai en colère.</p>
           </sp>
           <sp who="tircis" xml:id="iv02-7">
@@ -1585,11 +1604,11 @@
             <l>La joie, hélas ! que j’ai perdue.</l>
           </sp>
           <sp who="moron" xml:id="iv02-8">
-            <speaker>moron </speaker>
+            <speaker>moron</speaker>
             <p>Morbleu que n’ai-je de la voix ? Ah ! nature marâtre ! pourquoi ne m’as-tu pas donné de quoi chanter comme à un autre ?</p>
           </sp>
           <sp who="philis" xml:id="iv02-9">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>En vérité, Tircis, il ne se peut rien de plus agréable, et tu l’emportes sur tous les Rivaux que tu as.</p>
           </sp>
           <sp who="moron" xml:id="iv02-10">
@@ -1597,7 +1616,7 @@
             <p>Mais pourquoi est-ce que je ne puis pas chanter ? N’ai-je pas un estomac, un gosier, et une langue comme un autre ? Oui, oui, allons, je veux chanter aussi, et te montrer que l’Amour fait faire toutes choses. Voici une chanson que j’ai faite pour toi.</p>
           </sp>
           <sp who="philis" xml:id="iv02-11">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Oui, dis ? je veux bien t’écouter pour la rareté du fait.</p>
           </sp>
           <sp who="moron" xml:id="iv02-12">
@@ -1613,7 +1632,7 @@
             <l><hi rend="i">Vivat,</hi> Moron.</l>
           </sp>
           <sp who="philis" xml:id="iv02-13">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Voilà qui est le mieux du monde : mais, Moron, je souhaiterais bien d’avoir la gloire, que quelque Amant fût mort pour moi ; c’est un avantage dont je n’ai point encore joui, et je trouve que j’aimerais de tout mon cœur une personne qui m’aimerait assez pour se donner la mort.</p>
           </sp>
           <sp who="moron" xml:id="iv02-14">
@@ -1621,7 +1640,7 @@
             <p>Tu aimerais une personne qui se tuerait pour toi ?</p>
           </sp>
           <sp who="philis" xml:id="iv02-15">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Oui.</p>
           </sp>
           <sp who="moron" xml:id="iv02-16">
@@ -1629,7 +1648,7 @@
             <p>Il ne faut que cela pour te plaire ?</p>
           </sp>
           <sp who="philis" xml:id="iv02-17">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Non.</p>
           </sp>
           <sp who="moron" xml:id="iv02-18">
@@ -1656,22 +1675,22 @@
             <stage>Se riant de Tircis.</stage>
           </sp>
           <sp who="philis" xml:id="iv02-23">
-            <speaker>philis</speaker>
+            <speaker>Philis</speaker>
             <p>Allons, Tircis. Viens-t’en me redire à l’écho, ce que tu m’as chanté.</p>
           </sp>
         </div>
       </div>
       <div type="act" xml:id="IV">
-        <head>ACTE QUATRIÈME</head>
+        <head>Acte Quatrième</head>
         <argument>
           <label rend="n">ARGUMENT</label>
           <p>La Princesse espérant par une feinte pouvoir découvrir les sentiments du Prince d’Ithaque, elle lui fit confidence qu’elle aimait le Prince de Messène : Au lieu d’en paraître affligé il lui rendit la pareille, et lui fit connaître que la Princesse sa parente lui avait donné dans la vue, et qu’il la demanderait en Mariage au Roi son Père : À cette atteinte imprévue cette Princesse perdit toute sa constance ; et quoiqu’elle essayât à se contraindre devant lui, aussitôt qu’il fut sorti, elle demanda avec tant d’empressement à sa Cousine de ne recevoir point les services de ce Prince, et de ne l’épouser jamais, qu’elle ne put le lui refuser : Elle s’en plaignit même à Moron, qui lui ayant dit assez franchement qu’elle l’aimait donc, en fut chassé de sa présence.</p>
         </argument>
         <div type="scene" xml:id="IV01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène Première</head>
           <stage>Euryale, La Princesse, Moron.</stage>
           <sp who="princesse-elide" xml:id="IV01-1">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Prince, comme jusques ici nous avons fait paraître une conformité de sentiments, et que le Ciel a semblé mettre en nous mêmes attachements pour notre liberté, et même aversion pour l’Amour ; je suis bien aise de vous ouvrir mon cœur, et de vous faire confidence d’un changement dont vous serez surpris. J’ai toujours regardé l’Hymen comme une chose affreuse, et j’avais fait serment d’abandonner plutôt la vie, que de me résoudre jamais à perdre cette liberté pour qui j’avais des tendresses si grandes : mais, enfin, un moment a dissipé toutes ces résolutions, le mérite d’un Prince m’a frappé aujourd’hui les yeux, et mon âme tout d’un coup (comme par un miracle) est devenue sensible aux traits de cette passion que j’avais toujours méprisée. J’ai trouvé d’abord des raisons pour autoriser ce changement, et je puis l’appuyer de la volonté de répondre aux ardentes sollicitations d’un Père, et aux vœux de tout un État ; mais, à vous dire vrai, je suis en peine du jugement que vous ferez de moi, et je voudrais savoir si vous condamnerez ou non le dessein que j’ai de me donner un Époux.</p>
           </sp>
           <sp who="euryale" xml:id="IV01-2">
@@ -1679,7 +1698,7 @@
             <p>Vous pourriez faire un tel choix, Madame, que je l’approuverais sans doute.</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV01-3">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Qui croyez-vous, à votre avis, que je veuille choisir ?</p>
           </sp>
           <sp who="euryale" xml:id="IV01-4">
@@ -1687,7 +1706,7 @@
             <p>Si j’étais dans votre cœur je pourrais vous le dire : mais comme je n’y suis pas, je n’ai garde de vous répondre.</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV01-5">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Devinez pour voir, et nommez quelqu’un ?</p>
           </sp>
           <sp who="euryale" xml:id="IV01-6">
@@ -1695,7 +1714,7 @@
             <p>J’aurais trop peur de me tromper.</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV01-7">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Mais, encore, pour qui souhaiteriez-vous que je me déclarasse ?</p>
           </sp>
           <sp who="euryale" xml:id="IV01-8">
@@ -1703,7 +1722,7 @@
             <p>Je sais bien à vous dire vrai, pour qui je le souhaiterais : mais avant que de m’expliquer, je dois savoir votre pensée.</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV01-9">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Eh bien Prince, je veux bien vous la découvrir : je suis sûre que vous allez approuver mon choix, et pour ne vous point tenir en suspens davantage, le Prince de Messène est celui de qui le mérite s’est attiré mes vœux.</p>
           </sp>
           <sp who="euryale" xml:id="IV01-10">
@@ -1711,7 +1730,7 @@
             <p>Ô Ciel !</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV01-11">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Mon invention a réussi, Moron, le voilà qui se trouble.</p>
           </sp>
           <sp who="moron" xml:id="IV01-12">
@@ -1726,7 +1745,7 @@
             <p>Ne vous défaites pas.</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV01-13">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Ne trouvez-vous pas que j’ai raison, et que ce Prince a tout le mérite qu’on peut avoir ?</p>
           </sp>
           <sp who="moron" xml:id="IV01-14">
@@ -1734,7 +1753,7 @@
             <p>Remettez-vous, et songez à répondre.</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV01-15">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>D’où vient, Prince, que vous ne dites mot, et semblez interdit ?</p>
           </sp>
           <sp who="euryale" xml:id="IV01-16">
@@ -1747,10 +1766,10 @@
           </sp>
         </div>
         <div type="scene" xml:id="IV02">
-          <head>SCÈNE DEUXIÈME</head>
+          <head>Scène Deuxième</head>
           <stage>La Princesse, Moron.</stage>
           <sp who="princesse-elide" xml:id="IV02-1">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Ah ! Moron, je n’en puis plus, et ce coup que je n’attendais pas, triomphe absolument de toute ma fermeté.</p>
           </sp>
           <sp who="moron" xml:id="IV02-2">
@@ -1758,15 +1777,15 @@
             <p>Il est vrai que le coup est surprenant, et j’avais cru d’abord, que votre stratagème avait fait son effet.</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV02-3">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Ah ! ce m’est un dépit à me désespérer, qu’une autre ait l’avantage de soumettre ce cœur que je voulais soumettre.</p>
           </sp>
         </div>
         <div type="scene" xml:id="IV03">
-          <head>SCÈNE TROISIÈME</head>
+          <head>Scène Troisième</head>
           <stage>La Princesse, Aglante, Moron.</stage>
           <sp who="princesse-elide" xml:id="IV03-1">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Princesse, j’ai à vous prier d’une chose qu’il faut absolument que vous m’accordiez : Le Prince d’Ithaque vous aime, et veut vous demander au prince mon Père.</p>
           </sp>
           <sp who="aglante" xml:id="IV03-2">
@@ -1774,7 +1793,7 @@
             <p>Le Prince d’Ithaque, Madame ?</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV03-3">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Oui. Il vient de m’en assurer lui-même, et m’a demandé mon suffrage pour vous obtenir, mais je vous conjure de rejeter cette proposition, et de ne point prêter l’oreille à tout ce qu’il pourra vous dire.</p>
           </sp>
           <sp who="aglante" xml:id="IV03-4">
@@ -1782,7 +1801,7 @@
             <p>Mais, Madame, s’il était vrai que ce Prince m’aimât effectivement, pourquoi n’ayant aucun dessein de vous engager, ne voudriez-vous pas souffrir…</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV03-5">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Non, Aglante, je vous le demande, faites-moi ce plaisir, je vous prie, et trouvez bon que n’ayant pu avoir l’avantage de le soumettre, je lui dérobe la joie de vous obtenir.</p>
           </sp>
           <sp who="aglante" xml:id="IV03-6">
@@ -1790,19 +1809,19 @@
             <p>Madame, il faut vous obéir, mais je croirais que la conquête d’un tel cœur ne serait pas une victoire à dédaigner.</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV03-7">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Non, non, il n’aura pas la joie de me braver entièrement.</p>
           </sp>
         </div>
         <div type="scene" xml:id="IV04">
-          <head>SCÈNE QUATRIÈME</head>
+          <head>Scène Quatrième</head>
           <stage>Aristomène, Moron, La Princesse, Aglante.</stage>
           <sp who="aristomene" xml:id="IV04-1">
             <speaker>aristomène</speaker>
             <p>Madame, je viens à vos pieds rendre grâce à l’Amour de mes heureux destins, et vous témoigner avec mes transports, le ressentiment où je suis, des bontés surprenantes dont vous daignez favoriser le plus soumis de vos captifs.</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV04-2">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Comment ?</p>
           </sp>
           <sp who="aristomene" xml:id="IV04-3">
@@ -1810,7 +1829,7 @@
             <p>Le Prince d’Ithaque, Madame, vient de m’assurer tout à l’heure, que votre cœur avait eu la bonté de s’expliquer en ma faveur, sur ce célèbre choix qu’attend toute la Grèce.</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV04-4">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Il vous a dit qu’il tenait cela de ma bouche ?</p>
           </sp>
           <sp who="aristomene" xml:id="IV04-5">
@@ -1818,7 +1837,7 @@
             <p>Oui, Madame.</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV04-6">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>C’est un étourdi, et vous êtes un peu trop crédule, Prince, d’ajouter foi si promptement à ce qu’il vous a dit ; une pareille nouvelle mériterait bien, ce me semble, qu’on en doutât un peu de temps, et c’est tout ce que vous pourriez faire de la croire, si je vous l’avais dite moi-même.</p>
           </sp>
           <sp who="aristomene" xml:id="IV04-7">
@@ -1826,15 +1845,15 @@
             <p>Madame, si j’ai été trop prompt à me persuader…</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV04-8">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>De grâce, Prince, brisons-là ce discours, et si vous voulez m’obliger, souffrez que je puisse jouir de deux moments de solitude.</p>
           </sp>
         </div>
         <div type="scene" xml:id="IV05">
-          <head>SCÈNE CINQUIÈME</head>
+          <head>Scène Cinquième</head>
           <stage>La Princesse, Aglante, Moron.</stage>
           <sp who="princesse-elide" xml:id="IV05-1">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Ah ! qu’en cette aventure, le Ciel me traite avec une rigueur étrange ! Au moins, Princesse, souvenez-vous de la prière que je vous ai faite ?</p>
           </sp>
           <sp who="aglante" xml:id="IV05-2">
@@ -1846,15 +1865,15 @@
             <p>Mais, Madame, s’il vous aimait vous n’en voudriez point, et cependant vous ne voulez pas qu’il soit à une autre : C’est faire justement comme le chien du Jardinier.</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV05-4">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Non, je ne puis souffrir qu’il soit heureux avec une autre, et si la chose était, je crois que j’en mourrais de déplaisir.</p>
           </sp>
           <sp who="moron" xml:id="IV05-5">
-            <speaker>moron </speaker>
+            <speaker>moron</speaker>
             <p>Ma foi, Madame, avouons la dette, vous voudriez qu’il fût à vous, et dans toutes vos actions il est aisé de voir que vous aimez un peu ce jeune Prince.</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV05-6">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Moi, je l’aime ? Ô Ciel ! je l’aime ? Avez-vous l’insolence de prononcer ces paroles, sortez de ma vue, impudent, et ne vous présentez jamais devant moi.</p>
           </sp>
           <sp who="moron" xml:id="IV05-7">
@@ -1862,7 +1881,7 @@
             <p>Madame…</p>
           </sp>
           <sp who="princesse-elide" xml:id="IV05-8">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Retirez-vous d’ici, vous dis-je, ou je vous en ferai retirer d’une autre manière.</p>
           </sp>
           <sp who="moron" xml:id="IV05-9">
@@ -1872,72 +1891,72 @@
           </sp>
         </div>
         <div type="scene" xml:id="IV06">
-          <head>SCÈNE SIXIÈME</head>
+          <head>Scène SIXIÈME</head>
           <sp who="princesse-elide" xml:id="IV06-1">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>De quelle émotion inconnue sens-je mon cœur atteint ! et quelle inquiétude secrète est venue troubler tout d’un coup la tranquillité de mon âme ? Ne serait-ce point aussi, ce qu’on vient de me dire, et sans en rien savoir, n’aimerais-je point ce jeune Prince ? Ah ! si cela était je serais personne à me désespérer : mais il est impossible que cela soit, et je vois bien que je ne puis pas l’aimer. Quoi ? je serais capable de cette lâcheté. J’ai vu toute la Terre à mes pieds, avec la plus grande insensibilité du monde. Les respects, les hommages et les soumissions n’ont jamais pu toucher mon âme, et la fierté et le dédain en auraient triomphé. J’ai méprisé tous ceux qui m’ont aimée, et j’aimerais le seul qui me méprise ? Non, non, je sais bien que je ne l’aime pas. Il n’y a pas de raison à cela : Mais si ce n’est pas de l’amour que ce que je sens maintenant, qu’est-ce donc que ce peut être ? et d’où vient ce poison qui me court par toutes les veines, et ne me laisse point en repos avec moi-même ? Sors de mon cœur, qui que tu sois, ennemi qui te caches, attaque-moi visiblement, et deviens à mes yeux la plus affreuse bête de tous nos bois, afin que mon dard et mes flèches me puissent défaire de toi. Ô vous, admirables personnes, qui par la douceur de vos chants avez l’art d’adoucir les plus fâcheuses inquiétudes, approchez-vous d’ici de grâce, et tâchez de charmer avec votre Musique le chagrin où je suis.</p>
           </sp>
           <label rend="i">Fin du quatrième Acte.</label>
         </div>
       </div>
-      <div xml:id="v">
-        <head>CINQUIEME INTERMÈDE</head>
+      <div xml:id="v" type="interlude">
+        <head>Cinquieme Intermède</head>
         <stage>Clymène, Philis.</stage>
         <sp who="clymene" xml:id="v-1">
-          <speaker>clymène</speaker>
+          <speaker>Clymène</speaker>
           <l>Chère Philis, dis-moi, que crois-tu de l’Amour ?</l>
         </sp>
         <sp who="philis" xml:id="v-2">
-          <speaker>philis</speaker>
+          <speaker>Philis</speaker>
           <l>Toi-même, qu’en crois-tu, ma compagne fidèle ?</l>
         </sp>
         <sp who="clymene" xml:id="v-3">
-          <speaker>clymène</speaker>
+          <speaker>Clymène</speaker>
           <l>On m’a dit que sa flamme est pire qu’un Vautour,</l>
           <l>Et qu’on souffre en aimant une peine cruelle.</l>
         </sp>
         <sp who="philis" xml:id="v-4">
-          <speaker>philis</speaker>
+          <speaker>Philis</speaker>
           <l>On m’a dit qu’il n’est point de passion plus belle,</l>
           <l>Et que ne pas aimer c’est renoncer au jour.</l>
         </sp>
         <sp who="clymene" xml:id="v-5">
-          <speaker>clymène</speaker>
+          <speaker>Clymène</speaker>
           <l>À qui des deux donnerons-nous victoire ?</l>
         </sp>
         <sp who="philis" xml:id="v-6">
-          <speaker>philis</speaker>
+          <speaker>Philis</speaker>
           <l>Qu’en croirons-nous, ou le mal ou le bien ?</l>
         </sp>
         <sp who="clymene" xml:id="v-7">
-          <speaker>clymène, <hi rend="i">et</hi> philis <hi rend="i">ensemble</hi></speaker>
+          <speaker>Clymène, <hi rend="i">et</hi> philis <hi rend="i">ensemble</hi></speaker>
           <l>Aimons, c’est le vrai moyen</l>
           <l>De savoir ce qu’on en doit croire.</l>
         </sp>
         <sp who="philis" xml:id="v-8">
-          <speaker>philis</speaker>
+          <speaker>Philis</speaker>
           <l>Cloris vante partout l’Amour et ses ardeurs.</l>
         </sp>
         <sp who="clymene" xml:id="v-9">
-          <speaker>clymène</speaker>
+          <speaker>Clymène</speaker>
           <l>Amarante pour lui verse en tous lieux des larmes.</l>
         </sp>
         <sp who="philis" xml:id="v-10">
-          <speaker>philis</speaker>
+          <speaker>Philis</speaker>
           <l>Si de tant de tourments il accable les cœurs,</l>
           <l>D’où vient qu’on aime à lui rendre les armes ?</l>
         </sp>
         <sp who="clymene" xml:id="v-11">
-          <speaker>clymène</speaker>
+          <speaker>Clymène</speaker>
           <l>Si sa flamme, Philis, est si pleine de charmes,</l>
           <l>Pourquoi nous défend-on d’en goûter les douceurs ?</l>
         </sp>
         <sp who="philis" xml:id="v-12">
-          <speaker>philis</speaker>
+          <speaker>Philis</speaker>
           <l>À qui des deux donnerons-nous victoire ?</l>
         </sp>
         <sp who="clymene" xml:id="v-13">
-          <speaker>clymène</speaker>
+          <speaker>Clymène</speaker>
           <l>Qu’en croirons-nous, ou le mal ou le bien :</l>
         </sp>
         <sp who="philis clymene" xml:id="v-14">
@@ -1946,25 +1965,25 @@
           <l>De savoir ce qu’on en doit croire.</l>
         </sp>
         <sp who="princesse-elide" xml:id="v-15">
-          <speaker>la princesse <hi rend="i">les interrompit en cet endroit, et leur dit</hi></speaker>
+          <speaker>La Princesse <hi rend="i">les interrompit en cet endroit, et leur dit</hi></speaker>
           <p>Achevez seules si vous voulez, je ne saurais demeurer en repos, et quelque douceur qu’aient vos chants, ils ne font que redoubler mon inquiétude.</p>
         </sp>
       </div>
       <div type="act" xml:id="V">
-        <head>ACTE CINQUIÈME</head>
+        <head>Acte Cinquième</head>
         <argument>
           <label rend="n">ARGUMENT</label>
           <p>Il se passait dans le cœur du Prince de Messène des choses bien différentes ; la joie que lui avait donnée le Prince d’Ithaque, en lui apprenant malicieusement qu’il était aimé de la Princesse, l’avait obligé de l’aller trouver avec une inconsidération que rien qu’une extrême amour ne pouvait excuser ; mais il en avait été reçu d’une manière bien différente à ce qu’il espérait. Elle lui demanda qui lui avait appris cette nouvelle, et quand elle eut su que ç’avait été le Prince d’Ithaque, cette connaissance augmenta cruellement son mal, et lui fit dire à demi désespérée, c’est un étourdi ; et ce mot étourdit si fort le Prince de Messène, qu’il sortit tout confus sans lui pouvoir répondre. La Princesse d’un autre côté alla trouver le Roi son Père, qui venait de paraître avec le Prince d’Ithaque, et qui lui témoignait, non seulement la joie qu’il aurait eue de le voir entrer dans son alliance, mais même l’opinion qu’il commençait d’avoir que sa Fille ne le haïssait pas : Elle ne fut pas plutôt auprès de lui, que se jetant à ses pieds, elle lui demanda pour la plus grande faveur qu’elle en pût jamais recevoir, que le Prince d’Ithaque n’épousât jamais la Princesse. Ce qu’il lui promit solennellement ; mais il lui dit que si elle ne voulait point qu’il fût à une autre, il fallait qu’elle le prît pour elle : Elle lui répondit, il ne le voudrait pas ; mais d’une manière si passionnée, qu’il était aisé de connaître les sentiments de son cœur. Alors le Prince quittant toute sorte de feinte, lui confessa son amour, et le stratagème dont il s’était servi pour venir au point où il se voyait alors par la connaissance de son humeur. La Princesse lui donnant la main, le Roi se tourna vers les deux Princes de Messène et de Pyle, et leur demanda si ses deux Parentes, dont le mérite n’était pas moindre que la qualité, ne seraient point capables de les consoler de leur disgrâce ; ils lui répondirent que l’honneur de son alliance faisant tous leurs souhaits, ils ne pouvaient espérer une plus heureuse fortune. Alors la joie fut si grande dans le Palais, qu’elle se répandit par tous les environs.</p>
         </argument>
         <div type="scene" xml:id="V01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène Première</head>
           <stage>Le Prince, Euryale, Moron, Aglante, Cynthie.</stage>
           <sp who="moron" xml:id="V01-1">
             <speaker>moron</speaker>
             <p>Oui, Seigneur, ce n’est point raillerie, j’en suis ce qu’on appelle disgracié. Il m’a fallu tirer mes chausses au plus vite, et jamais vous n’avez vu un emportement plus brusque que le sien.</p>
           </sp>
           <sp who="iphitas" xml:id="V01-2">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Ah ! Prince, que je devrai de grâces à ce stratagème amoureux, s’il faut qu’il ait trouvé le secret de toucher son cœur.</p>
           </sp>
           <sp who="euryale" xml:id="V01-3">
@@ -1972,111 +1991,111 @@
             <p>Quelque chose, Seigneur, que l’on vienne de vous en dire, je n’ose encore, pour moi, me flatter de ce doux espoir : mais enfin si ce n’est pas à moi trop de témérité, que d’oser aspirer à l’honneur de votre alliance, si ma personne, et mes États…</p>
           </sp>
           <sp who="iphitas" xml:id="V01-4">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Prince, n’entrons point dans ces compliments, je trouve en vous de quoi remplir tous les souhaits d’un Père, et si vous avez le cœur de ma fille, il ne vous manque rien.</p>
           </sp>
         </div>
         <div type="scene" xml:id="V02">
-          <head>SCÈNE DEUXIÈME</head>
+          <head>Scène Deuxième</head>
           <stage>La Princesse, Le Prince, Euryale, Aglante, Cynthie, Moron.</stage>
           <sp who="princesse-elide" xml:id="V02-1">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Ô Ciel ! que vois-je ici ?</p>
           </sp>
           <sp who="iphitas" xml:id="V02-2">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Oui, l’honneur de votre alliance m’est d’un prix très considérable, et je souscris aisément de tous mes suffrages à la demande que vous me faites.</p>
           </sp>
           <sp who="princesse-elide" xml:id="V02-3">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Seigneur, je me jette à vos pieds pour vous demander une grâce. Vous m’avez toujours témoigné une tendresse extrême, et je crois vous devoir bien plus par les bontés que vous m’avez fait voir, que par le jour que vous m’avez donné : Mais si jamais pour moi vous avez eu de l’amitié, je vous en demande aujourd’hui la plus sensible preuve que vous me puissiez accorder ; c’est de n’écouter point, Seigneur, la demande de ce Prince, et ne pas souffrir que la Princesse Aglante soit unie avec lui.</p>
           </sp>
           <sp who="iphitas" xml:id="V02-4">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Et par quelle raison, ma Fille, voudrais-tu t’opposer à cette union ?</p>
           </sp>
           <sp who="princesse-elide" xml:id="V02-5">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Par la raison, que je hais ce Prince, et que je veux, si je puis, traverser ses desseins.</p>
           </sp>
           <sp who="iphitas" xml:id="V02-6">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Tu le hais, ma Fille ?</p>
           </sp>
           <sp who="princesse-elide" xml:id="V02-7">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Oui, et de tout mon cœur, je vous l’avoue.</p>
           </sp>
           <sp who="iphitas" xml:id="V02-8">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Et que t’a-t-il fait ?</p>
           </sp>
           <sp who="princesse-elide" xml:id="V02-9">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Il m’a méprisée.</p>
           </sp>
           <sp who="iphitas" xml:id="V02-10">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Et comment ?</p>
           </sp>
           <sp who="princesse-elide" xml:id="V02-11">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Il ne m’a pas trouvée assez bien faite pour m’adresser ses vœux.</p>
           </sp>
           <sp who="iphitas" xml:id="V02-12">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Et quelle offense te fait cela ? Tu ne veux accepter personne !</p>
           </sp>
           <sp who="princesse-elide" xml:id="V02-13">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>N’importe. Il me devait aimer comme les autres, et me laisser, au moins, la gloire de le refuser : Sa déclaration me fait un affront, et ce m’est une honte sensible, qu’à mes yeux, et au milieu de votre Cour il a recherché une autre que moi.</p>
           </sp>
           <sp who="iphitas" xml:id="V02-14">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Mais quel intérêt dois-tu prendre à lui ?</p>
           </sp>
           <sp who="princesse-elide" xml:id="V02-15">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>J’en prends, Seigneur, à me venger de son mépris, et comme je sais bien qu’il aime Aglante avec beaucoup d’ardeur, je veux empêcher, s’il vous plaît, qu’il ne soit heureux avec elle.</p>
           </sp>
           <sp who="iphitas" xml:id="V02-16">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Cela te tient donc bien au cœur ?</p>
           </sp>
           <sp who="princesse-elide" xml:id="V02-17">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Oui, Seigneur, sans doute, et s’il obtient ce qu’il demande, vous me verrez expirer à vos yeux.</p>
           </sp>
           <sp who="iphitas" xml:id="V02-18">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Va, va ma Fille, avoue franchement la chose. Le mérite de ce Prince t’a fait ouvrir les yeux, et tu l’aimes, enfin, quoi que tu puisses dire.</p>
           </sp>
           <sp who="princesse-elide" xml:id="V02-19">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Moi, Seigneur ?</p>
           </sp>
           <sp who="iphitas" xml:id="V02-20">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Oui, tu l’aimes.</p>
           </sp>
           <sp who="princesse-elide" xml:id="V02-21">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Je l’aime, dites-vous ? et vous m’imputez cette lâcheté. Ô Ciel ! quelle est mon infortune ! Puis-je bien sans mourir, entendre ces paroles, et faut-il que je sois si malheureuse qu’on me soupçonne de l’aimer. Ah ! si c’était un autre que vous, Seigneur, qui me tînt ce discours, je ne sais pas ce que je ne ferais point.</p>
           </sp>
           <sp who="iphitas" xml:id="V02-22">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Eh bien ? oui, tu ne l’aimes pas. Tu le hais, j’y consens, et je veux bien pour te contenter qu’il n’épouse pas la Princesse Aglante.</p>
           </sp>
           <sp who="princesse-elide" xml:id="V02-23">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Ah ! Seigneur, vous me donnez la vie.</p>
           </sp>
           <sp who="iphitas" xml:id="V02-24">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Mais afin d’empêcher qu’il ne puisse être jamais à Elle, il faut que tu le prennes pour toi.</p>
           </sp>
           <sp who="princesse-elide" xml:id="V02-25">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Vous vous moquez, Seigneur, et ce n’est pas ce qu’il demande.</p>
           </sp>
           <sp who="euryale" xml:id="V02-26">
@@ -2084,19 +2103,19 @@
             <p>Pardonnez-moi, Madame, si je suis assez téméraire pour cela, et je prends à témoin le Prince votre Père si ce n’est pas vous que j’ai demandée. C’est trop vous tenir dans l’erreur, il faut lever le masque, et dussiez-vous vous en prévaloir contre moi, découvrir à vos yeux les véritables sentiments de mon cœur. Je n’ai jamais aimé que vous, et jamais je n’aimerai que vous. C’est vous, Madame, qui m’avez enlevé cette qualité d’insensible que j’avais toujours affectée, et tout ce que j’ai pu vous dire, n’a été qu’une feinte qu’un mouvement secret m’a inspirée, et que je n’ai suivie qu’avec toutes les violences imaginables. Il fallait qu’elle cessât bientôt, sans doute, et je m’étonne seulement qu’elle ait pu durer la moitié d’un jour ; car enfin je mourais, je brûlais dans l’âme quand je vous déguisais mes sentiments, et jamais cœur n’a souffert une contrainte égale à la mienne. Que si cette feinte, Madame, a quelque chose qui vous offense, je suis tout prêt de mourir pour vous en venger : Vous n’avez qu’à parler, et ma main sur-le-champ fera gloire d’exécuter l’Arrêt que vous prononcerez.</p>
           </sp>
           <sp who="princesse-elide" xml:id="V02-27">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Non, non, Prince, je ne vous sais pas mauvais gré de m’avoir abusée, et tout ce que vous m’avez dit, je l’aime bien mieux une feinte, que non pas une vérité.</p>
           </sp>
           <sp who="iphitas" xml:id="V02-28">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Si bien donc, ma Fille, que tu veux bien accepter ce Prince pour Époux ?</p>
           </sp>
           <sp who="princesse-elide" xml:id="V02-29">
-            <speaker>la princesse</speaker>
+            <speaker>La Princesse</speaker>
             <p>Seigneur, je ne sais pas encore ce que je veux : donnez-moi le temps d’y songer, je vous prie, et m’épargnez un peu la confusion où je suis.</p>
           </sp>
           <sp who="iphitas" xml:id="V02-30">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Vous jugez, Prince, ce que cela veut dire, et vous vous pouvez fonder là-dessus.</p>
           </sp>
           <sp who="euryale" xml:id="V02-31">
@@ -2104,7 +2123,7 @@
             <p>Je l’attendrai tant qu’il vous plaira, Madame, cet Arrêt de ma destinée, et s’il me condamne à la mort, je le suivrai sans murmure.</p>
           </sp>
           <sp who="iphitas" xml:id="V02-32">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Viens, Moron, c’est ici un jour de paix, et je te remets en grâce avec la Princesse.</p>
           </sp>
           <sp who="moron" xml:id="V02-33">
@@ -2113,10 +2132,10 @@
           </sp>
         </div>
         <div type="scene" xml:id="V03">
-          <head>SCÈNE TROISIÈME</head>
+          <head>Scène Troisième</head>
           <stage>Aristomène, Théocle, Le Prince, La Princesse, Aglante, Cynthie, Moron.</stage>
           <sp who="iphitas" xml:id="V03-1">
-            <speaker>le prince</speaker>
+            <speaker>Le Prince</speaker>
             <p>Je crains bien, Princes, que le choix de ma Fille ne soit pas en votre faveur ; mais voilà deux Princesses qui peuvent bien vous consoler de ce petit malheur.</p>
           </sp>
           <sp who="aristomene" xml:id="V03-2">
@@ -2125,17 +2144,17 @@
           </sp>
         </div>
         <div type="scene" xml:id="V04">
-          <head>SCÈNE QUATRIÈME</head>
+          <head>Scène Quatrième</head>
           <stage>Philis, Aristomène, Théocle, Le Prince, La Princesse, Aglante, Cynthie, Moron.</stage>
-          <sp who="philis" xml:id="V04-1">
-            <speaker>philis</speaker>
+          <sp xml:id="V04-1">
+            <speaker>Philis</speaker>
             <p>Seigneur, la Déesse Vénus vient d’annoncer partout le changement du cœur de la Princesse : Tous les Pasteurs et toutes les Bergères en témoignent leur joie par des danses et des chansons, et si ce n’est point un spectacle que vous méprisiez, vous allez voir l’allégresse publique se répandre jusques ici.</p>
           </sp>
           <label rend="i">Fin du cinquième Acte.</label>
         </div>
       </div>
-      <div xml:id="vi">
-        <head>SIXIÈME INTERMÈDE</head>
+      <div xml:id="vi" type="interlude">
+        <head>Sixième Intermède</head>
         <stage>CHŒUR de pasteurs et de Bergères qui dansent.</stage>
         <stage>Quatre Bergers et deux Bergères Héroïques, représentés les premiers par les Sieurs <persName type="actor">Le Gros</persName>, <persName type="actor">Estival</persName>, <persName type="actor">Don</persName> et <persName type="actor">Blondel</persName>, et les deux Bergères par Mademoiselle <persName type="actor">de la Barre</persName> et Mademoiselle <persName type="actor">Hilaire</persName>, se prenant par la main, chantèrent cette Chanson à danser, à laquelle les autres répondirent.</stage>
         <castList>

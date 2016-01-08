@@ -7,47 +7,57 @@
         <title>Le médecin malgré lui</title>
         <author>Molière</author>
       </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Paul Fièvre</name>
+          <resp>2010, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale (conversions, validation)</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
         <publisher>publié par Paul FIEVRE, Octobre 2010</publisher>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_medecin-malgre-lui/</idno>
-        <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_medecin-malgre-lui.xml</idno>
       </publicationStmt>
       <sourceDesc>
         <p>
           <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k5690145v.image.r=Moli%C3%A8re+M%C3%A9decin+malgr%C3%A9+lui.f198.pagination.langFR">http://gallica.bnf.fr/ark:/12148/bpt6k5690145v.image.r=Moli%C3%A8re+M%C3%A9decin+malgr%C3%A9+lui.f198.pagination.langFR</ref>
         </p>
       </sourceDesc>
-      <profileDesc>
-        <creation>
-          <date when="1666"/>
-        </creation>
-        <langUsage>
-          <language ident="fr"/>
-        </langUsage>
-        <textClass>
-          <keywords>
-            <term type="genre" subtype="comedy">Comédie</term>
-          </keywords>
-        </textClass>
-      </profileDesc>
     </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1666"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term type="genre" subtype="comedy">Comédie</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div>
         <castList>
           <head>PERSONNAGES</head>
-          <castItem><role xml:id="sganarelle" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Sganarelle</role>, mari de Martine.</castItem>
-          <castItem><role xml:id="martine" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">Martine</role>, femme de Sganarelle.</castItem>
-          <castItem><role xml:id="monsieur-robert" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Monsieur Robert</role>, voisin de Sganarelle.</castItem>
-          <castItem><role xml:id="valere" civil="M" type="H" statut="domestique" age="A" stat_amour="néant">Valère</role>, domestique de Géronte.</castItem>
-          <castItem><role xml:id="lucas" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Lucas</role>, mari de Jacqueline.</castItem>
-          <castItem><role xml:id="geronte" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">Géronte</role>, père de Lucinde.</castItem>
-          <castItem><role xml:id="jacqueline" civil="F" type="H" statut="nourrice" age="A" stat_amour="néant">Jacqueline</role>, nourrice chez Géronte, et femme de Lucas.</castItem>
-          <castItem><role xml:id="lucinde" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">Lucinde</role>, fille de Géronte.</castItem>
-          <castItem><role xml:id="leandre" civil="M" type="H" statut="aristocrate" age="A" stat_amour="amoureux">Léandre</role>, amant de Lucinde.</castItem>
-          <castItem><role xml:id="thibaut" civil="M" type="H" statut="paysan" age="A" stat_amour="néant">Thibaut</role>, père de Perrin.</castItem>
-          <castItem><role xml:id="perrin" civil="M" type="H" statut="paysan" age="A" stat_amour="néant">Perrin</role>, fils de Thibaut, paysan.</castItem>
+          <castItem><role xml:id="sganarelle" rend="male">Sganarelle</role>, mari de Martine.</castItem>
+          <castItem><role xml:id="martine" rend="female">Martine</role>, femme de Sganarelle.</castItem>
+          <castItem><role xml:id="monsieur-robert" rend="male">Monsieur Robert</role>, voisin de Sganarelle.</castItem>
+          <castItem><role xml:id="valere" rend="male">Valère</role>, domestique de Géronte.</castItem>
+          <castItem><role xml:id="lucas" rend="male">Lucas</role>, mari de Jacqueline.</castItem>
+          <castItem><role xml:id="geronte" rend="male veteran">Géronte</role>, père de Lucinde.</castItem>
+          <castItem><role xml:id="jacqueline" rend="female">Jacqueline</role>, nourrice chez Géronte, et femme de Lucas.</castItem>
+          <castItem><role xml:id="lucinde" rend="female">Lucinde</role>, fille de Géronte.</castItem>
+          <castItem><role xml:id="leandre" rend="male">Léandre</role>, amant de Lucinde.</castItem>
+          <castItem><role xml:id="thibaut" rend="male">Thibaut</role>, père de Perrin.</castItem>
+          <castItem><role xml:id="perrin" rend="male">Perrin</role>, fils de Thibaut, paysan.</castItem>
         </castList>
       </div>
       <div>
@@ -61,9 +71,9 @@
     </front>
     <body>
       <div>
-        <head>ACTE I</head>
+        <head>Acte I</head>
         <div xml:id="I01">
-          <head>, SCÈNE I,</head>
+          <head>Scène I</head>
           <p rend="margin">Sganarelle, Martine,</p>
           <stage>Paraissant sur le théâtre en se querellant.</stage>
           <p/>
@@ -274,7 +284,7 @@
           </sp>
         </div>
         <div xml:id="I02" type="scene">
-          <head>SCÈNE II.</head>
+          <head>Scène II</head>
           <stage>MONSIEUR Robert, Sganarelle, Martine.</stage>
           <p/>
           <sp who="monsieur-robert" xml:id="I02-1">
@@ -482,14 +492,14 @@
           </sp>
         </div>
         <div xml:id="I03" type="scene">
-          <head>SCÈNE III.</head>
+          <head>Scène III</head>
           <sp who="martine" xml:id="I03-1">
             <speaker>Martine, seule</speaker>
             <p>Va, quelque mine que je fasse, je n’oublie pas mon ressentiment : et je brûle en moi-même, de trouver les moyens de te punir des coups que tu me donnes.Je sais bien qu’une femme a toujours dans les mains, de quoi se venger d’un Mari : mais c’est une punition trop délicate pour mon Pendard. Je veux une vengeance qui se fasse un peu mieux sentir : et ce n’est pas contentement, pour l’injure que j’ai reçue.</p>
           </sp>
         </div>
         <div xml:id="I04" type="scene">
-          <head>SCÈNE IV.</head>
+          <head>Scène IV</head>
           <stage>Valère, Lucas, Martine.</stage>
           <p/>
           <sp who="lucas" xml:id="I04-1">
@@ -635,7 +645,7 @@
           </sp>
         </div>
         <div xml:id="I05" type="scene">
-          <head>SCÈNE V.</head>
+          <head>Scène V</head>
           <stage>Sganarelle, Valère, Lucas.</stage>
           <p/>
           <sp who="sganarelle" xml:id="I05-1">
@@ -1068,9 +1078,9 @@
         </div>
       </div>
       <div>
-        <head>ACTE II,</head>
+        <head>Acte II</head>
         <div xml:id="II01" type="scene">
-          <head>SCÈNE I.</head>
+          <head>Scène I</head>
           <stage>Géronte, Valère, Lucas, Jacqueline.</stage>
           <p/>
           <sp who="valere" xml:id="II01-1">
@@ -1180,7 +1190,7 @@
           </sp>
         </div>
         <div xml:id="II02" type="scene">
-          <head>SCÈNE II.</head>
+          <head>Scène II</head>
           <stage>Valère, Sganarelle, Géronte, Lucas, Jacqueline.</stage>
           <p/>
           <sp who="valere" xml:id="II02-1">
@@ -1397,7 +1407,7 @@
           </sp>
         </div>
         <div xml:id="II03" type="scene">
-          <head>SCÈNE III.</head>
+          <head>Scène III</head>
           <stage>Sganarelle, Géronte, Lucas, Jacqueline.</stage>
           <p/>
           <sp who="geronte" xml:id="II03-1">
@@ -1466,7 +1476,7 @@
           </sp>
         </div>
         <div xml:id="II04" type="scene">
-          <head>SCÈNE IV.</head>
+          <head>Scène IV</head>
           <stage>Lucinde, Valère, Géronte, Lucas, Sganarelle, Jacqueline.</stage>
           <p/>
           <sp who="sganarelle" xml:id="II04-1">
@@ -1857,7 +1867,7 @@
           </sp>
         </div>
         <div xml:id="II05" type="scene">
-          <head>SCÈNE V.</head>
+          <head>Scène V</head>
           <stage>Sganarelle, Léandre.</stage>
           <p/>
           <sp who="sganarelle" xml:id="II05-1">
@@ -1939,9 +1949,9 @@
         </div>
       </div>
       <div>
-        <head>ACTE III</head>
+        <head>Acte III</head>
         <div xml:id="III01">
-          <head>, SCÈNE I.</head>
+          <head>, SCÈNE I</head>
           <stage>Sganarelle, Léandre.</stage>
           <p/>
           <sp who="leandre" xml:id="III01-1">
@@ -1986,7 +1996,7 @@
           </sp>
         </div>
         <div xml:id="III02" type="scene">
-          <head>SCÈNE II.</head>
+          <head>Scène II</head>
           <stage>Thibaut, Perrin, Sganarelle.</stage>
           <p/>
           <sp who="thibaut" xml:id="III02-1">
@@ -2087,7 +2097,7 @@
           </sp>
         </div>
         <div xml:id="III03" type="scene">
-          <head>SCÈNE III.</head>
+          <head>Scène III</head>
           <stage>Jacqueline, Sganarelle, Lucas.</stage>
           <p/>
           <sp who="sganarelle" xml:id="III03-1">
@@ -2145,7 +2155,7 @@
           </sp>
         </div>
         <div xml:id="III04" type="scene">
-          <head>SCÈNE IV.</head>
+          <head>Scène IV</head>
           <stage>Géronte, Lucas.</stage>
           <p/>
           <sp who="geronte" xml:id="III04-1">
@@ -2170,7 +2180,7 @@
           </sp>
         </div>
         <div xml:id="III05" type="scene">
-          <head>SCÈNE V.</head>
+          <head>Scène V</head>
           <stage>Sganarelle, Léandre, Géronte.</stage>
           <p/>
           <sp who="geronte" xml:id="III05-1">
@@ -2231,7 +2241,7 @@
           </sp>
         </div>
         <div xml:id="III06" type="scene">
-          <head>SCÈNE VI.</head>
+          <head>Scène VI</head>
           <stage>Jacqueline, Lucinde, Géronte, Léandre, Sganarelle.</stage>
           <p/>
           <sp who="jacqueline" xml:id="III06-1">
@@ -2371,7 +2381,7 @@
           </sp>
         </div>
         <div xml:id="III07" type="scene">
-          <head>SCÈNE VII.</head>
+          <head>Scène VII</head>
           <stage>Géronte, Sganarelle.</stage>
           <p/>
           <sp who="geronte" xml:id="III07-1">
@@ -2456,7 +2466,7 @@
           </sp>
         </div>
         <div xml:id="III08" type="scene">
-          <head>SCÈNE VIII.</head>
+          <head>Scène VIII</head>
           <stage>Lucas, Géronte, Sganarelle.</stage>
           <p/>
           <sp who="lucas" xml:id="III08-1">
@@ -2473,7 +2483,7 @@
           </sp>
         </div>
         <div xml:id="III09" type="scene">
-          <head>SCÈNE IX.</head>
+          <head>Scène IX</head>
           <stage>Martine, Sganarelle, Lucas.</stage>
           <p/>
           <sp who="martine" xml:id="III09-1">
@@ -2526,7 +2536,7 @@
           </sp>
         </div>
         <div xml:id="III10" type="scene">
-          <head>SCÈNE X.</head>
+          <head>Scène X</head>
           <stage>Géronte, Sganarelle, Martine, Lucas.</stage>
           <p/>
           <sp who="geronte" xml:id="III10-1">
@@ -2543,7 +2553,7 @@
           </sp>
         </div>
         <div xml:id="III11" type="scene">
-          <head>SCÈNE XI<hi rend="i"> et DERNIÈRE.</hi></head>
+          <head>Scène XI<hi rend="i"> et DERNIÈRE.</hi></head>
           <stage>Léandre, Lucinde, Jacqueline, Lucas, Géronte, Sganarelle, Martine.</stage>
           <sp who="leandre" xml:id="III11-1">
             <speaker>Léandre</speaker>

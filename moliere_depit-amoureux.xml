@@ -7,15 +7,33 @@
         <title>Le Dépit amoureux</title>
         <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Paul Fièvre</name>
+          <resp>2006, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Amélie Canu</name>
+          <resp>2015, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Oriane Morvan</name>
+          <resp>2015, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale (conversions, validation)</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
+        <publisher>Publié par Paul Fièvre en mai 2006, révision en 2015 par Amélie Canu et Oriane Morvan</publisher>
         <date when="2006"/>
         <date when="2015"/>
-        <publisher>Publié par Paul Fièvre en mai 2006, révision en 2015 par Amélie Canu et Oriane Morvan</publisher>
         <availability status="restricted">
           <licence target="projet-Molière"/>
         </availability>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_depit-amoureux/</idno>
-        <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_depit-amoureux.xml</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl>

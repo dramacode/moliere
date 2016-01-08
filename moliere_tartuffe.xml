@@ -7,15 +7,33 @@
         <title>Le Tartuffe, ou L’Imposteur</title>
         <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Paul Fièvre</name>
+          <resp>2006, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Amélie Canu</name>
+          <resp>2015, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Oriane Morvan</name>
+          <resp>2015, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale (conversions, validation)</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
+        <publisher>Publié par Paul Fièvre en mai 2006, révision en 2015 par Amélie Canu et Oriane Morvan</publisher>
         <date when="2006"/>
         <date when="2015"/>
-        <publisher>Publié par Paul Fièvre en mai 2006, révision en 2015 par Amélie Canu et Oriane Morvan</publisher>
         <availability status="restricted">
           <licence target="projet-Molière"/>
         </availability>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_tartuffe/</idno>
-        <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_tartuffe.xml</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -123,9 +141,9 @@
     </front>
     <body>
       <div1 type="act" xml:id="I">
-        <head>ACTE PREMIER</head>
+        <head>Acte premier</head>
         <div2 type="scene" xml:id="I01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène première</head>
           <stage>Madame Pernelle, <hi rend="i">et</hi> Flipote <hi rend="i">sa Servante</hi>,
             Elmire, Mariane, Dorine, Damis, Cléante</stage>
           <sp xml:id="I01-1" who="madame-pernelle">
@@ -410,7 +428,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I02">
-          <head>SCÈNE II.</head>
+          <head>Scène II.</head>
           <stage>Cléante, Dorine</stage>
           <sp xml:id="I02-1" who="cleante">
             <speaker>Cléante</speaker>
@@ -468,7 +486,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I03">
-          <head>SCÈNE III</head>
+          <head>Scène III</head>
           <stage>Elmire, Mariane, Damis, Cléante, Dorine</stage>
           <sp xml:id="I03-1" who="elmire">
             <speaker>Elmire</speaker>
@@ -498,7 +516,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I04">
-          <head>SCÈNE IV</head>
+          <head>Scène IV</head>
           <stage>Orgon, Cléante, Dorine</stage>
           <sp xml:id="I04-1" who="orgon">
             <speaker>Orgon</speaker>
@@ -606,7 +624,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I05">
-          <head>SCÈNE V</head>
+          <head>Scène V</head>
           <stage>Orgon, Cléante</stage>
           <sp xml:id="I05-1" who="cleante">
             <speaker>Cléante</speaker>
@@ -900,9 +918,9 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="II">
-        <head>ACTE II</head>
+        <head>Acte II</head>
         <div2 type="scene" xml:id="II01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène première</head>
           <stage>Orgon, Mariane</stage>
           <sp xml:id="II01-1" who="orgon">
             <speaker>Orgon</speaker>
@@ -1025,7 +1043,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II02">
-          <head>SCÈNE II</head>
+          <head>Scène II</head>
           <stage>Dorine, Orgon, Mariane</stage>
           <sp xml:id="II02-1" who="orgon">
             <speaker>Orgon</speaker>
@@ -1363,7 +1381,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II03">
-          <head>SCÈNE III</head>
+          <head>Scène III</head>
           <stage>Dorine, Mariane</stage>
           <sp xml:id="II03-1" who="dorine">
             <speaker>Dorine</speaker>
@@ -1613,7 +1631,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II04">
-          <head>SCÈNE IV</head>
+          <head>Scène IV</head>
           <stage>Valère, Mariane, Dorine</stage>
           <sp xml:id="II04-1" who="valere">
             <speaker>Valère</speaker>
@@ -2100,9 +2118,9 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="III">
-        <head>ACTE III</head>
+        <head>Acte III</head>
         <div2 type="scene" xml:id="III01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène première</head>
           <stage>Damis, Dorine</stage>
           <sp xml:id="III01-1" who="damis">
             <speaker>Damis</speaker>
@@ -2168,7 +2186,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III02">
-          <head>SCÈNE II</head>
+          <head>Scène II</head>
           <stage>Tartuffe, Laurent, Dorine</stage>
           <sp xml:id="III02-1" who="tartuffe">
             <speaker>Tartuffe, <hi rend="i">apercevant Dorine</hi></speaker>
@@ -2246,7 +2264,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III03">
-          <head>SCÈNE III</head>
+          <head>Scène III</head>
           <stage>Elmire, Tartuffe</stage>
           <sp xml:id="III03-1" who="tartuffe">
             <speaker>Tartuffe</speaker>
@@ -2496,7 +2514,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III04">
-          <head>SCÈNE IV</head>
+          <head>Scène IV</head>
           <stage>Damis, Elmire, Tartuffe</stage>
           <sp xml:id="III04-1" who="damis">
             <speaker>Damis,<hi rend="i">sortant du petit cabinet, où il s’était retiré</hi>.</speaker>
@@ -2550,7 +2568,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III05">
-          <head>SCÈNE V</head>
+          <head>Scène V</head>
           <stage>Orgon, Damis, Tartuffe, Elmire</stage>
           <sp xml:id="III05-1" who="damis">
             <speaker>Damis</speaker>
@@ -2578,7 +2596,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III06">
-          <head>SCÈNE VI</head>
+          <head>Scène VI</head>
           <stage>Orgon, Damis, Tartuffe</stage>
           <sp xml:id="III06-1" who="orgon">
             <speaker>Orgon</speaker>
@@ -2752,7 +2770,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III07">
-          <head>SCÈNE VII</head>
+          <head>Scène VII</head>
           <stage>Orgon, Tartuffe</stage>
           <sp xml:id="III07-1" who="orgon">
             <speaker>Orgon</speaker>
@@ -2872,9 +2890,9 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="IV">
-        <head>ACTE IV</head>
+        <head>Acte IV</head>
         <div2 type="scene" xml:id="IV01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène première</head>
           <stage>Cléante, Tartuffe</stage>
           <sp xml:id="IV01-1" who="cleante">
             <speaker>Cléante</speaker>
@@ -2991,7 +3009,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV02">
-          <head>SCÈNE II</head>
+          <head>Scène II</head>
           <stage>Elmire, Mariane, Dorine, Cléante</stage>
           <sp xml:id="IV02-1" who="dorine">
             <speaker>Dorine</speaker>
@@ -3005,7 +3023,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV03">
-          <head>SCÈNE III</head>
+          <head>Scène III</head>
           <stage>Orgon, Elmire, Mariane, Cléante, Dorine</stage>
           <sp xml:id="IV03-1" who="orgon">
             <speaker>Orgon</speaker>
@@ -3180,7 +3198,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV04">
-          <head>SCÈNE IV</head>
+          <head>Scène IV</head>
           <stage>Elmire, Orgon</stage>
           <sp xml:id="IV04-1" who="elmire">
             <speaker>Elmire</speaker>
@@ -3235,7 +3253,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV05">
-          <head>SCÈNE V</head>
+          <head>Scène V</head>
           <stage>Tartuffe, Elmire, Orgon</stage>
           <sp xml:id="IV05-1" who="tartuffe">
             <speaker>Tartuffe</speaker>
@@ -3457,7 +3475,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV06">
-          <head>SCÈNE VI</head>
+          <head>Scène VI</head>
           <stage>Orgon, Elmire</stage>
           <sp xml:id="IV06-1" who="orgon">
             <speaker>Orgon, <hi rend="i">sortant de dessous la Table.</hi></speaker>
@@ -3484,7 +3502,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV07">
-          <head>SCÈNE VII</head>
+          <head>Scène VII</head>
           <stage>Tartuffe, Elmire, Orgon</stage>
           <sp xml:id="IV07-1" who="tartuffe">
             <speaker>TARTUFFE</speaker>
@@ -3540,7 +3558,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV08">
-          <head>SCÈNE VIII</head>
+          <head>Scène VIII</head>
           <stage>Elmire, Orgon</stage>
           <sp xml:id="IV08-1" who="elmire">
             <speaker>Elmire</speaker>
@@ -3581,9 +3599,9 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="V">
-        <head>ACTE V</head>
+        <head>Acte V</head>
         <div2 type="scene" xml:id="V01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène première</head>
           <stage>Orgon, Cléante</stage>
           <sp xml:id="V01-1" who="cleante">
             <speaker>Cléante</speaker>
@@ -3678,7 +3696,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V02">
-          <head>SCÈNE II</head>
+          <head>Scène II</head>
           <stage>Damis, Orgon, Cléante</stage>
           <sp xml:id="V02-1" who="damis">
             <speaker>Damis</speaker>
@@ -3707,7 +3725,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V03">
-          <head>SCÈNE III</head>
+          <head>Scène III</head>
           <stage>Madame Pernelle, Mariane, Elmire, Dorine, Damis, Orgon, Cléante</stage>
           <sp xml:id="V03-1" who="madame-pernelle">
             <speaker>Madame Pernelle</speaker>
@@ -3894,7 +3912,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V04">
-          <head>SCÈNE IV</head>
+          <head>Scène IV</head>
           <stage>Monsieur Loyal, Madame Pernelle, Orgon, Damis, Mariane, Dorine, Elmire, Cléante</stage>
           <sp xml:id="V04-1" who="loyal">
             <speaker>Monsieur Loyal</speaker>
@@ -4108,7 +4126,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V05">
-          <head>SCÈNE V</head>
+          <head>Scène V</head>
           <stage>Orgon, Cléante, Mariane, Elmire, Madame Pernelle, Dorine, Damis</stage>
           <sp xml:id="V05-1" who="orgon">
             <speaker>Orgon</speaker>
@@ -4146,7 +4164,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V06">
-          <head>SCÈNE VI</head>
+          <head>Scène VI</head>
           <stage>Valère, Orgon, Cléante, Elmire, Mariane, <hi rend="i">etc.</hi></stage>
           <sp xml:id="V06-1" who="valere">
             <speaker>Valère</speaker>
@@ -4204,7 +4222,7 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V07">
-          <head>SCÈNE DERNIÈRE</head>
+          <head>Scène dernière</head>
           <stage>L’exempt, Tartuffe, Valère, Orgon, Elmire, Mariane, <hi rend="i">etc.</hi></stage>
           <sp xml:id="V07-1" who="tartuffe">
             <speaker>Tartuffe</speaker>

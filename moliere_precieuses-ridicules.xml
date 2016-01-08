@@ -9,18 +9,28 @@
         <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
       <editionStmt>
-        <edition/>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Paul Fièvre</name>
+          <resp>2010, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Amélie Canu</name>
+          <resp>2014, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Oriane Morvan</name>
+          <resp>2014, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale (conversions, validation)</resp>
+        </respStmt>
       </editionStmt>
-      <extent>
-        <measure quantity="31" unit="page"/>
-        <measure quantity="101" unit="paragraph"/>
-        <measure quantity="7844" unit="word"/>
-        <measure quantity="50891" unit="character"/>
-      </extent>
       <publicationStmt>
+        <publisher>Publié par Paul Fièvre en mai 2010, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
         <date when="2010"/>
         <date when="2014"/>
-        <publisher>Publié par Paul Fièvre en mai 2010, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
         <availability status="restricted">
           <licence target="projet-Molière"/>
         </availability>

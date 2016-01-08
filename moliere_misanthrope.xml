@@ -7,10 +7,29 @@
         <title>Le Misanthrope, comédie</title>
         <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Paul Fièvre</name>
+          <resp>2006, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Amélie Canu</name>
+          <resp>2014, révision</resp>
+        </respStmt>
+        <respStmt>
+          <name>Oriane Morvan</name>
+          <resp>2014, révision</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale (conversions, validation)</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
+        <publisher>Publié par Paul Fièvre en mai 2006, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
         <date when="2006"/>
         <date when="2014"/>
-        <publisher>Publié par Paul Fièvre en mai 2006, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
         <availability status="restricted">
           <licence target="projet-Molière"/>
         </availability>
@@ -915,9 +934,9 @@
               <l n="379" xml:id="l379"><hi rend="n">Qu’est-ce que</hi> nous berce un temps, notre ennui,</l>
               <l n="380" xml:id="l380"><hi rend="n">Et que</hi> rien ne marche après lui ?</l>
               <l n="381" xml:id="l381"><hi rend="n">Que</hi> ne vous pas mettre en dépense,</l>
-            <l n="382" xml:id="l382">Pour ne me donner que l’Espoir ?</l>
+              <l n="382" xml:id="l382">Pour ne me donner que l’Espoir ?</l>
               <l n="383" xml:id="l383"><hi rend="n">Et que</hi> Philis, on désespère,</l>
-            <l n="384" xml:id="l384">Alors qu’on espère toujours ?</l>
+              <l n="384" xml:id="l384">Alors qu’on espère toujours ?</l>
             </lg>
             <l n="385" xml:id="l385">Ce style figuré, dont on fait vanité,</l>
             <l n="386" xml:id="l386">Sort du bon Caractère, et de la Vérité ;</l>
@@ -1099,7 +1118,7 @@
           <trailer>Fin du Premier Acte</trailer>
         </div>
       </div>
-      <div xml:id="II" type="act"> 
+      <div xml:id="II" type="act">
         <head>ACTE II</head>
         <div type="scene" xml:id="II01">
           <head>SCÈNE PREMIÈRE</head>
@@ -2092,7 +2111,7 @@
             <l n="873" xml:id="l873" part="I">Et…</l>
           </sp>
         </div>
-        <div type="scene"  xml:id="III04">
+        <div type="scene" xml:id="III04">
           <head>SCÈNE IV</head>
           <stage>Arsinoé, Célimène</stage>
           <sp who="celimene" xml:id="III04-1">
@@ -2467,7 +2486,7 @@
           <trailer>Fin du Troisième Acte.</trailer>
         </div>
       </div>
-      <div xml:id="IV" type="act"> 
+      <div xml:id="IV" type="act">
         <head>ACTE IV</head>
         <div type="scene" xml:id="IV01">
           <head>SCÈNE PREMIÈRE</head>

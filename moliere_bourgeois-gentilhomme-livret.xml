@@ -18,21 +18,18 @@
           <name>Oriane Morvan</name>
           <resp>Édition XML/TEI</resp>
         </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale (conversions, validation)</resp>
+        </respStmt>
       </editionStmt>
-      <extent>
-        <measure quantity="10" unit="page"/>
-        <measure quantity="485" unit="paragraph"/>
-        <measure quantity="2723" unit="word"/>
-        <measure quantity="16283" unit="character"/>
-      </extent>
-      <publicationStmt>
+       <publicationStmt>
         <date when="2014"/>
         <publisher>Publié par Amélie Canu et Oriane Morvan en 2014.</publisher>
         <availability status="restricted">
           <licence target="projet-Molière"></licence>
         </availability>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_bourgeois-gentilhomme-livret/</idno>
-        <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_bourgeois-gentilhomme-livret.xml</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl>

@@ -8,11 +8,30 @@
         <title type="sub">Comédie</title>
         <author key="Molière (1622-1673)">Molière</author>
       </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Paul Fièvre</name>
+          <resp>2008, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Amélie Canu</name>
+          <resp>2014, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Oriane Morvan</name>
+          <resp>2014, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale (conversions, validation)</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
+        <publisher>Publié par Paul Fièvre en septembre 2008, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
         <date when="2008"/>
         <date when="2014"/>
-        <publisher>Publié par Paul Fièvre en septembre 2008, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
-        <availability status="restricted">
+         <availability status="restricted">
           <licence target="projet-Molière"/>
         </availability>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_avare/</idno>

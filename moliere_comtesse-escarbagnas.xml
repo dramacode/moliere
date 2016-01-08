@@ -7,16 +7,28 @@
         <title>La Comtesse d'Escarbagnas</title>
         <author>Molière</author>
       </titleStmt>
-      <extent>
-        <measure quantity="23" unit="page"/>
-        <measure quantity="78" unit="paragraph"/>
-        <measure quantity="6047" unit="word"/>
-        <measure quantity="39232" unit="character"/>
-      </extent>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Paul Fièvre</name>
+          <resp>2011, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Amélie Canu</name>
+          <resp>2014, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Oriane Morvan</name>
+          <resp>2014, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale (conversions, validation)</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
         <publisher>publié par Paul FIEVRE, septembre 2011</publisher>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_comtesse-escarbagnas/</idno>
-        <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_comtesse-escarbagnas.xml</idno>
       </publicationStmt>
       <sourceDesc>
         <p/>
