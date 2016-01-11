@@ -28,14 +28,13 @@
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Publié par Paul Fièvre en juillet 2012, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
+        <publisher>LABEX OBVIL</publisher>
         <date when="2012"/>
         <date when="2014"/>
         <availability status="restricted">
           <licence target="projet-Molière"/>
         </availability>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_amants-magnifiques/</idno>
-        <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_amants-magnifiques.xml</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -120,7 +119,7 @@
     </front>
     <body>
       <head>Les amants magnifiques, <lb/>Comédie</head>
-      <div1 xml:id="i" rend="not-i" type="interlude">
+      <div1 xml:id="a" rend="not-i" type="interlude">
         <head>Premier intermède</head>
         <stage>Le Théâtre s’ouvre à l’agréable bruit de quantité d’Instruments, et d’abord il offre aux yeux une vaste Mer, bordée de chaque côté de quatre grands Rochers, dont le sommet porte chacun un Fleuve, accoudé sur les marques de ces sortes de Déités. Au pied de ces Rochers sont douze Tritons de chaque côté, et dans le milieu de la Mer quatre Amours montés sur des Dauphins, et derrière eux le Dieu Éole élevé au-dessus des Ondes sur un petit nuage. Éole commande aux Vents de se retirer, &amp; tandis que quatre Amours, douze Tritons, et huit Fleuves lui répondent, la Mer se calme, et du milieu des Ondes on voit s’élever une Île. Huit Pêcheurs sortent du fond de la Mer avec des nacres de Perles, et des branches de Corail, et après une Danse agréable vont se placer chacun sur un Rocher au-dessous d’un Fleuve. Le Chœur de la Musique annonce la venue de Neptune, et tandis que ce Dieu danse avec sa suite, les Pêcheurs, les Tritons, et les Fleuves accompagnent ses pas de gestes différents, et de bruit de conques de Perles. Tout ce Spectacle est une Magnifique Galanterie, dont l’un des Princes régale sur la Mer la promenade des Princesses.</stage>
         <label rend="b">PREMIÈRE ENTRÉE DE BALLET.</label>
@@ -128,97 +127,97 @@
         <label rend="b">DEUXIÈME ENTRÉE DE BALLET</label>
         <stage> Huit Pêcheurs de Corail.</stage>
         <stage rend="i">Vers chantés.</stage>
-        <sp who="eole" xml:id="I-1">
+        <sp who="eole" xml:id="a-1">
           <speaker>récit d’éole</speaker>
-          <l>Vents, qui troublez les plus beaux jours,</l>
-          <l>Rentrez dans vos grottes profondes ;</l>
-          <l>Et laissez régner sur les ondes</l>
-          <l>Les Zéphyrs et les Amours.</l>
+          <l n="1" xml:id="l1">Vents, qui troublez les plus beaux jours,</l>
+          <l n="2" xml:id="l2">Rentrez dans vos grottes profondes ;</l>
+          <l n="3" xml:id="l3">Et laissez régner sur les ondes</l>
+          <l n="4" xml:id="l4">Les Zéphyrs et les Amours.</l>
         </sp>
-        <sp who="triton" xml:id="I-2">
+        <sp who="triton" xml:id="a-2">
           <speaker>un triton</speaker>
-          <l>Quels beaux yeux ont percé nos demeures humides ?</l>
-          <l>Venez, venez Tritons, cachez-vous Néréides.</l>
+          <l n="5" xml:id="l5">Quels beaux yeux ont percé nos demeures humides ?</l>
+          <l n="6" xml:id="l6">Venez, venez Tritons, cachez-vous Néréides.</l>
         </sp>
-        <sp who="tous-tritons" xml:id="I-3">
+        <sp who="tous-tritons" xml:id="a-3">
           <speaker>tous les tritons</speaker>
-          <l>Allons tous au-devant de ces Divinités,</l>
-          <l>Et rendons par nos chants hommage à leurs beautés.</l>
+          <l n="7" xml:id="l7">Allons tous au-devant de ces Divinités,</l>
+          <l n="8" xml:id="l8">Et rendons par nos chants hommage à leurs beautés.</l>
         </sp>
-        <sp who="amour" xml:id="I-4">
+        <sp who="amour" xml:id="a-4">
           <speaker>un amour</speaker>
-          <l>Ah que ces Princesses sont belles !</l>
+          <l n="9" xml:id="l9">Ah que ces Princesses sont belles !</l>
         </sp>
-        <sp who="amour" xml:id="I-5">
+        <sp who="amour" xml:id="a-5">
           <speaker>un autre amour</speaker>
-          <l>Quels sont les cœurs qui ne s’y rendraient pas ?</l>
+          <l n="10" xml:id="l10">Quels sont les cœurs qui ne s’y rendraient pas ?</l>
         </sp>
-        <sp who="amour" xml:id="I-6">
+        <sp who="amour" xml:id="a-6">
           <speaker>un autre amour</speaker>
-          <l>La plus belle des Immortelles,</l>
-          <l>Notre Mère, a bien moins d’appâts.</l>
+          <l n="11" xml:id="l11">La plus belle des Immortelles,</l>
+          <l n="12" xml:id="l12">Notre Mère, a bien moins d’appâts.</l>
         </sp>
-        <sp who="choeur" xml:id="I-7">
+        <sp who="choeur" xml:id="a-7">
           <speaker>chœur</speaker>
-          <l>Allons tous au-devant de ces Divinités,</l>
-          <l>Et rendons par nos chants hommage à leurs beautés.</l>
+          <l n="13" xml:id="l13">Allons tous au-devant de ces Divinités,</l>
+          <l n="14" xml:id="l14">Et rendons par nos chants hommage à leurs beautés.</l>
         </sp>
-        <sp who="triton" xml:id="I-8">
+        <sp who="triton" xml:id="a-8">
           <speaker>un triton</speaker>
-          <l>Quel noble spectacle s’avance !</l>
-          <l>Neptune, le grand Dieu, Neptune avec sa Cour</l>
-          <l>Vient honorer ce beau jour</l>
-          <l>De son Auguste présence.</l>
+          <l n="15" xml:id="l15">Quel noble spectacle s’avance !</l>
+          <l n="16" xml:id="l16">Neptune, le grand Dieu, Neptune avec sa Cour</l>
+          <l n="17" xml:id="l17">Vient honorer ce beau jour</l>
+          <l n="18" xml:id="l18">De son Auguste présence.</l>
         </sp>
-        <sp who="choeur" xml:id="I-9">
+        <sp who="choeur" xml:id="a-9">
           <speaker>chœur</speaker>
-          <l>Redoublons nos Concerts,</l>
-          <l>Et faisons retentir dans le vague des Airs</l>
-          <l>Notre réjouissance.</l>
+          <l n="19" xml:id="l19">Redoublons nos Concerts,</l>
+          <l n="20" xml:id="l20">Et faisons retentir dans le vague des Airs</l>
+          <l n="21" xml:id="l21">Notre réjouissance.</l>
           <stage>Pour LE ROI, représentant NEPTUNE.</stage>
           <lg>
-            <l>Le Ciel entre les Dieux les plus considérés</l>
-            <l>Me donne pour partage un rang considérable,</l>
-            <l>Et me faisant régner sur les flots azurés,</l>
-            <l>Rend à tout l’Univers mon pouvoir redoutable.</l>
+            <l n="22" xml:id="l22">Le Ciel entre les Dieux les plus considérés</l>
+            <l n="23" xml:id="l23">Me donne pour partage un rang considérable,</l>
+            <l n="24" xml:id="l24">Et me faisant régner sur les flots azurés,</l>
+            <l n="25" xml:id="l25">Rend à tout l’Univers mon pouvoir redoutable.</l>
           </lg>
           <lg>
-            <l>Il n’est aucune terre, à me bien regarder</l>
-            <l>Qui ne doive trembler que je ne m’y répande ;</l>
-            <l>Point d’États qu’à l’instant je ne pusse inonder</l>
-            <l>Des flots impétueux que mon pouvoir commande.</l>
+            <l n="26" xml:id="l26">Il n’est aucune terre, à me bien regarder</l>
+            <l n="27" xml:id="l27">Qui ne doive trembler que je ne m’y répande ;</l>
+            <l n="28" xml:id="l28">Point d’États qu’à l’instant je ne pusse inonder</l>
+            <l n="29" xml:id="l29">Des flots impétueux que mon pouvoir commande.</l>
           </lg>
           <lg>
-            <l>Rien n’en peut arrêter le fier débordement,</l>
-            <l>Et d’une triple digue à leur force opposée</l>
-            <l>On les verrait forcer le ferme empêchement,</l>
-            <l>Et se faire en tous lieux une ouverture aisée.</l>
+            <l n="30" xml:id="l30">Rien n’en peut arrêter le fier débordement,</l>
+            <l n="31" xml:id="l31">Et d’une triple digue à leur force opposée</l>
+            <l n="32" xml:id="l32">On les verrait forcer le ferme empêchement,</l>
+            <l n="33" xml:id="l33">Et se faire en tous lieux une ouverture aisée.</l>
           </lg>
           <lg>
-            <l>Mais je sais retenir la fureur de ces flots</l>
-            <l>Par la sage équité du pouvoir que j’exerce,</l>
-            <l>Et laisser en tous lieux, au gré des Matelots</l>
-            <l>La douce liberté d’un paisible commerce.</l>
+            <l n="34" xml:id="l34">Mais je sais retenir la fureur de ces flots</l>
+            <l n="35" xml:id="l35">Par la sage équité du pouvoir que j’exerce,</l>
+            <l n="36" xml:id="l36">Et laisser en tous lieux, au gré des Matelots</l>
+            <l n="37" xml:id="l37">La douce liberté d’un paisible commerce.</l>
           </lg>
           <lg>
-            <l>On trouve des Écueils parfois dans mes États,</l>
-            <l>On voit quelques Vaisseaux y périr par l’orage :</l>
-            <l>Mais contre ma puissance on n’en murmure pas,</l>
-            <l>Et chez moi la Vertu ne fait jamais naufrage.</l>
+            <l n="38" xml:id="l38">On trouve des Écueils parfois dans mes États,</l>
+            <l n="39" xml:id="l39">On voit quelques Vaisseaux y périr par l’orage :</l>
+            <l n="40" xml:id="l40">Mais contre ma puissance on n’en murmure pas,</l>
+            <l n="41" xml:id="l41">Et chez moi la Vertu ne fait jamais naufrage.</l>
           </lg>
           <stage>Pour M. LE GRAND, représentant un Dieu Marin</stage>
-          <l>L’Empire où nous vivons, est fertile en trésors,</l>
-          <l>Tous les mortels en foule accourent sur ses bords,</l>
-          <l>Et pour faire bientôt une haute fortune,</l>
-          <l>Il ne faut rien qu’avoir la faveur de <hi rend="n">Neptune</hi>.</l>
+          <l n="42" xml:id="l42">L’Empire où nous vivons, est fertile en trésors,</l>
+          <l n="43" xml:id="l43">Tous les mortels en foule accourent sur ses bords,</l>
+          <l n="44" xml:id="l44">Et pour faire bientôt une haute fortune,</l>
+          <l n="45" xml:id="l45">Il ne faut rien qu’avoir la faveur de <hi rend="n">Neptune</hi>.</l>
           <stage>Pour LE MARQUIS DE VILLEROY, représentant un Dieu Marin</stage>
-          <l>Sur la foi de ce Dieu de l’Empire flottant</l>
-          <l>On peut bien s’embarquer avec toute assurance ;</l>
-          <l>Les flots ont de l’inconstance ;</l>
-          <l>Mais le <hi rend="n">Neptune</hi> est constant.</l>
+          <l n="46" xml:id="l46">Sur la foi de ce Dieu de l’Empire flottant</l>
+          <l n="47" xml:id="l47">On peut bien s’embarquer avec toute assurance ;</l>
+          <l n="48" xml:id="l48">Les flots ont de l’inconstance ;</l>
+          <l n="49" xml:id="l49">Mais le <hi rend="n">Neptune</hi> est constant.</l>
           <stage>Pour LE MARQUIS DE RASSENT, représentant un Dieu Marin.</stage>
-          <l>Voguez sur cette Mer d’un zèle inébranlable,</l>
-          <l>C’est le moyen d’avoir <hi rend="n">Neptune</hi> favorable.</l>
+          <l n="50" xml:id="l50">Voguez sur cette Mer d’un zèle inébranlable,</l>
+          <l n="51" xml:id="l51">C’est le moyen d’avoir <hi rend="n">Neptune</hi> favorable.</l>
         </sp>
       </div1>
       <div1 xml:id="I" type="act">
@@ -689,7 +688,7 @@
           <label rend="i">Fin du premier Acte.</label>
         </div2>
       </div1>
-      <div1 xml:id="ii" rend="not-i" type="interlude">
+      <div1 xml:id="Ib" rend="not-i" type="interlude">
         <head>Second intermède</head>
         <stage>La Confidente de la jeune Princesse lui produit trois danseurs, sous le nom de Pantomimes ; c’est-à-dire qui expriment par leurs gestes toutes sortes de choses. La Princesse les voit danser, et les reçoit à son service.</stage>
         <label rend="b">ENTRÉE DE BALLET</label>
@@ -1011,7 +1010,7 @@
           <label rend="i">Fin du second Acte.</label>
         </div2>
       </div1>
-      <div1 xml:id="iii" rend="not-i" type="interlude">
+      <div1 xml:id="IIb" rend="not-i" type="interlude">
         <head>Troisième intermède</head>
         <stage>Le Théâtre est une Forêt, où la Princesse est invitée d’aller, une Nymphe lui en fait les honneurs en chantant, et pour la divertir on lui joue une petite Comédie en Musique, dont voici le sujet : un Berger se plaint à deux Bergers ses amis, des froideurs de celle qu’il aime, les deux amis le consolent ; et comme la Bergère aimée arrive, tous trois se retirent pour l’observer : après quelque plainte amoureuse elle se repose sur un gazon, et s’abandonne aux douceurs du sommeil ; l’Amant fait approcher ses amis pour contempler les grâces de sa Bergère, et invite toutes choses à contribuer à son repos. La Bergère en s’éveillant, voit son Berger à ses pieds, se plaint de sa poursuite : Mais considérant sa constance elle lui accorde sa demande, et consent d’en être aimée en présence des deux Bergers amis : Deux Satyres arrivant se plaignent de son changement, et étant touchés de cette disgrâce, cherchent leur consolation dans le vin.</stage>
         <castList>
@@ -1028,399 +1027,399 @@
             <role xml:id="bergers"/>
           </castItem>
         </castList>
-        <div2 xml:id="iii01" type="scene">
+        <div2 xml:id="IIb01" type="scene">
           <head>PROLOGUE</head>
-          <sp who="nymphe" xml:id="iii01-1">
+          <sp who="nymphe" xml:id="IIb01-1">
             <speaker>la nymphe de tempé</speaker>
-            <l>Venez, grande Princesse, avec tous vos appas,</l>
-            <l>Venez prêter vos yeux aux innocents ébats</l>
-            <l>Que notre désert vous présente ;</l>
-            <l>N’y cherchez point l’éclat des Fêtes de la Cour,</l>
-            <l>On ne sent ici que l’amour,</l>
-            <l>Ce n’est que d’amour qu’on y chante.</l>
+            <l n="52" xml:id="l52">Venez, grande Princesse, avec tous vos appas,</l>
+            <l n="53" xml:id="l53">Venez prêter vos yeux aux innocents ébats</l>
+            <l n="54" xml:id="l54">Que notre désert vous présente ;</l>
+            <l n="55" xml:id="l55">N’y cherchez point l’éclat des Fêtes de la Cour,</l>
+            <l n="56" xml:id="l56">On ne sent ici que l’amour,</l>
+            <l n="57" xml:id="l57">Ce n’est que d’amour qu’on y chante.</l>
           </sp>
         </div2>
-        <div2 xml:id="iii02" type="scene">
+        <div2 xml:id="IIb02" type="scene">
           <head>Scène première</head>
-          <sp who="tircis" xml:id="iii02-1">
+          <sp who="tircis" xml:id="IIb02-1">
             <speaker>tircis</speaker>
-            <l>Vous chantez sous ces feuillages,</l>
-            <l>Doux rossignols pleins d’amour,</l>
-            <l>Et de vos tendres ramages</l>
-            <l>Vous réveillez tour à tour</l>
-            <l>Les échos de ces bocages :</l>
-            <l>Hélas ! petits oiseaux, hélas !</l>
-            <l>Si vous aviez mes maux vous ne chanteriez pas.</l>
+            <l n="58" xml:id="l58">Vous chantez sous ces feuillages,</l>
+            <l n="59" xml:id="l59">Doux rossignols pleins d’amour,</l>
+            <l n="60" xml:id="l60">Et de vos tendres ramages</l>
+            <l n="61" xml:id="l61">Vous réveillez tour à tour</l>
+            <l n="62" xml:id="l62">Les échos de ces bocages :</l>
+            <l n="63" xml:id="l63">Hélas ! petits oiseaux, hélas !</l>
+            <l n="64" xml:id="l64">Si vous aviez mes maux vous ne chanteriez pas.</l>
           </sp>
         </div2>
-        <div2 xml:id="iii03" type="scene">
+        <div2 xml:id="IIb03" type="scene">
           <head>Scène DEUXIÈME</head>
           <stage>Lycaste, Ménandre, Tircis</stage>
-          <sp who="lycaste" xml:id="iii03-1">
+          <sp who="lycaste" xml:id="IIb03-1">
             <speaker>lycaste</speaker>
-            <l>Hé quoi toujours languissant, sombre et triste ?</l>
+            <l n="65" xml:id="l65">Hé quoi toujours languissant, sombre et triste ?</l>
           </sp>
-          <sp who="menandre" xml:id="iii03-2">
+          <sp who="menandre" xml:id="IIb03-2">
             <speaker>ménandre</speaker>
-            <l>Hé quoi toujours aux pleurs abandonné ?</l>
+            <l n="66" xml:id="l66">Hé quoi toujours aux pleurs abandonné ?</l>
           </sp>
-          <sp who="tircis" xml:id="iii03-3">
+          <sp who="tircis" xml:id="IIb03-3">
             <speaker>tircis</speaker>
-            <l>Toujours adorant Caliste,</l>
-            <l>Et toujours infortuné.</l>
+            <l n="67" xml:id="l67">Toujours adorant Caliste,</l>
+            <l n="68" xml:id="l68">Et toujours infortuné.</l>
           </sp>
-          <sp who="lycaste" xml:id="iii03-4">
+          <sp who="lycaste" xml:id="IIb03-4">
             <speaker>lycaste</speaker>
-            <l>Dompte, dompte, Berger, l’ennui qui te possède.</l>
+            <l n="69" xml:id="l69">Dompte, dompte, Berger, l’ennui qui te possède.</l>
           </sp>
-          <sp who="tircis" xml:id="iii03-5">
+          <sp who="tircis" xml:id="IIb03-5">
             <speaker>tircis</speaker>
-            <l>Eh le moyen, hélas !</l>
+            <l n="70" xml:id="l70">Eh le moyen, hélas !</l>
           </sp>
-          <sp who="menandre" xml:id="iii03-6">
+          <sp who="menandre" xml:id="IIb03-6">
             <speaker>ménandre</speaker>
-            <l>Fais, fais-toi quelque effort.</l>
+            <l n="71" xml:id="l71">Fais, fais-toi quelque effort.</l>
           </sp>
-          <sp who="tircis" xml:id="iii03-7">
+          <sp who="tircis" xml:id="IIb03-7">
             <speaker>tircis</speaker>
-            <l>Eh le moyen, hélas ! quand le mal est trop fort ?</l>
+            <l n="72" xml:id="l72">Eh le moyen, hélas ! quand le mal est trop fort ?</l>
           </sp>
-          <sp who="lycaste" xml:id="iii03-8">
+          <sp who="lycaste" xml:id="IIb03-8">
             <speaker>lycaste</speaker>
-            <l>Ce mal trouvera son remède.</l>
+            <l n="73" xml:id="l73">Ce mal trouvera son remède.</l>
           </sp>
-          <sp who="tircis" xml:id="iii03-9">
+          <sp who="tircis" xml:id="IIb03-9">
             <speaker>tircis</speaker>
-            <l>Je ne guérirai qu’à ma mort.</l>
+            <l n="74" xml:id="l74">Je ne guérirai qu’à ma mort.</l>
           </sp>
-          <sp who="lycaste" xml:id="iii03-10">
+          <sp who="lycaste" xml:id="IIb03-10">
             <speaker>lycaste, et ménandre</speaker>
-            <l>Ah Tircis !</l>
+            <l n="75" xml:id="l75">Ah Tircis !</l>
           </sp>
-          <sp who="tircis" xml:id="iii03-11">
+          <sp who="tircis" xml:id="IIb03-11">
             <speaker>tircis</speaker>
-            <l>Ah Bergers !</l>
+            <l n="76" xml:id="l76">Ah Bergers !</l>
           </sp>
-          <sp who="lycaste menandre" xml:id="iii03-12">
+          <sp who="lycaste menandre" xml:id="IIb03-12">
             <speaker>lycaste et ménandre</speaker>
-            <l>Prends sur toi plus d’empire.</l>
+            <l n="77" xml:id="l77">Prends sur toi plus d’empire.</l>
           </sp>
-          <sp who="tircis" xml:id="iii03-13">
+          <sp who="tircis" xml:id="IIb03-13">
             <speaker>tircis</speaker>
-            <l>Rien ne me peut plus secourir.</l>
+            <l n="78" xml:id="l78">Rien ne me peut plus secourir.</l>
           </sp>
-          <sp who="lycaste" xml:id="iii03-14">
+          <sp who="lycaste" xml:id="IIb03-14">
             <speaker>lycaste, et ménandre</speaker>
-            <l>C’est trop, c’est trop céder.</l>
+            <l n="79" xml:id="l79">C’est trop, c’est trop céder.</l>
           </sp>
-          <sp who="tircis" xml:id="iii03-15">
+          <sp who="tircis" xml:id="IIb03-15">
             <speaker>tircis</speaker>
-            <l>C’est trop, c’est trop souffrir.</l>
+            <l n="80" xml:id="l80">C’est trop, c’est trop souffrir.</l>
           </sp>
-          <sp who="lycaste menandre" xml:id="iii03-16">
+          <sp who="lycaste menandre" xml:id="IIb03-16">
             <speaker>lycaste et ménandre</speaker>
-            <l>Quelle faiblesse !</l>
+            <l n="81" xml:id="l81">Quelle faiblesse !</l>
           </sp>
-          <sp who="tircis" xml:id="iii03-17">
+          <sp who="tircis" xml:id="IIb03-17">
             <speaker>tircis</speaker>
-            <l>Quel martyre !</l>
+            <l n="82" xml:id="l82">Quel martyre !</l>
           </sp>
-          <sp who="lycaste" xml:id="iii03-18">
+          <sp who="lycaste" xml:id="IIb03-18">
             <speaker>lycaste, et ménandre</speaker>
-            <l>Il faut prendre courage.</l>
+            <l n="83" xml:id="l83">Il faut prendre courage.</l>
           </sp>
-          <sp who="tircis" xml:id="iii03-19">
+          <sp who="tircis" xml:id="IIb03-19">
             <speaker>tircis</speaker>
-            <l>Il faut plutôt mourir.</l>
+            <l n="84" xml:id="l84">Il faut plutôt mourir.</l>
           </sp>
-          <sp who="lycaste" xml:id="iii03-20">
+          <sp who="lycaste" xml:id="IIb03-20">
             <speaker>lycaste</speaker>
-            <l>Il n’est point de Bergère</l>
-            <l>Si froide, et si sévère,</l>
-            <l>Dont la pressante ardeur</l>
-            <l>D’un cœur qui persévère</l>
-            <l>Ne vainque la froideur.</l>
+            <l n="85" xml:id="l85">Il n’est point de Bergère</l>
+            <l n="86" xml:id="l86">Si froide, et si sévère,</l>
+            <l n="87" xml:id="l87">Dont la pressante ardeur</l>
+            <l n="88" xml:id="l88">D’un cœur qui persévère</l>
+            <l n="89" xml:id="l89">Ne vainque la froideur.</l>
           </sp>
-          <sp who="menandre" xml:id="iii03-21">
+          <sp who="menandre" xml:id="IIb03-21">
             <speaker>ménandre</speaker>
-            <l>Il est, dans les affaires</l>
-            <l>Des amoureux mystères,</l>
-            <l>Certains petits moments</l>
-            <l>Qui changent les plus fières,</l>
-            <l>Et font d’heureux Amants.</l>
+            <l n="90" xml:id="l90">Il est, dans les affaires</l>
+            <l n="91" xml:id="l91">Des amoureux mystères,</l>
+            <l n="92" xml:id="l92">Certains petits moments</l>
+            <l n="93" xml:id="l93">Qui changent les plus fières,</l>
+            <l n="94" xml:id="l94">Et font d’heureux Amants.</l>
           </sp>
-          <sp who="tircis" xml:id="iii03-22">
+          <sp who="tircis" xml:id="IIb03-22">
             <speaker>tircis</speaker>
-            <l>Je la vois, la cruelle,</l>
-            <l>Qui porte ici ses pas,</l>
-            <l>Gardons d’être vu d’elle,</l>
-            <l>L’Ingrate, hélas !</l>
-            <l>N’y viendrait pas.</l>
+            <l n="95" xml:id="l95">Je la vois, la cruelle,</l>
+            <l n="96" xml:id="l96">Qui porte ici ses pas,</l>
+            <l n="97" xml:id="l97">Gardons d’être vu d’elle,</l>
+            <l n="98" xml:id="l98">L’Ingrate, hélas !</l>
+            <l n="99" xml:id="l99">N’y viendrait pas.</l>
           </sp>
         </div2>
-        <div2 xml:id="iii04" type="scene">
+        <div2 xml:id="IIb04" type="scene">
           <head>Scène TROISIÈME</head>
-          <sp who="caliste" xml:id="iii04-1">
+          <sp who="caliste" xml:id="IIb04-1">
             <speaker>caliste</speaker>
             <lg>
-              <l>Ah que sur notre cœur</l>
-              <l>La sévère Loi de l’honneur</l>
-              <l>Prend un cruel empire !</l>
-              <l>Je ne fais voir que rigueurs pour Tircis,</l>
-              <l>Et cependant, sensible à ses cuisants soucis,</l>
-              <l>De sa langueur en secret je soupire,</l>
-              <l>Et voudrais bien soulager son martyre,</l>
-              <l>C’est à vous seuls que je le dis,</l>
-              <l>Arbres, n’allez pas le redire.</l>
-              <l>Puisque le Ciel a voulu nous former</l>
-              <l>Avec un cœur qu’Amour peut enflammer,</l>
-              <l>Quelle rigueur impitoyable</l>
-              <l>Contre des traits si doux nous force à nous armer,</l>
-              <l>Et pourquoi sans être blâmable</l>
-              <l>Ne peut-on pas aimer</l>
-              <l>Ce que l’on trouve aimable ?</l>
+              <l n="100" xml:id="l100">Ah que sur notre cœur</l>
+              <l n="101" xml:id="l101">La sévère Loi de l’honneur</l>
+              <l n="102" xml:id="l102">Prend un cruel empire !</l>
+              <l n="103" xml:id="l103">Je ne fais voir que rigueurs pour Tircis,</l>
+              <l n="104" xml:id="l104">Et cependant, sensible à ses cuisants soucis,</l>
+              <l n="105" xml:id="l105">De sa langueur en secret je soupire,</l>
+              <l n="106" xml:id="l106">Et voudrais bien soulager son martyre,</l>
+              <l n="107" xml:id="l107">C’est à vous seuls que je le dis,</l>
+              <l n="108" xml:id="l108">Arbres, n’allez pas le redire.</l>
+              <l n="109" xml:id="l109">Puisque le Ciel a voulu nous former</l>
+              <l n="110" xml:id="l110">Avec un cœur qu’Amour peut enflammer,</l>
+              <l n="111" xml:id="l111">Quelle rigueur impitoyable</l>
+              <l n="112" xml:id="l112">Contre des traits si doux nous force à nous armer,</l>
+              <l n="113" xml:id="l113">Et pourquoi sans être blâmable</l>
+              <l n="114" xml:id="l114">Ne peut-on pas aimer</l>
+              <l n="115" xml:id="l115">Ce que l’on trouve aimable ?</l>
             </lg>
             <lg>
-              <l>Hélas ! que vous êtes heureux</l>
-              <l>Innocents Animaux, de vivre sans contrainte,</l>
-              <l>Et de pouvoir suivre sans crainte</l>
-              <l>Les doux emportements de vos cœurs amoureux :</l>
-              <l>Hélas ! petits oiseaux que vous êtes heureux</l>
-              <l>De ne sentir nulle contrainte,</l>
-              <l>Et de pouvoir suivre sans crainte</l>
-              <l>Les doux emportements de vos cœurs amoureux.</l>
-              <l>Mais le sommeil sur ma paupière</l>
-              <l>Verse de ses Pavots l’agréable fraîcheur,</l>
-              <l>Donnons-nous à lui toute entière,</l>
-              <l>Nous n’avons point de Loi sévère</l>
-              <l>Qui défende à nos sens d’en goûter la douceur.</l>
+              <l n="116" xml:id="l116">Hélas ! que vous êtes heureux</l>
+              <l n="117" xml:id="l117">Innocents Animaux, de vivre sans contrainte,</l>
+              <l n="118" xml:id="l118">Et de pouvoir suivre sans crainte</l>
+              <l n="119" xml:id="l119">Les doux emportements de vos cœurs amoureux :</l>
+              <l n="120" xml:id="l120">Hélas ! petits oiseaux que vous êtes heureux</l>
+              <l n="121" xml:id="l121">De ne sentir nulle contrainte,</l>
+              <l n="122" xml:id="l122">Et de pouvoir suivre sans crainte</l>
+              <l n="123" xml:id="l123">Les doux emportements de vos cœurs amoureux.</l>
+              <l n="124" xml:id="l124">Mais le sommeil sur ma paupière</l>
+              <l n="125" xml:id="l125">Verse de ses Pavots l’agréable fraîcheur,</l>
+              <l n="126" xml:id="l126">Donnons-nous à lui toute entière,</l>
+              <l n="127" xml:id="l127">Nous n’avons point de Loi sévère</l>
+              <l n="128" xml:id="l128">Qui défende à nos sens d’en goûter la douceur.</l>
             </lg>
           </sp>
         </div2>
-        <div2 xml:id="iii05" type="scene">
+        <div2 xml:id="IIb05" type="scene">
           <head>Scène QUATRIÈME</head>
           <stage>Caliste, Tircis, Lycaste, Ménandre.</stage>
-          <sp who="tircis" xml:id="iii05-1">
+          <sp who="tircis" xml:id="IIb05-1">
             <speaker>tircis</speaker>
-            <l>Vers ma belle ennemie</l>
-            <l>Portons sans bruit nos pas,</l>
-            <l>Et ne réveillons pas</l>
-            <l>Sa rigueur endormie.</l>
+            <l n="129" xml:id="l129">Vers ma belle ennemie</l>
+            <l n="130" xml:id="l130">Portons sans bruit nos pas,</l>
+            <l n="131" xml:id="l131">Et ne réveillons pas</l>
+            <l n="132" xml:id="l132">Sa rigueur endormie.</l>
           </sp>
-          <sp who="caliste lycaste menandre" xml:id="iii05-2">
+          <sp who="caliste lycaste menandre" xml:id="IIb05-2">
             <speaker>tous trois</speaker>
-            <l>Dormez, dormez beaux yeux, adorables vainqueurs,</l>
-            <l>Et goûtez le repos que vous ôtez aux cœurs,</l>
-            <l>Dormez, dormez beaux yeux.</l>
+            <l n="133" xml:id="l133">Dormez, dormez beaux yeux, adorables vainqueurs,</l>
+            <l n="134" xml:id="l134">Et goûtez le repos que vous ôtez aux cœurs,</l>
+            <l n="135" xml:id="l135">Dormez, dormez beaux yeux.</l>
           </sp>
-          <sp who="tircis" xml:id="iii05-3">
+          <sp who="tircis" xml:id="IIb05-3">
             <speaker>tircis</speaker>
-            <l>Silence, petits oiseaux,</l>
-            <l>Vents n’agitez nulle chose,</l>
-            <l>Coulez doucement ruisseaux,</l>
-            <l>C’est Caliste qui repose.</l>
+            <l n="136" xml:id="l136">Silence, petits oiseaux,</l>
+            <l n="137" xml:id="l137">Vents n’agitez nulle chose,</l>
+            <l n="138" xml:id="l138">Coulez doucement ruisseaux,</l>
+            <l n="139" xml:id="l139">C’est Caliste qui repose.</l>
           </sp>
-          <sp who="caliste lycaste menandre" xml:id="iii05-4">
+          <sp who="caliste lycaste menandre" xml:id="IIb05-4">
             <speaker>tous trois</speaker>
-            <l>Dormez, dormez beaux yeux, adorables vainqueurs,</l>
-            <l>Et goûtez le repos que vous ôtez aux cœurs,</l>
-            <l>Dormez, dormez beaux yeux.</l>
+            <l n="140" xml:id="l140">Dormez, dormez beaux yeux, adorables vainqueurs,</l>
+            <l n="141" xml:id="l141">Et goûtez le repos que vous ôtez aux cœurs,</l>
+            <l n="142" xml:id="l142">Dormez, dormez beaux yeux.</l>
           </sp>
-          <sp who="caliste" xml:id="iii05-5">
+          <sp who="caliste" xml:id="IIb05-5">
             <speaker>caliste</speaker>
-            <l>Ah quelle peine extrême !</l>
-            <l>Suivre partout mes pas !</l>
+            <l n="143" xml:id="l143">Ah quelle peine extrême !</l>
+            <l n="144" xml:id="l144">Suivre partout mes pas !</l>
           </sp>
-          <sp who="tircis" xml:id="iii05-6">
+          <sp who="tircis" xml:id="IIb05-6">
             <speaker>tircis</speaker>
-            <l>Que voulez-vous qu’on suive, hélas !</l>
-            <l>Que ce qu’on aime ?</l>
+            <l n="145" xml:id="l145">Que voulez-vous qu’on suive, hélas !</l>
+            <l n="146" xml:id="l146">Que ce qu’on aime ?</l>
           </sp>
-          <sp who="caliste" xml:id="iii05-7">
+          <sp who="caliste" xml:id="IIb05-7">
             <speaker>caliste</speaker>
-            <l>Berger que voulez-vous ?</l>
+            <l n="147" xml:id="l147">Berger que voulez-vous ?</l>
           </sp>
-          <sp who="tircis" xml:id="iii05-8">
+          <sp who="tircis" xml:id="IIb05-8">
             <speaker>tircis</speaker>
-            <l>Mourir, belle Bergère,</l>
-            <l>Mourir à vos genoux,</l>
-            <l>Et finir ma misère,</l>
-            <l>Puisqu’en vain à vos pieds on me voit soupirer,</l>
-            <l>Il y faut expirer.</l>
+            <l n="148" xml:id="l148">Mourir, belle Bergère,</l>
+            <l n="149" xml:id="l149">Mourir à vos genoux,</l>
+            <l n="150" xml:id="l150">Et finir ma misère,</l>
+            <l n="151" xml:id="l151">Puisqu’en vain à vos pieds on me voit soupirer,</l>
+            <l n="152" xml:id="l152">Il y faut expirer.</l>
           </sp>
-          <sp who="caliste" xml:id="iii05-9">
+          <sp who="caliste" xml:id="IIb05-9">
             <speaker>caliste</speaker>
-            <l>Ah Tircis, ôtez-vous, j’ai peur que dans ce jour</l>
-            <l>La pitié dans mon cœur n’introduise l’amour.</l>
+            <l n="153" xml:id="l153">Ah Tircis, ôtez-vous, j’ai peur que dans ce jour</l>
+            <l n="154" xml:id="l154">La pitié dans mon cœur n’introduise l’amour.</l>
           </sp>
-          <sp who="lycaste" xml:id="iii05-10">
+          <sp who="lycaste" xml:id="IIb05-10">
             <speaker>lycaste, et ménandre, <hi rend="i">l’un après l’autre</hi></speaker>
-            <l>Soit amour, soit pitié,</l>
-            <l>Il sied bien d’être tendre ;</l>
-            <l>C’est par trop vous défendre</l>
-            <l>Bergère, il faut se rendre</l>
-            <l>À sa longue amitié,</l>
-            <l>Soit amour, soit pitié,</l>
-            <l>Il sied bien d’être tendre.</l>
+            <l n="155" xml:id="l155">Soit amour, soit pitié,</l>
+            <l n="156" xml:id="l156">Il sied bien d’être tendre ;</l>
+            <l n="157" xml:id="l157">C’est par trop vous défendre</l>
+            <l n="158" xml:id="l158">Bergère, il faut se rendre</l>
+            <l n="159" xml:id="l159">À sa longue amitié,</l>
+            <l n="160" xml:id="l160">Soit amour, soit pitié,</l>
+            <l n="161" xml:id="l161">Il sied bien d’être tendre.</l>
           </sp>
-          <sp who="caliste" xml:id="iii05-11">
+          <sp who="caliste" xml:id="IIb05-11">
             <speaker>caliste</speaker>
-            <l>C’est trop, c’est trop de rigueur,</l>
-            <l>J’ai maltraité votre ardeur</l>
-            <l>Chérissant votre personne,</l>
-            <l>Vengez-vous de mon cœur</l>
-            <l>Tircis, je vous le donne.</l>
+            <l n="162" xml:id="l162">C’est trop, c’est trop de rigueur,</l>
+            <l n="163" xml:id="l163">J’ai maltraité votre ardeur</l>
+            <l n="164" xml:id="l164">Chérissant votre personne,</l>
+            <l n="165" xml:id="l165">Vengez-vous de mon cœur</l>
+            <l n="166" xml:id="l166">Tircis, je vous le donne.</l>
           </sp>
-          <sp who="tircis" xml:id="iii05-12">
+          <sp who="tircis" xml:id="IIb05-12">
             <speaker>tircis</speaker>
-            <l>Ô Ciel ! Bergers !</l>
-            <l>Caliste ! ah je suis hors de moi !</l>
-            <l>Si l’on meurt de plaisir je dois perdre la vie.</l>
+            <l n="167" xml:id="l167">Ô Ciel ! Bergers !</l>
+            <l n="168" xml:id="l168">Caliste ! ah je suis hors de moi !</l>
+            <l n="169" xml:id="l169">Si l’on meurt de plaisir je dois perdre la vie.</l>
           </sp>
-          <sp who="lycaste" xml:id="iii05-13">
+          <sp who="lycaste" xml:id="IIb05-13">
             <speaker>lycaste</speaker>
-            <l>Digne prix de ta foi.</l>
+            <l n="170" xml:id="l170">Digne prix de ta foi.</l>
           </sp>
-          <sp who="menandre" xml:id="iii05-14">
+          <sp who="menandre" xml:id="IIb05-14">
             <speaker>ménandre</speaker>
-            <l>Ô sort digne d’envie !</l>
+            <l n="171" xml:id="l171">Ô sort digne d’envie !</l>
           </sp>
         </div2>
-        <div2 xml:id="iii06" type="scene">
+        <div2 xml:id="IIb06" type="scene">
           <head>Scène CINQUIÈME</head>
           <stage> Deux Satyres, Tircis, Lycaste, Caliste.</stage>
-          <sp who="satyre1" xml:id="iii06-1">
+          <sp who="satyre1" xml:id="IIb06-1">
             <speaker>premier satyre</speaker>
-            <l>Quoi tu me fuis, ingrate, et je te vois ici</l>
-            <l>De ce Berger à moi faire une préférence ?</l>
+            <l n="172" xml:id="l172">Quoi tu me fuis, ingrate, et je te vois ici</l>
+            <l n="173" xml:id="l173">De ce Berger à moi faire une préférence ?</l>
           </sp>
-          <sp who="satyre2" xml:id="iii06-2">
+          <sp who="satyre2" xml:id="IIb06-2">
             <speaker>deuxième satyre</speaker>
-            <l>Quoi mes soins n’ont rien pu sur ton indifférence,</l>
-            <l>Et pour ce langoureux ton cœur s’est adouci ?</l>
+            <l n="174" xml:id="l174">Quoi mes soins n’ont rien pu sur ton indifférence,</l>
+            <l n="175" xml:id="l175">Et pour ce langoureux ton cœur s’est adouci ?</l>
           </sp>
-          <sp who="caliste" xml:id="iii06-3">
+          <sp who="caliste" xml:id="IIb06-3">
             <speaker>caliste</speaker>
-            <l>Le destin le veut ainsi,</l>
-            <l>Prenez tous deux patience.</l>
+            <l n="176" xml:id="l176">Le destin le veut ainsi,</l>
+            <l n="177" xml:id="l177">Prenez tous deux patience.</l>
           </sp>
-          <sp who="satyre1" xml:id="iii06-4">
+          <sp who="satyre1" xml:id="IIb06-4">
             <speaker>premier satyre</speaker>
-            <l>Aux amants qu’on pousse à bout</l>
-            <l>L’amour fait verser des larmes :</l>
-            <l>Mais ce n’est pas notre goût,</l>
-            <l>Et la bouteille a des charmes</l>
-            <l>Qui nous consolent de tout.</l>
+            <l n="178" xml:id="l178">Aux amants qu’on pousse à bout</l>
+            <l n="179" xml:id="l179">L’amour fait verser des larmes :</l>
+            <l n="180" xml:id="l180">Mais ce n’est pas notre goût,</l>
+            <l n="181" xml:id="l181">Et la bouteille a des charmes</l>
+            <l n="182" xml:id="l182">Qui nous consolent de tout.</l>
           </sp>
-          <sp who="satyre2" xml:id="iii06-5">
+          <sp who="satyre2" xml:id="IIb06-5">
             <speaker>deuxième satyre</speaker>
-            <l>Notre amour n’a pas toujours</l>
-            <l>Tout le bonheur qu’il désire :</l>
-            <l>Mais nous avons un secours,</l>
-            <l>Et le bon vin nous fait rire</l>
-            <l>Quand on rit de nos amours.</l>
+            <l n="183" xml:id="l183">Notre amour n’a pas toujours</l>
+            <l n="184" xml:id="l184">Tout le bonheur qu’il désire :</l>
+            <l n="185" xml:id="l185">Mais nous avons un secours,</l>
+            <l n="186" xml:id="l186">Et le bon vin nous fait rire</l>
+            <l n="187" xml:id="l187">Quand on rit de nos amours.</l>
           </sp>
-          <sp who="satyre1 satyre2 tircis lycaste caliste" xml:id="iii06-6">
+          <sp who="satyre1 satyre2 tircis lycaste caliste" xml:id="IIb06-6">
             <speaker>tous</speaker>
-            <l>Champêtres Divinités,</l>
-            <l>Faunes, Dryades, sortez</l>
-            <l>De vos paisibles retraites ;</l>
-            <l>Mêlez vos pas à nos sons,</l>
-            <l>Et tracez sur les herbettes</l>
-            <l>L’image de nos chansons.</l>
+            <l n="188" xml:id="l188">Champêtres Divinités,</l>
+            <l n="189" xml:id="l189">Faunes, Dryades, sortez</l>
+            <l n="190" xml:id="l190">De vos paisibles retraites ;</l>
+            <l n="191" xml:id="l191">Mêlez vos pas à nos sons,</l>
+            <l n="192" xml:id="l192">Et tracez sur les herbettes</l>
+            <l n="193" xml:id="l193">L’image de nos chansons.</l>
           </sp>
           <label rend="b">PREMIÈRE ENTRÉE DE BALLET.</label>
           <stage>En même temps six Dryades et six Faunes sortent de leurs demeures, et font ensemble une danse agréable, qui s’ouvrant tout d’un coup, laisse voir un Berger et une Bergère, qui font en Musique une petite Scène d’un dépit amoureux.</stage>
         </div2>
-        <div2 xml:id="iii07" type="scene">
+        <div2 xml:id="IIb07" type="scene">
           <head>DÉPIT AMOUREUX</head>
           <stage>Climène, Philinte.</stage>
-          <sp who="philinte" xml:id="iii07-1">
+          <sp who="philinte" xml:id="IIb07-1">
             <speaker>philinte</speaker>
-            <l>Quand je plaisais à tes yeux</l>
-            <l>J’étais content de ma vie,</l>
-            <l>Et ne voyais Roi ni Dieux</l>
-            <l>Dont le sort me fît envie.</l>
+            <l n="194" xml:id="l194">Quand je plaisais à tes yeux</l>
+            <l n="195" xml:id="l195">J’étais content de ma vie,</l>
+            <l n="196" xml:id="l196">Et ne voyais Roi ni Dieux</l>
+            <l n="197" xml:id="l197">Dont le sort me fît envie.</l>
           </sp>
-          <sp who="climene" xml:id="iii07-2">
+          <sp who="climene" xml:id="IIb07-2">
             <speaker>climène</speaker>
-            <l>Lorsqu’à toute autre personne</l>
-            <l>Me préférait ton ardeur,</l>
-            <l>J’aurais quitté la Couronne</l>
-            <l>Pour régner dessus ton cœur.</l>
+            <l n="198" xml:id="l198">Lorsqu’à toute autre personne</l>
+            <l n="199" xml:id="l199">Me préférait ton ardeur,</l>
+            <l n="200" xml:id="l200">J’aurais quitté la Couronne</l>
+            <l n="201" xml:id="l201">Pour régner dessus ton cœur.</l>
           </sp>
-          <sp who="philinte" xml:id="iii07-3">
+          <sp who="philinte" xml:id="IIb07-3">
             <speaker>philinte</speaker>
-            <l>Une autre a guéri mon âme</l>
-            <l>Des feux que j’avais pour toi.</l>
+            <l n="202" xml:id="l202">Une autre a guéri mon âme</l>
+            <l n="203" xml:id="l203">Des feux que j’avais pour toi.</l>
           </sp>
-          <sp who="climene" xml:id="iii07-4">
+          <sp who="climene" xml:id="IIb07-4">
             <speaker>climène</speaker>
-            <l>Un autre a vengé ma flamme</l>
-            <l>Des faiblesses de ta foi.</l>
+            <l n="204" xml:id="l204">Un autre a vengé ma flamme</l>
+            <l n="205" xml:id="l205">Des faiblesses de ta foi.</l>
           </sp>
-          <sp who="philinte" xml:id="iii07-5">
+          <sp who="philinte" xml:id="IIb07-5">
             <speaker>philinte</speaker>
-            <l>Cloris qu’on vante si fort,</l>
-            <l>M’aime d’une ardeur fidèle,</l>
-            <l>Si ses yeux voulaient ma mort</l>
-            <l>Je mourrais content pour elle.</l>
+            <l n="206" xml:id="l206">Cloris qu’on vante si fort,</l>
+            <l n="207" xml:id="l207">M’aime d’une ardeur fidèle,</l>
+            <l n="208" xml:id="l208">Si ses yeux voulaient ma mort</l>
+            <l n="209" xml:id="l209">Je mourrais content pour elle.</l>
           </sp>
-          <sp who="climene" xml:id="iii07-6">
+          <sp who="climene" xml:id="IIb07-6">
             <speaker>climène</speaker>
-            <l>Myrtil si digne d’envie,</l>
-            <l>Me chérit plus que le jour,</l>
-            <l>Et moi je perdrais la vie</l>
-            <l>Pour lui montrer mon amour.</l>
+            <l n="210" xml:id="l210">Myrtil si digne d’envie,</l>
+            <l n="211" xml:id="l211">Me chérit plus que le jour,</l>
+            <l n="212" xml:id="l212">Et moi je perdrais la vie</l>
+            <l n="213" xml:id="l213">Pour lui montrer mon amour.</l>
           </sp>
-          <sp who="philinte" xml:id="iii07-7">
+          <sp who="philinte" xml:id="IIb07-7">
             <speaker>philinte</speaker>
-            <l>Mais si d’une douce ardeur</l>
-            <l>Quelque renaissante trace</l>
-            <l>Chassait Cloris de mon cœur</l>
-            <l>Pour te remettre en sa place...</l>
+            <l n="214" xml:id="l214">Mais si d’une douce ardeur</l>
+            <l n="215" xml:id="l215">Quelque renaissante trace</l>
+            <l n="216" xml:id="l216">Chassait Cloris de mon cœur</l>
+            <l n="217" xml:id="l217">Pour te remettre en sa place...</l>
           </sp>
-          <sp who="climene" xml:id="iii07-8">
+          <sp who="climene" xml:id="IIb07-8">
             <speaker>climène</speaker>
-            <l>Bien qu’avec pleine tendresse</l>
-            <l>Myrtil me puisse chérir,</l>
-            <l>Avec toi, je le confesse,</l>
-            <l>Je voudrais vivre et mourir.</l>
+            <l n="218" xml:id="l218">Bien qu’avec pleine tendresse</l>
+            <l n="219" xml:id="l219">Myrtil me puisse chérir,</l>
+            <l n="220" xml:id="l220">Avec toi, je le confesse,</l>
+            <l n="221" xml:id="l221">Je voudrais vivre et mourir.</l>
           </sp>
-          <sp who="tous-deux" xml:id="iii07-9">
+          <sp who="tous-deux" xml:id="IIb07-9">
             <speaker>tous deux ensemble</speaker>
-            <l>Ah plus que jamais aimons-nous,</l>
-            <l>Et vivons et mourons en des liens si doux.</l>
+            <l n="222" xml:id="l222">Ah plus que jamais aimons-nous,</l>
+            <l n="223" xml:id="l223">Et vivons et mourons en des liens si doux.</l>
           </sp>
-          <sp who="tous-deux" xml:id="iii07-10">
+          <sp who="tous-deux" xml:id="IIb07-10">
             <speaker>tous les acteurs</speaker>
             <stage>De la Comédie chantent.</stage>
-            <l>Amants, que vos querelles</l>
-            <l>Sont aimables et belles,</l>
-            <l>Qu’on y voit succéder</l>
-            <l>De plaisirs, de tendresse,</l>
-            <l>Querellez-vous sans cesse</l>
-            <l>Pour vous raccommoder !</l>
-            <l>Amants, que vos querelles</l>
-            <l>Sont aimables et belles, etc.</l>
+            <l n="224" xml:id="l224">Amants, que vos querelles</l>
+            <l n="225" xml:id="l225">Sont aimables et belles,</l>
+            <l n="226" xml:id="l226">Qu’on y voit succéder</l>
+            <l n="227" xml:id="l227">De plaisirs, de tendresse,</l>
+            <l n="228" xml:id="l228">Querellez-vous sans cesse</l>
+            <l n="229" xml:id="l229">Pour vous raccommoder !</l>
+            <l n="230" xml:id="l230">Amants, que vos querelles</l>
+            <l n="231" xml:id="l231">Sont aimables et belles, etc.</l>
           </sp>
           <label rend="b">DEUXIÈME ENTRÉE DE BALLET</label>
           <stage>Les Faunes et les Dryades recommencent leur danse, que les Bergères et Bergers Musiciens entremêlent de leurs Chansons, tandis que trois petites Dryades, et trois petits Faunes, font paraître dans l’enfoncement du Théâtre tout ce qui se passe sur le devant.</stage>
-          <sp who="bergers" xml:id="iii07-11">
+          <sp who="bergers" xml:id="IIb07-11">
             <speaker>les bergers, et bergères</speaker>
-            <l>Jouissons, jouissons des plaisirs innocents</l>
-            <l>Dont les feux de l’Amour savent charmer nos sens,</l>
-            <l>Des grandeurs, qui voudra se soucie,</l>
-            <l>Tous ces honneurs dont on a tant d’envie,</l>
-            <l>Ont des chagrins qui sont vieillissants :</l>
-            <l>Jouissons, jouissons des plaisirs innocents</l>
-            <l>Dont les feux de l’Amour savent charmer nos sens.</l>
-            <l>En aimant tout nous plaît dans la vie,</l>
-            <l>Deux cœurs unis de leur sort sont contents,</l>
-            <l>Cette ardeur de plaisirs suivie,</l>
-            <l>De tous nos jours fait d’éternels printemps :</l>
-            <l>Jouissons, jouissons des plaisirs innocents</l>
-            <l>Dont les feux de l’Amour savent charmer nos sens.</l>
+            <l n="232" xml:id="l232">Jouissons, jouissons des plaisirs innocents</l>
+            <l n="233" xml:id="l233">Dont les feux de l’Amour savent charmer nos sens,</l>
+            <l n="234" xml:id="l234">Des grandeurs, qui voudra se soucie,</l>
+            <l n="235" xml:id="l235">Tous ces honneurs dont on a tant d’envie,</l>
+            <l n="236" xml:id="l236">Ont des chagrins qui sont vieillissants :</l>
+            <l n="237" xml:id="l237">Jouissons, jouissons des plaisirs innocents</l>
+            <l n="238" xml:id="l238">Dont les feux de l’Amour savent charmer nos sens.</l>
+            <l n="239" xml:id="l239">En aimant tout nous plaît dans la vie,</l>
+            <l n="240" xml:id="l240">Deux cœurs unis de leur sort sont contents,</l>
+            <l n="241" xml:id="l241">Cette ardeur de plaisirs suivie,</l>
+            <l n="242" xml:id="l242">De tous nos jours fait d’éternels printemps :</l>
+            <l n="243" xml:id="l243">Jouissons, jouissons des plaisirs innocents</l>
+            <l n="244" xml:id="l244">Dont les feux de l’Amour savent charmer nos sens.</l>
           </sp>
         </div2>
       </div1>
@@ -1680,7 +1679,7 @@
           <label rend="i">Fin du troisième Acte.</label>
         </div2>
       </div1>
-      <div1 xml:id="iv" rend="not-i" type="interlude">
+      <div1 xml:id="IIIb" rend="not-i" type="interlude">
         <head>Quatrième intermède</head>
         <stage>Le Théâtre représente une grotte, où les Princesses vont se promener, et dans le temps qu’elles y entrent, huit Statues portant chacune deux flambeaux à leurs mains, sortent de leurs Niches, et font une danse variée de plusieurs Figures, et de plusieurs belles attitudes, où elles demeurent par intervalles.</stage>
         <label rend="b">ENTRÉE DE BALLET</label>
@@ -1725,16 +1724,16 @@
           <stage>Vénus accompagnée de quatre petits Amours dans une machine, Aristione, Ériphile.</stage>
           <sp who="venus" xml:id="IV02-1">
             <speaker>vénus</speaker>
-            <l>Princesse dans tes soins brille un zèle exemplaire,</l>
-            <l>Qui par les Immortels doit être Couronné,</l>
-            <l>Et pour te voir un gendre, illustre et fortuné,</l>
-            <l>Leur main te veut marquer le choix que tu dois faire ;</l>
-            <l>Ils t’annoncent tous par ma voix,</l>
-            <l>La gloire et les grandeurs, que par ce digne choix,</l>
-            <l>Ils feront pour jamais entrer dans ta famille,</l>
-            <l>De tes difficultés termine donc le cours ;</l>
-            <l>Et pense à donner ta Fille</l>
-            <l>À qui sauvera tes jours.</l>
+            <l n="245" xml:id="l245">Princesse dans tes soins brille un zèle exemplaire,</l>
+            <l n="246" xml:id="l246">Qui par les Immortels doit être Couronné,</l>
+            <l n="247" xml:id="l247">Et pour te voir un gendre, illustre et fortuné,</l>
+            <l n="248" xml:id="l248">Leur main te veut marquer le choix que tu dois faire ;</l>
+            <l n="249" xml:id="l249">Ils t’annoncent tous par ma voix,</l>
+            <l n="250" xml:id="l250">La gloire et les grandeurs, que par ce digne choix,</l>
+            <l n="251" xml:id="l251">Ils feront pour jamais entrer dans ta famille,</l>
+            <l n="252" xml:id="l252">De tes difficultés termine donc le cours ;</l>
+            <l n="253" xml:id="l253">Et pense à donner ta Fille</l>
+            <l n="254" xml:id="l254">À qui sauvera tes jours.</l>
           </sp>
           <sp who="aristione" xml:id="IV02-2">
             <speaker>aristione</speaker>
@@ -1814,7 +1813,7 @@
           </sp>
         </div2>
       </div1>
-      <div1 xml:id="v" rend="not-i" type="interlude">
+      <div1 xml:id="IVb" rend="not-i" type="interlude">
         <head>Cinquième intermède</head>
         <stage>Quatre Pantomimes, pour épreuve de leur adresse, ajustent leurs gestes et leurs pas aux inquiétudes de la jeune Princesse Ériphile.</stage>
         <label rend="b">ENTRÉE DE BALLET</label>
@@ -1995,7 +1994,7 @@
           </sp>
         </div2>
       </div1>
-      <div1 xml:id="vi" rend="not-i" type="interlude">
+      <div1 xml:id="Vb" rend="not-i" type="inetrmede">
         <head>Sixième intermède <lb/>qui est la solennité des jeux Pythiens.</head>
         <stage>Le Théâtre est une grande Salle en manière d’Amphithéâtre, ouvert d’une grande arcade, dans le fond, au-dessus de laquelle est une Tribune fermée d’un rideau ; et dans l’éloignement paraît un Autel pour le Sacrifice. Six hommes, habillés comme s’ils étaient presque nus, portant chacun une hache sur l’épaule, comme Ministres du Sacrifice, entrent par le portique, au son des Violons, et sont suivis de deux Sacrificateurs Musiciens, d’une Prêtresse Musicienne, et leur suite.</stage>
         <castList>
@@ -2004,35 +2003,35 @@
           <castItem><role xml:id="choeur">Le chœur</role>.</castItem>
           <castItem><role xml:id="apollon">Apollon</role>.</castItem>
         </castList>
-        <sp who="pretresse" xml:id="XI-1">
+        <sp who="pretresse" xml:id="Vb-1">
           <speaker>la prêtresse</speaker>
-          <l>Chantez, peuples, chantez, en mille et mille lieux</l>
-          <l>Du Dieu que nous servons les brillantes merveilles,</l>
-          <l>Parcourez la terre et les cieux,</l>
-          <l>Vous ne sauriez chanter rien de plus précieux,</l>
-          <l>Rien de plus doux pour les oreilles.</l>
+          <l n="255" xml:id="l255">Chantez, peuples, chantez, en mille et mille lieux</l>
+          <l n="256" xml:id="l256">Du Dieu que nous servons les brillantes merveilles,</l>
+          <l n="257" xml:id="l257">Parcourez la terre et les cieux,</l>
+          <l n="258" xml:id="l258">Vous ne sauriez chanter rien de plus précieux,</l>
+          <l n="259" xml:id="l259">Rien de plus doux pour les oreilles.</l>
         </sp>
-        <sp who="grecque1" xml:id="XI-2">
+        <sp who="grecque1" xml:id="Vb-2">
           <speaker>une grecque</speaker>
-          <l>À ce Dieu plein de force, à ce Dieu plein d’appas,</l>
-          <l>Il n’est rien qui résiste.</l>
+          <l n="260" xml:id="l260">À ce Dieu plein de force, à ce Dieu plein d’appas,</l>
+          <l n="261" xml:id="l261">Il n’est rien qui résiste.</l>
         </sp>
-        <sp who="grecque2" xml:id="XI-3">
+        <sp who="grecque2" xml:id="Vb-3">
           <speaker>autre grecque</speaker>
-          <l>Il n’est rien ici-bas</l>
-          <l>Qui par ses bienfaits ne subsiste.</l>
+          <l n="262" xml:id="l262">Il n’est rien ici-bas</l>
+          <l n="263" xml:id="l263">Qui par ses bienfaits ne subsiste.</l>
         </sp>
-        <sp who="grecque3" xml:id="XI-4">
+        <sp who="grecque3" xml:id="Vb-4">
           <speaker>autre grecque</speaker>
-          <l>Toute la terre est triste</l>
-          <l>Quand on ne le voit pas.</l>
+          <l n="264" xml:id="l264">Toute la terre est triste</l>
+          <l n="265" xml:id="l265">Quand on ne le voit pas.</l>
         </sp>
-        <sp who="choeur" xml:id="XI-5">
+        <sp who="choeur" xml:id="Vb-5">
           <speaker>le chœur</speaker>
-          <l>Poussons à sa Mémoire</l>
-          <l>Des concerts si touchants,</l>
-          <l>Que du haut de sa gloire</l>
-          <l>Il écoute nos chants.</l>
+          <l n="266" xml:id="l266">Poussons à sa Mémoire</l>
+          <l n="267" xml:id="l267">Des concerts si touchants,</l>
+          <l n="268" xml:id="l268">Que du haut de sa gloire</l>
+          <l n="269" xml:id="l269">Il écoute nos chants.</l>
         </sp>
         <label rend="b">PREMIÈRE ENTRÉE DE BALLET.</label>
         <stage>Les six hommes portant les haches, font entre eux une danse ornée de toutes les attitudes que peuvent exprimer des gens qui étudient leur force, puis ils se retirent aux deux côtés du Théâtre pour faire place à six Voltigeurs.</stage>
@@ -2042,58 +2041,58 @@
         <stage>Quatre Conducteurs d’Esclaves amènent en cadence douze Esclaves qui dansent, en marquant la joie qu’ils ont, d’avoir recouvré leur liberté.</stage>
         <label rend="b">QUATRIÈME ENTRÉE DE BALLET.</label>
         <stage>Quatre hommes, et quatre femmes armés à la Grecque, font ensemble une manière de jeu pour les armes.La Tribune s’ouvre, un Héraut, six Trompettes et un Timbalier se mêlant à tous les instruments, annonce avec un grand bruit la venue d’Apollon.</stage>
-        <sp who="choeur" xml:id="XI-6">
+        <sp who="choeur" xml:id="Vb-6">
           <speaker>le chœur</speaker>
           <lg>
-            <l>Ouvrons tous nos yeux</l>
-            <l>À l’éclat suprême</l>
-            <l>Qui brille en ces lieux.</l>
+            <l n="270" xml:id="l270">Ouvrons tous nos yeux</l>
+            <l n="271" xml:id="l271">À l’éclat suprême</l>
+            <l n="272" xml:id="l272">Qui brille en ces lieux.</l>
           </lg>
           <lg>
-            <l>Quelle grâce extrême !</l>
-            <l>Quel port glorieux !</l>
-            <l>Où voit-on des Dieux</l>
-            <l>Qui soient faits de même ?</l>
+            <l n="273" xml:id="l273">Quelle grâce extrême !</l>
+            <l n="274" xml:id="l274">Quel port glorieux !</l>
+            <l n="275" xml:id="l275">Où voit-on des Dieux</l>
+            <l n="276" xml:id="l276">Qui soient faits de même ?</l>
           </lg>
         </sp>
         <stage>Apollon au bruit des Trompettes et des Violons entre par le Portique, précédé de six jeunes gens, qui portent des Lauriers entrelacés autour d’un bâton, et un Soleil d’or au-dessus avec la devise Royale en manière de trophée. Les six jeunes gens, pour danser avec Apollon, donnent leur trophée à tenir aux six hommes qui portent les haches, et commencent avec Apollon une danse héroïque, à laquelle se joignent en diverses manières les six hommes portant les trophées, les quatre femmes armées avec leurs timbres, et les quatre hommes armés avec leurs tambours, tandis que les six Trompettes, le Timbalier, les Sacrificateurs, la Prêtresse et le Chœur de Musique accompagnent tout cela en s’y mêlant par diverses reprises ; ce qui finit la Fête des jeux Pythiens, et tout le divertissement.</stage>
         <label rend="b">CINQUIÈME et DERNIÈRE ENTRÉE de BALLET.</label>
-        <sp who="apollon" xml:id="XI-7">
+        <sp who="apollon" xml:id="Vb-7">
           <speaker>apollon, et six jeunes gens de sa suite chœur de musique</speaker>
           <stage>Pour <hi rend="sc">le roi</hi>, Représentant le <hi rend="sc">soleil</hi></stage>
           <lg>
-            <l>Je suis la source des Clartés,</l>
-            <l>Et les Astres les plus vantés</l>
-            <l>Dont le beau Cercle m’environne,</l>
-            <l>Ne sont brillants et respectés</l>
-            <l>Que par l’éclat que je leur donne.</l>
+            <l n="277" xml:id="l277">Je suis la source des Clartés,</l>
+            <l n="278" xml:id="l278">Et les Astres les plus vantés</l>
+            <l n="279" xml:id="l279">Dont le beau Cercle m’environne,</l>
+            <l n="280" xml:id="l280">Ne sont brillants et respectés</l>
+            <l n="281" xml:id="l281">Que par l’éclat que je leur donne.</l>
           </lg>
           <lg>
-            <l>Du Char où je me puis asseoir</l>
-            <l>Je vois le désir de me voir</l>
-            <l>Posséder la Nature entière,</l>
-            <l>Et le Monde n’a son espoir</l>
-            <l>Qu’aux seuls bienfaits de ma lumière.</l>
+            <l n="282" xml:id="l282">Du Char où je me puis asseoir</l>
+            <l n="283" xml:id="l283">Je vois le désir de me voir</l>
+            <l n="284" xml:id="l284">Posséder la Nature entière,</l>
+            <l n="285" xml:id="l285">Et le Monde n’a son espoir</l>
+            <l n="286" xml:id="l286">Qu’aux seuls bienfaits de ma lumière.</l>
           </lg>
           <lg>
-            <l>Bienheureuses de toutes parts,</l>
-            <l>Et pleines d’exquises richesses</l>
-            <l>Les Terres, où de mes regards</l>
-            <l>J’arrête les douces caresses.</l>
+            <l n="287" xml:id="l287">Bienheureuses de toutes parts,</l>
+            <l n="288" xml:id="l288">Et pleines d’exquises richesses</l>
+            <l n="289" xml:id="l289">Les Terres, où de mes regards</l>
+            <l n="290" xml:id="l290">J’arrête les douces caresses.</l>
           </lg>
           <stage>POUR <hi rend="sc">m. le grand</hi>, Suivant d’<hi rend="sc">apollon</hi></stage>
-          <l>Bien qu’auprès du Soleil tout autre éclat s’efface,</l>
-          <l>S’en éloigner pourtant n’est pas ce que l’on veut,</l>
-          <l>Et vous voyez bien quoi qu’il fasse</l>
-          <l>Que l’on s’en tient toujours le plus près que l’on peut.</l>
+          <l n="291" xml:id="l291">Bien qu’auprès du Soleil tout autre éclat s’efface,</l>
+          <l n="292" xml:id="l292">S’en éloigner pourtant n’est pas ce que l’on veut,</l>
+          <l n="293" xml:id="l293">Et vous voyez bien quoi qu’il fasse</l>
+          <l n="294" xml:id="l294">Que l’on s’en tient toujours le plus près que l’on peut.</l>
           <stage>POUR <hi rend="sc">le marquis de villeroy</hi>, Suivant d’<hi rend="sc">apollon</hi></stage>
-          <l>De notre Maître incomparable</l>
-          <l>Vous me voyez inséparable,</l>
-          <l>Et le zèle puissant qui m’attache à ses vœux</l>
-          <l>Le suit parmi les eaux, le suit parmi les feux.</l>
+          <l n="295" xml:id="l295">De notre Maître incomparable</l>
+          <l n="296" xml:id="l296">Vous me voyez inséparable,</l>
+          <l n="297" xml:id="l297">Et le zèle puissant qui m’attache à ses vœux</l>
+          <l n="298" xml:id="l298">Le suit parmi les eaux, le suit parmi les feux.</l>
           <stage>POUR <hi rend="sc">le marquis de rassent</hi>,Suivant d’<hi rend="sc">apollon</hi></stage>
-          <l>Je ne serai pas vain quand je ne croirai pas</l>
-          <l>Qu’un autre mieux que moi suive partout ses pas.</l>
+          <l n="299" xml:id="l299">Je ne serai pas vain quand je ne croirai pas</l>
+          <l n="300" xml:id="l300">Qu’un autre mieux que moi suive partout ses pas.</l>
         </sp>
         <label rend="i">Fin</label>
       </div1>

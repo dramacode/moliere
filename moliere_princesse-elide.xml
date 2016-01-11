@@ -28,7 +28,7 @@
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Publié par Paul Fièvre en octobre 2011, révision en 2014 par Amélie Canu et Oriane Morvan</publisher>
+        <publisher>LABEX OBVIL</publisher>
         <date when="2011"/>
         <date when="2014"/>
         <availability status="restricted">
@@ -62,7 +62,7 @@
     <front>
       <titlePage>
         <docTitle>
-          <titlePart type="main">LA PRINCESSE D'ÉLIDE<note>Cette pièce fut représentée pour la première fois lors de la deuxième journée des <ref target="http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_plaisirs-ile-enchantee/">Plaisirs de l’île enchantée</ref>.</note></titlePart>
+          <titlePart type="main">LA PRINCESSE D'ÉLIDE</titlePart>
           <titlePart type="sub">Course de Bague, <lb/>Collation ornée de Machines, <lb/>Comédie de Molière de La Princesse d'Élide, <lb/>mêlée de Danse et de Musique, <lb/>Ballet du Palais d'Alcine, Feu d'Artifice : <lb/>Et autres Fêtes galantes et magnifiques ; <lb/>faites par le Roi à Versailles, le 7<hi rend="sup">e</hi> Mai 1664. <lb/>Et continuées plusieurs autres Jours.</titlePart>
         </docTitle>
         <docImprint> À PARIS, <lb/>Chez <hi rend="sc">Robert Ballard</hi>, seul Imprimeur du Roi, pour la <lb/>Musique, rue Saint Jean de Beauvais, au Mont Parnasse. <lb/>Et au Palais. <lb/><hi rend="sc">Thomas Jolly</hi> à la Salle des Merciers, <lb/>à l'Enseigne de la Palme. <lb/><hi rend="sc">Guillaume de Luynes</hi>, même Salle, <lb/>à l'Enseigne de la Justice. <lb/><hi rend="sc">Louis Billaine</hi> dans la grande Salle, <lb/>à l'Enseigne de la Palme et du grand César. <lb/>M. DC. LXV. <lb/><hi rend="i">AVEC PRIVILÈGE DE SA MAJESTÉ.</hi></docImprint>
@@ -97,36 +97,36 @@
       </div>
     </front>
     <body>
-      <div xml:id="i" type="interlude">
+      <div1 xml:id="a" type="interlude">
         <head>Premier Intermède</head>
-        <div type="scene" xml:id="i01">
+        <div2 type="scene" xml:id="a01">
           <head>Scène Première</head>
           <castList>
             <castItem>
               <role xml:id="l-aurore"/>
             </castItem>
           </castList>
-          <sp who="l-aurore">
+          <sp who="l-aurore" xml:id="a01-1">
             <speaker><hi rend="i">Récit de </hi>l’Aurore</speaker>
             <lg>
-              <l rend="i">Quand l’Amour à vos yeux offre un choix agréable,</l>
-              <l>Jeunes beautés laissez-vous enflammer.</l>
-              <l>Moquez-vous d’affecter cet orgueil indomptable,</l>
-              <l>Dont on vous dit qu’il est beau de s’armer :</l>
-              <l>Dans l’âge où l’on est aimable</l>
-              <l>Rien n’est si beau que d’aimer.</l>
+              <l rend="i" n="1" xml:id="l1">Quand l’Amour à vos yeux offre un choix agréable,</l>
+              <l n="2" xml:id="l2">Jeunes beautés laissez-vous enflammer.</l>
+              <l n="3" xml:id="l3">Moquez-vous d’affecter cet orgueil indomptable,</l>
+              <l n="4" xml:id="l4">Dont on vous dit qu’il est beau de s’armer :</l>
+              <l n="5" xml:id="l5">Dans l’âge où l’on est aimable</l>
+              <l n="6" xml:id="l6">Rien n’est si beau que d’aimer.</l>
             </lg>
             <lg rend="i">
-              <l>Soupirez librement pour un amant fidèle,</l>
-              <l>Et bravez ceux qui voudraient vous blâmer ;</l>
-              <l>Un cœur tendre est aimable, et le nom de cruelle</l>
-              <l>N’est pas un nom à se faire estimer :</l>
-              <l>Dans le temps où l’on est belle,</l>
-              <l>Rien n’est si beau que d’aimer.</l>
+              <l n="7" xml:id="l7">Soupirez librement pour un amant fidèle,</l>
+              <l n="8" xml:id="l8">Et bravez ceux qui voudraient vous blâmer ;</l>
+              <l n="9" xml:id="l9">Un cœur tendre est aimable, et le nom de cruelle</l>
+              <l n="10" xml:id="l10">N’est pas un nom à se faire estimer :</l>
+              <l n="11" xml:id="l11">Dans le temps où l’on est belle,</l>
+              <l n="12" xml:id="l12">Rien n’est si beau que d’aimer.</l>
             </lg>
           </sp>
-        </div>
-        <div type="scene" xml:id="i02">
+        </div2>
+        <div2 type="scene" xml:id="a02">
           <head>Scène Deuxième</head>
           <castList>
             <castItem>
@@ -142,199 +142,199 @@
           <p rend="argument">
             Pendant que l’Aurore chantait ce Récit, quatre Valets de Chiens étaient couchés sur l’Herbe, dont l’un (sous la figure de Lyciscas représenté par le <persName type="actor">Sieur de Molière</persName>, excellent Acteur, de l’invention duquel étaient les Vers et toute la Pièce) se trouvait au milieu de deux, et un autre à ses pieds : Qui étaient les Sieurs <persName type="actor">Estival</persName>, <persName type="actor">Don</persName>, et <persName type="actor">Blondel</persName> de la Musique du Roi, dont les voix étaient admirables. <lb/>Ceux-ci en se réveillant à l’arrivée de l’Aurore, sitôt qu’elle eut chanté, s’écrièrent en Concert :
           </p>
-          <sp xml:id="i02-1" who="valets-de-chiens">
+          <sp xml:id="a02-1" who="valets-de-chiens">
             <speaker/>
-            <l> Holà ? holà ? debout, debout, debout :</l>
-            <l>Pour la Chasse ordonnée il faut préparer tout :</l>
-            <l>Holà ? ho debout, vite debout.</l>
+            <l n="13" xml:id="l13"> Holà ? holà ? debout, debout, debout :</l>
+            <l n="14" xml:id="l14">Pour la Chasse ordonnée il faut préparer tout :</l>
+            <l n="15" xml:id="l15">Holà ? ho debout, vite debout.</l>
           </sp>
-          <sp xml:id="i02-2" who="valet-1">
+          <sp xml:id="a02-2" who="valet-1">
             <speaker>Premier</speaker>
-            <l>Jusqu’aux plus sombres lieux le jour se communique,</l>
+            <l n="16" xml:id="l16">Jusqu’aux plus sombres lieux le jour se communique,</l>
           </sp>
-          <sp xml:id="i02-3" who="valet-2">
+          <sp xml:id="a02-3" who="valet-2">
             <speaker>deuxième</speaker>
-            <l>L’air sur les fleurs en perles se résout.</l>
+            <l n="17" xml:id="l17">L’air sur les fleurs en perles se résout.</l>
           </sp>
-          <sp xml:id="i02-4" who="valet-3">
+          <sp xml:id="a02-4" who="valet-3">
             <speaker>troisième</speaker>
-            <l>Les Rossignols commencent leur Musique,</l>
-            <l>Et leurs petits concerts retentissent partout.</l>
+            <l n="18" xml:id="l18">Les Rossignols commencent leur Musique,</l>
+            <l n="19" xml:id="l19">Et leurs petits concerts retentissent partout.</l>
           </sp>
-          <sp who="valets-de-chiens" xml:id="i02-5">
+          <sp who="valets-de-chiens" xml:id="a02-5">
             <speaker>tous ensemble</speaker>
-            <l>Sus, sus debout, vite debout !</l>
+            <l n="20" xml:id="l20">Sus, sus debout, vite debout !</l>
             <stage>Parlant à Lyciscas, qui dormait.</stage>
-            <l>Qu’est-ce ci, Lyciscas ? quoi ? tu ronfles encore,</l>
-            <l>Toi qui promettais tant de devancer l’Aurore ?</l>
-            <l>Allons debout, vite debout,</l>
-            <l>Pour la Chasse ordonnée il faut préparer tout,</l>
-            <l>Debout, vite debout, dépêchons, debout.</l>
+            <l n="21" xml:id="l21">Qu’est-ce ci, Lyciscas ? quoi ? tu ronfles encore,</l>
+            <l n="22" xml:id="l22">Toi qui promettais tant de devancer l’Aurore ?</l>
+            <l n="23" xml:id="l23">Allons debout, vite debout,</l>
+            <l n="24" xml:id="l24">Pour la Chasse ordonnée il faut préparer tout,</l>
+            <l n="25" xml:id="l25">Debout, vite debout, dépêchons, debout.</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-6">
+          <sp who="lyciscas" xml:id="a02-6">
             <speaker>Lyciscas, <hi rend="i">en s’éveillant</hi></speaker>
             <p>Par la morbleu vous êtes de grands braillards vous autres,</p>
             <p>Et vous avez la gueule ouverte de bon matin !</p>
           </sp>
-          <sp who="musiciens" xml:id="i02-7">
+          <sp who="musiciens" xml:id="a02-7">
             <speaker>musiciens</speaker>
-            <l>Ne vois-tu pas le jour qui se répand partout ?</l>
-            <l>Allons debout, Lyciscas debout.</l>
+            <l n="26" xml:id="l26">Ne vois-tu pas le jour qui se répand partout ?</l>
+            <l n="27" xml:id="l27">Allons debout, Lyciscas debout.</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-8">
+          <sp who="lyciscas" xml:id="a02-8">
             <speaker>Lyciscas</speaker>
             <p>Hé ! laissez-moi dormir encore un peu je vous conjure !</p>
           </sp>
-          <sp who="musiciens" xml:id="i02-9">
+          <sp who="musiciens" xml:id="a02-9">
             <speaker>musiciens</speaker>
-            <l>Non, non debout, Lyciscas debout.</l>
+            <l n="28" xml:id="l28">Non, non debout, Lyciscas debout.</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-10">
+          <sp who="lyciscas" xml:id="a02-10">
             <speaker>Lyciscas</speaker>
-            <l>Je ne vous demande plus qu’un petit quart d’heure !</l>
+            <l n="29" xml:id="l29">Je ne vous demande plus qu’un petit quart d’heure !</l>
           </sp>
-          <sp who="musiciens" xml:id="i02-11">
+          <sp who="musiciens" xml:id="a02-11">
             <speaker>musiciens</speaker>
-            <l>Point, point debout, vite debout.</l>
+            <l n="30" xml:id="l30">Point, point debout, vite debout.</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-12">
+          <sp who="lyciscas" xml:id="a02-12">
             <speaker>Lyciscas</speaker>
-            <l>Hé ! je vous prie !</l>
+            <l n="31" xml:id="l31">Hé ! je vous prie !</l>
           </sp>
-          <sp who="musiciens" xml:id="i02-13">
+          <sp who="musiciens" xml:id="a02-13">
             <speaker>musiciens</speaker>
-            <l>Debout.</l>
+            <l n="32" xml:id="l32">Debout.</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-14">
+          <sp who="lyciscas" xml:id="a02-14">
             <speaker>Lyciscas</speaker>
-            <l>Un moment.</l>
+            <l n="33" xml:id="l33">Un moment.</l>
           </sp>
-          <sp who="musiciens" xml:id="i02-15">
+          <sp who="musiciens" xml:id="a02-15">
             <speaker>musiciens</speaker>
-            <l>Debout.</l>
+            <l n="34" xml:id="l34">Debout.</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-16">
+          <sp who="lyciscas" xml:id="a02-16">
             <speaker>Lyciscas</speaker>
-            <l>De grâce.</l>
+            <l n="35" xml:id="l35">De grâce.</l>
           </sp>
-          <sp who="musiciens" xml:id="i02-17">
+          <sp who="musiciens" xml:id="a02-17">
             <speaker>musiciens</speaker>
-            <l>Debout.</l>
+            <l n="36" xml:id="l36">Debout.</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-18">
+          <sp who="lyciscas" xml:id="a02-18">
             <speaker>Lyciscas</speaker>
-            <l>Eh.</l>
+            <l n="37" xml:id="l37">Eh.</l>
           </sp>
-          <sp who="musiciens" xml:id="i02-19">
+          <sp who="musiciens" xml:id="a02-19">
             <speaker>musiciens</speaker>
-            <l>Debout.</l>
+            <l n="38" xml:id="l38">Debout.</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-20">
+          <sp who="lyciscas" xml:id="a02-20">
             <speaker>Lyciscas</speaker>
-            <l>Je…</l>
+            <l n="39" xml:id="l39">Je…</l>
           </sp>
-          <sp who="musiciens" xml:id="i02-21">
+          <sp who="musiciens" xml:id="a02-21">
             <speaker>musiciens</speaker>
-            <l>Debout.</l>
+            <l n="40" xml:id="l40">Debout.</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-22">
+          <sp who="lyciscas" xml:id="a02-22">
             <speaker>Lyciscas</speaker>
             <p>J’aurai fait incontinent.</p>
           </sp>
-          <sp who="musiciens" xml:id="i02-23">
+          <sp who="musiciens" xml:id="a02-23">
             <speaker>musiciens</speaker>
-            <l>Non, non debout, Lyciscas debout :</l>
-            <l>Pour la Chasse ordonnée il faut préparer tout ;</l>
-            <l>Vite debout, dépêchons, debout.</l>
+            <l n="41" xml:id="l41">Non, non debout, Lyciscas debout :</l>
+            <l n="42" xml:id="l42">Pour la Chasse ordonnée il faut préparer tout ;</l>
+            <l n="43" xml:id="l43">Vite debout, dépêchons, debout.</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-24">
+          <sp who="lyciscas" xml:id="a02-24">
             <speaker>Lyciscas</speaker>
             <p>Eh bien laissez-moi, je vais me lever : Vous êtes d’étranges gens de me tourmenter comme cela : vous serez cause que je ne me porterai pas bien de toute la journée ; car, voyez-vous, le sommeil est nécessaire à l’homme, et lorsqu’on ne dort pas sa réfection, il arrive… que… on est…</p>
           </sp>
-          <sp who="valet-1" xml:id="i02-25">
+          <sp who="valet-1" xml:id="a02-25">
             <speaker>Premier</speaker>
-            <l>Lyciscas.</l>
+            <l n="44" xml:id="l44">Lyciscas.</l>
           </sp>
-          <sp who="valet-2" xml:id="i02-26">
+          <sp who="valet-2" xml:id="a02-26">
             <speaker>deuxième</speaker>
-            <l>Lyciscas.</l>
+            <l n="45" xml:id="l45">Lyciscas.</l>
           </sp>
-          <sp who="valet-3" xml:id="i02-27">
+          <sp who="valet-3" xml:id="a02-27">
             <speaker>troisième</speaker>
-            <l>Lyciscas.</l>
+            <l n="46" xml:id="l46">Lyciscas.</l>
           </sp>
-          <sp who="valets-de-chiens" xml:id="i02-28">
+          <sp who="valets-de-chiens" xml:id="a02-28">
             <speaker>tous ensemble</speaker>
-            <l>Lyciscas.</l>
+            <l n="47" xml:id="l47">Lyciscas.</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-29">
+          <sp who="lyciscas" xml:id="a02-29">
             <speaker>Lyciscas</speaker>
             <p>Diable soit les brailleurs, je voudrais que vous eussiez la gueule pleine de bouillie bien chaude.</p>
           </sp>
-          <sp who="musiciens" xml:id="i02-30">
+          <sp who="musiciens" xml:id="a02-30">
             <speaker>musiciens</speaker>
-            <l>Debout, debout vite debout, dépêchons debout.</l>
+            <l n="48" xml:id="l48">Debout, debout vite debout, dépêchons debout.</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-31">
+          <sp who="lyciscas" xml:id="a02-31">
             <speaker>Lyciscas</speaker>
             <p>Ah ! quelle fatigue, de ne pas dormir son soûl.</p>
           </sp>
-          <sp who="valet-1" xml:id="i02-32">
+          <sp who="valet-1" xml:id="a02-32">
             <speaker>Premier</speaker>
-            <l>Holà ?  oh.</l>
+            <l n="49" xml:id="l49">Holà ?  oh.</l>
           </sp>
-          <sp who="valet-2" xml:id="i02-33">
+          <sp who="valet-2" xml:id="a02-33">
             <speaker>deuxième</speaker>
-            <l>Holà ? oh.</l>
+            <l n="50" xml:id="l50">Holà ? oh.</l>
           </sp>
-          <sp who="valet-3" xml:id="i02-34">
+          <sp who="valet-3" xml:id="a02-34">
             <speaker>troisième</speaker>
-            <l>Holà ? oh.</l>
+            <l n="51" xml:id="l51">Holà ? oh.</l>
           </sp>
-          <sp who="valets-de-chiens" xml:id="i02-35">
+          <sp who="valets-de-chiens" xml:id="a02-35">
             <speaker>tous ensemble</speaker>
-            <l>Oh ! oh ! oh ! oh ! oh !</l>
+            <l n="52" xml:id="l52">Oh ! oh ! oh ! oh ! oh !</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-36">
+          <sp who="lyciscas" xml:id="a02-36">
             <speaker>Lyciscas</speaker>
             <p>Oh ! oh ! oh ! oh. La peste soit des gens avec leurs chiens de hurlements, je me donne au Diable si je ne vous assomme : Mais voyez un peu quel diable d’enthousiasme il leur prend, de me venir chanter aux oreilles comme cela, je…</p>
           </sp>
-          <sp who="musiciens" xml:id="i02-37">
+          <sp who="musiciens" xml:id="a02-37">
             <speaker>musiciens</speaker>
-            <l>Debout.</l>
+            <l n="53" xml:id="l53">Debout.</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-38">
+          <sp who="lyciscas" xml:id="a02-38">
             <speaker>Lyciscas</speaker>
             <p>Encore.</p>
           </sp>
-          <sp who="musiciens" xml:id="i02-39">
+          <sp who="musiciens" xml:id="a02-39">
             <speaker>musiciens</speaker>
-            <l>Debout.</l>
+            <l n="54" xml:id="l54">Debout.</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-40">
+          <sp who="lyciscas" xml:id="a02-40">
             <speaker>Lyciscas</speaker>
             <p>Le diable vous emporte.</p>
           </sp>
-          <sp who="musiciens" xml:id="i02-41">
+          <sp who="musiciens" xml:id="a02-41">
             <speaker>musiciens</speaker>
-            <l>Debout.</l>
+            <l n="55" xml:id="l55">Debout.</l>
           </sp>
-          <sp who="lyciscas" xml:id="i02-42">
+          <sp who="lyciscas" xml:id="a02-42">
             <speaker>Lyciscas, <hi rend="i">en se levant</hi></speaker>
             <p>Quoi toujours ? a-t-on jamais vu une pareille furie de chanter ? par le sang bleu j’enrage, puisque me voilà éveillé il faut que j’éveille les autres, et que je les tourmente comme on m’a fait. Allons ho ? Messieurs, debout, debout, vite c’est trop dormir. Je vais faire un bruit de Diable partout, debout, debout, debout ; Allons vite, ho, ho, ho ! Debout, debout, pour la Chasse ordonnée il faut préparer tout, debout, debout, Lyciscas debout ! Ho ! ho ! ho ! ho ! ho.</p>
           </sp>
           <argument>
             <p>Lyciscas s’étant levé avec toutes les peines du monde, et s’étant mis à crier de toute sa force, plusieurs Cors et Trompes de Chasse se firent entendre, et concertées avec les Violons commencèrent l’air d’une entrée, sur laquelle six Valets de Chiens dansèrent avec beaucoup de justesse et disposition ; reprenant à certaines cadences le son de leurs Cors et Trompes : C’étaient les Sieurs <persName type="actor">Paysan</persName>, <persName type="actor">Chicanneau</persName>, <persName type="actor">Noblet</persName>, <persName type="actor">Pesan</persName>, <persName type="actor">Bonard</persName>, et <persName type="actor">La Pierre</persName>.</p>
           </argument>
-        </div>
-      </div>
-      <div type="act" xml:id="I" n="1">
+        </div2>
+      </div1>
+      <div1 xml:id="I" type="act" n="1">
         <head>Acte Premier</head>
         <argument>
           <label rend="n">ARGUMENT</label>
           <p>Cette Chasse qui se préparait ainsi, était celle d’un Prince d’Élide, lequel étant d’humeur galante et magnifique, et souhaitant que la Princesse sa Fille se résolût à aimer et à penser au mariage, qui était fort contre son inclination, avait fait venir en sa cour les Princes d’Ithaque, de Messène et de Pyle ; afin que dans l’exercice de la Chasse qu’elle aimait fort, et dans d’autres Jeux, comme des Courses de Chars et semblables magnificences, quelqu’un de ces Princes pût lui plaire et devenir son Époux.</p>
         </argument>
-        <div type="scene" xml:id="I01">
+        <div2 type="scene" xml:id="I01">
           <head>Scène Première</head>
           <argument>
             <p>Euryale Prince d’Ithaque amoureux de la Princesse d’Élide, et Arbate son Gouverneur, lequel indulgent à la passion du Prince, le loua de son amour au lieu de l’en blâmer, en des termes fort galants.</p>
@@ -342,395 +342,395 @@
           <stage>Euryale, Arbate.</stage>
           <sp who="arbate" xml:id="I01-1">
             <speaker>arbate</speaker>
-            <l>Ce silence rêveur dont la sombre habitude</l>
-            <l>Vous fait à tous moments chercher la solitude,</l>
-            <l>Ces longs soupirs que laisse échapper votre cœur,</l>
-            <l>Et ces fixes regards si chargés de langueur,</l>
-            <l n="5">Disent beaucoup sans doute à des gens de mon âge ;</l>
-            <l>Et je pense, Seigneur, entendre ce langage :</l>
-            <l>Mais sans votre congé de peur de trop risquer,</l>
-            <l>Je n’ose m’enhardir jusques à l’expliquer.</l>
+            <l n="56" xml:id="l56">Ce silence rêveur dont la sombre habitude</l>
+            <l n="57" xml:id="l57">Vous fait à tous moments chercher la solitude,</l>
+            <l n="58" xml:id="l58">Ces longs soupirs que laisse échapper votre cœur,</l>
+            <l n="59" xml:id="l59">Et ces fixes regards si chargés de langueur,</l>
+            <l n="60" xml:id="l60">Disent beaucoup sans doute à des gens de mon âge ;</l>
+            <l n="61" xml:id="l61">Et je pense, Seigneur, entendre ce langage :</l>
+            <l n="62" xml:id="l62">Mais sans votre congé de peur de trop risquer,</l>
+            <l n="63" xml:id="l63">Je n’ose m’enhardir jusques à l’expliquer.</l>
           </sp>
           <sp who="euryale" xml:id="I01-2">
             <speaker>euryale</speaker>
-            <l>Explique, explique Arbate, avec toute licence</l>
-            <l n="10">Ces soupirs, ces regards, et ce morne silence :</l>
-            <l>Je te permets ici de dire que l’Amour</l>
-            <l>M’a rangé sous ses lois, et me brave à son tour :</l>
-            <l>Et je consens encor que tu me fasses honte</l>
-            <l>Des faiblesses d’un cœur qui souffre qu’on le dompte.</l>
+            <l n="64" xml:id="l64">Explique, explique Arbate, avec toute licence</l>
+            <l n="65" xml:id="l65">Ces soupirs, ces regards, et ce morne silence :</l>
+            <l n="66" xml:id="l66">Je te permets ici de dire que l’Amour</l>
+            <l n="67" xml:id="l67">M’a rangé sous ses lois, et me brave à son tour :</l>
+            <l n="68" xml:id="l68">Et je consens encor que tu me fasses honte</l>
+            <l n="69" xml:id="l69">Des faiblesses d’un cœur qui souffre qu’on le dompte.</l>
           </sp>
           <sp who="arbate" xml:id="I01-3">
             <speaker>arbate</speaker>
-            <l n="15">Moi vous blâmer, Seigneur, des tendres mouvements,</l>
-            <l>Où je vois qu’aujourd’hui penchent vos sentiments ;</l>
-            <l>Le chagrin des vieux jours ne peut aigrir mon âme</l>
-            <l>Contre les doux transports de l’amoureuse flamme,</l>
-            <l>Et bien que mon sort touche à ses derniers Soleils,</l>
-            <l n="20">Je dirai que l’Amour sied bien à vos pareils :</l>
-            <l>Que ce tribut qu’on rend aux traits d’un beau visage</l>
-            <l>De la beauté d’une âme est un clair témoignage,</l>
-            <l>Et qu’il est malaisé que sans être amoureux</l>
-            <l>Un jeune Prince soit et grand et généreux :</l>
-            <l n="25">C’est une qualité que j’aime en un Monarque,</l>
-            <l>La tendresse de cœur est une grande marque,</l>
-            <l>Et je crois que d’un Prince on peut tout présumer</l>
-            <l>Dès qu’on voit que son âme est capable d’aimer.</l>
-            <l>Oui cette passion de toutes la plus belle</l>
-            <l n="30">Traîne dans un esprit cent vertus après elle,</l>
-            <l>Aux nobles actions elle pousse les cœurs,</l>
-            <l>Et tous les grands Héros ont senti ses ardeurs ;</l>
-            <l>Devant mes yeux, Seigneur, a passé votre enfance,</l>
-            <l>Et j’ai de vos vertus vu fleurir l’espérance ;</l>
-            <l n="35">Mes regards observaient en vous des qualités</l>
-            <l>Où je reconnaissais le sang dont vous sortez ;</l>
-            <l>J’y découvrais un fonds d’esprit et de lumière,</l>
-            <l>Je vous trouvais bien fait, l’air grand, et l’âme fière ;</l>
-            <l>Votre cœur, votre adresse éclataient chaque jour :</l>
-            <l n="40">Mais je m’inquiétais de ne voir point d’amour,</l>
-            <l>Et puisque les langueurs d’une plaie invincible</l>
-            <l>Nous montrent que votre âme à ses traits est sensible,</l>
-            <l>Je triomphe, et mon cœur d’allégresse rempli</l>
-            <l>Vous regarde à présent comme un Prince accompli.</l>
+            <l n="70" xml:id="l70">Moi vous blâmer, Seigneur, des tendres mouvements,</l>
+            <l n="71" xml:id="l71">Où je vois qu’aujourd’hui penchent vos sentiments ;</l>
+            <l n="72" xml:id="l72">Le chagrin des vieux jours ne peut aigrir mon âme</l>
+            <l n="73" xml:id="l73">Contre les doux transports de l’amoureuse flamme,</l>
+            <l n="74" xml:id="l74">Et bien que mon sort touche à ses derniers Soleils,</l>
+            <l n="75" xml:id="l75">Je dirai que l’Amour sied bien à vos pareils :</l>
+            <l n="76" xml:id="l76">Que ce tribut qu’on rend aux traits d’un beau visage</l>
+            <l n="77" xml:id="l77">De la beauté d’une âme est un clair témoignage,</l>
+            <l n="78" xml:id="l78">Et qu’il est malaisé que sans être amoureux</l>
+            <l n="79" xml:id="l79">Un jeune Prince soit et grand et généreux :</l>
+            <l n="80" xml:id="l80">C’est une qualité que j’aime en un Monarque,</l>
+            <l n="81" xml:id="l81">La tendresse de cœur est une grande marque,</l>
+            <l n="82" xml:id="l82">Et je crois que d’un Prince on peut tout présumer</l>
+            <l n="83" xml:id="l83">Dès qu’on voit que son âme est capable d’aimer.</l>
+            <l n="84" xml:id="l84">Oui cette passion de toutes la plus belle</l>
+            <l n="85" xml:id="l85">Traîne dans un esprit cent vertus après elle,</l>
+            <l n="86" xml:id="l86">Aux nobles actions elle pousse les cœurs,</l>
+            <l n="87" xml:id="l87">Et tous les grands Héros ont senti ses ardeurs ;</l>
+            <l n="88" xml:id="l88">Devant mes yeux, Seigneur, a passé votre enfance,</l>
+            <l n="89" xml:id="l89">Et j’ai de vos vertus vu fleurir l’espérance ;</l>
+            <l n="90" xml:id="l90">Mes regards observaient en vous des qualités</l>
+            <l n="91" xml:id="l91">Où je reconnaissais le sang dont vous sortez ;</l>
+            <l n="92" xml:id="l92">J’y découvrais un fonds d’esprit et de lumière,</l>
+            <l n="93" xml:id="l93">Je vous trouvais bien fait, l’air grand, et l’âme fière ;</l>
+            <l n="94" xml:id="l94">Votre cœur, votre adresse éclataient chaque jour :</l>
+            <l n="95" xml:id="l95">Mais je m’inquiétais de ne voir point d’amour,</l>
+            <l n="96" xml:id="l96">Et puisque les langueurs d’une plaie invincible</l>
+            <l n="97" xml:id="l97">Nous montrent que votre âme à ses traits est sensible,</l>
+            <l n="98" xml:id="l98">Je triomphe, et mon cœur d’allégresse rempli</l>
+            <l n="99" xml:id="l99">Vous regarde à présent comme un Prince accompli.</l>
           </sp>
           <sp who="euryale" xml:id="I01-4">
             <speaker>euryale</speaker>
-            <l n="45">Si de l’Amour un temps j’ai bravé la puissance,</l>
-            <l>Hélas ! mon cher Arbate, il en prend bien vengeance !</l>
-            <l>Et sachant dans quels maux mon cœur s’est abîmé,</l>
-            <l>Toi-même, tu voudrais qu’il n’eût jamais aimé :</l>
-            <l>Car enfin vois le sort où mon Astre me guide,</l>
-            <l n="50">J’aime, j’aime ardemment la Princesse d’Élide,</l>
-            <l>Et tu sais quel orgueil sous des traits si charmants</l>
-            <l>Arme contre l’Amour ses jeunes sentiments ;</l>
-            <l>Et comment elle fuit en cette illustre Fête</l>
-            <l>Cette foule d’amants qui briguent sa conquête.</l>
-            <l n="55">Ah ! Qu’il est bien peu vrai que ce qu’on doit aimer</l>
-            <l>Aussitôt qu’on le voit prend droit de nous charmer,</l>
-            <l>Et qu’un premier coup d’œil allume en nous les flammes</l>
-            <l>Où le Ciel en naissant a destiné nos âmes.</l>
-            <l>À mon retour d’Argos je passai dans ces lieux,</l>
-            <l n="60">Et ce passage offrit la Princesse à mes yeux ;</l>
-            <l>Je vis tous les appas dont elle est revêtue</l>
-            <l>Mais de l’œil dont on voit une belle Statue :</l>
-            <l>Leur brillante jeunesse observée à loisir</l>
-            <l>Ne porta dans mon âme aucun secret désir,</l>
-            <l n="65">Et d’Ithaque en repos je revis le rivage</l>
-            <l>Sans m’en être en deux ans rappelé nulle Image :</l>
-            <l>Un bruit vient cependant à répandre à ma Cour</l>
-            <l>Le célèbre mépris qu’elle fait de l’Amour ;</l>
-            <l>On publie en tous lieux que son âme hautaine</l>
-            <l n="70">Garde pour l’Hyménée une invincible haine,</l>
-            <l>Et qu’un Arc à la main, sur l’épaule un Carquois,</l>
-            <l>Comme une autre Diane elle hante les bois,</l>
-            <l>N’aime rien que la Chasse, et de toute la Grèce</l>
-            <l>Fait soupirer en vain l’héroïque jeunesse.</l>
-            <l n="75">Admire nos esprits, et la fatalité,</l>
-            <l>Ce que n’avait point fait sa vue et sa beauté,</l>
-            <l>Le bruit de ses fiertés en mon âme fit naître</l>
-            <l>Un transport inconnu, dont je ne fus point maître ;</l>
-            <l>Ce dédain si fameux eut des charmes secrets</l>
-            <l n="80">À me faire avec soin rappeler tous ses traits,</l>
-            <l>Et mon esprit jetant de nouveaux yeux sur elle</l>
-            <l>M’en refit une image et si noble, et si belle ;</l>
-            <l>Me peignit tant de gloire, et de telles douceurs</l>
-            <l>À pouvoir triompher de toutes ses froideurs,</l>
-            <l n="85">Que mon cœur aux brillants d’une telle victoire</l>
-            <l>Vit de sa liberté s’évanouir la gloire ;</l>
-            <l>Contre une telle amorce il eut beau s’indigner,</l>
-            <l>Sa douceur sur mes sens prit tel droit de régner,</l>
-            <l>Qu’entraîné par l’effort d’une occulte puissance</l>
-            <l n="90">J’ai d’Ithaque en ces lieux fait voile en diligence,</l>
-            <l>Et je couvre un effet de mes vœux enflammés</l>
-            <l>Du désir de paraître à ses Jeux renommés,</l>
-            <l>Où l’illustre Iphitas, Père de la Princesse,</l>
-            <l>Assemble la plupart des Princes de la Grèce.</l>
+            <l n="100" xml:id="l100">Si de l’Amour un temps j’ai bravé la puissance,</l>
+            <l n="101" xml:id="l101">Hélas ! mon cher Arbate, il en prend bien vengeance !</l>
+            <l n="102" xml:id="l102">Et sachant dans quels maux mon cœur s’est abîmé,</l>
+            <l n="103" xml:id="l103">Toi-même, tu voudrais qu’il n’eût jamais aimé :</l>
+            <l n="104" xml:id="l104">Car enfin vois le sort où mon Astre me guide,</l>
+            <l n="105" xml:id="l105">J’aime, j’aime ardemment la Princesse d’Élide,</l>
+            <l n="106" xml:id="l106">Et tu sais quel orgueil sous des traits si charmants</l>
+            <l n="107" xml:id="l107">Arme contre l’Amour ses jeunes sentiments ;</l>
+            <l n="108" xml:id="l108">Et comment elle fuit en cette illustre Fête</l>
+            <l n="109" xml:id="l109">Cette foule d’amants qui briguent sa conquête.</l>
+            <l n="110" xml:id="l110">Ah ! Qu’il est bien peu vrai que ce qu’on doit aimer</l>
+            <l n="111" xml:id="l111">Aussitôt qu’on le voit prend droit de nous charmer,</l>
+            <l n="112" xml:id="l112">Et qu’un premier coup d’œil allume en nous les flammes</l>
+            <l n="113" xml:id="l113">Où le Ciel en naissant a destiné nos âmes.</l>
+            <l n="114" xml:id="l114">À mon retour d’Argos je passai dans ces lieux,</l>
+            <l n="115" xml:id="l115">Et ce passage offrit la Princesse à mes yeux ;</l>
+            <l n="116" xml:id="l116">Je vis tous les appas dont elle est revêtue</l>
+            <l n="117" xml:id="l117">Mais de l’œil dont on voit une belle Statue :</l>
+            <l n="118" xml:id="l118">Leur brillante jeunesse observée à loisir</l>
+            <l n="119" xml:id="l119">Ne porta dans mon âme aucun secret désir,</l>
+            <l n="120" xml:id="l120">Et d’Ithaque en repos je revis le rivage</l>
+            <l n="121" xml:id="l121">Sans m’en être en deux ans rappelé nulle Image :</l>
+            <l n="122" xml:id="l122">Un bruit vient cependant à répandre à ma Cour</l>
+            <l n="123" xml:id="l123">Le célèbre mépris qu’elle fait de l’Amour ;</l>
+            <l n="124" xml:id="l124">On publie en tous lieux que son âme hautaine</l>
+            <l n="125" xml:id="l125">Garde pour l’Hyménée une invincible haine,</l>
+            <l n="126" xml:id="l126">Et qu’un Arc à la main, sur l’épaule un Carquois,</l>
+            <l n="127" xml:id="l127">Comme une autre Diane elle hante les bois,</l>
+            <l n="128" xml:id="l128">N’aime rien que la Chasse, et de toute la Grèce</l>
+            <l n="129" xml:id="l129">Fait soupirer en vain l’héroïque jeunesse.</l>
+            <l n="130" xml:id="l130">Admire nos esprits, et la fatalité,</l>
+            <l n="131" xml:id="l131">Ce que n’avait point fait sa vue et sa beauté,</l>
+            <l n="132" xml:id="l132">Le bruit de ses fiertés en mon âme fit naître</l>
+            <l n="133" xml:id="l133">Un transport inconnu, dont je ne fus point maître ;</l>
+            <l n="134" xml:id="l134">Ce dédain si fameux eut des charmes secrets</l>
+            <l n="135" xml:id="l135">À me faire avec soin rappeler tous ses traits,</l>
+            <l n="136" xml:id="l136">Et mon esprit jetant de nouveaux yeux sur elle</l>
+            <l n="137" xml:id="l137">M’en refit une image et si noble, et si belle ;</l>
+            <l n="138" xml:id="l138">Me peignit tant de gloire, et de telles douceurs</l>
+            <l n="139" xml:id="l139">À pouvoir triompher de toutes ses froideurs,</l>
+            <l n="140" xml:id="l140">Que mon cœur aux brillants d’une telle victoire</l>
+            <l n="141" xml:id="l141">Vit de sa liberté s’évanouir la gloire ;</l>
+            <l n="142" xml:id="l142">Contre une telle amorce il eut beau s’indigner,</l>
+            <l n="143" xml:id="l143">Sa douceur sur mes sens prit tel droit de régner,</l>
+            <l n="144" xml:id="l144">Qu’entraîné par l’effort d’une occulte puissance</l>
+            <l n="145" xml:id="l145">J’ai d’Ithaque en ces lieux fait voile en diligence,</l>
+            <l n="146" xml:id="l146">Et je couvre un effet de mes vœux enflammés</l>
+            <l n="147" xml:id="l147">Du désir de paraître à ses Jeux renommés,</l>
+            <l n="148" xml:id="l148">Où l’illustre Iphitas, Père de la Princesse,</l>
+            <l n="149" xml:id="l149">Assemble la plupart des Princes de la Grèce.</l>
           </sp>
           <sp who="arbate" xml:id="I01-5">
             <speaker>arbate</speaker>
-            <l n="95">Mais à quoi bon, Seigneur, les soins que vous prenez ?</l>
-            <l>Et pourquoi ce secret où vous vous obstinez ?</l>
-            <l>Vous aimez, dites-vous, cette illustre Princesse,</l>
-            <l>Et venez à ses yeux signaler votre adresse,</l>
-            <l>Et nuls empressements, paroles, ni soupirs</l>
-            <l n="100">Ne l’ont instruite encor de vos brûlants désirs.</l>
-            <l>Pour moi je n’entends rien à cette politique</l>
-            <l>Qui ne veut point souffrir que votre cœur s’explique,</l>
-            <l>Et je ne sais quel fruit peut prétendre un amour</l>
-            <l>Qui fuit tous les moyens de se produire au jour.</l>
+            <l n="150" xml:id="l150">Mais à quoi bon, Seigneur, les soins que vous prenez ?</l>
+            <l n="151" xml:id="l151">Et pourquoi ce secret où vous vous obstinez ?</l>
+            <l n="152" xml:id="l152">Vous aimez, dites-vous, cette illustre Princesse,</l>
+            <l n="153" xml:id="l153">Et venez à ses yeux signaler votre adresse,</l>
+            <l n="154" xml:id="l154">Et nuls empressements, paroles, ni soupirs</l>
+            <l n="155" xml:id="l155">Ne l’ont instruite encor de vos brûlants désirs.</l>
+            <l n="156" xml:id="l156">Pour moi je n’entends rien à cette politique</l>
+            <l n="157" xml:id="l157">Qui ne veut point souffrir que votre cœur s’explique,</l>
+            <l n="158" xml:id="l158">Et je ne sais quel fruit peut prétendre un amour</l>
+            <l n="159" xml:id="l159">Qui fuit tous les moyens de se produire au jour.</l>
           </sp>
           <sp who="euryale" xml:id="I01-6">
             <speaker>euryale</speaker>
-            <l n="105">Et que ferai-je, Arbate, en déclarant ma peine,</l>
-            <l>Qu’attirer les dédains de cette âme hautaine ?</l>
-            <l>Et me jeter au rang de ces Princes soumis</l>
-            <l>Que le titre d’amants lui peint en ennemis ?</l>
-            <l>Tu vois les Souverains de Messène et de Pyle</l>
-            <l n="110">Lui faire de leurs cœurs un hommage inutile,</l>
-            <l>Et de l’éclat pompeux des plus hautes vertus</l>
-            <l>En appuyer en vain les respects assidus :</l>
-            <l>Ce rebut de leurs soins, sous un triste silence,</l>
-            <l>Retient de mon amour toute la violence ;</l>
-            <l n="115">Je me tiens condamné dans ces Rivaux fameux,</l>
-            <l>Et je lis mon arrêt au mépris qu’on fait d’eux.</l>
+            <l n="160" xml:id="l160">Et que ferai-je, Arbate, en déclarant ma peine,</l>
+            <l n="161" xml:id="l161">Qu’attirer les dédains de cette âme hautaine ?</l>
+            <l n="162" xml:id="l162">Et me jeter au rang de ces Princes soumis</l>
+            <l n="163" xml:id="l163">Que le titre d’amants lui peint en ennemis ?</l>
+            <l n="164" xml:id="l164">Tu vois les Souverains de Messène et de Pyle</l>
+            <l n="165" xml:id="l165">Lui faire de leurs cœurs un hommage inutile,</l>
+            <l n="166" xml:id="l166">Et de l’éclat pompeux des plus hautes vertus</l>
+            <l n="167" xml:id="l167">En appuyer en vain les respects assidus :</l>
+            <l n="168" xml:id="l168">Ce rebut de leurs soins, sous un triste silence,</l>
+            <l n="169" xml:id="l169">Retient de mon amour toute la violence ;</l>
+            <l n="170" xml:id="l170">Je me tiens condamné dans ces Rivaux fameux,</l>
+            <l n="171" xml:id="l171">Et je lis mon arrêt au mépris qu’on fait d’eux.</l>
           </sp>
           <sp who="arbate" xml:id="I01-7">
             <speaker>arbate</speaker>
-            <l>Et c’est dans ce mépris, et dans cette humeur fière</l>
-            <l>Que votre âme à ses vœux doit voir plus de lumière,</l>
-            <l>Puisque le sort vous donne à conquérir un cœur</l>
-            <l n="120">Que défend seulement une jeune froideur,</l>
-            <l>Et qui n’impose point à l’ardeur qui vous presse</l>
-            <l>De quelque attachement l’invincible tendresse :</l>
-            <l>Un cœur préoccupé résiste puissamment ;</l>
-            <l>Mais quand une âme est libre, on la force aisément,</l>
-            <l n="125">Et toute la fierté de son indifférence</l>
-            <l>N’a rien dont ne triomphe un peu de patience.</l>
-            <l>Ne lui cachez donc plus le pouvoir de ses yeux,</l>
-            <l>Faites de votre flamme un éclat glorieux,</l>
-            <l>Et bien loin de trembler de l’exemple des autres,</l>
-            <l n="130">Du rebut de leurs vœux enflez l’espoir des vôtres :</l>
-            <l>Peut-être pour toucher ses sévères appas,</l>
-            <l>Aurez-vous des secrets que ces Princes n’ont pas ;</l>
-            <l>Et si de ses fiertés l’impérieux caprice</l>
-            <l>Ne vous fait éprouver un destin plus propice,</l>
-            <l n="135">Au moins est-ce un bonheur en ces extrémités</l>
-            <l>Que de voir avec soi ses Rivaux rebutés.</l>
+            <l n="172" xml:id="l172">Et c’est dans ce mépris, et dans cette humeur fière</l>
+            <l n="173" xml:id="l173">Que votre âme à ses vœux doit voir plus de lumière,</l>
+            <l n="174" xml:id="l174">Puisque le sort vous donne à conquérir un cœur</l>
+            <l n="175" xml:id="l175">Que défend seulement une jeune froideur,</l>
+            <l n="176" xml:id="l176">Et qui n’impose point à l’ardeur qui vous presse</l>
+            <l n="177" xml:id="l177">De quelque attachement l’invincible tendresse :</l>
+            <l n="178" xml:id="l178">Un cœur préoccupé résiste puissamment ;</l>
+            <l n="179" xml:id="l179">Mais quand une âme est libre, on la force aisément,</l>
+            <l n="180" xml:id="l180">Et toute la fierté de son indifférence</l>
+            <l n="181" xml:id="l181">N’a rien dont ne triomphe un peu de patience.</l>
+            <l n="182" xml:id="l182">Ne lui cachez donc plus le pouvoir de ses yeux,</l>
+            <l n="183" xml:id="l183">Faites de votre flamme un éclat glorieux,</l>
+            <l n="184" xml:id="l184">Et bien loin de trembler de l’exemple des autres,</l>
+            <l n="185" xml:id="l185">Du rebut de leurs vœux enflez l’espoir des vôtres :</l>
+            <l n="186" xml:id="l186">Peut-être pour toucher ses sévères appas,</l>
+            <l n="187" xml:id="l187">Aurez-vous des secrets que ces Princes n’ont pas ;</l>
+            <l n="188" xml:id="l188">Et si de ses fiertés l’impérieux caprice</l>
+            <l n="189" xml:id="l189">Ne vous fait éprouver un destin plus propice,</l>
+            <l n="190" xml:id="l190">Au moins est-ce un bonheur en ces extrémités</l>
+            <l n="191" xml:id="l191">Que de voir avec soi ses Rivaux rebutés.</l>
           </sp>
           <sp who="euryale" xml:id="I01-8">
             <speaker>euryale</speaker>
-            <l>J’aime à te voir presser cet aveu de ma flamme,</l>
-            <l>Combattant mes raisons tu chatouilles mon âme,</l>
-            <l>Et par ce que j’ai dit je voulais pressentir</l>
-            <l n="140">Si de ce que j’ai fait tu pourrais m’applaudir :</l>
-            <l>Car, enfin, puisqu’il faut t’en faire confidence,</l>
-            <l>On doit à la Princesse expliquer mon silence,</l>
-            <l>Et peut-être au moment que je t’en parle ici</l>
-            <l>Le secret de mon cœur, Arbate, est éclairci.</l>
-            <l n="145">Cette Chasse, où pour fuir la foule qui l’adore,</l>
-            <l>Tu sais qu’elle est allée au lever de l’Aurore,</l>
-            <l>Est le temps que Moron pour déclarer mon feu,</l>
-            <l>A pris…</l>
+            <l n="192" xml:id="l192">J’aime à te voir presser cet aveu de ma flamme,</l>
+            <l n="193" xml:id="l193">Combattant mes raisons tu chatouilles mon âme,</l>
+            <l n="194" xml:id="l194">Et par ce que j’ai dit je voulais pressentir</l>
+            <l n="195" xml:id="l195">Si de ce que j’ai fait tu pourrais m’applaudir :</l>
+            <l n="196" xml:id="l196">Car, enfin, puisqu’il faut t’en faire confidence,</l>
+            <l n="197" xml:id="l197">On doit à la Princesse expliquer mon silence,</l>
+            <l n="198" xml:id="l198">Et peut-être au moment que je t’en parle ici</l>
+            <l n="199" xml:id="l199">Le secret de mon cœur, Arbate, est éclairci.</l>
+            <l n="200" xml:id="l200">Cette Chasse, où pour fuir la foule qui l’adore,</l>
+            <l n="201" xml:id="l201">Tu sais qu’elle est allée au lever de l’Aurore,</l>
+            <l n="202" xml:id="l202">Est le temps que Moron pour déclarer mon feu,</l>
+            <l n="203" xml:id="l203">A pris…</l>
           </sp>
           <sp who="arbate" xml:id="I01-9">
             <speaker>arbate</speaker>
-            <l>Moron, Seigneur.</l>
+            <l n="204" xml:id="l204">Moron, Seigneur.</l>
           </sp>
           <sp who="euryale" xml:id="I01-10">
             <speaker>euryale</speaker>
-            <l>Ce choix t’étonne un peu ;</l>
-            <l>Par son titre de fou tu crois le bien connaître,</l>
-            <l n="150">Mais sache qu’il l’est moins qu’il ne le veut paraître,</l>
-            <l>Et que malgré l’emploi qu’il exerce aujourd’hui</l>
-            <l>Il a plus de bon sens que tel qui rit de lui :</l>
-            <l>La Princesse se plaît à ses bouffonneries,</l>
-            <l>Il s’en est fait aimer par cent plaisanteries,</l>
-            <l n="155">Et peut dans cet accès dire et persuader</l>
-            <l>Ce que d’autres que lui n’oseraient hasarder ;</l>
-            <l>Je le vois propre, enfin, à ce que j’en souhaite,</l>
-            <l>Il a pour moi, dit-il, une amitié parfaite,</l>
-            <l>Et veut (dans mes États ayant reçu le jour)</l>
-            <l n="160">Contre tous mes Rivaux appuyer mon amour :</l>
-            <l>Quelque argent mis en main pour soutenir ce zèle…</l>
+            <l n="205" xml:id="l205">Ce choix t’étonne un peu ;</l>
+            <l n="206" xml:id="l206">Par son titre de fou tu crois le bien connaître,</l>
+            <l n="207" xml:id="l207">Mais sache qu’il l’est moins qu’il ne le veut paraître,</l>
+            <l n="208" xml:id="l208">Et que malgré l’emploi qu’il exerce aujourd’hui</l>
+            <l n="209" xml:id="l209">Il a plus de bon sens que tel qui rit de lui :</l>
+            <l n="210" xml:id="l210">La Princesse se plaît à ses bouffonneries,</l>
+            <l n="211" xml:id="l211">Il s’en est fait aimer par cent plaisanteries,</l>
+            <l n="212" xml:id="l212">Et peut dans cet accès dire et persuader</l>
+            <l n="213" xml:id="l213">Ce que d’autres que lui n’oseraient hasarder ;</l>
+            <l n="214" xml:id="l214">Je le vois propre, enfin, à ce que j’en souhaite,</l>
+            <l n="215" xml:id="l215">Il a pour moi, dit-il, une amitié parfaite,</l>
+            <l n="216" xml:id="l216">Et veut (dans mes États ayant reçu le jour)</l>
+            <l n="217" xml:id="l217">Contre tous mes Rivaux appuyer mon amour :</l>
+            <l n="218" xml:id="l218">Quelque argent mis en main pour soutenir ce zèle…</l>
           </sp>
-        </div>
-        <div type="scene" xml:id="I02">
+        </div2>
+        <div2 type="scene" xml:id="I02">
           <head>Scène Deuxième</head>
           <argument>
             <p>Moron représenté par le Sieur de Molière, arrive, et ayant le souvenir d’un furieux Sanglier, devant lequel il avait fui à la Chasse, demande secours, et rencontrant Euryale et Arbate, se met au milieu d’eux pour plus de sûreté, après leur avoir témoigné sa peur et leur disant cent choses plaisantes sur son peu de bravoure.</p>
           </argument>
           <stage>Moron, Arbate, Euryale.</stage>
-          <sp who="moron" xml:id="I02-2">
+          <sp who="moron" xml:id="I02-1">
             <speaker>moron, <hi rend="i">sans être vu</hi></speaker>
-            <l> Au secours ! sauvez-moi de la bête cruelle !</l>
+            <l n="219" xml:id="l219"> Au secours ! sauvez-moi de la bête cruelle !</l>
           </sp>
-          <sp who="euryale" xml:id="I02-3">
+          <sp who="euryale" xml:id="I02-2">
             <speaker>euryale</speaker>
-            <l> Je pense ouïr sa voix ?</l>
+            <l n="220" xml:id="l220"> Je pense ouïr sa voix ?</l>
           </sp>
-          <sp who="moron" xml:id="I02-4">
+          <sp who="moron" xml:id="I02-3">
             <speaker>moron, <hi rend="i">sans être vu</hi></speaker>
-            <l> À moi, de grâce, à moi !</l>
+            <l n="221" xml:id="l221"> À moi, de grâce, à moi !</l>
           </sp>
-          <sp who="euryale" xml:id="I02-5">
+          <sp who="euryale" xml:id="I02-4">
             <speaker>euryale</speaker>
-            <l>C’est lui-même, où court-il avec un tel effroi ?</l>
+            <l n="222" xml:id="l222">C’est lui-même, où court-il avec un tel effroi ?</l>
           </sp>
-          <sp who="moron" xml:id="I02-6">
+          <sp who="moron" xml:id="I02-5">
             <speaker>moron</speaker>
-            <l n="165">Où pourrai-je éviter ce Sanglier redoutable ?</l>
-            <l>Grands Dieux ! préservez-moi de sa dent effroyable !</l>
-            <l>Je vous promets, pourvu qu’il ne m’attrape pas,</l>
-            <l>Quatre livres d’encens, et deux veaux des plus gras.</l>
-            <l>Ha ! je suis mort !</l>
+            <l n="223" xml:id="l223">Où pourrai-je éviter ce Sanglier redoutable ?</l>
+            <l n="224" xml:id="l224">Grands Dieux ! préservez-moi de sa dent effroyable !</l>
+            <l n="225" xml:id="l225">Je vous promets, pourvu qu’il ne m’attrape pas,</l>
+            <l n="226" xml:id="l226">Quatre livres d’encens, et deux veaux des plus gras.</l>
+            <l n="227" xml:id="l227">Ha ! je suis mort !</l>
           </sp>
-          <sp who="euryale" xml:id="I02-7">
+          <sp who="euryale" xml:id="I02-6">
             <speaker>euryale</speaker>
-            <l>Qu’as-tu ?</l>
+            <l n="228" xml:id="l228">Qu’as-tu ?</l>
           </sp>
-          <sp who="moron" xml:id="I02-8">
+          <sp who="moron" xml:id="I02-7">
             <speaker>moron</speaker>
-            <l>Je vous croyais la bête</l>
-            <l n="170">Dont à me diffamer j’ai vu la gueule prête,</l>
-            <l>Seigneur, et je ne puis revenir de ma peur.</l>
+            <l n="229" xml:id="l229">Je vous croyais la bête</l>
+            <l n="230" xml:id="l230">Dont à me diffamer j’ai vu la gueule prête,</l>
+            <l n="231" xml:id="l231">Seigneur, et je ne puis revenir de ma peur.</l>
           </sp>
-          <sp who="euryale" xml:id="I02-9">
+          <sp who="euryale" xml:id="I02-8">
             <speaker>euryale</speaker>
-            <l>Qu’est-ce ?</l>
+            <l n="232" xml:id="l232">Qu’est-ce ?</l>
           </sp>
-          <sp who="moron" xml:id="I02-10">
+          <sp who="moron" xml:id="I02-9">
             <speaker>moron</speaker>
-            <l>Ô ! que la Princesse est d’une étrange humeur !</l>
-            <l>Et qu’à suivre la Chasse et ses extravagances</l>
-            <l>Il nous faut essuyer de sottes complaisances !</l>
-            <l n="175">Quel Diable de plaisir trouvent tous les Chasseurs</l>
-            <l>De se voir exposés à mille et mille peurs,</l>
-            <l>Encore si c’était qu’on ne fût qu’à la Chasse</l>
-            <l>Des Lièvres, des Lapins, et des jeunes Daims, passe ;</l>
-            <l>Ce sont des animaux d’un naturel fort doux,</l>
-            <l n="180">Et qui prennent toujours la fuite devant nous :</l>
-            <l>Mais aller attaquer de ces bêtes vilaines</l>
-            <l>Qui n’ont aucun respect pour les faces humaines,</l>
-            <l>Et qui courent les gens qui les veulent courir,</l>
-            <l>C’est un sot passe-temps que je ne puis souffrir.</l>
+            <l n="233" xml:id="l233">Ô ! que la Princesse est d’une étrange humeur !</l>
+            <l n="234" xml:id="l234">Et qu’à suivre la Chasse et ses extravagances</l>
+            <l n="235" xml:id="l235">Il nous faut essuyer de sottes complaisances !</l>
+            <l n="236" xml:id="l236">Quel Diable de plaisir trouvent tous les Chasseurs</l>
+            <l n="237" xml:id="l237">De se voir exposés à mille et mille peurs,</l>
+            <l n="238" xml:id="l238">Encore si c’était qu’on ne fût qu’à la Chasse</l>
+            <l n="239" xml:id="l239">Des Lièvres, des Lapins, et des jeunes Daims, passe ;</l>
+            <l n="240" xml:id="l240">Ce sont des animaux d’un naturel fort doux,</l>
+            <l n="241" xml:id="l241">Et qui prennent toujours la fuite devant nous :</l>
+            <l n="242" xml:id="l242">Mais aller attaquer de ces bêtes vilaines</l>
+            <l n="243" xml:id="l243">Qui n’ont aucun respect pour les faces humaines,</l>
+            <l n="244" xml:id="l244">Et qui courent les gens qui les veulent courir,</l>
+            <l n="245" xml:id="l245">C’est un sot passe-temps que je ne puis souffrir.</l>
           </sp>
-          <sp who="euryale" xml:id="I02-11">
+          <sp who="euryale" xml:id="I02-10">
             <speaker>euryale</speaker>
-            <l>Dis-nous donc ce que c’est ?</l>
+            <l n="246" xml:id="l246">Dis-nous donc ce que c’est ?</l>
           </sp>
-          <sp who="moron" xml:id="I02-12">
+          <sp who="moron" xml:id="I02-11">
             <speaker>moron, <hi rend="i">en se tournant</hi></speaker>
-            <l n="185">Le pénible exercice</l>
-            <l>Où de notre Princesse a volé le caprice !…</l>
-            <l>J’en aurais bien juré qu’elle aurait fait le tour,</l>
-            <l>Et la Course des Chars se faisant en ce jour,</l>
-            <l>Il fallait affecter ce contretemps de Chasse</l>
-            <l n="190">Pour mépriser ses jeux avec meilleure grâce,</l>
-            <l>Et faire voir… Mais chut, achevons mon récit,</l>
-            <l>Et reprenons le fil de ce que j’avais dit.</l>
-            <l>Qu’ai-je dit ?</l>
+            <l n="247" xml:id="l247">Le pénible exercice</l>
+            <l n="248" xml:id="l248">Où de notre Princesse a volé le caprice !…</l>
+            <l n="249" xml:id="l249">J’en aurais bien juré qu’elle aurait fait le tour,</l>
+            <l n="250" xml:id="l250">Et la Course des Chars se faisant en ce jour,</l>
+            <l n="251" xml:id="l251">Il fallait affecter ce contretemps de Chasse</l>
+            <l n="252" xml:id="l252">Pour mépriser ses jeux avec meilleure grâce,</l>
+            <l n="253" xml:id="l253">Et faire voir… Mais chut, achevons mon récit,</l>
+            <l n="254" xml:id="l254">Et reprenons le fil de ce que j’avais dit.</l>
+            <l n="255" xml:id="l255">Qu’ai-je dit ?</l>
           </sp>
-          <sp who="euryale" xml:id="I02-13">
+          <sp who="euryale" xml:id="I02-12">
             <speaker>euryale</speaker>
-            <l>Tu parlais d’exercice pénible.</l>
+            <l n="256" xml:id="l256">Tu parlais d’exercice pénible.</l>
           </sp>
-          <sp who="moron" xml:id="I02-14">
+          <sp who="moron" xml:id="I02-13">
             <speaker>moron</speaker>
-            <l>Ah ! oui, succombant donc à ce travail horrible ;</l>
-            <l n="195">Car en Chasseur fameux j’étais enharnaché,</l>
-            <l>Et dès le point du jour je m’étais découché :</l>
-            <l>Je me suis écarté de tous en galant homme</l>
-            <l>Et trouvant un lieu propre à dormir d’un bon somme</l>
-            <l>J’essayais ma posture, et m’ajustant bientôt,</l>
-            <l n="200">Prenais déjà mon ton pour ronfler comme il faut</l>
-            <l>Lorsqu’un murmure affreux m’a fait lever la vue,</l>
-            <l>Et j’ai d’un vieux buisson de la forêt touffue</l>
-            <l>Vu sortir un Sanglier d’une énorme grandeur</l>
-            <l>Pour…</l>
+            <l n="257" xml:id="l257">Ah ! oui, succombant donc à ce travail horrible ;</l>
+            <l n="258" xml:id="l258">Car en Chasseur fameux j’étais enharnaché,</l>
+            <l n="259" xml:id="l259">Et dès le point du jour je m’étais découché :</l>
+            <l n="260" xml:id="l260">Je me suis écarté de tous en galant homme</l>
+            <l n="261" xml:id="l261">Et trouvant un lieu propre à dormir d’un bon somme</l>
+            <l n="262" xml:id="l262">J’essayais ma posture, et m’ajustant bientôt,</l>
+            <l n="263" xml:id="l263">Prenais déjà mon ton pour ronfler comme il faut</l>
+            <l n="264" xml:id="l264">Lorsqu’un murmure affreux m’a fait lever la vue,</l>
+            <l n="265" xml:id="l265">Et j’ai d’un vieux buisson de la forêt touffue</l>
+            <l n="266" xml:id="l266">Vu sortir un Sanglier d’une énorme grandeur</l>
+            <l n="267" xml:id="l267">Pour…</l>
           </sp>
-          <sp who="euryale" xml:id="I02-15">
+          <sp who="euryale" xml:id="I02-14">
             <speaker>euryale</speaker>
-            <l>Qu’est-ce ?</l>
+            <l n="268" xml:id="l268">Qu’est-ce ?</l>
           </sp>
-          <sp who="moron" xml:id="I02-16">
+          <sp who="moron" xml:id="I02-15">
             <speaker>moron</speaker>
-            <l>Ce n’est rien, n’ayez point de frayeur !</l>
-            <l n="205">Mais laissez-moi passer entre vous deux pour cause,</l>
-            <l>Je serai mieux en main pour vous conter la chose :</l>
-            <l>J’ai donc vu ce Sanglier, qui par nos gens chassé</l>
-            <l>Avait d’un air affreux tout son poil hérissé ;</l>
-            <l>Ces deux yeux flamboyants ne lançaient que menace,</l>
-            <l n="210">Et sa gueule faisait une laide grimace,</l>
-            <l>Qui parmi de l’écume à qui l’osait presser</l>
-            <l>Montrait de certains crocs… Je vous laisse à penser !</l>
-            <l>À ce terrible aspect j’ai ramassé mes armes ;</l>
-            <l>Mais le faux animal sans en prendre d’alarmes</l>
-            <l n="215">Est venu droit à moi, qui ne lui disais mot.</l>
+            <l n="269" xml:id="l269">Ce n’est rien, n’ayez point de frayeur !</l>
+            <l n="270" xml:id="l270">Mais laissez-moi passer entre vous deux pour cause,</l>
+            <l n="271" xml:id="l271">Je serai mieux en main pour vous conter la chose :</l>
+            <l n="272" xml:id="l272">J’ai donc vu ce Sanglier, qui par nos gens chassé</l>
+            <l n="273" xml:id="l273">Avait d’un air affreux tout son poil hérissé ;</l>
+            <l n="274" xml:id="l274">Ces deux yeux flamboyants ne lançaient que menace,</l>
+            <l n="275" xml:id="l275">Et sa gueule faisait une laide grimace,</l>
+            <l n="276" xml:id="l276">Qui parmi de l’écume à qui l’osait presser</l>
+            <l n="277" xml:id="l277">Montrait de certains crocs… Je vous laisse à penser !</l>
+            <l n="278" xml:id="l278">À ce terrible aspect j’ai ramassé mes armes ;</l>
+            <l n="279" xml:id="l279">Mais le faux animal sans en prendre d’alarmes</l>
+            <l n="280" xml:id="l280">Est venu droit à moi, qui ne lui disais mot.</l>
           </sp>
-          <sp who="arbate" xml:id="I02-17">
+          <sp who="arbate" xml:id="I02-16">
             <speaker>arbate</speaker>
-            <l>Et tu l’as de pied ferme attendu ?</l>
+            <l n="281" xml:id="l281">Et tu l’as de pied ferme attendu ?</l>
           </sp>
-          <sp who="moron" xml:id="I02-18">
+          <sp who="moron" xml:id="I02-17">
             <speaker>moron</speaker>
-            <l>Quelque sot,</l>
-            <l>J’ai jeté tout par terre, et couru comme quatre.</l>
+            <l n="282" xml:id="l282">Quelque sot,</l>
+            <l n="283" xml:id="l283">J’ai jeté tout par terre, et couru comme quatre.</l>
           </sp>
-          <sp who="arbate" xml:id="I02-19">
+          <sp who="arbate" xml:id="I02-18">
             <speaker>arbate</speaker>
-            <l>Fuir devant un Sanglier ayant de quoi l’abattre,</l>
-            <l>Ce trait, Moron, n’est pas généreux…</l>
+            <l n="284" xml:id="l284">Fuir devant un Sanglier ayant de quoi l’abattre,</l>
+            <l n="285" xml:id="l285">Ce trait, Moron, n’est pas généreux…</l>
           </sp>
-          <sp who="moron" xml:id="I02-20">
+          <sp who="moron" xml:id="I02-19">
             <speaker>moron</speaker>
-            <l>J’y consens,</l>
-            <l n="220">Il n’est pas généreux, mais il est de bon sens.</l>
+            <l n="286" xml:id="l286">J’y consens,</l>
+            <l n="287" xml:id="l287">Il n’est pas généreux, mais il est de bon sens.</l>
           </sp>
-          <sp who="arbate" xml:id="I02-21">
+          <sp who="arbate" xml:id="I02-20">
             <speaker>arbate</speaker>
-            <l>Mais par quelques exploits, si l’on ne s’éternise…</l>
+            <l n="288" xml:id="l288">Mais par quelques exploits, si l’on ne s’éternise…</l>
           </sp>
-          <sp who="moron" xml:id="I02-22">
+          <sp who="moron" xml:id="I02-21">
             <speaker>moron</speaker>
-            <l>Je suis votre valet, et j’aime mieux qu’on dise,</l>
-            <l>C’est ici qu’en fuyant sans se faire prier</l>
-            <l>Moron sauva ses jours des fureurs d’un Sanglier,</l>
-            <l n="225">Que si l’on y disait, voilà l’illustre place</l>
-            <l>Où le brave Moron, d’une héroïque audace,</l>
-            <l>Affrontant d’un Sanglier l’impétueux effort,</l>
-            <l>Par un coup de ses dents vit terminer son sort.</l>
+            <l n="289" xml:id="l289">Je suis votre valet, et j’aime mieux qu’on dise,</l>
+            <l n="290" xml:id="l290">C’est ici qu’en fuyant sans se faire prier</l>
+            <l n="291" xml:id="l291">Moron sauva ses jours des fureurs d’un Sanglier,</l>
+            <l n="292" xml:id="l292">Que si l’on y disait, voilà l’illustre place</l>
+            <l n="293" xml:id="l293">Où le brave Moron, d’une héroïque audace,</l>
+            <l n="294" xml:id="l294">Affrontant d’un Sanglier l’impétueux effort,</l>
+            <l n="295" xml:id="l295">Par un coup de ses dents vit terminer son sort.</l>
           </sp>
-          <sp who="euryale" xml:id="I02-23">
+          <sp who="euryale" xml:id="I02-22">
             <speaker>euryale</speaker>
-            <l> Fort bien…</l>
+            <l n="296" xml:id="l296"> Fort bien…</l>
           </sp>
-          <sp who="moron" xml:id="I02-24">
+          <sp who="moron" xml:id="I02-23">
             <speaker>moron</speaker>
-            <l>Oui, j’aime mieux, n’en déplaise à la gloire,</l>
-            <l n="230">Vivre au monde deux jours que mille ans dans l’histoire.</l>
+            <l n="297" xml:id="l297">Oui, j’aime mieux, n’en déplaise à la gloire,</l>
+            <l n="298" xml:id="l298">Vivre au monde deux jours que mille ans dans l’histoire.</l>
           </sp>
-          <sp who="euryale" xml:id="I02-25">
+          <sp who="euryale" xml:id="I02-24">
             <speaker>euryale</speaker>
-            <l>En effet ton trépas fâcherait tes amis ;</l>
-            <l>Mais si de ta frayeur ton esprit est remis</l>
-            <l>Puis-je te demander si du feu qui me brûle…</l>
+            <l n="299" xml:id="l299">En effet ton trépas fâcherait tes amis ;</l>
+            <l n="300" xml:id="l300">Mais si de ta frayeur ton esprit est remis</l>
+            <l n="301" xml:id="l301">Puis-je te demander si du feu qui me brûle…</l>
           </sp>
-          <sp who="moron" xml:id="I02-26">
+          <sp who="moron" xml:id="I02-25">
             <speaker>moron</speaker>
-            <l>Il ne faut point, Seigneur, que je vous dissimule,</l>
-            <l n="235">Je n’ai rien fait encore, et n’ai point rencontré</l>
-            <l>De temps pour lui parler qui fût selon mon gré :</l>
-            <l>L’office de bouffon a des prérogatives ;</l>
-            <l>Mais souvent on rabat nos libres tentatives :</l>
-            <l>Le discours de vos feux est un peu délicat,</l>
-            <l n="240">Et c’est chez la Princesse une affaire d’État ;</l>
-            <l>Vous savez de quel titre elle se glorifie,</l>
-            <l>Et qu’elle a dans la tête une Philosophie</l>
-            <l>Qui déclare la guerre au conjugal lien,</l>
-            <l>Et vous traite l’Amour de déité de rien :</l>
-            <l n="245">Pour n’effaroucher point son humeur de tigresse</l>
-            <l>Il me faut manier la chose avec adresse ;</l>
-            <l>Car on doit regarder comme l’on parle aux grands,</l>
-            <l>Et vous êtes parfois d’assez fâcheuses gens.</l>
-            <l>Laissez-moi doucement conduire cette trame,</l>
-            <l n="250">Je me sens là pour vous un zèle tout de flamme,</l>
-            <l>Vous êtes né mon Prince, et quelques autres nœuds</l>
-            <l>Pourraient contribuer au bien que je vous veux :</l>
-            <l>Ma mère dans son temps passait pour assez belle,</l>
-            <l>Et naturellement n’était pas fort cruelle ;</l>
-            <l n="255">Feu votre Père alors, ce Prince généreux,</l>
-            <l>Sur la galanterie était fort dangereux,</l>
-            <l>Et je sais qu’Elpenor, qu’on appelait mon Père,</l>
-            <l>À cause qu’il était le mari de ma Mère,</l>
-            <l>Contait pour grand honneur aux Pasteurs d’aujourd’hui</l>
-            <l n="260">Que le Prince autrefois était venu chez lui,</l>
-            <l>Et que durant ce temps il avait l’avantage</l>
-            <l>De se voir salué de tous ceux du village :</l>
-            <l>Baste, quoi qu’il en soit je veux par mes travaux…</l>
-            <l>Mais voici la Princesse, et deux de vos Rivaux.</l>
+            <l n="302" xml:id="l302">Il ne faut point, Seigneur, que je vous dissimule,</l>
+            <l n="303" xml:id="l303">Je n’ai rien fait encore, et n’ai point rencontré</l>
+            <l n="304" xml:id="l304">De temps pour lui parler qui fût selon mon gré :</l>
+            <l n="305" xml:id="l305">L’office de bouffon a des prérogatives ;</l>
+            <l n="306" xml:id="l306">Mais souvent on rabat nos libres tentatives :</l>
+            <l n="307" xml:id="l307">Le discours de vos feux est un peu délicat,</l>
+            <l n="308" xml:id="l308">Et c’est chez la Princesse une affaire d’État ;</l>
+            <l n="309" xml:id="l309">Vous savez de quel titre elle se glorifie,</l>
+            <l n="310" xml:id="l310">Et qu’elle a dans la tête une Philosophie</l>
+            <l n="311" xml:id="l311">Qui déclare la guerre au conjugal lien,</l>
+            <l n="312" xml:id="l312">Et vous traite l’Amour de déité de rien :</l>
+            <l n="313" xml:id="l313">Pour n’effaroucher point son humeur de tigresse</l>
+            <l n="314" xml:id="l314">Il me faut manier la chose avec adresse ;</l>
+            <l n="315" xml:id="l315">Car on doit regarder comme l’on parle aux grands,</l>
+            <l n="316" xml:id="l316">Et vous êtes parfois d’assez fâcheuses gens.</l>
+            <l n="317" xml:id="l317">Laissez-moi doucement conduire cette trame,</l>
+            <l n="318" xml:id="l318">Je me sens là pour vous un zèle tout de flamme,</l>
+            <l n="319" xml:id="l319">Vous êtes né mon Prince, et quelques autres nœuds</l>
+            <l n="320" xml:id="l320">Pourraient contribuer au bien que je vous veux :</l>
+            <l n="321" xml:id="l321">Ma mère dans son temps passait pour assez belle,</l>
+            <l n="322" xml:id="l322">Et naturellement n’était pas fort cruelle ;</l>
+            <l n="323" xml:id="l323">Feu votre Père alors, ce Prince généreux,</l>
+            <l n="324" xml:id="l324">Sur la galanterie était fort dangereux,</l>
+            <l n="325" xml:id="l325">Et je sais qu’Elpenor, qu’on appelait mon Père,</l>
+            <l n="326" xml:id="l326">À cause qu’il était le mari de ma Mère,</l>
+            <l n="327" xml:id="l327">Contait pour grand honneur aux Pasteurs d’aujourd’hui</l>
+            <l n="328" xml:id="l328">Que le Prince autrefois était venu chez lui,</l>
+            <l n="329" xml:id="l329">Et que durant ce temps il avait l’avantage</l>
+            <l n="330" xml:id="l330">De se voir salué de tous ceux du village :</l>
+            <l n="331" xml:id="l331">Baste, quoi qu’il en soit je veux par mes travaux…</l>
+            <l n="332" xml:id="l332">Mais voici la Princesse, et deux de vos Rivaux.</l>
           </sp>
-        </div>
-        <div type="scene" xml:id="I03">
+        </div2>
+        <div2 type="scene" xml:id="I03">
           <head>Scène Troisième</head>
           <argument>
             <p>La Princesse d’Élide parut ensuite, avec les Princes de Messène et de Pyle, lesquels firent remarquer en eux des caractères bien différents de celui du Prince d’Ithaque ; et lui cédèrent dans le cœur de la Princesse tous les avantages qu’il pouvait désirer : Cette aimable Princesse ne témoigna pas pourtant que le mérite de ce Prince eût fait aucune impression sur son esprit, et qu’elle l’eût quasi remarqué ; elle témoigna toujours, comme une autre Diane, n’aimer que la Chasse et les Forêts, et lorsque le Prince de Messène voulut lui faire valoir le service qu’il lui avait rendu, en la défaisant d’un fort grand Sanglier qui l’avait attaquée ; elle lui dit que sans rien diminuer de sa reconnaissance, elle trouvait son secours d’autant moins considérable, qu’elle en avait tué toute seule d’aussi furieux, et fût peut-être bien encore venue à bout de celui-ci.</p>
@@ -738,212 +738,208 @@
           <stage>La Princesse <hi rend="i">et sa suite</hi>, Aristomène, Théocle, Euryale, Arbate, Moron.</stage>
           <sp who="aristomene" xml:id="I03-1">
             <speaker>aristomène</speaker>
-            <l n="265">Reprochez-vous, Madame, à nos justes alarmes,</l>
-            <l>Ce péril dont tous deux avons sauvé vos charmes,</l>
-            <l>J’aurais pensé pour moi qu’abattre sous nos coups</l>
-            <l>Ce Sanglier qui portait sa fureur jusqu’à vous,</l>
-            <l>Était une aventure (ignorant votre Chasse)</l>
-            <l n="270">Dont à nos bons destins nous dussions rendre grâce :</l>
-            <l>Mais à cette froideur je connais clairement</l>
-            <l>Que je dois concevoir un autre sentiment,</l>
-            <l>Et quereller du sort la fatale puissance</l>
-            <l>Qui me fait avoir part à ce qui vous offense.</l>
+            <l n="333" xml:id="l333">Reprochez-vous, Madame, à nos justes alarmes,</l>
+            <l n="334" xml:id="l334">Ce péril dont tous deux avons sauvé vos charmes,</l>
+            <l n="335" xml:id="l335">J’aurais pensé pour moi qu’abattre sous nos coups</l>
+            <l n="336" xml:id="l336">Ce Sanglier qui portait sa fureur jusqu’à vous,</l>
+            <l n="337" xml:id="l337">Était une aventure (ignorant votre Chasse)</l>
+            <l n="338" xml:id="l338">Dont à nos bons destins nous dussions rendre grâce :</l>
+            <l n="339" xml:id="l339">Mais à cette froideur je connais clairement</l>
+            <l n="340" xml:id="l340">Que je dois concevoir un autre sentiment,</l>
+            <l n="341" xml:id="l341">Et quereller du sort la fatale puissance</l>
+            <l n="342" xml:id="l342">Qui me fait avoir part à ce qui vous offense.</l>
           </sp>
           <sp who="theocle" xml:id="I03-2">
             <speaker>théocle</speaker>
-            <l n="275">Pour moi je tiens, Madame, à sensible bonheur</l>
-            <l>L’action où pour vous a volé tout mon cœur,</l>
-            <l>Et ne puis consentir, malgré votre murmure,</l>
-            <l>À quereller le sort d’une telle aventure :</l>
-            <l>D’un objet odieux je sais que tout déplaît ;</l>
-            <l n="280">Mais dût votre courroux être plus grand qu’il n’est,</l>
-            <l>C’est extrême plaisir, quand l’amour est extrême,</l>
-            <l>De pouvoir d’un péril affranchir ce qu’on aime.</l>
+            <l n="343" xml:id="l343">Pour moi je tiens, Madame, à sensible bonheur</l>
+            <l n="344" xml:id="l344">L’action où pour vous a volé tout mon cœur,</l>
+            <l n="345" xml:id="l345">Et ne puis consentir, malgré votre murmure,</l>
+            <l n="346" xml:id="l346">À quereller le sort d’une telle aventure :</l>
+            <l n="347" xml:id="l347">D’un objet odieux je sais que tout déplaît ;</l>
+            <l n="348" xml:id="l348">Mais dût votre courroux être plus grand qu’il n’est,</l>
+            <l n="349" xml:id="l349">C’est extrême plaisir, quand l’amour est extrême,</l>
+            <l n="350" xml:id="l350">De pouvoir d’un péril affranchir ce qu’on aime.</l>
           </sp>
           <sp who="princesse-elide" xml:id="I03-3">
             <speaker>La Princesse</speaker>
-            <l>Et pensez-vous, Seigneur, puisqu’il me faut parler,</l>
-            <l>Qu’il eût en ce péril de quoi tant m’ébranler ?</l>
-            <l n="285">Que l’Arc, et que le Dard, pour moi si pleins de charmes,</l>
-            <l>Ne soient entre mes mains que d’inutiles armes ?</l>
-            <l>Et que je fasse, enfin, mes plus fréquents emplois</l>
-            <l>De parcourir nos monts, nos plaines et nos bois,</l>
-            <l>Pour n’oser en chassant concevoir l’espérance</l>
-            <l n="290">De suffire moi seule à ma propre défense ?</l>
-            <l>Certes avec le temps j’aurais bien profité</l>
-            <l>De ces soins assidus dont je fais vanité</l>
-            <l>S’il fallait que mon bras, dans une telle quête,</l>
-            <l>Ne pût pas triompher d’une chétive bête ;</l>
-            <l n="295">Du moins si pour prétendre à de sensibles coups</l>
-            <l>Le commun de mon sexe est trop mal avec vous,</l>
-            <l>D’un étage plus haut accordez-moi la gloire,</l>
-            <l>Et me faites tous deux cette grâce de croire,</l>
-            <l>Seigneurs, que quel que fût le Sanglier d’aujourd’hui,</l>
-            <l n="300">J’en ai mis bas, sans vous, de plus méchants que lui.</l>
+            <l n="351" xml:id="l351">Et pensez-vous, Seigneur, puisqu’il me faut parler,</l>
+            <l n="352" xml:id="l352">Qu’il eût en ce péril de quoi tant m’ébranler ?</l>
+            <l n="353" xml:id="l353">Que l’Arc, et que le Dard, pour moi si pleins de charmes,</l>
+            <l n="354" xml:id="l354">Ne soient entre mes mains que d’inutiles armes ?</l>
+            <l n="355" xml:id="l355">Et que je fasse, enfin, mes plus fréquents emplois</l>
+            <l n="356" xml:id="l356">De parcourir nos monts, nos plaines et nos bois,</l>
+            <l n="357" xml:id="l357">Pour n’oser en chassant concevoir l’espérance</l>
+            <l n="358" xml:id="l358">De suffire moi seule à ma propre défense ?</l>
+            <l n="359" xml:id="l359">Certes avec le temps j’aurais bien profité</l>
+            <l n="360" xml:id="l360">De ces soins assidus dont je fais vanité</l>
+            <l n="361" xml:id="l361">S’il fallait que mon bras, dans une telle quête,</l>
+            <l n="362" xml:id="l362">Ne pût pas triompher d’une chétive bête ;</l>
+            <l n="363" xml:id="l363">Du moins si pour prétendre à de sensibles coups</l>
+            <l n="364" xml:id="l364">Le commun de mon sexe est trop mal avec vous,</l>
+            <l n="365" xml:id="l365">D’un étage plus haut accordez-moi la gloire,</l>
+            <l n="366" xml:id="l366">Et me faites tous deux cette grâce de croire,</l>
+            <l n="367" xml:id="l367">Seigneurs, que quel que fût le Sanglier d’aujourd’hui,</l>
+            <l n="368" xml:id="l368">J’en ai mis bas, sans vous, de plus méchants que lui.</l>
           </sp>
           <sp who="theocle" xml:id="I03-4">
             <speaker>théocle</speaker>
-            <l>Mais, Madame…</l>
+            <l n="369" xml:id="l369">Mais, Madame…</l>
           </sp>
           <sp who="princesse-elide" xml:id="I03-5">
             <speaker>La Princesse</speaker>
-            <l>Hé bien, soit, je vois que votre envie</l>
-            <l>Est de persuader que je vous dois la vie ;</l>
-            <l>J’y consens ; oui sans vous c’était fait de mes jours,</l>
-            <l>Je rends de tout mon cœur grâce à ce grand secours,</l>
-            <l n="305">Et je vais de ce pas au Prince pour lui dire</l>
-            <l>Les bontés que pour moi votre amour vous inspire.</l>
+            <l n="370" xml:id="l370">Hé bien, soit, je vois que votre envie</l>
+            <l n="371" xml:id="l371">Est de persuader que je vous dois la vie ;</l>
+            <l n="372" xml:id="l372">J’y consens ; oui sans vous c’était fait de mes jours,</l>
+            <l n="373" xml:id="l373">Je rends de tout mon cœur grâce à ce grand secours,</l>
+            <l n="374" xml:id="l374">Et je vais de ce pas au Prince pour lui dire</l>
+            <l n="375" xml:id="l375">Les bontés que pour moi votre amour vous inspire.</l>
           </sp>
-        </div>
-        <div type="scene" xml:id="I04">
+        </div2>
+        <div2 type="scene" xml:id="I04">
           <head>Scène Quatrième</head>
           <stage>Euryale, Moron, Arbate.</stage>
           <sp who="moron" xml:id="I04-1">
             <speaker>moron</speaker>
-            <l>Heu ! a-t-on jamais vu de plus farouche esprit ?</l>
-            <l>De ce vilain Sanglier l’heureux trépas l’aigrit :</l>
-            <l>Ô comme volontiers j’aurais d’un beau salaire</l>
-            <l n="310">Récompensé tantôt qui m’en eût su défaire !</l>
+            <l n="376" xml:id="l376">Heu ! a-t-on jamais vu de plus farouche esprit ?</l>
+            <l n="377" xml:id="l377">De ce vilain Sanglier l’heureux trépas l’aigrit :</l>
+            <l n="378" xml:id="l378">Ô comme volontiers j’aurais d’un beau salaire</l>
+            <l n="379" xml:id="l379">Récompensé tantôt qui m’en eût su défaire !</l>
           </sp>
           <sp who="arbate" xml:id="I04-2">
             <speaker>arbate</speaker>
-            <l>Je vous vois tout pensif, Seigneur, de ses dédains ;</l>
-            <l>Mais ils n’ont rien qui doive empêcher vos desseins,</l>
-            <l>Son heure doit venir, et c’est à vous possible</l>
-            <l>Qu’est réservé l’honneur de la rendre sensible.</l>
+            <l n="380" xml:id="l380">Je vous vois tout pensif, Seigneur, de ses dédains ;</l>
+            <l n="381" xml:id="l381">Mais ils n’ont rien qui doive empêcher vos desseins,</l>
+            <l n="382" xml:id="l382">Son heure doit venir, et c’est à vous possible</l>
+            <l n="383" xml:id="l383">Qu’est réservé l’honneur de la rendre sensible.</l>
           </sp>
           <sp who="moron" xml:id="I04-3">
             <speaker>moron</speaker>
-            <l n="315">Il faut qu’avant la course elle apprenne vos feux</l>
-            <l>Et je…</l>
+            <l n="384" xml:id="l384">Il faut qu’avant la course elle apprenne vos feux</l>
+            <l n="385" xml:id="l385">Et je…</l>
           </sp>
           <sp who="euryale" xml:id="I04-4">
             <speaker>euryale</speaker>
-            <l>Non, ce n’est plus, Moron, ce que je veux ;</l>
-            <l>Garde-toi de rien dire, et me laisse un peu faire,</l>
-            <l>J’ai résolu de prendre un chemin tout contraire ;</l>
-            <l>Je vois trop que son cœur s’obstine à dédaigner</l>
-            <l n="320">Tous ces profonds respects qui pensent la gagner,</l>
-            <l>Et le Dieu qui m’engage à soupirer pour elle</l>
-            <l>M’inspire pour la vaincre une adresse nouvelle :</l>
-            <l>Oui, c’est lui d’où me vient ce soudain mouvement,</l>
-            <l>Et j’en attends de lui l’heureux événement.</l>
+            <l n="386" xml:id="l386">Non, ce n’est plus, Moron, ce que je veux ;</l>
+            <l n="387" xml:id="l387">Garde-toi de rien dire, et me laisse un peu faire,</l>
+            <l n="388" xml:id="l388">J’ai résolu de prendre un chemin tout contraire ;</l>
+            <l n="389" xml:id="l389">Je vois trop que son cœur s’obstine à dédaigner</l>
+            <l n="390" xml:id="l390">Tous ces profonds respects qui pensent la gagner,</l>
+            <l n="391" xml:id="l391">Et le Dieu qui m’engage à soupirer pour elle</l>
+            <l n="392" xml:id="l392">M’inspire pour la vaincre une adresse nouvelle :</l>
+            <l n="393" xml:id="l393">Oui, c’est lui d’où me vient ce soudain mouvement,</l>
+            <l n="394" xml:id="l394">Et j’en attends de lui l’heureux événement.</l>
           </sp>
           <sp who="arbate" xml:id="I04-5">
             <speaker>arbate</speaker>
-            <l n="325">Peut-on savoir, Seigneur, par où votre espérance… ?</l>
+            <l n="395" xml:id="l395">Peut-on savoir, Seigneur, par où votre espérance… ?</l>
           </sp>
           <sp who="euryale" xml:id="I04-6">
             <speaker>euryale</speaker>
-            <l>Tu le vas voir, allons, et garde le silence.</l>
+            <l n="396" xml:id="l396">Tu le vas voir, allons, et garde le silence.</l>
           </sp>
           <label rend="i">Fin du premier Acte.</label>
-        </div>
-      </div>
-      <div xml:id="ii" type="interlude">
+        </div2>
+      </div1>
+      <div1 xml:id="Ib" type="interlude">
         <head>Deuxième Intermède</head>
         <argument>
           <p>L’agréable Moron laissa aller le Prince pour parler de sa passion naissante aux bois et aux rochers, et faisant retentir partout le beau nom de sa Bergère Philis, un Écho ridicule lui répondant bizarrement, il y prit si grand plaisir que riant en cent manières, il fit répondre autant de fois cet Écho, sans témoigner d’en être ennuyé : Mais un Ours vint interrompre ce beau divertissement, et le surprit si fort par cette vue peu attendue, qu’il donna des sensibles marques de sa peur : Il lui fit faire devant l’Ours toutes les soumissions dont il se pût aviser pour l’adoucir : Enfin se jetant à un arbre pour y monter, comme il vit que l’Ours y voulait grimper aussi bien que lui ; Il cria au secours d’une voix si haute, qu’elle attira huit Paysans armés de bâtons à deux bouts et d’épieux, pendant qu’un autre Ours parut ensuite du premier. Il se fit un Combat qui finit par la mort d’un des Ours, et par la fuite de l’autre :</p>
         </argument>
-        <div type="scene" xml:id="ii01">
+        <div2 type="scene" xml:id="Ib01">
           <head>Scène Première</head>
-          <sp who="moron" xml:id="ii01-1">
+          <sp who="moron" xml:id="Ib01-1">
             <speaker>moron</speaker>
             <p>Jusqu’au revoir ; pour moi je reste ici, et j’ai une petite conversation à faire avec ces arbres et ces rochers.</p>
-            <l>Bois, prés, fontaines, fleurs qui voyez mon teint blême,</l>
-            <l>Si vous ne le savez, je vous apprends que j’aime ;</l>
-            <l>Philis est l’objet charmant</l>
-            <l>Qui tient mon cœur à l’attache,</l>
-            <l>Et je devins son amant</l>
-            <l>La voyant traire une Vache.</l>
-            <l>Ses doigts tout pleins de lait, et plus blancs mille fois</l>
-            <l>Pressaient les bouts du pis d’une grâce admirable ;</l>
-            <l>Ouf ! Cette idée est capable</l>
-            <l>De me réduire aux abois.</l>
-            <l>Ah ! Philis, Philis, Philis.</l>
-            <l>Ah ! hem, ah ah ah ! hi hi hi hi. Oh oh oh oh.</l>
-            <l>Voilà un Écho qui est bouffon ! Hom hom hom,</l>
-            <l>ha ha ha ha ha.</l>
-            <l>Uh uh uh. Voilà un Écho qui est Bouffon !</l>
+            <l n="397" xml:id="l397">Bois, prés, fontaines, fleurs qui voyez mon teint blême,</l>
+            <l n="398" xml:id="l398">Si vous ne le savez, je vous apprends que j’aime ;</l>
+            <l n="399" xml:id="l399">Philis est l’objet charmant</l>
+            <l n="400" xml:id="l400">Qui tient mon cœur à l’attache,</l>
+            <l n="401" xml:id="l401">Et je devins son amant</l>
+            <l n="402" xml:id="l402">La voyant traire une Vache.</l>
+            <l n="403" xml:id="l403">Ses doigts tout pleins de lait, et plus blancs mille fois</l>
+            <l n="404" xml:id="l404">Pressaient les bouts du pis d’une grâce admirable ;</l>
+            <l n="405" xml:id="l405">Ouf ! Cette idée est capable</l>
+            <l n="406" xml:id="l406">De me réduire aux abois.</l>
+            <l n="407" xml:id="l407">Ah ! Philis, Philis, Philis.</l>
+            <l n="408" xml:id="l408">Ah ! hem, ah ah ah ! hi hi hi hi. Oh oh oh oh.</l>
+            <l n="409" xml:id="l409">Voilà un Écho qui est bouffon ! Hom hom hom,</l>
+            <l n="410" xml:id="l410">ha ha ha ha ha.</l>
+            <l n="411" xml:id="l411">Uh uh uh. Voilà un Écho qui est Bouffon !</l>
           </sp>
-        </div>
-        <div type="scene" xml:id="ii02">
+        </div2>
+        <div2 type="scene" xml:id="Ib02">
           <head>Scène Deuxième</head>
           <stage>Un Ours, Moron.</stage>
-          <sp who="moron" xml:id="ii02-1">
+          <sp who="moron" xml:id="Ib02-1">
             <speaker>moron</speaker>
             <p>Ah ! monsieur l’Ours,  je suis votre serviteur de tout mon cœur : de grâce épargnez-moi ! je vous assure que je ne vaux rien du tout à manger, je n’ai que la peau et les os, et je vois de certaines gens là-bas qui seraient bien mieux votre affaire. Eh ! eh ! eh ! monseigneur, tout doux s’il vous plaît. Là, là, là, là, ah ! monseigneur que votre altesse est jolie et bien faite ; elle a tout à fait l’air galant et la taille la plus mignonne du monde. Ah beau poil ! belle tête ! beaux yeux brillants et bien fendus ! ah beau petit nez ! belle petite bouche ! petites quenottes jolies ! ah belle gorge ! belles petites menottes ! petits ongles bien faits. À l’aide, au secours, je suis mort, miséricorde, pauvre Moron, ah, mon Dieu ! et vite, à moi, je suis perdu !</p>
             <stage>Les Chasseurs paraissent.</stage>
             <p>Eh, messieurs ayez pitié de moi ! bons messieurs tuez-moi ce vilain animal-là ! Ô Ciel ! daigne les assister. Bon, le voilà qui fuit, le voilà qui s’arrête et qui se jette sur eux. Bon en voilà un qui vient de lui donner un coup dans la gueule. Les voilà tous à l’entour de lui. Courage, ferme, allons mes amis. Bon, poussez fort, encore, ah ! le voilà qui est à terre, c’en est fait il est mort, descendons maintenant pour lui donner cent coups. Serviteur, Messieurs, je vous rends grâce de m’avoir délivré de cette bête, maintenant que vous l’avez tuée je m’en vais l’achever, et en triompher avec vous.</p>
           </sp>
           <stage>Ces heureux Chasseurs, n’eurent pas plutôt remporté cette victoire, que Moron devenu brave par l’éloignement du péril, voulut aller donner mille coups à la bête, qui n’était plus en état de se défendre, et fit tout ce qu’un fanfaron, qui n’aurait pas été trop hardi, eût pu faire en cette occasion ; et les Chasseurs pour témoigner leur joie, dansèrent une fort belle Entrée : C’étaient <persName type="actor">M. Manceau</persName>, <persName type="actor">les sieurs Chicanneau</persName>, <persName type="actor">Baltazard</persName>, <persName type="actor">Noblet</persName>, <persName type="actor">Bonard</persName>, <persName type="actor">Magny</persName>, et <persName type="actor">La Pierre</persName>.</stage>
-        </div>
-      </div>
-      <div type="act" xml:id="II">
+        </div2>
+      </div1>
+      <div1 xml:id="II" type="act">
         <head>Acte Deuxième</head>
         <argument>
           <label rend="n">ARGUMENT</label>
           <p>Le Prince d’Ithaque et la Princesse eurent une conversation fort galante sur la Course des chars qui se préparait : Elle avait dit auparavant à une des Princesses ses Parentes, que l’insensibilité du Prince d’Ithaque lui donnait de la peine et lui était honteuse : qu’encore qu’elle ne voulût rien aimer, il était bien fâcheux de voir qu’il n’aimait rien ; et que quoi qu’elle eût résolu de n’aller point voir les Courses, elle s’y voulait rendre, dans le dessein de tâcher à triompher de la liberté d’un homme qui la chérissait si fort. Il était facile de juger que le mérite de ce Prince produisait son effet ordinaire, que ses belles qualités avaient touché ce cœur superbe : et commencé à fondre une partie de cette glace qui avait résisté jusques alors à toutes les ardeurs de l’Amour, et plus il affectait (par le conseil de Moron qu’il avait gagné, et qui connaissait fort le cœur de la Princesse) de paraître insensible, et quoiqu’il ne fût que trop amoureux, plus la Princesse se mettait dans la tête de l’engager, quoiqu’elle n’eût pas fait dessein de s’engager elle-même. Les Princes de Messène et de Pyle prirent lors congé d’elle pour s’aller préparer aux Courses, et lui parlant de l’espérance qu’ils avaient de vaincre, par le désir qu’ils sentaient de lui plaire : Celui d’Ithaque lui témoigna au contraire, que n’ayant jamais rien aimé, il allait essayer à vaincre pour sa propre satisfaction, ce qui la piqua encore davantage à vouloir soumettre un cœur déjà assez soumis, mais qui savait déguiser ses sentiments le mieux du monde.</p>
         </argument>
-        <div type="scene" xml:id="II01">
+        <div2 type="scene" xml:id="II01">
           <head>Scène Première</head>
           <stage>La princesse. Aglante. Cynthie.</stage>
           <sp who="princesse-elide" xml:id="II01-1">
             <speaker>La Princesse</speaker>
-            <l>Oui j’aime à demeurer dans ces paisibles lieux,</l>
-            <l>On n’y découvre rien qui n’enchante les yeux,</l>
-            <l>Et de tous nos Palais la savante structure</l>
-            <l n="330">Cède aux simples beautés qu’y forme la nature :</l>
-            <l>Ces Arbres, ces Rochers, cette Eau, ces Gazons frais</l>
-            <l>Ont pour moi des appas à ne lasser jamais.</l>
+            <l n="412" xml:id="l412">Oui j’aime à demeurer dans ces paisibles lieux,</l>
+            <l n="413" xml:id="l413">On n’y découvre rien qui n’enchante les yeux,</l>
+            <l n="414" xml:id="l414">Et de tous nos Palais la savante structure</l>
+            <l n="415" xml:id="l415">Cède aux simples beautés qu’y forme la nature :</l>
+            <l n="416" xml:id="l416">Ces Arbres, ces Rochers, cette Eau, ces Gazons frais</l>
+            <l n="417" xml:id="l417">Ont pour moi des appas à ne lasser jamais.</l>
           </sp>
           <sp who="aglante" xml:id="II01-2">
             <speaker>aglante</speaker>
-            <l>Je chéris comme vous ces retraites tranquilles</l>
-            <l>Où l’on se vient sauver de l’embarras des Villes ;</l>
-            <l n="335">De mille objets charmants ces lieux sont embellis ;</l>
-            <l>Et ce qui doit surprendre, est qu’aux portes d’Élis</l>
-            <l>La douce passion de fuir la multitude</l>
-            <l>Rencontre une si belle, et vaste solitude :</l>
-            <l>Mais à vous dire vrai dans ces jours éclatants</l>
-            <l n="340">Vos retraites ici me semblent hors de temps,</l>
-            <l>Et c’est fort maltraiter l’appareil magnifique</l>
-            <l>Que chaque Prince a fait pour la Fête publique :</l>
-            <l>Ce spectacle pompeux de la Course des Chars</l>
-            <l>Devrait bien mériter l’honneur de vos regards.</l>
+            <l n="418" xml:id="l418">Je chéris comme vous ces retraites tranquilles</l>
+            <l n="419" xml:id="l419">Où l’on se vient sauver de l’embarras des Villes ;</l>
+            <l n="420" xml:id="l420">De mille objets charmants ces lieux sont embellis ;</l>
+            <l n="421" xml:id="l421">Et ce qui doit surprendre, est qu’aux portes d’Élis</l>
+            <l n="422" xml:id="l422">La douce passion de fuir la multitude</l>
+            <l n="423" xml:id="l423">Rencontre une si belle, et vaste solitude :</l>
+            <l n="424" xml:id="l424">Mais à vous dire vrai dans ces jours éclatants</l>
+            <l n="425" xml:id="l425">Vos retraites ici me semblent hors de temps,</l>
+            <l n="426" xml:id="l426">Et c’est fort maltraiter l’appareil magnifique</l>
+            <l n="427" xml:id="l427">Que chaque Prince a fait pour la Fête publique :</l>
+            <l n="428" xml:id="l428">Ce spectacle pompeux de la Course des Chars</l>
+            <l n="429" xml:id="l429">Devrait bien mériter l’honneur de vos regards.</l>
           </sp>
           <sp who="princesse-elide" xml:id="II01-3">
             <speaker>La Princesse</speaker>
-            <l n="345">Quel droit ont-ils chacun d’y vouloir ma présence ?</l>
-            <l>Et que dois-je après tout à leur magnificence ?</l>
-            <l>Ce sont soins que produit l’ardeur de m’acquérir,</l>
-            <l>Et mon cœur est le prix qu’ils veulent tous courir :</l>
-            <l>Mais quelque espoir qui flatte un projet de la sorte,</l>
-            <l n="350">Je me tromperai fort si pas un d’eux l’emporte.</l>
+            <l n="430" xml:id="l430">Quel droit ont-ils chacun d’y vouloir ma présence ?</l>
+            <l n="431" xml:id="l431">Et que dois-je après tout à leur magnificence ?</l>
+            <l n="432" xml:id="l432">Ce sont soins que produit l’ardeur de m’acquérir,</l>
+            <l n="433" xml:id="l433">Et mon cœur est le prix qu’ils veulent tous courir :</l>
+            <l n="434" xml:id="l434">Mais quelque espoir qui flatte un projet de la sorte,</l>
+            <l n="435" xml:id="l435">Je me tromperai fort si pas un d’eux l’emporte.</l>
           </sp>
           <sp who="cynthie" xml:id="II01-4">
             <speaker>Cynthie</speaker>
-            <l>Jusques à quand ce cœur veut-il s’effaroucher</l>
-            <l>Des innocents desseins qu’on a de le toucher ?</l>
-            <l>Et regarde les soins que pour vous on se donne,</l>
-            <l>Comme autant d’attentats contre votre personne ?</l>
-            <l n="355">Je sais qu’en défendant le parti de l’Amour</l>
-            <l>On s’expose chez vous à faire mal sa cour :</l>
-            <l>Mais ce que par le sang j’ai l’honneur de vous être</l>
-            <l>S’oppose aux duretés que vous faites paraître,</l>
-            <l>Et je ne puis nourrir d’un flatteur entretien</l>
-            <l n="360">Vos résolutions de n’aimer jamais rien.</l>
-            <l>Est-il rien de plus beau que l’innocente flamme</l>
-            <l>Qu’un mérite éclatant allume dans une âme ?</l>
-            <l>Et serait-ce un bonheur de respirer le jour</l>
-            <l>Si d’entre les mortels on bannissait l’Amour ?</l>
-            <l n="365">Non, non, tous les plaisirs se goûtent à le suivre,</l>
-            <l>Et vivre sans aimer n’est pas proprement vivre.</l>
+            <l n="436" xml:id="l436">Jusques à quand ce cœur veut-il s’effaroucher</l>
+            <l n="437" xml:id="l437">Des innocents desseins qu’on a de le toucher ?</l>
+            <l n="438" xml:id="l438">Et regarde les soins que pour vous on se donne,</l>
+            <l n="439" xml:id="l439">Comme autant d’attentats contre votre personne ?</l>
+            <l n="440" xml:id="l440">Je sais qu’en défendant le parti de l’Amour</l>
+            <l n="441" xml:id="l441">On s’expose chez vous à faire mal sa cour :</l>
+            <l n="442" xml:id="l442">Mais ce que par le sang j’ai l’honneur de vous être</l>
+            <l n="443" xml:id="l443">S’oppose aux duretés que vous faites paraître,</l>
+            <l n="444" xml:id="l444">Et je ne puis nourrir d’un flatteur entretien</l>
+            <l n="445" xml:id="l445">Vos résolutions de n’aimer jamais rien.</l>
+            <l n="446" xml:id="l446">Est-il rien de plus beau que l’innocente flamme</l>
+            <l n="447" xml:id="l447">Qu’un mérite éclatant allume dans une âme ?</l>
+            <l n="448" xml:id="l448">Et serait-ce un bonheur de respirer le jour</l>
+            <l n="449" xml:id="l449">Si d’entre les mortels on bannissait l’Amour ?</l>
+            <l n="450" xml:id="l450">Non, non, tous les plaisirs se goûtent à le suivre,</l>
+            <l n="451" xml:id="l451">Et vivre sans aimer n’est pas proprement vivre.</l>
           </sp>
-          <note>
-            <label rend="n">AVIS.</label>
-            <p>Le dessein de l’Auteur était de traiter ainsi toute la Comédie ; mais un commandement du Roi qui pressa cette affaire, l’obligea d’achever tout le reste en prose, et de passer légèrement sur plusieurs Scènes, qu’il aurait étendues davantage, s’il avait eu plus de loisir.</p>
-          </note>
           <sp who="aglante" xml:id="II01-5">
             <speaker>aglante</speaker>
             <p>Pour moi je tiens que cette passion est la plus agréable affaire de la vie, qu’il est nécessaire d’aimer pour vivre heureusement, et que tous les plaisirs sont fades s’il ne s’y mêle un peu d’amour.</p>
@@ -976,8 +972,8 @@
             <speaker>La Princesse</speaker>
             <p>Les croyances publiques sont toujours mêlées d’erreur : Les Dieux ne sont point faits comme se les fait le vulgaire, et c’est leur manquer de respect que de leur attribuer les faiblesses des hommes.</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="II02">
+        </div2>
+        <div2 type="scene" xml:id="II02">
           <head>Scène Deuxième</head>
           <stage>Moron. la Princesse, Aglante, Cynthie, Philis.</stage>
           <sp who="aglante" xml:id="II02-1">
@@ -1012,8 +1008,8 @@
             <speaker>Cynthie</speaker>
             <p>Sans doute, on aurait tort…</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="II03">
+        </div2>
+        <div2 type="scene" xml:id="II03">
           <head>Scène Troisième</head>
           <stage>Lycas, La Princesse, Aglante, Cynthie, Philis, Moron.</stage>
           <sp who="lycas" xml:id="II03-1">
@@ -1024,8 +1020,8 @@
             <speaker>La Princesse</speaker>
             <p>Ô Ciel ! que prétend-il faire en me les amenant ? Aurait-il résolu ma perte, et voudrait-il bien me forcer au choix de quelqu’un d’eux ?</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="II04">
+        </div2>
+        <div2 type="scene" xml:id="II04">
           <head>Scène Quatrième</head>
           <stage>Le Prince, Euryale, Aristomène, Théocle, La Princesse, Aglante, Cynthie, Philis, Moron.</stage>
           <sp who="princesse-elide" xml:id="II04-1">
@@ -1082,197 +1078,197 @@
             <p>Ah ! n’appréhendez rien, je vous prie, allons, je vous réponds de moi.</p>
           </sp>
           <label rend="i">Fin du deuxième Acte.</label>
-        </div>
-      </div>
-      <div xml:id="iii" type="interlude">
+        </div2>
+      </div1>
+      <div1 xml:id="IIb" type="interlude">
         <head>Troisième Intermède</head>
-        <div type="scene" xml:id="iii01">
+        <div2 type="scene" xml:id="IIb01">
           <head>Scène Première</head>
           <stage>Moron, Philis.</stage>
-          <sp who="moron" xml:id="iii01-1">
+          <sp who="moron" xml:id="IIb01-1">
             <speaker>moron</speaker>
             <p>Philis demeure ici ?</p>
           </sp>
-          <sp who="philis" xml:id="iii01-2">
+          <sp who="philis" xml:id="IIb01-2">
             <speaker>Philis</speaker>
             <p>Non laisse-moi suivre les autres.</p>
           </sp>
-          <sp who="moron" xml:id="iii01-3">
+          <sp who="moron" xml:id="IIb01-3">
             <speaker>moron</speaker>
             <p>Ah ! cruelle si c’était Tircis qui t’en priât, tu demeurerais bien vite.</p>
           </sp>
-          <sp who="philis" xml:id="iii01-4">
+          <sp who="philis" xml:id="IIb01-4">
             <speaker>Philis</speaker>
             <p>Cela se pourrait faire, et je demeure d’accord que je trouve bien mieux mon compte avec l’un qu’avec l’autre ; car il me divertit avec sa voix, et toi tu m’étourdis de ton caquet. Lorsque tu chanteras aussi bien que lui, je te promets de t’écouter.</p>
           </sp>
-          <sp who="moron" xml:id="iii01-5">
+          <sp who="moron" xml:id="IIb01-5">
             <speaker>moron</speaker>
             <p>Eh ! demeure un peu !</p>
           </sp>
-          <sp who="philis" xml:id="iii01-6">
+          <sp who="philis" xml:id="IIb01-6">
             <speaker>Philis</speaker>
             <p>Je ne saurais.</p>
           </sp>
-          <sp who="moron" xml:id="iii01-7">
+          <sp who="moron" xml:id="IIb01-7">
             <speaker>moron</speaker>
             <p>De grâce !</p>
           </sp>
-          <sp who="philis" xml:id="iii01-8">
+          <sp who="philis" xml:id="IIb01-8">
             <speaker>Philis</speaker>
             <p>Point te dis-je.</p>
           </sp>
-          <sp who="moron" xml:id="iii01-9">
+          <sp who="moron" xml:id="IIb01-9">
             <speaker>moron</speaker>
             <p>Je ne te laisserai point aller.</p>
           </sp>
-          <sp who="philis" xml:id="iii01-10">
+          <sp who="philis" xml:id="IIb01-10">
             <speaker>Philis</speaker>
             <p>Ah ! que de façons.</p>
           </sp>
-          <sp who="moron" xml:id="iii01-11">
+          <sp who="moron" xml:id="IIb01-11">
             <speaker>moron</speaker>
             <p>Je ne te demande qu’un moment à être avec toi !</p>
           </sp>
-          <sp who="philis" xml:id="iii01-12">
+          <sp who="philis" xml:id="IIb01-12">
             <speaker>Philis</speaker>
             <p>Eh bien ! oui, j’y demeurerai, pourvu que tu me promettes une chose !</p>
           </sp>
-          <sp who="moron" xml:id="iii01-13">
+          <sp who="moron" xml:id="IIb01-13">
             <speaker>moron</speaker>
             <p>Et quelle ?</p>
           </sp>
-          <sp who="philis" xml:id="iii01-14">
+          <sp who="philis" xml:id="IIb01-14">
             <speaker>Philis</speaker>
             <p>De ne me point parler du tout.</p>
           </sp>
-          <sp who="moron" xml:id="iii01-15">
+          <sp who="moron" xml:id="IIb01-15">
             <speaker>moron</speaker>
             <p>Eh ! Philis !</p>
           </sp>
-          <sp who="philis" xml:id="iii01-16">
+          <sp who="philis" xml:id="IIb01-16">
             <speaker>Philis</speaker>
             <p>À moins que de cela je ne demeurerai point avec toi.</p>
           </sp>
-          <sp who="moron" xml:id="iii01-17">
+          <sp who="moron" xml:id="IIb01-17">
             <speaker>moron</speaker>
             <p>Veux-tu me…</p>
           </sp>
-          <sp who="philis" xml:id="iii01-18">
+          <sp who="philis" xml:id="IIb01-18">
             <speaker>Philis</speaker>
             <p>Laisse-moi aller !</p>
           </sp>
-          <sp who="moron" xml:id="iii01-19">
+          <sp who="moron" xml:id="IIb01-19">
             <speaker>moron</speaker>
             <p>Eh bien, oui, demeure : je ne dirai mot.</p>
           </sp>
-          <sp who="philis" xml:id="iii01-20">
+          <sp who="philis" xml:id="IIb01-20">
             <speaker>Philis</speaker>
             <p>Prends-y bien garde au moins ; car à la moindre parole je prends la fuite.</p>
           </sp>
-          <sp who="moron" xml:id="iii01-21">
+          <sp who="moron" xml:id="IIb01-21">
             <speaker>moron</speaker>
             <stage>Il fait une scène de gestes.</stage>
             <p>Soit. Ah ! Philis… Eh… Elle s’enfuit, et je ne saurais l’attraper. Voilà ce que c’est, si je savais chanter j’en ferais bien mieux mes affaires. La plupart des Femmes aujourd’hui se laissent prendre par les oreilles : Elles sont cause que tout le monde se mêle de Musique, et l’on ne réussit auprès d’elles, que par les petites chansons, et les petits vers qu’on leur fait entendre. Il faut que j’apprenne à chanter pour faire comme les autres, bon, voici justement mon homme.</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="iii02">
+        </div2>
+        <div2 type="scene" xml:id="IIb02">
           <head>Scène Deuxième</head>
           <stage>Satyre, Moron.</stage>
-          <sp who="satyre" xml:id="iii02-1">
+          <sp who="satyre" xml:id="IIb02-1">
             <speaker>satyre</speaker>
             <p>La, la, la.</p>
           </sp>
-          <sp who="moron" xml:id="iii02-2">
+          <sp who="moron" xml:id="IIb02-2">
             <speaker>moron</speaker>
             <p>Ah ! Satyre mon ami, tu sais bien ce que tu m’as promis il y a longtemps, apprends-moi à chanter, je te prie.</p>
           </sp>
-          <sp who="satyre" xml:id="iii02-3">
+          <sp who="satyre" xml:id="IIb02-3">
             <speaker>satyre</speaker>
             <p>Je le veux ; mais auparavant écoute une chanson que je viens de faire.</p>
           </sp>
-          <sp who="moron" xml:id="iii02-4">
+          <sp who="moron" xml:id="IIb02-4">
             <speaker>moron</speaker>
             <p>Il est si accoutumé à chanter qu’il ne saurait parler d’autre façon. Allons chante, j’écoute.</p>
           </sp>
-          <sp who="satyre" xml:id="iii02-5">
+          <sp who="satyre" xml:id="IIb02-5">
             <speaker>satyre</speaker>
             <p>Je portais…</p>
           </sp>
-          <sp who="moron" xml:id="iii02-6">
+          <sp who="moron" xml:id="IIb02-6">
             <speaker>moron</speaker>
             <p>Une chanson, dis-tu ?</p>
           </sp>
-          <sp who="satyre" xml:id="iii02-7">
+          <sp who="satyre" xml:id="IIb02-7">
             <speaker>satyre</speaker>
             <p>Je port…</p>
           </sp>
-          <sp who="moron" xml:id="iii02-8">
+          <sp who="moron" xml:id="IIb02-8">
             <speaker>moron</speaker>
             <p>Une chanson à chanter ?</p>
           </sp>
-          <sp who="satyre" xml:id="iii02-9">
+          <sp who="satyre" xml:id="IIb02-9">
             <speaker>satyre</speaker>
             <p>Je port…</p>
           </sp>
-          <sp who="moron" xml:id="iii02-10">
+          <sp who="moron" xml:id="IIb02-10">
             <speaker>moron</speaker>
             <p>Chanson amoureuse, peste.</p>
           </sp>
-          <sp who="satyre" xml:id="iii02-11">
+          <sp who="satyre" xml:id="IIb02-11">
             <speaker>satyre</speaker>
-            <l>Je portais dans une cage</l>
-            <l>Deux moineaux que j’avais pris,</l>
-            <l>Lorsque la jeune Cloris</l>
-            <l>Fit dans un sombre bocage</l>
-            <l>Briller, à mes yeux surpris,</l>
-            <l>Les fleurs de son beau visage :</l>
-            <l>Hélas ! dis-je aux moineaux, en recevant les coups</l>
-            <l>De ses yeux si savants à faire des conquêtes,</l>
-            <l>Consolez-vous, pauvres petites bêtes,</l>
-            <l>Celui qui vous a pris est bien plus pris que vous.</l>
+            <l n="452" xml:id="l452">Je portais dans une cage</l>
+            <l n="453" xml:id="l453">Deux moineaux que j’avais pris,</l>
+            <l n="454" xml:id="l454">Lorsque la jeune Cloris</l>
+            <l n="455" xml:id="l455">Fit dans un sombre bocage</l>
+            <l n="456" xml:id="l456">Briller, à mes yeux surpris,</l>
+            <l n="457" xml:id="l457">Les fleurs de son beau visage :</l>
+            <l n="458" xml:id="l458">Hélas ! dis-je aux moineaux, en recevant les coups</l>
+            <l n="459" xml:id="l459">De ses yeux si savants à faire des conquêtes,</l>
+            <l n="460" xml:id="l460">Consolez-vous, pauvres petites bêtes,</l>
+            <l n="461" xml:id="l461">Celui qui vous a pris est bien plus pris que vous.</l>
             <stage>Moron ne fut pas satisfait de cette Chanson, quoiqu’il la trouvât jolie, il en demanda une plus passionnée, et priant le Satyre de lui dire celle qu’il lui avait ouï chanter quelques jours auparavant, il continua ainsi :</stage>
-            <l>Dans vos chants si doux,</l>
-            <l>Chantez à ma belle,</l>
-            <l>Oiseaux, chantez tous</l>
-            <l>Ma peine mortelle :</l>
-            <l>Mais si la cruelle</l>
-            <l>Se met en courroux</l>
-            <l>Au récit fidèle</l>
-            <l>Des maux que je sens pour elle ;</l>
-            <l>Oiseaux, taisez-vous.</l>
-            <l>Oiseaux, taisez-vous.</l>
+            <l n="462" xml:id="l462">Dans vos chants si doux,</l>
+            <l n="463" xml:id="l463">Chantez à ma belle,</l>
+            <l n="464" xml:id="l464">Oiseaux, chantez tous</l>
+            <l n="465" xml:id="l465">Ma peine mortelle :</l>
+            <l n="466" xml:id="l466">Mais si la cruelle</l>
+            <l n="467" xml:id="l467">Se met en courroux</l>
+            <l n="468" xml:id="l468">Au récit fidèle</l>
+            <l n="469" xml:id="l469">Des maux que je sens pour elle ;</l>
+            <l n="470" xml:id="l470">Oiseaux, taisez-vous.</l>
+            <l n="471" xml:id="l471">Oiseaux, taisez-vous.</l>
             <stage>Cette seconde Chanson ayant touché Moron fort sensiblement, il pria le Satyre de la lui apprendre à chanter ; et lui dit :</stage>
           </sp>
-          <sp who="moron" xml:id="iii02-12">
+          <sp who="moron" xml:id="IIb02-12">
             <speaker>moron</speaker>
             <p>Ah qu’elle est belle, apprends-la-moi !</p>
           </sp>
-          <sp who="satyre" xml:id="iii02-13">
+          <sp who="satyre" xml:id="IIb02-13">
             <speaker>satyre</speaker>
             <p>La, la, la, la.</p>
           </sp>
-          <sp who="moron" xml:id="iii02-14">
+          <sp who="moron" xml:id="IIb02-14">
             <speaker>moron</speaker>
             <p>La, la, la, la.</p>
           </sp>
-          <sp who="satyre" xml:id="iii02-15">
+          <sp who="satyre" xml:id="IIb02-15">
             <speaker>satyre</speaker>
             <p>Fa, fa, fa, fa.</p>
           </sp>
-          <sp who="moron" xml:id="iii02-16">
+          <sp who="moron" xml:id="IIb02-16">
             <speaker>moron</speaker>
             <p>Fa toi-même.</p>
             <stage>Le Satyre s’en mit en colère, et peu à peu se mettant en posture d’en venir à des coups de poing, les Violons reprirent un Air sur lequel ils dansèrent une plaisante Entrée.</stage>
           </sp>
-        </div>
-      </div>
-      <div type="act" xml:id="III">
+        </div2>
+      </div1>
+      <div1 xml:id="III" type="act">
         <head>Acte Troisième</head>
         <argument>
           <label rend="n">ARGUMENT</label>
           <p>La Princesse d’Élide était cependant dans d’étranges inquiétudes : le Prince d’Ithaque avait gagné le prix des Courses, elle avait dans la suite de ce divertissement fait des merveilles à chanter et à la danse, sans qu’il parût que les dons de la nature et de l’art eussent été quasi remarqués par le Prince d’Ithaque ; elle en fit de grandes plaintes à la Princesse sa parente ; elle en parla à Moron, qui fit passer cet insensible pour un brutal : Et enfin le voyant arriver lui-même, elle ne put s’empêcher de lui en toucher fort sérieusement quelque chose : Il lui répondit ingénument qu’il n’aimait rien, et qu’hors l’amour de sa liberté, et les plaisirs qu’elle trouvait si agréables de la solitude et de la Chasse rien ne le touchait.</p>
         </argument>
-        <div type="scene" xml:id="III01">
+        <div2 type="scene" xml:id="III01">
           <head>Scène Première</head>
           <stage>La Princesse, Aglante, Cynthie, Philis.</stage>
           <sp who="cynthie" xml:id="III01-1">
@@ -1283,8 +1279,8 @@
             <speaker>La Princesse</speaker>
             <p>Le voici qui s’entretient avec Moron ; nous saurons un peu de quoi il lui parle : Ne rompons point encore leur entretien, et prenons cette route pour revenir à leur rencontre.</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="III02">
+        </div2>
+        <div2 type="scene" xml:id="III02">
           <head>Scène Deuxième</head>
           <stage>Euryale, Moron, Arbate.</stage>
           <sp who="euryale" xml:id="III02-1">
@@ -1303,8 +1299,8 @@
             <speaker>moron</speaker>
             <p>Demeurez ferme, au moins, dans le chemin que vous avez pris : Je m’en vais voir ce qu’elle me dira : cependant promenez-vous ici dans ces petites routes sans faire aucun semblant d’avoir envie de la joindre, et si vous l’abordez, demeurez avec elle le moins qu’il vous sera possible.</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="III03">
+        </div2>
+        <div2 type="scene" xml:id="III03">
           <head>Scène Troisième</head>
           <stage>La Princesse, Moron.</stage>
           <sp who="princesse-elide" xml:id="III03-1">
@@ -1391,8 +1387,8 @@
             <speaker>La Princesse</speaker>
             <p>De grâce, Moron, va le faire aviser que je suis ici, et l’oblige à me venir aborder.</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="III04">
+        </div2>
+        <div2 type="scene" xml:id="III04">
           <head>Scène Quatrième</head>
           <stage>La Princesse, Euryale, Moron, Arbate.</stage>
           <sp who="moron" xml:id="III04-1">
@@ -1475,8 +1471,8 @@
             <speaker>euryale</speaker>
             <p>Le Ciel ne m’a pas fait d’une autre humeur : mais, Madame, j’interromps votre promenade, et mon respect doit m’avertir que vous aimez la solitude.</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="III05">
+        </div2>
+        <div2 type="scene" xml:id="III05">
           <head>Scène Cinquième</head>
           <stage>La Princesse, Moron, Philis, Tircis.</stage>
           <sp who="moron" xml:id="III05-1">
@@ -1544,149 +1540,149 @@
             <p>Si faut-il pourtant tenter toute chose, et éprouver si son âme est entièrement insensible. Allons, je veux lui parler, et suivre une pensée qui vient de me venir.</p>
           </sp>
           <label rend="i">Fin du troisième Acte.</label>
-        </div>
-      </div>
-      <div xml:id="iv" type="interlude">
+        </div2>
+      </div1>
+      <div1 xml:id="IIIb" type="interlude">
         <head>Quatrieme Intermède</head>
-        <div type="scene" xml:id="iv01">
+        <div2 type="scene" xml:id="IIIb01">
           <head>Scène Première</head>
           <stage>Philis, Tircis.</stage>
-          <sp who="philis" xml:id="iv01-1">
+          <sp who="philis" xml:id="IIIb01-1">
             <speaker>Philis</speaker>
             <p>Viens, Tircis, laissons-les aller, et me dis un peu ton martyre de la façon que tu sais faire ? Il y a longtemps que tes yeux me parlent ; mais je suis plus aise d’ouïr ta voix.</p>
           </sp>
-          <sp who="tircis" xml:id="iv01-2">
+          <sp who="tircis" xml:id="IIIb01-2">
             <speaker>tircis, <hi rend="i">en chantant</hi></speaker>
-            <l>Tu m’écoutes, hélas ! dans ma triste langueur ;</l>
-            <l>Mais je n’en suis pas mieux, ô ! beauté sans pareille !</l>
-            <l>Et je touche ton oreille,</l>
-            <l>Sans que je touche ton cœur.</l>
+            <l n="472" xml:id="l472">Tu m’écoutes, hélas ! dans ma triste langueur ;</l>
+            <l n="473" xml:id="l473">Mais je n’en suis pas mieux, ô ! beauté sans pareille !</l>
+            <l n="474" xml:id="l474">Et je touche ton oreille,</l>
+            <l n="475" xml:id="l475">Sans que je touche ton cœur.</l>
           </sp>
-          <sp who="philis" xml:id="iv01-3">
+          <sp who="philis" xml:id="IIIb01-3">
             <speaker>Philis</speaker>
             <p>Va, va, c’est déjà quelque chose que de toucher l’oreille, et le temps amène tout. Chante-moi cependant quelque plainte nouvelle que tu aies composée pour moi.</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="iv02">
+        </div2>
+        <div2 type="scene" xml:id="IIIb02">
           <head>Scène Deuxième</head>
           <stage>Moron, Philis, Tircis.</stage>
-          <sp who="moron" xml:id="iv02-1">
+          <sp who="moron" xml:id="IIIb02-1">
             <speaker>moron</speaker>
             <p>Ah ! ah ! je vous y prends, cruelle, vous vous écartez des autres pour ouïr mon rival ?</p>
           </sp>
-          <sp who="philis" xml:id="iv02-2">
+          <sp who="philis" xml:id="IIIb02-2">
             <speaker>Philis</speaker>
             <p>Oui, je m’écarte pour cela, je te le dis encore : Je me plais avec lui, et l’on écoute volontiers les amants lorsqu’ils se plaignent aussi agréablement qu’il fait. Que ne chantes-tu comme lui ? Je prendrais plaisir à t’écouter.</p>
           </sp>
-          <sp who="moron" xml:id="iv02-3">
+          <sp who="moron" xml:id="IIIb02-3">
             <speaker>moron</speaker>
             <p>Si je ne sais chanter, je sais faire autre chose, et quand…</p>
           </sp>
-          <sp who="philis" xml:id="iv02-4">
+          <sp who="philis" xml:id="IIIb02-4">
             <speaker>Philis</speaker>
             <p>Tais-toi ! je veux l’entendre. Dis, Tircis, ce que tu voudras.</p>
           </sp>
-          <sp who="moron" xml:id="iv02-5">
+          <sp who="moron" xml:id="IIIb02-5">
             <speaker>moron</speaker>
             <p>Ah ! cruelle…</p>
           </sp>
-          <sp who="philis" xml:id="iv02-6">
+          <sp who="philis" xml:id="IIIb02-6">
             <speaker>Philis</speaker>
             <p>Silence, dis-je, ou je me mettrai en colère.</p>
           </sp>
-          <sp who="tircis" xml:id="iv02-7">
+          <sp who="tircis" xml:id="IIIb02-7">
             <speaker>tircis, <hi rend="i">en chantant</hi></speaker>
-            <l>Arbres épais, et vous prés émaillés,</l>
-            <l>La beauté dont l’Hiver vous avait dépouillés</l>
-            <l>Par le Printemps vous est rendue :</l>
-            <l>Vous reprenez tous vos appas ;</l>
-            <l>Mais mon âme ne reprend pas</l>
-            <l>La joie, hélas ! que j’ai perdue.</l>
+            <l n="476" xml:id="l476">Arbres épais, et vous prés émaillés,</l>
+            <l n="477" xml:id="l477">La beauté dont l’Hiver vous avait dépouillés</l>
+            <l n="478" xml:id="l478">Par le Printemps vous est rendue :</l>
+            <l n="479" xml:id="l479">Vous reprenez tous vos appas ;</l>
+            <l n="480" xml:id="l480">Mais mon âme ne reprend pas</l>
+            <l n="481" xml:id="l481">La joie, hélas ! que j’ai perdue.</l>
           </sp>
-          <sp who="moron" xml:id="iv02-8">
+          <sp who="moron" xml:id="IIIb02-8">
             <speaker>moron</speaker>
             <p>Morbleu que n’ai-je de la voix ? Ah ! nature marâtre ! pourquoi ne m’as-tu pas donné de quoi chanter comme à un autre ?</p>
           </sp>
-          <sp who="philis" xml:id="iv02-9">
+          <sp who="philis" xml:id="IIIb02-9">
             <speaker>Philis</speaker>
             <p>En vérité, Tircis, il ne se peut rien de plus agréable, et tu l’emportes sur tous les Rivaux que tu as.</p>
           </sp>
-          <sp who="moron" xml:id="iv02-10">
+          <sp who="moron" xml:id="IIIb02-10">
             <speaker>moron</speaker>
             <p>Mais pourquoi est-ce que je ne puis pas chanter ? N’ai-je pas un estomac, un gosier, et une langue comme un autre ? Oui, oui, allons, je veux chanter aussi, et te montrer que l’Amour fait faire toutes choses. Voici une chanson que j’ai faite pour toi.</p>
           </sp>
-          <sp who="philis" xml:id="iv02-11">
+          <sp who="philis" xml:id="IIIb02-11">
             <speaker>Philis</speaker>
             <p>Oui, dis ? je veux bien t’écouter pour la rareté du fait.</p>
           </sp>
-          <sp who="moron" xml:id="iv02-12">
+          <sp who="moron" xml:id="IIIb02-12">
             <speaker>moron</speaker>
             <p>Courage, Moron, il n’y a qu’à avoir de la hardiesse.</p>
             <stage>Moron chante.</stage>
-            <l>Ton extrême rigueur</l>
-            <l>S’acharne sur mon cœur,</l>
-            <l>Ah ! Philis je trépasse !</l>
-            <l>Daigne me secourir :</l>
-            <l>En seras-tu plus grasse</l>
-            <l>De m’avoir fait mourir ?</l>
-            <l><hi rend="i">Vivat,</hi> Moron.</l>
+            <l n="482" xml:id="l482">Ton extrême rigueur</l>
+            <l n="483" xml:id="l483">S’acharne sur mon cœur,</l>
+            <l n="484" xml:id="l484">Ah ! Philis je trépasse !</l>
+            <l n="485" xml:id="l485">Daigne me secourir :</l>
+            <l n="486" xml:id="l486">En seras-tu plus grasse</l>
+            <l n="487" xml:id="l487">De m’avoir fait mourir ?</l>
+            <l n="488" xml:id="l488"><hi rend="i">Vivat,</hi> Moron.</l>
           </sp>
-          <sp who="philis" xml:id="iv02-13">
+          <sp who="philis" xml:id="IIIb02-13">
             <speaker>Philis</speaker>
             <p>Voilà qui est le mieux du monde : mais, Moron, je souhaiterais bien d’avoir la gloire, que quelque Amant fût mort pour moi ; c’est un avantage dont je n’ai point encore joui, et je trouve que j’aimerais de tout mon cœur une personne qui m’aimerait assez pour se donner la mort.</p>
           </sp>
-          <sp who="moron" xml:id="iv02-14">
+          <sp who="moron" xml:id="IIIb02-14">
             <speaker>moron</speaker>
             <p>Tu aimerais une personne qui se tuerait pour toi ?</p>
           </sp>
-          <sp who="philis" xml:id="iv02-15">
+          <sp who="philis" xml:id="IIIb02-15">
             <speaker>Philis</speaker>
             <p>Oui.</p>
           </sp>
-          <sp who="moron" xml:id="iv02-16">
+          <sp who="moron" xml:id="IIIb02-16">
             <speaker>moron</speaker>
             <p>Il ne faut que cela pour te plaire ?</p>
           </sp>
-          <sp who="philis" xml:id="iv02-17">
+          <sp who="philis" xml:id="IIIb02-17">
             <speaker>Philis</speaker>
             <p>Non.</p>
           </sp>
-          <sp who="moron" xml:id="iv02-18">
+          <sp who="moron" xml:id="IIIb02-18">
             <speaker>moron</speaker>
             <p>Voilà qui est fait, je te veux montrer que je me sais tuer quand je veux.</p>
           </sp>
-          <sp who="tircis" xml:id="iv02-19">
+          <sp who="tircis" xml:id="IIIb02-19">
             <speaker>tircis, <hi rend="i">chante</hi></speaker>
-            <l>Ah ! quelle douceur extrême,</l>
-            <l>De mourir pour ce qu’on aime. <hi rend="i">bis.</hi></l>
+            <l n="489" xml:id="l489">Ah ! quelle douceur extrême,</l>
+            <l n="490" xml:id="l490">De mourir pour ce qu’on aime. <hi rend="i">bis.</hi></l>
           </sp>
-          <sp who="moron" xml:id="iv02-20">
+          <sp who="moron" xml:id="IIIb02-20">
             <speaker>moron</speaker>
             <p>C’est un plaisir que vous aurez quand vous voudrez.</p>
           </sp>
-          <sp who="tircis" xml:id="iv02-21">
+          <sp who="tircis" xml:id="IIIb02-21">
             <speaker>tircis, <hi rend="i">chante</hi></speaker>
-            <l>Courage Moron ! meurs promptement</l>
-            <l>En généreux Amant.</l>
+            <l n="491" xml:id="l491">Courage Moron ! meurs promptement</l>
+            <l n="492" xml:id="l492">En généreux Amant.</l>
           </sp>
-          <sp who="moron" xml:id="iv02-22">
+          <sp who="moron" xml:id="IIIb02-22">
             <speaker>moron</speaker>
             <p>Je vous prie de vous mêler de vos affaires, et de me laisser tuer à ma fantaisie. Allons je vais faire honte à tous les Amants ; Tiens ? je ne suis pas homme à faire tant de façons, vois ce poignard ! prends bien garde comme je vais me percer le cœur ! Je suis votre serviteur, quelque niais.</p>
             <stage>Se riant de Tircis.</stage>
           </sp>
-          <sp who="philis" xml:id="iv02-23">
+          <sp who="philis" xml:id="IIIb02-23">
             <speaker>Philis</speaker>
             <p>Allons, Tircis. Viens-t’en me redire à l’écho, ce que tu m’as chanté.</p>
           </sp>
-        </div>
-      </div>
-      <div type="act" xml:id="IV">
+        </div2>
+      </div1>
+      <div1 xml:id="IV" type="act">
         <head>Acte Quatrième</head>
         <argument>
           <label rend="n">ARGUMENT</label>
           <p>La Princesse espérant par une feinte pouvoir découvrir les sentiments du Prince d’Ithaque, elle lui fit confidence qu’elle aimait le Prince de Messène : Au lieu d’en paraître affligé il lui rendit la pareille, et lui fit connaître que la Princesse sa parente lui avait donné dans la vue, et qu’il la demanderait en Mariage au Roi son Père : À cette atteinte imprévue cette Princesse perdit toute sa constance ; et quoiqu’elle essayât à se contraindre devant lui, aussitôt qu’il fut sorti, elle demanda avec tant d’empressement à sa Cousine de ne recevoir point les services de ce Prince, et de ne l’épouser jamais, qu’elle ne put le lui refuser : Elle s’en plaignit même à Moron, qui lui ayant dit assez franchement qu’elle l’aimait donc, en fut chassé de sa présence.</p>
         </argument>
-        <div type="scene" xml:id="IV01">
+        <div2 type="scene" xml:id="IV01">
           <head>Scène Première</head>
           <stage>Euryale, La Princesse, Moron.</stage>
           <sp who="princesse-elide" xml:id="IV01-1">
@@ -1764,8 +1760,8 @@
             <speaker>moron</speaker>
             <p>Ah digne ! ah brave cœur !</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="IV02">
+        </div2>
+        <div2 type="scene" xml:id="IV02">
           <head>Scène Deuxième</head>
           <stage>La Princesse, Moron.</stage>
           <sp who="princesse-elide" xml:id="IV02-1">
@@ -1780,8 +1776,8 @@
             <speaker>La Princesse</speaker>
             <p>Ah ! ce m’est un dépit à me désespérer, qu’une autre ait l’avantage de soumettre ce cœur que je voulais soumettre.</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="IV03">
+        </div2>
+        <div2 type="scene" xml:id="IV03">
           <head>Scène Troisième</head>
           <stage>La Princesse, Aglante, Moron.</stage>
           <sp who="princesse-elide" xml:id="IV03-1">
@@ -1812,8 +1808,8 @@
             <speaker>La Princesse</speaker>
             <p>Non, non, il n’aura pas la joie de me braver entièrement.</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="IV04">
+        </div2>
+        <div2 type="scene" xml:id="IV04">
           <head>Scène Quatrième</head>
           <stage>Aristomène, Moron, La Princesse, Aglante.</stage>
           <sp who="aristomene" xml:id="IV04-1">
@@ -1848,8 +1844,8 @@
             <speaker>La Princesse</speaker>
             <p>De grâce, Prince, brisons-là ce discours, et si vous voulez m’obliger, souffrez que je puisse jouir de deux moments de solitude.</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="IV05">
+        </div2>
+        <div2 type="scene" xml:id="IV05">
           <head>Scène Cinquième</head>
           <stage>La Princesse, Aglante, Moron.</stage>
           <sp who="princesse-elide" xml:id="IV05-1">
@@ -1889,93 +1885,93 @@
             <p>Ma foi son cœur en a sa provision, et…</p>
             <stage>Il rencontre un regard de la Princesse, qui l’oblige à se retirer.</stage>
           </sp>
-        </div>
-        <div type="scene" xml:id="IV06">
+        </div2>
+        <div2 type="scene" xml:id="IV06">
           <head>Scène SIXIÈME</head>
           <sp who="princesse-elide" xml:id="IV06-1">
             <speaker>La Princesse</speaker>
             <p>De quelle émotion inconnue sens-je mon cœur atteint ! et quelle inquiétude secrète est venue troubler tout d’un coup la tranquillité de mon âme ? Ne serait-ce point aussi, ce qu’on vient de me dire, et sans en rien savoir, n’aimerais-je point ce jeune Prince ? Ah ! si cela était je serais personne à me désespérer : mais il est impossible que cela soit, et je vois bien que je ne puis pas l’aimer. Quoi ? je serais capable de cette lâcheté. J’ai vu toute la Terre à mes pieds, avec la plus grande insensibilité du monde. Les respects, les hommages et les soumissions n’ont jamais pu toucher mon âme, et la fierté et le dédain en auraient triomphé. J’ai méprisé tous ceux qui m’ont aimée, et j’aimerais le seul qui me méprise ? Non, non, je sais bien que je ne l’aime pas. Il n’y a pas de raison à cela : Mais si ce n’est pas de l’amour que ce que je sens maintenant, qu’est-ce donc que ce peut être ? et d’où vient ce poison qui me court par toutes les veines, et ne me laisse point en repos avec moi-même ? Sors de mon cœur, qui que tu sois, ennemi qui te caches, attaque-moi visiblement, et deviens à mes yeux la plus affreuse bête de tous nos bois, afin que mon dard et mes flèches me puissent défaire de toi. Ô vous, admirables personnes, qui par la douceur de vos chants avez l’art d’adoucir les plus fâcheuses inquiétudes, approchez-vous d’ici de grâce, et tâchez de charmer avec votre Musique le chagrin où je suis.</p>
           </sp>
           <label rend="i">Fin du quatrième Acte.</label>
-        </div>
-      </div>
-      <div xml:id="v" type="interlude">
+        </div2>
+      </div1>
+      <div1 xml:id="IVb" type="interlude">
         <head>Cinquieme Intermède</head>
         <stage>Clymène, Philis.</stage>
-        <sp who="clymene" xml:id="v-1">
+        <sp who="clymene" xml:id="IVb-1">
           <speaker>Clymène</speaker>
-          <l>Chère Philis, dis-moi, que crois-tu de l’Amour ?</l>
+          <l n="493" xml:id="l493">Chère Philis, dis-moi, que crois-tu de l’Amour ?</l>
         </sp>
-        <sp who="philis" xml:id="v-2">
+        <sp who="philis" xml:id="IVb-2">
           <speaker>Philis</speaker>
-          <l>Toi-même, qu’en crois-tu, ma compagne fidèle ?</l>
+          <l n="494" xml:id="l494">Toi-même, qu’en crois-tu, ma compagne fidèle ?</l>
         </sp>
-        <sp who="clymene" xml:id="v-3">
+        <sp who="clymene" xml:id="IVb-3">
           <speaker>Clymène</speaker>
-          <l>On m’a dit que sa flamme est pire qu’un Vautour,</l>
-          <l>Et qu’on souffre en aimant une peine cruelle.</l>
+          <l n="495" xml:id="l495">On m’a dit que sa flamme est pire qu’un Vautour,</l>
+          <l n="496" xml:id="l496">Et qu’on souffre en aimant une peine cruelle.</l>
         </sp>
-        <sp who="philis" xml:id="v-4">
+        <sp who="philis" xml:id="IVb-4">
           <speaker>Philis</speaker>
-          <l>On m’a dit qu’il n’est point de passion plus belle,</l>
-          <l>Et que ne pas aimer c’est renoncer au jour.</l>
+          <l n="497" xml:id="l497">On m’a dit qu’il n’est point de passion plus belle,</l>
+          <l n="498" xml:id="l498">Et que ne pas aimer c’est renoncer au jour.</l>
         </sp>
-        <sp who="clymene" xml:id="v-5">
+        <sp who="clymene" xml:id="IVb-5">
           <speaker>Clymène</speaker>
-          <l>À qui des deux donnerons-nous victoire ?</l>
+          <l n="499" xml:id="l499">À qui des deux donnerons-nous victoire ?</l>
         </sp>
-        <sp who="philis" xml:id="v-6">
+        <sp who="philis" xml:id="IVb-6">
           <speaker>Philis</speaker>
-          <l>Qu’en croirons-nous, ou le mal ou le bien ?</l>
+          <l n="500" xml:id="l500">Qu’en croirons-nous, ou le mal ou le bien ?</l>
         </sp>
-        <sp who="clymene" xml:id="v-7">
+        <sp who="clymene" xml:id="IVb-7">
           <speaker>Clymène, <hi rend="i">et</hi> philis <hi rend="i">ensemble</hi></speaker>
-          <l>Aimons, c’est le vrai moyen</l>
-          <l>De savoir ce qu’on en doit croire.</l>
+          <l n="501" xml:id="l501">Aimons, c’est le vrai moyen</l>
+          <l n="502" xml:id="l502">De savoir ce qu’on en doit croire.</l>
         </sp>
-        <sp who="philis" xml:id="v-8">
+        <sp who="philis" xml:id="IVb-8">
           <speaker>Philis</speaker>
-          <l>Cloris vante partout l’Amour et ses ardeurs.</l>
+          <l n="503" xml:id="l503">Cloris vante partout l’Amour et ses ardeurs.</l>
         </sp>
-        <sp who="clymene" xml:id="v-9">
+        <sp who="clymene" xml:id="IVb-9">
           <speaker>Clymène</speaker>
-          <l>Amarante pour lui verse en tous lieux des larmes.</l>
+          <l n="504" xml:id="l504">Amarante pour lui verse en tous lieux des larmes.</l>
         </sp>
-        <sp who="philis" xml:id="v-10">
+        <sp who="philis" xml:id="IVb-10">
           <speaker>Philis</speaker>
-          <l>Si de tant de tourments il accable les cœurs,</l>
-          <l>D’où vient qu’on aime à lui rendre les armes ?</l>
+          <l n="505" xml:id="l505">Si de tant de tourments il accable les cœurs,</l>
+          <l n="506" xml:id="l506">D’où vient qu’on aime à lui rendre les armes ?</l>
         </sp>
-        <sp who="clymene" xml:id="v-11">
+        <sp who="clymene" xml:id="IVb-11">
           <speaker>Clymène</speaker>
-          <l>Si sa flamme, Philis, est si pleine de charmes,</l>
-          <l>Pourquoi nous défend-on d’en goûter les douceurs ?</l>
+          <l n="507" xml:id="l507">Si sa flamme, Philis, est si pleine de charmes,</l>
+          <l n="508" xml:id="l508">Pourquoi nous défend-on d’en goûter les douceurs ?</l>
         </sp>
-        <sp who="philis" xml:id="v-12">
+        <sp who="philis" xml:id="IVb-12">
           <speaker>Philis</speaker>
-          <l>À qui des deux donnerons-nous victoire ?</l>
+          <l n="509" xml:id="l509">À qui des deux donnerons-nous victoire ?</l>
         </sp>
-        <sp who="clymene" xml:id="v-13">
+        <sp who="clymene" xml:id="IVb-13">
           <speaker>Clymène</speaker>
-          <l>Qu’en croirons-nous, ou le mal ou le bien :</l>
+          <l n="510" xml:id="l510">Qu’en croirons-nous, ou le mal ou le bien :</l>
         </sp>
-        <sp who="philis clymene" xml:id="v-14">
+        <sp who="philis clymene" xml:id="IVb-14">
           <speaker>toutes deux <hi rend="i">ensemble</hi></speaker>
-          <l>Aimons, c’est le vrai moyen</l>
-          <l>De savoir ce qu’on en doit croire.</l>
+          <l n="511" xml:id="l511">Aimons, c’est le vrai moyen</l>
+          <l n="512" xml:id="l512">De savoir ce qu’on en doit croire.</l>
         </sp>
-        <sp who="princesse-elide" xml:id="v-15">
+        <sp who="princesse-elide" xml:id="IVb-15">
           <speaker>La Princesse <hi rend="i">les interrompit en cet endroit, et leur dit</hi></speaker>
           <p>Achevez seules si vous voulez, je ne saurais demeurer en repos, et quelque douceur qu’aient vos chants, ils ne font que redoubler mon inquiétude.</p>
         </sp>
-      </div>
-      <div type="act" xml:id="V">
+      </div1>
+      <div1 xml:id="V" type="act">
         <head>Acte Cinquième</head>
         <argument>
           <label rend="n">ARGUMENT</label>
           <p>Il se passait dans le cœur du Prince de Messène des choses bien différentes ; la joie que lui avait donnée le Prince d’Ithaque, en lui apprenant malicieusement qu’il était aimé de la Princesse, l’avait obligé de l’aller trouver avec une inconsidération que rien qu’une extrême amour ne pouvait excuser ; mais il en avait été reçu d’une manière bien différente à ce qu’il espérait. Elle lui demanda qui lui avait appris cette nouvelle, et quand elle eut su que ç’avait été le Prince d’Ithaque, cette connaissance augmenta cruellement son mal, et lui fit dire à demi désespérée, c’est un étourdi ; et ce mot étourdit si fort le Prince de Messène, qu’il sortit tout confus sans lui pouvoir répondre. La Princesse d’un autre côté alla trouver le Roi son Père, qui venait de paraître avec le Prince d’Ithaque, et qui lui témoignait, non seulement la joie qu’il aurait eue de le voir entrer dans son alliance, mais même l’opinion qu’il commençait d’avoir que sa Fille ne le haïssait pas : Elle ne fut pas plutôt auprès de lui, que se jetant à ses pieds, elle lui demanda pour la plus grande faveur qu’elle en pût jamais recevoir, que le Prince d’Ithaque n’épousât jamais la Princesse. Ce qu’il lui promit solennellement ; mais il lui dit que si elle ne voulait point qu’il fût à une autre, il fallait qu’elle le prît pour elle : Elle lui répondit, il ne le voudrait pas ; mais d’une manière si passionnée, qu’il était aisé de connaître les sentiments de son cœur. Alors le Prince quittant toute sorte de feinte, lui confessa son amour, et le stratagème dont il s’était servi pour venir au point où il se voyait alors par la connaissance de son humeur. La Princesse lui donnant la main, le Roi se tourna vers les deux Princes de Messène et de Pyle, et leur demanda si ses deux Parentes, dont le mérite n’était pas moindre que la qualité, ne seraient point capables de les consoler de leur disgrâce ; ils lui répondirent que l’honneur de son alliance faisant tous leurs souhaits, ils ne pouvaient espérer une plus heureuse fortune. Alors la joie fut si grande dans le Palais, qu’elle se répandit par tous les environs.</p>
         </argument>
-        <div type="scene" xml:id="V01">
+        <div2 type="scene" xml:id="V01">
           <head>Scène Première</head>
           <stage>Le Prince, Euryale, Moron, Aglante, Cynthie.</stage>
           <sp who="moron" xml:id="V01-1">
@@ -1994,8 +1990,8 @@
             <speaker>Le Prince</speaker>
             <p>Prince, n’entrons point dans ces compliments, je trouve en vous de quoi remplir tous les souhaits d’un Père, et si vous avez le cœur de ma fille, il ne vous manque rien.</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="V02">
+        </div2>
+        <div2 type="scene" xml:id="V02">
           <head>Scène Deuxième</head>
           <stage>La Princesse, Le Prince, Euryale, Aglante, Cynthie, Moron.</stage>
           <sp who="princesse-elide" xml:id="V02-1">
@@ -2130,8 +2126,8 @@
             <speaker>moron</speaker>
             <p>Seigneur, je serai meilleur Courtisan une autre fois, et je me garderai bien de dire ce que je pense.</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="V03">
+        </div2>
+        <div2 type="scene" xml:id="V03">
           <head>Scène Troisième</head>
           <stage>Aristomène, Théocle, Le Prince, La Princesse, Aglante, Cynthie, Moron.</stage>
           <sp who="iphitas" xml:id="V03-1">
@@ -2142,8 +2138,8 @@
             <speaker>aristomène</speaker>
             <p>Seigneur, nous savons prendre notre parti, et si ces aimables Princesses n’ont point trop de mépris pour les cœurs qu’on a rebutés ; nous pouvons revenir par elles, à l’honneur de votre alliance.</p>
           </sp>
-        </div>
-        <div type="scene" xml:id="V04">
+        </div2>
+        <div2 type="scene" xml:id="V04">
           <head>Scène Quatrième</head>
           <stage>Philis, Aristomène, Théocle, Le Prince, La Princesse, Aglante, Cynthie, Moron.</stage>
           <sp xml:id="V04-1">
@@ -2151,9 +2147,9 @@
             <p>Seigneur, la Déesse Vénus vient d’annoncer partout le changement du cœur de la Princesse : Tous les Pasteurs et toutes les Bergères en témoignent leur joie par des danses et des chansons, et si ce n’est point un spectacle que vous méprisiez, vous allez voir l’allégresse publique se répandre jusques ici.</p>
           </sp>
           <label rend="i">Fin du cinquième Acte.</label>
-        </div>
-      </div>
-      <div xml:id="vi" type="interlude">
+        </div2>
+      </div1>
+      <div1 xml:id="Vb" type="interlude">
         <head>Sixième Intermède</head>
         <stage>CHŒUR de pasteurs et de Bergères qui dansent.</stage>
         <stage>Quatre Bergers et deux Bergères Héroïques, représentés les premiers par les Sieurs <persName type="actor">Le Gros</persName>, <persName type="actor">Estival</persName>, <persName type="actor">Don</persName> et <persName type="actor">Blondel</persName>, et les deux Bergères par Mademoiselle <persName type="actor">de la Barre</persName> et Mademoiselle <persName type="actor">Hilaire</persName>, se prenant par la main, chantèrent cette Chanson à danser, à laquelle les autres répondirent.</stage>
@@ -2172,22 +2168,22 @@
           </castItem>
         </castList>
         <label>CHANSON.</label>
-        <l>Usez mieux, ô ! beautés fières !</l>
-        <l>Du pouvoir de tout charmer ;</l>
-        <l>Aimez, aimables Bergères,</l>
-        <l>Nos cœurs sont faits pour aimer :</l>
-        <l>Quelque fort qu’on s’en défende,</l>
-        <l>Il y faut venir un jour :</l>
-        <l>Il n’est rien qui ne se rende</l>
-        <l>Aux doux charmes de l’Amour.</l>
-        <l>Songez de bonne heure à suivre</l>
-        <l>Le plaisir de s’enflammer,</l>
-        <l>Un cœur ne commence à vivre</l>
-        <l>Que du jour qu’il sait aimer :</l>
-        <l>Quelque fort qu’on s’en défende,</l>
-        <l>Il y faut venir un jour :</l>
-        <l>Il n’est rien qui ne se rende</l>
-        <l>Aux doux charmes de l’Amour.</l>
+        <l n="513" xml:id="l513">Usez mieux, ô ! beautés fières !</l>
+        <l n="514" xml:id="l514">Du pouvoir de tout charmer ;</l>
+        <l n="515" xml:id="l515">Aimez, aimables Bergères,</l>
+        <l n="516" xml:id="l516">Nos cœurs sont faits pour aimer :</l>
+        <l n="517" xml:id="l517">Quelque fort qu’on s’en défende,</l>
+        <l n="518" xml:id="l518">Il y faut venir un jour :</l>
+        <l n="519" xml:id="l519">Il n’est rien qui ne se rende</l>
+        <l n="520" xml:id="l520">Aux doux charmes de l’Amour.</l>
+        <l n="521" xml:id="l521">Songez de bonne heure à suivre</l>
+        <l n="522" xml:id="l522">Le plaisir de s’enflammer,</l>
+        <l n="523" xml:id="l523">Un cœur ne commence à vivre</l>
+        <l n="524" xml:id="l524">Que du jour qu’il sait aimer :</l>
+        <l n="525" xml:id="l525">Quelque fort qu’on s’en défende,</l>
+        <l n="526" xml:id="l526">Il y faut venir un jour :</l>
+        <l n="527" xml:id="l527">Il n’est rien qui ne se rende</l>
+        <l n="528" xml:id="l528">Aux doux charmes de l’Amour.</l>
         <stage>Pendant que ces aimables personnes dansaient, il sortit de dessous le Théâtre la machine d’un grand arbre chargé de seize Faunes, dont les huit jouèrent de la Flûte, et les autres du Violon, avec un concert le plus agréable du monde. Trente Violons leur répondaient de l’Orchestre, avec six autres concertants de Clavecins et de Théorbes, qui étaient les Sieurs <persName type="actor">d’Anglebert</persName>, <persName type="actor">Richard</persName>, <persName type="actor">Itier</persName>, <persName type="actor">la Barre le cadet</persName>, <persName type="actor">Tissu</persName>, et <persName type="actor">Le Moine</persName>.</stage>
         <stage>Et quatre Bergers et quatre Bergères vinrent danser une fort belle entrée, à laquelle les Faunes descendant de l’arbre se mêlèrent de temps en temps, et toute cette Scène fut si grande, si remplie et si agréable, qu’il ne s’était encore rien vu de plus beau en Ballet.</stage>
         <stage>Aussi fit-elle une avantageuse conclusion aux divertissements de ce jour, que toute la Cour ne loua pas moins que celui qui l’avait précédé, se retirant avec une satisfaction qui lui fit bien espérer de la suite d’une Fête si complète.</stage>
@@ -2199,7 +2195,7 @@
             <role xml:id="bergeres">Et les Bergères</role> : <actor>les Sieurs Baltazard, Magny, Arnald, et Bonard</actor>.
           </castItem>
         </castList>
-      </div>
+      </div1>
     </body>
   </text>
 </TEI>

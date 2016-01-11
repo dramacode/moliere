@@ -27,7 +27,7 @@
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Publié par Paul Fièvre en mai 2006, révision en 2015 par Amélie Canu et Oriane Morvan</publisher>
+        <publisher>LABEX OBVIL</publisher>
         <date when="2006"/>
         <date when="2015"/>
         <availability status="restricted">
@@ -121,7 +121,7 @@
             les joue eux-mêmes. C’est ce qu’ils ne peuvent souffrir</hi>.</p>
       </div>
       <div>
-        <head>ACTEURS</head>
+        <head>Acteurs</head>
         <castList>
           <castItem><role xml:id="madame-pernelle" rend="female veteran">Madame Pernelle</role>, <roleDesc>Mère d’Orgon</roleDesc>.</castItem>
           <castItem><role xml:id="orgon" rend="male">Orgon</role>, <roleDesc>Mari d’Elmire</roleDesc>.</castItem>
@@ -136,7 +136,7 @@
           <castItem><role xml:id="exempt" rend="male">Un exempt</role>.</castItem>
           <castItem><role xml:id="flipote" rend="female">Flipote</role>, Servante de Mme Pernelle.</castItem>
         </castList>
-        <set>La Scène est à Paris.</set>
+        <stage>La Scène est à Paris.</stage>
       </div>
     </front>
     <body>
@@ -175,7 +175,7 @@
           </sp>
           <sp xml:id="I01-6" who="dorine">
             <speaker>Dorine</speaker>
-            <l n="13" xml:id="l13">Si…</l>
+            <l n="13" xml:id="l13" part="I">Si…</l>
           </sp>
           <sp xml:id="I01-7" who="madame-pernelle">
             <speaker>Madame Pernelle</speaker>
@@ -185,7 +185,7 @@
           </sp>
           <sp xml:id="I01-8" who="damis">
             <speaker>Damis</speaker>
-            <l n="16" xml:id="l16">Mais…</l>
+            <l n="16" xml:id="l16" part="I">Mais…</l>
           </sp>
           <sp xml:id="I01-9" who="madame-pernelle">
             <speaker>Madame Pernelle</speaker>
@@ -197,7 +197,7 @@
           </sp>
           <sp xml:id="I01-10" who="mariane">
             <speaker>Mariane</speaker>
-            <l n="21" xml:id="l21">Je crois…</l>
+            <l n="21" xml:id="l21" part="I">Je crois…</l>
           </sp>
           <sp xml:id="I01-11" who="madame-pernelle">
             <speaker>Madame Pernelle</speaker>
@@ -208,7 +208,7 @@
           </sp>
           <sp xml:id="I01-12" who="elmire">
             <speaker>Elmire</speaker>
-            <l n="25" xml:id="l25">Mais, ma Mère…</l>
+            <l n="25" xml:id="l25" part="I">Mais, ma Mère…</l>
           </sp>
           <sp xml:id="I01-13" who="madame-pernelle">
             <speaker>Madame Pernelle</speaker>
@@ -223,7 +223,7 @@
           </sp>
           <sp xml:id="I01-14" who="cleante">
             <speaker>Cléante</speaker>
-            <l n="33" xml:id="l33">Mais, Madame, après tout…</l>
+            <l n="33" xml:id="l33" part="I">Mais, Madame, après tout…</l>
           </sp>
           <sp xml:id="I01-15" who="madame-pernelle">
             <speaker>Madame Pernelle</speaker>
@@ -295,7 +295,7 @@
           </sp>
           <sp xml:id="I01-25" who="madame-pernelle">
             <speaker>Madame Pernelle</speaker>
-            <l n="71" xml:id="l71">Voyez la langue !</l>
+            <l n="71" xml:id="l71" part="I">Voyez la langue !</l>
           </sp>
           <sp xml:id="I01-26" who="dorine">
             <speaker>Dorine</speaker>
@@ -424,7 +424,7 @@
             <stage>Donnant un soufflet à Flipote.</stage>
             <l n="169" xml:id="l169">Allons, vous ; vous rêvez, et bayez aux Corneilles ;</l>
             <l n="170" xml:id="l170">Jour de Dieu, je saurai vous frotter les oreilles ;</l>
-            <l n="171" xml:id="l171">Marchons, gaupe, marchons.</l>
+            <l n="171" xml:id="l171" part="I">Marchons, gaupe, marchons.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="I02">
@@ -434,7 +434,7 @@
             <speaker>Cléante</speaker>
             <l n="171" part="F">Je n’y veux point aller,</l>
             <l n="172" xml:id="l172">De peur qu’elle ne vînt encor me quereller ;</l>
-            <l n="173" xml:id="l173">Que cette bonne Femme...</l>
+            <l n="173" xml:id="l173" part="I">Que cette bonne Femme...</l>
           </sp>
           <sp xml:id="I02-2" who="dorine">
             <speaker>Dorine</speaker>
@@ -508,7 +508,7 @@
             <l n="220" xml:id="l220">Et vous n’ignorez pas quel intérêt j’y prends.</l>
             <l n="221" xml:id="l221">Si même ardeur enflamme, et ma Sœur, et Valère,</l>
             <l n="222" xml:id="l222">La Sœur de cet Ami, vous le savez, m’est chère :</l>
-            <l n="223" xml:id="l223">Et s’il fallait…</l>
+            <l n="223" xml:id="l223" part="I">Et s’il fallait…</l>
           </sp>
           <sp xml:id="I03-4" who="dorine">
             <speaker>Dorine</speaker>
@@ -551,7 +551,7 @@
           </sp>
           <sp xml:id="I04-7" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="236" xml:id="l236">Le pauvre Homme !</l>
+            <l n="236" xml:id="l236" part="I">Le pauvre Homme !</l>
           </sp>
           <sp xml:id="I04-8" who="dorine">
             <speaker>Dorine</speaker>
@@ -561,7 +561,7 @@
           </sp>
           <sp xml:id="I04-9" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="239" xml:id="l239">Et Tartuffe ?</l>
+            <l n="239" xml:id="l239" part="I">Et Tartuffe ?</l>
           </sp>
           <sp xml:id="I04-10" who="dorine">
             <speaker>Dorine</speaker>
@@ -571,7 +571,7 @@
           </sp>
           <sp xml:id="I04-11" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="242" xml:id="l242">Le pauvre Homme !</l>
+            <l n="242" xml:id="l242" part="I">Le pauvre Homme !</l>
           </sp>
           <sp xml:id="I04-12" who="dorine">
             <speaker>Dorine</speaker>
@@ -582,7 +582,7 @@
           </sp>
           <sp xml:id="I04-13" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="245" part="M">Et Tartuffe ?</l>
+            <l n="245" part="I">Et Tartuffe ?</l>
           </sp>
           <sp xml:id="I04-14" who="dorine">
             <speaker>Dorine</speaker>
@@ -593,7 +593,7 @@
           </sp>
           <sp xml:id="I04-15" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="249" xml:id="l249">Le pauvre Homme !</l>
+            <l n="249" xml:id="l249" part="I">Le pauvre Homme !</l>
           </sp>
           <sp xml:id="I04-16" who="dorine">
             <speaker>Dorine</speaker>
@@ -603,7 +603,7 @@
           </sp>
           <sp xml:id="I04-17" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="252" xml:id="l252">Et Tartuffe ?</l>
+            <l n="252" xml:id="l252" part="I">Et Tartuffe ?</l>
           </sp>
           <sp xml:id="I04-18" who="dorine">
             <speaker>Dorine</speaker>
@@ -614,7 +614,7 @@
           </sp>
           <sp xml:id="I04-19" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="256" xml:id="l256">Le pauvre Homme !</l>
+            <l n="256" xml:id="l256" part="I">Le pauvre Homme !</l>
           </sp>
           <sp xml:id="I04-20" who="dorine">
             <speaker>Dorine</speaker>
@@ -635,7 +635,7 @@
             <l n="263" xml:id="l263">Et se peut-il qu’un Homme ait un charme aujourd’hui</l>
             <l n="264" xml:id="l264">À vous faire oublier toutes choses pour lui ?</l>
             <l n="265" xml:id="l265">Qu’après avoir chez vous réparé sa misère,</l>
-            <l n="266" xml:id="l266">Vous en veniez au point…</l>
+            <l n="266" xml:id="l266" part="I">Vous en veniez au point…</l>
           </sp>
           <sp xml:id="I05-2" who="orgon">
             <speaker>Orgon</speaker>
@@ -811,7 +811,7 @@
           </sp>
           <sp xml:id="I05-12" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="408" xml:id="l408">Monsieur mon cher Beau-frère, avez-vous tout dit ?</l>
+            <l n="408" xml:id="l408" part="I">Monsieur mon cher Beau-frère, avez-vous tout dit ?</l>
           </sp>
           <sp xml:id="I05-13" who="cleante">
             <speaker>Cléante</speaker>
@@ -819,7 +819,7 @@
           </sp>
           <sp xml:id="I05-14" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="409" xml:id="l409">Je suis votre valet.</l>
+            <l n="409" xml:id="l409" part="I">Je suis votre valet.</l>
             <stage>Il veut s’en aller.</stage>
           </sp>
           <sp xml:id="I05-15" who="cleante">
@@ -830,7 +830,7 @@
           </sp>
           <sp xml:id="I05-16" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="412" xml:id="l412">Oui.</l>
+            <l n="412" xml:id="l412" part="I">Oui.</l>
           </sp>
           <sp xml:id="I05-17" who="cleante">
             <speaker>Cléante</speaker>
@@ -838,7 +838,7 @@
           </sp>
           <sp xml:id="I05-18" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="413" xml:id="l413">Il est vrai.</l>
+            <l n="413" xml:id="l413" part="I">Il est vrai.</l>
           </sp>
           <sp xml:id="I05-19" who="cleante">
             <speaker>Cléante</speaker>
@@ -846,7 +846,7 @@
           </sp>
           <sp xml:id="I05-20" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="414" xml:id="l414">Je ne sais.</l>
+            <l n="414" xml:id="l414" part="I">Je ne sais.</l>
           </sp>
           <sp xml:id="I05-21" who="cleante">
             <speaker>Cléante</speaker>
@@ -854,7 +854,7 @@
           </sp>
           <sp xml:id="I05-22" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="415" xml:id="l415">Peut-être.</l>
+            <l n="415" xml:id="l415" part="I">Peut-être.</l>
           </sp>
           <sp xml:id="I05-23" who="cleante">
             <speaker>Cléante</speaker>
@@ -862,7 +862,7 @@
           </sp>
           <sp xml:id="I05-24" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="416" xml:id="l416">Je ne dis pas cela.</l>
+            <l n="416" xml:id="l416" part="I">Je ne dis pas cela.</l>
           </sp>
           <sp xml:id="I05-25" who="cleante">
             <speaker>Cléante</speaker>
@@ -871,7 +871,7 @@
           </sp>
           <sp xml:id="I05-26" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="418" xml:id="l418">Selon.</l>
+            <l n="418" xml:id="l418" part="I">Selon.</l>
           </sp>
           <sp xml:id="I05-27" who="cleante">
             <speaker>Cléante</speaker>
@@ -880,7 +880,7 @@
           </sp>
           <sp xml:id="I05-28" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="420" xml:id="l420">Le Ciel en soit loué.</l>
+            <l n="420" xml:id="l420" part="I">Le Ciel en soit loué.</l>
           </sp>
           <sp xml:id="I05-29" who="cleante">
             <speaker>Cléante</speaker>
@@ -888,17 +888,17 @@
           </sp>
           <sp xml:id="I05-30" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="421" xml:id="l421">Tout ce qu’il vous plaira.</l>
+            <l n="421" xml:id="l421" part="I">Tout ce qu’il vous plaira.</l>
           </sp>
           <sp xml:id="I05-31" who="cleante">
             <speaker>Cléante</speaker>
             <l n="421" part="F">Mais il est nécessaire</l>
-            <l n="422" xml:id="l422">De savoir vos desseins. Quels sont-ils donc ?</l>
+            <l n="422" xml:id="l422" part="I">De savoir vos desseins. Quels sont-ils donc ?</l>
           </sp>
           <sp xml:id="I05-32" who="orgon">
             <speaker>Orgon</speaker>
             <l n="422" part="F">De faire</l>
-            <l n="423" xml:id="l423">Ce que le Ciel voudra.</l>
+            <l n="423" xml:id="l423" part="I">Ce que le Ciel voudra.</l>
           </sp>
           <sp xml:id="I05-33" who="cleante">
             <speaker>Cléante</speaker>
@@ -907,7 +907,7 @@
           </sp>
           <sp xml:id="I05-34" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="425" xml:id="l425">Adieu.</l>
+            <l n="425" xml:id="l425" part="I">Adieu.</l>
           </sp>
           <sp xml:id="I05-35" who="cleante">
             <speaker>Cléante</speaker>
@@ -924,7 +924,7 @@
           <stage>Orgon, Mariane</stage>
           <sp xml:id="II01-1" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="427" xml:id="l427">Mariane.</l>
+            <l n="427" xml:id="l427" part="I">Mariane.</l>
           </sp>
           <sp xml:id="II01-2" who="mariane">
             <speaker>Mariane</speaker>
@@ -933,7 +933,7 @@
           <sp xml:id="II01-3" who="orgon">
             <speaker>Orgon</speaker>
             <l n="427" part="F">Approchez. J’ai de quoi</l>
-            <l n="428" xml:id="l428">Vous parler en secret.</l>
+            <l n="428" xml:id="l428" part="I">Vous parler en secret.</l>
           </sp>
           <sp xml:id="II01-4" who="mariane">
             <speaker>Mariane</speaker>
@@ -967,7 +967,7 @@
           </sp>
           <sp xml:id="II01-10" who="mariane">
             <speaker>Mariane</speaker>
-            <l n="439" xml:id="l439">Qui, moi ?</l>
+            <l n="439" xml:id="l439" part="I">Qui, moi ?</l>
           </sp>
           <sp xml:id="II01-11" who="orgon">
             <speaker>Orgon</speaker>
@@ -983,7 +983,7 @@
             <l n="442" xml:id="l442">Qu’en toute sa Personne un haut mérite brille,</l>
             <l n="443" xml:id="l443">Qu’il touche votre cœur, et qu’il vous serait doux</l>
             <l n="444" xml:id="l444">De le voir, par mon choix, devenir votre Époux.</l>
-            <l n="445" xml:id="l445">Eh ?</l>
+            <l n="445" xml:id="l445" part="I">Eh ?</l>
             <stage>Mariane se recule avec surprise.</stage>
           </sp>
           <sp xml:id="II01-14" who="mariane">
@@ -1008,7 +1008,7 @@
           </sp>
           <sp xml:id="II01-19" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="446" xml:id="l446">Comment ?</l>
+            <l n="446" xml:id="l446" part="I">Comment ?</l>
           </sp>
           <sp xml:id="II01-20" who="mariane">
             <speaker>Mariane</speaker>
@@ -1018,7 +1018,7 @@
           </sp>
           <sp xml:id="II01-21" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="449" xml:id="l449">Tartuffe.</l>
+            <l n="449" xml:id="l449" part="I">Tartuffe.</l>
           </sp>
           <sp xml:id="II01-22" who="mariane">
             <speaker>Mariane</speaker>
@@ -1032,14 +1032,14 @@
           </sp>
           <sp xml:id="II01-24" who="mariane">
             <speaker>Mariane</speaker>
-            <l n="453" xml:id="l453">Quoi ! vous voulez, mon Père...</l>
+            <l n="453" xml:id="l453" part="I">Quoi ! vous voulez, mon Père...</l>
           </sp>
           <sp xml:id="II01-25" who="orgon">
             <speaker>Orgon</speaker>
             <l n="453" part="F">Oui, je prétends, ma Fille,</l>
             <l n="454" xml:id="l454">Unir, par votre hymen, Tartuffe à ma Famille.</l>
             <l n="455" xml:id="l455">Il sera votre Époux, j’ai résolu cela ;</l>
-            <l n="456" xml:id="l456">Et comme sur vos vœux je…</l>
+            <l n="456" xml:id="l456" part="I">Et comme sur vos vœux je…</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="II02">
@@ -1060,7 +1060,7 @@
           </sp>
           <sp xml:id="II02-3" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="463" xml:id="l463">Quoi donc, la chose est-elle incroyable ?</l>
+            <l n="463" xml:id="l463" part="I">Quoi donc, la chose est-elle incroyable ?</l>
           </sp>
           <sp xml:id="II02-4" who="dorine">
             <speaker>Dorine</speaker>
@@ -1081,7 +1081,7 @@
           </sp>
           <sp xml:id="II02-8" who="dorine">
             <speaker>Dorine</speaker>
-            <l n="468" xml:id="l468">Chansons.</l>
+            <l n="468" xml:id="l468" part="I">Chansons.</l>
           </sp>
           <sp xml:id="II02-9" who="orgon">
             <speaker>Orgon</speaker>
@@ -1090,7 +1090,7 @@
           <sp xml:id="II02-10" who="dorine">
             <speaker>Dorine</speaker>
             <l n="469" xml:id="l469">Allez, ne croyez point à Monsieur votre Père,</l>
-            <l n="470" xml:id="l470">Il raille.</l>
+            <l n="470" xml:id="l470" part="I">Il raille.</l>
           </sp>
           <sp xml:id="II02-11" who="orgon">
             <speaker>Orgon</speaker>
@@ -1099,7 +1099,7 @@
           <sp xml:id="II02-12" who="dorine">
             <speaker>Dorine</speaker>
             <l n="470" part="F">Non, vous avez beau faire,</l>
-            <l n="471" xml:id="l471">On ne vous croira point.</l>
+            <l n="471" xml:id="l471" part="I">On ne vous croira point.</l>
           </sp>
           <sp xml:id="II02-13" who="orgon">
             <speaker>Orgon</speaker>
@@ -1110,7 +1110,7 @@
             <l n="472" xml:id="l472">Hé bien on vous croit donc, et c’est tant pis pour vous.</l>
             <l n="473" xml:id="l473">Quoi ! se peut-il, Monsieur, qu’avec l’air d’Homme sage,</l>
             <l n="474" xml:id="l474">Et cette large barbe au milieu du visage,</l>
-            <l n="475" xml:id="l475">Vous soyez assez fou pour vouloir…</l>
+            <l n="475" xml:id="l475" part="I">Vous soyez assez fou pour vouloir…</l>
           </sp>
           <sp xml:id="II02-15" who="orgon">
             <speaker>Orgon</speaker>
@@ -1126,7 +1126,7 @@
             <l n="481" xml:id="l481">Il a d’autres emplois auxquels il faut qu’il pense ;</l>
             <l n="482" xml:id="l482">t puis, que vous apporte une telle alliance ?</l>
             <l n="483" xml:id="l483">À quel sujet aller, avec tout votre bien,</l>
-            <l n="484" xml:id="l484">Choisir un Gendre gueux…</l>
+            <l n="484" xml:id="l484" part="I">Choisir un Gendre gueux…</l>
           </sp>
           <sp xml:id="II02-17" who="orgon">
             <speaker>Orgon</speaker>
@@ -1208,7 +1208,7 @@
           </sp>
           <sp xml:id="II02-25" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="538" xml:id="l538">Ouais, quels discours !</l>
+            <l n="538" xml:id="l538" part="I">Ouais, quels discours !</l>
           </sp>
           <sp xml:id="II02-26" who="dorine">
             <speaker>Dorine</speaker>
@@ -1233,7 +1233,7 @@
           </sp>
           <sp xml:id="II02-30" who="dorine">
             <speaker>Dorine</speaker>
-            <l n="545" xml:id="l545">Si l’on ne vous aimait…</l>
+            <l n="545" xml:id="l545" part="I">Si l’on ne vous aimait…</l>
           </sp>
           <sp xml:id="II02-31" who="orgon">
             <speaker>Orgon</speaker>
@@ -1245,7 +1245,7 @@
           </sp>
           <sp xml:id="II02-33" who="orgon">
             <speaker>Orgon</speaker>
-            <l n="547" xml:id="l547">Ah !</l>
+            <l n="547" xml:id="l547" part="I">Ah !</l>
           </sp>
           <sp xml:id="II02-34" who="dorine">
             <speaker>Dorine</speaker>
