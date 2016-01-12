@@ -55,20 +55,20 @@
       <div>
         <castList>
           <head>PERSONNAGES</head>
-          <castItem><role xml:id="george-dandin" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">George Dandin</role> ; riche paysan, mari d’Angélique.</castItem>
-          <castItem><role xml:id="angelique" civil="F" type="H" statut="aristocrate" age="J" stat_amour="néant">Angélique</role>, femme de George Dandin et fille de Monsieur de Sotenville.</castItem>
-          <castItem><role xml:id="monsieur-de-sotenville" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Monsieur de Sotenville</role>, gentilhomme campagnard, père d’Angélique.</castItem>
-          <castItem><role xml:id="madame-de-sotenville" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">Madame de Sotenville</role>, sa femme.</castItem>
-          <castItem><role xml:id="clitandre" civil="M" type="H" statut="aristocrate" age="A" stat_amour="amoureux">Clitandre</role>, amoureux d’Angélique.</castItem>
-          <castItem><role xml:id="claudine" civil="F" type="H" statut="suivante" age="A" stat_amour="néant">Claudine</role>, suivante d’Angélique.</castItem>
-          <castItem><role xml:id="lubin" civil="M" type="H" statut="paysan" age="A" stat_amour="néant">Lubin</role>, paysan, servant de Clitandre.</castItem>
-          <castItem><role xml:id="colin" civil="M" type="H" statut="valet" age="A" stat_amour="néant">Colin</role>, valet de George Dandin.</castItem>
+          <castItem><role xml:id="george-dandin" rend="male">George Dandin</role> ; riche paysan, mari d’Angélique.</castItem>
+          <castItem><role xml:id="angelique" rend="female">Angélique</role>, femme de George Dandin et fille de Monsieur de Sotenville.</castItem>
+          <castItem><role xml:id="monsieur-de-sotenville"  rend="male">Monsieur de Sotenville</role>, gentilhomme campagnard, père d’Angélique.</castItem>
+          <castItem><role xml:id="madame-de-sotenville"  rend="female">Madame de Sotenville</role>, sa femme.</castItem>
+          <castItem><role xml:id="clitandre" rend="female">Clitandre</role>, amoureux d’Angélique.</castItem>
+          <castItem><role xml:id="claudine" rend="male">Claudine</role>, suivante d’Angélique.</castItem>
+          <castItem><role xml:id="lubin" rend="male">Lubin</role>, paysan, servant de Clitandre.</castItem>
+          <castItem><role xml:id="colin" rend="male">Colin</role>, valet de George Dandin.</castItem>
         </castList>
       </div>
     </front>
     <body>
-      <div>
-        <head>ACTE I</head>
+      <div type="act" xml:id="I">
+        <head>Acte I</head>
         <div xml:id="I01" type="scene">
           <head>Scène Première</head>
           <sp who="george-dandin" xml:id="I01-1">
@@ -860,8 +860,8 @@
           </sp>
         </div>
       </div>
-      <div xml:id="II">
-        <head>ACTE II</head>
+      <div xml:id="II" type="act">
+        <head>Acte II</head>
         <div xml:id="II01" type="scene">
           <head>Scène Première</head>
           <stage>Claudine, Lubin.</stage>
@@ -1566,8 +1566,8 @@
           </sp>
         </div>
       </div>
-      <div xml:id="III">
-        <head>ACTE III,</head>
+      <div type="act" xml:id="III">
+        <head>Acte III</head>
         <div xml:id="III01" type="scene">
           <head>Scène Première</head>
           <stage>Clitandre, Lubin.</stage>

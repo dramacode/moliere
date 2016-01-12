@@ -70,7 +70,7 @@
       </div>
     </front>
     <body>
-      <div>
+      <div type="act" xml:id="I">
         <head>Acte I</head>
         <div xml:id="I01">
           <head>Scène I</head>
@@ -1077,7 +1077,7 @@
           </sp>
         </div>
       </div>
-      <div>
+      <div xml:id="II" type="act">
         <head>Acte II</head>
         <div xml:id="II01" type="scene">
           <head>Scène I</head>
@@ -1948,10 +1948,10 @@
           </sp>
         </div>
       </div>
-      <div>
+      <div type="act" xml:id="III">
         <head>Acte III</head>
         <div xml:id="III01">
-          <head>, SCÈNE I</head>
+          <head>Scène I</head>
           <stage>Sganarelle, Léandre.</stage>
           <p/>
           <sp who="leandre" xml:id="III01-1">

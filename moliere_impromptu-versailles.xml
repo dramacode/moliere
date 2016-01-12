@@ -42,36 +42,35 @@
   </teiHeader>
   <text>
     <front>
-      <docTitle>
-        <titlePart type="main">L’IMPROMPTU DE VERSAILLES</titlePart>
-        <titlePart type="sub">COMÉDIE en un acte</titlePart>
-      </docTitle>
-      <docDate value="1663">1663</docDate>
-      <docAuthor id="MOLIERE" bio="moliere">MOLIÈRE</docAuthor>
-      <docImprint>
-        <privilege id="16**-**-**"/>
-        <acheveImprime id="16**-**-**"/>
-        <pinter id=""/>
-      </docImprint>
-      <performance>
-        <premiere date="1663-10-14" location="Château de Versailles">Représenté pour la première fois devant sa Majesté le Roi à Versailles le 14 octobre 1663.</premiere>
-      </performance>
-      <castList>
-        <head>ACTEURS</head>
-        <castItem><role xml:id="moliere" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">Molière</role>, marquis ridicule.</castItem>
-        <castItem><role xml:id="brecourt" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">Brécourt</role>, homme de qualité.</castItem>
-        <castItem><role xml:id="la-grange" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">La Grange</role>, marquis ridicule.</castItem>
-        <castItem><role xml:id="du-croisy" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">Du Croisy</role>, poète.</castItem>
-        <castItem><role xml:id="la-thorilliere" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">La Thorillière</role>, marquis fâcheux.</castItem>
-        <castItem><role xml:id="bejart" civil="M" type="H" statut="acteur" age="A" stat_amour="néant">Béjart</role>, homme qui fait le nécessaire.</castItem>
-        <castItem><role xml:id="mademoiselle-du-parc" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle Du Parc</role>, marquise façonnière.</castItem>
-        <castItem><role xml:id="mademoiselle-bejart" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle Béjart</role>, prude.</castItem>
-        <castItem><role xml:id="mademoiselle-de-brie" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle De Brie</role>, sage, coquette.</castItem>
-        <castItem><role xml:id="mademoiselle-moliere" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle Molière</role>, satirique, spirituelle.</castItem>
-        <castItem><role xml:id="mademoiselle-du-croisy" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle Du Croisy</role>, peste doucereuse.</castItem>
-        <castItem><role xml:id="mademoiselle-herve" civil="F" type="H" statut="acteur" age="A" stat_amour="néant">Mademoiselle Hervé</role>, servante précieuse.<role xml:id="un-necessaire"/><role xml:id="autre-necessaire"/></castItem>
-      </castList>
-      <set location="Versailles" country="France" periode="XVIIème" link="">La scène est à Versailles dans la salle de la Comédie. </set>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">L’IMPROMPTU DE VERSAILLES</titlePart>
+          <titlePart type="sub">COMÉDIE en un acte</titlePart>
+        </docTitle>
+        <docDate value="1663">1663</docDate>
+        <docAuthor id="MOLIERE" bio="moliere">MOLIÈRE</docAuthor>
+        <argument>
+          <p date="1663-10-14" location="Château de Versailles">Représenté pour la première fois devant sa Majesté le Roi à Versailles le 14 octobre 1663.</p>
+        </argument>
+      </titlePage>
+      <div xml:id="castList">
+        <head>Acteurs</head>
+        <castList>
+          <castItem><role xml:id="moliere" rend="male">Molière</role>, marquis ridicule.</castItem>
+          <castItem><role xml:id="brecourt" rend="male">Brécourt</role>, homme de qualité.</castItem>
+          <castItem><role xml:id="la-grange" rend="male">La Grange</role>, marquis ridicule.</castItem>
+          <castItem><role xml:id="du-croisy" rend="male">Du Croisy</role>, poète.</castItem>
+          <castItem><role xml:id="la-thorilliere" rend="male">La Thorillière</role>, marquis fâcheux.</castItem>
+          <castItem><role xml:id="bejart" rend="male">Béjart</role>, homme qui fait le nécessaire.</castItem>
+          <castItem><role xml:id="mademoiselle-du-parc" rend="female">Mademoiselle Du Parc</role>, marquise façonnière.</castItem>
+          <castItem><role xml:id="mademoiselle-bejart" rend="female">Mademoiselle Béjart</role>, prude.</castItem>
+          <castItem><role xml:id="mademoiselle-de-brie" rend="female">Mademoiselle De Brie</role>, sage, coquette.</castItem>
+          <castItem><role xml:id="mademoiselle-moliere" rend="female">Mademoiselle Molière</role>, satirique, spirituelle.</castItem>
+          <castItem><role xml:id="mademoiselle-du-croisy" rend="female">Mademoiselle Du Croisy</role>, peste doucereuse.</castItem>
+          <castItem><role xml:id="mademoiselle-herve" rend="female">Mademoiselle Hervé</role>, servante précieuse.<role xml:id="un-necessaire"/><role xml:id="autre-necessaire"/></castItem>
+        </castList>
+        <stage>La scène est à Versailles dans la salle de la Comédie. </stage>
+      </div>
     </front>
     <body>
       <div1 n="1" xml:id="I">
