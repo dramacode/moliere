@@ -78,41 +78,40 @@
         <p>BIEN des gens ont frondé d'abord cette Comédie : mais les rieurs ont été pour elle, et tout le mal qu'on en a pu dire, n'a pu faire qu'elle n'ait eu un succès, dont je me contente. Je sais qu'on attend de moi, dans cette impression quelque Préface, qui réponde aux censeurs, et rende raison de mon Ouvrage ; et sans doute que je suis assez redevable à toutes les personnes, qui lui ont donné leur approbation, pour me croire obligé de défendre leur jugement, contre celui des autres : mais il se trouve qu'une grande partie des choses, que j'aurais à dire sur ce sujet, est déjà dans une Dissertation que j'ai faite en Dialogue, et dont je ne sais encore ce que je ferai. L'idée de ce Dialogue, ou si l'on veut, de cette petite Comédie, me vint après les deux ou trois premières représentations de ma Pièce ; Je la dis cette idée dans une maison où je me trouvai un soir, et d'abord une personne de qualité, dont l'esprit est assez connu dans le monde, et qui me fait l'honneur de m'aimer, trouva le projet assez à son gré, non seulement pour me solliciter d'y mettre la main, mais encore pour l'y mettre lui-même, et je fus étonné que deux jours après il me montra toute l'affaire exécutée, d'une manière, à la vérité, beaucoup plus Galante, et plus Spirituelle, que je ne puis faire, mais où je trouvais des choses trop avantageuses pour moi, et j'eus peur, que si je produisais cet Ouvrage sur notre Théâtre, on ne m'accusât d'abord d'avoir mendié les louanges, qu'on m'y donnait. Cependant cela m'empêcha, par quelque considération, d'achever ce que j'avais commencé ; mais tant de gens me pressent tous les jours de le faire, que je ne sais ce qui en sera, et cette incertitude est cause, que je ne mets point dans cette Préface, ce qu'on verra dans la Critique, en cas que je me résolve à la faire paraître. S'il faut que cela soit, je le dis encore, ce sera seulement pour venger le public du chagrin délicat de certaines gens ; car pour moi je m'en tiens assez vengé par la Réussite de ma comédie, et je souhaite que toutes celles, que je pourrai faire, soient traitées par eux, comme celle-ci, pourvu que le reste suive de même.</p>
       </div>
       <div>
-        <head>LES PERSONNAGES</head>
+        <head>Les personnages</head>
         <castList>
-          <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="arnolphe">Arnolphe</role>, Autrement Monsieur de la Souche.</castItem>
-          <castItem><role age="A" civil="F" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="agnes">Agnès</role>, Jeune
-           Fille innocente élevée par Arnolphe.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="amoureux" statut="bourgeois" type="H" xml:id="horace">Horace</role>, Amant d'Agnès.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="néant" statut="valet" type="H" xml:id="alain">Alain</role>, Paysan, valet d'Arnolphe.</castItem>
-          <castItem><role age="A" civil="F" stat_amour="néant" statut="servente" type="H" xml:id="georgette">Georgette</role>, Paysanne, servante d'Arnolphe.</castItem>
-          <castItem><role age="A" civil="F" stat_amour="néant" statut="bourgeois" type="H" xml:id="chrysalde">Chrysalde</role>, Ami d'Arnolphe.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="enrique">Enrique</role>, Beau-frère de Chrysalde.</castItem>
-          <castItem><role age="A" civil="M" stat_amour="néant" statut="bourgeois" type="H" xml:id="oronte">Oronte</role>, Père d'Horace, et grand ami d'Arnolphe.</castItem>
+          <castItem><role xml:id="arnolphe" rend="male">Arnolphe</role>, Autrement Monsieur de la Souche.</castItem>
+          <castItem><role xml:id="agnes" rend="female junior">Agnès</role>, Jeune Fille innocente élevée par Arnolphe.</castItem>
+          <castItem><role xml:id="horace" rend="male junior">Horace</role>, Amant d'Agnès.</castItem>
+          <castItem><role xml:id="alain" rend="male inferior">Alain</role>, Paysan, valet d'Arnolphe.</castItem>
+          <castItem><role xml:id="georgette" rend="female inferior">Georgette</role>, Paysanne, servante d'Arnolphe.</castItem>
+          <castItem><role xml:id="chrysalde" rend="male">Chrysalde</role>, Ami d'Arnolphe.</castItem>
+          <castItem><role xml:id="enrique" rend="male">Enrique</role>, Beau-frère de Chrysalde.</castItem>
+          <castItem><role xml:id="oronte" rend="male">Oronte</role>, Père d'Horace, et grand ami d'Arnolphe.</castItem>
           <castItem>
-            <role civil="M" xml:id="notaire">[Le notaire]</role>
+            <role xml:id="notaire">[Le notaire]</role>
           </castItem>
         </castList>
-        <stage country="France" link="" location="Paris" periode="XVIIème">La Scène est dans une place de Ville.</stage>
+        <stage>La Scène est dans une place de Ville.</stage>
       </div>
     </front>
     <body>
-      <head>L'ÉCOLE DES FEMMES <lb/><hi rend="i">COMÉDIE</hi></head>
+      <head>L'École des femmes <lb/><hi rend="i">Comédie</hi></head>
       <div1 type="act" xml:id="I">
-        <head>ACTE PREMIER</head>
+        <head>Acte Premier</head>
         <div2 type="scene" xml:id="I01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène Première</head>
           <stage>Chrysalde, Arnolphe.</stage>
           <sp who="chrysalde" xml:id="I01-1">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Vous venez, dites-vous, pour lui donner la main ?</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-2">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Oui, je veux terminer la chose dans demain.</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-3">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Nous sommes ici seuls, et l’on peut, ce me semble,</l>
             <l>Sans craindre d’être ouïs, y discourir ensemble.</l>
             <l n="5">Voulez-vous qu’en Ami je vous ouvre mon cœur ?</l>
@@ -121,14 +120,14 @@
             <l>Prendre Femme, est à vous un coup bien téméraire.</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-4">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Il est vrai, notre Ami. Peut-être que chez vous</l>
             <l n="10">Vous trouvez des sujets de craindre pour chez nous ;</l>
             <l>Et votre front, je crois, veut que du Mariage,</l>
             <l>Les Cornes soient par tout l’infaillible apanage.</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-5">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Ce sont coups du Hasard, dont on n’est point garant ;</l>
             <l>Et bien sot, ce me semble, est le soin qu’on en prend.</l>
             <l n="15">Mais quand je crains pour vous, c’est cette raillerie</l>
@@ -139,7 +138,7 @@
             <l n="20">De faire cent éclats des intrigues secrètes…</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-6">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Fort bien : Est-il au Monde une autre Ville, aussi,</l>
             <l>Où l’on ait des Maris si patients qu’ici ?</l>
             <l>Est-ce qu’on n’en voit pas de toutes les espèces,</l>
@@ -167,7 +166,7 @@
             <l>Puis-je pas de nos Sots…</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-7">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l n="45" part="Y">Oui : mais qui rit d’autrui,</l>
             <l>Doit craindre, qu’en revanche, on rie aussi de lui.</l>
             <l>J’entends parler le monde, et des gens se délassent</l>
@@ -199,7 +198,7 @@
             <l>Et…</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-8">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Mon Dieu, notre Ami, ne vous tourmentez point ;</l>
             <l>Bien huppé qui pourra m’attraper sur ce point.</l>
             <l n="75">Je sais les tours rusés, et les subtiles trames,</l>
@@ -210,11 +209,11 @@
             <l n="80">Qui peut sauver mon front de maligne influence.</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-9">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Et que prétendez-vous qu’une Sotte en un mot…</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-10">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Épouser une Sotte, est pour n’être point Sot :</l>
             <l>Je crois, en bon Chrétien, votre moitié fort sage ;</l>
             <l>Mais une Femme habile est un mauvais présage,</l>
@@ -238,24 +237,24 @@
             <l>De savoir prier Dieu, m’aimer, coudre, et filer.</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-11">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Une Femme stupide est donc votre Marotte ?</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-12">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Tant, que j’aimerais mieux une laide, bien sotte,</l>
             <l n="105">Qu’une Femme fort belle, avec beaucoup d’esprit.</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-13">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>L’esprit, et la beauté…</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-14">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">L’honnêteté suffit.</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-15">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Mais comment voulez-vous, après tout, qu’une bête</l>
             <l>Puisse jamais savoir ce que c’est qu’être honnête ?</l>
             <l>Outre qu’il est assez ennuyeux, que je crois,</l>
@@ -268,7 +267,7 @@
             <l>Sans en avoir l’envie, et sans penser le faire.</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-16">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>À ce bel argument, à ce discours profond,</l>
             <l>Ce que Pantagruel à Panurge répond.</l>
             <l>Pressez-moi de me joindre à Femme autre que sotte ;</l>
@@ -277,11 +276,11 @@
             <l>Que vous ne m’aurez rien persuadé du tout.</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-17">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Je ne vous dis plus mot.</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-18">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Chacun a sa méthode.</l>
             <l>En Femme, comme en tout, je veux suivre ma mode ;</l>
             <l n="125">Je me vois riche assez, pour pouvoir, que je crois,</l>
@@ -316,21 +315,21 @@
             <l>Et voir, si de mon choix on me doit condamner.</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-19">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>J’y consens.</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-20">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="155" part="Y">Vous pourrez, dans cette conférence,</l>
             <l>Juger de sa personne, et de son innocence.</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-21">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Pour cet article-là, ce que vous m’avez dit,</l>
             <l>Ne peut…</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-22">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">La vérité passe encor mon récit.</l>
             <l n="160">Dans ses simplicités à tous coups je l’admire,</l>
             <l>Et parfois elle en dit, dont je pâme de rire.</l>
@@ -340,16 +339,16 @@
             <l>Si les enfants qu’on fait, se faisaient par l’oreille.</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-23">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Je me réjouis fort, Seigneur Arnolphe…</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-24">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="165" part="Y">Bon ;</l>
             <l>Me voulez-vous toujours appeler de ce nom ?</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-25">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Ah ! malgré que j’en aie, il me vient à la bouche,</l>
             <l>Et jamais je ne songe à Monsieur de la Souche.</l>
             <l>Qui diable vous a fait aussi vous aviser,</l>
@@ -358,12 +357,12 @@
             <l>Vous faire dans le Monde un nom de Seigneurie ?</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-26">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Outre que la Maison par ce nom se connaît,</l>
             <l>La Souche, plus qu’Arnolphe, à mes oreilles plaît.</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-27">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l n="175">Quel abus, de quitter le vrai nom de ses Pères</l>
             <l>Pour en vouloir prendre un bâti sur des chimères !</l>
             <l>De la plupart des gens c’est la démangeaison ;</l>
@@ -374,39 +373,39 @@
             <l>Et de Monsieur de l’Isle en prit le nom pompeux.</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-28">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Vous pourriez vous passer d’exemples de la sorte :</l>
             <l>Mais enfin de la Souche est le nom que je porte ;</l>
             <l n="185">J’y vois de la raison, j’y trouve des appas,</l>
             <l>Et m’appeler de l’autre, est ne m’obliger pas.</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-29">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Cependant la plupart ont peine à s’y soumettre,</l>
             <l>Et je vois même encor des adresses de Lettre…</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-30">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Je le souffre aisément de qui n’est pas instruit ;</l>
             <l>Mais vous…</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-31">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l n="190" part="Y">Soit. Là-dessus nous n’aurons point de bruit,</l>
             <l>Et je prendrai le soin d’accoutumer ma bouche</l>
             <l>À ne plus vous nommer que Monsieur de la Souche.</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-32">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Adieu : Je frappe ici, pour donner le bonjour,</l>
             <l>Et dire seulement, que je suis de retour.</l>
           </sp>
           <sp who="chrysalde" xml:id="I01-33">
-            <speaker>chrysalde <hi rend="i">s’en allant</hi></speaker>
+            <speaker>Chrysalde <hi rend="i">s’en allant</hi></speaker>
             <l n="195">Ma foi je le tiens fou de toutes les manières.</l>
           </sp>
           <sp who="arnolphe" xml:id="I01-34">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Il est un peu blessé sur certaines matières.</l>
             <l>Chose étrange de voir, comme avec passion,</l>
             <l>Un chacun est chaussé de son opinion !</l>
@@ -414,212 +413,212 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I02">
-          <head>SCÈNE II</head>
+          <head>Scène II</head>
           <stage>Alain, Georgette, Arnolphe.</stage>
           <sp who="alain" xml:id="I02-1">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l part="Y">Qui heurte ?</l>
           </sp>
           <sp who="arnolphe" xml:id="I02-2">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Ouvrez. On aura, que je pense,</l>
             <l n="200">Grande joie à me voir, après dix jours d’absence.</l>
           </sp>
           <sp who="alain" xml:id="I02-3">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Qui va là ?</l>
           </sp>
           <sp who="arnolphe" xml:id="I02-4">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Moi.</l>
           </sp>
           <sp who="alain" xml:id="I02-5">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l part="Y">Georgette ?</l>
           </sp>
           <sp who="georgette" xml:id="I02-6">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l part="Y">Hé bien ?</l>
           </sp>
           <sp who="alain" xml:id="I02-7">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l part="Y">Ouvre là-bas.</l>
           </sp>
           <sp who="georgette" xml:id="I02-8">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Vas-y toi.</l>
           </sp>
           <sp who="alain" xml:id="I02-9">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l part="Y">Vas-y toi.</l>
           </sp>
           <sp who="georgette" xml:id="I02-10">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l part="Y">Ma foi je n’irai pas.</l>
           </sp>
           <sp who="alain" xml:id="I02-11">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Je n’irai pas aussi.</l>
           </sp>
           <sp who="arnolphe" xml:id="I02-12">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Belle cérémonie</l>
             <l>Pour me laisser dehors. Holà ho, je vous prie.</l>
           </sp>
           <sp who="georgette" xml:id="I02-13">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Qui frappe ?</l>
           </sp>
           <sp who="arnolphe" xml:id="I02-14">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Votre Maître.</l>
           </sp>
           <sp who="georgette" xml:id="I02-15">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l part="Y">Alain ?</l>
           </sp>
           <sp who="alain" xml:id="I02-16">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l part="Y">Quoi ?</l>
           </sp>
           <sp who="georgette" xml:id="I02-17">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l n="205" part="Y">C’est Monsieur,</l>
             <l>Ouvre vite.</l>
           </sp>
           <sp who="alain" xml:id="I02-18">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l part="Y">Ouvre, toi.</l>
           </sp>
           <sp who="georgette" xml:id="I02-19">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l part="Y">Je souffle notre feu.</l>
           </sp>
           <sp who="alain" xml:id="I02-20">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>J’empêche, peur du Chat, que mon Moineau ne sorte.</l>
           </sp>
           <sp who="arnolphe" xml:id="I02-21">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Quiconque de vous deux n’ouvrira pas la porte,</l>
             <l>N’aura point à manger de plus de quatre jours.</l>
             <l>Ha.</l>
           </sp>
           <sp who="georgette" xml:id="I02-22">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l n="210" part="Y">Par quelle raison y venir quand j’y cours ?</l>
           </sp>
           <sp who="alain" xml:id="I02-23">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Pourquoi plutôt que moi ? le plaisant strodagéme !</l>
           </sp>
           <sp who="georgette" xml:id="I02-24">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Ôte-toi donc de là.</l>
           </sp>
           <sp who="alain" xml:id="I02-25">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l part="Y">Non, ôte-toi, toi-même.</l>
           </sp>
           <sp who="georgette" xml:id="I02-26">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Je veux ouvrir la porte.</l>
           </sp>
           <sp who="alain" xml:id="I02-27">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l part="Y">Et je veux l’ouvrir, moi.</l>
           </sp>
           <sp who="georgette" xml:id="I02-28">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Tu ne l’ouvriras pas.</l>
           </sp>
           <sp who="alain" xml:id="I02-29">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l part="Y">Ni toi non plus.</l>
           </sp>
           <sp who="georgette" xml:id="I02-30">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l part="Y">Ni toi.</l>
           </sp>
           <sp who="arnolphe" xml:id="I02-31">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="215">Il faut que j’aie ici l’âme bien patiente.</l>
           </sp>
           <sp who="alain" xml:id="I02-32">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Au moins c’est moi, Monsieur.</l>
           </sp>
           <sp who="georgette" xml:id="I02-33">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l part="Y">Je suis votre Servante,</l>
             <l>C’est moi.</l>
           </sp>
           <sp who="alain" xml:id="I02-34">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l part="Y">Sans le respect de Monsieur que voilà,</l>
             <l>Je te…</l>
           </sp>
           <sp who="arnolphe" xml:id="I02-35">
-            <speaker>arnolphe <hi rend="i">recevant un coup d’Alain</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">recevant un coup d’Alain</hi></speaker>
             <l part="Y">Peste.</l>
           </sp>
           <sp who="alain" xml:id="I02-36">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l part="Y">Pardon.</l>
           </sp>
           <sp who="arnolphe" xml:id="I02-37">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Voyez ce lourdaud-là.</l>
           </sp>
           <sp who="alain" xml:id="I02-38">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>C’est elle aussi, Monsieur…</l>
           </sp>
           <sp who="arnolphe" xml:id="I02-39">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Que tous deux on se taise.</l>
             <l n="220">Songez à me répondre, et laissons la fadaise.</l>
             <l>Hé bien, Alain, comment se porte-t-on ici ?</l>
           </sp>
           <sp who="alain" xml:id="I02-40">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Monsieur, nous nous… Monsieur, nous nous por… Dieu merci ;</l>
             <l>Nous nous…</l>
             <stage>Arnolphe ôte par trois fois le Chapeau de dessus la tête d’Alain.</stage>
           </sp>
           <sp who="arnolphe" xml:id="I02-41">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Qui vous apprend, impertinente bête,</l>
             <l>À parler devant moi, le chapeau sur le tête ?</l>
           </sp>
           <sp who="alain" xml:id="I02-42">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Vous faites bien, j’ai tort.</l>
           </sp>
           <sp who="arnolphe" xml:id="I02-43">
-            <speaker>arnolphe <hi rend="i">à Alain</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">à Alain</hi></speaker>
             <l n="225" part="Y">Faites descendre Agnès.</l>
             <stage>À Georgette.</stage>
             <l>Lorsque je m’en allai, fut-elle triste après ?</l>
           </sp>
           <sp who="georgette" xml:id="I02-45">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Triste ? Non.</l>
           </sp>
           <sp who="arnolphe" xml:id="I02-46">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Non !</l>
           </sp>
           <sp who="georgette" xml:id="I02-47">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l part="Y">Si fait.</l>
           </sp>
           <sp who="arnolphe" xml:id="I02-48">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Pourquoi donc…</l>
           </sp>
           <sp who="georgette" xml:id="I02-49">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l part="Y">Oui, je meure,</l>
             <l>Elle vous croyait voir de retour à toute heure ;</l>
             <l>Et nous n’oyions jamais passer devant chez nous,</l>
@@ -627,47 +626,47 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I03">
-          <head>SCÈNE III</head>
+          <head>Scène III</head>
           <stage>Agnès, Alain, Georgette, Arnolphe.</stage>
           <sp who="arnolphe" xml:id="I03-1">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>La besogne à la main, c’est un bon témoignage.</l>
             <l>Hé bien, Agnès, je suis de retour du voyage,</l>
             <l>En êtes-vous bien aise ?</l>
           </sp>
           <sp who="agnes" xml:id="I03-2">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Oui, Monsieur, Dieu merci.</l>
           </sp>
           <sp who="arnolphe" xml:id="I03-3">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Et moi de vous revoir, je suis bien aise aussi :</l>
             <l n="235">Vous vous êtes toujours, comme on voit, bien portée ?</l>
           </sp>
           <sp who="agnes" xml:id="I03-4">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Hors les puces, qui m’ont la nuit inquiétée.</l>
           </sp>
           <sp who="arnolphe" xml:id="I03-5">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Ah ! vous aurez dans peu quelqu’un pour les chasser.</l>
           </sp>
           <sp who="agnes" xml:id="I03-6">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Vous me ferez plaisir.</l>
           </sp>
           <sp who="arnolphe" xml:id="I03-7">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Je le puis bien penser.</l>
             <l>Que faites-vous donc là ?</l>
           </sp>
           <sp who="agnes" xml:id="I03-8">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Je me fais des Cornettes :</l>
             <l n="240">Vos Chemises de nuit, et vos Coiffes sont faites.</l>
           </sp>
           <sp who="arnolphe" xml:id="I03-9">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Ha ! voila qui va bien ; allez, montez là haut,</l>
             <l>Ne vous ennuyez point, je reviendrai tantôt,</l>
             <l>Et je vous parlerai d’affaires importantes.</l>
@@ -680,64 +679,64 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="I04">
-          <head>SCÈNE IV</head>
+          <head>Scène IV</head>
           <stage>Horace, Arnolphe.</stage>
           <sp who="arnolphe" xml:id="I04-1">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Ce n’est point par le bien qu’il faut être ébloui ;</l>
             <l n="250">Et pourvu que l’honneur soit… Que vois-je ? Est-ce ?… Oui.</l>
             <l>Je me trompe. Nenni. Si fait. Non, c’est lui-même.</l>
             <l>Hor…</l>
           </sp>
           <sp who="horace" xml:id="I04-2">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Seigneur Ar…</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-3">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Horace.</l>
           </sp>
           <sp who="horace" xml:id="I04-4">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Arnolphe.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-5">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Ah ! joie extrême !</l>
             <l>Et depuis quand ici ?</l>
           </sp>
           <sp who="horace" xml:id="I04-6">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Depuis neuf jours.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-7">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Vraiment…</l>
           </sp>
           <sp who="horace" xml:id="I04-8">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Je fus d’abord chez vous, mais inutilement.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-9">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>J’étais à la campagne.</l>
           </sp>
           <sp who="horace" xml:id="I04-10">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l n="255" part="Y">Oui, depuis deux journées.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-11">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Ô comme les enfants croissent en peu d’années !</l>
             <l>J’admire de le voir au point où le voilà,</l>
             <l>Après que je l’ai vu pas plus grand que cela.</l>
           </sp>
           <sp who="horace" xml:id="I04-12">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Vous voyez.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-13">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Mais, de grâce, Oronte votre Père,</l>
             <l n="260">Mon bon et cher Ami, que j’estime et révère,</l>
             <l>Que fait-il ? que dit-il ? est-il toujours gaillard ?</l>
@@ -745,7 +744,7 @@
             <l>Nous ne nous sommes vus depuis quatre ans ensemble.</l>
           </sp>
           <sp who="horace" xml:id="I04-14">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Ni, qui plus est, écrit l’un à l’autre, me semble.</l>
             <l n="265">Il est, Seigneur Arnolphe, encore plus gai que nous,</l>
             <l>Et j’avais de sa part une Lettre pour vous ;</l>
@@ -756,26 +755,26 @@
             <l>Qu’il s’est en quatorze ans acquis dans l’Amérique ?</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-15">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Non : vous a-t-on point dit comme on le nomme ?</l>
           </sp>
           <sp who="horace" xml:id="I04-16">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Enrique.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-17">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Non.</l>
           </sp>
           <sp who="horace" xml:id="I04-18">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Mon Père m’en parle, et qu’il est revenu,</l>
             <l>Comme s’il devait m’être entièrement connu,</l>
             <l n="275">Et m’écrit qu’en chemin ensemble ils se vont mettre,</l>
             <l>Pour un fait important que ne dit point sa Lettre.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-19">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>J’aurai certainement grande joie à le voir,</l>
             <l>Et pour le régaler, je ferai mon pouvoir.</l>
             <stage>Après avoir lu la Lettre.</stage>
@@ -785,32 +784,32 @@
             <l>Vous pouvez librement disposer de mon bien.</l>
           </sp>
           <sp who="horace" xml:id="I04-20">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Je suis Homme à saisir les gens par leurs paroles,</l>
             <l>Et j’ai présentement besoin de cent pistoles.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-21">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="285">Ma foi, c’est m’obliger, que d’en user ainsi,</l>
             <l>Et je me réjouis de les avoir ici.</l>
             <l>Gardez aussi la bourse.</l>
           </sp>
           <sp who="horace" xml:id="I04-22">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Il faut…</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-23">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Laissons ce style.</l>
             <l>Hé bien, comment encor trouvez-vous cette Ville ?</l>
           </sp>
           <sp who="horace" xml:id="I04-24">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Nombreuse en Citoyens, superbe en bâtiments,</l>
             <l n="290">Et j’en crois merveilleux les divertissements.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-25">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Chacun a ses plaisirs, qu’il se fait à sa guise :</l>
             <l>Mais pour ceux que du nom de Galants on baptise,</l>
             <l>Ils ont de ce Pays de quoi se contenter,</l>
@@ -825,26 +824,26 @@
             <l>Et vous êtes de taille à faire des Cocus.</l>
           </sp>
           <sp who="horace" xml:id="I04-26">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>À ne vous rien cacher de la vérité pure</l>
             <l>J’ai d’amour en ces lieux eu certaine aventure,</l>
             <l n="305">Et l’amitié m’oblige à vous faire part.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-27">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Bon, voici de nouveau quelque conte gaillard,</l>
             <l>Et ce sera de quoi mettre sur mes tablettes.</l>
           </sp>
           <sp who="horace" xml:id="I04-28">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Mais, de grâce, qu’au moins ces choses soient secrètes.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-29">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Oh.</l>
           </sp>
           <sp who="horace" xml:id="I04-30">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Vous n’ignorez pas qu’en ces occasions.</l>
             <l n="310">Un secret éventé rompt nos prétentions.</l>
             <l>Je vous avouerai donc avec pleine franchise,</l>
@@ -855,11 +854,11 @@
             <l>Mes affaires y sont en fort bonne posture.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-31">
-            <speaker>arnolphe <hi rend="i">riant</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">riant</hi></speaker>
             <l>Et c’est ?</l>
           </sp>
           <sp who="horace" xml:id="I04-32">
-            <speaker>horace <hi rend="i">lui montrant le logis d’Agnès.</hi></speaker>
+            <speaker>Horace <hi rend="i">lui montrant le logis d’Agnès.</hi></speaker>
             <l part="Y">Un jeune objet qui loge en ce logis,</l>
             <l>Dont vous voyez d’ici que les murs sont rougis ;</l>
             <l>Simple à la vérité, par l’erreur sans seconde</l>
@@ -873,11 +872,11 @@
             <l>C’est Agnès qu’on l’appelle.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-33">
-            <speaker>arnolphe <hi rend="i">à part</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">à part</hi></speaker>
             <l part="Y">Ah ! je crève.</l>
           </sp>
           <sp who="horace" xml:id="I04-34">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Pour l’Homme,</l>
             <l>C’est, je crois, de la Zousse, ou Source, qu’on le nomme,</l>
             <l>Je ne me suis pas fort arrêté sur le nom ;</l>
@@ -886,27 +885,27 @@
             <l>Le connaissez-vous point ?</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-35">
-            <speaker>arnolphe <hi rend="i">à part</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">à part</hi></speaker>
             <l part="Y">La fâcheuse pilule !</l>
           </sp>
           <sp who="horace" xml:id="I04-36">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Eh ! vous ne dites mot ?</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-37">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Eh oui, je le connais.</l>
           </sp>
           <sp who="horace" xml:id="I04-38">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>C’est un fou, n’est-ce pas ?</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-39">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Eh…</l>
           </sp>
           <sp who="horace" xml:id="I04-40">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Qu’en dites-vous ? quoi ?</l>
             <l n="335">Eh ? c’est-à-dire oui. Jaloux à faire rire.</l>
             <l>Sot ? je vois qu’il en est ce que l’on m’a pu dire.</l>
@@ -926,34 +925,34 @@
             <l n="350">Vous désapprouveriez le dessein que j’ai fait ?</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-41">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Non, c’est que je songeais…</l>
           </sp>
           <sp who="horace" xml:id="I04-42">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Cet entretien vous lasse ;</l>
             <l>Adieu, j’irai chez vous tantôt vous rendre grâce.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-43">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Ah ! faut-il…</l>
           </sp>
           <sp who="horace" xml:id="I04-44">
-            <speaker>horace <hi rend="i">revenant</hi></speaker>
+            <speaker>Horace <hi rend="i">revenant</hi></speaker>
             <l part="Y">Derechef, veuillez être discret,</l>
             <l>Et n’allez pas, de grâce, éventer mon secret.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-45">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Que je sens dans mon âme…</l>
           </sp>
           <sp who="horace" xml:id="I04-46">
-            <speaker>horace <hi rend="i">revenant</hi></speaker>
+            <speaker>Horace <hi rend="i">revenant</hi></speaker>
             <l n="355" part="Y">Et surtout à mon Père,</l>
             <l>Qui s’en ferait peut-être un sujet de colère.</l>
           </sp>
           <sp who="arnolphe" xml:id="I04-47">
-            <speaker>arnolphe <hi rend="i">croyant qu’il revient encore</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">croyant qu’il revient encore</hi></speaker>
             <l>Oh… Oh que j’ai souffert durant cet entretien !</l>
             <l>Jamais trouble d’esprit ne fut égal au mien.</l>
             <l>Avec quelle imprudence, et quelle hâte extrême,</l>
@@ -973,11 +972,11 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="II">
-        <head>ACTE II</head>
+        <head>Acte II</head>
         <div2 type="scene" xml:id="II01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène Première</head>
           <sp who="arnolphe" xml:id="II01-1">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Il m’est, lorsque j’y pense, avantageux sans doute,</l>
             <l>D’avoir perdu mes pas, et pu manquer sa route :</l>
             <l>Car enfin, de mon cœur le trouble impérieux,</l>
@@ -997,36 +996,36 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II02">
-          <head>SCÈNE II</head>
+          <head>Scène II</head>
           <stage>Alain, Georgette, Arnolphe.</stage>
           <sp who="alain" xml:id="II02-1">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Ah ! Monsieur, cette fois…</l>
           </sp>
           <sp who="arnolphe" xml:id="II02-2">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Paix. Venez-çà tous deux :</l>
             <l>Passez-là, passez-là. Venez-là, venez dis-je.</l>
           </sp>
           <sp who="georgette" xml:id="II02-3">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Ah ! vous me faites peur, et tout mon sang se fige.</l>
           </sp>
           <sp who="arnolphe" xml:id="II02-4">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>C’est donc ainsi, qu’absent, vous m’avez obéi,</l>
             <l n="390">Et tous deux, de concert, vous m’avez donc trahi ?</l>
           </sp>
           <sp who="georgette" xml:id="II02-5">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Eh ne me mangez pas, Monsieur, je vous conjure.</l>
           </sp>
           <sp who="alain" xml:id="II02-6">
-            <speaker>alain <hi rend="i">à part</hi></speaker>
+            <speaker>Alain <hi rend="i">à part</hi></speaker>
             <l>Quelque Chien enragé l’a mordu, je m’assure.</l>
           </sp>
           <sp who="arnolphe" xml:id="II02-7">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Ouf. Je ne puis parler, tant je suis prévenu,</l>
             <l>Je suffoque, et voudrais me pouvoir mettre nu.</l>
             <l n="395">Vous avez donc souffert, ô canaille maudite,</l>
@@ -1039,19 +1038,19 @@
             <l>Sans rêver, veut-on dire ?</l>
           </sp>
           <sp who="alain georgette" xml:id="II02-8">
-            <speaker>alain <hi rend="i">et</hi> georgette</speaker>
+            <speaker>Alain <hi rend="i">et</hi> georgette</speaker>
             <l part="Y">Ah, ah.</l>
           </sp>
           <sp who="georgette" xml:id="II02-9">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l part="Y">Le cœur me faut.</l>
           </sp>
           <sp who="alain" xml:id="II02-10">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Je meurs.</l>
           </sp>
           <sp who="arnolphe" xml:id="II02-11">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Je suis en eau, prenons un peu d’haleine,</l>
             <l>Il faut que je m’évente, et que je me promène.</l>
             <l n="405">Aurais-je deviné, quand je l’ai vu petit,</l>
@@ -1068,43 +1067,43 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II03">
-          <head>SCÈNE III</head>
+          <head>Scène III</head>
           <stage>Alain, Georgette.</stage>
           <sp who="georgette" xml:id="II03-1">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l n="415" part="Y">Mon Dieu, qu’il est terrible !</l>
             <l>Ses regards m’ont fait peur, mais une peur horrible,</l>
             <l>Et jamais je ne vis un plus hideux Chrétien.</l>
           </sp>
           <sp who="alain" xml:id="II03-2">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Ce Monsieur l’a fâché, je te le disais bien.</l>
           </sp>
           <sp who="georgette" xml:id="II03-3">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Mais que diantre est-ce là, qu’avec tant de rudesse</l>
             <l n="420">Il nous fait au logis garder notre Maîtresse ?</l>
             <l>D’où vient qu’à tout le monde il veut tant la cacher,</l>
             <l>Et qu’il ne saurait voir personne en approcher ?</l>
           </sp>
           <sp who="alain" xml:id="II03-4">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>C’est que cette action le met en jalousie.</l>
           </sp>
           <sp who="georgette" xml:id="II03-5">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Mais d’où vient qu’il est pris de cette fantaisie ?</l>
           </sp>
           <sp who="alain" xml:id="II03-6">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l n="425">Cela vient… Cela vient, de ce qu’il est jaloux.</l>
           </sp>
           <sp who="georgette" xml:id="II03-7">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Oui : mais pourquoi l’est-il ? et pourquoi ce courroux ?</l>
           </sp>
           <sp who="alain" xml:id="II03-8">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>C’est que la jalousie… Entends-tu bien, Georgette,</l>
             <l>Est une chose… là… qui fait qu’on s’inquiète…</l>
             <l>Et qui chasse les gens d’autour d’une maison.</l>
@@ -1115,11 +1114,11 @@
             <l>Tu serais en colère, et voudrais le charger ?</l>
           </sp>
           <sp who="georgette" xml:id="II03-9">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Oui, je comprends cela.</l>
           </sp>
           <sp who="alain" xml:id="II03-10">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l n="435" part="Y">C’est justement tout comme.</l>
             <l>La Femme est en effet le potage de l’Homme ;</l>
             <l>Et quand un Homme voit d’autres Hommes parfois,</l>
@@ -1127,39 +1126,39 @@
             <l>Il en montre aussitôt une colère extrême.</l>
           </sp>
           <sp who="georgette" xml:id="II03-11">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l n="440">Oui : mais pourquoi chacun n’en fait-il pas de même ?</l>
             <l>Et que nous en voyons qui paraissent joyeux,</l>
             <l>Lorsque leurs Femmes sont avec les biaux Monsieux ?</l>
           </sp>
           <sp who="alain" xml:id="II03-12">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>C’est que chacun n’a pas cette amitié goulue,</l>
             <l>Qui n’en veut que pour soi.</l>
           </sp>
           <sp who="georgette" xml:id="II03-13">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l part="Y">Si je n’ai la berlue,</l>
             <l>Je le vois qui revient.</l>
           </sp>
           <sp who="alain" xml:id="II03-14">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l n="445" part="Y">Tes yeux sont bons, c’est lui.</l>
           </sp>
           <sp who="georgette" xml:id="II03-15">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Vois comme il est chagrin.</l>
           </sp>
           <sp who="alain" xml:id="II03-16">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l part="Y">C’est qu’il a de l’ennui.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="II04">
-          <head>SCÈNE IV</head>
+          <head>Scène IV</head>
           <stage>Arnolphe, Agnès, Alain, Georgette.</stage>
           <sp who="arnolphe" xml:id="II04-1">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Un certain Grec, disait à l’Empereur Auguste,</l>
             <l>Comme une instruction utile, autant que juste,</l>
             <l>Que lorsqu’une aventure en colère nous met,</l>
@@ -1176,60 +1175,60 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="II05">
-          <head>SCÈNE V</head>
+          <head>Scène V</head>
           <stage>Arnolphe, Agnès.</stage>
           <sp who="arnolphe" xml:id="II05-1">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">La promenade est belle.</l>
           </sp>
           <sp who="agnes" xml:id="II05-2">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Fort belle.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-3">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Le beau jour !</l>
           </sp>
           <sp who="agnes" xml:id="II05-4">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Fort beau !</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-5">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="460" part="Y">Quelle nouvelle ?</l>
           </sp>
           <sp who="agnes" xml:id="II05-6">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Le petit chat est mort.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-7">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">C’est dommage : mais quoi</l>
             <l>Nous sommes tous mortels, et chacun est pour soi.</l>
             <l>Lorsque j’étais aux champs n’a-t-il point fait de pluie ?</l>
           </sp>
           <sp who="agnes" xml:id="II05-8">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Non.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-9">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Vous ennuyait-il ?</l>
           </sp>
           <sp who="agnes" xml:id="II05-10">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Jamais je ne m’ennuie.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-11">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="465">Qu’avez-vous fait encor ces neuf ou dix jours-ci ?</l>
           </sp>
           <sp who="agnes" xml:id="II05-12">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Six chemises, je pense, et six coiffes aussi.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-13">
-            <speaker>arnolphe <hi rend="i">ayant un peu rêvé</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">ayant un peu rêvé</hi></speaker>
             <l>Le monde, chère Agnès, est une étrange chose.</l>
             <l>Voyez la médisance, et comme chacun cause.</l>
             <l>Quelques voisins m’ont dit : qu’un jeune homme inconnu,</l>
@@ -1239,36 +1238,36 @@
             <l>Et j’ai voulu gager que c’était faussement…</l>
           </sp>
           <sp who="agnes" xml:id="II05-14">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Mon Dieu, ne gagez pas, vous perdriez vraiment.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-15">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Quoi ! c’est la vérité qu’un homme…</l>
           </sp>
           <sp who="agnes" xml:id="II05-16">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l n="475" part="Y">Chose sûre.</l>
             <l>Il n’a presque bougé de chez nous, je vous jure.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-17">
-            <speaker>arnolphe <hi rend="i">à part</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">à part</hi></speaker>
             <l>Cet aveu qu’elle fait avec sincérité,</l>
             <l>Me marque pour le moins son ingénuité.</l>
             <l>Mais il me semble, Agnès, si ma mémoire est bonne,</l>
             <l n="480">Que j’avais défendu que vous vissiez personne.</l>
           </sp>
           <sp who="agnes" xml:id="II05-18">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Oui : mais quand je l’ai vu, vous ignorez pourquoi,</l>
             <l>Et vous en auriez fait, sans doute, autant que moi.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-19">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Peut-être : mais enfin, contez-moi cette Histoire.</l>
           </sp>
           <sp who="agnes" xml:id="II05-20">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Elle est fort étonnante et difficile à croire.</l>
             <l n="485">J’étais sur le Balcon à travailler au frais :</l>
             <l>Lorsque je vis passer sous les arbres d’auprès</l>
@@ -1290,11 +1289,11 @@
             <l>Qu’il me pût estimer moins civile que lui.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-21">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Fort bien.</l>
           </sp>
           <sp who="agnes" xml:id="II05-22">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Le lendemain étant sur notre porte,</l>
             <l>Une vieille m’aborde en parlant de la sorte.</l>
             <l n="505" rend="i">Mon enfant, le bon Dieu puisse-t-il vous bénir,</l>
@@ -1305,11 +1304,11 @@
             <l n="510" rend="i">Un cœur, qui de s’en plaindre est aujourd’hui forcé.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-23">
-            <speaker>arnolphe <hi rend="i">à part</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">à part</hi></speaker>
             <l>Ah suppôt de Satan, exécrable damnée.</l>
           </sp>
           <sp who="agnes" xml:id="II05-24">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <lg rend="i">
               <l>Moi, j’ai blessé quelqu’un ? <hi rend="n">fis-je toute étonnée</hi>,</l>
               <l>Oui, <hi rend="n">dit-elle</hi>, blessé, mais blessé tout de bon ;</l>
@@ -1337,12 +1336,12 @@
             </lg>
           </sp>
           <sp who="arnolphe" xml:id="II05-25">
-            <speaker>arnolphe <hi rend="i">à part</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">à part</hi></speaker>
             <l n="535">Ah ! sorcière maudite, empoisonneuse d’âmes,</l>
             <l>Puisse l’Enfer payer tes charitables trames.</l>
           </sp>
           <sp who="agnes" xml:id="II05-26">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Voilà comme il me vit et reçut guérison.</l>
             <l>Vous-même, à votre avis, n’ai-je pas eu raison ?</l>
             <l>Et pouvais-je, après tout, avoir la conscience</l>
@@ -1351,7 +1350,7 @@
             <l>Et ne puis sans pleurer voir un poulet mourir.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-27">
-            <speaker>arnolphe <hi rend="i">bas</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">bas</hi></speaker>
             <l>Tout cela n’est parti que d’une âme innocente :</l>
             <l>Et j’en dois accuser mon absence imprudente,</l>
             <l n="545">Qui sans guide a laissé cette bonté de mœurs</l>
@@ -1360,17 +1359,17 @@
             <l>Un peu plus fort que jeu n’ait poussé les affaires.</l>
           </sp>
           <sp who="agnes" xml:id="II05-28">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l n="550">Qu’avez-vous ; vous grondez, ce me semble, un petit.</l>
             <l>Est-ce que c’est mal fait ce que je vous ai dit ?</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-29">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Non. Mais de cette vue apprenez-moi les suites,</l>
             <l>Et comme le jeune homme a passé ses visites.</l>
           </sp>
           <sp who="agnes" xml:id="II05-30">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Hélas ! si vous saviez, comme il était ravi.</l>
             <l>Comme il perdit son mal, sitôt que je le vis ;</l>
             <l n="555">Le présent qu’il m’a fait d’une belle cassette,</l>
@@ -1378,11 +1377,11 @@
             <l>Vous l’aimeriez sans doute, et diriez comme nous…</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-31">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Oui ; mais que faisait-il étant seul avec vous ?</l>
           </sp>
           <sp who="agnes" xml:id="II05-32">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Il jurait qu’il m’aimait d’une amour sans seconde :</l>
             <l n="560">Et me disait des mots les plus gentils du monde :</l>
             <l>Des choses que jamais rien ne peut égaler ;</l>
@@ -1391,7 +1390,7 @@
             <l>Certain je ne sais quoi, dont je suis toute émue.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-33">
-            <speaker>arnolphe <hi rend="i">à part</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">à part</hi></speaker>
             <l n="565">Ô fâcheux examen d’un mystère fatal,</l>
             <l>Où l’examinateur souffre seul tout le mal !</l>
             <stage>À Agnès.</stage>
@@ -1399,117 +1398,117 @@
             <l>Ne vous faisait-il point aussi quelques caresses ?</l>
           </sp>
           <sp who="agnes" xml:id="II05-34">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Oh tant ; il me prenait et les mains et les bras,</l>
             <l n="570">Et de me les baiser il n’était jamais las.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-35">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Ne vous a-t-il point pris, Agnès, quelque autre chose…</l>
             <stage>La voyant interdite.</stage>
             <l>Ouf.</l>
           </sp>
           <sp who="agnes" xml:id="II05-36">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Hé, il m’a…</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-37">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Quoi ?</l>
           </sp>
           <sp who="agnes" xml:id="II05-38">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Pris…</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-39">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Euh !</l>
           </sp>
           <sp who="agnes" xml:id="II05-40">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Le…</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-41">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Plaît-il ?</l>
           </sp>
           <sp who="agnes" xml:id="II05-42">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Je n’ose,</l>
             <l>Et vous vous fâcherez peut-être contre moi.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-43">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Non.</l>
           </sp>
           <sp who="agnes" xml:id="II05-44">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Si fait.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-45">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Mon dieu ! non.</l>
           </sp>
           <sp who="agnes" xml:id="II05-46">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Jurez donc votre foi.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-47">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Ma foi, soit.</l>
           </sp>
           <sp who="agnes" xml:id="II05-48">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l n="575" part="Y">Il m’a pris… vous serez en colère.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-49">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Non.</l>
           </sp>
           <sp who="agnes" xml:id="II05-50">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Si.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-51">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Non, non, non, non ! Diantre ! que de mystère !</l>
             <l>Qu’est-ce qu’il vous a pris ?</l>
           </sp>
           <sp who="agnes" xml:id="II05-52">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Il…</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-53">
-            <speaker>arnolphe <hi rend="i">à part</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">à part</hi></speaker>
             <l part="Y">Je souffre en damné.</l>
           </sp>
           <sp who="agnes" xml:id="II05-54">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Il m’a pris le ruban que vous m’aviez donné.</l>
             <l>À vous dire le vrai, je n’ai pu m’en défendre.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-55">
-            <speaker>arnolphe <hi rend="i">reprenant haleine</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">reprenant haleine</hi></speaker>
             <l n="580">Passe pour le ruban. Mais je voulais apprendre,</l>
             <l>S’il ne vous a rien fait que vous baiser les bras.</l>
           </sp>
           <sp who="agnes" xml:id="II05-56">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Comment. Est-ce qu’on fait d’autres choses ?</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-57">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Non pas.</l>
             <l>Mais pour guérir du mal qu’il dit qui le possède,</l>
             <l>N’a-t-il point exigé de vous d’autre remède ?</l>
           </sp>
           <sp who="agnes" xml:id="II05-58">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l n="585">Non. Vous pouvez juger s’il en eût demandé,</l>
             <l>Que pour le secourir j’aurais tout accordé.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-59">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Grâce aux bontés du Ciel, j’en suis quitte à bon compte.</l>
             <l>Si j’y retombe plus je veux bien qu’on m’affronte.</l>
             <l n="590">Chut. De votre innocence, Agnès, c’est un effet,</l>
@@ -1518,11 +1517,11 @@
             <l>Que de vous abuser, et puis après s’en rire.</l>
           </sp>
           <sp who="agnes" xml:id="II05-60">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Oh ! point. Il me l’a dit plus de vingt fois à moi.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-61">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Ah ! vous ne savez pas ce que c’est que sa foi.</l>
             <l n="595">Mais enfin : apprenez qu’accepter des cassettes,</l>
             <l>Et de ces beaux blondins écouter les sornettes :</l>
@@ -1531,133 +1530,133 @@
             <l>Est un péché mortel des plus gros qu’il se fasse.</l>
           </sp>
           <sp who="agnes" xml:id="II05-62">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l n="600">Un péché, dites-vous, et la raison de grâce ?</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-63">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>La raison ? la raison, est l’arrêt prononcé,</l>
             <l>Que par ces actions le Ciel est courroucé.</l>
           </sp>
           <sp who="agnes" xml:id="II05-64">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Courroucé. Mais pourquoi faut-il qu’il s’en courrouce ?</l>
             <l>C’est une chose, hélas ! si plaisante et si douce.</l>
             <l n="605">J’admire quelle joie on goûte à tout cela.</l>
             <l>Et je ne savais point encor ces choses-là.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-65">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Oui. C’est un grand plaisir que toutes ces tendresses,</l>
             <l>Ces propos si gentils, et ces douces caresses :</l>
             <l>Mais il faut le goûter en toute honnêteté,</l>
             <l n="610">Et qu’en se mariant le crime en soit ôté.</l>
           </sp>
           <sp who="agnes" xml:id="II05-66">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>N’est-ce pas un péché lorsque l’on se marie ?</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-67">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Non.</l>
           </sp>
           <sp who="agnes" xml:id="II05-68">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Mariez-moi donc promptement, je vous prie.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-69">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Si vous le souhaitez, je le souhaite aussi,</l>
             <l>Et pour vous marier on me revoit ici.</l>
           </sp>
           <sp who="agnes" xml:id="II05-70">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Est-il possible ?</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-71">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Oui.</l>
           </sp>
           <sp who="agnes" xml:id="II05-72">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l n="615" part="Y">Que vous me ferez aise !</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-73">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Oui ; je ne doute point que l’hymen ne vous plaise.</l>
           </sp>
           <sp who="agnes" xml:id="II05-74">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Vous nous voulez nous deux…</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-75">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Rien de plus assuré.</l>
           </sp>
           <sp who="agnes" xml:id="II05-76">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Que si cela se fait, je vous caresserai !</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-77">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Hé, la chose sera de ma part réciproque.</l>
           </sp>
           <sp who="agnes" xml:id="II05-78">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l n="620">Je ne reconnais point, pour moi, quand on se moque.</l>
             <l>Parlez-vous tout de bon ?</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-79">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Oui, vous le pourrez voir.</l>
           </sp>
           <sp who="agnes" xml:id="II05-80">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Nous serons mariés ?</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-81">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Oui.</l>
           </sp>
           <sp who="agnes" xml:id="II05-82">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Mais quand ?</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-83">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Dès ce soir ?</l>
           </sp>
           <sp who="agnes" xml:id="II05-84">
-            <speaker>agnès <hi rend="i">riant</hi></speaker>
+            <speaker>Agnès <hi rend="i">riant</hi></speaker>
             <l>Dès ce soir.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-85">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Dès ce soir. Cela vous fait donc rire ?</l>
           </sp>
           <sp who="agnes" xml:id="II05-86">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Oui.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-87">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Vous voir bien contente, est ce que je désire.</l>
           </sp>
           <sp who="agnes" xml:id="II05-88">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l n="625">Hélas ! que je vous ai grande obligation !</l>
             <l>Et qu’avec lui j’aurai de satisfaction !</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-89">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Avec qui ?</l>
           </sp>
           <sp who="agnes" xml:id="II05-90">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Avec… là.</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-91">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Là… là n’est pas mon compte.</l>
             <l>À choisir un mari, vous êtes un peu prompte.</l>
             <l>C’est un autre en un mot que je vous tiens tout prêt,</l>
@@ -1672,28 +1671,28 @@
             <l>De votre procédé je serai le témoin.</l>
           </sp>
           <sp who="agnes" xml:id="II05-92">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Las ! il est si bien fait. c’est…</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-93">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Ah que de langage !</l>
           </sp>
           <sp who="agnes" xml:id="II05-94">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Je n’aurai pas le cœur…</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-95">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="640" part="Y">Point de bruit davantage.</l>
             <l>Montez là-haut.</l>
           </sp>
           <sp who="agnes" xml:id="II05-96">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Mais quoi, voulez-vous…</l>
           </sp>
           <sp who="arnolphe" xml:id="II05-97">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">C’est assez.</l>
             <l>Je suis Maître, je parle, allez, obéissez.</l>
           </sp>
@@ -1701,12 +1700,12 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="III">
-        <head>ACTE III</head>
+        <head>Acte III</head>
         <div2 type="scene" xml:id="III01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène Première</head>
           <stage>Arnolphe, Agnès, Alain, Georgette.</stage>
           <sp who="arnolphe" xml:id="III01-1">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Oui : tout a bien été, ma joie est sans pareille.</l>
             <l>Vous avez là suivi mes ordres à merveille :</l>
             <l n="645">Confondu de tout point le blondin séducteur ;</l>
@@ -1732,19 +1731,19 @@
             <l n="665">Un siège au frais ici. Vous, si jamais en rien…</l>
           </sp>
           <sp who="georgette" xml:id="III01-2">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>De toutes vos leçons nous nous souviendrons bien.</l>
             <l>Cet autre Monsieur-là nous en faisait accroire.</l>
             <l>Mais…</l>
           </sp>
           <sp who="alain" xml:id="III01-3">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l part="Y">S’il entre jamais, je veux jamais ne boire.</l>
             <l>Aussi bien est-ce un sot, il nous a l’autre fois</l>
             <l n="670">Donné deux écus d’or qui n’étaient pas de poids.</l>
           </sp>
           <sp who="arnolphe" xml:id="III01-4">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Ayez donc pour souper tout ce que je désire ;</l>
             <l>Et pour notre contrat, comme je viens de dire,</l>
             <l>Faites venir ici l’un ou l’autre au retour,</l>
@@ -1752,10 +1751,10 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III02">
-          <head>SCÈNE II</head>
+          <head>Scène II</head>
           <stage>Arnolphe, Agnès.</stage>
           <sp who="arnolphe" xml:id="III02-1">
-            <speaker>arnolphe <hi rend="i">assis</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">assis</hi></speaker>
             <l n="675">Agnès, pour m’écouter, laissez-là votre ouvrage.</l>
             <l>Levez un peu la tête, et tournez le visage.</l>
             <l>Là, regardez-moi là, durant cet entretien :</l>
@@ -1831,7 +1830,7 @@
             <l>Tenez : voyons un peu si vous le lirez bien.</l>
           </sp>
           <sp who="agnes" xml:id="III02-2">
-            <speaker>agnès <hi rend="i">lit</hi></speaker>
+            <speaker>Agnès <hi rend="i">lit</hi></speaker>
             <p rend="indent">LES MAXIMES <lb/>DU MARIAGE, <lb/>OU <lb/>LES DEVOIRS DE <lb/>LA FEMME MARIÉE</p>
             <p rend="i indent">Avec son Exercice journalier</p>
             <p rend="i indent">I<hi rend="sup">re</hi> MAXIME</p>
@@ -1844,12 +1843,12 @@
             </lg>
           </sp>
           <sp who="arnolphe" xml:id="III02-3">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Je vous expliquerai ce que cela veut dire :</l>
             <l>Mais pour l’heure présente il ne faut rien que lire.</l>
           </sp>
           <sp who="agnes" xml:id="III02-4">
-            <speaker>agnès <hi rend="i">poursuit</hi>.</speaker>
+            <speaker>Agnès <hi rend="i">poursuit</hi>.</speaker>
             <p rend="i indent">II<hi rend="sup">e</hi> MAXIME</p>
             <lg rend="i indent">
               <l>Elle ne se doit parer,</l>
@@ -1928,7 +1927,7 @@
             <p rend="i indent">XI<hi rend="sup">e</hi> MAXIME…</p>
           </sp>
           <sp who="arnolphe" xml:id="III02-5">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Vous achèverez seule, et pas à pas, tantôt</l>
             <l>Je vous expliquerai ces choses comme il faut.</l>
             <l>Je me suis souvenu d’une petite affaire.</l>
@@ -1938,9 +1937,9 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III03">
-          <head>SCÈNE III</head>
+          <head>Scène III</head>
           <sp who="arnolphe" xml:id="III03-1">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Je ne puis faire mieux que d’en faire ma femme.</l>
             <l>Ainsi que je voudrai, je tournerai cette âme.</l>
             <l n="810">Comme un morceau de cire entre mes mains elle est,</l>
@@ -1980,16 +1979,16 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="III04">
-          <head>SCÈNE IV</head>
+          <head>Scène IV</head>
           <stage>Horace, Arnolphe.</stage>
           <sp who="horace" xml:id="III04-1">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Je reviens de chez vous, et le destin me montre</l>
             <l n="845">Qu’il n’a pas résolu que je vous y rencontre.</l>
             <l>Mais j’irai tant de fois qu’enfin quelque moment…</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-2">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Hé mon Dieu ! n’entrons point dans ce vain compliment.</l>
             <l>Rien ne me fâche tant que ces cérémonies,</l>
             <l>Et si l’on m’en croyait, elles seraient bannies.</l>
@@ -2003,34 +2002,34 @@
             <l>Et dans l’événement mon âme s’intéresse.</l>
           </sp>
           <sp who="horace" xml:id="III04-3">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Ma foi, depuis qu’à vous s’est découvert mon cœur,</l>
             <l>Il est à mon amour arrivé du malheur.</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-4">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Oh, oh ! comment cela ?</l>
           </sp>
           <sp who="horace" xml:id="III04-5">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l n="860" part="Y">La fortune cruelle</l>
             <l>A ramené des champs le patron de la belle.</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-6">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Quel malheur !</l>
           </sp>
           <sp who="horace" xml:id="III04-7">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Et de plus, à mon très grand regret,</l>
             <l>Il a su de nous deux le commerce secret.</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-8">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>D’où, diantre ! a-t-il sitôt appris cette aventure ?</l>
           </sp>
           <sp who="horace" xml:id="III04-9">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l n="865">Je ne sais. Mais enfin c’est une chose sûre.</l>
             <l>Je pensais aller rendre, à mon heure, à peu prés,</l>
             <l>Ma petite visite à ses jeunes attraits,</l>
@@ -2040,94 +2039,94 @@
             <l>M’ont assez rudement fermé la porte au nez.</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-10">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>La porte au nez !</l>
           </sp>
           <sp who="horace" xml:id="III04-11">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Au nez.</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-12">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">La chose est un peu forte.</l>
           </sp>
           <sp who="horace" xml:id="III04-13">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>J’ai voulu leur parler au travers de la porte :</l>
             <l>Mais à tous mes propos ce qu’ils ont répondu</l>
             <l n="875">C’est, <hi rend="i">vous n’entrerez point, Monsieur l’a défendu</hi>.</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-14">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Ils n’ont donc point ouvert ?</l>
           </sp>
           <sp who="horace" xml:id="III04-15">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Non. Et de la fenêtre</l>
             <l>Agnès m’a confirmé le retour de ce Maître ;</l>
             <l>En me chassant de là d’un ton plein de fierté,</l>
             <l>Accompagné d’un grès que sa main a jeté.</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-16">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Comment d’un grès ?</l>
           </sp>
           <sp who="horace" xml:id="III04-17">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l n="880" part="Y">D’un grès de taille non petite,</l>
             <l>Dont on a par ses mains régalé ma visite.</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-18">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Diantre ! ce ne sont pas des prunes que cela ;</l>
             <l>Et je trouve fâcheux l’état où vous voilà.</l>
           </sp>
           <sp who="horace" xml:id="III04-19">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Il est vrai, je suis mal par ce retour funeste.</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-20">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="885">Certes j’en suis fâché pour vous, je vous proteste.</l>
           </sp>
           <sp who="horace" xml:id="III04-21">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Cet homme me rompt tout.</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-22">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Oui, mais cela n’est rien,</l>
             <l>Et de vous raccrocher vous trouverez moyen.</l>
           </sp>
           <sp who="horace" xml:id="III04-23">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Il faut bien essayer par quelque intelligence</l>
             <l>De vaincre du jaloux l’exacte vigilance.</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-24">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Cela vous est facile, et la fille, après tout,</l>
             <l>Vous aime.</l>
           </sp>
           <sp who="horace" xml:id="III04-25">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Assurément.</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-26">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Vous en viendrez à bout.</l>
           </sp>
           <sp who="horace" xml:id="III04-27">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Je l’espère.</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-28">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Le grès vous a mis en déroute,</l>
             <l>Mais cela ne doit pas vous étonner.</l>
           </sp>
           <sp who="horace" xml:id="III04-29">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Sans doute,</l>
             <l>Et j’ai compris d’abord que mon homme était là,</l>
             <l n="895">Qui sans se faire voir conduisait tout cela :</l>
@@ -2164,12 +2163,12 @@
             <l>Dites,</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-30">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Oui fort plaisant.</l>
             <stage>Arnolphe rit d’un ris forcé.</stage>
           </sp>
           <sp who="horace" xml:id="III04-31">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Riez-en donc un peu,</l>
             <l>Cet homme gendarmé d’abord contre mon feu,</l>
             <l>Qui chez lui se retranche, et de grès fait parade,</l>
@@ -2185,11 +2184,11 @@
             <l>Et vous n’en riez pas assez à mon avis.</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-32">
-            <speaker>arnolphe <hi rend="i">avec un ris forcé</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">avec un ris forcé</hi></speaker>
             <l>Pardonnez-moi, j’en ris tout autant que je puis.</l>
           </sp>
           <sp who="horace" xml:id="III04-33">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l n="940">Mais il faut qu’en ami je vous montre la lettre.</l>
             <l>Tout ce que son cœur sent, sa main a su l’y mettre :</l>
             <l>Mais en termes touchants, et tous pleins de bonté,</l>
@@ -2198,28 +2197,28 @@
             <l n="945">Exprime de l’amour la première blessure.</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-34">
-            <speaker>arnolphe <hi rend="i">bas</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">bas</hi></speaker>
             <l>Voilà, friponne, à quoi l’écriture te sert,</l>
             <l>Et contre mon dessein l’art t’en fut découvert.</l>
           </sp>
           <sp who="horace" xml:id="III04-35">
-            <speaker>horace <hi rend="i">lit</hi></speaker>
+            <speaker>Horace <hi rend="i">lit</hi></speaker>
             <p rend="i">Je veux vous écrire, et je suis bien en peine par où je m’y prendrai. J’ai des pensées que je désirerais que vous sussiez ; mais je ne sais comment faire pour vous les dire, et je me défie de mes paroles. Comme je commence à connaître qu’on m’a toujours tenue dans l’ignorance, j’ai peur de mettre quelque chose, qui ne soit pas bien, et d’en dire plus que je ne devrais. En vérité je ne sais ce que vous m’avez fait ; mais je sens que je suis fâchée à mourir de ce qu’on me fait faire contre vous, que j’aurai toutes les peines du monde à me passer de vous, et que je serais bien aise d’être à vous. Peut-être qu’il y a du mal à dire cela ; mais enfin je ne puis m’empêcher de le dire, et je voudrais que cela se pût faire, sans qu’il y en eût. On me dit fort, que tous les jeunes hommes sont des trompeurs ; qu’ils ne les faut point écouter, et que tout ce que vous me dites, n’est que pour m’abuser ; mais je vous assure, que je n’ai pu encore me figurer cela de vous ; et je suis si touchée de vos paroles, que je ne saurais croire qu’elles soient menteuses. Dites-moi franchement ce qui en est : car enfin, comme je suis sans malice, vous auriez le plus grand tort du monde, si vous me trompiez. Et je pense que j’en mourrais de déplaisir.</p>
           </sp>
           <sp who="arnolphe" xml:id="III04-36">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Hom chienne.</l>
           </sp>
           <sp who="horace" xml:id="III04-37">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Qu’avez-vous ?</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-38">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Moi ? rien ; c’est que je tousse,</l>
           </sp>
           <sp who="horace" xml:id="III04-39">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Avez-vous jamais vu, d’expression plus douce,</l>
             <l n="950">Malgré les soins maudits d’un injuste pouvoir,</l>
             <l>Un plus beau naturel peut-il se faire voir ?</l>
@@ -2233,20 +2232,20 @@
             <l>Ce traître, ce bourreau, ce faquin, ce brutal…</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-40">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Adieu.</l>
           </sp>
           <sp who="horace" xml:id="III04-41">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Comment si vite ?</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-42">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="960" part="Y">Il m’est dans la pensée</l>
             <l>Venu tout maintenant une affaire pressée.</l>
           </sp>
           <sp who="horace" xml:id="III04-43">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Mais ne sauriez-vous point, comme on la tient de près,</l>
             <l>Qui dans cette maison pourrait avoir accès,</l>
             <l>J’en use sans scrupule, et ce n’est pas merveille,</l>
@@ -2262,18 +2261,18 @@
             <l>Ne me pourriez-vous point ouvrir quelque moyen ?</l>
           </sp>
           <sp who="arnolphe" xml:id="III04-44">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="975">Non vraiment, et sans moi vous en trouverez bien.</l>
           </sp>
           <sp who="horace" xml:id="III04-45">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Adieu donc. Vous voyez ce que je vous confie.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="III05">
-          <head>SCÈNE V</head>
+          <head>Scène V</head>
           <sp who="arnolphe" xml:id="III05-1">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Comme il faut devant lui que je me mortifie,</l>
             <l>Quelle peine à cacher mon déplaisir cuisant.</l>
             <l>Quoi pour une innocente, un esprit si pressent ?</l>
@@ -2310,11 +2309,11 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="IV">
-        <head>ACTE IV</head>
+        <head>Acte IV</head>
         <div2 type="scene" xml:id="IV01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène Première</head>
           <sp who="arnolphe" xml:id="IV01-1">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>J’ai peine, je l’avoue, à demeurer en place,</l>
             <l>Et de mille soucis mon esprit s’embarrasse,</l>
             <l n="1010">Pour pouvoir mettre un ordre et dedans et dehors,</l>
@@ -2349,91 +2348,91 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV02">
-          <head>SCÈNE II</head>
+          <head>Scène II</head>
           <stage>Le notaire, Arnolphe.</stage>
           <sp who="notaire" xml:id="IV02-1">
-            <speaker>le notaire</speaker>
+            <speaker>Le notaire</speaker>
             <l>Ah le voilà ! Bonjour, me voici tout à point</l>
             <l n="1040">Pour dresser le contrat que vous souhaitez faire.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV02-2">
-            <speaker>arnolphe sans <hi rend="i">le</hi> voir</speaker>
+            <speaker>Arnolphe<hi rend="i"> sans le voir</hi></speaker>
             <l>Comment faire !</l>
           </sp>
           <sp who="notaire" xml:id="IV02-3">
-            <speaker>le notaire</speaker>
+            <speaker>Le notaire</speaker>
             <l part="Y">Il le faut dans la forme ordinaire.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV02-4">
-            <speaker>arnolphe <hi rend="i">sans le voir</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">sans le voir</hi></speaker>
             <l>À mes précautions je veux songer de près.</l>
           </sp>
           <sp who="notaire" xml:id="IV02-5">
-            <speaker>le notaire</speaker>
+            <speaker>Le notaire</speaker>
             <l>Je ne passerai rien contre vos intérêts.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV02-6">
-            <speaker>arnolphe <hi rend="i">sans le voir</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">sans le voir</hi></speaker>
             <l>Il se faut garantir de toutes les surprises.</l>
           </sp>
           <sp who="notaire" xml:id="IV02-7">
-            <speaker>le notaire</speaker>
+            <speaker>Le notaire</speaker>
             <l n="1045">Suffit qu’entre mes mains vos affaires soient mises.</l>
             <l>Il ne vous faudra point de peur d’être déçu,</l>
             <l>Quittancer le Contrat que vous n’ayez reçu.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV02-8">
-            <speaker>arnolphe <hi rend="i">sans le voir</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">sans le voir</hi></speaker>
             <l>J’ai peur si je vais faire éclater quelque chose,</l>
             <l>Que de cet incident par la ville on ne cause.</l>
           </sp>
           <sp who="notaire" xml:id="IV02-9">
-            <speaker>le notaire</speaker>
+            <speaker>Le notaire</speaker>
             <l n="1050">Et bien il est aisé d’empêcher cet éclat,</l>
             <l>Et l’on peut en secret faire votre Contrat.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV02-10">
-            <speaker>arnolphe <hi rend="i">sans le voir</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">sans le voir</hi></speaker>
             <l>Mais comment faudra-il qu’avec elle j’en sorte ?</l>
           </sp>
           <sp who="notaire" xml:id="IV02-11">
-            <speaker>le notaire</speaker>
+            <speaker>Le notaire</speaker>
             <l>Le douaire se règle au bien qu’on vous apporte.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV02-12">
-            <speaker>arnolphe <hi rend="i">sans le voir</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">sans le voir</hi></speaker>
             <l>Je l’aime, et cet amour est mon grand embarras.</l>
           </sp>
           <sp who="notaire" xml:id="IV02-13">
-            <speaker>le notaire</speaker>
+            <speaker>Le notaire</speaker>
             <l n="1055">On peut avantager une femme en ce cas.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV02-14">
-            <speaker>arnolphe <hi rend="i">sans le voir</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">sans le voir</hi></speaker>
             <l>Quel traitement lui faire en pareille aventure ?</l>
           </sp>
           <sp who="notaire" xml:id="IV02-15">
-            <speaker>le notaire</speaker>
+            <speaker>Le notaire</speaker>
             <l>L’ordre est que le futur doit douer la future</l>
             <l>Du tiers du dot qu’elle a, mais cet ordre n’est rien,</l>
             <l>Et l’on va plus avant lorsque l’on le veut bien.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV02-16">
-            <speaker>arnolphe <hi rend="i">sans le voir</hi>.</speaker>
+            <speaker>Arnolphe <hi rend="i">sans le voir</hi>.</speaker>
             <l>Si…</l>
           </sp>
           <sp who="notaire" xml:id="IV02-17">
-            <speaker>le notaire <hi rend="i">Arnolphe l’apercevant</hi>.</speaker>
+            <speaker>Le notaire <hi rend="i">Arnolphe l’apercevant</hi>.</speaker>
             <l n="1060" part="Y">Pour le préciput il les regarde ensemble.</l>
             <l>Je dis que le futur peut comme bon lui semble</l>
             <l>Douer la future.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV02-18">
-            <speaker>arnolphe <hi rend="i">l’ayant aperçu</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">l’ayant aperçu</hi></speaker>
             <l>Euh !</l>
           </sp>
           <sp who="notaire" xml:id="IV02-19">
-            <speaker>le notaire</speaker>
+            <speaker>Le notaire</speaker>
             <l>Il peut l’avantager</l>
             <l>Lors qu’il l’aime beaucoup et qu’il veut l’obliger,</l>
             <l>Et cela par douaire, ou préfix qu’on appelle,</l>
@@ -2452,75 +2451,75 @@
             <l>Entre en communauté ? pour…</l>
           </sp>
           <sp who="arnolphe" xml:id="IV02-20">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Oui, c’est chose sûre,</l>
             <l>Vous savez tout cela mais qui vous en dit mot ?</l>
           </sp>
           <sp who="notaire" xml:id="IV02-21">
-            <speaker>le notaire</speaker>
+            <speaker>Le notaire</speaker>
             <l>Vous qui me prétendez faire passer pour sot,</l>
             <l n="1080">En me haussant l’épaule, et faisant la grimace.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV02-22">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>La peste soit fait l’homme, et sa chienne de face.</l>
             <l>Adieu. C’est le moyen de vous faire finir.</l>
           </sp>
           <sp who="notaire" xml:id="IV02-23">
-            <speaker>le notaire</speaker>
+            <speaker>Le notaire</speaker>
             <l>Pour dresser un Contrat m’a-t-on pas fait venir ?</l>
           </sp>
           <sp who="arnolphe" xml:id="IV02-24">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Oui, je vous ai mandé : mais la chose est remise,</l>
             <l n="1085">Et l’on vous mandera quand l’heure sera prise.</l>
             <l>Voyez quel Diable d’homme avec son entretien ?</l>
           </sp>
           <sp who="notaire" xml:id="IV02-25">
-            <speaker>le notaire</speaker>
+            <speaker>Le notaire</speaker>
             <l>Je pense qu’il en tient, et je crois penser bien.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV03">
-          <head>SCÈNE III</head>
+          <head>Scène III</head>
           <stage>Le notaire, Alain, Georgette, Arnolphe.</stage>
           <sp who="notaire" xml:id="IV03-1">
-            <speaker>le notaire</speaker>
+            <speaker>Le notaire</speaker>
             <l>M’êtes-vous pas venu quérir pour votre Maître ?</l>
           </sp>
           <sp who="alain" xml:id="IV03-2">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Oui.</l>
           </sp>
           <sp who="notaire" xml:id="IV03-3">
-            <speaker>le notaire</speaker>
+            <speaker>Le notaire</speaker>
             <l part="Y">J’ignore pour qui vous le pouvez connaître :</l>
             <l n="1090">Mais allez de ma part lui dire de ce pas</l>
             <l>Que c’est un fou fieffé.</l>
           </sp>
           <sp who="georgette" xml:id="IV03-4">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l part="Y">Nous n’y manquerons pas.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV04">
-          <head>SCÈNE IV</head>
+          <head>Scène IV</head>
           <stage>Alain, Georgette, Arnolphe.</stage>
           <sp who="alain" xml:id="IV04-1">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Monsieur…</l>
           </sp>
           <sp who="arnolphe" xml:id="IV04-2">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Approchez-vous, vous êtes mes fidèles,</l>
             <l>Mes bons, mes vrais amis, et j’en sais des nouvelles.</l>
           </sp>
           <sp who="alain" xml:id="IV04-3">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Le Notaire…</l>
           </sp>
           <sp who="arnolphe" xml:id="IV04-4">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Laissons, c’est pour quelque autre jour.</l>
             <l n="1095">On veut à mon honneur jouer d’un mauvais tour :</l>
             <l>Et quel affront pour vous mes enfants pourrait-ce être,</l>
@@ -2532,59 +2531,59 @@
             <l>Que ce galant ne puisse en aucune façon…</l>
           </sp>
           <sp who="georgette" xml:id="IV04-5">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Vous nous avez tantôt montré notre leçon.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV04-6">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Mais à ses beaux discours gardez bien de vous rendre.</l>
           </sp>
           <sp who="alain" xml:id="IV04-7">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Oh vraiment…</l>
           </sp>
           <sp who="georgette" xml:id="IV04-8">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l n="1105" part="Y">Nous savons comme il faut s’en défendre.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV04-9">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>S’il venait doucement. <hi rend="i">Alain, mon pauvre cœur</hi>,</l>
             <l rend="i">Par un peu de secours soulage ma langueur.</l>
           </sp>
           <sp who="alain" xml:id="IV04-10">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Vous êtes un sot.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV04-11">
-            <speaker>arnolphe <hi rend="i">à Georgette</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">à Georgette</hi></speaker>
             <l part="Y">Bon. <hi rend="i">Georgette ma mignonne</hi></l>
             <l rend="i">Tu me parais si douce, et si bonne personne.</l>
           </sp>
           <sp who="georgette" xml:id="IV04-12">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Vous êtes un nigaud.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV04-13">
-            <speaker>arnolphe <hi rend="i">à Alain</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">à Alain</hi></speaker>
             <l n="1110" part="Y">Bon. <hi rend="i">Quel mal trouves-tu</hi></l>
             <l rend="i">Dans un dessein honnête, et tout plein de vertu ?</l>
           </sp>
           <sp who="alain" xml:id="IV04-14">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Vous êtes un fripon.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV04-15">
-            <speaker>arnolphe <hi rend="i">à Georgette</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">à Georgette</hi></speaker>
             <l part="Y">Fort bien. <hi rend="i">Ma mort est sûre</hi></l>
             <l rend="i">Si tu ne prends pitié des peines que j’endure.</l>
           </sp>
           <sp who="georgette" xml:id="IV04-16">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Vous êtes un benêt, un impudent.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV04-17">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Fort bien.</l>
             <l n="1115" rend="i">Je ne suis pas un homme à vouloir rien pour rien,</l>
             <l rend="i">Je sais quand on me sert en garder la mémoire :</l>
@@ -2596,69 +2595,69 @@
             <l rend="i">C’est que je puisse voir votre belle Maîtresse.</l>
           </sp>
           <sp who="georgette" xml:id="IV04-18">
-            <speaker>georgette <hi rend="i">le poussant</hi></speaker>
+            <speaker>Georgette <hi rend="i">le poussant</hi></speaker>
             <l>À d’autres.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV04-19">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Bon cela.</l>
           </sp>
           <sp who="alain" xml:id="IV04-20">
-            <speaker>alain <hi rend="i">le poussant</hi></speaker>
+            <speaker>Alain <hi rend="i">le poussant</hi></speaker>
             <l part="Y">Hors d’ici.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV04-21">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Bon.</l>
           </sp>
           <sp who="georgette" xml:id="IV04-22">
-            <speaker>georgette <hi rend="i">le poussant</hi></speaker>
+            <speaker>Georgette <hi rend="i">le poussant</hi></speaker>
             <l part="Y">Mais tôt.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV04-23">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Bon. Holà, c’est assez.</l>
           </sp>
           <sp who="georgette" xml:id="IV04-24">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l part="Y">Fais-je pas comme il faut ?</l>
           </sp>
           <sp who="alain" xml:id="IV04-25">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Est-ce de la façon que vous voulez l’entendre ?</l>
           </sp>
           <sp who="arnolphe" xml:id="IV04-26">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="1125">Oui, fort bien, hors l’argent qu’il ne fallait pas prendre.</l>
           </sp>
           <sp who="georgette" xml:id="IV04-27">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l>Nous ne nous sommes pas souvenus de ce point.</l>
           </sp>
           <sp who="alain" xml:id="IV04-28">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Voulez-vous qu’à l’instant nous recommencions ?</l>
           </sp>
           <sp who="arnolphe" xml:id="IV04-29">
-            <speaker>arnolphe    </speaker>
+            <speaker>Arnolphe    </speaker>
             <l part="Y">Point.</l>
             <l>Suffit, rentrez tous deux.</l>
           </sp>
           <sp who="alain" xml:id="IV04-30">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l part="Y">Vous n’avez rien qu’à dire.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV04-31">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Non, non, dis-je, rentrez, puisque je le désire.</l>
             <l n="1130">Je vous laisse l’argent, allez, je vous rejoins,</l>
             <l>Ayez bien l’œil à tout, et secondez mes soins.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV05">
-          <head>SCÈNE V</head>
+          <head>Scène V</head>
           <sp who="arnolphe" xml:id="IV05-1">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Je veux pour espion qui soit d’exacte vue,</l>
             <l>Prendre le Savetier du coin de notre rue,</l>
             <l>Dans la maison toujours je prétends la tenir,</l>
@@ -2673,10 +2672,10 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV06">
-          <head>SCÈNE VI</head>
+          <head>Scène VI</head>
           <stage>Horace, Arnolphe.</stage>
           <sp who="horace" xml:id="IV06-1">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>La place m’est heureuse à vous y rencontrer.</l>
             <l>Je viens de l’échapper bien belle je vous jure.</l>
             <l n="1145">Au sortir d’avec vous sans prévoir l’aventure,</l>
@@ -2719,9 +2718,9 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV07">
-          <head>SCÈNE VII</head>
+          <head>Scène VII</head>
           <sp who="arnolphe" xml:id="IV07-1">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Quoi ? l’astre qui s’obstine à me désespérer,</l>
             <l>Ne me donnera pas le temps de respirer,</l>
             <l>Coup sur coup je verrai par leur intelligence,</l>
@@ -2759,47 +2758,47 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV08">
-          <head>SCÈNE VIII</head>
+          <head>Scène VIII</head>
           <stage>Chrysalde, Arnolphe.</stage>
           <sp who="chrysalde" xml:id="IV08-1">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Et bien souperons-nous avant la promenade ?</l>
           </sp>
           <sp who="arnolphe" xml:id="IV08-2">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Non, je jeûne ce soir.</l>
           </sp>
           <sp who="chrysalde" xml:id="IV08-3">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l part="Y">D’où vient cette boutade ?</l>
           </sp>
           <sp who="arnolphe" xml:id="IV08-4">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>De grâce excusez-moi, j’ai quelque autre embarras.</l>
           </sp>
           <sp who="chrysalde" xml:id="IV08-5">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Votre hymen résolu ne se fera-t-il pas ?</l>
           </sp>
           <sp who="arnolphe" xml:id="IV08-6">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="1220">C’est trop s’inquiéter des affaires des autres.</l>
           </sp>
           <sp who="chrysalde" xml:id="IV08-7">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Oh, oh, si brusquement ? quels chagrins sont les vôtres ?</l>
             <l>Serait-il point, compère, à votre passion,</l>
             <l>Arrivé quelque peu de tribulation ?</l>
             <l>Je le jurerais presque à voir votre visage.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV08-8">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="1225">Quoi qu’il m’arrive au moins aurai-je l’avantage,</l>
             <l>De ne pas ressembler à de certaines gens,</l>
             <l>Qui souffrent doucement l’approche des galants.</l>
           </sp>
           <sp who="chrysalde" xml:id="IV08-9">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>C’est un étrange fait qu’avec tant de lumières,</l>
             <l>Vous vous effarouchiez toujours sur ces matières,</l>
             <l n="1230">Qu’en cela vous mettiez le souverain bonheur,</l>
@@ -2850,14 +2849,14 @@
             <l n="1275">Ne va qu’à le savoir tourner du bon côté.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV08-10">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Après ce beau discours, toute la confrérie,</l>
             <l>Doit un remercîment à votre Seigneurie :</l>
             <l>Et quiconque voudra vous entendre parler,</l>
             <l>Montrera de la joie à s’y voir enrôler.</l>
           </sp>
           <sp who="chrysalde" xml:id="IV08-11">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l n="1280">Je ne dis pas cela, car c’est ce que je blâme :</l>
             <l>Mais comme c’est le sort qui nous donne une femme,</l>
             <l>Je dis que l’on doit faire ainsi qu’au jeu de dés,</l>
@@ -2866,12 +2865,12 @@
             <l n="1285">Corriger le hasard par la bonne conduite.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV08-12">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>C’est-à-dire dormir, et manger toujours bien,</l>
             <l>Et se persuader que tout cela n’est rien.</l>
           </sp>
           <sp who="chrysalde" xml:id="IV08-13">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Vous pensez-vous moquer : mais à ne vous rien feindre,</l>
             <l>Dans le monde je vois cent choses plus à craindre,</l>
             <l n="1290">Et dont je me ferais un bien plus grand malheur,</l>
@@ -2892,36 +2891,36 @@
             <l n="1305">Et qu’il a ses plaisirs comme les autres choses.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV08-14">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Si vous êtes d’humeur à vous en contenter,</l>
             <l>Quant à moi ce n’est pas la mienne d’en tâter ;</l>
             <l>Et plutôt que subir une telle aventure…</l>
           </sp>
           <sp who="chrysalde" xml:id="IV08-15">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Mon Dieu ne jurez point de peur d’être parjure ;</l>
             <l n="1310">Si le sort l’a réglé, vos soins sont superflus,</l>
             <l>Et l’on ne prendra pas votre avis là-dessus.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV08-16">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Moi ! je serais cocu ?</l>
           </sp>
           <sp who="chrysalde" xml:id="IV08-17">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l part="Y">Vous voilà bien malade,</l>
             <l>Mille gens le sont bien sans vous faire bravade ;</l>
             <l>Qui de mine, de cœur, de biens et de maison,</l>
             <l n="1315">Ne feraient avec vous nulle comparaison.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV08-18">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Et moi je n’en voudrais avec eux faire aucune :</l>
             <l>Mais cette raillerie en un mot m’importune :</l>
             <l>Brisons-là, s’il vous plaît.</l>
           </sp>
           <sp who="chrysalde" xml:id="IV08-19">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l part="Y">Vous êtes en courroux,</l>
             <l>Nous en saurons la cause : Adieu souvenez-vous ;</l>
             <l n="1320">Quoique sur ce sujet votre honneur vous inspire,</l>
@@ -2929,16 +2928,16 @@
             <l>Que de vouloir jurer qu’on ne le sera pas.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV08-20">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Moi ! je le jure encore, et je vais de ce pas,</l>
             <l>Contre cet accident trouver un bon remède.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV09">
-          <head>SCÈNE IX</head>
+          <head>Scène IX</head>
           <stage>Alain, Georgette, Arnolphe.</stage>
           <sp who="arnolphe" xml:id="IV09-1">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="1325">Mes amis, c’est ici que j’implore votre aide,</l>
             <l>Je suis édifié de votre affection ;</l>
             <l>Mais il faut qu’elle éclate en cette occasion :</l>
@@ -2959,17 +2958,17 @@
             <l>Auriez-vous bien l’esprit de servir mon courroux ?</l>
           </sp>
           <sp who="alain" xml:id="IV09-2">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>S’il ne tient qu’à frapper, Monsieur, tout est à nous.</l>
             <l>Vous verrez, quand je bats, si j’y vais de main morte.</l>
           </sp>
           <sp who="georgette" xml:id="IV09-3">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l n="1345">La mienne, quoique aux yeux, elle semble moins forte,</l>
             <l>N’en quitte pas sa part à le bien étriller.</l>
           </sp>
           <sp who="arnolphe" xml:id="IV09-4">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Rentrez donc, et surtout gardez de babiller ;</l>
             <l>Voilà pour le prochain une leçon utile,</l>
             <l>Et si tous les Maris qui sont en cette Ville,</l>
@@ -2980,20 +2979,20 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="V">
-        <head>ACTE V</head>
+        <head>Acte V</head>
         <div2 type="scene" xml:id="V01">
-          <head>SCÈNE PREMIÈRE</head>
+          <head>Scène Première</head>
           <stage>Alain, Georgette, Arnolphe.</stage>
           <sp who="arnolphe" xml:id="V01-1">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Traîtres, qu’avez-vous fait par cette violence ?</l>
           </sp>
           <sp who="alain" xml:id="V01-2">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Nous vous avons rendu, Monsieur, obéissance.</l>
           </sp>
           <sp who="arnolphe" xml:id="V01-3">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>De cette excuse en vain vous voulez vous armer.</l>
             <l n="1355">L’ordre était de le battre, et non de l’assommer ;</l>
             <l>Et c’était sur le dos, et non pas sur la tête,</l>
@@ -3009,37 +3008,37 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V02">
-          <head>SCÈNE II</head>
+          <head>Scène II</head>
           <stage>Horace, Arnolphe.</stage>
           <sp who="horace" xml:id="V02-1">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Il faut que j’aille un peu reconnaître qui c’est.</l>
           </sp>
           <sp who="arnolphe" xml:id="V02-2">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Eût-on jamais prévu… Qui va là ? s’il vous plaît.</l>
           </sp>
           <sp who="horace" xml:id="V02-3">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>C’est vous, Seigneur Arnolphe.</l>
           </sp>
           <sp who="arnolphe" xml:id="V02-4">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Oui ; mais vous…</l>
           </sp>
           <sp who="horace" xml:id="V02-5">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">C’est Horace.</l>
             <l>Je m’en allais chez vous, vous prier d’une grâce.</l>
             <l>Vous sortez bien matin.</l>
           </sp>
           <sp who="arnolphe" xml:id="V02-6">
-            <speaker>arnolphe <hi rend="i">bas</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">bas</hi></speaker>
             <l n="1370" part="Y">Quelle confusion !</l>
             <l>Est-ce un enchantement ? est-ce une illusion ?</l>
           </sp>
           <sp who="horace" xml:id="V02-7">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>J’étais, à dire vrai, dans une grande peine ;</l>
             <l>Et je bénis du Ciel la bonté souveraine,</l>
             <l>Qui fait qu’à point nommé je vous rencontre ainsi.</l>
@@ -3106,22 +3105,22 @@
             <l n="1435">Que je puis confier ce dépôt amoureux.</l>
           </sp>
           <sp who="arnolphe" xml:id="V02-8">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Je suis, n’en doutez point, tout à votre service.</l>
           </sp>
           <sp who="horace" xml:id="V02-9">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Vous voulez bien me rendre un si charmant office.</l>
           </sp>
           <sp who="arnolphe" xml:id="V02-10">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Très volontiers, vous dis-je, et je me sens ravir</l>
             <l>De cette occasion que j’ai de vous servir.</l>
             <l n="1440">Je rends grâces au Ciel de ce qu’il me l’envoie,</l>
             <l>Et n’ai jamais rien fait avec si grande joie.</l>
           </sp>
           <sp who="horace" xml:id="V02-11">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Que je suis redevable à toutes vos bontés !</l>
             <l>J’avais de votre part craint des difficultés :</l>
             <l>Mais vous êtes du monde, et dans votre sagesse</l>
@@ -3129,7 +3128,7 @@
             <l>Un de mes gens la garde au coin de ce détour.</l>
           </sp>
           <sp who="arnolphe" xml:id="V02-12">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Mais comment ferons-nous ; car il fait un peu jour ;</l>
             <l>Si je la prends ici, l’on me verra, peut-être,</l>
             <l>Et s’il faut que chez moi vous veniez à paraître,</l>
@@ -3138,22 +3137,22 @@
             <l>Mon allée est commode, et je l’y vais attendre.</l>
           </sp>
           <sp who="horace" xml:id="V02-13">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Ce sont précautions qu’il est fort bon de prendre.</l>
             <l>Pour moi je ne ferai que vous la mettre en main,</l>
             <l n="1455">Et chez moi sans éclat je retourne soudain.</l>
           </sp>
           <sp who="arnolphe" xml:id="V02-14">
-            <speaker>arnolphe <hi rend="i">seul</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">seul</hi></speaker>
             <l>Ah fortune ! ce trait d’aventure propice,</l>
             <l>Répare tous les maux que m’a faits ton caprice.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="V03">
-          <head>SCÈNE III</head>
+          <head>Scène III</head>
           <stage>Agnès, Horace, Arnolphe.</stage>
           <sp who="horace" xml:id="V03-1">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Ne soyez point en peine, où je vais vous mener,</l>
             <l>C’est un logement sûr que je vous fais donner.</l>
             <l n="1460">Vous loger avec moi ce serait tout détruire,</l>
@@ -3161,104 +3160,104 @@
             <stage>Arnolphe lui prend la main sans qu’elle le connaisse.</stage>
           </sp>
           <sp who="agnes" xml:id="V03-2">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Pourquoi me quittez-vous ?</l>
           </sp>
           <sp who="horace" xml:id="V03-3">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Chère Agnès, il le faut.</l>
           </sp>
           <sp who="agnes" xml:id="V03-4">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Songez donc, je vous prie, à revenir bientôt.</l>
           </sp>
           <sp who="horace" xml:id="V03-5">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>J’en suis assez pressé par ma flamme amoureuse.</l>
           </sp>
           <sp who="agnes" xml:id="V03-6">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l n="1465">Quand je ne vous vois point, je ne suis point joyeuse.</l>
           </sp>
           <sp who="horace" xml:id="V03-7">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Hors de votre présence on me voit triste aussi.</l>
           </sp>
           <sp who="agnes" xml:id="V03-8">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Hélas ! s’il était vrai, vous resteriez ici.</l>
           </sp>
           <sp who="horace" xml:id="V03-9">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Quoi ! vous pourriez douter de mon amour extrême ?</l>
           </sp>
           <sp who="agnes" xml:id="V03-10">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Non, vous ne m’aimez pas autant que je vous aime.</l>
             <l>Ah ! l’on me tire trop !</l>
             <stage>Arnolphe la tire.</stage>
           </sp>
           <sp who="horace" xml:id="V03-11">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l n="1470">C’est qu’il est dangereux,</l>
             <l>Chère Agnès, qu’en ce lieu nous soyons vus tous deux.</l>
             <l>Et le parfait ami, de qui la main vous presse,</l>
             <l>Suit le zèle prudent qui pour nous l’intéresse.</l>
           </sp>
           <sp who="agnes" xml:id="V03-12">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Mais suivre un inconnu que…</l>
           </sp>
           <sp who="horace" xml:id="V03-13">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">N’appréhendez rien,</l>
             <l n="1475">Entre de telles mains vous ne serez que bien.</l>
           </sp>
           <sp who="agnes" xml:id="V03-14">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Je me trouverais mieux entre celles d’Horace.</l>
             <l>Et j’aurais…</l>
             <stage>AGNÈS à celui qui la tient.</stage>
             <l part="Y">Attendez.</l>
           </sp>
           <sp who="horace" xml:id="V03-15">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Adieu, le jour me chasse.</l>
           </sp>
           <sp who="agnes" xml:id="V03-16">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Quand vous verrai-je donc ?</l>
           </sp>
           <sp who="horace" xml:id="V03-17">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Bientôt assurément.</l>
           </sp>
           <sp who="agnes" xml:id="V03-18">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Que je vais m’ennuyer jusques à ce moment !</l>
           </sp>
           <sp who="horace" xml:id="V03-19">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l n="1480">Grâce au Ciel, mon bonheur n’est plus en concurrence,</l>
             <l>Et je puis maintenant dormir en assurance.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="V04">
-          <head>SCÈNE IV</head>
+          <head>Scène IV</head>
           <stage>Arnolphe, Agnès.</stage>
           <sp who="arnolphe" xml:id="V04-1">
-            <speaker>arnolphe <hi rend="i">le nez dans son manteau</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">le nez dans son manteau</hi></speaker>
             <l>Venez, ce n’est pas là que je vous logerai,</l>
             <l>Et votre gîte ailleurs est pour moi préparé.</l>
             <l>Je prétends en lieu sûr mettre votre personne.</l>
             <l>Me connaissez-vous ?</l>
           </sp>
           <sp who="agnes" xml:id="V04-2">
-            <speaker>agnès <hi rend="i">le reconnaissant</hi></speaker>
+            <speaker>Agnès <hi rend="i">le reconnaissant</hi></speaker>
             <l part="Y">Hay.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-3">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="1485" part="Y">Mon visage, Friponne,</l>
             <l>Dans cette occasion rend vos sens effrayés,</l>
             <l>Et c’est à contrecœur qu’ici vous me voyez ;</l>
@@ -3283,34 +3282,34 @@
             <l n="1505">Cherche à faire du mal à celui qui le flatte.</l>
           </sp>
           <sp who="agnes" xml:id="V04-4">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Pourquoi me criez-vous ?</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-5">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">J’ai grand tort en effet.</l>
           </sp>
           <sp who="agnes" xml:id="V04-6">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Je n’entend point de mal dans tout ce que j’ai fait.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-7">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Suivre un galant n’est pas une action infame ?</l>
           </sp>
           <sp who="agnes" xml:id="V04-8">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>C’est un homme qui dit qu’il me veut pour sa femme ;</l>
             <l n="1510">J’ai suivi vos leçons, et vous m’avez prêché</l>
             <l>Qu’il se faut marier pour ôter le péché.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-9">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Oui, mais pour femme moi je prétendais vous prendre.</l>
             <l>Et je vous l’avais fait, me semble, assez entendre.</l>
           </sp>
           <sp who="agnes" xml:id="V04-10">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Oui, mais à vous parler franchement entre nous,</l>
             <l n="1515">Il est plus pour cela selon mon goût, que vous ;</l>
             <l>Chez vous le mariage est fâcheux et pénible,</l>
@@ -3319,94 +3318,94 @@
             <l>Que de se marier il donne des désirs.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-11">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Ah, c’est que vous l’aimez, traîtresse.</l>
           </sp>
           <sp who="agnes" xml:id="V04-12">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l n="1520" part="Y">Oui je l’aime.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-13">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Et vous avez le front de le dire à moi-même ?</l>
           </sp>
           <sp who="agnes" xml:id="V04-14">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Et pourquoi s’il est vrai, ne le dirais-je pas ?</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-15">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Le deviez-vous aimer ? Impertinente.</l>
           </sp>
           <sp who="agnes" xml:id="V04-16">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Hélas !</l>
             <l>Est-ce que j’en puis mais ? lui seul en est la cause,</l>
             <l n="1525">Et je n’y songeais pas lorsque se fit la chose.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-17">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Mais il fallait chasser cet amoureux désir.</l>
           </sp>
           <sp who="agnes" xml:id="V04-18">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Le moyen de chasser ce qui fait du plaisir.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-19">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Et ne savez-vous pas que c’était me déplaire ?</l>
           </sp>
           <sp who="agnes" xml:id="V04-20">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Moi, point du tout, quel mal cela vous peut-il faire ?</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-21">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="1530">Il est vrai, j’ai sujet d’en être réjoui.</l>
             <l>Vous ne m’aimez donc pas à ce compte ?</l>
           </sp>
           <sp who="agnes" xml:id="V04-22">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Vous ?</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-23">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Oui.</l>
           </sp>
           <sp who="agnes" xml:id="V04-24">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Hélas, non.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-25">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Comment, non ?</l>
           </sp>
           <sp who="agnes" xml:id="V04-26">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Voulez-vous que je mente ?</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-27">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Pourquoi ne m’aimer pas, Madame l’impudente ?</l>
           </sp>
           <sp who="agnes" xml:id="V04-28">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Mon dieu, ce n’est pas moi que vous devez blâmer ;</l>
             <l n="1535">Que ne vous êtes-vous comme lui fait aimer ?</l>
             <l>Je ne vous en ai pas empêché, que je pense.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-29">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Je m’y suis efforcé de toute ma puissance ;</l>
             <l>Mais les soins que j’ai pris, je les ai perdus tous.</l>
           </sp>
           <sp who="agnes" xml:id="V04-30">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Vraiment il en sait donc là-dessus plus que vous ;</l>
             <l n="1540">Car à se faire aimer il n’a point eu de peine.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-31">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Voyez comme raisonne et répond la vilaine.</l>
             <l>Peste, une Précieuse en dirait-elle plus ?</l>
             <l>Ah ! je l’ai mal connue, ou ma foi là-dessus</l>
@@ -3416,25 +3415,25 @@
             <l>Je vous aurai pour lui nourrie à mes dépens ?</l>
           </sp>
           <sp who="agnes" xml:id="V04-32">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Non, il vous rendra tout jusques au dernier double.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-33">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Elle a de certains mots où mon dépit redouble,</l>
             <l n="1550">Me rendra-t-il, coquine, avec tout son pouvoir</l>
             <l>Les obligations que vous pouvez m’avoir ?</l>
           </sp>
           <sp who="agnes" xml:id="V04-34">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Je ne vous en ai pas de si grandes qu’on pense.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-35">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>N’est-ce rien que les soins d’élever votre enfance ?</l>
           </sp>
           <sp who="agnes" xml:id="V04-36">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Vous avez là-dedans bien opéré vraiment,</l>
             <l n="1555">Et m’avez fait en tout instruire joliment,</l>
             <l>Croit-on que je me flatte, et qu’enfin dans ma tête</l>
@@ -3443,29 +3442,29 @@
             <l>Je ne veux plus passer pour sotte, si je puis.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-37">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="1560">Vous fuyez l’ignorance, et voulez, quoi qu’il coûte,</l>
             <l>Apprendre du blondin quelque chose.</l>
           </sp>
           <sp who="agnes" xml:id="V04-38">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Sans doute,</l>
             <l>C’est de lui que je sais ce que je puis savoir,</l>
             <l>Et beaucoup plus qu’à vous je pense lui devoir.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-39">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Je ne sais qui me tient qu’avec une gourmade</l>
             <l n="1565">Ma main de ce discours ne venge la bravade.</l>
             <l>J’enrage quand je vois sa piquante froideur,</l>
             <l>Et quelques coups de poing satisferaient mon cœur.</l>
           </sp>
           <sp who="agnes" xml:id="V04-40">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Hélas, vous le pouvez, si cela peut vous plaire.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-41">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Ce mot, et ce regard désarme ma colère,</l>
             <l n="1570">Et produit un retour de tendresse de cœur,</l>
             <l>Qui de son action m’efface la noirceur.</l>
@@ -3483,12 +3482,12 @@
             <l>Et me voyant si bon, en revanche aime-moi.</l>
           </sp>
           <sp who="agnes" xml:id="V04-42">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Du meilleur de mon cœur, je voudrais vous complaire.</l>
             <l n="1585">Que me coûterait-il, si je le pouvais faire ?</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-43">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Mon pauvre petit bec, tu le peux, si tu veux,</l>
             <l>Écoute seulement ce soupir amoureux,</l>
             <stage>Il fait un soupir.</stage>
@@ -3512,12 +3511,12 @@
             <l>Je suis tout prêt, cruelle, à te prouver ma flamme.</l>
           </sp>
           <sp who="agnes" xml:id="V04-44">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l n="1605">Tenez, tous vos discours ne me touchent point l’âme.</l>
             <l>Horace avec deux mots en ferait plus que vous.</l>
           </sp>
           <sp who="arnolphe" xml:id="V04-45">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Ah ! c’est trop me braver, trop pousser mon courroux ;</l>
             <l>Je suivrai mon dessein, bête trop indocile,</l>
             <l>Et vous dénicherez à l’instant de la Ville ;</l>
@@ -3526,15 +3525,15 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V05">
-          <head>SCÈNE V</head>
+          <head>Scène V</head>
           <stage>Alain, Arnolphe.</stage>
           <sp who="alain" xml:id="V05-1">
-            <speaker>alain</speaker>
+            <speaker>Alain</speaker>
             <l>Je ne sais ce que c’est, Monsieur, mais il me semble</l>
             <l>Qu’Agnès et le corps mort s’en sont allés ensemble.</l>
           </sp>
           <sp who="arnolphe" xml:id="V05-2">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>La voici ; dans ma chambre allez me la nicher.</l>
             <l n="1615">Ce ne sera pas là qu’il la viendra chercher,</l>
             <l>Et puis c’est seulement pour une demie-heure.</l>
@@ -3546,10 +3545,10 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V06">
-          <head>SCÈNE VI</head>
+          <head>Scène VI</head>
           <stage>Horace, Arnolphe.</stage>
           <sp who="horace" xml:id="V06-1">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Ah ! je viens vous trouver accablé de douleur,</l>
             <l>Le Ciel, Seigneur Arnolphe, a conclu mon malheur,</l>
             <l>Et par un trait fatal d’une injustice extrême</l>
@@ -3576,28 +3575,28 @@
             <l n="1645">De le dissuader de cette autre alliance.</l>
           </sp>
           <sp who="arnolphe" xml:id="V06-2">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Ouida.</l>
           </sp>
           <sp who="horace" xml:id="V06-3">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Conseillez-lui de différer un peu,</l>
             <l>Et rendez en ami ce service à mon feu.</l>
           </sp>
           <sp who="arnolphe" xml:id="V06-4">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Je n’y manquerai pas.</l>
           </sp>
           <sp who="horace" xml:id="V06-5">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">C’est en vous que j’espère.</l>
           </sp>
           <sp who="arnolphe" xml:id="V06-6">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Fort bien.</l>
           </sp>
           <sp who="horace" xml:id="V06-7">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Et je vous tiens mon véritable père ;</l>
             <l n="1650">Dites-lui que mon âge… ah ! je le vois venir,</l>
             <l>Écoutez les raisons que je vous puis fournir.</l>
@@ -3605,10 +3604,10 @@
           </sp>
         </div2>
         <div2 type="scene" xml:id="V07">
-          <head>SCÈNE VII</head>
+          <head>Scène VII</head>
           <stage>Enrique, Oronte, Chrysalde, Horace, Arnolphe.</stage>
           <sp who="enrique" xml:id="V07-1">
-            <speaker>enrique <hi rend="i">à chrysalde</hi></speaker>
+            <speaker>Enrique <hi rend="i">à chrysalde</hi></speaker>
             <l>Aussitôt qu’à mes yeux je vous ai vu paraître,</l>
             <l>Quand on ne m’eût rien dit j’aurais su vous connaître ;</l>
             <l>Je vous vois tous les traits de cette aimable sœur,</l>
@@ -3627,53 +3626,53 @@
             <l>Mais il faut que ce choix vous plaise comme à moi.</l>
           </sp>
           <sp who="chrysalde" xml:id="V07-2">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>C’est de mon jugement avoir mauvaise estime,</l>
             <l>Que douter si j’approuve un choix si légitime.</l>
           </sp>
           <sp who="arnolphe" xml:id="V07-3">
-            <speaker>arnolphe <hi rend="i">à horace</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">à horace</hi></speaker>
             <l n="1670">Oui, je vais vous servir de la bonne façon.</l>
           </sp>
           <sp who="horace" xml:id="V07-4">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Gardez encor un coup…</l>
           </sp>
           <sp who="arnolphe" xml:id="V07-5">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">N’ayez aucun soupçon.</l>
           </sp>
           <sp who="oronte" xml:id="V07-6">
-            <speaker>oronte <hi rend="i">à arnolphe</hi></speaker>
+            <speaker>Oronte <hi rend="i">à arnolphe</hi></speaker>
             <l>Ah ! que cette embrassade est pleine de tendresse.</l>
           </sp>
           <sp who="arnolphe" xml:id="V07-7">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Que je sens à vous voir une grande allégresse.</l>
           </sp>
           <sp who="oronte" xml:id="V07-8">
-            <speaker>oronte</speaker>
+            <speaker>Oronte</speaker>
             <l>Je suis ici venu…</l>
           </sp>
           <sp who="arnolphe" xml:id="V07-9">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Sans m’en faire récit,</l>
             <l>Je sais ce qui vous mène.</l>
           </sp>
           <sp who="oronte" xml:id="V07-10">
-            <speaker>oronte</speaker>
+            <speaker>Oronte</speaker>
             <l n="1675" part="Y">On vous l’a déjà dit.</l>
           </sp>
           <sp who="arnolphe" xml:id="V07-11">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Oui.</l>
           </sp>
           <sp who="oronte" xml:id="V07-12">
-            <speaker>oronte</speaker>
+            <speaker>Oronte</speaker>
             <l part="Y">Tant mieux.</l>
           </sp>
           <sp who="arnolphe" xml:id="V07-13">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Votre fils à cet hymen résiste,</l>
             <l>Et son cœur prévenu n’y voit rien que de triste,</l>
             <l>Il m’a même prié de vous en détourner ;</l>
@@ -3684,17 +3683,17 @@
             <l>Et nous faisons contre eux à leur être indulgents.</l>
           </sp>
           <sp who="horace" xml:id="V07-14">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Ah traître !</l>
           </sp>
           <sp who="chrysalde" xml:id="V07-15">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Si son cœur a quelque répugnance,</l>
             <l n="1685">Je tiens qu’on ne doit pas lui faire violence ;</l>
             <l>Mon frère, que je crois, sera de mon avis.</l>
           </sp>
           <sp who="arnolphe" xml:id="V07-16">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Quoi ? se laissera-t-il gouverner par son fils ?</l>
             <l>Est-ce que vous voulez qu’un père ait la mollesse</l>
             <l>De ne savoir pas faire obéir la jeunesse ?</l>
@@ -3706,84 +3705,84 @@
             <l>Et force de son fils tous les attachements.</l>
           </sp>
           <sp who="oronte" xml:id="V07-17">
-            <speaker>oronte</speaker>
+            <speaker>Oronte</speaker>
             <l>C’est parler comme il faut, et dans cette alliance,</l>
             <l>C’est moi qui vous réponds de son obéissance.</l>
           </sp>
           <sp who="chrysalde" xml:id="V07-18">
-            <speaker>chrysalde <hi rend="i">à arnolphe</hi></speaker>
+            <speaker>Chrysalde <hi rend="i">à arnolphe</hi></speaker>
             <l>Je suis surpris, pour moi, du grand empressement</l>
             <l>Que vous me faites voir pour cet engagement,</l>
             <l n="1700">Et ne puis deviner quel motif vous inspire…</l>
           </sp>
           <sp who="arnolphe" xml:id="V07-19">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Je sais ce que je fais, et dis ce qu’il faut dire.</l>
           </sp>
           <sp who="oronte" xml:id="V07-20">
-            <speaker>oronte</speaker>
+            <speaker>Oronte</speaker>
             <l>Oui, oui, Seigneur Arnolphe, il est…</l>
           </sp>
           <sp who="chrysalde" xml:id="V07-21">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l part="Y">Ce nom l’aigrit,</l>
             <l>C’est Monsieur de la Souche, on vous l’a déjà dit.</l>
           </sp>
           <sp who="arnolphe" xml:id="V07-22">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Il n’importe.</l>
           </sp>
           <sp who="horace" xml:id="V07-23">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Qu’entends-je ?</l>
           </sp>
           <sp who="arnolphe" xml:id="V07-24">
-            <speaker>arnolphe <hi rend="i">se tournant vers horace</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">se tournant vers horace</hi></speaker>
             <l part="Y">Oui c’est là le mystère,</l>
             <l n="1705">Et vous pouvez juger ce que je devais faire.</l>
           </sp>
           <sp who="horace" xml:id="V07-25">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>En quel trouble…</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="V08">
-          <head>SCÈNE VIII</head>
+          <head>Scène VIII</head>
           <stage>Georgette, Enrique, Oronte, Chrysalde, Horace, Arnolphe .</stage>
           <sp who="georgette" xml:id="V08-1">
-            <speaker>georgette</speaker>
+            <speaker>Georgette</speaker>
             <l part="Y">Monsieur, si vous n’êtes auprès,</l>
             <l>Nous aurons de la peine à retenir Agnès,</l>
             <l>Elle veut à tous coups s’échapper, et peut-être</l>
             <l>Qu’elle se pourrait bien jeter par la fenêtre.</l>
           </sp>
           <sp who="arnolphe" xml:id="V08-2">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l n="1710">Faites-la-moi venir, aussi bien de ce pas</l>
             <l>Prétends-je l’emmener, ne vous en fâchez pas,</l>
             <l>Un bonheur continu rendrait l’homme superbe,</l>
             <l>Et chacun à son tour, comme dit le Proverbe.</l>
           </sp>
           <sp who="horace" xml:id="V08-3">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l>Quels maux peuvent, ô Ciel, égaler mes ennuis ?</l>
             <l n="1715">Et s’est-on jamais vu dans l’abîme où je suis ?</l>
           </sp>
           <sp who="arnolphe" xml:id="V08-4">
-            <speaker>arnolphe <hi rend="i">à oronte</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">à oronte</hi></speaker>
             <l>Pressez vite le jour de la Cérémonie,</l>
             <l>J’y prends part, et déjà moi-même je m’en prie.</l>
           </sp>
           <sp who="oronte" xml:id="V08-5">
-            <speaker>oronte</speaker>
+            <speaker>Oronte</speaker>
             <l>C’est bien notre dessein.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="V09">
-          <head>SCÈNE IX</head>
+          <head>Scène IX</head>
           <stage>Agnès, Alain, Georgette, Oronte, Enrique, Arnolphe, Horace, Chrysalde.</stage>
           <sp who="arnolphe" xml:id="V09-1">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l part="Y">Venez, Belle, venez,</l>
             <l>Qu’on ne saurait tenir, et qui vous mutinez.</l>
             <l n="1720">Voici votre Galant, à qui pour récompense</l>
@@ -3792,43 +3791,43 @@
             <l>Mais tous les amoureux ne sont pas satisfaits.</l>
           </sp>
           <sp who="agnes" xml:id="V09-2">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l>Me laissez-vous, Horace, emmener de la sorte ?</l>
           </sp>
           <sp who="horace" xml:id="V09-3">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l n="1725">Je ne sais où j’en suis, tant ma douleur est forte.</l>
           </sp>
           <sp who="arnolphe" xml:id="V09-4">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Allons, causeuse, allons.</l>
           </sp>
           <sp who="agnes" xml:id="V09-5">
-            <speaker>agnès</speaker>
+            <speaker>Agnès</speaker>
             <l part="Y">Je veux rester ici.</l>
           </sp>
           <sp who="oronte" xml:id="V09-6">
-            <speaker>oronte</speaker>
+            <speaker>Oronte</speaker>
             <l>Dites-nous ce que c’est que ce mystère-ci,</l>
             <l>Nous nous regardons tous sans le pouvoir comprendre.</l>
           </sp>
           <sp who="arnolphe" xml:id="V09-7">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Avec plus de loisir je pourrai vous l’apprendre,</l>
             <l>Jusqu’au revoir.</l>
           </sp>
           <sp who="oronte" xml:id="V09-8">
-            <speaker>oronte</speaker>
+            <speaker>Oronte</speaker>
             <l n="1730" part="Y">Où donc prétendez-vous aller ?</l>
             <l>Vous ne nous parlez point, comme il nous faut parler.</l>
           </sp>
           <sp who="arnolphe" xml:id="V09-9">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Je vous ai conseillé malgré tout son murmure,</l>
             <l>D’achever l’hyménée.</l>
           </sp>
           <sp who="oronte" xml:id="V09-10">
-            <speaker>oronte</speaker>
+            <speaker>Oronte</speaker>
             <l part="Y">Oui, mais pour le conclure</l>
             <l>Si l’on vous a dit tout, ne vous a-t-on pas dit</l>
             <l n="1735">Que vous avez chez vous celle dont il s’agit ?</l>
@@ -3837,80 +3836,80 @@
             <l>Sur quoi votre discours était-il donc fondé ?</l>
           </sp>
           <sp who="chrysalde" xml:id="V09-11">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Je m’étonnais aussi de voir son procédé.</l>
           </sp>
           <sp who="arnolphe" xml:id="V09-12">
-            <speaker>arnolphe</speaker>
+            <speaker>Arnolphe</speaker>
             <l>Quoi…</l>
           </sp>
           <sp who="chrysalde" xml:id="V09-13">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l n="1740" part="Y">D’un hymen secret ma sœur eut une fille,</l>
             <l>Dont on cacha le sort à toute la famille.</l>
           </sp>
           <sp who="oronte" xml:id="V09-14">
-            <speaker>oronte</speaker>
+            <speaker>Oronte</speaker>
             <l>Et qui sous de feints noms pour ne rien découvrir,</l>
             <l>Par son époux aux champs fut donnée à nourrir.</l>
           </sp>
           <sp who="chrysalde" xml:id="V09-15">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l n="1745">Et dans ce temps le sort lui déclarant la guerre,</l>
             <l>L’obligea de sortir de sa natale terre.</l>
           </sp>
           <sp who="oronte" xml:id="V09-16">
-            <speaker>oronte</speaker>
+            <speaker>Oronte</speaker>
             <l>Et d’aller essuyer mille périls divers</l>
             <l>Dans ces lieux séparés de nous par tant de mers.</l>
           </sp>
           <sp who="chrysalde" xml:id="V09-17">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Où ses soins ont gagné ce que dans sa patrie</l>
             <l>Avaient pu lui ravir l’imposture et l’envie.</l>
           </sp>
           <sp who="oronte" xml:id="V09-18">
-            <speaker>oronte</speaker>
+            <speaker>Oronte</speaker>
             <l n="1750">Et de retour en France, il a cherché d’abord</l>
             <l>Celle à qui de sa fille il confia le sort.</l>
           </sp>
           <sp who="chrysalde" xml:id="V09-19">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Et cette Paysanne a dit avec franchise,</l>
             <l>Qu’en vos mains à quatre ans elle l’avait remise.</l>
           </sp>
           <sp who="oronte" xml:id="V09-20">
-            <speaker>oronte</speaker>
+            <speaker>Oronte</speaker>
             <l n="1755">Et qu’elle l’avait fait sur votre charité</l>
             <l>Par un accablement d’extrême pauvreté.</l>
           </sp>
           <sp who="chrysalde" xml:id="V09-21">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l>Et lui plein de transports, et l’allégresse en l’âme</l>
             <l>A fait jusqu’en ces lieux conduire cette femme.</l>
           </sp>
           <sp who="oronte" xml:id="V09-22">
-            <speaker>oronte</speaker>
+            <speaker>Oronte</speaker>
             <l>Et vous allez, enfin, la voir venir ici</l>
             <l>Pour rendre aux yeux de tous ce mystère éclairci.</l>
           </sp>
           <sp who="chrysalde" xml:id="V09-23">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l n="1760">Je devine à peu prés quel est votre supplice,</l>
             <l>Mais le sort en cela ne vous est que propice ;</l>
             <l>Si n’être point cocu vous semble un si grand bien,</l>
             <l>Ne vous point marier en est le vrai moyen.</l>
           </sp>
           <sp who="arnolphe" xml:id="V09-24">
-            <speaker>arnolphe <hi rend="i">s’en allant tout transporté et ne pouvant parler</hi></speaker>
+            <speaker>Arnolphe <hi rend="i">s’en allant tout transporté et ne pouvant parler</hi></speaker>
             <l>Oh !</l>
           </sp>
           <sp who="oronte" xml:id="V09-25">
-            <speaker>oronte</speaker>
+            <speaker>Oronte</speaker>
             <l part="Y">D’où vient qu’il s’enfuit sans rien dire ?</l>
           </sp>
           <sp who="horace" xml:id="V09-26">
-            <speaker>horace</speaker>
+            <speaker>Horace</speaker>
             <l part="Y">Ah mon père</l>
             <l n="1765">Vous saurez pleinement ce surprenant mystère.</l>
             <l>Le hasard en ces lieux avait exécuté</l>
@@ -3921,13 +3920,13 @@
             <l>Et pour qui mon refus a pensé vous fâcher.</l>
           </sp>
           <sp who="enrique" xml:id="V09-27">
-            <speaker>enrique</speaker>
+            <speaker>Enrique</speaker>
             <l>Je n’en ai point douté d’abord que je l’ai vue,</l>
             <l>Et mon âme depuis n’a cessé d’être émue.</l>
             <l>Ah ! ma fille, je cède à des transports si doux.</l>
           </sp>
           <sp who="chrysalde" xml:id="V09-28">
-            <speaker>chrysalde</speaker>
+            <speaker>Chrysalde</speaker>
             <l n="1775">J’en ferais de bon cœur, mon frère, autant que vous.</l>
             <l>Mais ces lieux et cela ne s’accommodent guères ;</l>
             <l>Allons dans la maison débrouiller ces mystères,</l>

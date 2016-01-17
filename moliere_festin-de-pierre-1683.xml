@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://svn.code.sf.net/p/algone/code/teibook/teibook.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,8 +19,8 @@
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <date when="2015"/>
         <publisher>LABEX OBVIL</publisher>
+        <date when="2015"/>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_festin-de-pierre/</idno>
         <availability status="restricted">
           <licence target="projet-Molière"/>
@@ -54,24 +55,24 @@
       <div>
         <head>ACTEURS</head>
         <castList>
-          <castItem><role xml:id="don-juan">Don Juan</role>.</castItem>
-          <castItem><role xml:id="don-louis">Don Louis</role>, <roleDesc>Père de Don Juan</roleDesc>.</castItem>
-          <castItem><role xml:id="done-elvire">Elvire</role>, <roleDesc>Maîtresse de Don Juan</roleDesc>.</castItem>
-          <castItem><role xml:id="don-alonse">Don Alonse</role>, <roleDesc>Frère de Done Elvire</roleDesc>.</castItem>
-          <castItem><role xml:id="don-carlos">Don Carlos</role>, <roleDesc>Frère de Done Elvire</roleDesc>.</castItem>
-          <castItem><role xml:id="gusman">Gusman</role>, <roleDesc>Valet de Done Elvire</roleDesc>.</castItem>
-          <castItem><role xml:id="sganarelle">Sganarelle</role>, <roleDesc>Valet de Don Juan</roleDesc>.</castItem>
-          <castItem><role xml:id="la-violette">La Violette</role>, <roleDesc>Laquais de Don Juan</roleDesc>.</castItem>
-          <castItem><role xml:id="ragotin">Ragotin</role>, <roleDesc>Laquais de Don Juan</roleDesc>.</castItem>
-          <castItem><role xml:id="monsieur-dimanche">Monsieur Dimanche</role>.</castItem>
-          <castItem><role xml:id="la-ramee">La ramée</role>, <roleDesc>Bretteur</roleDesc>.</castItem>
-          <castItem><role xml:id="pierrot">Pierrot</role>, <roleDesc>Paysan, Amant de Charlotte</roleDesc>.</castItem>
-          <castItem><role xml:id="charlotte">Charlotte</role>, <roleDesc>Paysanne</roleDesc>.</castItem>
-          <castItem><role xml:id="mathurine">Mathurine</role>, <roleDesc>Paysanne</roleDesc>.</castItem>
-          <castItem><role xml:id="la-statue">La Statue du Commandeur</role>.</castItem>
-          <castItem><role xml:id="le-spectre">Un Spectre</role>.</castItem>
-          <castItem><role xml:id="suivants">Trois suivants de Don Alonse</role>.</castItem>
-          <castItem><role xml:id="le-pauvre">Un Pauvre</role>.</castItem>
+          <castItem><role xml:id="don-juan" rend="male">Don Juan</role>.</castItem>
+          <castItem><role xml:id="don-louis" rend="male">Don Louis</role>, <roleDesc>Père de Don Juan</roleDesc>.</castItem>
+          <castItem><role xml:id="done-elvire" rend="female">Elvire</role>, <roleDesc>Maîtresse de Don Juan</roleDesc>.</castItem>
+          <castItem><role xml:id="don-alonse" rend="male">Don Alonse</role>, <roleDesc>Frère de Done Elvire</roleDesc>.</castItem>
+          <castItem><role xml:id="don-carlos" rend="male">Don Carlos</role>, <roleDesc>Frère de Done Elvire</roleDesc>.</castItem>
+          <castItem><role xml:id="gusman" rend="male inferior">Gusman</role>, <roleDesc>Valet de Done Elvire</roleDesc>.</castItem>
+          <castItem><role xml:id="sganarelle" rend="male inferior">Sganarelle</role>, <roleDesc>Valet de Don Juan</roleDesc>.</castItem>
+          <castItem><role xml:id="la-violette" rend="male inferior">La Violette</role>, <roleDesc>Laquais de Don Juan</roleDesc>.</castItem>
+          <castItem><role xml:id="ragotin" rend="male inferior">Ragotin</role>, <roleDesc>Laquais de Don Juan</roleDesc>.</castItem>
+          <castItem><role xml:id="monsieur-dimanche" rend="male inferior">Monsieur Dimanche</role>.</castItem>
+          <castItem><role xml:id="la-ramee" rend="male inferior">La ramée</role>, <roleDesc>Bretteur</roleDesc>.</castItem>
+          <castItem><role xml:id="pierrot" rend="male inferior">Pierrot</role>, <roleDesc>Paysan, Amant de Charlotte</roleDesc>.</castItem>
+          <castItem><role xml:id="charlotte" rend="female inferior">Charlotte</role>, <roleDesc>Paysanne</roleDesc>.</castItem>
+          <castItem><role xml:id="mathurine" rend="female inferior">Mathurine</role>, <roleDesc>Paysanne</roleDesc>.</castItem>
+          <castItem><role xml:id="la-statue" rend="male superior">La Statue du Commandeur</role>.</castItem>
+          <castItem><role xml:id="le-spectre" rend="male superior">Un Spectre</role>.</castItem>
+          <castItem><role xml:id="suivants" rend="male inferior">Trois suivants de Don Alonse</role>.</castItem>
+          <castItem><role xml:id="le-pauvre"  rend="male inferior">Un Pauvre</role>.</castItem>
         </castList>
       </div>
     </front>

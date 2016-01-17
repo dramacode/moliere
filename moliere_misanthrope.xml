@@ -130,17 +130,17 @@
       <div xml:id="castList">
         <head>ACTEURS</head>
         <castList>
-          <castItem><role xml:id="alceste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="Célimène">Alceste</role>, Amant de Célimène.</castItem>
-          <castItem><role xml:id="philinte" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Philinte</role>, Ami d’Alceste.</castItem>
-          <castItem><role xml:id="oronte" civil="M" type="H" statut="aristocrate" age="A" stat_amour="Célimène">Oronte</role>, Amant de Célimène.</castItem>
-          <castItem><role xml:id="celimene" civil="F" type="H" statut="aristocrate" age="A" stat_amour="Alceste">Célimène</role>, Amante d’Alceste.</castItem>
-          <castItem><role xml:id="eliante" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">Éliante</role>, Cousine de Célimène.</castItem>
-          <castItem><role xml:id="arsinoe" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">Arsinoé</role>, Amie de Célimène.</castItem>
-          <castItem><role xml:id="acaste" civil="M" type="H" statut="marquis" age="A" stat_amour="néant">Acaste</role>, Marquis.</castItem>
-          <castItem><role xml:id="clitandre" civil="M" type="H" statut="marquis" age="A" stat_amour="néant">Clitandre</role>, Marquis.</castItem>
-          <castItem><role xml:id="basque" civil="M" type="H" statut="valet" age="A" stat_amour="néant">Basque</role>, Valet de Célimène.</castItem>
-          <castItem><role xml:id="garde" civil="M" type="H" statut="garde" age="A" stat_amour="néant">Un garde</role> de la Maréchaussée de France.</castItem>
-          <castItem><role xml:id="dubois" civil="M" type="H" statut="valet" age="A" stat_amour="néant">Du Bois</role>, Valet d’Alceste.</castItem>
+          <castItem><role xml:id="alceste" rend="male junior">Alceste</role>, Amant de Célimène.</castItem>
+          <castItem><role xml:id="philinte"  rend="male junior">Philinte</role>, Ami d’Alceste.</castItem>
+          <castItem><role xml:id="oronte" rend="male junior">Oronte</role>, Amant de Célimène.</castItem>
+          <castItem><role xml:id="celimene" rend="female junior">Célimène</role>, Amante d’Alceste.</castItem>
+          <castItem><role xml:id="eliante" rend="female junior">Éliante</role>, Cousine de Célimène.</castItem>
+          <castItem><role xml:id="arsinoe" rend="female">Arsinoé</role>, Amie de Célimène.</castItem>
+          <castItem><role xml:id="acaste"  rend="male junior">Acaste</role>, Marquis.</castItem>
+          <castItem><role xml:id="clitandre"  rend="male junior">Clitandre</role>, Marquis.</castItem>
+          <castItem><role xml:id="basque"  rend="male inferior">Basque</role>, Valet de Célimène.</castItem>
+          <castItem><role xml:id="garde"  rend="male inferior">Un garde</role> de la Maréchaussée de France.</castItem>
+          <castItem><role xml:id="dubois"  rend="male inferior">Du Bois</role>, Valet d’Alceste.</castItem>
         </castList>
         <stage>La Scène est à Paris.</stage>
       </div>

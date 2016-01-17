@@ -77,26 +77,26 @@
         <castList>
           <castItem><role rend="male" xml:id="monsieur-jourdain">Monsieur Jourdain</role>, Bourgeois.</castItem>
           <castItem><role rend="female" xml:id="madame-jourdain">Madame Jourdain</role>, sa Femme.</castItem>
-          <castItem><role rend="female" xml:id="lucile">Lucile</role>, Fille de Monsieur Jourdain.</castItem>
-          <castItem><role rend="female" xml:id="nicole">Nicole</role>, Servante.</castItem>
-          <castItem><role rend="male" xml:id="cleonte">Cléonte</role>, Amoureux de Lucile.</castItem>
-          <castItem><role rend="male" xml:id="covielle">Covielle</role>, Valet de Cléonte.</castItem>
-          <castItem><role rend="male love" xml:id="dorante">Dorante</role>, Comte, Amant de Dorimène.</castItem>
-          <castItem><role rend="female" xml:id="dorimene">Dorimène</role>, Marquise.</castItem>
-          <castItem><role rend="male" xml:id="maitre-musique">Maître de musique.</role>.</castItem>
+          <castItem><role rend="female junior" xml:id="lucile">Lucile</role>, Fille de Monsieur Jourdain.</castItem>
+          <castItem><role rend="female inferior" xml:id="nicole">Nicole</role>, Servante.</castItem>
+          <castItem><role rend="male junior" xml:id="cleonte">Cléonte</role>, Amoureux de Lucile.</castItem>
+          <castItem><role rend="male inferior" xml:id="covielle">Covielle</role>, Valet de Cléonte.</castItem>
+          <castItem><role rend="male superior" xml:id="dorante">Dorante</role>, Comte, Amant de Dorimène.</castItem>
+          <castItem><role rend="female superior" xml:id="dorimene">Dorimène</role>, Marquise.</castItem>
+          <castItem><role rend="male inferior" xml:id="maitre-musique">Maître de musique.</role>.</castItem>
           <castItem>
             <role rend="male" xml:id="l-eleve">Élève du maître de musique.</role>
             <role xml:id="musicien1"/>
             <role xml:id="musicien2"/>
             <role xml:id="musicienne"/>
           </castItem>
-          <castItem><role rend="male" xml:id="maitre-a-danser">Maître à danser.</role>.</castItem>
-          <castItem><role rend="male" xml:id="maitre-armes">Maître d'armes.</role>.</castItem>
-          <castItem><role rend="male" xml:id="maitre-philosophie">Maître de philosophie.</role>.</castItem>
-          <castItem><role rend="male" xml:id="maitre-tailleur">Maître tailleur.</role>.</castItem>
-          <castItem><role rend="male" xml:id="garcon-tailleur">Garçon tailleur.</role>.</castItem>
-          <castItem><role xml:id="laquais1">Deux laquais.</role><role xml:id="laquais2"/>.</castItem>
-          <castItem type="list">Plusieurs musiciens, musiciennes, joueurs d’instruments, danseurs, cuisiniers, garçons tailleurs, <hi rend="n">Et autres Personnages des Intermèdes et du Ballet</hi>.<role xml:id="mufti"/><role xml:id="turcs"/><role xml:id="homme-du-bel-air"/><role xml:id="vieille-bourgeoise-babillarde"/><role xml:id="vieux-bourgeois-babillard"/><role xml:id="suisse"/><role xml:id="gascon"/><role xml:id="autre-gascon"/><role xml:id="tous"/><role xml:id="autre-homme-du-bel-air"/><role xml:id="femme-du-bel-air"/><role xml:id="autre-femme-du-bel-air"/><role xml:id="espagnol1"/><role xml:id="espagnol2"/><role xml:id="espagnol3"/><role xml:id="musicien"/></castItem>
+          <castItem><role rend="male inferior" xml:id="maitre-a-danser">Maître à danser.</role>.</castItem>
+          <castItem><role rend="male inferior" xml:id="maitre-armes">Maître d'armes.</role>.</castItem>
+          <castItem><role rend="male inferior" xml:id="maitre-philosophie">Maître de philosophie.</role>.</castItem>
+          <castItem><role rend="male inferior" xml:id="maitre-tailleur">Maître tailleur.</role>.</castItem>
+          <castItem><role rend="male inferior" xml:id="garcon-tailleur">Garçon tailleur.</role>.</castItem>
+          <castItem><role xml:id="laquais1" rend="male inferior">Deux laquais.</role><role xml:id="laquais2" rend="male inferior"/>.</castItem>
+          <castItem type="list">Plusieurs musiciens, musiciennes, joueurs d’instruments, danseurs, cuisiniers, garçons tailleurs, <hi rend="n">Et autres Personnages des Intermèdes et du Ballet</hi>.<role xml:id="mufti" rend="male superior"/><role xml:id="turcs"/><role xml:id="homme-du-bel-air"  rend="male"/><role xml:id="vieille-bourgeoise-babillarde"  rend="female senior"/><role xml:id="vieux-bourgeois-babillard" rend="male senior"/><role xml:id="suisse" rend="male inferior"/><role xml:id="gascon" rend="male inferior"/><role xml:id="autre-gascon" rend="male inferior"/><role xml:id="tous"/><role xml:id="autre-homme-du-bel-air" rend="male"/><role xml:id="femme-du-bel-air" rend="female"/><role xml:id="autre-femme-du-bel-air" rend="female"/><role xml:id="espagnol1" rend="male inferior"/><role xml:id="espagnol2" rend="male inferior"/><role xml:id="espagnol3" rend="male inferior"/><role xml:id="musicien" rend="male inferior"/></castItem>
         </castList>
         <stage>La Scène est à Paris.</stage>
       </div>
