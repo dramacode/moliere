@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fre">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -351,18 +351,18 @@
       <div>
         <head>ACTEURS</head>
         <castList>
-          <castItem><role xml:id="argan">Argan</role>, <roleDesc>Malade Imaginaire</roleDesc>.</castItem>
-          <castItem><role xml:id="beline">Béline</role>, <roleDesc>seconde femme d’Argan</roleDesc>.</castItem>
-          <castItem><role xml:id="angelique">Angélique</role>, <roleDesc>Fille d’Argan et Amante de Cléante</roleDesc>.</castItem>
-          <castItem><role xml:id="louison">Louison</role>, <roleDesc>petite Fille d’Argan, et Sœur d’Angélique</roleDesc>.</castItem>
-          <castItem><role xml:id="beralde">Béralde</role>, <roleDesc>Frère d’Argan</roleDesc>.</castItem>
-          <castItem><role xml:id="cleante">Cléante</role>, <roleDesc>Amant d’Angélique</roleDesc>.</castItem>
-          <castItem><role xml:id="diafoirus">Monsieur Diafoirus</role>, <roleDesc>Médecin</roleDesc>.</castItem>
-          <castItem><role xml:id="thomas-diafoirus">Thomas Diafoirus</role>, <roleDesc>son Fils, et Amant d’Angélique</roleDesc>.</castItem>
-          <castItem><role xml:id="purgon">Monsieur Purgon</role>, <roleDesc>Médecin d’Argan</roleDesc>.</castItem>
-          <castItem><role xml:id="fleurant">Monsieur Fleurant</role>, <roleDesc>Apothicaire</roleDesc>.</castItem>
-          <castItem><role xml:id="bonnefoy">Monsieur Bonnefoy</role>, <roleDesc>Notaire</roleDesc>.</castItem>
-          <castItem><role xml:id="toinette">Toinette</role>, <roleDesc>Servante</roleDesc>.</castItem>
+          <castItem><role xml:id="argan" rend="male">Argan</role>, <roleDesc>Malade Imaginaire</roleDesc>.</castItem>
+          <castItem><role xml:id="beline" rend="female">Béline</role>, <roleDesc>seconde femme d’Argan</roleDesc>.</castItem>
+          <castItem><role xml:id="angelique" rend="female junior">Angélique</role>, <roleDesc>Fille d’Argan et Amante de Cléante</roleDesc>.</castItem>
+          <castItem><role xml:id="louison" rend="female ">Louison</role>, <roleDesc>petite Fille d’Argan, et Sœur d’Angélique</roleDesc>.</castItem>
+          <castItem><role xml:id="beralde" rend="male">Béralde</role>, <roleDesc>Frère d’Argan</roleDesc>.</castItem>
+          <castItem><role xml:id="cleante" rend="male junior">Cléante</role>, <roleDesc>Amant d’Angélique</roleDesc>.</castItem>
+          <castItem><role xml:id="diafoirus" rend="male exterior">Monsieur Diafoirus</role>, <roleDesc>Médecin</roleDesc>.</castItem>
+          <castItem><role xml:id="thomas-diafoirus" rend="male junior">Thomas Diafoirus</role>, <roleDesc>son Fils, et Amant d’Angélique</roleDesc>.</castItem>
+          <castItem><role xml:id="purgon" rend="male exterior">Monsieur Purgon</role>, <roleDesc>Médecin d’Argan</roleDesc>.</castItem>
+          <castItem><role xml:id="fleurant" rend="male exterior">Monsieur Fleurant</role>, <roleDesc>Apothicaire</roleDesc>.</castItem>
+          <castItem><role xml:id="bonnefoy" rend="male exterior">Monsieur Bonnefoy</role>, <roleDesc>Notaire</roleDesc>.</castItem>
+          <castItem><role xml:id="toinette" rend="female inferior">Toinette</role>, <roleDesc>Servante</roleDesc>.</castItem>
         </castList>
         <castList>
           <castItem>
@@ -375,6 +375,7 @@
           </castItem>
           <castItem>
             <role xml:id="polichinelle"/>
+            <role xml:id="vieille"/>
             <role xml:id="violons"/>
             <role xml:id="danseurs"/>
             <role xml:id="archers"/>
@@ -1525,581 +1526,421 @@
       </div1>
       <div1 xml:id="Ib" type="interlude">
         <head>Premier Intermède</head>
-        <stage>Polichinelle dans la nuit vient pour donner une Sérénade à sa Maîtresse. Il est interrompu d’abord par des Violons, contre lesquels il se met en colère, et ensuite par le Guet composé de Musiciens et de Danseurs.</stage>
-        <sp who="polichinelle" xml:id="II-1">
-          <speaker>Polichinelle</speaker>
-          <p>Ô Amour, amour, amour, amour ! pauvre Polichinelle, quelle Diable de fantaisie t’es-tu allé mettre dans la cervelle ? À quoi t’amuses-tu, misérable insensé que tu es ? Tu quittes le soin de ton négoce, et tu laisses aller tes affaires à l’abandon. Tu ne manges plus, tu ne bois presque plus, tu perds le repos de la nuit, et tout cela pour qui ? Pour une Dragonne, franche Dragonne ; une Diablesse qui te rembarre, et se moque de tout ce que tu peux lui dire. Mais il n’y a point à raisonner là-dessus : tu le veux, amour ; il faut être fou comme beaucoup d’autres. Cela n’est pas le mieux du monde à un homme de mon âge : mais qu’y faire ? on n’est pas sage quand on veut, et les vieilles cervelles se démontent comme les jeunes.</p>
-          <p>Je viens voir si je ne pourrai point adoucir ma tigresse par une Sérénade. Il n’y a rien parfois qui soit si touchant qu’un Amant qui vient chanter ses doléances aux gonds et aux verrous de la porte de sa Maîtresse. Voici de quoi accompagner ma voix. Ô nuit, ô chère nuit, porte mes plaintes amoureuses jusques dans le lit de mon Inflexible.</p>
-          <stage>Il chante ces paroles.</stage>
-          <lg>
-            <l n="1" xml:id="l1">Notte e dì v’ amo e v’ adoro</l>
-            <l n="2" xml:id="l2">Cerco un sì per mio ristoro,</l>
-            <l n="3" xml:id="l3">Ma se voi dite di nò</l>
-            <l n="4" xml:id="l4">Bell’ ingrata io morirò</l>
-          </lg>
-          <lg>
-            <l n="5" xml:id="l5">Fra la speranza</l>
-            <l n="6" xml:id="l6">S’afflige il cuore,</l>
-            <l n="7" xml:id="l7">In lontananza</l>
-            <l n="8" xml:id="l8">Consuma l’ore;</l>
-            <l n="9" xml:id="l9">Si dolce inganno</l>
-            <l n="10" xml:id="l10">Che mi figura</l>
-            <l n="11" xml:id="l11">Breve l’affanno,</l>
-            <l n="12" xml:id="l12">Ahy troppo dura,</l>
-            <l n="13" xml:id="l13">Cosi per tropp’ amar languisco e muoro</l>
-          </lg>
-          <lg>
-            <l n="14" xml:id="l14">Notte e dì v’ amo’ e v’ adoro</l>
-            <l n="15" xml:id="l15">Cerco un sì per mio ristoro,</l>
-            <l n="16" xml:id="l16">Mà se voi dite di nò</l>
-            <l n="17" xml:id="l17">Bell’ ingrata io morirò</l>
-          </lg>
-          <lg>
-            <l n="18" xml:id="l18">Se non dormite,</l>
-            <l n="19" xml:id="l19">Al men pensate</l>
-            <l n="20" xml:id="l20">Alle ferite</l>
-            <l n="21" xml:id="l21">Ch’al cuor mi fate;</l>
-            <l n="22" xml:id="l22">Deh al men fingete</l>
-            <l n="23" xml:id="l23">Per mio conforto,</l>
-            <l n="24" xml:id="l24">Se m’uccidete,</l>
-            <l n="25" xml:id="l25">D’aver il torto:</l>
-            <l n="26" xml:id="l26">Vostra pietà mi scemerà il martoro</l>
-          </lg>
-          <lg>
-            <l n="27" xml:id="l27">Notte e di v’ amo’ e v’ adoro</l>
-            <l n="28" xml:id="l28">Cerco un sì per mio ristoro,</l>
-            <l n="29" xml:id="l29">Ma se voi dite di nò</l>
-            <l n="30" xml:id="l30">Bell’ ingrata io morirò.</l>
-          </lg>
-          <stage>Une vieille se présente à la fenêtre, et répond au Seignor Polichinelle en se moquant de lui.</stage>
-          <lg>
-            <l n="31" xml:id="l31">Zerbinetti ch’ogn’or con finti sguardi,</l>
-            <l n="32" xml:id="l32">Mentiti desiri,</l>
-            <l n="33" xml:id="l33">Fallaci sospiri,</l>
-            <l n="34" xml:id="l34">Accenti Buggiardi,</l>
-            <l n="35" xml:id="l35">Di fede vi preggiate,</l>
-            <l n="36" xml:id="l36">Ah che non m’ingannate.</l>
-            <l n="37" xml:id="l37">Che gia sò per prova,</l>
-            <l n="38" xml:id="l38">Ch’in voi non si trova</l>
-            <l n="39" xml:id="l39">Constanza ne fede;</l>
-            <l n="40" xml:id="l40">Oh quanto è pazza colei che vi crede.</l>
-          </lg>
-          <lg>
-            <l n="41" xml:id="l41">Quei sguardi languidi</l>
-            <l n="42" xml:id="l42">Non m’innamorano,</l>
-            <l n="43" xml:id="l43">Quei sospir fervidi</l>
-            <l n="44" xml:id="l44">Più non m’infiammano</l>
-            <l n="45" xml:id="l45">Vel giuro a fé.</l>
-            <l n="46" xml:id="l46">Zerbino misero,</l>
-            <l n="47" xml:id="l47">Del vostro piangere</l>
-            <l n="48" xml:id="l48">Il mio cor libero</l>
-            <l n="49" xml:id="l49">Vuol semper ridere</l>
-            <l n="50" xml:id="l50">Credet’a me</l>
-            <l n="51" xml:id="l51">Che già sò per prova,</l>
-            <l n="52" xml:id="l52">Ch’ in voi non si trova</l>
-            <l n="53" xml:id="l53">Constanza ne fede;</l>
-            <l n="54" xml:id="l54">Oh quanto è pazza colei che vi crede.</l>
-          </lg>
-        </sp>
-        <sp who="violons" xml:id="II-2">
-          <speaker>Violons</speaker>
-          <l n="55" xml:id="l55"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-3">
-          <speaker>Polichinelle</speaker>
-          <p>Quelle impertinente harmonie vient interrompre ici ma voix ?</p>
-        </sp>
-        <sp who="violons" xml:id="II-4">
-          <speaker>Violons</speaker>
-          <l n="56" xml:id="l56"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-5">
-          <speaker>Polichinelle</speaker>
-          <p>Paix là, taisez-vous, Violons. Laissez-moi me plaindre à mon aise des cruautés de mon Inexorable.</p>
-        </sp>
-        <sp who="violons" xml:id="II-6">
-          <speaker>Violons</speaker>
-          <l n="57" xml:id="l57"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-7">
-          <speaker>Polichinelle</speaker>
-          <p>Taisez-vous, vous dis-je. C’est moi qui veux chanter.</p>
-        </sp>
-        <sp who="violons" xml:id="II-8">
-          <speaker>Violons</speaker>
-          <l n="58" xml:id="l58"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-9">
-          <speaker>Polichinelle</speaker>
-          <p>Paix donc.</p>
-        </sp>
-        <sp who="violons" xml:id="II-10">
-          <speaker>Violons</speaker>
-          <l n="59" xml:id="l59"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-11">
-          <speaker>Polichinelle</speaker>
-          <p>Ouais !</p>
-        </sp>
-        <sp who="violons" xml:id="II-12">
-          <speaker>Violons</speaker>
-          <l n="60" xml:id="l60"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-13">
-          <speaker>Polichinelle</speaker>
-          <p>Ahy.</p>
-        </sp>
-        <sp who="violons" xml:id="II-14">
-          <speaker>Violons</speaker>
-          <l n="61" xml:id="l61"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-15">
-          <speaker>Polichinelle</speaker>
-          <p>Est-ce pour rire ?</p>
-        </sp>
-        <sp who="violons" xml:id="II-16">
-          <speaker>Violons</speaker>
-          <l n="62" xml:id="l62"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-17">
-          <speaker>Polichinelle</speaker>
-          <p>Ah que de bruit.</p>
-        </sp>
-        <sp who="violons" xml:id="II-18">
-          <speaker>Violons</speaker>
-          <l n="63" xml:id="l63"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-19">
-          <speaker>Polichinelle</speaker>
-          <p>Le Diable vous emporte.</p>
-        </sp>
-        <sp who="violons" xml:id="II-20">
-          <speaker>Violons</speaker>
-          <l n="64" xml:id="l64"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-21">
-          <speaker>Polichinelle</speaker>
-          <p>J’enrage.</p>
-        </sp>
-        <sp who="violons" xml:id="II-22">
-          <speaker>Violons</speaker>
-          <l n="65" xml:id="l65"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-23">
-          <speaker>Polichinelle</speaker>
-          <p>Vous ne vous tairez pas ? Ah Dieu soit loué.</p>
-        </sp>
-        <sp who="violons" xml:id="II-24">
-          <speaker>Violons</speaker>
-          <l n="66" xml:id="l66"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-25">
-          <speaker>Polichinelle</speaker>
-          <p>Encore ?</p>
-        </sp>
-        <sp who="violons" xml:id="II-26">
-          <speaker>Violons</speaker>
-          <l n="67" xml:id="l67"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-27">
-          <speaker>Polichinelle</speaker>
-          <p>Peste des Violons.</p>
-        </sp>
-        <sp who="violons" xml:id="II-28">
-          <speaker>Violons</speaker>
-          <l n="68" xml:id="l68"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-29">
-          <speaker>Polichinelle</speaker>
-          <p>La sotte Musique que voilà !</p>
-        </sp>
-        <sp who="violons" xml:id="II-30">
-          <speaker>Violons</speaker>
-          <l n="69" xml:id="l69"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-31">
-          <speaker>Polichinelle</speaker>
-          <p>La, la, la, la, la, la.</p>
-        </sp>
-        <sp who="violons" xml:id="II-32">
-          <speaker>Violons</speaker>
-          <l n="70" xml:id="l70"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-33">
-          <speaker>Polichinelle</speaker>
-          <p>La, la, la, la, la, la.</p>
-        </sp>
-        <sp who="violons" xml:id="II-34">
-          <speaker>Violons</speaker>
-          <l n="71" xml:id="l71"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-35">
-          <speaker>Polichinelle</speaker>
-          <p>La, la, la, la, la, la.</p>
-        </sp>
-        <sp who="violons" xml:id="II-36">
-          <speaker>Violons</speaker>
-          <l n="72" xml:id="l72"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-37">
-          <speaker>Polichinelle</speaker>
-          <p>La, la, la, la, la, la.</p>
-        </sp>
-        <sp who="violons" xml:id="II-38">
-          <speaker>Violons</speaker>
-          <l n="73" xml:id="l73"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-39">
-          <speaker>Polichinelle</speaker>
-          <p>La, la, la, la, la, la.</p>
-        </sp>
-        <sp who="violons" xml:id="II-40">
-          <speaker>Violons</speaker>
-          <l n="74" xml:id="l74"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-41">
-          <speaker>Polichinelle</speaker>
-          <p>Par ma foi cela me divertit. Poursuivez, Messieurs les Violons, vous me ferez plaisir. Allons donc, continuez. Je vous en prie. Voilà le moyen de les faire taire. La Musique est accoutumée à ne point faire ce qu’on veut. Ho sus à nous. Avant que de chanter il faut que je prélude un peu, et joue quelque pièce, afin de mieux prendre mon ton. Plan, plan, plan. Plin, plin, plin. Voilà un temps fâcheux pour mettre un Luth d’accord. Plin, plin, plin. Plin, tan, plan. Plin, plin. Les cordes ne tiennent point par ce temps-là. Plin, plan. J’entends du bruit. Mettons mon Luth contre la porte.</p>
-        </sp>
-        <sp who="archers" xml:id="II-42">
-          <speaker>Archers, passant dans la rue accourent au bruit qu’ils entendent, et demandent :</speaker>
-          <p>Qui va là, qui va là ?</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-43">
-          <speaker>Polichinelle, tout bas</speaker>
-          <p>Qui diable est-ce là ? est-ce que c’est la mode de parler en Musique ?</p>
-        </sp>
-        <sp who="archers" xml:id="II-44">
-          <speaker>Archers</speaker>
-          <p>Qui va là, qui va là, qui va là ?</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-45">
-          <speaker>Polichinelle, épouvanté</speaker>
-          <p>Moi, moi, moi.</p>
-        </sp>
-        <sp who="archers" xml:id="II-46">
-          <speaker>Archers</speaker>
-          <p>Qui va là, qui va là ? vous dis-je.</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-47">
-          <speaker>Polichinelle</speaker>
-          <p>Moi, moi, vous dis-je.</p>
-        </sp>
-        <sp who="archers" xml:id="II-48">
-          <speaker>Archers</speaker>
-          <p>Et qui toi, et qui toi ?</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-49">
-          <speaker>Polichinelle</speaker>
-          <p>Moi, moi, moi, moi, moi, moi.</p>
-        </sp>
-        <sp who="archers" xml:id="II-50">
-          <speaker>Archers</speaker>
-          <p>Dis ton nom, dis ton nom, sans davantage attendre.</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-51">
-          <speaker>Polichinelle, feignant d’être bien hardi</speaker>
-          <p>Mon nom est, va te faire pendre.</p>
-        </sp>
-        <sp who="archers" xml:id="II-52">
-          <speaker>Archers</speaker>
-          <p>Ici camarade, ici.</p>
-          <p>Saisissons l’insolent qui nous répond ainsi.</p>
-        </sp>
-        <label>ENTRÉE DE BALLET.</label>
-        <stage>Tout le Guet vient qui cherche Polichinelle dans la nuit.</stage>
-        <sp who="violons" xml:id="II-53">
-          <speaker>Violons <hi rend="i">et</hi> danseurs</speaker>
-          <l n="75" xml:id="l75"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-54">
-          <speaker>Polichinelle</speaker>
-          <p>Qui sont les coquins que j’entends ?</p>
-        </sp>
-        <sp who="violons" xml:id="II-55">
-          <speaker>Violons <hi rend="i">et</hi> danseurs</speaker>
-          <l n="76" xml:id="l76"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-56">
-          <speaker>Polichinelle</speaker>
-          <p>Euh !</p>
-        </sp>
-        <sp who="violons" xml:id="II-57">
-          <speaker>Violons <hi rend="i">et</hi> danseurs</speaker>
-          <l n="77" xml:id="l77"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-58">
-          <speaker>Polichinelle</speaker>
-          <p>Holà mes laquais, mes gens.</p>
-        </sp>
-        <sp who="violons" xml:id="II-59">
-          <speaker>Violons <hi rend="i">et</hi> danseurs</speaker>
-          <l n="78" xml:id="l78"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-60">
-          <speaker>Polichinelle</speaker>
-          <p>Par la mort.</p>
-        </sp>
-        <sp who="violons" xml:id="II-61">
-          <speaker>Violons <hi rend="i">et</hi> danseurs</speaker>
-          <l n="79" xml:id="l79"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-62">
-          <speaker>Polichinelle</speaker>
-          <p>Par la sang.</p>
-        </sp>
-        <sp who="violons" xml:id="II-63">
-          <speaker>Violons <hi rend="i">et</hi> danseurs</speaker>
-          <l n="80" xml:id="l80"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-64">
-          <speaker>Polichinelle</speaker>
-          <p>J’en jetterai par terre.</p>
-        </sp>
-        <sp who="violons" xml:id="II-65">
-          <speaker>Violons <hi rend="i">et</hi> danseurs</speaker>
-          <l n="81" xml:id="l81"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-66">
-          <speaker>Polichinelle</speaker>
-          <p>Champagne, Poitevin, Picard, Basque, Breton.</p>
-        </sp>
-        <sp who="violons" xml:id="II-67">
-          <speaker>Violons <hi rend="i">et</hi> danseurs</speaker>
-          <l n="82" xml:id="l82"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-68">
-          <speaker>Polichinelle</speaker>
-          <p>Donnez-moi mon Mousqueton.</p>
-        </sp>
-        <sp who="violons" xml:id="II-69">
-          <speaker>Violons <hi rend="i">et</hi> danseurs</speaker>
-          <l n="83" xml:id="l83"/>
-        </sp>
-        <sp who="polichinelle" xml:id="II-70">
-          <speaker>Polichinelle tire un coup de pistolet</speaker>
-          <p>Poue.</p>
-          <stage>Ils tombent tous et s’enfuient.</stage>
-        </sp>
-        <sp who="polichinelle" xml:id="II-71">
-          <speaker>Polichinelle, en se moquant</speaker>
-          <p>Ah, ah, ah, ah, comme je leur ai donné l’épouvante. Voilà de sottes gens d’avoir peur de moi qui ai peur des autres. Ma foi il n’est que de jouer d’adresse en ce monde. Si je n’avais tranché du grand Seigneur, et n’avais fait le brave, ils n’auraient pas manqué de me happer. Ah, ah, ah.</p>
+        <div2 type="scene" xml:id="Ib01">
+          <head>* * *</head>
+          <stage>Polichinelle dans la nuit vient pour donner une Sérénade à sa Maîtresse. Il est interrompu d’abord par des Violons, contre lesquels il se met en colère, et ensuite par le Guet composé de Musiciens et de Danseurs.</stage>
+          <sp who="polichinelle" xml:id="Ib01-1">
+            <speaker>Polichinelle</speaker>
+            <p>Ô Amour, amour, amour, amour ! pauvre Polichinelle, quelle Diable de fantaisie t’es-tu allé mettre dans la cervelle ? À quoi t’amuses-tu, misérable insensé que tu es ? Tu quittes le soin de ton négoce, et tu laisses aller tes affaires à l’abandon. Tu ne manges plus, tu ne bois presque plus, tu perds le repos de la nuit, et tout cela pour qui ? Pour une Dragonne, franche Dragonne ; une Diablesse qui te rembarre, et se moque de tout ce que tu peux lui dire. Mais il n’y a point à raisonner là-dessus : tu le veux, amour ; il faut être fou comme beaucoup d’autres. Cela n’est pas le mieux du monde à un homme de mon âge : mais qu’y faire ? on n’est pas sage quand on veut, et les vieilles cervelles se démontent comme les jeunes.</p>
+            <p>Je viens voir si je ne pourrai point adoucir ma tigresse par une Sérénade. Il n’y a rien parfois qui soit si touchant qu’un Amant qui vient chanter ses doléances aux gonds et aux verrous de la porte de sa Maîtresse. Voici de quoi accompagner ma voix. Ô nuit, ô chère nuit, porte mes plaintes amoureuses jusques dans le lit de mon Inflexible.</p>
+            <stage>Il chante ces paroles.</stage>
+            <lg>
+              <l n="1" xml:id="l1">Notte e dì v’ amo e v’ adoro</l>
+              <l n="2" xml:id="l2">Cerco un sì per mio ristoro,</l>
+              <l n="3" xml:id="l3">Ma se voi dite di nò</l>
+              <l n="4" xml:id="l4">Bell’ ingrata io morirò</l>
+            </lg>
+            <lg>
+              <l n="5" xml:id="l5">Fra la speranza</l>
+              <l n="6" xml:id="l6">S’afflige il cuore,</l>
+              <l n="7" xml:id="l7">In lontananza</l>
+              <l n="8" xml:id="l8">Consuma l’ore;</l>
+              <l n="9" xml:id="l9">Si dolce inganno</l>
+              <l n="10" xml:id="l10">Che mi figura</l>
+              <l n="11" xml:id="l11">Breve l’affanno,</l>
+              <l n="12" xml:id="l12">Ahy troppo dura,</l>
+              <l n="13" xml:id="l13">Cosi per tropp’ amar languisco e muoro</l>
+            </lg>
+            <lg>
+              <l n="14" xml:id="l14">Notte e dì v’ amo’ e v’ adoro</l>
+              <l n="15" xml:id="l15">Cerco un sì per mio ristoro,</l>
+              <l n="16" xml:id="l16">Mà se voi dite di nò</l>
+              <l n="17" xml:id="l17">Bell’ ingrata io morirò</l>
+            </lg>
+            <lg>
+              <l n="18" xml:id="l18">Se non dormite,</l>
+              <l n="19" xml:id="l19">Al men pensate</l>
+              <l n="20" xml:id="l20">Alle ferite</l>
+              <l n="21" xml:id="l21">Ch’al cuor mi fate;</l>
+              <l n="22" xml:id="l22">Deh al men fingete</l>
+              <l n="23" xml:id="l23">Per mio conforto,</l>
+              <l n="24" xml:id="l24">Se m’uccidete,</l>
+              <l n="25" xml:id="l25">D’aver il torto:</l>
+              <l n="26" xml:id="l26">Vostra pietà mi scemerà il martoro</l>
+            </lg>
+            <lg>
+              <l n="27" xml:id="l27">Notte e di v’ amo’ e v’ adoro</l>
+              <l n="28" xml:id="l28">Cerco un sì per mio ristoro,</l>
+              <l n="29" xml:id="l29">Ma se voi dite di nò</l>
+              <l n="30" xml:id="l30">Bell’ ingrata io morirò.</l>
+            </lg>
+          </sp>
+          <sp who="vieille" xml:id="Ib01-2">
+            <speaker>Une vieille<hi rend="i"> se présente à la fenêtre, et répond au Seignor Polichinelle en se moquant de lui.</hi></speaker>
+            <lg>
+              <l n="31" xml:id="l31">Zerbinetti ch’ogn’or con finti sguardi,</l>
+              <l n="32" xml:id="l32">Mentiti desiri,</l>
+              <l n="33" xml:id="l33">Fallaci sospiri,</l>
+              <l n="34" xml:id="l34">Accenti Buggiardi,</l>
+              <l n="35" xml:id="l35">Di fede vi preggiate,</l>
+              <l n="36" xml:id="l36">Ah che non m’ingannate.</l>
+              <l n="37" xml:id="l37">Che gia sò per prova,</l>
+              <l n="38" xml:id="l38">Ch’in voi non si trova</l>
+              <l n="39" xml:id="l39">Constanza ne fede;</l>
+              <l n="40" xml:id="l40">Oh quanto è pazza colei che vi crede.</l>
+            </lg>
+            <lg>
+              <l n="41" xml:id="l41">Quei sguardi languidi</l>
+              <l n="42" xml:id="l42">Non m’innamorano,</l>
+              <l n="43" xml:id="l43">Quei sospir fervidi</l>
+              <l n="44" xml:id="l44">Più non m’infiammano</l>
+              <l n="45" xml:id="l45">Vel giuro a fé.</l>
+              <l n="46" xml:id="l46">Zerbino misero,</l>
+              <l n="47" xml:id="l47">Del vostro piangere</l>
+              <l n="48" xml:id="l48">Il mio cor libero</l>
+              <l n="49" xml:id="l49">Vuol semper ridere</l>
+              <l n="50" xml:id="l50">Credet’a me</l>
+              <l n="51" xml:id="l51">Che già sò per prova,</l>
+              <l n="52" xml:id="l52">Ch’ in voi non si trova</l>
+              <l n="53" xml:id="l53">Constanza ne fede;</l>
+              <l n="54" xml:id="l54">Oh quanto è pazza colei che vi crede.</l>
+            </lg>
+            <stage>Violons</stage>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib01-3">
+            <p>Quelle impertinente harmonie vient interrompre ici ma voix ?</p>
+            <stage>Violons</stage>
+            <p>Paix là, taisez-vous, Violons. Laissez-moi me plaindre à mon aise des cruautés de mon Inexorable.</p>
+            <stage>Violons</stage>
+            <p>Taisez-vous, vous dis-je. C’est moi qui veux chanter.</p>
+            <stage>Violons</stage>
+            <p>Paix donc.</p>
+            <stage>Violons</stage>
+            <p>Ouais !</p>
+            <stage>Violons</stage>
+            <p>Ahy.</p>
+            <stage>Violons</stage>
+            <p>Est-ce pour rire ?</p>
+            <stage>Violons</stage>
+            <p>Ah que de bruit.</p>
+            <stage>Violons</stage>
+            <p>Le Diable vous emporte.</p>
+            <stage>Violons</stage>
+            <p>J’enrage.</p>
+            <stage>Violons</stage>
+            <p>Vous ne vous tairez pas ? Ah Dieu soit loué.</p>
+            <stage>Violons</stage>
+            <p>Encore ?</p>
+            <stage>Violons</stage>
+            <p>Peste des Violons.</p>
+            <stage>Violons</stage>
+            <p>La sotte Musique que voilà !</p>
+            <stage>Violons</stage>
+            <p>La, la, la, la, la, la.</p>
+            <stage>Violons</stage>
+            <p>La, la, la, la, la, la.</p>
+            <stage>Violons</stage>
+            <p>La, la, la, la, la, la.</p>
+            <stage>Violons</stage>
+            <p>La, la, la, la, la, la.</p>
+            <stage>Violons</stage>
+            <p>La, la, la, la, la, la.</p>
+            <stage>Violons</stage>
+            <p>Par ma foi cela me divertit. Poursuivez, Messieurs les Violons, vous me ferez plaisir. Allons donc, continuez. Je vous en prie. Voilà le moyen de les faire taire. La Musique est accoutumée à ne point faire ce qu’on veut. Ho sus à nous. Avant que de chanter il faut que je prélude un peu, et joue quelque pièce, afin de mieux prendre mon ton. Plan, plan, plan. Plin, plin, plin. Voilà un temps fâcheux pour mettre un Luth d’accord. Plin, plin, plin. Plin, tan, plan. Plin, plin. Les cordes ne tiennent point par ce temps-là. Plin, plan. J’entends du bruit. Mettons mon Luth contre la porte.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib01-4">
+            <speaker>Archers<hi rend="i">, passant dans la rue accourent au bruit qu’ils entendent, et demandent :</hi></speaker>
+            <p>Qui va là, qui va là ?</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib01-5">
+            <speaker>Polichinelle<hi rend="i">, tout bas</hi></speaker>
+            <p>Qui diable est-ce là ? est-ce que c’est la mode de parler en Musique ?</p>
+          </sp>
+          <sp who="archers" xml:id="Ib01-6">
+            <speaker>Archers</speaker>
+            <p>Qui va là, qui va là, qui va là ?</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib01-7">
+            <speaker>Polichinelle, épouvanté</speaker>
+            <p>Moi, moi, moi.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib01-8">
+            <speaker>Archers</speaker>
+            <p>Qui va là, qui va là ? vous dis-je.</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib01-9">
+            <speaker>Polichinelle</speaker>
+            <p>Moi, moi, vous dis-je.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib01-10">
+            <speaker>Archers</speaker>
+            <p>Et qui toi, et qui toi ?</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib01-11">
+            <speaker>Polichinelle</speaker>
+            <p>Moi, moi, moi, moi, moi, moi.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib01-12">
+            <speaker>Archers</speaker>
+            <p>Dis ton nom, dis ton nom, sans davantage attendre.</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib01-13">
+            <speaker>Polichinelle, feignant d’être bien hardi</speaker>
+            <p>Mon nom est, va te faire pendre.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib01-14">
+            <speaker>Archers</speaker>
+            <p>Ici camarade, ici.</p>
+            <p>Saisissons l’insolent qui nous répond ainsi.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="Ib02">
+          <head>Entrée de ballet</head>
+          <stage>Tout le Guet vient qui cherche Polichinelle dans la nuit.</stage>
+          <sp who="polichinelle" xml:id="Ib02-1">
+            <speaker>Polichinelle</speaker>
+            <p>Qui va là ?</p>
+            <stage>Violons <hi rend="i">et</hi> danseurs</stage>
+            <p>Qui sont les coquins que j’entends ?</p>
+            <stage>Violons <hi rend="i">et</hi> danseurs</stage>
+            <p>Euh !</p>
+            <stage>Violons <hi rend="i">et</hi> danseurs</stage>
+            <p>Holà mes laquais, mes gens.</p>
+            <stage>Violons <hi rend="i">et</hi> danseurs</stage>
+            <p>Par la mort.</p>
+            <stage>Violons <hi rend="i">et</hi> danseurs</stage>
+            <p>Par la sang.</p>
+            <stage>Violons <hi rend="i">et</hi> danseurs</stage>
+            <p>J’en jetterai par terre.</p>
+            <stage>Violons <hi rend="i">et</hi> danseurs</stage>
+            <p>Champagne, Poitevin, Picard, Basque, Breton.</p>
+            <stage>Violons <hi rend="i">et</hi> danseurs</stage>
+            <stage>Polichinelle tire un coup de pistolet.</stage>
+            <p>Donnez-moi mon Mousqueton.</p>
+            <stage>Violons <hi rend="i">et</hi> danseurs</stage>
+            <p>Poue.</p>
+            <stage>Ils tombent tous et s’enfuient.</stage>
+            <stage>Polichinelle, en se moquant</stage>
+            <p>Ah, ah, ah, ah, comme je leur ai donné l’épouvante. Voilà de sottes gens d’avoir peur de moi qui ai peur des autres. Ma foi il n’est que de jouer d’adresse en ce monde. Si je n’avais tranché du grand Seigneur, et n’avais fait le brave, ils n’auraient pas manqué de me happer. Ah, ah, ah.</p>
+          </sp>
           <stage>Les Archers se rapprochent, et ayant entendu ce qu’il disait, ils le saisissent au collet.</stage>
-        </sp>
-        <sp who="archers" xml:id="II-72">
-          <speaker>Archers</speaker>
-          <p>Nous le tenons, à nous, Camarades, à nous, Dépêchez, de la lumière.</p>
-        </sp>
-        <label>BALLET.</label>
-        <stage>Tout le Guet vient avec des lanternes.</stage>
-        <sp who="archers" xml:id="II-73">
-          <speaker>Archers</speaker>
-          <l n="84" xml:id="l84">Ah traître, ah fripon, c’est donc vous,</l>
-          <l n="85" xml:id="l85">Faquin, maraud, pendard, impudent, téméraire,</l>
-          <l n="86" xml:id="l86">Insolent, effronté, coquin, filou, voleur,</l>
-          <l n="87" xml:id="l87">Vous osez nous faire peur ?</l>
-        </sp>
-        <sp who="polichinelle" xml:id="II-74">
-          <speaker>Polichinelle</speaker>
-          <p>Messieurs, c’est que j’étais ivre.</p>
-        </sp>
-        <sp who="archers" xml:id="II-75">
-          <speaker>Archers</speaker>
-          <l n="88" xml:id="l88">Non, non, point de raison,</l>
-          <l n="89" xml:id="l89">Il faut vous apprendre à vivre,</l>
-          <l n="90" xml:id="l90">En prison vite, en prison.</l>
-        </sp>
-        <sp who="polichinelle" xml:id="II-76">
-          <speaker>Polichinelle</speaker>
-          <p>Messieurs, je ne suis point voleur.</p>
-        </sp>
-        <sp who="archers" xml:id="II-77">
-          <speaker>Archers</speaker>
-          <p>En prison.</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-78">
-          <speaker>Polichinelle</speaker>
-          <p>Je suis un Bourgeois de la Ville.</p>
-        </sp>
-        <sp who="archers" xml:id="II-79">
-          <speaker>Archers</speaker>
-          <p>En prison.</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-80">
-          <speaker>Polichinelle</speaker>
-          <p>Qu’ai-je fait ?</p>
-        </sp>
-        <sp who="archers" xml:id="II-81">
-          <speaker>Archers</speaker>
-          <p>En prison, vite, en prison.</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-82">
-          <speaker>Polichinelle</speaker>
-          <p>Messieurs, laissez-moi aller.</p>
-        </sp>
-        <sp who="archers" xml:id="II-83">
-          <speaker>Archers</speaker>
-          <p>Non.</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-84">
-          <speaker>Polichinelle</speaker>
-          <p>Je vous prie.</p>
-        </sp>
-        <sp who="archers" xml:id="II-85">
-          <speaker>Archers</speaker>
-          <p>Non.</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-86">
-          <speaker>Polichinelle</speaker>
-          <p>Eh !</p>
-        </sp>
-        <sp who="archers" xml:id="II-87">
-          <speaker>Archers</speaker>
-          <p>Non.</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-88">
-          <speaker>Polichinelle</speaker>
-          <p>De grâce.</p>
-        </sp>
-        <sp who="archers" xml:id="II-89">
-          <speaker>Archers</speaker>
-          <p>Non, non.</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-90">
-          <speaker>Polichinelle</speaker>
-          <p>Messieurs.</p>
-        </sp>
-        <sp who="archers" xml:id="II-91">
-          <speaker>Archers</speaker>
-          <p>Non, non, non.</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-92">
-          <speaker>Polichinelle</speaker>
-          <p>S’il vous plaît.</p>
-        </sp>
-        <sp who="archers" xml:id="II-93">
-          <speaker>Archers</speaker>
-          <p>Non, non.</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-94">
-          <speaker>Polichinelle</speaker>
-          <p>Par charité.</p>
-        </sp>
-        <sp who="archers" xml:id="II-95">
-          <speaker>Archers</speaker>
-          <p>Non, non.</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-96">
-          <speaker>Polichinelle</speaker>
-          <p>Au nom du Ciel.</p>
-        </sp>
-        <sp who="archers" xml:id="II-97">
-          <speaker>Archers</speaker>
-          <p>Non, non.</p>
-        </sp>
-        <sp who="polichinelle" xml:id="II-98">
-          <speaker>Polichinelle</speaker>
-          <p>Miséricorde.</p>
-        </sp>
-        <sp who="archers" xml:id="II-99">
-          <speaker>Archers</speaker>
-          <l n="91" xml:id="l91">Non, non, non, point de raison.</l>
-          <l n="92" xml:id="l92">Il faut vous apprendre à vivre,</l>
-          <l n="93" xml:id="l93">En prison vite, en prison.</l>
-        </sp>
-        <sp who="polichinelle" xml:id="II-100">
-          <speaker>Polichinelle</speaker>
-          <p>Eh, n’est-il rien, Messieurs, qui soit capable d’attendrir vos âmes ?</p>
-        </sp>
-        <sp who="archers" xml:id="II-101">
-          <speaker>Archers</speaker>
-          <l n="94" xml:id="l94">Il est aisé de nous toucher,</l>
-          <l n="95" xml:id="l95">Et nous sommes humains plus qu’on ne saurait croire,</l>
-          <l n="96" xml:id="l96">Donnez-nous doucement six pistoles pour boire ;</l>
-          <l n="97" xml:id="l97">Nous allons vous lâcher.</l>
-        </sp>
-        <sp who="polichinelle" xml:id="II-102">
-          <speaker>Polichinelle</speaker>
-          <p>Hélas, Messieurs, je vous assure que je n’ai pas un sol sur moi.</p>
-        </sp>
-        <sp who="archers" xml:id="II-103">
-          <speaker>Archers</speaker>
-          <l n="98" xml:id="l98">Au défaut de six pistoles,</l>
-          <l n="99" xml:id="l99">Choisissez donc sans façon</l>
-          <l n="100" xml:id="l100">D’avoir trente croquignoles,</l>
-          <l n="101" xml:id="l101">Ou douze coups de bâton.</l>
-        </sp>
-        <sp who="polichinelle" xml:id="II-104">
-          <speaker>Polichinelle</speaker>
-          <p>Si c’est une nécessité, et qu’il faille en passer par là, je choisis les croquignoles.</p>
-        </sp>
-        <sp who="archers" xml:id="II-105">
-          <speaker>Archers</speaker>
-          <l n="102" xml:id="l102">Allons, préparez-vous,</l>
-          <l n="103" xml:id="l103">Et comptez bien les coups.</l>
-        </sp>
-        <label>BALLET.</label>
-        <stage>Les Archers Danseurs lui donnent des croquignoles en cadence.</stage>
-        <sp who="polichinelle" xml:id="II-106">
-          <speaker>Polichinelle</speaker>
-          <p>Un et deux. Trois et quatre. Cinq et six. Sept et huit. Neuf et dix. Onze et douze et treize, et quatorze et quinze.</p>
-        </sp>
-        <sp who="archers" xml:id="II-107">
-          <speaker>Archers</speaker>
-          <l n="104" xml:id="l104">Ah ! ah ! vous en voulez passer ;</l>
-          <l n="105" xml:id="l105">Allons, c’est à recommencer.</l>
-        </sp>
-        <sp who="polichinelle" xml:id="II-108">
-          <speaker>Polichinelle</speaker>
-          <p>Ah, Messieurs, ma pauvre tête n’en peut plus, et vous venez de me la rendre comme une pomme cuite. J’aime mieux encore les coups de bâtons que de recommencer.</p>
-        </sp>
-        <sp who="archers" xml:id="II-109">
-          <speaker>Archers</speaker>
-          <l n="106" xml:id="l106">Soit, puisque le bâton est pour vous plus charmant,</l>
-          <l n="107" xml:id="l107">Vous aurez contentement.</l>
-        </sp>
-        <label>BALLET.</label>
-        <stage>Les Archers Danseurs lui donnent des coups de bâtons en cadence.</stage>
-        <sp who="polichinelle" xml:id="II-110">
-          <speaker>Polichinelle</speaker>
-          <p>Un, deux, trois, quatre, cinq, six, ah, ah, ah, je n’y saurais plus résister. Tenez, Messieurs, voilà six pistoles que je vous donne.</p>
-        </sp>
-        <sp who="archers" xml:id="II-111">
-          <speaker>Archers</speaker>
-          <l n="108" xml:id="l108">Ah l’honnête homme ! ah l’âme noble et belle !</l>
-          <l n="109" xml:id="l109">Adieu, Seigneur, adieu, Seigneur Polichinelle.</l>
-        </sp>
-        <sp who="polichinelle" xml:id="II-112">
-          <speaker>Polichinelle</speaker>
-          <p>Messieurs, je vous donne le bonsoir.</p>
-        </sp>
-        <sp who="archers" xml:id="II-113">
-          <speaker>Archers</speaker>
-          <l n="110" xml:id="l110">Adieu Seigneur, adieu, Seigneur Polichinelle.</l>
-        </sp>
-        <sp who="polichinelle" xml:id="II-114">
-          <speaker>Polichinelle</speaker>
-          <p>Votre Serviteur.</p>
-        </sp>
-        <sp who="archers" xml:id="II-115">
-          <speaker>Archers</speaker>
-          <l n="111" xml:id="l111">Adieu Seigneur, adieu, Seigneur Polichinelle.</l>
-        </sp>
-        <sp who="polichinelle" xml:id="II-116">
-          <speaker>Polichinelle</speaker>
-          <p>Très humble valet.</p>
-        </sp>
-        <sp who="archers" xml:id="II-117">
-          <speaker>Archers</speaker>
-          <l n="112" xml:id="l112">Adieu Seigneur, adieu, Seigneur Polichinelle.</l>
-        </sp>
-        <sp who="polichinelle" xml:id="II-118">
-          <speaker>Polichinelle</speaker>
-          <p>Jusqu’au revoir.</p>
-        </sp>
-        <label>BALLET.</label>
-        <stage>Ils dansent tous en réjouissance de l’argent qu’ils ont reçu.</stage>
-        <stage>Le Théâtre change, et représente encore une Chambre.</stage>
+          <sp who="archers" xml:id="Ib02-2">
+            <speaker>Archers</speaker>
+            <p>Nous le tenons, à nous, Camarades, à nous, Dépêchez, de la lumière.</p>
+          </sp>
+        </div2>
+        <div2 type="scene" xml:id="Ib03">
+          <head>Ballet</head>
+          <stage>Tout le Guet vient avec des lanternes.</stage>
+          <sp who="archers" xml:id="Ib03-1">
+            <speaker>Archers</speaker>
+            <l n="55" xml:id="l55">Ah traître, ah fripon, c’est donc vous,</l>
+            <l n="56" xml:id="l56">Faquin, maraud, pendard, impudent, téméraire,</l>
+            <l n="57" xml:id="l57">Insolent, effronté, coquin, filou, voleur,</l>
+            <l n="58" xml:id="l58">Vous osez nous faire peur ?</l>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-2">
+            <speaker>Polichinelle</speaker>
+            <p>Messieurs, c’est que j’étais ivre.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-3">
+            <speaker>Archers</speaker>
+            <l n="59" xml:id="l59">Non, non, point de raison,</l>
+            <l n="60" xml:id="l60">Il faut vous apprendre à vivre,</l>
+            <l n="61" xml:id="l61">En prison vite, en prison.</l>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-4">
+            <speaker>Polichinelle</speaker>
+            <p>Messieurs, je ne suis point voleur.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-5">
+            <speaker>Archers</speaker>
+            <p>En prison.</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-6">
+            <speaker>Polichinelle</speaker>
+            <p>Je suis un Bourgeois de la Ville.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-7">
+            <speaker>Archers</speaker>
+            <p>En prison.</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-8">
+            <speaker>Polichinelle</speaker>
+            <p>Qu’ai-je fait ?</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-9">
+            <speaker>Archers</speaker>
+            <p>En prison, vite, en prison.</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-10">
+            <speaker>Polichinelle</speaker>
+            <p>Messieurs, laissez-moi aller.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-11">
+            <speaker>Archers</speaker>
+            <p>Non.</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-12">
+            <speaker>Polichinelle</speaker>
+            <p>Je vous prie.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-13">
+            <speaker>Archers</speaker>
+            <p>Non.</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-14">
+            <speaker>Polichinelle</speaker>
+            <p>Eh !</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-15">
+            <speaker>Archers</speaker>
+            <p>Non.</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-16">
+            <speaker>Polichinelle</speaker>
+            <p>De grâce.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-17">
+            <speaker>Archers</speaker>
+            <p>Non, non.</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-18">
+            <speaker>Polichinelle</speaker>
+            <p>Messieurs.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-19">
+            <speaker>Archers</speaker>
+            <p>Non, non, non.</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-20">
+            <speaker>Polichinelle</speaker>
+            <p>S’il vous plaît.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-21">
+            <speaker>Archers</speaker>
+            <p>Non, non.</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-22">
+            <speaker>Polichinelle</speaker>
+            <p>Par charité.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-23">
+            <speaker>Archers</speaker>
+            <p>Non, non.</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-24">
+            <speaker>Polichinelle</speaker>
+            <p>Au nom du Ciel.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-25">
+            <speaker>Archers</speaker>
+            <p>Non, non.</p>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-26">
+            <speaker>Polichinelle</speaker>
+            <p>Miséricorde.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-27">
+            <speaker>Archers</speaker>
+            <l n="62" xml:id="l62">Non, non, non, point de raison.</l>
+            <l n="63" xml:id="l63">Il faut vous apprendre à vivre,</l>
+            <l n="64" xml:id="l64">En prison vite, en prison.</l>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-28">
+            <speaker>Polichinelle</speaker>
+            <p>Eh, n’est-il rien, Messieurs, qui soit capable d’attendrir vos âmes ?</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-29">
+            <speaker>Archers</speaker>
+            <l n="65" xml:id="l65">Il est aisé de nous toucher,</l>
+            <l n="66" xml:id="l66">Et nous sommes humains plus qu’on ne saurait croire,</l>
+            <l n="67" xml:id="l67">Donnez-nous doucement six pistoles pour boire ;</l>
+            <l n="68" xml:id="l68">Nous allons vous lâcher.</l>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-30">
+            <speaker>Polichinelle</speaker>
+            <p>Hélas, Messieurs, je vous assure que je n’ai pas un sol sur moi.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-31">
+            <speaker>Archers</speaker>
+            <l n="69" xml:id="l69">Au défaut de six pistoles,</l>
+            <l n="70" xml:id="l70">Choisissez donc sans façon</l>
+            <l n="71" xml:id="l71">D’avoir trente croquignoles,</l>
+            <l n="72" xml:id="l72">Ou douze coups de bâton.</l>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-32">
+            <speaker>Polichinelle</speaker>
+            <p>Si c’est une nécessité, et qu’il faille en passer par là, je choisis les croquignoles.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-33">
+            <speaker>Archers</speaker>
+            <l n="73" xml:id="l73">Allons, préparez-vous,</l>
+            <l n="74" xml:id="l74">Et comptez bien les coups.</l>
+          </sp>
+          <label>BALLET.</label>
+          <stage>Les Archers Danseurs lui donnent des croquignoles en cadence.</stage>
+          <sp who="polichinelle" xml:id="Ib03-34">
+            <speaker>Polichinelle</speaker>
+            <p>Un et deux. Trois et quatre. Cinq et six. Sept et huit. Neuf et dix. Onze et douze et treize, et quatorze et quinze.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-35">
+            <speaker>Archers</speaker>
+            <l n="75" xml:id="l75">Ah ! ah ! vous en voulez passer ;</l>
+            <l n="76" xml:id="l76">Allons, c’est à recommencer.</l>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-36">
+            <speaker>Polichinelle</speaker>
+            <p>Ah, Messieurs, ma pauvre tête n’en peut plus, et vous venez de me la rendre comme une pomme cuite. J’aime mieux encore les coups de bâtons que de recommencer.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-37">
+            <speaker>Archers</speaker>
+            <l n="77" xml:id="l77">Soit, puisque le bâton est pour vous plus charmant,</l>
+            <l n="78" xml:id="l78">Vous aurez contentement.</l>
+          </sp>
+          <label>BALLET.</label>
+          <stage>Les Archers Danseurs lui donnent des coups de bâtons en cadence.</stage>
+          <sp who="polichinelle" xml:id="Ib03-38">
+            <speaker>Polichinelle</speaker>
+            <p>Un, deux, trois, quatre, cinq, six, ah, ah, ah, je n’y saurais plus résister. Tenez, Messieurs, voilà six pistoles que je vous donne.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-39">
+            <speaker>Archers</speaker>
+            <l n="79" xml:id="l79">Ah l’honnête homme ! ah l’âme noble et belle !</l>
+            <l n="80" xml:id="l80">Adieu, Seigneur, adieu, Seigneur Polichinelle.</l>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-40">
+            <speaker>Polichinelle</speaker>
+            <p>Messieurs, je vous donne le bonsoir.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-41">
+            <speaker>Archers</speaker>
+            <l n="81" xml:id="l81">Adieu Seigneur, adieu, Seigneur Polichinelle.</l>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-42">
+            <speaker>Polichinelle</speaker>
+            <p>Votre Serviteur.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-43">
+            <speaker>Archers</speaker>
+            <l n="82" xml:id="l82">Adieu Seigneur, adieu, Seigneur Polichinelle.</l>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-44">
+            <speaker>Polichinelle</speaker>
+            <p>Très humble valet.</p>
+          </sp>
+          <sp who="archers" xml:id="Ib03-45">
+            <speaker>Archers</speaker>
+            <l n="83" xml:id="l83">Adieu Seigneur, adieu, Seigneur Polichinelle.</l>
+          </sp>
+          <sp who="polichinelle" xml:id="Ib03-46">
+            <speaker>Polichinelle</speaker>
+            <p>Jusqu’au revoir.</p>
+          </sp>
+          <label>BALLET.</label>
+          <stage>Ils dansent tous en réjouissance de l’argent qu’ils ont reçu.</stage>
+          <stage>Le Théâtre change, et représente encore une Chambre.</stage>
+        </div2>
       </div1>
       <div1 xml:id="II" type="act">
         <head>Acte Second</head>
@@ -2615,17 +2456,17 @@
             <speaker>Cléante <hi rend="i">sous le nom d’un Berger, explique à sa Maîtresse son amour depuis leur rencontre ; et ensuite ils s’expliquent leurs pensées l’un à l’autre en chantant</hi></speaker>
             <p>Voici le sujet de la Scène. Un Berger était attentif aux beautés d’un Spectacle qui ne faisait que de commencer, lorsqu’il fut tiré de son attention par un bruit qu’il entendit à ses côtés. Il se retourne, et voit un brutal, qui de paroles insolentes maltraitait une Bergère. D’abord il prend les intérêts d’un sexe à qui tous les hommes doivent hommage ; et après avoir donné au brutal le châtiment de son insolence, il vient à la Bergère, et voit une jeune personne qui des deux plus beaux yeux qu’il eût jamais vus, versait des larmes, qu’il trouva les plus belles du monde. Hélas ! dit-il en lui-même, est-on capable d’outrager une personne si aimable ? Et quel inhumain, quel barbare ne serait touché par de telles larmes ? Il prend soin de les arrêter, ces larmes qu’il trouve si belles, et l’aimable Bergère prend soin en même temps de le remercier de son léger service ; mais d’une manière si charmante, si tendre, et si passionnée que le Berger n’y peut résister : chaque mot, et chaque regard, est un trait plein de flamme, dont son cœur se sent pénétré. Est-il, disait-il, quelque chose qui puisse mériter les aimables paroles d’un tel remerciement ? Et que ne voudrait-on pas faire, à quels services, à quels dangers ne serait-on pas ravi de courir pour s’attirer un seul moment des touchantes douceurs d’une âme si reconnaissante ? Tout le Spectacle passe sans qu’il y donne aucune attention : mais il se plaint qu’il est trop court, parce qu’en finissant il le sépare de son adorable Bergère, et de cette première vue, de ce premier moment il emporte chez lui tout ce qu’un amour de plusieurs années peut avoir de plus violent. Le voilà aussitôt à sentir tous les maux de l’absence, et il est tourmenté de ne plus voir ce qu’il a si peu vu. Il fait tout ce qu’il peut pour se redonner cette vue, dont il conserve nuit et jour une si chère idée, mais la grande contrainte où l’on tient sa Bergère, lui en ôte tous les moiens. La violence de sa passion le fait résoudre à demander en Mariage l’adorable Beauté sans laquelle il ne peut plus vivre, et il en obtient d’elle la permission par un Billet qu’il a l’adresse de lui faire tenir. Mais dans le même temps on l’avertit que le Père de cette Belle a conclu son mariage avec un autre, et que tout se dispose pour en célébrer la Cérémonie. Jugez quelle atteinte cruelle au cœur de ce triste Berger. Le voilà accablé d’une mortelle douleur. Il ne peut souffrir l’effroyable Idée de voir tout ce qu’il aime entre les bras d’un autre, et son amour au désespoir lui fait trouver moien de s’introduire dans la maison de sa Bergère, pour apprendre ses sentiments, et savoir d’elle la Destinée à laquelle il doit se résoudre. Il y rencontre les apprêts de tout ce qu’il craint. Il y voit venir l’indigne Rival que le caprice d’un Père oppose aux tendresses de son amour. Il le voit Triomphant, ce Rival ridicule auprès de l’aimable Bergère, ainsi qu’auprès d’une Conquête qui lui est assurée, et cette vue le remplit d’une colère dont il a peine à se rendre le maître. Il jette de douloureux regards sur celle qu’il adore, et son respect, et la présence de son Père, l’empêchent de lui rien dire que des yeux : mais enfin, il force toute contrainte, et le transport de son amour l’oblige à lui parler ainsi.</p>
             <stage>Il chante.</stage>
-            <l rend="i" n="113" xml:id="l113">Belle Philis, c’est trop, c’est trop souffrir,</l>
-            <l rend="i" n="114" xml:id="l114">Rompons ce dur silence, et m’ouvrez vos pensées,</l>
-            <l rend="i" n="115" xml:id="l115">Apprenez-moi ma Destinée,</l>
-            <l rend="i" n="116" xml:id="l116">Faut-il vivre ? Faut-il mourir ?</l>
+            <l rend="i" n="84" xml:id="l84">Belle Philis, c’est trop, c’est trop souffrir,</l>
+            <l rend="i" n="85" xml:id="l85">Rompons ce dur silence, et m’ouvrez vos pensées,</l>
+            <l rend="i" n="86" xml:id="l86">Apprenez-moi ma Destinée,</l>
+            <l rend="i" n="87" xml:id="l87">Faut-il vivre ? Faut-il mourir ?</l>
           </sp>
           <sp who="angelique" xml:id="II05-69">
             <speaker>Angélique</speaker>
-            <l rend="i" n="117" xml:id="l117">Vous me voyez, Tircis, triste et mélancolique</l>
-            <l rend="i" n="118" xml:id="l118">Aux apprêts de l’Hymen, dont vous vous alarmez,</l>
-            <l rend="i" n="119" xml:id="l119">Je lève au Ciel les yeux, je vous regarde, je soupire,</l>
-            <l rend="i" n="120" xml:id="l120">C’est vous en dire assez.</l>
+            <l rend="i" n="88" xml:id="l88">Vous me voyez, Tircis, triste et mélancolique</l>
+            <l rend="i" n="89" xml:id="l89">Aux apprêts de l’Hymen, dont vous vous alarmez,</l>
+            <l rend="i" n="90" xml:id="l90">Je lève au Ciel les yeux, je vous regarde, je soupire,</l>
+            <l rend="i" n="91" xml:id="l91">C’est vous en dire assez.</l>
           </sp>
           <sp who="argan" xml:id="II05-70">
             <speaker>Argan</speaker>
@@ -2633,66 +2474,66 @@
           </sp>
           <sp who="cleante" xml:id="II05-71">
             <speaker>Cléante</speaker>
-            <l rend="i" n="121" xml:id="l121">Hélas ! belle Philis,</l>
-            <l rend="i" n="122" xml:id="l122">Se pourrait-il, que l’amoureux Tircis,</l>
-            <l rend="i" n="123" xml:id="l123">Eût assez de bonheur,</l>
-            <l rend="i" n="124" xml:id="l124">Pour avoir quelque place dans votre cœur ?</l>
+            <l rend="i" n="92" xml:id="l92">Hélas ! belle Philis,</l>
+            <l rend="i" n="93" xml:id="l93">Se pourrait-il, que l’amoureux Tircis,</l>
+            <l rend="i" n="94" xml:id="l94">Eût assez de bonheur,</l>
+            <l rend="i" n="95" xml:id="l95">Pour avoir quelque place dans votre cœur ?</l>
           </sp>
           <sp who="angelique" xml:id="II05-72">
             <speaker>Angélique</speaker>
-            <l rend="i" n="125" xml:id="l125">Je ne m’en défends point, dans cette peine extrême :</l>
-            <l rend="i" n="126" xml:id="l126">Oui, Tircis, je vous aime.</l>
+            <l rend="i" n="96" xml:id="l96">Je ne m’en défends point, dans cette peine extrême :</l>
+            <l rend="i" n="97" xml:id="l97">Oui, Tircis, je vous aime.</l>
           </sp>
           <sp who="cleante" xml:id="II05-73">
             <speaker>Cléante</speaker>
-            <l rend="i" n="127" xml:id="l127">Ô parole pleine d’appas !</l>
-            <l rend="i" n="128" xml:id="l128">Ai-je bien entendu ? hélas</l>
-            <l rend="i" n="129" xml:id="l129">Redites-la, Philis, que je n’en doute pas.</l>
+            <l rend="i" n="98" xml:id="l98">Ô parole pleine d’appas !</l>
+            <l rend="i" n="99" xml:id="l99">Ai-je bien entendu ? hélas</l>
+            <l rend="i" n="100" xml:id="l100">Redites-la, Philis, que je n’en doute pas.</l>
           </sp>
           <sp who="angelique" xml:id="II05-74">
             <speaker>Angélique</speaker>
-            <l rend="i" n="130" xml:id="l130">Oui, Tircis, je vous aime.</l>
+            <l rend="i" n="101" xml:id="l101">Oui, Tircis, je vous aime.</l>
           </sp>
           <sp who="cleante" xml:id="II05-75">
             <speaker>Cléante</speaker>
-            <l rend="i" n="131" xml:id="l131">De grâce encore, Philis.</l>
+            <l rend="i" n="102" xml:id="l102">De grâce encore, Philis.</l>
           </sp>
           <sp who="angelique" xml:id="II05-76">
             <speaker>Angélique</speaker>
-            <l rend="i" n="132" xml:id="l132">Je vous aime.</l>
+            <l rend="i" n="103" xml:id="l103">Je vous aime.</l>
           </sp>
           <sp who="cleante" xml:id="II05-77">
             <speaker>Cléante</speaker>
-            <l rend="i" n="133" xml:id="l133">Recommencez cent fois, ne vous en lassez pas.</l>
+            <l rend="i" n="104" xml:id="l104">Recommencez cent fois, ne vous en lassez pas.</l>
           </sp>
           <sp who="angelique" xml:id="II05-78">
             <speaker>Angélique</speaker>
-            <l rend="i" n="134" xml:id="l134">Je vous aime, je vous aime,</l>
-            <l rend="i" n="135" xml:id="l135">Oui, Tircis, je vous aime.</l>
+            <l rend="i" n="105" xml:id="l105">Je vous aime, je vous aime,</l>
+            <l rend="i" n="106" xml:id="l106">Oui, Tircis, je vous aime.</l>
           </sp>
           <sp who="cleante" xml:id="II05-79">
             <speaker>Cléante</speaker>
-            <l rend="i" n="136" xml:id="l136">Dieux, Rois, qui sous vos pieds regardez tout le monde,</l>
-            <l rend="i" n="137" xml:id="l137">Pouvez-vous comparer votre bonheur au mien ?</l>
-            <l rend="i" n="138" xml:id="l138">Mais, Philis, une pensée</l>
-            <l rend="i" n="139" xml:id="l139">Vient troubler ce doux transport,</l>
-            <l rend="i" n="140" xml:id="l140">Un Rival, un Rival…</l>
+            <l rend="i" n="107" xml:id="l107">Dieux, Rois, qui sous vos pieds regardez tout le monde,</l>
+            <l rend="i" n="108" xml:id="l108">Pouvez-vous comparer votre bonheur au mien ?</l>
+            <l rend="i" n="109" xml:id="l109">Mais, Philis, une pensée</l>
+            <l rend="i" n="110" xml:id="l110">Vient troubler ce doux transport,</l>
+            <l rend="i" n="111" xml:id="l111">Un Rival, un Rival…</l>
           </sp>
           <sp who="angelique" xml:id="II05-80">
             <speaker>Angélique</speaker>
-            <l rend="i" n="141" xml:id="l141">Ah ! je le hais plus que la mort,</l>
-            <l rend="i" n="142" xml:id="l142">Et sa présence ainsi qu’à vous</l>
-            <l rend="i" n="143" xml:id="l143">M’est un cruel supplice.</l>
+            <l rend="i" n="112" xml:id="l112">Ah ! je le hais plus que la mort,</l>
+            <l rend="i" n="113" xml:id="l113">Et sa présence ainsi qu’à vous</l>
+            <l rend="i" n="114" xml:id="l114">M’est un cruel supplice.</l>
           </sp>
           <sp who="cleante" xml:id="II05-81">
             <speaker>Cléante</speaker>
-            <l rend="i" n="144" xml:id="l144">Mais un Père à ses vœux vous veut assujettir.</l>
+            <l rend="i" n="115" xml:id="l115">Mais un Père à ses vœux vous veut assujettir.</l>
           </sp>
           <sp who="angelique" xml:id="II05-82">
             <speaker>Angélique</speaker>
-            <l rend="i" n="145" xml:id="l145">Plutôt, plutôt mourir,</l>
-            <l rend="i" n="146" xml:id="l146">Que de jamais y consentir,</l>
-            <l rend="i" n="147" xml:id="l147">Plutôt, plutôt mourir, plutôt mourir.</l>
+            <l rend="i" n="116" xml:id="l116">Plutôt, plutôt mourir,</l>
+            <l rend="i" n="117" xml:id="l117">Que de jamais y consentir,</l>
+            <l rend="i" n="118" xml:id="l118">Plutôt, plutôt mourir, plutôt mourir.</l>
           </sp>
           <sp who="argan" xml:id="II05-83">
             <speaker>Argan</speaker>
@@ -2708,7 +2549,7 @@
           </sp>
           <sp who="cleante" xml:id="II05-86">
             <speaker>Cléante</speaker>
-            <l rend="i" n="148" xml:id="l148">Ah ! mon amour…</l>
+            <l rend="i" n="119" xml:id="l119">Ah ! mon amour…</l>
           </sp>
           <sp who="argan" xml:id="II05-87">
             <speaker>Argan</speaker>
@@ -3357,98 +3198,98 @@
         <sp who="premiere-femme-maure" xml:id="IV-1">
           <speaker>Première femme maure</speaker>
           <lg>
-            <l n="149" xml:id="l149">Profitez du Printemps</l>
-            <l n="150" xml:id="l150">De vos beaux ans,</l>
-            <l n="151" xml:id="l151">Aimable jeunesse ;</l>
-            <l n="152" xml:id="l152">Profitez du Printemps</l>
-            <l n="153" xml:id="l153">De vos beaux ans,</l>
-            <l n="154" xml:id="l154">Donnez-vous à la tendresse.</l>
+            <l n="120" xml:id="l120">Profitez du Printemps</l>
+            <l n="121" xml:id="l121">De vos beaux ans,</l>
+            <l n="122" xml:id="l122">Aimable jeunesse ;</l>
+            <l n="123" xml:id="l123">Profitez du Printemps</l>
+            <l n="124" xml:id="l124">De vos beaux ans,</l>
+            <l n="125" xml:id="l125">Donnez-vous à la tendresse.</l>
           </lg>
           <lg>
-            <l n="155" xml:id="l155">Les plaisirs les plus charmants,</l>
-            <l n="156" xml:id="l156">Sans l’amoureuse flamme,</l>
-            <l n="157" xml:id="l157">Pour contenter une âme</l>
-            <l n="158" xml:id="l158">N’ont point d’attraits assez puissants.</l>
+            <l n="126" xml:id="l126">Les plaisirs les plus charmants,</l>
+            <l n="127" xml:id="l127">Sans l’amoureuse flamme,</l>
+            <l n="128" xml:id="l128">Pour contenter une âme</l>
+            <l n="129" xml:id="l129">N’ont point d’attraits assez puissants.</l>
           </lg>
           <lg>
-            <l n="159" xml:id="l159">Profitez du Printemps</l>
-            <l n="160" xml:id="l160">De vos beaux ans,</l>
-            <l n="161" xml:id="l161">Aimable jeunesse ;</l>
-            <l n="162" xml:id="l162">Profitez du Printemps</l>
-            <l n="163" xml:id="l163">De vos beaux ans,</l>
-            <l n="164" xml:id="l164">Donnez-vous à la tendresse.</l>
+            <l n="130" xml:id="l130">Profitez du Printemps</l>
+            <l n="131" xml:id="l131">De vos beaux ans,</l>
+            <l n="132" xml:id="l132">Aimable jeunesse ;</l>
+            <l n="133" xml:id="l133">Profitez du Printemps</l>
+            <l n="134" xml:id="l134">De vos beaux ans,</l>
+            <l n="135" xml:id="l135">Donnez-vous à la tendresse.</l>
           </lg>
           <lg>
-            <l n="165" xml:id="l165">Ne perdez point ces précieux moments;</l>
-            <l n="166" xml:id="l166">La beauté passe,</l>
-            <l n="167" xml:id="l167">Le temps l’efface,</l>
-            <l n="168" xml:id="l168">L’âge de glace</l>
-            <l n="169" xml:id="l169">Vient à sa place,</l>
-            <l n="170" xml:id="l170">Qui nous ôte le goût de ces doux passe-temps.</l>
+            <l n="136" xml:id="l136">Ne perdez point ces précieux moments;</l>
+            <l n="137" xml:id="l137">La beauté passe,</l>
+            <l n="138" xml:id="l138">Le temps l’efface,</l>
+            <l n="139" xml:id="l139">L’âge de glace</l>
+            <l n="140" xml:id="l140">Vient à sa place,</l>
+            <l n="141" xml:id="l141">Qui nous ôte le goût de ces doux passe-temps.</l>
           </lg>
           <lg>
-            <l n="171" xml:id="l171">Profitez du Printemps</l>
-            <l n="172" xml:id="l172">De vos beaux ans,</l>
-            <l n="173" xml:id="l173">Aimable jeunesse ;</l>
-            <l n="174" xml:id="l174">Profitez du Printemps,</l>
-            <l n="175" xml:id="l175">De vos beaux ans,</l>
-            <l n="176" xml:id="l176">Donnez-vous à la tendresse.</l>
+            <l n="142" xml:id="l142">Profitez du Printemps</l>
+            <l n="143" xml:id="l143">De vos beaux ans,</l>
+            <l n="144" xml:id="l144">Aimable jeunesse ;</l>
+            <l n="145" xml:id="l145">Profitez du Printemps,</l>
+            <l n="146" xml:id="l146">De vos beaux ans,</l>
+            <l n="147" xml:id="l147">Donnez-vous à la tendresse.</l>
           </lg>
         </sp>
         <sp who="seconde-femme-maure" xml:id="IV-2">
           <speaker>seconde femme maure</speaker>
-          <l n="177" xml:id="l177">Quand d’aimer on nous presse,</l>
-          <l n="178" xml:id="l178">À quoi songez-vous ?</l>
-          <l n="179" xml:id="l179">Nos cœurs dans la jeunesse</l>
-          <l n="180" xml:id="l180">N’ont vers la tendresse</l>
-          <l n="181" xml:id="l181">Qu’un penchant trop doux ;</l>
-          <l n="182" xml:id="l182">L’amour a pour nous prendre</l>
-          <l n="183" xml:id="l183">De si doux attraits,</l>
-          <l n="184" xml:id="l184">Que de soi, sans attendre,</l>
-          <l n="185" xml:id="l185">On voudrait se rendre</l>
-          <l n="186" xml:id="l186">À ses premiers traits :</l>
-          <l n="187" xml:id="l187">Mais tout ce qu’on écoute,</l>
-          <l n="188" xml:id="l188">Des vives douleurs</l>
-          <l n="189" xml:id="l189">Et des pleurs qu’il nous coûte,</l>
-          <l n="190" xml:id="l190">Fait qu’on en redoute</l>
-          <l n="191" xml:id="l191">Toutes les douceurs.</l>
+          <l n="148" xml:id="l148">Quand d’aimer on nous presse,</l>
+          <l n="149" xml:id="l149">À quoi songez-vous ?</l>
+          <l n="150" xml:id="l150">Nos cœurs dans la jeunesse</l>
+          <l n="151" xml:id="l151">N’ont vers la tendresse</l>
+          <l n="152" xml:id="l152">Qu’un penchant trop doux ;</l>
+          <l n="153" xml:id="l153">L’amour a pour nous prendre</l>
+          <l n="154" xml:id="l154">De si doux attraits,</l>
+          <l n="155" xml:id="l155">Que de soi, sans attendre,</l>
+          <l n="156" xml:id="l156">On voudrait se rendre</l>
+          <l n="157" xml:id="l157">À ses premiers traits :</l>
+          <l n="158" xml:id="l158">Mais tout ce qu’on écoute,</l>
+          <l n="159" xml:id="l159">Des vives douleurs</l>
+          <l n="160" xml:id="l160">Et des pleurs qu’il nous coûte,</l>
+          <l n="161" xml:id="l161">Fait qu’on en redoute</l>
+          <l n="162" xml:id="l162">Toutes les douceurs.</l>
         </sp>
         <sp who="troisieme-femme-maure" xml:id="IV-3">
           <speaker>Troisième femme maure</speaker>
-          <l n="192" xml:id="l192">Il est doux à notre âge</l>
-          <l n="193" xml:id="l193">D’aimer tendrement</l>
-          <l n="194" xml:id="l194">Un Amant</l>
-          <l n="195" xml:id="l195">Qui s’engage :</l>
-          <l n="196" xml:id="l196">Mais s’il est volage</l>
-          <l n="197" xml:id="l197">Hélas ! quel tourment ?</l>
+          <l n="163" xml:id="l163">Il est doux à notre âge</l>
+          <l n="164" xml:id="l164">D’aimer tendrement</l>
+          <l n="165" xml:id="l165">Un Amant</l>
+          <l n="166" xml:id="l166">Qui s’engage :</l>
+          <l n="167" xml:id="l167">Mais s’il est volage</l>
+          <l n="168" xml:id="l168">Hélas ! quel tourment ?</l>
         </sp>
         <sp who="quatrieme-femme-maure" xml:id="IV-4">
           <speaker>quatrième femme maure</speaker>
-          <l n="198" xml:id="l198">L’Amant qui se dégage</l>
-          <l n="199" xml:id="l199">N’est pas le malheur,</l>
-          <l n="200" xml:id="l200">La douleur</l>
-          <l n="201" xml:id="l201">Et la rage ;</l>
-          <l n="202" xml:id="l202">C’est que le volage</l>
-          <l n="203" xml:id="l203">Garde notre cœur.</l>
+          <l n="169" xml:id="l169">L’Amant qui se dégage</l>
+          <l n="170" xml:id="l170">N’est pas le malheur,</l>
+          <l n="171" xml:id="l171">La douleur</l>
+          <l n="172" xml:id="l172">Et la rage ;</l>
+          <l n="173" xml:id="l173">C’est que le volage</l>
+          <l n="174" xml:id="l174">Garde notre cœur.</l>
         </sp>
         <sp who="seconde-femme-maure" xml:id="IV-5">
           <speaker>seconde femme maure</speaker>
-          <l n="204" xml:id="l204">Quel parti faut-il prendre</l>
-          <l n="205" xml:id="l205">Pour nos jeunes cœurs ?</l>
+          <l n="175" xml:id="l175">Quel parti faut-il prendre</l>
+          <l n="176" xml:id="l176">Pour nos jeunes cœurs ?</l>
         </sp>
         <sp who="quatrieme-femme-maure" xml:id="IV-6">
           <speaker>quatriéme femme maure</speaker>
-          <l n="206" xml:id="l206">Devons-nous nous y rendre</l>
-          <l n="207" xml:id="l207">Malgré ses rigueurs ?</l>
+          <l n="177" xml:id="l177">Devons-nous nous y rendre</l>
+          <l n="178" xml:id="l178">Malgré ses rigueurs ?</l>
         </sp>
         <sp who="premiere-femme-maure seconde-femme-maure troisieme-femme-maure quatrieme-femme-maure" xml:id="IV-7">
           <speaker>ensemble</speaker>
-          <l n="208" xml:id="l208">Oui, suivons ses ardeurs,</l>
-          <l n="209" xml:id="l209">Ses transports, ses caprices,</l>
-          <l n="210" xml:id="l210">Ses douces langueurs ;</l>
-          <l n="211" xml:id="l211">S’il a quelques supplices,</l>
-          <l n="212" xml:id="l212">Il a cent délices</l>
-          <l n="213" xml:id="l213">Qui charment les cœurs.</l>
+          <l n="179" xml:id="l179">Oui, suivons ses ardeurs,</l>
+          <l n="180" xml:id="l180">Ses transports, ses caprices,</l>
+          <l n="181" xml:id="l181">Ses douces langueurs ;</l>
+          <l n="182" xml:id="l182">S’il a quelques supplices,</l>
+          <l n="183" xml:id="l183">Il a cent délices</l>
+          <l n="184" xml:id="l184">Qui charment les cœurs.</l>
         </sp>
         <label>ENTRÉE DE BALLET.</label>
         <stage>Tous les Maures dansent ensemble, et font sauter des Singes qu’ils ont amenés avec eux.</stage>
@@ -4586,300 +4427,300 @@
         <sp who="praeses" xml:id="VI-1">
           <speaker>Praeses</speaker>
           <lg>
-            <l n="214" xml:id="l214">Savantissimi Doctores,</l>
-            <l n="215" xml:id="l215">Medicinæ Professores,</l>
-            <l n="216" xml:id="l216">Qui hic assemblati estis ;</l>
-            <l n="217" xml:id="l217">Et vos altri Messiores,</l>
-            <l n="218" xml:id="l218">Sententiarum Facultatis</l>
-            <l n="219" xml:id="l219">Fideles executores,</l>
-            <l n="220" xml:id="l220">Chirurgiani et Apothicari,</l>
-            <l n="221" xml:id="l221">Atque tota Compania aussi,</l>
-            <l n="222" xml:id="l222">Salus, honor, et argentum,</l>
-            <l n="223" xml:id="l223">Atque bonum appetitum.</l>
+            <l n="185" xml:id="l185">Savantissimi Doctores,</l>
+            <l n="186" xml:id="l186">Medicinæ Professores,</l>
+            <l n="187" xml:id="l187">Qui hic assemblati estis ;</l>
+            <l n="188" xml:id="l188">Et vos altri Messiores,</l>
+            <l n="189" xml:id="l189">Sententiarum Facultatis</l>
+            <l n="190" xml:id="l190">Fideles executores,</l>
+            <l n="191" xml:id="l191">Chirurgiani et Apothicari,</l>
+            <l n="192" xml:id="l192">Atque tota Compania aussi,</l>
+            <l n="193" xml:id="l193">Salus, honor, et argentum,</l>
+            <l n="194" xml:id="l194">Atque bonum appetitum.</l>
           </lg>
           <lg>
-            <l n="224" xml:id="l224">Non possum Docti confréri,</l>
-            <l n="225" xml:id="l225">En moi satis admirari,</l>
-            <l n="226" xml:id="l226">Qualis bona inventio,</l>
-            <l n="227" xml:id="l227">Est Medici professio :</l>
-            <l n="228" xml:id="l228">Quam bella chosa est et bene trovata,</l>
-            <l n="229" xml:id="l229">Medicina illa benedicta,</l>
-            <l n="230" xml:id="l230">Quæ suo nomine solo</l>
-            <l n="231" xml:id="l231">Surprenanti miraculo,</l>
-            <l n="232" xml:id="l232">Depuis si longo tempore</l>
-            <l n="233" xml:id="l233">Facit à gogo vivere</l>
-            <l n="234" xml:id="l234">Tant de gens omni genere.</l>
+            <l n="195" xml:id="l195">Non possum Docti confréri,</l>
+            <l n="196" xml:id="l196">En moi satis admirari,</l>
+            <l n="197" xml:id="l197">Qualis bona inventio,</l>
+            <l n="198" xml:id="l198">Est Medici professio :</l>
+            <l n="199" xml:id="l199">Quam bella chosa est et bene trovata,</l>
+            <l n="200" xml:id="l200">Medicina illa benedicta,</l>
+            <l n="201" xml:id="l201">Quæ suo nomine solo</l>
+            <l n="202" xml:id="l202">Surprenanti miraculo,</l>
+            <l n="203" xml:id="l203">Depuis si longo tempore</l>
+            <l n="204" xml:id="l204">Facit à gogo vivere</l>
+            <l n="205" xml:id="l205">Tant de gens omni genere.</l>
           </lg>
           <lg>
-            <l n="235" xml:id="l235">Per totam terram videmus</l>
-            <l n="236" xml:id="l236">Grandam vogam ubi sumus ;</l>
-            <l n="237" xml:id="l237">Et quod grandes et petiti</l>
-            <l n="238" xml:id="l238">Sunt de nobis infatuti :</l>
-            <l n="239" xml:id="l239">Totus mundus currens ad nostros remedios,</l>
-            <l n="240" xml:id="l240">Nos regardat sicut Deos,</l>
-            <l n="241" xml:id="l241">Et nostris Ordonnanciis</l>
-            <l n="242" xml:id="l242">Principes et Reges soumissos videtis.</l>
+            <l n="206" xml:id="l206">Per totam terram videmus</l>
+            <l n="207" xml:id="l207">Grandam vogam ubi sumus ;</l>
+            <l n="208" xml:id="l208">Et quod grandes et petiti</l>
+            <l n="209" xml:id="l209">Sunt de nobis infatuti :</l>
+            <l n="210" xml:id="l210">Totus mundus currens ad nostros remedios,</l>
+            <l n="211" xml:id="l211">Nos regardat sicut Deos,</l>
+            <l n="212" xml:id="l212">Et nostris Ordonnanciis</l>
+            <l n="213" xml:id="l213">Principes et Reges soumissos videtis.</l>
           </lg>
           <lg>
-            <l n="243" xml:id="l243">Donque il est nostræ sapientiæ,</l>
-            <l n="244" xml:id="l244">Boni sensus atque prudentiæ,</l>
-            <l n="245" xml:id="l245">De fortement travaillare,</l>
-            <l n="246" xml:id="l246">A nos bene conservare</l>
-            <l n="247" xml:id="l247">In tali credito, voga, et honore ;</l>
-            <l n="248" xml:id="l248">Et prandere gardam à non recevere</l>
-            <l n="249" xml:id="l249">In nostro docto corpore</l>
-            <l n="250" xml:id="l250">Quam personas capabiles,</l>
-            <l n="251" xml:id="l251">Et totas dignas ramplire</l>
-            <l n="252" xml:id="l252">Has plaças honorabiles.</l>
+            <l n="214" xml:id="l214">Donque il est nostræ sapientiæ,</l>
+            <l n="215" xml:id="l215">Boni sensus atque prudentiæ,</l>
+            <l n="216" xml:id="l216">De fortement travaillare,</l>
+            <l n="217" xml:id="l217">A nos bene conservare</l>
+            <l n="218" xml:id="l218">In tali credito, voga, et honore ;</l>
+            <l n="219" xml:id="l219">Et prandere gardam à non recevere</l>
+            <l n="220" xml:id="l220">In nostro docto corpore</l>
+            <l n="221" xml:id="l221">Quam personas capabiles,</l>
+            <l n="222" xml:id="l222">Et totas dignas ramplire</l>
+            <l n="223" xml:id="l223">Has plaças honorabiles.</l>
           </lg>
           <lg>
-            <l n="253" xml:id="l253">C’est pour cela que nunc convocati estis,</l>
-            <l n="254" xml:id="l254">Et credo quod trovabitis</l>
-            <l n="255" xml:id="l255">Dignam matieram medici,</l>
-            <l n="256" xml:id="l256">In savanti homine que voici :</l>
-            <l n="257" xml:id="l257">Lequel in chosis omnibus</l>
-            <l n="258" xml:id="l258">Dono ad interrogandum,</l>
-            <l n="259" xml:id="l259">Et à fond examinandum</l>
-            <l n="260" xml:id="l260">Vostris capacitatibus.</l>
+            <l n="224" xml:id="l224">C’est pour cela que nunc convocati estis,</l>
+            <l n="225" xml:id="l225">Et credo quod trovabitis</l>
+            <l n="226" xml:id="l226">Dignam matieram medici,</l>
+            <l n="227" xml:id="l227">In savanti homine que voici :</l>
+            <l n="228" xml:id="l228">Lequel in chosis omnibus</l>
+            <l n="229" xml:id="l229">Dono ad interrogandum,</l>
+            <l n="230" xml:id="l230">Et à fond examinandum</l>
+            <l n="231" xml:id="l231">Vostris capacitatibus.</l>
           </lg>
         </sp>
         <sp who="primus-doctor" xml:id="VI-2">
           <speaker>Primus doctor</speaker>
-          <l n="261" xml:id="l261">Si mihi licenciam dat Dominus Præses,</l>
-          <l n="262" xml:id="l262">Et tanti docti Doctores,</l>
-          <l n="263" xml:id="l263">Et assistantes illustres,</l>
-          <l n="264" xml:id="l264">Très savanti Bacheliero</l>
-          <l n="265" xml:id="l265">Quem estimo et honoro,</l>
-          <l n="266" xml:id="l266">Domandabo causam et rationem, quare</l>
-          <l n="267" xml:id="l267">Opium facit dormire ?</l>
+          <l n="232" xml:id="l232">Si mihi licenciam dat Dominus Præses,</l>
+          <l n="233" xml:id="l233">Et tanti docti Doctores,</l>
+          <l n="234" xml:id="l234">Et assistantes illustres,</l>
+          <l n="235" xml:id="l235">Très savanti Bacheliero</l>
+          <l n="236" xml:id="l236">Quem estimo et honoro,</l>
+          <l n="237" xml:id="l237">Domandabo causam et rationem, quare</l>
+          <l n="238" xml:id="l238">Opium facit dormire ?</l>
         </sp>
         <sp who="bachelierus" xml:id="VI-3">
           <speaker>Bachelierus</speaker>
-          <l n="268" xml:id="l268">Mihi à docto Doctore</l>
-          <l n="269" xml:id="l269">Domandatur causam et rationem, quare</l>
-          <l n="270" xml:id="l270">Opium facit dormire ?</l>
-          <l n="271" xml:id="l271">A quoi respondeo,</l>
-          <l n="272" xml:id="l272">Quia est in eo</l>
-          <l n="273" xml:id="l273">Virtus dormitiva.</l>
-          <l n="274" xml:id="l274">Cujus es natura</l>
-          <l n="275" xml:id="l275">Sensus assoupire.</l>
+          <l n="239" xml:id="l239">Mihi à docto Doctore</l>
+          <l n="240" xml:id="l240">Domandatur causam et rationem, quare</l>
+          <l n="241" xml:id="l241">Opium facit dormire ?</l>
+          <l n="242" xml:id="l242">A quoi respondeo,</l>
+          <l n="243" xml:id="l243">Quia est in eo</l>
+          <l n="244" xml:id="l244">Virtus dormitiva.</l>
+          <l n="245" xml:id="l245">Cujus es natura</l>
+          <l n="246" xml:id="l246">Sensus assoupire.</l>
         </sp>
         <sp who="chorus" xml:id="VI-4">
           <speaker>Chorus</speaker>
-          <l n="276" xml:id="l276">Bene, bene, bene, bene respondere</l>
-          <l n="277" xml:id="l277">Dignus, dignus est entrare</l>
-          <l n="278" xml:id="l278">In nostro docto corpore.</l>
-          <l n="279" xml:id="l279">Bene, bene respondere.</l>
+          <l n="247" xml:id="l247">Bene, bene, bene, bene respondere</l>
+          <l n="248" xml:id="l248">Dignus, dignus est entrare</l>
+          <l n="249" xml:id="l249">In nostro docto corpore.</l>
+          <l n="250" xml:id="l250">Bene, bene respondere.</l>
         </sp>
         <sp who="secundus-doctor" xml:id="VI-5">
           <speaker>secundus doctor</speaker>
-          <l n="280" xml:id="l280">Cum permissione Domini Præsidis,</l>
-          <l n="281" xml:id="l281">Doctissimæ facultatis,</l>
-          <l n="282" xml:id="l282">Et totius his nostris actis</l>
-          <l n="283" xml:id="l283">Compania assistantis,</l>
-          <l n="284" xml:id="l284">Domandabo tibi, docte Bacheliere,</l>
-          <l n="285" xml:id="l285">Quæ sunt remedia,</l>
-          <l n="286" xml:id="l286">Quæ in maladia</l>
-          <l n="287" xml:id="l287">Dicta hidropisia</l>
-          <l n="288" xml:id="l288">Convenit facere.</l>
+          <l n="251" xml:id="l251">Cum permissione Domini Præsidis,</l>
+          <l n="252" xml:id="l252">Doctissimæ facultatis,</l>
+          <l n="253" xml:id="l253">Et totius his nostris actis</l>
+          <l n="254" xml:id="l254">Compania assistantis,</l>
+          <l n="255" xml:id="l255">Domandabo tibi, docte Bacheliere,</l>
+          <l n="256" xml:id="l256">Quæ sunt remedia,</l>
+          <l n="257" xml:id="l257">Quæ in maladia</l>
+          <l n="258" xml:id="l258">Dicta hidropisia</l>
+          <l n="259" xml:id="l259">Convenit facere.</l>
         </sp>
         <sp who="bachelierus" xml:id="VI-6">
           <speaker>Bachelierus</speaker>
-          <l n="289" xml:id="l289">Clisterium donare,</l>
-          <l n="290" xml:id="l290">Postea seignare,</l>
-          <l n="291" xml:id="l291">Ensuitta purgare.</l>
+          <l n="260" xml:id="l260">Clisterium donare,</l>
+          <l n="261" xml:id="l261">Postea seignare,</l>
+          <l n="262" xml:id="l262">Ensuitta purgare.</l>
         </sp>
         <sp who="chorus" xml:id="VI-7">
           <speaker>Chorus</speaker>
-          <l n="292" xml:id="l292">Bene, bene, bene, bene respondere</l>
-          <l n="293" xml:id="l293">Dignus, dignus est entrare</l>
-          <l n="294" xml:id="l294">In nostro docto corpore.</l>
+          <l n="263" xml:id="l263">Bene, bene, bene, bene respondere</l>
+          <l n="264" xml:id="l264">Dignus, dignus est entrare</l>
+          <l n="265" xml:id="l265">In nostro docto corpore.</l>
         </sp>
         <sp who="tertius-doctor" xml:id="VI-8">
           <speaker>Tertius doctor</speaker>
-          <l n="295" xml:id="l295">Si bonum semblatur Domino Præsidi,</l>
-          <l n="296" xml:id="l296">Doctissimæ facultati</l>
-          <l n="297" xml:id="l297">Et Companiæ præsenti,</l>
-          <l n="298" xml:id="l298">Domandabo tibi, docte Bacheliere,</l>
-          <l n="299" xml:id="l299">Quæ remedia Eticis,</l>
-          <l n="300" xml:id="l300">Pulmonicis atque Asmaticis</l>
-          <l n="301" xml:id="l301">Trovas à propos facere.</l>
+          <l n="266" xml:id="l266">Si bonum semblatur Domino Præsidi,</l>
+          <l n="267" xml:id="l267">Doctissimæ facultati</l>
+          <l n="268" xml:id="l268">Et Companiæ præsenti,</l>
+          <l n="269" xml:id="l269">Domandabo tibi, docte Bacheliere,</l>
+          <l n="270" xml:id="l270">Quæ remedia Eticis,</l>
+          <l n="271" xml:id="l271">Pulmonicis atque Asmaticis</l>
+          <l n="272" xml:id="l272">Trovas à propos facere.</l>
         </sp>
         <sp who="bachelierus" xml:id="VI-9">
           <speaker>Bachelierus</speaker>
-          <l n="302" xml:id="l302">Clisterium donare,</l>
-          <l n="303" xml:id="l303">Postea seignare,</l>
-          <l n="304" xml:id="l304">Ensuitta purgare.</l>
+          <l n="273" xml:id="l273">Clisterium donare,</l>
+          <l n="274" xml:id="l274">Postea seignare,</l>
+          <l n="275" xml:id="l275">Ensuitta purgare.</l>
         </sp>
         <sp who="chorus" xml:id="VI-10">
           <speaker>Chorus</speaker>
-          <l n="305" xml:id="l305">Bene, bene, bene, bene respondere:</l>
-          <l n="306" xml:id="l306">Dignus, dignus est entrare</l>
-          <l n="307" xml:id="l307">In nostro docto corpore.</l>
+          <l n="276" xml:id="l276">Bene, bene, bene, bene respondere:</l>
+          <l n="277" xml:id="l277">Dignus, dignus est entrare</l>
+          <l n="278" xml:id="l278">In nostro docto corpore.</l>
         </sp>
         <sp who="quartus-doctor" xml:id="VI-11">
           <speaker>quartus doctor</speaker>
-          <l n="308" xml:id="l308">Super illas maladias,</l>
-          <l n="309" xml:id="l309">Doctus Bachelierus dixit maravillas :</l>
-          <l n="310" xml:id="l310">Mais si non ennuyo Dominum Præsidem,</l>
-          <l n="311" xml:id="l311">Doctissimam Facultatem,</l>
-          <l n="312" xml:id="l312">Et totam honorabilem</l>
-          <l n="313" xml:id="l313">Companiam écoutantem ;</l>
-          <l n="314" xml:id="l314">Faciam illi unam questionem,</l>
-          <l n="315" xml:id="l315">De hiero maladus unus</l>
-          <l n="316" xml:id="l316">Tombavit in meas manus :</l>
-          <l n="317" xml:id="l317">Habet grandam fiévram cum redoublamentis</l>
-          <l n="318" xml:id="l318">Grandam dolorem capitis,</l>
-          <l n="319" xml:id="l319">Et grandum malum au côté,</l>
-          <l n="320" xml:id="l320">Cum granda difficultaté</l>
-          <l n="321" xml:id="l321">Et pena respirare :</l>
-          <l n="322" xml:id="l322">Veillas mihi dire,</l>
-          <l n="323" xml:id="l323">Docte Bacheliere,</l>
-          <l n="324" xml:id="l324">Quid illi facere.</l>
+          <l n="279" xml:id="l279">Super illas maladias,</l>
+          <l n="280" xml:id="l280">Doctus Bachelierus dixit maravillas :</l>
+          <l n="281" xml:id="l281">Mais si non ennuyo Dominum Præsidem,</l>
+          <l n="282" xml:id="l282">Doctissimam Facultatem,</l>
+          <l n="283" xml:id="l283">Et totam honorabilem</l>
+          <l n="284" xml:id="l284">Companiam écoutantem ;</l>
+          <l n="285" xml:id="l285">Faciam illi unam questionem,</l>
+          <l n="286" xml:id="l286">De hiero maladus unus</l>
+          <l n="287" xml:id="l287">Tombavit in meas manus :</l>
+          <l n="288" xml:id="l288">Habet grandam fiévram cum redoublamentis</l>
+          <l n="289" xml:id="l289">Grandam dolorem capitis,</l>
+          <l n="290" xml:id="l290">Et grandum malum au côté,</l>
+          <l n="291" xml:id="l291">Cum granda difficultaté</l>
+          <l n="292" xml:id="l292">Et pena respirare :</l>
+          <l n="293" xml:id="l293">Veillas mihi dire,</l>
+          <l n="294" xml:id="l294">Docte Bacheliere,</l>
+          <l n="295" xml:id="l295">Quid illi facere.</l>
         </sp>
         <sp who="bachelierus" xml:id="VI-12">
           <speaker>Bachelierus</speaker>
-          <l n="325" xml:id="l325">Clisterium donare,</l>
-          <l n="326" xml:id="l326">Postea seignare,</l>
-          <l n="327" xml:id="l327">Ensuitta purgare.</l>
+          <l n="296" xml:id="l296">Clisterium donare,</l>
+          <l n="297" xml:id="l297">Postea seignare,</l>
+          <l n="298" xml:id="l298">Ensuitta purgare.</l>
         </sp>
         <sp who="quintus-doctor" xml:id="VI-13">
           <speaker>quintus doctor</speaker>
-          <l n="328" xml:id="l328">Mais si maladia</l>
-          <l n="329" xml:id="l329">Opiniatria,</l>
-          <l n="330" xml:id="l330">Non vult se garire,</l>
-          <l n="331" xml:id="l331">Quid illi facere ?</l>
+          <l n="299" xml:id="l299">Mais si maladia</l>
+          <l n="300" xml:id="l300">Opiniatria,</l>
+          <l n="301" xml:id="l301">Non vult se garire,</l>
+          <l n="302" xml:id="l302">Quid illi facere ?</l>
         </sp>
         <sp who="bachelierus" xml:id="VI-14">
           <speaker>Bachelierus</speaker>
-          <l n="332" xml:id="l332">Clisterium donare,</l>
-          <l n="333" xml:id="l333">Postea seignare,</l>
-          <l n="334" xml:id="l334">Ensuitta purgare.</l>
+          <l n="303" xml:id="l303">Clisterium donare,</l>
+          <l n="304" xml:id="l304">Postea seignare,</l>
+          <l n="305" xml:id="l305">Ensuitta purgare.</l>
         </sp>
         <sp who="chorus" xml:id="VI-15">
           <speaker>Chorus</speaker>
-          <l n="335" xml:id="l335">Bene, bene, bene, bene respondere :</l>
-          <l n="336" xml:id="l336">Dignus, dignus est entrare</l>
-          <l n="337" xml:id="l337">In nostro docto corpore.</l>
+          <l n="306" xml:id="l306">Bene, bene, bene, bene respondere :</l>
+          <l n="307" xml:id="l307">Dignus, dignus est entrare</l>
+          <l n="308" xml:id="l308">In nostro docto corpore.</l>
         </sp>
         <sp who="praeses" xml:id="VI-16">
           <speaker>Praeses</speaker>
-          <l n="338" xml:id="l338">Juras gardare statuta</l>
-          <l n="339" xml:id="l339">Per Facultatem præscripta,</l>
-          <l n="340" xml:id="l340">Cum sensu et jugeamento ?</l>
+          <l n="309" xml:id="l309">Juras gardare statuta</l>
+          <l n="310" xml:id="l310">Per Facultatem præscripta,</l>
+          <l n="311" xml:id="l311">Cum sensu et jugeamento ?</l>
         </sp>
         <sp who="bachelierus" xml:id="VI-17">
           <speaker>Bachelierus</speaker>
-          <l n="341" xml:id="l341">Juro.</l>
+          <l n="312" xml:id="l312">Juro.</l>
         </sp>
         <sp who="praeses" xml:id="VI-18">
           <speaker>Praeses</speaker>
-          <l n="342" xml:id="l342">Essere in omnibus</l>
-          <l n="343" xml:id="l343">Consultationibus</l>
-          <l n="344" xml:id="l344">Ancieni aviso ;</l>
-          <l n="345" xml:id="l345">Aut bono,</l>
-          <l n="346" xml:id="l346">Aut mauvaiso ?</l>
+          <l n="313" xml:id="l313">Essere in omnibus</l>
+          <l n="314" xml:id="l314">Consultationibus</l>
+          <l n="315" xml:id="l315">Ancieni aviso ;</l>
+          <l n="316" xml:id="l316">Aut bono,</l>
+          <l n="317" xml:id="l317">Aut mauvaiso ?</l>
         </sp>
         <sp who="bachelierus" xml:id="VI-19">
           <speaker>Bachelierus</speaker>
-          <l n="347" xml:id="l347">Juro.</l>
+          <l n="318" xml:id="l318">Juro.</l>
         </sp>
         <sp who="praeses" xml:id="VI-20">
           <speaker>Praeses</speaker>
-          <l n="348" xml:id="l348">De non jamais te servire</l>
-          <l n="349" xml:id="l349">De remediis aucunis,</l>
-          <l n="350" xml:id="l350">Quam de ceux seulement doctæ facultatis ;</l>
-          <l n="351" xml:id="l351">Maladus dût-il crevare</l>
-          <l n="352" xml:id="l352">Et mori de suo malo ?</l>
+          <l n="319" xml:id="l319">De non jamais te servire</l>
+          <l n="320" xml:id="l320">De remediis aucunis,</l>
+          <l n="321" xml:id="l321">Quam de ceux seulement doctæ facultatis ;</l>
+          <l n="322" xml:id="l322">Maladus dût-il crevare</l>
+          <l n="323" xml:id="l323">Et mori de suo malo ?</l>
         </sp>
         <sp who="bachelierus" xml:id="VI-21">
           <speaker>Bachelierus</speaker>
-          <l n="353" xml:id="l353">Juro.</l>
+          <l n="324" xml:id="l324">Juro.</l>
         </sp>
         <sp who="praeses" xml:id="VI-22">
           <speaker>Praeses</speaker>
-          <l n="354" xml:id="l354">Ego cum isto boneto</l>
-          <l n="355" xml:id="l355">Venerabili et docto,</l>
-          <l n="356" xml:id="l356">Dono tibi et concedo</l>
-          <l n="357" xml:id="l357">Virtutem et puissanciam,</l>
-          <l n="358" xml:id="l358">Medicandi,</l>
-          <l n="359" xml:id="l359">Purgandi,</l>
-          <l n="360" xml:id="l360">Seignandi,</l>
-          <l n="361" xml:id="l361">Perçandi,</l>
-          <l n="362" xml:id="l362">Taillandi,</l>
-          <l n="363" xml:id="l363">Coupandi,</l>
-          <l n="364" xml:id="l364">Et occidendi</l>
-          <l n="365" xml:id="l365">Impune per totam terram.</l>
+          <l n="325" xml:id="l325">Ego cum isto boneto</l>
+          <l n="326" xml:id="l326">Venerabili et docto,</l>
+          <l n="327" xml:id="l327">Dono tibi et concedo</l>
+          <l n="328" xml:id="l328">Virtutem et puissanciam,</l>
+          <l n="329" xml:id="l329">Medicandi,</l>
+          <l n="330" xml:id="l330">Purgandi,</l>
+          <l n="331" xml:id="l331">Seignandi,</l>
+          <l n="332" xml:id="l332">Perçandi,</l>
+          <l n="333" xml:id="l333">Taillandi,</l>
+          <l n="334" xml:id="l334">Coupandi,</l>
+          <l n="335" xml:id="l335">Et occidendi</l>
+          <l n="336" xml:id="l336">Impune per totam terram.</l>
         </sp>
         <label>ENTRÉE DE BALLET.</label>
         <stage>Tous les Chirurgiens et Apothicaires viennent lui faire la révérence en cadence.</stage>
         <sp who="bachelierus" xml:id="VI-23">
           <speaker>Bachelierus</speaker>
-          <l n="366" xml:id="l366">Grandes Doctores doctrinæ,</l>
-          <l n="367" xml:id="l367">De la Rhubarbe et du Sené :</l>
-          <l n="368" xml:id="l368">Ce serait sans douta à moy chosa folla,</l>
-          <l n="369" xml:id="l369">Inepta et ridicula,</l>
-          <l n="370" xml:id="l370">Si j’alloibam m’engageare</l>
-          <l n="371" xml:id="l371">Vobis louangeas donare,</l>
-          <l n="372" xml:id="l372">Et entreprenoibam adjoutare</l>
-          <l n="373" xml:id="l373">Des lumieras au Soleillo,</l>
-          <l n="374" xml:id="l374">Et des Etoilas au Cielo,</l>
-          <l n="375" xml:id="l375">Des Ondas à l’Oceano ;</l>
-          <l n="376" xml:id="l376">Et des Rosas au Printanno ;</l>
-          <l n="377" xml:id="l377">Agreate qu’avec uno moto</l>
-          <l n="378" xml:id="l378">Pro toto remercimento</l>
-          <l n="379" xml:id="l379">Rendam gratiam corpori tam docto,</l>
-          <l n="380" xml:id="l380">Vobis, vobis debeo</l>
-          <l n="381" xml:id="l381">Bien plus qu’à naturæ, et qu’à patri meo,</l>
-          <l n="382" xml:id="l382">Natura et pater meus</l>
-          <l n="383" xml:id="l383">Hominem me habent factum :</l>
-          <l n="384" xml:id="l384">Mais vos me, ce qui est bien plus,</l>
-          <l n="385" xml:id="l385">Avetis factum Medicum,</l>
-          <l n="386" xml:id="l386">Honor, favor, et gratia,</l>
-          <l n="387" xml:id="l387">Qui in hoc corde que voilà,</l>
-          <l n="388" xml:id="l388">Imprimant ressentimenta</l>
-          <l n="389" xml:id="l389">Qui dureront in secula.</l>
+          <l n="337" xml:id="l337">Grandes Doctores doctrinæ,</l>
+          <l n="338" xml:id="l338">De la Rhubarbe et du Sené :</l>
+          <l n="339" xml:id="l339">Ce serait sans douta à moy chosa folla,</l>
+          <l n="340" xml:id="l340">Inepta et ridicula,</l>
+          <l n="341" xml:id="l341">Si j’alloibam m’engageare</l>
+          <l n="342" xml:id="l342">Vobis louangeas donare,</l>
+          <l n="343" xml:id="l343">Et entreprenoibam adjoutare</l>
+          <l n="344" xml:id="l344">Des lumieras au Soleillo,</l>
+          <l n="345" xml:id="l345">Et des Etoilas au Cielo,</l>
+          <l n="346" xml:id="l346">Des Ondas à l’Oceano ;</l>
+          <l n="347" xml:id="l347">Et des Rosas au Printanno ;</l>
+          <l n="348" xml:id="l348">Agreate qu’avec uno moto</l>
+          <l n="349" xml:id="l349">Pro toto remercimento</l>
+          <l n="350" xml:id="l350">Rendam gratiam corpori tam docto,</l>
+          <l n="351" xml:id="l351">Vobis, vobis debeo</l>
+          <l n="352" xml:id="l352">Bien plus qu’à naturæ, et qu’à patri meo,</l>
+          <l n="353" xml:id="l353">Natura et pater meus</l>
+          <l n="354" xml:id="l354">Hominem me habent factum :</l>
+          <l n="355" xml:id="l355">Mais vos me, ce qui est bien plus,</l>
+          <l n="356" xml:id="l356">Avetis factum Medicum,</l>
+          <l n="357" xml:id="l357">Honor, favor, et gratia,</l>
+          <l n="358" xml:id="l358">Qui in hoc corde que voilà,</l>
+          <l n="359" xml:id="l359">Imprimant ressentimenta</l>
+          <l n="360" xml:id="l360">Qui dureront in secula.</l>
         </sp>
         <sp who="chorus" xml:id="VI-24">
           <speaker>Chorus</speaker>
-          <l n="390" xml:id="l390">Vivat, vivat, vivat, vivat, cent fois vivat</l>
-          <l n="391" xml:id="l391">Novus Doctor, qui tam bene parlat,</l>
-          <l n="392" xml:id="l392">Mille, mille annis, et manget et bibat,</l>
-          <l n="393" xml:id="l393">Et seignet et tuat.</l>
+          <l n="361" xml:id="l361">Vivat, vivat, vivat, vivat, cent fois vivat</l>
+          <l n="362" xml:id="l362">Novus Doctor, qui tam bene parlat,</l>
+          <l n="363" xml:id="l363">Mille, mille annis, et manget et bibat,</l>
+          <l n="364" xml:id="l364">Et seignet et tuat.</l>
         </sp>
         <label>ENTRÉE DE BALLET.</label>
         <stage>Tous les Chirurgiens et les Apothicaires dansent au son des Instruments et des Voix, et des battements de mains et des Mortiers d’Apothicaires.</stage>
         <sp who="chirurgus" xml:id="VI-25">
           <speaker>Chirurgus</speaker>
-          <l n="394" xml:id="l394">Puisse-t-il voir doctas</l>
-          <l n="395" xml:id="l395">Suas Ordonnancias,</l>
-          <l n="396" xml:id="l396">Omnium Chirurgorum,</l>
-          <l n="397" xml:id="l397">Et Apotiquarum</l>
-          <l n="398" xml:id="l398">Remplire boutiquas</l>
+          <l n="365" xml:id="l365">Puisse-t-il voir doctas</l>
+          <l n="366" xml:id="l366">Suas Ordonnancias,</l>
+          <l n="367" xml:id="l367">Omnium Chirurgorum,</l>
+          <l n="368" xml:id="l368">Et Apotiquarum</l>
+          <l n="369" xml:id="l369">Remplire boutiquas</l>
         </sp>
         <sp who="chorus" xml:id="VI-26">
           <speaker>Chorus</speaker>
-          <l n="399" xml:id="l399">Vivat, vivat, vivat, vivat, cent fois vivat</l>
-          <l n="400" xml:id="l400">Novus Doctor, qui tam bene parlat,</l>
-          <l n="401" xml:id="l401">Mille, mille annis, et manget et bibat,</l>
-          <l n="402" xml:id="l402">Et seignet et tuat.</l>
+          <l n="370" xml:id="l370">Vivat, vivat, vivat, vivat, cent fois vivat</l>
+          <l n="371" xml:id="l371">Novus Doctor, qui tam bene parlat,</l>
+          <l n="372" xml:id="l372">Mille, mille annis, et manget et bibat,</l>
+          <l n="373" xml:id="l373">Et seignet et tuat.</l>
         </sp>
         <sp who="chirurgus" xml:id="VI-27">
           <speaker>Chirurgus</speaker>
-          <l n="403" xml:id="l403">Puisse toti anni,</l>
-          <l n="404" xml:id="l404">Lui essere boni</l>
-          <l n="405" xml:id="l405">Et favorabiles,</l>
-          <l n="406" xml:id="l406">Et n’habere jamais</l>
-          <l n="407" xml:id="l407">Quam pestas, verolas,</l>
-          <l n="408" xml:id="l408">Fiévras, pluresias,</l>
-          <l n="409" xml:id="l409">Fluxus de sang et dissenterias.</l>
+          <l n="374" xml:id="l374">Puisse toti anni,</l>
+          <l n="375" xml:id="l375">Lui essere boni</l>
+          <l n="376" xml:id="l376">Et favorabiles,</l>
+          <l n="377" xml:id="l377">Et n’habere jamais</l>
+          <l n="378" xml:id="l378">Quam pestas, verolas,</l>
+          <l n="379" xml:id="l379">Fiévras, pluresias,</l>
+          <l n="380" xml:id="l380">Fluxus de sang et dissenterias.</l>
         </sp>
         <sp who="chorus" xml:id="VI-28">
           <speaker>Chorus</speaker>
-          <l n="410" xml:id="l410">Vivat, vivat, vivat, vivat, cent fois vivat</l>
-          <l n="411" xml:id="l411">Novus Doctor, qui tam bene parlat,</l>
-          <l n="412" xml:id="l412">Mille, mille annis, et manget et bibat,</l>
-          <l n="413" xml:id="l413">Et seignet et tuat.</l>
+          <l n="381" xml:id="l381">Vivat, vivat, vivat, vivat, cent fois vivat</l>
+          <l n="382" xml:id="l382">Novus Doctor, qui tam bene parlat,</l>
+          <l n="383" xml:id="l383">Mille, mille annis, et manget et bibat,</l>
+          <l n="384" xml:id="l384">Et seignet et tuat.</l>
         </sp>
         <label>DERNIERE ENTRÉE DE BALLET.</label>
       </div1>
