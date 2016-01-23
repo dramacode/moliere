@@ -68,15 +68,14 @@
       <div>
         <head>ACTEURS</head>
         <castList>
-          <castItem><role xml:id="le-barbouille" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Barbouillé</role>, mari d'Angélique.</castItem>
-          <castItem><role xml:id="le-docteur" civil="M" type="H" statut="docteur" age="A" stat_amour="néant">Le docteur</role>.</castItem>
-          <castItem><role xml:id="angelique" civil="F" type="H" statut="bourgeois" age="A" stat_amour="néant">Angélique</role>, Fille de Gorgibus.</castItem>
-          <castItem><role xml:id="valere" civil="M" type="H" statut="bourgeois" age="A" stat_amour="amoureux">Valère</role>, Amant d'Angélique.</castItem>
-          <castItem><role xml:id="cathau" civil="F" type="H" statut="suivante" age="A" stat_amour="néant">Cathau</role>, Suivante d'Angélique.</castItem>
-          <castItem><role xml:id="gorgibus" civil="M" type="H" statut="bourgeois" age="V" stat_amour="néant">Gorgibus</role>, Père d'Angélique.</castItem>
-          <castItem><role xml:id="villebrequin" civil="M" type="H" statut="bourgeois" age="A" stat_amour="néant">Villebrequin</role>.<role xml:id="la-vallee"/></castItem>
+          <castItem><role xml:id="le-barbouille" rend="male">Barbouillé</role>, mari d'Angélique.</castItem>
+          <castItem><role xml:id="le-docteur" rend="male">Le docteur</role>.</castItem>
+          <castItem><role xml:id="angelique" rend="female">Angélique</role>, Fille de Gorgibus.</castItem>
+          <castItem><role xml:id="valere" rend="male">Valère</role>, Amant d'Angélique.</castItem>
+          <castItem><role xml:id="cathau" rend="female inferior">Cathau</role>, Suivante d'Angélique.</castItem>
+          <castItem><role xml:id="gorgibus" rend="male veteran">Gorgibus</role>, Père d'Angélique.</castItem>
+          <castItem><role xml:id="villebrequin" rend="male exterior">Villebrequin</role>.<role xml:id="la-vallee"/></castItem>
         </castList>
-        <set location="(non indiqué)" country="France" periode="XVIIème" link="">[La localisation de la scène n'est pas indiquée.]</set>
       </div>
     </front>
     <body>

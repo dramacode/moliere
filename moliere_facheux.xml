@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_facheux" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -133,24 +133,24 @@
         <stage>La Naïade emmène avec elle, pour la Comédie, une partie des gens qu’elle a fait paraître, pendant que le reste se met à danser au son des Hautbois, qui se joignent aux Violons.</stage>
       </div>
       <div>
-        <head>PERSONNAGES</head>
+        <head>Personnages</head>
         <castList>
-          <castItem><role xml:id="eraste" civil="M" type="H" statut="aristocrate" age="A" stat_amour="amoureux">Éraste</role>.</castItem>
-          <castItem><role xml:id="montagne" civil="M" type="H" statut="valet" age="A" stat_amour="néant">La montagne</role>.</castItem>
-          <castItem><role xml:id="alcidor" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Alcidor</role>.</castItem>
-          <castItem><role xml:id="orphise" civil="F" type="H" statut="aristocrate" age="A" stat_amour="amoureux">Orphise</role>.</castItem>
-          <castItem><role xml:id="lysandre" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Lisandre</role>.</castItem>
-          <castItem><role xml:id="alcandre" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Alcandre</role>.</castItem>
-          <castItem><role xml:id="alcipe" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Alcipe</role>.</castItem>
-          <castItem><role xml:id="orante" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Orante</role>.</castItem>
-          <castItem><role xml:id="climene" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Climène</role>.</castItem>
-          <castItem><role xml:id="dorante" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Dorante</role>.</castItem>
-          <castItem><role xml:id="caritides" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Caritidès</role>.</castItem>
-          <castItem><role xml:id="ormin" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Ormin</role>.</castItem>
-          <castItem><role xml:id="filinte" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Filinte</role>.</castItem>
-          <castItem><role xml:id="damis" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">Damis</role>.</castItem>
-          <castItem><role xml:id="epine" civil="M" type="H" statut="valet" age="A" stat_amour="néant">L’épine</role>.</castItem>
-          <castItem><role xml:id="riviere" civil="M" type="H" statut="vallet" age="A" stat_amour="néant">La rivière</role>, et deux Camarades.</castItem>
+          <castItem><role xml:id="eraste" rend="male">Éraste</role>.</castItem>
+          <castItem><role xml:id="montagne" rend="male inferior">La Montagne</role>.</castItem>
+          <castItem><role xml:id="alcidor" rend="male">Alcidor</role>.</castItem>
+          <castItem><role xml:id="orphise" rend="female junior">Orphise</role>.</castItem>
+          <castItem><role xml:id="lysandre" rend="male">Lisandre</role>.</castItem>
+          <castItem><role xml:id="alcandre" rend="male">Alcandre</role>.</castItem>
+          <castItem><role xml:id="alcipe" rend="male">Alcipe</role>.</castItem>
+          <castItem><role xml:id="orante" rend="male">Orante</role>.</castItem>
+          <castItem><role xml:id="climene" rend="female junior">Climène</role>.</castItem>
+          <castItem><role xml:id="dorante" rend="male">Dorante</role>.</castItem>
+          <castItem><role xml:id="caritides" rend="male">Caritidès</role>.</castItem>
+          <castItem><role xml:id="ormin"  rend="male">Ormin</role>.</castItem>
+          <castItem><role xml:id="filinte"  rend="male">Filinte</role>.</castItem>
+          <castItem><role xml:id="damis"  rend="male">Damis</role>.</castItem>
+          <castItem><role xml:id="epine"  rend="male inferior">L’épine</role>.</castItem>
+          <castItem><role xml:id="riviere" rend="male inferior">La Rivière</role>, et deux Camarades.</castItem>
         </castList>
         <stage location="Paris" country="France" periode="XVIIème" link="">La Scène est à Paris.</stage>
       </div>
@@ -272,7 +272,7 @@
             <l n="106" xml:id="l106">M'ôtait au rendez-vous qui m’est ici donné.</l>
           </sp>
           <sp who="montagne" xml:id="I01-2">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="107" xml:id="l107">Ce sont chagrins mêlés aux plaisirs de la vie.</l>
             <l n="108" xml:id="l108">Tout ne va pas, Monsieur, au gré de notre envie.</l>
             <l n="109" xml:id="l109">Le Ciel veut qu’ici-bas chacun ait ses Fâcheux ;</l>
@@ -288,7 +288,7 @@
             <l n="116" xml:id="l116">Et c’est dans cette allée, où devait être Orphise.</l>
           </sp>
           <sp who="montagne" xml:id="I01-4">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="117" xml:id="l117">L’heure d’un rendez-vous d’ordinaire s’étend ;</l>
             <l n="118" xml:id="l118">Et n’est pas resserrée aux bornes d’un instant.</l>
           </sp>
@@ -298,7 +298,7 @@
             <l n="120" xml:id="l120">D’un rien se fait un crime envers celle que j’aime.</l>
           </sp>
           <sp who="montagne" xml:id="I01-6">
-            <speaker>la montàgne</speaker>
+            <speaker>La montàgne</speaker>
             <l n="121" xml:id="l121">Si ce parfait amour, que vous prouvez si bien,</l>
             <l n="122" xml:id="l122">Se fait vers votre objet un grand crime de rien,</l>
             <l n="123" xml:id="l123">Ce que son cœur, pour vous, sent de feux légitimes,</l>
@@ -309,7 +309,7 @@
             <l n="125" xml:id="l125">Mais, tout de bon, crois‑tu que je sois d’elle aimé ?</l>
           </sp>
           <sp who="montagne" xml:id="I01-8">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="126" xml:id="l126">Quoi ? vous doutez encor d’un amour confirmé...</l>
           </sp>
           <sp who="eraste" xml:id="I01-9">
@@ -321,7 +321,7 @@
             <l n="131" xml:id="l131">Mais songeons à trouver une beauté si rare.</l>
           </sp>
           <sp who="montagne" xml:id="I01-10">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="132" xml:id="l132">Monsieur, votre rabat par devant se sépare.</l>
           </sp>
           <sp who="eraste" xml:id="I01-11">
@@ -329,7 +329,7 @@
             <l n="133" xml:id="l133">N'importe.</l>
           </sp>
           <sp who="montagne" xml:id="I01-12">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="134" xml:id="l134">Laissez‑moi l’ajuster, s’il vous plaît.</l>
           </sp>
           <sp who="eraste" xml:id="I01-13">
@@ -337,7 +337,7 @@
             <l n="135" xml:id="l135">Ouf, tu m’étrangles, fat, laisse-le, comme il est.</l>
           </sp>
           <sp who="montagne" xml:id="I01-14">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l part="I" n="136" xml:id="l136">Souffrez qu’on peigne un peu...</l>
           </sp>
           <sp who="eraste" xml:id="I01-15">
@@ -346,7 +346,7 @@
             <l n="137" xml:id="l137">Tu m’as, d’un coup de dent, presque emporté l’oreille.</l>
           </sp>
           <sp who="montagne" xml:id="I01-16">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="138" xml:id="l138">Vos canons...</l>
           </sp>
           <sp who="eraste" xml:id="I01-17">
@@ -354,7 +354,7 @@
             <l n="139" xml:id="l139">Laisse-les ; tu prends trop de souci.</l>
           </sp>
           <sp who="montagne" xml:id="I01-18">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="140" xml:id="l140">Ils sont tout chiffonnés.</l>
           </sp>
           <sp who="eraste" xml:id="I01-19">
@@ -362,7 +362,7 @@
             <l n="141" xml:id="l141">Je veux qu’ils soient ainsi.</l>
           </sp>
           <sp who="montagne" xml:id="I01-20">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="142" xml:id="l142">Accordez‑moi du moins, pour grâce singulière,</l>
             <l n="143" xml:id="l143">De frotter ce chapeau, qu’on voit plein de poussière.</l>
           </sp>
@@ -371,7 +371,7 @@
             <l n="144" xml:id="l144">Frotte donc, puisqu’il faut que j’en passe par là.</l>
           </sp>
           <sp who="montagne" xml:id="I01-22">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="145" xml:id="l145">Le voulez-vous porter fait comme le voilà ?</l>
           </sp>
           <sp who="eraste" xml:id="I01-23">
@@ -379,15 +379,15 @@
             <l n="146" xml:id="l146">Mon Dieu dépêche-toi.</l>
           </sp>
           <sp who="montagne" xml:id="I01-24">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="147" xml:id="l147">Ce serait conscience.</l>
           </sp>
           <sp who="eraste" xml:id="I01-25">
-            <speaker>éraste, <hi rend="i">après avoir attendu</hi>.</speaker>
+            <speaker>Éraste, <hi rend="i">après avoir attendu</hi>.</speaker>
             <l n="148" xml:id="l148">C’est assez.</l>
           </sp>
           <sp who="montagne" xml:id="I01-26">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="149" xml:id="l149">Donnez-vous un peu de patience.</l>
           </sp>
           <sp who="eraste" xml:id="I01-27">
@@ -395,7 +395,7 @@
             <l n="150" xml:id="l150">Il me tue.</l>
           </sp>
           <sp who="montagne" xml:id="I01-28">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="151" xml:id="l151">En quel lieu vous êtes‑vous fourré ?</l>
           </sp>
           <sp who="eraste" xml:id="I01-29">
@@ -403,7 +403,7 @@
             <l n="152" xml:id="l152">T'es-tu de ce chapeau pour toujours emparé ?</l>
           </sp>
           <sp who="montagne" xml:id="I01-30">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="153" xml:id="l153">C'est fait.</l>
           </sp>
           <sp who="eraste" xml:id="I01-31">
@@ -411,7 +411,7 @@
             <l n="154" xml:id="l154">Donne-moi donc.</l>
           </sp>
           <sp who="montagne" xml:id="I01-32">
-            <speaker>la montagne, <hi rend="i">laissant tomber le chapeau</hi>.</speaker>
+            <speaker>La Montagne, <hi rend="i">laissant tomber le chapeau</hi>.</speaker>
             <l n="155" xml:id="l155">Hay !</l>
           </sp>
           <sp who="eraste" xml:id="I01-33">
@@ -420,7 +420,7 @@
             <l n="157" xml:id="l157">Je suis fort avancé : que la fièvre te serre.</l>
           </sp>
           <sp who="montagne" xml:id="I01-34">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="158" xml:id="l158">Permettez qu’en deux coups j’ôte…</l>
           </sp>
           <sp who="eraste" xml:id="I01-35">
@@ -444,7 +444,7 @@
             <l n="167" xml:id="l167">Que croire ? Qu'en dis‑tu ? Parle donc, si tu veux.</l>
           </sp>
           <sp who="montagne" xml:id="I02-2">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="168" xml:id="l168">Monsieur, je ne dis rien de peur d’être fâcheux.</l>
           </sp>
           <sp who="eraste" xml:id="I02-3">
@@ -456,7 +456,7 @@
             <l n="173" xml:id="l173">Dis-moi ton sentiment.</l>
           </sp>
           <sp who="montagne" xml:id="I02-4">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="174" xml:id="l174">Monsieur, je veux me taire,</l>
             <l n="175" xml:id="l175">Et ne désire point trancher du nécessaire.</l>
           </sp>
@@ -466,7 +466,7 @@
             <l n="177" xml:id="l177">Vois ce qu’ils deviendront, et ne les quitte pas.</l>
           </sp>
           <sp who="montagne" xml:id="I02-6">
-            <speaker>la montagne, <hi rend="i">revenant</hi>.</speaker>
+            <speaker>La Montagne, <hi rend="i">revenant</hi>.</speaker>
             <l n="178" xml:id="l178">Il faut suivre de loin ?</l>
           </sp>
           <sp who="eraste" xml:id="I02-7">
@@ -474,7 +474,7 @@
             <l n="179" xml:id="l179">Oui.</l>
           </sp>
           <sp who="montagne" xml:id="I02-8">
-            <speaker>la montagne, <hi rend="i">revenant</hi>.</speaker>
+            <speaker>La Montagne, <hi rend="i">revenant</hi>.</speaker>
             <l n="180" xml:id="l180">Sans que l’on me voie,</l>
             <l n="181" xml:id="l181">Ou faire aucun semblant qu’après eux on m’envoie.</l>
           </sp>
@@ -484,7 +484,7 @@
             <l n="183" xml:id="l183">Que par mon ordre exprès ils sont de toi suivis.</l>
           </sp>
           <sp who="montagne" xml:id="I02-10">
-            <speaker>la montagne, <hi rend="i">revenant</hi>.</speaker>
+            <speaker>La Montagne, <hi rend="i">revenant</hi>.</speaker>
             <l n="184" xml:id="l184">Vous trouverai-je ici ?</l>
           </sp>
           <sp who="eraste" xml:id="I02-11">
@@ -502,7 +502,7 @@
           <head>Scène III</head>
           <stage>Lysandre, Éraste.</stage>
           <sp who="lysandre" xml:id="I03-1">
-            <speaker>lysandre</speaker>
+            <speaker>Lysandre</speaker>
             <l n="191" xml:id="l191">Sous ces arbres, de loin, mes yeux t’ont reconnu,</l>
             <l n="192" xml:id="l192">Cher Marquis, et d’abord je suis à toi venu.</l>
             <l n="193" xml:id="l193">Comme à de mes amis il faut que je te chante</l>
@@ -522,7 +522,7 @@
             <l n="203" xml:id="l203">Ah !</l>
           </sp>
           <sp who="lysandre" xml:id="I03-3">
-            <speaker>lysandre</speaker>
+            <speaker>Lysandre</speaker>
             <l n="204" xml:id="l204">Cette fin est jolie.</l>
             <stage>Il rechante la fin quatre ou cinq fois de suite.</stage>
             <l n="205" xml:id="l205">Comment la trouves-tu ?</l>
@@ -532,7 +532,7 @@
             <l n="206" xml:id="l206">Fort belle assurément.</l>
           </sp>
           <sp who="lysandre" xml:id="I03-5">
-            <speaker>lysandre</speaker>
+            <speaker>Lysandre</speaker>
             <l n="207" xml:id="l207">Les pas que j’en ai faits n’ont pas moins d’agrément,</l>
             <l n="208" xml:id="l208">Et surtout la figure a merveilleuse grâce.</l>
             <stage>Il chante, parle et danse tout ensemble, et fait faire à Éraste les figures de la femme.</stage>
@@ -549,7 +549,7 @@
             <l n="215" xml:id="l215">Tous ces pas-là sont fins.</l>
           </sp>
           <sp who="lysandre" xml:id="I03-7">
-            <speaker>lysandre</speaker>
+            <speaker>Lysandre</speaker>
             <l n="216" xml:id="l216">Je me moque, pour moi, des maîtres Baladins.</l>
           </sp>
           <sp who="eraste" xml:id="I03-8">
@@ -557,7 +557,7 @@
             <l n="217" xml:id="l217">On le voit.</l>
           </sp>
           <sp who="lysandre" xml:id="I03-9">
-            <speaker>lysandre</speaker>
+            <speaker>Lysandre</speaker>
             <l n="218" xml:id="l218">Les pas donc…</l>
           </sp>
           <sp who="eraste" xml:id="I03-10">
@@ -565,7 +565,7 @@
             <l n="219" xml:id="l219">N’ont rien qui ne surprenne.</l>
           </sp>
           <sp who="lysandre" xml:id="I03-11">
-            <speaker>lysandre</speaker>
+            <speaker>Lysandre</speaker>
             <l n="220" xml:id="l220">Veux-tu, par amitié, que je te les apprenne ?</l>
           </sp>
           <sp who="eraste" xml:id="I03-12">
@@ -573,7 +573,7 @@
             <l n="221" xml:id="l221">Ma foi, pour le présent, j’ai certain embarras…</l>
           </sp>
           <sp who="lysandre" xml:id="I03-13">
-            <speaker>lysandre </speaker>
+            <speaker>Lysandre </speaker>
             <l n="222" xml:id="l222">Eh bien donc, ce sera, lorsque tu le voudras.</l>
             <l n="223" xml:id="l223">Si j’avais dessus moi ces paroles nouvelles,</l>
             <l n="224" xml:id="l224">Nous les lirions ensemble, et verrions les plus belles.</l>
@@ -583,7 +583,7 @@
             <l n="225" xml:id="l225">Une autre fois.</l>
           </sp>
           <sp who="lysandre" xml:id="I03-15">
-            <speaker>lysandre</speaker>
+            <speaker>Lysandre</speaker>
             <l n="226" xml:id="l226">Adieu, Baptiste le très cher</l>
             <l n="227" xml:id="l227">N’a point vu ma courante, et je le vais chercher.</l>
             <l n="228" xml:id="l228">Nous avons, pour les airs, de grandes sympathies,</l>
@@ -602,7 +602,7 @@
           <head>Scène IV</head>
           <stage>La Montagne, Éraste.</stage>
           <sp who="montagne" xml:id="I04-1">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="234" xml:id="l234">Monsieur, Orphise est seule, et vient de ce côté.</l>
           </sp>
           <sp who="eraste" xml:id="I04-2">
@@ -612,7 +612,7 @@
             <l n="237" xml:id="l237">Et ma raison voudrait, que j’eusse de la haine !</l>
           </sp>
           <sp who="montagne" xml:id="I04-3">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="238" xml:id="l238">Monsieur, votre raison ne sait ce qu’elle veut ;</l>
             <l n="239" xml:id="l239">Ni ce que sur un cœur une Maîtresse peut.</l>
             <l n="240" xml:id="l240">Bien que de s’emporter on ait de justes causes,</l>
@@ -702,7 +702,7 @@
           <head>Scène VI</head>
           <stage>Alcandre, Orphise, Éraste, La Montagne.</stage>
           <sp who="alcandre" xml:id="I06-1">
-            <speaker>alcandre</speaker>
+            <speaker>Alcandre</speaker>
             <l n="287" xml:id="l287">Marquis, un mot. Madame,</l>
             <l n="288" xml:id="l288">De grâce pardonnez, si je suis indiscret,</l>
             <l n="289" xml:id="l289">En osant, devant vous, lui parler en secret.</l>
@@ -714,7 +714,7 @@
             <l n="295" xml:id="l295">Que je te le rendrais en la même monnaie.</l>
           </sp>
           <sp who="eraste" xml:id="I06-2">
-            <speaker>éraste, <hi rend="i">après avoir un peu demeuré sans parler</hi>.</speaker>
+            <speaker>Éraste, <hi rend="i">après avoir un peu demeuré sans parler</hi>.</speaker>
             <l n="296" xml:id="l296">Je ne veux point ici faire le Capitan ;</l>
             <l n="297" xml:id="l297">Mais on m’a vu soldat, avant que Courtisan.</l>
             <l n="298" xml:id="l298">J'ai servi quatorze ans, et je crois être en passe,</l>
@@ -735,7 +735,7 @@
             <l n="313" xml:id="l313">Où donc s’est retiré cet objet de mes vœux ?</l>
           </sp>
           <sp who="montagne" xml:id="I06-3">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="314" xml:id="l314">Je ne sais.</l>
           </sp>
           <sp who="eraste" xml:id="I06-4">
@@ -779,7 +779,7 @@
           <head>Scène II</head>
           <stage>Alcipe, Éraste.</stage>
           <sp who="alcipe" xml:id="II02-1">
-            <speaker>alcipe</speaker>
+            <speaker>Alcipe</speaker>
             <l n="327" xml:id="l327">Bonjour.</l>
           </sp>
           <sp who="eraste" xml:id="II02-2">
@@ -787,7 +787,7 @@
             <l n="328" xml:id="l328">Eh quoi toujours ma flamme divertie !</l>
           </sp>
           <sp who="alcipe" xml:id="II02-3">
-            <speaker>alcipe</speaker>
+            <speaker>Alcipe</speaker>
             <l n="329" xml:id="l329">Console-moi, Marquis, d’une étrange partie,</l>
             <l n="330" xml:id="l330">Qu’au Piquet je perdis, hier, contre un Saint-Bouvain,</l>
             <l n="331" xml:id="l331">À qui je donnerais quinze points, et la main.</l>
@@ -823,7 +823,7 @@
             <l n="358" xml:id="l358">C’est dans le jeu, qu’on voit les plus grands coups du sort.</l>
           </sp>
           <sp who="alcipe" xml:id="II02-5">
-            <speaker>alcipe</speaker>
+            <speaker>Alcipe</speaker>
             <l n="359" xml:id="l359">Parbleu tu jugeras, toi-même, si j’ai tort ;</l>
             <l n="360" xml:id="l360">Et si c’est sans raison, que ce coup me transporte ;</l>
             <l n="361" xml:id="l361">Car voici nos deux jeux, qu’exprès sur moi je porte.</l>
@@ -838,7 +838,7 @@
             <l n="367" xml:id="l367">Adieu console-toi, pourtant, de ton malheur.</l>
           </sp>
           <sp who="alcipe" xml:id="II02-7">
-            <speaker>alcipe</speaker>
+            <speaker>Alcipe</speaker>
             <l n="368" xml:id="l368">Qui moi ? J’aurai toujours ce coup-là sur le cœur :</l>
             <l n="369" xml:id="l369">Et c’est pour ma raison, pis qu’un coup de tonnerre.</l>
             <l n="370" xml:id="l370">Je le veux faire, moi, voir à toute la terre.</l>
@@ -856,7 +856,7 @@
           <head>Scène III</head>
           <stage>La Montagne, Éraste.</stage>
           <sp who="montagne" xml:id="II03-1">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="375" xml:id="l375">Monsieur, je n’ai pu faire une autre diligence.</l>
           </sp>
           <sp who="eraste" xml:id="II03-2">
@@ -864,7 +864,7 @@
             <l n="376" xml:id="l376">Mais me rapportes-tu quelque nouvelle enfin ?</l>
           </sp>
           <sp who="montagne" xml:id="II03-3">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="377" xml:id="l377">Sans doute ; et de l’objet qui fait votre destin,</l>
             <l n="378" xml:id="l378">J’ai, par un ordre exprès, quelque chose à vous dire.</l>
           </sp>
@@ -874,7 +874,7 @@
             <l n="380" xml:id="l380">Parle.</l>
           </sp>
           <sp who="montagne" xml:id="II03-5">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="381" xml:id="l381">Souhaitez-vous de savoir ce que c’est ?</l>
           </sp>
           <sp who="eraste" xml:id="II03-6">
@@ -882,7 +882,7 @@
             <l n="382" xml:id="l382">Oui, dis vite.</l>
           </sp>
           <sp who="montagne" xml:id="II03-7">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="383" xml:id="l383">Monsieur, attendez, s’il vous plaît.</l>
             <l n="384" xml:id="l384">Je me suis, à courir, presque mis hors d’haleine.</l>
           </sp>
@@ -891,7 +891,7 @@
             <l n="385" xml:id="l385">Prends-tu quelque plaisir à me tenir en peine ?</l>
           </sp>
           <sp who="montagne" xml:id="II03-9">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="386" xml:id="l386">Puisque vous désirez de savoir promptement</l>
             <l n="387" xml:id="l387">L’ordre que j’ai reçu de cet objet charmant,</l>
             <l n="388" xml:id="l388">Je vous dirai... Ma foi, sans vous vanter mon zèle,</l>
@@ -903,7 +903,7 @@
             <l n="391" xml:id="l391">Peste soit fait de tes digressions.</l>
           </sp>
           <sp who="montagne" xml:id="II03-11">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="392" xml:id="l392">Ah ! il faut modérer un peu ses passions,</l>
             <l n="393" xml:id="l393">Et Sénèque…</l>
           </sp>
@@ -914,7 +914,7 @@
             <l n="396" xml:id="l396">Dis-moi ton ordre, tôt.</l>
           </sp>
           <sp who="montagne" xml:id="II03-13">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="397" xml:id="l397">Pour contenter vos vœux,</l>
             <l n="398" xml:id="l398">Votre Orphise… Une bête est là dans vos cheveux.</l>
           </sp>
@@ -923,7 +923,7 @@
             <l n="399" xml:id="l399">Laisse.</l>
           </sp>
           <sp who="montagne" xml:id="II03-15">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="400" xml:id="l400">Cette beauté de sa part vous fait dire…</l>
           </sp>
           <sp who="eraste" xml:id="II03-16">
@@ -931,7 +931,7 @@
             <l n="401" xml:id="l401">Quoi !</l>
           </sp>
           <sp who="montagne" xml:id="II03-17">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="402" xml:id="l402">Devinez.</l>
           </sp>
           <sp who="eraste" xml:id="II03-18">
@@ -939,7 +939,7 @@
             <l n="403" xml:id="l403">Sais-tu que je ne veux pas rire ?</l>
           </sp>
           <sp who="montagne" xml:id="II03-19">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="404" xml:id="l404">Son ordre est qu’en ce lieu vous devez vous tenir,</l>
             <l n="405" xml:id="l405">Assuré que dans peu vous l’y verrez venir,</l>
             <l n="406" xml:id="l406">Lorsqu’elle aura quitté quelques provinciales,</l>
@@ -958,23 +958,23 @@
           <head>Scène IV</head>
           <stage>Orante, Climène, Éraste.</stage>
           <sp who="orante" xml:id="II04-1">
-            <speaker>orante</speaker>
+            <speaker>Orante</speaker>
             <l n="412" xml:id="l412">Tout le monde sera de mon opinion.</l>
           </sp>
           <sp who="climene" xml:id="II04-2">
-            <speaker>climène</speaker>
+            <speaker>Climène</speaker>
             <l n="413" xml:id="l413">Croyez-vous l’emporter par obstination ?</l>
           </sp>
           <sp who="orante" xml:id="II04-3">
-            <speaker>orante</speaker>
+            <speaker>Orante</speaker>
             <l n="414" xml:id="l414">Je pense mes raisons meilleures que les vôtres.</l>
           </sp>
           <sp who="climene" xml:id="II04-4">
-            <speaker>climène</speaker>
+            <speaker>Climène</speaker>
             <l n="415" xml:id="l415">Je voudrais qu’on ouît les unes et les autres.</l>
           </sp>
           <sp who="orante" xml:id="II04-5">
-            <speaker>orante</speaker>
+            <speaker>Orante</speaker>
             <l n="416" xml:id="l416">J’avise un homme ici qui n’est pas ignorant ;</l>
             <l n="417" xml:id="l417">Il pourra nous juger sur notre différend.</l>
             <l n="418" xml:id="l418">Marquis, de grâce, un mot : Souffrez qu’on vous appelle,</l>
@@ -988,7 +988,7 @@
             <l n="423" xml:id="l423">Et vous devez chercher un Juge plus habile.</l>
           </sp>
           <sp who="orante" xml:id="II04-7">
-            <speaker>orante</speaker>
+            <speaker>Orante</speaker>
             <l n="424" xml:id="l424">Non : vous nous dites là d’inutiles chansons :</l>
             <l n="425" xml:id="l425">Votre esprit fait du bruit, et nous vous connaissons ;</l>
             <l n="426" xml:id="l426">Nous savons que chacun vous donne à juste titre…</l>
@@ -998,12 +998,12 @@
             <l n="427" xml:id="l427">Hé de grâce…</l>
           </sp>
           <sp who="orante" xml:id="II04-9">
-            <speaker>orante</speaker>
+            <speaker>Orante</speaker>
             <l n="428" xml:id="l428">En un mot vous serez notre arbitre,</l>
             <l n="429" xml:id="l429">Et ce sont deux moments qu’il vous faut nous donner.</l>
           </sp>
           <sp who="climene" xml:id="II04-10">
-            <speaker>climène</speaker>
+            <speaker>Climène</speaker>
             <l n="430" xml:id="l430">Vous retenez ici qui vous doit condamner :</l>
             <l n="431" xml:id="l431">Car enfin, s’il est vrai ce que j’en ose croire,</l>
             <l n="432" xml:id="l432">Monsieur, à mes raisons, donnera la victoire.</l>
@@ -1014,47 +1014,47 @@
             <l n="434" xml:id="l434">D’inventer quelque chose à me tirer d’ici !</l>
           </sp>
           <sp who="orante" xml:id="II04-12">
-            <speaker>orante</speaker>
+            <speaker>Orante</speaker>
             <l n="435" xml:id="l435">Pour moi, de son esprit j’ai trop bon témoignage,</l>
             <l n="436" xml:id="l436">Pour craindre qu’il prononce à mon désavantage.</l>
             <l n="437" xml:id="l437">Enfin ce grand débat qui s’allume entre nous,</l>
             <l n="438" xml:id="l438">Est de savoir s’il faut qu’un Amant soit jaloux.</l>
           </sp>
           <sp who="climene" xml:id="II04-13">
-            <speaker>climène</speaker>
+            <speaker>Climène</speaker>
             <l n="439" xml:id="l439">Ou, pour mieux expliquer ma pensée et la vôtre,</l>
             <l n="440" xml:id="l440">Lequel doit plaire plus d’un jaloux ou d’un autre.</l>
           </sp>
           <sp who="orante" xml:id="II04-14">
-            <speaker>orante</speaker>
+            <speaker>Orante</speaker>
             <l n="441" xml:id="l441">Pour moi, sans contredit, je suis pour le dernier.</l>
           </sp>
           <sp who="climene" xml:id="II04-15">
-            <speaker>climène</speaker>
+            <speaker>Climène</speaker>
             <l n="442" xml:id="l442">Et dans mon sentiment je tiens pour le premier.</l>
           </sp>
           <sp who="orante" xml:id="II04-16">
-            <speaker>orante</speaker>
+            <speaker>Orante</speaker>
             <l n="443" xml:id="l443">Je crois que notre cœur doit donner son suffrage,</l>
             <l n="444" xml:id="l444">À qui fait éclater du respect davantage.</l>
           </sp>
           <sp who="climene" xml:id="II04-17">
-            <speaker>climène</speaker>
+            <speaker>Climène</speaker>
             <l n="445" xml:id="l445">Et moi, que si nos vœux doivent paraître au jour,</l>
             <l n="446" xml:id="l446">C’est pour celui qui fait éclater plus d’amour.</l>
           </sp>
           <sp who="orante" xml:id="II04-18">
-            <speaker>orante</speaker>
+            <speaker>Orante</speaker>
             <l n="447" xml:id="l447">Oui, mais on voit l’ardeur dont une âme est saisie.</l>
             <l n="448" xml:id="l448">Bien mieux dans le respect, que dans la jalousie.</l>
           </sp>
           <sp who="climene" xml:id="II04-19">
-            <speaker>climène</speaker>
+            <speaker>Climène</speaker>
             <l n="449" xml:id="l449">Et c’est mon sentiment, que qui s’attache à nous,</l>
             <l n="450" xml:id="l450">Nous aime d’autant plus, qu’il se montre jaloux.</l>
           </sp>
           <sp who="orante" xml:id="II04-20">
-            <speaker>orante</speaker>
+            <speaker>Orante</speaker>
             <l n="451" xml:id="l451">Fi ne me parlez point, pour être Amants, Climène,</l>
             <l n="452" xml:id="l452">De ces gens dont l’amour est fait comme la haine,</l>
             <l n="453" xml:id="l453">Et, qui pour tous respects, et toute offre de vœux,</l>
@@ -1075,7 +1075,7 @@
             <l n="468" xml:id="l468">Et leur soumission marque mieux notre empire.</l>
           </sp>
           <sp who="climene" xml:id="II04-21">
-            <speaker>climène</speaker>
+            <speaker>Climène</speaker>
             <l n="469" xml:id="l469">Fi ne me parlez point, pour être vrais Amants,</l>
             <l n="470" xml:id="l470">De ces gens, qui pour nous n’ont nuls emportements ;</l>
             <l n="471" xml:id="l471">De ces tièdes Galants, de qui les cœurs paisibles,</l>
@@ -1098,21 +1098,21 @@
             <l n="488" xml:id="l488">Est un charme à calmer toute notre colère.</l>
           </sp>
           <sp who="orante" xml:id="II04-22">
-            <speaker>orante</speaker>
+            <speaker>Orante</speaker>
             <l n="489" xml:id="l489">Si pour vous plaire il faut beaucoup d’emportement,</l>
             <l n="490" xml:id="l490">Je sais qui vous pourrait donner contentement ;</l>
             <l n="491" xml:id="l491">Et je connais des gens dans Paris plus de quatre</l>
             <l n="492" xml:id="l492">Qui, comme ils le font voir, aiment jusques à battre.</l>
           </sp>
           <sp who="climene" xml:id="II04-23">
-            <speaker>climène</speaker>
+            <speaker>Climène</speaker>
             <l n="493" xml:id="l493">Si pour vous plaire il faut n’être jamais jaloux,</l>
             <l n="494" xml:id="l494">Je sais certaines gens fort commodes pour vous ;</l>
             <l n="495" xml:id="l495">Des hommes en amour d’une humeur si souffrante,</l>
             <l n="496" xml:id="l496">Qu’ils vous verraient sans peine entre les bras de trente.</l>
           </sp>
           <sp who="orante" xml:id="II04-24">
-            <speaker>orante</speaker>
+            <speaker>Orante</speaker>
             <l n="497" xml:id="l497">Enfin, par votre arrêt vous devez déclarer,</l>
             <l n="498" xml:id="l498">Celui de qui l’amour vous semble à préférer.</l>
           </sp>
@@ -1124,7 +1124,7 @@
             <l n="502" xml:id="l502">Le jaloux aime plus, et l’autre aime bien mieux.</l>
           </sp>
           <sp who="climene" xml:id="II04-26">
-            <speaker>climène</speaker>
+            <speaker>Climène</speaker>
             <l n="503" xml:id="l503">L'arrêt est plein d’esprit ; mais…</l>
           </sp>
           <sp who="eraste" xml:id="II04-27">
@@ -1170,7 +1170,7 @@
           <head>Scène VI</head>
           <stage>Dorante, Éraste.</stage>
           <sp who="dorante" xml:id="II06-1">
-            <speaker>dorante</speaker>
+            <speaker>Dorante</speaker>
             <l n="519" xml:id="l519">Ha Marquis que l’on voit de Fâcheux tous les jours,</l>
             <l n="520" xml:id="l520">Venir de nos plaisirs interrompre le cours !</l>
             <l n="521" xml:id="l521">Tu me vois enragé d’une assez belle chasse,</l>
@@ -1181,7 +1181,7 @@
             <l n="523" xml:id="l523">Je cherche ici quelqu’un, et ne puis m’arrêter.</l>
           </sp>
           <sp who="dorante" xml:id="II06-3">
-            <speaker>dorante, <hi rend="i">le retenant</hi>.</speaker>
+            <speaker>Dorante, <hi rend="i">le retenant</hi>.</speaker>
             <l n="524" xml:id="l524">Parbleu chemin faisant je te le veux conter.</l>
             <l n="525" xml:id="l525">Nous étions une troupe assez bien assortie,</l>
             <l n="526" xml:id="l526">Qui pour courir un Cerf avions hier fait partie ;</l>
@@ -1223,7 +1223,7 @@
             <l n="559" xml:id="l559">Non je pense.</l>
           </sp>
           <sp who="dorante" xml:id="II06-5">
-            <speaker>dorante</speaker>
+            <speaker>Dorante</speaker>
             <l n="560" xml:id="l560">Comment ? C’est un Cheval aussi bon qu’il est beau,</l>
             <l n="561" xml:id="l561">Et que ces jours passés j’achetai de Gaveau.</l>
             <l n="562" xml:id="l562">Je te laisse à penser, si, sur cette matière,</l>
@@ -1298,7 +1298,7 @@
             <l n="628" xml:id="l628">Adieu.</l>
           </sp>
           <sp who="dorante" xml:id="II06-7">
-            <speaker>dorante</speaker>
+            <speaker>Dorante</speaker>
             <l n="629" xml:id="l629">Quand tu voudras, nous irons quelque part,</l>
             <l n="630" xml:id="l630">Où nous ne craindrons point de chasseur Campagnard.</l>
           </sp>
@@ -1356,7 +1356,7 @@
             <l n="650" xml:id="l650">Puis, je veux m’y trouver plutôt avant qu’après.</l>
           </sp>
           <sp who="montagne" xml:id="III01-2">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="651" xml:id="l651">Suivrai-je vos pas ?</l>
           </sp>
           <sp who="eraste" xml:id="III01-3">
@@ -1365,7 +1365,7 @@
             <l n="653" xml:id="l653">À quelques yeux suspects, tu me fisses connaître.</l>
           </sp>
           <sp who="montagne" xml:id="III01-4">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="654" xml:id="l654">Mais…</l>
           </sp>
           <sp who="eraste" xml:id="III01-5">
@@ -1373,7 +1373,7 @@
             <l n="655" xml:id="l655">Je ne le veux pas.</l>
           </sp>
           <sp who="montagne" xml:id="III01-6">
-            <speaker>la montagne</speaker>
+            <speaker>La Montagne</speaker>
             <l n="656" xml:id="l656">Je dois suivre vos lois :</l>
             <l n="657" xml:id="l657">Mais au moins si de loin…</l>
           </sp>
@@ -1388,7 +1388,7 @@
           <head>Scène II</head>
           <stage>Caritidès, Éraste.  </stage>
           <sp who="caritides" xml:id="III02-1">
-            <speaker>caritidès</speaker>
+            <speaker>Caritidès</speaker>
             <l n="661" xml:id="l661">Monsieur, le temps répugne à l’honneur de vous voir.</l>
             <l n="662" xml:id="l662">Le matin est plus propre à rendre un tel devoir :</l>
             <l n="663" xml:id="l663">Mais de vous rencontrer il n’est pas bien facile ;</l>
@@ -1403,7 +1403,7 @@
             <l n="669" xml:id="l669">Monsieur, souhaitez-vous quelque chose de moi ?</l>
           </sp>
           <sp who="caritides" xml:id="III02-3">
-            <speaker>caritidès</speaker>
+            <speaker>Caritidès</speaker>
             <l n="670" xml:id="l670">Je m’acquitte, Monsieur, de ce que je vous dois ;</l>
             <l n="671" xml:id="l671">Et vous viens... Excusez l’audace, qui m’inspire,</l>
             <l n="672" xml:id="l672">Si…</l>
@@ -1413,7 +1413,7 @@
             <l n="673" xml:id="l673">Sans tant de façons, qu’avez-vous à me dire ?</l>
           </sp>
           <sp who="caritides" xml:id="III02-5">
-            <speaker>caritidès</speaker>
+            <speaker>Caritidès</speaker>
             <l n="674" xml:id="l674">Comme le rang, l’esprit, la générosité,</l>
             <l n="675" xml:id="l675">Que chacun vante en vous…</l>
           </sp>
@@ -1423,7 +1423,7 @@
             <l n="677" xml:id="l677">Passons, Monsieur.</l>
           </sp>
           <sp who="caritides" xml:id="III02-7">
-            <speaker>caritidès</speaker>
+            <speaker>Caritidès</speaker>
             <l n="678" xml:id="l678">Monsieur, c’est une peine extrême,</l>
             <l n="679" xml:id="l679">Lorsqu’il faut à quelqu’un se produire soi-même,</l>
             <l n="680" xml:id="l680">Et toujours, près des Grands, on doit être introduit,</l>
@@ -1439,7 +1439,7 @@
             <l n="687" xml:id="l687">Et votre seul abord le peut faire connaître.</l>
           </sp>
           <sp who="caritides" xml:id="III02-9">
-            <speaker>caritidès</speaker>
+            <speaker>Caritidès</speaker>
             <l n="688" xml:id="l688">Oui je suis un savant charmé de vos vertus.</l>
             <l n="689" xml:id="l689">Non pas de ces savants, dont le nom n’est qu’en <hi rend="i">us</hi> :</l>
             <l n="690" xml:id="l690">Il n’est rien si commun, qu’un nom à la Latine.</l>
@@ -1452,7 +1452,7 @@
             <l n="694" xml:id="l694">Monsieur Caritidès soit. Qu’avez-vous à dire ?</l>
           </sp>
           <sp who="caritides" xml:id="III02-11">
-            <speaker>caritidès</speaker>
+            <speaker>Caritidès</speaker>
             <l n="695" xml:id="l695">C’est un placet, Monsieur, que je voudrais vous lire ;</l>
             <l n="696" xml:id="l696">Et que dans la posture, où vous met votre emploi,</l>
             <l n="697" xml:id="l697">J’ose vous conjurer de présenter au Roi.</l>
@@ -1462,7 +1462,7 @@
             <l n="698" xml:id="l698">Hé ! Monsieur, vous pouvez le présenter vous-même.</l>
           </sp>
           <sp who="caritides" xml:id="III02-13">
-            <speaker>caritidès</speaker>
+            <speaker>Caritidès</speaker>
             <l n="699" xml:id="l699">Il est vrai que le Roi fait cette grâce extrême ;</l>
             <l n="700" xml:id="l700">Mais par ce même excès de ses rares bontés,</l>
             <l n="701" xml:id="l701">Tant de méchants placets, Monsieur, sont présentés,</l>
@@ -1474,7 +1474,7 @@
             <l n="704" xml:id="l704">Eh bien vous le pouvez, et prendre votre temps.</l>
           </sp>
           <sp who="caritides" xml:id="III02-15">
-            <speaker>caritidès</speaker>
+            <speaker>Caritidès</speaker>
             <l n="705" xml:id="l705">Ah Monsieur ! les Huissiers sont de terribles gens,</l>
             <l n="706" xml:id="l706">Ils traitent les Savants de faquins à nasardes ;</l>
             <l n="707" xml:id="l707">Et je n’en puis venir qu’à la salle des Gardes.</l>
@@ -1489,7 +1489,7 @@
             <l n="713" xml:id="l713">Eh bien donnez-moi donc, je le présenterai.</l>
           </sp>
           <sp who="caritides" xml:id="III02-17">
-            <speaker>caritidès</speaker>
+            <speaker>Caritidès</speaker>
             <l n="714" xml:id="l714">Le voici ; mais au moins oyez-en la lecture.</l>
           </sp>
           <sp who="eraste" xml:id="III02-18">
@@ -1497,7 +1497,7 @@
             <l n="715" xml:id="l715">Non...</l>
           </sp>
           <sp who="caritides" xml:id="III02-19">
-            <speaker>caritidès</speaker>
+            <speaker>Caritidès</speaker>
             <l n="716" xml:id="l716">C’est pour être instruit : Monsieur, je vous conjure.</l>
           </sp>
           <label>AU ROI.</label>
@@ -1508,7 +1508,7 @@
             <l n="717" xml:id="l717">Ce Placet est fort long et pourrait bien fâcher…</l>
           </sp>
           <sp who="caritides" xml:id="III02-21">
-            <speaker>caritidès</speaker>
+            <speaker>Caritidès</speaker>
             <l n="718" xml:id="l718">Ah ! Monsieur pas un mot ne s’en peut retrancher.</l>
           </sp>
           <sp who="eraste" xml:id="III02-22">
@@ -1516,16 +1516,16 @@
             <l n="719" xml:id="l719">Achevez promptement.</l>
           </sp>
           <sp who="caritides" xml:id="III02-23">
-            <speaker>caritidès <hi rend="i">continue</hi> :</speaker>
+            <speaker>Caritidès <hi rend="i">continue</hi> :</speaker>
             <p rend="i">Supplie humblement Votre Majesté de créer, pour le bien de son État, et la gloire de son Empire, une Charge de Contrôleur, Intendant, Correcteur, Réviseur, et Restaurateur général desdites inscriptions ; et d'icelle honorer le suppliant, tant en considération de son rare et éminent savoir, que des grands et signalés services qu'il a rendus à l'État, et à Votre Majesté, en faisant l'Anagramme de votre dite Majesté en Français, Latin, Grec, Hébreu, Syriaque, Chaldéen, Arabe...</p>
           </sp>
           <sp who="eraste" xml:id="III02-24">
-            <speaker>éraste, <hi rend="i">l’interrompant</hi></speaker>
+            <speaker>Éraste, <hi rend="i">l’interrompant</hi></speaker>
             <l n="720" xml:id="l720">Fort bien : donnez-le vite, et faites la retraite :</l>
             <l n="721" xml:id="l721">Il sera vu du Roi ; c’est une affaire faite.</l>
           </sp>
           <sp who="caritides" xml:id="III02-25">
-            <speaker>caritidès</speaker>
+            <speaker>Caritidès</speaker>
             <l n="722" xml:id="l722">Hélas ! Monsieur, c’est tout que montrer mon placet.</l>
             <l n="723" xml:id="l723">Si le Roi le peut voir, je suis sûr de mon fait :</l>
             <l n="724" xml:id="l724">Car comme sa justice en toute chose est grande,</l>
@@ -1546,7 +1546,7 @@
           <head>Scène III</head>
           <stage>Ormin, Éraste.</stage>
           <sp who="ormin" xml:id="III03-1">
-            <speaker>ormin</speaker>
+            <speaker>Ormin</speaker>
             <l n="733" xml:id="l733">Bien qu’une grande affaire en ce lieu me conduise,</l>
             <l n="734" xml:id="l734">J’ai voulu qu’il sortît, avant que vous parler.</l>
           </sp>
@@ -1555,7 +1555,7 @@
             <l n="735" xml:id="l735">Fort bien, mais dépêchons, car je veux m’en aller.</l>
           </sp>
           <sp who="ormin" xml:id="III03-3">
-            <speaker>ormin</speaker>
+            <speaker>Ormin</speaker>
             <l n="736" xml:id="l736">Je me doute à peu près que l’homme qui vous quitte</l>
             <l n="737" xml:id="l737">Vous a fort ennuyé, Monsieur, par sa visite.</l>
             <l n="738" xml:id="l738">C’est un vieux importun, qui n’a pas l’esprit sain,</l>
@@ -1575,7 +1575,7 @@
             <l n="749" xml:id="l749">Qui peut, seule, enrichir tous les Rois de la terre ?</l>
           </sp>
           <sp who="ormin" xml:id="III03-5">
-            <speaker>ormin</speaker>
+            <speaker>Ormin</speaker>
             <l n="750" xml:id="l750">La plaisante pensée, hélas, où vous voilà !</l>
             <l n="751" xml:id="l751">Dieu me garde, Monsieur, d’être de ces fous-là.</l>
             <l n="752" xml:id="l752">Je ne me repais point de visions frivoles,</l>
@@ -1599,7 +1599,7 @@
             <l n="767" xml:id="l767">Soit, nous en parlerons, je suis un peu pressé.</l>
           </sp>
           <sp who="ormin" xml:id="III03-7">
-            <speaker>ormin</speaker>
+            <speaker>Ormin</speaker>
             <l n="768" xml:id="l768">Si vous me promettiez de garder le silence,</l>
             <l n="769" xml:id="l769">Je vous découvrirais cet avis d’importance.</l>
           </sp>
@@ -1608,7 +1608,7 @@
             <l n="770" xml:id="l770">Non, non, je ne veux point savoir votre secret.</l>
           </sp>
           <sp who="ormin" xml:id="III03-9">
-            <speaker>ormin</speaker>
+            <speaker>Ormin</speaker>
             <l n="771" xml:id="l771">Monsieur, pour le trahir, je vous crois trop discret,</l>
             <l n="772" xml:id="l772">Et veux, avec franchise, en deux mots vous l’apprendre.</l>
             <l n="773" xml:id="l773">Il faut voir si quelqu’un ne peut point nous entendre.</l>
@@ -1620,7 +1620,7 @@
             <l n="776" xml:id="l776">D’un peu plus loin, et pour cause, Monsieur.</l>
           </sp>
           <sp who="ormin" xml:id="III03-11">
-            <speaker>ormin</speaker>
+            <speaker>Ormin</speaker>
             <l n="777" xml:id="l777">Vous voyez le grand gain, sans qu’il faille le dire,</l>
             <l n="778" xml:id="l778">Que de ces ports de mer le Roi tous les ans tire.</l>
             <l n="779" xml:id="l779">Or l’avis dont encor nul ne s’est avisé,</l>
@@ -1635,7 +1635,7 @@
             <l n="785" xml:id="l785">Adieu, nous nous verrons.</l>
           </sp>
           <sp who="ormin" xml:id="III03-13">
-            <speaker>ormin</speaker>
+            <speaker>Ormin</speaker>
             <l n="786" xml:id="l786">Au moins appuyez-moi,</l>
             <l n="787" xml:id="l787">Pour en avoir ouvert les premières paroles.</l>
           </sp>
@@ -1644,7 +1644,7 @@
             <l n="788" xml:id="l788">Oui, oui.</l>
           </sp>
           <sp who="ormin" xml:id="III03-15">
-            <speaker>ormin</speaker>
+            <speaker>Ormin</speaker>
             <l n="789" xml:id="l789">Si vous vouliez me prêter deux pistoles,</l>
             <l n="790" xml:id="l790">Que vous reprendriez sur le droit de l’avis,</l>
             <l n="791" xml:id="l791">Monsieur…</l>
@@ -1662,7 +1662,7 @@
           <head>Scène IV</head>
           <stage>Filinte, Éraste.</stage>
           <sp who="filinte" xml:id="III04-1">
-            <speaker>filinte</speaker>
+            <speaker>Filinte</speaker>
             <l n="797" xml:id="l797">Marquis, je viens d’apprendre une étrange nouvelle.</l>
           </sp>
           <sp who="eraste" xml:id="III04-2">
@@ -1670,7 +1670,7 @@
             <l n="798" xml:id="l798">Quoi ?</l>
           </sp>
           <sp who="filinte" xml:id="III04-3">
-            <speaker>filinte</speaker>
+            <speaker>Filinte</speaker>
             <l n="799" xml:id="l799">Qu’un homme, tantôt, t’a fait une querelle.</l>
           </sp>
           <sp who="eraste" xml:id="III04-4">
@@ -1678,7 +1678,7 @@
             <l n="800" xml:id="l800">À moi ?</l>
           </sp>
           <sp who="filinte" xml:id="III04-5">
-            <speaker>filinte</speaker>
+            <speaker>Filinte</speaker>
             <l n="801" xml:id="l801">Que te sert-il de le dissimuler ?</l>
             <l n="802" xml:id="l802">Je sais de bonne part qu’on t’a fait appeler ;</l>
             <l n="803" xml:id="l803">Et comme ton ami, quoi qu’il en réussisse,</l>
@@ -1689,7 +1689,7 @@
             <l n="805" xml:id="l805">Je te suis obligé ; mais crois que tu me fais…</l>
           </sp>
           <sp who="filinte" xml:id="III04-7">
-            <speaker>filinte</speaker>
+            <speaker>Filinte</speaker>
             <l n="806" xml:id="l806">Tu ne l’avoueras pas, mais tu sors sans valets :</l>
             <l n="807" xml:id="l807">Demeure dans la ville, ou gagne la campagne,</l>
             <l n="808" xml:id="l808">Tu n’iras nulle part que je ne t’accompagne.</l>
@@ -1699,7 +1699,7 @@
             <l n="809" xml:id="l809">Ah j’enrage.</l>
           </sp>
           <sp who="filinte" xml:id="III04-9">
-            <speaker>filinte</speaker>
+            <speaker>Filinte</speaker>
             <l n="810" xml:id="l810">À quoi bon de te cacher de moi ?</l>
           </sp>
           <sp who="eraste" xml:id="III04-10">
@@ -1707,7 +1707,7 @@
             <l n="811" xml:id="l811">Je te jure, Marquis, qu’on s’est moqué de toi.</l>
           </sp>
           <sp who="filinte" xml:id="III04-11">
-            <speaker>filinte</speaker>
+            <speaker>Filinte</speaker>
             <l n="812" xml:id="l812">En vain tu t’en défends.</l>
           </sp>
           <sp who="eraste" xml:id="III04-12">
@@ -1716,7 +1716,7 @@
             <l n="814" xml:id="l814">Si d’aucun démêlé…</l>
           </sp>
           <sp who="filinte" xml:id="III04-13">
-            <speaker>filinte</speaker>
+            <speaker>Filinte</speaker>
             <l n="815" xml:id="l815">Tu penses qu’on te croie ?</l>
           </sp>
           <sp who="eraste" xml:id="III04-14">
@@ -1725,7 +1725,7 @@
             <l n="817" xml:id="l817">Que…</l>
           </sp>
           <sp who="filinte" xml:id="III04-15">
-            <speaker>filinte</speaker>
+            <speaker>Filinte</speaker>
             <l n="818" xml:id="l818">Ne me crois pas dupe, et crédule à ce point.</l>
           </sp>
           <sp who="eraste" xml:id="III04-16">
@@ -1733,7 +1733,7 @@
             <l n="819" xml:id="l819">Veux-tu m’obliger ?</l>
           </sp>
           <sp who="filinte" xml:id="III04-17">
-            <speaker>filinte</speaker>
+            <speaker>Filinte</speaker>
             <l n="820" xml:id="l820">Non.</l>
           </sp>
           <sp who="eraste" xml:id="III04-18">
@@ -1741,7 +1741,7 @@
             <l n="821" xml:id="l821">Laisse-moi, je te prie.</l>
           </sp>
           <sp who="filinte" xml:id="III04-19">
-            <speaker>filinte</speaker>
+            <speaker>Filinte</speaker>
             <l n="822" xml:id="l822">Point d’affaire, Marquis.</l>
           </sp>
           <sp who="eraste" xml:id="III04-20">
@@ -1750,7 +1750,7 @@
             <l n="824" xml:id="l824">En certain lieu, ce soir…</l>
           </sp>
           <sp who="filinte" xml:id="III04-21">
-            <speaker>filinte</speaker>
+            <speaker>Filinte</speaker>
             <l n="825" xml:id="l825">Je ne te quitte pas :</l>
             <l n="826" xml:id="l826">En quel lieu que ce soit, je veux suivre tes pas.</l>
           </sp>
@@ -1762,7 +1762,7 @@
             <l n="830" xml:id="l830">Et dont je ne me puis par douceur dégager.</l>
           </sp>
           <sp who="filinte" xml:id="III04-23">
-            <speaker>filinte</speaker>
+            <speaker>Filinte</speaker>
             <l n="831" xml:id="l831">C'est fort mal d’un ami recevoir le service :</l>
             <l n="832" xml:id="l832">Mais, puisque je vous rends un si mauvais office,</l>
             <l n="833" xml:id="l833">Adieu, videz sans moi tout ce que vous aurez.</l>
@@ -1793,7 +1793,7 @@
             <l n="842" xml:id="l842">Doit voir ce soir chez elle Éraste sans témoins.</l>
           </sp>
           <sp who="riviere" xml:id="III05-4">
-            <speaker>la rivière</speaker>
+            <speaker>La rivière</speaker>
             <l n="843" xml:id="l843">Qu’entends-je à ces gens-là dire de notre Maître ?</l>
             <l n="844" xml:id="l844">Approchons doucement, sans nous faire connaître.</l>
           </sp>
@@ -1809,18 +1809,18 @@
             <l n="852" xml:id="l852">Et noyer dans son sang sa flamme criminelle.</l>
           </sp>
           <sp who="riviere" xml:id="III05-6">
-            <speaker>la rivière, <hi rend="i">l’attaquant avec ses compagnons</hi>.</speaker>
+            <speaker>La rivière, <hi rend="i">l’attaquant avec ses compagnons</hi>.</speaker>
             <l n="853" xml:id="l853">Avant qu’à tes fureurs on puisse l’immoler,</l>
             <l n="854" xml:id="l854">Traître tu trouveras en nous à qui parler.</l>
           </sp>
           <sp who="eraste" xml:id="III05-7">
-            <speaker>éraste, <hi rend="i">mettant l’épée à la main.</hi></speaker>
+            <speaker>Éraste, <hi rend="i">mettant l’épée à la main.</hi></speaker>
             <l n="855" xml:id="l855">Bien qu’il m’ait voulu perdre, un point d’honneur me presse</l>
             <l n="856" xml:id="l856">De secourir ici l’oncle de ma Maîtresse.</l>
             <l n="857" xml:id="l857">Je suis à vous, Monsieur.</l>
           </sp>
           <sp who="damis" xml:id="III05-8">
-            <speaker>damis <hi rend="i">après leur fuite</hi>.</speaker>
+            <speaker>Damis <hi rend="i">après leur fuite</hi>.</speaker>
             <l n="858" xml:id="l858">Ô Ciel, par quel secours,</l>
             <l n="859" xml:id="l859">D’un trépas assuré vois-je sauver mes jours !</l>
             <l n="860" xml:id="l860">À qui suis-je obligé d’un si rare service ?</l>

@@ -61,18 +61,18 @@
       <div>
         <head>ACTEUR</head>
         <castList>
-          <castItem><role xml:id="acante" civil="M" type="H" statut="berger" age="A" stat_amour="Daphné">Acante</role>, amant de Daphné.</castItem>
-          <castItem><role xml:id="tyrene" civil="M" type="H" statut="berger" age="A" stat_amour="Eroxène">Tyrène</role>, amant d’Éroxène.</castItem>
-          <castItem><role xml:id="daphne" civil="F" type="H" statut="berger" age="A" stat_amour="néant">Daphné</role>, bergère.</castItem>
-          <castItem><role xml:id="eroxene" civil="F" type="H" statut="berger" age="A" stat_amour="néant">Éroxène</role>, bergère.</castItem>
-          <castItem><role xml:id="lycarsis" civil="M" type="H" statut="pâtre" age="A" stat_amour="néant">Lycarsys</role>, pâtre, cru père de Myrtil.</castItem>
-          <castItem><role xml:id="myrtil" civil="M" type="H" statut="berger" age="A" stat_amour="Mélicerte">Myrtil</role>, amant de Mélicerte.</castItem>
-          <castItem><role xml:id="melicerte" civil="F" type="D" statut="nymphe" age="A" stat_amour="Myrtil">Mélicerte</role>, nymphe ou bergère, amante de Myrtil.</castItem>
-          <castItem><role xml:id="corinne" civil="F" type="H" statut="confident" age="A" stat_amour="néant">Corinne</role>, confidente de Mélicerte.</castItem>
-          <castItem><role xml:id="nicandre" civil="M" type="H" statut="berger" age="A" stat_amour="néant">Nicandre</role>, berger.</castItem>
-          <castItem><role xml:id="mopse" civil="M" type="H" statut="berger" age="A" stat_amour="néant">Mopse</role>, berger, cru oncle de Mélicerte.</castItem>
+          <castItem><role xml:id="acante" rend="male junior">Acante</role>, amant de Daphné.</castItem>
+          <castItem><role xml:id="tyrene" rend="male junior">Tyrène</role>, amant d’Éroxène.</castItem>
+          <castItem><role xml:id="daphne" rend="female junior">Daphné</role>, bergère.</castItem>
+          <castItem><role xml:id="eroxene" rend="female junior">Éroxène</role>, bergère.</castItem>
+          <castItem><role xml:id="lycarsis" rend="male">Lycarsys</role>, pâtre, cru père de Myrtil.</castItem>
+          <castItem><role xml:id="myrtil" rend="male junior">Myrtil</role>, amant de Mélicerte.</castItem>
+          <castItem><role xml:id="melicerte" rend="female junior">Mélicerte</role>, nymphe ou bergère, amante de Myrtil.</castItem>
+          <castItem><role xml:id="corinne" redn="female inferior">Corinne</role>, confidente de Mélicerte.</castItem>
+          <castItem><role xml:id="nicandre" rend="male">Nicandre</role>, berger.</castItem>
+          <castItem><role xml:id="mopse" rend="male">Mopse</role>, berger, cru oncle de Mélicerte.</castItem>
         </castList>
-        <set location="Thessalie" country="Grèce" periode="Temps mythologiques" link="">La scène est en Thessalie, dans la vallée de Tempé.</set>
+        <stage location="Thessalie" country="Grèce" periode="Temps mythologiques" link="">La scène est en Thessalie, dans la vallée de Tempé.</stage>
       </div>
     </front>
     <body>

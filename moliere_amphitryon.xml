@@ -70,7 +70,7 @@
           la Sainte-Chapelle, <lb/>À l'Image Saint-Louis. <lb/>M. DC. LXVIII. <lb/><hi rend="i">AVEC PRIVILÈGE DU ROI.</hi></docImprint>
       </titlePage>
       <div>
-        <head>À SON ALTESSE SÉRÉNISSIME MONSEIGNEUR LE PRINCE.</head>
+        <head>À SON ALTESSE SÉRÉNISSIME MONSEIGNEUR LE PRINCE</head>
         <p rend="sc">Monseigneur,</p>
         <p>N'en déplaise à nos beaux Esprits, je ne vois rien de plus ennuyeux que les Épitres
           Dédicatoires ; et <hi rend="sc">Votre Altesse Sérénissime</hi> trouvera bon, s'il lui
@@ -109,17 +109,17 @@
       <div>
         <head>ACTEURS</head>
         <castList>
-          <castItem><role xml:id="mercure" civil="M" type="D" statut="dieu" age="A" stat_amour="néant">Mercure</role>.</castItem>
-          <castItem><role xml:id="nuit" civil="F" type="D" statut="personnification" age="A" stat_amour="néant">La Nuit</role>.</castItem>
-          <castItem><role xml:id="jupiter" civil="M" type="D" statut="dieu" age="A" stat_amour="néant">Jupiter</role>, sous le forme d'Amphitryon.</castItem>
-          <castItem><role xml:id="amphitryon" civil="M" type="H" statut="général" age="A" stat_amour="néant">Amphitryon</role>, Général des Thébains.</castItem>
-          <castItem><role xml:id="alcmene" civil="F" type="H" statut="aristocrate" age="A" stat_amour="néant">Alcmène</role>, Femme d'Amphitryon.</castItem>
-          <castItem><role xml:id="cleanthis" civil="F" type="H" statut="suivante" age="A" stat_amour="néant">Cléanthis</role>, Suivante d'Alcmène et Femme de Sosie.</castItem>
-          <castItem><role xml:id="sosie" civil="M" type="H" statut="valet" age="A" stat_amour="néant">Sosie</role>, Valet d'Amphitryon.</castItem>
-          <castItem><role xml:id="argatiphontidas" civil="M" type="H" statut="capitaine" age="A" stat_amour="néant">Argatiphontidas</role>, capitaine thébain.</castItem>
-          <castItem><role xml:id="naucrates" civil="M" type="H" statut="capitaine" age="A" stat_amour="néant">Naucratès</role>, capitaine thébain.</castItem>
-          <castItem><role xml:id="polidas" civil="M" type="H" statut="capitaine" age="A" stat_amour="néant">Polidas</role>, capitaine thébain.</castItem>
-          <castItem><role xml:id="posicles" civil="M" type="H" statut="capitaine" age="A" stat_amour="néant">Posiclès</role>, capitaine thébain.</castItem>
+          <castItem><role xml:id="mercure" rend="male superior">Mercure</role>.</castItem>
+          <castItem><role xml:id="nuit" rend="female superior">La Nuit</role>.</castItem>
+          <castItem><role xml:id="jupiter" rend="male superior">Jupiter</role>, sous le forme d'Amphitryon.</castItem>
+          <castItem><role xml:id="amphitryon" rend="male">Amphitryon</role>, Général des Thébains.</castItem>
+          <castItem><role xml:id="alcmene" rend="female">Alcmène</role>, Femme d'Amphitryon.</castItem>
+          <castItem><role xml:id="cleanthis" rend="female inferior">Cléanthis</role>, Suivante d'Alcmène et Femme de Sosie.</castItem>
+          <castItem><role xml:id="sosie" rend="male inferior">Sosie</role>, Valet d'Amphitryon.</castItem>
+          <castItem><role xml:id="argatiphontidas" rend="male">Argatiphontidas</role>, capitaine thébain.</castItem>
+          <castItem><role xml:id="naucrates" rend="male">Naucratès</role>, capitaine thébain.</castItem>
+          <castItem><role xml:id="polidas" rend="male">Polidas</role>, capitaine thébain.</castItem>
+          <castItem><role xml:id="posicles" rend="male">Posiclès</role>, capitaine thébain.</castItem>
         </castList>
         <stage location="Thèbes" country="Grèce" periode="Temps mythologiques" link="">La Scène est à
           Thèbes, devant la Maison d'Amphitryon.</stage>
@@ -127,10 +127,10 @@
     </front>
     <body>
       <div1 type="act" xml:id="a">
-        <head>PROLOGUE.</head>
+        <head>Prologue</head>
         <stage>Mercure, <hi rend="i">sur un nuage,</hi> la Nuit, <hi rend="i">dans un char traîné par deux Chevaux</hi>.</stage>
         <sp who="mercure" xml:id="a-1">
-          <speaker>mercure</speaker>
+          <speaker>Mercure</speaker>
           <l>Tout beau, charmante Nuit ; daignez vous arrêter.</l>
           <l>Il est certain secours, que de vous on désire :</l>
           <l>Et j’ai deux mots à vous dire,</l>
@@ -142,7 +142,7 @@
           <l>Qui vous eût deviné là, dans cette posture ?</l>
         </sp>
         <sp who="mercure" xml:id="a-3">
-          <speaker>mercure</speaker>
+          <speaker>Mercure</speaker>
           <l>Ma foi, me trouvant las, pour ne pouvoir fournir</l>
           <l>Aux différents Emplois où Jupiter m’engage,</l>
           <l>Je me suis doucement assis sur ce Nuage,</l>
@@ -154,7 +154,7 @@
           <l>Sied-il bien à des Dieux de dire qu’ils sont las ?</l>
         </sp>
         <sp who="mercure" xml:id="a-5">
-          <speaker>mercure</speaker>
+          <speaker>Mercure</speaker>
           <l>Les Dieux sont-ils de Fer ?</l>
         </sp>
         <sp who="nuit" xml:id="a-6">
@@ -167,7 +167,7 @@
           <l>Il est bon qu’aux Hommes on laisse.</l>
         </sp>
         <sp who="mercure" xml:id="a-7">
-          <speaker>mercure</speaker>
+          <speaker>Mercure</speaker>
           <l>À votre aise vous en parlez ;</l>
           <l>Et vous avez, la Belle, une Chaise roulante,</l>
           <l>Où par deux bons Chevaux, en Dame nonchalante,</l>
@@ -199,7 +199,7 @@
           <l>Et vos ailes aux pieds sont un don de leurs soins.</l>
         </sp>
         <sp who="mercure" xml:id="a-9">
-          <speaker>mercure</speaker>
+          <speaker>Mercure</speaker>
           <l>Oui ; mais, pour aller plus vite,</l>
           <l>Est-ce qu’on s’en lasse moins ?</l>
         </sp>
@@ -209,7 +209,7 @@
           <l>Et sachons ce dont il s’agit.</l>
         </sp>
         <sp who="mercure" xml:id="a-11">
-          <speaker>mercure</speaker>
+          <speaker>Mercure</speaker>
           <l>C’est Jupiter, comme je vous l’ai dit,</l>
           <l>Qui de votre Manteau veut la faveur obscure,</l>
           <l>Pour certaine douce aventure,</l>
@@ -244,7 +244,7 @@
           <l>Tous les déguisements, qui lui viennent en tête.</l>
         </sp>
         <sp who="mercure" xml:id="a-13">
-          <speaker>mercure</speaker>
+          <speaker>Mercure</speaker>
           <l>Il veut goûter par là toutes sortes d’États ;</l>
           <l>Et c’est agir en Dieu qui n’est pas Bête.</l>
           <l>Dans quelque rang qu’il soit des Mortels regardé,</l>
@@ -275,7 +275,7 @@
           <l>Et ne m’étonne pas, si parfois on en cause.</l>
         </sp>
         <sp who="mercure" xml:id="a-15">
-          <speaker>mercure</speaker>
+          <speaker>Mercure</speaker>
           <l>Laissons dire tous les Censeurs.</l>
           <l>Tels changements ont leurs douceurs,</l>
           <l>Qui passent leur intelligence.</l>
@@ -290,7 +290,7 @@
           <l>Que peut-il souhaiter ? et qu’est-ce que je puis ?</l>
         </sp>
         <sp who="mercure" xml:id="a-17">
-          <speaker>mercure</speaker>
+          <speaker>Mercure</speaker>
           <l>Que vos Chevaux par vous au petit pas réduits,</l>
           <l>Pour satisfaire aux vœux de son Âme amoureuse,</l>
           <l>D’une Nuit si délicieuse,</l>
@@ -308,7 +308,7 @@
           <l>Au service qu’il veut de moi.</l>
         </sp>
         <sp who="mercure" xml:id="a-19">
-          <speaker>mercure</speaker>
+          <speaker>Mercure</speaker>
           <l>Pour une jeune Déesse,</l>
           <l>Vous êtes bien du bon temps !</l>
           <l>Un tel Emploi n’est bassesse,</l>
@@ -326,7 +326,7 @@
           <l>J’en veux croire vos lumières.</l>
         </sp>
         <sp who="mercure" xml:id="a-21">
-          <speaker>mercure</speaker>
+          <speaker>Mercure</speaker>
           <l>Hé, là, là, Madame la Nuit,</l>
           <l>Un peu doucement je vous prie.</l>
           <l>Vous avez dans le Monde un bruit,</l>
@@ -344,7 +344,7 @@
           <l>En nous disant nos vérités.</l>
         </sp>
         <sp who="mercure" xml:id="a-23">
-          <speaker>mercure</speaker>
+          <speaker>Mercure</speaker>
           <l>Adieu, je vais là-bas, dans ma Commission,</l>
           <l>Dépouiller promptement la forme de Mercure,</l>
           <l>Pour y vêtir la Figure</l>
@@ -356,7 +356,7 @@
           <l>Je vais faire une Station.</l>
         </sp>
         <sp who="mercure" xml:id="a-25">
-          <speaker>mercure</speaker>
+          <speaker>Mercure</speaker>
           <l>Bon jour, la Nuit.</l>
         </sp>
         <sp who="nuit" xml:id="a-26">
@@ -366,11 +366,11 @@
         </sp>
       </div1>
       <div1 type="act" xml:id="I">
-        <head>ACTE I</head>
-        <div2 type="titre2" xml:id="I01">
-          <head>SCÈNE PREMIÈRE.</head>
+        <head>Acte I</head>
+        <div2 type="scene" xml:id="I01">
+          <head>Scène Première</head>
           <sp who="sosie" xml:id="I01-1">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Qui va là ? Heu ? Ma peur, à chaque pas s’accroît.</l>
             <l>Messieurs, Ami de tout le Monde.</l>
             <l>Ah ! quelle audace sans seconde,</l>
@@ -484,29 +484,29 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="I02">
-          <head>SCÈNE II.</head>
+          <head>Scène II</head>
           <stage>Mercure, Sosie.</stage>
           <sp who="mercure" xml:id="I02-1">
-            <speaker>mercure, <hi rend="i">sous la forme de Sosie</hi></speaker>
+            <speaker>Mercure, <hi rend="i">sous la forme de Sosie</hi></speaker>
             <l>Sous ce minois, qui lui ressemble,</l>
             <l>Chassons de ces Lieux ce Causeur ;</l>
             <l>Dont l’abord importun troublerait la douceur,</l>
             <l>Que nos Amants goûtent ensemble.</l>
           </sp>
           <sp who="sosie" xml:id="I02-2">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Mon Cœur tant soit peu se rassure ;</l>
             <l>Et je pense que ce n’est rien.</l>
             <l>Crainte pourtant de sinistre aventure,</l>
             <l>Allons chez nous achever l’Entretien.</l>
           </sp>
           <sp who="mercure" xml:id="I02-3">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Tu seras plus fort que Mercure,</l>
             <l>Ou je t’en empêcherai bien.</l>
           </sp>
           <sp who="sosie" xml:id="I02-4">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Cette Nuit, en longueur, me semble sans pareille :</l>
             <l>Il faut depuis le temps que je suis en chemin,</l>
             <l>Ou que mon Maître ait pris le soir pour le matin,</l>
@@ -514,7 +514,7 @@
             <l>Pour avoir trop pris de son Vin.</l>
           </sp>
           <sp who="mercure" xml:id="I02-5">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Comme avec irrévérence</l>
             <l>Parle des Dieux ce Maraud !</l>
             <l>Mon Bras saura bien tantôt</l>
@@ -523,7 +523,7 @@
             <l>En lui volant son Nom, avec sa Ressemblance.</l>
           </sp>
           <sp who="sosie" xml:id="I02-6">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Ah ! par ma foi, j’avais raison !</l>
             <l>C’est fait de moi, chétive Créature.</l>
             <l>Je vois devant notre Maison,</l>
@@ -534,17 +534,17 @@
             <stage>Il chante ; et lorsque Mercure parle, sa voix s’affaiblit peu à peu.</stage>
           </sp>
           <sp who="mercure" xml:id="I02-7">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Qui donc est ce Coquin, qui prend tant de licence,</l>
             <l>Que de chanter, et m’étourdir ainsi ?</l>
             <l>Veut-il qu’à l’étriller, ma Main un peu s’applique ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-8">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Cet Homme, assurément, n’aime pas la Musique.</l>
           </sp>
           <sp who="mercure" xml:id="I02-9">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Depuis plus d’une Semaine,</l>
             <l>Je n’ai trouvé personne à qui rompre les os.</l>
             <l>La vertu de mon Bras se perd dans le repos ;</l>
@@ -552,7 +552,7 @@
             <l>Pour me remettre en haleine.</l>
           </sp>
           <sp who="sosie" xml:id="I02-10">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Quel diable d’Homme est-ce ci ?</l>
             <l>De mortelles frayeurs je sens mon Âme atteinte.</l>
             <l>Mais pourquoi trembler tant aussi ?</l>
@@ -566,234 +566,234 @@
             <l>Et voilà notre Maison.</l>
           </sp>
           <sp who="mercure" xml:id="I02-11">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Qui va là ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-12">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Moi.</l>
           </sp>
           <sp who="mercure" xml:id="I02-13">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Qui, moi ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-14">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Moi. Courage, Sosie !</l>
           </sp>
           <sp who="mercure" xml:id="I02-15">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Quel est ton sort, dis-moi ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-16">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>D’être Homme, et de parler.</l>
           </sp>
           <sp who="mercure" xml:id="I02-17">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Es-tu Maître, ou Valet ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-18">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Comme il me prend envie.</l>
           </sp>
           <sp who="mercure" xml:id="I02-19">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Où s’adressent tes pas ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-20">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Où j’ai dessein d’aller.</l>
           </sp>
           <sp who="mercure" xml:id="I02-21">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Ah ! ceci me déplaît.</l>
           </sp>
           <sp who="sosie" xml:id="I02-22">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>J’en ai l’Âme ravie.</l>
           </sp>
           <sp who="mercure" xml:id="I02-23">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Résolument, par force, ou par amour,</l>
             <l>Je veux savoir de toi, Traître,</l>
             <l>Ce que tu fais ; d’où tu viens avant jour ;</l>
             <l>Où tu vas ; à qui tu peux être.</l>
           </sp>
           <sp who="sosie" xml:id="I02-24">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Je fais le bien, et le mal, tour à tour :</l>
             <l>Je viens de là ; vais là ; j’appartiens à mon Maître.</l>
           </sp>
           <sp who="mercure" xml:id="I02-25">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Tu montres de l’Esprit ; et je te vois en train</l>
             <l>De trancher avec moi de l’Homme d’importance.</l>
             <l>Il me prend un désir, pour faire connaissance,</l>
             <l>De te donner un Soufflet de ma Main.</l>
           </sp>
           <sp who="sosie" xml:id="I02-26">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>À moi-même ?</l>
           </sp>
           <sp who="mercure" xml:id="I02-27">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>À toi-même, et t’en voilà certain.</l>
             <stage>Il lui donne un Soufflet.</stage>
           </sp>
           <sp who="sosie" xml:id="I02-28">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Ah, ah, c’est tout de bon !</l>
           </sp>
           <sp who="mercure" xml:id="I02-29">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Non, ce n’est que pour rire,</l>
             <l>Et répondre à tes Quolibets.</l>
           </sp>
           <sp who="sosie" xml:id="I02-30">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Tudieu, l’Ami, sans vous rien dire,</l>
             <l>Comme vous baillez des Soufflets !</l>
           </sp>
           <sp who="mercure" xml:id="I02-31">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Ce sont là de mes moindres coups ;</l>
             <l>De petits Soufflets ordinaires.</l>
           </sp>
           <sp who="sosie" xml:id="I02-32">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Si j’étais aussi prompt que vous,</l>
             <l>Nous ferions de belles affaires.</l>
           </sp>
           <sp who="mercure" xml:id="I02-33">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Tout cela n’est encor rien,</l>
             <l>Pour y faire quelque pause :</l>
             <l>Nous verrons bien autre chose ;</l>
             <l>Poursuivons notre Entretien.</l>
           </sp>
           <sp who="sosie" xml:id="I02-34">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <stage>Il veut s’en aller.</stage>
             <l>Je quitte la Partie.</l>
           </sp>
           <sp who="mercure" xml:id="I02-35">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Où vas-tu ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-36">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Que t’importe ?</l>
           </sp>
           <sp who="mercure" xml:id="I02-37">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Je veux savoir où tu vas.</l>
           </sp>
           <sp who="sosie" xml:id="I02-38">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Me faire ouvrir cette Porte :</l>
             <l>Pourquoi retiens-tu mes pas ?</l>
           </sp>
           <sp who="mercure" xml:id="I02-39">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Si jusqu’à l’approcher tu pousses ton audace,</l>
             <l>Je fais sur toi pleuvoir un Orage de coups.</l>
           </sp>
           <sp who="sosie" xml:id="I02-40">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Quoi ! tu veux, par ta menace,</l>
             <l>M’empêcher d’entrer chez nous ?</l>
           </sp>
           <sp who="mercure" xml:id="I02-41">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Comment, chez nous !</l>
           </sp>
           <sp who="sosie" xml:id="I02-42">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Oui, chez nous.</l>
           </sp>
           <sp who="mercure" xml:id="I02-43">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Ô le Traître !</l>
             <l>Tu te dis de cette Maison ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-44">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Fort bien. Amphitryon n’en est-il pas le Maître ?</l>
           </sp>
           <sp who="mercure" xml:id="I02-45">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Hé bien ! que fait cette raison ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-46">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Je suis son valet.</l>
           </sp>
           <sp who="mercure" xml:id="I02-47">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Toi ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-48">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Moi.</l>
           </sp>
           <sp who="mercure" xml:id="I02-49">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Son valet ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-50">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Sans doute.</l>
           </sp>
           <sp who="mercure" xml:id="I02-51">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Valet d’Amphitryon ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-52">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>D’Amphitryon ; de lui.</l>
           </sp>
           <sp who="mercure" xml:id="I02-53">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Ton Nom est ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-54">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Sosie.</l>
           </sp>
           <sp who="mercure" xml:id="I02-55">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Heu ? Comment ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-56">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Sosie.</l>
           </sp>
           <sp who="mercure" xml:id="I02-57">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Écoute.</l>
             <l>Sais-tu que de ma Main je t’assomme aujourd’hui ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-58">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Pourquoi ? De quelle rage est ton Âme saisie ?</l>
           </sp>
           <sp who="mercure" xml:id="I02-59">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Qui te donne, dis-moi, cette témérité,</l>
             <l>De prendre le Nom de Sosie ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-60">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Moi, je ne le prends point, je l’ai toujours porté.</l>
           </sp>
           <sp who="mercure" xml:id="I02-61">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Ô le mensonge horrible ! et l’impudence extrême !</l>
             <l>Tu m’oses soutenir, que Sosie est ton Nom ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-62">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Fort bien, je le soutiens ; par la grande raison,</l>
             <l>Qu’ainsi l’a fait des Dieux la Puissance suprême :</l>
             <l>Et qu’il n’est pas en moi de pouvoir dire non,</l>
@@ -801,29 +801,29 @@
             <stage>Mercure le bat.</stage>
           </sp>
           <sp who="mercure" xml:id="I02-63">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Mille coups de bâton doivent être le prix</l>
             <l>D’une pareille effronterie.</l>
           </sp>
           <sp who="sosie" xml:id="I02-64">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Justice, Citoyens ! au secours, je vous prie !</l>
           </sp>
           <sp who="mercure" xml:id="I02-65">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Comment, Bourreau, tu fais des cris ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-66">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>De mille coups tu me meurtris,</l>
             <l>Et tu ne veux pas que je crie ?</l>
           </sp>
           <sp who="mercure" xml:id="I02-67">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>C’est ainsi que mon Bras…</l>
           </sp>
           <sp who="sosie" xml:id="I02-68">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>L’action ne vaut rien.</l>
             <l>Tu triomphes de l’avantage,</l>
             <l>Que te donne sur moi mon manque de courage,</l>
@@ -836,68 +836,68 @@
             <l>Contre les Gens qui n’en ont pas.</l>
           </sp>
           <sp who="mercure" xml:id="I02-69">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Hé bien, es-tu Sosie à présent ? qu’en dis-tu ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-70">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Tes coups n’ont point en moi fait de métamorphose.</l>
             <l>Et tout le changement que je trouve à la chose,</l>
             <l>C’est d’être Sosie battu.</l>
           </sp>
           <sp who="mercure" xml:id="I02-71">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Encor ? Cent autres coups pour cette autre impudence.</l>
           </sp>
           <sp who="sosie" xml:id="I02-72">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>De grâce, fais trêve à tes coups.</l>
           </sp>
           <sp who="mercure" xml:id="I02-73">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Fais donc trêve à ton insolence.</l>
           </sp>
           <sp who="sosie" xml:id="I02-74">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Tout ce qu’il te plaira ; je garde le silence :</l>
             <l>La dispute est par trop inégale entre nous.</l>
           </sp>
           <sp who="mercure" xml:id="I02-75">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Es-tu Sosie encor ? dis, Traître !</l>
           </sp>
           <sp who="sosie" xml:id="I02-76">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Hélas ! je suis ce que tu veux.</l>
             <l>Dispose de mon sort, tout au gré de tes vœux ;</l>
             <l>Ton Bras t’en a fait le Maître.</l>
           </sp>
           <sp who="mercure" xml:id="I02-77">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Ton Nom était Sosie, à ce que tu disais.</l>
           </sp>
           <sp who="sosie" xml:id="I02-78">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Il est vrai, jusqu’ici j’ai cru la chose claire :</l>
             <l>Mais ton Bâton, sur cette affaire,</l>
             <l>M’a fait voir que je m’abusais.</l>
           </sp>
           <sp who="mercure" xml:id="I02-79">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>C’est moi qui suis Sosie ; et tout Thèbes l’avoue.</l>
             <l>Amphitryon jamais n’en eut d’autre que moi.</l>
           </sp>
           <sp who="sosie" xml:id="I02-80">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Toi Sosie ?</l>
           </sp>
           <sp who="mercure" xml:id="I02-81">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Oui, Sosie ; et si quelqu’un s’y joue,</l>
             <l>Il peut bien prendre garde à soi.</l>
           </sp>
           <sp who="sosie" xml:id="I02-82">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Ciel ! me faut-il ainsi renoncer à moi-même ;</l>
             <l>Et par un Imposteur me voir voler mon Nom ?</l>
             <l>Que son bonheur est extrême,</l>
@@ -905,71 +905,71 @@
             <l>Sans cela, par la mort…</l>
           </sp>
           <sp who="mercure" xml:id="I02-83">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Entre tes dents, je pense,</l>
             <l>Tu murmures je ne sais quoi ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-84">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Non ; mais, au nom des Dieux, donne-moi la licence</l>
             <l>De parler un moment à toi.</l>
           </sp>
           <sp who="mercure" xml:id="I02-85">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Parle.</l>
           </sp>
           <sp who="sosie" xml:id="I02-86">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Mais promets-moi, de grâce,</l>
             <l>Que les coups n’en seront point.</l>
             <l>Signons une Trêve.</l>
           </sp>
           <sp who="mercure" xml:id="I02-87">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Passe ;</l>
             <l>Va, je t’accorde ce point.</l>
           </sp>
           <sp who="sosie" xml:id="I02-88">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Qui te jette, dis-moi, dans cette fantaisie ?</l>
             <l>Que te reviendra-t-il, de m’enlever mon Nom ?</l>
             <l>Et peux-tu faire enfin, quand tu serais Démon,</l>
             <l>Que je ne sois pas Moi ? que je ne sois Sosie ?</l>
           </sp>
           <sp who="mercure" xml:id="I02-89">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Comment, tu peux…</l>
           </sp>
           <sp who="sosie" xml:id="I02-90">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Ah ! tout doux :</l>
             <l>Nous avons fait trêve aux coups.</l>
           </sp>
           <sp who="mercure" xml:id="I02-91">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Quoi ! Pendard, Imposteur, Coquin…</l>
           </sp>
           <sp who="sosie" xml:id="I02-92">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Pour des injures,</l>
             <l>Dis-m’en tant que tu voudras :</l>
             <l>Ce sont légères blessures ;</l>
             <l>Et je ne m’en fâche pas.</l>
           </sp>
           <sp who="mercure" xml:id="I02-93">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Tu te dis Sosie !</l>
           </sp>
           <sp who="sosie" xml:id="I02-94">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Oui, quelque conte frivole…</l>
           </sp>
           <sp who="mercure" xml:id="I02-95">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Sus, je romps notre trêve, et reprends ma parole.</l>
           </sp>
           <sp who="sosie" xml:id="I02-96">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>N’importe, je ne puis m’anéantir pour toi ;</l>
             <l>Et souffrir un discours, si loin de l’apparence.</l>
             <l>Être ce que je suis, est-il en ta puissance ?</l>
@@ -998,7 +998,7 @@
             <l>Et laisse à mon devoir s’acquitter de ses soins.</l>
           </sp>
           <sp who="mercure" xml:id="I02-97">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Arrête : ou sur ton Dos le moindre pas attire</l>
             <l>Un assommant éclat de mon juste courroux.</l>
             <l>Tout ce que tu viens de dire,</l>
@@ -1019,7 +1019,7 @@
             <l>Pour être trop Homme de bien.</l>
           </sp>
           <sp who="sosie" xml:id="I02-98">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Il a raison. À moins d’être Sosie,</l>
             <l>On ne peut pas savoir tout ce qu’il dit.</l>
             <l>Et dans l’étonnement, dont mon Âme est saisie,</l>
@@ -1032,28 +1032,28 @@
             <l>Qu’est-ce qu’Amphitryon obtient pour son partage ?</l>
           </sp>
           <sp who="mercure" xml:id="I02-99">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Cinq fort gros Diamants, en nœud proprement mis ;</l>
             <l>Dont leur Chef se parait, comme d’un rare Ouvrage.</l>
           </sp>
           <sp who="sosie" xml:id="I02-100">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>À qui destine-t-il un si riche Présent ?</l>
           </sp>
           <sp who="mercure" xml:id="I02-101">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>À sa Femme ; et sur elle il le veut voir paraître.</l>
           </sp>
           <sp who="sosie" xml:id="I02-102">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Mais où, pour l’apporter, est-il mis à présent ?</l>
           </sp>
           <sp who="mercure" xml:id="I02-103">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Dans un Coffret, scellé des Armes de mon Maître.</l>
           </sp>
           <sp who="sosie" xml:id="I02-104">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Il ne ment pas d’un mot, à chaque repartie,</l>
             <l>Et de moi je commence à douter tout de bon.</l>
             <l>Près de moi, par la force, il est déjà Sosie :</l>
@@ -1070,15 +1070,15 @@
             <l>Où tu courus seul te fourrer ?</l>
           </sp>
           <sp who="mercure" xml:id="I02-105">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>D’un Jambon…</l>
           </sp>
           <sp who="sosie" xml:id="I02-106">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>L’y voilà !</l>
           </sp>
           <sp who="mercure" xml:id="I02-107">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Que j’allai déterrer,</l>
             <l>Je coupai bravement deux Tranches succulentes,</l>
             <l>Dont je sus fort bien me bourrer.</l>
@@ -1088,7 +1088,7 @@
             <l>Pour nos Gens qui se battaient.</l>
           </sp>
           <sp who="sosie" xml:id="I02-108">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Cette preuve sans pareille,</l>
             <l>En sa faveur conclut bien ;</l>
             <l>Et l’on n’y peut dire rien,</l>
@@ -1099,32 +1099,32 @@
             <l>Car encor faut-il bien que je sois quelque chose.</l>
           </sp>
           <sp who="mercure" xml:id="I02-109">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Quand je ne serai plus Sosie,</l>
             <l>Sois-le, j’en demeure d’accord.</l>
             <l>Mais tant que je le suis, je te garantis mort,</l>
             <l>Si tu prends cette fantaisie.</l>
           </sp>
           <sp who="sosie" xml:id="I02-110">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Tout cet embarras met mon esprit sur les dents ;</l>
             <l>Et la Raison, à ce qu’on voit s’oppose.</l>
             <l>Mais il faut terminer enfin par quelque chose,</l>
             <l>Et le plus court pour moi, c’est d’entrer là-dedans.</l>
           </sp>
           <sp who="mercure" xml:id="I02-111">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Ah ! tu prends donc, Pendard, goût à la Bastonnade ?</l>
           </sp>
           <sp who="sosie" xml:id="I02-112">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Ah ! qu’est-ce ci, grands Dieux ! il frappe un ton plus fort ;</l>
             <l>Et mon Dos, pour un mois, en doit être malade.</l>
             <l>Laissons ce diable d’Homme ; et retournons au Port.</l>
             <l>Ô juste Ciel ! j’ai fait une belle Ambassade !</l>
           </sp>
           <sp who="mercure" xml:id="I02-113">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Enfin, je l’ai fait fuir ; et sous ce traitement,</l>
             <l>De beaucoup d’actions, il a reçu la peine.</l>
             <l>Mais je vois Jupiter, que fort civilement</l>
@@ -1132,10 +1132,10 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="I03">
-          <head>SCÈNE III.</head>
+          <head>Scène III</head>
           <stage>Jupiter, Alcmène, Cléanthis, Mercure.</stage>
           <sp who="jupiter" xml:id="I03-1">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Défendez, chère Alcmène, aux Flambeaux d’approcher ;</l>
             <l>Ils m’offrent des plaisirs, en m’offrant votre vue :</l>
             <l>Mais ils pourraient ici découvrir ma venue,</l>
@@ -1150,7 +1150,7 @@
             <l>Celle qui peut m’en savoir gré.</l>
           </sp>
           <sp who="alcmene" xml:id="I03-2">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Je prends, Amphitryon, grande part à la gloire,</l>
             <l>Que répandent sur vous vos illustres Exploits ;</l>
             <l>Et l’éclat de votre Victoire</l>
@@ -1176,7 +1176,7 @@
             <l>Qui peut, à tout moment, trembler pour ce qu’il aime ?</l>
           </sp>
           <sp who="jupiter" xml:id="I03-3">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Je ne vois rien en vous, dont mon feu ne s’augmente.</l>
             <l>Tout y marque à mes yeux un Cœur bien enflammé.</l>
             <l>Et c’est, je vous l’avoue, une chose charmante,</l>
@@ -1191,14 +1191,14 @@
             <l>Ne fût point ce qui me les donne.</l>
           </sp>
           <sp who="alcmene" xml:id="I03-4">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>C’est de ce Nom pourtant, que l’ardeur qui me brûle,</l>
             <l>Tient le droit de paraître au jour :</l>
             <l>Et je ne comprends rien à ce nouveau scrupule,</l>
             <l>Dont s’embarrasse votre amour.</l>
           </sp>
           <sp who="jupiter" xml:id="I03-5">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Ah ! ce que j’ai pour vous d’ardeur, et de tendresse,</l>
             <l>Passe aussi celle d’un Époux ;</l>
             <l>Et vous ne savez pas, dans des moments si doux,</l>
@@ -1228,14 +1228,14 @@
             <l>L’Amant ait tout l’amour, et toute la tendresse.</l>
           </sp>
           <sp who="alcmene" xml:id="I03-6">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Amphitryon, en vérité,</l>
             <l>Vous vous moquez, de tenir ce langage :</l>
             <l>Et j’aurais peur qu’on ne vous crût pas sage,</l>
             <l>Si de quelqu’un vous étiez écouté.</l>
           </sp>
           <sp who="jupiter" xml:id="I03-7">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Ce discours est plus raisonnable,</l>
             <l>Alcmène, que vous ne pensez :</l>
             <l>Mais un plus long séjour me rendrait trop coupable,</l>
@@ -1246,19 +1246,19 @@
             <l>Songez à l’Amant, je vous prie.</l>
           </sp>
           <sp who="alcmene" xml:id="I03-8">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Je ne sépare point ce qu’unissent les Dieux ;</l>
             <l>Et l’Époux, et l’Amant, me sont fort précieux.</l>
           </sp>
           <sp who="cleanthis" xml:id="I03-9">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Ô Ciel ! que d’aimables caresses</l>
             <l>D’un Époux ardemment chéri !</l>
             <l>Et que mon traître de Mari</l>
             <l>Est loin de toutes ces tendresses !</l>
           </sp>
           <sp who="mercure" xml:id="I03-10">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>La Nuit, qu’il me faut avertir,</l>
             <l>N’a plus qu’à plier tous ses voiles ;</l>
             <l>Et pour effacer les Étoiles,</l>
@@ -1266,49 +1266,49 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="I04">
-          <head>SCÈNE IV.</head>
+          <head>Scène IV</head>
           <stage>Cléanthis, Mercure. <hi rend="i">Mercure veut s’en aller.</hi></stage>
           <sp who="cleanthis" xml:id="I04-1">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Quoi ! c’est ainsi que l’on me quitte ?</l>
           </sp>
           <sp who="mercure" xml:id="I04-2">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Et comment donc ? Ne veux-tu pas,</l>
             <l>Que de mon devoir je m’acquitte ?</l>
             <l>Et que d’Amphitryon j’aille suivre les pas ?</l>
           </sp>
           <sp who="cleanthis" xml:id="I04-3">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Mais avec cette brusquerie,</l>
             <l>Traître, de moi te séparer !</l>
           </sp>
           <sp who="mercure" xml:id="I04-4">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Le beau sujet de fâcherie !</l>
             <l>Nous avons tant de temps ensemble à demeurer.</l>
           </sp>
           <sp who="cleanthis" xml:id="I04-5">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Mais quoi ! partir ainsi d’une façon brutale,</l>
             <l>Sans me dire un seul mot de douceur pour régale ?</l>
           </sp>
           <sp who="mercure" xml:id="I04-6">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Diantre, où veux-tu que mon Esprit</l>
             <l>T’aille chercher des fariboles ?</l>
             <l>Quinze ans de Mariage épuisent les paroles ;</l>
             <l>Et depuis un long temps, nous nous sommes tout dit.</l>
           </sp>
           <sp who="cleanthis" xml:id="I04-7">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Regarde, Traître, Amphitryon,</l>
             <l>Vois combien, pour Alcmène, il étale de flamme,</l>
             <l>Et rougis là-dessus, du peu de passion,</l>
             <l>Que tu témoignes pour ta Femme.</l>
           </sp>
           <sp who="mercure" xml:id="I04-8">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Hé, mon Dieu, Cléanthis, ils sont encore Amants.</l>
             <l>Il est certain âge où tout passe :</l>
             <l>Et ce qui leur sied bien dans ces commencements,</l>
@@ -1317,59 +1317,59 @@
             <l>À pousser les beaux Sentiments !</l>
           </sp>
           <sp who="cleanthis" xml:id="I04-9">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Quoi ! suis-je hors d’état, Perfide, d’espérer</l>
             <l>Qu’un Cœur auprès de moi soupire ?</l>
           </sp>
           <sp who="mercure" xml:id="I04-10">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Non, je n’ai garde de le dire :</l>
             <l>Mais je suis trop Barbon, pour oser soupirer,</l>
             <l>Et je ferais crever de rire.</l>
           </sp>
           <sp who="cleanthis" xml:id="I04-11">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Mérites-tu, Pendard, cet insigne bonheur,</l>
             <l>De te voir, pour Épouse, une Femme d’honneur ?</l>
           </sp>
           <sp who="mercure" xml:id="I04-12">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Mon Dieu, tu n’es que trop honnête :</l>
             <l>Ce grand honneur ne me vaut rien.</l>
             <l>Ne sois point si Femme de bien ;</l>
             <l>Et me romps un peu moins la tête.</l>
           </sp>
           <sp who="cleanthis" xml:id="I04-13">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Comment ! de trop bien vivre, on te voit me blâmer ?</l>
           </sp>
           <sp who="mercure" xml:id="I04-14">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>La douceur d’une Femme est tout ce qui me charme ;</l>
             <l>Et ta vertu fait un vacarme,</l>
             <l>Qui ne cesse de m’assommer.</l>
           </sp>
           <sp who="cleanthis" xml:id="I04-15">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Il te faudrait des Cœurs pleins de fausses tendresses ;</l>
             <l>De ces Femmes aux beaux et louables talents,</l>
             <l>Qui savent accabler leurs Maris de caresses,</l>
             <l>Pour leur faire avaler l’usage des Galants.</l>
           </sp>
           <sp who="mercure" xml:id="I04-16">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Ma foi, veux-tu que je te dise ?</l>
             <l>Un mal d’opinion, ne touche que les Sots.</l>
             <l>Et je prendrais pour ma Devise,</l>
             <l rend="i">Moins d’honneur, et plus de repos.</l>
           </sp>
           <sp who="cleanthis" xml:id="I04-17">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Comment ! tu souffrirais, sans nulle répugnance,</l>
             <l>Que j’aimasse un Galant avec toute licence ?</l>
           </sp>
           <sp who="mercure" xml:id="I04-18">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Oui, si je n’étais plus de tes cris rebattu ;</l>
             <l>Et qu’on te vît changer d’humeur et de méthode.</l>
             <l>J’aime mieux un Vice commode,</l>
@@ -1379,7 +1379,7 @@
             <stage>Il s’en va.</stage>
           </sp>
           <sp who="cleanthis" xml:id="I04-19">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Pourquoi, pour punir cet Infâme,</l>
             <l>Mon Cœur n’a-t-il assez de résolution ?</l>
             <l>Ah ! que dans cette occasion,</l>
@@ -1389,35 +1389,35 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="II">
-        <head>ACTE II</head>
+        <head>Acte II</head>
         <div2 type="titre2" xml:id="II01">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>Scène Première</head>
           <stage>Amphitryon, Sosie.</stage>
           <sp who="amphitryon" xml:id="II01-1">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Viens çà, Bourreau, viens çà. Sais-tu, Maître Fripon,</l>
             <l>Qu’à te faire assommer, ton discours peut suffire ?</l>
             <l>Et que pour te traiter comme je le désire,</l>
             <l>Mon courroux n’attend qu’un Bâton ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-2">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Si vous le prenez sur ce ton,</l>
             <l>Monsieur, je n’ai plus rien à dire ;</l>
             <l>Et vous aurez toujours raison.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-3">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Quoi ! tu veux me donner pour des vérités, Traître,</l>
             <l>Des contes que je vois d’extravagance outrés ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-4">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Non, je suis le Valet, et vous êtes le Maître ;</l>
             <l>Il n’en sera, Monsieur, que ce que vous voudrez.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-5">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Çà, je veux étouffer le courroux qui m’enflamme,</l>
             <l>Et, tout du long, t’ouïr sur ta Commission.</l>
             <l>Il faut, avant que voir ma Femme,</l>
@@ -1426,7 +1426,7 @@
             <l>Et réponds, mot pour mot, à chaque Question.</l>
           </sp>
           <sp who="sosie" xml:id="II01-6">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Mais, de peur d’incongruité,</l>
             <l>Dites-moi, de grâce, à l’avance,</l>
             <l>De quel air il vous plaît que ceci soit traité.</l>
@@ -1436,98 +1436,98 @@
             <l>Ou bien user de complaisance ?</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-7">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Non, je ne te veux obliger,</l>
             <l>Qu’à me rendre de tout un compte fort sincère.</l>
           </sp>
           <sp who="sosie" xml:id="II01-8">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Bon, c’est assez ; laissez-moi faire :</l>
             <l>Vous n’avez qu’à m’interroger.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-9">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Sur l’ordre que tantôt je t’avais su prescrire ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-10">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Je suis parti ; les Cieux, d’un noir crêpe voilés,</l>
             <l>Pestant fort contre vous dans ce fâcheux martyre,</l>
             <l>Et maudissant vingt fois l’ordre dont vous parlez.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-11">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Comment, Coquin ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-12">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Monsieur, vous n’avez rien qu’à dire.</l>
             <l>Je mentirai, si vous voulez.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-13">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Voilà comme un Valet montre pour nous du zèle.</l>
             <l>Passons. Sur les chemins, que t’est-il arrivé ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-14">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>D’avoir une frayeur mortelle,</l>
             <l>Au moindre Objet que j’ai trouvé.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-15">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Poltron !</l>
           </sp>
           <sp who="sosie" xml:id="II01-16">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>En nous formant, Nature a ses caprices.</l>
             <l>Divers penchants en nous elle fait observer.</l>
             <l>Les uns à s’exposer, trouvent mille délices :</l>
             <l>Moi, j’en trouve à me conserver.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-17">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Arrivant au logis ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-18">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>J’ai devant notre Porte,</l>
             <l>En moi-même voulu répéter un petit,</l>
             <l>Sur quel ton, et de quelle sorte,</l>
             <l>Je ferais du Combat le glorieux Récit.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-19">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ensuite ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-20">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>On m’est venu troubler, et mettre en peine.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-21">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Et qui ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-22">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Sosie, un Moi, de vos ordres jaloux,</l>
             <l>Que vous avez du Port envoyé vers Alcmène,</l>
             <l>Et qui de nos secrets a connaissance pleine,</l>
             <l>Comme le Moi qui parle à Vous.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-23">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Quels contes !</l>
           </sp>
           <sp who="sosie" xml:id="II01-24">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Non, Monsieur, c’est la vérité pure.</l>
             <l>Ce Moi, plutôt que Moi, s’est au Logis trouvé :</l>
             <l>Et j’étais venu, je vous jure,</l>
             <l>Avant que je fusse arrivé.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-25">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>D’où peut procéder, je te prie,</l>
             <l>Ce galimatias maudit ?</l>
             <l>Est-ce songe ? est-ce ivrognerie ?</l>
@@ -1535,7 +1535,7 @@
             <l>Ou méchante plaisanterie ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-26">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Non, c’est la chose comme elle est,</l>
             <l>Et point du tout conte frivole.</l>
             <l>Je suis Homme d’honneur, j’en donne ma parole,</l>
@@ -1550,26 +1550,26 @@
             <l>Que de battre, et casser des os.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-27">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Il faut être, je le confesse,</l>
             <l>D’un Esprit bien posé, bien tranquille, bien doux,</l>
             <l>Pour souffrir qu’un Valet, de Chansons me repaisse.</l>
           </sp>
           <sp who="sosie" xml:id="II01-28">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Si vous vous mettez en courroux,</l>
             <l>Plus de conférence entre nous ;</l>
             <l>Vous savez que d’abord tout cesse.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-29">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Non, sans emportement, je te veux écouter.</l>
             <l>Je l’ai promis. Mais dis, en bonne conscience,</l>
             <l>Au mystère nouveau que tu me viens conter,</l>
             <l>Est-il quelque ombre d’apparence ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-30">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Non ; vous avez raison ; et la chose à chacun,</l>
             <l>Hors de créance doit paraître.</l>
             <l>C’est un fait à n’y rien connaître ;</l>
@@ -1578,11 +1578,11 @@
             <l>Mais cela ne laisse pas d’être.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-31">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Le moyen d’en rien croire, à moins qu’être insensé ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-32">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Je ne l’ai pas cru Moi, sans une peine extrême.</l>
             <l>Je me suis, d’être deux, senti l’Esprit blessé ;</l>
             <l>Et longtemps, d’Imposteur, j’ai traité ce Moi-même.</l>
@@ -1596,56 +1596,56 @@
             <l>J’en serais fort satisfait.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-33">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>À quelle patience il faut que je m’exhorte !</l>
             <l>Mais enfin, n’es-tu pas entré dans la Maison ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-34">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Bon, entré ! Hé de quelle sorte ?</l>
             <l>Ai-je voulu jamais entendre de raison ?</l>
             <l>Et ne me suis-je pas interdit notre Porte ?</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-35">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Comment donc ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-36">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Avec un Bâton ;</l>
             <l>Dont mon Dos sent encore une douleur très forte.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-37">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>On t’a battu ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-38">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Vraiment !</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-39">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Et qui ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-40">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Moi.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-41">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Toi, te battre ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-42">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Oui, Moi ; non pas le Moi d’ici,</l>
             <l>Mais le Moi du Logis, qui frappe comme quatre.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-43">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Te confonde le Ciel, de me parler ainsi !</l>
           </sp>
           <sp who="sosie" xml:id="II01-44">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Ce ne sont point des Badinages.</l>
             <l>Le Moi que j’ai trouvé tantôt,</l>
             <l>Sur le Moi qui vous parle, a de grands avantages :</l>
@@ -1655,27 +1655,27 @@
             <l>C’est un Drôle qui fait des rages.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-45">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Achevons. As-tu vu ma Femme ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-46">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Non.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-47">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Pourquoi ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-48">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Par une raison assez forte.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-49">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Qui t’a fait y manquer, Maraud ; explique-toi ?</l>
           </sp>
           <sp who="sosie" xml:id="II01-50">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Faut-il le répéter vingt fois de même sorte ?</l>
             <l>Moi, vous dis-je ; ce Moi plus robuste que Moi ;</l>
             <l>Ce Moi, qui s’est de force emparé de la Porte.</l>
@@ -1689,24 +1689,24 @@
             <l>Ce Moi qui m’a roué de coups.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-51">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Il faut que ce matin, à force de trop boire,</l>
             <l>Il se soit troublé le Cerveau.</l>
           </sp>
           <sp who="sosie" xml:id="II01-52">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Je veux être pendu, si j’ai bu que de l’eau :</l>
             <l>À mon serment, on m’en peut croire.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-53">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Il faut donc qu’au sommeil, tes sens se soient portés ?</l>
             <l>Et qu’un Songe fâcheux, dans ses confus mystères,</l>
             <l>T’ait fait voir toutes les chimères,</l>
             <l>Dont tu me fais des vérités.</l>
           </sp>
           <sp who="sosie" xml:id="II01-54">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Tout aussi peu. Je n’ai point sommeillé ;</l>
             <l>Et n’en ai même aucune envie.</l>
             <l>Je vous parle bien éveillé,</l>
@@ -1715,21 +1715,21 @@
             <l>Quand il m’a si bien étrillé.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-55">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Suis-moi, je t’impose silence,</l>
             <l>C’est trop me fatiguer l’Esprit.</l>
             <l>Et je suis un vrai Fou, d’avoir la patience,</l>
             <l>D’écouter d’un Valet, les sottises qu’il dit.</l>
           </sp>
           <sp who="sosie" xml:id="II01-56">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Tous les discours sont des sottises,</l>
             <l>Partant d’un Homme sans éclat.</l>
             <l>Ce serait paroles exquises,</l>
             <l>Si c’était un Grand qui parlât.</l>
           </sp>
           <sp who="amphitryon" xml:id="II01-57">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Entrons, sans davantage attendre.</l>
             <l>Mais Alcmène paraît avec tous ses appas :</l>
             <l>En ce moment, sans doute, elle ne m’attend pas,</l>
@@ -1737,10 +1737,10 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="II02">
-          <head>SCÈNE II.</head>
+          <head>Scène II</head>
           <stage>Alcmène, Cléanthis, Amphitryon, Sosie.</stage>
           <sp who="alcmene" xml:id="II02-1">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Allons pour mon Époux, Cléanthis, vers les Dieux,</l>
             <l>Nous acquitter de nos hommages ;</l>
             <l>Et les remercier des succès glorieux,</l>
@@ -1748,7 +1748,7 @@
             <l>Ô Dieux !</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-2">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Fasse le Ciel, qu’Amphitryon vainqueur,</l>
             <l>Avec plaisir soit revu de sa Femme ;</l>
             <l>Et que ce jour favorable à ma flamme,</l>
@@ -1757,11 +1757,11 @@
             <l>Que vous en rapporte mon Âme.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-3">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Quoi ! de retour si tôt ?</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-4">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Certes, c’est en ce jour,</l>
             <l>Me donner de vos feux, un mauvais témoignage ;</l>
             <l>Et ce <hi rend="i">Quoi si tôt de retour</hi>,</l>
@@ -1775,11 +1775,11 @@
             <l>Quelque peu qu’elle dure, a toujours trop duré.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-5">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Je ne vois…</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-6">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Non, Alcmène, à son impatience,</l>
             <l>On mesure le temps en de pareils états ;</l>
             <l>Et vous comptez les moments de l’absence,</l>
@@ -1794,7 +1794,7 @@
             <l>D’autres transports de joie, et de tendresse.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-7">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>J’ai peine à comprendre sur quoi</l>
             <l>Vous fondez les discours que je vous entends faire ;</l>
             <l>Et si vous vous plaignez de moi,</l>
@@ -1806,22 +1806,22 @@
             <l>Tout ce que de mon Cœur, vous aviez lieu d’attendre.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-8">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Comment ?</l>
           </sp>
           <sp who="alcmene" xml:id="II02-9">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Ne fis-je pas éclater à vos yeux,</l>
             <l>Les soudains mouvements d’une entière allégresse ?</l>
             <l>Et le transport d’un Cœur peut-il s’expliquer mieux,</l>
             <l>Au retour d’un Époux, qu’on aime avec tendresse ?</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-10">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Que me dites-vous là ?</l>
           </sp>
           <sp who="alcmene" xml:id="II02-11">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Que même votre amour</l>
             <l>Montra, de mon accueil, une joie incroyable :</l>
             <l>Et que m’ayant quittée à la pointe du jour,</l>
@@ -1829,7 +1829,7 @@
             <l>Ma surprise soit si coupable.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-12">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Est-ce que du retour, que j’ai précipité,</l>
             <l>Un Songe, cette nuit, Alcmène, dans votre Âme,</l>
             <l>A prévenu la vérité ?</l>
@@ -1838,7 +1838,7 @@
             <l>Assez amplement acquitté ?</l>
           </sp>
           <sp who="alcmene" xml:id="II02-13">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Est-ce qu’une vapeur, par sa malignité,</l>
             <l>Amphitryon, a dans votre Âme,</l>
             <l>Du retour d’hier au soir, brouillé la vérité ?</l>
@@ -1847,102 +1847,102 @@
             <l>Ravir toute l’honnêteté ?</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-14">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Cette vapeur, dont vous me régalez,</l>
             <l>Est un peu, ce me semble, étrange.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-15">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>C’est ce qu’on peut donner pour change,</l>
             <l>Au Songe dont vous me parlez.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-16">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>À moins d’un Songe, on ne peut pas, sans doute,</l>
             <l>Excuser ce qu’ici, votre bouche me dit.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-17">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>À moins d’une vapeur, qui vous trouble l’Esprit,</l>
             <l>On ne peut pas sauver, ce que de vous j’écoute.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-18">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Laissons un peu cette vapeur, Alcmène.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-19">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Laissons un peu ce Songe, Amphitryon.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-20">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Sur le sujet dont il est question,</l>
             <l>Il n’est guère de jeu, que trop loin on ne mène.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-21">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Sans doute ; et pour marque certaine,</l>
             <l>Je commence à sentir un peu d’émotion.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-22">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Est-ce donc que par là, vous voulez essayer,</l>
             <l>À réparer l’accueil dont je vous ai fait plainte ?</l>
           </sp>
           <sp who="alcmene" xml:id="II02-23">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Est-ce donc que par cette feinte,</l>
             <l>Vous désirez vous égayer ?</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-24">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ah ! de grâce, cessons, Alcmène, je vous prie ;</l>
             <l>Et parlons sérieusement.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-25">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Amphitryon, c’est trop pousser l’amusement ;</l>
             <l>Finissons cette raillerie.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-26">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Quoi ! vous osez me soutenir en face,</l>
             <l>Que plus tôt qu’à cette heure, on m’ait ici pu voir ?</l>
           </sp>
           <sp who="alcmene" xml:id="II02-27">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Quoi ! vous voulez nier avec audace,</l>
             <l>Que dès hier, en ces Lieux, vous vîntes sur le soir ?</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-28">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Moi, je vins hier ?</l>
           </sp>
           <sp who="alcmene" xml:id="II02-29">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Sans doute. Et dès devant l’Aurore,</l>
             <l>Vous vous en êtes retourné.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-30">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ciel ! un pareil débat s’est-il pu voir encore !</l>
             <l>Et qui, de tout ceci, ne serait étonné ?</l>
             <l>Sosie ?</l>
           </sp>
           <sp who="sosie" xml:id="II02-31">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Elle a besoin de six grains d’Ellébore,</l>
             <l>Monsieur, son Esprit est tourné !</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-32">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Alcmène, au nom de tous les Dieux,</l>
             <l>Ce discours a d’étranges suites,</l>
             <l>Reprenez vos sens un peu mieux ;</l>
             <l>Et pensez à ce que vous dites.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-33">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>J’y pense mûrement aussi,</l>
             <l>Et tous ceux du Logis ont vu votre arrivée.</l>
             <l>J’ignore quel motif vous fait agir ainsi :</l>
@@ -1956,133 +1956,133 @@
             <l>En pourrait-on vouloir un plus sûr témoignage ?</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-34">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Quoi ! je vous ai déjà donné</l>
             <l>Le Nœud de Diamants que j’eus pour mon partage,</l>
             <l>Et que je vous ai destiné ?</l>
           </sp>
           <sp who="alcmene" xml:id="II02-35">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Assurément. Il n’est pas difficile</l>
             <l>De vous en bien convaincre.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-36">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Et comment ?</l>
           </sp>
           <sp who="alcmene" xml:id="II02-37">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Le voici.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-38">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Sosie !</l>
           </sp>
           <sp who="sosie" xml:id="II02-39">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Elle se moque, et je le tiens ici ;</l>
             <l>Monsieur, la feinte est inutile.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-40">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Le Cachet est entier.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-41">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Est-ce une Vision ?</l>
             <l>Tenez. Trouverez-vous cette preuve assez forte ?</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-42">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ah Ciel ! ô juste Ciel !</l>
           </sp>
           <sp who="alcmene" xml:id="II02-43">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Allez, Amphitryon,</l>
             <l>Vous vous moquez, d’en user de la sorte ;</l>
             <l>Et vous en devriez avoir confusion.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-44">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Romps vite ce cachet.</l>
           </sp>
           <sp who="sosie" xml:id="II02-45">
-            <speaker>sosie, <hi rend="i">ayant ouvert le coffret</hi></speaker>
+            <speaker>Sosie, <hi rend="i">ayant ouvert le coffret</hi></speaker>
             <l>Ma foi, la place est vide.</l>
             <l>Il faut que par Magie on ait su le tirer :</l>
             <l>Ou bien que de lui-même, il soit venu sans guide,</l>
             <l>Vers celle qu’il a su qu’on en voulait parer.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-46">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ô Dieux, dont le pouvoir sur les choses préside,</l>
             <l>Quelle est cette aventure ! et qu’en puis-je augurer,</l>
             <l>Dont mon amour ne s’intimide !</l>
           </sp>
           <sp who="sosie" xml:id="II02-47">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Si sa bouche dit vrai, nous avons même sort ;</l>
             <l>Et de même que moi, Monsieur, vous êtes double.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-48">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Tais-toi.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-49">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Sur quoi vous étonner si fort ?</l>
             <l>Et d’où peut naître ce grand trouble !</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-50">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ô Ciel ! quel étrange embarras !</l>
             <l>Je vois des incidents qui passent la Nature ;</l>
             <l>Et mon honneur redoute une aventure,</l>
             <l>Que mon Esprit ne comprend pas !</l>
           </sp>
           <sp who="alcmene" xml:id="II02-51">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Songez-vous, en tenant cette preuve sensible,</l>
             <l>À me nier encor votre retour pressé ?</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-52">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Non ; mais à ce retour, daignez, s’il est possible,</l>
             <l>Me conter ce qui s’est passé.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-53">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Puisque vous demandez un récit de la chose,</l>
             <l>Vous voulez dire donc que ce n’était pas vous ?</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-54">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Pardonnez-moi ; mais j’ai certaine cause,</l>
             <l>Qui me fait demander ce récit entre nous.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-55">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Les soucis importants, qui vous peuvent saisir,</l>
             <l>Vous ont-ils fait si vite en perdre la mémoire ?</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-56">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Peut-être ; mais enfin, vous me ferez plaisir</l>
             <l>De m’en dire toute l’Histoire.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-57">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>L’Histoire n’est pas longue. À vous je m’avançai,</l>
             <l>Pleine d’une aimable surprise :</l>
             <l>Tendrement je vous embrassai ;</l>
             <l>Et témoignai ma joie, à plus d’une reprise.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-58">
-            <speaker>amphitryon <hi rend="i">en soi-même</hi></speaker>
+            <speaker>Amphitryon <hi rend="i">en soi-même</hi></speaker>
             <l>Ah ! d’un si doux accueil je me serais passé.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-59">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Vous me fîtes d’abord ce Présent d’importance,</l>
             <l>Que du Butin conquis vous m’aviez destiné.</l>
             <l>Votre Cœur, avec véhémence,</l>
@@ -2095,83 +2095,83 @@
             <l>Ne me parut si tendre, et si passionné.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-60">
-            <speaker>amphitryon <hi rend="i">en soi-même</hi></speaker>
+            <speaker>Amphitryon <hi rend="i">en soi-même</hi></speaker>
             <l>Peut-on plus vivement se voir assassiné !</l>
           </sp>
           <sp who="alcmene" xml:id="II02-61">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Tous ces transports, toute cette tendresse,</l>
             <l>Comme vous croyez bien, ne me déplaisaient pas :</l>
             <l>Et s’il faut que je le confesse,</l>
             <l>Mon Cœur, Amphitryon, y trouvait mille appas.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-62">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ensuite, s’il vous plaît.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-63">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Nous nous entrecoupâmes</l>
             <l>De mille Questions, qui pouvaient nous toucher.</l>
             <l>On servit. Tête-à-tête, ensemble nous soupâmes ;</l>
             <l>Et le Souper fini, nous nous fûmes coucher.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-64">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ensemble ?</l>
           </sp>
           <sp who="alcmene" xml:id="II02-65">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Assurément. Quelle est cette demande ?</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-66">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ah ! c’est ici le coup le plus cruel de tous !</l>
             <l>Et dont à s’assurer, tremblait mon feu jaloux !</l>
           </sp>
           <sp who="alcmene" xml:id="II02-67">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>D’où vous vient, à ce mot, une rougeur si grande ?</l>
             <l>Ai-je fait quelque mal, de coucher avec vous ?</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-68">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Non, ce n’était pas moi, pour ma douleur sensible.</l>
             <l>Et qui dit qu’hier ici mes pas se sont portés,</l>
             <l>Dit, de toutes les faussetés,</l>
             <l>La fausseté la plus horrible.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-69">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Amphitryon !</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-70">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Perfide !</l>
           </sp>
           <sp who="alcmene" xml:id="II02-71">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Ah ! quel emportement !</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-72">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Non, non, plus de douceur, et plus de déférence.</l>
             <l>Ce revers vient à bout de toute ma constance,</l>
             <l>Et mon Cœur ne respire, en ce fatal moment,</l>
             <l>Et que fureur, et que vengeance.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-73">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>De qui donc vous venger ? et quel manque de foi,</l>
             <l>Vous fait ici me traiter de coupable ?</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-74">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Je ne sais pas : mais ce n’était pas moi ;</l>
             <l>Et c’est un désespoir, qui de tout rend capable.</l>
           </sp>
           <sp who="alcmene" xml:id="II02-75">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Allez, indigne Époux, le fait parle de soi ;</l>
             <l>Et l’imposture est effroyable.</l>
             <l>C’est trop me pousser là-dessus ;</l>
@@ -2184,7 +2184,7 @@
             <l>À souffrir qu’en ce jour, nos liens soient rompus.</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-76">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Après l’indigne affront que l’on me fait connaître,</l>
             <l>C’est bien à quoi, sans doute, il faut vous préparer.</l>
             <l>C’est le moins qu’on doit voir ; et les choses, peut-être,</l>
@@ -2203,47 +2203,47 @@
             <l>Malheur à qui m’aura trahi.</l>
           </sp>
           <sp who="sosie" xml:id="II02-77">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Monsieur…</l>
           </sp>
           <sp who="amphitryon" xml:id="II02-78">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ne m’accompagne pas ;</l>
             <l>Et demeure ici, pour m’attendre.</l>
           </sp>
           <sp who="cleanthis" xml:id="II02-79">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Faut-il…</l>
           </sp>
           <sp who="alcmene" xml:id="II02-80">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Je ne puis rien entendre :</l>
             <l>Laisse-moi seule, et ne suis point mes pas.</l>
           </sp>
         </div2>
         <div2 type="titre2" xml:id="II03">
-          <head>SCÈNE III.</head>
+          <head>Scène III</head>
           <stage>Cléanthis, Sosie.</stage>
           <sp who="cleanthis" xml:id="II03-1">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Il faut que quelque chose ait brouillé sa cervelle :</l>
             <l>Mais le Frère, sur-le-champ,</l>
             <l>Finira cette querelle.</l>
           </sp>
           <sp who="sosie" xml:id="II03-2">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>C’est ici, pour mon Maître, un coup assez touchant ;</l>
             <l>Et son aventure est cruelle.</l>
             <l>Je crains fort, pour mon fait, quelque chose approchant,</l>
             <l>Et je m’en veux, tout doux, éclaircir avec elle.</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-3">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Voyez s’il me viendra seulement aborder ?</l>
             <l>Mais je veux m’empêcher de rien faire paraître.</l>
           </sp>
           <sp who="sosie" xml:id="II03-4">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>La chose quelquefois est fâcheuse à connaître,</l>
             <l>Et je tremble à la demander.</l>
             <l>Ne vaudrait-il point mieux, pour ne rien hasarder,</l>
@@ -2256,82 +2256,82 @@
             <l>Dieu te gard’, Cléanthis.</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-5">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Ah, ah, tu t’en avises,</l>
             <l>Traître, de t’approcher de nous !</l>
           </sp>
           <sp who="sosie" xml:id="II03-6">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Mon Dieu, qu’as-tu ? toujours on te voit en courroux ;</l>
             <l>Et sur rien, tu te formalises.</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-7">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Qu’appelles-tu sur rien ? dis ?</l>
           </sp>
           <sp who="sosie" xml:id="II03-8">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>J’appelle sur rien,</l>
             <l>Ce qui sur rien s’appelle en Vers, ainsi qu’en Prose ;</l>
             <l>Et rien, comme tu le sais bien,</l>
             <l>Veut dire rien, ou peu de chose.</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-9">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Je ne sais qui me tient, Infâme,</l>
             <l>Que je ne t’arrache les yeux ;</l>
             <l>Et ne t’apprenne où va le courroux d’une Femme.</l>
           </sp>
           <sp who="sosie" xml:id="II03-10">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Holà. D’où te vient donc ce transport furieux ?</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-11">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Tu n’appelles donc rien le procédé, peut-être,</l>
             <l>Qu’avec moi ton Cœur a tenu ?</l>
           </sp>
           <sp who="sosie" xml:id="II03-12">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Et quel ?</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-13">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Quoi ! tu fais l’ingénu !</l>
             <l>Est-ce qu’à l’exemple du Maître,</l>
             <l>Tu veux dire qu’ici tu n’es pas revenu ?</l>
           </sp>
           <sp who="sosie" xml:id="II03-14">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Non, je sais fort bien le contraire.</l>
             <l>Mais je ne t’en fais pas le fin ;</l>
             <l>Nous avions bu de je ne sais quel Vin,</l>
             <l>Qui m’a fait oublier tout ce que j’ai pu faire.</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-15">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Tu crois, peut-être, excuser par ce trait…</l>
           </sp>
           <sp who="sosie" xml:id="II03-16">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Non, tout de bon ; tu m’en peux croire.</l>
             <l>J’étais dans un état, où je puis avoir fait</l>
             <l>Des choses, dont j’aurais regret,</l>
             <l>Et dont je n’ai nulle mémoire.</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-17">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Tu ne te souviens point du tout de la manière,</l>
             <l>Dont tu m’as su traiter, étant venu du Port ?</l>
           </sp>
           <sp who="sosie" xml:id="II03-18">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Non plus que rien. Tu peux m’en faire le rapport.</l>
             <l>Je suis équitable, et sincère ;</l>
             <l>Et me condamnerai moi-même, si j’ai tort.</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-19">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Comment ! Amphitryon m’ayant su disposer,</l>
             <l>Jusqu’à ce que tu vins, j’avais poussé ma veille :</l>
             <l>Mais je ne vis jamais une froideur pareille :</l>
@@ -2340,33 +2340,33 @@
             <l>Tu détournas le nez, et me donnas l’oreille !</l>
           </sp>
           <sp who="sosie" xml:id="II03-20">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Bon !</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-21">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Comment, bon ?</l>
           </sp>
           <sp who="sosie" xml:id="II03-22">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Mon Dieu, tu ne sais pas pourquoi,</l>
             <l>Cléanthis, je tiens ce langage.</l>
             <l>J’avais mangé de l’Ail, et fis en Homme sage,</l>
             <l>De détourner un peu mon haleine de toi.</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-23">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Je te sus exprimer des tendresses de Cœur :</l>
             <l>Mais à tous mes discours tu fus comme une Souche.</l>
             <l>Et jamais un mot de douceur,</l>
             <l>Ne te put sortir de la bouche.</l>
           </sp>
           <sp who="sosie" xml:id="II03-24">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Courage.</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-25">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Enfin ma flamme eut beau s’émanciper,</l>
             <l>Sa chaste ardeur en toi ne trouva rien que glace ;</l>
             <l>Et dans un tel retour je te vis la tromper,</l>
@@ -2374,19 +2374,19 @@
             <l>Que les Lois de l’Hymen t’obligent d’occuper.</l>
           </sp>
           <sp who="sosie" xml:id="II03-26">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Quoi ! je ne couchai point…</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-27">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Non, lâche.</l>
           </sp>
           <sp who="sosie" xml:id="II03-28">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Est-il possible !</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-29">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Traître, il n’est que trop assuré.</l>
             <l>C’est de tous les affronts, l’affront le plus sensible.</l>
             <l>Et loin que ce matin, ton Cœur l’ait réparé ;</l>
@@ -2394,44 +2394,44 @@
             <l>Par des discours chargés d’un mépris tout visible.</l>
           </sp>
           <sp who="sosie" xml:id="II03-30">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l><hi rend="i">Vivat</hi>, Sosie !</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-31">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Hé quoi ? ma plainte a cet effet ?</l>
             <l>Tu ris après ce bel Ouvrage ?</l>
           </sp>
           <sp who="sosie" xml:id="II03-32">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Que je suis de moi satisfait !</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-33">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Exprime-t-on ainsi le regret d’un outrage ?</l>
           </sp>
           <sp who="sosie" xml:id="II03-34">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Je n’aurais jamais cru que j’eusse été si sage.</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-35">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Loin de te condamner d’un si perfide trait,</l>
             <l>Tu m’en fais éclater la joie en ton visage.</l>
           </sp>
           <sp who="sosie" xml:id="II03-36">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Mon Dieu, tout doucement ! Si je parais joyeux,</l>
             <l>Crois que j’en ai dans l’Âme une raison très forte :</l>
             <l>Et que sans y penser, je ne fis jamais mieux,</l>
             <l>Que d’en user tantôt avec toi de la sorte.</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-37">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Traître, te moques-tu de moi ?</l>
           </sp>
           <sp who="sosie" xml:id="II03-38">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Non, je te parle avec franchise.</l>
             <l>En l’état où j’étais, j’avais certain effroi,</l>
             <l>Dont, avec ton discours, mon Âme s’est remise.</l>
@@ -2439,11 +2439,11 @@
             <l>Je n’eusse fait quelque sottise.</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-39">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Quelle est cette frayeur ? et sachons donc pourquoi ?</l>
           </sp>
           <sp who="sosie" xml:id="II03-40">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Les Médecins disent, quand on est ivre,</l>
             <l>Que de sa Femme on se doit abstenir ;</l>
             <l>Et que dans cet état, il ne peut provenir,</l>
@@ -2452,7 +2452,7 @@
             <l>Quels inconvénients auraient pu s’en ensuivre ?</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-41">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Je me moque des Médecins,</l>
             <l>Avec leurs raisonnements fades.</l>
             <l>Qu’ils règlent ceux qui sont malades,</l>
@@ -2464,11 +2464,11 @@
             <l>De cent sots contes par le nez.</l>
           </sp>
           <sp who="sosie" xml:id="II03-42">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Tout doux.</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-43">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Non : je soutiens que, cela conclut mal,</l>
             <l>Ces raisons sont raisons d’extravagantes Têtes.</l>
             <l>Il n’est ni Vin, ni temps, qui puisse être fatal,</l>
@@ -2476,12 +2476,12 @@
             <l>Et les Médecins sont des Bêtes.</l>
           </sp>
           <sp who="sosie" xml:id="II03-44">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Contre eux, je t’en supplie, apaise ton courroux.</l>
             <l>Ce sont d’honnêtes Gens, quoi que le Monde en dise.</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-45">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Tu n’es pas où tu crois. En vain tu files doux.</l>
             <l>Ton excuse n’est point une excuse de mise :</l>
             <l>Et je me veux venger, tôt ou tard, entre nous,</l>
@@ -2491,36 +2491,36 @@
             <l>De cette liberté que ton Cœur m’a permise.</l>
           </sp>
           <sp who="sosie" xml:id="II03-46">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Quoi ?</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-47">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Tu m’as dit tantôt, que tu consentais fort,</l>
             <l>Lâche, que j’en aimasse un autre.</l>
           </sp>
           <sp who="sosie" xml:id="II03-48">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Ah ! pour cet Article, j’ai tort.</l>
             <l>Je m’en dédis, il y va trop du nôtre.</l>
             <l>Garde-toi bien de suivre ce transport.</l>
           </sp>
           <sp who="cleanthis" xml:id="II03-49">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Si je puis une fois pourtant,</l>
             <l>Sur mon Esprit gagner la chose…</l>
           </sp>
           <sp who="sosie" xml:id="II03-50">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Fais à ce discours quelque pause :</l>
             <l>Amphitryon revient, qui me paraît content.</l>
           </sp>
         </div2>
         <div2 type="titre2" xml:id="II04">
-          <head>SCÈNE IV.</head>
+          <head>Scène IV</head>
           <stage>Jupiter, Cléanthis, Sosie.</stage>
           <sp who="jupiter" xml:id="II04-1">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Je viens prendre le temps de rapaiser Alcmène ;</l>
             <l>De bannir les chagrins, que son Cœur veut garder ;</l>
             <l>Et donner à mes feux, dans ce soin qui m’amène,</l>
@@ -2528,115 +2528,115 @@
             <l>Alcmène est là-haut, n’est-ce pas ?</l>
           </sp>
           <sp who="cleanthis" xml:id="II04-2">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Oui, pleine d’une inquiétude,</l>
             <l>Qui cherche de la solitude ;</l>
             <l>Et qui m’a défendu d’accompagner ses pas.</l>
           </sp>
           <sp who="jupiter" xml:id="II04-3">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Quelque défense qu’elle ait faite,</l>
             <l>Elle ne sera pas pour moi.</l>
           </sp>
           <sp who="cleanthis" xml:id="II04-4">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Son chagrin, à ce que je vois,</l>
             <l>A fait une prompte retraite.</l>
           </sp>
         </div2>
         <div2 type="titre2" xml:id="II05">
-          <head>SCÈNE V.</head>
+          <head>Scène V</head>
           <stage>Cléanthis, Sosie.</stage>
           <sp who="sosie" xml:id="II05-1">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Que dis-tu, Cléanthis, de ce joyeux maintien,</l>
             <l>Après son fracas effroyable ?</l>
           </sp>
           <sp who="cleanthis" xml:id="II05-2">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Que si toutes nous faisions bien,</l>
             <l>Nous donnerions tous les Hommes au Diable ;</l>
             <l>Et que le meilleur n’en vaut rien.</l>
           </sp>
           <sp who="sosie" xml:id="II05-3">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Cela se dit dans le courroux :</l>
             <l>Mais aux Hommes, par trop, vous êtes accrochées ;</l>
             <l>Et vous seriez, ma foi, toutes bien empêchées,</l>
             <l>Si le Diable les prenait tous.</l>
           </sp>
           <sp who="cleanthis" xml:id="II05-4">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Vraiment…</l>
           </sp>
           <sp who="sosie" xml:id="II05-5">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Les voici. Taisons-nous.</l>
           </sp>
         </div2>
         <div2 type="titre2" xml:id="II06">
-          <head>SCÈNE VI.</head>
+          <head>Scène VI</head>
           <stage>Jupiter, Alcmène, Cléanthis, Sosie.</stage>
           <sp who="jupiter" xml:id="II06-1">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Voulez-vous me désespérer ?</l>
             <l>Hélas ! arrêtez, belle Alcmène.</l>
           </sp>
           <sp who="alcmene" xml:id="II06-2">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Non, avec l’Auteur de ma peine,</l>
             <l>Je ne puis du tout demeurer.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-3">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>De grâce…</l>
           </sp>
           <sp who="alcmene" xml:id="II06-4">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Laissez-moi.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-5">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Quoi…</l>
           </sp>
           <sp who="alcmene" xml:id="II06-6">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Laissez-moi, vous dis-je.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-7">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Ses pleurs touchent mon Âme, et sa douleur m’afflige.</l>
             <l>Souffrez que mon Cœur…</l>
           </sp>
           <sp who="alcmene" xml:id="II06-8">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Non, ne suivez point mes pas.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-9">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Où voulez-vous aller ?</l>
           </sp>
           <sp who="alcmene" xml:id="II06-10">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Où vous ne serez pas.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-11">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Ce vous est une attente vaine.</l>
             <l>Je tiens à vos Beautés, par un nœud trop serré,</l>
             <l>Pour pouvoir un moment en être séparé ;</l>
             <l>Je vous suivrai partout, Alcmène.</l>
           </sp>
           <sp who="alcmene" xml:id="II06-12">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Et moi, partout je vous fuirai.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-13">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Je suis donc bien épouvantable ?</l>
           </sp>
           <sp who="alcmene" xml:id="II06-14">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Plus qu’on ne peut dire, à mes yeux.</l>
             <l>Oui, je vous vois, comme un Monstre effroyable ;</l>
             <l>Un Monstre cruel, furieux,</l>
@@ -2649,41 +2649,41 @@
             <l>Qui ne me fût, plus que vous, supportable.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-15">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>En voilà bien, hélas ! que votre bouche dit !</l>
           </sp>
           <sp who="alcmene" xml:id="II06-16">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>J’en ai dans le Cœur davantage.</l>
             <l>Et pour s’exprimer tout, ce Cœur a du dépit,</l>
             <l>De ne point trouver de langage.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-17">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Hé ! que vous a donc fait ma flamme,</l>
             <l>Pour me pouvoir, Alcmène, en Monstre regarder ?</l>
           </sp>
           <sp who="alcmene" xml:id="II06-18">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Ah ! juste Ciel ! cela peut-il se demander ?</l>
             <l>Et n’est-ce pas pour mettre à bout une Âme ?</l>
           </sp>
           <sp who="jupiter" xml:id="II06-19">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Ah ! d’un Esprit plus adouci…</l>
           </sp>
           <sp who="alcmene" xml:id="II06-20">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Non, je ne veux, du tout, vous voir, ni vous entendre.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-21">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Avez-vous bien le cœur de me traiter ainsi ?</l>
             <l>Est-ce là cet amour si tendre,</l>
             <l>Qui devait tant durer, quand je vins hier ici ?</l>
           </sp>
           <sp who="alcmene" xml:id="II06-22">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Non, non, ce ne l’est pas ; et vos lâches injures</l>
             <l>En ont autrement ordonné.</l>
             <l>Il n’est plus, cet amour tendre, et passionné ;</l>
@@ -2697,14 +2697,14 @@
             <l>Et c’est haïr, autant qu’il est possible.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-23">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Hélas ! que votre amour n’avait guère de force,</l>
             <l>Si de si peu de chose on le peut voir mourir !</l>
             <l>Ce qui n’était que jeu, doit-il faire un divorce,</l>
             <l>Et d’une raillerie, a-t-on lieu de s’aigrir ?</l>
           </sp>
           <sp who="alcmene" xml:id="II06-24">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Ah ! c’est cela dont je suis offensée ;</l>
             <l>Et que ne peut pardonner mon courroux.</l>
             <l>Des véritables traits d’un mouvement jaloux,</l>
@@ -2732,7 +2732,7 @@
             <l>Et que jamais n’oubliera ma douleur.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-25">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Oui, vous avez raison, Alcmène, il se faut rendre.</l>
             <l>Cette action, sans doute, est un crime odieux.</l>
             <l>Je ne prétends plus le défendre :</l>
@@ -2765,7 +2765,7 @@
             <l>Ne le punissez point, de ce qu’il n’a pas fait.</l>
           </sp>
           <sp who="alcmene" xml:id="II06-26">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Ah ! toutes ces subtilités</l>
             <l>N’ont que des excuses frivoles ;</l>
             <l>Et pour les Esprits irrités,</l>
@@ -2782,7 +2782,7 @@
             <l>Et tous deux me sont odieux.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-27">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Hé bien, puisque vous le voulez,</l>
             <l>Il faut donc me charger du crime.</l>
             <l>Oui, vous avez raison, lorsque vous m’immolez</l>
@@ -2835,59 +2835,59 @@
             <l>C’est tout ce que j’attends, pour faveur souveraine.</l>
           </sp>
           <sp who="alcmene" xml:id="II06-28">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Ah ! trop cruel Époux !</l>
           </sp>
           <sp who="jupiter" xml:id="II06-29">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Dites, parlez, Alcmène.</l>
           </sp>
           <sp who="alcmene" xml:id="II06-30">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Faut-il encor pour vous, conserver des bontés ;</l>
             <l>Et vous voir m’outrager, par tant d’indignités ?</l>
           </sp>
           <sp who="jupiter" xml:id="II06-31">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Quelque ressentiment, qu’un outrage nous cause,</l>
             <l>Tient-il contre un remords d’un Cœur bien enflammé ?</l>
           </sp>
           <sp who="alcmene" xml:id="II06-32">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Un Cœur bien plein de flamme, à mille morts s’expose,</l>
             <l>Plutôt que de vouloir fâcher l’Objet aimé.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-33">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Plus on aime quelqu’un, moins on trouve de peine…</l>
           </sp>
           <sp who="alcmene" xml:id="II06-34">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Non, ne m’en parlez point, vous méritez ma haine.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-35">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Vous me haïssez donc ?</l>
           </sp>
           <sp who="alcmene" xml:id="II06-36">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>J’y fais tout mon effort ;</l>
             <l>Et j’ai dépit de voir, que toute votre offense</l>
             <l>Ne puisse de mon Cœur, jusqu’à cette vengeance,</l>
             <l>Faire encore aller le transport.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-37">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Mais pourquoi cette violence,</l>
             <l>Puisque pour vous venger, je vous offre ma mort ?</l>
             <l>Prononcez-en l’Arrêt, et j’obéis sur l’heure.</l>
           </sp>
           <sp who="alcmene" xml:id="II06-38">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Qui ne saurait haïr, peut-il vouloir qu’on meure ?</l>
           </sp>
           <sp who="jupiter" xml:id="II06-39">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Et moi, je ne puis vivre, à moins que vous quittiez</l>
             <l>Cette colère qui m’accable ;</l>
             <l>Et que vous m’accordiez le pardon favorable,</l>
@@ -2896,7 +2896,7 @@
             <l>Ou de punir, ou bien d’absoudre.</l>
           </sp>
           <sp who="alcmene" xml:id="II06-40">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Hélas ! ce que je puis résoudre,</l>
             <l>Paraît bien plus, que je ne veux !</l>
             <l>Pour vouloir soutenir le courroux qu’on me donne,</l>
@@ -2905,15 +2905,15 @@
             <l>N’est-ce pas dire qu’on pardonne ?</l>
           </sp>
           <sp who="jupiter" xml:id="II06-41">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Ah ! belle Alcmène, il faut que comblé d’allégresse…</l>
           </sp>
           <sp who="alcmene" xml:id="II06-42">
-            <speaker>alcmène</speaker>
+            <speaker>Alcmène</speaker>
             <l>Laissez. Je me veux mal de mon trop de faiblesse.</l>
           </sp>
           <sp who="jupiter" xml:id="II06-43">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Va, Sosie, et dépêche-toi,</l>
             <l>Voir, dans les doux transports dont mon Âme est charmée,</l>
             <l>Ce que tu trouveras d’Officiers de l’Armée,</l>
@@ -2923,43 +2923,43 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="II07">
-          <head>SCÈNE VII.</head>
+          <head>Scène VII</head>
           <stage>Cléanthis, Sosie.</stage>
           <sp who="sosie" xml:id="II07-1">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Hé bien ! tu vois, Cléanthis, ce ménage.</l>
             <l>Veux-tu, qu’à leur exemple ici,</l>
             <l>Nous fassions entre nous un peu de paix aussi ?</l>
             <l>Quelque petit rapatriage ?</l>
           </sp>
           <sp who="cleanthis" xml:id="II07-2">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>C’est pour ton nez, vraiment. Cela se fait ainsi.</l>
           </sp>
           <sp who="sosie" xml:id="II07-3">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Quoi ! tu ne veux pas ?</l>
           </sp>
           <sp who="cleanthis" xml:id="II07-4">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Non.</l>
           </sp>
           <sp who="sosie" xml:id="II07-5">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Il ne m’importe guère,</l>
             <l>Tant pis pour toi.</l>
           </sp>
           <sp who="cleanthis" xml:id="II07-6">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Là, là, reviens.</l>
           </sp>
           <sp who="sosie" xml:id="II07-7">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Non, morbleu, je n’en ferai rien ;</l>
             <l>Et je veux être, à mon tour, en colère.</l>
           </sp>
           <sp who="cleanthis" xml:id="II07-8">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Va, va, Traître, laisse-moi faire ;</l>
             <l>On se lasse, parfois, d’être Femme de bien.</l>
           </sp>
@@ -2967,11 +2967,11 @@
         </div2>
       </div1>
       <div1 type="act" xml:id="III">
-        <head>ACTE III</head>
+        <head>Acte III</head>
         <div2 type="titre2" xml:id="III01">
-          <head>SCÈNE PREMIÈRE.</head>
+          <head>Scène Première</head>
           <sp who="amphitryon" xml:id="III01-1">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Oui, sans doute, le Sort tout exprès me le cache ;</l>
             <l>Et des tours que je fais, à la fin, je suis las.</l>
             <l>Il n’est point de Destin plus cruel, que je sache.</l>
@@ -3026,10 +3026,10 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III02">
-          <head>SCÈNE II.</head>
+          <head>Scène II</head>
           <stage>Mercure, Amphitryon.</stage>
           <sp who="mercure" xml:id="III02-1">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Comme l’Amour ici ne m’offre aucun plaisir,</l>
             <l>Je m’en veux faire, au moins, qui soient d’autre nature :</l>
             <l>Et je vais égayer mon sérieux loisir,</l>
@@ -3040,87 +3040,87 @@
             <l>À la malice un peu porté.</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-2">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>D’où vient donc qu’à cette heure on ferme cette Porte ?</l>
           </sp>
           <sp who="mercure" xml:id="III02-3">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Holà, tout doucement. Qui frappe ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-4">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Moi.</l>
           </sp>
           <sp who="mercure" xml:id="III02-5">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Qui, moi ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-6">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ah ! ouvre.</l>
           </sp>
           <sp who="mercure" xml:id="III02-7">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Comment, ouvre ? Et qui donc es-tu, toi ;</l>
             <l>Qui fais tant de vacarme, et parles de la sorte ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-8">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Quoi ! tu ne me connais pas ?</l>
           </sp>
           <sp who="mercure" xml:id="III02-9">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Non :</l>
             <l>Et n’en ai pas la moindre envie.</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-10">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Tout le Monde perd-il aujourd’hui la raison ?</l>
             <l>Est-ce un mal répandu ? Sosie, holà, Sosie.</l>
           </sp>
           <sp who="mercure" xml:id="III02-11">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Hé bien, Sosie : oui, c’est mon nom.</l>
             <l>As-tu peur que je ne l’oublie ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-12">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Me vois-tu bien ?</l>
           </sp>
           <sp who="mercure" xml:id="III02-13">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Fort bien. Qui peut pousser ton Bras,</l>
             <l>À faire une rumeur si grande ?</l>
             <l>Et que demandes-tu là-bas ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-14">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Moi, Pendard, ce que je demande ?</l>
           </sp>
           <sp who="mercure" xml:id="III02-15">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Que ne demandes-tu donc pas ?</l>
             <l>Parle, si tu veux qu’on t’entende.</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-16">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Attends, Traître, avec un Bâton</l>
             <l>Je vais là-haut me faire entendre ;</l>
             <l>Et de bonne façon t’apprendre</l>
             <l>À m’oser parler sur ce ton.</l>
           </sp>
           <sp who="mercure" xml:id="III02-17">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Tout beau. Si pour heurter, tu fais la moindre instance,</l>
             <l>Je t’enverrai d’ici des Messagers fâcheux.</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-18">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ô Ciel ! vit-on jamais une telle insolence !</l>
             <l>La peut-on concevoir d’un Serviteur ; d’un Gueux ?</l>
           </sp>
           <sp who="mercure" xml:id="III02-19">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Hé bien ! qu’est-ce ? m’as-tu tout parcouru par ordre ?</l>
             <l>M’as-tu de tes gros yeux assez considéré ?</l>
             <l>Comme il les écarquille, et paraît effaré !</l>
@@ -3128,94 +3128,94 @@
             <l>Il m’aurait déjà déchiré.</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-20">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Moi-même je frémis de ce que tu t’apprêtes,</l>
             <l>Avec ces impudents propos.</l>
             <l>Que tu grossis pour toi d’effroyables tempêtes !</l>
             <l>Quels orages de coups vont fondre sur ton Dos !</l>
           </sp>
           <sp who="mercure" xml:id="III02-21">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>L’Ami, si de ces Lieux tu ne veux disparaître,</l>
             <l>Tu pourras y gagner quelque contusion.</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-22">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ah ! tu sauras Maraud, à ta confusion,</l>
             <l>Ce que c’est qu’un Valet, qui s’attaque à son Maître.</l>
           </sp>
           <sp who="mercure" xml:id="III02-23">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Toi, mon Maître ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-24">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Oui, Coquin. M’oses-tu méconnaître ?</l>
           </sp>
           <sp who="mercure" xml:id="III02-25">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Je n’en reconnais point d’autre, qu’Amphitryon.</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-26">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Et cet Amphitryon, qui, hors moi, le peut être ?</l>
           </sp>
           <sp who="mercure" xml:id="III02-27">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Amphitryon ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-28">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Sans doute.</l>
           </sp>
           <sp who="mercure" xml:id="III02-29">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Ah ! quelle vision !</l>
             <l>Dis-nous un peu. Quel est le Cabaret honnête,</l>
             <l>Où tu t’es coiffé le cerveau ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-30">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Comment ! encor !</l>
           </sp>
           <sp who="mercure" xml:id="III02-31">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Était-ce un Vin à faire fête ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-32">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ciel !</l>
           </sp>
           <sp who="mercure" xml:id="III02-33">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Était-il vieux, ou nouveau ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-34">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Que de coups !</l>
           </sp>
           <sp who="mercure" xml:id="III02-35">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Le nouveau donne fort dans la tête,</l>
             <l>Quand on le veut boire sans eau.</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-36">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ah ! je t’arracherai cette Langue, sans doute.</l>
           </sp>
           <sp who="mercure" xml:id="III02-37">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Passe, mon cher Ami, crois-moi ;</l>
             <l>Que quelqu’un ici ne t’écoute.</l>
             <l>Je respecte le Vin : va-t’en, retire-toi ;</l>
             <l>Et laisse Amphitryon dans les plaisirs qu’il goûte.</l>
           </sp>
           <sp who="amphitryon" xml:id="III02-38">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Comment ! Amphitryon est là-dedans ?</l>
           </sp>
           <sp who="mercure" xml:id="III02-39">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Fort bien :</l>
             <l>Qui couvert des Lauriers d’une Victoire pleine,</l>
             <l>Est auprès de la belle Alcmène,</l>
@@ -3228,9 +3228,9 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III03">
-          <head>SCÈNE III.</head>
+          <head>Scène III</head>
           <sp who="amphitryon" xml:id="III03-1">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ah ! quel étrange coup m’a-t-il porté dans l’Âme ?</l>
             <l>En quel trouble cruel jette-t-il mon Esprit ?</l>
             <l>Et si les choses sont, comme le Traître dit,</l>
@@ -3246,72 +3246,72 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III04">
-          <head>SCÈNE IV.</head>
+          <head>Scène IV</head>
           <stage>Sosie, Naucratès, Polidas, Amphitryon.</stage>
           <sp who="sosie" xml:id="III04-1">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Monsieur, avec mes soins, tout ce que j’ai pu faire,</l>
             <l>C’est de vous amener ces Messieurs que voici.</l>
           </sp>
           <sp who="amphitryon" xml:id="III04-2">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ah ! vous voilà ?</l>
           </sp>
           <sp who="sosie" xml:id="III04-3">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Monsieur.</l>
           </sp>
           <sp who="amphitryon" xml:id="III04-4">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Insolent, téméraire.</l>
           </sp>
           <sp who="sosie" xml:id="III04-5">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Quoi ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III04-6">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Je vous apprendrai de me traiter ainsi.</l>
           </sp>
           <sp who="sosie" xml:id="III04-7">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Qu’est-ce donc ? qu’avez-vous ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III04-8">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ce que j’ai, Misérable ?</l>
           </sp>
           <sp who="sosie" xml:id="III04-9">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Holà, Messieurs, venez donc tôt.</l>
           </sp>
           <sp who="naucrates" xml:id="III04-10">
-            <speaker>naucratès</speaker>
+            <speaker>Naucratès</speaker>
             <l>Ah ! de grâce, arrêtez.</l>
           </sp>
           <sp who="sosie" xml:id="III04-11">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>De quoi suis-je coupable ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III04-12">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Tu me le demandes, Maraud ?</l>
             <l>Laissez-moi satisfaire un courroux légitime.</l>
           </sp>
           <sp who="sosie" xml:id="III04-13">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Lorsque l’on pend quelqu’un, on lui dit pourquoi c’est.</l>
           </sp>
           <sp who="naucrates" xml:id="III04-14">
-            <speaker>naucratès</speaker>
+            <speaker>Naucratès</speaker>
             <l>Daignez nous dire, au moins, quel peut être son crime.</l>
           </sp>
           <sp who="sosie" xml:id="III04-15">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Messieurs, tenez bon, s’il vous plaît ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III04-16">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Comment ! il vient d’avoir l’audace,</l>
             <l>De me fermer ma Porte au nez !</l>
             <l>Et de joindre encor la menace,</l>
@@ -3319,76 +3319,76 @@
             <l>Ah ! Coquin.</l>
           </sp>
           <sp who="sosie" xml:id="III04-17">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Je suis mort.</l>
           </sp>
           <sp who="naucrates" xml:id="III04-18">
-            <speaker>naucratès</speaker>
+            <speaker>Naucratès</speaker>
             <l>Calmez cette colère.</l>
           </sp>
           <sp who="sosie" xml:id="III04-19">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Messieurs.</l>
           </sp>
           <sp who="polidas" xml:id="III04-20">
-            <speaker>polidas</speaker>
+            <speaker>Polidas</speaker>
             <l>Qu’est-ce ?</l>
           </sp>
           <sp who="sosie" xml:id="III04-21">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>M’a-t-il frappé ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III04-22">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Non, il faut qu’il ait le salaire</l>
             <l>Des mots, où tout à l’heure, il s’est émancipé.</l>
           </sp>
           <sp who="sosie" xml:id="III04-23">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Comment cela se peut-il faire,</l>
             <l>Si j’étais par votre ordre autre part occupé ?</l>
             <l>Ces messieurs sont ici, pour rendre témoignage,</l>
             <l>Qu’à dîner avec vous, je les viens d’inviter.</l>
           </sp>
           <sp who="naucrates" xml:id="III04-24">
-            <speaker>naucratès</speaker>
+            <speaker>Naucratès</speaker>
             <l>Il est vrai qu’il nous vient de faire ce message ;</l>
             <l>Et n’a point voulu nous quitter.</l>
           </sp>
           <sp who="amphitryon" xml:id="III04-25">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Qui t’a donné cet Ordre ?</l>
           </sp>
           <sp who="sosie" xml:id="III04-26">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Vous.</l>
           </sp>
           <sp who="amphitryon" xml:id="III04-27">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Et quand ?</l>
           </sp>
           <sp who="sosie" xml:id="III04-28">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Après votre paix faite,</l>
             <l>Au milieu des transports d’une Âme satisfaite,</l>
             <l>D’avoir d’Alcmène apaisé le courroux.</l>
           </sp>
           <sp who="amphitryon" xml:id="III04-29">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ô Ciel ! chaque instant, chaque pas,</l>
             <l>Ajoute quelque chose à mon cruel martyre !</l>
             <l>Et dans ce fatal embarras,</l>
             <l>Je ne sais plus que croire, ni que dire.</l>
           </sp>
           <sp who="naucrates" xml:id="III04-30">
-            <speaker>naucratès</speaker>
+            <speaker>Naucratès</speaker>
             <l>Tout ce que de chez vous, il vient de nous conter,</l>
             <l>Surpasse si fort la Nature,</l>
             <l>Qu’avant que de rien faire, et de vous emporter,</l>
             <l>Vous devez éclaircir toute cette aventure.</l>
           </sp>
           <sp who="amphitryon" xml:id="III04-31">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Allons, vous y pourrez seconder mon effort ;</l>
             <l>Et le Ciel à propos, ici vous a fait rendre.</l>
             <l>Voyons quelle fortune en ce jour peut m’attendre.</l>
@@ -3398,105 +3398,105 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III05">
-          <head>SCÈNE V.</head>
+          <head>Scène V</head>
           <stage>Jupiter, Amphitryon, Naucratès, Polidas, Sosie.</stage>
           <sp who="jupiter" xml:id="III05-1">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Quel bruit à descendre m’oblige ?</l>
             <l>Et qui frappe en Maître où je suis ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III05-2">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Que vois-je, justes Dieux !</l>
           </sp>
           <sp who="naucrates" xml:id="III05-3">
-            <speaker>naucratès</speaker>
+            <speaker>Naucratès</speaker>
             <l>Ciel ! quel est ce prodige !</l>
             <l>Quoi ! deux Amphitryons ici nous sont produits !</l>
           </sp>
           <sp who="amphitryon" xml:id="III05-4">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Mon Âme demeure transie.</l>
             <l>Hélas ! Je n’en puis plus ; l’aventure est à bout :</l>
             <l>Ma destinée est éclaircie ;</l>
             <l>Et ce que je vois, me dit tout.</l>
           </sp>
           <sp who="naucrates" xml:id="III05-5">
-            <speaker>naucratès</speaker>
+            <speaker>Naucratès</speaker>
             <l>Plus mes regards sur eux s’attachent fortement,</l>
             <l>Plus je trouve qu’en tout, l’un à l’autre est semblable.</l>
           </sp>
           <sp who="sosie" xml:id="III05-6">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Messieurs, voici le véritable ;</l>
             <l>L’autre est un Imposteur, digne de châtiment.</l>
           </sp>
           <sp who="polidas" xml:id="III05-7">
-            <speaker>polidas</speaker>
+            <speaker>Polidas</speaker>
             <l>Certes, ce rapport admirable</l>
             <l>Suspend ici mon jugement.</l>
           </sp>
           <sp who="amphitryon" xml:id="III05-8">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>C’est trop être éludés par un Fourbe exécrable,</l>
             <l>Il faut, avec ce Fer, rompre l’enchantement.</l>
           </sp>
           <sp who="naucrates" xml:id="III05-9">
-            <speaker>naucratès</speaker>
+            <speaker>Naucratès</speaker>
             <l>Arrêtez.</l>
           </sp>
           <sp who="amphitryon" xml:id="III05-10">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Laissez-moi.</l>
           </sp>
           <sp who="naucrates" xml:id="III05-11">
-            <speaker>naucratès</speaker>
+            <speaker>Naucratès</speaker>
             <l>Dieux ! que voulez-vous faire ?</l>
           </sp>
           <sp who="amphitryon" xml:id="III05-12">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Punir, d’un Imposteur, les lâches trahisons.</l>
           </sp>
           <sp who="jupiter" xml:id="III05-13">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Tout beau, l’emportement est fort peu nécessaire ;</l>
             <l>Et lorsque de la sorte on se met en colère,</l>
             <l>On fait croire qu’on a de mauvaises raisons.</l>
           </sp>
           <sp who="sosie" xml:id="III05-14">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Oui, c’est un Enchanteur, qui porte un Caractère,</l>
             <l>Pour ressembler aux Maîtres des Maisons.</l>
           </sp>
           <sp who="amphitryon" xml:id="III05-15">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Je te ferai, pour ton partage,</l>
             <l>Sentir, par mille coups, ces propos outrageants.</l>
           </sp>
           <sp who="sosie" xml:id="III05-16">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Mon Maître est Homme de courage ;</l>
             <l>Et ne souffrira point, que l’on batte ses Gens.</l>
           </sp>
           <sp who="amphitryon" xml:id="III05-17">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Laissez-moi m’assouvir dans mon courroux extrême,</l>
             <l>Et laver mon affront au sang d’un Scélérat.</l>
           </sp>
           <sp who="naucrates" xml:id="III05-18">
-            <speaker>naucratès</speaker>
+            <speaker>Naucratès</speaker>
             <l>Nous ne souffrirons point cet étrange combat,</l>
             <l>D’Amphitryon, contre lui-même.</l>
           </sp>
           <sp who="amphitryon" xml:id="III05-19">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Quoi ! mon honneur, de vous, reçoit ce traitement ?</l>
             <l>Et mes Amis, d’un Fourbe, embrassent la défense ?</l>
             <l>Loin d’être les premiers à prendre ma vengeance,</l>
             <l>Eux-mêmes font obstacle à mon ressentiment ?</l>
           </sp>
           <sp who="naucrates" xml:id="III05-20">
-            <speaker>naucratès</speaker>
+            <speaker>Naucratès</speaker>
             <l>Que voulez-vous qu’à cette vue</l>
             <l>Fassent nos résolutions ;</l>
             <l>Lorsque par deux Amphitryons,</l>
@@ -3518,7 +3518,7 @@
             <l>Il ne nous faudra point dire notre devoir.</l>
           </sp>
           <sp who="jupiter" xml:id="III05-21">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Oui, vous avez raison : et cette ressemblance,</l>
             <l>À douter de tous deux, vous peut autoriser.</l>
             <l>Je ne m’offense point de vous voir en balance :</l>
@@ -3553,14 +3553,14 @@
             <l>Où vous a Sosie invités.</l>
           </sp>
           <sp who="sosie" xml:id="III05-22">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Je ne me trompais pas. Messieurs, ce mot termine</l>
             <l>Toute l’irrésolution :</l>
             <l>Le véritable Amphitryon,</l>
             <l>Est l’Amphitryon, où l’on dîne.</l>
           </sp>
           <sp who="amphitryon" xml:id="III05-23">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ô Ciel ! puis-je plus bas me voir humilié !</l>
             <l>Quoi ? faut-il que j’entende ici, pour mon martyre,</l>
             <l>Tout ce que l’Imposteur, à mes yeux, vient de dire ;</l>
@@ -3568,7 +3568,7 @@
             <l>On me tienne le Bras lié !</l>
           </sp>
           <sp who="naucrates" xml:id="III05-24">
-            <speaker>naucratès</speaker>
+            <speaker>Naucratès</speaker>
             <l>Vous vous plaignez à tort. Permettez-nous d’attendre</l>
             <l>L’éclaircissement, qui doit rendre</l>
             <l>Les ressentiments de saison.</l>
@@ -3577,58 +3577,58 @@
             <l>Comme s’il avait raison.</l>
           </sp>
           <sp who="amphitryon" xml:id="III05-25">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Allez, faibles Amis, et flattez l’imposture.</l>
             <l>Thèbes en a pour moi de tout autres que vous :</l>
             <l>Et je vais en trouver, qui partageant l’injure,</l>
             <l>Sauront prêter la main à mon juste courroux.</l>
           </sp>
           <sp who="jupiter" xml:id="III05-26">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Hé bien, je les attends ; et saurai décider</l>
             <l>Le différend en leur présence.</l>
           </sp>
           <sp who="amphitryon" xml:id="III05-27">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Fourbe, tu crois par là, peut-être, t’évader :</l>
             <l>Mais rien ne te saurait sauver de ma vengeance.</l>
           </sp>
           <sp who="jupiter" xml:id="III05-28">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>À ces injurieux propos</l>
             <l>Je ne daigne à présent répondre ;</l>
             <l>Et tantôt je saurai confondre</l>
             <l>Cette Fureur, avec deux mots.</l>
           </sp>
           <sp who="amphitryon" xml:id="III05-29">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Le Ciel même, le Ciel, ne t’y saurait soustraire :</l>
             <l>Et jusques aux Enfers, j’irai suivre tes pas.</l>
           </sp>
           <sp who="jupiter" xml:id="III05-30">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Il ne sera pas nécessaire ;</l>
             <l>Et l’on verra tantôt, que je ne fuirai pas.</l>
           </sp>
           <sp who="amphitryon" xml:id="III05-31">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Allons, courons, avant que d’avec eux il sorte,</l>
             <l>Assembler des Amis, qui suivent mon courroux ;</l>
             <l>Et chez moi venons à main forte,</l>
             <l>Pour le percer de mille coups.</l>
           </sp>
           <sp who="jupiter" xml:id="III05-32">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Point de façons, je vous conjure :</l>
             <l>Entrons vite dans la Maison.</l>
           </sp>
           <sp who="naucrates" xml:id="III05-33">
-            <speaker>naucratès</speaker>
+            <speaker>Naucratès</speaker>
             <l>Certes, toute cette aventure</l>
             <l>Confond le sens, et la raison.</l>
           </sp>
           <sp who="sosie" xml:id="III05-34">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Faites trêve, Messieurs, à toutes vos surprises ;</l>
             <l>Et pleins de joie, allez tabler jusqu’à demain.</l>
             <l>Que je vais m’en donner ! et me mettre en beau train,</l>
@@ -3638,38 +3638,38 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III06">
-          <head>SCÈNE VI.</head>
+          <head>Scène VI</head>
           <stage>Mercure, Sosie.</stage>
           <sp who="mercure" xml:id="III06-1">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Arrête. Quoi ! tu viens ici mettre ton nez,</l>
             <l>Impudent Fleureur de Cuisine ?</l>
           </sp>
           <sp who="sosie" xml:id="III06-2">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Ah ! de grâce, tout doux !</l>
           </sp>
           <sp who="mercure" xml:id="III06-3">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Ah ! vous y retournez !</l>
             <l>Je vous ajusterai l’échine.</l>
           </sp>
           <sp who="sosie" xml:id="III06-4">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Hélas ! brave, et généreux Moi,</l>
             <l>Modère-toi, je t’en supplie.</l>
             <l>Sosie, épargne un peu Sosie ;</l>
             <l>Et ne te plais point tant à frapper dessus toi.</l>
           </sp>
           <sp who="mercure" xml:id="III06-5">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Qui de t’appeler de ce nom,</l>
             <l>A pu te donner la licence ?</l>
             <l>Ne t’en ai-je pas fait une expresse défense,</l>
             <l>Sous peine d’essuyer mille coups de Bâton ?</l>
           </sp>
           <sp who="sosie" xml:id="III06-6">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>C’est un Nom, que tous deux nous pouvons à la fois</l>
             <l>Posséder sous un même Maître.</l>
             <l>Pour Sosie, en tous Lieux, on sait me reconnaître :</l>
@@ -3681,54 +3681,54 @@
             <l>Faisons en bonne paix, vivre les deux Sosies.</l>
           </sp>
           <sp who="mercure" xml:id="III06-7">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Non, c’est assez d’un seul ; et je suis obstiné,</l>
             <l>À ne point souffrir de partage.</l>
           </sp>
           <sp who="sosie" xml:id="III06-8">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Du pas devant, sur moi, tu prendras l’avantage.</l>
             <l>Je serai le Cadet, et tu seras l’Aîné.</l>
           </sp>
           <sp who="mercure" xml:id="III06-9">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Non, un Frère incommode, et n’est pas de mon goût ;</l>
             <l>Et je veux être Fils unique.</l>
           </sp>
           <sp who="sosie" xml:id="III06-10">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Ô Cœur barbare et tyrannique !</l>
             <l>Souffre qu’au moins je sois ton Ombre.</l>
           </sp>
           <sp who="mercure" xml:id="III06-11">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Point du tout.</l>
           </sp>
           <sp who="sosie" xml:id="III06-12">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Que d’un peu de pitié ton âme s’humanise.</l>
             <l>En cette qualité souffre-moi près de toi.</l>
             <l>Je te serai partout une Ombre si soumise,</l>
             <l>Que tu seras content de moi.</l>
           </sp>
           <sp who="mercure" xml:id="III06-13">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Point de quartier : immuable est la Loi.</l>
             <l>Si d’entrer là-dedans, tu prends encor l’audace,</l>
             <l>Mille coups en seront le fruit.</l>
           </sp>
           <sp who="sosie" xml:id="III06-14">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Las ! à quelle étrange disgrâce,</l>
             <l>Pauvre Sosie, es-tu réduit ?</l>
           </sp>
           <sp who="mercure" xml:id="III06-15">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Quoi ! ta bouche se licencie,</l>
             <l>À te donner encore un Nom, que je défends ?</l>
           </sp>
           <sp who="sosie" xml:id="III06-16">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Non, ce n’est pas moi que j’entends ;</l>
             <l>Et je parle d’un vieux Sosie,</l>
             <l>Qui fut jadis de mes Parents ;</l>
@@ -3736,48 +3736,48 @@
             <l>À l’heure du Dîner, l’on chassa de céans.</l>
           </sp>
           <sp who="mercure" xml:id="III06-17">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Prends garde de tomber dans cette frénésie ;</l>
             <l>Si tu veux demeurer au nombre des vivants.</l>
           </sp>
           <sp who="sosie" xml:id="III06-18">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Que je te rosserais, si j’avais du courage,</l>
             <l>Double Fils-de-Putain, de trop d’orgueil enflé !</l>
           </sp>
           <sp who="mercure" xml:id="III06-19">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Que dis-tu ?</l>
           </sp>
           <sp who="sosie" xml:id="III06-20">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Rien.</l>
           </sp>
           <sp who="mercure" xml:id="III06-21">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Tu tiens, je crois, quelque langage.</l>
           </sp>
           <sp who="sosie" xml:id="III06-22">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Demandez, je n’ai pas soufflé.</l>
           </sp>
           <sp who="mercure" xml:id="III06-23">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Certain mot de Fils-de-Putain,</l>
             <l>A pourtant frappé mon oreille :</l>
             <l>Il n’est rien de plus certain.</l>
           </sp>
           <sp who="sosie" xml:id="III06-24">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>C’est donc un Perroquet, que le beau temps réveille.</l>
           </sp>
           <sp who="mercure" xml:id="III06-25">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Adieu. Lorsque le Dos pourra te démanger,</l>
             <l>Voilà l’Endroit, où je demeure.</l>
           </sp>
           <sp who="sosie" xml:id="III06-26">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Ô Ciel ! que l’heure de manger,</l>
             <l>Pour être mis dehors, est une maudite heure !</l>
             <l>Allons, cédons au Sort dans notre affliction.</l>
@@ -3789,31 +3789,31 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III07">
-          <head>SCÈNE VII.</head>
+          <head>Scène VII</head>
           <stage>Amphitryon, Argatiphontidas, Posiclès, Sosie.</stage>
           <sp who="amphitryon" xml:id="III07-1">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Arrêtez là, Messieurs. Suivez-nous d’un peu loin ;</l>
             <l>Et n’avancez tous, je vous prie,</l>
             <l>Que quand il en sera besoin.</l>
           </sp>
           <sp who="posicles" xml:id="III07-2">
-            <speaker>posiclès</speaker>
+            <speaker>Posiclès</speaker>
             <l>Je comprends que ce coup doit fort toucher votre Âme.</l>
           </sp>
           <sp who="amphitryon" xml:id="III07-3">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ah ! de tous les côtés, mortelle est ma douleur !</l>
             <l>Et je souffre pour ma flamme,</l>
             <l>Autant que pour mon honneur.</l>
           </sp>
           <sp who="posicles" xml:id="III07-4">
-            <speaker>posiclès</speaker>
+            <speaker>Posiclès</speaker>
             <l>Si cette Ressemblance est telle que l’on dit,</l>
             <l>Alcmène, sans être coupable…</l>
           </sp>
           <sp who="amphitryon" xml:id="III07-5">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Ah ! sur le fait dont il s’agit,</l>
             <l>L’erreur simple devient un crime véritable,</l>
             <l>Et sans consentement, l’Innocence y périt.</l>
@@ -3823,7 +3823,7 @@
             <l>Que l’Honneur, et l’Amour, ne les pardonnent pas.</l>
           </sp>
           <sp who="argatiphontidas" xml:id="III07-6">
-            <speaker>argatiphontidas</speaker>
+            <speaker>Argatiphontidas</speaker>
             <l>Je n’embarrasse point là-dedans ma pensée :</l>
             <l>Mais je hais vos Messieurs, de leurs honteux délais ;</l>
             <l>Et c’est un procédé, dont j’ai l’Âme blessée ;</l>
@@ -3845,11 +3845,11 @@
             <l>D’une autre main, que de la mienne.</l>
           </sp>
           <sp who="amphitryon" xml:id="III07-7">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Allons.</l>
           </sp>
           <sp who="sosie" xml:id="III07-8">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Je viens, Monsieur, subir à vos genoux,</l>
             <l>Le juste châtiment d’une audace maudite.</l>
             <l>Frappez, battez, chargez, accablez-moi de coups ;</l>
@@ -3858,11 +3858,11 @@
             <l>Et je n’en dirai pas un seul mot contre vous.</l>
           </sp>
           <sp who="amphitryon" xml:id="III07-9">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Lève-toi. Que fait-on ?</l>
           </sp>
           <sp who="sosie" xml:id="III07-10">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>L’on m’a chassé tout net :</l>
             <l>Et croyant, à manger, m’aller comme eux, ébattre ;</l>
             <l>Je ne songeais pas qu’en effet,</l>
@@ -3875,33 +3875,33 @@
             <l>Comme on vous Dés-Amphitryonne.</l>
           </sp>
           <sp who="amphitryon" xml:id="III07-11">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Suis-moi.</l>
           </sp>
           <sp who="sosie" xml:id="III07-12">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>N’est-il pas mieux, de voir s’il vient Personne.</l>
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III08">
-          <head>SCÈNE VIII.</head>
+          <head>Scène VIII</head>
           <stage>Cléanthis, Naucratès, Polidas, Sosie, Amphitryon, Argatiphontidas,
             Posiclès.</stage>
           <sp who="cleanthis" xml:id="III08-1">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <p>Ô Ciel !</p>
           </sp>
           <sp who="amphitryon" xml:id="III08-2">
-            <speaker>amphitryon</speaker>
+            <speaker>Amphitryon</speaker>
             <l>Qui t’épouvante ainsi ?</l>
             <l>Quelle est la peur, que je t’inspire ?</l>
           </sp>
           <sp who="cleanthis" xml:id="III08-3">
-            <speaker>cléanthis</speaker>
+            <speaker>Cléanthis</speaker>
             <l>Las ! vous êtes là-haut, et je vous vois ici !</l>
           </sp>
           <sp who="naucrates" xml:id="III08-4">
-            <speaker>naucratès</speaker>
+            <speaker>Naucratès</speaker>
             <l>Ne vous pressez point, le voici,</l>
             <l>Pour donner devant tous, les clartés, qu’on désire ;</l>
             <l>Et qui, si l’on peut croire à ce qu’il vient de dire,</l>
@@ -3909,11 +3909,11 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III09">
-          <head>SCÈNE IX.</head>
+          <head>Scène IX</head>
           <stage>Mercure, Cléanthis, Naucratès, Polidas, Sosie, Amphitryon, Argatiphontidas,
             Posiclès.</stage>
           <sp who="mercure" xml:id="III09-1">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Oui, vous l’allez voir tous : et sachez, par avance,</l>
             <l>Que c’est le Grand Maître des Dieux ;</l>
             <l>Que sous les traits chéris de cette Ressemblance,</l>
@@ -3926,12 +3926,12 @@
             <l>Font honneur à qui les endure.</l>
           </sp>
           <sp who="sosie" xml:id="III09-2">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Ma foi ! Monsieur le Dieu, je suis votre Valet.</l>
             <l>Je me serais passé de votre courtoisie.</l>
           </sp>
           <sp who="mercure" xml:id="III09-3">
-            <speaker>mercure</speaker>
+            <speaker>Mercure</speaker>
             <l>Je lui donne à présent congé d’être Sosie.</l>
             <l>Je suis las de porter un Visage si laid ;</l>
             <l>Et je m’en vais au Ciel, avec de l’Ambrosie,</l>
@@ -3939,7 +3939,7 @@
             <stage>Il vole dans le Ciel.</stage>
           </sp>
           <sp who="sosie" xml:id="III09-4">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Le Ciel, de m’approcher, t’ôte à jamais l’envie.</l>
             <l>Ta fureur s’est par trop acharnée après moi :</l>
             <l>Et je ne vis de ma vie,</l>
@@ -3947,11 +3947,11 @@
           </sp>
         </div2>
         <div2 type="titre2" xml:id="III10">
-          <head>SCÈNE X.</head>
+          <head>Scène X</head>
           <stage>Jupiter, Cléanthis, Naucratès, Polidas, Sosie, Amphitryon, Argatiphontidas,
             Posiclès.</stage>
           <sp who="jupiter" xml:id="III10-1">
-            <speaker>jupiter <hi rend="i">dans une Nue</hi></speaker>
+            <speaker>Jupiter <hi rend="i">dans une Nue</hi></speaker>
             <l>Regarde, Amphitryon, quel est ton Imposteur ;</l>
             <l>Et sous tes propres traits, vois Jupiter paraître.</l>
             <l>À ces marques, tu peux aisément le connaître ;</l>
@@ -3977,11 +3977,11 @@
             <l>N’a, par son Cœur ardent, été donné qu’à toi.</l>
           </sp>
           <sp who="sosie" xml:id="III10-2">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Le Seigneur Jupiter sait dorer la Pilule.</l>
           </sp>
           <sp who="jupiter" xml:id="III10-3">
-            <speaker>jupiter</speaker>
+            <speaker>Jupiter</speaker>
             <l>Sors donc des noirs chagrins, que ton Cœur a soufferts ;</l>
             <l>Et rends le calme entier à l’ardeur, qui te brûle.</l>
             <l>Chez toi, doit naître un Fils, qui sous le nom d’Hercule,</l>
@@ -3998,11 +3998,11 @@
             <stage>Il se perd dans les Nues.</stage>
           </sp>
           <sp who="naucrates" xml:id="III10-4">
-            <speaker>naucratès</speaker>
+            <speaker>Naucratès</speaker>
             <l>Certes, je suis ravi de ces marques brillantes…</l>
           </sp>
           <sp who="sosie" xml:id="III10-5">
-            <speaker>sosie</speaker>
+            <speaker>Sosie</speaker>
             <l>Messieurs, voulez-vous bien suivre mon sentiment ?</l>
             <l>Ne vous embarquez nullement,</l>
             <l>Dans ces douceurs congratulantes.</l>

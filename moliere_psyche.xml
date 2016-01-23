@@ -78,7 +78,7 @@
           <castItem><role xml:id="aegiale" rend="female">Ægiale</role>, Grâce.</castItem>
           <castItem><role xml:id="phaene" rend="female">Phène</role>, Grâce.</castItem>
           <castItem><role xml:id="psyche" rend="male">Psyché</role>.</castItem>
-          <castItem><role xml:id="le-roi" rend="male">Le roi</role>, père de Psyché.</castItem>
+          <castItem><role xml:id="le-roi" rend="male superior">Le roi</role>, père de Psyché.</castItem>
           <castItem><role xml:id="aglaure" rend="female">Aglaure</role>, sœur de Psyché.</castItem>
           <castItem><role xml:id="cidippe" rend="male">Cidippe</role>, sœur de Psyché.</castItem>
           <castItem><role xml:id="cleomene" rend="male">Cléomène</role>, prince amant de Psyché.</castItem>
@@ -114,23 +114,23 @@
         </castList>
         <castList>
           <head>PERSONNAGES du CINQUIÈME INTERMÈDE</head>
-          <castItem><role xml:id="apollon">Apollon</role>.</castItem>
-          <castItem><role xml:id="muses">Les muses</role> chantantes.</castItem>
+          <castItem><role xml:id="apollon" rend="nograph">Apollon</role>.</castItem>
+          <castItem><role xml:id="muses" rend="nograph">Les muses</role> chantantes.</castItem>
           <castItem><role xml:id="les-arts">Les arts</role>, travestis en bergers galants, dansants.</castItem>
-          <castItem><role xml:id="bacchus">Bacchus</role>.</castItem>
+          <castItem><role xml:id="bacchus" rend="nograph">Bacchus</role>.</castItem>
           <castItem><role xml:id="silene">Silène</role>.</castItem>
           <castItem><role xml:id="deux-satyres-chantants">Deux satyres</role> chantants.</castItem>
           <castItem><role xml:id="deux-satyres-dansants">Deux satyres</role> dansants.</castItem>
           <castItem><role xml:id="egipans">Egipans</role> sansants.</castItem>
           <castItem><role xml:id="menade">Ménades</role>, dansantes.</castItem>
-          <castItem><role xml:id="mome">Mone</role>.</castItem>
+          <castItem><role xml:id="mome" rend="nograph">Mone</role>.</castItem>
           <castItem><role xml:id="polichinelles">Polichinelles</role> dansants.</castItem>
           <castItem><role xml:id="matassins">Matassins</role> dansants.</castItem>
-          <castItem><role xml:id="mars">Mars</role>.</castItem>
+          <castItem><role xml:id="mars" rend="nograph">Mars</role>.</castItem>
           <castItem><role xml:id="guerriers-enseignes">Guerriers</role> portant des enseignes.</castItem>
           <castItem><role xml:id="guerriers-piques">Guerriers</role> portant des piques.</castItem>
           <castItem><role xml:id="guerriers-boculiers">Guerriers</role> portant des masses et des boucliers.</castItem>
-          <castItem><role xml:id="choeur">Chœur</role> des divinités célestes.</castItem>
+          <castItem><role xml:id="choeur" rend="nograph">Chœur</role> des divinités célestes.</castItem>
         </castList>
         <p>La scène du prologue est dans un lieu champêtre, la tragi-comédie se situe dans le palais du roi.</p>
       </div>
@@ -325,7 +325,7 @@
           <l n="126" xml:id="l126">D’aimer, et n’être point aimée.</l>
         </sp>
         <sp who="amour" xml:id="a-18">
-          <speaker>l’amour</speaker>
+          <speaker>L’Amour</speaker>
           <l n="127" xml:id="l127">Dans le monde on n’entend que plaintes de l’Amour,</l>
           <l n="128" xml:id="l128">On m’impute partout mille fautes commises,</l>
           <l n="129" xml:id="l129">Et vous ne croiriez point le mal et les sottises</l>
@@ -1451,7 +1451,7 @@
         <div2 xml:id="II05" type="scene">
           <head>Scène V</head>
           <sp who="amour" xml:id="II05-1">
-            <speaker>l’amour, en l’air.</speaker>
+            <speaker>L’Amour, en l’air.</speaker>
             <l n="840" xml:id="l840">Allez mourir, Rivaux d’un dieu jaloux,</l>
             <l n="841" xml:id="l841">Dont vous méritez le courroux,</l>
             <l n="842" xml:id="l842">Pour avoir eu le cœur sensible aux mêmes charmes.</l>
@@ -1508,7 +1508,7 @@
             <l n="878" xml:id="l878">Vous reconnaître pour l’Amour.</l>
           </sp>
           <sp who="amour" xml:id="III01-2">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="879" xml:id="l879">Aussi, ne veux-je pas qu’on puisse me connaître,</l>
             <l n="880" xml:id="l880">Je ne veux à Psyché découvrir que mon cœur,</l>
             <l n="881" xml:id="l881">Rien que les beaux transports de cette vive ardeur</l>
@@ -1519,7 +1519,7 @@
             <l n="886" xml:id="l886">J’ai pris la forme que tu vois.</l>
           </sp>
           <sp who="amour" xml:id="III01-3">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="887" xml:id="l887">J’ai résolu, mon cher Zéphire,</l>
             <l n="888" xml:id="l888">De demeurer ainsi toujours,</l>
             <l n="889" xml:id="l889">Et l’on ne peut le trouver à redire</l>
@@ -1529,11 +1529,11 @@
             <l n="893" xml:id="l893">Il est temps désormais que je devienne grand.</l>
           </sp>
           <sp who="amour" xml:id="III01-4">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="894" xml:id="l894">Ce changement sans doute irritera ma Mère.</l>
           </sp>
           <sp who="amour" xml:id="III01-5">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="895" xml:id="l895">Laissons cela, Zéphire, et me dis si tes yeux</l>
             <l n="896" xml:id="l896">Ne trouvent pas Psyché la plus belle du Monde ?</l>
             <l n="897" xml:id="l897">Est-il rien sur la terre, est-il rien dans les Cieux,</l>
@@ -1590,7 +1590,7 @@
           <head>Scène III</head>
           <stage>L’Amour, Psyché, Zéphire.</stage>
           <sp who="amour" xml:id="III03-1">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="939" xml:id="l939">Le voilà ce Serpent, ce Monstre impitoyable,</l>
             <l n="940" xml:id="l940">Qu’un Oracle étonnant pour vous a préparé,</l>
             <l n="941" xml:id="l941">Et qui n’est pas peut-être à tel point effroyable</l>
@@ -1604,7 +1604,7 @@
             <l n="946" xml:id="l946">Daigne venir lui-même à mon secours !</l>
           </sp>
           <sp who="amour" xml:id="III03-3">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="947" xml:id="l947">Quel besoin de secours au milieu d’un Empire,</l>
             <l n="948" xml:id="l948">Où tout ce qui respire</l>
             <l n="949" xml:id="l949">N’attend que vos regards pour en prendre la loi,</l>
@@ -1648,7 +1648,7 @@
             <l n="984" xml:id="l984">Et cependant c’est moi qui vous le dis.</l>
           </sp>
           <sp who="amour" xml:id="III03-5">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="985" xml:id="l985">Vous avez eu, Psyché, l’âme toujours si dure,</l>
             <l n="986" xml:id="l986">Qu’il ne faut pas vous étonner,</l>
             <l n="987" xml:id="l987">Si pour en réparer l’injure</l>
@@ -1667,7 +1667,7 @@
             <l n="997" xml:id="l997">N’aimer point, c’est donc un grand crime !</l>
           </sp>
           <sp who="amour" xml:id="III03-7">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="998" xml:id="l998">En souffrez-vous un rude châtiment ?</l>
           </sp>
           <sp who="psyche" xml:id="III03-8">
@@ -1675,7 +1675,7 @@
             <l n="999" xml:id="l999">C’est punir assez doucement.</l>
           </sp>
           <sp who="amour" xml:id="III03-9">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1000" xml:id="l1000">C’est lui choisir sa peine légitime,</l>
             <l n="1001" xml:id="l1001">Et se faire justice en ce glorieux jour</l>
             <l n="1002" xml:id="l1002">D’un manquement d’amour, par un excès d’amour.</l>
@@ -1699,7 +1699,7 @@
             <l n="1017" xml:id="l1017">Ne me consulte plus sur ce que je me dois.</l>
           </sp>
           <sp who="amour" xml:id="III03-11">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1018" xml:id="l1018">Croyez, belle Psyché, croyez ce qu’ils vous disent,</l>
             <l n="1019" xml:id="l1019">Ces yeux qui ne sont point jaloux,</l>
             <l n="1020" xml:id="l1020">Qu’à l’envi les vôtres m’instruisent</l>
@@ -1725,7 +1725,7 @@
             <l n="1037" xml:id="l1037">Et quand vous lui parlez, êtes-vous entendu ?</l>
           </sp>
           <sp who="amour" xml:id="III03-13">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1038" xml:id="l1038">J’ai dans ce doux climat un souverain empire,</l>
             <l n="1039" xml:id="l1039">Comme vous l’avez sur mon cœur :</l>
             <l n="1040" xml:id="l1040">L’Amour m’est favorable, et c’est en sa faveur</l>
@@ -1781,7 +1781,7 @@
             <l n="1087" xml:id="l1087">Faites-leur de ma perte admirer le succès.</l>
           </sp>
           <sp who="amour" xml:id="III03-15">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1088" xml:id="l1088">Vous ne me donnez pas, Psyché, toute votre âme :</l>
             <l n="1089" xml:id="l1089">Ce tendre souvenir d’un Père et de deux Sœurs</l>
             <l n="1090" xml:id="l1090">Me vole une part des douceurs</l>
@@ -1795,7 +1795,7 @@
             <l n="1095" xml:id="l1095">Des tendresses du sang peut-on être jaloux ?</l>
           </sp>
           <sp who="amour" xml:id="III03-17">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1096" xml:id="l1096">Je le suis, ma Psyché, de toute la nature.</l>
             <l n="1097" xml:id="l1097">Les rayons du Soleil vous baisent trop souvent,</l>
             <l n="1098" xml:id="l1098">Vos cheveux souffrent trop les caresses du Vent,</l>
@@ -1815,7 +1815,7 @@
             <l n="1109" xml:id="l1109">Dont je n’abuserai jamais.</l>
           </sp>
           <sp who="amour" xml:id="III03-19">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1110" xml:id="l1110">Allons voir cependant ces Jardins, ce Palais,</l>
             <l n="1111" xml:id="l1111">Où vous ne verrez rien que votre éclat n’efface.</l>
             <l n="1112" xml:id="l1112">Et vous, petits Amours, et vous jeunes Zéphyrs,</l>
@@ -2161,7 +2161,7 @@
           <head>Scène III</head>
           <stage>L’Amour, Psyché.</stage>
           <sp who="amour" xml:id="IV03-1">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1329" xml:id="l1329">Enfin vous êtes seule, et je puis vous redire,</l>
             <l n="1330" xml:id="l1330">Sans avoir pour témoins vos importunes Sœurs,</l>
             <l n="1331" xml:id="l1331">Ce que des yeux si beaux ont pris sur moi d’empire,</l>
@@ -2186,7 +2186,7 @@
             <l n="1347" xml:id="l1347">Non, Seigneur.</l>
           </sp>
           <sp who="amour" xml:id="IV03-3">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1348" xml:id="l1348">Qu’est-ce donc, et d’où vient mon malheur ?</l>
             <l n="1349" xml:id="l1349">J’entends moins de soupirs d’amour que de douleur,</l>
             <l n="1350" xml:id="l1350">Je vois de votre teint les roses amorties</l>
@@ -2203,7 +2203,7 @@
             <l n="1358" xml:id="l1358">Ce n’est point là ce qui m’afflige.</l>
           </sp>
           <sp who="amour" xml:id="IV03-5">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1359" xml:id="l1359">Est-ce l’absence d’un Rival,</l>
             <l n="1360" xml:id="l1360">Et d’un Rival aimé qui fait qu’on me néglige ?</l>
           </sp>
@@ -2229,7 +2229,7 @@
             <l n="1378" xml:id="l1378">Je suis sûre du moins de ne point l’obtenir.</l>
           </sp>
           <sp who="amour" xml:id="IV03-7">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1379" xml:id="l1379">Et ne craignez-vous point qu’à mon tour je m’irrite,</l>
             <l n="1380" xml:id="l1380">Que vous connaissiez mal quel est votre mérite,</l>
             <l n="1381" xml:id="l1381">Ou feigniez de ne pas savoir</l>
@@ -2242,7 +2242,7 @@
             <l n="1385" xml:id="l1385">J’aurai l’affront de me voir refusée.</l>
           </sp>
           <sp who="amour" xml:id="IV03-9">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1386" xml:id="l1386">Prenez en ma faveur de meilleurs sentiments,</l>
             <l n="1387" xml:id="l1387">L’expérience en est aisée,</l>
             <l n="1388" xml:id="l1388">Parlez, tout se tient prêt à vos commandements.</l>
@@ -2264,11 +2264,11 @@
             <l n="1401" xml:id="l1401">Et faites-moi connaître un si parfait Amant.</l>
           </sp>
           <sp who="amour" xml:id="IV03-11">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1402" xml:id="l1402">Psyché, que venez-vous de dire ?</l>
           </sp>
           <sp who="amour" xml:id="IV03-12">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1403" xml:id="l1403">Je l’ai juré, je n’en suis plus le maître,</l>
             <l n="1404" xml:id="l1404">Mais vous ne savez pas ce que vous demandez.</l>
             <l n="1405" xml:id="l1405">Laissez-moi mon secret, si je me fais connaître,</l>
@@ -2280,7 +2280,7 @@
             <l n="1408" xml:id="l1408">C’est là sur vous mon souverain empire ?</l>
           </sp>
           <sp who="amour" xml:id="IV03-14">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1409" xml:id="l1409">Vous pouvez tout, et je suis tout à vous ;</l>
             <l n="1410" xml:id="l1410">Mais si nos feux vous semblent doux,</l>
             <l n="1411" xml:id="l1411">Ne mettez point d’obstacle à leur charmante suite,</l>
@@ -2297,7 +2297,7 @@
             <l n="1419" xml:id="l1419">J’ai rejeté les vœux de tant de Rois.</l>
           </sp>
           <sp who="amour" xml:id="IV03-16">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1420" xml:id="l1420">Le voulez-vous ?</l>
           </sp>
           <sp who="psyche" xml:id="IV03-17">
@@ -2305,7 +2305,7 @@
             <l n="1421" xml:id="l1421">Souffrez que je vous en conjure.</l>
           </sp>
           <sp who="amour" xml:id="IV03-18">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1422" xml:id="l1422">Si vous saviez, Psyché, la cruelle aventure</l>
             <l n="1423" xml:id="l1423">Que par là vous vous attirez...</l>
           </sp>
@@ -2314,7 +2314,7 @@
             <l n="1424" xml:id="l1424">Seigneur, vous me désespérez.</l>
           </sp>
           <sp who="amour" xml:id="IV03-20">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1425" xml:id="l1425">Pensez-y bien, je puis encor me taire.</l>
           </sp>
           <sp who="psyche" xml:id="IV03-21">
@@ -2322,7 +2322,7 @@
             <l n="1426" xml:id="l1426">Faites-vous des serments pour n’y point satisfaire ?</l>
           </sp>
           <sp who="amour" xml:id="IV03-22">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1427" xml:id="l1427">Hé bien, je suis le Dieu le plus puissant des Dieux,</l>
             <l n="1428" xml:id="l1428">Absolu sur la terre, absolu dans les Cieux,</l>
             <l n="1429" xml:id="l1429">Dans les eaux, dans les airs mon pouvoir est suprême,</l>
@@ -2746,7 +2746,7 @@
           <head>Scène IV</head>
           <stage>L’Amour, Psyché, évanouie.</stage>
           <sp who="amour" xml:id="V04-1">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1730" xml:id="l1730">Votre péril, Psyché, dissipe ma colère,</l>
             <l n="1731" xml:id="l1731">Ou plutôt de mes feux l’ardeur n’a point cessé,</l>
             <l n="1732" xml:id="l1732">Et bien qu’au dernier point vous m’ayez su déplaire,</l>
@@ -2801,7 +2801,7 @@
             <l n="1774" xml:id="l1774">La colère présomptueuse…</l>
           </sp>
           <sp who="amour" xml:id="V05-2">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1775" xml:id="l1775">Je ne suis plus enfant, et je l’ai trop été,</l>
             <l n="1776" xml:id="l1776">Et ma colère est juste autant qu’impétueuse.</l>
           </sp>
@@ -2812,7 +2812,7 @@
             <l n="1779" xml:id="l1779">Que vous me devez la naissance.</l>
           </sp>
           <sp who="amour" xml:id="V05-4">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1780" xml:id="l1780">Et vous pourriez n’oublier pas</l>
             <l n="1781" xml:id="l1781">Que vous avez un cœur et des appas</l>
             <l n="1782" xml:id="l1782">Qui relèvent de ma puissance :</l>
@@ -2865,7 +2865,7 @@
             <l n="1826" xml:id="l1826">Moi qui sans vos traits ne puis rien.</l>
           </sp>
           <sp who="amour" xml:id="V05-6">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1827" xml:id="l1827">Vous ne pouvez que trop, Déesse impitoyable,</l>
             <l n="1828" xml:id="l1828">Le Destin l’abandonne à tout votre courroux :</l>
             <l n="1829" xml:id="l1829">Mais soyez moins inexorable</l>
@@ -2889,7 +2889,7 @@
             <l n="1844" xml:id="l1844">Laissez-la sans Vénus triompher, ou périr. 1945</l>
           </sp>
           <sp who="amour" xml:id="V05-8">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1845" xml:id="l1845">Hélas ! si je vous importune,</l>
             <l n="1846" xml:id="l1846">Je ne le ferais pas, si je pouvais mourir.</l>
           </sp>
@@ -2899,7 +2899,7 @@
             <l n="1848" xml:id="l1848">Qui force un Immortel à souhaiter la mort.</l>
           </sp>
           <sp who="amour" xml:id="V05-10">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1849" xml:id="l1849">Voyez par son excès si mon amour est fort.</l>
             <l n="1850" xml:id="l1850">Ne lui ferez-vous grâce aucune ?</l>
           </sp>
@@ -2910,7 +2910,7 @@
             <l n="1853" xml:id="l1853">Votre Psyché reverra la lumière.</l>
           </sp>
           <sp who="amour" xml:id="V05-12">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1854" xml:id="l1854">Que je vous vais partout faire donner d’encens !</l>
           </sp>
           <sp who="venus" xml:id="V05-13">
@@ -2922,7 +2922,7 @@
             <l n="1859" xml:id="l1859">Vous choisir une autre Moitié.</l>
           </sp>
           <sp who="amour" xml:id="V05-14">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1860" xml:id="l1860">Et moi, je ne veux plus de grâce,</l>
             <l n="1861" xml:id="l1861">Je reprends toute mon audace,</l>
             <l n="1862" xml:id="l1862">Je veux Psyché, je veux sa foi,</l>
@@ -2938,7 +2938,7 @@
           <head>Scène Dernière</head>
           <stage>Jupiter, Vénus, L’Amour, Psyché.</stage>
           <sp who="amour" xml:id="V06-1">
-            <speaker>l’amour</speaker>
+            <speaker>L’Amour</speaker>
             <l n="1868" xml:id="l1868">Vous à qui seul tout est possible,</l>
             <l n="1869" xml:id="l1869">Père des Dieux, Souverain des mortels,</l>
             <l n="1870" xml:id="l1870">Fléchissez la rigueur d’une Mère inflexible</l>
@@ -3021,7 +3021,7 @@
             <l n="1926" xml:id="l1926">Je vous revois enfin, cher objet de ma flamme !</l>
           </sp>
           <sp who="amour" xml:id="V06-9">
-            <speaker>l’amour, à <hi rend="i">P</hi>syché.</speaker>
+            <speaker>L’Amour, à <hi rend="i">P</hi>syché.</speaker>
             <l n="1927" xml:id="l1927">Je vous possède enfin, délices de mon âme !</l>
           </sp>
           <sp who="jupiter" xml:id="V06-10">

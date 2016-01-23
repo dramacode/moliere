@@ -50,12 +50,12 @@
           <castItem><role xml:id="sganarelle" rend="male">Sganarelle</role>, mari de Martine.</castItem>
           <castItem><role xml:id="martine" rend="female">Martine</role>, femme de Sganarelle.</castItem>
           <castItem><role xml:id="monsieur-robert" rend="male">Monsieur Robert</role>, voisin de Sganarelle.</castItem>
-          <castItem><role xml:id="valere" rend="male">Valère</role>, domestique de Géronte.</castItem>
-          <castItem><role xml:id="lucas" rend="male">Lucas</role>, mari de Jacqueline.</castItem>
+          <castItem><role xml:id="valere" rend="male inferior">Valère</role>, domestique de Géronte.</castItem>
+          <castItem><role xml:id="lucas" rend="male inferior">Lucas</role>, mari de Jacqueline.</castItem>
           <castItem><role xml:id="geronte" rend="male veteran">Géronte</role>, père de Lucinde.</castItem>
-          <castItem><role xml:id="jacqueline" rend="female">Jacqueline</role>, nourrice chez Géronte, et femme de Lucas.</castItem>
-          <castItem><role xml:id="lucinde" rend="female">Lucinde</role>, fille de Géronte.</castItem>
-          <castItem><role xml:id="leandre" rend="male">Léandre</role>, amant de Lucinde.</castItem>
+          <castItem><role xml:id="jacqueline" rend="female inferior">Jacqueline</role>, nourrice chez Géronte, et femme de Lucas.</castItem>
+          <castItem><role xml:id="lucinde" rend="female junior">Lucinde</role>, fille de Géronte.</castItem>
+          <castItem><role xml:id="leandre" rend="male junior">Léandre</role>, amant de Lucinde.</castItem>
           <castItem><role xml:id="thibaut" rend="male">Thibaut</role>, père de Perrin.</castItem>
           <castItem><role xml:id="perrin" rend="male">Perrin</role>, fils de Thibaut, paysan.</castItem>
         </castList>

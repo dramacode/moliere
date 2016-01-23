@@ -76,32 +76,32 @@
         <castList>
           <castItem><role rend="male" xml:id="pourceaugnac">Monsieur de Pourceaugnac</role>.</castItem>
           <castItem><role rend="male" xml:id="oronte">Oronte</role>.</castItem>
-          <castItem><role rend="female" xml:id="julie">Julie</role>, Fille d’Oronte.</castItem>
+          <castItem><role rend="female junior" xml:id="julie">Julie</role>, Fille d’Oronte.</castItem>
           <castItem><role rend="female" xml:id="nerine">Nérine</role>, Femme d’intrigue.</castItem>
           <castItem><role rend="female" xml:id="lucette">Lucette</role>, feinte Gasconne.</castItem>
-          <castItem><role rend="male" xml:id="eraste">Éraste</role>, Amant de Julie.</castItem>
+          <castItem><role rend="male junior" xml:id="eraste">Éraste</role>, Amant de Julie.</castItem>
           <castItem><role rend="male" xml:id="sbrigani">Sbrigani</role>, Napolitain, Homme d’intrigue.</castItem>
           <castItem><role rend="male" xml:id="medecin1">Premier médecin</role>.</castItem>
           <castItem><role rend="male" xml:id="medecin2">Second médecin</role>.</castItem>
           <castItem><role rend="male" xml:id="apothicaire">L’apothicaire</role>.</castItem>
           <castItem><role rend="male" xml:id="paysan">Un paysan</role>.</castItem>
           <castItem><role rend="male" xml:id="paysanne">Une paysanne</role>.</castItem>
-          <castItem><role rend="male" xml:id="musicien1">Premier musicien</role>.</castItem>
-          <castItem><role rend="male" xml:id="musicien2">Second musicien</role>.</castItem>
-          <castItem><role rend="male" xml:id="avocat1">Premier avocat</role>.</castItem>
-          <castItem><role rend="male" xml:id="avocat2">Second avocat</role>.</castItem>
-          <castItem><role rend="male" xml:id="suisse1">Premier suisse</role>.</castItem>
-          <castItem><role rend="male" xml:id="suisse2">Second suisse</role>.</castItem>
+          <castItem><role rend="nograph" xml:id="musicien1">Premier musicien</role>.</castItem>
+          <castItem><role rend="nograph" xml:id="musicien2">Second musicien</role>.</castItem>
+          <castItem><role rend="nograph" xml:id="avocat1">Premier avocat</role>.</castItem>
+          <castItem><role rend="nograph" xml:id="avocat2">Second avocat</role>.</castItem>
+          <castItem><role rend="nograph" xml:id="suisse1">Premier suisse</role>.</castItem>
+          <castItem><role rend="nograph" xml:id="suisse2">Second suisse</role>.</castItem>
           <castItem><role rend="male" xml:id="exempt">Un exempt</role>.</castItem>
           <castItem><role xml:id="deux-archers">Deux archers</role>.</castItem>
-          <castItem><role xml:id="musiciens">Plusieurs musiciens</role><role xml:id="musicien"/><role xml:id="egyptienne"/><role xml:id="egyptien"/>.</castItem>
+          <castItem><role xml:id="musiciens" rend="nograph">Plusieurs musiciens</role><role xml:id="musicien" rend="nograph"/><role xml:id="egyptienne" rend="nograph"/><role xml:id="egyptien" rend="nograph"/>.</castItem>
           <castItem><role xml:id="danseurs">Joueurs d’instruments, et danseurs</role>.
             <role xml:id="enfants"/>
             <role xml:id="voix1"/>
             <role xml:id="voix2"/>
             <role xml:id="voix3"/>
             <role xml:id="jeanet"/>
-            <role xml:id="choeur"/>
+            <role rend="nograph" xml:id="choeur"/>
           </castItem>
         </castList>
         <stage>La Scène est à Paris.</stage>
@@ -1034,7 +1034,7 @@
             <p>Monsieur, il n’en peut plus, et il dit qu’il sent dans la tête les plus grandes douleurs du monde.</p>
           </sp>
           <sp who="medecin1" xml:id="I06-2">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Le Malade est un sot, d’autant plus que dans la maladie dont il est attaqué, ce n’est pas la tête, selon Galien, mais la rate, qui lui doit faire mal.</p>
           </sp>
           <sp who="paysan" xml:id="I06-3">
@@ -1042,7 +1042,7 @@
             <p>Quoi que c’en soit, Monsieur, il a toujours avec cela son cours de ventre depuis six mois.</p>
           </sp>
           <sp who="medecin1" xml:id="I06-4">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Bon, c’est signe que le dedans se dégage. Je l’irai visiter dans deux ou trois jours ; mais s’il mourait avant ce temps-là, ne manquez pas de m’en donner avis, car il n’est pas de la civilité, qu’un Médecin visite un Mort.</p>
           </sp>
           <sp who="paysanne" xml:id="I06-5">
@@ -1050,7 +1050,7 @@
             <p>Mon Père, Monsieur, est toujours malade de plus en plus.</p>
           </sp>
           <sp who="medecin1" xml:id="I06-6">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Ce n’est pas ma faute ; je lui donne des remèdes, que ne guérit-il ? Combien a-t-il été saigné de fois ?</p>
           </sp>
           <sp who="paysanne" xml:id="I06-7">
@@ -1058,7 +1058,7 @@
             <p>Quinze, Monsieur, depuis vingt jours.</p>
           </sp>
           <sp who="medecin1" xml:id="I06-8">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Quinze fois saigné ?</p>
           </sp>
           <sp who="paysanne" xml:id="I06-9">
@@ -1066,7 +1066,7 @@
             <p>Oui.</p>
           </sp>
           <sp who="medecin1" xml:id="I06-10">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Et il ne guérit point ?</p>
           </sp>
           <sp who="paysanne" xml:id="I06-11">
@@ -1074,7 +1074,7 @@
             <p>Non, Monsieur.</p>
           </sp>
           <sp who="medecin1" xml:id="I06-12">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>C’est signe que la maladie n’est pas dans le sang. Nous le ferons purger autant de fois, pour voir si elle n’est pas dans les humeurs ; et si rien ne nous réussit, nous l’enverrons aux Bains.</p>
           </sp>
           <sp who="apothicaire" xml:id="I06-13">
@@ -1086,7 +1086,7 @@
             <p>C’est moi, Monsieur, qui vous ai envoyé parler ces jours passés pour un Parent un peu troublé d’esprit, que je veux vous donner chez vous, afin de le guérir avec plus de commodité, et qu’il soit vu de moins de monde.</p>
           </sp>
           <sp who="medecin1" xml:id="I06-15">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Oui, Monsieur, j’ai déjà disposé tout, et promets d’en avoir tous les soins imaginables.</p>
           </sp>
           <sp who="eraste" xml:id="I06-16">
@@ -1094,7 +1094,7 @@
             <p>Le voici.</p>
           </sp>
           <sp who="medecin1" xml:id="I06-17">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>La conjoncture est tout à fait heureuse, et j’ai ici un Ancien de mes Amis avec lequel je serai bien aise de consulter sa maladie.</p>
           </sp>
         </div2>
@@ -1106,7 +1106,7 @@
             <p>Une petite affaire m’est survenue, qui m’oblige à vous quitter ; mais voilà une Personne entre les mains de qui je vous laisse, qui aura soin pour moi de vous traiter du mieux qu’il lui sera possible.</p>
           </sp>
           <sp who="medecin1" xml:id="I07-2">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Le devoir de ma Profession m’y oblige, et c’est assez que vous me chargiez de ce soin.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I07-3">
@@ -1114,7 +1114,7 @@
             <p>C’est son Maître d’Hôtel, et il faut que ce soit un Homme de qualité.</p>
           </sp>
           <sp who="medecin1" xml:id="I07-4">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Oui, je vous assure que je traiterai Monsieur méthodiquement, et dans toutes les régularités de notre Art.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I07-5">
@@ -1122,7 +1122,7 @@
             <p>Mon Dieu, il ne me faut point tant de cérémonies, et je ne viens pas ici pour incommoder.</p>
           </sp>
           <sp who="medecin1" xml:id="I07-6">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Un tel Emploi ne me donne que de la joie.</p>
           </sp>
           <sp who="eraste" xml:id="I07-7">
@@ -1148,7 +1148,7 @@
             <p>Je vous recommande surtout de ne le point laisser sortir de vos mains, car parfois il veut s’échapper.</p>
           </sp>
           <sp who="medecin1" xml:id="I07-12">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Ne vous mettez pas en peine.</p>
           </sp>
           <sp who="eraste" xml:id="I07-13">
@@ -1164,7 +1164,7 @@
           <head>Scène VIII</head>
           <stage>Premier Médecin, Second Médecin, Monsieur de Pourceaugnac, l'Apothicaire</stage>
           <sp who="medecin1" xml:id="I08-1">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Ce m’est beaucoup d’honneur, Monsieur, d’être choisi pour vous rendre service.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-2">
@@ -1172,7 +1172,7 @@
             <p>Je suis votre serviteur.</p>
           </sp>
           <sp who="medecin1" xml:id="I08-3">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Voici un habile Homme, mon Confrère, avec lequel je vais consulter la manière dont nous vous traiterons.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-4">
@@ -1180,7 +1180,7 @@
             <p>Il ne faut point tant de façons, vous dis-je, et je suis Homme à me contenter de l’ordinaire.</p>
           </sp>
           <sp who="medecin1" xml:id="I08-5">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Allons, des sièges.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-6">
@@ -1188,7 +1188,7 @@
             <p>Voilà, pour un jeune Homme, des Domestiques bien lugubres !</p>
           </sp>
           <sp who="medecin1" xml:id="I08-7">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Allons, Monsieur, prenez votre place, Monsieur.</p>
             <stage>Lorsqu’ils sont assis, les deux Médecins lui prennent chacun une main, pour lui tâter le pouls.</stage>
           </sp>
@@ -1199,7 +1199,7 @@
             <p>Que veut dire cela ?</p>
           </sp>
           <sp who="medecin1" xml:id="I08-9">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Mangez-vous bien, Monsieur ?</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-10">
@@ -1207,7 +1207,7 @@
             <p>Oui, et bois encore mieux.</p>
           </sp>
           <sp who="medecin1" xml:id="I08-11">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Tant pis ; cette grande appétition du froid et de l’humide, est une indication de la chaleur et sécheresse qui est au dedans.Dormez-vous fort ?</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-12">
@@ -1215,7 +1215,7 @@
             <p>Oui, quand j’ai bien soupé.</p>
           </sp>
           <sp who="medecin1" xml:id="I08-13">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Faites-vous des songes ?</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-14">
@@ -1223,7 +1223,7 @@
             <p>Quelquefois.</p>
           </sp>
           <sp who="medecin1" xml:id="I08-15">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>De quelle nature sont-ils ?</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-16">
@@ -1231,7 +1231,7 @@
             <p>De la nature des songes. Quelle diable de conversation est-ce là ?</p>
           </sp>
           <sp who="medecin1" xml:id="I08-17">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Vos déjections, comment sont-elles ?</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-18">
@@ -1239,7 +1239,7 @@
             <p>Ma foi, je ne comprends rien à toutes ces questions, et je veux plutôt boire un coup.</p>
           </sp>
           <sp who="medecin1" xml:id="I08-19">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Un peu de patience, nous allons raisonner sur votre affaire devant vous, et nous le ferons en Français, pour être plus intelligibles.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-20">
@@ -1247,7 +1247,7 @@
             <p>Quel grand raisonnement faut-il pour manger un morceau ?</p>
           </sp>
           <sp who="medecin1" xml:id="I08-21">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Comme ainsi soit qu’on ne puisse guérir une maladie, qu’on ne la connaisse parfaitement, et qu’on ne la puisse parfaitement connaître, sans en bien établir l’idée particulière et la véritable espèce, par ses signes diagnostiques et prognostiques ; vous me permettrez, Monsieur notre Ancien, d’entrer en considération de la maladie dont il s’agit, avant que de toucher à la thérapeutique et aux remèdes qu’il nous conviendra faire pour la parfaite curation d’icelle.Je dis donc, Monsieur, avec votre permission, que notre Malade ici présent, est malheureusement attaqué, affecté, possédé, travaillé de cette sorte de folie que nous nommons fort bien, mélancolie hypocondriaque, espèce de folie très fâcheuse, et qui ne demande pas moins qu’un Esculape comme vous, consommé dans notre Art ; vous, dis-je, qui avez blanchi, comme on dit, sous le harnois, et auquel il en a tant passé par les mains de toutes les façons.Je l’appelle mélancolie hypocondriaque, pour la distinguer des deux autres ; car le célèbre Galien établit doctement à son ordinaire trois espèces de cette maladie, que nous nommons mélancolie, ainsi appelée non seulement par les Latins, mais encore par les Grecs ; ce qui est bien à remarquer pour notre affaire : La première, qui vient du propre vice du cerveau ; la seconde, qui vient de tout le sang, fait et rendu atrabilaire ; la troisième, appelée hypocondriaque, qui est la nôtre, laquelle procède du vice de quelque partie du bas-ventre, et de la région inférieure, mais particulièrement de la rate, dont la chaleur et l’inflammation porte au cerveau de notre Malade beaucoup de fuligines épaisses et crasses, dont la vapeur noire et maligne cause dépravation aux fonctions de la faculté princesse, et fait la maladie dont par notre raisonnement il est manifestement atteint et convaincu.Qu’ainsi ne soit, pour diagnostique incontestable de ce que je dis, vous n’avez qu’à considérer ce grand sérieux que vous voyez ; cette tristesse accompagnée de crainte et de défiance, signes pathognomoniques et individuels de cette maladie, si bien marquée chez le Divin vieillard Hippocrate ; cette physionomie, ces yeux rouges et hagards, cette grande barbe, cette habitude du corps, menue, grêle, noire et velue, lesquels signes le dénotent très affecté de cette maladie, procédante du vice des hypocondres ; laquelle maladie par laps de temps naturalisée, envieillie, habituée, et ayant pris droit de bourgeoisie chez lui, pourrait bien dégénérer, ou en manie, ou en phtisie, ou en apoplexie, ou même en fine frénésie et fureur.Tout ceci supposé, puisqu’une maladie bien connue est à demi guérie, car <hi rend="i">ignoti nulla est curatio morbi</hi>, il ne vous sera pas difficile de convenir des remèdes que nous devons faire à Monsieur.Premièrement, pour remédier à cette pléthore obturante, et à cette cacochymie luxuriante par tout le corps, je suis d’avis qu’il soit phlébotomisé libéralement ; c’est-à-dire que les saignées soient fréquentes et plantureuses : En premier lieu de la basilique, puis de la céphalique, et même si le mal est opiniâtre, de lui ouvrir la veine du front, et que l’ouverture soit large, afin que le gros sang puisse sortir ; et en même temps, de le purger, désopiler, et évacuer par purgatifs propres et convenables ; c’est-à-dire par cholagogues, mélanogogues, <hi rend="i">et cætera</hi> ; et comme la véritable source de tout le mal est ou une humeur crasse et féculente, ou une vapeur noire et grossière qui obscurcit, infecte et salit les esprits animaux, il est à propos ensuite qu’il prenne un bain d’eau pure et nette, avec force petit-lait clair, pour purifier par l’eau la féculence de l’humeur crasse, et éclaircir par le lait clair la noirceur de cette vapeur ; mais avant toute chose, je trouve qu’il est bon de le réjouir par agréables Conversations, Chants et Instruments de Musique, à quoi il n’y a pas d’inconvénient de joindre des Danseurs, afin que leurs mouvements, disposition et agilité puissent exciter et réveiller la paresse de ses esprits engourdis, qui occasionne l’épaisseur de son sang, d’où procède la maladie.Voilà les remèdes que j’imagine, auxquels pourront être ajoutés beaucoup d’autres meilleurs par Monsieur notre Maître et Ancien, suivant l’expérience, jugement, lumière et suffisance qu’il s’est acquise dans notre Art.<hi rend="i">Dixi</hi>.</p>
           </sp>
           <sp who="medecin2" xml:id="I08-22">
@@ -1259,7 +1259,7 @@
             <p>Messieurs, il y a une heure que je vous écoute. Est-ce que nous jouons ici une Comédie ?</p>
           </sp>
           <sp who="medecin1" xml:id="I08-24">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Non, Monsieur, nous ne jouons point.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-25">
@@ -1267,7 +1267,7 @@
             <p>Qu’est-ce que tout ceci ? et que voulez-vous dire avec votre galimatias et vos sottises ?</p>
           </sp>
           <sp who="medecin1" xml:id="I08-26">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Bon, dire des injures. Voilà un diagnostique qui nous manquait pour la confirmation de son mal, et ceci pourrait bien tourner en manie.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-27">
@@ -1276,7 +1276,7 @@
             <stage>Il crache deux ou trois fois.</stage>
           </sp>
           <sp who="medecin1" xml:id="I08-28">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Autre diagnostique : La sputation fréquente.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-29">
@@ -1284,7 +1284,7 @@
             <p>Laissons cela, et sortons d’ici.</p>
           </sp>
           <sp who="medecin1" xml:id="I08-30">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Autre encore : L’inquiétude de changer de place.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-31">
@@ -1292,7 +1292,7 @@
             <p>Qu’est-ce donc que toute cette affaire ? et que me voulez-vous ?</p>
           </sp>
           <sp who="medecin1" xml:id="I08-32">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Vous guérir, selon l’ordre qui nous a été donné.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-33">
@@ -1300,7 +1300,7 @@
             <p>Me guérir.</p>
           </sp>
           <sp who="medecin1" xml:id="I08-34">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Oui.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-35">
@@ -1308,7 +1308,7 @@
             <p>Parbleu je ne suis pas malade.</p>
           </sp>
           <sp who="medecin1" xml:id="I08-36">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Mauvais signe, lorsqu’un Malade ne sent pas son mal.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-37">
@@ -1316,7 +1316,7 @@
             <p>Je vous dis que je me porte bien.</p>
           </sp>
           <sp who="medecin1" xml:id="I08-38">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Nous savons mieux que vous comment vous vous portez, et nous sommes Médecins, qui voyons clair dans votre constitution.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-39">
@@ -1324,7 +1324,7 @@
             <p>Si vous êtes Médecins, je n’ai que faire de vous ; et je me moque de la Médecine.</p>
           </sp>
           <sp who="medecin1" xml:id="I08-40">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Hon, hon ; voici un Homme plus fou que nous ne pensons.</p>
           </sp>
           <sp who="pourceaugnac" xml:id="I08-41">
@@ -1332,7 +1332,7 @@
             <p>Mon Père et ma Mère n’ont jamais voulu de remèdes, et ils sont morts tous deux sans l’assistance des Médecins.</p>
           </sp>
           <sp who="medecin1" xml:id="I08-42">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Je ne m’étonne pas s’ils ont engendré un Fils qui est insensé. Allons, procédons à la curation, et par la douceur exhilarante de l’harmonie, adoucissons, lénifions, et accoisons l’aigreur de ses esprits, que je vois prêts à s’enflammer.</p>
           </sp>
         </div2>
@@ -1435,7 +1435,7 @@
           <head>Scène Première</head>
           <stage>Sbrigani, Premier Médecin</stage>
           <sp who="medecin1" xml:id="II01-1">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Il a forcé tous les obstacles que j’avais mis ; et s’est dérobé aux remèdes que je commençais de lui faire.</p>
           </sp>
           <sp who="sbrigani" xml:id="II01-2">
@@ -1443,7 +1443,7 @@
             <p>C’est être bien ennemi de soi-même, que de fuir des remèdes aussi salutaires que les vôtres.</p>
           </sp>
           <sp who="medecin1" xml:id="II01-3">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Marque d’un cerveau démonté, et d’une raison dépravée, que de ne vouloir pas guérir.</p>
           </sp>
           <sp who="sbrigani" xml:id="II01-4">
@@ -1451,7 +1451,7 @@
             <p>Vous l’auriez guéri haut la main.</p>
           </sp>
           <sp who="medecin1" xml:id="II01-5">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Sans doute, quand il y aurait eu complication de douze maladies.</p>
           </sp>
           <sp who="sbrigani" xml:id="II01-6">
@@ -1459,7 +1459,7 @@
             <p>Cependant voilà cinquante Pistoles bien acquises, qu’il vous fait perdre.</p>
           </sp>
           <sp who="medecin1" xml:id="II01-7">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Moi, je n’entends point les perdre, et prétends le guérir en dépit qu’il en ait. Il est lié et engagé à mes remèdes, et je veux le faire saisir où je le trouverai, comme Déserteur de la Médecine, et Infracteur de mes Ordonnances.</p>
           </sp>
           <sp who="sbrigani" xml:id="II01-8">
@@ -1467,7 +1467,7 @@
             <p>Vous avez raison, vos remèdes étaient un coup sûr, et c’est de l’argent qu’il vous vole.</p>
           </sp>
           <sp who="medecin1" xml:id="II01-9">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Où puis-je en avoir des nouvelles ?</p>
           </sp>
           <sp who="sbrigani" xml:id="II01-10">
@@ -1475,7 +1475,7 @@
             <p>Chez le bon Homme Oronte, assurément, dont il vient épouser la Fille, et qui ne sachant rien de l’infirmité de son Gendre futur, voudra peut-être se hâter de conclure le Mariage.</p>
           </sp>
           <sp who="medecin1" xml:id="II01-11">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Je vais lui parler tout à l’heure.</p>
           </sp>
           <sp who="sbrigani" xml:id="II01-12">
@@ -1483,7 +1483,7 @@
             <p>Vous ne ferez point mal.</p>
           </sp>
           <sp who="medecin1" xml:id="II01-13">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Il est hypothéqué à mes Consultations ; et un Malade ne se moquera pas d’un Médecin.</p>
           </sp>
           <sp who="sbrigani" xml:id="II01-14">
@@ -1491,7 +1491,7 @@
             <p>C’est fort bien dit à vous ; et si vous m’en croyez, vous ne souffrirez point qu’il se marie, que vous ne l’ayez pansé tout votre soûl.</p>
           </sp>
           <sp who="medecin1" xml:id="II01-15">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Laissez-moi faire.</p>
           </sp>
           <sp who="sbrigani" xml:id="II01-16">
@@ -1503,7 +1503,7 @@
           <head>Scène II</head>
           <stage>Oronte, Premier Médecin</stage>
           <sp who="medecin1" xml:id="II02-1">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Vous avez, Monsieur, un certain Monsieur de Pourceaugnac, qui doit épouser votre Fille.</p>
           </sp>
           <sp who="oronte" xml:id="II02-2">
@@ -1511,7 +1511,7 @@
             <p>Oui, je l’attends de Limoges, et il devrait être arrivé.</p>
           </sp>
           <sp who="medecin1" xml:id="II02-3">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Aussi l’est-il, et il s’en est fui de chez moi, après y avoir été mis ; mais je vous défends de la part de la Médecine, de procéder au mariage que vous avez conclu, que je ne l’aie dûment préparé pour cela, et mis en état de procréer des Enfants bien conditionnés et de corps et d’esprit.</p>
           </sp>
           <sp who="oronte" xml:id="II02-4">
@@ -1519,7 +1519,7 @@
             <p>Comment donc ?</p>
           </sp>
           <sp who="medecin1" xml:id="II02-5">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Votre prétendu Gendre a été constitué mon Malade : Sa Maladie qu’on m’a donné à guérir, est un meuble qui m’appartient, et que je compte entre mes effets ; et je vous déclare que je ne prétends point qu’il se marie, qu’au préalable il n’ait satisfait à la Médecine, et subi les remèdes que je lui ai ordonnés.</p>
           </sp>
           <sp who="oronte" xml:id="II02-6">
@@ -1527,7 +1527,7 @@
             <p>Il a quelque mal ?</p>
           </sp>
           <sp who="medecin1" xml:id="II02-7">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Oui.</p>
           </sp>
           <sp who="oronte" xml:id="II02-8">
@@ -1535,7 +1535,7 @@
             <p>Et quel mal, s’il vous plaît ?</p>
           </sp>
           <sp who="medecin1" xml:id="II02-9">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Ne vous en mettez pas en peine.</p>
           </sp>
           <sp who="oronte" xml:id="II02-10">
@@ -1543,7 +1543,7 @@
             <p>Est-ce quelque mal…</p>
           </sp>
           <sp who="medecin1" xml:id="II02-11">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Les Médecins sont obligés au secret : Il suffit que je vous ordonne, à vous et à votre Fille, de ne point célébrer, sans mon consentement, vos Noces avec lui, sur peine d’encourir la disgrâce de la Faculté, et d’être accablés de toutes les Maladies qu’il nous plaira.</p>
           </sp>
           <sp who="oronte" xml:id="II02-12">
@@ -1551,7 +1551,7 @@
             <p>Je n’ai garde, si cela est, de faire le Mariage.</p>
           </sp>
           <sp who="medecin1" xml:id="II02-13">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>On me l’a mis entre les mains, et il est obligé d’être mon malade.</p>
           </sp>
           <sp who="oronte" xml:id="II02-14">
@@ -1559,7 +1559,7 @@
             <p>À la bonne heure.</p>
           </sp>
           <sp who="medecin1" xml:id="II02-15">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Il a beau fuir, je le ferai condamner par Arrêt à se faire guérir par moi.</p>
           </sp>
           <sp who="oronte" xml:id="II02-16">
@@ -1567,7 +1567,7 @@
             <p>J’y consens.</p>
           </sp>
           <sp who="medecin1" xml:id="II02-17">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Oui, il faut qu’il crève, ou que je le guérisse.</p>
           </sp>
           <sp who="oronte" xml:id="II02-18">
@@ -1575,7 +1575,7 @@
             <p>Je le veux bien.</p>
           </sp>
           <sp who="medecin1" xml:id="II02-19">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Et si je ne le trouve, je m’en prendrai à vous, et je vous guérirai au lieu de lui.</p>
           </sp>
           <sp who="oronte" xml:id="II02-20">
@@ -1583,7 +1583,7 @@
             <p>Je me porte bien.</p>
           </sp>
           <sp who="medecin1" xml:id="II02-21">
-            <speaker>Le médecin</speaker>
+            <speaker>Le Médecin</speaker>
             <p>Il n’importe, il me faut un Malade, et je prendrai qui je pourrai.</p>
           </sp>
           <sp who="oronte" xml:id="II02-22">
@@ -2394,12 +2394,12 @@
         <div2 rend="not-i" type="scene" xml:id="II11">
           <head>Scène XI</head>
           <stage>Sbrigani, Monsieur de Pourceaugnac, deux Avocats Musiciens, <hi rend="i">dont l’un parle fort lentement, et l’autre fort vite, accompagnés de</hi> deux Procureurs <hi rend="i">et de</hi> deux Sergents</stage>
-          <sp xml:id="II11-1">
+          <sp xml:id="II11-1" who="avocat1">
             <speaker>L’avocat, traînant ses paroles</speaker>
             <l>La polygamie est un cas,</l>
             <l>Est un cas pendable.</l>
           </sp>
-          <sp xml:id="II11-2">
+          <sp xml:id="II11-2" who="avocat2">
             <speaker>L’avocat bredouilleur</speaker>
             <l>Votre fait</l>
             <l>Est clair et net ;</l>

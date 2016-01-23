@@ -85,10 +85,10 @@
           <castItem><role rend="female superior" xml:id="dorimene">Dorimène</role>, Marquise.</castItem>
           <castItem><role rend="male inferior" xml:id="maitre-musique">Maître de musique.</role>.</castItem>
           <castItem>
-            <role rend="male" xml:id="l-eleve">Élève du maître de musique.</role>
-            <role xml:id="musicien1"/>
-            <role xml:id="musicien2"/>
-            <role xml:id="musicienne"/>
+            <role xml:id="l-eleve" rend="nograph">Élève du maître de musique.</role>
+            <role xml:id="musicien1" rend="nograph"/>
+            <role xml:id="musicien2" rend="nograph"/>
+            <role xml:id="musicienne" rend="nograph"/>
           </castItem>
           <castItem><role rend="male inferior" xml:id="maitre-a-danser">Maître à danser.</role>.</castItem>
           <castItem><role rend="male inferior" xml:id="maitre-armes">Maître d'armes.</role>.</castItem>
