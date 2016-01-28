@@ -81,7 +81,7 @@
         <head>Acte Premier</head>
         <div2 type="scene" xml:id="I01">
           <head>Scène Première</head>
-          <stage> JULIE, LE VICOMTE.</stage>
+          <stage> JULIE, LE VICOMTE</stage>
           <sp who="le-vicomte" xml:id="I01-1">
             <speaker>Le Vicomte</speaker>
             <p>Hé, quoi Madame, vous êtes déjà ici ?</p>
@@ -169,7 +169,7 @@
         </div2>
         <div2 type="scene" xml:id="I02">
           <head>Scène II</head>
-          <stage>LA COMTESSE, JULIE.</stage>
+          <stage>LA COMTESSE, JULIE</stage>
           <sp who="la-comtesse" xml:id="I02-1">
             <speaker>La Comtesse</speaker>
             <p>Ah ! mon Dieu, Madame, vous voilà toute seule ? Quelle pitié est-ce là, Toute seule; il me semble que mes gens m’avaient dit, que le Vicomte était ici.</p>
@@ -518,7 +518,7 @@
         </div2>
         <div2 type="scene" xml:id="I03">
           <head>Scène III</head>
-          <stage>CRIQUET, LA COMTESSE, JULIE, ANDRÉE, JEANNOT.</stage>
+          <stage>CRIQUET, LA COMTESSE, JULIE, ANDRÉE, JEANNOT</stage>
           <sp who="criquet" xml:id="I03-1">
             <speaker>Criquet</speaker>
             <p>Voilà Jeannot de Monsieur le Conseiller qui vous demande, Madame.</p>
@@ -594,7 +594,7 @@
         </div2>
         <div2 type="scene" xml:id="I04">
           <head>Scène IV</head>
-          <stage>LE VICOMTE, LA COMTESSE, JULIE, CRIQUET, ANDRÉE.</stage>
+          <stage>LE VICOMTE, LA COMTESSE, JULIE, CRIQUET, ANDRÉE</stage>
           <sp who="le-vicomte" xml:id="I04-1">
             <speaker>Le Vicomte</speaker>
             <p>Madame, je viens vous avertir que la Comédie sera bientôt prête, et que dans un quart d’heure nous pouvons passer dans la Salle.</p>
@@ -638,7 +638,7 @@
         </div2>
         <div2 type="scene" xml:id="I05">
           <head>Scène V</head>
-          <stage>MONSIEUR TIBAUDIER, LE VICOMTE,  LA COMTESSE, JULIE, ANDRÉE, CRIQUET.</stage>
+          <stage>MONSIEUR TIBAUDIER, LE VICOMTE,  LA COMTESSE, JULIE, ANDRÉE, CRIQUET</stage>
           <sp who="la-comtesse" xml:id="I05-1">
             <speaker>La Comtesse</speaker>
             <p>Approchez, Monsieur Tibaudier, ne craignez point d’entrer. Votre billet a été bien reçu, aussi bien que vos poires, et voilà Madame qui parle pour vous, contre votre rival.</p>
@@ -740,7 +740,7 @@
         </div2>
         <div2 type="scene" xml:id="I06">
           <head>Scène VI</head>
-          <stage>MONSIEUR BOBINET, MONSIEUR TIBAUDIER,  LA COMTESSE, LE VICOMTE, JULIE, ANDRÉE, CRIQUET.</stage>
+          <stage>MONSIEUR BOBINET, MONSIEUR TIBAUDIER,  LA COMTESSE, LE VICOMTE, JULIE, ANDRÉE, CRIQUET</stage>
           <sp who="la-comtesse" xml:id="I06-1">
             <speaker>La Comtesse</speaker>
             <p>Holà, Monsieur Bobinet, Monsieur Bobinet, approchez-vous du monde.</p>
@@ -796,7 +796,7 @@
         </div2>
         <div2 type="scene" xml:id="I07">
           <head>Scène VII</head>
-          <stage>LA COMTESSE, LE VICOMTE, JULIE, LE COMTE, MONSIEUR BOBINET, MONSIEUR TIBAUDIER, ANDRÉE, CRIQUET.</stage>
+          <stage>LA COMTESSE, LE VICOMTE, JULIE, LE COMTE, MONSIEUR BOBINET, MONSIEUR TIBAUDIER, ANDRÉE, CRIQUET</stage>
           <sp who="monsieur-bobinet" xml:id="I07-1">
             <speaker>Monsieur Bobinet</speaker>
             <p>Allons, Monsieur le Comte, faites voir que vous profitez des bons documents qu’on vous donne. La révérence à toute l’honnête assemblée.</p>
@@ -898,7 +898,7 @@
         </div2>
         <div2 type="scene" xml:id="I08">
           <head>Scène VIII</head>
-          <stage>LA COMTESSE, LE COMTE, LE VICOMTE, JULIE, MONSIEUR HARPIN, MONSIEUR TIBAUDIER, aux pieds de la Comtesse, MONSIEUR BOBINET, ANDRÉE.</stage>
+          <stage>LA COMTESSE, LE COMTE, LE VICOMTE, JULIE, MONSIEUR HARPIN, MONSIEUR TIBAUDIER, <hi rend="i">aux pieds de la Comtesse</hi>, MONSIEUR BOBINET, ANDRÉE</stage>
           <sp who="monsieur-harpin" xml:id="I08-1">
             <speaker>Monsieur Harpin</speaker>
             <p>Parbleu la chose est belle, et je me réjouis de voir ce que je vois.</p>
@@ -1014,7 +1014,7 @@
         </div2>
         <div2 type="scene" xml:id="I09">
           <head>Scène Dernière</head>
-          <stage>LA COMTESSE, LE VICOMTE, JULIE, MONSIEUR TIBAUDIER, MONSIEUR BOBINET, ANDRÉE, JEANNOT, CRIQUET.</stage>
+          <stage>LA COMTESSE, LE VICOMTE, JULIE, MONSIEUR TIBAUDIER, MONSIEUR BOBINET, ANDRÉE, JEANNOT, CRIQUET</stage>
           <stage>JEANNOT.</stage>
           <p>Voilà un billet, Monsieur, qu’on nous a dit de vous donner vite.</p>
           <sp who="le-vicomte" xml:id="I09-1">
@@ -1054,32 +1054,6 @@
             <speaker>Le Vicomte</speaker>
             <p>Souffrez, Madame, qu’en enrageant, nous puissions voir ici le reste du spectacle.</p>
           </sp>
-          <quote>
-            <label>BOUTS-RIMÉS COMMANDÉS<lb/><hi rend="i">sur le bel Air.</hi></label>
-            <lg>
-              <l>Que vous m’embarrassez avec votre ----- ----grenouille,</l>
-              <l>Qui traîne `a ses talons le doux mot d’ ---------hypocras,</l>
-              <l>Je hais des bouts-rimés le puéril ----------------fatras,</l>
-              <l>Et tiens qu’il vaudrait mieux filer une --------- quenouille.</l>
-            </lg>
-            <lg>
-              <l>La gloire du bel air n’a rien qui me ------ -- ----chatouille</l>
-              <l>Vous m’assommez l’esprit avec un gros ------ platras,</l>
-              <l>Et je tiens heureux ceux qui sont morts à ----- Coutras,</l>
-              <l>Voyant tout le papier qu’en sonnets on -------- barbouille,</l>
-            </lg>
-            <lg>
-              <l>M’accable derechef la haine du ----------------- cagot,</l>
-              <l>Plus méchant mille fois, que n’est un vieux -- magot,</l>
-              <l>Plutôt qu’un bout-rimé me fasse entrer en ---- danse.</l>
-            </lg>
-            <lg>
-              <l>Je vous en chante, clair, comme un ----------- chardonneret,</l>
-              <l>Au bout de l’Univers je suis dans une -------- manse,</l>
-              <l>Adieu, grand Prince, adieu, tenez-vous ------- guilleret.</l>
-            </lg>
-          </quote>
-          <label>FIN</label>
         </div2>
       </div1>
     </body>
