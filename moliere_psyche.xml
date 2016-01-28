@@ -83,18 +83,28 @@
     <body>
       <div1 xml:id="a" type="prologue">
         <head>Prologue</head>
-        <stage>La Scène représente sur le devant un Lieu champêtre, et dans l’enfoncement un Rocher percé à jour, à travers duquel on voit la Mer en éloignement.</stage>
-        <stage>Flore paraît au milieu du Théâtre, accompagnée de Vertumne Dieu des Arbres et des Fruits, et de Palæmon Dieu des Eaux. Chacun de ces Dieux conduit une Troupe de Divinités ; l’un mène à sa suite des Dryades et des Sylvains ; et l’autre des Dieux des Fleuves et des Naïades. Flore chante ce Récit pour inviter Vénus à descendre en Terre :</stage>
+        <stage rend="not-i">La Scène représente sur le devant un Lieu champêtre, et dans l’enfoncement un Rocher percé à jour, à travers duquel on voit la Mer en éloignement.</stage>
+        <stage rend="not-i">Flore paraît au milieu du Théâtre, accompagnée de Vertumne Dieu des Arbres et des Fruits, et de Palæmon Dieu des Eaux. Chacun de ces Dieux conduit une Troupe de Divinités ; l’un mène à sa suite des Dryades et des Sylvains ; et l’autre des Dieux, des Fleuves et des Naïades. Flore chante ce Récit pour inviter Vénus à descendre en Terre.</stage>
         <sp who="flore" xml:id="a-1">
-          <speaker>Flore</speaker>
+          <speaker></speaker>
           <l n="1" xml:id="l1">Ce n’est plus le temps de la Guerre ;</l>
           <l n="2" xml:id="l2">Le plus puissant des Rois</l>
           <l n="3" xml:id="l3">Interrompt ses Exploits</l>
           <l n="4" xml:id="l4">Pour donner la Paix à la Terre.</l>
           <l n="5" xml:id="l5">Descendez, Mère des Amours,</l>
           <l n="6" xml:id="l6">Venez nous donner de beaux jours.</l>
-          <stage>Vertumne et Palæmon, avec les Divinités qui les accompagnent, joignent leurs voix à celle de Flore, et chantent ces paroles :</stage>
+          <stage rend="not-i">Vertumne et Palæmon, avec les Divinités qui les accompagnent, joignent leurs voix à celle de Flore, et chantent ces paroles.</stage>
         </sp>
+        <sp who="choeur-des-divinites">
+          <speaker>Choeur des Divinités de la Terre et des Eaux, Composé <hi rend="i">de Flore, Nymphes, Palaemon, Vertumne, Sylvain, Faune, Dryades, et Naïades</hi>.</speaker>
+         <l>Nous goûtons une Paix profonde ;</l>
+          <l>Les plus doux Jeux sont ici-bas ;</l>
+          <l>On doit ce repos plein d'appâts</l>
+          <l>Au plus grand ROI du Monde.</l>
+          <l>Descendez, Mère des Amours,</l>
+          <l>Venez nous donner de beaux jours.</l>
+        </sp>
+        <stage rend="not-i">Il se fait ensuite une Entrée de Ballet, composée de Dryades, quatre Sylvains, deux Fleuves, et de Naïades. Après laquelle, Vertumne et Palaemon chantent ce Dialogue.</stage>
         <sp who="vertumne" xml:id="a-2">
           <speaker>Vertumne</speaker>
           <l n="7" xml:id="l7">Rendez-vous, Beautés cruelles,</l>
@@ -114,7 +124,7 @@
           <speaker>Palæmon</speaker>
           <l n="13" xml:id="l13">C’est la beauté qui commence de plaire,</l>
           <l n="14" xml:id="l14">Mais la douceur achève de charmer.</l>
-          <stage><anchor xml:id="i0-7"/>Ils répètent ensemble ces derniers vers :</stage>
+          <stage><anchor xml:id="i0-7"/>Ils répètent ensemble ces derniers Vers.</stage>
           <l n="15" xml:id="l15">C’est la beauté qui commence de plaire,</l>
           <l n="16" xml:id="l16">Mais la douceur achève de charmer.</l>
         </sp>
@@ -138,8 +148,45 @@
           <l n="23" xml:id="l23">C’est la beauté qui commence de plaire,</l>
           <l n="24" xml:id="l24">Mais la douceur achève de charmer.</l>
         </sp>
+        <stage rend="not-i">Flore répond au Dialogue de Vertumne et de Palaemon, par ce Menuet ; et les autres Divinités y mêlent leurs Danses.</stage>
+        <sp who="choeur-des-divinites">
+          <lg>
+            <l>Est-on sage</l>
+            <l>Dans le bel âge,</l>
+            <l>Est-on sage</l>
+            <l>De n'aimer pas ?</l>
+            <l>Que sans cesse</l>
+            <l>L'on se presse</l>
+            <l>De goûter les plaisirs ici-bas :</l>
+            <l>La sagesse</l>
+            <l>De la Jeunesse,</l>
+            <l>C'est de savoir jouir de ses appas.</l>
+          </lg>
+          <lg>
+            <l>L'Amour charme</l>
+            <l>Ceux qu'il désarme ;</l>
+            <l>L'Amour charme,</l>
+            <l>Cédons-lui tous.</l>
+            <l>Notre peine</l>
+            <l>Serait vaine</l>
+            <l>De vouloir résister à ses coups :</l>
+            <l>Quelque chaîne</l>
+            <l>Qu'un Amant prenne,</l>
+            <l>La liberté n'a rien qui soit si doux.</l>
+          </lg>
+          <stage rend="not-i">Vénus descend du Ciel dans une grande Macine avec l'Amour son Fils, et deux petites Grâces, nommées Aegial et Phaène : Et les Divinités de la Terre et des Eaux recommencent de joindre toutes leurs voix, et continuent par leurs Danses de lui témoigner la joie qu'elles ressentent à son abord.</stage>
+        </sp>
+        <sp who="choeur-des-divinites">
+          <speaker>Choeur de toutes les Divinités de la Terre et des Eaux.</speaker>
+          <l>Nous goûtons une Paix profonde ;</l>
+          <l>Les plus doux Jeux sont ici-bas ;</l>
+          <l>On doit ce repos plein d'appâts</l>
+          <l>Au plus grand ROI du Monde.</l>
+          <l>Descendez, Mère des Amours,</l>
+          <l>Venez nous donner de beaux jours.</l> 
+        </sp>
         <sp who="venus" xml:id="a-10">
-          <speaker>Vénus<hi rend="i">, dans sa Machine</hi></speaker>
+          <speaker>Vénus<hi rend="i"> dans sa Machine</hi></speaker>
           <l n="25" xml:id="l25">Cessez, cessez pour moi tous vos chants d’allégresse :</l>
           <l n="26" xml:id="l26">De si rares honneurs ne m’appartiennent pas,</l>
           <l n="27" xml:id="l27">Et l’hommage qu’ici votre bonté m’adresse</l>
@@ -164,7 +211,7 @@
           <l n="46" xml:id="l46">Prêtent leur solitude aux troubles de mon cœur,</l>
           <l n="47" xml:id="l47">Et me laissez parmi leurs ombres</l>
           <l n="48" xml:id="l48">Cacher ma honte et ma douleur.</l>
-          <stage>Flore et les autres Déités se retirent, et Vénus avec sa Suite sort de sa Machine.</stage>
+          <stage rend="not-i">Flore et les autres Déités se retirent, et Vénus avec sa Suite sort de sa Machine.</stage>
         </sp>
         <sp who="aegiale" xml:id="a-11">
           <speaker>ægiale</speaker>
@@ -215,7 +262,7 @@
           <l n="84" xml:id="l84">Un téméraire jugement !</l>
           <l n="85" xml:id="l85">Et du haut des cieux où je brille,</l>
           <l n="86" xml:id="l86">J’entendrai prononcer aux Mortels prévenus :</l>
-          <l n="87" xml:id="l87">Elle est plus belle que Vénus <hi rend="i"/>!</l>
+          <l n="87" xml:id="l87" rend="i">Elle est plus belle que Vénus !</l>
         </sp>
         <sp who="aegiale" xml:id="a-15">
           <speaker>ægiale</speaker>
@@ -271,7 +318,7 @@
           <l n="128" xml:id="l128">On m’impute partout mille fautes commises,</l>
           <l n="129" xml:id="l129">Et vous ne croiriez point le mal et les sottises</l>
           <l n="130" xml:id="l130">Que l’on dit de moi chaque jour.</l>
-          <l n="131" xml:id="l131">Si pour servir votre colère...</l>
+          <l n="131" xml:id="l131">Si pour servir votre colère… </l>
         </sp>
         <sp who="venus" xml:id="a-19">
           <speaker>Vénus</speaker>
@@ -281,7 +328,8 @@
           <l n="135" xml:id="l135">De faire un sacrifice à ma gloire outragée.</l>
           <l n="136" xml:id="l136">Pars, pour toute réponse à mes empressements,</l>
           <l n="137" xml:id="l137">Et ne me revois point que je ne sois vengée.</l>
-          <stage>L’Amour s’envole, et Vénus se retire avec les Grâces. La Scène est changée en une grande Ville, où l’on découvre des deux côtés, des Palais et des Maisons de différents ordres d’Architecture.</stage>
+          <stage>L’Amour s’envole, et Vénus se retire avec les Grâces.</stage>
+          <stage rend="not-i">La Scène est changée en une grande Ville, où l’on découvre des deux côtés, des Palais et des Maisons de différents ordres d’Architecture.</stage>
         </sp>
       </div1>
       <div1 xml:id="I" type="act">
@@ -484,7 +532,7 @@
             <l n="273" xml:id="l273">Prenez-vous l’épouvante, en nous voyant paraître ?</l>
           </sp>
           <sp who="cleomene" xml:id="I02-4">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="274" xml:id="l274">On nous faisait croire qu’ici</l>
             <l n="275" xml:id="l275">La Princesse Psyché, Madame, pourrait être.</l>
           </sp>
@@ -504,7 +552,7 @@
             <l n="281" xml:id="l281">325Vous doit à la chercher pousser tous deux sans doute.</l>
           </sp>
           <sp who="cleomene" xml:id="I02-8">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="282" xml:id="l282">Le motif est assez puissant,</l>
             <l n="283" xml:id="l283">Puisque notre fortune enfin en dépend toute.</l>
           </sp>
@@ -514,7 +562,7 @@
             <l n="285" xml:id="l285">Du secret que ces mots nous peuvent enfermer.</l>
           </sp>
           <sp who="cleomene" xml:id="I02-10">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="286" xml:id="l286">Nous ne prétendons point en faire de mystère ;</l>
             <l n="287" xml:id="l287">Aussi bien malgré nous paraîtrait-il au jour,</l>
             <l n="288" xml:id="l288">Et le secret ne dure guère,</l>
@@ -536,7 +584,7 @@
             <l n="295" xml:id="l295">Que deux Rivaux si bien unis.</l>
           </sp>
           <sp who="cleomene" xml:id="I02-14">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="296" xml:id="l296">Il est vrai que la chose est rare,</l>
             <l n="297" xml:id="l297">Mais non pas impossible à deux parfaits Amis.</l>
           </sp>
@@ -551,7 +599,7 @@
             <l n="301" xml:id="l301">À pouvoir mériter vos feux ?</l>
           </sp>
           <sp who="cleomene" xml:id="I02-17">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="302" xml:id="l302">Est-ce que l’on consulte au moment qu’on s’enflamme ?</l>
             <l n="303" xml:id="l303">Choisit-on qui l’on veut aimer ?</l>
             <l n="304" xml:id="l304">Et pour donner toute son âme,</l>
@@ -597,7 +645,7 @@
             <l n="329" xml:id="l329">Ce que votre cœur se prépare.</l>
           </sp>
           <sp who="cleomene" xml:id="I02-23">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="330" xml:id="l330">Cet avis généreux fait pour nous éclater</l>
             <l n="331" xml:id="l331">Des bontés qui nous touchent l’âme ;</l>
             <l n="332" xml:id="l332">Mais le Ciel nous réduit à ce malheur, Madame,</l>
@@ -640,7 +688,7 @@
             <l n="347" xml:id="l347">De l’honneur de la confidence.</l>
           </sp>
           <sp who="cleomene" xml:id="I03-6">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="348" xml:id="l348">L’aveu qu’il nous faut faire à vos divins appas,</l>
             <l n="349" xml:id="l349">Est sans doute, Madame, un aveu téméraire ;</l>
             <l n="350" xml:id="l350">Mais tant de cœurs près du trépas,</l>
@@ -728,7 +776,7 @@
             <l n="426" xml:id="l426">Pour vous souhaiter leurs Époux.</l>
           </sp>
           <sp who="cleomene" xml:id="I03-9">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="427" xml:id="l427">Un cœur dont l’amour est extrême</l>
             <l n="428" xml:id="l428">Peut-il bien consentir, hélas,</l>
             <l n="429" xml:id="l429">D’être donné par ce qu’il aime ?</l>
@@ -769,7 +817,7 @@
           <sp who="psyche" xml:id="I03-13">
             <speaker>Psyché</speaker>
             <l n="454" xml:id="l454">J’ai cru pour vous, mes Sœurs, une gloire assez grande,</l>
-            <l n="455" xml:id="l455">Si la possession d’un mérite si haut...</l>
+            <l n="455" xml:id="l455">Si la possession d’un mérite si haut… </l>
           </sp>
         </div2>
         <div2 xml:id="I04" type="scene">
@@ -785,7 +833,7 @@
           </sp>
           <sp who="lycas" xml:id="I04-3">
             <speaker>lycas</speaker>
-            <l n="458" xml:id="l458">Le Roi...</l>
+            <l n="458" xml:id="l458">Le Roi… </l>
           </sp>
           <sp who="psyche" xml:id="I04-4">
             <speaker>Psyché</speaker>
@@ -843,6 +891,7 @@
             <l n="476" xml:id="l476">Dans l’Oracle qu’au Roi les Destins ont rendu.</l>
             <l n="477" xml:id="l477">Voici ses propres mots, que la douleur, Madame,</l>
             <l n="478" xml:id="l478">A gravés au fond de mon âme :</l>
+            <lg rend="i">
             <l n="479" xml:id="l479">Que l’on ne pense nullement</l>
             <l n="480" xml:id="l480">À vouloir de Psyché conclure l’Hyménée ;</l>
             <l n="481" xml:id="l481">Mais qu’au sommet d’un Mont elle soit promptement</l>
@@ -852,6 +901,7 @@
             <l n="485" xml:id="l485">Un Monstre dont on a la vue empoisonnée,</l>
             <l n="486" xml:id="l486">Un Serpent qui répand son venin en tous lieux,</l>
             <l n="487" xml:id="l487">Et trouble dans sa rage et la Terre et les Cieux.</l>
+            </lg>
             <l n="488" xml:id="l488">Après un Arrêt si sévère,</l>
             <l n="489" xml:id="l489">Je vous quitte, et vous laisse à juger entre vous,</l>
             <l n="490" xml:id="l490">Si par de plus cruels et plus sensibles coups</l>
@@ -886,51 +936,67 @@
       </div1>
       <div1 xml:id="Ib" type="interlude">
         <head>Premier Intermède</head>
-        <stage>La Scène est changée en des Rochers affreux, et fait voir en éloignement une Grotte effroyable.</stage>
-        <stage>C’est dans ce Désert que Psyché doit être exposée, pour obéir à l’Oracle. Une Troupe de Personnes affligées y viennent déplorer sa disgrâce. Une partie de cette troupe désolée témoigne sa pitié par des Plaintes touchantes, et par des Concerts lugubres ; et l’autre exprime sa désolation par une Danse pleine de toutes les marques du plus violent désespoir.</stage>
-        <stage>PLAINTES EN ITALIEN. Chantées par une femme désolée, et deux hommes affligés.</stage>
+        <stage rend="not-i">La Scène est changée en des Rochers affreux, et fait voir en éloignement une Grotte effroyable.</stage>
+        <stage rend="not-i">C’est dans ce Désert que Psyché doit être exposée pour obéir à l’Oracle. Une Troupe de Personnes affligées y viennent déplorer sa disgrâce. Une partie de cette Troupe désolée témoigne sa pitié par des Plaintes touchantes, et par des Concerts lugubres ; et l’autre exprime sa désolation par une Danse pleine de toutes les marques du plus violent désespoir.</stage>
+        <label>PLAINTES EN ITALIEN. <hi rend="i">Chantées par une Femme désolée, et deux Hommes affligés.</hi></label>
         <sp who="femme-desolee" xml:id="Ib-1">
-          <speaker><hi rend="i">F</hi>emme désolée.</speaker>
+          <speaker>Femme désolée</speaker>
           <l n="501" xml:id="l501">Deh, piangete al pianto mio,</l>
           <l n="502" xml:id="l502">Sassi duri, antiche selve,</l>
           <l n="503" xml:id="l503">Lagrimate, fonti e belve</l>
           <l n="504" xml:id="l504">D’un bel voto il fato rio.</l>
         </sp>
         <sp who="affliges" xml:id="Ib-2">
-          <speaker><hi rend="i">1. Homme</hi> affligé.</speaker>
+          <speaker>Premier Homme affligé</speaker>
           <l n="505" xml:id="l505">Ahi dolore !</l>
         </sp>
         <sp who="affliges" xml:id="Ib-3">
-          <speaker><hi rend="i">2. Homme</hi> affligé.</speaker>
+          <speaker>Second Homme affligé</speaker>
           <l n="506" xml:id="l506">Ahi martire !</l>
         </sp>
+        <sp who="affliges" xml:id="Ib-">
+          <speaker>Premier Homme affligé</speaker>
+          <l>Cruda morte !</l>
+        </sp>  
         <sp who="affliges" xml:id="Ib-4">
-          <speaker><hi rend="i">2. Homme</hi> affligé.</speaker>
+          <speaker>Second Homme affligé</speaker>
           <l n="507" xml:id="l507">Empia sorte !</l>
         </sp>
+        <sp who="femme-desolee premier-homme-afflige second-homme-afflige">
+          <speaker>Tous trois</speaker>
+          <l>che condanni a morir tanta beltà.</l>
+          <l>Cieli, stelle, ahi crudeltà.</l>
+        </sp>
         <sp who="affliges" xml:id="Ib-5">
-          <speaker><hi rend="i">2. Homme</hi> affligé.</speaker>
+          <speaker>Second Homme affligé</speaker>
           <l n="508" xml:id="l508">Com’esser puô fra voi, o Numi eterni,</l>
           <l n="509" xml:id="l509">Chi voglia estinta una beltà innocente ?</l>
           <l n="510" xml:id="l510">Ahi ! che tanto rigor, Cielo inclemente,</l>
           <l n="511" xml:id="l511">Vince di crudeltà gli stessi Inferni.</l>
         </sp>
         <sp who="affliges" xml:id="Ib-6">
-          <speaker><hi rend="i">1. Homme</hi> affligé.</speaker>
+          <speaker>Premier Homme affligé</speaker>
           <l n="512" xml:id="l512">Nume fiero !</l>
         </sp>
         <sp who="affliges" xml:id="Ib-7">
-          <speaker><hi rend="i">2. Homme</hi> affligé</speaker>
+          <speaker>Second Homme affligé</speaker>
           <l n="513" xml:id="l513">Dio severo !</l>
         </sp>
+        <sp who="femme-desolee premier-homme-afflige second-homme-afflige">
+          <speaker>Ensemble</speaker>
+          <l>Perchè tanto rigor</l>
+          <l>Contro innocente cor ?</l>
+          <l>Ahi ! sentenza inaudita,</l>
+          <l>Dar morte a la Beltà, ch'altrui dà vita.</l>
+          </sp>
         <sp who="femme-desolee" xml:id="Ib-8">
-          <speaker><hi rend="i">F</hi>emme désolée.</speaker>
+          <speaker>Femme désolée</speaker>
           <l n="514" xml:id="l514">Ahi ch’indarno si tarda,</l>
           <l n="515" xml:id="l515">Non resiste a li Dei mortale affeto,</l>
           <l n="516" xml:id="l516">Alto impero ne sforza,</l>
           <l n="517" xml:id="l517">Ove commanda il Ciel, l’Huom cede a forza.</l>
           <l n="518" xml:id="l518">Ahi dolore ! etc. <hi rend="i">Come sopra</hi>.</l>
-          <stage>Ces Plaintes sont entrecoupées et finies par une Entrée de Ballet de huit Personnes affligées.</stage>
+          <stage rend="not-i">Ces Plaintes sont entrecoupées et finies par une Entrée de Ballet de huit Personnes affligées.</stage>
         </sp>
       </div1>
       <div1 xml:id="II" type="act">
@@ -1106,7 +1172,7 @@
           <sp who="psyche" xml:id="II01-11">
             <speaker>Psyché</speaker>
             <l n="654" xml:id="l654">Ah, Seigneur, je tremble des crimes</l>
-            <l n="655" xml:id="l655">Que je vous fais commettre, et je dois me haïr...</l>
+            <l n="655" xml:id="l655">Que je vous fais commettre, et je dois me haïr… </l>
           </sp>
           <sp who="le-roi" xml:id="II01-12">
             <speaker>le roi</speaker>
@@ -1142,6 +1208,7 @@
             <l n="679" xml:id="l679">730M’oblige à te laisser en ce funeste lieu.</l>
             <l n="680" xml:id="l680">Adieu : je vais… Adieu.</l>
           </sp>
+          <stage>Ce qui suit, jusqu'à la fin de la pièce, est de M. C. à la réserve de la première Scène du troisième Acte, qui est de la même main que ce qui a précédé.</stage>
         </div2>
         <div2 type="scene" xml:id="II02">
           <head>Scène II</head>
@@ -1227,7 +1294,7 @@
         <div2 xml:id="II03" type="scene">
           <head>Scène III</head>
           <sp who="psyche" xml:id="II03-1">
-            <speaker>Psyché<hi rend="i">, seule</hi></speaker>
+            <speaker>Psyché<hi rend="i"> seule.</hi></speaker>
             <l n="725" xml:id="l725">Enfin, seule, et toute à moi-même,</l>
             <l n="726" xml:id="l726">Je puis envisager cet affreux changement,</l>
             <l n="727" xml:id="l727">Qui du haut d’une gloire extrême</l>
@@ -1258,7 +1325,7 @@
           <head>Scène IV</head>
           <stage>Cléomène, Agénor, Psyché</stage>
           <sp who="cleomene" xml:id="II04-1">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="749" xml:id="l749">Deux Amis, deux Rivaux, dont l’unique souci</l>
             <l n="750" xml:id="l750">Est d’exposer leurs jours pour conserver les vôtres. 810</l>
           </sp>
@@ -1291,7 +1358,7 @@
             <l n="769" xml:id="l769">Quel fruit espérez-vous de qui ne peut aimer ?</l>
           </sp>
           <sp who="cleomene" xml:id="II04-5">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="770" xml:id="l770">Ce n’est point par l’espoir d’un si charmant salaire</l>
             <l n="771" xml:id="l771">Que nous nous sentons animer,</l>
             <l n="772" xml:id="l772">Nous ne cherchons qu’à satisfaire</l>
@@ -1337,7 +1404,7 @@
             <l n="806" xml:id="l806">Qu’il est ainsi qu’ailleurs des méchants dans les temples.</l>
           </sp>
           <sp who="cleomene" xml:id="II04-8">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="807" xml:id="l807">Laissez-nous opposer au lâche Ravisseur,</l>
             <l n="808" xml:id="l808">À qui le Sacrilège indignement vous livre,</l>
             <l n="809" xml:id="l809">Un amour qu’a le Ciel choisi pour défenseur</l>
@@ -1360,8 +1427,8 @@
             <l n="823" xml:id="l823">Pour souveraines lois les ordres des Mourants.</l>
           </sp>
           <sp who="cleomene" xml:id="II04-10">
-            <speaker>cléomène</speaker>
-            <l n="824" xml:id="l824">Princesse...</l>
+            <speaker>Cléomène</speaker>
+            <l n="824" xml:id="l824">Princesse… </l>
           </sp>
           <sp who="psyche" xml:id="II04-11">
             <speaker>Psyché</speaker>
@@ -1385,7 +1452,7 @@
             <l n="838" xml:id="l838">Prince, les moyens de la suivre.</l>
           </sp>
           <sp who="cleomene" xml:id="II04-13">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="839" xml:id="l839">Allons-y chercher ceux de ne lui point survivre.</l>
           </sp>
         </div2>
@@ -1405,7 +1472,7 @@
       </div1>
       <div1 xml:id="IIb" type="interlude">
         <head>Second Intermède</head>
-        <stage>La Scène se change en une Cour magnifique, ornée de Colonnes de Lapis enrichies de Figures d’or, qui forment un Palais pompeux et brillant, que l’Amour destine pour Psyché. Six Cyclopes avec quatre Fées y font une Entrée de Ballet, où ils achèvent en cadence quatre gros vases d’Argent que les Fées leur ont apportés. Cette Entrée est entrecoupée par ce Récit de Vulcain, qu’il fait à deux reprises :</stage>
+        <stage rend="not-i">La Scène se change en une Cour magnifique, ornée de Colonnes de Lapis enrichies de Figures d’or, qui forment un Palais pompeux et brillant, que l’Amour destine pour Psyché. Six Cyclopes avec quatre Fées y font une Entrée de Ballet, où ils achèvent en cadence quatre gros Vases d’Argent que les Fées leur ont apportés. Cette Entrée est entrecoupée par ce Récit de Vulcain, qu’il fait à deux reprises.</stage>
         <l n="847" xml:id="l847">Dépêchez, préparez ces lieux</l>
         <l n="848" xml:id="l848">Pour le plus aimable des Dieux,</l>
         <l n="849" xml:id="l849">Que chacun pour lui s’intéresse,</l>
@@ -1417,7 +1484,7 @@
         <l n="855" xml:id="l855">Frappez, redoublez vos coups ;</l>
         <l n="856" xml:id="l856">Que l’ardeur de lui plaire</l>
         <l n="857" xml:id="l857">Fasse vos soins les plus doux.</l>
-        <stage>Second couplet</stage>
+        <label>Second couplet</label>
         <l n="858" xml:id="l858">Servez bien un dieu si charmant,</l>
         <l n="859" xml:id="l859">Il se plaît dans l’empressement.</l>
         <l n="860" xml:id="l860">Que chacun pour lui s’intéresse,</l>
@@ -1425,7 +1492,7 @@
         <l n="862" xml:id="l862">Quand l’Amour presse,</l>
         <l n="863" xml:id="l863">On n’a jamais fait assez tôt.</l>
         <l n="864" xml:id="l864">L’Amour ne veut point qu’on diffère,</l>
-        <l n="865" xml:id="l865">Travaillez, etc.</l>
+        <l n="865" xml:id="l865">Travaillez, <hi rend="i">etc.</hi></l>
       </div1>
       <div1 xml:id="III" type="act">
         <head>Acte III</head>
@@ -1433,7 +1500,7 @@
           <head>Scène Première</head>
           <stage>L’Amour, Zéphire</stage>
           <sp who="zephire" xml:id="III01-1">
-            <speaker>zéphire</speaker>
+            <speaker>Zéphire</speaker>
             <l n="866" xml:id="l866">Oui, je me suis galamment acquitté</l>
             <l n="867" xml:id="l867">De la commission que vous m’avez donnée,</l>
             <l n="868" xml:id="l868">Et du haut du Rocher je l’ai, cette beauté,</l>
@@ -1729,7 +1796,7 @@
             <l n="1091" xml:id="l1091">Que je veux toutes pour ma flamme.</l>
             <l n="1092" xml:id="l1092">N’ayez d’yeux que pour moi, qui n’en ai que pour vous,</l>
             <l n="1093" xml:id="l1093">Ne songez qu’à m’aimer, ne songez qu’à me plaire,</l>
-            <l n="1094" xml:id="l1094">Et quand de tels soucis osent vous en distraire...</l>
+            <l n="1094" xml:id="l1094">Et quand de tels soucis osent vous en distraire… </l>
           </sp>
           <sp who="psyche" xml:id="III03-16">
             <speaker>Psyché</speaker>
@@ -1749,7 +1816,17 @@
             <l n="1105" xml:id="l1105">Craint parmi vos soupirs des soupirs égarés.</l>
             <l n="1106" xml:id="l1106">Mais vous voulez vos sœurs, allez, partez, Zéphire,</l>
             <l n="1107" xml:id="l1107">Psyché le veut, je ne l’en puis dédire.</l>
-          </sp>
+            <stage>Le Zéphire s'envole.</stage>
+            <l>Quand vous leur ferez voir ce bienheureux séjour,</l>
+            <l>De ses trésors faites-leur cent largesses,</l>
+            <l>Prodiguez-leur caresses sur caressses,</l>
+            <l>Et du sang, s'il se peut, épuisez les tendresses,</l>
+            <l>Pour vous rendre toute à l'Amour.</l>
+            <l>Je n'y mêlerai point d'importune présence,</l>
+            <l>Mais ne leur faites pas de si longs entretiens ;</l>
+            <l>Vous ne sauriez pour eux avoir de complaisance,</l>
+            <l>Que vous ne dérobiez aux miens.</l>
+          </sp>          
           <sp who="psyche" xml:id="III03-18">
             <speaker>Psyché</speaker>
             <l n="1108" xml:id="l1108">Votre amour me fait une grâce</l>
@@ -1768,9 +1845,9 @@
       </div1>
       <div1 xml:id="IIIb" type="interlude">
         <head>Troisième Intermède</head>
-        <stage>Il se fait une Entrée de Ballet de quatre Amours et quatre Zéphyrs, interrompue deux fois par un Dialogue chanté par un Amour et un Zéphyr.</stage>
+        <stage rend="not-i">Il se fait une Entrée de Ballet de quatre Amours et quatre Zéphyrs, interrompue deux fois par un Dialogue chanté par un Amour et un Zéphyr.</stage>
         <sp who="zephyr" xml:id="IIIb-1">
-          <speaker>Le zéphir</speaker>
+          <speaker>Le zéphyr</speaker>
           <l n="1116" xml:id="l1116">Aimable jeunesse,</l>
           <l n="1117" xml:id="l1117">Suivez la tendresse,</l>
           <l n="1118" xml:id="l1118">Joignez aux beaux jours</l>
@@ -1783,43 +1860,46 @@
           <l n="1125" xml:id="l1125">Quels sont leurs plaisirs.</l>
         </sp>
         <sp who="zephyr amour" xml:id="IIIb-2">
-          <speaker>Ils chantent ensemble.</speaker>
+          <speaker></speaker>
+          <stage rend="not-i">Ils chantent ensemble.</stage>
           <l n="1126" xml:id="l1126">Chacun est obligé d’aimer</l>
           <l n="1127" xml:id="l1127">À son tour,</l>
           <l n="1128" xml:id="l1128">Et plus on a de quoi charmer,</l>
           <l n="1129" xml:id="l1129">Plus on doit à l’Amour.</l>
         </sp>
         <sp who="zephyr" xml:id="IIIb-3">
-          <speaker>le zephyr, seul.</speaker>
+          <speaker>Le zéphyr <hi rend="i">seul</hi>.</speaker>
           <l n="1130" xml:id="l1130">Un cœur jeune et tendre</l>
           <l n="1131" xml:id="l1131">Est fait pour se rendre,</l>
           <l n="1132" xml:id="l1132">Il n’a point à prendre</l>
           <l n="1133" xml:id="l1133">De fâcheux détour.</l>
         </sp>
         <sp who="zephyr amour" xml:id="IIIb-4">
-          <speaker>Les deux ensemble.</speaker>
+          <speaker></speaker>
+          <stage rend="not-i">Les deux ensemble.</stage>
           <l n="1134" xml:id="l1134">Chacun est obligé d’aimer</l>
           <l n="1135" xml:id="l1135">À son tour,</l>
           <l n="1136" xml:id="l1136">Et plus on a de quoi charmer,</l>
           <l n="1137" xml:id="l1137">Plus on doit à l’Amour.</l>
         </sp>
         <sp who="amour" xml:id="IIIb-5">
-          <speaker>L’amour, seul.</speaker>
+          <speaker>L’amour <hi rend="i">seul</hi>.</speaker>
           <l n="1138" xml:id="l1138">Pourquoi se défendre ?</l>
           <l n="1139" xml:id="l1139">Que sert-il d’attendre ?</l>
           <l n="1140" xml:id="l1140">Quand on perd un jour,</l>
           <l n="1141" xml:id="l1141">On le perd sans retour.</l>
         </sp>
         <sp who="zephyr amour" xml:id="IIIb-6">
-          <speaker>Les deux ensemble.</speaker>
+          <speaker></speaker>
+          <stage rend="not-i">Les deux ensemble.</stage>
           <l n="1142" xml:id="l1142">Chacun est obligé d’aimer</l>
           <l n="1143" xml:id="l1143">À son tour,</l>
           <l n="1144" xml:id="l1144">Et plus on a de quoi charmer,</l>
-          <l n="1145" xml:id="l1145">Plus on doit à l’Amour.</l>
-          <stage>Second Couplet</stage>
+          <l n="1145" xml:id="l1145">Plus on doit à l’Amour.</l>          
         </sp>
+        <label>Second Couplet</label>
         <sp who="zephyr" xml:id="IIIb-7">
-          <speaker>Le zéphir</speaker>
+          <speaker>Le zéphyr</speaker>
           <l n="1146" xml:id="l1146">L’Amour a des charmes,</l>
           <l n="1147" xml:id="l1147">Rendons-lui les armes,</l>
           <l n="1148" xml:id="l1148">Ses soins et ses pleurs</l>
@@ -1832,40 +1912,43 @@
           <l n="1155" xml:id="l1155">Que de n’aimer pas.</l>
         </sp>
         <sp who="zephyr amour" xml:id="IIIb-8">
-          <speaker>Ils chantent ensemble.</speaker>
+          <speaker></speaker>
+          <stage rend="not-i">Ils chantent ensemble.</stage>
           <l n="1156" xml:id="l1156">S’il faut des soins et des travaux,</l>
           <l n="1157" xml:id="l1157">En aimant,</l>
           <l n="1158" xml:id="l1158">On est payé de mille maux</l>
           <l n="1159" xml:id="l1159">Par un heureux moment.</l>
         </sp>
         <sp who="zephyr" xml:id="IIIb-9">
-          <speaker>Le zephyr, seul.</speaker>
+          <speaker>Le zéphyr <hi rend="i">seul</hi>.</speaker>
           <l n="1160" xml:id="l1160">On craint, on espère,</l>
           <l n="1161" xml:id="l1161">Il faut du mystère,</l>
           <l n="1162" xml:id="l1162">Mais on n’obtient guère</l>
           <l n="1163" xml:id="l1163">De bien sans tourment.</l>
         </sp>
         <sp who="zephyr amour" xml:id="IIIb-10">
-          <speaker>Les deux ensemble.</speaker>
+          <speaker></speaker>
+          <stage rend="not-i">Les deux ensemble.</stage>
           <l n="1164" xml:id="l1164">S’il faut des soins et des travaux,</l>
           <l n="1165" xml:id="l1165">En aimant,</l>
           <l n="1166" xml:id="l1166">On est payé de mille maux</l>
           <l n="1167" xml:id="l1167">Par un heureux moment.</l>
         </sp>
         <sp who="amour" xml:id="IIIb-11">
-          <speaker>L’amour, seul.</speaker>
+          <speaker>L’amour <hi rend="i">seul</hi>.</speaker>
           <l n="1168" xml:id="l1168">Que peut-on mieux faire</l>
           <l n="1169" xml:id="l1169">Qu’aimer et que plaire ?</l>
           <l n="1170" xml:id="l1170">C’est un soin charmant</l>
           <l n="1171" xml:id="l1171">Que l’emploi d’un Amant.</l>
         </sp>
         <sp who="zephyr amour" xml:id="IIIb-12">
-          <speaker>Les deux ensemble.</speaker>
+          <speaker></speaker>
+          <stage rend="not-i">Les deux ensemble.</stage>
           <l n="1172" xml:id="l1172">S’il faut des soins et des travaux,</l>
           <l n="1173" xml:id="l1173">En aimant,</l>
           <l n="1174" xml:id="l1174">On est payé de mille maux</l>
           <l n="1175" xml:id="l1175">Par un heureux moment.</l>
-          <stage>Le Théâtre devient un autre Palais magnifique, coupé dans le fond par un Vestibule, au travers duquel on voit un jardin superbe et charmant, décoré de plusieurs Vases d’Orangers, et d’Arbres chargés de toutes sortes de Fruits.</stage>
+          <stage rend="not-i">Le Théâtre devient un autre Palais magnifique, coupé dans le fond par un Vestibule, au travers duquel on voit un Jardin superbe et charmant, décoré de plusieurs Vases d’Orangers, et d’Arbres chargés de toutes sortes de Fruits.</stage>
         </sp>
       </div1>
       <div1 xml:id="IV" type="act">
@@ -2035,11 +2118,11 @@
           <sp who="psyche" xml:id="IV02-5">
             <speaker>Psyché</speaker>
             <l n="1298" xml:id="l1298">Ma sœur, vous me faites trembler.</l>
-            <l n="1299" xml:id="l1299">Juste Ciel ! pourrais-je être assez infortunée...</l>
+            <l n="1299" xml:id="l1299">Juste Ciel ! pourrais-je être assez infortunée… </l>
           </sp>
           <sp who="cidippe" xml:id="IV02-6">
             <speaker>Cidippe</speaker>
-            <l n="1300" xml:id="l1300">Que sait-on si déjà les nœuds de l’Hyménée...</l>
+            <l n="1300" xml:id="l1300">Que sait-on si déjà les nœuds de l’Hyménée… </l>
           </sp>
           <sp who="psyche" xml:id="IV02-7">
             <speaker>Psyché</speaker>
@@ -2089,7 +2172,7 @@
           <sp who="psyche" xml:id="IV02-14">
             <speaker>Psyché</speaker>
             <l n="1325" xml:id="l1325">Ne l’inquiétez point, ma sœur, de vos soupçons,</l>
-            <l n="1326" xml:id="l1326">Et quand vous lui peindrez un si charmant Empire...</l>
+            <l n="1326" xml:id="l1326">Et quand vous lui peindrez un si charmant Empire… </l>
           </sp>
           <sp who="aglaure" xml:id="IV02-15">
             <speaker>Aglaure</speaker>
@@ -2248,7 +2331,7 @@
           <sp who="amour" xml:id="IV03-18">
             <speaker>L’Amour</speaker>
             <l n="1422" xml:id="l1422">Si vous saviez, Psyché, la cruelle aventure</l>
-            <l n="1423" xml:id="l1423">Que par là vous vous attirez...</l>
+            <l n="1423" xml:id="l1423">Que par là vous vous attirez… </l>
           </sp>
           <sp who="psyche" xml:id="IV03-19">
             <speaker>Psyché</speaker>
@@ -2287,7 +2370,7 @@
             <l n="1447" xml:id="l1447">Le Destin sous qui le Ciel tremble,</l>
             <l n="1448" xml:id="l1448">Plus fort que mon amour, que tous les Dieux ensemble,</l>
             <l n="1449" xml:id="l1449">Vous va montrer sa haine, et me chasse d’ici.</l>
-            <stage>L’Amour disparaît, et dans l’instant qu’il s’envole, le superbe Jardin s’évanouit. Psyché demeure seule au milieu d’une vaste Campagne, et sur le bord sauvage d’un grand Fleuve où elle se veut précipiter. Le Dieu du Fleuve paraît assis sur un amas de Joncs et de Roseaux, et appuyé sur une grande Urne, d’où sort une grosse source d’eau.</stage>
+            <stage rend="not-i">L’Amour disparaît, et dans l’instant qu’il s’envole, le superbe Jardin s’évanouit. Psyché demeure seule au milieu d’une vaste Campagne, et sur le bord sauvage d’un grand Fleuve où elle se veut précipiter. Le Dieu du Fleuve paraît assis sur un amas de Joncs et de Roseaux, et appuyé sur une grande Urne, d’où sort une grosse source d’eau.</stage>
           </sp>
         </div2>
         <div2 xml:id="IV04" type="scene">
@@ -2423,7 +2506,7 @@
           <sp who="venus" xml:id="IV05-8">
             <speaker>Vénus</speaker>
             <l n="1543" xml:id="l1543">Tout votre cœur s’en est laissé charmer,</l>
-            <l n="1544" xml:id="l1544">Et vous l’avez aimé dès qu’il vous a dit : J’aime.</l>
+            <l n="1544" xml:id="l1544">Et vous l’avez aimé dès qu’il vous a dit, <hi rend="i">J’aime</hi>.</l>
           </sp>
           <sp who="psyche" xml:id="IV05-9">
             <speaker>Psyché</speaker>
@@ -2454,7 +2537,7 @@
       </div1>
       <div1 xml:id="IVb" type="interlude">
         <head>Quatrième Intermède</head>
-        <stage>La Scène représente les Enfers. On y voit une Mer toute de feu, dont les flots sont dans une perpétuelle agitation. Cette Mer effroyable est bornée par des Ruines enflammées ; et au milieu de ses flots agités, au travers d’une Gueule affreuse, paraît le Palais Infernal de Pluton. Huit Furies en sortent, et forment une Entrée de Ballet, où elles se réjouissent de la rage qu’elles ont allumée dans l’âme de la plus douce des Divinités. Un Lutin mêle quantité de sauts périlleux à leurs Danses, cependant que Psyché qui a passé aux Enfers par le commandement de Vénus, repasse dans la Barque de Charon, avec la Boîte qu’elle a reçue de Proserpine pour cette Déesse.</stage>
+        <stage rend="not-i">La Scène représente les Enfers. On y voit une Mer toute de feu, dont les flots sont dans une perpétuelle agitation. Cette Mer effroyable est bornée par des Ruines enflammées ; et au milieu de ses flots agités, au travers d’une Gueule affreuse, paraît le Palais Infernal de Pluton. Huit Furies en sortent, et forment une Entrée de Ballet, où elles se réjouissent de la rage qu’elles ont allumée dans l’âme de la plus douce des Divinités. Un Lutin mêle quantité de sauts périlleux à leurs Danses, cependant que Psyché qui a passé aux Enfers par le commandement de Vénus, repasse dans la Barque de Charon, avec la Boîte qu’elle a reçue de Proserpine pour cette Déesse.</stage>
       </div1>
       <div1 xml:id="V" type="act">
         <head>Acte V</head>
@@ -2518,7 +2601,7 @@
             <l n="1610" xml:id="l1610">Qui vous a ravi la lumière ?</l>
           </sp>
           <sp who="cleomene" xml:id="V02-2">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="1611" xml:id="l1611">La plus juste douleur, qui d’un beau désespoir</l>
             <l n="1612" xml:id="l1612">Nous eût pu fournir la matière,</l>
             <l n="1613" xml:id="l1613">Cette pompe funèbre, où du sort le plus noir</l>
@@ -2541,7 +2624,7 @@
             <l n="1627" xml:id="l1627">Nous nous sommes précipités.</l>
           </sp>
           <sp who="cleomene" xml:id="V02-4">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="1628" xml:id="l1628">Heureusement déçus au sens de votre Oracle,</l>
             <l n="1629" xml:id="l1629">Nous en avons ici reconnu le miracle,</l>
             <l n="1630" xml:id="l1630">Et su que le Serpent prêt à vous dévorer</l>
@@ -2573,7 +2656,7 @@
             <l n="1650" xml:id="l1650">Ce n’est point pour vous que je meurs.</l>
           </sp>
           <sp who="cleomene" xml:id="V02-7">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="1651" xml:id="l1651">L’avons-nous mérité, nous dont toute la flamme</l>
             <l n="1652" xml:id="l1652">N’a fait que vous lasser du récit de nos maux ?</l>
           </sp>
@@ -2599,7 +2682,7 @@
             <l n="1664" xml:id="l1664">Quel est ici votre séjour ?</l>
           </sp>
           <sp who="cleomene" xml:id="V02-11">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="1665" xml:id="l1665">Dans des Bois toujours verts, où d’amour on respire,</l>
             <l n="1666" xml:id="l1666">Aussitôt qu’on est mort d’amour.</l>
             <l n="1667" xml:id="l1667">D’amour on y revit, d’amour on y soupire,</l>
@@ -2632,7 +2715,7 @@
             <l n="1688" xml:id="l1688">Que je les plains !</l>
           </sp>
           <sp who="cleomene" xml:id="V02-14">
-            <speaker>cléomène</speaker>
+            <speaker>Cléomène</speaker>
             <l n="1689" xml:id="l1689">Vous êtes seule à plaindre.</l>
             <l n="1690" xml:id="l1690">Mais nous demeurons trop à vous entretenir,</l>
             <l n="1691" xml:id="l1691">Adieu, puissions-nous vivre en votre souvenir,</l>
@@ -2958,11 +3041,11 @@
             <l n="1925" xml:id="l1925">Vivez, Vénus l’ordonne ; aimez, elle y consent.</l>
           </sp>
           <sp who="psyche" xml:id="V06-8">
-            <speaker>Psyché, à l’<hi rend="i">A</hi>mour.</speaker>
+            <speaker>Psyché, <hi rend="i">à l’Amour</hi>.</speaker>
             <l n="1926" xml:id="l1926">Je vous revois enfin, cher objet de ma flamme !</l>
           </sp>
           <sp who="amour" xml:id="V06-9">
-            <speaker>L’Amour, à <hi rend="i">P</hi>syché.</speaker>
+            <speaker>L’Amour, <hi rend="i">à Psyché</hi>.</speaker>
             <l n="1927" xml:id="l1927">Je vous possède enfin, délices de mon âme !</l>
           </sp>
           <sp who="jupiter" xml:id="V06-10">
@@ -2971,12 +3054,12 @@
             <l n="1929" xml:id="l1929">Achever un si grand et si digne Hyménée ;</l>
             <l n="1930" xml:id="l1930">Viens-y, belle Psyché, changer de Destinée,</l>
             <l n="1931" xml:id="l1931">Viens prendre place aux rang des Dieux.</l>
-            <stage>Deux grandes Machines descendent aux deux côtés de Jupiter, cependant qu’il dit ces derniers Vers. Vénus avec sa Suite monte dans l’une, l’Amour avec Psyché dans l’autre, et tous ensemble remontent au Ciel.</stage>
-            <stage>Les Divinités qui avaient été partagées entre Vénus et son Fils, se réunissent en les voyant d’accord ; et toutes ensemble par des Concerts, des Chants, et des Danses, célèbrent la fête des Noces de l’Amour.</stage>
-            <stage>Apollon paraît le premier et, comme Dieu de l’Harmonie commence à chanter, pour inviter les autres Dieux à se réjouir.</stage>
+            <stage rend="not-i">Deux grandes Machines descendent aux deux côtés de Jupiter, cependant qu’il dit ces derniers Vers. Vénus avec sa Suite monte dans l’une, l’Amour avec Psyché dans l’autre, et tous ensemble remontent au Ciel.</stage>
+            <stage rend="not-i">Les Divinités qui avaient été partagées entre Vénus et son Fils, se réunissent en les voyant d’accord ; et toutes ensemble par des Concerts, des Chants, et des Danses, célèbrent la Fête des Noces de l’Amour.</stage>
+            <stage rend="not-i">Apollon paraît le premier et, comme Dieu de l’Harmonie commence à chanter, pour inviter les autres Dieux à se réjouir.</stage>
           </sp>
           <sp who="apollon" xml:id="V06-11">
-            <speaker>Récit d’apollon</speaker>
+            <speaker>Récit d’Apollon</speaker>
             <l n="1932" xml:id="l1932">Unissons-nous, Troupe immortelle ;</l>
             <l n="1933" xml:id="l1933">Le Dieu d’Amour devient heureux amant,</l>
             <l n="1934" xml:id="l1934">Et Vénus a repris sa douceur naturelle</l>
@@ -2984,8 +3067,9 @@
             <l n="1936" xml:id="l1936">Il va goûter en paix, après un long tourment,</l>
             <l n="1937" xml:id="l1937">Une félicité qui doit être éternelle.</l>
           </sp>
-          <sp who="choeur" xml:id="V06-12">
-            <speaker>Toutes les Divinités chantent ensemble ce Couplet à la gloire de l’Amour.</speaker>
+          <sp who="choeur-des-divinites" xml:id="V06-12">
+            <speaker></speaker>
+            <stage rend="not-i">Toutes les Divinités chantent ensemble ce Couplet à la gloire de l’Amour.</stage>
             <l n="1938" xml:id="l1938">Célébrons ce grand jour ;</l>
             <l n="1939" xml:id="l1939">Célébrons tous une Fête si belle :</l>
             <l n="1940" xml:id="l1940">Que nos Chants en tous lieux en portent la nouvelle,</l>
@@ -2995,7 +3079,7 @@
             <l n="1944" xml:id="l1944">Qui tôt ou tard ne se rende à l’Amour.</l>
           </sp>
           <sp who="apollon" xml:id="V06-13">
-            <speaker>Apollon continue.</speaker>
+            <speaker>Apollon <hi rend="i">continue</hi>.</speaker>
             <l n="1945" xml:id="l1945">Le Dieu qui nous engage</l>
             <l n="1946" xml:id="l1946">À lui faire la Cour,</l>
             <l n="1947" xml:id="l1947">Défend qu’on soit trop sage.</l>
@@ -3012,10 +3096,11 @@
             <l n="1958" xml:id="l1958">Que de finir les soins du Jour.</l>
             <l n="1959" xml:id="l1959">La Nuit est le partage</l>
             <l n="1960" xml:id="l1960">Des Jeux, et de l’Amour.</l>
-            <stage>Deux Muses, qui ont toujours évité de s’engager sous les Lois de l’Amour, conseillent aux Belles qui n’ont point encore aimé, de s’en défendre avec soin à leur exemple.</stage>
+            <stage rend="not-i">Deux Muses, qui ont toujours évité de s’engager sous les Lois de l’Amour, conseillent aux Belles qui n’ont point encore aimé, de s’en défendre avec soin à leur exemple.</stage>
           </sp>
+          <label>Chanson des muses</label>
           <sp who="muses" xml:id="V06-14">
-            <speaker>chanson des muses</speaker>
+            <speaker></speaker>
             <l n="1961" xml:id="l1961">Gardez-vous, Beautés sévères,</l>
             <l n="1962" xml:id="l1962">Les Amours font trop d’affaires,</l>
             <l n="1963" xml:id="l1963">Craignez toujours de vous laisser charmer :</l>
@@ -3025,8 +3110,9 @@
             <l n="1967" xml:id="l1967">De le dire,</l>
             <l n="1968" xml:id="l1968">Coûte plus cent fois que d’aimer.</l>
           </sp>
+          <label>second couplet des muses</label>
           <sp who="muses" xml:id="V06-15">
-            <speaker>second couplet des muses</speaker>
+           <speaker></speaker>
             <l n="1969" xml:id="l1969">On ne peut aimer sans peines,</l>
             <l n="1970" xml:id="l1970">Il est peu de douces chaînes,</l>
             <l n="1971" xml:id="l1971">À tout moment on se sent alarmer ;</l>
@@ -3035,10 +3121,11 @@
             <l n="1974" xml:id="l1974">Le martyre</l>
             <l n="1975" xml:id="l1975">De le dire,</l>
             <l n="1976" xml:id="l1976">Coûte plus cent fois que d’aimer.</l>
-            <stage>Bacchus fait entendre qu’il n’est pas si dangereux que l’Amour.</stage>
+            <stage rend="not-i">Bacchus fait entendre qu’il n’est pas si dangereux que l’Amour.</stage>
           </sp>
+          <label>Récit de Bacchus</label>
           <sp who="bacchus" xml:id="V06-16">
-            <speaker>récit de bacchus</speaker>
+            <speaker></speaker>
             <l n="1977" xml:id="l1977">Si quelquefois,</l>
             <l n="1978" xml:id="l1978">Suivant nos douces Lois,</l>
             <l n="1979" xml:id="l1979">La raison se perd et s’oublie,</l>
@@ -3046,10 +3133,11 @@
             <l n="1981" xml:id="l1981">Commence et finit en un jour ;</l>
             <l n="1982" xml:id="l1982">Mais quand un cœur est enivré d’Amour,</l>
             <l n="1983" xml:id="l1983">Souvent c’est pour toute la vie.</l>
-            <stage><anchor xml:id="V-07"/>Mome déclare qu’il n’a point de plus doux emploi que de médire, et que ce n’est qu’à l’Amour seul qu’il n’ose se jouer.</stage>
+            <stage rend="not-i"><anchor xml:id="V-07"/>Mome déclare qu’il n’a point de plus doux emploi que de médire, et que ce n’est qu’à l’Amour seul qu’il n’ose se jouer.</stage>
           </sp>
+          <label>Récit de mome</label>
           <sp who="mome" xml:id="V06-17">
-            <speaker>récit de mome</speaker>
+            <speaker></speaker>
             <l n="1984" xml:id="l1984">Je cherche à médire !</l>
             <l n="1985" xml:id="l1985">Sur la terre et dans les Cieux ;</l>
             <l n="1986" xml:id="l1986">Je soumets à ma Satire</l>
@@ -3059,10 +3147,14 @@
             <l n="1990" xml:id="l1990">Il n’appartient qu’à lui</l>
             <l n="1991" xml:id="l1991">De n’épargner personne.</l>
           </sp>
-          <stage rend="not-i">Composée de quatre Polichinelles et de deux Matassins qui suivent Mome, et viennent jouer leur plaisanterie et leur badinage aux divertissement de cette grande Fête</stage>
-          <stage rend="not-i">Bacchus et Mome qui les conduisent, chantent au milieu d’eux chacun une chanson, Bacchus à la louange du Vin, et Mome une Chanson enjouée, sur le sujet et les avantages de la raillerie.</stage>
+          <label>Entrée de ballet,</label>
+          <stage rend="not-i">Composée de deux Ménades et de deux Aegypans qui suivent Bacchus.</stage>
+          <label>Entrée de ballet,</label>
+          <stage rend="not-i">Composée de quatre Polichinelles et de deux Matassins qui suivent Mome, et viennent jouer leur plaisanterie et leur badinage aux divertissements de cette grande Fête.</stage>
+          <stage rend="not-i">Bacchus et Mome qui les conduisent, chantent au milieu d’eux chacun une Chanson, Bacchus à la louange du Vin, et Mome une Chanson enjouée, sur le sujet et les avantages de la raillerie.</stage>
+          <label>Récit de Bacchus</label>
           <sp who="bacchus" xml:id="V07-1">
-            <speaker>récit de bacchus</speaker>
+            <speaker></speaker>
             <l n="1992" xml:id="l1992">Admirons le jus de la Treille :</l>
             <l n="1993" xml:id="l1993">Qu’il est puissant ! qu’il a d’attraits !</l>
             <l n="1994" xml:id="l1994">Il sert aux douceurs de la Paix,</l>
@@ -3070,8 +3162,9 @@
             <l n="1996" xml:id="l1996">Mais surtout pour les Amours,</l>
             <l n="1997" xml:id="l1997">Le vin est d’un grand secours.</l>
           </sp>
+          <label>Récit de Mome</label>
           <sp who="mome" xml:id="V07-2">
-            <speaker>récit de mome</speaker>
+            <speaker></speaker>
             <l n="1998" xml:id="l1998">Folâtrons, divertissons-nous,</l>
             <l n="1999" xml:id="l1999">Raillons, nous ne saurions mieux faire,</l>
             <l n="2000" xml:id="l2000">La raillerie est nécessaire</l>
@@ -3088,20 +3181,23 @@
             <l n="2011" xml:id="l2011">On trouve peu de plaisirs sans ennui ;</l>
             <l n="2012" xml:id="l2012">Rien n’est si plaisant que de rire,</l>
             <l n="2013" xml:id="l2013">Quand on rit aux dépens d’autrui.</l>
-            <stage>Mars arrive au milieu du Théâtre, suivi de sa Troupe guerrière, qu’il excite à profiter de leur loisir en prenant part aux Divertissements.</stage>
+            <stage rend="not-i">Mars arrive au milieu du Théâtre, suivi de sa Troupe guerrière, qu’il excite à profiter de leur loisir en prenant part aux Divertissements.</stage>
           </sp>
+          <label>Récit de Mars</label>
           <sp who="mars" xml:id="V07-3">
-            <speaker>récit de mars</speaker>
+            <speaker></speaker>
             <l n="2014" xml:id="l2014">Laissons en paix toute la Terre,</l>
             <l n="2015" xml:id="l2015">Cherchons de doux amusements ;</l>
             <l n="2016" xml:id="l2016">Parmi les Jeux les plus charmants,</l>
             <l n="2017" xml:id="l2017">Mêlons l’image de la Guerre.</l>
           </sp>
+          <label>Entrée de ballet</label>
+          <stage rend="not-i">Suivants de Mars, qui font, en dansant avec des Enseignes, une manière d'Exercice.</stage>
           <label>DERNIÈRE ENTRÉE DE BALLET</label>
           <stage rend="not-i">Les Troupes différentes de la Suite d’Apollon, de Bacchus, de Mome, et de Mars, après avoir achevé leurs Entrées particulières, s’unissent ensemble, et forment la dernière Entrée, qui renferme toutes les autres.</stage>
-          <stage rend="not-i">Un Chœur de toutes les voix et de tous les Instruments, qui sont au nombre de quarante, se joint à la Danse générale, et termine la Fête des Noces de l’Amour et de Psyché.</stage>
+          <stage rend="not-i">Un Chœur de toutes les Voix et de tous les Instruments, qui sont au nombre de quarante, se joint à la Danse générale, et termine la Fête des Noces de l’Amour et de Psyché.</stage>
           <sp who="choeur" xml:id="V08-1">
-            <speaker>dernier chœur</speaker>
+            <speaker>Dernier chœur</speaker>
             <l n="2018" xml:id="l2018">Chantons les plaisirs charmants</l>
             <l n="2019" xml:id="l2019">Des heureux Amants,</l>
             <l n="2020" xml:id="l2020">Que tout le Ciel s’empresse</l>
@@ -3110,7 +3206,7 @@
             <l n="2023" xml:id="l2023">Par mille doux chants d’allégresse,</l>
             <l n="2024" xml:id="l2024">Célébrons ce beau jour</l>
             <l n="2025" xml:id="l2025">Par mille doux chants pleins d’amour.</l>
-            <stage>Dans le grand Salon du Palais des Tuileries, où Psyché a été représentée devant Leurs Majestés, il y avait des Timbales, des Trompettes et des Tambours, mêlés dans ces derniers Concerts ; et ce dernier couplet se chantait ainsi :</stage>
+            <stage rend="not-i">Dans le grand Salon du Palais des Tuileries, où Psyché a été représentée devant Leurs Majestés, il y avait des Timbales, des Trompettes et des Tambours, mêlés dans ces derniers Concerts ; et ce dernier Couplet se chantait ainsi.</stage>
             <l n="2026" xml:id="l2026">Chantons les plaisirs charmants</l>
             <l n="2027" xml:id="l2027">Des heureux Amants.</l>
             <l n="2028" xml:id="l2028">Répondez-nous, Trompettes,</l>
