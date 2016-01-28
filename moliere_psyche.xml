@@ -14,15 +14,25 @@
           <resp>2011, édition TEI</resp>
         </respStmt>
         <respStmt>
+          <name>Amélie Canu</name>
+          <resp>2016, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Oriane Morvan</name>
+          <resp>2016, édition TEI</resp>
+        </respStmt>
+        <respStmt>
           <name>Frédéric Glorieux</name>
           <resp>Informatique éditoriale (conversions, validation)</resp>
         </respStmt>
       </editionStmt>
       <publicationStmt>
         <publisher>LABEX OBVIL</publisher>
-        <availability status="restricted"/>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_psyche/</idno>
       </publicationStmt>
-      <sourceDesc/>
+      <sourceDesc>
+        <p></p>
+      </sourceDesc>
     </fileDesc>
     <profileDesc>
       <creation>
@@ -42,101 +52,32 @@
     <front>
       <titlePage>
         <docTitle>
-          <titlePart type="main">PSYCHÉ</titlePart>
-          <titlePart type="sub">TRAGI-COMÉDIE avec intermèdes et ballets</titlePart>
+          <titlePart type="main">PSYCHÉ,</titlePart>
+          <titlePart type="sub">TRAGÉDIE-BALLET</titlePart>
         </docTitle>
-        <docDate>1666</docDate>
-        <docAuthor>Molière, Quinault et Pierre Corneille</docAuthor>
+        <docAuthor>Par J. B. P. MOLIERE</docAuthor>
         <docImprint>
-          Représentée pour le roi dans la grande salle des machines du Palais des tuileries en janvier et durant tout le carnaval de l’année 1671 par la Troupe du Roi et donnée au public sur le Théâtre de la salle du Palais-Royal, le 24e juillet 1671.
+          <hi rend="i">Et se vend pour l'Auteur, <lb/></hi> À PARIS, <lb/>Chez PIERRE LE MONNIER, au Palais, <lb/> vis-à-vis la Porte de l'Église de la Sainte-Chapelle, <lb/> à l'Image Saint-Louis, et au Feu Divin.<lb/>M. DC. LXXI. <lb/> <hi rend="i"> AVEC PRIVILEGE DU ROI.</hi>
         </docImprint>
       </titlePage>
       <div>
         <head>Acteurs</head>
         <castList>
-          <head>PERSONNAGES du PROLOGUE</head>
-          <castItem><role xml:id="flore" rend="female">Flore</role>.</castItem>
-          <castItem><role xml:id="vertumne" rend="male">Vertumne</role>, dieu des jardins.</castItem>
-          <castItem><role xml:id="palaemon" rend="male">Palémon</role>, dieu des eaux.</castItem>
-          <castItem><role xml:id="venus1" rend="female">Vénus</role>.</castItem>
-          <castItem><role xml:id="amour1" rend="female">L’amour</role>, Grâce.</castItem>
-          <castItem><role xml:id="aegiale1" rend="female">Ægiale</role>, Grâce.</castItem>
-          <castItem><role xml:id="phaene1" rend="female">Phène</role>, Grâce.</castItem>
-          <castItem><role xml:id="nymphes">Nymphes</role>, de la suite de Flore chantantes.</castItem>
-          <castItem><role xml:id="dryades-et-sylvains">Dryades et sylvains</role>, de la suite de Vertumne dansants.</castItem>
-          <castItem><role xml:id="sylvain-chantants">Sylvains</role>, chantants.</castItem>
-          <castItem><role xml:id="dieux-fleuves-dansants">Dieux des fleuves</role>, de la suite de Palémon dansants.</castItem>
-          <castItem><role xml:id="dieux-fleuves-chantants">Dieux des fleuves</role>, chantants.</castItem>
-          <castItem><role xml:id="naidades">Naïdades</role>.</castItem>
-          <castItem><role xml:id="amours">Amours</role>, de la suite de Vénus dansants.</castItem>
+          <castItem><role xml:id="jupiter" rend="male">JUPITER</role>.</castItem>
+          <castItem><role xml:id="venus" rend="female">VÉNUS</role>.</castItem>
+          <castItem><role xml:id="amour" rend="male">L’AMOUR</role>.</castItem>
+          <castItem><role xml:id="aegiale" rend="female">ÆGIALE</role>, Grâce.</castItem>
+          <castItem><role xml:id="phaene" rend="female">PHAENE</role>, Grâce.</castItem>
+          <castItem><role xml:id="psyche" rend="male">PSYCHÉ</role>.</castItem>
+          <castItem><role xml:id="le-roi" rend="male superior">LE ROI</role>, Père de Psyché.</castItem>
+          <castItem><role xml:id="aglaure" rend="female">AGLAURE</role>, Sœur de Psyché.</castItem>
+          <castItem><role xml:id="cidippe" rend="male">CIDIPPE</role>, Sœur de Psyché.</castItem>
+          <castItem><role xml:id="cleomene" rend="male">ClÉOMENE</role>, Prince amant de Psyché.</castItem>
+          <castItem><role xml:id="agenor" rend="male">AGÉNOR</role>, Prince amant de Psyché.</castItem>
+          <castItem><role xml:id="zephire" rend="male">LE ZÉPHIRE</role>.</castItem>
+          <castItem><role xml:id="lycas" rend="male">LYCAS</role>.</castItem>
+          <castItem><role xml:id="dieu-fleuve" rend="male">LE DIEU D'UN FLEUVE</role>.</castItem>
         </castList>
-        <castList>
-          <head>PERSONNAGES DE LA TRAGI-COMÉDIE</head>
-          <castItem><role xml:id="jupiter" rend="male">Jupiter</role>.</castItem>
-          <castItem><role xml:id="venus" rend="female">Vénus</role>.</castItem>
-          <castItem><role xml:id="amour" rend="male">L’amour</role>.</castItem>
-          <castItem><role xml:id="aegiale" rend="female">Ægiale</role>, Grâce.</castItem>
-          <castItem><role xml:id="phaene" rend="female">Phène</role>, Grâce.</castItem>
-          <castItem><role xml:id="psyche" rend="male">Psyché</role>.</castItem>
-          <castItem><role xml:id="le-roi" rend="male superior">Le roi</role>, père de Psyché.</castItem>
-          <castItem><role xml:id="aglaure" rend="female">Aglaure</role>, sœur de Psyché.</castItem>
-          <castItem><role xml:id="cidippe" rend="male">Cidippe</role>, sœur de Psyché.</castItem>
-          <castItem><role xml:id="cleomene" rend="male">Cléomène</role>, prince amant de Psyché.</castItem>
-          <castItem><role xml:id="agenor" rend="male">Agénor</role>, prince amant de Psyché.</castItem>
-          <castItem><role xml:id="zephire" rend="male">Le zéphire</role>.</castItem>
-          <castItem><role xml:id="lycas" rend="male">Lycas</role>.</castItem>
-          <castItem><role xml:id="dieu-fleuve" rend="male">Le dieu d’un fleuve</role>.</castItem>
-        </castList>
-        <castList>
-          <head>PERSONNAGES du PREMIER INTERMÈDE</head>
-          <castItem><role xml:id="femme-desolee" rend="female">Femme désolée</role>, chantante.</castItem>
-          <castItem><role xml:id="hommes-dansants" rend="male">Deux hommes affligés</role>, chantants.</castItem>
-          <castItem><role xml:id="affliges" rend="male">Hommes affligés</role>, dansants.</castItem>
-          <castItem><role xml:id="femmes-dansants" rend="female">Femmes desolées</role>, dansantes.</castItem>
-        </castList>
-        <castList>
-          <head>PERSONNAGES du DEUXIÈME INTERMÈDE</head>
-          <castItem><role xml:id="vulcain">Vulcain</role>.</castItem>
-          <castItem><role xml:id="cyclopes">Cyclopes</role>.</castItem>
-          <castItem><role xml:id="fees">Fées dansantes</role>.</castItem>
-        </castList>
-        <castList>
-          <head>PERSONNAGES du TROISIÈME INTERMÈDE</head>
-          <castItem><role xml:id="zephyr">un zéphyr</role>, chantant.</castItem>
-          <castItem><role xml:id="deux-amours">Deux amours</role>, chantants.</castItem>
-          <castItem><role xml:id="zephyrs-dansants">Zéphyrs</role>, dansants.</castItem>
-          <castItem><role xml:id="amours-dansants">Amours</role>, dansantes.</castItem>
-        </castList>
-        <castList>
-          <head>PERSONNAGES du QUATRIÈME INTERMÈDE</head>
-          <castItem><role xml:id="furies">Furies</role>, dansantes.</castItem>
-          <castItem><role xml:id="lutins">Lutins</role>, faisant des sauts périlleux.</castItem>
-        </castList>
-        <castList>
-          <head>PERSONNAGES du CINQUIÈME INTERMÈDE</head>
-          <castItem><role xml:id="apollon" rend="nograph">Apollon</role>.</castItem>
-          <castItem><role xml:id="muses" rend="nograph">Les muses</role> chantantes.</castItem>
-          <castItem><role xml:id="les-arts">Les arts</role>, travestis en bergers galants, dansants.</castItem>
-          <castItem><role xml:id="bacchus" rend="nograph">Bacchus</role>.</castItem>
-          <castItem><role xml:id="silene">Silène</role>.</castItem>
-          <castItem><role xml:id="deux-satyres-chantants">Deux satyres</role> chantants.</castItem>
-          <castItem><role xml:id="deux-satyres-dansants">Deux satyres</role> dansants.</castItem>
-          <castItem><role xml:id="egipans">Egipans</role> sansants.</castItem>
-          <castItem><role xml:id="menade">Ménades</role>, dansantes.</castItem>
-          <castItem><role xml:id="mome" rend="nograph">Mone</role>.</castItem>
-          <castItem><role xml:id="polichinelles">Polichinelles</role> dansants.</castItem>
-          <castItem><role xml:id="matassins">Matassins</role> dansants.</castItem>
-          <castItem><role xml:id="mars" rend="nograph">Mars</role>.</castItem>
-          <castItem><role xml:id="guerriers-enseignes">Guerriers</role> portant des enseignes.</castItem>
-          <castItem><role xml:id="guerriers-piques">Guerriers</role> portant des piques.</castItem>
-          <castItem><role xml:id="guerriers-boculiers">Guerriers</role> portant des masses et des boucliers.</castItem>
-          <castItem><role xml:id="choeur" rend="nograph">Chœur</role> des divinités célestes.</castItem>
-        </castList>
-        <p>La scène du prologue est dans un lieu champêtre, la tragi-comédie se situe dans le palais du roi.</p>
-      </div>
-      <div xml:id="i0">
-        <head>LE LIBRAIRE AU LECTEUR</head>
-        <p rend="margin">Cet Ouvrage n’est pas tout d’une main. M. Quinault a fait les Paroles qui s’y chantent en Musique, à la réserve de la Plainte Italienne. M. de Molière a dressé le Plan de la Pièce, et réglé la disposition, où il s’est plus attaché aux beautés et à la pompe du Spectacle qu’à l’exacte régularité. Quant à la Versification, il n’a pas eu le loisir de la faire entière. Le Carnaval approchait, et les Ordres pressants du Roi, qui se voulait donner ce magnifique Divertissement plusieurs fois avant le Carême, l’ont mis dans la nécessité de souffrir un peu de secours. Ainsi il n’y a que le Prologue, le Premier Acte, la première Scène du Second et la première du Troisième, dont les Vers soient de lui. Monsieur Corneille a employé une quinzaine au reste ; et, par ce moyen, Sa Majesté s’est trouvée servie dans le temps qu’elle l’avait ordonné.</p>
       </div>
     </front>
     <body>
