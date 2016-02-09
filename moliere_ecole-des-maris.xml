@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_ecole-des-maris">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_ecole-des-maris">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -104,7 +103,7 @@
           <castItem><role xml:id="isabelle" rend="female junior">Isabelle</role>, sœur de Léonor.</castItem>
           <castItem><role xml:id="leonor" rend="female junior">Léonor</role>, sœur d’Isabelle.</castItem>
           <castItem><role xml:id="lisette" rend="female inferior">Lisette</role>, suivante de Léonor.</castItem>
-          <castItem><role xml:id="valere" rend='male junior'>Valère</role>, Amant d'Isabelle.</castItem>
+          <castItem><role xml:id="valere" rend="male junior">Valère</role>, Amant d'Isabelle.</castItem>
           <castItem><role xml:id="ergaste" rend="male inferior">Ergaste</role>, Valet de Valère.</castItem>
           <castItem><role xml:id="commissaire" rend="male exterior">Le commissaire</role>.</castItem>
           <castItem><role xml:id="notaire" rend="male exterior">Le notaire</role>.</castItem>
@@ -132,16 +131,16 @@
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="9" xml:id="l9">Mais chacun la condamne.</l>
+            <l n="9" xml:id="l9" part="I">Mais chacun la condamne.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Oui des fous comme vous,</l>
-            <l n="10" xml:id="l10">Mon frère.</l>
+            <l part="F">Oui des fous comme vous,</l>
+            <l n="10" xml:id="l10" part="I">Mon frère.</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l part="Y">Grand merci, le compliment est doux.</l>
+            <l part="F">Grand merci, le compliment est doux.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
@@ -242,11 +241,11 @@
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l n="77" xml:id="l77">Il est ainsi bâti.</l>
+            <l n="77" xml:id="l77" part="I">Il est ainsi bâti.</l>
           </sp>
           <sp who="leonor">
             <speaker>Léonor</speaker>
-            <l part="Y">Je vous en plains ma sœur.</l>
+            <l part="F">Je vous en plains ma sœur.</l>
           </sp>
           <sp who="lisette">
             <speaker>Lisette</speaker>
@@ -262,21 +261,21 @@
           <sp who="lisette">
             <speaker>Lisette</speaker>
             <l n="83" xml:id="l83">Ma foi je l'enverrais au diable avec sa fraise,</l>
-            <l n="84" xml:id="l84">Et…</l>
+            <l n="84" xml:id="l84" part="I">Et…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Où donc allez-vous, qu'il ne vous en déplaise,</l>
+            <l part="F">Où donc allez-vous, qu'il ne vous en déplaise,</l>
           </sp>
           <sp who="leonor">
             <speaker>Léonor</speaker>
             <l n="85" xml:id="l85">Nous ne savons encore, et je pressais ma sœur</l>
             <l n="86" xml:id="l86">De venir du beau temps respirer la douceur :</l>
-            <l n="87" xml:id="l87">Mais…</l>
+            <l n="87" xml:id="l87" part="I">Mais…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Pour vous, vous pouvez aller où bon vous semble</l>
+            <l part="F">Pour vous, vous pouvez aller où bon vous semble</l>
             <l n="88" xml:id="l88">Vous n'avez qu'à courir, vous voilà deux ensemble :</l>
             <l n="89" xml:id="l89">Mais vous, je vous défends s'il vous plaît de sortir.</l>
           </sp>
@@ -286,16 +285,16 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="91" xml:id="l91">Je suis votre valet, mon frère.</l>
+            <l n="91" xml:id="l91" part="I">Je suis votre valet, mon frère.</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l part="Y">La jeunesse,</l>
-            <l n="92" xml:id="l92">Veut…</l>
+            <l part="F">La jeunesse,</l>
+            <l n="92" xml:id="l92" part="I">Veut…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">La jeunesse est sotte, et parfois la vieillesse.</l>
+            <l part="F">La jeunesse est sotte, et parfois la vieillesse.</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
@@ -307,11 +306,11 @@
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="95" xml:id="l95">Mais…</l>
+            <l n="95" xml:id="l95" part="I">Mais…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Mais ses actions de moi doivent dépendre,</l>
+            <l part="F">Mais ses actions de moi doivent dépendre,</l>
             <l n="96" xml:id="l96">Et je sais l'intérêt enfin, que j'y dois prendre.</l>
           </sp>
           <sp who="ariste">
@@ -334,11 +333,11 @@
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="109" xml:id="l109">Il me semble…</l>
+            <l n="109" xml:id="l109" part="I">Il me semble…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Il me semble, et je le dis tout haut,</l>
+            <l part="F">Il me semble, et je le dis tout haut,</l>
             <l n="110" xml:id="l110">Que sur un tel sujet, c'est parler comme il faut.</l>
             <l n="111" xml:id="l111">Vous souffrez que la vôtre, aille leste et pimpante,</l>
             <l n="112" xml:id="l112">Je le veux bien : qu'elle ait, et laquais, et suivante,</l>
@@ -361,20 +360,20 @@
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l n="129" xml:id="l129">Vous n'avez pas sujet que je crois…</l>
+            <l n="129" xml:id="l129" part="I">Vous n'avez pas sujet que je crois…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Taisez-vous ;</l>
+            <l part="F">Taisez-vous ;</l>
             <l n="130" xml:id="l130">Je vous apprendrai bien, s'il faut sortir sans nous.</l>
           </sp>
           <sp who="leonor">
             <speaker>Léonor</speaker>
-            <l n="131" xml:id="l131">Quoi donc, Monsieur… ?</l>
+            <l n="131" xml:id="l131" part="I">Quoi donc, Monsieur… ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Mon Dieu, Madame, sans langage,</l>
+            <l part="F">Mon Dieu, Madame, sans langage,</l>
             <l n="132" xml:id="l132">Je ne vous parle pas, car vous êtes trop sage.</l>
           </sp>
           <sp who="leonor">
@@ -443,11 +442,11 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="179" xml:id="l179">Chansons que tout cela.</l>
+            <l n="179" xml:id="l179" part="I">Chansons que tout cela.</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l part="Y">Soit, mais je tiens sans cesse,</l>
+            <l part="F">Soit, mais je tiens sans cesse,</l>
             <l n="180" xml:id="l180">Qu'il nous faut en riant instruire la jeunesse,</l>
             <l n="181" xml:id="l181">Reprendre ses défauts avec grande douceur,</l>
             <l n="182" xml:id="l182">Et du nom de vertu ne lui point faire peur ;</l>
@@ -497,19 +496,19 @@
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="217" xml:id="l217">Et pourquoi la changer ?</l>
+            <l n="217" xml:id="l217" part="I">Et pourquoi la changer ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Pourquoi ?</l>
+            <l part="M">Pourquoi ?</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l part="Y">Oui ?</l>
+            <l part="M">Oui ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Je ne sais :</l>
+            <l part="F">Je ne sais :</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
@@ -522,62 +521,62 @@
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="221" xml:id="l221">Pourquoi non ?</l>
+            <l n="221" xml:id="l221" part="I">Pourquoi non ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Vos désirs lui seront complaisants.</l>
+            <l part="F">Vos désirs lui seront complaisants.</l>
             <l n="222" xml:id="l222">Jusqu'à lui laisser, et mouches, et rubans ?</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="223" xml:id="l223">Sans doute.</l>
+            <l n="223" xml:id="l223" part="I">Sans doute.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">À lui souffrir en cervelle troublée,</l>
+            <l part="F">À lui souffrir en cervelle troublée,</l>
             <l n="224" xml:id="l224">De courir tous les Bals, et les lieux d'assemblée ?</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="225" xml:id="l225">Oui vraiment.</l>
+            <l n="225" xml:id="l225" part="I">Oui vraiment.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Et chez vous iront les damoiseaux ?</l>
+            <l part="F">Et chez vous iront les damoiseaux ?</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="226" xml:id="l226">Et quoi donc ?</l>
+            <l n="226" xml:id="l226" part="I">Et quoi donc ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Qui joueront, et donneront cadeaux ?</l>
+            <l part="F">Qui joueront, et donneront cadeaux ?</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="227" xml:id="l227">D'accord ;</l>
+            <l n="227" xml:id="l227" part="I">D'accord ;</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Et votre femme entendra les fleurettes ?</l>
+            <l part="F">Et votre femme entendra les fleurettes ?</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="228" xml:id="l228">Fort bien,</l>
+            <l n="228" xml:id="l228" part="I">Fort bien,</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Et vous verrez ces visites muguettes,</l>
+            <l part="F">Et vous verrez ces visites muguettes,</l>
             <l n="229" xml:id="l229">D'un œil à témoigner de n'en être point soûl ?</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="230" xml:id="l230">Cela s'entend :</l>
+            <l n="230" xml:id="l230" part="I">Cela s'entend :</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Allez, vous êtes un vieux fou.</l>
+            <l part="F">Allez, vous êtes un vieux fou.</l>
             <stage>À Isabelle.</stage>
             <l n="231" xml:id="l231">Rentrez pour n'ouïr point cette pratique infâme.</l>
           </sp>
@@ -623,11 +622,11 @@
             <l n="248" xml:id="l248">Vous vous êtes, mon frère, attiré ces sottises,</l>
             <l n="249" xml:id="l249">Adieu, changez d'humeur, et soyez averti,</l>
             <l n="250" xml:id="l250">Que renfermer sa femme, est le mauvais parti,</l>
-            <l n="251" xml:id="l251">Je suis votre valet.</l>
+            <l n="251" xml:id="l251" part="I">Je suis votre valet.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Je ne suis pas le vôtre,</l>
+            <l part="F">Je ne suis pas le vôtre,</l>
             <l n="252" xml:id="l252">Ô que les voilà bien tous formés l'un pour l'autre !</l>
             <l n="253" xml:id="l253">Quelle belle famille ! un vieillard insensé,</l>
             <l n="254" xml:id="l254">Qui fait le dameret dans un corps tout cassé,</l>
@@ -664,50 +663,50 @@
             <l n="269" xml:id="l269">Au lieu de voir régner cette sévérité,</l>
             <l n="270" xml:id="l270">Qui composait si bien l'ancienne honnêteté ;</l>
             <l n="271" xml:id="l271">La jeunesse en ces lieux, libertine, absolue,</l>
-            <l n="272" xml:id="l272">Ne prend…</l>
+            <l n="272" xml:id="l272" part="I">Ne prend…</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Il ne voit pas que c'est lui qu'on salue.</l>
+            <l part="F">Il ne voit pas que c'est lui qu'on salue.</l>
           </sp>
           <sp who="ergaste">
             <speaker>Ergaste</speaker>
             <l n="273" xml:id="l273">Son mauvais œil, peut-être, est de ce côté-ci :</l>
-            <l n="274" xml:id="l274">Passons du côté droit.</l>
+            <l n="274" xml:id="l274" part="I">Passons du côté droit.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Il faut sortir d'ici.</l>
+            <l part="F">Il faut sortir d'ici.</l>
             <l n="275" xml:id="l275">Le séjour de la ville en moi ne peut produire</l>
-            <l n="276" xml:id="l276">Que des…</l>
+            <l n="276" xml:id="l276" part="I">Que des…</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Il faut chez lui tâcher de m'introduire.</l>
+            <l part="F">Il faut chez lui tâcher de m'introduire.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="277" xml:id="l277">Heu ? J'ai cru qu'on parlait.</l>
-            <l part="Y">Aux champs, grâces aux cieux ;</l>
+            <l n="277" xml:id="l277" part="I">Heu ? J'ai cru qu'on parlait.</l>
+            <l part="F">Aux champs, grâces aux cieux ;</l>
             <l n="278" xml:id="l278">Les sottises du temps ne blessent point mes yeux.</l>
           </sp>
           <sp who="ergaste">
             <speaker>Ergaste</speaker>
-            <l n="279" xml:id="l279">Abordez-le !</l>
+            <l n="279" xml:id="l279" part="I">Abordez-le !</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Plaît-il ? les oreilles me cornent</l>
+            <l part="F">Plaît-il ? les oreilles me cornent</l>
             <l n="280" xml:id="l280">Là, tous les passe-temps de nos filles se bornent…</l>
-            <l n="281" xml:id="l281">Est-ce à nous ?</l>
+            <l n="281" xml:id="l281" part="I">Est-ce à nous ?</l>
           </sp>
           <sp who="ergaste">
             <speaker>Ergaste</speaker>
-            <l part="Y">Approchez.</l>
+            <l part="M">Approchez.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Là, nul godelureau</l>
+            <l part="F">Là, nul godelureau</l>
             <l n="282" xml:id="l282">Ne vient… que diable… encor ? Que de coups de chapeau.</l>
           </sp>
           <sp who="valere">
@@ -716,66 +715,66 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="284" xml:id="l284">Cela se peut ?</l>
+            <l n="284" xml:id="l284" part="I">Cela se peut ?</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Mais quoi ? l'honneur de vous connaître</l>
+            <l part="F">Mais quoi ? l'honneur de vous connaître</l>
             <l n="285" xml:id="l285">Est un si grand bonheur, est un si doux plaisir,</l>
             <l n="286" xml:id="l286">Que de vous saluer, j'avais un grand désir,</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="287" xml:id="l287">Soit.</l>
+            <l n="287" xml:id="l287" part="I">Soit.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Et de vous venir ; mais sans nul artifice,</l>
+            <l part="F">Et de vous venir ; mais sans nul artifice,</l>
             <l n="288" xml:id="l288">Assurer que je suis tout à votre service.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="289" xml:id="l289">Je le crois.</l>
+            <l n="289" xml:id="l289" part="I">Je le crois.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">J'ai le bien d'être de vos voisins,</l>
+            <l part="F">J'ai le bien d'être de vos voisins,</l>
             <l n="290" xml:id="l290">Et j'en dois rendre grâce à mes heureux destins.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="291" xml:id="l291">C'est bien fait.</l>
+            <l n="291" xml:id="l291" part="I">C'est bien fait.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Mais Monsieur savez-vous les nouvelles</l>
+            <l part="F">Mais Monsieur savez-vous les nouvelles</l>
             <l n="292" xml:id="l292">Que l'on dit à la Cour, et qu'on tient pour fidèles ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="293" xml:id="l293">Que m'importe.</l>
+            <l n="293" xml:id="l293" part="I">Que m'importe.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Il est vrai ; mais pour les nouveautés,</l>
+            <l part="F">Il est vrai ; mais pour les nouveautés,</l>
             <l n="294" xml:id="l294">On peut avoir par fois des curiosités :</l>
             <l n="295" xml:id="l295">Vous irez voir, Monsieur, cette magnificence,</l>
             <l n="296" xml:id="l296">Que de notre Dauphin prépare la naissance ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="297" xml:id="l297">Si je veux.</l>
+            <l n="297" xml:id="l297" part="I">Si je veux.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Avouons que Paris nous fait part</l>
+            <l part="F">Avouons que Paris nous fait part</l>
             <l n="298" xml:id="l298">De cent plaisirs charmants qu'on n'a point autre part ;</l>
             <l n="299" xml:id="l299">Les Provinces auprès sont des lieux solitaires,</l>
-            <l n="300" xml:id="l300">À quoi donc passez-vous le temps ?</l>
+            <l n="300" xml:id="l300" part="I">À quoi donc passez-vous le temps ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">À mes affaires.</l>
+            <l part="F">À mes affaires.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
@@ -785,11 +784,11 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="304" xml:id="l304">Ce qui me plaît.</l>
+            <l n="304" xml:id="l304" part="I">Ce qui me plaît.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Sans doute on ne peut pas mieux dire :</l>
+            <l part="F">Sans doute on ne peut pas mieux dire :</l>
             <l n="305" xml:id="l305">Cette réponse est juste, et le bon sens paraît,</l>
             <l n="306" xml:id="l306">À ne vouloir jamais faire que ce qui plaît.</l>
             <l n="307" xml:id="l307">Si je ne vous croyais l'âme trop occupée,</l>
@@ -797,7 +796,7 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="309" xml:id="l309">Serviteur.</l>
+            <l n="309" xml:id="l309" part="I">Serviteur.</l>
           </sp>
         </div2>
         <div2 type="scene" n="4" xml:id="I04">
@@ -805,7 +804,7 @@
           <stage>Valère, Ergaste.</stage>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Que dis-tu de ce bizarre fou ?</l>
+            <l part="F">Que dis-tu de ce bizarre fou ?</l>
           </sp>
           <sp who="ergaste">
             <speaker>Ergaste</speaker>
@@ -813,15 +812,15 @@
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="311" xml:id="l311">Ah ! j'enrage,</l>
+            <l n="311" xml:id="l311" part="I">Ah ! j'enrage,</l>
           </sp>
           <sp who="ergaste">
             <speaker>Ergaste</speaker>
-            <l part="Y">Et de quoi ?</l>
+            <l part="M">Et de quoi ?</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">De quoi ? C'est que j'enrage</l>
+            <l part="F">De quoi ? C'est que j'enrage</l>
             <l n="312" xml:id="l312">De voir celle que j'aime au pouvoir d'un sauvage,</l>
             <l n="313" xml:id="l313">D'un dragon surveillant, dont la sévérité,</l>
             <l n="314" xml:id="l314">Ne lui laisse jouir d'aucune liberté.</l>
@@ -859,11 +858,11 @@
           <sp who="ergaste">
             <speaker>Ergaste</speaker>
             <l n="339" xml:id="l339">L'amour rend inventif ; mais vous ne l'êtes guère,</l>
-            <l n="340" xml:id="l340">Et si j'avais été…</l>
+            <l n="340" xml:id="l340" part="I">Et si j'avais été…</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Mais qu'aurais-tu pu faire ?</l>
+            <l part="F">Mais qu'aurais-tu pu faire ?</l>
             <l n="341" xml:id="l341">Puisque sans ce brutal on ne la voit jamais,</l>
             <l n="342" xml:id="l342">Et qu'il n'est là-dedans servantes ni valets,</l>
             <l n="343" xml:id="l343">Dont par l'appât flatteur de quelque récompense,</l>
@@ -892,11 +891,11 @@
             <speaker>Valère</speaker>
             <l n="355" xml:id="l355">Que faire pour sortir de cette peine extrême,</l>
             <l n="356" xml:id="l356">Et savoir si la belle a connu que je l'aime ?</l>
-            <l n="357" xml:id="l357">Dis m'en quelque moyen.</l>
+            <l n="357" xml:id="l357" part="I">Dis m'en quelque moyen.</l>
           </sp>
           <sp who="ergaste">
             <speaker>Ergaste</speaker>
-            <l part="Y">C'est ce qu'il faut trouver,</l>
+            <l part="F">C'est ce qu'il faut trouver,</l>
             <l n="358" xml:id="l358">Entrons un peu chez vous afin d'y mieux rêver.</l>
           </sp>
           <label rend="i">Fin du premier Acte.</label>
@@ -923,11 +922,11 @@
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l n="364" xml:id="l364">Oui ?</l>
+            <l n="364" xml:id="l364" part="I">Oui ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Va, sois en repos, rentre, et me laisse faire,</l>
+            <l part="F">Va, sois en repos, rentre, et me laisse faire,</l>
             <l n="365" xml:id="l365">Je vais parler sur l'heure, à ce jeune étourdi.</l>
           </sp>
           <sp who="isabelle">
@@ -952,27 +951,27 @@
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="376" xml:id="l376">Monsieur, j'ai du regret…</l>
+            <l n="376" xml:id="l376" part="I">Monsieur, j'ai du regret…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Ah ! c'est vous que je cherche.</l>
+            <l part="F">Ah ! c'est vous que je cherche.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="377" xml:id="l377">Moi, monsieur ?</l>
+            <l n="377" xml:id="l377" part="I">Moi, monsieur ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Vous Valère, est-il pas votre nom ?</l>
+            <l part="F">Vous Valère, est-il pas votre nom ?</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="378" xml:id="l378">Oui ?</l>
+            <l n="378" xml:id="l378" part="I">Oui ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Je viens vous parler, si vous le trouvez bon.</l>
+            <l part="F">Je viens vous parler, si vous le trouvez bon.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
@@ -985,36 +984,36 @@
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="382" xml:id="l382">Chez moi, Monsieur ?</l>
+            <l n="382" xml:id="l382" part="I">Chez moi, Monsieur ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Chez vous, faut-il, tant s'étonner !</l>
+            <l part="F">Chez vous, faut-il, tant s'étonner !</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
             <l n="383" xml:id="l383">J'en ai bien du sujet, et mon âme ravie</l>
-            <l n="384" xml:id="l384">De l'honneur…</l>
+            <l n="384" xml:id="l384" part="I">De l'honneur…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Laissons-là cet honneur, je vous prie.</l>
+            <l part="F">Laissons-là cet honneur, je vous prie.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="385" xml:id="l385">Voulez-vous pas entrer ?</l>
+            <l n="385" xml:id="l385" part="I">Voulez-vous pas entrer ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Il n'en est pas besoin.</l>
+            <l part="F">Il n'en est pas besoin.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="386" xml:id="l386">Monsieur, de grâce.</l>
+            <l n="386" xml:id="l386" part="I">Monsieur, de grâce.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Non, je n'irai pas plus loin.</l>
+            <l part="F">Non, je n'irai pas plus loin.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
@@ -1022,25 +1021,25 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="388" xml:id="l388">Moi je n'en veux bouger.</l>
+            <l n="388" xml:id="l388" part="I">Moi je n'en veux bouger.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Eh bien, il se faut rendre,</l>
+            <l part="F">Eh bien, il se faut rendre,</l>
             <l n="389" xml:id="l389">Vite, puisque Monsieur, à cela se résout ;</l>
-            <l n="390" xml:id="l390">Donnez un siège ici ;</l>
+            <l n="390" xml:id="l390" part="I">Donnez un siège ici ;</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Je veux parler debout.</l>
+            <l part="F">Je veux parler debout.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="391" xml:id="l391">Vous souffrir de la sorte ?</l>
+            <l n="391" xml:id="l391" part="I">Vous souffrir de la sorte ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Ah, contrainte effroyable,</l>
+            <l part="F">Ah, contrainte effroyable,</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
@@ -1053,17 +1052,17 @@
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="395" xml:id="l395">Je vous obéis, donc ;</l>
+            <l n="395" xml:id="l395" part="I">Je vous obéis, donc ;</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Vous ne sauriez mieux faire ;</l>
+            <l part="F">Vous ne sauriez mieux faire ;</l>
             <l n="396" xml:id="l396">Tant de cérémonie est fort peu nécessaire :</l>
-            <l n="397" xml:id="l397">Voulez-vous m'écouter.</l>
+            <l n="397" xml:id="l397" part="I">Voulez-vous m'écouter.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Sans doute, et de grand cœur ;</l>
+            <l part="F">Sans doute, et de grand cœur ;</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
@@ -1073,31 +1072,31 @@
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="401" xml:id="l401">Oui.</l>
+            <l n="401" xml:id="l401" part="I">Oui.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Si vous le savez, je ne vous l'apprends pas.</l>
+            <l part="F">Si vous le savez, je ne vous l'apprends pas.</l>
             <l n="402" xml:id="l402">Mais savez-vous aussi, lui trouvant des appas ;</l>
             <l n="403" xml:id="l403">Qu'autrement qu'en tuteur sa personne me touche,</l>
             <l n="404" xml:id="l404">Et qu'elle est destinée à l'honneur de ma couche.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="405" xml:id="l405">Non ;</l>
+            <l n="405" xml:id="l405" part="I">Non ;</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Je vous l'apprends donc, et qu'il est à propos,</l>
+            <l part="F">Je vous l'apprends donc, et qu'il est à propos,</l>
             <l n="406" xml:id="l406">Que vos feux, s'il vous plaît, la laissent en repos.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="407" xml:id="l407">Qui moi, Monsieur ?</l>
+            <l n="407" xml:id="l407" part="I">Qui moi, Monsieur ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Oui vous, mettons bas toute feinte.</l>
+            <l part="F">Oui vous, mettons bas toute feinte.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
@@ -1109,19 +1108,19 @@
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="410" xml:id="l410">Mais encor ?</l>
+            <l n="410" xml:id="l410" part="I">Mais encor ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Elle-même.</l>
+            <l part="M">Elle-même.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Elle ?</l>
+            <l part="M">Elle ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Elle, est-ce assez dit ;</l>
+            <l part="F">Elle, est-ce assez dit ;</l>
             <l n="411" xml:id="l411">Comme une fille honnête, et qui m'aime d'enfance,</l>
             <l n="412" xml:id="l412">Elle vient de m'en faire entière confidence ;</l>
             <l n="413" xml:id="l413">Et de plus m'a chargé de vous donner avis,</l>
@@ -1159,11 +1158,11 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle, <hi rend="i">à part</hi></speaker>
-            <l n="436" xml:id="l436">Le voilà bien surpris ;</l>
+            <l n="436" xml:id="l436" part="I">Le voilà bien surpris ;</l>
           </sp>
           <sp who="ergaste">
             <speaker>Ergaste</speaker>
-            <l part="Y">Selon ma conjecture,</l>
+            <l part="F">Selon ma conjecture,</l>
             <l n="437" xml:id="l437">Je tiens qu'elle n'a rien de déplaisant pour vous,</l>
             <l n="438" xml:id="l438">Qu'un mystère assez fin, est caché là-dessous,</l>
             <l n="439" xml:id="l439">Et qu'enfin cet avis n'est pas d'une personne,</l>
@@ -1171,11 +1170,11 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle, <hi rend="i">à part</hi></speaker>
-            <l n="441" xml:id="l441">Il en tient comme il faut.</l>
+            <l n="441" xml:id="l441" part="I">Il en tient comme il faut.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Tu crois mystérieux…</l>
+            <l part="F">Tu crois mystérieux…</l>
           </sp>
           <sp who="ergaste">
             <speaker>Ergaste</speaker>
@@ -1203,15 +1202,15 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="453" xml:id="l453">Me voilà de retour.</l>
+            <l n="453" xml:id="l453" part="I">Me voilà de retour.</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Eh bien ?</l>
+            <l part="M">Eh bien ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Un plein effet</l>
+            <l part="F">Un plein effet</l>
             <l n="454" xml:id="l454">A suivi tes discours, et ton homme a son fait ;</l>
             <l n="455" xml:id="l455">Il me voulait nier que son cœur fût malade ;</l>
             <l n="456" xml:id="l456">Mais lorsque de ta part j'ai marqué l'ambassade,</l>
@@ -1249,30 +1248,30 @@
             <l n="473" xml:id="l473">Il est de mon devoir de faire promptement</l>
             <l n="474" xml:id="l474">Reporter boîte et lettre, à ce maudit Amant,</l>
             <l n="475" xml:id="l475">Et j'aurais pour cela besoin d'une personne ;</l>
-            <l n="476" xml:id="l476">Car d'oser à vous-même…</l>
+            <l n="476" xml:id="l476" part="I">Car d'oser à vous-même…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Au contraire mignonne,</l>
+            <l part="F">Au contraire mignonne,</l>
             <l n="477" xml:id="l477">C'est me faire mieux voir ton amour et ta foi,</l>
             <l n="478" xml:id="l478">Et mon cœur avec joie accepte cet emploi,</l>
             <l n="479" xml:id="l479">Tu m'obliges par là plus que je ne puis dire.</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l n="480" xml:id="l480">Tenez donc.</l>
+            <l n="480" xml:id="l480" part="I">Tenez donc.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Bon, voyons ce qu'il a pu t'écrire.</l>
+            <l part="F">Bon, voyons ce qu'il a pu t'écrire.</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l n="481" xml:id="l481">Ah ! Ciel, gardez-vous bien de l'ouvrir.</l>
+            <l n="481" xml:id="l481" part="I">Ah ! Ciel, gardez-vous bien de l'ouvrir.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Et pourquoi.</l>
+            <l part="F">Et pourquoi.</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
@@ -1322,15 +1321,15 @@
             <l n="509" xml:id="l509">Je voudrais bien savoir en voyant tout ceci,</l>
             <l n="510" xml:id="l510">Si celle de mon frère en userait ainsi ;</l>
             <l n="511" xml:id="l511">Ma foi les filles sont ce que l'on les fait être.</l>
-            <l n="512" xml:id="l512">Ho là !</l>
+            <l n="512" xml:id="l512" part="I">Ho là !</l>
           </sp>
           <sp who="ergaste">
             <speaker>Ergaste</speaker>
-            <l part="Y">Qu'est-ce ?</l>
+            <l part="M">Qu'est-ce ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Tenez, dites à votre Maître</l>
+            <l part="F">Tenez, dites à votre Maître</l>
             <l n="513" xml:id="l513">Qu'il ne s'ingère pas d'oser écrire encor,</l>
             <l n="514" xml:id="l514">Des lettres qu'il envoie avec des boîtes d'or,</l>
             <l n="515" xml:id="l515">Et qu'Isabelle en est puissamment irritée,</l>
@@ -1416,42 +1415,42 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="557" xml:id="l557">Il est vrai, c'est folie.</l>
+            <l n="557" xml:id="l557" part="I">Il est vrai, c'est folie.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Aussi n'aurais-je pas</l>
+            <l part="F">Aussi n'aurais-je pas</l>
             <l n="558" xml:id="l558">Abandonné mon cœur à suivre ses appas,</l>
             <l n="559" xml:id="l559">Si j'avais pu savoir que ce cœur misérable,</l>
             <l n="560" xml:id="l560">Dût trouver un rival comme vous redoutable.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="561" xml:id="l561">Je le crois.</l>
+            <l n="561" xml:id="l561" part="I">Je le crois.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Je n'ai garde à présent d'espérer,</l>
+            <l part="F">Je n'ai garde à présent d'espérer,</l>
             <l n="562" xml:id="l562">Je vous cède, Monsieur, et c'est sans murmurer.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="563" xml:id="l563">Vous faites bien.</l>
+            <l n="563" xml:id="l563" part="I">Vous faites bien.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Le droit de la sorte l'ordonne,</l>
+            <l part="F">Le droit de la sorte l'ordonne,</l>
             <l n="564" xml:id="l564">Et de tant de vertus brille votre personne,</l>
             <l n="565" xml:id="l565">Que j'aurais tort de voir d'un regard de courroux,</l>
             <l n="566" xml:id="l566">Les tendres sentiments qu'Isabelle a pour vous.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="567" xml:id="l567">Cela s'entend.</l>
+            <l n="567" xml:id="l567" part="I">Cela s'entend.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Oui, oui, je vous quitte la place ;</l>
+            <l part="F">Oui, oui, je vous quitte la place ;</l>
             <l n="568" xml:id="l568">Mais je vous prie au moins, et c'est la seule grâce,</l>
             <l n="569" xml:id="l569">Monsieur, que vous demande un misérable Amant,</l>
             <l n="570" xml:id="l570">Dont vous seul aujourd'hui causez tout le tourment.</l>
@@ -1462,22 +1461,22 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="575" xml:id="l575">Oui.</l>
+            <l n="575" xml:id="l575" part="I">Oui.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Que ne dépendant que du choix de mon âme,</l>
+            <l part="F">Que ne dépendant que du choix de mon âme,</l>
             <l n="576" xml:id="l576">Tous mes desseins étaient de l'obtenir pour femme,</l>
             <l n="577" xml:id="l577">Si les destins en vous qui captivez son cœur,</l>
             <l n="578" xml:id="l578">N'opposaient un obstacle à cette juste ardeur.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="579" xml:id="l579">Fort bien.</l>
+            <l n="579" xml:id="l579" part="I">Fort bien.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Que quoi qu'on fasse il ne lui faut pas croire,</l>
+            <l part="F">Que quoi qu'on fasse il ne lui faut pas croire,</l>
             <l n="580" xml:id="l580">Que jamais ses appas sortent de ma mémoire,</l>
             <l n="581" xml:id="l581">Que quelque Arrêt des Cieux, qu'il me faille subir,</l>
             <l n="582" xml:id="l582">Mon sort est de l'aimer jusqu'au dernier soupir,</l>
@@ -1490,15 +1489,15 @@
             <l n="586" xml:id="l586">Lui faire ce discours, qui ne la choque pas ;</l>
             <l n="587" xml:id="l587">Mais si vous me croyez, tâchez de faire en sorte,</l>
             <l n="588" xml:id="l588">Que de votre cerveau cette passion sorte.</l>
-            <l n="589" xml:id="l589">Adieu,</l>
+            <l n="589" xml:id="l589" part="I">Adieu,</l>
           </sp>
           <sp who="ergaste">
             <speaker>Ergaste</speaker>
-            <l part="Y">La dupe est bonne.</l>
+            <l part="M">La dupe est bonne.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Il me fait grand' pitié,</l>
+            <l part="F">Il me fait grand' pitié,</l>
             <l n="590" xml:id="l590">Ce pauvre malheureux trop rempli d'amitié ;</l>
             <l n="591" xml:id="l591">Mais c'est un mal pour lui de s'être mis en tête</l>
             <l n="592" xml:id="l592">De vouloir prendre un fort qui se voit ma conquête.</l>
@@ -1535,11 +1534,11 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="613" xml:id="l613">Que dis-tu ?</l>
+            <l n="613" xml:id="l613" part="I">Que dis-tu ?</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Qu'il m'est dur que vous plaigniez si fort</l>
+            <l part="F">Qu'il m'est dur que vous plaigniez si fort</l>
             <l n="614" xml:id="l614">Un homme que je hais à l'égal de la mort,</l>
             <l n="615" xml:id="l615">Et que si vous m'aimiez autant que vous le dites,</l>
             <l n="616" xml:id="l616">Vous sentiriez l'affront que me font les poursuites.</l>
@@ -1548,11 +1547,11 @@
             <speaker>Sganarelle</speaker>
             <l n="617" xml:id="l617">Mais il ne savait pas tes inclinations,</l>
             <l n="618" xml:id="l618">Et par l'honnêteté de ses intentions</l>
-            <l n="619" xml:id="l619">Son amour ne mérite…</l>
+            <l n="619" xml:id="l619" part="I">Son amour ne mérite…</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Est-ce les avoir bonnes,</l>
+            <l part="F">Est-ce les avoir bonnes,</l>
             <l n="620" xml:id="l620">Dites-moi de vouloir enlever les personnes,</l>
             <l n="621" xml:id="l621">Est-ce être homme d'honneur de former des desseins</l>
             <l n="622" xml:id="l622">Pour m'épouser de force en m'ôtant de vos mains,</l>
@@ -1561,11 +1560,11 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="625" xml:id="l625">Comment.</l>
+            <l n="625" xml:id="l625" part="I">Comment.</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Oui, oui, j'ai su que ce traître d'Amant,</l>
+            <l part="F">Oui, oui, j'ai su que ce traître d'Amant,</l>
             <l n="626" xml:id="l626">Parle de m'obtenir par un enlèvement,</l>
             <l n="627" xml:id="l627">Et j'ignore pour moi les pratiques secrètes,</l>
             <l n="628" xml:id="l628">Qui l'ont instruit sitôt du dessein que vous faites,</l>
@@ -1576,11 +1575,11 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="633" xml:id="l633">Voilà qui ne vaut rien.</l>
+            <l n="633" xml:id="l633" part="I">Voilà qui ne vaut rien.</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Ô que pardonnez-moi,</l>
+            <l part="F">Ô que pardonnez-moi,</l>
             <l n="634" xml:id="l634">C'est un fort honnête homme, et qui ne sent pour moi…</l>
           </sp>
           <sp who="sganarelle">
@@ -1601,11 +1600,11 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="645" xml:id="l645">Il est fou.</l>
+            <l n="645" xml:id="l645" part="I">Il est fou.</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Devant vous il sait se déguiser,</l>
+            <l part="F">Devant vous il sait se déguiser,</l>
             <l n="646" xml:id="l646">Et son intention est de vous amuser,</l>
             <l n="647" xml:id="l647">Croyez par ces beaux mots que le traître vous joue,</l>
             <l n="648" xml:id="l648">Je suis bien malheureuse, il faut que je l'avoue.</l>
@@ -1616,11 +1615,11 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="653" xml:id="l653">Va ne redoute rien.</l>
+            <l n="653" xml:id="l653" part="I">Va ne redoute rien.</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Pour moi je vous le dis,</l>
+            <l part="F">Pour moi je vous le dis,</l>
             <l n="654" xml:id="l654">Si vous n'éclatez fort contre un trait si hardi,</l>
             <l n="655" xml:id="l655">Et ne trouvez bientôt moyen de me défaire,</l>
             <l n="656" xml:id="l656">Des persécutions d'un pareil téméraire,</l>
@@ -1645,11 +1644,11 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="669" xml:id="l669">Je dirai ce qu'il faut.</l>
+            <l n="669" xml:id="l669" part="I">Je dirai ce qu'il faut.</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Mais tout cela d'un ton</l>
+            <l part="F">Mais tout cela d'un ton</l>
             <l n="670" xml:id="l670">Qui marque que mon cœur lui parle tout de bon.</l>
           </sp>
           <sp who="sganarelle">
@@ -1680,19 +1679,19 @@
           <stage>Valère, Sganarelle, Ergaste.</stage>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="684" xml:id="l684">Monsieur, qui vous ramène en ce lieu ?</l>
+            <l n="684" xml:id="l684" part="I">Monsieur, qui vous ramène en ce lieu ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Vos sottises.</l>
+            <l part="F">Vos sottises.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="685" xml:id="l685">Comment ?</l>
+            <l n="685" xml:id="l685" part="I">Comment ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Vous savez bien de quoi je veux parler ;</l>
+            <l part="F">Vous savez bien de quoi je veux parler ;</l>
             <l n="686" xml:id="l686">Je vous croyais plus sage à ne vous rien celer,</l>
             <l n="687" xml:id="l687">Vous venez m'amuser de vos belles paroles,</l>
             <l n="688" xml:id="l688">Et conservez sous main des espérances folles,</l>
@@ -1804,20 +1803,20 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="757" xml:id="l757">Tu la seras dans peu.</l>
+            <l n="757" xml:id="l757" part="I">Tu la seras dans peu.</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Je sais qu'il est honteux</l>
+            <l part="F">Je sais qu'il est honteux</l>
             <l n="758" xml:id="l758">Aux filles d'expliquer si librement leurs vœux.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="759" xml:id="l759">Point point.</l>
+            <l n="759" xml:id="l759" part="I">Point point.</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Mais en l'état où sont mes destinées ;</l>
+            <l part="F">Mais en l'état où sont mes destinées ;</l>
             <l n="760" xml:id="l760">De telles libertés doivent m'être données ;</l>
             <l n="761" xml:id="l761">Et je puis sans rougir faire un aveu si doux,</l>
             <l n="762" xml:id="l762">À celui que déjà je regarde en Époux.</l>
@@ -1832,11 +1831,11 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="765" xml:id="l765">Oui, tiens baise ma main.</l>
+            <l n="765" xml:id="l765" part="I">Oui, tiens baise ma main.</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Que sans plus de soupirs,</l>
+            <l part="F">Que sans plus de soupirs,</l>
             <l n="766" xml:id="l766">Il conclue un hymen qui fait tous mes désirs,</l>
             <l n="767" xml:id="l767">Et reçoive en ce lieu, la foi que je lui donne,</l>
             <l n="768" xml:id="l768">De n'écouter jamais les vœux d'autre personne.</l>
@@ -1845,8 +1844,8 @@
             <speaker>Sganarelle</speaker>
             <l n="769" xml:id="l769">Hé, hé, mon petit nez, pauvre petit bouchon,</l>
             <l n="770" xml:id="l770">Tu ne languiras pas longtemps, je t'en réponds,</l>
-            <l n="771" xml:id="l771">Va chut.</l>
-            <l part="Y">Vous le voyez je ne lui fais pas dire,</l>
+            <l n="771" xml:id="l771" part="I">Va chut.</l>
+            <l part="F">Vous le voyez je ne lui fais pas dire,</l>
             <l n="772" xml:id="l772">Ce n'est qu'après moi seul que son âme respire.</l>
           </sp>
           <sp who="valere">
@@ -1864,16 +1863,16 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="780" xml:id="l780">Eh, eh !</l>
+            <l n="780" xml:id="l780" part="I">Eh, eh !</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Vous offensé-je, en parlant de la sorte ;</l>
-            <l n="781" xml:id="l781">Fais-je…</l>
+            <l part="F">Vous offensé-je, en parlant de la sorte ;</l>
+            <l n="781" xml:id="l781" part="I">Fais-je…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Mon Dieu, nenni, je ne dis pas cela ;</l>
+            <l part="F">Mon Dieu, nenni, je ne dis pas cela ;</l>
             <l n="782" xml:id="l782">Mais je plains sans mentir l'état où le voilà,</l>
             <l n="783" xml:id="l783">Et c'est trop hautement que ta haine se montre.</l>
           </sp>
@@ -1888,23 +1887,23 @@
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l n="787" xml:id="l787">À la bonne heure ; Adieu.</l>
+            <l n="787" xml:id="l787" part="I">À la bonne heure ; Adieu.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Je plains votre infortune :</l>
-            <l n="788" xml:id="l788">Mais…</l>
+            <l part="F">Je plains votre infortune :</l>
+            <l n="788" xml:id="l788" part="I">Mais…</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Non vous n'entendrez de mon cœur plainte aucune,</l>
+            <l part="F">Non vous n'entendrez de mon cœur plainte aucune,</l>
             <l n="789" xml:id="l789">Madame, assurément rend justice à tous deux ;</l>
             <l n="790" xml:id="l790">Et je vais travailler à contenter ses vœux !</l>
-            <l n="791" xml:id="l791">Adieu.</l>
+            <l n="791" xml:id="l791" part="I">Adieu.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Pauvre garçon, sa douleur est extrême ;</l>
+            <l part="F">Pauvre garçon, sa douleur est extrême ;</l>
             <l n="792" xml:id="l792">Tenez embrassez-moi, c'est un autre elle-même.</l>
           </sp>
         </div2>
@@ -1913,11 +1912,11 @@
           <stage>Isabelle, Sganarelle.</stage>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="793" xml:id="l793">Je le tiens fort à plaindre ;</l>
+            <l n="793" xml:id="l793" part="I">Je le tiens fort à plaindre ;</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Allez il ne l'est point ;</l>
+            <l part="F">Allez il ne l'est point ;</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
@@ -1928,21 +1927,21 @@
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l n="798" xml:id="l798">Dès demain ?</l>
+            <l n="798" xml:id="l798" part="I">Dès demain ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Par pudeur tu feins d'y reculer,</l>
+            <l part="F">Par pudeur tu feins d'y reculer,</l>
             <l n="799" xml:id="l799">Mais, je sais bien la joie où ce discours te jette,</l>
             <l n="800" xml:id="l800">Et tu voudrais déjà que la chose fût faite.</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l n="801" xml:id="l801">Mais…</l>
+            <l n="801" xml:id="l801" part="I">Mais…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Pour ce mariage allons tout préparer.</l>
+            <l part="F">Pour ce mariage allons tout préparer.</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
@@ -1974,11 +1973,11 @@
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l n="810" xml:id="l810">Ô ciel !</l>
+            <l n="810" xml:id="l810" part="I">Ô ciel !</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">C'est toi mignonne, où vas-tu donc si tard ?</l>
+            <l part="F">C'est toi mignonne, où vas-tu donc si tard ?</l>
             <l n="811" xml:id="l811">Tu disais qu'en ta chambre étant un peu lassée,</l>
             <l n="812" xml:id="l812">Tu t'allais renfermer lorsque je t'ai laissée ;</l>
             <l n="813" xml:id="l813">Et tu m'avais prié même que mon retour,</l>
@@ -1986,44 +1985,44 @@
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l n="815" xml:id="l815">Il est vrai, mais…</l>
+            <l n="815" xml:id="l815" part="I">Il est vrai, mais…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Et quoi ?</l>
+            <l part="M">Et quoi ?</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Vous me voyez confuse,</l>
+            <l part="F">Vous me voyez confuse,</l>
             <l n="816" xml:id="l816">Et je ne sais comment vous en dire l'excuse ;</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="817" xml:id="l817">Quoi donc, que pourrait-ce être ?</l>
+            <l n="817" xml:id="l817" part="I">Quoi donc, que pourrait-ce être ?</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Un secret surprenant ;</l>
+            <l part="F">Un secret surprenant ;</l>
             <l n="818" xml:id="l818">C'est ma sœur qui m'oblige à sortir maintenant ;</l>
             <l n="819" xml:id="l819">Et qui pour un dessein dont je l'ai fort blâmée,</l>
             <l n="820" xml:id="l820">M'a demandé ma chambre où je l'ai renfermée.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="821" xml:id="l821">Comment ?</l>
+            <l n="821" xml:id="l821" part="I">Comment ?</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">L'eût-on pu croire, elle aime cet amant</l>
-            <l n="822" xml:id="l822">Que nous avons banni.</l>
+            <l part="F">L'eût-on pu croire, elle aime cet amant</l>
+            <l n="822" xml:id="l822" part="I">Que nous avons banni.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Valère !</l>
+            <l part="M">Valère !</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Éperdument :</l>
+            <l part="F">Éperdument :</l>
             <l n="823" xml:id="l823">C'est un transport si grand, qu'il n'en est point de même,</l>
             <l n="824" xml:id="l824">Et vous pouvez juger de sa puissance extrême,</l>
             <l n="825" xml:id="l825">Puisque seule à cette heure, elle est venue ici,</l>
@@ -2037,11 +2036,11 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="833" xml:id="l833">La vilaine.</l>
+            <l n="833" xml:id="l833" part="I">La vilaine.</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Qu'ayant appris le désespoir,</l>
+            <l part="F">Qu'ayant appris le désespoir,</l>
             <l n="834" xml:id="l834">Où j'ai précipité celui qu'elle aime à voir ;</l>
             <l n="835" xml:id="l835">Elle vient me prier de souffrir que sa flamme,</l>
             <l n="836" xml:id="l836">Puisse rompre un départ qui lui percerait l'âme ;</l>
@@ -2054,11 +2053,11 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="843" xml:id="l843">Et tu trouves cela… </l>
+            <l n="843" xml:id="l843" part="I">Et tu trouves cela… </l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Moi j'en suis courroucée ;</l>
+            <l part="F">Moi j'en suis courroucée ;</l>
             <l n="844" xml:id="l844">Quoi ma sœur, ai-je dit, êtes vous insensée,</l>
             <l n="845" xml:id="l845">Ne rougissez-vous point d'avoir pris tant d'amour,</l>
             <l n="846" xml:id="l846">Pour ces sortes de gens qui changent chaque jour,</l>
@@ -2105,11 +2104,11 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="875" xml:id="l875">Eh bien fais !</l>
+            <l n="875" xml:id="l875" part="I">Eh bien fais !</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Mais surtout, cachez-vous je vous prie,</l>
+            <l part="F">Mais surtout, cachez-vous je vous prie,</l>
             <l n="876" xml:id="l876">Et sans lui dire rien daignez voir sa sortie.</l>
           </sp>
           <sp who="sganarelle">
@@ -2166,11 +2165,11 @@
           <sp who="valere">
             <speaker>Valère</speaker>
             <l n="897" xml:id="l897">Oui, oui, je veux tenter quelque effort cette nuit,</l>
-            <l n="898" xml:id="l898">Pour parler… Qui va-là ?</l>
+            <l n="898" xml:id="l898" part="I">Pour parler… Qui va-là ?</l>
           </sp>
           <sp who="isabelle">
             <speaker>Isabelle</speaker>
-            <l part="Y">Ne faites point de bruit,</l>
+            <l part="F">Ne faites point de bruit,</l>
             <l n="899" xml:id="l899">Valère, on vous prévient, et je suis Isabelle.</l>
           </sp>
           <sp who="sganarelle">
@@ -2191,11 +2190,11 @@
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="907" xml:id="l907">Pauvre sot qui s'abuse !</l>
+            <l n="907" xml:id="l907" part="I">Pauvre sot qui s'abuse !</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Entrez en assurance !</l>
+            <l part="F">Entrez en assurance !</l>
             <l n="908" xml:id="l908">De votre argus dupé, je brave la puissance,</l>
             <l n="909" xml:id="l909">Et devant qu'il vous pût ôter à mon ardeur,</l>
             <l n="910" xml:id="l910">Mon bras de mille coups lui percerait le cœur.</l>
@@ -2210,7 +2209,7 @@
             <l n="916" xml:id="l916">La mémoire du Père, à bon droit respectée ;</l>
             <l n="917" xml:id="l917">Jointe au grand intérêt que je prends à la sœur,</l>
             <l n="918" xml:id="l918">Veut que du moins on tâche à lui rendre l'honneur ;</l>
-            <l n="919" xml:id="l919">Holà.</l>
+            <l n="919" xml:id="l919" part="I">Holà.</l>
           </sp>
         </div2>
         <div2 type="scene" n="4" xml:id="III04">
@@ -2218,51 +2217,51 @@
           <stage>Sganarelle, Le Commissaire, Notaire, <hi rend="i">et Suite</hi>.</stage>
           <sp who="commissaire">
             <speaker>Le Commissaire</speaker>
-            <l part="Y">Qu'est-ce ?</l>
+            <l part="M">Qu'est-ce ?</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Salut : Monsieur le Commissaire,</l>
+            <l part="F">Salut : Monsieur le Commissaire,</l>
             <l n="920" xml:id="l920">Votre présence en robe est ici nécessaire ;</l>
             <l n="921" xml:id="l921">Suivez-moi, s'il vous plaît, avec votre clarté.</l>
           </sp>
           <sp who="commissaire">
             <speaker>Le Commissaire</speaker>
-            <l n="922" xml:id="l922">Nous sortions…</l>
+            <l n="922" xml:id="l922" part="I">Nous sortions…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Il s'agit d'un fait assez hâté.</l>
+            <l part="F">Il s'agit d'un fait assez hâté.</l>
           </sp>
           <sp who="commissaire">
             <speaker>Le Commissaire</speaker>
-            <l n="923" xml:id="l923">Quoi !</l>
+            <l n="923" xml:id="l923" part="I">Quoi !</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">D'aller là-dedans, et d'y surprendre ensemble,</l>
+            <l part="F">D'aller là-dedans, et d'y surprendre ensemble,</l>
             <l n="924" xml:id="l924">Deux personnes qu'il faut qu'un bon hymen assemble,</l>
             <l n="925" xml:id="l925">C'est une fille à nous que sous un don de foi,</l>
             <l n="926" xml:id="l926">Un Valère a séduite, et fait entrer chez soi ;</l>
             <l n="927" xml:id="l927">Elle sort de famille, et noble, et vertueuse,</l>
-            <l n="928" xml:id="l928">Mais…</l>
+            <l n="928" xml:id="l928" part="I">Mais…</l>
           </sp>
           <sp who="commissaire">
             <speaker>Le Commissaire</speaker>
-            <l part="Y">Si c'est pour cela la rencontre est heureuse,</l>
-            <l n="929" xml:id="l929">Puisqu'ici nous avons un Notaire !</l>
+            <l part="F">Si c'est pour cela la rencontre est heureuse,</l>
+            <l n="929" xml:id="l929" part="I">Puisqu'ici nous avons un Notaire !</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Monsieur ?</l>
+            <l part="F">Monsieur ?</l>
           </sp>
           <sp who="notaire">
             <speaker>Le notaire</speaker>
-            <l n="930" xml:id="l930">Oui, Notaire Royal ;</l>
+            <l n="930" xml:id="l930" part="I">Oui, Notaire Royal ;</l>
           </sp>
           <sp who="commissaire">
             <speaker>Le Commissaire</speaker>
-            <l part="Y">De plus homme d'honneur !</l>
+            <l part="F">De plus homme d'honneur !</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
@@ -2281,7 +2280,7 @@
             <l n="937" xml:id="l937">Je vais faire venir mon frère promptement,</l>
             <l n="938" xml:id="l938">Faites que le flambeau m'éclaire seulement ;</l>
             <l n="939" xml:id="l939">Je vais le réjouir cet homme sans colère,</l>
-            <l n="940" xml:id="l940">Holà.</l>
+            <l n="940" xml:id="l940" part="I">Holà.</l>
           </sp>
         </div2>
         <div2 type="scene" n="5" xml:id="III05">
@@ -2289,7 +2288,7 @@
           <stage>Ariste, Sganarelle.</stage>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l part="Y">Qui frappe ! ah, ah, que voulez-vous mon frère ;</l>
+            <l part="F">Qui frappe ! ah, ah, que voulez-vous mon frère ;</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
@@ -2298,37 +2297,37 @@
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="943" xml:id="l943">Comment !</l>
+            <l n="943" xml:id="l943" part="I">Comment !</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Je vous apporte une bonne nouvelle,</l>
+            <l part="F">Je vous apporte une bonne nouvelle,</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="944" xml:id="l944">Quoi !</l>
+            <l n="944" xml:id="l944" part="I">Quoi !</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Votre Léonor où, je vous prie, est-elle.</l>
+            <l part="F">Votre Léonor où, je vous prie, est-elle.</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
             <l n="945" xml:id="l945">Pourquoi cette demande, elle est comme je crois,</l>
-            <l n="946" xml:id="l946">Au Bal chez son amie.</l>
+            <l n="946" xml:id="l946" part="I">Au Bal chez son amie.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Eh, oui, oui, suivez-moi,</l>
+            <l part="F">Eh, oui, oui, suivez-moi,</l>
             <l n="947" xml:id="l947">Vous verrez à quel Bal, la donzelle est allée ;</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="948" xml:id="l948">Que voulez-vous conter.</l>
+            <l n="948" xml:id="l948" part="I">Que voulez-vous conter.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Vous l'avez bien stylée ;</l>
+            <l part="F">Vous l'avez bien stylée ;</l>
             <l n="949" xml:id="l949">Il n'est pas bon de vivre en sévère censeur,</l>
             <l n="950" xml:id="l950">On gagne les esprits par beaucoup de douceur ;</l>
             <l n="951" xml:id="l951">Et les soins défiants, les verrous, et les grilles,</l>
@@ -2362,15 +2361,15 @@
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="967" xml:id="l967">Qui !</l>
+            <l n="967" xml:id="l967" part="I">Qui !</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Léonor.</l>
+            <l part="M">Léonor.</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l part="Y">Cessons de railler, je vous prie.</l>
+            <l part="F">Cessons de railler, je vous prie.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
@@ -2388,11 +2387,11 @@
             <speaker>Sganarelle</speaker>
             <l n="974" xml:id="l974">Il ne le croira pas encor en l'ayant vu :</l>
             <l n="975" xml:id="l975">J'enrage, par ma foi, l'âge ne sert de guère</l>
-            <l n="976" xml:id="l976">Quand on n'a pas cela.</l>
+            <l n="976" xml:id="l976" part="I">Quand on n'a pas cela.</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l part="Y">Quoi vous voulez mon frère…</l>
+            <l part="F">Quoi vous voulez mon frère…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
@@ -2425,11 +2424,11 @@
             <speaker>Ariste</speaker>
             <l n="995" xml:id="l995">Moi je n'aurai jamais cette faiblesse extrême,</l>
             <l n="996" xml:id="l996">De vouloir posséder un cœur malgré lui-même ;</l>
-            <l n="997" xml:id="l997">Mais je ne saurais croire enfin…</l>
+            <l n="997" xml:id="l997" part="I">Mais je ne saurais croire enfin…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Que de discours,</l>
+            <l part="F">Que de discours,</l>
             <l n="998" xml:id="l998">Allons : ce procès-là continuerait toujours.</l>
           </sp>
         </div2>
@@ -2447,11 +2446,11 @@
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="1005" xml:id="l1005">La fille…</l>
+            <l n="1005" xml:id="l1005" part="I">La fille…</l>
           </sp>
           <sp who="commissaire">
             <speaker>Le Commissaire</speaker>
-            <l part="Y">Est renfermée et ne veut point sortir,</l>
+            <l part="F">Est renfermée et ne veut point sortir,</l>
             <l n="1006" xml:id="l1006">Que vos désirs aux leurs ne veuillent consentir.</l>
           </sp>
         </div2>
@@ -2473,47 +2472,47 @@
             <speaker>Sganarelle</speaker>
             <l n="1015" xml:id="l1015">Non nous ne songeons pas à vous séparer d'elle,</l>
             <l n="1016" xml:id="l1016">Il ne s'est point encore détrompé d'Isabelle,</l>
-            <l n="1017" xml:id="l1017">Profitons de l'erreur.</l>
+            <l n="1017" xml:id="l1017" part="I">Profitons de l'erreur.</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l part="Y">Mais, est-ce Léonor…</l>
+            <l part="F">Mais, est-ce Léonor…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="1018" xml:id="l1018">Taisez-vous.</l>
+            <l n="1018" xml:id="l1018" part="I">Taisez-vous.</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l part="Y">Mais…</l>
+            <l part="M">Mais…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Paix donc ?</l>
+            <l part="M">Paix donc ?</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l part="Y">Je veux savoir…</l>
+            <l part="M">Je veux savoir…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Encor ?</l>
-            <l n="1019" xml:id="l1019">Vous tairez-vous vous dis-je.</l>
+            <l part="F">Encor ?</l>
+            <l n="1019" xml:id="l1019" part="I">Vous tairez-vous vous dis-je.</l>
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l part="Y">Enfin quoi qu'il advienne,</l>
+            <l part="F">Enfin quoi qu'il advienne,</l>
             <l n="1020" xml:id="l1020">Isabelle à ma foi, j'ai de même la sienne,</l>
             <l n="1021" xml:id="l1021">Et ne suis point un choix à tout examiner,</l>
             <l n="1022" xml:id="l1022">Que vous soyez reçus à faire condamner.</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="1023" xml:id="l1023">Ce qu'il dit là n'est pas…</l>
+            <l n="1023" xml:id="l1023" part="I">Ce qu'il dit là n'est pas…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Taisez-vous, et pour cause,</l>
+            <l part="F">Taisez-vous, et pour cause,</l>
             <l n="1024" xml:id="l1024">Vous saurez le secret, oui, sans dire autre chose,</l>
             <l n="1025" xml:id="l1025">Nous consentons tous deux que vous soyez l'époux</l>
             <l n="1026" xml:id="l1026">De celle qu'à présent on trouvera chez vous.</l>
@@ -2526,17 +2525,17 @@
           </sp>
           <sp who="valere">
             <speaker>Valère</speaker>
-            <l n="1030" xml:id="l1030">J'y consens de la sorte.</l>
+            <l n="1030" xml:id="l1030" part="I">J'y consens de la sorte.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Et moi je le veux fort,</l>
+            <l part="F">Et moi je le veux fort,</l>
             <l n="1031" xml:id="l1031">Nous rirons bien tantôt, là, signez donc, mon frère,</l>
-            <l n="1032" xml:id="l1032">L'honneur vous appartient.</l>
+            <l n="1032" xml:id="l1032" part="I">L'honneur vous appartient.</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l part="Y">Mais quoi tout ce mystère…</l>
+            <l part="F">Mais quoi tout ce mystère…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
@@ -2553,28 +2552,28 @@
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="1037" xml:id="l1037">Sans doute.</l>
+            <l n="1037" xml:id="l1037" part="I">Sans doute.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Signez donc, j'en fais de même aussi.</l>
+            <l part="F">Signez donc, j'en fais de même aussi.</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l n="1038" xml:id="l1038">Soit, je n'y comprends rien.</l>
+            <l n="1038" xml:id="l1038" part="I">Soit, je n'y comprends rien.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Vous serez éclairci.</l>
+            <l part="F">Vous serez éclairci.</l>
           </sp>
           <sp who="commissaire">
             <speaker>Le Commissaire</speaker>
-            <l n="1039" xml:id="l1039">Nous allons revenir.</l>
+            <l n="1039" xml:id="l1039" part="I">Nous allons revenir.</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Or ça, je vais vous dire</l>
-            <l n="1040" xml:id="l1040">La fin de cette intrigue.</l>
+            <l part="F">Or ça, je vais vous dire</l>
+            <l n="1040" xml:id="l1040" part="I">La fin de cette intrigue.</l>
           </sp>
         </div2>
         <div2 type="scene" n="8" xml:id="III08">
@@ -2582,7 +2581,7 @@
           <stage>Léonor, Lisette, Sganarelle, Ariste.</stage>
           <sp who="leonor">
             <speaker>Léonor</speaker>
-            <l part="Y">Ô l'étrange martyre,</l>
+            <l part="F">Ô l'étrange martyre,</l>
             <l n="1041" xml:id="l1041">Que tous ces jeunes fous me paraissent fâcheux,</l>
             <l n="1042" xml:id="l1042">Je me suis dérobée au Bal pour l'amour d'eux.</l>
           </sp>
@@ -2601,11 +2600,11 @@
             <l n="1050" xml:id="l1050">Vous railler sottement sur l'amour d'un vieillard ;</l>
             <l n="1051" xml:id="l1051">Et moi d'un tel vieillard je prise plus le zèle,</l>
             <l n="1052" xml:id="l1052">Que tous les beaux transports d'une jeune cervelle :</l>
-            <l n="1053" xml:id="l1053">Mais n'aperçois-je pas…</l>
+            <l n="1053" xml:id="l1053" part="I">Mais n'aperçois-je pas…</l>
           </sp>
           <sp who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l part="Y">Oui l'affaire est ainsi :</l>
+            <l part="F">Oui l'affaire est ainsi :</l>
             <l n="1054" xml:id="l1054">Ah ! je la vois paraître, et la servante aussi.</l>
           </sp>
           <sp who="ariste">
@@ -2706,11 +2705,11 @@
           </sp>
           <sp who="ergaste">
             <speaker>Ergaste</speaker>
-            <l n="1111" xml:id="l1111">Bon.</l>
+            <l n="1111" xml:id="l1111" part="I">Bon.</l>
           </sp>
           <sp who="ariste">
             <speaker>Ariste</speaker>
-            <l part="Y">Allons tous chez moi. Venez Seigneur Valère.</l>
+            <l part="F">Allons tous chez moi. Venez Seigneur Valère.</l>
             <l n="1112" xml:id="l1112">Nous tâcherons demain d'apaiser sa colère.</l>
           </sp>
           <sp who="lisette">
