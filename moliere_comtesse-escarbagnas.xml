@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_comtesse-escarbagnas" xml:lang="fr">
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -56,18 +57,18 @@
           <titlePart type="sub">COMÉDIE</titlePart>
         </docTitle>
         <docAuthor>PAR J. B. DE MOLIERE</docAuthor>
-        <docImprint>Représentée pour le Roi à Saint-Germain-<lb/>en-Laye, au mois de Février 1672<lb/> <hi rend="i">Et donnée au Public, sur le Théâtre de la <lb/> Salle du Palais-Royal, pour la première<lb/> fois le huitième Juillet 1672<lb/></hi> Par la Troupe du Roi
-        </docImprint>
+        <docImprint>Représentée pour le Roi à Saint-Germain-<lb/>en-Laye, au mois de Février 1672<lb/>
+          <hi rend="i">Et donnée au Public, sur le Théâtre de la <lb/> Salle du Palais-Royal, pour la première<lb/> fois le huitième Juillet 1672<lb/></hi> Par la Troupe du Roi </docImprint>
       </titlePage>
       <div xml:id="castList">
+        <head>ACTEURS</head>
         <castList>
-          <head>ACTEURS</head>
           <castItem><role xml:id="la-comtesse" rend="female">LA COMTESSE d'Escarbagnas.</role></castItem>
           <castItem><role xml:id="le-comte" rend="male junior">LE COMTE</role>, Son fils.</castItem>
           <castItem><role xml:id="le-vicomte" rend="male">LE VICOMTE</role>, Amant de Julie.</castItem>
-          <castItem><role xml:id="julie"  rend="female">JULIE</role>, Amante du Vicomte.</castItem>
+          <castItem><role xml:id="julie" rend="female">JULIE</role>, Amante du Vicomte.</castItem>
           <castItem><role xml:id="monsieur-tibaudier" rend="male">MONSIEUR TIBAUDIER</role>, Conseiller, Amant de la Comtesse.</castItem>
-          <castItem><role xml:id="monsieur-harpin"  rend="male">MONSIEUR HARPIN</role>, Receveur des Tailles, autre Amant de la Comtesse.</castItem>
+          <castItem><role xml:id="monsieur-harpin" rend="male">MONSIEUR HARPIN</role>, Receveur des Tailles, autre Amant de la Comtesse.</castItem>
           <castItem><role xml:id="monsieur-bobinet" rend="male inferior">MONSIEUR BOBINET</role>, Précepteur de Monsieur le Comte.</castItem>
           <castItem><role xml:id="andree" rend="female inferior">ANDRÉE</role>, Suivante de la Comtesse.</castItem>
           <castItem><role xml:id="jeannot" rend="male inferior">JEANNOT</role>, Laquais de Monsieur Tibaudier.</castItem>
@@ -92,26 +93,7 @@
           </sp>
           <sp who="le-vicomte" xml:id="I01-3">
             <speaker>Le Vicomte</speaker>
-            <p>Je serais ici il y a une heure, s’il n’y avait point de fâcheux au monde, et j’ai été
-              arrêté en chemin par un vieux importun de qualité, qui m’a demandé tout exprès des
-              nouvelles de la Cour, pour trouver moyen de m’en dire des plus extravagantes qu’on
-              puisse débiter, et c’est là, comme vous savez, le fléau des petites Villes, que ces
-              grands Nouvellistes qui cherchent partout où répandre les contes qu’ils ramassent.
-              Celui-ci m’a montré d’abord deux feuilles de papier, pleines jusques aux bords d’un
-              grand fatras de balivernes, qui viennent, m’a-t-il dit, de l’endroit le plus sûr du
-              monde. Ensuite, comme d’une chose fort curieuse, il m’a fait, avec grand mystère, une
-              fatigante lecture de toutes les méchantes plaisanteries de la <hi rend="i">Gazette de
-                Hollande</hi>, dont il épouse les intérêts. Il tient que la France est battue en
-              ruine par la plume de cet Écrivain, et qu’il ne faut que ce bel esprit pour défaire
-              toutes nos Troupes; et de là s’est jeté à corps perdu dans la raisonnement du
-              Ministère, dont il remarque tous les défauts, et d’où j’ai cru qu’il ne sortirait
-              point. À l’entendre parler, il sait les secrets du Cabinet mieux que ceux qui les
-              font. La politique de l’État lui laisse voir tous ses desseins, et elle ne fait pas un
-              pas, dont il ne pénètre les intentions. Il nous apprend les ressorts cachés de tout ce
-              qui se fait, nous découvre les vues de la prudence de nos voisins, et remue à sa
-              fantaisie toutes les affaires de l’Europe. Ses intelligences même s’étendent jusques
-              en Afrique, et en Asie; et il est informé de tout ce qui s’agite dans le Conseil d’en
-              haut, du Prêtre-Jean, et du grand Mogol.</p>
+            <p>Je serais ici il y a une heure, s’il n’y avait point de fâcheux au monde, et j’ai été arrêté en chemin par un vieux importun de qualité, qui m’a demandé tout exprès des nouvelles de la Cour, pour trouver moyen de m’en dire des plus extravagantes qu’on puisse débiter, et c’est là, comme vous savez, le fléau des petites Villes, que ces grands Nouvellistes qui cherchent partout où répandre les contes qu’ils ramassent. Celui-ci m’a montré d’abord deux feuilles de papier, pleines jusques aux bords d’un grand fatras de balivernes, qui viennent, m’a-t-il dit, de l’endroit le plus sûr du monde. Ensuite, comme d’une chose fort curieuse, il m’a fait, avec grand mystère, une fatigante lecture de toutes les méchantes plaisanteries de la <hi rend="i">Gazette de Hollande</hi>, dont il épouse les intérêts. Il tient que la France est battue en ruine par la plume de cet Écrivain, et qu’il ne faut que ce bel esprit pour défaire toutes nos Troupes; et de là s’est jeté à corps perdu dans la raisonnement du Ministère, dont il remarque tous les défauts, et d’où j’ai cru qu’il ne sortirait point. À l’entendre parler, il sait les secrets du Cabinet mieux que ceux qui les font. La politique de l’État lui laisse voir tous ses desseins, et elle ne fait pas un pas, dont il ne pénètre les intentions. Il nous apprend les ressorts cachés de tout ce qui se fait, nous découvre les vues de la prudence de nos voisins, et remue à sa fantaisie toutes les affaires de l’Europe. Ses intelligences même s’étendent jusques en Afrique, et en Asie; et il est informé de tout ce qui s’agite dans le Conseil d’en haut, du Prêtre-Jean, et du grand Mogol.</p>
           </sp>
           <sp who="julie" xml:id="I01-4">
             <speaker>Julie</speaker>
@@ -147,26 +129,26 @@
             <l rend="i">C'est trop longtemps, Iris, me mettre à la torture.</l>
             <p>Iris, comme vous le voyez, est mis là pour Julie.</p>
             <lg rend="i">
-            <l>C'est trop longtemps, Iris, me mettre à la torture,</l>
-            <l>Et si je suis vos lois, je les blâme tout bas,</l>
-            <l>De me forcer à taire un tourment que j’endure</l>
-            <l>Pour déclarer un mal que je ne ressens pas.</l>
+              <l>C'est trop longtemps, Iris, me mettre à la torture,</l>
+              <l>Et si je suis vos lois, je les blâme tout bas,</l>
+              <l>De me forcer à taire un tourment que j’endure</l>
+              <l>Pour déclarer un mal que je ne ressens pas.</l>
             </lg>
             <lg rend="i">
-            <l>Faut-il que vos beaux yeux à qui je rends les armes,</l>
-            <l>Veuillent se divertir de mes tristes soupirs,</l>
-            <l>Et n’est-ce pas assez de souffrir pour vos charmes,</l>
-            <l>Sans me faire souffrir encor pour vos plaisirs ?</l>
+              <l>Faut-il que vos beaux yeux à qui je rends les armes,</l>
+              <l>Veuillent se divertir de mes tristes soupirs,</l>
+              <l>Et n’est-ce pas assez de souffrir pour vos charmes,</l>
+              <l>Sans me faire souffrir encor pour vos plaisirs ?</l>
             </lg>
             <lg rend="i">
-            <l>C'en est trop à la fois, que ce double martyre,</l>
-            <l>Et ce qu’il me faut taire, et ce qu’il me faut dire,</l>
-            <l>Exerce sur mon cœur pareille cruauté.</l>
+              <l>C'en est trop à la fois, que ce double martyre,</l>
+              <l>Et ce qu’il me faut taire, et ce qu’il me faut dire,</l>
+              <l>Exerce sur mon cœur pareille cruauté.</l>
             </lg>
             <lg rend="i">
-            <l>L'amour le met en feu, la contrainte le tue,</l>
-            <l>Et si par la pitié vous n’êtes combattue,</l>
-            <l>Je meurs, et de la feinte, et de la vérité.</l>
+              <l>L'amour le met en feu, la contrainte le tue,</l>
+              <l>Et si par la pitié vous n’êtes combattue,</l>
+              <l>Je meurs, et de la feinte, et de la vérité.</l>
             </lg>
           </sp>
           <sp who="julie" xml:id="I01-12">
@@ -175,8 +157,7 @@
           </sp>
           <sp who="le-vicomte" xml:id="I01-13">
             <speaker>Le Vicomte</speaker>
-            <p>C'est assez de vous les avoir dits, et je dois en demeurer là ; il est permis d’être
-              parfois assez fou pour faire des Vers, mais non pour vouloir qu’ils soient vus.</p>
+            <p>C'est assez de vous les avoir dits, et je dois en demeurer là ; il est permis d’être parfois assez fou pour faire des Vers, mais non pour vouloir qu’ils soient vus.</p>
           </sp>
           <sp who="julie" xml:id="I01-14">
             <speaker>Julie</speaker>
@@ -184,10 +165,7 @@
           </sp>
           <sp who="le-vicomte" xml:id="I01-15">
             <speaker>Le Vicomte</speaker>
-            <p>Mon Dieu, Madame, marchons là-dessus, s’il vous plaît, avec beaucoup de retenue ; il
-              est dangereux dans le monde de se mêler d’avoir de l’esprit. Il y a là-dedans un
-              certain ridicule qu’il est facile d’attraper, et nous avons de nos amis qui me font
-              craindre leur exemple.</p>
+            <p>Mon Dieu, Madame, marchons là-dessus, s’il vous plaît, avec beaucoup de retenue ; il est dangereux dans le monde de se mêler d’avoir de l’esprit. Il y a là-dedans un certain ridicule qu’il est facile d’attraper, et nous avons de nos amis qui me font craindre leur exemple.</p>
           </sp>
           <sp who="julie" xml:id="I01-16">
             <speaker>Julie</speaker>
@@ -203,8 +181,7 @@
           <stage>LA COMTESSE, JULIE</stage>
           <sp who="la-comtesse" xml:id="I02-1">
             <speaker>La Comtesse</speaker>
-            <p>Ah ! mon Dieu, Madame, vous voilà toute seule ? quelle pitié est-ce là, toute seule ;
-              il me semble que mes gens m’avaient dit, que le Vicomte était ici ?</p>
+            <p>Ah ! mon Dieu, Madame, vous voilà toute seule ? quelle pitié est-ce là, toute seule ; il me semble que mes gens m’avaient dit, que le Vicomte était ici ?</p>
           </sp>
           <sp who="julie" xml:id="I02-2">
             <speaker>Julie</speaker>
@@ -236,14 +213,7 @@
           </sp>
           <sp who="la-comtesse" xml:id="I02-9">
             <speaker>La Comtesse</speaker>
-            <p>Je crois être en état de pouvoir faire naître une passion assez forte, et je me
-              trouve pour cela assez de beauté, de jeunesse, et de qualité, Dieu merci ; mais cela
-              n’empêche pas, qu’avec ce que j’inspire, on ne puisse garder de l’honnêteté, et de la
-              complaisance pour les autres. Que faites-vous donc là, Laquais ? est-ce qu’il n’y a
-              pas une antichambre, où se tenir, pour venir quand on vous appelle ; cela est étrange
-              qu’on ne puisse avoir en Province un Laquais qui sache son monde. À qui est-ce donc
-              que je parle, voulez-vous vous en aller là dehors, petit fripon ? Filles
-              approchez.</p>
+            <p>Je crois être en état de pouvoir faire naître une passion assez forte, et je me trouve pour cela assez de beauté, de jeunesse, et de qualité, Dieu merci ; mais cela n’empêche pas, qu’avec ce que j’inspire, on ne puisse garder de l’honnêteté, et de la complaisance pour les autres. Que faites-vous donc là, Laquais ? est-ce qu’il n’y a pas une antichambre, où se tenir, pour venir quand on vous appelle ; cela est étrange qu’on ne puisse avoir en Province un Laquais qui sache son monde. À qui est-ce donc que je parle, voulez-vous vous en aller là dehors, petit fripon ? Filles approchez.</p>
           </sp>
           <sp who="andree" xml:id="I02-10">
             <speaker>Andrée</speaker>
@@ -351,22 +321,15 @@
           </sp>
           <sp who="la-comtesse" xml:id="I02-36">
             <speaker>La Comtesse</speaker>
-            <p>Vous êtes un petit impertinent, mon ami, et vous devez savoir que là-dehors, en
-              termes de personnes de qualité, veut dire l’antichambre. Andrée, ayez soin tantôt de
-              faire donner le fouet à ce petit fripon-là, par mon Écuyer ; c’est un petit
-              incorrigible.</p>
+            <p>Vous êtes un petit impertinent, mon ami, et vous devez savoir que là-dehors, en termes de personnes de qualité, veut dire l’antichambre. Andrée, ayez soin tantôt de faire donner le fouet à ce petit fripon-là, par mon Écuyer ; c’est un petit incorrigible.</p>
           </sp>
           <sp who="andree" xml:id="I02-37">
             <speaker>Andrée</speaker>
-            <p>Qu'est-ce que c’est, Madame, que votre Écuyer ? est-ce maître Charles que vous
-              appelez comme cela ?</p>
+            <p>Qu'est-ce que c’est, Madame, que votre Écuyer ? est-ce maître Charles que vous appelez comme cela ?</p>
           </sp>
           <sp who="la-comtesse" xml:id="I02-38">
             <speaker>La Comtesse</speaker>
-            <p>Taisez-vous, sotte que vous êtes, vous ne sauriez ouvrir la bouche que vous ne disiez
-              une impertinence. Des sièges ; et vous, allumez deux bougies dans mes flambeaux
-              d’argent, il se fait déjà tard. Qu'est-ce que c’est donc que vous me regardez toute
-              effarée ?</p>
+            <p>Taisez-vous, sotte que vous êtes, vous ne sauriez ouvrir la bouche que vous ne disiez une impertinence. Des sièges ; et vous, allumez deux bougies dans mes flambeaux d’argent, il se fait déjà tard. Qu'est-ce que c’est donc que vous me regardez toute effarée ?</p>
           </sp>
           <sp who="andree" xml:id="I02-39">
             <speaker>Andrée</speaker>
@@ -406,8 +369,7 @@
           </sp>
           <sp who="la-comtesse" xml:id="I02-48">
             <speaker>La Comtesse</speaker>
-            <p>Ôtez-vous de là, insolente, je vous renvoyerai chez vos parents. Apportez-moi un
-              verre d’eau. Madame</p>
+            <p>Ôtez-vous de là, insolente, je vous renvoyerai chez vos parents. Apportez-moi un verre d’eau. Madame</p>
             <stage>faisant des cérémonies pour s’asseoir.</stage>
           </sp>
           <sp who="julie" xml:id="I02-49">
@@ -500,7 +462,7 @@
           </sp>
           <sp who="la-comtesse" xml:id="I02-71">
             <speaker>La comtesse</speaker>
-              <stage>Andrée casse le verre.</stage>
+            <stage>Andrée casse le verre.</stage>
             <p>Hé bien ne voilà pas l’étourdie ? En vérité vous me paierez mon verre.</p>
           </sp>
           <sp who="andree" xml:id="I02-72">
@@ -573,11 +535,7 @@
           </sp>
           <sp who="la-comtesse" xml:id="I03-2">
             <speaker>La Comtesse</speaker>
-            <p>Hé bien petit coquin, voilà encore de vos âneries, un Laquais qui saurait vivre,
-              aurait été parler tout bas à la Demoiselle suivante, qui serait venue dire doucement à
-              l’oreille de sa Maîtresse : <hi rend="i">Madame, voilà le Laquais de Monsieur un tel,
-                qui demande à vous dire un mot</hi>, à quoi la Maîtresse aurait répondu, <hi
-                rend="i">faites-le entrer</hi>.</p>
+            <p>Hé bien petit coquin, voilà encore de vos âneries, un Laquais qui saurait vivre, aurait été parler tout bas à la Demoiselle suivante, qui serait venue dire doucement à l’oreille de sa Maîtresse : <hi rend="i">Madame, voilà le Laquais de Monsieur un tel, qui demande à vous dire un mot</hi>, à quoi la Maîtresse aurait répondu, <hi rend="i">faites-le entrer</hi>.</p>
           </sp>
           <sp who="criquet" xml:id="I03-3">
             <speaker>Criquet</speaker>
@@ -589,13 +547,11 @@
           </sp>
           <sp who="jeannot" xml:id="I03-5">
             <speaker>Jeannot</speaker>
-            <p>C'est Monsieur le Conseiller, Madame, qui vous souhaite le bon jour ; et auparavant
-              que de venir, vous envoie des poires de son jardin, avec ce petit mot d’écrit.</p>
+            <p>C'est Monsieur le Conseiller, Madame, qui vous souhaite le bon jour ; et auparavant que de venir, vous envoie des poires de son jardin, avec ce petit mot d’écrit.</p>
           </sp>
           <sp who="la-comtesse" xml:id="I03-6">
             <speaker>La Comtesse</speaker>
-            <p>C'est du bon-chrétien, qui est fort beau. Andrée, faites porter cela à l’office.
-              Tiens mon enfant, voilà pour boire.</p>
+            <p>C'est du bon-chrétien, qui est fort beau. Andrée, faites porter cela à l’office. Tiens mon enfant, voilà pour boire.</p>
           </sp>
           <sp who="jeannot" xml:id="I03-7">
             <speaker>Jeannot</speaker>
@@ -692,12 +648,10 @@
         </div2>
         <div2 type="scene" xml:id="I05">
           <head>Scène V</head>
-          <stage>MONSIEUR TIBAUDIER, LE VICOMTE,  LA COMTESSE, JULIE, ANDRÉE, CRIQUET</stage>
+          <stage>MONSIEUR TIBAUDIER, LE VICOMTE, LA COMTESSE, JULIE, ANDRÉE, CRIQUET</stage>
           <sp who="la-comtesse" xml:id="I05-1">
             <speaker>La Comtesse</speaker>
-            <p>Approchez, Monsieur Tibaudier, ne craignez point d’entrer. Votre billet a été bien
-              reçu, aussi bien que vos poires, et voilà Madame qui parle pour vous, contre votre
-              Rival.</p>
+            <p>Approchez, Monsieur Tibaudier, ne craignez point d’entrer. Votre billet a été bien reçu, aussi bien que vos poires, et voilà Madame qui parle pour vous, contre votre Rival.</p>
           </sp>
           <sp who="monsieur-tibaudier" xml:id="I05-2">
             <speaker>Monsieur Tibaudier</speaker>
@@ -721,8 +675,7 @@
           </sp>
           <sp who="le-vicomte" xml:id="I05-7">
             <speaker>Le Vicomte</speaker>
-            <p>Ah ! je ne pensais pas que Monsieur Tibaudier fût Poète, et voilà pour m’achever, que
-              ces deux petits Versets-là.</p>
+            <p>Ah ! je ne pensais pas que Monsieur Tibaudier fût Poète, et voilà pour m’achever, que ces deux petits Versets-là.</p>
           </sp>
           <sp who="la-comtesse" xml:id="I05-8">
             <speaker>La Comtesse</speaker>
@@ -731,12 +684,12 @@
           <sp who="monsieur-tibaudier" xml:id="I05-9">
             <speaker>Monsieur Tibaudier</speaker>
             <lg rend="i">
-            <l>Une personne de qualité</l>
-            <l>Ravit mon âme,</l>
-            <l>Elle a de la beauté,</l>
-            <l>J'ai de la flamme ;</l>
-            <l>Mais je la blâme</l>
-            <l>D'avoir de la fierté.</l>
+              <l>Une personne de qualité</l>
+              <l>Ravit mon âme,</l>
+              <l>Elle a de la beauté,</l>
+              <l>J'ai de la flamme ;</l>
+              <l>Mais je la blâme</l>
+              <l>D'avoir de la fierté.</l>
             </lg>
           </sp>
           <sp who="le-vicomte" xml:id="I05-10">
@@ -758,16 +711,16 @@
           <sp who="monsieur-tibaudier" xml:id="I05-14">
             <speaker>Monsieur Tibaudier</speaker>
             <lg rend="i">
-            <l>Je ne sais pas si vous doutez de mon parfait amour ;</l>
-            <l>Mais je sais bien que mon cœur à toute heure</l>
-            <l>Veut quitter sa chagrine demeure,</l>
-            <l>Pour aller par respect faire au vôtre sa Cour :</l>
-            <l>Après cela pourtant, sûre de ma tendresse,</l>
-            <l>Et de ma foi, dont unique est l'espèce,</l>
-            <l>Vous devriez à votre tour</l>
-            <l>Vous contentant d’être Comtesse,</l>
-            <l>Vous dépouiller en ma faveur, d'une peau de tigresse,</l>
-            <l>Qui couvre vos appas, la nuit comme le jour.</l>
+              <l>Je ne sais pas si vous doutez de mon parfait amour ;</l>
+              <l>Mais je sais bien que mon cœur à toute heure</l>
+              <l>Veut quitter sa chagrine demeure,</l>
+              <l>Pour aller par respect faire au vôtre sa Cour :</l>
+              <l>Après cela pourtant, sûre de ma tendresse,</l>
+              <l>Et de ma foi, dont unique est l'espèce,</l>
+              <l>Vous devriez à votre tour</l>
+              <l>Vous contentant d’être Comtesse,</l>
+              <l>Vous dépouiller en ma faveur, d'une peau de tigresse,</l>
+              <l>Qui couvre vos appas, la nuit comme le jour.</l>
             </lg>
           </sp>
           <sp who="le-vicomte" xml:id="I05-15">
@@ -788,8 +741,7 @@
           </sp>
           <sp who="monsieur-tibaudier" xml:id="I05-19">
             <speaker>Monsieur Tibaudier</speaker>
-            <p>Ce n’est pas ce Martial-là, Madame, c’est un Auteur qui vivait il y a trente, ou
-              quarante ans.</p>
+            <p>Ce n’est pas ce Martial-là, Madame, c’est un Auteur qui vivait il y a trente, ou quarante ans.</p>
           </sp>
           <sp who="le-vicomte" xml:id="I05-20">
             <speaker>Le Vicomte</speaker>
@@ -802,15 +754,14 @@
         </div2>
         <div2 type="scene" xml:id="I06">
           <head>Scène VI</head>
-          <stage>MONSIEUR BOBINET, MONSIEUR TIBAUDIER,  LA COMTESSE, LE VICOMTE, JULIE, ANDRÉE, CRIQUET</stage>
+          <stage>MONSIEUR BOBINET, MONSIEUR TIBAUDIER, LA COMTESSE, LE VICOMTE, JULIE, ANDRÉE, CRIQUET</stage>
           <sp who="la-comtesse" xml:id="I06-1">
             <speaker>La Comtesse</speaker>
             <p>Holà, Monsieur Bobinet, Monsieur Bobinet, approchez-vous du monde.</p>
           </sp>
           <sp who="monsieur-bobinet" xml:id="I06-2">
             <speaker>Monsieur Bobinet</speaker>
-            <p>Je donne le bon Vêpres à toute l’honorable compagnie. Que désire Madame la Comtesse
-              d’Escarbagnas, de son très humble Serviteur Bobinet ?</p>
+            <p>Je donne le bon Vêpres à toute l’honorable compagnie. Que désire Madame la Comtesse d’Escarbagnas, de son très humble Serviteur Bobinet ?</p>
           </sp>
           <sp who="la-comtesse" xml:id="I06-3">
             <speaker>La Comtesse</speaker>
@@ -866,8 +817,7 @@
           </sp>
           <sp who="la-comtesse" xml:id="I07-2">
             <speaker>La Comtesse</speaker>
-            <p>Comte, saluez Madame. Faites la révérence à Monsieur le Vicomte, saluez Monsieur le
-              Conseiller.</p>
+            <p>Comte, saluez Madame. Faites la révérence à Monsieur le Vicomte, saluez Monsieur le Conseiller.</p>
           </sp>
           <sp who="monsieur-tibaudier" xml:id="I07-3">
             <speaker>Monsieur Tibaudier</speaker>
@@ -1028,9 +978,7 @@
           </sp>
           <sp who="la-comtesse" xml:id="I08-17">
             <speaker>La Comtesse</speaker>
-            <p>Faut-il faire un si grand vacarme pour une Comédie, que Monsieur le Vicomte me
-              donne ? vous voyez que Monsieur Tibaudier qui m’aime en use plus respectueusement que
-              vous.</p>
+            <p>Faut-il faire un si grand vacarme pour une Comédie, que Monsieur le Vicomte me donne ? vous voyez que Monsieur Tibaudier qui m’aime en use plus respectueusement que vous.</p>
           </sp>
           <sp who="monsieur-harpin" xml:id="I08-18">
             <speaker>Monsieur Harpin</speaker>
@@ -1050,20 +998,11 @@
           </sp>
           <sp who="monsieur-harpin" xml:id="I08-22">
             <speaker>Monsieur Harpin</speaker>
-            <p>Je veux dire, que je ne trouve point étrange que vous vous rendiez au mérite de
-              Monsieur le Vicomte, vous n’êtes pas la première Femme qui joue dans le monde de ces
-              sortes de caractères, et qui ait auprès d’elle un Monsieur le Receveur, dont on lui
-              voit trahir, et la passion, et la bourse pour le premier venu qui lui donnera dans la
-              vue ; mais ne trouvez point étrange aussi que je ne sois point la dupe d’une
-              infidélité si ordinaire aux coquettes du temps, et que je vienne vous assurer devant
-              bonne compagnie, que je romps commerce avec vous, et que Monsieur le Receveur ne sera
-              plus pour vous Monsieur le donneur.</p>
+            <p>Je veux dire, que je ne trouve point étrange que vous vous rendiez au mérite de Monsieur le Vicomte, vous n’êtes pas la première Femme qui joue dans le monde de ces sortes de caractères, et qui ait auprès d’elle un Monsieur le Receveur, dont on lui voit trahir, et la passion, et la bourse pour le premier venu qui lui donnera dans la vue ; mais ne trouvez point étrange aussi que je ne sois point la dupe d’une infidélité si ordinaire aux coquettes du temps, et que je vienne vous assurer devant bonne compagnie, que je romps commerce avec vous, et que Monsieur le Receveur ne sera plus pour vous Monsieur le donneur.</p>
           </sp>
           <sp who="la-comtesse" xml:id="I08-23">
             <speaker>La Comtesse</speaker>
-            <p>Cela est merveilleux, comme les Amants emportés deviennent à la mode ; on ne voit
-              autre chose de tous côtés. Là, là, Monsieur le Receveur, quittez votre colère, et
-              venez prendre place pour voir la Comédie.</p>
+            <p>Cela est merveilleux, comme les Amants emportés deviennent à la mode ; on ne voit autre chose de tous côtés. Là, là, Monsieur le Receveur, quittez votre colère, et venez prendre place pour voir la Comédie.</p>
           </sp>
           <sp who="monsieur-harpin" xml:id="I08-24">
             <speaker>Monsieur Harpin</speaker>
@@ -1090,11 +1029,12 @@
           <head>Scène Dernière</head>
           <stage>LA COMTESSE, LE VICOMTE, JULIE, MONSIEUR TIBAUDIER, MONSIEUR BOBINET, ANDRÉE, JEANNOT, CRIQUET</stage>
           <sp who="jeannot">
-          <speaker>Jeannot</speaker>
-          <p>Voilà un billet, Monsieur, qu’on nous a dit de vous donner vite.</p>
+            <speaker>Jeannot</speaker>
+            <p>Voilà un billet, Monsieur, qu’on nous a dit de vous donner vite.</p>
           </sp>
           <sp who="le-vicomte" xml:id="I09-1">
-            <speaker>Le vicomte <hi rend="i">lit</hi> </speaker>
+            <speaker>Le vicomte <hi rend="i">lit</hi>
+            </speaker>
             <p rend="i">En cas que vous ayez quelque mesure à prendre, je vous envoie promptement un avis. La querelle de vos Parents et de ceux de Julie, vient d'être accommodée, et les conditions de cet accord, c'est le Mariage de vous, et d'elle. Bonsoir.</p>
             <p>Ma foi, Madame, voilà notre Comédie achevée aussi.</p>
           </sp>

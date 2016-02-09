@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_monsieur-pourceaugnac" xml:lang="fr">
   <teiHeader>
@@ -78,21 +79,21 @@
           <castItem><role rend="male" xml:id="oronte">Oronte</role>.</castItem>
           <castItem><role rend="female junior" xml:id="julie">Julie</role>, Fille d’Oronte.</castItem>
           <castItem><role rend="female" xml:id="nerine">Nérine</role>, Femme d’intrigue.</castItem>
-          <castItem><role rend="female" xml:id="lucette">Lucette</role>, feinte Gasconne.</castItem>
+          <castItem><role rend="female inferior" xml:id="lucette">Lucette</role>, feinte Gasconne.</castItem>
           <castItem><role rend="male junior" xml:id="eraste">Éraste</role>, Amant de Julie.</castItem>
           <castItem><role rend="male" xml:id="sbrigani">Sbrigani</role>, Napolitain, Homme d’intrigue.</castItem>
           <castItem><role rend="male" xml:id="medecin1">Premier médecin</role>.</castItem>
           <castItem><role rend="male" xml:id="medecin2">Second médecin</role>.</castItem>
           <castItem><role rend="male" xml:id="apothicaire">L’apothicaire</role>.</castItem>
-          <castItem><role rend="male" xml:id="paysan">Un paysan</role>.</castItem>
-          <castItem><role rend="male" xml:id="paysanne">Une paysanne</role>.</castItem>
+          <castItem><role rend="male inferior" xml:id="paysan">Un paysan</role>.</castItem>
+          <castItem><role rend="female inferior" xml:id="paysanne">Une paysanne</role>.</castItem>
           <castItem><role rend="nograph" xml:id="musicien1">Premier musicien</role>.</castItem>
           <castItem><role rend="nograph" xml:id="musicien2">Second musicien</role>.</castItem>
           <castItem><role rend="nograph" xml:id="avocat1">Premier avocat</role>.</castItem>
           <castItem><role rend="nograph" xml:id="avocat2">Second avocat</role>.</castItem>
           <castItem><role rend="nograph" xml:id="suisse1">Premier suisse</role>.</castItem>
           <castItem><role rend="nograph" xml:id="suisse2">Second suisse</role>.</castItem>
-          <castItem><role rend="male" xml:id="exempt">Un exempt</role>.</castItem>
+          <castItem><role xml:id="exempt">Un exempt</role>.</castItem>
           <castItem><role xml:id="deux-archers">Deux archers</role>.</castItem>
           <castItem><role xml:id="musiciens" rend="nograph">Plusieurs musiciens</role><role xml:id="musicien" rend="nograph"/><role xml:id="egyptienne" rend="nograph"/><role xml:id="egyptien" rend="nograph"/>.</castItem>
           <castItem><role xml:id="danseurs">Joueurs d’instruments, et danseurs</role>.

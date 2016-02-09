@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="../Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -88,9 +88,9 @@
         <stage rend="not-i">La Scène représente sur le devant un Lieu champêtre, et dans l’enfoncement un Rocher percé à jour, à travers duquel on voit la Mer en éloignement.</stage>
         <stage rend="not-i">Flore paraît au milieu du Théâtre, accompagnée de Vertumne Dieu des Arbres et des Fruits, et de Palæmon Dieu des Eaux. Chacun de ces Dieux conduit une Troupe de Divinités ; l’un mène à sa suite des Dryades et des Sylvains ; et l’autre des Dieux, des Fleuves et des Naïades. Flore chante ce Récit pour inviter Vénus à descendre en Terre.
           <listPerson>
-            <person xml:id="flore"/>
-            <person xml:id="vertumne"/>
-            <person xml:id="palaemon"/>
+            <person xml:id="flore" n="Flore"/>
+            <person xml:id="vertumne" n="Vertumne"/>
+            <person xml:id="palaemon" n="Palæmon"/>
           </listPerson>
           
         </stage>
@@ -950,9 +950,9 @@
         <stage rend="not-i">La Scène est changée en des Rochers affreux, et fait voir en éloignement une Grotte effroyable.</stage>
         <stage rend="not-i">C’est dans ce Désert que Psyché doit être exposée pour obéir à l’Oracle. Une Troupe de Personnes affligées y viennent déplorer sa disgrâce. Une partie de cette Troupe désolée témoigne sa pitié par des Plaintes touchantes, et par des Concerts lugubres ; et l’autre exprime sa désolation par une Danse pleine de toutes les marques du plus violent désespoir.
          <listPerson>
-           <person xml:id="afflige1"/>
-           <person xml:id="afflige2"/>
-           <person xml:id="desolee"/>
+           <person xml:id="afflige1" n="Homme affligé 1"/>
+           <person xml:id="afflige2" n="Homme affligé 2"/>
+           <person xml:id="desolee" n="Femme désolée"/>
          </listPerson>
         </stage>
         <label>PLAINTES EN ITALIEN. <hi rend="i">Chantées par une Femme désolée, et deux Hommes affligés.</hi></label>

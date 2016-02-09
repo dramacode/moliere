@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_jalousie-barbouille" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -62,7 +63,7 @@
           <titlePart type="main">LA JALOUSIE DU BARBOUILLÉ</titlePart>
           <titlePart type="sub">COMÉDIE</titlePart>
         </docTitle>
-        <docAuthor id="MOLIERE" bio="moliere">Molière</docAuthor>
+        <docAuthor>Molière</docAuthor>
         <docEdition>D'après un manuscrit du XVIIIe siècle</docEdition>
       </titlePage>
       <div>

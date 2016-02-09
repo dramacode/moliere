@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_plaisirs-ile-enchantee">
   <teiHeader>
     <fileDesc>
@@ -58,13 +59,13 @@
         <docImprint> À PARIS, Chez <hi rend="sc">Robert Ballard</hi>, seul Imprimeur du Roi, pour la Musique, rue Saint Jean de Beauvais, au Mont Parnasse. Et au Palais. <hi rend="sc">Thomas Jolly</hi> à la Salle des Merciers, à l'Enseigne de la Palme. <hi rend="sc">Guillaume de Luynes</hi>, même Salle, à l'Enseigne de la Justice. <hi rend="sc">Louis Billaine</hi> dans la grande Salle, à l'Enseigne de la Palme et du grand César.</docImprint>
         <docDate>M. DC. LXV.</docDate>
         <docImprint rend="i">AVEC PRIVILÈGE DE SA MAJESTÉ.</docImprint>
-        <performance>
-          <premiere location="Château de Versailles" date="1664-05-08">Représentée pour la première fois à Versailles, le 8e mai 1664, et donnée depuis au public sur le théâtre du Palais-Royal le 9e novembre de la même année 1664.</premiere>
-        </performance>
+        <argument>
+          <p>Représentée pour la première fois à Versailles, le 8e mai 1664, et donnée depuis au public sur le théâtre du Palais-Royal le 9e novembre de la même année 1664.</p>
+        </argument>
       </titlePage>
     </front>
     <body>
-      <head rend="center i">LES PLAISIRS DE L’ÎLE ENCHANTÉE. COURSE DE BAGUE, Collation ornée de Machines, Comédie de Molière, Intitulée la Princesse d’Élide, mêlée de Danse et de Musique, Ballet du Palais d’Alcine, Feu d’Artifice : Et autres Fêtes galantes et magnifiques ; faites par le Roy à Versailles, le 7<hi rend="sup">e</hi> Mai 1664. Et continuées Plusieurs autres Jours.</head>
+      <head rend="i">LES PLAISIRS DE L’ÎLE ENCHANTÉE. COURSE DE BAGUE, Collation ornée de Machines, Comédie de Molière, Intitulée la Princesse d’Élide, mêlée de Danse et de Musique, Ballet du Palais d’Alcine, Feu d’Artifice : Et autres Fêtes galantes et magnifiques ; faites par le Roy à Versailles, le 7<hi rend="sup">e</hi> Mai 1664. Et continuées Plusieurs autres Jours.</head>
       <div xml:id="I" type="act">
         <head>[PREMIÈRE JOURNÉE DES PLAISIRS DE L'ÎLE ENCHANTÉE]</head>
         <div type="scene">

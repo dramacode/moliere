@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_avare">
   <teiHeader>
@@ -31,7 +32,7 @@
         <publisher>LABEX OBVIL</publisher>
         <date when="2008"/>
         <date when="2014"/>
-         <availability status="restricted">
+        <availability status="restricted">
           <licence target="projet-Molière"/>
         </availability>
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_avare/</idno>
@@ -66,14 +67,7 @@
           <titlePart type="sub">COMÉDIE.</titlePart>
         </docTitle>
         <docAuthor>Par J.B.P. MOLIÈRE.</docAuthor>
-        <docImprint>
-			À PARIS, 
-		  <lb/>Chez JEAN RIBOU, au Palais, vis à vis 
-		  <lb/>la Porte de l'Église
-			<lb/>de la Sainte Chapelle, 
-		  <lb/>à l'Image Saint-Louis.
-		  <lb/>M. DC. LXIX.
-		  <lb/><hi rend="i">AVEC PRIVILÈGE DU ROI</hi>
+        <docImprint> À PARIS, <lb/>Chez JEAN RIBOU, au Palais, vis à vis <lb/>la Porte de l'Église <lb/>de la Sainte Chapelle, <lb/>à l'Image Saint-Louis. <lb/>M. DC. LXIX. <lb/><hi rend="i">AVEC PRIVILÈGE DU ROI</hi>
         </docImprint>
         <!--
 			<docImprint><privilege value="1668-09-30"/><acheveImprime value="1669-02-18"/><printer xml:id="RIBOU"/></docImprint>
@@ -82,11 +76,11 @@
       <div>
         <head>ACTEURS</head>
         <castList>
-          <castItem><role xml:id="harpagon" rend="male veteran love">Harpagon</role>, Père de Cléante et d'Élise, et Amoureux de Mariane.</castItem>
+          <castItem><role xml:id="harpagon" rend="male veteran">Harpagon</role>, Père de Cléante et d'Élise, et Amoureux de Mariane.</castItem>
           <castItem><role xml:id="cleante" rend="male junior">Cléante</role>, Fils d'Harpagon, Amant de Mariane.</castItem>
-          <castItem><role xml:id="elise" rend="female junior love">Élise</role>, Fille d'Harpagon, Amante de Valère. </castItem>
-          <castItem><role xml:id="valere" rend="male junior love">Valère</role>, Fils d'Anselme, et Amant d'Élise. </castItem>
-          <castItem><role xml:id="mariane" rend="female junior love">Mariane</role>, Amante de Cléante, et aimée d'Harpagon. </castItem>
+          <castItem><role xml:id="elise" rend="female junior">Élise</role>, Fille d'Harpagon, Amante de Valère. </castItem>
+          <castItem><role xml:id="valere" rend="male junior">Valère</role>, Fils d'Anselme, et Amant d'Élise. </castItem>
+          <castItem><role xml:id="mariane" rend="female junior">Mariane</role>, Amante de Cléante, et aimée d'Harpagon. </castItem>
           <castItem><role xml:id="anselme" rend="male veteran">Anselme</role>, Père de Valère et de Mariane. </castItem>
           <castItem><role xml:id="frosine" rend="female">Frosine</role>, Femme d'Intrigue. </castItem>
           <castItem><role xml:id="maitre-simon" rend="male inferior">Maitre Simon</role>, Courtier. </castItem>
@@ -809,7 +803,7 @@
             </p>
             <stage>Ici le frère et la sœur paraissent s'entretenant bas.</stage>
             <p>
-              <s>Ô Ciel ! 	je me serai trahi moi-même.</s>
+              <s>Ô Ciel ! je me serai trahi moi-même.</s>
               <s>La chaleur m'aura emporté ; et je crois que j'ai parlé haut en raisonnant tout seul. </s>
               <s>Qu'est-ce ? </s>
             </p>
@@ -1549,7 +1543,7 @@
             <speaker>Harpagon</speaker>
             <p>
               <s>C'est une occasion qu'il faut prendre vite aux cheveux. </s>
-              <s>Je trouve ici un avantage, qu'ailleurs je ne trouverais pas ; et il s'engage à la prendre <hi>sans dot</hi>. </s>
+              <s>Je trouve ici un avantage, qu'ailleurs je ne trouverais pas ; et il s'engage à la prendre <hi rend="i">sans dot</hi>. </s>
             </p>
           </sp>
           <sp who="valere" xml:id="I05-14">
@@ -1903,7 +1897,9 @@
             <speaker>La Flèche</speaker>
             <p>
               <s>Voici quelques Articles qu'il a dictés lui-même à notre entremetteur, pour vous être montrés, avant que de rien faire.</s>
-              <s rend="i">Supposé que le Prêteur voie toutes ses sûretés, et que l'Emprunteur soit majeur, et d'une Famille où le bien soit ample, solide, assuré, clair, et net de tout embarras ; on fera une bonne et exacte obligation par-devant un Notaire, le plus honnête Homme qu'il se pourra, et qui pour cet effet sera choisi par le Prêteur, auquel il importe le plus que l'Acte soit dûment dressé.</s>
+              <hi>
+                <s>Supposé que le Prêteur voie toutes ses sûretés, et que l'Emprunteur soit majeur, et d'une Famille où le bien soit ample, solide, assuré, clair, et net de tout embarras ; on fera une bonne et exacte obligation par-devant un Notaire, le plus honnête Homme qu'il se pourra, et qui pour cet effet sera choisi par le Prêteur, auquel il importe le plus que l'Acte soit dûment dressé.</s>
+              </hi>
             </p>
           </sp>
           <sp who="cleante" xml:id="II01-19">
@@ -1915,7 +1911,9 @@
           <sp who="la-fleche" xml:id="II01-20">
             <speaker>La Flèche</speaker>
             <p>
-              <s rend="i">Le Prêteur, pour ne charger sa conscience d'aucun scrupule, prétend ne donner son argent qu'au denier dix-huit.</s>
+              <hi>
+                <s>Le Prêteur, pour ne charger sa conscience d'aucun scrupule, prétend ne donner son argent qu'au denier dix-huit.</s>
+              </hi>
             </p>
           </sp>
           <sp who="cleante" xml:id="II01-21">
@@ -1930,7 +1928,9 @@
             <speaker>La Flèche</speaker>
             <p>
               <s>Cela est vrai. </s>
-              <s rend="i">Mais comme ledit Prêteur n'a pas chez lui la somme dont il est question, et que pour faire plaisir à l'Emprunteur, il est contraint lui-même de l'emprunter d'un autre, sur le pied du denier cinq ; il conviendra que ledit premier Emprunteur paye cet intérêt, sans préjudice du reste, attendu que ce n'est que pour l'obliger, que ledit Prêteur s'engage à cet emprunt.</s>
+              <hi>
+                <s>Mais comme ledit Prêteur n'a pas chez lui la somme dont il est question, et que pour faire plaisir à l'Emprunteur, il est contraint lui-même de l'emprunter d'un autre, sur le pied du denier cinq ; il conviendra que ledit premier Emprunteur paye cet intérêt, sans préjudice du reste, attendu que ce n'est que pour l'obliger, que ledit Prêteur s'engage à cet emprunt.</s>
+              </hi>
             </p>
           </sp>
           <sp who="cleante" xml:id="II01-23">
@@ -1970,7 +1970,9 @@
             <speaker>La Flèche</speaker>
             <p>
               <s>Ce n'est plus qu'un petit article. </s>
-              <s rend="i">Des quinze mille francs qu'on demande, le Prêteur ne pourra compter en argent que douze mille livres ; et pour les mille écus restants, il faudra que l'Emprunteur prenne les hardes, nippes, et bijoux, dont s'ensuit le mémoire, et que ledit Prêteur a mis, de bonne foi, au plus modique prix qu'il lui a été possible.</s>
+              <hi>
+                <s>Des quinze mille francs qu'on demande, le Prêteur ne pourra compter en argent que douze mille livres ; et pour les mille écus restants, il faudra que l'Emprunteur prenne les hardes, nippes, et bijoux, dont s'ensuit le mémoire, et que ledit Prêteur a mis, de bonne foi, au plus modique prix qu'il lui a été possible.</s>
+              </hi>
             </p>
           </sp>
           <sp who="cleante" xml:id="II01-29">
@@ -1983,8 +1985,10 @@
             <speaker>La Flèche</speaker>
             <p>
               <s>Écoutez le mémoire. </s>
-              <s rend="i">Premièrement, un Lit de quatre pieds, à bandes de points de Hongrie, appliquées fort proprement sur un drap de couleur d'olive ; avec six chaises, et la courte-pointe de même ; le tout bien conditionné, et doublé d'un petit taffetas changeant rouge et bleu. </s>
-              <s rend="i">Plus, un Pavillon à queue, d'une bonne serge d'Aumale rose-sèche ; avec le mollet et les franges de soie.</s>
+              <hi>
+                <s>Premièrement, un Lit de quatre pieds, à bandes de points de Hongrie, appliquées fort proprement sur un drap de couleur d'olive ; avec six chaises, et la courte-pointe de même ; le tout bien conditionné, et doublé d'un petit taffetas changeant rouge et bleu. </s>
+                <s>Plus, un Pavillon à queue, d'une bonne serge d'Aumale rose-sèche ; avec le mollet et les franges de soie.</s>
+              </hi>
             </p>
           </sp>
           <sp who="cleante" xml:id="II01-31">
@@ -1997,8 +2001,10 @@
             <speaker>La Flèche</speaker>
             <p>
               <s>Attendez. </s>
-              <s rend="i">Plus, une Tenture de Tapisserie des Amours de Gombaut, et de Macée. </s>
-              <s rend="i">Plus, une grande Table de bois de noyer, à douze colonnes, ou piliers tournés, qui se tire par les deux bouts, et garnie par le dessous de ses six Escabelles.</s>
+              <hi>
+                <s>Plus, une Tenture de Tapisserie des Amours de Gombaut, et de Macée. </s>
+                <s>Plus, une grande Table de bois de noyer, à douze colonnes, ou piliers tournés, qui se tire par les deux bouts, et garnie par le dessous de ses six Escabelles.</s>
+              </hi>
             </p>
           </sp>
           <sp who="cleante" xml:id="II01-33">
@@ -2011,8 +2017,10 @@
             <speaker>La Flèche</speaker>
             <p>
               <s>Donnez-vous patience. </s>
-              <s rend="i">Plus, trois gros Mousquets tout garnis de nacre de perles, avec les trois Fourchettes assortissantes. </s>
-              <s rend="i">Plus, un Fourneau de brique, avec deux Cornues, et trois Récipients, fort utiles à ceux qui sont curieux de distiller.</s>
+              <hi>
+                <s>Plus, trois gros Mousquets tout garnis de nacre de perles, avec les trois Fourchettes assortissantes. </s>
+                <s>Plus, un Fourneau de brique, avec deux Cornues, et trois Récipients, fort utiles à ceux qui sont curieux de distiller.</s>
+              </hi>
             </p>
           </sp>
           <sp who="cleante" xml:id="II01-35">
@@ -2024,11 +2032,13 @@
           <sp who="la-fleche" xml:id="II01-36">
             <speaker>La Flèche</speaker>
             <p>
-              <s>Doucement. </s>
-              <s rend="i">Plus, un luth de Bologne, garni de toutes ses cordes, ou peu s'en faut. </s>
-              <s rend="i">Plus, un Trou-Madame, et un Damier, avec un Jeu de l'Oie renouvelé des Grecs, fort propres à passer le temps lorsque l'on n'a que faire. </s>
-              <s rend="i">Plus, une Peau d'un lézard, de trois pieds et demi, remplie de foin ; curiosité agréable, pour pendre au plancher d'une Chambre. </s>
-              <s rend="i">Le tout, ci-dessus mentionné, valant loyalement plus de quatre mille cinq cents livres, et rabaissé à la valeur de mille écus, par la discrétion du prêteur.</s>
+              <s>Doucement.</s>
+              <hi>
+                <s>Plus, un luth de Bologne, garni de toutes ses cordes, ou peu s'en faut. </s>
+                <s>Plus, un Trou-Madame, et un Damier, avec un Jeu de l'Oie renouvelé des Grecs, fort propres à passer le temps lorsque l'on n'a que faire. </s>
+                <s>Plus, une Peau d'un lézard, de trois pieds et demi, remplie de foin ; curiosité agréable, pour pendre au plancher d'une Chambre. </s>
+                <s>Le tout, ci-dessus mentionné, valant loyalement plus de quatre mille cinq cents livres, et rabaissé à la valeur de mille écus, par la discrétion du prêteur.</s>
+              </hi>
             </p>
           </sp>
           <sp who="cleante" xml:id="II01-37">

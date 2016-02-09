@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_princesse-elide">
   <teiHeader>
     <fileDesc>
@@ -76,7 +77,7 @@
           <castItem><role xml:id="princesse-elide" rend="female junior">La princesse d'Élide</role>, <actor>Mlle de Molière</actor>.</castItem>
           <castItem><role xml:id="aglante" rend="female junior">Aglante</role>, Cousine de la Princesse, <actor>Mlle Du Parc</actor>.</castItem>
           <castItem><role xml:id="cynthie" rend="female junior">Cynthie</role>, Cousine de la Princesse, <actor>Mlle de Brie</actor>.</castItem>
-          <castItem><role xml:id="philis" rend="female inferior nograph">Philis</role>, Suivante de la Princesse, <actor>Mlle Béjart</actor>.</castItem>
+          <castItem><role xml:id="philis" rend="female inferior">Philis</role>, Suivante de la Princesse, <actor>Mlle Béjart</actor>.</castItem>
           <castItem><role xml:id="iphitas" rend="male">Iphitas</role>, Père de la Princesse, <actor>le Sieur Hubert</actor>.</castItem>
           <castItem><role xml:id="euryale" rend="male junior">Euryale</role>, le prince d'Ithaque, <actor>le Sieur de la Grange</actor>.</castItem>
           <castItem><role xml:id="aristomene" rend="male junior">Aristomène</role>, ou le prince de Messène, <actor>le Sieur du Croisy</actor>.</castItem>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -68,7 +69,7 @@
           <castItem><role xml:id="lycarsis" rend="male">Lycarsys</role>, pâtre, cru père de Myrtil.</castItem>
           <castItem><role xml:id="myrtil" rend="male junior">Myrtil</role>, amant de Mélicerte.</castItem>
           <castItem><role xml:id="melicerte" rend="female junior">Mélicerte</role>, nymphe ou bergère, amante de Myrtil.</castItem>
-          <castItem><role xml:id="corinne" redn="female inferior">Corinne</role>, confidente de Mélicerte.</castItem>
+          <castItem><role xml:id="corinne" rend="female inferior">Corinne</role>, confidente de Mélicerte.</castItem>
           <castItem><role xml:id="nicandre" rend="male">Nicandre</role>, berger.</castItem>
           <castItem><role xml:id="mopse" rend="male">Mopse</role>, berger, cru oncle de Mélicerte.</castItem>
         </castList>

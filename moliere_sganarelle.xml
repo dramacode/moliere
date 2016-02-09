@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_sganarelle">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -62,11 +61,7 @@
   <text>
     <front>
       <titlePage>
-        <docTitle>
-          <titlePart type="main">SGANARELLE <lb/>OU <lb/>LE COCU IMAGINAIRE,</titlePart>
-          <titlePart type="sub">COMÉDIE</titlePart>
-          <titlePart type="sub">Avec les Arguments de chaque Scène</titlePart>
-        </docTitle>
+        <docTitle><titlePart type="main">SGANARELLE <lb/>OU <lb/>LE COCU IMAGINAIRE,</titlePart><titlePart type="sub">COMÉDIE</titlePart><titlePart type="sub">Avec les Arguments de chaque Scène</titlePart></docTitle>
         <docImprint>À PARIS, <lb/>Chez GUILLAUME DE LUYNE, <lb/>Libraire-Juré, au Palais, dans la Salle des Merciers, <lb/>à la Justice. <lb/>MDC. LXII <lb/><hi rend="i">Avec Privilège du Roi.</hi></docImprint>
         <argument>
           <p>Réprésenté pour la première fois le 28 mai 1660 au Théâtre du Petit-Bourbon.</p>
@@ -99,1496 +94,1496 @@
           <castItem><role xml:id="suivante" rend="female inferior">La suivante</role> de Célie.</castItem>
           <castItem><role xml:id="le-parent" rend="male">Un parent</role> de Sganarelle.</castItem>
         </castList>
-        <stage location="Paris" country="France" periode="XVIIème" link="">La Scène est à Paris.</stage>
+        <stage>La Scène est à Paris.</stage>
       </div>
     </front>
     <body>
       <head>SGANARELLE <lb/>OU LE COCU IMAGINAIRE, <hi rend="i">COMÉDIE</hi></head>
-      <div1 type="act" xml:id="I">
+      <div xml:id="I" type="act">
         <head>Acte premier</head>
-        <div2 type="scene" xml:id="I01">
+        <div type="scene" xml:id="I01">
           <head>Scène Première</head>
           <stage>Gorgibus, Célie, sa Suivante.</stage>
           <p rend="argument">Cette première Scène, où Gorgibus entre avec sa Fille, fait voir à l’Auditeur que l’avarice est la passion la plus ordinaire aux Vieillards, de même que l’amour est celle qui règne le plus souvent dans un jeune cœur, et principalement dans celui d’une fille ; car l’on y voit Gorgibus, malgré le choix qu’il avait fait de Lélie pour son Gendre, presser sa Fille d’agréer un autre Époux nommé Valère, incomparablement plus mal fait que Lélie, sans donner  d’autre raison de changement, sinon que le dernier est plus riche. L’on voit d’un autre côté que l’amour ne sort pas facilement du cœur d’une fille, quand une fois il en a su prendre : c’est ce qui fait un agréable combat dans cette Scène entre le père et la fille, le père lui voulant persuader qu’il faut être obéissante, et lui proposant pour la devenir, au lieu de la lecture de <hi rend="i">Clélie</hi>, celle de quelques vieux Livres qui marquent l’antiquité du bonhomme, et qui n’ont rien qui ne parût barbare, si l’on en comparaît le style à celui des ouvrages de l’Illustre Sapho. Mais que tout ce que son père lui dit la touche peu, elle abandonnerait volontiers la lecture de toutes sortes de Livres pour s’occuper à repasser sans cesse en son esprit les belles qualités de son Amant, et les plaisirs dont jouissent deux personnes qui se marient quand ils s’aiment mutuellement : mais las ! que ce cruel père lui donne sujet d’avoir bien de plus tristes pensées, il l’a presse si fort que cette fille affligée n’a plus de recours qu’aux larmes, qui sont les armes ordinaires de son sexe, qui ne sont pas toujours aussi puissantes pour vaincre l’avarice de cet insensible Père, qui la laissa tout éplorée. Voici les Vers de cette Scène qui vous feront voir ce que je viens de dire, mieux que je n’ai fait dans cette Prose.</p>
-          <sp who="celie" xml:id="I01-1">
+          <sp xml:id="I01-1" who="celie">
             <speaker>Célie <hi rend="i">sortant toute éplorée, et son Père la suivant</hi>.</speaker>
-            <l>Ah ! n’espérez jamais que mon cœur y consente.</l>
+            <l n="1" xml:id="l1">Ah ! n’espérez jamais que mon cœur y consente.</l>
           </sp>
-          <sp who="gorgibus" xml:id="I01-2">
+          <sp xml:id="I01-2" who="gorgibus">
             <speaker>Gorgibus</speaker>
-            <l>Que marmottez-vous là petite impertinente ?</l>
-            <l>Vous prétendez choquer ce que j’ai résolu,</l>
-            <l>Je n’aurai pas sur vous un pouvoir absolu,</l>
-            <l n="5">Et par sottes raisons votre jeune cervelle</l>
-            <l>Voudrait régler ici la raison paternelle ?</l>
-            <l>Qui de nous deux à l’autre a droit de faire loi,</l>
-            <l>À votre avis qui mieux, ou de vous, ou de moi</l>
-            <l>Ô sotte, peut juger ce qui vous est utile ?</l>
-            <l n="10">Par la corbleu, gardez d’échauffer trop ma bile,</l>
-            <l>Vous pourriez éprouver sans beaucoup de longueur</l>
-            <l>Si mon bras sait encor montrer quelque vigueur.</l>
-            <l>Votre plus court sera, Madame la mutine,</l>
-            <l>D’accepter sans façons l’époux qu’on vous destine.</l>
-            <l n="15"><hi rend="i">J’ignore,</hi> dites‑vous, <hi rend="i">de quelle humeur il est,</hi></l>
-            <l rend="i">Et dois auparavant consulter s’il vous plaît.</l>
-            <l>Informé du grand bien qui lui tombe en partage,</l>
-            <l>Dois-je prendre le soin d’en savoir davantage,</l>
-            <l>Et cet époux ayant vingt mille bons Ducats,</l>
-            <l n="20">Pour être aimé de vous doit-il manquer d’appas ?</l>
-            <l>Allez tel qu’il puisse être, avec cette somme,</l>
-            <l>Je vous suis caution qu’il est très honnête homme.</l>
+            <l n="2" xml:id="l2">Que marmottez-vous là petite impertinente ?</l>
+            <l n="3" xml:id="l3">Vous prétendez choquer ce que j’ai résolu,</l>
+            <l n="4" xml:id="l4">Je n’aurai pas sur vous un pouvoir absolu,</l>
+            <l n="5" xml:id="l5">Et par sottes raisons votre jeune cervelle</l>
+            <l n="6" xml:id="l6">Voudrait régler ici la raison paternelle ?</l>
+            <l n="7" xml:id="l7">Qui de nous deux à l’autre a droit de faire loi,</l>
+            <l n="8" xml:id="l8">À votre avis qui mieux, ou de vous, ou de moi</l>
+            <l n="9" xml:id="l9">Ô sotte, peut juger ce qui vous est utile ?</l>
+            <l n="10" xml:id="l10">Par la corbleu, gardez d’échauffer trop ma bile,</l>
+            <l n="11" xml:id="l11">Vous pourriez éprouver sans beaucoup de longueur</l>
+            <l n="12" xml:id="l12">Si mon bras sait encor montrer quelque vigueur.</l>
+            <l n="13" xml:id="l13">Votre plus court sera, Madame la mutine,</l>
+            <l n="14" xml:id="l14">D’accepter sans façons l’époux qu’on vous destine.</l>
+            <l n="15" xml:id="l15"><hi rend="i">J’ignore,</hi> dites‑vous, <hi rend="i">de quelle humeur il est,</hi></l>
+            <l n="16" xml:id="l16" rend="i">Et dois auparavant consulter s’il vous plaît.</l>
+            <l n="17" xml:id="l17">Informé du grand bien qui lui tombe en partage,</l>
+            <l n="18" xml:id="l18">Dois-je prendre le soin d’en savoir davantage,</l>
+            <l n="19" xml:id="l19">Et cet époux ayant vingt mille bons Ducats,</l>
+            <l n="20" xml:id="l20">Pour être aimé de vous doit-il manquer d’appas ?</l>
+            <l n="21" xml:id="l21">Allez tel qu’il puisse être, avec cette somme,</l>
+            <l n="22" xml:id="l22">Je vous suis caution qu’il est très honnête homme.</l>
           </sp>
-          <sp who="celie" xml:id="I01-3">
+          <sp xml:id="I01-3" who="celie">
             <speaker>Célie</speaker>
-            <l>Hélas !</l>
+            <l n="23" xml:id="l23">Hélas !</l>
           </sp>
-          <sp who="gorgibus" xml:id="I01-4">
+          <sp xml:id="I01-4" who="gorgibus">
             <speaker>Gorgibus</speaker>
-            <l>Eh bien hélas ! que veut dire ceci,</l>
-            <l>Voyez le bel <hi rend="i">hélas</hi> ! qu’elle nous donne ici.</l>
-            <l n="25">Hé ! que si la colère une fois me transporte,</l>
-            <l>Je vous ferai chanter hélas ! de belle sorte.</l>
-            <l>Voilà, voilà, le fruit de ces empressements</l>
-            <l>Qu’on vous voit nuit et jour à lire vos Romans,</l>
-            <l>De quolibets d’amour votre tête est remplie,</l>
-            <l n="30">Et vous parlez de Dieu, bien moins que de Clélie.</l>
-            <l>Jetez‑moi dans le feu tous ces méchants écrits</l>
-            <l>Qui gâtent tous les jours tant de jeunes esprits,</l>
-            <l>Lisez‑moi comme il faut, au lieu de ces sornettes</l>
-            <l>Les quatrains de Pibrac, et les doctes Tablettes</l>
-            <l n="35">Du Conseiller Matthieu, ouvrage de valeur</l>
-            <l>Et plein de beaux dictons à réciter par cœur.</l>
-            <l>La Guide des pécheurs est encore un bon livre ;</l>
-            <l>C’est là qu’en peu de temps on apprend à bien vivre,</l>
-            <l>Et si vous n’aviez lu que ces Moralités,</l>
-            <l n="40">Vous sauriez un peu mieux suivre mes volontés.</l>
+            <l n="24" xml:id="l24">Eh bien hélas ! que veut dire ceci,</l>
+            <l n="25" xml:id="l25">Voyez le bel <hi rend="i">hélas</hi> ! qu’elle nous donne ici.</l>
+            <l n="26" xml:id="l26">Hé ! que si la colère une fois me transporte,</l>
+            <l n="27" xml:id="l27">Je vous ferai chanter hélas ! de belle sorte.</l>
+            <l n="28" xml:id="l28">Voilà, voilà, le fruit de ces empressements</l>
+            <l n="29" xml:id="l29">Qu’on vous voit nuit et jour à lire vos Romans,</l>
+            <l n="30" xml:id="l30">De quolibets d’amour votre tête est remplie,</l>
+            <l n="31" xml:id="l31">Et vous parlez de Dieu, bien moins que de Clélie.</l>
+            <l n="32" xml:id="l32">Jetez‑moi dans le feu tous ces méchants écrits</l>
+            <l n="33" xml:id="l33">Qui gâtent tous les jours tant de jeunes esprits,</l>
+            <l n="34" xml:id="l34">Lisez‑moi comme il faut, au lieu de ces sornettes</l>
+            <l n="35" xml:id="l35">Les quatrains de Pibrac, et les doctes Tablettes</l>
+            <l n="36" xml:id="l36">Du Conseiller Matthieu, ouvrage de valeur</l>
+            <l n="37" xml:id="l37">Et plein de beaux dictons à réciter par cœur.</l>
+            <l n="38" xml:id="l38">La Guide des pécheurs est encore un bon livre ;</l>
+            <l n="39" xml:id="l39">C’est là qu’en peu de temps on apprend à bien vivre,</l>
+            <l n="40" xml:id="l40">Et si vous n’aviez lu que ces Moralités,</l>
+            <l n="41" xml:id="l41">Vous sauriez un peu mieux suivre mes volontés.</l>
           </sp>
-          <sp who="celie" xml:id="I01-5">
+          <sp xml:id="I01-5" who="celie">
             <speaker>Célie</speaker>
-            <l>Quoi vous prétendez donc mon père, que j’oublie</l>
-            <l>La constante amitié que je dois à Lélie ?</l>
-            <l>J’aurais tort si sans vous je disposais de moi ;</l>
-            <l>Mais vous‑même à ses vœux engageâtes ma foi.</l>
+            <l n="42" xml:id="l42">Quoi vous prétendez donc mon père, que j’oublie</l>
+            <l n="43" xml:id="l43">La constante amitié que je dois à Lélie ?</l>
+            <l n="44" xml:id="l44">J’aurais tort si sans vous je disposais de moi ;</l>
+            <l n="45" xml:id="l45">Mais vous‑même à ses vœux engageâtes ma foi.</l>
           </sp>
-          <sp who="gorgibus" xml:id="I01-6">
+          <sp xml:id="I01-6" who="gorgibus">
             <speaker>Gorgibus</speaker>
-            <l n="45">Lui fût-elle engagée encore davantage,</l>
-            <l>Un autre est survenu dont le bien l’en dégage.</l>
-            <l>Lélie est fort bien fait ; mais apprends qu’il n’est rien</l>
-            <l>Qui ne doive céder au soin d’avoir du bien,</l>
-            <l>Que l’or donne aux plus laids certain charme pour plaire,</l>
-            <l n="50">Et que sans lui le reste est une triste affaire.</l>
-            <l>Valère, je crois bien, n’est pas de toi chéri ;</l>
-            <l>Mais s’il ne l’est amant, il le sera mari.</l>
-            <l>Plus que l’on ne le croit, ce nom d’époux engage</l>
-            <l>Et l’amour est souvent un fruit du mariage.</l>
-            <l n="55">Mais suis-je pas bien fat de vouloir raisonner,</l>
-            <l>Où de droit absolu j’ai pouvoir d’ordonner ?</l>
-            <l>Trêve donc je vous prie à vos impertinences,</l>
-            <l>Que je n’entende plus vos sottes doléances :</l>
-            <l>Ce gendre doit venir vous visiter ce soir,</l>
-            <l n="60">Manquez un peu, manquez, à le bien recevoir,</l>
-            <l>Si je ne vous lui vois faire fort bon visage</l>
-            <l>Je vous… je ne veux pas en dire davantage.</l>
+            <l n="46" xml:id="l46">Lui fût-elle engagée encore davantage,</l>
+            <l n="47" xml:id="l47">Un autre est survenu dont le bien l’en dégage.</l>
+            <l n="48" xml:id="l48">Lélie est fort bien fait ; mais apprends qu’il n’est rien</l>
+            <l n="49" xml:id="l49">Qui ne doive céder au soin d’avoir du bien,</l>
+            <l n="50" xml:id="l50">Que l’or donne aux plus laids certain charme pour plaire,</l>
+            <l n="51" xml:id="l51">Et que sans lui le reste est une triste affaire.</l>
+            <l n="52" xml:id="l52">Valère, je crois bien, n’est pas de toi chéri ;</l>
+            <l n="53" xml:id="l53">Mais s’il ne l’est amant, il le sera mari.</l>
+            <l n="54" xml:id="l54">Plus que l’on ne le croit, ce nom d’époux engage</l>
+            <l n="55" xml:id="l55">Et l’amour est souvent un fruit du mariage.</l>
+            <l n="56" xml:id="l56">Mais suis-je pas bien fat de vouloir raisonner,</l>
+            <l n="57" xml:id="l57">Où de droit absolu j’ai pouvoir d’ordonner ?</l>
+            <l n="58" xml:id="l58">Trêve donc je vous prie à vos impertinences,</l>
+            <l n="59" xml:id="l59">Que je n’entende plus vos sottes doléances :</l>
+            <l n="60" xml:id="l60">Ce gendre doit venir vous visiter ce soir,</l>
+            <l n="61" xml:id="l61">Manquez un peu, manquez, à le bien recevoir,</l>
+            <l n="62" xml:id="l62">Si je ne vous lui vois faire fort bon visage</l>
+            <l n="63" xml:id="l63">Je vous… je ne veux pas en dire davantage.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I02">
+        </div>
+        <div type="scene" xml:id="I02">
           <head>Scène II.</head>
           <stage>Célie, sa Suivante.</stage>
           <p rend="argument">Qui comparera cette seconde Scène à la première, confessera d’abord que l’Auteur de cette Pièce a un génie tout particulier pour les Ouvrages de Théâtre, et qu’il est du tout impossible que ses pièces ne réussissent pas, tant il sait bien de quelle manière il faut attacher l’esprit de l’Auditeur. En effet, nous voyons qu’après avoir fait voir dans la Scène précédente, un père pédagogue, qui tâche de persuader à sa fille que la richesse est préférable à l’amour, il fait parler dans celle-ci (afin de divertir l’Auditeur par la variété de la matière) une veuve suivante de Célie, et confidente toute ensemble, qui s’étonne de quoi sa Maîtresse répond par des larmes à des offres d’hymen, et après avoir dit qu’elle ne ferait pas de même si l’on la voulait marier, elle trouve moyen de décrire toutes les douceurs du mariage ; ce qu’elle exécute si bien, qu’elle en fait naître l’envie à celles qui n’en ont pas tâté. Sa maîtresse, comme font d’ordinaire celles qui n’ont jamais été mariées, l’écoute avec attention et ne recule le temps de jouir de ses douceurs, que parce qu’elle les veut goûter avec Lélie, qu’elle aime parfaitement, et qu’elles se changent toutes en amertumes, lorsque l’on les goûte avec une personne que l’on n’aime pas ; c’est pourquoi elle montre à sa Suivante le Portrait de Lélie ; pour la faire tomber d’accord de la bonne mine de ce Galant, et du sujet qu’elle a de l’aimer. Vous m’objecterez peut-être que cette fille le doit connaître, puisqu’elle demeure avec Célie, et que son père l’ayant promise à Lélie, cet Amant était souvent venu voir sa Maîtresse ; mais je vous répondrai que Lélie était à la Campagne devant qu’elle demeurât avec elle. Après cette digression, pour la justification de notre Auteur, voyons quels effets ce Portrait produit. Celle qui peu auparavant disait, qu’il ne fallait jamais rejeter des offres d’Hymen, avoue que Célie a sujet d’aimer tendrement un homme si bien fait, et Célie songeant qu’elle sera peut-être contrainte d’en épouser un autre s’évanouit : sa confidente appelle du secours. Cependant qu’il en viendra, vous pouvez lire ces Vers qui vous le feront attendre sans impatience.</p>
-          <sp who="suivante" xml:id="I02-1">
+          <sp xml:id="I02-1" who="suivante">
             <speaker>La Suivante</speaker>
-            <l>Quoi refuser Madame, avec cette rigueur,</l>
-            <l>Ce que tant d’autres gens voudraient de tout leur cœur ?</l>
-            <l n="65">À des offres d’hymen répondre par des larmes</l>
-            <l>Et tarder tant à dire un oui si plein de charmes ?</l>
-            <l>Hélas ! que ne veut-on aussi me marier,</l>
-            <l>Ce ne serait pas moi qui se ferait prier,</l>
-            <l>Et loin qu’un pareil oui me donnât de la peine</l>
-            <l n="70">Croyez que j’en dirais bien vite une douzaine.</l>
-            <l>Le précepteur qui fait répéter la leçon</l>
-            <l>À votre jeune frère, a fort bonne raison,</l>
-            <l>Lorsque nous discourant des choses de la terre,</l>
-            <l>Il dit que la femelle est ainsi que le lierre,</l>
-            <l n="75">Qui croît beau tant qu’à l’arbre il se tient bien serré</l>
-            <l>Et ne profite point s’il en est séparé.</l>
-            <l>Il n’est rien de plus vrai, ma très chère maîtresse,</l>
-            <l>Et je l’éprouve en moi chétive pécheresse.</l>
-            <l>Le bon Dieu fasse paix à mon pauvre Martin,</l>
-            <l n="80">Mais j’avais, lui vivant, le teint d’un Chérubin,</l>
-            <l>L’embonpoint merveilleux, l’œil gai, l’âme contente,</l>
-            <l>Et je suis maintenant ma commère dolente.</l>
-            <l>Pendant cet heureux temps, passé comme un éclair,</l>
-            <l>Je me couchais sans feu dans le fort de l’Hiver,</l>
-            <l n="85">Sécher même les draps me semblait ridicule,</l>
-            <l>Et je tremble à présent dedans la Canicule.</l>
-            <l>Enfin, il n’est rien tel, Madame, croyez-moi,</l>
-            <l>Un mari sert beaucoup la nuit auprès de soi,</l>
-            <l>Ne fût-ce que pour l’heur d’avoir qui vous salue</l>
-            <l n="90">D’un Dieu vous soit en aide alors qu’on éternue.</l>
+            <l n="64" xml:id="l64">Quoi refuser Madame, avec cette rigueur,</l>
+            <l n="65" xml:id="l65">Ce que tant d’autres gens voudraient de tout leur cœur ?</l>
+            <l n="66" xml:id="l66">À des offres d’hymen répondre par des larmes</l>
+            <l n="67" xml:id="l67">Et tarder tant à dire un oui si plein de charmes ?</l>
+            <l n="68" xml:id="l68">Hélas ! que ne veut-on aussi me marier,</l>
+            <l n="69" xml:id="l69">Ce ne serait pas moi qui se ferait prier,</l>
+            <l n="70" xml:id="l70">Et loin qu’un pareil oui me donnât de la peine</l>
+            <l n="71" xml:id="l71">Croyez que j’en dirais bien vite une douzaine.</l>
+            <l n="72" xml:id="l72">Le précepteur qui fait répéter la leçon</l>
+            <l n="73" xml:id="l73">À votre jeune frère, a fort bonne raison,</l>
+            <l n="74" xml:id="l74">Lorsque nous discourant des choses de la terre,</l>
+            <l n="75" xml:id="l75">Il dit que la femelle est ainsi que le lierre,</l>
+            <l n="76" xml:id="l76">Qui croît beau tant qu’à l’arbre il se tient bien serré</l>
+            <l n="77" xml:id="l77">Et ne profite point s’il en est séparé.</l>
+            <l n="78" xml:id="l78">Il n’est rien de plus vrai, ma très chère maîtresse,</l>
+            <l n="79" xml:id="l79">Et je l’éprouve en moi chétive pécheresse.</l>
+            <l n="80" xml:id="l80">Le bon Dieu fasse paix à mon pauvre Martin,</l>
+            <l n="81" xml:id="l81">Mais j’avais, lui vivant, le teint d’un Chérubin,</l>
+            <l n="82" xml:id="l82">L’embonpoint merveilleux, l’œil gai, l’âme contente,</l>
+            <l n="83" xml:id="l83">Et je suis maintenant ma commère dolente.</l>
+            <l n="84" xml:id="l84">Pendant cet heureux temps, passé comme un éclair,</l>
+            <l n="85" xml:id="l85">Je me couchais sans feu dans le fort de l’Hiver,</l>
+            <l n="86" xml:id="l86">Sécher même les draps me semblait ridicule,</l>
+            <l n="87" xml:id="l87">Et je tremble à présent dedans la Canicule.</l>
+            <l n="88" xml:id="l88">Enfin, il n’est rien tel, Madame, croyez-moi,</l>
+            <l n="89" xml:id="l89">Un mari sert beaucoup la nuit auprès de soi,</l>
+            <l n="90" xml:id="l90">Ne fût-ce que pour l’heur d’avoir qui vous salue</l>
+            <l n="91" xml:id="l91">D’un Dieu vous soit en aide alors qu’on éternue.</l>
           </sp>
-          <sp who="celie" xml:id="I02-2">
+          <sp xml:id="I02-2" who="celie">
             <speaker>Célie</speaker>
-            <l>Peux-tu me conseiller de commettre un forfait,</l>
-            <l>D’abandonner Lélie, et prendre ce mal-fait ?</l>
+            <l n="92" xml:id="l92">Peux-tu me conseiller de commettre un forfait,</l>
+            <l n="93" xml:id="l93">D’abandonner Lélie, et prendre ce mal-fait ?</l>
           </sp>
-          <sp who="suivante" xml:id="I02-3">
+          <sp xml:id="I02-3" who="suivante">
             <speaker>La Suivante</speaker>
-            <l>Votre Lélie aussi n’est ma foi qu’une bête,</l>
-            <l>Puisque si hors de temps son voyage l’arrête,</l>
-            <l n="95">Et la grande longueur de son éloignement</l>
-            <l>Me le fait soupçonner de quelque changement.</l>
+            <l n="94" xml:id="l94">Votre Lélie aussi n’est ma foi qu’une bête,</l>
+            <l n="95" xml:id="l95">Puisque si hors de temps son voyage l’arrête,</l>
+            <l n="96" xml:id="l96">Et la grande longueur de son éloignement</l>
+            <l n="97" xml:id="l97">Me le fait soupçonner de quelque changement.</l>
           </sp>
-          <sp who="celie" xml:id="I02-4">
+          <sp xml:id="I02-4" who="celie">
             <speaker>Célie, <hi rend="i">lui montrant le portrait de Lélie</hi></speaker>
-            <l>Ah ! ne m’accable point par ce triste présage,</l>
-            <l>Vois attentivement les traits de ce visage,</l>
-            <l>Ils jurent à mon cœur d’éternelles ardeurs,</l>
-            <l n="100">Je veux croire après tout qu’ils ne sont pas menteurs,</l>
-            <l>Et comme c’est celui que l’art y représente</l>
-            <l>Il conserve à mes feux une amitié constante.</l>
+            <l n="98" xml:id="l98">Ah ! ne m’accable point par ce triste présage,</l>
+            <l n="99" xml:id="l99">Vois attentivement les traits de ce visage,</l>
+            <l n="100" xml:id="l100">Ils jurent à mon cœur d’éternelles ardeurs,</l>
+            <l n="101" xml:id="l101">Je veux croire après tout qu’ils ne sont pas menteurs,</l>
+            <l n="102" xml:id="l102">Et comme c’est celui que l’art y représente</l>
+            <l n="103" xml:id="l103">Il conserve à mes feux une amitié constante.</l>
           </sp>
-          <sp who="suivante" xml:id="I02-5">
+          <sp xml:id="I02-5" who="suivante">
             <speaker>La Suivante</speaker>
-            <l>Il est vrai que ces traits marquent un digne amant,</l>
-            <l>Et que vous avez lieu de l’aimer tendrement.</l>
+            <l n="104" xml:id="l104">Il est vrai que ces traits marquent un digne amant,</l>
+            <l n="105" xml:id="l105">Et que vous avez lieu de l’aimer tendrement.</l>
           </sp>
-          <sp who="celie" xml:id="I02-6">
+          <sp xml:id="I02-6" who="celie">
             <speaker>Célie</speaker>
-            <l>Et cependant il faut… ah ! soutiens-moi.</l>
+            <l n="106" xml:id="l106">Et cependant il faut… ah ! soutiens-moi.</l>
             <stage>Laissant tomber le Portrait de Lélie.</stage>
           </sp>
-          <sp who="suivante" xml:id="I02-7">
+          <sp xml:id="I02-7" who="suivante">
             <speaker>La Suivante </speaker>
-            <l n="105">Madame,</l>
-            <l>D’où vous pourrait venir… ah ! bons Dieux elle pâme.</l>
-            <l>Hé ! vite, holà, quelqu’un.</l>
+            <l n="107" xml:id="l107">Madame,</l>
+            <l n="108" xml:id="l108">D’où vous pourrait venir… ah ! bons Dieux elle pâme.</l>
+            <l n="109" xml:id="l109">Hé ! vite, holà, quelqu’un.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I03">
+        </div>
+        <div type="scene" xml:id="I03">
           <head>Scène III.</head>
           <stage>Célie, la Suivante, Sganarelle.</stage>
           <p rend="argument">Cette Scène est fort courte, et Sganarelle, comme un des plus proches voisins de Célie, accourt aux cris de cette Suivante qui lui donne sa Maîtresse à soutenir ; cependant qu’elle va chercher encore du secours d’un autre côté, comme vous pouvez voir par ce qui suit.</p>
-          <sp who="sganarelle" xml:id="I03-1">
+          <sp xml:id="I03-1" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Qu’est-ce donc ? me voilà.</l>
+            <l n="110" xml:id="l110">Qu’est-ce donc ? me voilà.</l>
           </sp>
-          <sp who="suivante" xml:id="I03-2">
+          <sp xml:id="I03-2" who="suivante">
             <speaker>La Suivante</speaker>
-            <l>Ma maîtresse se meurt.</l>
+            <l n="111" xml:id="l111">Ma maîtresse se meurt.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I03-3">
+          <sp xml:id="I03-3" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Quoi ce n’est que cela,</l>
-            <l>Je croyais tout perdu de crier de la sorte ;</l>
-            <l n="110">Mais approchons pourtant. Madame êtes-vous morte ?</l>
-            <l>Hays, elle ne dit mot.</l>
+            <l n="112" xml:id="l112">Quoi ce n’est que cela,</l>
+            <l n="113" xml:id="l113">Je croyais tout perdu de crier de la sorte ;</l>
+            <l n="114" xml:id="l114">Mais approchons pourtant. Madame êtes-vous morte ?</l>
+            <l n="115" xml:id="l115">Hays, elle ne dit mot.</l>
           </sp>
-          <sp who="suivante" xml:id="I03-4">
+          <sp xml:id="I03-4" who="suivante">
             <speaker>La Suivante</speaker>
-            <l>Je vais faire venir</l>
-            <l>Quelqu’un pour l’emporter, veuillez la soutenir.</l>
+            <l n="116" xml:id="l116">Je vais faire venir</l>
+            <l n="117" xml:id="l117">Quelqu’un pour l’emporter, veuillez la soutenir.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I04">
+        </div>
+        <div type="scene" xml:id="I04">
           <head>Scène IV.</head>
           <stage>Célie, Sganarelle, sa Femme.</stage>
           <p rend="argument">Cette Scène n’est pas plus longue que la précédente, et la femme de Sganarelle, regardant par la fenêtre, prend de la jalousie de son mari, à qui elle voit tenir une femme entre ses bras et descend pour le surprendre, cependant qu’il aide à remporter Célie chez elle. Ce que vous pourrez voir en lisant ces vers.</p>
-          <sp who="sganarelle" xml:id="I04-1">
+          <sp xml:id="I04-1" who="sganarelle">
             <speaker>Sganarelle, <hi rend="i">en lui passant la main sur le sein</hi>.</speaker>
-            <l>Elle est froide partout, et je ne sais qu’en dire,</l>
-            <l>Approchons‑nous pour voir si sa bouche respire.</l>
-            <l n="115">Ma foi je ne sais pas ; mais j’y trouve encor moi</l>
-            <l>Quelque signe de vie.</l>
+            <l n="118" xml:id="l118">Elle est froide partout, et je ne sais qu’en dire,</l>
+            <l n="119" xml:id="l119">Approchons‑nous pour voir si sa bouche respire.</l>
+            <l n="120" xml:id="l120">Ma foi je ne sais pas ; mais j’y trouve encor moi</l>
+            <l n="121" xml:id="l121">Quelque signe de vie.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I04-2">
+          <sp xml:id="I04-2" who="femme-sganarelle">
             <speaker>La Femme de Sganarelle, <hi rend="i">regardant par la fenêtre</hi>.</speaker>
-            <l>Ah ! qu’est-ce que je vois ?</l>
-            <l>Mon mari dans ses bras… mais je m’en vais descendre,</l>
-            <l>Il me trahit sans doute, et je veux le surprendre.</l>
+            <l n="122" xml:id="l122">Ah ! qu’est-ce que je vois ?</l>
+            <l n="123" xml:id="l123">Mon mari dans ses bras… mais je m’en vais descendre,</l>
+            <l n="124" xml:id="l124">Il me trahit sans doute, et je veux le surprendre.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I04-3">
+          <sp xml:id="I04-3" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Il faut se dépêcher de l’aller secourir,</l>
-            <l n="120">Certes elle aurait tort de se laisser mourir,</l>
-            <l>Aller en l’autre monde est très grande sottise</l>
-            <l>Tant que dans celui-ci l’on peut -être de mise.</l>
+            <l n="125" xml:id="l125">Il faut se dépêcher de l’aller secourir,</l>
+            <l n="126" xml:id="l126">Certes elle aurait tort de se laisser mourir,</l>
+            <l n="127" xml:id="l127">Aller en l’autre monde est très grande sottise</l>
+            <l n="128" xml:id="l128">Tant que dans celui-ci l’on peut -être de mise.</l>
             <stage>Il l’emporte avec un homme que la suivante amène.</stage>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I05">
+        </div>
+        <div type="scene" xml:id="I05">
           <head>Scène V.</head>
           <stage>La Femme de sganarelle <hi rend="i">seule.</hi></stage>
           <p rend="argument">L’Auteur, qui comme nous avons dit ci-dessus, sait tout à fait bien ménager l’esprit de son Auditeur, après l’avoir diverti dans les deux précédentes Scènes, dont la beauté consiste presque toute dans l’action, l’attache dans celle-ci par un raisonnement si juste, que l’on ne pourra qu’à peine se l’imaginer, si l’on en considère la matière ; mais il n’appartient qu’à des plumes, comme la sienne, à faire beaucoup de peu, et voici pour satisfaire votre curiosité le sujet de cette Scène. La femme de Sganarelle étant descendue, et n’ayant point trouvé son mari, fait éclater sa jalousie, mais d’une manière si surprenante et si extraordinaire, que quoique cette matière ait été fort souvent rebattue, jamais personne ne l’a traitée avec tant de succès, d’une manière si contraire à celle de toutes les autres femmes, qui n’ont recours qu’aux emportements en de semblables rencontres, et comme il m’a été presque impossible de vous l’exprimer aussi bien que lui ; Ces vers vous en feront connaître la beauté.</p>
-          <sp who="femme-sganarelle" xml:id="I05-1">
+          <sp xml:id="I05-1" who="femme-sganarelle">
             <speaker>La Femme de Sganarelle <hi rend="i">seule.</hi></speaker>
-            <l>Il s’est subitement éloigné de ces lieux,</l>
-            <l>Et sa fuite a trompé mon désir curieux.</l>
-            <l n="125">Mais de sa trahison je ne fais plus de doute,</l>
-            <l>Et le peu que j’ai vu me la découvre toute.</l>
-            <l>Je ne m’étonne plus de l’étrange froideur</l>
-            <l>Dont je le vois répondre à ma pudique ardeur,</l>
-            <l>Il réserve l’ingrat ses caresses à d’autres,</l>
-            <l n="130">Et nourrit leurs plaisirs par le jeûne des nôtres.</l>
-            <l>Voilà de nos maris, le procédé commun,</l>
-            <l>Ce qui leur est permis, leur devient importun.</l>
-            <l>Dans les commencements ce sont toutes merveilles,</l>
-            <l>Ils témoignent pour nous des ardeurs non pareilles ;</l>
-            <l n="135">Mais les traîtres bientôt se lassent de nos feux,</l>
-            <l>Et portent autre part ce qu’ils doivent chez eux.</l>
-            <l>Ah ! que j’ai de dépit, que la loi n’autorise,</l>
-            <l>À changer de mari comme on fait de chemise :</l>
-            <l>Cela serait commode, et j’en sais tel ici</l>
-            <l n="140">Qui comme moi ma foi le voudrait bien aussi.</l>
+            <l n="129" xml:id="l129">Il s’est subitement éloigné de ces lieux,</l>
+            <l n="130" xml:id="l130">Et sa fuite a trompé mon désir curieux.</l>
+            <l n="131" xml:id="l131">Mais de sa trahison je ne fais plus de doute,</l>
+            <l n="132" xml:id="l132">Et le peu que j’ai vu me la découvre toute.</l>
+            <l n="133" xml:id="l133">Je ne m’étonne plus de l’étrange froideur</l>
+            <l n="134" xml:id="l134">Dont je le vois répondre à ma pudique ardeur,</l>
+            <l n="135" xml:id="l135">Il réserve l’ingrat ses caresses à d’autres,</l>
+            <l n="136" xml:id="l136">Et nourrit leurs plaisirs par le jeûne des nôtres.</l>
+            <l n="137" xml:id="l137">Voilà de nos maris, le procédé commun,</l>
+            <l n="138" xml:id="l138">Ce qui leur est permis, leur devient importun.</l>
+            <l n="139" xml:id="l139">Dans les commencements ce sont toutes merveilles,</l>
+            <l n="140" xml:id="l140">Ils témoignent pour nous des ardeurs non pareilles ;</l>
+            <l n="141" xml:id="l141">Mais les traîtres bientôt se lassent de nos feux,</l>
+            <l n="142" xml:id="l142">Et portent autre part ce qu’ils doivent chez eux.</l>
+            <l n="143" xml:id="l143">Ah ! que j’ai de dépit, que la loi n’autorise,</l>
+            <l n="144" xml:id="l144">À changer de mari comme on fait de chemise :</l>
+            <l n="145" xml:id="l145">Cela serait commode, et j’en sais tel ici</l>
+            <l n="146" xml:id="l146">Qui comme moi ma foi le voudrait bien aussi.</l>
             <stage>En ramassant le Portrait que Célie avait laissé tomber.</stage>
-            <l>Mais quel est ce bijou que le sort me présente ?</l>
-            <l>L’émail en est fort beau, la gravure charmante,</l>
-            <l>Ouvrons.</l>
+            <l n="147" xml:id="l147">Mais quel est ce bijou que le sort me présente ?</l>
+            <l n="148" xml:id="l148">L’émail en est fort beau, la gravure charmante,</l>
+            <l n="149" xml:id="l149">Ouvrons.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I06">
+        </div>
+        <div type="scene" xml:id="I06">
           <head>Scène VI.</head>
           <stage>Sganarelle, et sa Femme.</stage>
           <p rend="argument">Quelques beautés que l’auteur ait fait voir dans la Scène précédente, ne croyez pas qu’il soit de ceux qui souvent après un beau début donnent (pour parler vulgairement) du nez en terre puisque plus vous avancerez dans la lecture de cette Pièce, plus vous y découvrirez de beautés, et pour en être persuadé, il ne faut que jeter les yeux sur cette Scène, qui en fait le fondement. Célie en s’évanouissant, ayant laissé tomber le portrait de son Amant, la femme de Sganarelle le ramasse, et comme elle le considère attentivement, son mari ayant aidé à reporter Célie chez elle, rentre sur la Scène et regarde par dessus l’épaule de sa femme, ce qu’elle considère : et voyant ce portrait, commence d’entrer en quelque sorte de jalousie, lorsque sa femme s’avise de le sentir, ce qui confirme ces soupçons, dans la pensée qu’il a qu’elle le baise ; mais il ne doute bientôt plus qu’il est de la grande Confrérie, quand il entend dire à sa femme, qu’elle souhaiterait d’avoir un Époux d’une aussi bonne mine : c’est alors qu’en la surprenant, il lui arrache ce portrait. Mais devant que de parler des discours qu’ils tiennent ensemble sur le sujet de leur jalousie, il est à propos de vous dire, qu’il ne s’est jamais rien vu de si agréable que les postures de Sganarelle, quand il est derrière sa femme, son visage et ses gestes expriment si bien la jalousie, qu’il ne serait pas nécessaire qu’il parlât pour paraître le plus jaloux de tous les hommes : Il reproche à sa femme son infidélité et tâche de lui persuader qu’elle est d’autant plus coupable qu’elle a un mari qui (soit pour les qualités du corps, soit pour celles de l’esprit) est entièrement parfait. Sa femme qui d’un autre côté croit avoir autant et plus de sujet que lui d’avoir martel en tête, s’emporte contre lui en lui redemandant son bijou ; tellement que chacun croyant avoir raison, cette dispute donne un agréable divertissement à l’auditeur, à quoi Sganarelle contribue beaucoup par des gestes qui sont inimitables et qui ne se peuvent exprimer sur le papier. Sa femme étant lasse d’ouïr ses reproches lui arrache portrait qu’il lui avait pris et s’enfuit, et Sganarelle court après elle. Vous auriez sujet de me quereller, si je ne vous envoyais pas les Vers d’une Scène qui fait le fondement de cette Pièce : c’est pourquoi je satisfais à votre curiosité.</p>
-          <sp who="sganarelle" xml:id="I06-1">
+          <sp xml:id="I06-1" who="sganarelle">
             <speaker> sganarelle</speaker>
-            <l>On la croyait morte et ce n’était rien,</l>
-            <l>Il n’en faut plus qu’autant, elle se porte bien.</l>
-            <l>Mais j’aperçois ma femme.</l>
+            <l n="150" xml:id="l150">On la croyait morte et ce n’était rien,</l>
+            <l n="151" xml:id="l151">Il n’en faut plus qu’autant, elle se porte bien.</l>
+            <l n="152" xml:id="l152">Mais j’aperçois ma femme.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I06-2">
+          <sp xml:id="I06-2" who="femme-sganarelle">
             <speaker>Sa Femme</speaker>
-            <l>Ô Ciel ! c’est miniature,    </l>
-            <l>Et voilà d’un bel homme une vive peinture.</l>
+            <l n="153" xml:id="l153">Ô Ciel ! c’est miniature,    </l>
+            <l n="154" xml:id="l154">Et voilà d’un bel homme une vive peinture.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I06-3">
+          <sp xml:id="I06-3" who="sganarelle">
             <speaker>Sganarelle, <hi rend="i">à part et regardant sur l’épaule de sa femme</hi>.</speaker>
-            <l>Que considère-t-elle avec attention,</l>
-            <l>Ce portrait, mon honneur, ne nous dit rien de bon,</l>
-            <l>D’un fort vilain soupçon je me sens l’âme émue.</l>
+            <l n="155" xml:id="l155">Que considère-t-elle avec attention,</l>
+            <l n="156" xml:id="l156">Ce portrait, mon honneur, ne nous dit rien de bon,</l>
+            <l n="157" xml:id="l157">D’un fort vilain soupçon je me sens l’âme émue.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I06-4">
+          <sp xml:id="I06-4" who="femme-sganarelle">
             <speaker>Sa Femme, <hi rend="i">sans l’apercevoir continue</hi>.</speaker>
-            <l n="150">Jamais rien de plus beau ne s’offrit à ma vue.</l>
-            <l>Le travail plus que l’or s’en doit encor priser.</l>
-            <l>Hon que cela sent bon.</l>
+            <l n="158" xml:id="l158">Jamais rien de plus beau ne s’offrit à ma vue.</l>
+            <l n="159" xml:id="l159">Le travail plus que l’or s’en doit encor priser.</l>
+            <l n="160" xml:id="l160">Hon que cela sent bon.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I06-5">
+          <sp xml:id="I06-5" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">à part</hi>.</speaker>
-            <l>Quoi peste le baiser?</l>
-            <l>Ah ! j’en tiens.</l>
+            <l n="161" xml:id="l161">Quoi peste le baiser?</l>
+            <l n="162" xml:id="l162">Ah ! j’en tiens.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I06-6">
+          <sp xml:id="I06-6" who="femme-sganarelle">
             <speaker>Sa Femme <hi rend="i">poursuit</hi>.</speaker>
-            <l>Avouons qu’on doit être ravie</l>
-            <l>Quand d’un homme ainsi fait on se peut voir servie,</l>
-            <l n="155">Et que s’il en contait avec attention,</l>
-            <l>Le penchant serait grand à la tentation.</l>
-            <l>Ah ! que n’ai-je un mari d’une aussi bonne mine,</l>
-            <l>Au lieu de mon pelé, de mon rustre…</l>
+            <l n="163" xml:id="l163">Avouons qu’on doit être ravie</l>
+            <l n="164" xml:id="l164">Quand d’un homme ainsi fait on se peut voir servie,</l>
+            <l n="165" xml:id="l165">Et que s’il en contait avec attention,</l>
+            <l n="166" xml:id="l166">Le penchant serait grand à la tentation.</l>
+            <l n="167" xml:id="l167">Ah ! que n’ai-je un mari d’une aussi bonne mine,</l>
+            <l n="168" xml:id="l168">Au lieu de mon pelé, de mon rustre…</l>
           </sp>
-          <sp who="sganarelle" xml:id="I06-7">
+          <sp xml:id="I06-7" who="sganarelle">
             <speaker>Sganarelle, <hi rend="i">lui arrachant le portrait</hi>.</speaker>
-            <l>Ah ! mâtine,</l>
-            <l>Nous vous y surprenons en faute contre nous,</l>
-            <l n="160">Et diffamant l’honneur de votre cher époux :</l>
-            <l>Donc à votre calcul, ô ma trop digne femme !</l>
-            <l>Monsieur, tout bien compté, ne vaut pas bien Madame ?</l>
-            <l>Et de par Belzébuth qui vous puisse emporter,</l>
-            <l>Quel plus rare parti pourriez-vous souhaiter ?</l>
-            <l n="165">Peut-on trouver en moi quelque chose à redire ?</l>
-            <l>Cette taille, ce port, que tout le monde admire,</l>
-            <l>Ce visage si propre à donner de l’amour,</l>
-            <l>Pour qui mille beautés soupirent nuit et jour ;</l>
-            <l>Bref en tout et partout ma personne charmante,</l>
-            <l n="170">N’est donc pas un morceau dont vous soyez contente,</l>
-            <l>Et pour rassasier votre appétit gourmand,</l>
-            <l>Il faut à son Mari le ragoût d’un galant.</l>
+            <l n="169" xml:id="l169">Ah ! mâtine,</l>
+            <l n="170" xml:id="l170">Nous vous y surprenons en faute contre nous,</l>
+            <l n="171" xml:id="l171">Et diffamant l’honneur de votre cher époux :</l>
+            <l n="172" xml:id="l172">Donc à votre calcul, ô ma trop digne femme !</l>
+            <l n="173" xml:id="l173">Monsieur, tout bien compté, ne vaut pas bien Madame ?</l>
+            <l n="174" xml:id="l174">Et de par Belzébuth qui vous puisse emporter,</l>
+            <l n="175" xml:id="l175">Quel plus rare parti pourriez-vous souhaiter ?</l>
+            <l n="176" xml:id="l176">Peut-on trouver en moi quelque chose à redire ?</l>
+            <l n="177" xml:id="l177">Cette taille, ce port, que tout le monde admire,</l>
+            <l n="178" xml:id="l178">Ce visage si propre à donner de l’amour,</l>
+            <l n="179" xml:id="l179">Pour qui mille beautés soupirent nuit et jour ;</l>
+            <l n="180" xml:id="l180">Bref en tout et partout ma personne charmante,</l>
+            <l n="181" xml:id="l181">N’est donc pas un morceau dont vous soyez contente,</l>
+            <l n="182" xml:id="l182">Et pour rassasier votre appétit gourmand,</l>
+            <l n="183" xml:id="l183">Il faut à son Mari le ragoût d’un galant.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I06-8">
+          <sp xml:id="I06-8" who="femme-sganarelle">
             <speaker>Sa Femme</speaker>
-            <l>J’entends à demi-mot où va la raillerie,</l>
-            <l>Tu crois par ce moyen…</l>
+            <l n="184" xml:id="l184">J’entends à demi-mot où va la raillerie,</l>
+            <l n="185" xml:id="l185">Tu crois par ce moyen…</l>
           </sp>
-          <sp who="sganarelle" xml:id="I06-9">
+          <sp xml:id="I06-9" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>À d’autres je vous prie,</l>
-            <l n="175">La chose est avérée, et je tiens dans mes mains</l>
-            <l>Un bon certificat du mal dont je me plains.</l>
+            <l n="186" xml:id="l186">À d’autres je vous prie,</l>
+            <l n="187" xml:id="l187">La chose est avérée, et je tiens dans mes mains</l>
+            <l n="188" xml:id="l188">Un bon certificat du mal dont je me plains.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I06-10">
+          <sp xml:id="I06-10" who="femme-sganarelle">
             <speaker>Sa Femme</speaker>
-            <l>Mon courroux n’a déjà que trop de violence,</l>
-            <l>Sans le charger encor d’une nouvelle offense ;</l>
-            <l>Écoute, ne crois pas retenir mon bijou,</l>
-            <l>Et songe un peu…</l>
+            <l n="189" xml:id="l189">Mon courroux n’a déjà que trop de violence,</l>
+            <l n="190" xml:id="l190">Sans le charger encor d’une nouvelle offense ;</l>
+            <l n="191" xml:id="l191">Écoute, ne crois pas retenir mon bijou,</l>
+            <l n="192" xml:id="l192">Et songe un peu…</l>
           </sp>
-          <sp who="sganarelle" xml:id="I06-11">
+          <sp xml:id="I06-11" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="180">Je songe à te rompre le cou.</l>
-            <l>Que ne puis-je, aussi bien que je tiens la copie,</l>
-            <l>Tenir l’original.</l>
+            <l n="193" xml:id="l193">Je songe à te rompre le cou.</l>
+            <l n="194" xml:id="l194">Que ne puis-je, aussi bien que je tiens la copie,</l>
+            <l n="195" xml:id="l195">Tenir l’original.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I06-12">
+          <sp xml:id="I06-12" who="femme-sganarelle">
             <speaker>Sa Femme</speaker>
-            <l>Pourquoi ?</l>
+            <l n="196" xml:id="l196">Pourquoi ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I06-13">
+          <sp xml:id="I06-13" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Pour rien mamie,</l>
-            <l>Doux objet de mes vœux j’ai grand tort de crier,</l>
-            <l>Et mon front de vos dons vous doit remercier.</l>
+            <l n="197" xml:id="l197">Pour rien mamie,</l>
+            <l n="198" xml:id="l198">Doux objet de mes vœux j’ai grand tort de crier,</l>
+            <l n="199" xml:id="l199">Et mon front de vos dons vous doit remercier.</l>
             <stage>Regardant le portrait de Lélie.</stage>
-            <l n="185">Le voilà le beau-fils, le mignon de couchette,</l>
-            <l>Le malheureux tison de ta flamme secrète,</l>
-            <l>Le drôle avec lequel…</l>
+            <l n="200" xml:id="l200">Le voilà le beau-fils, le mignon de couchette,</l>
+            <l n="201" xml:id="l201">Le malheureux tison de ta flamme secrète,</l>
+            <l n="202" xml:id="l202">Le drôle avec lequel…</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I06-14">
+          <sp xml:id="I06-14" who="femme-sganarelle">
             <speaker>Sa Femme</speaker>
-            <l>Avec lequel, poursuis ?</l>
+            <l n="203" xml:id="l203">Avec lequel, poursuis ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I06-15">
+          <sp xml:id="I06-15" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Avec lequel, te dis-je… et j’en crève d’ennuis.</l>
+            <l n="204" xml:id="l204">Avec lequel, te dis-je… et j’en crève d’ennuis.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I06-16">
+          <sp xml:id="I06-16" who="femme-sganarelle">
             <speaker>Sa Femme</speaker>
-            <l>Que me veut donc conter par là ce maître ivrogne ?</l>
+            <l n="205" xml:id="l205">Que me veut donc conter par là ce maître ivrogne ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I06-17">
+          <sp xml:id="I06-17" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="190">Tu ne m’entends que trop Madame la carogne,</l>
-            <l>Sganarelle est un nom qu’on ne me dira plus,</l>
-            <l>Et l’on va m’appeler Seigneur Corneillius :</l>
-            <l>J’en suis pour mon honneur ; mais à toi qui me l’ôtes,</l>
-            <l>Je t’en ferai du moins pour un bras ou deux côtes.</l>
+            <l n="206" xml:id="l206">Tu ne m’entends que trop Madame la carogne,</l>
+            <l n="207" xml:id="l207">Sganarelle est un nom qu’on ne me dira plus,</l>
+            <l n="208" xml:id="l208">Et l’on va m’appeler Seigneur Corneillius :</l>
+            <l n="209" xml:id="l209">J’en suis pour mon honneur ; mais à toi qui me l’ôtes,</l>
+            <l n="210" xml:id="l210">Je t’en ferai du moins pour un bras ou deux côtes.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I06-18">
+          <sp xml:id="I06-18" who="femme-sganarelle">
             <speaker>Sa Femme</speaker>
-            <l n="195">Et tu m’oses tenir de semblables discours ?</l>
+            <l n="211" xml:id="l211">Et tu m’oses tenir de semblables discours ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I06-19">
+          <sp xml:id="I06-19" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Et tu m’oses jouer de ces diables de tours?</l>
+            <l n="212" xml:id="l212">Et tu m’oses jouer de ces diables de tours?</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I06-20">
+          <sp xml:id="I06-20" who="femme-sganarelle">
             <speaker>Sa Femme</speaker>
-            <l>Et quels diables de tours, parle donc sans rien feindre.</l>
+            <l n="213" xml:id="l213">Et quels diables de tours, parle donc sans rien feindre.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I06-21">
+          <sp xml:id="I06-21" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Ah ! cela ne vaut pas la peine de se plaindre,</l>
-            <l>D’un panache de Cerf sur le front me pourvoir,</l>
-            <l n="200">Hélas ! voilà vraiment un beau venez-y-voir.</l>
+            <l n="214" xml:id="l214">Ah ! cela ne vaut pas la peine de se plaindre,</l>
+            <l n="215" xml:id="l215">D’un panache de Cerf sur le front me pourvoir,</l>
+            <l n="216" xml:id="l216">Hélas ! voilà vraiment un beau venez-y-voir.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I06-22">
+          <sp xml:id="I06-22" who="femme-sganarelle">
             <speaker>Sa Femme</speaker>
-            <l>Donc après m’avoir fait la plus sensible offense</l>
-            <l>Qui puisse d’une femme exciter la vengeance,</l>
-            <l>Tu prends d’un feint courroux le vain amusement,</l>
-            <l>Pour prévenir l’effet de mon ressentiment ?</l>
-            <l n="205">D’un pareil procédé l’insolence est nouvelle,</l>
-            <l>Celui qui fait l’offense est celui qui querelle.</l>
+            <l n="217" xml:id="l217">Donc après m’avoir fait la plus sensible offense</l>
+            <l n="218" xml:id="l218">Qui puisse d’une femme exciter la vengeance,</l>
+            <l n="219" xml:id="l219">Tu prends d’un feint courroux le vain amusement,</l>
+            <l n="220" xml:id="l220">Pour prévenir l’effet de mon ressentiment ?</l>
+            <l n="221" xml:id="l221">D’un pareil procédé l’insolence est nouvelle,</l>
+            <l n="222" xml:id="l222">Celui qui fait l’offense est celui qui querelle.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I06-23">
+          <sp xml:id="I06-23" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Eh ! la bonne effrontée, à voir ce fier maintien</l>
-            <l>Ne la croirait-on pas une femme de bien?</l>
+            <l n="223" xml:id="l223">Eh ! la bonne effrontée, à voir ce fier maintien</l>
+            <l n="224" xml:id="l224">Ne la croirait-on pas une femme de bien?</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I06-24">
+          <sp xml:id="I06-24" who="femme-sganarelle">
             <speaker>Sa Femme</speaker>
-            <l>Va, poursuis ton chemin, cajole tes Maîtresses,</l>
-            <l n="210">Adresse-leur tes vœux et fais-leur des caresses ;</l>
-            <l>Mais rends-moi mon portrait, sans te jouer de moi.</l>
+            <l n="225" xml:id="l225">Va, poursuis ton chemin, cajole tes Maîtresses,</l>
+            <l n="226" xml:id="l226">Adresse-leur tes vœux et fais-leur des caresses ;</l>
+            <l n="227" xml:id="l227">Mais rends-moi mon portrait, sans te jouer de moi.</l>
             <stage>Elle lui arrache le portrait et s’enfuit.</stage>
           </sp>
-          <sp who="sganarelle" xml:id="I06-25">
+          <sp xml:id="I06-25" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">courant après elle</hi>.</speaker>
-            <l>Oui, tu crois m’échapper, je l’aurai malgré toi.</l>
+            <l n="228" xml:id="l228">Oui, tu crois m’échapper, je l’aurai malgré toi.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I07">
+        </div>
+        <div type="scene" xml:id="I07">
           <head>Scène VII.</head>
           <stage>Lélie, Gros-René.</stage>
           <p rend="argument">Lélie avait déjà trop causé de trouble dans l’esprit de tous nos Acteurs, pour ne pas venir faire paraître les siens sur la Scène : En effet, il n’y arrive pas plus tôt, que l’on voit la tristesse peinte sur son visage. Il fait voir que de la campagne où il était, il s’est rendu au plutôt à Paris, sur le bruit de l’hymen de Célie. Comme il est tout nouvellement arrivé, son valet le presse d’aller manger un morceau devant que d’aller apprendre des nouvelles de sa Maîtresse ; mais il n’y veut pas consentir, et voyant que son valet l’importune, il l’envoie manger, cependant qu’il va chercher à se délasser des fatigues de son voyage auprès de sa Maîtresse. Remarquez s’il vous plaît, ce que cette Scène contient, et je vous ferai voir en un autre endroit, que l’Auteur a infiniment de l’esprit, de l’avoir placée si à propos ; et pour vous en mieux faire ressouvenir, en voici les Vers.</p>
-          <sp who="grosrene" xml:id="I07-1">
+          <sp xml:id="I07-1" who="grosrene">
             <speaker>Grosrené</speaker>
-            <l>Enfin nous y voici ; mais Monsieur, si je l’ose,</l>
-            <l>Je voudrais vous prier de me dire une chose.</l>
+            <l n="229" xml:id="l229">Enfin nous y voici ; mais Monsieur, si je l’ose,</l>
+            <l n="230" xml:id="l230">Je voudrais vous prier de me dire une chose.</l>
           </sp>
-          <sp who="lelie" xml:id="I07-2">
+          <sp xml:id="I07-2" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Hé bien, parle.</l>
+            <l n="231" xml:id="l231">Hé bien, parle.</l>
           </sp>
-          <sp who="grosrene" xml:id="I07-3">
+          <sp xml:id="I07-3" who="grosrene">
             <speaker>Grosrené</speaker>
-            <l n="215">Avez-vous le diable dans le corps</l>
-            <l>Pour ne pas succomber à de pareils efforts ?</l>
-            <l>Depuis huit jours entiers avec vos longues traites</l>
-            <l>Nous sommes à piquer de chiennes de mazettes,</l>
-            <l>De qui le train maudit nous a tant secoués,</l>
-            <l n="220">Que je m’en sens pour moi tous les membres roués,</l>
-            <l>Sans préjudice encor d’un accident bien pire,</l>
-            <l>Qui m’afflige un endroit que je ne veux pas dire ;</l>
-            <l>Cependant arrivé, vous sortez bien et beau,</l>
-            <l>Sans prendre de repos, ni manger un morceau.</l>
+            <l n="232" xml:id="l232">Avez-vous le diable dans le corps</l>
+            <l n="233" xml:id="l233">Pour ne pas succomber à de pareils efforts ?</l>
+            <l n="234" xml:id="l234">Depuis huit jours entiers avec vos longues traites</l>
+            <l n="235" xml:id="l235">Nous sommes à piquer de chiennes de mazettes,</l>
+            <l n="236" xml:id="l236">De qui le train maudit nous a tant secoués,</l>
+            <l n="237" xml:id="l237">Que je m’en sens pour moi tous les membres roués,</l>
+            <l n="238" xml:id="l238">Sans préjudice encor d’un accident bien pire,</l>
+            <l n="239" xml:id="l239">Qui m’afflige un endroit que je ne veux pas dire ;</l>
+            <l n="240" xml:id="l240">Cependant arrivé, vous sortez bien et beau,</l>
+            <l n="241" xml:id="l241">Sans prendre de repos, ni manger un morceau.</l>
           </sp>
-          <sp who="lelie" xml:id="I07-4">
+          <sp xml:id="I07-4" who="lelie">
             <speaker>Lélie</speaker>
-            <l n="225">Ce grand empressement n’est point digne de blâme,</l>
-            <l>De l’hymen de Célie, on alarme mon âme ;</l>
-            <l>Tu sais que je l’adore, et je veux être instruit</l>
-            <l>Avant tout autre soin de ce funeste bruit.</l>
+            <l n="242" xml:id="l242">Ce grand empressement n’est point digne de blâme,</l>
+            <l n="243" xml:id="l243">De l’hymen de Célie, on alarme mon âme ;</l>
+            <l n="244" xml:id="l244">Tu sais que je l’adore, et je veux être instruit</l>
+            <l n="245" xml:id="l245">Avant tout autre soin de ce funeste bruit.</l>
           </sp>
-          <sp who="grosrene" xml:id="I07-5">
+          <sp xml:id="I07-5" who="grosrene">
             <speaker>Grosrené</speaker>
-            <l>Oui, mais un bon repas vous serait nécessaire</l>
-            <l n="230">Pour s’aller éclaircir, Monsieur, de cette affaire,</l>
-            <l>Et votre cœur sans doute en deviendrait plus fort</l>
-            <l>Pour pouvoir résister aux attaques du sort.</l>
-            <l>J’en juge par moi-même, et la moindre disgrâce,</l>
-            <l>Lorsque je suis à jeun, me saisit, me terrasse ;</l>
-            <l n="235">Mais quand j’ai bien mangé, mon âme est ferme à tout,</l>
-            <l>Et les plus grands revers n’en viendraient pas à bout.</l>
-            <l>Croyez-moi, bourrez-vous et sans réserve aucune,</l>
-            <l>Contre les coups que peut vous porter la fortune,</l>
-            <l>Et pour fermer chez vous l’entrée à la douleur,</l>
-            <l n="240">De vingt verres de vin entourez votre cœur.</l>
+            <l n="246" xml:id="l246">Oui, mais un bon repas vous serait nécessaire</l>
+            <l n="247" xml:id="l247">Pour s’aller éclaircir, Monsieur, de cette affaire,</l>
+            <l n="248" xml:id="l248">Et votre cœur sans doute en deviendrait plus fort</l>
+            <l n="249" xml:id="l249">Pour pouvoir résister aux attaques du sort.</l>
+            <l n="250" xml:id="l250">J’en juge par moi-même, et la moindre disgrâce,</l>
+            <l n="251" xml:id="l251">Lorsque je suis à jeun, me saisit, me terrasse ;</l>
+            <l n="252" xml:id="l252">Mais quand j’ai bien mangé, mon âme est ferme à tout,</l>
+            <l n="253" xml:id="l253">Et les plus grands revers n’en viendraient pas à bout.</l>
+            <l n="254" xml:id="l254">Croyez-moi, bourrez-vous et sans réserve aucune,</l>
+            <l n="255" xml:id="l255">Contre les coups que peut vous porter la fortune,</l>
+            <l n="256" xml:id="l256">Et pour fermer chez vous l’entrée à la douleur,</l>
+            <l n="257" xml:id="l257">De vingt verres de vin entourez votre cœur.</l>
           </sp>
-          <sp who="lelie" xml:id="I07-6">
+          <sp xml:id="I07-6" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Je ne saurais manger.</l>
+            <l n="258" xml:id="l258">Je ne saurais manger.</l>
           </sp>
-          <sp who="grosrene" xml:id="I07-7">
+          <sp xml:id="I07-7" who="grosrene">
             <speaker>Grosrené, <hi rend="i">à part ce demi-vers</hi>.</speaker>
-            <l>Si ferai bien, je meure.</l>
-            <l>Votre dîner pourtant serait prêt tout à l’heure.</l>
+            <l n="259" xml:id="l259">Si ferai bien, je meure.</l>
+            <l n="260" xml:id="l260">Votre dîner pourtant serait prêt tout à l’heure.</l>
           </sp>
-          <sp who="lelie" xml:id="I07-8">
+          <sp xml:id="I07-8" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Tais-toi, je te l’ordonne.</l>
+            <l n="261" xml:id="l261">Tais-toi, je te l’ordonne.</l>
           </sp>
-          <sp who="grosrene" xml:id="I07-9">
+          <sp xml:id="I07-9" who="grosrene">
             <speaker>Grosrené</speaker>
-            <l>Ah ! quel ordre inhumain.</l>
+            <l n="262" xml:id="l262">Ah ! quel ordre inhumain.</l>
           </sp>
-          <sp who="lelie" xml:id="I07-10">
+          <sp xml:id="I07-10" who="lelie">
             <speaker>Lélie</speaker>
-            <l>J’ai de l’inquiétude et non pas de la faim.</l>
+            <l n="263" xml:id="l263">J’ai de l’inquiétude et non pas de la faim.</l>
           </sp>
-          <sp who="grosrene" xml:id="I07-11">
+          <sp xml:id="I07-11" who="grosrene">
             <speaker>Grosrené</speaker>
-            <l n="245">Et moi j’ai de la faim, et de l’inquiétude</l>
-            <l>De voir qu’un sot amour fait toute votre étude.</l>
+            <l n="264" xml:id="l264">Et moi j’ai de la faim, et de l’inquiétude</l>
+            <l n="265" xml:id="l265">De voir qu’un sot amour fait toute votre étude.</l>
           </sp>
-          <sp who="lelie" xml:id="I07-12">
+          <sp xml:id="I07-12" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Laisse-moi m’informer de l’objet de mes vœux,</l>
-            <l>Et sans m’importuner, va manger si tu veux.</l>
+            <l n="266" xml:id="l266">Laisse-moi m’informer de l’objet de mes vœux,</l>
+            <l n="267" xml:id="l267">Et sans m’importuner, va manger si tu veux.</l>
           </sp>
-          <sp who="grosrene" xml:id="I07-13">
+          <sp xml:id="I07-13" who="grosrene">
             <speaker>Grosrené</speaker>
-            <l>Je ne réplique point à ce qu’un Maître ordonne.</l>
+            <l n="268" xml:id="l268">Je ne réplique point à ce qu’un Maître ordonne.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I08">
+        </div>
+        <div type="scene" xml:id="I08">
           <head>Scène VIII.</head>
           <p>Je ne vous dirai rien de cette scène, puisqu’elle ne contient que ces trois vers.</p>
-          <sp who="lelie" xml:id="I08-2">
+          <sp xml:id="I08-2" who="lelie">
             <speaker>Lélie, <hi rend="i">seul</hi>.</speaker>
-            <l n="250">Non non, à trop de peur mon âme s’abandonne,</l>
-            <l>Le père m’a promis et la fille a fait voir</l>
-            <l>Des preuves d’un amour qui soutient mon espoir.</l>
+            <l n="269" xml:id="l269">Non non, à trop de peur mon âme s’abandonne,</l>
+            <l n="270" xml:id="l270">Le père m’a promis et la fille a fait voir</l>
+            <l n="271" xml:id="l271">Des preuves d’un amour qui soutient mon espoir.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I09">
+        </div>
+        <div type="scene" xml:id="I09">
           <head>Scène IX.</head>
           <stage>Sganarelle, Lélie</stage>
           <p rend="argument">C’est ici que l’Auteur fait voir qu’il ne sait pas moins bien représenter une Pièce, qu’il la sait composer ; puisque l’on ne vit jamais rien de si bien joué que cette Scène. Sganarelle ayant arraché à sa femme le portrait qu’elle lui venait de reprendre, vient pour le considérer à loisir, lorsque Lélie, voyant que cette boîte ressemblait fort à celle où était le portrait qu’il avait donné à sa Maîtresse, s’approche de lui pour le regarder par-dessus son épaule ; tellement que Sganarelle voyant qu’il n’a pas le loisir de considérer ce portrait comme il le voudrait bien, et que de quelque côté qu’il se puisse tourner, il est obsédé par Lélie : Et Lélie enfin de son côté ne doutant plus que ce ne soit son portrait, et impatient de savoir de qui Sganarelle peut l’avoir eu, s’enquiert de lui comment il est tombé entre ses mains. Ce désir étonne Sganarelle ; mais sa surprise cesse bientôt, lorsqu’après avoir bien examiné ce portrait, il reconnaît que c’est celui de Lélie. Il lui dit qu’il sait bien le souci qui le tient, qu’il connaît bien que c’est son portrait, et le prie de cesser un amour qu’un mari peut trouver fort mauvais. Lélie lui demande s’il est mari de celle qui conservait ce gage. Sganarelle lui dit qu’oui, et qu’il en est mari très marri, qu’il en sait bien la cause, et qu’il va sur l’heure l’apprendre aux parents de sa femme. Et moi cependant je m’en vais vous apprendre les vers de cette Scène. Il faut que vous preniez garde qu’un agréable malentendu est ce qui fait la beauté de cette Scène, et que subsistant pendant le reste de la pièce entre les quatre principaux Acteurs, qui sont Sganarelle, sa Femme, Lélie, et sa Maîtresse, qui ne s’entendent pas, il divertit merveilleusement l’auditeur, sans fatiguer son esprit, tant il naît naturellement, et tant sa conduite est admirable dans cette Pièce.</p>
-          <sp who="sganarelle" xml:id="I09-1">
+          <sp xml:id="I09-1" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Nous l’avons, et je puis voir à l’aise la trogne</l>
-            <l>Du malheureux pendard qui cause ma vergogne.</l>
-            <l>Il ne m’est point connu.</l>
+            <l n="272" xml:id="l272">Nous l’avons, et je puis voir à l’aise la trogne</l>
+            <l n="273" xml:id="l273">Du malheureux pendard qui cause ma vergogne.</l>
+            <l n="274" xml:id="l274">Il ne m’est point connu.</l>
           </sp>
-          <sp who="lelie" xml:id="I09-2">
+          <sp xml:id="I09-2" who="lelie">
             <speaker>Lélie <hi rend="i">à part</hi>.</speaker>
-            <l n="255">Dieux ! qu’aperçois-je ici ?</l>
-            <l>Et si c’est mon portrait, que dois-je croire aussi ?</l>
+            <l n="275" xml:id="l275">Dieux ! qu’aperçois-je ici ?</l>
+            <l n="276" xml:id="l276">Et si c’est mon portrait, que dois-je croire aussi ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I09-3">
+          <sp xml:id="I09-3" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">continue</hi>.</speaker>
-            <l>Ah ! pauvre Sganarelle, à quelle destinée</l>
-            <l>Ta réputation est-elle condamnée,</l>
+            <l n="277" xml:id="l277">Ah ! pauvre Sganarelle, à quelle destinée</l>
+            <l n="278" xml:id="l278">Ta réputation est-elle condamnée,</l>
             <stage>Apercevant Lélie qui le regarde, il se retourne d’un autre côté.</stage>
-            <l>Faut…</l>
+            <l n="279" xml:id="l279">Faut…</l>
           </sp>
-          <sp who="lelie" xml:id="I09-4">
+          <sp xml:id="I09-4" who="lelie">
             <speaker>Lélie <hi rend="i">à part</hi>.</speaker>
-            <l>Ce gage ne peut sans alarmer ma foi,</l>
-            <l n="260">Être sorti des mains qui le tenaient de moi.</l>
+            <l n="280" xml:id="l280">Ce gage ne peut sans alarmer ma foi,</l>
+            <l n="281" xml:id="l281">Être sorti des mains qui le tenaient de moi.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I09-5">
+          <sp xml:id="I09-5" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Faut-il que désormais à deux doigts on te montre,</l>
-            <l>Qu’on te mette en chansons, et qu’en toute rencontre,</l>
-            <l>On te rejette au nez le scandaleux affront</l>
-            <l>Qu’une femme mal née imprime sur ton front ?</l>
+            <l n="282" xml:id="l282">Faut-il que désormais à deux doigts on te montre,</l>
+            <l n="283" xml:id="l283">Qu’on te mette en chansons, et qu’en toute rencontre,</l>
+            <l n="284" xml:id="l284">On te rejette au nez le scandaleux affront</l>
+            <l n="285" xml:id="l285">Qu’une femme mal née imprime sur ton front ?</l>
           </sp>
-          <sp who="lelie" xml:id="I09-6">
+          <sp xml:id="I09-6" who="lelie">
             <speaker>Lélie <hi rend="i">à part</hi>.</speaker>
-            <l>Me trompai-je ?</l>
+            <l n="286" xml:id="l286">Me trompai-je ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I09-7">
+          <sp xml:id="I09-7" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="265">Ah ! truande, as-tu bien le courage</l>
-            <l>De m’avoir fait cocu dans la fleur de mon âge ?</l>
-            <l>Et femme d’un mari qui peut passer pour beau,</l>
-            <l>Faut-il qu’un Marmouset, un maudit Étourneau…</l>
+            <l n="287" xml:id="l287">Ah ! truande, as-tu bien le courage</l>
+            <l n="288" xml:id="l288">De m’avoir fait cocu dans la fleur de mon âge ?</l>
+            <l n="289" xml:id="l289">Et femme d’un mari qui peut passer pour beau,</l>
+            <l n="290" xml:id="l290">Faut-il qu’un Marmouset, un maudit Étourneau…</l>
           </sp>
-          <sp who="lelie" xml:id="I09-8">
+          <sp xml:id="I09-8" who="lelie">
             <speaker>Lélie <hi rend="i">à part et regardant encore son portrait</hi>.</speaker>
-            <l>Je ne m’abuse point, c’est mon portrait lui-même.</l>
+            <l n="291" xml:id="l291">Je ne m’abuse point, c’est mon portrait lui-même.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I09-9">
+          <sp xml:id="I09-9" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">lui tourne le dos</hi>.</speaker>
-            <l>Cet homme est curieux.</l>
+            <l n="292" xml:id="l292">Cet homme est curieux.</l>
           </sp>
-          <sp who="lelie" xml:id="I09-10">
+          <sp xml:id="I09-10" who="lelie">
             <speaker>Lélie <hi rend="i">à part</hi>.</speaker>
-            <l n="270">Ma surprise est extrême.</l>
+            <l n="293" xml:id="l293">Ma surprise est extrême.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I09-11">
+          <sp xml:id="I09-11" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>À qui donc en a-t-il.</l>
+            <l n="294" xml:id="l294">À qui donc en a-t-il.</l>
           </sp>
-          <sp who="lelie" xml:id="I09-12">
+          <sp xml:id="I09-12" who="lelie">
             <speaker>Lélie <hi rend="i">à part</hi>.</speaker>
-            <l>Je le veux accoster.</l>
+            <l n="295" xml:id="l295">Je le veux accoster.</l>
             <stage>Haut.</stage>
-            <l>Puis-je… hé ! de grâce un mot.</l>
+            <l n="296" xml:id="l296">Puis-je… hé ! de grâce un mot.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I09-13">
+          <sp xml:id="I09-13" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">le fuit encore</hi>.</speaker>
-            <l>Que me veut-il conter ?</l>
+            <l n="297" xml:id="l297">Que me veut-il conter ?</l>
           </sp>
-          <sp who="lelie" xml:id="I09-14">
+          <sp xml:id="I09-14" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Puis-je obtenir de vous, de savoir l’aventure,</l>
-            <l>Qui fait dedans vos mains trouver cette peinture ?</l>
+            <l n="298" xml:id="l298">Puis-je obtenir de vous, de savoir l’aventure,</l>
+            <l n="299" xml:id="l299">Qui fait dedans vos mains trouver cette peinture ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I09-15">
+          <sp xml:id="I09-15" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">à part, et examinant le portrait qu’il tient et Lélie</hi>.</speaker>
-            <l n="275">D’où lui vient ce désir ? mais je m’avise ici…</l>
-            <l>Ah ! ma foi me voilà de son trouble éclairci,</l>
-            <l>Sa surprise à présent n’étonne plus mon âme,</l>
-            <l>C’est mon homme, ou plutôt c’est celui de ma femme.</l>
+            <l n="300" xml:id="l300">D’où lui vient ce désir ? mais je m’avise ici…</l>
+            <l n="301" xml:id="l301">Ah ! ma foi me voilà de son trouble éclairci,</l>
+            <l n="302" xml:id="l302">Sa surprise à présent n’étonne plus mon âme,</l>
+            <l n="303" xml:id="l303">C’est mon homme, ou plutôt c’est celui de ma femme.</l>
           </sp>
-          <sp who="lelie" xml:id="I09-16">
+          <sp xml:id="I09-16" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Retirez‑moi de peine et dites d’où vous vient…</l>
+            <l n="304" xml:id="l304">Retirez‑moi de peine et dites d’où vous vient…</l>
           </sp>
-          <sp who="sganarelle" xml:id="I09-17">
+          <sp xml:id="I09-17" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="280">Nous savons Dieu merci le souci qui vous tient,</l>
-            <l>Ce portrait qui vous fâche est votre ressemblance,</l>
-            <l>Il était en des mains de votre connaissance,</l>
-            <l>Et ce n’est pas un fait qui soit secret pour nous</l>
-            <l>Que les douces ardeurs de la Dame et de vous :</l>
-            <l n="285">Je ne sais pas si j’ai dans sa galanterie</l>
-            <l>L’honneur d’être connu de votre Seigneurie ;</l>
-            <l>Mais faites-moi celui de cesser désormais</l>
-            <l>Un amour qu’un mari peut trouver fort mauvais,</l>
-            <l>Et songez que les nœuds du sacré mariage…</l>
+            <l n="305" xml:id="l305">Nous savons Dieu merci le souci qui vous tient,</l>
+            <l n="306" xml:id="l306">Ce portrait qui vous fâche est votre ressemblance,</l>
+            <l n="307" xml:id="l307">Il était en des mains de votre connaissance,</l>
+            <l n="308" xml:id="l308">Et ce n’est pas un fait qui soit secret pour nous</l>
+            <l n="309" xml:id="l309">Que les douces ardeurs de la Dame et de vous :</l>
+            <l n="310" xml:id="l310">Je ne sais pas si j’ai dans sa galanterie</l>
+            <l n="311" xml:id="l311">L’honneur d’être connu de votre Seigneurie ;</l>
+            <l n="312" xml:id="l312">Mais faites-moi celui de cesser désormais</l>
+            <l n="313" xml:id="l313">Un amour qu’un mari peut trouver fort mauvais,</l>
+            <l n="314" xml:id="l314">Et songez que les nœuds du sacré mariage…</l>
           </sp>
-          <sp who="lelie" xml:id="I09-18">
+          <sp xml:id="I09-18" who="lelie">
             <speaker>Lélie</speaker>
-            <l n="290">Quoi, celle, dites-vous dont vous tenez ce gage…</l>
+            <l n="315" xml:id="l315">Quoi, celle, dites-vous dont vous tenez ce gage…</l>
           </sp>
-          <sp who="sganarelle" xml:id="I09-19">
+          <sp xml:id="I09-19" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Est ma femme, et je suis son mari.</l>
+            <l n="316" xml:id="l316">Est ma femme, et je suis son mari.</l>
           </sp>
-          <sp who="lelie" xml:id="I09-20">
+          <sp xml:id="I09-20" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Son mari ?</l>
+            <l n="317" xml:id="l317">Son mari ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I09-21">
+          <sp xml:id="I09-21" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Oui, son mari, vous dis-je, et mari très marri,</l>
-            <l>Vous en savez la cause et je m’en vais l’apprendre</l>
-            <l>Sur l’heure à ses parents.</l>
+            <l n="318" xml:id="l318">Oui, son mari, vous dis-je, et mari très marri,</l>
+            <l n="319" xml:id="l319">Vous en savez la cause et je m’en vais l’apprendre</l>
+            <l n="320" xml:id="l320">Sur l’heure à ses parents.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I10">
+        </div>
+        <div type="scene" xml:id="I10">
           <head>Scène X.</head>
           <stage>Lélie seul.</stage>
           <p rend="argument">Lélie se plaint dans cette Scène de l’infidélité de sa Maîtresse, et l’outrage qu’elle lui fait, ne l’abattant pas moins que les longs travaux de son voyage, le fait tomber en faiblesse. Plusieurs ont assez ridiculement repris cette Scène, sans avoir pour justifier leur impertinence, autre chose à dire sinon que l’infidélité d’une Maîtresse n’était pas capable de faire évanouir un homme. D’autres ont dit encore, que cet évanouissement était mal placé, et que l’on voyait bien que l’Auteur ne s’en était servi que pour faire naître l’incident qui paraît ensuite. Mais je répondrai en deux mots aux uns et aux autres : et je dis d’abord aux premiers, qu’ils n’ont pas bien considéré, que l’Auteur avait préparé cet incident longtemps devant, et que l’infidélité de la Maîtresse de Lélie, n’est pas seule la cause de son évanouissement, qu’il en a encore deux puissantes raisons, dont l’une est les longs et pénibles travaux d’un voyage de huit jours qu’il avait fait en poste, et l’autre qu’il n’avait point mangé depuis son arrivée, comme l’Auteur l’a découvert ci-devant aux Auditeurs, en faisant que Gros-René le presse d’aller manger un morceau afin de pouvoir résister aux attaques du sort (et c’est pour cela que je vous ai prié de remarquer la Scène qu’ils font ensemble) tellement il n’est pas impossible qu’un homme qui arrive d’un long voyage, qui n’a point mangé depuis son arrivée, et qui apprend l’infidélité d’une Maîtresse, s’évanouisse. Voilà ce que j’ai à dire aux premiers censeurs de cet incident miraculeux. Pour ce qui regarde les seconds, quoiqu’ils paraissent le reprendre avec plus de justice, je les confondrai encore plus tôt, et pour commencer à leur faire voir leur ignorance, je veux leur accorder que l’Auteur n’a fait évanouir Lélie, que pour donner lieu à l’incident qui suit ; mais ne doivent-ils pas savoir que quand un Auteur a un bel incident à insérer dans une Pièce, s’il trouve des moyens vraisemblables pour le faire naître, il en doit d’autant être plus estimé, que la chose est beaucoup plus difficile, et qu’au contraire, s’il ne le fait paraître que par des moyens erronés et tirés par la queue, il doit passer pour un ignorant, puisque c’est une des qualités la plus nécessaire à un Auteur, que de savoir inventer avec vraisemblance ; c’est pourquoi, puisqu’il y a tant de possibilité et de vraisemblance dans l’évanouissement de Lélie, que l’on pourrait dire qu’il était absolument nécessaire qu’il s’évanouisse, puisqu’il aurait paru peu amoureux si, étant arrivé à Paris, il s’était allé amuser à manger, au lieu d’aller trouver sa Maîtresse : ils condamnent des choses qu’ils devraient estimer, puisque la conduite de cet incident avec toutes les préparations nécessaires, fait voir que l’Auteur pense mûrement à ce qu’il fait, et que rien ne se peut égaler à la solidité de son esprit. Voilà quelle est ma pensée là-dessus, et pour vous montrer que les raisons que j’ai apportées sont vraies, vous n’avez qu’à lire ces vers.</p>
-          <sp who="lelie" xml:id="I10-2">
+          <sp xml:id="I10-2" who="lelie">
             <speaker>Lélie <hi rend="i">seul</hi>.</speaker>
-            <l>Ah ! que viens-je d’entendre ?</l>
-            <l n="295">L’on me l’avait bien dit, et que c’était de tous</l>
-            <l>L’homme le plus mal fait qu’elle avait pour époux.</l>
-            <l>Ah ! quand mille serments de ta bouche infidèle</l>
-            <l>Ne m’auraient pas promis une flamme éternelle,</l>
-            <l>Le seul mépris d’un choix si bas et si honteux</l>
-            <l n="300">Devait bien soutenir l’intérêt de mes feux,</l>
-            <l>Ingrate, et quelque bien… mais le sensible outrage</l>
-            <l>Se mêlant aux travaux d’un assez long voyage,</l>
-            <l>Me donne tout à coup un choc si violent,</l>
-            <l>Que mon cœur devient faible, et mon corps chancelant.</l>
+            <l n="321" xml:id="l321">Ah ! que viens-je d’entendre ?</l>
+            <l n="322" xml:id="l322">L’on me l’avait bien dit, et que c’était de tous</l>
+            <l n="323" xml:id="l323">L’homme le plus mal fait qu’elle avait pour époux.</l>
+            <l n="324" xml:id="l324">Ah ! quand mille serments de ta bouche infidèle</l>
+            <l n="325" xml:id="l325">Ne m’auraient pas promis une flamme éternelle,</l>
+            <l n="326" xml:id="l326">Le seul mépris d’un choix si bas et si honteux</l>
+            <l n="327" xml:id="l327">Devait bien soutenir l’intérêt de mes feux,</l>
+            <l n="328" xml:id="l328">Ingrate, et quelque bien… mais le sensible outrage</l>
+            <l n="329" xml:id="l329">Se mêlant aux travaux d’un assez long voyage,</l>
+            <l n="330" xml:id="l330">Me donne tout à coup un choc si violent,</l>
+            <l n="331" xml:id="l331">Que mon cœur devient faible, et mon corps chancelant.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I11">
+        </div>
+        <div type="scene" xml:id="I11">
           <head>Scène XI.</head>
           <stage>Lélie, la Femme de sganarelle.</stage>
           <p rend="argument">Voyons si quelqu’un n’aura point de pitié de ce pauvre Amant qui tombe en faiblesse. La Femme de Sganarelle, en colère contre son mari, de ce qu’il lui avait emporté ce bijou qu’elle avait trouvé, sort de chez elle, et voyant Lélie qui commençait à s’évanouir, le fait entrer dans sa salle, en attendant que son mal se passe. Jugez après les transports de la jalousie de Sganarelle, de l’effet que cet incident doit produire, et s’il fut jamais rien de mieux imaginé. Vous pourrez lire les vers de cette Scène, cependant que j’irai voir si Sganarelle a trouvé quelqu’un des parents de sa Femme.</p>
-          <sp who="femme-sganarelle" xml:id="I11-1">
+          <sp xml:id="I11-1" who="femme-sganarelle">
             <speaker>La femme de sganarelle, <hi rend="i">se tournant vers Lélie</hi>.</speaker>
-            <l n="305">Malgré moi mon perfide… hélas ! quel mal vous presse ?</l>
-            <l>Je vous vois prêt Monsieur à tomber en faiblesse.</l>
+            <l n="332" xml:id="l332">Malgré moi mon perfide… hélas ! quel mal vous presse ?</l>
+            <l n="333" xml:id="l333">Je vous vois prêt Monsieur à tomber en faiblesse.</l>
           </sp>
-          <sp who="lelie" xml:id="I11-2">
+          <sp xml:id="I11-2" who="lelie">
             <speaker>Lélie</speaker>
-            <l>C’est un mal qui m’a pris assez subitement.</l>
+            <l n="334" xml:id="l334">C’est un mal qui m’a pris assez subitement.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I11-3">
+          <sp xml:id="I11-3" who="femme-sganarelle">
             <speaker>La femme de Sganarelle.</speaker>
-            <l>Je crains ici, pour vous l’évanouissement,</l>
-            <l>Entrez dans cette salle en attendant qu’il passe.</l>
+            <l n="335" xml:id="l335">Je crains ici, pour vous l’évanouissement,</l>
+            <l n="336" xml:id="l336">Entrez dans cette salle en attendant qu’il passe.</l>
           </sp>
-          <sp who="lelie" xml:id="I11-4">
+          <sp xml:id="I11-4" who="lelie">
             <speaker>Lélie</speaker>
-            <l n="310">Pour un moment ou deux, j’accepte cette grâce.</l>
+            <l n="337" xml:id="l337">Pour un moment ou deux, j’accepte cette grâce.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I12">
+        </div>
+        <div type="scene" xml:id="I12">
           <head>Scène XII.</head>
           <stage>Sganarelle et le Parent de sa Femme.</stage>
           <p rend="argument">Il faudrait avoir le pinceau de Poussin, Le Brun, et Mignard, pour vous représenter avec quelle posture Sganarelle se fait admirer dans cette Scène, où il paraît avec un parent de sa femme. L’on n’a jamais vu tenir de discours si naïfs, ni paraître avec un visage si niais, et l’on ne doit pas moins admirer l’Auteur pour avoir fait cette Pièce, que pour la manière dont il la représente. Jamais personne ne sut si bien démonter son visage, et l’on peut dire que dedans cette Pièce, il en change plus de vingt fois ; mais comme c’est un divertissement que vous ne pouvez avoir à moins que de venir à Paris, voir représenter cet incomparable ouvrage, je ne vous en dirai pas davantage, pour passer aux choses dont je puis plus aisément vous faire part. Ce bon Vieillard remontre à Sganarelle, que le trop de promptitude expose souvent à l’erreur, que tout ce qui regarde l’honneur est délicat : ensuite il lui dit qu’il s’informe mieux comment ce portrait est tombé entre les mains de sa femme, et que s’il se trouve qu’elle soit criminelle, il sera le premier à punir son offense. Il se retire après cela. Comme je n’ai pu dans cette Scène vous envoyer le portrait du visage de Sganarelle, en voici les Vers.</p>
-          <sp who="le-parent" xml:id="I12-1">
+          <sp xml:id="I12-1" who="le-parent">
             <speaker>Le Parent</speaker>
-            <l>D’un mari sur ce point j’approuve le souci ;</l>
-            <l>Mais c’est prendre la chèvre un peu bien vite aussi,</l>
-            <l>Et tout ce que de vous je viens d’ouïr contre elle,</l>
-            <l>Ne conclut point, Parent, qu’elle soit criminelle ;</l>
-            <l n="315">C’est un point délicat et de pareils forfaits,</l>
-            <l>Sans les bien avérer ne s’imputent jamais.</l>
+            <l n="338" xml:id="l338">D’un mari sur ce point j’approuve le souci ;</l>
+            <l n="339" xml:id="l339">Mais c’est prendre la chèvre un peu bien vite aussi,</l>
+            <l n="340" xml:id="l340">Et tout ce que de vous je viens d’ouïr contre elle,</l>
+            <l n="341" xml:id="l341">Ne conclut point, Parent, qu’elle soit criminelle ;</l>
+            <l n="342" xml:id="l342">C’est un point délicat et de pareils forfaits,</l>
+            <l n="343" xml:id="l343">Sans les bien avérer ne s’imputent jamais.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I12-2">
+          <sp xml:id="I12-2" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>C’est-à-dire qu’il faut toucher au doigt la chose.</l>
+            <l n="344" xml:id="l344">C’est-à-dire qu’il faut toucher au doigt la chose.</l>
           </sp>
-          <sp who="le-parent" xml:id="I12-3">
+          <sp xml:id="I12-3" who="le-parent">
             <speaker>Le Parent</speaker>
-            <l>Le trop de promptitude à l’erreur nous expose.</l>
-            <l>Qui sait comme en ses mains ce portrait est venu,</l>
-            <l n="320">Et si l’homme après tout lui peut être connu.</l>
-            <l>Informez-vous-en donc, et si c’est ce qu’on pense,</l>
-            <l>Nous serons les premiers à punir son offense.</l>
+            <l n="345" xml:id="l345">Le trop de promptitude à l’erreur nous expose.</l>
+            <l n="346" xml:id="l346">Qui sait comme en ses mains ce portrait est venu,</l>
+            <l n="347" xml:id="l347">Et si l’homme après tout lui peut être connu.</l>
+            <l n="348" xml:id="l348">Informez-vous-en donc, et si c’est ce qu’on pense,</l>
+            <l n="349" xml:id="l349">Nous serons les premiers à punir son offense.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I13">
+        </div>
+        <div type="scene" xml:id="I13">
           <head>Scène XIII</head>
           <stage>Sganarelle seul.</stage>
           <p rend="argument">Sganarelle, pour ne point démentir son caractère, qui fait voir un homme facile à prendre toutes sortes d’impressions, croit facilement ce que le bonhomme lui dit, et commence à se persuader qu’il s’est trop tôt mis dans la tête des visions cornues, lorsque Lélie sortant de chez lui avec sa Femme qui le conduit, le fait de nouveau rentrer en jalousie. Les vers qu’il dit dans cette Scène vous feront mieux voir son caractère que je ne vous l’ai dépeint.</p>
-          <sp who="sganarelle" xml:id="I13-1">
+          <sp xml:id="I13-1" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">seul</hi>.</speaker>
-            <l>On ne peut pas mieux dire, en effet, il est bon</l>
-            <l>D’aller tout doucement. Peut-être sans raison,</l>
-            <l n="325">Me suis-je en tête mis ces visions cornues,</l>
-            <l>Et les sueurs au front m’en sont trop tôt venues.</l>
-            <l>Par ce portrait enfin dont je suis alarmé,</l>
-            <l>Mon déshonneur n’est pas tout à fait confirmé,</l>
-            <l>Tâchons donc par nos soins…</l>
+            <l n="350" xml:id="l350">On ne peut pas mieux dire, en effet, il est bon</l>
+            <l n="351" xml:id="l351">D’aller tout doucement. Peut-être sans raison,</l>
+            <l n="352" xml:id="l352">Me suis-je en tête mis ces visions cornues,</l>
+            <l n="353" xml:id="l353">Et les sueurs au front m’en sont trop tôt venues.</l>
+            <l n="354" xml:id="l354">Par ce portrait enfin dont je suis alarmé,</l>
+            <l n="355" xml:id="l355">Mon déshonneur n’est pas tout à fait confirmé,</l>
+            <l n="356" xml:id="l356">Tâchons donc par nos soins…</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I14">
+        </div>
+        <div type="scene" xml:id="I14">
           <head>Scène XIV.</head>
           <stage>Sganarelle, sa Femme, Lélie, <hi rend="i">sur la porte de Sganarelle, en parlant à sa Femme</hi>.</stage>
           <p rend="argument">Je ne vous dis rien de cette Scène, et je vous laisse juger par ces vers de la surprise de Sganarelle.</p>
-          <sp who="sganarelle" xml:id="I14-1">
+          <sp xml:id="I14-1" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">poursuit</hi>.</speaker>
-            <l n="330">Ah ! que vois-je, je meure,</l>
-            <l>Il n’est plus question de portrait à cette heure,</l>
-            <l>Voici ma foi la chose en propre original.</l>
+            <l n="357" xml:id="l357">Ah ! que vois-je, je meure,</l>
+            <l n="358" xml:id="l358">Il n’est plus question de portrait à cette heure,</l>
+            <l n="359" xml:id="l359">Voici ma foi la chose en propre original.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I14-2">
+          <sp xml:id="I14-2" who="femme-sganarelle">
             <speaker>La femme de Sganarelle <hi rend="i">à Lélie</hi>.</speaker>
-            <l>C’est par trop vous hâter Monsieur, et votre mal,</l>
-            <l>Si vous sortez si tôt pourra bien vous reprendre.</l>
+            <l n="360" xml:id="l360">C’est par trop vous hâter Monsieur, et votre mal,</l>
+            <l n="361" xml:id="l361">Si vous sortez si tôt pourra bien vous reprendre.</l>
           </sp>
-          <sp who="lelie" xml:id="I14-3">
+          <sp xml:id="I14-3" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Non non, je vous rends grâce autant qu’on puisse rendre,</l>
-            <l n="335">De l’obligeant secours que vous m’avez prêté.</l>
+            <l n="362" xml:id="l362">Non non, je vous rends grâce autant qu’on puisse rendre,</l>
+            <l n="363" xml:id="l363">De l’obligeant secours que vous m’avez prêté.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I14-4">
+          <sp xml:id="I14-4" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">à part</hi>.</speaker>
-            <l>La masque encore après lui fait civilité.</l>
+            <l n="364" xml:id="l364">La masque encore après lui fait civilité.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I15">
+        </div>
+        <div type="scene" xml:id="I15">
           <head>Scène XV.</head>
           <stage>Sganarelle, Lélie.</stage>
           <p rend="argument">Lélie donne sans y penser le change à Sganarelle dans cette Scène, et ne le surprend pas moins que l’autre a tantôt fait, en lui disant qu’il tenait son portrait des mains de sa femme. Pour mieux juger de la surprise de Sganarelle, vous pouvez lire ces Vers, dont le dernier est placé si à propos, que jamais Pièce entière n’a fait tant d’éclat que ce vers seul.</p>
-          <sp who="sganarelle" xml:id="I15-1">
+          <sp xml:id="I15-1" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">à part.</hi></speaker>
-            <l>Il m’aperçoit, voyons ce qu’il me pourra dire.</l>
+            <l n="365" xml:id="l365">Il m’aperçoit, voyons ce qu’il me pourra dire.</l>
           </sp>
-          <sp who="lelie" xml:id="I15-2">
+          <sp xml:id="I15-2" who="lelie">
             <speaker>Lélie <hi rend="i">à part.</hi></speaker>
-            <l>Ah ! mon âme s’émeut et cet objet m’inspire…</l>
-            <l>Mais je dois condamner cet injuste transport,</l>
-            <l n="340">Et n’imputer mes maux qu’aux rigueurs de mon sort.</l>
-            <l>Envions seulement le bonheur de sa flamme.</l>
-            <l>Oh ! trop heureux d’avoir une si belle femme.</l>
+            <l n="366" xml:id="l366">Ah ! mon âme s’émeut et cet objet m’inspire…</l>
+            <l n="367" xml:id="l367">Mais je dois condamner cet injuste transport,</l>
+            <l n="368" xml:id="l368">Et n’imputer mes maux qu’aux rigueurs de mon sort.</l>
+            <l n="369" xml:id="l369">Envions seulement le bonheur de sa flamme.</l>
+            <l n="370" xml:id="l370">Oh ! trop heureux d’avoir une si belle femme.</l>
             <stage>Passant auprès de lui et le regardant.</stage>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I16">
+        </div>
+        <div type="scene" xml:id="I16">
           <head>Scène XVI.</head>
           <stage>Sganarelle, Célie, regardant aller Lélie.</stage>
           <p rend="argument">L’on peut dire que cette Scène en contient deux, puisque Sganarelle fait une espèce de Monologue, pendant que Célie, qui avait vu sortir son Amant d’avec lui, le conduit des yeux, jusqu’à ce qu’elle l’ait perdu de vue, pour voir si elle ne s’est point trompée. Sganarelle, de son côté, regarde aussi en aller Lélie, et fait voir le dépit qu’il a de ne lui avoir pas fait insulte, après l’assurance qu’il croit avoir d’être Cocu de lui. Célie lui ayant laissé jeter la plus grande partie de son feu, s’en approche pour lui demander, si celui qui vient de parler ne lui est pas connu ; mais il lui répond avec sa naïveté ordinaire, que c’est sa femme qui le connaît et découvre peu à peu, mais d’une manière tout à fait agréable, que Lélie le déshonore. C’est ici que l’équivoque divertit merveilleusement l’Auditeur, puisque Célie détestant la perfidie de son Amant, jetant feu et flammes contre lui, et sortant à dessein de s’en venger, Sganarelle croit qu’elle prend sa défense, et qu’elle ne court à dessein de le punir que pour l’amour de lui. Comme les vers de cette scène donnent à l’Auditeur un plaisir extraordinaire, il ne serait pas juste de vous priver de ce contentement, c’est pourquoi en jetant les yeux sur les lignes suivantes, vous pourrez connaître que l’Auteur sait parfaitement bien conduire un équivoque.</p>
-          <sp who="sganarelle" xml:id="I16-1">
+          <sp xml:id="I16-1" who="sganarelle">
             <speaker>Sganarelle <hi rend="bi">sans voir célie.</hi></speaker>
-            <l>Ce n’est point s’expliquer en termes ambigus,</l>
-            <l>Cet étrange propos me rend aussi confus</l>
-            <l n="345">Que s’il m’était venu des cornes à la tête.</l>
-            <l>Allez, ce procédé n’est point du tout honnête.</l>
+            <l n="371" xml:id="l371">Ce n’est point s’expliquer en termes ambigus,</l>
+            <l n="372" xml:id="l372">Cet étrange propos me rend aussi confus</l>
+            <l n="373" xml:id="l373">Que s’il m’était venu des cornes à la tête.</l>
+            <l n="374" xml:id="l374">Allez, ce procédé n’est point du tout honnête.</l>
             <stage>Il se tourne du côté que Lélie s’en vient d’en aller.</stage>
           </sp>
-          <sp who="celie" xml:id="I16-2">
+          <sp xml:id="I16-2" who="celie">
             <speaker>Célie <hi rend="i">à part.</hi></speaker>
-            <l>Quoi, Lélie a paru tout à l’heure à mes yeux,</l>
-            <l>Qui pourrait me cacher son retour en ces lieux ?</l>
+            <l n="375" xml:id="l375">Quoi, Lélie a paru tout à l’heure à mes yeux,</l>
+            <l n="376" xml:id="l376">Qui pourrait me cacher son retour en ces lieux ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I16-3">
+          <sp xml:id="I16-3" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">poursuit.</hi></speaker>
-            <l>Oh ! trop heureux, d’avoir une si belle femme,</l>
-            <l n="350">Malheureux bien plutôt de l’avoir cette infâme,</l>
-            <l>Dont le coupable feu trop bien vérifié,</l>
-            <l>Sans respect ni demi nous a cocufié ;</l>
+            <l n="377" xml:id="l377">Oh ! trop heureux, d’avoir une si belle femme,</l>
+            <l n="378" xml:id="l378">Malheureux bien plutôt de l’avoir cette infâme,</l>
+            <l n="379" xml:id="l379">Dont le coupable feu trop bien vérifié,</l>
+            <l n="380" xml:id="l380">Sans respect ni demi nous a cocufié ;</l>
             <stage>Célie approche peu à peu de lui, et attend que son transport soit fini pour lui parler.</stage>
-            <l>Mais je le laisse aller après un tel indice</l>
-            <l>Et demeure les bras croisés comme un Jocrisse.</l>
-            <l n="355">Ah ! je devais du moins lui jeter son chapeau,</l>
-            <l>Lui ruer quelque pierre, ou crotter son manteau,</l>
-            <l>Et sur lui hautement pour contenter ma rage</l>
-            <l>Faire au larron d’honneur crier le voisinage.</l>
+            <l n="381" xml:id="l381">Mais je le laisse aller après un tel indice</l>
+            <l n="382" xml:id="l382">Et demeure les bras croisés comme un Jocrisse.</l>
+            <l n="383" xml:id="l383">Ah ! je devais du moins lui jeter son chapeau,</l>
+            <l n="384" xml:id="l384">Lui ruer quelque pierre, ou crotter son manteau,</l>
+            <l n="385" xml:id="l385">Et sur lui hautement pour contenter ma rage</l>
+            <l n="386" xml:id="l386">Faire au larron d’honneur crier le voisinage.</l>
           </sp>
-          <sp who="celie" xml:id="I16-4">
+          <sp xml:id="I16-4" who="celie">
             <speaker>Célie</speaker>
-            <l>Celui qui maintenant devers vous est venu</l>
-            <l n="360">Et qui vous a parlé, d’où vous est-il connu ?</l>
+            <l n="387" xml:id="l387">Celui qui maintenant devers vous est venu</l>
+            <l n="388" xml:id="l388">Et qui vous a parlé, d’où vous est-il connu ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I16-5">
+          <sp xml:id="I16-5" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Hélas ! ce n’est pas moi qui le connais Madame,</l>
-            <l>C’est ma femme.</l>
+            <l n="389" xml:id="l389">Hélas ! ce n’est pas moi qui le connais Madame,</l>
+            <l n="390" xml:id="l390">C’est ma femme.</l>
           </sp>
-          <sp who="celie" xml:id="I16-6">
+          <sp xml:id="I16-6" who="celie">
             <speaker>Célie</speaker>
-            <l>Quel trouble agite ainsi votre âme ?</l>
+            <l n="391" xml:id="l391">Quel trouble agite ainsi votre âme ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I16-7">
+          <sp xml:id="I16-7" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Ne me condamnez point d’un deuil hors de saison,</l>
-            <l>Et laissez-moi pousser des soupirs à foison.</l>
+            <l n="392" xml:id="l392">Ne me condamnez point d’un deuil hors de saison,</l>
+            <l n="393" xml:id="l393">Et laissez-moi pousser des soupirs à foison.</l>
           </sp>
-          <sp who="celie" xml:id="I16-8">
+          <sp xml:id="I16-8" who="celie">
             <speaker>Célie</speaker>
-            <l n="365">D’où vous peuvent venir ces douleurs non communes ?</l>
+            <l n="394" xml:id="l394">D’où vous peuvent venir ces douleurs non communes ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I16-9">
+          <sp xml:id="I16-9" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Si je suis affligé, ce n’est pas pour des prunes,</l>
-            <l>Et je le donnerais à bien d’autre qu’à moi</l>
-            <l>De se voir sans chagrin au point où je me vois.</l>
-            <l>Des maris malheureux, vous voyez le modèle,</l>
-            <l n="370">On dérobe l’honneur au pauvre Sganarelle ;</l>
-            <l>Mais c’est peu que l’honneur dans mon affliction,</l>
-            <l>L’on me dérobe encor la réputation.</l>
+            <l n="395" xml:id="l395">Si je suis affligé, ce n’est pas pour des prunes,</l>
+            <l n="396" xml:id="l396">Et je le donnerais à bien d’autre qu’à moi</l>
+            <l n="397" xml:id="l397">De se voir sans chagrin au point où je me vois.</l>
+            <l n="398" xml:id="l398">Des maris malheureux, vous voyez le modèle,</l>
+            <l n="399" xml:id="l399">On dérobe l’honneur au pauvre Sganarelle ;</l>
+            <l n="400" xml:id="l400">Mais c’est peu que l’honneur dans mon affliction,</l>
+            <l n="401" xml:id="l401">L’on me dérobe encor la réputation.</l>
           </sp>
-          <sp who="celie" xml:id="I16-10">
+          <sp xml:id="I16-10" who="celie">
             <speaker>Célie</speaker>
-            <l>Comment ?</l>
+            <l n="402" xml:id="l402">Comment ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I16-11">
+          <sp xml:id="I16-11" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Ce Damoiseau, parlant par révérence</l>
-            <l>Me fait cocu Madame, avec toute licence ;</l>
-            <l>Et j’ai su par mes yeux avérer aujourd’hui</l>
-            <l>Le commerce secret de ma femme et de lui.</l>
+            <l n="403" xml:id="l403">Ce Damoiseau, parlant par révérence</l>
+            <l n="404" xml:id="l404">Me fait cocu Madame, avec toute licence ;</l>
+            <l n="405" xml:id="l405">Et j’ai su par mes yeux avérer aujourd’hui</l>
+            <l n="406" xml:id="l406">Le commerce secret de ma femme et de lui.</l>
           </sp>
-          <sp who="celie" xml:id="I16-12">
+          <sp xml:id="I16-12" who="celie">
             <speaker>Célie</speaker>
-            <l>Celui qui maintenant…</l>
+            <l n="407" xml:id="l407">Celui qui maintenant…</l>
           </sp>
-          <sp who="sganarelle" xml:id="I16-13">
+          <sp xml:id="I16-13" who="sganarelle">
             <speaker>Sganarelle </speaker>
-            <l>Oui, oui, me déshonore,</l>
-            <l>Il adore ma femme, et ma femme l’adore.</l>
+            <l n="408" xml:id="l408">Oui, oui, me déshonore,</l>
+            <l n="409" xml:id="l409">Il adore ma femme, et ma femme l’adore.</l>
           </sp>
-          <sp who="celie" xml:id="I16-14">
+          <sp xml:id="I16-14" who="celie">
             <speaker>Célie</speaker>
-            <l>Ah ! j’avais bien jugé que ce secret retour</l>
-            <l n="380">Ne pouvait me couvrir que quelque lâche tour,</l>
-            <l>Et j’ai tremblé d’abord, en le voyant paraître,</l>
-            <l>Par un pressentiment de ce qui devait être.</l>
+            <l n="410" xml:id="l410">Ah ! j’avais bien jugé que ce secret retour</l>
+            <l n="411" xml:id="l411">Ne pouvait me couvrir que quelque lâche tour,</l>
+            <l n="412" xml:id="l412">Et j’ai tremblé d’abord, en le voyant paraître,</l>
+            <l n="413" xml:id="l413">Par un pressentiment de ce qui devait être.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I16-15">
+          <sp xml:id="I16-15" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Vous prenez ma défense avec trop de bonté,</l>
-            <l>Tout le monde n’a pas la même charité</l>
-            <l n="385">Et plusieurs qui tantôt ont appris mon martyre,</l>
-            <l>Bien loin d’y prendre part, n’en ont rien fait que rire.</l>
+            <l n="414" xml:id="l414">Vous prenez ma défense avec trop de bonté,</l>
+            <l n="415" xml:id="l415">Tout le monde n’a pas la même charité</l>
+            <l n="416" xml:id="l416">Et plusieurs qui tantôt ont appris mon martyre,</l>
+            <l n="417" xml:id="l417">Bien loin d’y prendre part, n’en ont rien fait que rire.</l>
           </sp>
-          <sp who="celie" xml:id="I16-16">
+          <sp xml:id="I16-16" who="celie">
             <speaker>Célie</speaker>
-            <l>Est-il rien de plus noir que ta lâche action,</l>
-            <l>Et peut-on lui trouver une punition ?</l>
-            <l>Dois-tu ne te pas croire indigne de la vie,</l>
-            <l n="390">Après t’être souillé de cette perfidie ?</l>
-            <l>Ô Ciel ! est-il possible ?</l>
+            <l n="418" xml:id="l418">Est-il rien de plus noir que ta lâche action,</l>
+            <l n="419" xml:id="l419">Et peut-on lui trouver une punition ?</l>
+            <l n="420" xml:id="l420">Dois-tu ne te pas croire indigne de la vie,</l>
+            <l n="421" xml:id="l421">Après t’être souillé de cette perfidie ?</l>
+            <l n="422" xml:id="l422">Ô Ciel ! est-il possible ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I16-17">
+          <sp xml:id="I16-17" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Il est trop vrai pour moi.</l>
+            <l n="423" xml:id="l423">Il est trop vrai pour moi.</l>
           </sp>
-          <sp who="celie" xml:id="I16-18">
+          <sp xml:id="I16-18" who="celie">
             <speaker>Célie</speaker>
-            <l>Ah ! traître, scélérat, âme double et sans foi.</l>
+            <l n="424" xml:id="l424">Ah ! traître, scélérat, âme double et sans foi.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I16-19">
+          <sp xml:id="I16-19" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>La bonne âme.</l>
+            <l n="425" xml:id="l425">La bonne âme.</l>
           </sp>
-          <sp who="celie" xml:id="I16-20">
+          <sp xml:id="I16-20" who="celie">
             <speaker>Célie</speaker>
-            <l>Non, non, l’Enfer n’a point de gêne</l>
-            <l>Qui ne soit pour ton crime une trop douce peine.</l>
+            <l n="426" xml:id="l426">Non, non, l’Enfer n’a point de gêne</l>
+            <l n="427" xml:id="l427">Qui ne soit pour ton crime une trop douce peine.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I16-21">
+          <sp xml:id="I16-21" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Que voilà bien parler !</l>
+            <l n="428" xml:id="l428">Que voilà bien parler !</l>
           </sp>
-          <sp who="celie" xml:id="I16-22">
+          <sp xml:id="I16-22" who="celie">
             <speaker>Célie</speaker>
-            <l n="395">Avoir ainsi traité</l>
-            <l>Et la même innocence, et la même bonté.</l>
+            <l n="429" xml:id="l429">Avoir ainsi traité</l>
+            <l n="430" xml:id="l430">Et la même innocence, et la même bonté.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I16-23">
+          <sp xml:id="I16-23" who="sganarelle">
             <speaker>Sganarelle</speaker>
             <stage>Il soupire haut.</stage>
-            <l>Hay.</l>
+            <l n="431" xml:id="l431">Hay.</l>
           </sp>
-          <sp who="celie" xml:id="I16-24">
+          <sp xml:id="I16-24" who="celie">
             <speaker>Célie</speaker>
-            <l>Un cœur, qui jamais n’a fait la moindre chose</l>
-            <l>A mérité l’affront où ton mépris l’expose ?</l>
+            <l n="432" xml:id="l432">Un cœur, qui jamais n’a fait la moindre chose</l>
+            <l n="433" xml:id="l433">A mérité l’affront où ton mépris l’expose ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I16-25">
+          <sp xml:id="I16-25" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Il est vrai.</l>
+            <l n="434" xml:id="l434">Il est vrai.</l>
           </sp>
-          <sp who="celie" xml:id="I16-26">
+          <sp xml:id="I16-26" who="celie">
             <speaker>Célie</speaker>
-            <l>Qui bien loin… Mais c’est trop, et ce cœur</l>
-            <l n="400">Ne saurait y songer sans mourir de douleur.</l>
+            <l n="435" xml:id="l435">Qui bien loin… Mais c’est trop, et ce cœur</l>
+            <l n="436" xml:id="l436">Ne saurait y songer sans mourir de douleur.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I16-27">
+          <sp xml:id="I16-27" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Ne vous fâchez point tant ma très chère Madame,</l>
-            <l>Mon mal vous touche trop et vous me percez l’âme.</l>
+            <l n="437" xml:id="l437">Ne vous fâchez point tant ma très chère Madame,</l>
+            <l n="438" xml:id="l438">Mon mal vous touche trop et vous me percez l’âme.</l>
           </sp>
-          <sp who="celie" xml:id="I16-28">
+          <sp xml:id="I16-28" who="celie">
             <speaker>Célie</speaker>
-            <l>Mais ne t’abuse pas jusqu’à te figurer</l>
-            <l>Qu’à des plaintes sans fruit j’en veuille demeurer,</l>
-            <l n="405">Mon cœur pour se venger sait ce qu’il te faut faire,</l>
-            <l>Et j’y cours de ce pas, rien ne m’en peut distraire.</l>
+            <l n="439" xml:id="l439">Mais ne t’abuse pas jusqu’à te figurer</l>
+            <l n="440" xml:id="l440">Qu’à des plaintes sans fruit j’en veuille demeurer,</l>
+            <l n="441" xml:id="l441">Mon cœur pour se venger sait ce qu’il te faut faire,</l>
+            <l n="442" xml:id="l442">Et j’y cours de ce pas, rien ne m’en peut distraire.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I17">
+        </div>
+        <div type="scene" xml:id="I17">
           <head>Scène XVII.</head>
           <stage>Sganarelle seul.</stage>
           <p rend="argument">Si j’avais tantôt besoin de ces excellents Peintres que je vous ai nommés, pour vous dépeindre le visage de Sganarelle ; j’aurais maintenant besoin et de leur pinceau et de la plume des plus excellents Orateurs pour vous décrire cette Scène. Jamais il ne se vit rien de plus beau, jamais rien de mieux joué, et jamais Vers ne furent si généralement estimés. Sganarelle joue seul dans cette Scène, repassant dans son esprit tout ce que l’on peut dire d’un Cocu, et les raisons pour lesquelles il ne s’en doit pas mettre en peine, s’en démêle si bien, que son raisonnement pourrait en un besoin consoler ceux qui sont de ce nombre. Je vous envoie les Vers de cette Scène, afin que si vous connaissez quelqu’un à votre pays qui soit de la Confrérie dont Sganarelle se croit être, vous le puissiez par-là retirer de la mélancolie où il pourrait s’être plongé.</p>
-          <sp who="sganarelle" xml:id="I17-1">
+          <sp xml:id="I17-1" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">seul.</hi></speaker>
-            <l>Que le Ciel la préserve à jamais de danger.</l>
-            <l>Voyez quelle bonté de vouloir me venger :</l>
-            <l>En effet, son courroux qu’excite ma disgrâce,</l>
-            <l n="410">M’enseigne hautement ce qu’il faut que je fasse,</l>
-            <l>Et l’on ne doit jamais souffrir sans dire mot</l>
-            <l>De semblables affronts à moins qu’être un vrai sot.</l>
-            <l>Courons donc le chercher ce pendard qui m’affronte,</l>
-            <l>Montrons notre courage à venger notre honte.</l>
-            <l n="415">Vous apprendrez, Maroufle, à rire à nos dépens,</l>
-            <l>Et sans aucun respect faire cocus les gens.</l>
-            <l>Doucement s’il vous plaît cet homme a bien la mine</l>
+            <l n="443" xml:id="l443">Que le Ciel la préserve à jamais de danger.</l>
+            <l n="444" xml:id="l444">Voyez quelle bonté de vouloir me venger :</l>
+            <l n="445" xml:id="l445">En effet, son courroux qu’excite ma disgrâce,</l>
+            <l n="446" xml:id="l446">M’enseigne hautement ce qu’il faut que je fasse,</l>
+            <l n="447" xml:id="l447">Et l’on ne doit jamais souffrir sans dire mot</l>
+            <l n="448" xml:id="l448">De semblables affronts à moins qu’être un vrai sot.</l>
+            <l n="449" xml:id="l449">Courons donc le chercher ce pendard qui m’affronte,</l>
+            <l n="450" xml:id="l450">Montrons notre courage à venger notre honte.</l>
+            <l n="451" xml:id="l451">Vous apprendrez, Maroufle, à rire à nos dépens,</l>
+            <l n="452" xml:id="l452">Et sans aucun respect faire cocus les gens.</l>
+            <l n="453" xml:id="l453">Doucement s’il vous plaît cet homme a bien la mine</l>
             <stage>Il se retourne ayant fait trois ou quatre pas. </stage>
-            <l>D’avoir le sang bouillant et l’âme un peu mutine,</l>
-            <l>Il pourrait bien, mettant affront dessus affront</l>
-            <l n="420">Charger de bois mon dos, comme il a fait mon front.</l>
-            <l>Je hais de tout mon cœur les Esprits colériques,</l>
-            <l>Et porte grand amour aux hommes pacifiques :</l>
-            <l>Je ne suis point battant de peur d’être battu</l>
-            <l>Et l’humeur débonnaire est ma grande vertu.</l>
-            <l n="425">Mais mon honneur me dit que d’une telle offense</l>
-            <l>Il faut absolument que je prenne vengeance.</l>
-            <l>Ma foi laissons-le dire autant qu’il lui plaira,</l>
-            <l>Au diantre qui pourtant rien du tout en fera :</l>
-            <l>Quand j’aurai fait le brave, et qu’un fer pour ma peine</l>
-            <l n="430">M’aura d’un vilain coup transpercé la bedaine,</l>
-            <l>Que par la ville ira le bruit de mon trépas,</l>
-            <l>Dites-moi, mon honneur, en serez-vous plus gras ?</l>
-            <l>La Bière est un séjour par trop mélancolique</l>
-            <l>Et trop malsain pour ceux qui craignent la colique,</l>
-            <l n="435">Et quant à moi je trouve, ayant tout compassé,</l>
-            <l>Qu’il vaut mieux être encor Cocu que Trépassé :</l>
-            <l>Quel mal cela fait-il ? la jambe en devient-elle</l>
-            <l>Plus tortue après tout, et la taille moins belle ?</l>
-            <l>Peste soit qui premier trouva l’invention</l>
-            <l n="440">De s’affliger l’esprit de cette vision,</l>
-            <l>Et d’attacher l’honneur de l’homme le plus sage</l>
-            <l>Aux choses que peut faire une femme volage ;</l>
-            <l>Puisqu’on tient à bon droit tout crime personnel,</l>
-            <l>Que fait là notre honneur pour être criminel ?</l>
-            <l n="445">Des actions d’autrui l’on nous donne le blâme.</l>
-            <l>Si nos femmes sans nous ont un commerce infâme,</l>
-            <l>Il faut que tout le mal tombe sur notre dos,</l>
-            <l>Elles font la sottise, et nous sommes les sots :</l>
-            <l>C’est un vilain abus, et les gens de Police</l>
-            <l n="450">Nous devraient bien régler une telle injustice.</l>
-            <l>N’avons-nous pas assez des autres accidents,</l>
-            <l>Qui nous viennent happer en dépit de nos dents ?</l>
-            <l>Les querelles, procès, faim, soif, et maladie,</l>
-            <l>Troublent-ils pas assez le repos de la vie,</l>
-            <l n="455">Sans s’aller de surcroît aviser sottement,</l>
-            <l>De se faire un chagrin qui n’a nul fondement ?</l>
-            <l>Moquons-nous de cela, méprisons les alarmes,</l>
-            <l>Et mettons sous nos pieds les soupirs et les larmes ;</l>
-            <l>Si ma femme a failli, qu’elle pleure bien fort.</l>
-            <l n="460">Mais pourquoi moi pleurer puisque je n’ai point tort ?</l>
-            <l>En tout cas ce qui peut m’ôter ma fâcherie,</l>
-            <l>C’est que je ne suis pas seul de ma Confrérie,</l>
-            <l>Voir cajoler sa femme et n’en témoigner rien</l>
-            <l>Se pratique aujourd’hui par force gens de bien :</l>
-            <l n="465">N’allons donc point chercher à faire une querelle</l>
-            <l>Pour un affront qui n’est que pure bagatelle.</l>
-            <l>L’on m’appellera sot de ne me venger pas ;</l>
-            <l>Mais je le serais fort de courir au trépas.</l>
-            <l>Je me sens là, pourtant remuer une bile</l>
+            <l n="454" xml:id="l454">D’avoir le sang bouillant et l’âme un peu mutine,</l>
+            <l n="455" xml:id="l455">Il pourrait bien, mettant affront dessus affront</l>
+            <l n="456" xml:id="l456">Charger de bois mon dos, comme il a fait mon front.</l>
+            <l n="457" xml:id="l457">Je hais de tout mon cœur les Esprits colériques,</l>
+            <l n="458" xml:id="l458">Et porte grand amour aux hommes pacifiques :</l>
+            <l n="459" xml:id="l459">Je ne suis point battant de peur d’être battu</l>
+            <l n="460" xml:id="l460">Et l’humeur débonnaire est ma grande vertu.</l>
+            <l n="461" xml:id="l461">Mais mon honneur me dit que d’une telle offense</l>
+            <l n="462" xml:id="l462">Il faut absolument que je prenne vengeance.</l>
+            <l n="463" xml:id="l463">Ma foi laissons-le dire autant qu’il lui plaira,</l>
+            <l n="464" xml:id="l464">Au diantre qui pourtant rien du tout en fera :</l>
+            <l n="465" xml:id="l465">Quand j’aurai fait le brave, et qu’un fer pour ma peine</l>
+            <l n="466" xml:id="l466">M’aura d’un vilain coup transpercé la bedaine,</l>
+            <l n="467" xml:id="l467">Que par la ville ira le bruit de mon trépas,</l>
+            <l n="468" xml:id="l468">Dites-moi, mon honneur, en serez-vous plus gras ?</l>
+            <l n="469" xml:id="l469">La Bière est un séjour par trop mélancolique</l>
+            <l n="470" xml:id="l470">Et trop malsain pour ceux qui craignent la colique,</l>
+            <l n="471" xml:id="l471">Et quant à moi je trouve, ayant tout compassé,</l>
+            <l n="472" xml:id="l472">Qu’il vaut mieux être encor Cocu que Trépassé :</l>
+            <l n="473" xml:id="l473">Quel mal cela fait-il ? la jambe en devient-elle</l>
+            <l n="474" xml:id="l474">Plus tortue après tout, et la taille moins belle ?</l>
+            <l n="475" xml:id="l475">Peste soit qui premier trouva l’invention</l>
+            <l n="476" xml:id="l476">De s’affliger l’esprit de cette vision,</l>
+            <l n="477" xml:id="l477">Et d’attacher l’honneur de l’homme le plus sage</l>
+            <l n="478" xml:id="l478">Aux choses que peut faire une femme volage ;</l>
+            <l n="479" xml:id="l479">Puisqu’on tient à bon droit tout crime personnel,</l>
+            <l n="480" xml:id="l480">Que fait là notre honneur pour être criminel ?</l>
+            <l n="481" xml:id="l481">Des actions d’autrui l’on nous donne le blâme.</l>
+            <l n="482" xml:id="l482">Si nos femmes sans nous ont un commerce infâme,</l>
+            <l n="483" xml:id="l483">Il faut que tout le mal tombe sur notre dos,</l>
+            <l n="484" xml:id="l484">Elles font la sottise, et nous sommes les sots :</l>
+            <l n="485" xml:id="l485">C’est un vilain abus, et les gens de Police</l>
+            <l n="486" xml:id="l486">Nous devraient bien régler une telle injustice.</l>
+            <l n="487" xml:id="l487">N’avons-nous pas assez des autres accidents,</l>
+            <l n="488" xml:id="l488">Qui nous viennent happer en dépit de nos dents ?</l>
+            <l n="489" xml:id="l489">Les querelles, procès, faim, soif, et maladie,</l>
+            <l n="490" xml:id="l490">Troublent-ils pas assez le repos de la vie,</l>
+            <l n="491" xml:id="l491">Sans s’aller de surcroît aviser sottement,</l>
+            <l n="492" xml:id="l492">De se faire un chagrin qui n’a nul fondement ?</l>
+            <l n="493" xml:id="l493">Moquons-nous de cela, méprisons les alarmes,</l>
+            <l n="494" xml:id="l494">Et mettons sous nos pieds les soupirs et les larmes ;</l>
+            <l n="495" xml:id="l495">Si ma femme a failli, qu’elle pleure bien fort.</l>
+            <l n="496" xml:id="l496">Mais pourquoi moi pleurer puisque je n’ai point tort ?</l>
+            <l n="497" xml:id="l497">En tout cas ce qui peut m’ôter ma fâcherie,</l>
+            <l n="498" xml:id="l498">C’est que je ne suis pas seul de ma Confrérie,</l>
+            <l n="499" xml:id="l499">Voir cajoler sa femme et n’en témoigner rien</l>
+            <l n="500" xml:id="l500">Se pratique aujourd’hui par force gens de bien :</l>
+            <l n="501" xml:id="l501">N’allons donc point chercher à faire une querelle</l>
+            <l n="502" xml:id="l502">Pour un affront qui n’est que pure bagatelle.</l>
+            <l n="503" xml:id="l503">L’on m’appellera sot de ne me venger pas ;</l>
+            <l n="504" xml:id="l504">Mais je le serais fort de courir au trépas.</l>
+            <l n="505" xml:id="l505">Je me sens là, pourtant remuer une bile</l>
             <stage>Mettant la main sur son estomac.</stage>
-            <l n="470">Qui veut me conseiller quelque action virile :</l>
-            <l>Oui le courroux me prend, c’est trop être poltron,</l>
-            <l>Je veux résolument me venger du Larron :</l>
-            <l>Déjà pour commencer dans l’ardeur qui m’enflamme,</l>
-            <l>Je vais dire partout qu’il couche avec ma femme.</l>
+            <l n="506" xml:id="l506">Qui veut me conseiller quelque action virile :</l>
+            <l n="507" xml:id="l507">Oui le courroux me prend, c’est trop être poltron,</l>
+            <l n="508" xml:id="l508">Je veux résolument me venger du Larron :</l>
+            <l n="509" xml:id="l509">Déjà pour commencer dans l’ardeur qui m’enflamme,</l>
+            <l n="510" xml:id="l510">Je vais dire partout qu’il couche avec ma femme.</l>
             <argument>
               <p>Avouez-moi maintenant la vérité, est-il pas vrai, Monsieur, que vous avez trouvé ces Vers tout à fait beaux, que vous ne vous êtes pu vous empêcher de les relire encore une fois, et que vous demeurez d’accord que Paris a eu raison de nommer cette scène, la belle Scène ?</p>
             </argument>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I18">
+        </div>
+        <div type="scene" xml:id="I18">
           <head>Scène XVIII.</head>
           <stage>Gorgibus, Célie, La Suivante.</stage>
           <p rend="argument">Célie n’ayant point trouvé de moyen plus propre pour punir son amant que d’épouser Valère, dit à son père qu’elle est prête de suivre en tout ses volontés, de quoi le bon vieillard témoigne être beaucoup satisfait, comme vous pouvez voir par ces Vers.</p>
-          <sp who="celie" xml:id="I18-1">
+          <sp xml:id="I18-1" who="celie">
             <speaker>Célie</speaker>
-            <l n="475">Oui, je veux bien subir une si juste Loi</l>
-            <l>Mon père, disposez de mes vœux et de moi,</l>
-            <l>Faites quand vous voudrez signer cette hyménée,</l>
-            <l>À suivre mon devoir je suis déterminée,</l>
-            <l>Je prétends gourmander mes propres sentiments</l>
-            <l n="480">Et me soumettre en tout à vos commandements.</l>
+            <l n="511" xml:id="l511">Oui, je veux bien subir une si juste Loi</l>
+            <l n="512" xml:id="l512">Mon père, disposez de mes vœux et de moi,</l>
+            <l n="513" xml:id="l513">Faites quand vous voudrez signer cette hyménée,</l>
+            <l n="514" xml:id="l514">À suivre mon devoir je suis déterminée,</l>
+            <l n="515" xml:id="l515">Je prétends gourmander mes propres sentiments</l>
+            <l n="516" xml:id="l516">Et me soumettre en tout à vos commandements.</l>
           </sp>
-          <sp who="gorgibus" xml:id="I18-2">
+          <sp xml:id="I18-2" who="gorgibus">
             <speaker>Gorgibus </speaker>
-            <l>Ah ! voilà qui me plaît de parler de la sorte,</l>
-            <l>Parbleu, si grande joie à l’heure me transporte,</l>
-            <l>Que mes jambes sur l’heure en cabrioleraient</l>
-            <l>Si nous n’étions point vus de gens qui s’en riraient.</l>
-            <l n="485">Approche-toi de moi, viens çà que je t’embrasse :</l>
-            <l>Une belle action n’a pas mauvaise grace,</l>
-            <l>Un père, quand il veut peut sa fille baiser,</l>
-            <l>Sans que l’on ait sujet de s’en scandaliser.</l>
-            <l>Va, le contentement de te voir si bien née</l>
-            <l n="490">Me fera rajeunir de dix fois une année.</l>
+            <l n="517" xml:id="l517">Ah ! voilà qui me plaît de parler de la sorte,</l>
+            <l n="518" xml:id="l518">Parbleu, si grande joie à l’heure me transporte,</l>
+            <l n="519" xml:id="l519">Que mes jambes sur l’heure en cabrioleraient</l>
+            <l n="520" xml:id="l520">Si nous n’étions point vus de gens qui s’en riraient.</l>
+            <l n="521" xml:id="l521">Approche-toi de moi, viens çà que je t’embrasse :</l>
+            <l n="522" xml:id="l522">Une belle action n’a pas mauvaise grace,</l>
+            <l n="523" xml:id="l523">Un père, quand il veut peut sa fille baiser,</l>
+            <l n="524" xml:id="l524">Sans que l’on ait sujet de s’en scandaliser.</l>
+            <l n="525" xml:id="l525">Va, le contentement de te voir si bien née</l>
+            <l n="526" xml:id="l526">Me fera rajeunir de dix fois une année.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I19">
+        </div>
+        <div type="scene" xml:id="I19">
           <head>Scène XIX.</head>
           <stage>Célie, la Suivante.</stage>
           <p rend="argument">Vous pourrez dans les cinq Vers qui suivent, apprendre tout le sujet de cette Scène.</p>
-          <sp who="suivante" xml:id="I19-1">
+          <sp xml:id="I19-1" who="suivante">
             <speaker>La Suivante</speaker>
-            <l>Ce changement m’étonne.</l>
+            <l n="527" xml:id="l527">Ce changement m’étonne.</l>
           </sp>
-          <sp who="celie" xml:id="I19-2">
+          <sp xml:id="I19-2" who="celie">
             <speaker>Célie</speaker>
-            <l>Et lorsque tu sauras</l>
-            <l>Par quel motif j’agis tu m’en estimeras.</l>
+            <l n="528" xml:id="l528">Et lorsque tu sauras</l>
+            <l n="529" xml:id="l529">Par quel motif j’agis tu m’en estimeras.</l>
           </sp>
-          <sp who="suivante" xml:id="I19-3">
+          <sp xml:id="I19-3" who="suivante">
             <speaker>La Suivante</speaker>
-            <l>Cela pourrait bien être.</l>
+            <l n="530" xml:id="l530">Cela pourrait bien être.</l>
           </sp>
-          <sp who="celie" xml:id="I19-4">
+          <sp xml:id="I19-4" who="celie">
             <speaker>Célie</speaker>
-            <l>Apprends donc que Lélie,</l>
-            <l>A pu blesser mon cœur par une perfidie,</l>
-            <l>Qu’il était en ces lieux sans…</l>
+            <l n="531" xml:id="l531">Apprends donc que Lélie,</l>
+            <l n="532" xml:id="l532">A pu blesser mon cœur par une perfidie,</l>
+            <l n="533" xml:id="l533">Qu’il était en ces lieux sans…</l>
           </sp>
-          <sp who="suivante" xml:id="I19-5">
+          <sp xml:id="I19-5" who="suivante">
             <speaker>La Suivante</speaker>
-            <l>Mais il vient à nous.</l>
+            <l n="534" xml:id="l534">Mais il vient à nous.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I20">
+        </div>
+        <div type="scene" xml:id="I20">
           <head>Scène XX.</head>
           <stage>Lélie, Célie, la Suivante.</stage>
           <p rend="argument">Dans cette Scène, Lélie qui avait fait dessein de s’en retourner, vient trouver Célie, pour lui dire un éternel adieu, et se plaindre de son infidélité, dans la pensée qu’il a, qu’elle est mariée à Sganarelle ; lorsque Célie, qui croit avoir plus de lieu de se plaindre que lui, lui reproche de son côté sa perfidie, ce qui ne donne pas un médiocre contentement à l’auditeur, qui connaît l’innocence de l’un et de l’autre, et comme vous la connaissez aussi, je crois que ces vers vous pourront divertir.</p>
-          <sp who="lelie" xml:id="I20-1">
+          <sp xml:id="I20-1" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Avant que pour jamais je m’éloigne de vous ;</l>
-            <l>Je veux vous reprocher au moins en cette place…</l>
+            <l n="535" xml:id="l535">Avant que pour jamais je m’éloigne de vous ;</l>
+            <l n="536" xml:id="l536">Je veux vous reprocher au moins en cette place…</l>
           </sp>
-          <sp who="celie" xml:id="I20-2">
+          <sp xml:id="I20-2" who="celie">
             <speaker>Célie</speaker>
-            <l>Quoi me parler encore, avez-vous cette audace ?</l>
+            <l n="537" xml:id="l537">Quoi me parler encore, avez-vous cette audace ?</l>
           </sp>
-          <sp who="lelie" xml:id="I20-3">
+          <sp xml:id="I20-3" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Il est vrai qu’elle est grande et votre choix est tel</l>
-            <l n="500">Qu’à vous rien reprocher je serais criminel,</l>
-            <l>Vivez, vivez contente et bravez ma mémoire</l>
-            <l>Avec le digne Époux qui vous comble de gloire.</l>
+            <l n="538" xml:id="l538">Il est vrai qu’elle est grande et votre choix est tel</l>
+            <l n="539" xml:id="l539">Qu’à vous rien reprocher je serais criminel,</l>
+            <l n="540" xml:id="l540">Vivez, vivez contente et bravez ma mémoire</l>
+            <l n="541" xml:id="l541">Avec le digne Époux qui vous comble de gloire.</l>
           </sp>
-          <sp who="celie" xml:id="I20-4">
+          <sp xml:id="I20-4" who="celie">
             <speaker>Célie</speaker>
-            <l>Oui traître j’y veux vivre, et mon plus grand désir</l>
-            <l>Ce serait que ton cœur en eût du déplaisir.</l>
+            <l n="542" xml:id="l542">Oui traître j’y veux vivre, et mon plus grand désir</l>
+            <l n="543" xml:id="l543">Ce serait que ton cœur en eût du déplaisir.</l>
           </sp>
-          <sp who="lelie" xml:id="I20-5">
+          <sp xml:id="I20-5" who="lelie">
             <speaker>Lélie</speaker>
-            <l n="505">Qui rend donc contre moi ce courroux légitime ?</l>
+            <l n="544" xml:id="l544">Qui rend donc contre moi ce courroux légitime ?</l>
           </sp>
-          <sp who="celie" xml:id="I20-6">
+          <sp xml:id="I20-6" who="celie">
             <speaker>Célie</speaker>
-            <l>Quoi tu fais le surpris, et demandes ton crime ?</l>
+            <l n="545" xml:id="l545">Quoi tu fais le surpris, et demandes ton crime ?</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I21">
+        </div>
+        <div type="scene" xml:id="I21">
           <head>Scène XXI.</head>
           <stage>Célie, Lélie, Sganarelle, la Suivante.</stage>
           <p rend="argument">Sganarelle, qui comme vous avez vu dans la fin de la belle Scène (puisqu’elle n’a point à présent d’autre nom dans Paris) a pris résolution de se venger de Lélie, vient pour cet effet dans cette Scène, armé de toutes pièces ; et comme il ne se l’aperçoit pas d’abord, il ne lui promet pas moins que la mort dès qu’il le rencontrera. Mais comme il est de ceux qui n’exterminent leurs ennemis que quand ils sont absents, aussitôt qu’il aperçoit Lélie, bien loin de lui passer l’épée au travers du corps, il ne lui fait que des révérences, et puis se retirant à quartier, il s’excite à faire quelque effort généreux et à le tuer par-derrière : et se mettant après en colère contre lui-même de ce que sa poltronnerie ne lui permet pas seulement de le regarder entre deux yeux, il se punit lui-même de sa lâcheté, par les coups et les soufflets qu’il se donne, et l’on peut dire, que quoique bien souvent l’on ait vu des Scènes semblables, Sganarelle sait si bien animer cette action, qu’elle paraît nouvelle au Théâtre. Cependant que Sganarelle se tourmente ainsi lui-même, Célie et son Amant n’ont pas moins d’inquiétude que lui, et ne se reprochent que par des regards enflammés de courroux, leur infidélité imaginaire ; la colère, quand elle est montée jusqu’à l’excès, ne nous laissant pour l’ordinaire que le pouvoir de dire peu de paroles. Célie est la première qui à la vue de Sganarelle dit à son Amant de jeter les yeux sur lui, et qu’il verra de quoi le faire ressouvenir de son crime ; mais comment y trouverait-il de quoi le confondre, puisque c’est par-là qu’il prétend la confondre elle-même. Il se passe encore quantité de choses dans cette Scène, qui confirment les soupçons de l’un et de l’autre ; mais de peur de vous ennuyer trop longtemps par ma Prose, j’ai recours aux Vers que voici pour vous les expliquer.</p>
-          <sp who="sganarelle" xml:id="I21-1">
+          <sp xml:id="I21-1" who="sganarelle">
             <speaker> sganarelle <hi rend="i">entre armé.</hi></speaker>
-            <l>Guerre, guerre mortelle, à ce larron d’honneur,</l>
-            <l>Qui sans miséricorde a souillé notre honneur.</l>
+            <l n="546" xml:id="l546">Guerre, guerre mortelle, à ce larron d’honneur,</l>
+            <l n="547" xml:id="l547">Qui sans miséricorde a souillé notre honneur.</l>
           </sp>
-          <sp who="celie" xml:id="I21-2">
+          <sp xml:id="I21-2" who="celie">
             <speaker>Célie <hi rend="i">à Lélie.</hi></speaker>
-            <l>Tourne, tourne les yeux sans me faire répondre.</l>
+            <l n="548" xml:id="l548">Tourne, tourne les yeux sans me faire répondre.</l>
           </sp>
-          <sp who="lelie" xml:id="I21-3">
+          <sp xml:id="I21-3" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Ah ! je vois…</l>
+            <l n="549" xml:id="l549">Ah ! je vois…</l>
           </sp>
-          <sp who="celie" xml:id="I21-4">
+          <sp xml:id="I21-4" who="celie">
             <speaker>Célie</speaker>
-            <l n="510">Cet objet suffit pour te confondre.</l>
+            <l n="550" xml:id="l550">Cet objet suffit pour te confondre.</l>
           </sp>
-          <sp who="lelie" xml:id="I21-5">
+          <sp xml:id="I21-5" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Mais pour vous obliger bien plutôt à rougir.</l>
+            <l n="551" xml:id="l551">Mais pour vous obliger bien plutôt à rougir.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I21-6">
+          <sp xml:id="I21-6" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Ma colère à présent est en état d’agir,</l>
-            <l>Dessus ses grands chevaux est monté mon courage,</l>
-            <l>Et si je le rencontre on verra du carnage :</l>
-            <l n="515">Oui j’ai juré sa mort, rien ne peut m’empêcher,</l>
-            <l>Où je le trouverai, je le veux dépêcher,</l>
-            <l>Au beau milieu du cœur il faut que je lui donne…</l>
+            <l n="552" xml:id="l552">Ma colère à présent est en état d’agir,</l>
+            <l n="553" xml:id="l553">Dessus ses grands chevaux est monté mon courage,</l>
+            <l n="554" xml:id="l554">Et si je le rencontre on verra du carnage :</l>
+            <l n="555" xml:id="l555">Oui j’ai juré sa mort, rien ne peut m’empêcher,</l>
+            <l n="556" xml:id="l556">Où je le trouverai, je le veux dépêcher,</l>
+            <l n="557" xml:id="l557">Au beau milieu du cœur il faut que je lui donne…</l>
           </sp>
-          <sp who="lelie" xml:id="I21-7">
+          <sp xml:id="I21-7" who="lelie">
             <speaker>Lélie</speaker>
-            <l>À qui donc en veut-on ?</l>
+            <l n="558" xml:id="l558">À qui donc en veut-on ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I21-8">
+          <sp xml:id="I21-8" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Je n’en veux à personne.</l>
+            <l n="559" xml:id="l559">Je n’en veux à personne.</l>
           </sp>
-          <sp who="lelie" xml:id="I21-9">
+          <sp xml:id="I21-9" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Pourquoi ces armes-là ?</l>
+            <l n="560" xml:id="l560">Pourquoi ces armes-là ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I21-10">
+          <sp xml:id="I21-10" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>C’est un habillement</l>
-            <l n="520">Que j’ai pris pour la pluie.</l>
+            <l n="561" xml:id="l561">C’est un habillement</l>
+            <l n="562" xml:id="l562">Que j’ai pris pour la pluie.</l>
             <stage>À part.</stage>
-            <l>Ah ! quel contentement</l>
-            <l>J’aurais à le tuer, prenons-en le courage.</l>
+            <l n="563" xml:id="l563">Ah ! quel contentement</l>
+            <l n="564" xml:id="l564">J’aurais à le tuer, prenons-en le courage.</l>
           </sp>
-          <sp who="lelie" xml:id="I21-11">
+          <sp xml:id="I21-11" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Hay ?</l>
+            <l n="565" xml:id="l565">Hay ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I21-12">
+          <sp xml:id="I21-12" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">se donnant des coups de poings sur l’estomac, et des soufflets pour s’exciter.</hi></speaker>
-            <l>Je ne parle pas.</l>
+            <l n="566" xml:id="l566">Je ne parle pas.</l>
             <stage>À part.</stage>
-            <l>Ah ! poltron dont j’enrage,</l>
-            <l>Lâche, vrai cœur de poule.</l>
+            <l n="567" xml:id="l567">Ah ! poltron dont j’enrage,</l>
+            <l n="568" xml:id="l568">Lâche, vrai cœur de poule.</l>
           </sp>
-          <sp who="celie" xml:id="I21-13">
+          <sp xml:id="I21-13" who="celie">
             <speaker>Célie</speaker>
-            <l>Il t’en doit dire assez</l>
-            <l>Cet objet, dont tes yeux nous paraissent blessés.</l>
+            <l n="569" xml:id="l569">Il t’en doit dire assez</l>
+            <l n="570" xml:id="l570">Cet objet, dont tes yeux nous paraissent blessés.</l>
           </sp>
-          <sp who="lelie" xml:id="I21-14">
+          <sp xml:id="I21-14" who="lelie">
             <speaker>Lélie</speaker>
-            <l n="525">Oui, je connais par là que vous êtes coupable</l>
-            <l>De l’infidélité la plus inexcusable,</l>
-            <l>Qui jamais d’un amant puisse outrager la foi.</l>
+            <l n="571" xml:id="l571">Oui, je connais par là que vous êtes coupable</l>
+            <l n="572" xml:id="l572">De l’infidélité la plus inexcusable,</l>
+            <l n="573" xml:id="l573">Qui jamais d’un amant puisse outrager la foi.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I21-15">
+          <sp xml:id="I21-15" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">à part.</hi></speaker>
-            <l>Que n’ai-je un peu de cœur.</l>
+            <l n="574" xml:id="l574">Que n’ai-je un peu de cœur.</l>
           </sp>
-          <sp who="celie" xml:id="I21-16">
+          <sp xml:id="I21-16" who="celie">
             <speaker>Célie</speaker>
-            <l>Ah ! cesse devant moi,</l>
-            <l>Traître, de ce discours l’insolence cruelle.</l>
+            <l n="575" xml:id="l575">Ah ! cesse devant moi,</l>
+            <l n="576" xml:id="l576">Traître, de ce discours l’insolence cruelle.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I21-17">
+          <sp xml:id="I21-17" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="530">Sganarelle, tu vois qu’elle prend ta querelle,</l>
-            <l>Courage mon enfant, sois un peu vigoureux,</l>
-            <l>Là, hardi, tâche à faire un effort généreux,</l>
-            <l>En le tuant, tandis qu’il tourne le derrière.</l>
+            <l n="577" xml:id="l577">Sganarelle, tu vois qu’elle prend ta querelle,</l>
+            <l n="578" xml:id="l578">Courage mon enfant, sois un peu vigoureux,</l>
+            <l n="579" xml:id="l579">Là, hardi, tâche à faire un effort généreux,</l>
+            <l n="580" xml:id="l580">En le tuant, tandis qu’il tourne le derrière.</l>
           </sp>
-          <sp who="lelie" xml:id="I21-18">
+          <sp xml:id="I21-18" who="lelie">
             <speaker>Lélie <hi rend="i">faisant deux ou trois pas sans dessein, fait retourner sganarelle qui s’approchait pour le tuer.</hi></speaker>
-            <l>Puisqu’un pareil discours émeut votre colère,</l>
-            <l n="535">Je dois de votre cœur me montrer satisfait,</l>
-            <l>Et l’applaudir ici du beau choix qu’il a fait.</l>
+            <l n="581" xml:id="l581">Puisqu’un pareil discours émeut votre colère,</l>
+            <l n="582" xml:id="l582">Je dois de votre cœur me montrer satisfait,</l>
+            <l n="583" xml:id="l583">Et l’applaudir ici du beau choix qu’il a fait.</l>
           </sp>
-          <sp who="celie" xml:id="I21-19">
+          <sp xml:id="I21-19" who="celie">
             <speaker>Célie</speaker>
-            <l>Oui oui, mon choix est tel qu’on n’y peut rien reprendre.</l>
+            <l n="584" xml:id="l584">Oui oui, mon choix est tel qu’on n’y peut rien reprendre.</l>
           </sp>
-          <sp who="lelie" xml:id="I21-20">
+          <sp xml:id="I21-20" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Allez, vous faites bien de le vouloir défendre.</l>
+            <l n="585" xml:id="l585">Allez, vous faites bien de le vouloir défendre.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I21-21">
+          <sp xml:id="I21-21" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Sans doute elle fait bien de défendre mes droits :</l>
-            <l n="540">Cette action Monsieur, n’est point selon les lois,</l>
-            <l>J’ai raison de m’en plaindre et si je n’étais sage,</l>
-            <l>On verrait arriver un étrange carnage.</l>
+            <l n="586" xml:id="l586">Sans doute elle fait bien de défendre mes droits :</l>
+            <l n="587" xml:id="l587">Cette action Monsieur, n’est point selon les lois,</l>
+            <l n="588" xml:id="l588">J’ai raison de m’en plaindre et si je n’étais sage,</l>
+            <l n="589" xml:id="l589">On verrait arriver un étrange carnage.</l>
           </sp>
-          <sp who="lelie" xml:id="I21-22">
+          <sp xml:id="I21-22" who="lelie">
             <speaker>Lélie</speaker>
-            <l>D’où vous naît cette plainte ? et quel chagrin brutal…</l>
+            <l n="590" xml:id="l590">D’où vous naît cette plainte ? et quel chagrin brutal…</l>
           </sp>
-          <sp who="sganarelle" xml:id="I21-23">
+          <sp xml:id="I21-23" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Suffit, vous savez bien où le bois me fait mal ;</l>
-            <l n="545">Mais votre conscience et le soin de votre âme</l>
-            <l>Vous devraient mettre aux yeux que ma femme est ma femme,</l>
-            <l>Et vouloir à ma barbe en faire votre bien,</l>
-            <l>Que ce n’est pas du tout agir en bon Chrétien.</l>
+            <l n="591" xml:id="l591">Suffit, vous savez bien où le bois me fait mal ;</l>
+            <l n="592" xml:id="l592">Mais votre conscience et le soin de votre âme</l>
+            <l n="593" xml:id="l593">Vous devraient mettre aux yeux que ma femme est ma femme,</l>
+            <l n="594" xml:id="l594">Et vouloir à ma barbe en faire votre bien,</l>
+            <l n="595" xml:id="l595">Que ce n’est pas du tout agir en bon Chrétien.</l>
           </sp>
-          <sp who="lelie" xml:id="I21-24">
+          <sp xml:id="I21-24" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Un semblable soupçon est bas et ridicule,</l>
-            <l n="550">Allez, dessus ce point n’ayez aucun scrupule,</l>
-            <l>Je sais qu’elle est à vous, et bien loin de brûler…</l>
+            <l n="596" xml:id="l596">Un semblable soupçon est bas et ridicule,</l>
+            <l n="597" xml:id="l597">Allez, dessus ce point n’ayez aucun scrupule,</l>
+            <l n="598" xml:id="l598">Je sais qu’elle est à vous, et bien loin de brûler…</l>
           </sp>
-          <sp who="celie" xml:id="I21-25">
+          <sp xml:id="I21-25" who="celie">
             <speaker>Célie</speaker>
-            <l>Ah ! qu’ici si tu sais bien traître, dissimuler.</l>
+            <l n="599" xml:id="l599">Ah ! qu’ici si tu sais bien traître, dissimuler.</l>
           </sp>
-          <sp who="lelie" xml:id="I21-26">
+          <sp xml:id="I21-26" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Quoi me soupçonnez-vous d’avoir une pensée</l>
-            <l>De qui son âme ait lieu de se croire offensée ?</l>
-            <l n="555">De cette lâcheté voulez-vous me noircir ?</l>
+            <l n="600" xml:id="l600">Quoi me soupçonnez-vous d’avoir une pensée</l>
+            <l n="601" xml:id="l601">De qui son âme ait lieu de se croire offensée ?</l>
+            <l n="602" xml:id="l602">De cette lâcheté voulez-vous me noircir ?</l>
           </sp>
-          <sp who="celie" xml:id="I21-27">
+          <sp xml:id="I21-27" who="celie">
             <speaker>Célie</speaker>
-            <l>Parle, parle à lui-même, il pourra t’éclaircir.</l>
+            <l n="603" xml:id="l603">Parle, parle à lui-même, il pourra t’éclaircir.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I21-28">
+          <sp xml:id="I21-28" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Vous me défendez mieux que je ne saurais faire,</l>
-            <l>Et du biais qu’il faut vous prenez cette affaire.</l>
+            <l n="604" xml:id="l604">Vous me défendez mieux que je ne saurais faire,</l>
+            <l n="605" xml:id="l605">Et du biais qu’il faut vous prenez cette affaire.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I22">
+        </div>
+        <div type="scene" xml:id="I22">
           <head>Scène XXII.</head>
           <stage>Célie, Lélie, Sganarelle, sa Femme, la Suivante.</stage>
           <p rend="argument">Dans la quatrième Scène de cette Pièce, la femme de Sganarelle, qui avait pris de la jalousie en voyant Célie entre les bras de son mari, vient pour lui faire des reproches (ce qui fait voir la merveilleuse conduite de cet ouvrage). Jugez de la beauté qu’un agréable malentendu produit dans cette Scène. Sganarelle croit que sa femme vient pour défendre son galant, sa femme croit qu’il aime Célie, Célie croit qu’elle vient ingénument se plaindre d’elle à cause qu’elle est avec Lélie, et lui en fait des reproches ; et Lélie enfin ne sait ce qu’on lui vient conter, et croit toujours que Célie a épousé Sganarelle. Quoique cette scène donne un plaisir incroyable à l’auditeur, elle ne peut pas durer plus longtemps sans trop de confusion, et je gage que vous souhaitez déjà de voir comment toutes ces personnes sortiront de l’embarras où ils se rencontrent ; mais je vous le donnerais bien à deviner en quatre coups, sans que vous en puissiez venir à bout. Peut-être vous persuadez-vous qu’il va venir quelqu’un qui sans y penser lui-même, les tirera de leur erreur : peut-être croyez vous aussi qu’à force de s’animer les uns contre les autres, quelqu’un venant à se justifier, leur fera voir à tous qu’ils s’abusent ; Mais ce n’est point tout cela, et l’Auteur s’est servi d’un moyen dont personne ne s’est jamais avisé, et que vous pourrez savoir si vous lisez les vers de cette Scène.</p>
-          <sp who="femme-sganarelle" xml:id="I22-1">
+          <sp xml:id="I22-1" who="femme-sganarelle">
             <speaker>La femme de sganarelle <hi rend="i">à Célie.</hi></speaker>
-            <l>Je ne suis point d’humeur à vouloir contre vous</l>
-            <l n="560">Faire éclater Madame, un esprit trop jaloux ;</l>
-            <l>Mais je ne suis point dupe, et vois ce qui se passe :</l>
-            <l>Il est de certains feux de fort mauvaise grâce,</l>
-            <l>Et votre âme devrait prendre un meilleur emploi,</l>
-            <l>Que de séduire un cœur qui doit n’être qu’à moi.</l>
+            <l n="606" xml:id="l606">Je ne suis point d’humeur à vouloir contre vous</l>
+            <l n="607" xml:id="l607">Faire éclater Madame, un esprit trop jaloux ;</l>
+            <l n="608" xml:id="l608">Mais je ne suis point dupe, et vois ce qui se passe :</l>
+            <l n="609" xml:id="l609">Il est de certains feux de fort mauvaise grâce,</l>
+            <l n="610" xml:id="l610">Et votre âme devrait prendre un meilleur emploi,</l>
+            <l n="611" xml:id="l611">Que de séduire un cœur qui doit n’être qu’à moi.</l>
           </sp>
-          <sp who="celie" xml:id="I22-2">
+          <sp xml:id="I22-2" who="celie">
             <speaker>Célie</speaker>
-            <l n="565">La déclaration est assez ingénue.</l>
+            <l n="612" xml:id="l612">La déclaration est assez ingénue.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I22-3">
+          <sp xml:id="I22-3" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">à sa femme.</hi></speaker>
-            <l>L’on ne demandait pas carogne ta venue,</l>
-            <l>Tu la viens quereller lorsqu’elle me défend,</l>
-            <l>Et tu trembles de peur qu’on t’ôte ton galant.</l>
+            <l n="613" xml:id="l613">L’on ne demandait pas carogne ta venue,</l>
+            <l n="614" xml:id="l614">Tu la viens quereller lorsqu’elle me défend,</l>
+            <l n="615" xml:id="l615">Et tu trembles de peur qu’on t’ôte ton galant.</l>
           </sp>
-          <sp who="celie" xml:id="I22-4">
+          <sp xml:id="I22-4" who="celie">
             <speaker>Célie</speaker>
-            <l>Allez, ne croyez pas que l’on en ait envie.</l>
+            <l n="616" xml:id="l616">Allez, ne croyez pas que l’on en ait envie.</l>
             <stage>Se tournant vers Lélie.</stage>
-            <l n="570">Tu vois si c’est mensonge, et j’en suis fort ravie.</l>
+            <l n="617" xml:id="l617">Tu vois si c’est mensonge, et j’en suis fort ravie.</l>
           </sp>
-          <sp who="lelie" xml:id="I22-5">
+          <sp xml:id="I22-5" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Que me veut‑on conter ?</l>
+            <l n="618" xml:id="l618">Que me veut‑on conter ?</l>
           </sp>
-          <sp who="suivante" xml:id="I22-6">
+          <sp xml:id="I22-6" who="suivante">
             <speaker>La Suivante</speaker>
-            <l>Ma foi je ne sais pas.</l>
-            <l>Quand on verra finir ce galimatias,</l>
-            <l>Déjà depuis longtemps je tâche à le comprendre,</l>
-            <l>Et si plus je l’écoute, et moins je puis l’entendre ;</l>
-            <l n="575">Je vois bien à la fin que je m’en dois mêler.</l>
+            <l n="619" xml:id="l619">Ma foi je ne sais pas.</l>
+            <l n="620" xml:id="l620">Quand on verra finir ce galimatias,</l>
+            <l n="621" xml:id="l621">Déjà depuis longtemps je tâche à le comprendre,</l>
+            <l n="622" xml:id="l622">Et si plus je l’écoute, et moins je puis l’entendre ;</l>
+            <l n="623" xml:id="l623">Je vois bien à la fin que je m’en dois mêler.</l>
             <stage>Allant se mettre entre Lélie et sa maîtresse.</stage>
-            <l>Répondez-moi par ordre et me laissez parler.</l>
+            <l n="624" xml:id="l624">Répondez-moi par ordre et me laissez parler.</l>
             <stage>À Lélie.</stage>
-            <l>Vous, qu’est-ce qu’à son cœur peut reprocher le vôtre ?</l>
+            <l n="625" xml:id="l625">Vous, qu’est-ce qu’à son cœur peut reprocher le vôtre ?</l>
           </sp>
-          <sp who="lelie" xml:id="I22-7">
+          <sp xml:id="I22-7" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Que l’infidèle a pu me quitter pour un autre :</l>
-            <l>Et que lorsque sur le bruit de son Hymen fatal,</l>
-            <l n="580">J’accours tout transporté d’un amour sans égal,</l>
-            <l>Dont l’ardeur résistait à se croire oubliée,</l>
-            <l>Mon abord en ces lieux la trouve mariée.</l>
+            <l n="626" xml:id="l626">Que l’infidèle a pu me quitter pour un autre :</l>
+            <l n="627" xml:id="l627">Et que lorsque sur le bruit de son Hymen fatal,</l>
+            <l n="628" xml:id="l628">J’accours tout transporté d’un amour sans égal,</l>
+            <l n="629" xml:id="l629">Dont l’ardeur résistait à se croire oubliée,</l>
+            <l n="630" xml:id="l630">Mon abord en ces lieux la trouve mariée.</l>
           </sp>
-          <sp who="suivante" xml:id="I22-8">
+          <sp xml:id="I22-8" who="suivante">
             <speaker>La Suivante </speaker>
-            <l>Mariée, à qui donc ?</l>
+            <l n="631" xml:id="l631">Mariée, à qui donc ?</l>
           </sp>
-          <sp who="lelie" xml:id="I22-9">
+          <sp xml:id="I22-9" who="lelie">
             <speaker>Lélie <hi rend="i">montrant sganarelle.</hi></speaker>
-            <l>À lui.</l>
+            <l n="632" xml:id="l632">À lui.</l>
           </sp>
-          <sp who="suivante" xml:id="I22-10">
+          <sp xml:id="I22-10" who="suivante">
             <speaker>La Suivante</speaker>
-            <l>Comment à lui ?</l>
+            <l n="633" xml:id="l633">Comment à lui ?</l>
           </sp>
-          <sp who="lelie" xml:id="I22-11">
+          <sp xml:id="I22-11" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Oui-dà.</l>
+            <l n="634" xml:id="l634">Oui-dà.</l>
           </sp>
-          <sp who="suivante" xml:id="I22-12">
+          <sp xml:id="I22-12" who="suivante">
             <speaker>La Suivante</speaker>
-            <l>Qui vous l’a dit ?</l>
+            <l n="635" xml:id="l635">Qui vous l’a dit ?</l>
           </sp>
-          <sp who="lelie" xml:id="I22-13">
+          <sp xml:id="I22-13" who="lelie">
             <speaker>Lélie</speaker>
-            <l>C’est lui-même aujourd’hui.</l>
+            <l n="636" xml:id="l636">C’est lui-même aujourd’hui.</l>
           </sp>
-          <sp who="suivante" xml:id="I22-14">
+          <sp xml:id="I22-14" who="suivante">
             <speaker>La Suivante <hi rend="i">à sganarelle.</hi></speaker>
-            <l>Est-il vrai ?</l>
+            <l n="637" xml:id="l637">Est-il vrai ?</l>
           </sp>
-          <sp who="sganarelle" xml:id="I22-15">
+          <sp xml:id="I22-15" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l n="585">Moi, j’ai dit que c’était à ma femme</l>
-            <l>Que j’étais marié.</l>
+            <l n="638" xml:id="l638">Moi, j’ai dit que c’était à ma femme</l>
+            <l n="639" xml:id="l639">Que j’étais marié.</l>
           </sp>
-          <sp who="lelie" xml:id="I22-16">
+          <sp xml:id="I22-16" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Dans un grand trouble d’âme,</l>
-            <l>Tantôt de mon portrait je vous ai vu saisi.</l>
+            <l n="640" xml:id="l640">Dans un grand trouble d’âme,</l>
+            <l n="641" xml:id="l641">Tantôt de mon portrait je vous ai vu saisi.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I22-17">
+          <sp xml:id="I22-17" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Il est vrai, le voilà.</l>
+            <l n="642" xml:id="l642">Il est vrai, le voilà.</l>
           </sp>
-          <sp who="lelie" xml:id="I22-18">
+          <sp xml:id="I22-18" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Vous m’avez dit aussi,</l>
-            <l>Que celle aux mains de qui vous aviez pris ce gage,</l>
-            <l n="590">Était liée à vous des nœuds du mariage.</l>
+            <l n="643" xml:id="l643">Vous m’avez dit aussi,</l>
+            <l n="644" xml:id="l644">Que celle aux mains de qui vous aviez pris ce gage,</l>
+            <l n="645" xml:id="l645">Était liée à vous des nœuds du mariage.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I22-19">
+          <sp xml:id="I22-19" who="sganarelle">
             <speaker>Sganarelle <hi rend="i">montrant sa femme.</hi></speaker>
-            <l>Sans doute, et je l’avais de ses mains arraché,</l>
-            <l>Et n’eusse pas sans lui découvert son péché.</l>
+            <l n="646" xml:id="l646">Sans doute, et je l’avais de ses mains arraché,</l>
+            <l n="647" xml:id="l647">Et n’eusse pas sans lui découvert son péché.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I22-20">
+          <sp xml:id="I22-20" who="femme-sganarelle">
             <speaker>La femme de sganarelle</speaker>
-            <l>Que me viens-tu conter par ta plainte importune ?</l>
-            <l>Je l’avais sous mes pieds rencontré par fortune,</l>
-            <l n="595">Et même quand après ton injuste courroux</l>
-            <l>J’ai fait dans sa faiblesse entrer Monsieur chez nous,</l>
+            <l n="648" xml:id="l648">Que me viens-tu conter par ta plainte importune ?</l>
+            <l n="649" xml:id="l649">Je l’avais sous mes pieds rencontré par fortune,</l>
+            <l n="650" xml:id="l650">Et même quand après ton injuste courroux</l>
+            <l n="651" xml:id="l651">J’ai fait dans sa faiblesse entrer Monsieur chez nous,</l>
             <stage>Montrant Lélie.</stage>
-            <l>Je n’ai pas reconnu les traits de sa peinture.</l>
+            <l n="652" xml:id="l652">Je n’ai pas reconnu les traits de sa peinture.</l>
           </sp>
-          <sp who="celie" xml:id="I22-21">
+          <sp xml:id="I22-21" who="celie">
             <speaker>Célie</speaker>
-            <l>C’est moi qui du portrait ai causé l’aventure,</l>
-            <l>Et je l’ai laissé choir en cette pâmoison</l>
+            <l n="653" xml:id="l653">C’est moi qui du portrait ai causé l’aventure,</l>
+            <l n="654" xml:id="l654">Et je l’ai laissé choir en cette pâmoison</l>
             <stage>À Sganarelle.</stage>
-            <l n="600">Qui m’a fait par vos soins remettre à la maison.</l>
+            <l n="655" xml:id="l655">Qui m’a fait par vos soins remettre à la maison.</l>
           </sp>
-          <sp who="suivante" xml:id="I22-22">
+          <sp xml:id="I22-22" who="suivante">
             <speaker>La Suivante</speaker>
-            <l>Vous voyez que sans moi vous y seriez encore,</l>
-            <l>Et vous aviez besoin de mon peu d’Ellébore.</l>
+            <l n="656" xml:id="l656">Vous voyez que sans moi vous y seriez encore,</l>
+            <l n="657" xml:id="l657">Et vous aviez besoin de mon peu d’Ellébore.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I22-23">
+          <sp xml:id="I22-23" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>Prendrons-nous tout ceci pour de l’argent comptant ?</l>
-            <l>Mon front l’a sur mon âme eu bien chaude pourtant.</l>
+            <l n="658" xml:id="l658">Prendrons-nous tout ceci pour de l’argent comptant ?</l>
+            <l n="659" xml:id="l659">Mon front l’a sur mon âme eu bien chaude pourtant.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I22-24">
+          <sp xml:id="I22-24" who="femme-sganarelle">
             <speaker>Sa Femme </speaker>
-            <l n="605">Ma crainte toutefois n’est pas trop dissipée</l>
-            <l>Et doux que soit le mal, je crains d’être trompée.</l>
+            <l n="660" xml:id="l660">Ma crainte toutefois n’est pas trop dissipée</l>
+            <l n="661" xml:id="l661">Et doux que soit le mal, je crains d’être trompée.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I22-25">
+          <sp xml:id="I22-25" who="sganarelle">
             <speaker>Sganarelle </speaker>
-            <l>Hé ! mutuellement croyons-nous gens de bien,</l>
-            <l>Je risque plus du mien que tu ne fais du tien :</l>
-            <l>Accepte sans façon le marché qu’on propose.</l>
+            <l n="662" xml:id="l662">Hé ! mutuellement croyons-nous gens de bien,</l>
+            <l n="663" xml:id="l663">Je risque plus du mien que tu ne fais du tien :</l>
+            <l n="664" xml:id="l664">Accepte sans façon le marché qu’on propose.</l>
           </sp>
-          <sp who="femme-sganarelle" xml:id="I22-26">
+          <sp xml:id="I22-26" who="femme-sganarelle">
             <speaker>Sa Femme</speaker>
-            <l n="610">Soit, mais gare le bois si j’apprends quelque chose.</l>
+            <l n="665" xml:id="l665">Soit, mais gare le bois si j’apprends quelque chose.</l>
           </sp>
-          <sp who="celie" xml:id="I22-27">
+          <sp xml:id="I22-27" who="celie">
             <speaker>Célie, <hi rend="i">à Lélie, après avoir parlé bas ensemble.</hi></speaker>
-            <l>Ah ! Dieux ! s’il est ainsi, qu’est-ce donc que j’ai fait ?</l>
-            <l>Je dois de mon courroux appréhender l’effet :</l>
-            <l>Oui, vous croyant sans foi, j’ai pris pour ma vengeance</l>
-            <l>Le malheureux secours de mon obéissance ;</l>
-            <l n="615">Et depuis un moment mon cœur vient d’accepter</l>
-            <l>Un hymen que toujours j’eus lieu de rebuter,</l>
-            <l>J’ai promis à mon père, et ce qui me désole…</l>
-            <l>Mais je le vois venir.</l>
+            <l n="666" xml:id="l666">Ah ! Dieux ! s’il est ainsi, qu’est-ce donc que j’ai fait ?</l>
+            <l n="667" xml:id="l667">Je dois de mon courroux appréhender l’effet :</l>
+            <l n="668" xml:id="l668">Oui, vous croyant sans foi, j’ai pris pour ma vengeance</l>
+            <l n="669" xml:id="l669">Le malheureux secours de mon obéissance ;</l>
+            <l n="670" xml:id="l670">Et depuis un moment mon cœur vient d’accepter</l>
+            <l n="671" xml:id="l671">Un hymen que toujours j’eus lieu de rebuter,</l>
+            <l n="672" xml:id="l672">J’ai promis à mon père, et ce qui me désole…</l>
+            <l n="673" xml:id="l673">Mais je le vois venir.</l>
           </sp>
-          <sp who="lelie" xml:id="I22-28">
+          <sp xml:id="I22-28" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Il me tiendra parole.</l>
+            <l n="674" xml:id="l674">Il me tiendra parole.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I23">
+        </div>
+        <div type="scene" xml:id="I23">
           <head>Scène XXIII.</head>
           <stage>Célie, Lélie, Gorgibus, Sganarelle, sa Femme, la Suivante</stage>
           <p rend="argument">Lélie, dans cette Scène, demande l’effet de sa parole à Gorgibus. Gorgibus lui refuse sa fille, et Célie ne se résout qu’à peine d’obéir à son père, comme vous pouvez voir en lisant.</p>
-          <sp who="lelie" xml:id="I23-1">
+          <sp xml:id="I23-1" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Monsieur, vous me voyez en ces lieux de retour,</l>
-            <l n="620">Brûlant des mêmes feux, et mon ardente amour</l>
-            <l>Verra comme je crois la promesse accomplie</l>
-            <l>Qui me donna l’espoir de l’hymen de Célie.</l>
+            <l n="675" xml:id="l675">Monsieur, vous me voyez en ces lieux de retour,</l>
+            <l n="676" xml:id="l676">Brûlant des mêmes feux, et mon ardente amour</l>
+            <l n="677" xml:id="l677">Verra comme je crois la promesse accomplie</l>
+            <l n="678" xml:id="l678">Qui me donna l’espoir de l’hymen de Célie.</l>
           </sp>
-          <sp who="gorgibus" xml:id="I23-2">
+          <sp xml:id="I23-2" who="gorgibus">
             <speaker>Gorgibus </speaker>
-            <l>Monsieur, que je revois en ces lieux de retour,</l>
-            <l>Brûlant des mêmes feux, et dont l’ardente amour</l>
-            <l n="625">Verra que vous croyez la promesse accomplie</l>
-            <l>Qui vous donna l’espoir de l’hymen de Célie,</l>
-            <l>Très humble Serviteur à Votre Seigneurie.</l>
+            <l n="679" xml:id="l679">Monsieur, que je revois en ces lieux de retour,</l>
+            <l n="680" xml:id="l680">Brûlant des mêmes feux, et dont l’ardente amour</l>
+            <l n="681" xml:id="l681">Verra que vous croyez la promesse accomplie</l>
+            <l n="682" xml:id="l682">Qui vous donna l’espoir de l’hymen de Célie,</l>
+            <l n="683" xml:id="l683">Très humble Serviteur à Votre Seigneurie.</l>
           </sp>
-          <sp who="lelie" xml:id="I23-3">
+          <sp xml:id="I23-3" who="lelie">
             <speaker>Lélie</speaker>
-            <l>Quoi ? Monsieur, est-ce ainsi qu’on trahit mon espoir ?</l>
+            <l n="684" xml:id="l684">Quoi ? Monsieur, est-ce ainsi qu’on trahit mon espoir ?</l>
           </sp>
-          <sp who="gorgibus" xml:id="I23-4">
+          <sp xml:id="I23-4" who="gorgibus">
             <speaker>Gorgibus</speaker>
-            <l>Oui, Monsieur, c’est ainsi que je fais mon devoir,</l>
-            <l>Ma fille en suit les lois.</l>
+            <l n="685" xml:id="l685">Oui, Monsieur, c’est ainsi que je fais mon devoir,</l>
+            <l n="686" xml:id="l686">Ma fille en suit les lois.</l>
           </sp>
-          <sp who="celie" xml:id="I23-5">
+          <sp xml:id="I23-5" who="celie">
             <speaker>Célie</speaker>
-            <l n="630">Mon devoir m’intéresse,</l>
-            <l>Mon père, à dégager vers lui votre promesse.</l>
+            <l n="687" xml:id="l687">Mon devoir m’intéresse,</l>
+            <l n="688" xml:id="l688">Mon père, à dégager vers lui votre promesse.</l>
           </sp>
-          <sp who="gorgibus" xml:id="I23-6">
+          <sp xml:id="I23-6" who="gorgibus">
             <speaker>Gorgibus</speaker>
-            <l>Est-ce répondre en fille à mes commandements ?</l>
-            <l>Tu te démens bien tôt de tes bons sentiments,</l>
-            <l>Pour Valère tantôt… mais j’aperçois son père,</l>
-            <l n="635">Il vient assurément pour conclure l’affaire.</l>
+            <l n="689" xml:id="l689">Est-ce répondre en fille à mes commandements ?</l>
+            <l n="690" xml:id="l690">Tu te démens bien tôt de tes bons sentiments,</l>
+            <l n="691" xml:id="l691">Pour Valère tantôt… mais j’aperçois son père,</l>
+            <l n="692" xml:id="l692">Il vient assurément pour conclure l’affaire.</l>
           </sp>
-        </div2>
-        <div2 type="scene" xml:id="I24">
+        </div>
+        <div type="scene" xml:id="I24">
           <head>Scène Dernière</head>
           <stage>Célie, Lélie, Gorgibus, Sganarelle, sa Femme, Villebrequin, la Suivante.</stage>
           <p rend="argument">La joie que Célie avait eue en apprenant que son amant ne lui était pas infidèle, eût été de courte durée, si le père de Valère ne fut pas venu à temps pour les retirer tous deux de peine. Vous pourrez voir dans le reste des vers de cette Pièce, que voici le sujet qui le fait venir.</p>
-          <sp who="gorgibus" xml:id="I24-1">
+          <sp xml:id="I24-1" who="gorgibus">
             <speaker>Gorgibus</speaker>
-            <l>Qui vous amène ici, seigneur Villebrequin ?</l>
+            <l n="693" xml:id="l693">Qui vous amène ici, seigneur Villebrequin ?</l>
           </sp>
-          <sp who="villebrequin" xml:id="I24-2">
+          <sp xml:id="I24-2" who="villebrequin">
             <speaker>Villebrequin</speaker>
-            <l>Un secret important, que j’ai su ce matin,</l>
-            <l>Qui rompt absolument ma parole donnée.</l>
-            <l>Mon fils, dont votre fille acceptait l’hyménée,</l>
-            <l n="640">Sous des liens cachés trompant les yeux de tous,</l>
-            <l>Vit depuis quatre mois avec Lise en Époux,</l>
-            <l>Et comme des parents le bien et la naissance</l>
-            <l>M’ôtent tout le pouvoir d’en casser l’alliance,</l>
-            <l>Je vous viens…</l>
+            <l n="694" xml:id="l694">Un secret important, que j’ai su ce matin,</l>
+            <l n="695" xml:id="l695">Qui rompt absolument ma parole donnée.</l>
+            <l n="696" xml:id="l696">Mon fils, dont votre fille acceptait l’hyménée,</l>
+            <l n="697" xml:id="l697">Sous des liens cachés trompant les yeux de tous,</l>
+            <l n="698" xml:id="l698">Vit depuis quatre mois avec Lise en Époux,</l>
+            <l n="699" xml:id="l699">Et comme des parents le bien et la naissance</l>
+            <l n="700" xml:id="l700">M’ôtent tout le pouvoir d’en casser l’alliance,</l>
+            <l n="701" xml:id="l701">Je vous viens…</l>
           </sp>
-          <sp who="gorgibus" xml:id="I24-3">
+          <sp xml:id="I24-3" who="gorgibus">
             <speaker>Gorgibus</speaker>
-            <l>Brisons là, si sans votre congé,</l>
-            <l n="645">Valère votre fils ailleurs s’est engagé,</l>
-            <l>Je ne vous puis celer que ma fille Célie,</l>
-            <l>Dès longtemps par moi-même est promise à Lélie,</l>
-            <l>Et que riche en vertus son retour aujourd’hui</l>
-            <l>M’empêche d’agréer un autre Époux que lui.</l>
+            <l n="702" xml:id="l702">Brisons là, si sans votre congé,</l>
+            <l n="703" xml:id="l703">Valère votre fils ailleurs s’est engagé,</l>
+            <l n="704" xml:id="l704">Je ne vous puis celer que ma fille Célie,</l>
+            <l n="705" xml:id="l705">Dès longtemps par moi-même est promise à Lélie,</l>
+            <l n="706" xml:id="l706">Et que riche en vertus son retour aujourd’hui</l>
+            <l n="707" xml:id="l707">M’empêche d’agréer un autre Époux que lui.</l>
           </sp>
-          <sp who="villebrequin" xml:id="I24-4">
+          <sp xml:id="I24-4" who="villebrequin">
             <speaker>Villebrequin</speaker>
-            <l>Un tel choix me plaît fort.</l>
+            <l n="708" xml:id="l708">Un tel choix me plaît fort.</l>
           </sp>
-          <sp who="lelie" xml:id="I24-5">
+          <sp xml:id="I24-5" who="lelie">
             <speaker>Lélie</speaker>
-            <l n="650">Et cette juste envie,</l>
-            <l>D’un bonheur éternel va couronner ma vie.</l>
+            <l n="709" xml:id="l709">Et cette juste envie,</l>
+            <l n="710" xml:id="l710">D’un bonheur éternel va couronner ma vie.</l>
           </sp>
-          <sp who="gorgibus" xml:id="I24-6">
+          <sp xml:id="I24-6" who="gorgibus">
             <speaker>Gorgibus</speaker>
-            <l>Allons choisir le jour pour se donner la foi.</l>
+            <l n="711" xml:id="l711">Allons choisir le jour pour se donner la foi.</l>
           </sp>
-          <sp who="sganarelle" xml:id="I24-7">
+          <sp xml:id="I24-7" who="sganarelle">
             <speaker>Sganarelle</speaker>
-            <l>A-t-on mieux cru jamais être cocu que moi ?</l>
-            <l>Vous croyez qu’en ce fait la plus forte apparence</l>
-            <l n="655">Peut jeter dans l’esprit une fausse créance :</l>
-            <l>De cet exemple-ci, ressouvenez-vous bien,</l>
+            <l n="712" xml:id="l712">A-t-on mieux cru jamais être cocu que moi ?</l>
+            <l n="713" xml:id="l713">Vous croyez qu’en ce fait la plus forte apparence</l>
+            <l n="714" xml:id="l714">Peut jeter dans l’esprit une fausse créance :</l>
+            <l n="715" xml:id="l715">De cet exemple-ci, ressouvenez-vous bien,</l>
             <p>Et quand vous verriez tout, ne croyez jamais rien.</p>
           </sp>
           <label>À un ami (fin)</label>
           <p>Sans mentir, Monsieur, vous me devez bien être obligé de tant de belles choses que je vous envoie, et tous les melons de votre jardin ne sont pas suffisants pour me payer la peine d’avoir retenu pour l’amour de vous toute cette Pièce par cœur ; mais j’oubliais de vous dire une chose à l’avantage de son Auteur, qui est que comme je n’ai eu cette Pièce que je vous envoie que par effort de mémoire, il peut s’y être coulé quantité de mots les uns pour les autres, bien qu’ils signifient la même chose ; et comme ceux de l’Auteur peuvent être plus significatifs, je vous prie de m’imputer toutes les fautes de cette nature que vous y trouverez ; et je vous conjure avec tous les curieux de France de venir voir représenter cette Pièce comme un des plus beaux Ouvrages, et un des mieux joués qui ait jamais paru sur la Scène.</p>
           <label>FIN</label>
-        </div2>
-      </div1>
+        </div>
+      </div>
     </body>
   </text>
 </TEI>

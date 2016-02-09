@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_precieuses-ridicules" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -38,9 +39,9 @@
         <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_precieuses-ridicules.xml</idno>
       </publicationStmt>
       <sourceDesc>
-        <p>
+        <bibl>
           <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k70179z">http://gallica.bnf.fr/ark:/12148/bpt6k70179z</ref>
-        </p>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -442,7 +443,7 @@
         </div2>
         <div2 type="scene" xml:id="I09">
           <head>Scène IX</head>
-          <stage>Magdelon, Cathos, <lb/>Mascarille, Almanzor.</stage>
+          <stage>Magdelon, Cathos, Mascarille, Almanzor.</stage>
           <sp who="mascarille" xml:id="I09-1">
             <speaker>Mascarille, <hi rend="i">après avoir salué</hi></speaker>
             <p>Mesdames, vous serez surprises, sans doute, de l’audace de ma visite ; mais votre réputation vous attire cette méchante affaire, et le mérite a, pour moi, des charmes si puissants, que je cours, partout, après lui.</p>
@@ -897,7 +898,7 @@
         </div2>
         <div2 type="scene" xml:id="I10">
           <head>Scène X</head>
-          <stage>Marotte, Mascarille, <lb/>Cathos, Magdelon.</stage>
+          <stage>Marotte, Mascarille, Cathos, Magdelon.</stage>
           <sp who="marotte" xml:id="I10-1">
             <speaker>Marotte</speaker>
             <p>Madame, on demande à vous voir.</p>
@@ -941,7 +942,7 @@
         </div2>
         <div2 type="scene" xml:id="I11">
           <head>Scène XI</head>
-          <stage>Jodelet, Mascarille, Cathos, <lb/>Magdelon, Marotte.</stage>
+          <stage>Jodelet, Mascarille, Cathos, Magdelon, Marotte.</stage>
           <sp who="mascarille" xml:id="I11-1">
             <speaker>Mascarille</speaker>
             <p>Ah Vicomte !</p>
@@ -1190,7 +1191,7 @@
         </div2>
         <div2 type="scene" xml:id="I12">
           <head>Scène XII</head>
-          <stage>Jodelet, Mascarille, Cathos, <lb/>Magdelon, Marotte, Lucile.</stage>
+          <stage>Jodelet, Mascarille, Cathos, Magdelon, Marotte, Lucile.</stage>
           <sp who="magdelon" xml:id="I12-1">
             <speaker>Magdelon</speaker>
             <p>Mon Dieu, mes chères, nous vous demandons pardon. Ces Messieurs ont eu fantaisie de nous donner les âmes des pieds, et nous vous avons envoyé quérir pour remplir les vides de notre assemblée.</p>
@@ -1259,7 +1260,7 @@
         </div2>
         <div2 type="scene" xml:id="I14">
           <head>Scène XIV</head>
-          <stage>Mascarille, Jodelet, <lb/>Cathos, Magdelon.</stage>
+          <stage>Mascarille, Jodelet, Cathos, Magdelon.</stage>
           <sp who="magdelon" xml:id="I14-1">
             <speaker>Magdelon</speaker>
             <p>Que veut donc dire ceci ?</p>
@@ -1287,7 +1288,7 @@
         </div2>
         <div2 type="scene" xml:id="I15">
           <head>Scène XV</head>
-          <stage>Du Croisy, La Grange, Mascarille, <lb/>Jodelet, Magdelon, Cathos.</stage>
+          <stage>Du Croisy, La Grange, Mascarille, Jodelet, Magdelon, Cathos.</stage>
           <sp who="lagrange" xml:id="I15-1">
             <speaker>La Grange</speaker>
             <p>Ma foi, marauds, vous ne vous rirez pas de nous, je vous promets. Entrez, vous autres.</p>
@@ -1371,7 +1372,7 @@
         </div2>
         <div2 type="scene" xml:id="I16">
           <head>Scène XVI</head>
-          <stage>Gorgibus, Mascarille, <lb/>Jodelet, Magdelon.</stage>
+          <stage>Gorgibus, Mascarille, Jodelet, Magdelon.</stage>
           <sp who="gorgibus" xml:id="I16-1">
             <speaker>Gorgibus</speaker>
             <p>Ah coquines, que vous êtes, vous nous mettez dans de beaux draps blancs, à ce que je vois, et je viens d’apprendre de belles affaires vraiment, de ces Messieurs, qui sortent.</p>
@@ -1396,7 +1397,7 @@
         </div2>
         <div2 type="scene" xml:id="I17">
           <head>Scène XVII</head>
-          <stage>Gorgibus, Magdelon, <lb/>Cathos, Violons.</stage>
+          <stage>Gorgibus, Magdelon, Cathos, Violons.</stage>
           <sp who="violons" xml:id="I17-1">
             <speaker>Violons</speaker>
             <p>Monsieur nous entendons que vous nous contentiez à leur défaut, pour ce que nous avons joué ici.</p>

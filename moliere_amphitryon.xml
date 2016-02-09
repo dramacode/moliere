@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_amphitryon" xml:lang="fr">
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -66,44 +67,15 @@
           <titlePart type="sub">COMÉDIE</titlePart>
         </docTitle>
         <docAuthor>PAR J. B. P. DE MOLIÈRE</docAuthor>
-        <docImprint>À PARIS, <lb/>Chez JEAN RIBOU, au Palais, vis-à-vis <lb/>la Porte de l'Église de
-          la Sainte-Chapelle, <lb/>À l'Image Saint-Louis. <lb/>M. DC. LXVIII. <lb/><hi rend="i">AVEC PRIVILÈGE DU ROI.</hi></docImprint>
+        <docImprint>À PARIS, <lb/>Chez JEAN RIBOU, au Palais, vis-à-vis <lb/>la Porte de l'Église de la Sainte-Chapelle, <lb/>À l'Image Saint-Louis. <lb/>M. DC. LXVIII. <lb/><hi rend="i">AVEC PRIVILÈGE DU ROI.</hi></docImprint>
       </titlePage>
       <div>
         <head>À SON ALTESSE SÉRÉNISSIME MONSEIGNEUR LE PRINCE</head>
         <p rend="sc">Monseigneur,</p>
-        <p>N'en déplaise à nos beaux Esprits, je ne vois rien de plus ennuyeux que les Épitres
-          Dédicatoires ; et <hi rend="sc">Votre Altesse Sérénissime</hi> trouvera bon, s'il lui
-          plait, que je ne suive point ici le style de ces Messieurs-là ; et refuse de me servir de
-          deux ou trois misérables pensées, qui ont été tournées, et retournées tant de fois,
-          qu'elles sont usées de tous les côtés. Le Nom du Grand <hi rend="sc">Condé</hi> est un Nom trop glorieux,
-          pour le traiter comme on fait tous les autres Noms. Il ne faut l'appliquer, ce Nom
-          illustre, qu'à des Emplois qui soient dignes de lui ; et pour dire de belles choses, je
-          voudrais parler de le mettre à la tête d'une Armée, plutôt qu'à la tête d'un Livre : Et je
-          conçois bien mieux ce qu'il est capable de faire, en l'opposant aux forces des Ennemis de
-          cet État, qu'en l'opposant à la Critique des Ennemis d'une comédie.</p>
-        <p>Ce n'est pas, <hi rend="sc">Monseigneur</hi>, que la glorieuse approbation de V. A. S. ne fut une puissante
-          protection pour toutes ces sortes d'Ouvrages, et qu'on ne soit persuadé des lumières de
-          votre Esprit, autant que de l'intrépidité de votre Coeur, et de la grandeur de votre Âme.
-          On sait par toute la Terre, que l'éclat de votre Mérite n'est point renfermé dans les
-          bornes de cette Valeur indomptable, qui se fait des Adorateurs chez ceux mêmes qu'Elle
-          surmonte ; qu'il s'étend, ce Mérite, jusqu'aux connaissances les plus fines et les plus
-          relevées ; et que les décisions de votre jugement sur tous les Ouvrages d'esprit, ne
-          manquent point d'être suivies par le sentiment des plus délicats. Mais on sait aussi,
-          <hi rend="sc">Monseigneur</hi>, que toutes ces glorieuses approbations dont nous nous vantons au Public, ne nous
-          coûtent rien à faire imprimer, et que ce sont des choses dont nous disposons comme nous
-          voulons. On sait, dis-je, qu'une Épitre Dédicatoire, dit tout ce qu'il lui plait ; et
-          qu'un Auteur est en pourvoir d'aller saisir les Personnes les plus augustes, et de parer
-          de leurs grands Noms les premiers feuillets de son Livre ; qu'il a la liberté de s'y donner
-          autant qu'il veut l'honneur de leur estime, et de se faire des Protecteurs qui n'ont
-          jamais songé à l'être.</p>
-        <p>Je n'abuserai, <hi rend="sc">Monseigneur</hi>, ni de votre Nom, ni de vous bontés, pour combattre les
-          Censeurs de l'<hi rend="n">Amphitryon</hi>, et m'attribuer une gloire, que je n'ai pas peut-être méritée ;
-          et je ne prends la liberté de vous offrir ma Comédie, que pour avoir lieu de vous dire que
-          je regarde incessamment avec une profonde vénération, les grandes Qualités que vous
-          joignez au Sang auguste dont vous tenez le jour, et que je suis, <hi rend="sc">Monseigneur</hi>, avec tout le
-          respect possible, et tout le zèle imaginable,</p>
-        <p>De <hi rend="sc n">Votre Altesse Sérénissime</hi>,</p>
+        <p>N'en déplaise à nos beaux Esprits, je ne vois rien de plus ennuyeux que les Épitres Dédicatoires ; et <hi rend="sc">Votre Altesse Sérénissime</hi> trouvera bon, s'il lui plait, que je ne suive point ici le style de ces Messieurs-là ; et refuse de me servir de deux ou trois misérables pensées, qui ont été tournées, et retournées tant de fois, qu'elles sont usées de tous les côtés. Le Nom du Grand <hi rend="sc">Condé</hi> est un Nom trop glorieux, pour le traiter comme on fait tous les autres Noms. Il ne faut l'appliquer, ce Nom illustre, qu'à des Emplois qui soient dignes de lui ; et pour dire de belles choses, je voudrais parler de le mettre à la tête d'une Armée, plutôt qu'à la tête d'un Livre : Et je conçois bien mieux ce qu'il est capable de faire, en l'opposant aux forces des Ennemis de cet État, qu'en l'opposant à la Critique des Ennemis d'une comédie.</p>
+        <p>Ce n'est pas, <hi rend="sc">Monseigneur</hi>, que la glorieuse approbation de V. A. S. ne fut une puissante protection pour toutes ces sortes d'Ouvrages, et qu'on ne soit persuadé des lumières de votre Esprit, autant que de l'intrépidité de votre Coeur, et de la grandeur de votre Âme. On sait par toute la Terre, que l'éclat de votre Mérite n'est point renfermé dans les bornes de cette Valeur indomptable, qui se fait des Adorateurs chez ceux mêmes qu'Elle surmonte ; qu'il s'étend, ce Mérite, jusqu'aux connaissances les plus fines et les plus relevées ; et que les décisions de votre jugement sur tous les Ouvrages d'esprit, ne manquent point d'être suivies par le sentiment des plus délicats. Mais on sait aussi, <hi rend="sc">Monseigneur</hi>, que toutes ces glorieuses approbations dont nous nous vantons au Public, ne nous coûtent rien à faire imprimer, et que ce sont des choses dont nous disposons comme nous voulons. On sait, dis-je, qu'une Épitre Dédicatoire, dit tout ce qu'il lui plait ; et qu'un Auteur est en pourvoir d'aller saisir les Personnes les plus augustes, et de parer de leurs grands Noms les premiers feuillets de son Livre ; qu'il a la liberté de s'y donner autant qu'il veut l'honneur de leur estime, et de se faire des Protecteurs qui n'ont jamais songé à l'être.</p>
+        <p>Je n'abuserai, <hi rend="sc">Monseigneur</hi>, ni de votre Nom, ni de vous bontés, pour combattre les Censeurs de l'<hi rend="n">Amphitryon</hi>, et m'attribuer une gloire, que je n'ai pas peut-être méritée ; et je ne prends la liberté de vous offrir ma Comédie, que pour avoir lieu de vous dire que je regarde incessamment avec une profonde vénération, les grandes Qualités que vous joignez au Sang auguste dont vous tenez le jour, et que je suis, <hi rend="sc">Monseigneur</hi>, avec tout le respect possible, et tout le zèle imaginable,</p>
+        <p>De <hi rend="sc">Votre Altesse Sérénissime</hi>,</p>
         <p rend="n">Le très humble, très obéissant, et très obligé Serviteur, <hi rend="sc">Molière</hi>.</p>
       </div>
       <div>
@@ -121,8 +93,7 @@
           <castItem><role xml:id="polidas" rend="male">Polidas</role>, capitaine thébain.</castItem>
           <castItem><role xml:id="posicles" rend="male">Posiclès</role>, capitaine thébain.</castItem>
         </castList>
-        <stage location="Thèbes" country="Grèce" periode="Temps mythologiques" link="">La Scène est à
-          Thèbes, devant la Maison d'Amphitryon.</stage>
+        <stage>La Scène est à Thèbes, devant la Maison d'Amphitryon.</stage>
       </div>
     </front>
     <body>
@@ -450,8 +421,7 @@
             <l>Mis Ptérélas leur Chef à mort ;</l>
             <l>Pris Télèbe d’assaut, et déjà dans le Port</l>
             <l>Tout retentit de nos prouesses.</l>
-            <l rend="i">Ah ! quel succès ! ô Dieux ! qui l’eût pu jamais
-              croire ?</l>
+            <l rend="i">Ah ! quel succès ! ô Dieux ! qui l’eût pu jamais croire ?</l>
             <l rend="i">Raconte-moi, Sosie, un tel événement.</l>
             <l>Je le veux bien, Madame, et sans m’enfler de gloire,</l>
             <l>Du détail de cette victoire</l>
@@ -483,7 +453,7 @@
             <stage>On fait un peu de bruit.</stage>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="I02">
+        <div2 type="scene" xml:id="I02">
           <head>Scène II</head>
           <stage>Mercure, Sosie.</stage>
           <sp who="mercure" xml:id="I02-1">
@@ -1131,7 +1101,7 @@
             <l>Reconduit l’amoureuse Alcmène.</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="I03">
+        <div2 type="scene" xml:id="I03">
           <head>Scène III</head>
           <stage>Jupiter, Alcmène, Cléanthis, Mercure.</stage>
           <sp who="jupiter" xml:id="I03-1">
@@ -1265,7 +1235,7 @@
             <l>Le Soleil, de son Lit, peut maintenant sortir.</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="I04">
+        <div2 type="scene" xml:id="I04">
           <head>Scène IV</head>
           <stage>Cléanthis, Mercure. <hi rend="i">Mercure veut s’en aller.</hi></stage>
           <sp who="cleanthis" xml:id="I04-1">
@@ -1390,7 +1360,7 @@
       </div1>
       <div1 type="act" xml:id="II">
         <head>Acte II</head>
-        <div2 type="titre2" xml:id="II01">
+        <div2 type="scene" xml:id="II01">
           <head>Scène Première</head>
           <stage>Amphitryon, Sosie.</stage>
           <sp who="amphitryon" xml:id="II01-1">
@@ -1736,7 +1706,7 @@
             <l>Et mon abord la va surprendre.</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="II02">
+        <div2 type="scene" xml:id="II02">
           <head>Scène II</head>
           <stage>Alcmène, Cléanthis, Amphitryon, Sosie.</stage>
           <sp who="alcmene" xml:id="II02-1">
@@ -2221,7 +2191,7 @@
             <l>Laisse-moi seule, et ne suis point mes pas.</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="II03">
+        <div2 type="scene" xml:id="II03">
           <head>Scène III</head>
           <stage>Cléanthis, Sosie.</stage>
           <sp who="cleanthis" xml:id="II03-1">
@@ -2516,7 +2486,7 @@
             <l>Amphitryon revient, qui me paraît content.</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="II04">
+        <div2 type="scene" xml:id="II04">
           <head>Scène IV</head>
           <stage>Jupiter, Cléanthis, Sosie.</stage>
           <sp who="jupiter" xml:id="II04-1">
@@ -2544,7 +2514,7 @@
             <l>A fait une prompte retraite.</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="II05">
+        <div2 type="scene" xml:id="II05">
           <head>Scène V</head>
           <stage>Cléanthis, Sosie.</stage>
           <sp who="sosie" xml:id="II05-1">
@@ -2574,7 +2544,7 @@
             <l>Les voici. Taisons-nous.</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="II06">
+        <div2 type="scene" xml:id="II06">
           <head>Scène VI</head>
           <stage>Jupiter, Alcmène, Cléanthis, Sosie.</stage>
           <sp who="jupiter" xml:id="II06-1">
@@ -2922,7 +2892,7 @@
             <l>Mercure y remplira sa place.</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="II07">
+        <div2 type="scene" xml:id="II07">
           <head>Scène VII</head>
           <stage>Cléanthis, Sosie.</stage>
           <sp who="sosie" xml:id="II07-1">
@@ -2968,7 +2938,7 @@
       </div1>
       <div1 type="act" xml:id="III">
         <head>Acte III</head>
-        <div2 type="titre2" xml:id="III01">
+        <div2 type="scene" xml:id="III01">
           <head>Scène Première</head>
           <sp who="amphitryon" xml:id="III01-1">
             <speaker>Amphitryon</speaker>
@@ -3025,7 +2995,7 @@
             <l>Et que, pour mon bonheur, elle ait perdu l’Esprit !</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="III02">
+        <div2 type="scene" xml:id="III02">
           <head>Scène II</head>
           <stage>Mercure, Amphitryon.</stage>
           <sp who="mercure" xml:id="III02-1">
@@ -3227,7 +3197,7 @@
             <l>L’excès de tes témérités.</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="III03">
+        <div2 type="scene" xml:id="III03">
           <head>Scène III</head>
           <sp who="amphitryon" xml:id="III03-1">
             <speaker>Amphitryon</speaker>
@@ -3245,7 +3215,7 @@
             <l>Ne doit aller qu’à me venger.</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="III04">
+        <div2 type="scene" xml:id="III04">
           <head>Scène IV</head>
           <stage>Sosie, Naucratès, Polidas, Amphitryon.</stage>
           <sp who="sosie" xml:id="III04-1">
@@ -3397,7 +3367,7 @@
             <l>Et je le crains plus que la Mort !</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="III05">
+        <div2 type="scene" xml:id="III05">
           <head>Scène V</head>
           <stage>Jupiter, Amphitryon, Naucratès, Polidas, Sosie.</stage>
           <sp who="jupiter" xml:id="III05-1">
@@ -3637,7 +3607,7 @@
             <l>Et jamais je n’eus tant de faim.</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="III06">
+        <div2 type="scene" xml:id="III06">
           <head>Scène VI</head>
           <stage>Mercure, Sosie.</stage>
           <sp who="mercure" xml:id="III06-1">
@@ -3788,7 +3758,7 @@
             <l>Je l’aperçois venir en bonne compagnie.</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="III07">
+        <div2 type="scene" xml:id="III07">
           <head>Scène VII</head>
           <stage>Amphitryon, Argatiphontidas, Posiclès, Sosie.</stage>
           <sp who="amphitryon" xml:id="III07-1">
@@ -3883,10 +3853,9 @@
             <l>N’est-il pas mieux, de voir s’il vient Personne.</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="III08">
+        <div2 type="scene" xml:id="III08">
           <head>Scène VIII</head>
-          <stage>Cléanthis, Naucratès, Polidas, Sosie, Amphitryon, Argatiphontidas,
-            Posiclès.</stage>
+          <stage>Cléanthis, Naucratès, Polidas, Sosie, Amphitryon, Argatiphontidas, Posiclès.</stage>
           <sp who="cleanthis" xml:id="III08-1">
             <speaker>Cléanthis</speaker>
             <p>Ô Ciel !</p>
@@ -3908,10 +3877,9 @@
             <l>Sauront vous affranchir de trouble, et de souci.</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="III09">
+        <div2 type="scene" xml:id="III09">
           <head>Scène IX</head>
-          <stage>Mercure, Cléanthis, Naucratès, Polidas, Sosie, Amphitryon, Argatiphontidas,
-            Posiclès.</stage>
+          <stage>Mercure, Cléanthis, Naucratès, Polidas, Sosie, Amphitryon, Argatiphontidas, Posiclès.</stage>
           <sp who="mercure" xml:id="III09-1">
             <speaker>Mercure</speaker>
             <l>Oui, vous l’allez voir tous : et sachez, par avance,</l>
@@ -3946,10 +3914,9 @@
             <l>Un Dieu plus Diable, que toi.</l>
           </sp>
         </div2>
-        <div2 type="titre2" xml:id="III10">
+        <div2 type="scene" xml:id="III10">
           <head>Scène X</head>
-          <stage>Jupiter, Cléanthis, Naucratès, Polidas, Sosie, Amphitryon, Argatiphontidas,
-            Posiclès.</stage>
+          <stage>Jupiter, Cléanthis, Naucratès, Polidas, Sosie, Amphitryon, Argatiphontidas, Posiclès.</stage>
           <sp who="jupiter" xml:id="III10-1">
             <speaker>Jupiter <hi rend="i">dans une Nue</hi></speaker>
             <l>Regarde, Amphitryon, quel est ton Imposteur ;</l>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_medecin-malgre-lui" xml:lang="fr">
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -45,8 +46,8 @@
   <text>
     <front>
       <div>
+        <head>PERSONNAGES</head>
         <castList>
-          <head>PERSONNAGES</head>
           <castItem><role xml:id="sganarelle" rend="male">Sganarelle</role>, mari de Martine.</castItem>
           <castItem><role xml:id="martine" rend="female">Martine</role>, femme de Sganarelle.</castItem>
           <castItem><role xml:id="monsieur-robert" rend="male">Monsieur Robert</role>, voisin de Sganarelle.</castItem>
@@ -61,8 +62,7 @@
         </castList>
       </div>
       <div>
-        <head>EXTRAIT DU PRIVILÈGE 
-        <lb/>du ROI</head>
+        <head>EXTRAIT DU PRIVILÈGE <lb/>du ROI</head>
         <p>Par Grace &amp; Privilège du Roy, donné à Paris le 8. Jour d’Octobre 1666, signé par le Roy en son Conseil GUITONNEAU. Il est permis à JEAN BAPTISTE POCQUELIN DE MOLIÈRE, Comédien de la Troupe de notre très Cher et très Amé Frère Unique le Duc d’Orléans, de faire imprimer, vendre &amp; débiter une Comédie par lui composée, Intitulée <hi rend="i">Le Médecin malgré lui</hi>, pendant sept années : &amp; défenses sont faites à tous autres de l’imprimer, ni vendre d’autre Édition que celle de l’Exposant, ou de ceux qui auront droit de lui, à peine de quinze cens livre d’amande, confiscation des Exemplaires, &amp; de tous autres dépens, dommages, &amp; intérêts, comme il est porté plus amplement par lesdites Lettres.</p>
         <p rend="i">Registré sur le Livre de la Communauté. Signé PIGET. Syndic</p>
         <p>Et ledit sieur de MOLIÈRE, a cédé &amp;transporté son droit de Privilège à JEAN RIBOU, Marchand Libraire à Paris, pour en jouir suivant l’accord entre eux.</p>

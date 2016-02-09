@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_sicilien" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -37,9 +38,9 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <p>
+        <bibl>
           <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k5690145v">http://gallica.bnf.fr/ark:/12148/bpt6k5690145v</ref>
-        </p>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -77,7 +78,7 @@
           <castItem><role xml:id="climene" rend="male">Climène</role>, Sœur d’Adraste.</castItem>
           <castItem><role xml:id="hali" rend="male inferior">Hali</role>, Valet d’Adraste.</castItem>
           <castItem><role xml:id="le-senateur" rend="male">Le sénateur</role>.</castItem>
-          <castItem><role xml:id="musicien1" rend="nograph">Les musiciens</role>.<role xml:id="musicien2" rend="nograph"/><role xml:id="musicien3" rend="nograph"/></castItem>
+          <castItem><role xml:id="musiciens">Les musiciens</role>.</castItem>
           <castItem><role xml:id="troupe-d-esclaves">Troupe d’esclaves</role>.</castItem>
           <castItem><role xml:id="troupe-de-maures">Troupe de maures</role>.</castItem>
           <castItem><role xml:id="deux-laquais">Deux laquais</role>.</castItem>
@@ -186,7 +187,7 @@
         <div xml:id="I03" type="scene">
           <head>Scène III</head>
           <stage>Chantée par trois Musiciens</stage>
-          <sp who="musicien1" xml:id="I03-1">
+          <sp who="musiciens" xml:id="I03-1">
             <speaker>Premier Musicien</speaker>
             <lg rend="i">
               <l>Si du triste récit de mon inquiétude,</l>
@@ -197,7 +198,7 @@
               <l>Vous en serez touchés.</l>
             </lg>
           </sp>
-          <sp who="musicien2" xml:id="I03-2">
+          <sp who="musiciens" xml:id="I03-2">
             <speaker>Deuxième Musicien</speaker>
             <lg rend="i">
               <l>Les Oiseaux réjouis, dès que le jour s’avance,</l>
@@ -207,27 +208,27 @@
               <l>Ah ! mon cher Philène.</l>
             </lg>
           </sp>
-          <sp who="musicien1" xml:id="I03-3">
+          <sp who="musiciens" xml:id="I03-3">
             <speaker>Premier Musicien</speaker>
             <l rend="i">Ah ! mon cher Tirsis.</l>
           </sp>
-          <sp who="musicien2" xml:id="I03-4">
+          <sp who="musiciens" xml:id="I03-4">
             <speaker>Deuxième Musicien</speaker>
             <l rend="i">Que je sens de peine !</l>
           </sp>
-          <sp who="musicien1" xml:id="I03-5">
+          <sp who="musiciens" xml:id="I03-5">
             <speaker>Premier Musicien</speaker>
             <l rend="i">Que j’ai de soucis !</l>
           </sp>
-          <sp who="musicien2" xml:id="I03-6">
+          <sp who="musiciens" xml:id="I03-6">
             <speaker>Deuxième Musicien</speaker>
             <l rend="i">Toujours sourde à mes vœux est l’ingrate Climène.</l>
           </sp>
-          <sp who="musicien1" xml:id="I03-7">
+          <sp who="musiciens" xml:id="I03-7">
             <speaker>Premier Musicien</speaker>
             <l rend="i">Cloris n’a point, pour moi, de regards adoucis.</l>
           </sp>
-          <sp who="musicien1 musicien2" xml:id="I03-8">
+          <sp who="musiciens" xml:id="I03-8">
             <speaker>Tous deux</speaker>
             <lg rend="i">
               <l>Ô Loi trop inhumaine !</l>
@@ -235,7 +236,7 @@
               <l>Pourquoi leur laisses-tu le pouvoir de charmer ?</l>
             </lg>
           </sp>
-          <sp who="musicien3" xml:id="I03-9">
+          <sp who="musiciens" xml:id="I03-9">
             <speaker>Troisième Musicien</speaker>
             <lg rend="i">
               <l>Pauvres amants, quelle erreur</l>
@@ -254,7 +255,7 @@
               <l>Ma foi, je suis Tigre aussi.</l>
             </lg>
           </sp>
-          <sp who="musicien1 musicien2" xml:id="I03-10">
+          <sp who="musiciens" xml:id="I03-10">
             <speaker>Premier et deuxième Musicien</speaker>
             <l rend="i">Heureux, hélas ! qui peut aimer ainsi.</l>
           </sp>

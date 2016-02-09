@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_ecole-des-maris">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr" xml:id="moliere_ecole-des-maris">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -74,26 +76,9 @@
       <div type="dedication">
         <head>A MONSEIGNEUR <lb/>LE DUC <lb/>D'ORLÉANS,<lb/> FRÈRE UNIQUE <lb/>DU ROI</head>
         <p>Monseigneur,</p>
-        <p>Je fais voir ici à la France des choses bien peu proportionnées. Il n’est rien de si
-				grand, et de si superbe, que le nom que je mets à la tête de ce Livre ; et rien de
-				plus bas que ce qu’il contient. Tout le monde trouvera cet assemblage étrange ; et
-				quelques-uns pourront bien dire, pour en exprimer l’inégalité, que c’est poser une
-				couronne de perles et de diamants, sur une statue de terre, et faire entrer par des
-				Portiques magnifiques, et des arcs triomphaux superbes dans une méchante Cabane.
-				Mais, MONSEIGNEUR, ce qui doit me servir d’excuse , c’est qu’en cette aventure je
-				n’ay eu aucun choix à faire, et que l’honneur que j’ay d’être à VOTRE ALTESSE ROYALE,
-				m’a imposé une nécessité absolue, de lui dédier le premier Ouvrage que je mets de
-				moi-même au jour. Ce n’est pas un présent que je lui fais ; c’est un devoir dont je
-				m’acquitte ; et les hommages ne sont jamais regardés par les choses qu’ils portent.
-				J’ai donc osé, MONSEIGNEUR, dédier une bagatelle à VOTRE ALTESSE ROYALE, parce que je
-				n’ay pu m’en dispenser ; et si je me dispense ici de m’étendre sur les belles et
-				glorieuses vérités qu’on pourrait dire d’Elle, c’est par la juste appréhension que
-				ces grandes idées ne fissent éclater encore davantage la bassesse de mon offrande. Je
-				me suis imposé silence, pour trouver un endroit plus propre à placer de si belles
-				choses, et tout ce que j’ai prétendu dans cette Épître, c’est de justifier mon action
-				à toute la France, et d’avoir cette gloire de vous dire à vous-même, MONSEIGNEUR,
-				avec toute la soumission possible, que je suis,</p>
-        <p>De Votre Altesse Royale, <lb/><hi rend="right">Le très humble, très obéissant, <lb/>et très fidèle serviteur, <lb/>J.-B. P. MOLIÈRE.</hi></p>
+        <p>Je fais voir ici à la France des choses bien peu proportionnées. Il n’est rien de si grand, et de si superbe, que le nom que je mets à la tête de ce Livre ; et rien de plus bas que ce qu’il contient. Tout le monde trouvera cet assemblage étrange ; et quelques-uns pourront bien dire, pour en exprimer l’inégalité, que c’est poser une couronne de perles et de diamants, sur une statue de terre, et faire entrer par des Portiques magnifiques, et des arcs triomphaux superbes dans une méchante Cabane. Mais, MONSEIGNEUR, ce qui doit me servir d’excuse , c’est qu’en cette aventure je n’ay eu aucun choix à faire, et que l’honneur que j’ay d’être à VOTRE ALTESSE ROYALE, m’a imposé une nécessité absolue, de lui dédier le premier Ouvrage que je mets de moi-même au jour. Ce n’est pas un présent que je lui fais ; c’est un devoir dont je m’acquitte ; et les hommages ne sont jamais regardés par les choses qu’ils portent. J’ai donc osé, MONSEIGNEUR, dédier une bagatelle à VOTRE ALTESSE ROYALE, parce que je n’ay pu m’en dispenser ; et si je me dispense ici de m’étendre sur les belles et glorieuses vérités qu’on pourrait dire d’Elle, c’est par la juste appréhension que ces grandes idées ne fissent éclater encore davantage la bassesse de mon offrande. Je me suis imposé silence, pour trouver un endroit plus propre à placer de si belles choses, et tout ce que j’ai prétendu dans cette Épître, c’est de justifier mon action à toute la France, et d’avoir cette gloire de vous dire à vous-même, MONSEIGNEUR, avec toute la soumission possible, que je suis,</p>
+        <p>De Votre Altesse Royale,</p>
+        <p rend="right">Le très humble, très obéissant, <lb/>et très fidèle serviteur, <lb/>J.-B. P. MOLIÈRE.</p>
       </div>
       <div>
         <head>Les Personnages</head>
@@ -108,7 +93,7 @@
           <castItem><role xml:id="commissaire" rend="male exterior">Le commissaire</role>.</castItem>
           <castItem><role xml:id="notaire" rend="male exterior">Le notaire</role>.</castItem>
         </castList>
-        <stage location="Paris" country="France" periode="XVIIème" link="">La Scène est à Paris.</stage>
+        <stage>La Scène est à Paris.</stage>
       </div>
     </front>
     <body>
@@ -1355,12 +1340,8 @@
           </sp>
           <label>Lettre.</label>
           <sp who="valere">
-            <speaker>Valère</speaker>            
-            <p rend="i">
-		Cette lettre vous surprendra, sans doute, et l'on peut trouver bien hardi pour moi, et le dessein de vous l'écrire, et la manière de vous la faire tenir ; mais je me vois dans un état à ne plus garder de mesures ; la juste horreur d'un mariage, dont je suis menacée dans six jours, me fait hasarder toutes choses, et dans la résolution de m'en affranchir par quelque voie que ce soit, j'ai cru que je devais plutôt vous choisir que le désespoir. 
-		Ne croyez pas pourtant que vous soyez redevable de tout à ma mauvaise destinée, ce n'est pas la contrainte où je me trouve qui a fait naître les sentiments que j'ai pour vous ; mais c'est elle qui en précipite le témoignage, et qui me fait passer sur des formalités où la bienséance du sexe oblige. 
-		Il ne tiendra qu'à vous que je sois à vous bien tôt, et j'attends seulement que vous m'ayez marqué les intentions de votre amour, pour vous faire savoir la résolution que j'ai prise ; mais surtout songez que le temps presse, et que deux cœurs qui s'aiment doivent s'entendre à demi-mot.
-</p>
+            <speaker>Valère</speaker>
+            <p rend="i"> Cette lettre vous surprendra, sans doute, et l'on peut trouver bien hardi pour moi, et le dessein de vous l'écrire, et la manière de vous la faire tenir ; mais je me vois dans un état à ne plus garder de mesures ; la juste horreur d'un mariage, dont je suis menacée dans six jours, me fait hasarder toutes choses, et dans la résolution de m'en affranchir par quelque voie que ce soit, j'ai cru que je devais plutôt vous choisir que le désespoir. Ne croyez pas pourtant que vous soyez redevable de tout à ma mauvaise destinée, ce n'est pas la contrainte où je me trouve qui a fait naître les sentiments que j'ai pour vous ; mais c'est elle qui en précipite le témoignage, et qui me fait passer sur des formalités où la bienséance du sexe oblige. Il ne tiendra qu'à vous que je sois à vous bien tôt, et j'attends seulement que vous m'ayez marqué les intentions de votre amour, pour vous faire savoir la résolution que j'ai prise ; mais surtout songez que le temps presse, et que deux cœurs qui s'aiment doivent s'entendre à demi-mot. </p>
           </sp>
           <sp who="ergaste">
             <speaker>Ergaste</speaker>

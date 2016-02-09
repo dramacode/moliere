@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_bourgeois-gentilhomme" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -96,7 +97,7 @@
           <castItem><role rend="male inferior" xml:id="maitre-tailleur">Maître tailleur.</role>.</castItem>
           <castItem><role rend="male inferior" xml:id="garcon-tailleur">Garçon tailleur.</role>.</castItem>
           <castItem><role xml:id="laquais1" rend="male inferior">Deux laquais.</role><role xml:id="laquais2" rend="male inferior"/>.</castItem>
-          <castItem type="list">Plusieurs musiciens, musiciennes, joueurs d’instruments, danseurs, cuisiniers, garçons tailleurs, <hi rend="n">Et autres Personnages des Intermèdes et du Ballet</hi>.<role xml:id="mufti" rend="male superior"/><role xml:id="turcs"/><role xml:id="homme-du-bel-air"  rend="male"/><role xml:id="vieille-bourgeoise-babillarde"  rend="female senior"/><role xml:id="vieux-bourgeois-babillard" rend="male senior"/><role xml:id="suisse" rend="male inferior"/><role xml:id="gascon" rend="male inferior"/><role xml:id="autre-gascon" rend="male inferior"/><role xml:id="tous"/><role xml:id="autre-homme-du-bel-air" rend="male"/><role xml:id="femme-du-bel-air" rend="female"/><role xml:id="autre-femme-du-bel-air" rend="female"/><role xml:id="espagnol1" rend="male inferior"/><role xml:id="espagnol2" rend="male inferior"/><role xml:id="espagnol3" rend="male inferior"/><role xml:id="musicien" rend="male inferior"/></castItem>
+          <castItem>Plusieurs musiciens, musiciennes, joueurs d’instruments, danseurs, cuisiniers, garçons tailleurs, <hi rend="n">Et autres Personnages des Intermèdes et du Ballet</hi>.<role xml:id="mufti" rend="male superior"/><role xml:id="turcs"/><role xml:id="homme-du-bel-air"  rend="male"/><role xml:id="vieille-bourgeoise-babillarde"  rend="female senior"/><role xml:id="vieux-bourgeois-babillard" rend="male senior"/><role xml:id="suisse" rend="male inferior"/><role xml:id="gascon" rend="male inferior"/><role xml:id="autre-gascon" rend="male inferior"/><role xml:id="tous"/><role xml:id="autre-homme-du-bel-air" rend="male"/><role xml:id="femme-du-bel-air" rend="female"/><role xml:id="autre-femme-du-bel-air" rend="female"/><role xml:id="espagnol1" rend="male inferior"/><role xml:id="espagnol2" rend="male inferior"/><role xml:id="espagnol3" rend="male inferior"/><role xml:id="musicien" rend="male inferior"/></castItem>
         </castList>
         <stage>La Scène est à Paris.</stage>
       </div>
@@ -3568,8 +3569,9 @@
             <speaker>Dorante</speaker>
             <p>Monsieur Jourdain, prêtons silence à ces Messieurs ; ce qu’ils nous diront, vaudra mieux que tout ce que nous pourrions dire.</p>
             <stage>Les Musiciens et la Musicienne prennent des Verres, chantent deux Chansons à boire, et sont soutenus de toute la Symphonie.</stage>
+            <label>PREMIÈRE CHANSON À BOIRE.</label>
             <lg>
-              <label>PREMIÈRE CHANSON À BOIRE.</label>
+              
               <l>Un petit doigt, Philis, pour commencer le tour :</l>
               <l>Ah ! qu’un Verre en vos mains a d’agréables charmes !</l>
               <l>Vous, et le Vin, vous vous prêtez des armes,</l>
@@ -3585,8 +3587,9 @@
               <l>Entre lui, vous et moi, jurons, jurons, ma Belle,</l>
               <l>Une ardeur éternelle.</l>
             </lg>
+            <label>SECONDE CHANSON À BOIRE.</label>
             <lg>
-              <label>SECONDE CHANSON À BOIRE.</label>
+              
               <l>Buvons, chers Amis, buvons :</l>
               <l>Le temps qui fuit nous y convie ;</l>
               <l>Profitons de la vie</l>
@@ -4692,7 +4695,7 @@
           </sp>
         </div2>
       </div1>
-      <div1 type="ballet" xml:id="z">
+      <div1 type="interlude" xml:id="z">
         <head>[Ballet]</head>
         <div2 xml:id="z01">
           <head>Première entrée</head>
@@ -4877,7 +4880,7 @@
         <div2 xml:id="z03">
           <head>Troisième entrée</head>
           <sp who="espagnol1 espagnol2 espagnol3" xml:id="z03-1">
-            <speaker rend="n">Trois espagnols chantent</speaker>
+            <speaker>Trois espagnols<hi> chantent</hi></speaker>
             <lg>
               <l>Sé que me muero de amor,</l>
               <l>Y solicito el dolor.</l>

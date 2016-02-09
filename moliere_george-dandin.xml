@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_george-dandin">
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,8 +54,8 @@
           <lb/>A. SOUBRON Syndic</signed>
       </div>
       <div>
+        <head>PERSONNAGES</head>
         <castList>
-          <head>PERSONNAGES</head>
           <castItem><role xml:id="george-dandin" rend="male">George Dandin</role> ; riche paysan, mari d’Angélique.</castItem>
           <castItem><role xml:id="angelique" rend="female junior">Angélique</role>, femme de George Dandin et fille de Monsieur de Sotenville.</castItem>
           <castItem><role xml:id="monsieur-de-sotenville"  rend="male">Monsieur de Sotenville</role>, gentilhomme campagnard, père d’Angélique.</castItem>

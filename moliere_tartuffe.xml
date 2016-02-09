@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_tartuffe" xml:lang="fr">
   <teiHeader>
@@ -127,8 +128,8 @@
           <castItem><role xml:id="orgon" rend="male superior">Orgon</role>, <roleDesc>Mari d’Elmire</roleDesc>.</castItem>
           <castItem><role xml:id="elmire" rend="female superior">Elmire</role>, <roleDesc>Femme d’Orgon</roleDesc>.</castItem>
           <castItem><role xml:id="damis" rend="male junior">Damis</role>, <roleDesc>Fils d’Orgon</roleDesc>.</castItem>
-          <castItem><role xml:id="mariane" rend="female junior love">Mariane</role>, <roleDesc>Fille d’Orgon, et Amante de Valère</roleDesc>.</castItem>
-          <castItem><role xml:id="valere" rend="male junior love">Valère</role>, <roleDesc>Amant de Mariane</roleDesc>.</castItem>
+          <castItem><role xml:id="mariane" rend="female junior">Mariane</role>, <roleDesc>Fille d’Orgon, et Amante de Valère</roleDesc>.</castItem>
+          <castItem><role xml:id="valere" rend="male junior">Valère</role>, <roleDesc>Amant de Mariane</roleDesc>.</castItem>
           <castItem><role xml:id="cleante" rend="male">Cléante</role>, <roleDesc>Beau-frère d’Orgon</roleDesc>.</castItem>
           <castItem><role xml:id="tartuffe" rend="male">Tartuffe</role>, <roleDesc>Faux Dévot</roleDesc>.</castItem>
           <castItem><role xml:id="dorine" rend="female inferior">Dorine</role>, <roleDesc>Suivante de Mariane</roleDesc>.</castItem>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_medecin-volant" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -53,12 +54,12 @@
       </titlePage>
       <castList>
         <head>ACTEURS</head>
-        <castItem><role xml:id="valere" rend="male junior love">Valère</role>, amant de Lucile.</castItem>
+        <castItem><role xml:id="valere" rend="male junior">Valère</role>, amant de Lucile.</castItem>
         <castItem><role xml:id="sabine" rend="female junior">Sabine</role>, cousine de Lucile.</castItem>
         <castItem><role xml:id="sganarelle" rend="male inferior">Sganarelle</role>, valet de Valère.</castItem>
         <castItem><role xml:id="gorgibus" rend="male">Gorgibus</role>, père de Lucile.</castItem>
         <castItem><role xml:id="gros-rene" rend="male inferior">Gros-René</role>, valet de Gorgibus.</castItem>
-        <castItem><role xml:id="lucile" rend="female junior love">Lucile</role>, fille de Gorgibus.</castItem>
+        <castItem><role xml:id="lucile" rend="female junior">Lucile</role>, fille de Gorgibus.</castItem>
         <castItem><role xml:id="avocat">Un avocat</role>.</castItem>
       </castList>
     </front>

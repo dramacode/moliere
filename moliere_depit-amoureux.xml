@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_depit-amoureux" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -65,8 +66,7 @@
           <titlePart>REPRÉSENTÉ SUR LE <lb/>Théâtre du Palais Royal</titlePart>
         </docTitle>
         <docAuthor rend="uc">De j. b. p. molière</docAuthor>
-        <docImprint>À PARIS, <lb/>Chez CLAUDE BARBIN, au Palais, sur le<lb/> Degré devant la Sainte-Chapelle, au Signe <lb/>de la Croix.
-        </docImprint>
+        <docImprint>À PARIS, <lb/>Chez CLAUDE BARBIN, au Palais, sur le<lb/> Degré devant la Sainte-Chapelle, au Signe <lb/>de la Croix. </docImprint>
         <docDate>M. DC. LXIII.</docDate>
         <docImprint rend="uc i">Avec privilège du roi</docImprint>
       </titlePage>
@@ -100,7 +100,7 @@
             <l>Ne laisse point mon âme en une bonne assiette :</l>
             <l>Oui, quoi qu’à mon amour tu puisses repartir,</l>
             <l>Il craint d’être la dupe, à ne te point mentir :</l>
-            <l n="5">Qu’en faveur d’un rival ta foi ne se corrompe,</l>
+            <l>Qu’en faveur d’un rival ta foi ne se corrompe,</l>
             <l>Ou du moins, qu’avec moi, toi-même on ne te trompe.</l>
           </sp>
           <sp who="gros-rene" xml:id="I01-2">
@@ -108,17 +108,17 @@
             <l>Pour moi, me soupçonner de quelque mauvais tour,</l>
             <l>Je dirai, n’en déplaise à monsieur votre amour,</l>
             <l>Que c’est injustement blesser ma prud’homie</l>
-            <l n="10">Et se connaître mal en physionomie.</l>
+            <l>Et se connaître mal en physionomie.</l>
             <l>Les gens de mon minois ne sont point accusés</l>
             <l>D’être, grâces à Dieu, ni fourbes, ni rusés :</l>
             <l>Cet honneur qu’on nous fait, je ne le démens guères,</l>
             <l>Et suis homme fort rond de toutes les manières.</l>
-            <l n="15">Pour que l’on me trompât, cela se pourrait bien ;</l>
+            <l>Pour que l’on me trompât, cela se pourrait bien ;</l>
             <l>Le doute est mieux fondé ; pourtant je n’en crois rien.</l>
             <l>Je ne vois point encore, ou je suis une bête,</l>
             <l>Sur quoi vous avez pu prendre martel en tête.</l>
             <l>Lucile, à mon avis, vous montre assez d’amour,</l>
-            <l n="20">Elle vous voit, vous parle, à toute heure du jour,</l>
+            <l>Elle vous voit, vous parle, à toute heure du jour,</l>
             <l>Et Valère après tout qui cause votre crainte</l>
             <l>Semble n’être à présent souffert que par contrainte.</l>
           </sp>
@@ -126,22 +126,22 @@
             <speaker>Éraste</speaker>
             <l>Souvent d’un faux espoir un amant est nourri ;</l>
             <l>Le mieux reçu toujours n’est pas le plus chéri ;</l>
-            <l n="25">Et tout ce que d’ardeur font paraître les femmes</l>
+            <l>Et tout ce que d’ardeur font paraître les femmes</l>
             <l>Parfois n’est qu’un beau voile à couvrir d’autres flammes.</l>
             <l>Valère enfin, pour être un amant rebuté,</l>
             <l>Montre depuis un peu trop de tranquillité ;</l>
             <l>Et ce qu’à ces faveurs, dont tu crois l’apparence,</l>
-            <l n="30">Il témoigne de joie ou bien d’indifférence</l>
+            <l>Il témoigne de joie ou bien d’indifférence</l>
             <l>M’empoisonne à tous coups leurs plus charmants appas,</l>
             <l>Me donne ce chagrin que tu ne comprends pas ;</l>
             <l>Tient mon bonheur en doute, et me rend difficile</l>
             <l>Une entière croyance aux propos de Lucile.</l>
-            <l n="35">Je voudrais, pour trouver un tel destin plus doux,</l>
+            <l>Je voudrais, pour trouver un tel destin plus doux,</l>
             <l>Y voir entrer un peu de son transport jaloux,</l>
             <l>Et sur ses déplaisirs et son impatience</l>
             <l>Mon âme prendrait lors une pleine assurance.</l>
             <l>Toi-même, penses-tu, qu’on puisse, comme il fait,</l>
-            <l n="40">Voir chérir un rival d’un esprit satisfait ?</l>
+            <l>Voir chérir un rival d’un esprit satisfait ?</l>
             <l>Et, si tu n’en crois rien, dis-moi, je t’en conjure,</l>
             <l>Si j’ai lieu de rêver dessus cette aventure.</l>
           </sp>
@@ -152,17 +152,17 @@
           </sp>
           <sp who="eraste" xml:id="I01-5">
             <speaker>Éraste</speaker>
-            <l n="45">Lorsque par les rebuts une âme est détachée,</l>
+            <l>Lorsque par les rebuts une âme est détachée,</l>
             <l>Elle veut fuir l’objet dont elle fut touchée,</l>
             <l>Et ne rompt point sa chaîne avec si peu d’éclat,</l>
             <l>Qu’elle puisse rester en un paisible état :</l>
             <l>De ce qu’on a chéri la fatale présence</l>
-            <l n="50">Ne nous laisse jamais dedans l’indifférence ;</l>
+            <l>Ne nous laisse jamais dedans l’indifférence ;</l>
             <l>Et, si de cette vue on n’accroît son dédain,</l>
             <l>Notre amour est bien près de nous rentrer au sein.</l>
             <l>Enfin, crois-moi, si bien qu’on éteigne une flamme,</l>
             <l>Un peu de jalousie occupe encore une âme,</l>
-            <l n="55">Et l’on ne saurait voir, sans en être piqué,</l>
+            <l>Et l’on ne saurait voir, sans en être piqué,</l>
             <l>Posséder par un autre un cœur qu’on a manqué.</l>
           </sp>
           <sp who="gros-rene" xml:id="I01-6">
@@ -170,27 +170,27 @@
             <l>Pour moi, je ne sais point tant de philosophie ;</l>
             <l>Ce que voyent mes yeux, franchement je m’y fie,</l>
             <l>Et ne suis point de moi si mortel ennemi,</l>
-            <l n="60">Que je m’aille affliger sans sujet ni demi,</l>
+            <l>Que je m’aille affliger sans sujet ni demi,</l>
             <l>Pourquoi subtiliser, et faire le capable</l>
             <l>À chercher des raisons pour être misérable ?</l>
             <l>Sur des soupçons en l’air je m’irais alarmer ?</l>
             <l>Laissons venir la fête avant que la chômer.</l>
-            <l n="65">Le chagrin me paraît une incommode chose ;</l>
+            <l>Le chagrin me paraît une incommode chose ;</l>
             <l>Je n’en prends point pour moi, sans bonne et juste cause ;</l>
             <l>Et même à mes yeux cent sujets d’en avoir</l>
             <l>S’offrent le plus souvent, que je ne veux pas voir.</l>
             <l>Avec vous en amour je cours même fortune ;</l>
-            <l n="70">Celle que vous aurez me doit être commune ;</l>
+            <l>Celle que vous aurez me doit être commune ;</l>
             <l>La maîtresse ne peut abuser votre foi,</l>
             <l>À moins que la suivante en fasse autant pour moi :</l>
             <l>Mais j’en fuis la pensée avec un soin extrême.</l>
             <l>Je veux croire les gens, quand on me dit <hi rend="i">je t’aime</hi> ;</l>
-            <l n="75">Et ne vais point chercher, pour m’estimer heureux,</l>
+            <l>Et ne vais point chercher, pour m’estimer heureux,</l>
             <l>Si Mascarille ou non, s’arrache les cheveux.</l>
             <l>Que tantôt Marinette endure qu’à son aise</l>
             <l>Jodelet par plaisir la caresse et la baise,</l>
             <l>Et que ce beau rival en rie ainsi qu’un fou,</l>
-            <l n="80">À son exemple aussi j’en rirai tout mon soûl ;</l>
+            <l>À son exemple aussi j’en rirai tout mon soûl ;</l>
             <l>Et l’on verra qui rit avec meilleure grâce.</l>
           </sp>
           <sp who="eraste" xml:id="I01-7">
@@ -221,7 +221,7 @@
           <sp who="marinette" xml:id="I02-4">
             <speaker>Marinette</speaker>
             <l>Vous êtes aussi là ! Monsieur, depuis une heure</l>
-            <l n="85">Vous m’avez fait trotter comme un Basque, je meure.</l>
+            <l>Vous m’avez fait trotter comme un Basque, je meure.</l>
           </sp>
           <sp who="eraste" xml:id="I02-5">
             <speaker>Éraste</speaker>
@@ -247,7 +247,7 @@
           </sp>
           <sp who="eraste" xml:id="I02-10">
             <speaker>Éraste</speaker>
-            <l n="90">Apprends-moi donc de grâce,</l>
+            <l>Apprends-moi donc de grâce,</l>
             <l>Qui te fait me chercher.</l>
           </sp>
           <sp who="marinette" xml:id="I02-11">
@@ -260,7 +260,7 @@
             <speaker>Éraste</speaker>
             <l>Ha ! chère Marinette,</l>
             <l>Ton discours de ton cœur est-il bien l’interprète ?</l>
-            <l n="95">Ne me déguise point un mystère fatal,</l>
+            <l>Ne me déguise point un mystère fatal,</l>
             <l>Je ne t’en voudrai pas pour cela plus de mal :</l>
             <l>Au nom des Dieux, dis-moi si ta belle maîtresse</l>
             <l>N’abuse point mes vœux d’une fausse tendresse.</l>
@@ -268,7 +268,7 @@
           <sp who="marinette" xml:id="I02-13">
             <speaker>Marinette</speaker>
             <l>Hé, hé, d’où vous vient donc ce plaisant mouvement ?</l>
-            <l n="100">Elle ne fait pas voir assez son sentiment ?</l>
+            <l>Elle ne fait pas voir assez son sentiment ?</l>
             <l>Quel garant est-ce encor que votre amour demande ?</l>
             <l>Que lui faut-il ?</l>
           </sp>
@@ -287,12 +287,12 @@
           </sp>
           <sp who="marinette" xml:id="I02-17">
             <speaker>Marinette</speaker>
-            <l n="105">De Valère ? Ha ! vraiment la pensée est bien belle !</l>
+            <l>De Valère ? Ha ! vraiment la pensée est bien belle !</l>
             <l>Elle peut seulement naître en votre cervelle !</l>
             <l>Je vous croyais du sens, et jusqu’à ce moment ;</l>
             <l>J’avais de votre esprit quelque bon sentiment,</l>
             <l>Mais, à ce que je vois, je m’étais fort trompée.</l>
-            <l n="110">Ta tête de ce mal est-elle aussi frappée ?</l>
+            <l>Ta tête de ce mal est-elle aussi frappée ?</l>
           </sp>
           <sp who="gros-rene" xml:id="I02-18">
             <speaker>Gros-René</speaker>
@@ -300,7 +300,7 @@
             <l>Pour m’aller emmaigrir avec un tel chagrin ;</l>
             <l>Outre que de ton cœur ta foi me cautionne,</l>
             <l>L’opinion que j’ai de moi-même est trop bonne</l>
-            <l n="115">Pour croire auprès de moi que quelque autre te plût,</l>
+            <l>Pour croire auprès de moi que quelque autre te plût,</l>
             <l>Où diantre pourrais-tu trouver qui me valût ?</l>
           </sp>
           <sp who="marinette" xml:id="I02-19">
@@ -308,12 +308,12 @@
             <l>En effet, tu dis bien, voilà comme il faut être,</l>
             <l>Jamais de ces soupçons qu’un jaloux fait paraître ;</l>
             <l>Tout le fruit qu’on en cueille est de se mettre mal,</l>
-            <l n="120">Et d’avancer par là les desseins d’un rival :</l>
+            <l>Et d’avancer par là les desseins d’un rival :</l>
             <l>Au mérite souvent de qui l’éclat vous blesse,</l>
             <l>Vos chagrins font ouvrir les yeux d’une maîtresse ;</l>
             <l>Et j’en sais tel qui doit son destin le plus doux</l>
             <l>Aux soins trop inquiets de son rival jaloux.</l>
-            <l n="125">Enfin, quoi qu’il en soit, témoigner de l’ombrage</l>
+            <l>Enfin, quoi qu’il en soit, témoigner de l’ombrage</l>
             <l>C’est jouer en amour un mauvais personnage,</l>
             <l>Et se rendre après tout misérable à crédit :</l>
             <l>Cela, Seigneur Éraste, en passant vous soit dit.</l>
@@ -324,7 +324,7 @@
           </sp>
           <sp who="marinette" xml:id="I02-21">
             <speaker>Marinette</speaker>
-            <l n="130">Vous mériteriez bien que l’on vous fît attendre :</l>
+            <l>Vous mériteriez bien que l’on vous fît attendre :</l>
             <l>Qu’afin de vous punir je vous tinsse caché,</l>
             <l>Le grand secret pourquoi je vous ai tant cherché.</l>
             <l>Tenez, voyez ce mot, et sortez hors de doute.</l>
@@ -333,12 +333,12 @@
           <sp who="eraste" xml:id="I02-22">
             <speaker>Éraste <hi rend="i">lit</hi></speaker>
             <lg>
-              <l n="135">Vous m’avez dit que votre amour</l>
+              <l>Vous m’avez dit que votre amour</l>
               <l>Était capable de tout faire,</l>
               <l>Il se couronnera lui-même dans ce jour,</l>
               <l>S’il peut avoir l’aveu d’un père.</l>
               <l>Faites parler les droits qu’on a dessus mon cœur ;</l>
-              <l n="140">Je vous en donne la licence :</l>
+              <l>Je vous en donne la licence :</l>
               <l>Et, si c’est en votre faveur,</l>
               <l>Je vous réponds de mon obéissance.</l>
             </lg>
@@ -347,7 +347,7 @@
           </sp>
           <sp who="gros-rene" xml:id="I02-23">
             <speaker>Gros-René</speaker>
-            <l n="145">Je vous le disais bien contre votre croyance,</l>
+            <l>Je vous le disais bien contre votre croyance,</l>
             <l>Je ne me trompe guère aux choses que je pense.</l>
           </sp>
           <sp who="eraste" xml:id="I02-24">
@@ -356,7 +356,7 @@
               <l>Faites parler les droits qu’on a dessus mon cœur ;</l>
               <l>Je vous en donne la licence :</l>
               <l>Et, si c’est en votre faveur,</l>
-              <l n="150">Je vous réponds de mon obéissance.</l>
+              <l>Je vous réponds de mon obéissance.</l>
             </lg>
           </sp>
           <sp who="marinette" xml:id="I02-25">
@@ -368,7 +368,7 @@
             <speaker>Éraste</speaker>
             <l>Ha, cache-lui, de grâce, une peur passagère</l>
             <l>Où mon âme a cru voir quelque peu de lumière ;</l>
-            <l n="155">Ou, si tu la lui dis, ajoute que ma mort</l>
+            <l>Ou, si tu la lui dis, ajoute que ma mort</l>
             <l>Est prête d’expier l’erreur de ce transport ;</l>
             <l>Que je vais à ses pieds, si j’ai pu lui déplaire,</l>
             <l>Sacrifier ma vie à sa juste colère.</l>
@@ -379,7 +379,7 @@
           </sp>
           <sp who="eraste" xml:id="I02-28">
             <speaker>Éraste</speaker>
-            <l n="160">Au reste, je te dois beaucoup, et je prétends</l>
+            <l>Au reste, je te dois beaucoup, et je prétends</l>
             <l>Reconnaître dans peu de la bonne manière</l>
             <l>Les soins d’une si noble et si belle courrière.</l>
           </sp>
@@ -403,7 +403,7 @@
           </sp>
           <sp who="marinette" xml:id="I02-33">
             <speaker>Marinette</speaker>
-            <l n="165">Là, dans cette boutique</l>
+            <l>Là, dans cette boutique</l>
             <l>Où dès le mois passé votre cœur magnifique</l>
             <l>Me promit, de sa grâce, une bague.</l>
           </sp>
@@ -423,7 +423,7 @@
           </sp>
           <sp who="marinette" xml:id="I02-37">
             <speaker>Marinette</speaker>
-            <l n="170">Ce que j’en ai dit, n’est pas que je vous presse.</l>
+            <l>Ce que j’en ai dit, n’est pas que je vous presse.</l>
           </sp>
           <sp who="gros-rene" xml:id="I02-38">
             <speaker>Gros-René</speaker>
@@ -441,7 +441,7 @@
           <sp who="gros-rene" xml:id="I02-41">
             <speaker>Gros-René</speaker>
             <l>Pauvre honteuse, prends, sans davantage attendre.</l>
-            <l n="175">Refuser ce qu’on donne, est bon à faire aux fous.</l>
+            <l>Refuser ce qu’on donne, est bon à faire aux fous.</l>
           </sp>
           <sp who="marinette" xml:id="I02-42">
             <speaker>Marinette</speaker>
@@ -462,7 +462,7 @@
           <sp who="marinette" xml:id="I02-46">
             <speaker>Marinette</speaker>
             <l>Alors comme alors,</l>
-            <l n="180">Pour vous on emploiera toutes sortes d’efforts,</l>
+            <l>Pour vous on emploiera toutes sortes d’efforts,</l>
             <l>D’une façon ou d’autre il faut qu’elle soit vôtre ;</l>
             <l>Faites votre pouvoir, et nous ferons le nôtre.</l>
           </sp>
@@ -477,7 +477,7 @@
           </sp>
           <sp who="gros-rene" xml:id="I02-49">
             <speaker>Gros-René</speaker>
-            <l n="185">Un hymen qu’on souhaite</l>
+            <l>Un hymen qu’on souhaite</l>
             <l>Entre gens comme nous est chose bientôt faite.</l>
             <l>Je te veux. Me veux-tu de même ?</l>
           </sp>
@@ -503,7 +503,7 @@
           </sp>
           <sp who="gros-rene" xml:id="I02-55">
             <speaker>Gros-René</speaker>
-            <l n="190">Adieu, chère comète, arc-en-Ciel de mon âme.</l>
+            <l>Adieu, chère comète, arc-en-Ciel de mon âme.</l>
             <l>Le bon Dieu soit loué, nos affaires vont bien ;</l>
             <l>Albert n’est pas un homme à vous refuser rien.</l>
           </sp>
@@ -530,7 +530,7 @@
           </sp>
           <sp who="eraste" xml:id="I03-3">
             <speaker>Éraste</speaker>
-            <l n="195">En quel état l’amour ?</l>
+            <l>En quel état l’amour ?</l>
           </sp>
           <sp who="valere" xml:id="I03-4">
             <speaker>Valère</speaker>
@@ -560,7 +560,7 @@
           <sp who="valere" xml:id="I03-10">
             <speaker>Valère</speaker>
             <l>Et votre fermeté</l>
-            <l n="200">Doit être un rare exemple à la postérité.</l>
+            <l>Doit être un rare exemple à la postérité.</l>
           </sp>
           <sp who="eraste" xml:id="I03-11">
             <speaker>Éraste</speaker>
@@ -568,7 +568,7 @@
             <l>Qui dans les seuls regards trouve à se satisfaire,</l>
             <l>Et je ne forme point d’assez beaux sentiments,</l>
             <l>Pour souffrir constamment les mauvais traitements.</l>
-            <l n="205">Enfin, quand j’aime bien, j’aime fort que l’on m’aime.</l>
+            <l>Enfin, quand j’aime bien, j’aime fort que l’on m’aime.</l>
           </sp>
           <sp who="valere" xml:id="I03-12">
             <speaker>Valère</speaker>
@@ -583,7 +583,7 @@
           <sp who="valere" xml:id="I03-14">
             <speaker>Valère</speaker>
             <l>Lucile dans son âme</l>
-            <l n="210">Rend tout ce que je veux qu’elle rende à ma flamme.</l>
+            <l>Rend tout ce que je veux qu’elle rende à ma flamme.</l>
           </sp>
           <sp who="eraste" xml:id="I03-15">
             <speaker>Éraste</speaker>
@@ -605,7 +605,7 @@
           </sp>
           <sp who="eraste" xml:id="I03-19">
             <speaker>Éraste</speaker>
-            <l n="215">Ne vous abusez point ; croyez-moi.</l>
+            <l>Ne vous abusez point ; croyez-moi.</l>
           </sp>
           <sp who="valere" xml:id="I03-20">
             <speaker>Valère</speaker>
@@ -620,7 +620,7 @@
           <sp who="valere" xml:id="I03-22">
             <speaker>Valère</speaker>
             <l>Si je vous osais, moi, découvrir en secret…</l>
-            <l n="220">Mais, je vous fâcherais, et veux être discret.</l>
+            <l>Mais, je vous fâcherais, et veux être discret.</l>
           </sp>
           <sp who="eraste" xml:id="I03-23">
             <speaker>Éraste</speaker>
@@ -650,7 +650,7 @@
           </sp>
           <sp who="gros-rene" xml:id="I03-29">
             <speaker>Gros-René</speaker>
-            <l n="225">Il est fou le bon Sire,</l>
+            <l>Il est fou le bon Sire,</l>
             <l>Où vient-il donc, pour lui, de voir le mot pour rire ?</l>
           </sp>
           <sp who="eraste" xml:id="I03-30">
@@ -665,7 +665,7 @@
           <sp who="eraste" xml:id="I03-32">
             <speaker>Éraste</speaker>
             <l>Oui, je le vois paraître.</l>
-            <l n="230">Feignons, pour le jeter sur l’amour de son maître.</l>
+            <l>Feignons, pour le jeter sur l’amour de son maître.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="I04">
@@ -691,7 +691,7 @@
           </sp>
           <sp who="mascarille" xml:id="I04-5">
             <speaker>Mascarille</speaker>
-            <l n="235">Non, je ne reviens pas ; car je n’ai pas été :</l>
+            <l>Non, je ne reviens pas ; car je n’ai pas été :</l>
             <l>Je ne vais pas aussi ; car je suis arrêté :</l>
             <l>Et ne demeure point ; car, tout de ce pas même,</l>
             <l>Je prétends m’en aller.</l>
@@ -707,7 +707,7 @@
           </sp>
           <sp who="eraste" xml:id="I04-8">
             <speaker>Éraste</speaker>
-            <l n="240">Vous nous fuyez bien vite ? Hé quoi ! vous fais-je peur ?</l>
+            <l>Vous nous fuyez bien vite ? Hé quoi ! vous fais-je peur ?</l>
           </sp>
           <sp who="mascarille" xml:id="I04-9">
             <speaker>Mascarille</speaker>
@@ -725,7 +725,7 @@
           </sp>
           <sp who="eraste" xml:id="I04-12">
             <speaker>Éraste</speaker>
-            <l n="245">Gros-René sait qu’ailleurs je me jette.</l>
+            <l>Gros-René sait qu’ailleurs je me jette.</l>
           </sp>
           <sp who="gros-rene" xml:id="I04-13">
             <speaker>Gros-René</speaker>
@@ -736,7 +736,7 @@
             <l>Passons sur ce point-là ; notre rivalité</l>
             <l>N’est pas pour en venir à grande extrémité :</l>
             <l>Mais, est-ce un coup bien sûr que votre Seigneurie</l>
-            <l n="250">Soit désenamourée, ou si c’est raillerie ?</l>
+            <l>Soit désenamourée, ou si c’est raillerie ?</l>
           </sp>
           <sp who="eraste" xml:id="I04-15">
             <speaker>Éraste</speaker>
@@ -747,17 +747,17 @@
           <sp who="mascarille" xml:id="I04-16">
             <speaker>Mascarille</speaker>
             <l>Certes, vous me plaisez avec cette nouvelle ;</l>
-            <l n="255">Outre qu’en nos projets je vous craignais un peu,</l>
+            <l>Outre qu’en nos projets je vous craignais un peu,</l>
             <l>Vous tirez sagement votre épingle du jeu.</l>
             <l>Oui, vous avez bien fait de quitter une place</l>
             <l>Où l’on vous caressait pour la seule grimace ;</l>
             <l>Et mille fois, sachant tout ce qui se passait,</l>
-            <l n="260">J’ai plaint le faux espoir dont on vous repaissait.</l>
+            <l>J’ai plaint le faux espoir dont on vous repaissait.</l>
             <l>On offense un brave homme alors que l’on l’abuse.</l>
             <l>Mais, d’où, diantre, après tout, avez-vous su la ruse ?</l>
             <l>Car cet engagement mutuel de leur foi</l>
             <l>N’eut, pour témoins, la nuit, que deux autres et moi ;</l>
-            <l n="265">Et l’on croit jusqu’ici la chaîne fort secrète</l>
+            <l>Et l’on croit jusqu’ici la chaîne fort secrète</l>
             <l>Qui rend de nos amants la flamme satisfaite.</l>
           </sp>
           <sp who="eraste" xml:id="I04-17">
@@ -769,7 +769,7 @@
             <l>Je dis que je suis interdit :</l>
             <l>Et ne sais pas, Monsieur, qui peut vous avoir dit,</l>
             <l>Que, sous ce faux semblant qui trompe tout le monde,</l>
-            <l n="270">En vous trompant aussi, leur ardeur sans seconde</l>
+            <l>En vous trompant aussi, leur ardeur sans seconde</l>
             <l>D’un secret mariage a serré le lien.</l>
           </sp>
           <sp who="eraste" xml:id="I04-19">
@@ -803,7 +803,7 @@
           </sp>
           <sp who="gros-rene" xml:id="I04-26">
             <speaker>Gros-René</speaker>
-            <l n="275">Monsieur.</l>
+            <l>Monsieur.</l>
           </sp>
           <sp who="eraste" xml:id="I04-27">
             <speaker>Éraste</speaker>
@@ -846,7 +846,7 @@
           </sp>
           <sp who="mascarille" xml:id="I04-36">
             <speaker>Mascarille</speaker>
-            <l n="280">Hélas !</l>
+            <l>Hélas !</l>
             <l>Je ne dis rien, de peur de mal parler.</l>
           </sp>
           <sp who="eraste" xml:id="I04-37">
@@ -862,7 +862,7 @@
           <sp who="eraste" xml:id="I04-39">
             <speaker>Éraste</speaker>
             <l>Veux-tu dire ? voici,</l>
-            <l n="285">Sans marchander, de quoi te délier la langue.</l>
+            <l>Sans marchander, de quoi te délier la langue.</l>
           </sp>
           <sp who="mascarille" xml:id="I04-40">
             <speaker>Mascarille</speaker>
@@ -873,7 +873,7 @@
           </sp>
           <sp who="eraste" xml:id="I04-41">
             <speaker>Éraste</speaker>
-            <l n="290">Tu mourras, ou je veux que la vérité pure</l>
+            <l>Tu mourras, ou je veux que la vérité pure</l>
             <l>S’exprime par ta bouche.</l>
           </sp>
           <sp who="mascarille" xml:id="I04-42">
@@ -885,7 +885,7 @@
             <speaker>Éraste</speaker>
             <l>Parle : mais prends bien garde à ce que tu vas faire ;</l>
             <l>À ma juste fureur rien ne te peut soustraire,</l>
-            <l n="295">Si tu mens d’un seul mot en ce que tu diras.</l>
+            <l>Si tu mens d’un seul mot en ce que tu diras.</l>
           </sp>
           <sp who="mascarille" xml:id="I04-44">
             <speaker>Mascarille</speaker>
@@ -900,17 +900,17 @@
           <sp who="mascarille" xml:id="I04-46">
             <speaker>Mascarille</speaker>
             <l>Ma langue, en cet endroit,</l>
-            <l n="300">A fait un pas de clerc dont elle s’aperçoit :</l>
+            <l>A fait un pas de clerc dont elle s’aperçoit :</l>
             <l>Mais, enfin, cette affaire est comme vous la dites ;</l>
             <l>Et c’est après cinq jours de nocturnes visites,</l>
             <l>Tandis que vous serviez à mieux couvrir leur jeu,</l>
             <l>Que depuis avant-hier ils sont joints de ce nœud ;</l>
-            <l n="305">Et Lucile depuis fait encor moins paraître</l>
+            <l>Et Lucile depuis fait encor moins paraître</l>
             <l>La violente amour qu’elle porte à mon maître,</l>
             <l>Et veut absolument que tout ce qu’il verra,</l>
             <l>Et qu’en votre faveur son cœur témoignera,</l>
             <l>Il l’impute à l’effet d’une haute prudence,</l>
-            <l n="310">Qui veut de leurs secrets ôter la connaissance.</l>
+            <l>Qui veut de leurs secrets ôter la connaissance.</l>
             <l>Si, malgré mes serments, vous doutez de ma foi,</l>
             <l>Gros-René peut venir une nuit avec moi ;</l>
             <l>Et je lui ferai voir étant en sentinelle</l>
@@ -922,7 +922,7 @@
           </sp>
           <sp who="mascarille" xml:id="I04-48">
             <speaker>Mascarille</speaker>
-            <l n="315">Et de grand cœur ;</l>
+            <l>Et de grand cœur ;</l>
             <l>C’est ce que je demande.</l>
           </sp>
           <sp who="eraste" xml:id="I04-49">
@@ -938,7 +938,7 @@
             <speaker>Éraste</speaker>
             <l>Las ! il ne l’est que trop, le bourreau détestable.</l>
             <l>Je vois trop d’apparence à tout ce qu’il a dit :</l>
-            <l n="320">Et ce qu’a fait Valère, en voyant cet écrit,</l>
+            <l>Et ce qu’a fait Valère, en voyant cet écrit,</l>
             <l>Marque bien leur concert, et que c’est une baye</l>
             <l>Qui sert sans doute aux feux dont l’ingrate le paye.</l>
           </sp>
@@ -953,7 +953,7 @@
           </sp>
           <sp who="eraste" xml:id="I05-2">
             <speaker>Éraste</speaker>
-            <l n="325">Oses-tu me parler, âme double, et traîtresse ?</l>
+            <l>Oses-tu me parler, âme double, et traîtresse ?</l>
             <l>Va, sors de ma présence, et dis à ta maîtresse,</l>
             <l>Qu’avecque ses écrits elle me laisse en paix,</l>
             <l>Et que voilà l’état, infâme, que j’en fais.</l>
@@ -964,12 +964,12 @@
           </sp>
           <sp who="gros-rene" xml:id="I05-4">
             <speaker>Gros-René</speaker>
-            <l n="330">M’oses-tu bien encor parler ? femelle inique ?</l>
+            <l>M’oses-tu bien encor parler ? femelle inique ?</l>
             <l>Crocodile trompeur, de qui le cœur félon</l>
             <l>Est pire qu’un Satrape ou bien qu’un Lestrigon ?</l>
             <l>Va, va rendre réponse à ta bonne maîtresse,</l>
             <l>Et lui dis bien et beau que, malgré sa souplesse,</l>
-            <l n="335">Nous ne sommes plus sots, ni mon maître, ni moi,</l>
+            <l>Nous ne sommes plus sots, ni mon maître, ni moi,</l>
             <l>Et désormais qu’elle aille au Diable avecque toi.</l>
           </sp>
           <sp who="marinette" xml:id="I05-5">
@@ -977,7 +977,7 @@
             <l>Ma pauvre Marinette, es-tu bien éveillée ?</l>
             <l>De quel démon est donc leur âme travaillée ?</l>
             <l>Quoi, faire un tel accueil à nos soins obligeants !</l>
-            <l n="340">Ô ! que ceci chez nous va surprendre les gens !</l>
+            <l>Ô ! que ceci chez nous va surprendre les gens !</l>
           </sp>
           <trailer>Fin du premier Acte.</trailer>
         </div2>
@@ -999,7 +999,7 @@
           </sp>
           <sp who="frosine" xml:id="II01-3">
             <speaker>Frosine</speaker>
-            <l n="345">Nous serions au logis beaucoup moins sûrement :</l>
+            <l>Nous serions au logis beaucoup moins sûrement :</l>
             <l>Ici de tous côtés on découvre aisément,</l>
             <l>Et nous pouvons parler avec toute assurance.</l>
           </sp>
@@ -1013,7 +1013,7 @@
           </sp>
           <sp who="ascagne" xml:id="II01-6">
             <speaker>Ascagne</speaker>
-            <l n="350">Trop, puisque je le fie à vous-même à regret,</l>
+            <l>Trop, puisque je le fie à vous-même à regret,</l>
             <l>Et que si je pouvais le cacher davantage,</l>
             <l>Vous ne le sauriez point.</l>
           </sp>
@@ -1022,7 +1022,7 @@
             <l>Ha ! c’est me faire outrage !</l>
             <l>Feindre à s’ouvrir à moi ! dont vous avez connu</l>
             <l>Dans tous vos intérêts l’esprit si retenu.</l>
-            <l n="355">Moi nourrie avec vous ! et qui tiens sous silence</l>
+            <l>Moi nourrie avec vous ! et qui tiens sous silence</l>
             <l>Des choses qui vous sont de si grande importance !</l>
             <l>Qui sais…</l>
           </sp>
@@ -1031,12 +1031,12 @@
             <l>Oui, vous savez la secrète raison</l>
             <l>Qui cache aux yeux de tous mon sexe et ma maison :</l>
             <l>Vous savez que dans celle où passa mon bas âge</l>
-            <l n="360">Je suis, pour y pouvoir retenir l’héritage</l>
+            <l>Je suis, pour y pouvoir retenir l’héritage</l>
             <l>Que relâchait ailleurs le jeune Ascagne mort,</l>
             <l>Dont mon déguisement fait revivre le sort,</l>
             <l>Et c’est aussi pourquoi ma bouche se dispense</l>
             <l>À vous ouvrir mon cœur avec plus d’assurance.</l>
-            <l n="365">Mais avant que passer, Frosine à ce discours,</l>
+            <l>Mais avant que passer, Frosine à ce discours,</l>
             <l>Éclaircissez un doute où je tombe toujours.</l>
             <l>Se pourrait-il qu’Albert ne sût rien du mystère</l>
             <l>Qui masque ainsi mon sexe et l’a rendu mon père ?</l>
@@ -1044,37 +1044,37 @@
           <sp who="frosine" xml:id="II01-9">
             <speaker>Frosine</speaker>
             <l>En bonne foi, ce point sur quoi vous me pressez,</l>
-            <l n="370">Est une affaire aussi qui m’embarrasse assez :</l>
+            <l>Est une affaire aussi qui m’embarrasse assez :</l>
             <l>Le fond de cette intrigue est pour moi lettre close ;</l>
             <l>Et ma mère ne put m’éclaircir mieux la chose.</l>
             <l>Quand il mourut ce fils l’objet de tant d’amour,</l>
             <l>Au destin de qui même, avant qu’il vînt au jour,</l>
-            <l n="375">Le testament d’un oncle abondant en richesses,</l>
+            <l>Le testament d’un oncle abondant en richesses,</l>
             <l>D’un soin particulier avait fait des largesses,</l>
             <l>Et que sa mère fit un secret de sa mort,</l>
             <l>De son époux absent redoutant le transport,</l>
             <l>S’il voyait chez un autre aller tout l’héritage</l>
-            <l n="380">Dont sa maison tirait un si grand avantage,</l>
+            <l>Dont sa maison tirait un si grand avantage,</l>
             <l>Quand, dis-je, pour cacher un tel événement,</l>
             <l>La supposition fut de son sentiment,</l>
             <l>Et qu’on vous prit chez nous où vous étiez nourrie,</l>
             <l>Votre mère d’accord de cette tromperie</l>
-            <l n="385">Qui remplaçait ce fils à sa garde commis,</l>
+            <l>Qui remplaçait ce fils à sa garde commis,</l>
             <l>En faveur des présents le secret fut promis,</l>
             <l>Albert ne l’a point su de nous ; et pour sa femme,</l>
             <l>L’ayant plus de douze ans conservé dans son âme,</l>
             <l>Comme le mal fut prompt dont on la vit mourir,</l>
-            <l n="390">Son trépas imprévu ne put rien découvrir.</l>
+            <l>Son trépas imprévu ne put rien découvrir.</l>
             <l>Mais, cependant, je vois qu’il garde intelligence</l>
             <l>Avec celle de qui vous tenez la naissance.</l>
             <l>J’ai su, qu’en secret même, il lui faisait du bien ;</l>
             <l>Et peut-être cela ne se fait pas pour rien.</l>
-            <l n="395">D’autre part, il vous veut porter au mariage ;</l>
+            <l>D’autre part, il vous veut porter au mariage ;</l>
             <l>Et, comme il le prétend, c’est un mauvais langage :</l>
             <l>Je ne sais s’il saurait la supposition</l>
             <l>Sans le déguisement ; mais la digression</l>
             <l>Tout insensiblement pourrait trop loin s’étendre :</l>
-            <l n="400">Revenons au secret que je brûle d’apprendre.</l>
+            <l>Revenons au secret que je brûle d’apprendre.</l>
           </sp>
           <sp who="ascagne" xml:id="II01-10">
             <speaker>Ascagne</speaker>
@@ -1090,7 +1090,7 @@
           </sp>
           <sp who="ascagne" xml:id="II01-12">
             <speaker>Ascagne</speaker>
-            <l n="405">Frosine, doucement ;</l>
+            <l>Frosine, doucement ;</l>
             <l>N’entrez pas tout à fait dedans l’étonnement :</l>
             <l>Il n’est pas temps encore : et ce cœur qui soupire</l>
             <l>A bien pour vous surprendre autre chose à vous dire.</l>
@@ -1105,7 +1105,7 @@
           </sp>
           <sp who="frosine" xml:id="II01-15">
             <speaker>Frosine</speaker>
-            <l n="410">Ha ! vous aviez raison,</l>
+            <l>Ha ! vous aviez raison,</l>
             <l>L’objet de votre amour, lui dont à la maison</l>
             <l>Votre imposture enlève un puissant héritage,</l>
             <l>Et qui de votre sexe ayant le moindre ombrage,</l>
@@ -1114,7 +1114,7 @@
           </sp>
           <sp who="ascagne" xml:id="II01-16">
             <speaker>Ascagne</speaker>
-            <l n="415">J’ai de quoi toutefois surprendre plus votre âme :</l>
+            <l>J’ai de quoi toutefois surprendre plus votre âme :</l>
             <l>Je suis sa femme.</l>
           </sp>
           <sp who="frosine" xml:id="II01-17">
@@ -1141,7 +1141,7 @@
           <sp who="ascagne" xml:id="II01-22">
             <speaker>Ascagne</speaker>
             <l>Je la suis, dis-je, sans qu’il le pense,</l>
-            <l n="420">Ni qu’il ait de mon sort la moindre connaissance.</l>
+            <l>Ni qu’il ait de mon sort la moindre connaissance.</l>
           </sp>
           <sp who="frosine" xml:id="II01-23">
             <speaker>Frosine</speaker>
@@ -1152,42 +1152,42 @@
           <sp who="ascagne" xml:id="II01-24">
             <speaker>Ascagne</speaker>
             <l>Je vais vous l’expliquer, si vous voulez m’entendre.</l>
-            <l n="425">Valère dans les fers de ma sœur arrêtée</l>
+            <l>Valère dans les fers de ma sœur arrêtée</l>
             <l>Me semblait un amant digne d’être écouté,</l>
             <l>Et je ne pouvais voir qu’on rebutât sa flamme,</l>
             <l>Sans qu’un peu d’intérêt touchât pour lui mon âme.</l>
             <l>Je voulais que Lucile aimât son entretien,</l>
-            <l n="430">Je blâmais ses rigueurs, et les blâmai si bien,</l>
+            <l>Je blâmais ses rigueurs, et les blâmai si bien,</l>
             <l>Que moi-même j’entrai, sans pouvoir m’en défendre,</l>
             <l>Dans tous les sentiments qu’elle ne pouvait prendre.</l>
             <l>C’était en lui parlant moi qu’il persuadait,</l>
             <l>Je me laissais gagner aux soupirs qu’il perdait,</l>
-            <l n="435">Et ses vœux rejetés de l’objet qui l’enflamme</l>
+            <l>Et ses vœux rejetés de l’objet qui l’enflamme</l>
             <l>Étaient, comme vainqueurs, reçus dedans mon âme.</l>
             <l>Ainsi mon cœur, Frosine, un peu trop faible, hélas !</l>
             <l>Se rendit à des soins qu’on ne lui rendait pas,</l>
             <l>Par un coup réfléchi reçut une blessure,</l>
-            <l n="440">Et paya pour un autre avec beaucoup d’usure.</l>
+            <l>Et paya pour un autre avec beaucoup d’usure.</l>
             <l>Enfin, ma chère, enfin, l’amour que j’eus pour lui</l>
             <l>Se voulut expliquer, mais sous le nom d’autrui :</l>
             <l>Dans ma bouche, une nuit, cet amant trop aimable</l>
             <l>Crut rencontrer Lucile à ses vœux favorable,</l>
-            <l n="445">Et je sus ménager si bien cet entretien,</l>
+            <l>Et je sus ménager si bien cet entretien,</l>
             <l>Que du déguisement il ne reconnut rien.</l>
             <l>Sous ce voile trompeur qui flattait sa pensée,</l>
             <l>Je lui dis que pour lui mon âme était blessée ;</l>
             <l>Mais que, voyant mon père en d’autres sentiments,</l>
-            <l n="450">Je devais une feinte à ses commandements ;</l>
+            <l>Je devais une feinte à ses commandements ;</l>
             <l>Qu’ainsi de notre amour nous ferions un mystère,</l>
             <l>Dont la nuit seulement serait dépositaire,</l>
             <l>Et qu’entre nous de jour, de peur de rien gâter,</l>
             <l>Tout entretien secret se devait éviter ;</l>
-            <l n="455">Qu’il me verrait alors la même indifférence,</l>
+            <l>Qu’il me verrait alors la même indifférence,</l>
             <l>Qu’avant que nous eussions aucune intelligence,</l>
             <l>Et que de son côté, de même que du mien,</l>
             <l>Geste, parole, écrit, ne m’en dît jamais rien.</l>
             <l>Enfin, sans m’arrêter sur toute l’industrie</l>
-            <l n="460">Dont j’ai conduit le fil de cette tromperie,</l>
+            <l>Dont j’ai conduit le fil de cette tromperie,</l>
             <l>J’ai poussé jusqu’au bout un projet si hardi,</l>
             <l>Et me suis assuré l’Époux que je vous dis.</l>
           </sp>
@@ -1195,7 +1195,7 @@
             <speaker>Frosine</speaker>
             <l>Peste ! les grands talents que votre esprit possède !</l>
             <l>Dirait-on qu’elle y touche, avec sa mine froide ?</l>
-            <l n="465">Cependant, vous avez été bien vite ici ;</l>
+            <l>Cependant, vous avez été bien vite ici ;</l>
             <l>Car je veux que la chose ait d’abord réussi,</l>
             <l>Ne jugez-vous pas bien, à regarder l’issue,</l>
             <l>Qu’elle ne peut longtemps éviter d’être sue ?</l>
@@ -1203,7 +1203,7 @@
           <sp who="ascagne" xml:id="II01-26">
             <speaker>Ascagne</speaker>
             <l>Quand l’amour est bien fort, rien ne peut l’arrêter ;</l>
-            <l n="470">Ses projets seulement vont à se contenter,</l>
+            <l>Ses projets seulement vont à se contenter,</l>
             <l>Et, pourvu qu’il arrive au but qu’il se propose,</l>
             <l>Il croit que tout le reste après est peu de chose.</l>
             <l>Mais, enfin, aujourd’hui je me découvre à vous,</l>
@@ -1215,7 +1215,7 @@
           <stage>Valère, Ascagne, Frosine</stage>
           <sp who="valere" xml:id="II02-1">
             <speaker>Valère</speaker>
-            <l n="475">Si vous êtes tous deux en quelque conférence,</l>
+            <l>Si vous êtes tous deux en quelque conférence,</l>
             <l>Où je vous fasse tort de mêler ma présence,</l>
             <l>Je me retirerai.</l>
           </sp>
@@ -1239,7 +1239,7 @@
           <sp who="ascagne" xml:id="II02-6">
             <speaker>Ascagne</speaker>
             <l>Je disais que Valère</l>
-            <l n="480">Aurait, si j’étais fille, un peu trop su me plaire ;</l>
+            <l>Aurait, si j’étais fille, un peu trop su me plaire ;</l>
             <l>Et que, si je faisais tous les vœux de son cœur,</l>
             <l>Je ne tarderais guère à faire son bonheur.</l>
           </sp>
@@ -1247,7 +1247,7 @@
             <speaker>Valère</speaker>
             <l>Ces protestations ne coûtent pas grand-chose,</l>
             <l>Alors qu’à leur effet un pareil <hi rend="i">si</hi> s’oppose :</l>
-            <l n="485">Mais vous seriez bien pris, si quelque événement</l>
+            <l>Mais vous seriez bien pris, si quelque événement</l>
             <l>Allait mettre à l’épreuve un si doux compliment.</l>
           </sp>
           <sp who="ascagne" xml:id="II02-8">
@@ -1258,7 +1258,7 @@
           <sp who="valere" xml:id="II02-9">
             <speaker>Valère</speaker>
             <l>Et si c’était quelqu’une, où par votre secours</l>
-            <l n="490">Vous puissiez être utile au bonheur de mes jours ?</l>
+            <l>Vous puissiez être utile au bonheur de mes jours ?</l>
           </sp>
           <sp who="ascagne" xml:id="II02-10">
             <speaker>Ascagne</speaker>
@@ -1272,7 +1272,7 @@
             <speaker>Ascagne</speaker>
             <l>Hé ! quoi ! vous voudriez, Valère, injustement,</l>
             <l>Qu’étant fille, et mon cœur vous aimant tendrement,</l>
-            <l n="495">Je m’allasse engager avec une promesse</l>
+            <l>Je m’allasse engager avec une promesse</l>
             <l>De servir vos ardeurs pour quelque autre maîtresse.</l>
             <l>Un si pénible effort pour moi m’est interdit.</l>
           </sp>
@@ -1288,7 +1288,7 @@
           </sp>
           <sp who="valere" xml:id="II02-15">
             <speaker>Valère</speaker>
-            <l n="500">Ainsi donc il ne faut rien prétendre,</l>
+            <l>Ainsi donc il ne faut rien prétendre,</l>
             <l>Ascagne, à des bontés que vous auriez pour nous,</l>
             <l>À moins que le Ciel fasse un grand miracle en vous.</l>
             <l>Bref, si vous n’êtes fille, adieu votre tendresse ;</l>
@@ -1296,12 +1296,12 @@
           </sp>
           <sp who="ascagne" xml:id="II02-16">
             <speaker>Ascagne</speaker>
-            <l n="505">J’ai l’esprit délicat plus qu’on ne peut penser,</l>
+            <l>J’ai l’esprit délicat plus qu’on ne peut penser,</l>
             <l>Et le moindre scrupule a de quoi m’offenser</l>
             <l>Quand il s’agit d’aimer ; enfin je suis sincère ;</l>
             <l>Je ne m’engage point à vous servir, Valère,</l>
             <l>Si vous ne m’assurez au moins absolument,</l>
-            <l n="510">Que vous gardez pour moi le même sentiment ;</l>
+            <l>Que vous gardez pour moi le même sentiment ;</l>
             <l>Que pareille chaleur d’amitié vous transporte,</l>
             <l>Et que, si j’étais fille, une flamme plus forte</l>
             <l>N’outragerait point celle où je vivrais pour vous.</l>
@@ -1309,7 +1309,7 @@
           <sp who="valere" xml:id="II02-17">
             <speaker>Valère</speaker>
             <l>Je n’avais jamais vu ce scrupule jaloux ;</l>
-            <l n="515">Mais tout nouveau qu’il est, ce mouvement m’oblige,</l>
+            <l>Mais tout nouveau qu’il est, ce mouvement m’oblige,</l>
             <l>Et je vous fais ici tout l’aveu qu’il exige.</l>
           </sp>
           <sp who="ascagne" xml:id="II02-18">
@@ -1328,7 +1328,7 @@
           <sp who="valere" xml:id="II02-21">
             <speaker>Valère</speaker>
             <l>J’ai bientôt à vous dire un important mystère,</l>
-            <l n="520">Où l’effet de ces mots me sera nécessaire.</l>
+            <l>Où l’effet de ces mots me sera nécessaire.</l>
           </sp>
           <sp who="ascagne" xml:id="II02-22">
             <speaker>Ascagne</speaker>
@@ -1342,7 +1342,7 @@
           <sp who="ascagne" xml:id="II02-24">
             <speaker>Ascagne</speaker>
             <l>C’est que j’ai de l’amour qui n’oserait paraître,</l>
-            <l n="525">Et vous pourriez avoir sur l’objet de mes vœux</l>
+            <l>Et vous pourriez avoir sur l’objet de mes vœux</l>
             <l>Un empire à pouvoir rendre mon sort heureux.</l>
           </sp>
           <sp who="valere" xml:id="II02-25">
@@ -1356,7 +1356,7 @@
           </sp>
           <sp who="valere" xml:id="II02-27">
             <speaker>Valère</speaker>
-            <l n="530">Non, non ; dites l’objet pour qui vous m’employez.</l>
+            <l>Non, non ; dites l’objet pour qui vous m’employez.</l>
           </sp>
           <sp who="ascagne" xml:id="II02-28">
             <speaker>Ascagne</speaker>
@@ -1380,7 +1380,7 @@
           <sp who="ascagne" xml:id="II02-32">
             <speaker>Ascagne</speaker>
             <l>Pour raison.</l>
-            <l n="535">Vous saurez mon secret, quand je saurai le vôtre.</l>
+            <l>Vous saurez mon secret, quand je saurai le vôtre.</l>
           </sp>
           <sp who="valere" xml:id="II02-33">
             <speaker>Valère</speaker>
@@ -1401,7 +1401,7 @@
           </sp>
           <sp who="frosine" xml:id="II02-37">
             <speaker>Frosine</speaker>
-            <l n="540">Il croit trouver en vous l’assistance d’un frère.</l>
+            <l>Il croit trouver en vous l’assistance d’un frère.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="II03">
@@ -1413,7 +1413,7 @@
             <l>Et, si cette action a de quoi l’affliger,</l>
             <l>C’est toute la douceur que mon cœur s’y propose.</l>
             <l>Mon frère, vous voyez une métamorphose.</l>
-            <l n="545">Je veux chérir Valère après tant de fierté,</l>
+            <l>Je veux chérir Valère après tant de fierté,</l>
             <l>Et mes vœux maintenant tournent de son côté.</l>
           </sp>
           <sp who="ascagne" xml:id="II03-2">
@@ -1424,7 +1424,7 @@
           <sp who="lucile" xml:id="II03-3">
             <speaker>Lucile</speaker>
             <l>La vôtre me surprend avec plus de sujet :</l>
-            <l n="550">De vos soins autrefois Valère était l’objet ;</l>
+            <l>De vos soins autrefois Valère était l’objet ;</l>
             <l>Je vous ai vu pour lui m’accuser de caprice,</l>
             <l>D’aveugle cruauté, d’orgueil, et d’injustice,</l>
             <l>Et, quand je veux l’aimer, mon dessein vous déplaît,</l>
@@ -1432,7 +1432,7 @@
           </sp>
           <sp who="ascagne" xml:id="II03-4">
             <speaker>Ascagne</speaker>
-            <l n="555">Je le quitte, ma sœur, pour embrasser le vôtre :</l>
+            <l>Je le quitte, ma sœur, pour embrasser le vôtre :</l>
             <l>Je sais qu’il est rangé dessous les lois d’un autre,</l>
             <l>Et ce serait un trait honteux à vos appas,</l>
             <l>Si vous le rappeliez et qu’il ne revînt pas.</l>
@@ -1440,12 +1440,12 @@
           <sp who="lucile" xml:id="II03-5">
             <speaker>Lucile</speaker>
             <l>Si ce n’est que cela, j’aurai soin de ma gloire ;</l>
-            <l n="560">Et je sais pour son cœur tout ce que j’en dois croire :</l>
+            <l>Et je sais pour son cœur tout ce que j’en dois croire :</l>
             <l>Il s’explique à mes yeux intelligiblement.</l>
             <l>Ainsi, découvrez-lui, sans peur, mon sentiment :</l>
             <l>Ou, si vous refusez de le faire, ma bouche</l>
             <l>Lui va faire savoir que son ardeur me touche.</l>
-            <l n="565">Quoi ? mon frère, à ces mots vous restez interdit !</l>
+            <l>Quoi ? mon frère, à ces mots vous restez interdit !</l>
           </sp>
           <sp who="ascagne" xml:id="II03-6">
             <speaker>Ascagne</speaker>
@@ -1453,17 +1453,17 @@
             <l>Si vous êtes sensible aux prières d’un frère,</l>
             <l>Quittez un tel dessein, et n’ôtez point Valère</l>
             <l>Aux vœux d’un jeune objet dont l’intérêt m’est cher,</l>
-            <l n="570">Et qui sur ma parole a droit de vous toucher.</l>
+            <l>Et qui sur ma parole a droit de vous toucher.</l>
             <l>La pauvre infortunée aime avec violence ;</l>
             <l>À moi seul de ses feux elle fait confidence,</l>
             <l>Et je vois dans son cœur de tendres mouvements</l>
             <l>À dompter la fierté des plus durs sentiments.</l>
-            <l n="575">Oui, vous auriez pitié de l’état de son âme,</l>
+            <l>Oui, vous auriez pitié de l’état de son âme,</l>
             <l>Connaissant de quel coup vous menacez sa flamme,</l>
             <l>Et je ressens si bien la douleur qu’elle aura,</l>
             <l>Que je suis assuré, ma sœur, qu’elle en mourra,</l>
             <l>Si vous lui dérobez l’amant qui peut lui plaire.</l>
-            <l n="580">Éraste est un parti qui doit vous satisfaire ;</l>
+            <l>Éraste est un parti qui doit vous satisfaire ;</l>
             <l>Et des feux mutuels…</l>
           </sp>
           <sp who="lucile" xml:id="II03-7">
@@ -1475,7 +1475,7 @@
           </sp>
           <sp who="ascagne" xml:id="II03-8">
             <speaker>Ascagne</speaker>
-            <l n="585">Allez, cruelle sœur, vous me désespérez,</l>
+            <l>Allez, cruelle sœur, vous me désespérez,</l>
             <l>Si vous effectuez vos desseins déclarés.</l>
           </sp>
         </div2>
@@ -1490,7 +1490,7 @@
             <speaker>Lucile</speaker>
             <l>Un cœur ne pèse rien alors que l’on l’affronte ;</l>
             <l>Il court à sa vengeance, et saisit promptement</l>
-            <l n="590">Tout ce qu’il croit servir à son ressentiment.</l>
+            <l>Tout ce qu’il croit servir à son ressentiment.</l>
             <l>Le traître ! faire voir cette insolence extrême !</l>
           </sp>
           <sp who="marinette" xml:id="II04-3">
@@ -1498,12 +1498,12 @@
             <l>Vous m’en voyez encor toute hors de moi-même ;</l>
             <l>Et, quoique là-dessus je rumine sans fin,</l>
             <l>L’aventure me passe et j’y perds mon latin.</l>
-            <l n="595">Car enfin, aux transports d’une bonne nouvelle,</l>
+            <l>Car enfin, aux transports d’une bonne nouvelle,</l>
             <l>Jamais cœur ne s’ouvrit d’une façon plus belle :</l>
             <l>De l’écrit obligeant le sien tout transporté</l>
             <l>Ne me donnait pas moins que de la déité ;</l>
             <l>Et cependant jamais, à cet autre message,</l>
-            <l n="600">Fille ne fut traitée avec tant d’outrage.</l>
+            <l>Fille ne fut traitée avec tant d’outrage.</l>
             <l>Je ne sais, pour causer de si grands changements,</l>
             <l>Ce qui s’est pu passer entre ces courts moments.</l>
           </sp>
@@ -1511,7 +1511,7 @@
             <speaker>Lucile</speaker>
             <l>Rien ne s’est pu passer dont il faille être en peine,</l>
             <l>Puisque rien ne le doit défendre de ma haine.</l>
-            <l n="605">Quoi ! tu voudrais chercher hors de sa lâcheté</l>
+            <l>Quoi ! tu voudrais chercher hors de sa lâcheté</l>
             <l>La secrète raison de cette indignité !</l>
             <l>Cet écrit malheureux dont mon âme s’accuse</l>
             <l>Peut-il à son transport souffrir la moindre excuse ?</l>
@@ -1519,12 +1519,12 @@
           <sp who="marinette" xml:id="II04-5">
             <speaker>Marinette</speaker>
             <l>En effet ; je comprends que vous avez raison,</l>
-            <l n="610">Et que cette querelle est pure trahison.</l>
+            <l>Et que cette querelle est pure trahison.</l>
             <l>Nous en tenons, Madame ; et puis prêtons l’oreille</l>
             <l>Aux bons chiens de pendards qui nous chantent merveille,</l>
             <l>Qui pour nous accrocher feignant tant de langueur ;</l>
             <l>Laissons à leurs beaux mots fondre notre rigueur,</l>
-            <l n="615">Rendons-nous à leurs vœux, trop faibles que nous sommes.</l>
+            <l>Rendons-nous à leurs vœux, trop faibles que nous sommes.</l>
             <l>Foin de notre sottise, et peste soit des hommes.</l>
           </sp>
           <sp who="lucile" xml:id="II04-6">
@@ -1532,7 +1532,7 @@
             <l>Hé bien, bien ; qu’il s’en vante, et rie à nos dépens ;</l>
             <l>Il n’aura pas sujet d’en triompher longtemps ;</l>
             <l>Et je lui ferai voir qu’en une âme bien faite</l>
-            <l n="620">Le mépris suit de près la faveur qu’on rejette.</l>
+            <l>Le mépris suit de près la faveur qu’on rejette.</l>
           </sp>
           <sp who="marinette" xml:id="II04-7">
             <speaker>Marinette</speaker>
@@ -1540,7 +1540,7 @@
             <l>Quand on sait qu’on n’a point d’avantage sur vous.</l>
             <l>Marinette eut bon nez, quoi qu’on en puisse dire,</l>
             <l>De ne permettre rien un soir qu’on voulait rire.</l>
-            <l n="625">Quelque autre, sous espoir de matrimonion,</l>
+            <l>Quelque autre, sous espoir de matrimonion,</l>
             <l>Aurait ouvert l’oreille à la tentation ;</l>
             <l>Mais moi, <hi rend="i">nescio vos</hi>.</l>
           </sp>
@@ -1549,17 +1549,17 @@
             <l>Que tu dis de folies !</l>
             <l>Et choisis mal ton temps pour de telles saillies !</l>
             <l>Enfin je suis touchée au cœur sensiblement,</l>
-            <l n="630">Et, si jamais celui de ce perfide amant</l>
+            <l>Et, si jamais celui de ce perfide amant</l>
             <l>Par un coup de bonheur, dont j’aurais tort, je pense,</l>
             <l>De vouloir à présent concevoir l’espérance</l>
             <l>(Car le Ciel a trop pris plaisir à m’affliger,</l>
             <l>Pour me donner celui de me pouvoir venger),</l>
-            <l n="635">Quand, dis-je, par un sort à mes désirs propice,</l>
+            <l>Quand, dis-je, par un sort à mes désirs propice,</l>
             <l>Il reviendrait m’offrir sa vie en sacrifice,</l>
             <l>Détester à mes pieds l’action d’aujourd’hui,</l>
             <l>Je te défends surtout de me parler pour lui.</l>
             <l>Au contraire, je veux que ton zèle s’exprime</l>
-            <l n="640">À me bien mettre aux yeux la grandeur de son crime,</l>
+            <l>À me bien mettre aux yeux la grandeur de son crime,</l>
             <l>Et même, si mon cœur était pour lui tenté</l>
             <l>De descendre jamais à quelque lâcheté,</l>
             <l>Que ton affection me soit alors sévère,</l>
@@ -1567,7 +1567,7 @@
           </sp>
           <sp who="marinette" xml:id="II04-9">
             <speaker>Marinette</speaker>
-            <l n="645">Vraiment, n’ayez point peur, et laissez faire à nous ;</l>
+            <l>Vraiment, n’ayez point peur, et laissez faire à nous ;</l>
             <l>J’ai pour le moins autant de colère que vous ;</l>
             <l>Et je serais plutôt fille toute ma vie,</l>
             <l>Que mon gros traître aussi me redonnât envie.</l>
@@ -1580,23 +1580,23 @@
           <sp who="albert" xml:id="II05-1">
             <speaker>Albert</speaker>
             <l>Rentrez, Lucile, et me faites venir</l>
-            <l n="650">Le précepteur, je veux un peu l’entretenir,</l>
+            <l>Le précepteur, je veux un peu l’entretenir,</l>
             <l>Et m’informer de lui qui me gouverne Ascagne,</l>
             <l>S’il sait point quel ennui depuis peu l’accompagne.</l>
             <stage>Il continue seul.</stage>
             <l>En quel gouffre de soins et de perplexité</l>
             <l>Nous jette une action faite sans équité !</l>
-            <l n="655">D’un enfant supposé par mon trop d’avarice</l>
+            <l>D’un enfant supposé par mon trop d’avarice</l>
             <l>Mon cœur depuis longtemps souffre bien le supplice,</l>
             <l>Et, quand je vois les maux où je me suis plongé,</l>
             <l>Je voudrais à ce bien n’avoir jamais songé.</l>
             <l>Tantôt je crains de voir, par la fourbe éventée,</l>
-            <l n="660">Ma famille en opprobre et misère jetée ;</l>
+            <l>Ma famille en opprobre et misère jetée ;</l>
             <l>Tantôt, pour ce fils-là, qu’il me faut conserver,</l>
             <l>Je crains cent accidents qui peuvent arriver.</l>
             <l>S’il advient que dehors quelque affaire m’appelle,</l>
             <l>J’appréhende au retour cette triste nouvelle,</l>
-            <l n="665">Las ! vous ne savez pas ? vous l’a-t-on annoncé ?</l>
+            <l>Las ! vous ne savez pas ? vous l’a-t-on annoncé ?</l>
             <l>Votre fils a la fièvre, ou jambe, ou bras cassé.</l>
             <l>Enfin, à tous moments, sur quoi que je m’arrête,</l>
             <l>Cent sortes de chagrins me roulent par la tête.</l>
@@ -1616,7 +1616,7 @@
           </sp>
           <sp who="metaphraste" xml:id="II06-3">
             <speaker>Métaphraste</speaker>
-            <l n="670">Maître est dit <hi rend="i">a Magister</hi>,</l>
+            <l>Maître est dit <hi rend="i">a Magister</hi>,</l>
             <l>C’est comme qui dirait trois fois plus grand.</l>
           </sp>
           <sp who="albert" xml:id="II06-4">
@@ -1633,7 +1633,7 @@
             <speaker>Albert</speaker>
             <l>Je veux poursuivre aussi ;</l>
             <l>Mais ne poursuivez point, vous, d’interrompre ainsi.</l>
-            <l n="675">Donc, encore une fois, Maître c’est la troisième,</l>
+            <l>Donc, encore une fois, Maître c’est la troisième,</l>
             <l>Mon fils me rend chagrin ; vous savez que je l’aime,</l>
             <l>Et que soigneusement je l’ai toujours nourri.</l>
           </sp>
@@ -1645,17 +1645,17 @@
           <sp who="albert" xml:id="II06-8">
             <speaker>Albert</speaker>
             <l>Maître, en discourant ensemble,</l>
-            <l n="680">Ce jargon n’est pas fort nécessaire, me semble ;</l>
+            <l>Ce jargon n’est pas fort nécessaire, me semble ;</l>
             <l>Je vous crois grand Latin, et grand Docteur juré ;</l>
             <l>Je m’en rapporte à ceux qui m’en ont assuré :</l>
             <l>Mais, dans un entretien qu’avec vous je destine,</l>
             <l>N’allez point déployer toute votre doctrine,</l>
-            <l n="685">Faire le pédagogue, et cent mots me cracher,</l>
+            <l>Faire le pédagogue, et cent mots me cracher,</l>
             <l>Comme si vous étiez en chaire pour prêcher.</l>
             <l>Mon père, quoiqu’il eût la tête des meilleures,</l>
             <l>Ne m’a jamais rien fait apprendre que mes heures,</l>
             <l>Qui, depuis cinquante ans dites journellement,</l>
-            <l n="690">Ne sont encor pour moi que du haut Allemand.</l>
+            <l>Ne sont encor pour moi que du haut Allemand.</l>
             <l>Laissez donc en repos votre science auguste,</l>
             <l>Et que votre langage à mon faible s’ajuste.</l>
           </sp>
@@ -1667,7 +1667,7 @@
             <speaker>Albert</speaker>
             <l>À mon fils, l’hymen semble lui faire peur,</l>
             <l>Et, sur quelque parti que je sonde son cœur,</l>
-            <l n="695">Pour un pareil lien il est froid, et recule.</l>
+            <l>Pour un pareil lien il est froid, et recule.</l>
           </sp>
           <sp who="metaphraste" xml:id="II06-11">
             <speaker>Métaphraste</speaker>
@@ -1678,7 +1678,7 @@
           <sp who="albert" xml:id="II06-12">
             <speaker>Albert</speaker>
             <l>Mon Dieu, Maître éternel, laissez là, je vous prie,</l>
-            <l n="700">Les Grecs, les Albanais, avec l’Esclavonie</l>
+            <l>Les Grecs, les Albanais, avec l’Esclavonie</l>
             <l>Et tous ces autres gens dont vous venez parler ;</l>
             <l>Eux et mon fils n’ont rien ensemble à démêler.</l>
           </sp>
@@ -1690,7 +1690,7 @@
             <speaker>Albert</speaker>
             <l>Je ne sais si dans l’âme,</l>
             <l>Il ne sentirait point une secrète flamme.</l>
-            <l n="705">Quelque chose le trouble, ou je suis fort déçu,</l>
+            <l>Quelque chose le trouble, ou je suis fort déçu,</l>
             <l>Et je l’aperçus hier, sans en être aperçu,</l>
             <l>Dans un recoin du bois où nul ne se retire.</l>
           </sp>
@@ -1698,7 +1698,7 @@
             <speaker>Métaphraste</speaker>
             <l>Dans un lieu reculé du bois, voulez-vous dire ;</l>
             <l>Un endroit écarté, <hi rend="i">Latine, secessus</hi> ;</l>
-            <l n="710">Virgile l’a dit : <hi rend="i">Est in secessu locus</hi>…</l>
+            <l>Virgile l’a dit : <hi rend="i">Est in secessu locus</hi>…</l>
           </sp>
           <sp who="albert" xml:id="II06-16">
             <speaker>Albert</speaker>
@@ -1709,7 +1709,7 @@
           <sp who="metaphraste" xml:id="II06-17">
             <speaker>Métaphraste</speaker>
             <l>Virgile est nommé là comme un auteur fameux</l>
-            <l n="715">D’un terme plus choisi que le mot que vous dites,</l>
+            <l>D’un terme plus choisi que le mot que vous dites,</l>
             <l>Et non comme témoin de ce que hier vous vîtes.</l>
           </sp>
           <sp who="albert" xml:id="II06-18">
@@ -1720,7 +1720,7 @@
           </sp>
           <sp who="metaphraste" xml:id="II06-19">
             <speaker>Métaphraste</speaker>
-            <l n="720">Il faut choisir pourtant les mots mis en usage</l>
+            <l>Il faut choisir pourtant les mots mis en usage</l>
             <l>Par les meilleurs auteurs : <hi rend="i">tu, vivendo, bonos</hi>,</l>
             <l>Comme on dit, <hi rend="i">scribendo, sequare peritos</hi>.</l>
           </sp>
@@ -1739,7 +1739,7 @@
           </sp>
           <sp who="metaphraste" xml:id="II06-23">
             <speaker>Métaphraste</speaker>
-            <l n="725">Et dit là-dessus doctement</l>
+            <l>Et dit là-dessus doctement</l>
             <l>Un mot, que vous serez bien aise assurément</l>
             <l>D’entendre.</l>
           </sp>
@@ -1751,7 +1751,7 @@
           </sp>
           <sp who="metaphraste" xml:id="II06-25">
             <speaker>Métaphraste</speaker>
-            <l n="730">Mais qui cause, Seigneur, votre inflammation ?</l>
+            <l>Mais qui cause, Seigneur, votre inflammation ?</l>
             <l>Que voulez-vous de moi ?</l>
           </sp>
           <sp who="albert" xml:id="II06-26">
@@ -1780,7 +1780,7 @@
           </sp>
           <sp who="metaphraste" xml:id="II06-31">
             <speaker>Métaphraste</speaker>
-            <l n="735">Que je trépasse,</l>
+            <l>Que je trépasse,</l>
             <l>Si je dis plus mot.</l>
           </sp>
           <sp who="albert" xml:id="II06-32">
@@ -1813,7 +1813,7 @@
           </sp>
           <sp who="metaphraste" xml:id="II06-39">
             <speaker>Métaphraste</speaker>
-            <l n="740">Je suis exact plus qu’aucun autre.</l>
+            <l>Je suis exact plus qu’aucun autre.</l>
           </sp>
           <sp who="albert" xml:id="II06-40">
             <speaker>Albert</speaker>
@@ -1839,7 +1839,7 @@
             <speaker>Métaphraste</speaker>
             <l>Parlez : courage ; au moins, je vous donne audience ;</l>
             <l>Vous ne vous plaindrez pas de mon peu de silence,</l>
-            <l n="745">Je ne desserre pas la bouche seulement.</l>
+            <l>Je ne desserre pas la bouche seulement.</l>
           </sp>
           <sp who="albert" xml:id="II06-46">
             <speaker>Albert </speaker>
@@ -1858,7 +1858,7 @@
           <sp who="metaphraste" xml:id="II06-49">
             <speaker>Métaphraste</speaker>
             <l>Hé ! bon Dieu ! voulez-vous que j’écoute à jamais ?</l>
-            <l n="750">Partageons le parler, au moins, ou je m’en vais.</l>
+            <l>Partageons le parler, au moins, ou je m’en vais.</l>
           </sp>
           <sp who="albert" xml:id="II06-50">
             <speaker>Albert</speaker>
@@ -1884,7 +1884,7 @@
           </sp>
           <sp who="metaphraste" xml:id="II06-55">
             <speaker>Métaphraste</speaker>
-            <l n="755">Derechef ? ô ! l’étrange torture !</l>
+            <l>Derechef ? ô ! l’étrange torture !</l>
             <l>Hé ! laissez-moi parler un peu, je vous conjure ;</l>
             <l>Un sot qui ne dit mot ne se distingue pas</l>
             <l>D’un savant qui se tait.</l>
@@ -1896,22 +1896,22 @@
           <sp who="metaphraste" xml:id="II06-57">
             <speaker>Métaphraste</speaker>
             <l>D’où vient fort à propos cette Sentence expresse</l>
-            <l n="760">D’un Philosophe, parle, afin qu’on te connaisse.</l>
+            <l>D’un Philosophe, parle, afin qu’on te connaisse.</l>
             <l>Doncques, si de parler le pouvoir m’est ôté,</l>
             <l>Pour moi, j’aime autant perdre aussi l’humanité,</l>
             <l>Et changer mon Essence en celle d’une bête.</l>
             <l>Me voilà pour huit jours avec un mal de tête.</l>
-            <l n="765">Ô ! que les grands parleurs sont par moi détestés.</l>
+            <l>Ô ! que les grands parleurs sont par moi détestés.</l>
             <l>Mais quoi ! si les savants ne sont point écoutés,</l>
             <l>Si l’on veut que toujours ils aient la bouche close,</l>
             <l>Il faut donc renverser l’ordre de chaque chose ;</l>
             <l>Que les poules dans peu dévorent les renards ;</l>
-            <l n="770">Que les jeunes enfants remontrent aux vieillards ;</l>
+            <l>Que les jeunes enfants remontrent aux vieillards ;</l>
             <l>Qu’à poursuivre les loups les agnelets s’ébattent ;</l>
             <l>Qu’un fou fasse les lois ; que les femmes combattent ;</l>
             <l>Que par les criminels les juges soient jugés :</l>
             <l>Et par les écoliers les maîtres fustigés ;</l>
-            <l n="775">Que le malade au sain présente le remède ;</l>
+            <l>Que le malade au sain présente le remède ;</l>
             <l>Que le lièvre craintif… miséricorde ! à l’aide !</l>
             <stage>Albert lui vient sonner aux oreilles une cloche qui le fait fuir.</stage>
           </sp>
@@ -1927,17 +1927,17 @@
             <l>Le Ciel parfois seconde un dessein téméraire,</l>
             <l>Et l’on sort comme on peut d’une méchante affaire.</l>
             <l>Pour moi, qu’une imprudence a trop fait discourir,</l>
-            <l n="780">Le remède plus prompt où j’ai su recourir,</l>
+            <l>Le remède plus prompt où j’ai su recourir,</l>
             <l>C’est de pousser ma pointe, et dire en diligence</l>
             <l>À notre vieux patron toute la manigance.</l>
             <l>Son fils qui m’embarrasse est un évaporé :</l>
             <l>L’autre, diable, disant ce que j’ai déclaré,</l>
-            <l n="785">Gare une irruption sur notre friperie :</l>
+            <l>Gare une irruption sur notre friperie :</l>
             <l>Au moins, avant qu’on puisse échauffer sa furie,</l>
             <l>Quelque chose de bon nous pourra succéder,</l>
             <l>Et les vieillards entre eux se pourront accorder.</l>
             <l>C’est ce qu’on va tenter ; et de la part du nôtre,</l>
-            <l n="790">Sans perdre un seul moment, je m’en vais trouver l’autre.</l>
+            <l>Sans perdre un seul moment, je m’en vais trouver l’autre.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="III02">
@@ -1977,7 +1977,7 @@
           </sp>
           <sp who="mascarille" xml:id="III02-8">
             <speaker>Mascarille</speaker>
-            <l n="795">Vous n’avez pas ouï,</l>
+            <l>Vous n’avez pas ouï,</l>
             <l>Monsieur.</l>
           </sp>
           <sp who="albert" xml:id="III02-9">
@@ -2008,7 +2008,7 @@
           </sp>
           <sp who="albert" xml:id="III02-15">
             <speaker>Albert</speaker>
-            <l n="800">Je lui suis obligé ;</l>
+            <l>Je lui suis obligé ;</l>
             <l>Va, que je lui souhaite une joie infinie.</l>
           </sp>
           <sp who="mascarille" xml:id="III02-16">
@@ -2019,7 +2019,7 @@
           </sp>
           <sp who="albert" xml:id="III02-17">
             <speaker>Albert</speaker>
-            <l n="805">Hé bien ! quand il voudra je suis à son service.</l>
+            <l>Hé bien ! quand il voudra je suis à son service.</l>
           </sp>
           <sp who="mascarille" xml:id="III02-18">
             <speaker>Mascarille</speaker>
@@ -2034,7 +2034,7 @@
           </sp>
           <sp who="mascarille" xml:id="III02-20">
             <speaker>Mascarille</speaker>
-            <l n="810">Un grand secret, vous dis-je,</l>
+            <l>Un grand secret, vous dis-je,</l>
             <l>Qu’il vient de découvrir en ce même moment,</l>
             <l>Et qui, sans doute, importe à tous deux grandement.</l>
             <l>Voilà mon Ambassade.</l>
@@ -2046,22 +2046,22 @@
             <speaker>Albert</speaker>
             <l>Ô ! Juste Ciel, je tremble !</l>
             <l>Car enfin nous avons peu de commerce ensemble.</l>
-            <l n="815">Quelque tempête va renverser mes desseins,</l>
+            <l>Quelque tempête va renverser mes desseins,</l>
             <l>Et ce secret sans doute est celui que je crains.</l>
             <l>L’espoir de l’intérêt m’a fait quelque infidèle,</l>
             <l>Et voilà sur ma vie une tache éternelle ;</l>
             <l>Ma fourbe est découverte. Ô ! que la vérité</l>
-            <l n="820">Se peut cacher longtemps avec difficulté !</l>
+            <l>Se peut cacher longtemps avec difficulté !</l>
             <l>Et qu’il eût mieux valu pour moi, pour mon estime,</l>
             <l>Suivre les mouvements d’une peur légitime,</l>
             <l>Par qui je me suis vu tenté plus de vingt fois,</l>
             <l>De rendre à Polydore un bien que je lui dois,</l>
-            <l n="825">De prévenir l’éclat où ce coup-ci m’expose,</l>
+            <l>De prévenir l’éclat où ce coup-ci m’expose,</l>
             <l>Et faire qu’en douceur passât toute la chose.</l>
             <l>Mais hélas ! c’en est fait, il n’est plus de saison,</l>
             <l>Et ce bien par la fraude entré dans ma maison</l>
             <l>N’en sera point tiré, que dans cette sortie</l>
-            <l n="830">Il n’entraîne du mien la meilleure partie.</l>
+            <l>Il n’entraîne du mien la meilleure partie.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="III04">
@@ -2077,7 +2077,7 @@
           </sp>
           <sp who="albert" xml:id="III04-2">
             <speaker>Albert</speaker>
-            <l n="835">Dieu ! Polydore vient !</l>
+            <l>Dieu ! Polydore vient !</l>
           </sp>
           <sp who="polydore" xml:id="III04-3">
             <speaker>Polydore</speaker>
@@ -2106,7 +2106,7 @@
           <sp who="polydore" xml:id="III04-9">
             <speaker>Polydore</speaker>
             <l>Je vois, seigneur Albert, au trouble de vos yeux</l>
-            <l n="840">Que vous savez déjà qui m’amène en ces lieux.</l>
+            <l>Que vous savez déjà qui m’amène en ces lieux.</l>
           </sp>
           <sp who="albert" xml:id="III04-10">
             <speaker>Albert</speaker>
@@ -2124,7 +2124,7 @@
           <sp who="polydore" xml:id="III04-13">
             <speaker>Polydore</speaker>
             <l>Je trouve condamnable une telle action,</l>
-            <l n="845">Et je ne prétends point excuser le coupable.</l>
+            <l>Et je ne prétends point excuser le coupable.</l>
           </sp>
           <sp who="albert" xml:id="III04-14">
             <speaker>Albert</speaker>
@@ -2148,7 +2148,7 @@
           </sp>
           <sp who="polydore" xml:id="III04-19">
             <speaker>Polydore</speaker>
-            <l n="850">Eh ! c’est moi qui de vous présentement l’implore.</l>
+            <l>Eh ! c’est moi qui de vous présentement l’implore.</l>
           </sp>
           <sp who="albert" xml:id="III04-20">
             <speaker>Albert</speaker>
@@ -2168,7 +2168,7 @@
           </sp>
           <sp who="albert" xml:id="III04-24">
             <speaker>Albert</speaker>
-            <l n="855">Vous me fendez le cœur avec cette bonté.</l>
+            <l>Vous me fendez le cœur avec cette bonté.</l>
           </sp>
           <sp who="polydore" xml:id="III04-25">
             <speaker>Polydore</speaker>
@@ -2192,7 +2192,7 @@
           </sp>
           <sp who="albert" xml:id="III04-30">
             <speaker>Albert</speaker>
-            <l n="860">J’ose vous convier qu’elle n’éclate point.</l>
+            <l>J’ose vous convier qu’elle n’éclate point.</l>
           </sp>
           <sp who="polydore" xml:id="III04-31">
             <speaker>Polydore</speaker>
@@ -2213,7 +2213,7 @@
           <sp who="polydore" xml:id="III04-35">
             <speaker>Polydore</speaker>
             <l>Je ne veux de vos biens que ce que vous voudrez :</l>
-            <l n="865">De tous ces intérêts je vous ferai le maître,</l>
+            <l>De tous ces intérêts je vous ferai le maître,</l>
             <l>Et je suis trop content si vous le pouvez être.</l>
           </sp>
           <sp who="albert" xml:id="III04-36">
@@ -2234,7 +2234,7 @@
           </sp>
           <sp who="albert" xml:id="III04-40">
             <speaker>Albert</speaker>
-            <l n="870">Embrassons-nous en frères.</l>
+            <l>Embrassons-nous en frères.</l>
           </sp>
           <sp who="polydore" xml:id="III04-41">
             <speaker>Polydore</speaker>
@@ -2249,7 +2249,7 @@
             <speaker>Polydore</speaker>
             <l>Il ne vous faut rien feindre,</l>
             <l>Votre ressentiment me donnait lieu de craindre ;</l>
-            <l n="875">Et Lucile tombée en faute avec mon fils,</l>
+            <l>Et Lucile tombée en faute avec mon fils,</l>
             <l>Comme on vous voit puissant, et de biens, et d’amis…</l>
           </sp>
           <sp who="albert" xml:id="III04-44">
@@ -2260,17 +2260,17 @@
             <speaker>Polydore</speaker>
             <l>Soit ; ne commençons point un discours inutile :</l>
             <l>Je veux bien que mon fils y trempe grandement,</l>
-            <l n="880">Même, si cela fait à votre allégement,</l>
+            <l>Même, si cela fait à votre allégement,</l>
             <l>J’avouerai qu’à lui seul en est toute la faute ;</l>
             <l>Que votre fille avait une vertu trop haute,</l>
             <l>Pour avoir jamais fait ce pas contre l’honneur,</l>
             <l>Sans l’incitation d’un méchant suborneur ;</l>
-            <l n="885">Que le traître a séduit sa pudeur innocente,</l>
+            <l>Que le traître a séduit sa pudeur innocente,</l>
             <l>Et de votre conduite ainsi détruit l’attente ;</l>
             <l>Puisque la chose est faite, et que selon mes vœux,</l>
             <l>Un esprit de douceur nous met d’accord tous deux,</l>
             <l>Ne ramentevons rien, et réparons l’offense</l>
-            <l n="890">Par la solennité d’une heureuse alliance.</l>
+            <l>Par la solennité d’une heureuse alliance.</l>
           </sp>
           <sp who="albert" xml:id="III04-46">
             <speaker>Albert</speaker>
@@ -2285,7 +2285,7 @@
           </sp>
           <sp who="albert" xml:id="III04-48">
             <speaker>Albert</speaker>
-            <l n="895">À rien :</l>
+            <l>À rien :</l>
             <l>Remettons, je vous prie, à tantôt l’entretien :</l>
             <l>Un mal subit me prend, qui veut que je vous laisse.</l>
           </sp>
@@ -2296,12 +2296,12 @@
             <speaker>Polydore</speaker>
             <l>Je lis dedans son âme, et vois ce qui le presse.</l>
             <l>À quoi que sa raison l’eût déjà disposé,</l>
-            <l n="900">Son déplaisir n’est pas encor tout apaisé.</l>
+            <l>Son déplaisir n’est pas encor tout apaisé.</l>
             <l>L’image de l’affront lui revient, et sa fuite</l>
             <l>Tâche à me déguiser le trouble qui l’agite.</l>
             <l>Je prends part à sa honte, et son deuil m’attendrit.</l>
             <l>Il faut qu’un peu de temps remette son esprit :</l>
-            <l n="905">La douleur trop contrainte aisément le redouble.</l>
+            <l>La douleur trop contrainte aisément le redouble.</l>
             <l>Voici mon jeune fou d’où nous vient tout ce trouble.</l>
           </sp>
         </div2>
@@ -2313,7 +2313,7 @@
             <l>Enfin, le beau mignon, vos bons déportements</l>
             <l>Troubleront les vieux jours d’un père à tous moments :</l>
             <l>Tous les jours vous ferez de nouvelles merveilles ;</l>
-            <l n="910">Et nous n’aurons jamais autres choses aux oreilles.</l>
+            <l>Et nous n’aurons jamais autres choses aux oreilles.</l>
           </sp>
           <sp who="valere" xml:id="III06-2">
             <speaker>Valère</speaker>
@@ -2324,17 +2324,17 @@
             <speaker>Polydore</speaker>
             <l>Je suis un étrange homme, et d’une humeur terrible,</l>
             <l>D’accuser un enfant si sage et si paisible.</l>
-            <l n="915">Las ! il vit comme un saint, et dedans la maison</l>
+            <l>Las ! il vit comme un saint, et dedans la maison</l>
             <l>Du matin jusqu’au soir il est en oraison.</l>
             <l>Dire qu’il pervertit l’ordre de la nature,</l>
             <l>Et fait du jour la nuit, ô ! la grande imposture !</l>
             <l>Qu’il n’a considéré père, ni parenté</l>
-            <l n="920">En vingt occasions, horrible fausseté !</l>
+            <l>En vingt occasions, horrible fausseté !</l>
             <l>Que de fraîche mémoire, un furtif hyménée</l>
             <l>À la fille d’Albert a joint sa destinée,</l>
             <l>Sans craindre de la suite un désordre puissant,</l>
             <l>On le prend pour un autre, et le pauvre innocent</l>
-            <l n="925">Ne sait pas seulement ce que je veux lui dire !</l>
+            <l>Ne sait pas seulement ce que je veux lui dire !</l>
             <l>Ha ! chien, que j’ai reçu du ciel pour mon martyre,</l>
             <l>Te croiras-tu toujours ? et ne pourrai-je pas,</l>
             <l>Te voir être une fois sage avant mon trépas ?</l>
@@ -2342,7 +2342,7 @@
           <sp who="valere" xml:id="III06-4">
             <speaker>Valère<hi rend="i">, seul</hi></speaker>
             <l>D’où peut venir ce coup ? mon âme embarrassée</l>
-            <l n="930">Ne voit que Mascarille ou jeter sa pensée :</l>
+            <l>Ne voit que Mascarille ou jeter sa pensée :</l>
             <l>Il ne sera pas homme à m’en faire un aveu ;</l>
             <l>Il faut user d’adresse, et me contraindre un peu</l>
             <l>Dans ce juste courroux.</l>
@@ -2366,7 +2366,7 @@
           </sp>
           <sp who="mascarille" xml:id="III07-4">
             <speaker>Mascarille</speaker>
-            <l n="935">D’où, diantre, a-t-il pu la savoir ?</l>
+            <l>D’où, diantre, a-t-il pu la savoir ?</l>
           </sp>
           <sp who="valere" xml:id="III07-5">
             <speaker>Valère</speaker>
@@ -2374,7 +2374,7 @@
             <l>Mais enfin d’un succès cette affaire est suivie</l>
             <l>Dont j’ai tous les sujets d’avoir l’âme ravie.</l>
             <l>Il ne m’en a pas dit un mot qui fût fâcheux ;</l>
-            <l n="940">Il excuse ma faute, il approuve mes feux,</l>
+            <l>Il excuse ma faute, il approuve mes feux,</l>
             <l>Et je voudrais savoir qui peut être capable</l>
             <l>D’avoir pu rendre ainsi son esprit si traitable.</l>
             <l>Je ne puis t’exprimer l’aise que j’en reçois.</l>
@@ -2382,7 +2382,7 @@
           <sp who="mascarille" xml:id="III07-6">
             <speaker>Mascarille</speaker>
             <l>Et que me diriez-vous, Monsieur, si c’était moi</l>
-            <l n="945">Qui vous eût procuré cette heureuse fortune ?</l>
+            <l>Qui vous eût procuré cette heureuse fortune ?</l>
           </sp>
           <sp who="valere" xml:id="III07-7">
             <speaker>Valère</speaker>
@@ -2400,7 +2400,7 @@
           <sp who="mascarille" xml:id="III07-10">
             <speaker>Mascarille</speaker>
             <l>Que le diable m’emporte,</l>
-            <l n="950">Si je fais raillerie, et s’il n’est de la sorte.</l>
+            <l>Si je fais raillerie, et s’il n’est de la sorte.</l>
           </sp>
           <sp who="valere" xml:id="III07-11">
             <speaker>Valère</speaker>
@@ -2414,7 +2414,7 @@
           <sp who="valere" xml:id="III07-13">
             <speaker>Valère</speaker>
             <l>C’est la fidélité que tu m’avais promise ?</l>
-            <l n="955">Sans ma feinte, jamais tu n’eusses avoué</l>
+            <l>Sans ma feinte, jamais tu n’eusses avoué</l>
             <l>Le trait que j’ai bien cru que tu m’avais joué.</l>
             <l>Traître, de qui la langue à causer trop habile</l>
             <l>D’un père contre moi vient d’échauffer la bile,</l>
@@ -2423,12 +2423,12 @@
           </sp>
           <sp who="mascarille" xml:id="III07-14">
             <speaker>Mascarille</speaker>
-            <l n="960">Tout beau ; mon âme, pour mourir,</l>
+            <l>Tout beau ; mon âme, pour mourir,</l>
             <l>N’est pas en bon état. Daignez, je vous conjure,</l>
             <l>Attendre le succès qu’aura cette aventure.</l>
             <l>J’ai de fortes raisons qui m’ont fait révéler</l>
             <l>Un hymen que vous-même aviez peine à celer ;</l>
-            <l n="965">C’était un coup d’État, et vous verrez l’issue</l>
+            <l>C’était un coup d’État, et vous verrez l’issue</l>
             <l>Condamner la fureur que vous avez conçue.</l>
             <l>De quoi vous fâchez-vous ? pourvu que vos souhaits</l>
             <l>Se trouvent par mes soins pleinement satisfaits,</l>
@@ -2436,7 +2436,7 @@
           </sp>
           <sp who="valere" xml:id="III07-15">
             <speaker>Valère</speaker>
-            <l n="970">Et si tous ces discours ne sont que des sornettes ?</l>
+            <l>Et si tous ces discours ne sont que des sornettes ?</l>
           </sp>
           <sp who="mascarille" xml:id="III07-16">
             <speaker>Mascarille</speaker>
@@ -2451,7 +2451,7 @@
           </sp>
           <sp who="mascarille" xml:id="III07-18">
             <speaker>Mascarille</speaker>
-            <l n="975">Halte ; son père sort.</l>
+            <l>Halte ; son père sort.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="III08">
@@ -2463,7 +2463,7 @@
             <l>Plus je me sens piqué de ce discours étrange,</l>
             <l>Sur qui ma peur prenait un si dangereux change ;</l>
             <l>Car Lucile soutient que c’est une chanson,</l>
-            <l n="980">Et m’a parlé d’un air à m’ôter tout soupçon.</l>
+            <l>Et m’a parlé d’un air à m’ôter tout soupçon.</l>
             <l>Ha ! monsieur, est-ce vous, de qui l’audace insigne</l>
             <l>Met en jeu mon honneur, et fait ce conte indigne ?</l>
           </sp>
@@ -2474,7 +2474,7 @@
           </sp>
           <sp who="albert" xml:id="III08-3">
             <speaker>Albert</speaker>
-            <l n="985">Comment gendre, coquin ? Tu portes bien la mine</l>
+            <l>Comment gendre, coquin ? Tu portes bien la mine</l>
             <l>De pousser les ressorts d’une telle machine,</l>
             <l>Et d’en avoir été le premier inventeur.</l>
           </sp>
@@ -2485,7 +2485,7 @@
           <sp who="albert" xml:id="III08-5">
             <speaker>Albert</speaker>
             <l>Trouves-tu beau, dis-moi, de diffamer ma fille ?</l>
-            <l n="990">Et faire un tel scandale à toute une famille ?</l>
+            <l>Et faire un tel scandale à toute une famille ?</l>
           </sp>
           <sp who="mascarille" xml:id="III08-6">
             <speaker>Mascarille</speaker>
@@ -2496,7 +2496,7 @@
             <l>Que voudrais-je, sinon qu’il dît des vérités ?</l>
             <l>Si quelque intention le pressait pour Lucile,</l>
             <l>La recherche en pouvait être honnête et civile,</l>
-            <l n="995">Il fallait l’attaquer du côté du devoir,</l>
+            <l>Il fallait l’attaquer du côté du devoir,</l>
             <l>Il fallait de son père implorer le pouvoir,</l>
             <l>Et non pas recourir à cette lâche feinte,</l>
             <l>Qui porte à la pudeur une sensible atteinte.</l>
@@ -2508,7 +2508,7 @@
           </sp>
           <sp who="albert" xml:id="III08-9">
             <speaker>Albert</speaker>
-            <l n="1000">Non, traître, et n’y sera jamais.</l>
+            <l>Non, traître, et n’y sera jamais.</l>
           </sp>
           <sp who="mascarille" xml:id="III08-10">
             <speaker>Mascarille</speaker>
@@ -2522,7 +2522,7 @@
           </sp>
           <sp who="valere" xml:id="III08-12">
             <speaker>Valère</speaker>
-            <l n="1005">Monsieur, il est aisé de vous faire paraître</l>
+            <l>Monsieur, il est aisé de vous faire paraître</l>
             <l>Qu’il dit vrai.</l>
           </sp>
           <sp who="albert" xml:id="III08-13">
@@ -2540,7 +2540,7 @@
           </sp>
           <sp who="albert" xml:id="III08-16">
             <speaker>Albert</speaker>
-            <l n="1010">Ils s’entendent tous deux comme larrons en foire.</l>
+            <l>Ils s’entendent tous deux comme larrons en foire.</l>
           </sp>
           <sp who="mascarille" xml:id="III08-17">
             <speaker>Mascarille</speaker>
@@ -2554,7 +2554,7 @@
           <sp who="mascarille" xml:id="III08-19">
             <speaker>Mascarille</speaker>
             <l>Elle n’en fera rien, Monsieur, je vous proteste,</l>
-            <l n="1015">Promettez à leurs vœux votre consentement,</l>
+            <l>Promettez à leurs vœux votre consentement,</l>
             <l>Et je veux m’exposer au plus dur châtiment,</l>
             <l>Si de sa propre bouche elle ne vous confesse,</l>
             <l>Et la foi qui l’engage, et l’ardeur qui la presse.</l>
@@ -2577,7 +2577,7 @@
           </sp>
           <sp who="mascarille" xml:id="III08-24">
             <speaker>Mascarille</speaker>
-            <l n="1020">Ne craignez rien.</l>
+            <l>Ne craignez rien.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="III09">
@@ -2589,7 +2589,7 @@
             <l>Toute chose conspire au bonheur de votre âme,</l>
             <l>Et Monsieur votre père averti de vos feux,</l>
             <l>Vous laisse votre Époux, et confirme vos vœux ;</l>
-            <l n="1025">Pourvu que bannissant toutes craintes frivoles,</l>
+            <l>Pourvu que bannissant toutes craintes frivoles,</l>
             <l>Deux mots de votre aveu confirment nos paroles.</l>
           </sp>
           <sp who="lucile" xml:id="III09-2">
@@ -2603,7 +2603,7 @@
           <sp who="lucile" xml:id="III09-4">
             <speaker>Lucile</speaker>
             <l>Sachons un peu, Monsieur, quelle belle saillie</l>
-            <l n="1030">Fait ce conte galant qu’aujourd’hui l’on publie.</l>
+            <l>Fait ce conte galant qu’aujourd’hui l’on publie.</l>
           </sp>
           <sp who="valere" xml:id="III09-5">
             <speaker>Valère</speaker>
@@ -2621,7 +2621,7 @@
           </sp>
           <sp who="lucile" xml:id="III09-8">
             <speaker>Lucile</speaker>
-            <l n="1035">Quoi ! l’ardeur de mes feux vous a fait mon Époux ?</l>
+            <l>Quoi ! l’ardeur de mes feux vous a fait mon Époux ?</l>
           </sp>
           <sp who="valere" xml:id="III09-9">
             <speaker>Valère</speaker>
@@ -2629,7 +2629,7 @@
             <l>Mais j’impute bien moins ce bonheur de ma flamme,</l>
             <l>À l’ardeur de vos feux, qu’aux bontés de votre âme.</l>
             <l>Je sais que vous avez sujet de vous fâcher ;</l>
-            <l n="1040">Que c’était un secret que vous vouliez cacher,</l>
+            <l>Que c’était un secret que vous vouliez cacher,</l>
             <l>Et j’ai de mes transports forcé la violence,</l>
             <l>À ne point violer votre expresse défense :</l>
             <l>Mais…</l>
@@ -2641,17 +2641,17 @@
           <sp who="lucile" xml:id="III09-11">
             <speaker>Lucile</speaker>
             <l>Est-il une imposture égale à celle-là ?</l>
-            <l n="1045">Vous l’osez soutenir en ma présence même,</l>
+            <l>Vous l’osez soutenir en ma présence même,</l>
             <l>Et pensez m’obtenir par ce beau stratagème ?</l>
             <l>Ô ! le plaisant amant ! dont la galante ardeur</l>
             <l>Veut blesser mon honneur au défaut de mon cœur,</l>
             <l>Et que mon père ému de l’éclat d’un sot conte,</l>
-            <l n="1050">Paie avec mon hymen qui me couvre de honte.</l>
+            <l>Paie avec mon hymen qui me couvre de honte.</l>
             <l>Quand tout contribuerait à votre passion,</l>
             <l>Mon père, les destins, mon inclination,</l>
             <l>On me verrait combattre, en ma juste colère</l>
             <l>Mon inclination, les destins, et mon père ;</l>
-            <l n="1055">Perdre même le jour avant que de m’unir</l>
+            <l>Perdre même le jour avant que de m’unir</l>
             <l>À qui par ce moyen aurait cru m’obtenir.</l>
             <l>Allez ; et si mon sexe, avec bienséance,</l>
             <l>Se pouvait emporter à quelque violence,</l>
@@ -2659,7 +2659,7 @@
           </sp>
           <sp who="valere" xml:id="III09-12">
             <speaker>Valère</speaker>
-            <l n="1060">C’en est fait son courroux ne peut être adouci.</l>
+            <l>C’en est fait son courroux ne peut être adouci.</l>
           </sp>
           <sp who="mascarille" xml:id="III09-13">
             <speaker>Mascarille</speaker>
@@ -2667,17 +2667,17 @@
             <l>À quoi bon maintenant toute cette grimace ?</l>
             <l>Quelle est votre pensée ? et quel bourru transport</l>
             <l>Contre vos propres vœux vous fait raidir si fort ?</l>
-            <l n="1065">Si monsieur votre père était homme farouche,</l>
+            <l>Si monsieur votre père était homme farouche,</l>
             <l>Passe : mais il permet que la raison le touche,</l>
             <l>Et lui-même m’a dit qu’une confession</l>
             <l>Vous va tout obtenir de son affection.</l>
             <l>Vous sentez, je crois bien, quelque petite honte</l>
-            <l n="1070">À faire un libre aveu de l’amour qui vous dompte :</l>
+            <l>À faire un libre aveu de l’amour qui vous dompte :</l>
             <l>Mais s’il vous a fait perdre un peu de liberté,</l>
             <l>Par un bon mariage on voit tout rajusté ;</l>
             <l>Et, quoi que l’on reproche au feu qui vous consomme,</l>
             <l>Le mal n’est pas si grand que de tuer un homme.</l>
-            <l n="1075">On sait que la chair est fragile quelquefois,</l>
+            <l>On sait que la chair est fragile quelquefois,</l>
             <l>Et qu’une fille enfin n’est ni caillou ni bois.</l>
             <l>Vous n’avez pas été sans doute la première,</l>
             <l>Et vous ne serez pas, que je crois, la dernière.</l>
@@ -2685,7 +2685,7 @@
           <sp who="lucile" xml:id="III09-14">
             <speaker>Lucile</speaker>
             <l>Quoi ! vous pouvez ouïr ces discours effrontés !</l>
-            <l n="1080">Et vous ne dites mot à ces indignités !</l>
+            <l>Et vous ne dites mot à ces indignités !</l>
           </sp>
           <sp who="albert" xml:id="III09-15">
             <speaker>Albert</speaker>
@@ -2704,7 +2704,7 @@
           <sp who="mascarille" xml:id="III09-18">
             <speaker>Mascarille</speaker>
             <l>Quoi ? Ce qui s’est passé</l>
-            <l n="1085">Entre mon maître et vous ; la belle raillerie !</l>
+            <l>Entre mon maître et vous ; la belle raillerie !</l>
           </sp>
           <sp who="lucile" xml:id="III09-19">
             <speaker>Lucile</speaker>
@@ -2716,7 +2716,7 @@
             <l>Vous devez, que je crois,</l>
             <l>En savoir un peu plus de nouvelles que moi,</l>
             <l>Et pour vous cette nuit fut trop douce, pour croire</l>
-            <l n="1090">Que vous puissiez si vite en perdre la mémoire.</l>
+            <l>Que vous puissiez si vite en perdre la mémoire.</l>
           </sp>
           <sp who="lucile" xml:id="III09-21">
             <speaker>Lucile</speaker>
@@ -2737,7 +2737,7 @@
           </sp>
           <sp who="mascarille" xml:id="III10-3">
             <speaker>Mascarille</speaker>
-            <l n="1095">Et, nonobstant cela, qu’un diable en cet instant</l>
+            <l>Et, nonobstant cela, qu’un diable en cet instant</l>
             <l>M’emporte, si j’ai dit rien que de très constant.</l>
           </sp>
           <sp who="albert" xml:id="III10-4">
@@ -2751,7 +2751,7 @@
           </sp>
           <sp who="albert" xml:id="III10-6">
             <speaker>Albert</speaker>
-            <l n="1100">Veux-tu deux de mes gens qui te bâtonneront ?</l>
+            <l>Veux-tu deux de mes gens qui te bâtonneront ?</l>
           </sp>
           <sp who="mascarille" xml:id="III10-7">
             <speaker>Mascarille</speaker>
@@ -2771,7 +2771,7 @@
           </sp>
           <sp who="mascarille" xml:id="III10-11">
             <speaker>Mascarille</speaker>
-            <l n="1105">Connaissez-vous Ormin ce gros Notaire habile ?</l>
+            <l>Connaissez-vous Ormin ce gros Notaire habile ?</l>
           </sp>
           <sp who="albert" xml:id="III10-12">
             <speaker>Albert</speaker>
@@ -2791,7 +2791,7 @@
           </sp>
           <sp who="albert" xml:id="III10-16">
             <speaker>Albert</speaker>
-            <l n="1110">Tu verras achever par eux ta destinée.</l>
+            <l>Tu verras achever par eux ta destinée.</l>
           </sp>
           <sp who="mascarille" xml:id="III10-17">
             <speaker>Mascarille</speaker>
@@ -2811,7 +2811,7 @@
           </sp>
           <sp who="mascarille" xml:id="III10-21">
             <speaker>Mascarille</speaker>
-            <l n="1115">Et, pour signe, Lucile avait un voile noir.</l>
+            <l>Et, pour signe, Lucile avait un voile noir.</l>
           </sp>
           <sp who="albert" xml:id="III10-22">
             <speaker>Albert</speaker>
@@ -2826,7 +2826,7 @@
             <l>Ô ! le fourbe damnable !</l>
             <l>Va, rends grâce à mes ans qui me font incapables</l>
             <l>De punir sur-le-champ l’affront que tu me fais ;</l>
-            <l n="1120">Tu n’en perds que l’attente, et je te le promets.</l>
+            <l>Tu n’en perds que l’attente, et je te le promets.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="III11">
@@ -2841,7 +2841,7 @@
             <l>J’entends à demi-mot ce que vous voulez dire ;</l>
             <l>Tout s’arme contre moi ; pour moi de tous côtés</l>
             <l>Je vois coups de bâton, et gibets apprêtés :</l>
-            <l n="1125">Aussi, pour être en paix dans ce désordre extrême,</l>
+            <l>Aussi, pour être en paix dans ce désordre extrême,</l>
             <l>Je me vais d’un rocher précipiter moi-même,</l>
             <l>Si, dans le désespoir dont mon cœur est outré,</l>
             <l>Je puis en rencontrer d’assez haut à mon gré.</l>
@@ -2850,7 +2850,7 @@
           <sp who="valere" xml:id="III11-3">
             <speaker>Valère</speaker>
             <l>Non, non ; ta fuite est superflue :</l>
-            <l n="1130">Si tu meurs, je prétends que ce soit à ma vue.</l>
+            <l>Si tu meurs, je prétends que ce soit à ma vue.</l>
           </sp>
           <sp who="mascarille" xml:id="III11-4">
             <speaker>Mascarille</speaker>
@@ -2864,7 +2864,7 @@
           </sp>
           <sp who="mascarille" xml:id="III11-6">
             <speaker>Mascarille</speaker>
-            <l n="1135">Malheureux Mascarille ! à quels maux aujourd’hui</l>
+            <l>Malheureux Mascarille ! à quels maux aujourd’hui</l>
             <l>Te vois-tu condamné pour le péché d’autrui ?</l>
           </sp>
           <trailer>Fin du troisième Acte.</trailer>
@@ -2884,17 +2884,17 @@
             <l>Ah ! ma chère Frosine,</l>
             <l>Le sort absolument a conclu la ruine :</l>
             <l>Cette affaire, venue au point où la voilà</l>
-            <l n="1140">N’est pas assurément pour en demeurer là ;</l>
+            <l>N’est pas assurément pour en demeurer là ;</l>
             <l>Il faut qu’elle passe outre ; et Lucile, et Valère,</l>
             <l>Surpris des nouveautés d’un semblable mystère</l>
             <l>Voudront chercher un jour dans ces obscurités,</l>
             <l>Par qui tous mes projets se verront avortés.</l>
-            <l n="1145">Car, enfin, soit qu’Albert ait part au stratagème,</l>
+            <l>Car, enfin, soit qu’Albert ait part au stratagème,</l>
             <l>Ou qu’avec tout le monde on l’ait trompé lui-même ;</l>
             <l>S’il arrive une fois que mon sort éclairci</l>
             <l>Mette ailleurs tout le bien dont le sien a grossi,</l>
             <l>Jugez s’il aura lieu de souffrir ma présence :</l>
-            <l n="1150">Son intérêt détruit me laisse à ma naissance ; </l>
+            <l>Son intérêt détruit me laisse à ma naissance ; </l>
             <l>C’est fait de sa tendresse, et, quelque sentiment</l>
             <l>Où pour ma fourbe alors pût être mon amant,</l>
             <l>Voudra-t-il avouer pour épouse une fille</l>
@@ -2902,12 +2902,12 @@
           </sp>
           <sp who="frosine" xml:id="IV01-3">
             <speaker>Frosine</speaker>
-            <l n="1155">Je trouve que c’est là raisonné comme il faut :</l>
+            <l>Je trouve que c’est là raisonné comme il faut :</l>
             <l>Mais ces réflexions devaient venir plus tôt.</l>
             <l>Qui vous a jusqu’ici caché cette lumière ?</l>
             <l>Il ne fallait pas être une grande sorcière,</l>
             <l>Pour voir, dès le moment de vos desseins pour lui,</l>
-            <l n="1160">Tout ce que votre esprit ne voit que d’aujourd’hui :</l>
+            <l>Tout ce que votre esprit ne voit que d’aujourd’hui :</l>
             <l>L’action le disait ; et dès que je l’ai sue,</l>
             <l>Je n’en ai prévu guère une meilleure issue.</l>
           </sp>
@@ -2918,7 +2918,7 @@
           </sp>
           <sp who="frosine" xml:id="IV01-5">
             <speaker>Frosine</speaker>
-            <l n="1165">Ce doit être à vous-même, en prenant votre place,</l>
+            <l>Ce doit être à vous-même, en prenant votre place,</l>
             <l>À me donner conseil dessus cette disgrâce :</l>
             <l>Car je suis maintenant vous, et vous êtes moi ;</l>
             <l>Conseillez-moi, Frosine, au point où je me vois.</l>
@@ -2926,7 +2926,7 @@
           </sp>
           <sp who="ascagne" xml:id="IV01-6">
             <speaker>Ascagne</speaker>
-            <l n="1170">Hélas ! ne traitez point ceci de raillerie ;</l>
+            <l>Hélas ! ne traitez point ceci de raillerie ;</l>
             <l>C’est prendre peu de part à mes cuisants ennuis,</l>
             <l>Que de rire, et de voir les termes où j’en suis.</l>
           </sp>
@@ -2934,7 +2934,7 @@
             <speaker>Frosine</speaker>
             <l>Non vraiment, tout de bon ; votre ennui m’est sensible,</l>
             <l>Et pour vous en tirer je ferais mon possible.</l>
-            <l n="1175">Mais, que puis-je après tout ? je vois fort peu de jour</l>
+            <l>Mais, que puis-je après tout ? je vois fort peu de jour</l>
             <l>À tourner cette affaire au gré de votre amour.</l>
           </sp>
           <sp who="ascagne" xml:id="IV01-8">
@@ -2945,7 +2945,7 @@
             <speaker>Frosine</speaker>
             <l>Ha ! pour cela toujours il est assez bonne heure ;</l>
             <l>La mort est un remède à trouver quand on veut,</l>
-            <l n="1180">Et l’on s’en doit servir le plus tard que l’on peut.</l>
+            <l>Et l’on s’en doit servir le plus tard que l’on peut.</l>
           </sp>
           <sp who="ascagne" xml:id="IV01-10">
             <speaker>Ascagne</speaker>
@@ -2956,7 +2956,7 @@
           <sp who="frosine" xml:id="IV01-11">
             <speaker>Frosine</speaker>
             <l>Savez-vous ma pensée ? il faut que j’aille voir</l>
-            <l n="1185">La… mais Éraste vient qui pourrait nous distraire,</l>
+            <l>La… mais Éraste vient qui pourrait nous distraire,</l>
             <l>Nous pourrons en marchant parler de cette affaire ;</l>
             <l>Allons, retirons-nous.</l>
           </sp>
@@ -2972,12 +2972,12 @@
             <speaker>Gros-René</speaker>
             <l>Jamais Ambassadeur ne fut moins écouté :</l>
             <l>À peine ai-je voulu lui porter la nouvelle</l>
-            <l n="1190">Du moment d’entretien que vous souhaitiez d’elle,</l>
+            <l>Du moment d’entretien que vous souhaitiez d’elle,</l>
             <l>Qu’elle m’a répondu, tenant son quant-à-moi,</l>
             <l rend="i">Va, va ; je fais état de lui, comme de toi :</l>
             <l><hi rend="i">Dis-lui qu’il se promène</hi> ; et sur ce beau langage,</l>
             <l>Pour suivre son chemin m’a tourné le visage :</l>
-            <l n="1195">Et Marinette aussi, d’un dédaigneux museau,</l>
+            <l>Et Marinette aussi, d’un dédaigneux museau,</l>
             <l>Lâchant un <hi rend="i">Laisse-nous, beau valet de carreau</hi>,</l>
             <l>M’a planté là comme elle, et mon sort et le vôtre</l>
             <l>N’ont rien à se pouvoir reprocher 1’un à l’autre.</l>
@@ -2985,32 +2985,32 @@
           <sp who="eraste" xml:id="IV02-3">
             <speaker>Éraste</speaker>
             <l>L’ingrate ! recevoir avec tant de fierté</l>
-            <l n="1200">Le prompt retour d’un cœur justement emporté !</l>
+            <l>Le prompt retour d’un cœur justement emporté !</l>
             <l>Quoi ! le premier transport d’un amour qu’on abuse</l>
             <l>Sous tant de vraisemblance est indigne d’excuse ?</l>
             <l>Et ma plus vive ardeur en ce moment fatal</l>
             <l>Devait être insensible au bonheur d’un rival ?</l>
-            <l n="1205">Tout autre n’eût pas fait même chose en ma place ?</l>
+            <l>Tout autre n’eût pas fait même chose en ma place ?</l>
             <l>Et se fût moins laissé surprendre à tant d’audace ?</l>
             <l>De mes justes soupçons suis-je sorti trop tard ?</l>
             <l>Je n’ai point attendu de serments de sa part ;</l>
             <l>Et, lorsque tout le monde encor ne sait qu’en croire,</l>
-            <l n="1210">Ce cœur impatient lui rend toute sa gloire,</l>
+            <l>Ce cœur impatient lui rend toute sa gloire,</l>
             <l>Il cherche à s’excuser, et le sien voit si peu</l>
             <l>Dans ce profond respect la grandeur de mon feu ?</l>
             <l>Loin d’assurer une âme, et lui fournir des armes,</l>
             <l>Contre ce qu’un rival lui veut donner d’alarmes,</l>
-            <l n="1215">L’ingrate m’abandonne à mon jaloux transport,</l>
+            <l>L’ingrate m’abandonne à mon jaloux transport,</l>
             <l>Et rejette de moi, message, écrit, abord ?</l>
             <l>Ha ! sans doute, un amour a peu de violence,</l>
             <l>Qu’est capable d’éteindre une si faible offense,</l>
             <l>Et ce dépit si prompt à s’armer de rigueur</l>
-            <l n="1220">Découvre assez pour moi tout le fond de son cœur,</l>
+            <l>Découvre assez pour moi tout le fond de son cœur,</l>
             <l>Et de quel prix doit être à présent à mon âme</l>
             <l>Tout ce dont son caprice a pu flatter ma flamme.</l>
             <l>Non je ne prétends plus demeurer engagé</l>
             <l>Pour un cœur, où je vois le peu de part que j’ai ;</l>
-            <l n="1225">Et, puisque l’on témoigne une froideur extrême</l>
+            <l>Et, puisque l’on témoigne une froideur extrême</l>
             <l>À conserver les gens, je veux faire de même.</l>
           </sp>
           <sp who="gros-rene" xml:id="IV02-4">
@@ -3018,12 +3018,12 @@
             <l>Et moi de même aussi : soyons tous deux fâchés,</l>
             <l>Et mettons notre amour au rang des vieux péchés :</l>
             <l>Il faut apprendre à vivre à ce sexe volage,</l>
-            <l n="1230">Et lui faire sentir que l’on a du courage.</l>
+            <l>Et lui faire sentir que l’on a du courage.</l>
             <l>Qui souffre ses mépris les veut bien recevoir.</l>
             <l>Si nous avions l’esprit de nous faire valoir,</l>
             <l>Les femmes n’auraient pas la parole si haute.</l>
             <l>Ô ! qu’elles nous sont bien fières par notre faute !</l>
-            <l n="1235">Je veux être pendu, si nous ne les verrions</l>
+            <l>Je veux être pendu, si nous ne les verrions</l>
             <l>Sauter à notre cou plus que nous ne voudrions,</l>
             <l>Sans tous ces vils devoirs, dont la plupart des hommes</l>
             <l>Les gâtent tous les jours dans le siècle où nous sommes.</l>
@@ -3031,55 +3031,55 @@
           <sp who="eraste" xml:id="IV02-5">
             <speaker>Éraste</speaker>
             <l>Pour moi, sur toutes choses, un mépris me surprend ;</l>
-            <l n="1240">Et, pour punir le sien par un autre aussi grand,</l>
+            <l>Et, pour punir le sien par un autre aussi grand,</l>
             <l>Je veux mettre en mon cœur une nouvelle flamme.</l>
           </sp>
           <sp who="gros-rene" xml:id="IV02-6">
             <speaker>Gros-René</speaker>
             <l>Et moi, je ne veux plus m’embarrasser de femme ;</l>
             <l>À toutes je renonce, et crois, en bonne foi,</l>
-            <l n="1245">Que vous feriez fort bien de faire comme moi.</l>
+            <l>Que vous feriez fort bien de faire comme moi.</l>
             <l>Car, voyez-vous ? la femme est, comme on dit, mon maître,</l>
             <l>Un certain animal difficile à connaître,</l>
             <l>Et de qui la nature est fort encline au mal :</l>
             <l>Et comme un animal est toujours animal,</l>
             <l>Et ne sera jamais qu’animal, quand sa vie</l>
-            <l n="1250">Durerait cent mille ans ; aussi, sans repartie,</l>
+            <l>Durerait cent mille ans ; aussi, sans repartie,</l>
             <l>La femme est toujours femme, et jamais ne sera</l>
             <l>Que femme, tant qu’entier le monde durera.</l>
             <l>D’où vient qu’un certain Grec dit, que sa tête passe</l>
             <l>Pour un sable mouvant : car, goûtez bien, de grâce,</l>
-            <l n="1255">Ce raisonnement-ci, lequel est des plus forts :</l>
+            <l>Ce raisonnement-ci, lequel est des plus forts :</l>
             <l>Ainsi que la tête est comme le chef du corps,</l>
             <l>Et que le corps sans chef est pire qu’une bête ;</l>
             <l>Si le chef n’est pas bien d’accord avec la tête,</l>
             <l>Que tout ne soit pas bien réglé par le compas,</l>
-            <l n="1260">Nous voyons arriver de certains embarras ;</l>
+            <l>Nous voyons arriver de certains embarras ;</l>
             <l>La partie brutale alors veut prendre empire</l>
             <l>Dessus la sensitive, et l’on voit que 1’un tire</l>
             <l>À dia, l’autre à hurhaut ; 1’un demande du mou,</l>
             <l>L’autre du dur ; enfin tout va sans savoir où :</l>
-            <l n="1265">Pour montrer qu’ici-bas, ainsi qu’on l’interprète,</l>
+            <l>Pour montrer qu’ici-bas, ainsi qu’on l’interprète,</l>
             <l>La tête d’une femme est comme la girouette</l>
             <l>Au haut d’une maison, qui tourne au premier vent.</l>
             <l>C’est pourquoi le cousin Aristote souvent</l>
             <l>La compare à la mer ; d’où vient qu’on dit qu’au monde</l>
-            <l n="1270">On ne peut rien trouver de si stable que l’onde.</l>
+            <l>On ne peut rien trouver de si stable que l’onde.</l>
             <l>Or, par comparaison ; car la comparaison</l>
             <l>Nous fait distinctement comprendre une raison ;</l>
             <l>Et nous aimons bien mieux, nous autres gens d’étude,</l>
             <l>Une comparaison qu’une similitude.</l>
-            <l n="1275">Par comparaison donc, mon maître, s’il vous plaît,</l>
+            <l>Par comparaison donc, mon maître, s’il vous plaît,</l>
             <l>Comme on voit que la mer, quand l’orage s’accroît,</l>
             <l>Vient à se courroucer, le vent souffle, et ravage,</l>
             <l>Les flots contre les flots font un remue-ménage</l>
             <l>Horrible, et le vaisseau, malgré le Nautonier,</l>
-            <l n="1280">Va tantôt à la cave, et tantôt au grenier ;</l>
+            <l>Va tantôt à la cave, et tantôt au grenier ;</l>
             <l>Ainsi, quand une femme a sa tête fantasque,</l>
             <l>On voit une tempête en forme de bourrasque,</l>
             <l>Qui veut compétiter par de certains… propos ;</l>
             <l>Et lors un… certain vent, qui par… de certains flots,</l>
-            <l n="1285">De… certaine façon, ainsi qu’un banc de sable…</l>
+            <l>De… certaine façon, ainsi qu’un banc de sable…</l>
             <l>Quand… les femmes enfin ne valent pas le diable.</l>
           </sp>
           <sp who="eraste" xml:id="IV02-7">
@@ -3098,7 +3098,7 @@
           </sp>
           <sp who="gros-rene" xml:id="IV02-10">
             <speaker>Gros-René</speaker>
-            <l n="1290">J’ai bien peur que ses yeux resserrent votre chaîne.</l>
+            <l>J’ai bien peur que ses yeux resserrent votre chaîne.</l>
           </sp>
         </div2>
         <div2 type="scene" xml:id="IV03">
@@ -3120,27 +3120,27 @@
             <speaker>Éraste</speaker>
             <l>Non, non ; ne croyez pas, Madame,</l>
             <l>Que je revienne encor vous parler de ma flamme ;</l>
-            <l n="1295">C’en est fait ; je me veux guérir, et connais bien</l>
+            <l>C’en est fait ; je me veux guérir, et connais bien</l>
             <l>Ce que de votre cœur a possédé le mien.</l>
             <l>Un courroux si constant pour l’ombre d’une offense</l>
             <l>M’a trop bien éclairé de votre indifférence,</l>
             <l>Et je dois vous montrer que les traits du mépris</l>
-            <l n="1300">Sont sensibles surtout aux généreux esprits.</l>
+            <l>Sont sensibles surtout aux généreux esprits.</l>
             <l>Je l’avouerai, mes yeux observaient dans les vôtres</l>
             <l>Des charmes qu’ils n’ont point trouvés dans tous les autres,</l>
             <l>Et le ravissement où j’étais de mes fers</l>
             <l>Les aurait préférés à des sceptres offerts :</l>
-            <l n="1305">Oui, mon amour pour vous, sans doute, était extrême,</l>
+            <l>Oui, mon amour pour vous, sans doute, était extrême,</l>
             <l>Je vivais tout en vous ; et, je l’avouerai même,</l>
             <l>Peut-être qu’après tout j’aurai, quoiqu’outragé,</l>
             <l>Assez de peine encore à m’en voir dégagé :</l>
             <l>Possible que, malgré la cure qu’elle essaie,</l>
-            <l n="1310">Mon âme saignera longtemps de cette plaie,</l>
+            <l>Mon âme saignera longtemps de cette plaie,</l>
             <l>Et qu’affranchi d’un joug qui faisait tout mon bien,</l>
             <l>Il faudra se résoudre à n’aimer jamais rien.</l>
             <l>Mais, enfin, il n’importe ; et puisque votre haine</l>
             <l>Chasse un cœur tant de fois que l’amour vous ramène,</l>
-            <l n="1315">C’est la dernière ici des importunités,</l>
+            <l>C’est la dernière ici des importunités,</l>
             <l>Que vous aurez jamais de mes vœux rebutés.</l>
           </sp>
           <sp who="lucile" xml:id="IV03-5">
@@ -3151,7 +3151,7 @@
           <sp who="eraste" xml:id="IV03-6">
             <speaker>Éraste</speaker>
             <l>Hé bien, Madame, hé bien, ils seront satisfaits :</l>
-            <l n="1320">Je romps avecque vous, et j’y romps pour jamais,</l>
+            <l>Je romps avecque vous, et j’y romps pour jamais,</l>
             <l>Puisque vous le voulez ; que je perde la vie</l>
             <l>Lorsque de vous parler je reprendrai l’envie.</l>
           </sp>
@@ -3163,7 +3163,7 @@
             <speaker>Éraste</speaker>
             <l>Non, non, n’ayez pas peur</l>
             <l>Que je fausse parole ; eussé-je un faible cœur</l>
-            <l n="1325">Jusques à n’en pouvoir effacer votre image,</l>
+            <l>Jusques à n’en pouvoir effacer votre image,</l>
             <l>Croyez que vous n’aurez jamais cet avantage,</l>
             <l>De me voir revenir.</l>
           </sp>
@@ -3175,7 +3175,7 @@
             <speaker>Éraste</speaker>
             <l>Moi-même, de cent coups je percerais mon sein,</l>
             <l>Si j’avais jamais fait cette bassesse insigne,</l>
-            <l n="1330">De vous revoir, après ce traitement indigne.</l>
+            <l>De vous revoir, après ce traitement indigne.</l>
           </sp>
           <sp who="lucile" xml:id="IV03-11">
             <speaker>Lucile</speaker>
@@ -3187,12 +3187,12 @@
             <l>Et pour trancher ici tous propos superflus,</l>
             <l>Et vous donner, ingrate, une preuve certaine,</l>
             <l>Que je veux sans retour sortir de votre chaîne,</l>
-            <l n="1335">Je ne veux rien garder, qui puisse retracer</l>
+            <l>Je ne veux rien garder, qui puisse retracer</l>
             <l>Ce que de mon esprit il me faut effacer.</l>
             <l>Voici votre portrait, il présente à la vue</l>
             <l>Cent charmes merveilleux dont vous êtes pourvue,</l>
             <l>Mais il cache sous eux cent défauts aussi grands,</l>
-            <l n="1340">Et c’est un imposteur enfin que je vous rends.</l>
+            <l>Et c’est un imposteur enfin que je vous rends.</l>
           </sp>
           <sp who="gros-rene" xml:id="IV03-13">
             <speaker>Gros-René</speaker>
@@ -3218,7 +3218,7 @@
           <sp who="eraste" xml:id="IV03-18">
             <speaker>Éraste <hi rend="i">lit</hi></speaker>
             <lg rend="i">
-              <l n="1345">Vous m’aimez d’une amour extrême,</l>
+              <l>Vous m’aimez d’une amour extrême,</l>
               <l>Éraste ; et de mon cœur voulez être éclairci :</l>
               <l>Si je n’aime Éraste de même,</l>
               <l>Au moins, aimé-je fort qu’Éraste m’aime ainsi.</l>
@@ -3228,7 +3228,7 @@
             <speaker>Lucile</speaker>
             <stage>Éraste continue.</stage>
             <l>Vous m’assuriez par là d’agréer mon service ?</l>
-            <l n="1350">C’est une fausseté digne de ce supplice.</l>
+            <l>C’est une fausseté digne de ce supplice.</l>
           </sp>
           <sp who="lucile" xml:id="IV03-20">
             <speaker>Lucile <hi rend="i">lit</hi></speaker>
@@ -3241,8 +3241,8 @@
           </sp>
           <sp who="eraste" xml:id="IV03-21">
             <speaker>Éraste</speaker>
-            <stage>Elle  continue.</stage>
-            <l n="1355">Voilà qui m’assurait à jamais de vos feux ?</l>
+            <stage>Elle continue.</stage>
+            <l>Voilà qui m’assurait à jamais de vos feux ?</l>
             <l>Et la main, et la lettre, ont menti toutes deux.</l>
           </sp>
           <sp who="gros-rene" xml:id="IV03-22">
@@ -3275,7 +3275,7 @@
           </sp>
           <sp who="eraste" xml:id="IV03-29">
             <speaker>Éraste</speaker>
-            <l n="1360">Et, grâce au Ciel, c’est tout.</l>
+            <l>Et, grâce au Ciel, c’est tout.</l>
             <l>Que sois-je exterminé, si je ne tiens parole.</l>
           </sp>
           <sp who="lucile" xml:id="IV03-30">
@@ -3304,7 +3304,7 @@
           </sp>
           <sp who="gros-rene" xml:id="IV03-36">
             <speaker>Gros-René</speaker>
-            <l n="1365">Retirez-vous, après cet effort de courage.</l>
+            <l>Retirez-vous, après cet effort de courage.</l>
           </sp>
           <sp who="marinette" xml:id="IV03-37">
             <speaker>Marinette</speaker>
@@ -3322,7 +3322,7 @@
           <sp who="lucile" xml:id="IV03-40">
             <speaker>Lucile</speaker>
             <l>Éraste, Éraste, un cœur fait comme est fait le vôtre</l>
-            <l n="1370">Se peut facilement réparer par un autre.</l>
+            <l>Se peut facilement réparer par un autre.</l>
           </sp>
           <sp who="eraste" xml:id="IV03-41">
             <speaker>Éraste</speaker>
@@ -3330,7 +3330,7 @@
             <l>De si passionné pour vous, je vous promets.</l>
             <l>Je ne dis pas cela pour vous rendre attendrie ;</l>
             <l>J’aurais tort d’en former encore quelque envie,</l>
-            <l n="1375">Mes plus ardents respects n’ont pu vous obliger,</l>
+            <l>Mes plus ardents respects n’ont pu vous obliger,</l>
             <l>Vous avez voulu rompre ; il n’y faut plus songer :</l>
             <l>Mais personne après moi, quoi qu’on vous fasse entendre,</l>
             <l>N’aura jamais pour vous de passion si tendre.</l>
@@ -3338,7 +3338,7 @@
           <sp who="lucile" xml:id="IV03-42">
             <speaker>Lucile</speaker>
             <l>Quand on aime les gens, on les traite autrement ;</l>
-            <l n="1380">On fait de leur personne un meilleur jugement.</l>
+            <l>On fait de leur personne un meilleur jugement.</l>
           </sp>
           <sp who="eraste" xml:id="IV03-43">
             <speaker>Éraste</speaker>
@@ -3349,7 +3349,7 @@
           </sp>
           <sp who="lucile" xml:id="IV03-44">
             <speaker>Lucile</speaker>
-            <l n="1385">La plus pure jalousie est plus respectueuse.</l>
+            <l>La plus pure jalousie est plus respectueuse.</l>
           </sp>
           <sp who="eraste" xml:id="IV03-45">
             <speaker>Éraste</speaker>
@@ -3366,7 +3366,7 @@
           <sp who="lucile" xml:id="IV03-48">
             <speaker>Lucile</speaker>
             <l>Eh ! je crois que cela faiblement vous soucie :</l>
-            <l n="1390">Peut-être en serait-il beaucoup mieux pour ma vie,</l>
+            <l>Peut-être en serait-il beaucoup mieux pour ma vie,</l>
             <l>Si je… mais laissons là ces discours superflus :</l>
             <l>Je ne dis point quels sont mes pensers là-dessus.</l>
           </sp>
@@ -3385,7 +3385,7 @@
           </sp>
           <sp who="lucile" xml:id="IV03-52">
             <speaker>Lucile</speaker>
-            <l n="1395">Oui vraiment ? quoi ? n’en est-ce pas fait ?</l>
+            <l>Oui vraiment ? quoi ? n’en est-ce pas fait ?</l>
           </sp>
           <sp who="eraste" xml:id="IV03-53">
             <speaker>Éraste </speaker>
@@ -3410,7 +3410,7 @@
           </sp>
           <sp who="lucile" xml:id="IV03-58">
             <speaker>Lucile</speaker>
-            <l n="1400">Moi ! point du tout ; c’est vous qui l’avez résolu.</l>
+            <l>Moi ! point du tout ; c’est vous qui l’avez résolu.</l>
           </sp>
           <sp who="eraste" xml:id="IV03-59">
             <speaker>Éraste</speaker>
@@ -3427,7 +3427,7 @@
           </sp>
           <sp who="lucile" xml:id="IV03-62">
             <speaker>Lucile</speaker>
-            <l n="1405">Non, non, n’en faites rien, ma faiblesse est trop grande,</l>
+            <l>Non, non, n’en faites rien, ma faiblesse est trop grande,</l>
             <l>J’aurais peur d’accorder trop tôt votre demande.</l>
           </sp>
           <sp who="eraste" xml:id="IV03-63">
@@ -3435,7 +3435,7 @@
             <l>Ha ! vous ne pouvez pas trop tôt me l’accorder,</l>
             <l>Ni moi sur cette peur trop tôt le demander ;</l>
             <l>Consentez-y, Madame, une flamme si belle,</l>
-            <l n="1410">Doit pour votre intérêt demeurer immortelle.</l>
+            <l>Doit pour votre intérêt demeurer immortelle.</l>
             <l>Je le demande enfin : me l’accorderez-vous,</l>
             <l>Ce pardon obligeant ?</l>
           </sp>
@@ -3462,7 +3462,7 @@
           <sp who="gros-rene" xml:id="IV04-4">
             <speaker>Gros-René</speaker>
             <l>J’en suis gonflé de rage :</l>
-            <l n="1415">Ne t’imagine pas que je me rende ainsi.</l>
+            <l>Ne t’imagine pas que je me rende ainsi.</l>
           </sp>
           <sp who="marinette" xml:id="IV04-5">
             <speaker>Marinette</speaker>
@@ -3476,7 +3476,7 @@
             <speaker>Marinette</speaker>
             <l>Tu nous prends pour un autre ; et tu n’as pas affaire</l>
             <l>À ma sotte maîtresse. Ardez le beau museau !</l>
-            <l n="1420">Pour nous donner envie encore de sa peau :</l>
+            <l>Pour nous donner envie encore de sa peau :</l>
             <l>Moi, j’aurais de l’amour pour ta chienne de face !</l>
             <l>Moi, je te chercherais ! ma foi, l’on t’en fricasse</l>
             <l>Des filles comme nous.</l>
@@ -3485,7 +3485,7 @@
             <speaker>Gros-René</speaker>
             <l>Oui ? tu le prends par là ?</l>
             <l>Tiens, tiens, sans y chercher tant de façon, voilà</l>
-            <l n="1425">Ton beau galant de neige, avec ta nonpareille :</l>
+            <l>Ton beau galant de neige, avec ta nonpareille :</l>
             <l>Il n’aura plus l’honneur d’être sur mon oreille.</l>
           </sp>
           <sp who="marinette" xml:id="IV04-9">
@@ -3496,7 +3496,7 @@
           </sp>
           <sp who="gros-rene" xml:id="IV04-10">
             <speaker>Gros-René</speaker>
-            <l n="1430">Tiens encor ton couteau ; la pièce est riche et rare :</l>
+            <l>Tiens encor ton couteau ; la pièce est riche et rare :</l>
             <l>Il te coûta six blancs lorsque tu m’en fis don.</l>
           </sp>
           <sp who="marinette" xml:id="IV04-11">
@@ -3507,7 +3507,7 @@
             <speaker>Gros-René</speaker>
             <l>J’oubliais d’avant-hier ton morceau de fromage ;</l>
             <l>Tiens : Je voudrais pouvoir rejeter le potage</l>
-            <l n="1435">Que tu me fis manger, pour n’avoir rien à toi.</l>
+            <l>Que tu me fis manger, pour n’avoir rien à toi.</l>
           </sp>
           <sp who="marinette" xml:id="IV04-13">
             <speaker>Marinette</speaker>
@@ -3524,7 +3524,7 @@
           </sp>
           <sp who="gros-rene" xml:id="IV04-16">
             <speaker>Gros-René</speaker>
-            <l n="1440">Pour couper tout chemin à nous rapatrier,</l>
+            <l>Pour couper tout chemin à nous rapatrier,</l>
             <l>Il faut rompre la paille ; une paille rompue</l>
             <l>Rend, entre gens d’honneur, une affaire conclue,</l>
             <l>Ne fais point les doux yeux : je veux être fâché.</l>
@@ -3535,7 +3535,7 @@
           </sp>
           <sp who="gros-rene" xml:id="IV04-18">
             <speaker>Gros-René</speaker>
-            <l n="1445">Romps ; voilà le moyen de ne s’en plus dédire :</l>
+            <l>Romps ; voilà le moyen de ne s’en plus dédire :</l>
             <l>Romps ; tu ris, bonne bête !</l>
           </sp>
           <sp who="marinette" xml:id="IV04-19">
@@ -3562,7 +3562,7 @@
           </sp>
           <sp who="gros-rene" xml:id="IV04-24">
             <speaker>Gros-René</speaker>
-            <l n="1450">Est-ce que tu consens que jamais je ne t’aime ?</l>
+            <l>Est-ce que tu consens que jamais je ne t’aime ?</l>
           </sp>
           <sp who="marinette" xml:id="IV04-25">
             <speaker>Marinette</speaker>
@@ -3596,7 +3596,7 @@
           </sp>
           <sp who="gros-rene" xml:id="IV04-32">
             <speaker>Gros-René</speaker>
-            <l n="1455">Mon Dieu ! qu’à tes appas je suis acoquiné !</l>
+            <l>Mon Dieu ! qu’à tes appas je suis acoquiné !</l>
           </sp>
           <sp who="marinette" xml:id="IV04-33">
             <speaker>Marinette</speaker>
@@ -3614,47 +3614,47 @@
             <l rend="i">Dès que l’obscurité régnera dans la ville,</l>
             <l rend="i">Je me veux introduire au logis de Lucile :</l>
             <l rend="i">Va vite de ce pas préparer pour tantôt,</l>
-            <l n="1460" rend="i">Et la lanterne sourde, et les armes qu’il faut.</l>
+            <l rend="i">Et la lanterne sourde, et les armes qu’il faut.</l>
             <l>Quand il m’a dit ces mots, il m’a semblé d’entendre,</l>
             <l rend="i">Va vitement chercher un licou pour te pendre.</l>
             <l>Venez çà, mon patron, car, dans l’étonnement</l>
             <l>Où m’a jeté d’abord un tel commandement,</l>
-            <l n="1465">Je n’ai pas eu le temps de vous pouvoir répondre ;</l>
+            <l>Je n’ai pas eu le temps de vous pouvoir répondre ;</l>
             <l>Mais je vous veux ici parler, et vous confondre :</l>
             <l>Défendez-vous donc bien, et raisonnons sans bruit.</l>
             <l>Vous voulez, dites-vous, aller voir cette nuit</l>
             <l>Lucile ? <hi rend="i">Oui, Mascarille</hi>. Et que pensez-vous faire ?</l>
-            <l n="1470" rend="i">Une action d’amant qui se veut satisfaire,</l>
+            <l rend="i">Une action d’amant qui se veut satisfaire,</l>
             <l>Une action d’un homme à fort petit cerveau,</l>
             <l>Que d’aller sans besoin risquer ainsi sa peau ;</l>
             <l rend="i">Mais tu sais quel motif à ce dessein m’appelle :</l>
             <l><hi rend="i">Lucile est irritée</hi>. Eh bien, tant pis pour elle,</l>
-            <l n="1475" rend="i">Mais l’amour veut que j’aille apaiser son esprit.</l>
+            <l rend="i">Mais l’amour veut que j’aille apaiser son esprit.</l>
             <l>Mais l’amour est un sot qui ne sait ce qu’il dit :</l>
             <l>Nous garantira-t-il, cet amour, je vous prie,</l>
             <l>D’un rival, ou d’un père, ou d’un frère en furie ?</l>
             <l rend="i">Penses-tu qu’aucun d’eux songe à nous faire mal ?</l>
-            <l n="1480">Oui vraiment, je le pense, et surtout, ce rival.</l>
+            <l>Oui vraiment, je le pense, et surtout, ce rival.</l>
             <l rend="i">Mascarille, en tout cas, l’espoir où je me fonde,</l>
             <l rend="i">Nous irons bien armés, et si quelqu’un nous gronde,</l>
             <l><hi rend="i">Nous nous chamaillerons</hi>. Oui ; voilà justement</l>
-            <l n="1485">Ce que votre valet ne prétend nullement :</l>
+            <l>Ce que votre valet ne prétend nullement :</l>
             <l>Moi chamailler ! bon Dieu ! suis-je un Roland ? mon Maître,</l>
             <l>Ou quelque Ferragu ? c’est fort mal me connaître,</l>
             <l>Quand je viens à songer, moi qui me suis si cher,</l>
             <l>Qu’il ne faut que deux doigts d’un misérable fer</l>
             <l>Dans le corps, pour vous mettre un humain dans la bière,</l>
-            <l n="1490">Je suis scandalisé d’une étrange manière.</l>
+            <l>Je suis scandalisé d’une étrange manière.</l>
             <l><hi rend="i">Mais tu seras armé de pied en cap</hi>. Tant pis,</l>
             <l>J’en serai moins léger à gagner le taillis :</l>
             <l>Et de plus, il n’est point d’armure si bien jointe</l>
             <l>Où ne puisse glisser une vilaine pointe.</l>
-            <l n="1495" rend="i">Oh ! tu seras ainsi tenu pour un poltron.</l>
+            <l rend="i">Oh ! tu seras ainsi tenu pour un poltron.</l>
             <l>Soit : pourvu que toujours je branle le menton :</l>
             <l>À table comptez-moi, si vous voulez, pour quatre ;</l>
             <l>Mais comptez-moi pour rien, s’il s’agit de se battre :</l>
             <l>Enfin, si l’autre monde a des charmes poux vous,</l>
-            <l n="1500">Pour moi, je trouve l’air de celui-ci fort doux :</l>
+            <l>Pour moi, je trouve l’air de celui-ci fort doux :</l>
             <l>Je n’ai pas grande faim de mort ni de blessure,</l>
             <l>Et vous ferez le sot tout seul, je vous assure.</l>
           </sp>
@@ -3666,7 +3666,7 @@
             <speaker>Valère</speaker>
             <l>Je n’ai jamais trouvé de jour plus ennuyeux :</l>
             <l>Le soleil semble s’être oublié dans les Cieux ;</l>
-            <l n="1505">Et jusqu’au lit qui doit recevoir sa lumière,</l>
+            <l>Et jusqu’au lit qui doit recevoir sa lumière,</l>
             <l>Je vois rester encore une telle carrière,</l>
             <l>Que je crois que jamais il ne l’achèvera,</l>
             <l>Et que de sa lenteur mon âme enragera.</l>
@@ -3674,7 +3674,7 @@
           <sp who="mascarille" xml:id="V02-2">
             <speaker>Mascarille</speaker>
             <l>Et cet empressement pour s’en aller dans l’ombre,</l>
-            <l n="1510">Pêcher vite à tâtons quelque sinistre encombre…</l>
+            <l>Pêcher vite à tâtons quelque sinistre encombre…</l>
             <l>Vous voyez que Lucile entière en ses rebuts…</l>
           </sp>
           <sp who="valere" xml:id="V02-3">
@@ -3682,7 +3682,7 @@
             <l>Ne me fais point ici de contes superflus.</l>
             <l>Quand j’y devrais trouver cent embûches mortelles,</l>
             <l>Je sens de son courroux des gênes trop cruelles,</l>
-            <l n="1515">Et je veux l’adoucir, ou terminer mon sort.</l>
+            <l>Et je veux l’adoucir, ou terminer mon sort.</l>
             <l>C’est un point résolu.</l>
           </sp>
           <sp who="mascarille" xml:id="V02-4">
@@ -3706,7 +3706,7 @@
           <sp who="mascarille" xml:id="V02-8">
             <speaker>Mascarille</speaker>
             <l>Une toux me tourmente à mourir,</l>
-            <l n="1520">Dont le bruit importun vous fera découvrir :</l>
+            <l>Dont le bruit importun vous fera découvrir :</l>
             <l>De moment en moment… Vous voyez le supplice.</l>
           </sp>
           <sp who="valere" xml:id="V02-9">
@@ -3717,7 +3717,7 @@
             <speaker>Mascarille</speaker>
             <l>Je ne crois pas, Monsieur, qu’il se veuille passer.</l>
             <l>Je serais ravi moi de ne vous point laisser ;</l>
-            <l n="1525">Mais j’aurais un regret mortel, si j’étais cause</l>
+            <l>Mais j’aurais un regret mortel, si j’étais cause</l>
             <l>Qu’il fût à mon cher maître arrivé quelque chose.</l>
           </sp>
         </div2>
@@ -3729,7 +3729,7 @@
             <l>Monsieur, de bonne part je viens d’être informé,</l>
             <l>Qu’Éraste est contre vous fortement animé ;</l>
             <l>Et qu’Albert parle aussi de faire pour sa fille</l>
-            <l n="1530">Rouer jambes et bras à votre Mascarille.</l>
+            <l>Rouer jambes et bras à votre Mascarille.</l>
           </sp>
           <sp who="mascarille" xml:id="V03-2">
             <speaker>Mascarille</speaker>
@@ -3737,7 +3737,7 @@
             <l>Qu’ai-je fait ? pour me voir rouer jambes et bras ?</l>
             <l>Suis-je donc gardien, pour employer ce style,</l>
             <l>De la Virginité des filles de la ville ?</l>
-            <l n="1535">Sur la tentation ai-je quelque crédit ?</l>
+            <l>Sur la tentation ai-je quelque crédit ?</l>
             <l>Et puis-je mais, chétif, si le cœur leur en dit ?</l>
           </sp>
           <sp who="valere" xml:id="V03-3">
@@ -3748,7 +3748,7 @@
           </sp>
           <sp who="la-rapiere" xml:id="V03-4">
             <speaker>La Rapière</speaker>
-            <l n="1540">S’il vous faisait besoin, mon bras est tout à vous.</l>
+            <l>S’il vous faisait besoin, mon bras est tout à vous.</l>
             <l>Vous savez de tout temps que je suis un bon frère.</l>
           </sp>
           <sp who="valere" xml:id="V03-5">
@@ -3759,7 +3759,7 @@
             <speaker>La Rapière</speaker>
             <l>J’ai deux amis aussi que je vous puis donner,</l>
             <l>Qui contre tous venants sont gens à dégainer,</l>
-            <l n="1545">Et sur qui vous pourrez prendre toute assurance.</l>
+            <l>Et sur qui vous pourrez prendre toute assurance.</l>
           </sp>
           <sp who="mascarille" xml:id="V03-7">
             <speaker>Mascarille</speaker>
@@ -3774,7 +3774,7 @@
             <l>Le petit Gille encore eût pu nous assister,</l>
             <l>Sans le triste accident qui vient de nous l’ôter.</l>
             <l>Monsieur, le grand dommage ! et l’homme de service !</l>
-            <l n="1550">Vous avez su le tour que lui fit la Justice ?</l>
+            <l>Vous avez su le tour que lui fit la Justice ?</l>
             <l>Il mourut en César, et lui cassant les os</l>
             <l>Le bourreau ne lui put faire lâcher deux mots.</l>
           </sp>
@@ -3786,7 +3786,7 @@
           </sp>
           <sp who="la-rapiere" xml:id="V03-11">
             <speaker>La Rapière</speaker>
-            <l n="1555">Soit ; mais soyez averti</l>
+            <l>Soit ; mais soyez averti</l>
             <l>Qu’il vous cherche, et vous peut faire un mauvais parti.</l>
           </sp>
           <sp who="valere" xml:id="V03-12">
@@ -3794,7 +3794,7 @@
             <l>Et moi, pour vous montrer combien je l’appréhende :</l>
             <l>Je lui veux, s’il me cherche, offrir ce qu’il demande :</l>
             <l>Et par toute la ville aller présentement,</l>
-            <l n="1560">Sans être accompagné que de lui seulement.</l>
+            <l>Sans être accompagné que de lui seulement.</l>
           </sp>
           <sp who="mascarille" xml:id="V03-13">
             <speaker>Mascarille</speaker>
@@ -3809,7 +3809,7 @@
           <sp who="mascarille" xml:id="V03-15">
             <speaker>Mascarille</speaker>
             <l>C’est qu’il sent le bâton du côté que voilà.</l>
-            <l n="1565">Enfin, si maintenant ma prudence en est crue,</l>
+            <l>Enfin, si maintenant ma prudence en est crue,</l>
             <l>Ne nous obstinons point à rester dans la rue :</l>
             <l>Allons nous renfermer.</l>
           </sp>
@@ -3821,7 +3821,7 @@
           </sp>
           <sp who="mascarille" xml:id="V03-17">
             <speaker>Mascarille</speaker>
-            <l n="1570">Eh ! Monsieur, mon cher maître, il est si doux de vivre !</l>
+            <l>Eh ! Monsieur, mon cher maître, il est si doux de vivre !</l>
             <l>On ne meurt qu’une fois, et c’est pour si longtemps !</l>
           </sp>
           <sp who="valere" xml:id="V03-18">
@@ -3829,7 +3829,7 @@
             <l>Je m’en vais t’assommer de coups, si je t’entends.</l>
             <l>Ascagne vient ici ; laissons-le ; il faut attendre</l>
             <l>Quel parti de lui-même il résoudra de prendre.</l>
-            <l n="1575">Cependant avec moi viens prendre à la maison</l>
+            <l>Cependant avec moi viens prendre à la maison</l>
             <l>Pour nous frotter.</l>
           </sp>
           <sp who="mascarille" xml:id="V03-19">
@@ -3844,7 +3844,7 @@
           <stage>Ascagne, Frosine</stage>
           <sp who="ascagne" xml:id="V04-1">
             <speaker>Ascagne</speaker>
-            <l n="1580">Est-il bien vrai, Frosine ? et ne rêvé-je point ?</l>
+            <l>Est-il bien vrai, Frosine ? et ne rêvé-je point ?</l>
             <l>De grâce, contez-moi bien tout de point en point.</l>
           </sp>
           <sp who="frosine" xml:id="V04-2">
@@ -3853,37 +3853,37 @@
             <l>Ces sortes d’incidents ne sont pour l’ordinaire</l>
             <l>Que redits trop de fois de moment en moment.</l>
             <l>Suffit que vous sachiez, qu’après ce testament</l>
-            <l n="1585">Qui voulait un garçon pour tenir sa promesse,</l>
+            <l>Qui voulait un garçon pour tenir sa promesse,</l>
             <l>De la femme d’Albert la dernière grossesse</l>
             <l>N’accoucha que de vous, et que lui dessous main</l>
             <l>Ayant depuis longtemps concerté son dessein,</l>
             <l>Fit son fils de celui d’Ignès la bouquetière,</l>
-            <l n="1590">Qui vous donna pour sienne à nourrir à ma mère.</l>
+            <l>Qui vous donna pour sienne à nourrir à ma mère.</l>
             <l>La mort ayant ravi ce petit innocent</l>
             <l>Quelque dix mois après, Albert étant absent,</l>
             <l>La crainte d’un Époux, et l’amour maternelle,</l>
             <l>Firent l’événement d’une ruse nouvelle.</l>
-            <l n="1595">Sa femme en secret lors se rendit son vrai sang ;</l>
+            <l>Sa femme en secret lors se rendit son vrai sang ;</l>
             <l>Vous devîntes celui qui tenait votre rang,</l>
             <l>Et la mort de ce fils mis dans votre famille,</l>
             <l>Se couvrit pour Albert de celle de sa fille.</l>
             <l>Voilà de votre sort un mystère éclairci</l>
-            <l n="1600">Que votre feinte mère a caché jusqu’ici.</l>
+            <l>Que votre feinte mère a caché jusqu’ici.</l>
             <l>Elle en dit des raisons, et peut en avoir d’autres,</l>
             <l>Par qui ses intérêts n’étaient pas tous les vôtres.</l>
             <l>Enfin cette visite où j’espérais si peu,</l>
             <l>Plus qu’on ne pouvait croire, a servi votre feu.</l>
-            <l n="1605">Cette Ignès vous relâche ; et par votre autre affaire</l>
+            <l>Cette Ignès vous relâche ; et par votre autre affaire</l>
             <l>L’éclat de son secret devenu nécessaire,</l>
             <l>Nous en avons nous deux votre père informé :</l>
             <l>Un billet de sa femme a le tout confirmé,</l>
             <l>Et poussant plus avant encore notre pointe,</l>
-            <l n="1610">Quelque peu de fortune à notre adresse jointe,</l>
+            <l>Quelque peu de fortune à notre adresse jointe,</l>
             <l>Aux intérêts d’Albert, de Polydore après,</l>
             <l>Nous avons ajusté si bien les intérêts,</l>
             <l>Si doucement à lui déplié ces mystères,</l>
             <l>Pour n’effaroucher pas d’abord trop les affaires,</l>
-            <l n="1615">Enfin, pour dire tout, mené si prudemment</l>
+            <l>Enfin, pour dire tout, mené si prudemment</l>
             <l>Son esprit pas à pas à l’accommodement,</l>
             <l>Qu’autant que votre père il montre de tendresse</l>
             <l>À confirmer les nœuds qui font votre allégresse.</l>
@@ -3891,7 +3891,7 @@
           <sp who="ascagne" xml:id="V04-3">
             <speaker>Ascagne</speaker>
             <l>Ha ! Frosine, la joie où vous m’acheminez !…</l>
-            <l n="1620">Et que ne dois-je point à vos soins fortunés !</l>
+            <l>Et que ne dois-je point à vos soins fortunés !</l>
           </sp>
           <sp who="frosine" xml:id="V04-4">
             <speaker>Frosine</speaker>
@@ -3906,12 +3906,12 @@
             <speaker>Polydore</speaker>
             <l>Approchez-vous, ma fille, un tel nom m’est permis ;</l>
             <l>Et j’ai su le secret que cachaient ces habits.</l>
-            <l n="1625">Vous avez fait un trait qui, dans sa hardiesse</l>
+            <l>Vous avez fait un trait qui, dans sa hardiesse</l>
             <l>Fait briller tant d’esprit et tant de gentillesse,</l>
             <l>Que je vous en excuse, et tiens mon fils heureux,</l>
             <l>Quand il saura l’objet de ses soins amoureux.</l>
             <l>Vous valez tout un monde ; et c’est moi qui l’assure.</l>
-            <l n="1630">Mais le voici : prenons plaisir de l’aventure.</l>
+            <l>Mais le voici : prenons plaisir de l’aventure.</l>
             <l>Allez faire venir tous vos gens promptement.</l>
           </sp>
           <sp who="ascagne" xml:id="V05-2">
@@ -3926,7 +3926,7 @@
             <speaker>Mascarille</speaker>
             <l>Les disgrâces souvent sont du Ciel révélées :</l>
             <l>J’ai songé cette nuit de perles défilées,</l>
-            <l n="1635">Et d’œufs cassés, Monsieur, un tel songe m’abat.</l>
+            <l>Et d’œufs cassés, Monsieur, un tel songe m’abat.</l>
           </sp>
           <sp who="valere" xml:id="V06-2">
             <speaker>Valère </speaker>
@@ -3941,7 +3941,7 @@
           <sp who="mascarille" xml:id="V06-4">
             <speaker>Mascarille</speaker>
             <l>Et personne, Monsieur, qui se veuille bouger</l>
-            <l n="1640">Pour retenir des gens qui se vont égorger !</l>
+            <l>Pour retenir des gens qui se vont égorger !</l>
             <l>Pour moi je le veux bien ; mais, au moins, s’il arrive</l>
             <l>Qu’un funeste accident de votre fils vous prive,</l>
             <l>Ne m’en accusez point.</l>
@@ -3957,12 +3957,12 @@
           </sp>
           <sp who="valere" xml:id="V06-7">
             <speaker>Valère</speaker>
-            <l n="1645">Ce sentiment, mon père,</l>
+            <l>Ce sentiment, mon père,</l>
             <l>Est d’un homme de cœur ; et je vous en révère.</l>
             <l>J’ai dû vous offenser, et je suis criminel</l>
             <l>D’avoir fait tout ceci sans l’aveu paternel ;</l>
             <l>Mais, à quelque dépit que ma faute vous porte,</l>
-            <l n="1650">La nature toujours se montre la plus forte,</l>
+            <l>La nature toujours se montre la plus forte,</l>
             <l>Et votre honneur fait bien, quand il ne veut pas voir</l>
             <l>Que le transport d’Éraste ait de quoi m’émouvoir.</l>
           </sp>
@@ -3970,7 +3970,7 @@
             <speaker>Polydore</speaker>
             <l>On me faisait tantôt redouter sa menace ;</l>
             <l>Mais les choses depuis ont bien changé de face ;</l>
-            <l n="1655">Et, sans le pouvoir fuir, d’un ennemi plus fort</l>
+            <l>Et, sans le pouvoir fuir, d’un ennemi plus fort</l>
             <l>Tu vas être attaqué.</l>
           </sp>
           <sp who="mascarille" xml:id="V06-9">
@@ -3999,7 +3999,7 @@
           </sp>
           <sp who="polydore" xml:id="V06-15">
             <speaker>Polydore</speaker>
-            <l n="1660">Oui, c’est lui qui prétend avoir affaire à toi ;</l>
+            <l>Oui, c’est lui qui prétend avoir affaire à toi ;</l>
             <l>Et qui veut, dans le champ où l’honneur vous appelle,</l>
             <l>Qu’un combat seul à seul vide votre querelle.</l>
           </sp>
@@ -4010,12 +4010,12 @@
           </sp>
           <sp who="polydore" xml:id="V06-17">
             <speaker>Polydore</speaker>
-            <l n="1665">Enfin d’une imposture ils te rendent coupable,</l>
+            <l>Enfin d’une imposture ils te rendent coupable,</l>
             <l>Dont le ressentiment m’a paru raisonnable ;</l>
             <l>Si bien qu’Albert et moi sommes tombés d’accord,</l>
             <l>Que tu satisferais Ascagne sur ce tort.</l>
             <l>Mais aux yeux d’un chacun, et sans nulles remises,</l>
-            <l n="1670">Dans les formalités en pareil cas requises.</l>
+            <l>Dans les formalités en pareil cas requises.</l>
           </sp>
           <sp who="valere" xml:id="V06-18">
             <speaker>Valère</speaker>
@@ -4029,7 +4029,7 @@
           </sp>
           <sp who="valere" xml:id="V06-20">
             <speaker>Valère</speaker>
-            <l n="1675">Ha ! c’est une impudence à me mettre en fureur :</l>
+            <l>Ha ! c’est une impudence à me mettre en fureur :</l>
             <l>Elle a donc perdu sens, foi, conscience, honneur ?</l>
           </sp>
         </div2>
@@ -4044,17 +4044,17 @@
           <sp who="valere" xml:id="V07-2">
             <speaker>Valère</speaker>
             <l>Oui, oui, me voilà prêt, puisqu’on m’y veut forcer ;</l>
-            <l n="1680">Et, si j’ai pu trouver sujet de balancer,</l>
+            <l>Et, si j’ai pu trouver sujet de balancer,</l>
             <l>Un reste de respect en pouvait être cause,</l>
             <l>Et non pas la valeur du bras que l’on m’oppose.</l>
             <l>Mais c’est trop me pousser, ce respect est à bout ;</l>
             <l>À toute extrémité mon esprit se résout,</l>
-            <l n="1685">Et l’on fait voir un trait de perfidie étrange,</l>
+            <l>Et l’on fait voir un trait de perfidie étrange,</l>
             <l>Dont il faut hautement que mon amour se venge.</l>
             <l>Non pas que cet amour prétende encore à vous ;</l>
             <l>Tout son feu se résout en ardeur de courroux,</l>
             <l>Et quand j’aurai rendu votre honte publique,</l>
-            <l n="1690">Votre coupable hymen n’aura rien qui me pique.</l>
+            <l>Votre coupable hymen n’aura rien qui me pique.</l>
             <l>Allez, ce procédé, Lucile, est odieux :</l>
             <l>À peine en puis-je croire au rapport de mes yeux ;</l>
             <l>C’est de toute pudeur se montrer ennemie :</l>
@@ -4062,7 +4062,7 @@
           </sp>
           <sp who="lucile" xml:id="V07-3">
             <speaker>Lucile</speaker>
-            <l n="1695">Un semblable discours me pourrait affliger,</l>
+            <l>Un semblable discours me pourrait affliger,</l>
             <l>Si je n’avais en main qui m’en saura venger.</l>
             <l>Voici venir Ascagne, il aura l’avantage</l>
             <l>De vous faire changer bien vite de langage,</l>
@@ -4075,7 +4075,7 @@
           <sp who="valere" xml:id="V08-1">
             <speaker>Valère</speaker>
             <l>Il ne le fera pas,</l>
-            <l n="1700">Quand il joindrait au sien encor vingt autres bras.</l>
+            <l>Quand il joindrait au sien encor vingt autres bras.</l>
             <l>Je le plains de défendre une sœur criminelle :</l>
             <l>Mais, puisque son erreur me veut faire querelle,</l>
             <l>Nous le satisferons, et vous, mon brave, aussi.</l>
@@ -4083,7 +4083,7 @@
           <sp who="eraste" xml:id="V08-2">
             <speaker>Éraste</speaker>
             <l>Je prenais intérêt tantôt à tout ceci ;</l>
-            <l n="1705">Mais enfin, comme Ascagne a pris sur lui l’affaire,</l>
+            <l>Mais enfin, comme Ascagne a pris sur lui l’affaire,</l>
             <l>Je ne veux plus en prendre, et je le laisse faire.</l>
           </sp>
           <sp who="valere" xml:id="V08-3">
@@ -4106,7 +4106,7 @@
           </sp>
           <sp who="albert" xml:id="V08-7">
             <speaker>Albert</speaker>
-            <l n="1710">Il l’ignore :</l>
+            <l>Il l’ignore :</l>
             <l>Mais il pourra dans peu le lui faire savoir.</l>
           </sp>
           <sp who="valere" xml:id="V08-8">
@@ -4124,7 +4124,7 @@
           <sp who="valere" xml:id="V08-11">
             <speaker>Valère</speaker>
             <l>Se moque-t-on de moi ? je casserai la tête</l>
-            <l n="1715">À quelqu’un des rieurs. Enfin, voyons l’effet.</l>
+            <l>À quelqu’un des rieurs. Enfin, voyons l’effet.</l>
           </sp>
           <sp who="ascagne" xml:id="V08-12">
             <speaker>Ascagne</speaker>
@@ -4132,12 +4132,12 @@
             <l>Et, dans cette aventure où chacun m’intéresse,</l>
             <l>Vous allez voir plutôt éclater ma faiblesse,</l>
             <l>Connaître que le Ciel qui dispose de nous</l>
-            <l n="1720">Ne me fit pas un cœur pour tenir contre vous,</l>
+            <l>Ne me fit pas un cœur pour tenir contre vous,</l>
             <l>Et qu’il vous réservait, pour victoire facile,</l>
             <l>De finir le destin du frère de Lucile.</l>
             <l>Oui, bien loin de vanter le pouvoir de mon bras,</l>
             <l>Ascagne va par vous recevoir le trépas :</l>
-            <l n="1725">Mais il veut bien mourir, si sa mort nécessaire</l>
+            <l>Mais il veut bien mourir, si sa mort nécessaire</l>
             <l>Peut avoir maintenant de quoi vous satisfaire,</l>
             <l>En vous donnant pour femme en présence de tous</l>
             <l>Celle qui justement ne peut être qu’à vous.</l>
@@ -4149,7 +4149,7 @@
           </sp>
           <sp who="ascagne" xml:id="V08-14">
             <speaker>Ascagne</speaker>
-            <l n="1730">Ah ! souffrez que je die,</l>
+            <l>Ah ! souffrez que je die,</l>
             <l>Valère, que le cœur qui vous est engagé</l>
             <l>D’aucun crime envers vous ne peut être chargé :</l>
             <l>Sa flamme est toujours pure, et sa constance extrême ;</l>
@@ -4157,22 +4157,22 @@
           </sp>
           <sp who="polydore" xml:id="V08-15">
             <speaker>Polydore</speaker>
-            <l n="1735">Oui, mon fils, c’est assez rire de ta fureur,</l>
+            <l>Oui, mon fils, c’est assez rire de ta fureur,</l>
             <l>Et je vois qu’il est temps de te tirer d’erreur.</l>
             <l>Celle à qui par serment ton âme est attachée,</l>
             <l>Sous l’habit que tu vois à tes yeux est cachée ;</l>
             <l>Un intérêt de bien dès ses plus jeunes ans</l>
-            <l n="1740">Fit ce déguisement qui trompe tant de gens ;</l>
+            <l>Fit ce déguisement qui trompe tant de gens ;</l>
             <l>Et depuis peu l’amour en a su faire un autre,</l>
             <l>Qui t’abusa, joignant leur famille à la nôtre.</l>
             <l>Ne va point regarder à tout le monde aux yeux :</l>
             <l>Je te fais maintenant un discours sérieux :</l>
-            <l n="1745">Oui, c’est elle, en un mot, dont l’adresse subtile</l>
+            <l>Oui, c’est elle, en un mot, dont l’adresse subtile</l>
             <l>La nuit reçut ta foi sous le nom de Lucile,</l>
             <l>Et qui par ce ressort qu’on ne comprenait pas,</l>
             <l>A semé parmi vous un si grand embarras.</l>
             <l>Mais puisqu’Ascagne ici fait place à Dorothée,</l>
-            <l n="1750">Il faut voir de vos feux toute imposture ôtée,</l>
+            <l>Il faut voir de vos feux toute imposture ôtée,</l>
             <l>Et qu’un nœud plus sacré donne force au premier.</l>
           </sp>
           <sp who="albert" xml:id="V08-16">
@@ -4183,7 +4183,7 @@
           </sp>
           <sp who="polydore" xml:id="V08-17">
             <speaker>Polydore</speaker>
-            <l n="1755">Un tel événement rend tes esprits confus ;</l>
+            <l>Un tel événement rend tes esprits confus ;</l>
             <l>Mais en vain tu voudrais balancer là-dessus.</l>
           </sp>
           <sp who="valere" xml:id="V08-18">
@@ -4191,7 +4191,7 @@
             <l>Non, non ; je ne veux pas songer à m’en défendre ;</l>
             <l>Et, si cette aventure a lieu de me surprendre,</l>
             <l>La surprise me flatte, et je me sens saisir</l>
-            <l n="1760">De merveille à la fois, d’amour, et de plaisir,</l>
+            <l>De merveille à la fois, d’amour, et de plaisir,</l>
             <l>Se peut-il que ces yeux ?…</l>
           </sp>
           <sp who="albert" xml:id="V08-19">
@@ -4203,7 +4203,7 @@
           </sp>
           <sp who="valere" xml:id="V08-20">
             <speaker>Valère</speaker>
-            <l n="1765">Vous, Lucile, pardon, si mon âme abusée…</l>
+            <l>Vous, Lucile, pardon, si mon âme abusée…</l>
           </sp>
           <sp who="lucile" xml:id="V08-21">
             <speaker>Lucile</speaker>
@@ -4217,7 +4217,7 @@
           <sp who="eraste" xml:id="V08-23">
             <speaker>Éraste</speaker>
             <l>Mais, vous ne songez pas en tenant ce langage,</l>
-            <l n="1770">Qu’il reste encore ici des sujets de carnage :</l>
+            <l>Qu’il reste encore ici des sujets de carnage :</l>
             <l>Voilà bien à tous deux notre amour couronné,</l>
             <l>Mais de son Mascarille, et de mon Gros-René,</l>
             <l>Par qui doit Marinette être ici possédée ?</l>
@@ -4226,14 +4226,14 @@
           <sp who="mascarille" xml:id="V08-24">
             <speaker>Mascarille</speaker>
             <l>Nenni, nenni, mon sang dans mon corps sied trop bien :</l>
-            <l n="1775">Qu’il l’épouse en repos, cela ne me fait rien.</l>
+            <l>Qu’il l’épouse en repos, cela ne me fait rien.</l>
             <l>De l’humeur que je sais la chère Marinette,</l>
             <l>L’hymen ne ferme pas la porte à la fleurette.</l>
           </sp>
           <sp who="marinette" xml:id="V08-25">
             <speaker>Marinette</speaker>
             <l>Et tu crois que de toi je ferais mon galant ?</l>
-            <l n="1780">Un mari, passe encor ; tel qu’il est, on le prend ;</l>
+            <l>Un mari, passe encor ; tel qu’il est, on le prend ;</l>
             <l>On n’y va pas chercher tant de cérémonie :</l>
             <l>Mais il faut qu’un galant soit fait à faire envie.</l>
           </sp>
@@ -4244,7 +4244,7 @@
           </sp>
           <sp who="mascarille" xml:id="V08-27">
             <speaker>Mascarille</speaker>
-            <l n="1785">Tu crois te marier pour toi tout seul, compère ?</l>
+            <l>Tu crois te marier pour toi tout seul, compère ?</l>
           </sp>
           <sp who="gros-rene" xml:id="V08-28">
             <speaker>Gros-René</speaker>
@@ -4256,7 +4256,7 @@
             <l>Eh ! mon Dieu, tu feras</l>
             <l>Comme les autres font : et tu t’adouciras.</l>
             <l>Ces gens avant l’hymen si fâcheux et critiques</l>
-            <l n="1790">Dégénèrent souvent en maris pacifiques.</l>
+            <l>Dégénèrent souvent en maris pacifiques.</l>
           </sp>
           <sp who="marinette" xml:id="V08-30">
             <speaker>Marinette</speaker>
@@ -4275,8 +4275,8 @@
           </sp>
           <sp who="albert" xml:id="V08-33">
             <speaker>Albert</speaker>
-            <l n="1795">Pour la troisième fois, allons-nous-en chez nous</l>
-            <p>Poursuivre en liberté des entretiens si doux.</p>
+            <l>Pour la troisième fois, allons-nous-en chez nous</l>
+            <l>Poursuivre en liberté des entretiens si doux.</l>
           </sp>
           <trailer>FIN</trailer>
         </div2>

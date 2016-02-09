@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -152,7 +153,7 @@
           <castItem><role xml:id="epine"  rend="male inferior">L’épine</role>.</castItem>
           <castItem><role xml:id="riviere" rend="male inferior">La Rivière</role>, et deux Camarades.</castItem>
         </castList>
-        <stage location="Paris" country="France" periode="XVIIème" link="">La Scène est à Paris.</stage>
+        <stage>La Scène est à Paris.</stage>
       </div>
     </front>
     <body>

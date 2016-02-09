@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_amants-magnifiques" xml:lang="fr">
   <teiHeader>
     <fileDesc>
@@ -68,7 +69,7 @@
         </docTitle>
         <docAuthor>PAR J. B. P. DE MOLIÈRE</docAuthor>
         <argument>
-          <p date="1670-02-04" location="Château de Saint-Germain-en-Laye">Représentée pour le Roi à Saint-Germain-en-Laye, <lb/>au mois de Février 1670 <lb/>sous le titre du Divertissement Royal</p>
+          <p>Représentée pour le Roi à Saint-Germain-en-Laye, <lb/>au mois de Février 1670 <lb/>sous le titre du Divertissement Royal</p>
         </argument>
       </titlePage>
       <div>

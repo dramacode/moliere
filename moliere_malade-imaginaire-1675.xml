@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -1608,6 +1610,7 @@
             <stage>Violons</stage>
           </sp>
           <sp who="polichinelle" xml:id="Ib01-3">
+            <speaker>Polichinelle</speaker>
             <p>Quelle impertinente harmonie vient interrompre ici ma voix ?</p>
             <stage>Violons</stage>
             <p>Paix là, taisez-vous, Violons. Laissez-moi me plaindre à mon aise des cruautés de mon Inexorable.</p>
