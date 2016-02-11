@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Livret de « Psyché », tragicomédie-ballet</title>
+        <author key="Molière (1622-1673)">Molière</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>OBVIL</edition>
+        <respStmt>
+          <name>Amélie Canu</name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Oriane Morvan</name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale (conversions, validation)</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <date when="2016"/>
+        <publisher>LABEX OBVIL</publisher>
+        <availability status="restricted">
+          <licence target="projet-Molière"></licence>
+        </availability>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_psyche-livret/</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Molière</author>
+          <title>Livre de Psyché, tragicomédie-ballet</title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1671"/>
+      </creation>
+      <langUsage>
+        <language ident="FR"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">PSYCHÉ</titlePart>
+          <titlePart type="sub">TRAGICOMÉDIE, ET BALLET.</titlePart>
+        </docTitle>
+        <docImprint>Dansé devant sa Majesté au mois de Janvier 1671.</docImprint>
+        <docImprint>À PARIS,<lb/>Par ROBERT BALLARD, seul Imprimeur du Roi pour la Musique, rue S. Jean de Beauvais, au Montparnasse.<lb/>M. DC. LXXI.<lb/><hi rend="i">AVEC PRIVILÈGE DE SA MAJESTÉ.</hi></docImprint>
+      </titlePage>
+    </front>
+    <body>
+        <head>Livret de ballet de PSYCHÉ</head>
+        <div>
+          <head>DESCRIPTION DE LA SALLE.</head>
+          <stage rend="not-i">Le lieu destiné pour la représentation, et pour les spectateurs de cet assemblage de tant de magnifiques Divertissements, est une Salle faite exprès pour les plus grandes Fêtes, et qui seule peut passer pour un très superbe spectacle. Sa longueur est de quarante toises ; Elle est partagée en deux parties, l’un est pour le Théâtre, et l’autre pour l’Assemblée. Cette dernière partie est celle que l’on voit la première ; Elle a des beautés qui amusent agréablement les regards jusques au moment où la Scène doit s’ouvrir. La face du Théâtre ainsi que les deux retours est un grand ordre Corinthien, qui comprend toute la hauteur de l’Édifice. On entre dans le Parterre par deux Portes différentes, à droite et à gauche. Ces Entrées ont des deux côté des Colonnes sur des piédestaux, et des Pilastres carrés élevés à la hauteur du Théâtre : On monte ensuite sur un Haut d’aix réservé pour les places des Personnes Royales, et de ce qu’il y a de plus considérable à la Cour. Cet espace est bordé d’une Balustrade par devant, et de degrés en Amphithéâtre tout à l’entour : Des Colonnes posées sur le haut de ces degrés, soutiennent des Galeries, sous lesquelles, entre les Colonnes, on a placé des Balcons qui sont ornés, ainsi que le Plafond, et tout ce qui paraît dans la Salle, de ce que l’Architecture, la Sculpture, la Peinture, et la Dorure ont de plus beau, de plus riche, et de plus éclatant.</stage>
+        </div>
+        <div>
+          <head>PROLOGUE.</head>
+          <stage rend="not-i">TRENTE Lustres qui éclairent la Salle de l’Assemblée se haussent pour laisser la vue du spectacle libre dans le moment que la Toile qui ferme le Théâtre se lève. La Scène représente sur le devant des lieux Champêtres. Un peu plus loin paraît un Port de Mer fortifié [en marge : Le Théâtre est un Port de Mer.] de plusieurs Tours ; dans l’enfoncement on voit un grand nombre de Vaisseaux d’un côté, et de l’autre, une Ville d’une très vaste étendue.</stage>
+          <stage rend="not-i">Flore est au milieu du Théâtre, suivie de ses Nymphes, et accompagnée à droite et à gauche de Vertumne, Dieu des Arbres et des Fruits, et de Palæmon, Dieu des Eaux. Chacun de ces Dieux conduit une Troupe de Divinités ; l’Un mène à sa suite des Dryades et des Sylvains, et l’Autre des Dieux de Fleuves et des Naïades.</stage>
+          <stage rend="not-i">Une grande Machine descend du Ciel au milieu de deux autres plus petites. [en marge : Machines de Vénus, de l’Amour et des Grâces.] Elles sont toutes trois enveloppées d’abord dans des Nuages, qui en descendant, roulent, s’ouvrent, s’étendent, et occupent enfin toute la largeur du Théâtre. On découvre une des Grâces dans chacune des petites Machines, et la plus grande est occupée par Vénus et par son Fils, environnés de six Amours. Aussitôt que Flore aperçoit Vénus, elle la presse de venir achever par ses charmes les douceurs que la Paix a commencé de faire goûter sur la Terre, et par un Récit qu’elle chante, elle témoigne l’impatience qu’elle a de profiter du retour de la plus aimable des Déesses, et qui préside à la plus belle des Saisons.</stage>
+          <castList>
+          <castItem>
+            <role xml:id="flore">Flore.</role>
+            <actor>Mademoiselle Hylaire.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="nymphes-flore">Nymphes de Flore qui chantent.</role>
+            <actor>Mad<hi rend="sup">lle</hi> Des-Fronteaux,<lb/>Messieurs Gingan cadet, Langeais, Gillet, Oudot, et Jannot.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="vertumne">Vertumne.</role>
+            <actor>Monsieur de la Grille.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="palemon">Palæmon.</role>
+            <actor>Monsieur Gaye.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="suite-vertumne-palemon">Suite de Vertumne, et de Palæmon.</role>
+            <actor><hi rend="i">Sylvains.</hi> Messieurs le Gros, Hedoüin, Beaumont, Fernon l’aîné, Fernon le cadet, Rebel, Serignan, et le Maire.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="fleuves">Fleuves.</role>
+            <actor>Messieurs Bony, Estival, Dom, Gingan l’aîné, Morel, Deschamps, Bernard,<lb/>Rossignol, Bomaviel, et Miracle.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="naiades">Naïades.</role>
+            <actor>Les Sieurs Thierry, la Montagne, Mathieu, Perchot, Pierrot, et Renier.</actor>
+          </castItem>
+          </castList>
+          <castList>
+          <head>DANSEURS.</head>
+          <castItem>
+            <role xml:id="dryades">Quatre Dryades.</role>
+            <actor>Messieurs Chicanneau, la Pierre, Favier, et Magny.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="quatre-fleuves">Quatre Fleuves.</role>
+            <actor>Messieurs Beauchamp, Mayeu, Desbrosses, et S. André cadet.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="quatre-naiades">Quatre Naïades.</role>
+            <actor>Messieurs Lestang, Arnal, Favier cadet, et Foignard cadet.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="venus">Vénus.</role>
+            <actor>Mademoiselle de Brie.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="amour-prologue">L’Amour.</role>
+            <actor>La Thorillière le fils.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="six-amours">Six Amours.</role>
+            <actor>Thorillon, Baraillon, Pierre Lionnois, Maugé, Dauphin, et du Chesne.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="graces">Deux Grâces.</role>
+            <actor>Mesd<hi rend="sup">lle</hi> La Thorillière, et de Croisy.</actor>
+          </castItem>
+            <castItem>
+              <role xml:id="choeur-des-divinites"></role>
+            </castItem>
+          </castList>
+          <label>RÉCIT DE FLORE.<lb/>Chanté par Mademoiselle Hylaire.</label>
+          <sp who="flore">
+            <speaker></speaker>
+          <l n="1" xml:id="l1">Ce n’est plus le temps de la Guerre ;</l>
+          <l n="2" xml:id="l2">Le plus puissant des Rois</l>
+          <l n="3" xml:id="l3">Interrompt ses Exploits</l>
+          <l n="4" xml:id="l4">Pour donner la Paix à la Terre :</l>
+          <l n="5" xml:id="l5">Descendez, Mère des Amours,</l>
+          <l n="6" xml:id="l6">Venez nous donner de beaux jours.</l>
+          </sp>
+          <stage rend="not-i">Les Nymphes de Flore, Vertumne et Palæmon, avec les Divinités qui les accompagnent, joignent leurs voix à celle de Flore pour presser Vénus de descendre sur la Terre.</stage>
+          <sp who="choeur-des-divinites">
+            <speaker>CHŒUR Des Divinités, de la Terre et des Eaux.</speaker>
+            <l n="7" xml:id="l7">Nous goûtons une Paix profonde ;</l>
+            <l n="8" xml:id="l8">Les plus doux Jeux sont ici bas ;</l>
+            <l n="9" xml:id="l9">On doit ce repos plein d’appas</l>
+            <l n="10" xml:id="l10">Au plus grand ROI du Monde :</l>
+            <l n="11" xml:id="l11">Venez nous donner de beaux jours.</l>
+          </sp>
+            <stage rend="not-i">Vertumne et Palæmon font en chantant une manière de Dialogue pour exciter les plus insensibles à cesser de l’être à la vue de Vénus et de l’Amour. Les Dryades, les Sylvains, les Dieux des Fleuves, et les Naïades expriment en même temps par leurs danses la joie que leur inspire la présence de ces deux charmantes Divinités.</stage>
+          <label>DIALOGUE<lb/>De Vertumne et de Palæmon.<lb/>Chanté par Messieurs de la Grille et Gaye.</label>
+          <sp who="vertumne">
+            <speaker>VERTUMNE.</speaker>
+            <l n="12" xml:id="l12">Rendez-vous, Beautés cruelles,</l>
+            <l n="13" xml:id="l13">Soupirez à votre tour :</l>
+          </sp>
+          <sp who="palemon">
+            <speaker>PALÆMON.</speaker>
+            <l n="14" xml:id="l14">Voici la Reine des Belles</l>
+            <l n="15" xml:id="l15">Qui vient inspirer l’amour.</l>
+          </sp>
+          <sp who="vertumne">
+            <speaker>VERTUMNE.</speaker>
+            <l n="16" xml:id="l16">Un bel Objet toujours sévère</l>
+            <l n="17" xml:id="l17">Ne se fait jamais bien aimer.</l>
+          </sp>
+          <sp who="palemon">
+            <speaker>PALÆMON.</speaker>
+            <l n="18" xml:id="l18">C’est la beauté qui commence de plaire,</l>
+            <l n="19" xml:id="l19">Mais la douceur achève de charmer.</l>
+            <stage rend="not-i">Ils répètent ensemble ces derniers Vers.</stage>
+          </sp>
+          <sp who="palemon vertumne">
+            <speaker></speaker>
+            <l n="20" xml:id="l20">C’est la beauté qui commence de plaire,</l>
+            <l n="21" xml:id="l21">Mais la douceur achève de charmer.</l>
+          </sp>
+          <sp who="vertumne">
+            <speaker>VERTUMNE.</speaker>
+            <l n="22" xml:id="l22">Souffrons tous qu’Amour nous blesse ;</l>
+            <l n="23" xml:id="l23">Languissons, puisqu’il le faut ;</l>
+          </sp>
+          <sp who="palemon">
+            <speaker>PALÆMON.</speaker>
+            <l n="24" xml:id="l24">Que sert un cœur sans tendresse ;</l>
+            <l n="25" xml:id="l25">Est-il un plus grand défaut ?</l>
+          </sp>
+          <sp who="vertumne">
+            <speaker>VERTUMNE.</speaker>
+            <l n="26" xml:id="l26">Un bel Objet toujours sévère</l>
+            <l n="27" xml:id="l27">Ne se fait jamais bien aimer.</l>
+          </sp>
+          <sp who="palemon">
+            <speaker>PALÆMON.</speaker>
+            <l n="28" xml:id="l28">C’est la beauté qui commence de plaire,</l>
+            <l n="29" xml:id="l29">Mais la prudence achève de charmer.</l>
+          </sp>
+            <stage rend="not-i">Flore répond au Dialogue de Vertumne et de Palæmon, par un Menuet qu’elle chante : Elle fait entendre que l’on ne doit pas perdre le temps des Plaisirs ; et que c’est une folie à la Jeunesse d’être sans amour. Les Divinités qui suivent Vertumne et Palæmon, mêlent leurs danses au chant de Flore, et chacun fait connaître son empressement à contribuer à la réjouissance générale.</stage>
+          <label>MENUET DE FLORE.<lb/>Chanté par Mademoiselle Hylaire.</label>
+          <sp who="flore">
+            <speaker></speaker>
+            <l n="30" xml:id="l30">Est-on sage</l>
+            <l n="31" xml:id="l31">Dans le bel âge ?</l>
+            <l n="32" xml:id="l32">Est-on sage</l>
+            <l n="33" xml:id="l33">De n’aimer pas ?</l>
+            <l n="34" xml:id="l34">Que sans cesse</l>
+            <l n="35" xml:id="l35">L’on se presse</l>
+            <l n="36" xml:id="l36">De goûter les plaisirs ici bas ;</l>
+            <l n="37" xml:id="l37">La sagesse</l>
+            <l n="38" xml:id="l38">De la jeunesse</l>
+            <l n="39" xml:id="l39">C’est de savoir jouir de ses appas.</l>
+            <l n="40" xml:id="l40">L’Amour charme</l>
+            <l n="41" xml:id="l41">Ceux qu’il désarme,</l>
+            <l n="42" xml:id="l42">L’Amour charme,</l>
+            <l n="43" xml:id="l43">Cédons lui tous :</l>
+            <l n="44" xml:id="l44">Notre peine</l>
+            <l n="45" xml:id="l45">Serait vaine</l>
+            <l n="46" xml:id="l46">De vouloir résister à ses coups :</l>
+            <l n="47" xml:id="l47">Quelque chaîne</l>
+            <l n="48" xml:id="l48">Qu’un Amant prenne,</l>
+            <l n="49" xml:id="l49">La Liberté n’a rien qui soit si doux.</l>
+          </sp>
+            <stage rend="not-i">Les Divinités de la Terre et des Eaux, voyant approcher Vénus, recommencent de joindre toutes leurs voix, et continuent par leurs Danses de lui témoigner le plaisir qu’elles ressentent à son abord, et la douce espérance dont on retour les flatte.</stage>
+          <sp who="choeur-des-divinites">
+            <speaker>CHŒUR De toutes les Divinités de la Terre et des Eaux.</speaker>
+            <l n="50" xml:id="l50">Nous Goûtons une Paix profonde ;</l>
+            <l n="51" xml:id="l51">Les plus doux Jeux sont ici bas ;</l>
+            <l n="52" xml:id="l52">On doit ce repos plein d’appas</l>
+            <l n="53" xml:id="l53">Au plus grand ROI du Monde.</l>
+            <l n="54" xml:id="l54">Descendez Mère des Amours,</l>
+            <l n="55" xml:id="l55">Venez nous donner de beaux Jours.</l>
+            <stage rend="not-i">Vénus descend avec son fils et les Grâces, Elle ne peut dissimuler la confusion qu’elle a des honneurs que l’on rend à la beauté de Psyché, au mépris de la sienne : Elle oblige les Divinités qui se réjouissent de son retour sur la Terre, de la laisser seule avec l’Amour. Elle lui exagère son dépit, et l’ayant conjuré de la venger, elle se va cacher aux yeux de tout le Monde, en attendant le succès de sa vengeance. L’Amour part du bord du Théâtre, et après avoir fait un tour en l’air en volant, il se va perdre dans les Nues.</stage>
+          </sp>
+        </div>
+        <div>
+          <head>NOMS DES ACTEURS.</head>
+          <castList>
+          <castItem>
+            <role xml:id="amour">L’Amour.</role>
+            <actor>Baron.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="psyche">Psyché.</role>
+            <actor>Mademoiselle Molière.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="soeurs-psyche">Deux Sœurs de Psyché.</role>
+            <actor>Mesd<hi rend="sup">lles</hi> Marotte et Boval.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="pere-psyche">Le Père de Psyché.</role>
+            <actor>La Thorillière.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="capitaine">Son Capitaine des Gardes.</role>
+            <actor>Chasteau-neuf.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="amants-psyche">Les deux Amants de Psyché.</role>
+            <actor>Hubert et la Grange.</actor>
+          </castItem>
+          <castItem>
+            <role>Vénus.</role>
+            <actor>Mademoiselle de Brie.</actor>
+          </castItem>
+          <castItem>
+            <role>Deux Grâces.</role>
+            <actor>Les petites la Thorillière et du Croisy.</actor>
+          </castItem>
+          <castItem>
+            <role>Deux petits Amours.</role>
+            <actor>Thorillons et Barillonet.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="fleuve">Un Fleuve.</role>
+            <actor>De Brie.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="jupiter">Jupiter.</role>
+            <actor>Du Croisy.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="zephir">Zéphire.</role>
+            <actor>Molière.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="suivants-pages">Deux Suivants, et deux Pages.</role>
+          </castItem>
+          </castList>
+        </div>
+        <div>
+          <head>ARGUMENT DU PREMIER ACTE.</head>
+          <stage rend="not-i">La Scène est changée en une grande Allée de Cyprès, où l’on découvre des deux côtés des Tombeaux superbes des anciens Rois de la Famille de Psyché. Cette Décoration [en marge : le Théâtre est une Allée de Cyprès.] est coupée dans le fonds par un magnifique Arc de Triomphe, au travers duquel on voit un éloignement de la même Allée qui s’étend jusqu’à perte de vue.</stage>
+          <div>
+            <head>SCÈNE PREMIÈRE.</head>
+            <p>Les deux Sœurs de Psyché expriment la jalousie qu’elles ont contre leur Cadette.</p>
+          </div>
+          <div>
+            <head>SCÈNE SECONDE.</head>
+            <p>Elles veulent se rendre agréable à Cléomène, et à Agénor, deux jeunes Princes Amis ; mais elles les découvrent l’un et l’autre amoureux de Psyché.</p>
+          </div>
+          <div>
+            <head>SCÈNE TROISIÈME.</head>
+            <p>Les deux Princes déclarent leur amour à Psyché.</p>
+          </div>
+          <div>
+            <head>SCÈNE QUATRIÈME.</head>
+            <p>Lycas avec douleur vient chercher Psyché de la part du Roi son Père.</p>
+          </div>
+          <div>
+            <head>SCÈNE CINQUIÈME.</head>
+            <p>Les deux Sœurs apprennent de Lycas la réponse funeste que l’Oracle a rendue au Roi sur la destinée de Psyché.</p>
+          </div>
+        </div>
+        <div>
+          <head>PREMIER INTERMÈDE.</head>
+          <stage rend="not-i">La Scène change en des Rochers affreux, [en marge : Le Théâtre est un Désert.] et fait voir en éloignement une effroyable Solitude.</stage>
+          <stage rend="not-i">C’est dans ce Désert que Psyché doit être exposée pour obéir à l’Oracle. Une Troupe de Personnes affligées y viennent déplorer sa disgrâce. Une Partie de cette Troupe désolée témoigne sa pitié par des Plaintes touchantes, et par des Concerts lugubres, et l’Autre exprime sa désolation par toutes les marques du plus violent désespoir.</stage>
+          <castList>
+          <castItem>
+            <role xml:id="mademoiselle-hylaire">Femme désolée, qui plaint le malheur de Psyché.</role>
+            <actor>Mademoiselle Hylaire.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="m-langeais">Hommes affligés, qui plaignent sa disgrâce.</role>
+            <role xml:id="m-morel"></role>
+            <actor>Messieurs Morel, et Langeais.</actor>
+          </castItem>
+          <castItem>
+            <role>Dix Flûtes.</role>
+            <actor>Les Sieurs Philebert, Descouteaux, Piesche le fils, Nicolas, Louis, Martin, et Colin Hottère, Fossart, du Clos, et Boutet.</actor>
+          </castItem>
+          </castList>
+          <label>PLAINTES EN ITALIEN<lb/>Chantée par Mademoiselle Hylaire, Messieurs Morel, et Langeais.</label>
+          <sp who="mademoiselle-hylaire">
+            <speaker>Mademoiselle Hylaire.</speaker>
+            <l n="56" xml:id="l56">Deh piagete al pianto mio</l>
+            <l n="57" xml:id="l57">Sassi duri, antiche selve,</l>
+            <l n="58" xml:id="l58">Lagrimate fonti, e belve</l>
+            <l n="59" xml:id="l59">D’un bel volto il fato rio.</l>
+          </sp>
+          <sp who="m-langeais">
+            <speaker>M. Langeais.</speaker>
+            <l n="60" xml:id="l60">Ahi dolore !</l>
+          </sp>
+          <sp who="m-morel">
+            <speaker>M. Morel.</speaker>
+            <l n="61" xml:id="l61">Ahi martire !</l>
+          </sp>
+          <sp who="m-langeais">
+            <speaker>M. Langeais.</speaker>
+            <l n="62" xml:id="l62">Cruda morte !</l>
+          </sp>
+          <sp who="m-morel">
+            <speaker>M. Morel.</speaker>
+            <l n="63" xml:id="l63">Empia morte !</l>
+          </sp>
+          <sp who="mademoiselle-hylaire m-langeais m-morel">
+            <speaker>TOUS TROIS.</speaker>
+            <l n="64" xml:id="l64">Che condanni à morir tanto beltà.</l>
+            <l n="65" xml:id="l65">Cieli, stelle, ahi crudeltà.</l>
+          </sp>
+          <label>IMITATION EN VERS FRANÇAIS<lb/>DES PLAINTES EN ITALIEN,<lb/>Chantées par Mademoiselle Hylaire, Messieurs Morel, et Langeais.</label>
+          <sp who="mademoiselle-hylaire">
+            <speaker>Mademoiselle Hylaire.</speaker>
+            <l n="66" xml:id="l66">Mêlez vos pleurs avec mes larmes,</l>
+            <l n="67" xml:id="l67">Durs Rochers, froides Eaux, et vous Tigres affreux,</l>
+            <l n="68" xml:id="l68">Pleurez le destin rigoureux</l>
+            <l n="69" xml:id="l69">D’un Objet dont le crime est d’avoir trop de charmes.</l>
+          </sp>
+          <sp who="m-langeais">
+            <speaker>M. Langeais.</speaker>
+            <l n="70" xml:id="l70">Ô Dieux ! quelle douleur !</l>
+          </sp>
+          <sp who="m-morel">
+            <speaker>M. Morel.</speaker>
+            <l n="71" xml:id="l71">Ah ! quel malheur !</l>
+          </sp>
+          <sp who="m-langeais">
+            <speaker>M. Langeais.</speaker>
+            <l n="72" xml:id="l72">Rigueur mortelle !</l>
+          </sp>
+          <sp who="m-morel">
+            <speaker>M. Morel.</speaker>
+            <l n="73" xml:id="l73">Fatalité cruelle !</l>
+          </sp>
+          <sp who="mademoiselle-hylaire m-langeais m-morel">
+            <speaker>TOUS TROIS.</speaker>
+            <l n="74" xml:id="l74">Faut-il, hélas !</l>
+            <l n="75" xml:id="l75">Qu’un Sort barbare</l>
+            <l n="76" xml:id="l76">Puisse condamner au trépas</l>
+            <l n="77" xml:id="l77">Une Beauté si rare !</l>
+            <l n="78" xml:id="l78">Cieux ! Astres pleins de dureté !</l>
+            <l n="79" xml:id="l79">Ah ! quelle cruauté !</l>
+          </sp>
+          <sp who="mademoiselle-hylaire">
+            <speaker>Mademoiselle Hylaire.</speaker>
+            <l n="80" xml:id="l80">Rispondete à miei lamenti</l>
+            <l n="81" xml:id="l81">Antri cavi, ascose rupi,</l>
+            <l n="82" xml:id="l82">Deh ridite fondi cupi</l>
+            <l n="83" xml:id="l83">Del mio duolo i mesti accenti.</l>
+          </sp>
+          <sp who="m-langeais">
+            <speaker>M. Langeais.</speaker>
+            <l n="84" xml:id="l84">Ahi dolore, etc.</l>
+          </sp>
+          <sp who="m-morel">
+            <speaker>M. Morel.</speaker>
+            <l n="85" xml:id="l85">Com’esser può fra voi, ò Numi eterni,</l>
+            <l n="86" xml:id="l86">Chi volgia estinta una beltà innocente,</l>
+            <l n="87" xml:id="l87">Ahi che tanto rigor, Cielo inclemente,</l>
+            <l n="88" xml:id="l88">Vince di crudeltà gli stessi inferni.</l>
+          </sp>
+          <sp who="m-langeais">
+            <speaker>M. Langeais.</speaker>
+            <l n="89" xml:id="l89">Nume fiero.</l>
+          </sp>
+          <sp who="m-morel">
+            <speaker>M. Morel.</speaker>
+            <l n="90" xml:id="l90">Dio severo.</l>
+          </sp>
+          <sp who="m-langeais m-morel">
+            <speaker>Ensemble.</speaker>
+            <l n="91" xml:id="l91">Perche tanto rigor</l>
+            <l n="92" xml:id="l92">Contro innocente cor.</l>
+            <l n="93" xml:id="l93">Ahi sentenza inudita,</l>
+            <l n="94" xml:id="l94">Dar morte à la Beltà, ch’altrui da vita.</l>
+          </sp>
+          <sp who="mademoiselle-hylaire">
+            <speaker>Mademoiselle Hylaire.</speaker>
+            <l n="95" xml:id="l95">Répondez à ma plainte, Échos de ces Bocages,</l>
+            <l n="96" xml:id="l96">Qu’un bruit lugubre éclate au fond de ces Forêts :</l>
+            <l n="97" xml:id="l97">Que les Antres profonds, les Cavernes sauvages,</l>
+            <l n="98" xml:id="l98">Répètent les accents de mes tristes regrets.</l>
+          </sp>
+          <sp who="m-langeais">
+            <speaker>M. Langeais.</speaker>
+            <l n="99" xml:id="l99">Ô Dieux quelle douleur ! etc.</l>
+          </sp>
+          <sp who="m-morel">
+            <speaker>M. Morel.</speaker>
+            <l n="100" xml:id="l100">Que de Vous, ô grands Dieux ! avec tant de furie,</l>
+            <l n="101" xml:id="l101">Veut détruire tant de Beauté ?</l>
+            <l n="102" xml:id="l102">Impitoyable Ciel ! par cette barbarie</l>
+            <l n="103" xml:id="l103">Voulez-vous surmonter l’Enfer en cruauté ?</l>
+          </sp>
+          <sp who="m-langeais">
+            <speaker>M. Langeais.</speaker>
+            <l n="104" xml:id="l104">Dieu plein de haine !</l>
+          </sp>
+          <sp who="m-morel">
+            <speaker>M. Morel.</speaker>
+            <l n="105" xml:id="l105">Divinité trop inhumaine !</l>
+          </sp>
+          <sp who="mademoiselle-hylaire m-langeais m-morel">
+            <speaker>Ensemble.</speaker>
+            <l n="106" xml:id="l106">Pourquoi ce courroux si puissant</l>
+            <l n="107" xml:id="l107">Contre un Cœur innocent ?</l>
+            <l n="108" xml:id="l108">Ô rigueur inouïe !</l>
+            <l n="109" xml:id="l109">Trancher de si beaux Jours !</l>
+            <l n="110" xml:id="l110">Lorsqu’ils donnent la vie</l>
+            <l n="111" xml:id="l111">À tant d’Amours !</l>
+          </sp>
+          <stage rend="not-i">ENTRÉE D’HOMMES AFFLIGÉS, ET DE FEMMES DÉSOLÉES.</stage>
+            <castList>
+            <castItem>
+              <role>Hommes.</role>
+              <actor>Messieurs Dolivet, le Chantre, S. André l’aîné, et S. André le cadet, la Montagne, et Foignard l’aîné.</actor>
+            </castItem>
+            <castItem>
+              <role>Femmes.</role>
+              <actor>Messieurs Bonard, Joubert, Dolivet le fils, Isaac, Vaignard l’aîné, et Girard.</actor>
+            </castItem>
+            </castList>
+            <label>CONTINUATION DES PLAINTES.</label>
+          <sp who="mademoiselle-hylaire">
+            <speaker>Mademoiselle Hylaires.</speaker>
+            <l n="112" xml:id="l112">Ahi ch’indarno si tarda,</l>
+            <l n="113" xml:id="l113">Non resiste a li Dei, mortale affetto,</l>
+            <l n="114" xml:id="l114">Alto impero ne sforza,</l>
+            <l n="115" xml:id="l115">Ove commanda il Ciel, l’Uom cede à forza.</l>
+          </sp>
+          <sp who="mademoiselle-hylaire">
+            <speaker>Mademoiselle Hylaire.</speaker>
+            <l n="117" xml:id="l117">Que c’est un vain secours, contre un mal sans remède,</l>
+            <l n="118" xml:id="l118">Que d’inutiles pleurs, et des cris superflus !</l>
+            <l n="119" xml:id="l119">Quand le Ciel a donné des Ordres absolus,</l>
+            <l n="120" xml:id="l120">Il faut que l’effort humain cède.</l>
+          </sp>
+        </div>
+        <div>
+          <head>ARGUMENT DU II<hi rend="sup">e</hi> ACTE.</head>
+          <div>
+            <head>SCÈNE PREMIÈRE.</head>
+            <p>Le Père de Psyché fait éclater sa douleur, et lui dit le dernier adieu.</p>
+          </div>
+          <div>
+            <head>SCÈNE SECONDE.</head>
+            <p>Les deux Sœurs prennent aussi congé de Psyché.</p>
+          </div>
+          <div>
+            <head>SCÈNE TROISIÈME.</head>
+            <p>Les deux Princes viennent trouver Psyché pour s’opposer ou s’exposer à tous les périls qui la pourront menacer. [en marge : Enlèvement de Psyché.] Elle est enfin enlevée par le Zéphire, qui la fait emporter sur un amas de nuages par un Tourbillon de vent. Les deux Princes qui la perdent de vue s’abandonnent au désespoir.</p>
+          </div>
+        </div>
+        <div>
+          <head>SECOND INTERMÈDE.</head>
+          <stage rend="not-i">Le Théâtre [en mage : Le Théâtre est un Palais.] se change en une Cour magnifique coupée dans le fond par un grand Vestibule qui est soutenu par des Colonnes extrêmement enrichie. On voit au travers de ce Vestibules un Palais pompeux et brillant que l’Amour a destiné pour Psyché.</stage>
+          <stage rend="not-i">Des Cyclopes travaillent pour achever de grands Vases d’or, que des Fées leur apportent, et qui doivent être de nouveaux Ornements du Palais de l’Amour.</stage>
+          <stage rend="not-i">ENTRÉE</stage>
+          <stage rend="not-i">DES CYCLOPES ET DES FÉES.</stage>
+          <castList>
+          <castItem>
+            <role>Huit Cyclopes.</role>
+            <actor>Messieurs Beauchamp, Chicanneau, Mayeu, la Pierre, Favier, Desbrosses, Joubert, et S. André cadet.</actor>
+          </castItem>
+          <castItem>
+            <role>Huit Fées.</role>
+            <actor>Messieurs Noblet, Magny, de Lorge, Lestang, la Montagne, Foignard l’aîné, Foignard le cadet, et Vaignard l’aîné.</actor>
+          </castItem>
+            <castItem>
+              <role xml:id="vulcain"></role>
+            </castItem>
+          </castList>
+          <stage rend="not-i">Vulcain qui n’a pas sujet d’être content de Vénus, son Épouse, s’engage contre Elle dans les intérêts de son Fils. Il vient commander aux Cyclopes, dont il est le Maître, de répondre à l’impatience de l’Amour, et de travailler promptement pour achever les Ornements de son Palais.</stage>
+          <label>CHANSON DE VULCAIN.<lb/>Chantée par M. de la Forest.</label>
+          <sp who="vulcain">
+            <speaker></speaker>
+          <lg>
+          <l n="122" xml:id="l122">Dépêchez, préparez ces Lieux,</l>
+          <l n="123" xml:id="l123">Pour le plus aimable des Dieux :</l>
+          <l n="124" xml:id="l124">Que chacun pour lui s’intéresse,</l>
+          <l n="125" xml:id="l125">N’oubliez rien des soins qu’il faut ;</l>
+          <l n="126" xml:id="l126">Quand l’Amour presse</l>
+          <l n="127" xml:id="l127">On n’a jamais fait assez tôt.</l>
+          </lg>
+          <lg>
+          <l n="128" xml:id="l128">Servez bien un Dieu si charmant,</l>
+          <l n="129" xml:id="l129">Il se plaît dans l’empressement :</l>
+          <l n="130" xml:id="l130">Que chacun pour lui s’intéresse,</l>
+          <l n="131" xml:id="l131">N’oubliez rien des soins qu’il faut ;</l>
+          <l n="132" xml:id="l132">Quand l’Amour presse</l>
+          <l n="133" xml:id="l133">On n’a jamais fait assez tôt.</l>
+          </lg>
+          <stage rend="not-i">Vulcain fait travailler les Cyclopes avec Diligence.</stage>
+          <l n="134" xml:id="l134">L’Amour ne veut point qu’on diffère,</l>
+          <l n="135" xml:id="l135">Travaillez, hâtez-vous,</l>
+          <l n="136" xml:id="l136">Frappez, redoublez vos coups ;</l>
+          <l n="137" xml:id="l137">Que l’ardeur de lui plaire</l>
+          <l n="138" xml:id="l138">Fasse vos soins les plus doux.</l>
+          </sp>
+        </div>
+        <div>
+          <head>ARGUMENT DU III<hi rend="sup">e</hi> ACTE.</head>
+          <div>
+            <head>SCÈNE PREMIÈRE.</head>
+            <p>Le Zéphire, Confident de l’Amour, lui rend compte de la commission qu’il a eue d’enlever Psyché.</p>
+          </div>
+          <div>
+            <head>SCÈNE SECONDE.</head>
+            <p>Psyché témoigne son étonnement à la vue de ce superbe Palais, qui s’accorde si mal avec ce qu’elle attend.</p>
+          </div>
+          <div>
+            <head>SCÈNE TROISIÈME.</head>
+            <p>L’Amour, sans se faire connaître, lui découvre sa passion que Psyché reçoit favorablement. Elle lui demande à voir ses Sœurs, l’Amour lui promet de les faire venir, et en donne l’ordre au Zéphire, qui traverse en l’air tout le Théâtre, et s’envole dans les Nuages par un mouvement rapide.</p>
+          </div>
+        </div>
+        <div>
+          <head>TROISIÈME INTERMÈDE.</head>
+          <stage rend="not-i">De Petits Zéphirs sont invités à se mêler dans les doux Jeux des Amours par des Chansons qu’un Zéphire et deux petits Amours chantent, et tous ensemble s’efforcent par leurs Chants et par leurs Danses de contribuer aux Divertissements que l’Amour veut donner à Psyché.</stage>
+          <castList>
+          <castItem>
+            <role>Zéphire qui chante.</role>
+            <actor>Jannot.</actor>
+          </castItem>
+          <castItem>
+            <role xml:id="amour1">Deux Amours chantant.</role>
+            <role xml:id="amour2"></role>
+            <actor>Renier, et Pierrot.</actor>
+          </castItem>
+          <castItem>
+            <role>Huit Zéphirs dansant.</role>
+            <actor>Messieurs Bouteville, Des-Airs, Artus, Vaignard cadet, Germain, Pécourt, du Mirail, et Lestang le jeune.</actor>
+          </castItem>
+          <castItem>
+            <role>Huit Amours dansant.</role>
+            <actor>Le Chevalier Pol, Messieurs Boüillant, Thibaut, la Montagne, Dolivet fils, Daluseau, Vitrou, et la Thorillière.</actor>
+          </castItem>
+          </castList>
+          <label>CHANSON DU ZÉPHIR.</label>
+          <sp who="zephir">
+            <speaker></speaker>
+          <l n="139" xml:id="l139">Aimable Jeunesse,</l>
+          <l n="140" xml:id="l140">Suivez la Tendresse,</l>
+          <l n="141" xml:id="l141">Joignez aux beaux Jours</l>
+          <l n="142" xml:id="l142">La douceur des Amours :</l>
+          <l n="143" xml:id="l143">C’est pour Vous surprendre</l>
+          <l n="144" xml:id="l144">Qu’on Vous fait entendre</l>
+          <l n="145" xml:id="l145">Qu’il faut éviter leurs soupirs,</l>
+          <l n="146" xml:id="l146">Et craindre leurs désirs ;</l>
+          <l n="147" xml:id="l147">Laissez-Vous apprendre</l>
+          <l n="148" xml:id="l148">Quels sont leurs plaisirs.</l>
+          </sp>
+          <label>DIALOGUE DES DEUX AMOURS.</label>
+          <stage rend="not-i">ILS CHANTENT ENSEMBLE.</stage>
+          <sp who="amour1 amour2">
+            <speaker></speaker>
+          <l n="149" xml:id="l149">Chacun est obligé d’aimer</l>
+          <l n="150" xml:id="l150">À son tour,</l>
+          <l n="151" xml:id="l151">Et plus on a de quoi charmer,</l>
+          <l n="152" xml:id="l152">Plus on doit à l’Amour.</l>
+          </sp>
+          <sp who="amour1">
+            <speaker></speaker>
+            <l n="153" xml:id="l153">Un Amour chante seul.</l>
+          <l n="154" xml:id="l154">Un Cœur jeune et tendre</l>
+          <l n="155" xml:id="l155">Est fait pour se rendre,</l>
+          <l n="156" xml:id="l156">Il n’a point à prendre</l>
+          <l n="157" xml:id="l157">De fâcheux détour.</l>
+          </sp>
+          <stage rend="not-i">Les deux Amours chantent ensemble.</stage>
+          <sp who="amour1 amour2">
+            <speaker></speaker>
+          <l n="158" xml:id="l158">Chacun est obligé d’aimer</l>
+          <l n="159" xml:id="l159">À son tour,</l>
+          <l n="160" xml:id="l160">Et plus on a de quoi charmer,</l>
+          <l n="161" xml:id="l161">Plus on doit à l’Amour.</l>
+          </sp>
+          <sp who="amour2">
+            <speaker></speaker>
+          <stage rend="not-i">Le second Amour chante seul.</stage>
+          <l n="162" xml:id="l162">Pourquoi se défendre ?</l>
+          <l n="163" xml:id="l163">Que sert-il d’attendre ?</l>
+          <l n="164" xml:id="l164">Quand on perd un jour,</l>
+          <l n="165" xml:id="l165">On le perd sans retour.</l>
+          </sp>
+          <stage rend="not-i">Les deux Amours ensemble.</stage>
+          <sp who="amour2 amour1">
+            <speaker></speaker>
+          <l n="166" xml:id="l166">Chacun est obligé d’aimer</l>
+          <l n="167" xml:id="l167">À son tour,</l>
+          <l n="168" xml:id="l168">Et plus on a de quoi charmer,</l>
+          <l n="169" xml:id="l169">Plus on doit à l’Amour.</l>
+          </sp>
+          <label>SECOND COUPLET DE LA CHANSON<lb/>du Zéphir.</label>
+          <sp who="zephir">
+            <speaker></speaker>
+          <l n="170" xml:id="l170">L’Amour a des charmes,</l>
+          <l n="171" xml:id="l171">Rendons lui les armes :</l>
+          <l n="172" xml:id="l172">Ses soins et ses pleurs</l>
+          <l n="173" xml:id="l173">Ne sont pas sans douceurs :</l>
+          <l n="174" xml:id="l174">Un Cœur pour le suivre</l>
+          <l n="175" xml:id="l175">À cent maux se livre,</l>
+          <l n="176" xml:id="l176">Il faut pour goûter ses appas</l>
+          <l n="177" xml:id="l177">Languir jusqu’au trépas,</l>
+          <l n="178" xml:id="l178">Mais c’est ne pas vivre</l>
+          <l n="179" xml:id="l179">Que de n’aimer pas.</l>
+          </sp>
+          <label>Second couplet du Dialogue des deux Amours.</label>
+          <sp who="amour1 amour2">
+            <speaker></speaker>
+          <l n="180" xml:id="l180">S’il faut des soins, et des travaux,</l>
+          <l n="181" xml:id="l181">En aimant,</l>
+          <l n="182" xml:id="l182">On est payé de mille maux</l>
+          <l n="183" xml:id="l183">Par un heureux moment.</l>
+          </sp>
+          <stage rend="not-i">Un Amour seul.</stage>
+          <sp who="amour1">
+            <speaker></speaker>
+          <l n="184" xml:id="l184">On craint, on espère,</l>
+          <l n="185" xml:id="l185">Il faut du mystère ;</l>
+          <l n="186" xml:id="l186">Mais on n’obtient guère</l>
+          <l n="187" xml:id="l187">De bien sans tourment.</l>
+          </sp>
+          <stage rend="not-i">Les deux Amours ensemble.</stage>
+          <sp who="amour1 amour2">
+            <speaker></speaker>
+          <l n="188" xml:id="l188">S’il faut des soins, et des travaux,</l>
+          <l n="189" xml:id="l189">En aimant,</l>
+          <l n="190" xml:id="l190">On est payé de milleux maux</l>
+          <l n="191" xml:id="l191">Par un heureux moment.</l>
+          </sp>
+          <stage rend="not-i">Le second Amour seul.</stage>
+          <sp who="amour2">
+            <speaker></speaker>
+          <l n="192" xml:id="l192">Que peut-on mieux faire</l>
+          <l n="193" xml:id="l193">Qu’aimer et que plaire ?</l>
+          <l n="194" xml:id="l194">C’est un soin charmant</l>
+          <l n="195" xml:id="l195">Que l’emploi d’un Amant.</l>
+          </sp>
+          <stage rend="not-i">Les deux Amours ensemble.</stage>
+          <sp who="amour1 amour2">
+            <speaker></speaker>
+          <l n="196" xml:id="l196">S’il faut des soins, et des travaux,</l>
+          <l n="197" xml:id="l197">En aimant,</l>
+          <l n="198" xml:id="l198">On est payé de mille maux</l>
+          <l n="199" xml:id="l199">Par un heureux moment.</l>
+          </sp>
+        </div>
+        <div>
+          <head>ARGUMENT DU IV<hi rend="sup">e</hi> ACTE.</head>
+          <stage rend="not-i">Le Théâtre devient un Jardin superbe et charmant. On y voit des Berceaux de verdure soutenus par des Thermes d’or, et décorés de Vases d’Orangers, et d’Arbres de toutes sortes de Fruits. [en marge : Le Théâtre est un jardin.] Le milieu du Théâtre est rempli des Fleurs les plus belles, et les rares, environnées de Haies de Buis. On découvre dans l’enfoncement plusieurs Dômes de Rocailles ornés de Coquillages, de Fontaines, et de Statues, et toute cette agréable vue se termine par un magnifique Palais.</stage>
+          <div>
+            <head>SCÈNE PREMIÈRE.</head>
+            <p>Les deux Sœurs de Psyché s’étonnent à la vue de toutes les Merveilles qu’elles rencontrent, et la félicité de Psyché redouble leur jalousie contre Elle.</p>
+          </div>
+          <div>
+            <head>SCÈNE SECONDE.</head>
+            <p>Elles profitent de la bonne foi de Psyché, et lorsqu’elles s’en doivent séparer, le Zéphire les enlève par un Nuage en globe qui descend du Ciel, et qui s’allonge jusqu’à Terre : [en marge : Enlèvement des deux sœurs.] Ce Nuage enveloppe les deux Sœurs, et s’étant étendu sur toute la largeur du Théâtre, il les emporte avec rapidité.</p>
+          </div>
+          <div>
+            <head>SCÈNE TROISIÈME.</head>
+            <p>Psyché malgré la résistance de l’Amour veut savoir ce qu’il en est ; l’Amour lié par un serment est contraint de se découvrir, et part en colère pour retourner au Ciel. Dans l’instant qu’il s’envole, le superbe Jardin s’évanouit, et Psyché se trouve [en marge : Le Théâtre est une Campagne.] seule au milieu d’une vaste Campagne, et sur le bord sauvage d’une grande Rivière.</p>
+          </div>
+          <div>
+            <head>SCÈNE QUATRIÈME.</head>
+            <p>Psyché au désespoir du départ de son Amant accuse sa curiosité, et se veut précipiter dans le Fleuve.</p>
+          </div>
+          <div>
+            <head>SCÈNE CINQUIÈME.</head>
+            <p>Le Dieu du Fleuve paraît assis sur un amas de Joncs et de Roseaux, et appuyé sur une grande Urne d’où sort une grosse source d’eau. Il retient Psyché, et l’avertit que Vénus la cherche.</p>
+          </div>
+          <div>
+            <head>SCÈNE SIXIÈME.</head>
+            <p>Vénus fait des reproches à Psyché qui essaie de s’excuser. La Déesse irritée lui ordonne de la suivre pour éprouver sa constance.</p>
+          </div>
+        </div>
+        <div>
+          <head>IV<hi rend="sup">E</hi> INTERMÈDE.</head>
+          <stage rend="not-i">La Scène représente les Enfers. On y voit une Mer toute de feu dont les flots sont dans une perpétuelle agitation. [en marge : Le Théâtre est un Enfer.] Cette Mer effroyable est bornée par des Ruines enflammées, et au milieu de ses Flots agités, au travers d’une Gueule affreuse, paraît le Palais Infernal de Pluton.</stage>
+          <stage rend="not-i">Des Furies se réjouissent de la rage qu’elles ont allumées dans l’âme de la plus douce des Divinités. Des Lutins se mêlent avec les Furies ; ils essaient par des Figures étonnantes d’épouvanter Psyché qui est descendue aux Enfers, mais les charmes de sa Beauté obligent les Furies et les Lutins de se retirer.</stage>
+          <stage rend="not-i">ENTRÉE DES FURIES,</stage>
+          <stage rend="not-i">ET DE LUTINS.</stage>
+          <castList>
+          <castItem>
+            <role>Douze Furies.</role>
+            <actor>Messieurs Eydieu, Beauchamp, Les Sieurs Chicanneau, Mayeu, Desbrosses, Magny, Foignard l’aîné, et Foignard le cadet, Joubert, Lestang, Favier l’aîné, et S. André le cadet.</actor>
+          </castItem>
+          <castItem>
+            <role>Quatre Lutins faisant des sauts périlleux.</role>
+            <actor>Cobus, Maurice, Poulet, et Petit Jean.</actor>
+          </castItem>
+          </castList>
+          <label>[FRISE.]</label>
+        </div>
+        <div>
+          <head>ARGUMENT DU V<hi rend="sup">e</hi> ACTE.</head>
+          <div>
+            <head>SCÈNE PREMIÈRE.</head>
+            <p>Psyché dans une Barque, et après plusieurs travaux, paraît avec la Boite qu’elle a été prendre dans les Enfers par l’ordre de Vénus.</p>
+          </div>
+          <div>
+            <head>SCÈNE SECONDE.</head>
+            <p>Elle trouve les Ombres des deux Princes ses Amants, que le désespoir avait fait mourir.</p>
+          </div>
+          <div>
+            <head>SCÈNE TROISIÈME.</head>
+            <p>Psyché sans songer au malheur que lui avait produit sa première curiosité, veut essayer sur elle la vertu de ce qu’elle porte dans la Boite, et en l’ouvrant, elle tombe évanouie.</p>
+          </div>
+          <div>
+            <head>SCÈNE QUATRIÈME.</head>
+            <p>[en marge : Descente de l’Amour.] L’Amour descend en volant, et vient promptement au secours de Psyché, il la croit morte, et s’abandonne au désespoir.</p>
+          </div>
+          <div>
+            <head>SCÈNE CINQUIÈME.</head>
+            <p>[Chœur de Vénus.] Vénus paraît en l’Air sur son Char, et la Mère et le Fils s’emportent l’un contre l’autre.</p>
+          </div>
+          <div>
+            <head>SCÈNE SIXIÈME.</head>
+            <p>Jupiter s’avance pour arrêter leurs emportements, [en marge : Machine de Jupiter.] lorsque Vénus l’aperçoit, elle se retire vers l’un des côtés du Théâtre, Jupiter met enfin d’accord Vénus et son Fils, et commande à l’Amour d’enlever Psyché au Ciel, pour y célébrer leurs Noces.</p>
+          </div>
+        </div>
+        <div>
+          <head>DERNIER INTERMÈDE.</head>
+          <stage rend="not-i">Le Théâtre se change et représente le Ciel. Le grand Palais de Jupiter descend, [en marge : Le Théâtre est tout Ciel.] et laisse voir dans l’éloignement, par trois suites de Perspective les autres Palais des Dieux du Ciel les plus puissants ; un Nuage sort du Théâtre, sur lequel l’Amour et Psyché se placent, et sont enlevés par un second Nuage, qui vient en descendant se joindre au premier. Une Troupe de petits Amours vient dans cinq Machines, dont les mouvements sont tous différents, pour témoigner leur joie au Dieu des Amours : Et dans le même temps Jupiter et Vénus se croisent en l’Air, et se rangent près de l’Amour, et de Psyché.</stage>
+          <stage rend="not-i">Les Divinités des Cieux, qui avaient été partagées entre Vénus et son Fils se réunissent en les voyant d’accord ; Elle paraissent au nombre de trois cents sur des Nuages, dont tout le Théâtre est rempli, et Toutes ensemble par des Concerts, des Chants, et des Danses célèbrent la Fêtes des Noces de l’Amour.</stage>
+          <stage rend="not-i">Apollon conduit les Muses, et les Arts ; Bacchius est accompagné de Silène, des Ægipans, et des Ménades : Mome, Dieu de la Raillerie, mène après lui une troupe enjouée de Polichinelles, et de Matassins ; et Mars paraît à la tête d’une Troupe de Guerriers suivis de Timbales, de Tambours, et de Trompettes.</stage>
+          <stage rend="not-i">Apollon Dieu de l’Harmonie commence le premier à chanter, pour inviter les Dieux à se réjouir.</stage>
+          <label>RÉCIT D’APOLLON.<lb/>Chanté par Monsieur Langeais.</label>
+          <sp who="apollon">
+            <speaker></speaker>
+          <l n="200" xml:id="l200">Unissons-Nous, Troupe immortelle ;</l>
+          <l n="201" xml:id="l201">Le Dieu d’Amour devient heureux Amant,</l>
+          <l n="202" xml:id="l202">Et Vénus a repris sa douceur naturelle</l>
+          <l n="203" xml:id="l203">En faveur d’un Fils si charmant :</l>
+          <l n="204" xml:id="l204">Il va goûter en paix après un long tourment,</l>
+          <l n="205" xml:id="l205">Une félicité qui doit être éternelle.</l>
+          </sp>
+          <stage rend="not-i">Toutes les Divinités célestes chantent ensemble</stage>
+          <sp who="choeur-des-divinites">
+            <speaker>CHŒUR DES DIVINITÉS CÉLESTES.</speaker>
+            <l n="206" xml:id="l206">Célébrons ce grand Jour ;</l>
+            <l n="207" xml:id="l207">Célébrons tous une Fête si belle :</l>
+            <l n="208" xml:id="l208">Que nos Chants en tous lieux en portent la nouvelle ;</l>
+            <l n="209" xml:id="l209">Qu’ils fassent retentir le céleste séjour :</l>
+            <l n="210" xml:id="l210">Chantons, répétons, tour à tour,</l>
+            <l n="211" xml:id="l211">Qu’il n’est point d’Âme si cruelle</l>
+            <l n="212" xml:id="l212">Qui tôt ou tard ne se rende à l’Amour.</l>
+          </sp>
+            <stage rend="not-i">Bacchus fait entendre qu’il n’est pas si dangereux que l’Amour.</stage>
+          <label>RÉCIT DE BACCHUS.<lb/>Chanté par Monsieur Gaye.</label>
+          <sp who="bacchus">
+            <speaker></speaker>
+            <l n="213" xml:id="l213">Si quelquefois,</l>
+            <l n="214" xml:id="l214">Suivant nos douces Lois,</l>
+            <l n="215" xml:id="l215">La Raison se perd et s’oublie,</l>
+            <l n="216" xml:id="l216">Ce que le vin nous cause en un jour ;</l>
+            <l n="217" xml:id="l217">Mais quand un Cœur est enivré d’Amour,</l>
+            <l n="218" xml:id="l218">Souvent, c’est pour toute la vie.</l>
+          </sp>
+            <stage rend="not-i">Mome déclare qu’il n’a point de plus doux emploi que de médire, et que ce n’est qu’à l’Amour seul qu’il n’ose se jouer.</stage>
+          <label>RÉCIT DE MOME.<lb/>Chanté par Monsieur Morel.</label>
+          <sp who="mome">
+            <speaker></speaker>
+            <l n="219" xml:id="l219">Je cherche à médire</l>
+            <l n="220" xml:id="l220">Sur la Terre, et dans les Cieux ;</l>
+            <l n="221" xml:id="l221">Je soumets à ma Satire</l>
+            <l n="222" xml:id="l222">Les plus grands des Dieux.</l>
+            <l n="223" xml:id="l223">Il n’est dans l’Univers que l’Amour qui m’étonne,</l>
+            <l n="224" xml:id="l224">Il est le Seul que j’épargne aujourd’hui ;</l>
+            <l n="225" xml:id="l225">Il n’appartient qu’à Lui</l>
+            <l n="226" xml:id="l226">De n’épargner personne.</l>
+          </sp>
+            <stage rend="not-i">Mars avoue que malgré toute sa valeur, il n’a pu s’empêcher de céder à l’Amour.</stage>
+          <label>RÉCIT DE MARS.<lb/>Chanté par Monsieur Estival.</label>
+          <sp who="mars">
+            <speaker></speaker>
+            <l n="227" xml:id="l227">Mes plus fiers Ennemis vaincus ou pleins d’effroi</l>
+            <l n="228" xml:id="l228">Ont vu toujours ma Valeur triomphante</l>
+            <l n="229" xml:id="l229">L’Amour est le Seul qui se vante</l>
+            <l n="230" xml:id="l230">D’avoir pu triompher de Moi.</l>
+            <stage rend="not-i">Tous les Dieux du Ciel unissent leurs voix, et engagent les Timbales et les Trompettes à répondre à leurs Chants, et à se mêler avec leurs plus doux Concerts.</stage>
+          </sp>
+          <sp who="choeur-des-divinites">
+            <speaker>Chœur des Dieux, où se mêlent les Trompettes et les Timbales.</speaker>
+            <l n="231" xml:id="l231">Chantons les plaisirs charmants</l>
+            <l n="232" xml:id="l232">Des heureux Amants.</l>
+            <l n="233" xml:id="l233">Répondez-nous Trompettes,</l>
+            <l n="234" xml:id="l234">Timbales, et Tambours</l>
+            <l n="235" xml:id="l235">Accordez-nous toujours</l>
+            <l n="236" xml:id="l236">Avec le doux son des Musettes,</l>
+            <l n="237" xml:id="l237">Accordez-vous toujours</l>
+            <l n="238" xml:id="l238">Avec le doux chant des Amours.</l>
+          </sp>
+            <stage rend="not-i">ENTRÉE DE LA SUITE</stage>
+            <stage rend="not-i">D’APOLLON.</stage>
+            <label>Suite d’Apollon.</label>
+          <castList>
+            <castItem>
+              <role xml:id="muses">Les neufs Muses.</role>
+              <actor>Mademoiselle Hylaire, Mademoiselle Des-Fronteaux, Mesdemoilles Piesches sœurs, Messieurs Gillet, Oudot, Henry Hylaire, Descouteaux, et Piesche cadet.</actor>
+            </castItem>
+            <castItem>
+              <role>Concertants.</role>
+              <actor>Messieurs Chaudron père, Piesche l’aîné, Marchand, Laquaisse cadet, Clerambaut, le Doux, Pesan, Gervais, Camille, Henry, Verdier, Bernard, Mercier, Chevallier, Desnoyer, Edme Verdier, et S. Père.</actor>
+            </castItem>
+            <castItem>
+              <role xml:id="mars"></role>
+              <role xml:id="apollon"></role>
+              <role xml:id="bacchus"></role>
+              <role xml:id="mome"></role>
+              <role xml:id="silene"></role>
+            </castItem>
+          </castList>
+            <stage rend="not-i">Les Arts travestis en Bergers Galants pour paraître avec plus d’agrément dans cette Fête, commencent les Premier à danser. Apollon vient joindre une Chanson à leurs Danses, et les sollicite d’oublier les Soins qu’ils ont accoutumé de prendre le jour, pour profiter des Divertissements de cette Nuit bienheureuse.</stage>
+          <label>ARTS TRAVESTIS EN BERGERS Galants.</label>
+          <castList>
+            <castItem>
+              <role>Bergers Galants.</role>
+              <actor>Messieurs Beauchamp, Chicanneau, la Pierre, Favier l’aîné, Magny, Noblet, Desbrosses, Lestang, Foignard l’aîné, et Foignard le cadet.</actor>
+            </castItem>
+          </castList>
+          <label>CHANSON D’APOLLON.<lb/>Chantée par M. Langeais.</label>
+          <sp who="apollon">
+            <speaker></speaker>
+          <lg>
+            <l n="239" xml:id="l239">Le Dieu qui nous engage</l>
+            <l n="240" xml:id="l240">À lui faire la Cour,</l>
+            <l n="241" xml:id="l241">Défend qu’on soit trop sage.</l>
+            <l n="242" xml:id="l242">Les Plaisirs ont leur tour,</l>
+            <l n="243" xml:id="l243">C’est leur plus doux usage</l>
+            <l n="244" xml:id="l244">Que de finir les soins du Jour ;</l>
+            <l n="245" xml:id="l245">La Nuit est le partage</l>
+            <l n="246" xml:id="l246">Des Jeux, et de l’Amour.</l>
+          </lg>
+          <lg>
+            <l n="247" xml:id="l247">Ce serait grand dommage</l>
+            <l n="248" xml:id="l248">Qu’en ce charmant Séjour</l>
+            <l n="249" xml:id="l249">On eut un Cœur sauvage.</l>
+            <l n="250" xml:id="l250">Les Plaisirs ont eu leur tour,</l>
+            <l n="251" xml:id="l251">C’est leur plus doux usage,</l>
+            <l n="252" xml:id="l252">Que de finir les soins du Jour ;</l>
+            <l n="253" xml:id="l253">La Nuit est le partage</l>
+            <l n="254" xml:id="l254">Des Jeux, et de l’Amour.</l>
+          </lg>
+          </sp>
+            <stage rend="not-i">Au milieu de l’Entrée de la Suite d’Apollon deux des Muses qui ont toujours évité de s’engager sous les Lois de l’Amour, conseillent aux Belles, qui n’ont point encore aimé, de s’en défendre avec soin à leur exemple.</stage>
+          <label>CHANSON DES MUSES.<lb/>Chantée par Mademoiselle Hylaire, et par Mademoiselle Deffronteaux.</label>
+          <sp who="muses">
+            <speaker></speaker>
+            <l n="255" xml:id="l255">Gardez-vous, Beautés sévères,</l>
+            <l n="256" xml:id="l256">Les Amours font trop d’affaires,</l>
+            <l n="257" xml:id="l257">Craignez toujours de vous laisser charmer :</l>
+            <l n="258" xml:id="l258">Quand il faut que l’on soupire,</l>
+            <l n="259" xml:id="l259">Tout le mal n’est pas de s’enflammer :</l>
+            <l n="260" xml:id="l260">Le martyre</l>
+            <l n="261" xml:id="l261">De le dire,</l>
+            <l n="262" xml:id="l262">Coûte plus cent fois que d’aimer.</l>
+          </sp>
+            <label>SECOND COUPLET DES MUSES.</label>
+          <sp who="muses">
+            <speaker></speaker>
+            <l n="263" xml:id="l263">On ne peut aimer sans peines,</l>
+            <l n="264" xml:id="l264">Il est peu de douces chaînes,</l>
+            <l n="265" xml:id="l265">À tout moment on se sent alarmer ;</l>
+            <l n="266" xml:id="l266">Quand il faut que l’on soupire,</l>
+            <l n="267" xml:id="l267">Tout le mal n’est pas de s’enflammer ;</l>
+            <l n="268" xml:id="l268">Le martyre</l>
+            <l n="269" xml:id="l269">De le dire.</l>
+            <l n="270" xml:id="l270">Coûte plus cent fois que d’aimer.</l>
+          </sp>
+            <stage rend="not-i">ENTRÉE DE LA SUITE</stage>
+            <stage rend="not-i">DE BACCHUS.</stage>
+            <label>Suite de Bacchus.</label>
+          <castList>
+            <castItem>
+              <role>Concertants.</role>
+              <actor>Messieurs de la Grille, le Gros, Gingan l’aîné, Bernard, Rossignol, la Forest, Miracle cadet, Renier, et Jannot.</actor>
+            </castItem>
+            <castItem>
+              <role>Violons.</role>
+              <actor>Messieurs du Manoir père et fils, Balus père et fils, Chaudron fils, le Peintre, Lique, le Roux, le Grais, Varin, Joubert, Rafié, Des-Matins, Leger, l’Espine, et le Roux cadet.</actor>
+            </castItem>
+            <castItem>
+              <role>Bassons.</role>
+              <actor>Les Sieurs Collin Hottere, et Philidor.</actor>
+            </castItem>
+            <castItem>
+              <role>Hautbois.</role>
+              <actor>Les Sieurs du Clos, du Chot, et Philidor cadet.</actor>
+            </castItem>
+          </castList>
+            <stage rend="not-i">Les Ménades et les Égipans viennent danser à leur tour. Bacchus s’avance au milieu d’Eux, et chante une Chanson à la louange du Vin.</stage>
+          <castList>
+            <castItem>
+              <role>Six Ménades.</role>
+              <actor>Messieurs Isaac, Paysan, Joubert, Dolivet fils, Breteau, et Des-Forges.</actor>
+            </castItem>
+            <castItem>
+              <role>Six Égipans.</role>
+              <actor>Messieurs Eydieu, Dolivet, le Chantre, Ariar, S. André l’aîné, et S. André le cadet.</actor>
+            </castItem>
+          </castList>
+          <label>CHANSON DE BACCHUS.<lb/>Chantée par Monsieur Gaye.</label>
+          <sp who="bacchus">
+            <speaker></speaker>
+            <l n="271" xml:id="l271">Admirons le Jus de la Treille :</l>
+            <l n="272" xml:id="l272">Qu’il est puissant ! qu’il a d’attraits !</l>
+            <l n="273" xml:id="l273">Il sert aux douceurs de la Paix,</l>
+            <l n="274" xml:id="l274">Et dans la Guerre, il fait merveille :</l>
+            <l n="275" xml:id="l275">Mais surtout pour les Amours,</l>
+            <l n="276" xml:id="l276">Le Vin est d’un grand secours.</l>
+          </sp>
+            <stage rend="not-i">Silène Nourricier de Bacchus paraît monté sur son Âne. Il chante une Chanson qui fait connaître les avantages que l’on trouve à suivre les Lois du Dieu du Vin.</stage>
+          <label>CHANSON DE SILÈNE.<lb/>Chantée par Monsieur Blondel.</label>
+          <sp who="silene">
+            <speaker></speaker>
+            <l n="277" xml:id="l277">Bacchus veut qu’on boive à longs traits ;</l>
+            <l n="278" xml:id="l278">On ne se plaint jamais</l>
+            <l n="279" xml:id="l279">Sous son heureux Empire :</l>
+            <l n="280" xml:id="l280">Tout le jour on n’y fait que rire,</l>
+            <l n="281" xml:id="l281">Et la nuit on y dort en paix.</l>
+          </sp>
+            <label>SECOND COUPLET.</label>
+          <sp who="silene">
+            <speaker></speaker>
+            <l n="282" xml:id="l282">Ce Dieu rend nos vœux satisfaits ;</l>
+            <l n="283" xml:id="l283">Que sa Cour a d’attraits !</l>
+            <l n="284" xml:id="l284">Chantons y bien sa gloire :</l>
+            <l n="285" xml:id="l285">Tout le jour on n’y fait que boire,</l>
+            <l n="286" xml:id="l286">Et la nuit on y dort en paix.</l>
+          </sp>
+            <stage rend="not-i">Deux Satyres se joignent à Silène, et tous trois chantent ensemble un Trio à la louange de Bacchus, et des douceurs de son Empire.</stage>
+          <castList>
+            <castItem>
+              <role xml:id="satyre1">Trio de Silène, et de deux Satyres.</role>
+              <role xml:id="satyre2"></role>
+              <actor>Messieurs Blondel, de la Grille et Bernard.</actor>
+            </castItem>
+          </castList>
+          <sp who="satyre1 satyre2 silene">
+            <speaker></speaker>
+            <l n="287" xml:id="l287">Voulez-vous des douceurs parfaites ?</l>
+            <l n="288" xml:id="l288">Ne les cherchez qu’au fond des Pots.</l>
+          </sp>
+          <sp who="satyre1">
+            <speaker>Un Satyre.</speaker>
+            <l n="289" xml:id="l289">Les Grandeurs sont sujettes</l>
+            <l n="290" xml:id="l290">À cent peines secrètes.</l>
+          </sp>
+          <sp who="satyre2">
+            <speaker>Second Satyre.</speaker>
+            <l n="291" xml:id="l291">L’Amour fait perdre le repose.</l>
+          </sp>
+          <sp who="satyre1 satyre2 silene">
+            <speaker>Tous ensemble.</speaker>
+            <l n="292" xml:id="l292">Voulez-vous des douceurs parfaites ?</l>
+            <l n="293" xml:id="l293">Ne les cherchez qu’au fond des Pots.</l>
+          </sp>
+          <sp who="satyre1">
+            <speaker>Un Satyre.</speaker>
+            <l n="294" xml:id="l294">C’est là que sont les Ris, les Jeux, les Chansonnettes.</l>
+          </sp>
+          <sp who="satyre2">
+            <speaker>Second Satyre.</speaker>
+            <l n="295" xml:id="l295">C’est dans le Vin qu’on trouve les bons mots.</l>
+          </sp>
+          <sp who="satyre1 satyre2 silene">
+            <speaker>Tous ensemble.</speaker>
+            <l n="296" xml:id="l296">Voulez-vous des douceurs parfaites ?</l>
+            <l n="297" xml:id="l297">Ne les cherchez qu’au fonds Pots.</l>
+          </sp>
+            <stage rend="not-i">Deux autres Satyres enlèvent Silène de dessus son Âne, qui leur sert à voltiger, et à former des Jeux agréables et surprenants.</stage>
+          <castList>
+            <castItem>
+              <role>Deux Satyres Voltigeurs.</role>
+              <actor>Messieurs de Meniglaise, et de Vieux-Amant.</actor>
+            </castItem>
+          </castList>
+            <stage rend="not-i">ENTRÉE DE LA SUITE.</stage>
+            <stage rend="not-i">DE MOME.</stage>
+            <label>Suite de Mome.</label>
+          <castList>
+            <castItem>
+              <role>Concertants.</role>
+              <actor>Messieurs Dom, Beaumont, Fernon l’aîné, Fernon cadet, Gingan cadet, Deschamps, Horat, la Montagne, et Pierot.</actor>
+            </castItem>
+            <castItem>
+              <role>Violons.</role>
+              <actor>Les Sieurs Marchand, Laquaisse, Huguenet, Magny, Brouard, Fossard, Huguenet cadet, Destouches, Guenin, Roullé, Charpentier, Ardelet, la Fontaine, Charlot, et Martinot père et fils.</actor>
+            </castItem>
+            <castItem>
+              <role>Bassons.</role>
+              <actor>Les Sieurs Nicolas, et Martin Hotterre.</actor>
+            </castItem>
+            <castItem>
+              <role>Hautbois.</role>
+              <actor>Les Sieurs Piesche père, Plumet, et Louis Hotterre.</actor>
+            </castItem>
+          </castList>
+            <stage rend="not-i">Une Troupe de Polichinelle et de Matassins vient joindre leurs plaisanteries et leurs badinages aux Divertissements de cette grande Fête. Mome qui les conduit chante au milieu d’Eux une Chanson enjouée sur le sujet des avantages et des plaisirs de la Raillerie.</stage>
+          <castList>
+            <castItem>
+              <role>Six Matassins dansant.</role>
+              <actor>Messieurs de Lorge, Bonard, Arnal, Favier cadet, Goyer, et Bureau.</actor>
+            </castItem>
+            <castItem>
+              <role>Six Polichinelles.</role>
+              <actor>Messieurs Mançeau, Girard, la Valée, Favre, le Fébure, et la Montagne.</actor>
+            </castItem>
+          </castList>
+          <label>CHANSON DE MOME.<lb/>Chantée par Monsieur Morel.</label>
+          <sp who="mome">
+            <speaker></speaker>
+            <l n="298" xml:id="l298">Folâtrons, divertissons-Nous,</l>
+            <l n="299" xml:id="l299">Raillons, Nous ne saurions mieux faire,</l>
+            <l n="300" xml:id="l300">La Raillerie est nécessaire</l>
+            <l n="301" xml:id="l301">Dans les Jeux les plus doux.</l>
+            <l n="302" xml:id="l302">Sans la douceur que l’on goûte à médire,</l>
+            <l n="303" xml:id="l303">On trouve peu de plaisirs sans ennui ;</l>
+            <l n="304" xml:id="l304">Rien n’est si plaisant que de rire,</l>
+            <l n="305" xml:id="l305">Quand on rit aux dépens d’autrui.</l>
+            <l n="306" xml:id="l306">Plaisantons, ne pardonnons rien,</l>
+            <l n="307" xml:id="l307">Rions, rien n’est plus à la mode,</l>
+            <l n="308" xml:id="l308">On court péril d’être trop incommode</l>
+            <l n="309" xml:id="l309">En disant trop de bien.</l>
+            <l n="310" xml:id="l310">Sans la douceur que l’on goûte à médire,</l>
+            <l n="311" xml:id="l311">On trouve peu de plaisirs sans ennui ;</l>
+            <l n="312" xml:id="l312">Rien n’est si plaisant que de rire,</l>
+            <l n="313" xml:id="l313">Quand on rit aux dépens d’autrui.</l>
+          </sp>
+            <stage rend="not-i">ENTRÉE DE LA SUITE</stage>
+            <stage rend="not-i">DE MARS.</stage>
+            <label>Suite de Mars.</label>
+          <castList>
+            <castItem>
+              <role>Concertants.</role>
+              <actor>Messieurs Bony, Hédouin, Serignan, la Griffonnière, le Maire, Desuelois, David, Beaumaviel, Miracle, Perchot, Thierry et Mathieu.</actor>
+            </castItem>
+            <castItem>
+              <role>Violons.</role>
+              <actor>Messieurs Masuel, Thaumin, Chicanneau, Bonnefons, la Place, Regnaut, Passe, du Bois, du Vivier, Nivelon, le Jeune, Du-Fresne, Allais, du Mont, le Bret, d’Auche, Converset et Rousselet fils.</actor>
+            </castItem>
+            <castItem>
+              <role>Bassons.</role>
+              <actor>Rousset.</actor>
+            </castItem>
+            <castItem>
+              <role>Flûtes.</role>
+              <actor>Philebert, Boutet et Paisible.</actor>
+            </castItem>
+            <castItem>
+              <role>Conducteur.</role>
+              <actor>Monsieur Rebel,</actor>
+            </castItem>
+            <castItem>
+              <role>Timbalier.</role>
+              <actor>Daicre,</actor>
+            </castItem>
+            <castItem>
+              <role>Sacq de bout.</role>
+              <actor>Ferier,</actor>
+            </castItem>
+            <castItem>
+              <role>Trompettes.</role>
+              <actor>Duclos, Denis, la Rivière, L’Orange, la Pleine, Pellissier, Petre, Roussillon et Rodolfe.</actor>
+            </castItem>
+          </castList>
+            <stage rend="not-i">Mars vient au milieu du Théâtre suivi de sa Troupe guerrière qu’il excite à profiter de leur loisir, en prenant part aux Divertissements.</stage>
+          <label>CHANSON DE MARS.<lb/>Chantée par Monsieur d’Estival.</label>
+          <sp who="mars">
+            <speaker></speaker>
+            <l n="314" xml:id="l314">Laissons en paix toute la Terre,</l>
+            <l n="315" xml:id="l315">Cherchons de doux Amusements ;</l>
+            <l n="316" xml:id="l316">Parmi les Jeux les plus charmants,</l>
+            <l n="317" xml:id="l317">Mêlons l’image de la Guerre.</l>
+          </sp>
+            <stage rend="not-i">Quatre Hommes portant des Masses et des Boucliers, quatre Autres armés de Demi Piques, et quatre Autre avec des Enseignes font en dansant une manière d’exercice.</stage>
+          <castList>
+            <castItem>
+              <role>Quatre Enseignes.</role>
+              <actor>Messieurs Beauchamp, Mayeu, la Pierre et Favier.</actor>
+            </castItem>
+            <castItem>
+              <role>Quatre Piquiers.</role>
+              <actor>Messieurs Noblet, Chicanneau, Magny, et Lestang.</actor>
+            </castItem>
+            <castItem>
+              <role>Quatre Porte Masses et Rondaches.</role>
+              <actor>Messieurs Camet, la Haye, le Duc, et du Buisson.</actor>
+            </castItem>
+            <castItem>
+              <role xml:id="choeur"></role>
+            </castItem>
+          </castList>
+            <stage rend="not-i">DERNIÈRE ENTRÉE.</stage>
+            <stage rend="not-i">Les quatre Troupes différentes, de la suite d’Apollon, de Bacchus, de Mome, et de Mars, après avoir achevé leurs Entrées particulières, s’unissent ensemble, et forment la dernière Entrée, qui ensemble, et forment la dernière Entrée, qui renferme toutes les autres. Un Chœur de toutes les voix et de tous les Instruments se joint à la Danse générale, et termine la Fête des Noces de l’Amour, et de Psyché.</stage>
+          <sp who="choeur">
+            <speaker>CHŒUR.</speaker>
+            <l n="318" xml:id="l318">Chantons les Plaisirs charmants</l>
+            <l n="319" xml:id="l319">Des heureux Amants :</l>
+            <l n="320" xml:id="l320">Répondez-nous Trompettes,</l>
+            <l n="321" xml:id="l321">Timbales, et Tambours ;</l>
+            <l n="322" xml:id="l322">Accordez-vous toujours</l>
+            <l n="323" xml:id="l323">Avec le doux son des Musettes ;</l>
+            <l n="324" xml:id="l324">Accordez-vous toujours</l>
+            <l n="325" xml:id="l325">Avec le doux chant des Amours.</l>
+          </sp>
+          <label>FIN.</label>
+        </div>
+    </body>
+  </text>
+</TEI>
