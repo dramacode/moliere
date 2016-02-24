@@ -1028,45 +1028,44 @@
         <div2 type="scene" xml:id="I09">
           <head>Scène Dernière</head>
           <stage>LA COMTESSE, LE VICOMTE, JULIE, MONSIEUR TIBAUDIER, MONSIEUR BOBINET, ANDRÉE, JEANNOT, CRIQUET</stage>
-          <sp who="jeannot">
+          <sp who="jeannot" xml:id="I09-1">
             <speaker>Jeannot</speaker>
             <p>Voilà un billet, Monsieur, qu’on nous a dit de vous donner vite.</p>
           </sp>
-          <sp who="le-vicomte" xml:id="I09-1">
-            <speaker>Le vicomte <hi rend="i">lit</hi>
-            </speaker>
+          <sp who="le-vicomte" xml:id="I09-2">
+            <speaker>Le vicomte <hi rend="i">lit</hi></speaker>
             <p rend="i">En cas que vous ayez quelque mesure à prendre, je vous envoie promptement un avis. La querelle de vos Parents et de ceux de Julie, vient d'être accommodée, et les conditions de cet accord, c'est le Mariage de vous, et d'elle. Bonsoir.</p>
             <p>Ma foi, Madame, voilà notre Comédie achevée aussi.</p>
           </sp>
-          <sp who="julie" xml:id="I09-2">
+          <sp who="julie" xml:id="I09-3">
             <speaker>Julie</speaker>
             <p>Ah ! Cléante quel bonheur ! notre amour eût-il osé espérer un si heureux succès ?</p>
           </sp>
-          <sp who="la-comtesse" xml:id="I09-3">
+          <sp who="la-comtesse" xml:id="I09-4">
             <speaker>La Comtesse</speaker>
             <p>Comment donc, qu’est-ce que cela veut dire ?</p>
           </sp>
-          <sp who="le-vicomte" xml:id="I09-4">
+          <sp who="le-vicomte" xml:id="I09-5">
             <speaker>Le Vicomte</speaker>
             <p>Cela veut dire, Madame, que j’épouse Julie, et si vous m’en croyez, pour rendre la Comédie complète de tout point, vous épouserez Monsieur Tibaudier, et donnerez Mademoiselle Andrée à son laquais, dont il fera son Valet de chambre.</p>
           </sp>
-          <sp who="la-comtesse" xml:id="I09-5">
+          <sp who="la-comtesse" xml:id="I09-6">
             <speaker>La Comtesse</speaker>
             <p>Quoi, jouer de la sorte une personne de ma qualité ?</p>
           </sp>
-          <sp who="le-vicomte" xml:id="I09-6">
+          <sp who="le-vicomte" xml:id="I09-7">
             <speaker>Le Vicomte</speaker>
             <p>C'est sans vous offenser, Madame, et les Comédies veulent de ces sortes de choses.</p>
           </sp>
-          <sp who="la-comtesse" xml:id="I09-7">
+          <sp who="la-comtesse" xml:id="I09-8">
             <speaker>La Comtesse</speaker>
             <p>Oui, Monsieur Tibaudier, je vous épouse, pour faire enrager tout le monde.</p>
           </sp>
-          <sp who="monsieur-tibaudier" xml:id="I09-8">
+          <sp who="monsieur-tibaudier" xml:id="I09-9">
             <speaker>Monsieur Tibaudier</speaker>
             <p>Ce m’est bien de l’honneur, Madame.</p>
           </sp>
-          <sp who="le-vicomte" xml:id="I09-9">
+          <sp who="le-vicomte" xml:id="I09-10">
             <speaker>Le Vicomte</speaker>
             <p>Souffrez, Madame, qu’en enrageant, nous puissions voir ici le reste du spectacle.</p>
           </sp>

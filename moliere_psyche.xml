@@ -77,7 +77,7 @@
           <castItem><role xml:id="agenor" rend="male">Agénor</role>, Prince amant de Psyché.</castItem>
           <castItem><role xml:id="zephire" rend="male">Le Zéphire</role>.</castItem>
           <castItem><role xml:id="lycas" rend="male">Lycas</role>.</castItem>
-          <castItem><role xml:id="dieu-fleuve" rend="male">Le Dieu d’un fleuve</role>.<role xml:id="zephyr"/><role xml:id="apollon"/><role xml:id="muses"/><role xml:id="bacchus"/><role xml:id="mome"/><role xml:id="mars"/><role xml:id="choeur"/><role xml:id="choeur-des-divinites"/></castItem>
+          <castItem><role xml:id="dieu-fleuve" rend="male">Le Dieu d’un fleuve</role>.<role xml:id="zephyr" n="Zéphyr"/><role xml:id="apollon" n="Apollon"/><role xml:id="muses" n="Muses"/><role xml:id="bacchus" n="Bacchus"/><role xml:id="mome" n="Mome"/><role xml:id="mars" n="Mars"/><role xml:id="choeur" n="Chœur"/><role xml:id="choeur-des-divinites" n="Chœur des divinités"/><role xml:id="flore" n="Flore"/><role xml:id="vertumne" n="Vertumne"/><role xml:id="palaemon" n="Palæmon"/></castItem>
           
         </castList>
       </div>
@@ -86,13 +86,7 @@
       <div1 xml:id="A" type="prologue">
         <head>Prologue</head>
         <stage rend="not-i">La Scène représente sur le devant un Lieu champêtre, et dans l’enfoncement un Rocher percé à jour, à travers duquel on voit la Mer en éloignement.</stage>
-        <stage rend="not-i">Flore paraît au milieu du Théâtre, accompagnée de Vertumne Dieu des Arbres et des Fruits, et de Palæmon Dieu des Eaux. Chacun de ces Dieux conduit une Troupe de Divinités ; l’un mène à sa suite des Dryades et des Sylvains ; et l’autre des Dieux, des Fleuves et des Naïades. Flore chante ce Récit pour inviter Vénus à descendre en Terre.
-          <listPerson>
-            <person xml:id="flore" n="Flore"/>
-            <person xml:id="vertumne" n="Vertumne"/>
-            <person xml:id="palaemon" n="Palæmon"/>
-          </listPerson>
-          
+        <stage rend="not-i">Flore paraît au milieu du Théâtre, accompagnée de Vertumne Dieu des Arbres et des Fruits, et de Palæmon Dieu des Eaux. Chacun de ces Dieux conduit une Troupe de Divinités ; l’un mène à sa suite des Dryades et des Sylvains ; et l’autre des Dieux, des Fleuves et des Naïades. Flore chante ce Récit pour inviter Vénus à descendre en Terre.          
         </stage>
         <sp who="flore" xml:id="A-1">
           <speaker/>
@@ -104,7 +98,7 @@
           <l n="6" xml:id="l6">Venez nous donner de beaux jours.</l>
           <stage rend="not-i">Vertumne et Palæmon, avec les Divinités qui les accompagnent, joignent leurs voix à celle de Flore, et chantent ces paroles.</stage>
         </sp>
-        <sp who="choeur-des-divinites">
+        <sp who="choeur-des-divinites" xml:id="A-2">
           <speaker>Choeur des Divinités de la Terre et des Eaux, Composé <hi rend="i">de Flore, Nymphes, Palaemon, Vertumne, Sylvain, Faune, Dryades, et Naïades</hi>.</speaker>
          <l>Nous goûtons une Paix profonde ;</l>
           <l>Les plus doux Jeux sont ici-bas ;</l>
@@ -114,22 +108,22 @@
           <l>Venez nous donner de beaux jours.</l>
         </sp>
         <stage rend="not-i">Il se fait ensuite une Entrée de Ballet, composée de Dryades, quatre Sylvains, deux Fleuves, et de Naïades. Après laquelle, Vertumne et Palaemon chantent ce Dialogue.</stage>
-        <sp who="vertumne" xml:id="A-2">
+        <sp who="vertumne" xml:id="A-3">
           <speaker>Vertumne</speaker>
           <l n="7" xml:id="l7">Rendez-vous, Beautés cruelles,</l>
           <l n="8" xml:id="l8">Soupirez à votre tour.</l>
         </sp>
-        <sp who="palaemon" xml:id="A-3">
+        <sp who="palaemon" xml:id="A-4">
           <speaker>Palæmon</speaker>
           <l n="9" xml:id="l9">Voici la Reine des Belles,</l>
           <l n="10" xml:id="l10">Qui vient inspirer l’amour.</l>
         </sp>
-        <sp who="vertumne" xml:id="A-4">
+        <sp who="vertumne" xml:id="A-5">
           <speaker>Vertumne</speaker>
           <l n="11" xml:id="l11">Un bel Objet toujours sévère</l>
           <l n="12" xml:id="l12">Ne se fait jamais bien aimer.</l>
         </sp>
-        <sp who="palaemon" xml:id="A-5">
+        <sp who="palaemon" xml:id="A-6">
           <speaker>Palæmon</speaker>
           <l n="13" xml:id="l13">C’est la beauté qui commence de plaire,</l>
           <l n="14" xml:id="l14">Mais la douceur achève de charmer.</l>
@@ -137,28 +131,28 @@
           <l n="15" xml:id="l15">C’est la beauté qui commence de plaire,</l>
           <l n="16" xml:id="l16">Mais la douceur achève de charmer.</l>
         </sp>
-        <sp who="vertumne" xml:id="A-6">
+        <sp who="vertumne" xml:id="A-7">
           <speaker>Vertumne</speaker>
           <l n="17" xml:id="l17">Souffrons tous qu’Amour nous blesse ;</l>
           <l n="18" xml:id="l18">Languissons, puisqu’il le faut.</l>
         </sp>
-        <sp who="palaemon" xml:id="A-7">
+        <sp who="palaemon" xml:id="A-8">
           <speaker>Palæmon</speaker>
           <l n="19" xml:id="l19">Que sert un cœur sans tendresse ?</l>
           <l n="20" xml:id="l20">Est-il un plus grand défaut ?</l>
         </sp>
-        <sp who="vertumne" xml:id="A-8">
+        <sp who="vertumne" xml:id="A-9">
           <speaker>Vertumne</speaker>
           <l n="21" xml:id="l21">Un bel Objet toujours sévère</l>
           <l n="22" xml:id="l22">Ne se fait jamais bien aimer.</l>
         </sp>
-        <sp who="palaemon" xml:id="A-9">
+        <sp who="palaemon" xml:id="A-10">
           <speaker>Palæmon</speaker>
           <l n="23" xml:id="l23">C’est la beauté qui commence de plaire,</l>
           <l n="24" xml:id="l24">Mais la douceur achève de charmer.</l>
         </sp>
         <stage rend="not-i">Flore répond au Dialogue de Vertumne et de Palaemon, par ce Menuet ; et les autres Divinités y mêlent leurs Danses.</stage>
-        <sp who="choeur-des-divinites">
+        <sp who="choeur-des-divinites" xml:id="A-11">
           <speaker/>
           <lg>
             <l>Est-on sage</l>
@@ -186,7 +180,7 @@
           </lg>
           <stage rend="not-i">Vénus descend du Ciel dans une grande Macine avec l’Amour son Fils, et deux petites Grâces, nommées Aegial et Phaène : Et les Divinités de la Terre et des Eaux recommencent de joindre toutes leurs voix, et continuent par leurs Danses de lui témoigner la joie qu’elles ressentent à son abord.</stage>
         </sp>
-        <sp who="choeur-des-divinites">
+        <sp who="choeur-des-divinites" xml:id="A-12">
           <speaker>Choeur de toutes les Divinités de la Terre et des Eaux.</speaker>
           <l>Nous goûtons une Paix profonde ;</l>
           <l>Les plus doux Jeux sont ici-bas ;</l>
@@ -195,7 +189,7 @@
           <l>Descendez, Mère des Amours,</l>
           <l>Venez nous donner de beaux jours.</l> 
         </sp>
-        <sp who="venus" xml:id="A-10">
+        <sp who="venus" xml:id="A-13">
           <speaker>Vénus<hi rend="i"> dans sa Machine</hi></speaker>
           <l n="25" xml:id="l25">Cessez, cessez pour moi tous vos chants d’allégresse :</l>
           <l n="26" xml:id="l26">De si rares honneurs ne m’appartiennent pas,</l>
@@ -223,14 +217,14 @@
           <l n="48" xml:id="l48">Cacher ma honte et ma douleur.</l>
           <stage rend="not-i">Flore et les autres Déités se retirent, et Vénus avec sa Suite sort de sa Machine.</stage>
         </sp>
-        <sp who="aegiale" xml:id="A-11">
+        <sp who="aegiale" xml:id="A-14">
           <speaker>ægiale</speaker>
           <l n="49" xml:id="l49">Nous ne savons, Déesse, comment faire,</l>
           <l n="50" xml:id="l50">Dans ce chagrin qu’on voit vous accabler :</l>
           <l n="51" xml:id="l51">Notre respect veut se taire,</l>
           <l n="52" xml:id="l52">Notre zèle veut parler.</l>
         </sp>
-        <sp who="venus" xml:id="A-12">
+        <sp who="venus" xml:id="A-15">
           <speaker>Vénus</speaker>
           <l n="53" xml:id="l53">Parlez, mais si vos soins aspirent à me plaire,</l>
           <l n="54" xml:id="l54">Laissez tous vos conseils pour une autre saison,</l>
@@ -241,14 +235,14 @@
           <l n="59" xml:id="l59">Mais j’en aurai la vengeance,</l>
           <l n="60" xml:id="l60">Si les Dieux ont du pouvoir.</l>
         </sp>
-        <sp who="phaene" xml:id="A-13">
+        <sp who="phaene" xml:id="A-16">
           <speaker>Phaène</speaker>
           <l n="61" xml:id="l61">Vous avez plus que nous de clartés, de sagesse,</l>
           <l n="62" xml:id="l62">Pour juger ce qui peut être digne de vous :</l>
           <l n="63" xml:id="l63">Mais pour moi, j’aurais cru qu’une grande Déesse</l>
           <l n="64" xml:id="l64">Devrait moins se mettre en courroux.</l>
         </sp>
-        <sp who="venus" xml:id="A-14">
+        <sp who="venus" xml:id="A-17">
           <speaker>Vénus</speaker>
           <l n="65" xml:id="l65">Et c’est là la raison de ce courroux extrême.</l>
           <l n="66" xml:id="l66">Plus mon rang a d’éclat, plus l’affront est sanglant,</l>
@@ -274,17 +268,17 @@
           <l n="86" xml:id="l86">J’entendrai prononcer aux Mortels prévenus :</l>
           <l n="87" xml:id="l87" rend="i">Elle est plus belle que Vénus !</l>
         </sp>
-        <sp who="aegiale" xml:id="A-15">
+        <sp who="aegiale" xml:id="A-18">
           <speaker>ægiale</speaker>
           <l n="88" xml:id="l88">Voilà comme l’on fait, c’est le style des Hommes,</l>
           <l n="89" xml:id="l89">Ils sont impertinents dans leurs comparaisons.</l>
         </sp>
-        <sp who="phaene" xml:id="A-16">
+        <sp who="phaene" xml:id="A-19">
           <speaker>Phaène</speaker>
           <l n="90" xml:id="l90">Ils ne sauraient louer, dans le Siècle où nous sommes,</l>
           <l n="91" xml:id="l91">Qu’ils n’outragent les plus grands noms.</l>
         </sp>
-        <sp who="venus" xml:id="A-17">
+        <sp who="venus" xml:id="A-20">
           <speaker>Vénus</speaker>
           <l n="92" xml:id="l92">Ah ! que de ces trois mots la rigueur insolente</l>
           <l n="93" xml:id="l93">Venge bien Junon et Pallas,</l>
@@ -322,7 +316,7 @@
           <l n="125" xml:id="l125">Et qu’elle ait à souffrir le supplice cruel</l>
           <l n="126" xml:id="l126">D’aimer, et n’être point aimée.</l>
         </sp>
-        <sp who="amour" xml:id="A-18">
+        <sp who="amour" xml:id="A-21">
           <speaker>L’Amour</speaker>
           <l n="127" xml:id="l127">Dans le monde on n’entend que plaintes de l’Amour,</l>
           <l n="128" xml:id="l128">On m’impute partout mille fautes commises,</l>
@@ -330,7 +324,7 @@
           <l n="130" xml:id="l130">Que l’on dit de moi chaque jour.</l>
           <l n="131" xml:id="l131">Si pour servir votre colère… </l>
         </sp>
-        <sp who="venus" xml:id="A-19">
+        <sp who="venus" xml:id="A-22">
           <speaker>Vénus</speaker>
           <l n="132" xml:id="l132">Va, ne résiste point aux souhaits de ta Mère,</l>
           <l n="133" xml:id="l133">N’applique tes raisonnements</l>

@@ -2394,7 +2394,12 @@
         </div2>
         <div2 rend="not-i" type="scene" xml:id="II11">
           <head>Scène XI</head>
-          <stage>Sbrigani, Monsieur de Pourceaugnac, deux Avocats Musiciens, <hi rend="i">dont l’un parle fort lentement, et l’autre fort vite, accompagnés de</hi> deux Procureurs <hi rend="i">et de</hi> deux Sergents</stage>
+          <stage>Sbrigani, Monsieur de Pourceaugnac, deux Avocats Musiciens, <hi rend="i">dont l’un parle fort lentement, et l’autre fort vite, accompagnés de</hi> deux Procureurs <hi rend="i">et de</hi> deux Sergents<listPerson type="configuration">
+          <person corresp="#sbrigani"/>
+          <person corresp="#pourceaugnac"/>
+          <person corresp="#avocat1"/>
+          <person corresp="#avocat2"/>
+        </listPerson></stage>
           <sp xml:id="II11-1" who="avocat1">
             <speaker>L’avocat, traînant ses paroles</speaker>
             <l>La polygamie est un cas,</l>

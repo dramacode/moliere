@@ -43,37 +43,37 @@
         <head>Personnages</head>
         <castList>
           <head>du PROLOGUE</head>
-          <castItem><role xml:id="flore" rend="female">FLORE</role>.</castItem>
-          <castItem><role xml:id="pan" rend="male">PAN</role>.</castItem>
-          <castItem><role xml:id="faunes" >FAUNES</role>.</castItem>
-          <castItem><role xml:id="climene" rend="female junior">CLIMÈNE</role>.</castItem>
-          <castItem><role xml:id="daphne" rend="female junior">DAPHNÉ</role>.</castItem>
-          <castItem><role xml:id="tircis"  rend="male junior">TIRCIS</role>.</castItem>
-          <castItem><role xml:id="dorilas" rend="male junior">DORILAS</role>.</castItem>
-          <castItem><role xml:id="zephyrs" >Deux ZEPHYRS</role>.</castItem>
-          <castItem><role xml:id="bergers">Troupe de BERGERS</role>.</castItem>
-          <castItem><role xml:id="bergeres" >Troupe de BERGÈRES</role>.</castItem>
+          <castItem><role xml:id="flore" rend="female">Flore</role>.</castItem>
+          <castItem><role xml:id="pan" rend="male">Pan</role>.</castItem>
+          <castItem><role xml:id="faunes" >Faunes</role>.</castItem>
+          <castItem><role xml:id="climene" rend="female junior">Climène</role>.</castItem>
+          <castItem><role xml:id="daphne" rend="female junior">Daphné</role>.</castItem>
+          <castItem><role xml:id="tircis"  rend="male junior">Tircis</role>.</castItem>
+          <castItem><role xml:id="dorilas" rend="male junior">Dorilas</role>.</castItem>
+          <castItem><role xml:id="zephyrs" >Deux Zephyrs</role>.</castItem>
+          <castItem><role xml:id="bergers">Troupe de Bergers</role>.</castItem>
+          <castItem><role xml:id="bergeres" >Troupe de Bergères</role>.<role xml:id="chorus" n="Tous"/></castItem>
         </castList>
         <castList>
           <head>de la COMÉDIE</head>
-          <castItem><role xml:id="argan" rend="male"/>ARGAN, malade imaginaire.</castItem>
-          <castItem><role xml:id="beline" rend="female"/>BÉLINE, seconde femme d’Argan.</castItem>
-          <castItem><role xml:id="angelique" rend="female junior"/>ANGÉLIQUE, fille d’Argan, et amante de Cléante.</castItem>
-          <castItem><role xml:id="louison" rend="female cadet"/>LOUISON, petite fille d’Argan, et sœur d’Angélique..</castItem>
-          <castItem><role xml:id="beralde" rend="male"/>BÉRALDE, frère d’Argan.</castItem>
-          <castItem><role xml:id="cleante" rend="male junior"/>CLÉANTE, amant d’Angélique.</castItem>
-          <castItem><role xml:id="monsieur-diafoirus" rend="male"/>Monsieur DIAFOIRUS, médecin.</castItem>
-          <castItem><role xml:id="thomas-diafoirus"  rend="male junior"/>THOMAS DIAFOIRUS, son fils, et amant d’Angélique.</castItem>
-          <castItem><role xml:id="monsieur-purgon" rend="male exterior"/>Monsieur PURGON, médecin d’Argan.</castItem>
-          <castItem><role xml:id="monsieur-fleurant" rend="male exterior"/>Monsieur FLEURANT, apothicaire.</castItem>
-          <castItem><role xml:id="monsieur-bonnefoy" rend="male exterior"/>Monsieur BONNEFOY, notaire.</castItem>
-          <castItem><role xml:id="toinette" rend="female inferior"/>TOINETTE, servante.<role xml:id="le-notaire"/></castItem>
+          <castItem><role xml:id="argan" rend="male">Argan</role>, malade imaginaire.</castItem>
+          <castItem><role xml:id="beline" rend="female">Béline</role>, seconde femme d’Argan.</castItem>
+          <castItem><role xml:id="angelique" rend="female junior">Angélique</role>, fille d’Argan, et amante de Cléante.</castItem>
+          <castItem><role xml:id="louison" rend="female cadet">Louison</role>, petite fille d’Argan, et sœur d’Angélique..</castItem>
+          <castItem><role xml:id="beralde" rend="male">Béralde</role>, frère d’Argan.</castItem>
+          <castItem><role xml:id="cleante" rend="male junior">Cléante</role>, amant d’Angélique.</castItem>
+          <castItem><role xml:id="monsieur-diafoirus" rend="male">Monsieur Diafoirus</role>, médecin.</castItem>
+          <castItem><role xml:id="thomas-diafoirus" rend="male junior">Thomas Diafoirus</role>, son fils, et amant d’Angélique.</castItem>
+          <castItem><role xml:id="monsieur-purgon" rend="male exterior">Monsieur Purgon</role>, médecin d’Argan.</castItem>
+          <castItem><role xml:id="monsieur-fleurant" rend="male exterior">Monsieur Fleurant</role>, apothicaire.</castItem>
+          <castItem><role xml:id="notaire" rend="male exterior">Monsieur Bonnefoy</role>, notaire.</castItem>
+          <castItem><role xml:id="toinette" rend="female inferior">Toinette</role>, servante.</castItem>
         </castList>
         <stage>La scène est à Paris. </stage>
       </div>
     </front>
     <body>
-      <div1 type="act" n="1" xml:id="P">
+      <div1 type="prologue" xml:id="P">
         <head>PROLOGUE</head>
         <stage>Après les glorieuses fatigues et les exploits victorieux de notre auguste monarque, il est bien juste que tous ceux qui se mêlent d’écrire travaillent ou à ses louanges, ou à son divertissement. C’est ce qu’ici l’on a voulu faire, et ce prologue est un essai des louanges de ce grand prince, qui donne entrée à la comédie du Malade imaginaire, dont le projet a été fait pour le délasser de ses nobles travaux.</stage>
         <stage>La décoration représente un lieu champêtre fort agréable.</stage>
@@ -154,7 +154,7 @@
             <l n="30" xml:id="l30">Il quitte les armes,</l>
             <l n="31" xml:id="l31">Faute d’ennemis.</l>
           </sp>
-          <sp who="tous" xml:id="P01-15">
+          <sp who="flore climene daphne dorilas" xml:id="P01-15">
             <speaker>Tous</speaker>
             <l n="32" xml:id="l32">Ah ! quelle douce nouvelle !</l>
             <l n="33" xml:id="l33">Qu’elle est grande ! qu’elle est belle !</l>
@@ -179,7 +179,7 @@
             <l n="47" xml:id="l47">Cent combats plus doux,</l>
             <l n="48" xml:id="l48">Pour chanter sa gloire.</l>
           </sp>
-          <sp who="tous" xml:id="P01-17">
+          <sp who="bergers flore" xml:id="P01-17">
             <speaker>Tous</speaker>
             <l n="49" xml:id="l49">Formons entre nous</l>
             <l n="50" xml:id="l50">Cent combats plus doux,</l>
@@ -292,7 +292,7 @@
             <l n="109" xml:id="l109">Laissez, laissez là sa gloire,</l>
             <l n="110" xml:id="l110">Ne songez qu’à ses plaisirs.</l>
           </sp>
-          <sp who="tous" xml:id="P01-31">
+          <sp who="dorilas pan" xml:id="P01-31">
             <speaker>Tous</speaker>
             <l n="111" xml:id="l111">Laissons, laissons là sa gloire,</l>
             <l n="112" xml:id="l112">Ne songeons qu’à ses plaisirs.</l>
@@ -371,7 +371,7 @@
           </sp>
         </div2>
       </div1>
-      <div1 type="act" n="2" xml:id="I">
+      <div1 type="act" n="1" xml:id="I">
         <head>ACTE I</head>
         <div2 type="scene" n="1" xml:id="I01">
           <head>SCÈNE I</head>
@@ -1394,7 +1394,7 @@
             <speaker>Béline</speaker>
             <p>Hélas ! Je ne suis point capable de parler de ces choses-là.</p>
           </sp>
-          <sp who="le-notaire" xml:id="I07-3">
+          <sp who="notaire" xml:id="I07-3">
             <speaker>le notaire</speaker>
             <p>Elle m’a, Monsieur, expliqué vos intentions, et le dessein où vous êtes pour elle ; et j’ai à vous dire là-dessus que vous ne sauriez rien donner à votre femme par votre testament.</p>
           </sp>
@@ -1402,7 +1402,7 @@
             <speaker>Argan</speaker>
             <p>Mais pourquoi ?</p>
           </sp>
-          <sp who="le-notaire" xml:id="I07-5">
+          <sp who="notaire" xml:id="I07-5">
             <speaker>le notaire</speaker>
             <p>La Coutume y résiste. Si vous étiez en pays de droit écrit, cela se pourrait faire ; mais, à Paris, et dans les pays coutumiers, au moins dans la plupart, c’est ce qui ne se peut, et la disposition serait nulle. Tout l’avantage qu’homme et femme conjoints par mariage se peuvent faire l’un à l’autre, c’est un don mutuel entre-vifs ; encore faut-il qu’il n’y ait enfants, soit des deux conjoints, ou de l’un d’eux, lors du décès du premier mourant.</p>
           </sp>
@@ -1410,7 +1410,7 @@
             <speaker>Argan</speaker>
             <p>Voilà une coutume bien impertinente, qu’un mari ne puisse rien laisser à une femme dont il est aimé tendrement, et qui prend de lui tant de soin. J’aurais envie de consulter mon avocat, pour voir comment je pourrais faire.</p>
           </sp>
-          <sp who="le-notaire" xml:id="I07-7">
+          <sp who="notaire" xml:id="I07-7">
             <speaker>le notaire</speaker>
             <p>Ce n’est point à des avocats qu’il faut aller, car ils sont d’ordinaire sévères là-dessus, et s’imaginent que c’est un grand crime que de disposer en fraude de la loi. Ce sont gens de difficultés, et qui sont ignorants des détours de la conscience. Il y a d’autres personnes à consulter, qui sont bien plus accommodantes, qui ont des expédients pour passer doucement par-dessus la loi, et rendre juste ce qui n’est pas permis ; qui savent aplanir les difficultés d’une affaire, et trouver des moyens d’éluder la coutume par quelque avantage indirect. Sans cela, où en serions-nous tous les jours ? Il faut de la facilité dans les choses ; autrement nous ne ferions rien, et je ne donnerais pas un sou de notre métier.</p>
           </sp>
@@ -1418,7 +1418,7 @@
             <speaker>Argan</speaker>
             <p>Ma femme m’avait bien dit, Monsieur, que vous étiez fort habile, et fort honnête homme. Comment puis-je faire, s’il vous plaît, pour lui donner mon bien, et en frustrer mes enfants ?</p>
           </sp>
-          <sp who="le-notaire" xml:id="I07-9">
+          <sp who="notaire" xml:id="I07-9">
             <speaker>le notaire</speaker>
             <p>Comment vous pouvez faire ? Vous pouvez choisir doucement un ami intime de votre femme, auquel vous donnerez en bonne forme par votre testament tout ce que vous pouvez ; et cet ami ensuite lui rendra tout. Vous pouvez encore contracter un grand nombre d’obligations, non suspectes, au profit de divers créanciers, qui prêteront leur nom à votre femme, et entre les mains de laquelle ils mettront leur déclaration que ce qu’ils en ont fait n’a été que pour lui faire plaisir. Vous pouvez aussi, pendant que vous êtes en vie, mettre entre ses mains de l’argent comptant, ou des billets que vous pourrez avoir, payables au porteur.</p>
           </sp>
@@ -1466,7 +1466,7 @@
             <speaker>Béline</speaker>
             <p>Tout le regret que j’aurai, si je meurs, mamie, c’est de n’avoir point un enfant de vous. Monsieur Purgon m’avait dit qu’il m’en ferait faire un.</p>
           </sp>
-          <sp who="le-notaire" xml:id="I07-21">
+          <sp who="notaire" xml:id="I07-21">
             <speaker>le notaire</speaker>
             <p>Cela pourra venir encore.</p>
           </sp>
@@ -1494,7 +1494,7 @@
             <speaker>Béline</speaker>
             <p>Tous les biens du monde, mon ami, ne me sont rien au prix de vous.</p>
           </sp>
-          <sp who="le-notaire" xml:id="I07-28">
+          <sp who="notaire" xml:id="I07-28">
             <speaker>le notaire</speaker>
             <p>Voulez-vous que nous procédions au testament ?</p>
           </sp>
@@ -1540,7 +1540,7 @@
           </sp>
         </div2>
       </div1>
-      <div1 type="act" n="9" xml:id="PI">
+      <div1 type="interlude" xml:id="PI">
         <head>PREMIER INTERMÈDE</head>
         <castList>
           <castItem><role xml:id="polichinelle">Polichinelle</role></castItem>
@@ -1942,7 +1942,7 @@
           <stage>Ils dansent tous, en réjouissance de l’argent qu’ils ont reçu. Le théâtre change et représente la même chambre.</stage>
         </sp>
       </div1>
-      <div1 type="act" n="3" xml:id="II">
+      <div1 type="act" n="2" xml:id="II">
         <head>ACTE II</head>
         <div2 type="scene" n="1" xml:id="II01">
           <head>SCÈNE I</head>
@@ -3195,7 +3195,7 @@
           </sp>
         </div2>
       </div1>
-      <div1 type="act" n="10" xml:id="SI">
+      <div1 type="interlude" xml:id="SI">
         <head>SECOND INTERMÈDE.</head>
         <stage>Le frère du Malade imaginaire lui amène, pour le divertir, plusieurs Egyptiens et Egyptiennes, vêtus en Mores, qui font des danses entremêlées de chansons.</stage>
         <castList>
@@ -3291,7 +3291,7 @@
           <stage>Tous les Mores dansent ensemble et font sauter des singes qu’ils ont amenés avec eux.</stage>
         </sp>
       </div1>
-      <div1 type="act" n="4" xml:id="IV">
+      <div1 type="act" n="3" xml:id="IV">
         <head>ACTE III</head>
         <div2 type="scene" n="1" xml:id="IV01">
           <head>SCÈNE I</head>
@@ -4693,7 +4693,7 @@
           </sp>
         </div2>
       </div1>
-      <div1 type="scene" xml:id="TI">
+      <div1 type="interlude" xml:id="TI">
         <head>TROISIÈME INTERMÈDE</head>
         <stage>C’est une cérémonie burlesque d’un homme qu’on fait médecin en récit, chant, et danse.</stage>
         <stage>Entrée de ballet</stage>
