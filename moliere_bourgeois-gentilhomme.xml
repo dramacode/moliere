@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="moliere_bourgeois-gentilhomme" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -84,20 +84,20 @@
           <castItem><role rend="male inferior" xml:id="covielle">Covielle</role>, Valet de Cléonte.</castItem>
           <castItem><role rend="male superior" xml:id="dorante">Dorante</role>, Comte, Amant de Dorimène.</castItem>
           <castItem><role rend="female superior" xml:id="dorimene">Dorimène</role>, Marquise.</castItem>
-          <castItem><role rend="male inferior" xml:id="maitre-musique">Maître de musique.</role>.</castItem>
+          <castItem><role rend="male inferior" xml:id="maitre-musique">Maître de musique</role>.</castItem>
           <castItem>
             <role xml:id="l-eleve" rend="nograph">Élève du maître de musique.</role>
-            <role xml:id="musicien1" rend="nograph"/>
-            <role xml:id="musicien2" rend="nograph"/>
-            <role xml:id="musicienne" rend="nograph"/>
+            <role xml:id="musicien1" n="Musicien" rend="nograph"/>
+            <role xml:id="musicien2" n="Musicien" rend="nograph"/>
+            <role xml:id="musicienne" n="Musicienne" rend="nograph"/>
           </castItem>
-          <castItem><role rend="male inferior" xml:id="maitre-a-danser">Maître à danser.</role>.</castItem>
-          <castItem><role rend="male inferior" xml:id="maitre-armes">Maître d'armes.</role>.</castItem>
-          <castItem><role rend="male inferior" xml:id="maitre-philosophie">Maître de philosophie.</role>.</castItem>
-          <castItem><role rend="male inferior" xml:id="maitre-tailleur">Maître tailleur.</role>.</castItem>
-          <castItem><role rend="male inferior" xml:id="garcon-tailleur">Garçon tailleur.</role>.</castItem>
-          <castItem><role xml:id="laquais1" rend="male inferior">Deux laquais.</role><role xml:id="laquais2" rend="male inferior"/>.</castItem>
-          <castItem>Plusieurs musiciens, musiciennes, joueurs d’instruments, danseurs, cuisiniers, garçons tailleurs, <hi rend="n">Et autres Personnages des Intermèdes et du Ballet</hi>.<role xml:id="mufti" rend="male superior"/><role xml:id="turcs"/><role xml:id="homme-du-bel-air"  rend="male"/><role xml:id="vieille-bourgeoise-babillarde"  rend="female senior"/><role xml:id="vieux-bourgeois-babillard" rend="male senior"/><role xml:id="suisse" rend="male inferior"/><role xml:id="gascon" rend="male inferior"/><role xml:id="autre-gascon" rend="male inferior"/><role xml:id="tous"/><role xml:id="autre-homme-du-bel-air" rend="male"/><role xml:id="femme-du-bel-air" rend="female"/><role xml:id="autre-femme-du-bel-air" rend="female"/><role xml:id="espagnol1" rend="male inferior"/><role xml:id="espagnol2" rend="male inferior"/><role xml:id="espagnol3" rend="male inferior"/><role xml:id="musicien" rend="male inferior"/></castItem>
+          <castItem><role rend="male inferior" xml:id="maitre-a-danser">Maître à danser</role>.</castItem>
+          <castItem><role rend="male inferior" xml:id="maitre-armes">Maître d'armes</role>.</castItem>
+          <castItem><role rend="male inferior" xml:id="maitre-philosophie">Maître de philosophie</role>.</castItem>
+          <castItem><role rend="male inferior" xml:id="maitre-tailleur">Maître tailleur</role>.</castItem>
+          <castItem><role rend="male inferior" xml:id="garcon-tailleur">Garçon tailleur</role>.</castItem>
+          <castItem><role xml:id="laquais1" rend="male inferior">Deux laquais</role><role xml:id="laquais2" rend="male inferior" n="Laquais"/>.</castItem>
+          <castItem>Plusieurs musiciens, musiciennes, joueurs d’instruments, danseurs, cuisiniers, garçons tailleurs, <hi rend="n">Et autres Personnages des Intermèdes et du Ballet</hi>.<role xml:id="mufti" n="Le Grand Mufti" rend="male superior"/><role xml:id="turcs" n="Turcs"/><role xml:id="homme-du-bel-air"  rend="male"/><role xml:id="vieille-bourgeoise-babillarde"  rend="female senior"/><role xml:id="vieux-bourgeois-babillard" rend="male senior"/><role xml:id="suisse" rend="male inferior"/><role xml:id="gascon" rend="male inferior"/><role xml:id="autre-gascon" rend="male inferior"/><role xml:id="tous"/><role xml:id="autre-homme-du-bel-air" rend="male"/><role xml:id="femme-du-bel-air" rend="female"/><role xml:id="autre-femme-du-bel-air" rend="female"/><role xml:id="espagnol1" rend="male inferior"/><role xml:id="espagnol2" rend="male inferior"/><role xml:id="espagnol3" rend="male inferior"/><role xml:id="musicien" rend="male inferior"/></castItem>
         </castList>
         <stage>La Scène est à Paris.</stage>
       </div>
