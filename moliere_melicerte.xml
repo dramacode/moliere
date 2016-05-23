@@ -62,18 +62,18 @@
       <div>
         <head>ACTEUR</head>
         <castList>
-          <castItem><role xml:id="acante" rend="male junior">Acante</role>, amant de Daphné.</castItem>
-          <castItem><role xml:id="tyrene" rend="male junior">Tyrène</role>, amant d’Éroxène.</castItem>
-          <castItem><role xml:id="daphne" rend="female junior">Daphné</role>, bergère.</castItem>
-          <castItem><role xml:id="eroxene" rend="female junior">Éroxène</role>, bergère.</castItem>
-          <castItem><role xml:id="lycarsis" rend="male">Lycarsys</role>, pâtre, cru père de Myrtil.</castItem>
-          <castItem><role xml:id="myrtil" rend="male junior">Myrtil</role>, amant de Mélicerte.</castItem>
-          <castItem><role xml:id="melicerte" rend="female junior">Mélicerte</role>, nymphe ou bergère, amante de Myrtil.</castItem>
-          <castItem><role xml:id="corinne" rend="female inferior">Corinne</role>, confidente de Mélicerte.</castItem>
-          <castItem><role xml:id="nicandre" rend="male">Nicandre</role>, berger.</castItem>
-          <castItem><role xml:id="mopse" rend="male">Mopse</role>, berger, cru oncle de Mélicerte.</castItem>
+          <castItem><role xml:id="acante" rend="male junior">Acante</role>, Amant de Daphné.</castItem>
+          <castItem><role xml:id="tyrene" rend="male junior">Tyrène</role>, Amant d’Éroxène.</castItem>
+          <castItem><role xml:id="daphne" rend="female junior">Daphné</role>, Bergère.</castItem>
+          <castItem><role xml:id="eroxene" rend="female junior">Éroxène</role>, Bergère.</castItem>
+          <castItem><role xml:id="lycarsis" rend="male">Lycarsys</role>, Pâtre, cru père de Myrtil.</castItem>
+          <castItem><role xml:id="myrtil" rend="male junior">Myrtil</role>, Amant de Mélicerte.</castItem>
+          <castItem><role xml:id="melicerte" rend="female junior">Mélicerte</role>, Nymphe ou Bergère, amante de Myrtil.</castItem>
+          <castItem><role xml:id="corinne" rend="female inferior">Corinne</role>, Confidente de Mélicerte.</castItem>
+          <castItem><role xml:id="nicandre" rend="male">Nicandre</role>, Berger.</castItem>
+          <castItem><role xml:id="mopse" rend="male">Mopse</role>, Berger, cru Oncle de Mélicerte.</castItem>
         </castList>
-        <stage location="Thessalie" country="Grèce" periode="Temps mythologiques" link="">La scène est en Thessalie, dans la vallée de Tempé.</stage>
+        <stage location="Thessalie" country="Grèce" periode="Temps mythologiques" link="">La Scène est en Thessalie dans la Vallée de Tempé.</stage>
       </div>
     </front>
     <body>
@@ -85,35 +85,35 @@
           <p/>
           <sp who="acante" xml:id="I01-1">
             <speaker>Acante</speaker>
-            <l n="1" xml:id="l1">Ah ! charmante Daphné.</l>
+            <l n="1" xml:id="l1" part="I">Ah ! charmante Daphné.</l>
           </sp>
           <sp who="tyrene" xml:id="I01-2">
             <speaker>Tyrène</speaker>
-            <l>Trop aimable Éroxène.</l>
+            <l part="F">Trop aimable Éroxène.</l>
           </sp>
           <sp who="daphne" xml:id="I01-3">
             <speaker>Daphné</speaker>
-            <l n="2" xml:id="l2">Acante, laisse-moi.</l>
+            <l n="2" xml:id="l2" part="I">Acante, laisse-moi.</l>
           </sp>
           <sp who="eroxene" xml:id="I01-4">
             <speaker>Éroxène</speaker>
-            <l>Ne me suis point, Tyrène.</l>
+            <l part="F">Ne me suis point, Tyrène.</l>
           </sp>
           <sp who="acante" xml:id="I01-5">
             <speaker>Acante</speaker>
-            <l n="3" xml:id="l3">Pourquoi me chasses-tu ?</l>
+            <l n="3" xml:id="l3" part="I">Pourquoi me chasses-tu ?</l>
           </sp>
           <sp who="tyrene" xml:id="I01-6">
             <speaker>Tyrène</speaker>
-            <l>Pourquoi fuis-tu mes pas ?</l>
+            <l part="F">Pourquoi fuis-tu mes pas ?</l>
           </sp>
           <sp who="daphne" xml:id="I01-7">
             <speaker>Daphné</speaker>
-            <l n="4" xml:id="l4">Tu me plais loin de moi.</l>
+            <l n="4" xml:id="l4" part="I">Tu me plais loin de moi.</l>
           </sp>
           <sp who="eroxene" xml:id="I01-8">
             <speaker>Éroxène</speaker>
-            <l>Je m’aime où tu n’es pas.</l>
+            <l part="F">Je m’aime où tu n’es pas.</l>
           </sp>
           <sp who="acante" xml:id="I01-9">
             <speaker>Acante</speaker>
@@ -125,7 +125,7 @@
           </sp>
           <sp who="daphne" xml:id="I01-11">
             <speaker>Daphné</speaker>
-            <l n="7" xml:id="l7">Ne cesseras-tu point tes inutiles vœux.</l>
+            <l n="7" xml:id="l7">Ne cesseras-tu point tes inutiles vœux ?</l>
           </sp>
           <sp who="eroxene" xml:id="I01-12">
             <speaker>Éroxène</speaker>
@@ -177,8 +177,8 @@
           </sp>
           <sp who="daphne" xml:id="I02-2">
             <speaker>Daphné</speaker>
-            <l n="21" xml:id="l21">Tyrène vaut beaucoup, et languit pour tes charmes ?</l>
-            <l n="22" xml:id="l22">D’où vient que sans pitié tu vois couler ses larmes.</l>
+            <l n="21" xml:id="l21">Tyrène vaut beaucoup, et languit pour tes charmes.</l>
+            <l n="22" xml:id="l22">D’où vient que sans pitié tu vois couler ses larmes ?</l>
           </sp>
           <sp who="eroxene" xml:id="I02-3">
             <speaker>Éroxène</speaker>
@@ -243,7 +243,7 @@
           </sp>
           <sp who="daphne" xml:id="I02-14">
             <speaker>Daphné</speaker>
-            <l n="51" xml:id="l51">La méprise est plaisante, et tu te brouilles bien :</l>
+            <l n="51" xml:id="l51">La méprise est plaisante, et tu te brouilles bien,</l>
             <l n="52" xml:id="l52">Au lieu de ton portrait, tu m’as rendu le mien.</l>
           </sp>
           <sp who="eroxene" xml:id="I02-15">
@@ -317,7 +317,7 @@
           <sp who="eroxene" xml:id="I02-31">
             <speaker>Éroxène</speaker>
             <l n="73" xml:id="l73">Il n’est Nymphe en l’aimant qui ne se tînt heureuse,</l>
-            <l n="74" xml:id="l74">Et Diane, sans honte, en serait amoureuse.</l>
+            <l n="74" xml:id="l74">Et Diane sans honte en serait amoureuse.</l>
           </sp>
           <sp who="daphne" xml:id="I02-32">
             <speaker>Daphné</speaker>
@@ -333,8 +333,8 @@
             <speaker>Daphné</speaker>
             <l n="79" xml:id="l79">Ce serait donc en vain qu’à chacune, en ce jour,</l>
             <l n="80" xml:id="l80">On nous voudrait du sein arracher cet amour.</l>
-            <l n="81" xml:id="l81">Nos âmes dans leurs vœux sont trop bien affermies.</l>
-            <l n="82" xml:id="l82">Ne tâchons, s’il se peut, qu’à demeurer amies ;</l>
+            <l n="81" xml:id="l81">Nos âmes dans leurs vœux sont trop bien affermies,</l>
+            <l n="82" xml:id="l82">Ne tâchons, s’il se peut, qu’à demeurer amies.</l>
             <l n="83" xml:id="l83">Et puisque en même temps pour le même sujet,</l>
             <l n="84" xml:id="l84">Nous avons toutes deux formé même projet,</l>
             <l n="85" xml:id="l85">Mettons dans ce débat la franchise en usage,</l>
@@ -349,7 +349,7 @@
             <l n="91" xml:id="l91">Et sa taille, son air, sa parole et ses yeux,</l>
             <l n="92" xml:id="l92">Feraient croire qu’il est issu du sang des Dieux :</l>
             <l n="93" xml:id="l93">Mais enfin j’y souscris, courons trouver ce père,</l>
-            <l n="94" xml:id="l94">Allons -lui de nos cœurs découvrir le mystère,</l>
+            <l n="94" xml:id="l94">Allons-lui de nos cœurs découvrir le mystère,</l>
             <l n="95" xml:id="l95">Et consentons qu’après Myrtil, entre nous deux,</l>
             <l n="96" xml:id="l96">Décide par son choix ce combat de nos vœux.</l>
           </sp>
@@ -365,11 +365,11 @@
           <p/>
           <sp who="nicandre" xml:id="I03-1">
             <speaker>Nicandre</speaker>
-            <l n="99" xml:id="l99">Dis-nous donc ta nouvelle.</l>
+            <l n="99" xml:id="l99" part="I">Dis-nous donc ta nouvelle.</l>
           </sp>
           <sp who="lycarsis" xml:id="I03-2">
             <speaker>Lycarsis</speaker>
-            <l>Ah ! que vous me pressez !</l>
+            <l part="F">Ah ! que vous me pressez !</l>
             <l n="100" xml:id="l100">Cela ne se dit pas comme vous le pensez.</l>
           </sp>
           <sp who="mopse" xml:id="I03-3">
@@ -405,49 +405,49 @@
           <sp who="mopse" xml:id="I03-9">
             <speaker>Mopse</speaker>
             <l n="113" xml:id="l113">La peste soit du fat, laissons-le là, Nicandre,</l>
-            <l n="114" xml:id="l114">Il brûle de parler, bien plus que nous d’entendre ;</l>
-            <l n="115" xml:id="l115">Sa nouvelle lui pèse, il veut s’en décharger ;</l>
-            <l n="116" xml:id="l116">Et ne l’écouter pas est le faire enrager.</l>
+            <l n="114" xml:id="l114">Il brûle de parler, bien plus que nous d’entendre.</l>
+            <l n="115" xml:id="l115">Sa nouvelle lui pèse, il veut s’en décharger,</l>
+            <l n="116" xml:id="l116">Et ne l’écouter pas, est le faire enrager.</l>
           </sp>
           <sp who="lycarsis" xml:id="I03-10">
             <speaker>Lycarsis</speaker>
-            <l n="117" xml:id="l117">Eh.</l>
+            <l n="117" xml:id="l117" part="I">Eh.</l>
           </sp>
           <sp who="nicandre" xml:id="I03-11">
             <speaker>Nicandre</speaker>
-            <l>Te voilà puni de tes façons de faire.</l>
+            <l part="F">Te voilà puni de tes façons de faire.</l>
           </sp>
           <sp who="lycarsis" xml:id="I03-12">
             <speaker>Lycarsis</speaker>
-            <l n="118" xml:id="l118">Je m’en vais vous le dire, écoutez.</l>
+            <l n="118" xml:id="l118" part="I">Je m’en vais vous le dire, écoutez.</l>
           </sp>
           <sp who="mopse" xml:id="I03-13">
             <speaker>Mopse</speaker>
-            <l>Point d’affaires.</l>
+            <l part="F">Point d’affaire.</l>
           </sp>
           <sp who="lycarsis" xml:id="I03-14">
             <speaker>Lycarsis</speaker>
-            <l n="119" xml:id="l119">Quoi ? vous ne voulez pas m’entendre ?</l>
+            <l n="119" xml:id="l119" part="I">Quoi vous ne voulez pas m’entendre ?</l>
           </sp>
           <sp who="nicandre" xml:id="I03-15">
             <speaker>Nicandre</speaker>
-            <l>Non.</l>
+            <l part="M">Non.</l>
           </sp>
           <sp who="lycarsis" xml:id="I03-16">
             <speaker>Lycarsis</speaker>
-            <l>Eh bien</l>
+            <l part="F">Eh bien</l>
             <l n="120" xml:id="l120">Je ne dirai donc mot, et vous ne saurez rien.</l>
           </sp>
           <sp who="mopse" xml:id="I03-17">
             <speaker>Mopse</speaker>
-            <l n="121" xml:id="l121">Soit.</l>
+            <l n="121" xml:id="l121" part="I">Soit.</l>
           </sp>
           <sp who="lycarsis" xml:id="I03-18">
             <speaker>Lycarsis</speaker>
-            <l>Vous ne saurez pas qu’avec magnificence,</l>
+            <l part="F">Vous ne saurez pas qu’avec magnificence,</l>
             <l n="122" xml:id="l122">Le Roi vient d’honorer Tempé de sa présence :</l>
             <l n="123" xml:id="l123">Qu’il entra dans Larisse hier sur le haut du jour :</l>
-            <l n="124" xml:id="l124">Qu’à l’aise je l’y vis avec toute sa Cour,</l>
+            <l n="124" xml:id="l124">Qu’à l’aise je l’y vis avec toute sa Cour.</l>
             <l n="125" xml:id="l125">Que ces bois vont jouir aujourd’hui de sa vue,</l>
             <l n="126" xml:id="l126">Et qu’on raisonne fort touchant cette venue.</l>
           </sp>
@@ -460,7 +460,7 @@
             <l n="128" xml:id="l128">Je vis cent choses là ravissantes à voir.</l>
             <l n="129" xml:id="l129">Ce ne sont que Seigneurs, qui des pieds à la tête,</l>
             <l n="130" xml:id="l130">Sont brillants et parés comme au jour d’une fête,</l>
-            <l n="131" xml:id="l131">Ils surprennent la vue, et nos prés au Printemps,</l>
+            <l n="131" xml:id="l131">Ils surprennent la vue et nos prés au Printemps</l>
             <l n="132" xml:id="l132">Avec toutes leurs fleurs sont bien moins éclatants.</l>
             <l n="133" xml:id="l133">Pour le Prince entre tous, sans peine on le remarque,</l>
             <l n="134" xml:id="l134">Et d’une stade loin, il sent son grand Monarque,</l>
@@ -485,11 +485,11 @@
           </sp>
           <sp who="lycarsis" xml:id="I03-22">
             <speaker>Lycarsis</speaker>
-            <l n="150" xml:id="l150">Allez vous promener.</l>
+            <l n="150" xml:id="l150" part="I">Allez vous promener.</l>
           </sp>
           <sp who="mopse" xml:id="I03-23">
             <speaker>Mopse</speaker>
-            <l>Va-t’en te faire pendre.</l>
+            <l part="F">Va-t’en te faire pendre.</l>
           </sp>
         </div>
         <div xml:id="I04" type="scene">
@@ -534,19 +534,19 @@
           </sp>
           <sp who="lycarsis" xml:id="I04-9">
             <speaker>Lycarsis</speaker>
-            <l n="163" xml:id="l163">Nymphes...</l>
+            <l n="163" xml:id="l163" part="I">Nymphes…</l>
           </sp>
           <sp who="daphne" xml:id="I04-10">
             <speaker>Daphné</speaker>
-            <l>Pour ce bien seul nous poussons des soupirs.</l>
+            <l part="F">Pour ce bien seul nous poussons des soupirs.</l>
           </sp>
           <sp who="lycarsis" xml:id="I04-11">
             <speaker>Lycarsis</speaker>
-            <l n="164" xml:id="l164">Je suis...</l>
+            <l n="164" xml:id="l164" part="I">Je suis…</l>
           </sp>
           <sp who="eroxene" xml:id="I04-12">
             <speaker>Éroxène</speaker>
-            <l>À ce bonheur tendent tous nos désirs.</l>
+            <l part="F">À ce bonheur tendent tous nos désirs.</l>
           </sp>
           <sp who="daphne" xml:id="I04-13">
             <speaker>Daphné</speaker>
@@ -554,28 +554,28 @@
           </sp>
           <sp who="lycarsis" xml:id="I04-14">
             <speaker>Lycarsis</speaker>
-            <l n="166" xml:id="l166">Pourquoi.</l>
+            <l n="166" xml:id="l166" part="I">Pourquoi.</l>
           </sp>
           <sp who="eroxene" xml:id="I04-15">
             <speaker>Éroxène</speaker>
-            <l>La bienséance y semble un peu blessée.</l>
+            <l part="F">La bienséance y semble un peu blessée.</l>
           </sp>
           <sp who="lycarsis" xml:id="I04-16">
             <speaker>Lycarsis</speaker>
-            <l n="167" xml:id="l167">Ah point.</l>
+            <l n="167" xml:id="l167" part="I">Ah point.</l>
           </sp>
           <sp who="daphne" xml:id="I04-17">
             <speaker>Daphné</speaker>
-            <l>Mais quand le cœur brûle d’un noble feu,</l>
+            <l part="F">Mais quand le cœur brûle d’un noble feu,</l>
             <l n="168" xml:id="l168">On peut sans nulle honte en faire un libre aveu.</l>
           </sp>
           <sp who="lycarsis" xml:id="I04-18">
             <speaker>Lycarsis</speaker>
-            <l n="169" xml:id="l169">Je...</l>
+            <l n="169" xml:id="l169" part="I">Je…</l>
           </sp>
           <sp who="eroxene" xml:id="I04-19">
             <speaker>Éroxène</speaker>
-            <l>Cette liberté nous peut être permise,</l>
+            <l part="F">Cette liberté nous peut être permise,</l>
             <l n="170" xml:id="l170">Et du choix de nos cœurs la beauté l’autorise.</l>
           </sp>
           <sp who="lycarsis" xml:id="I04-20">
@@ -600,11 +600,11 @@
           </sp>
           <sp who="lycarsis" xml:id="I04-25">
             <speaker>Lycarsis</speaker>
-            <l n="176" xml:id="l176">Ah.</l>
+            <l n="176" xml:id="l176" part="I">Ah.</l>
           </sp>
           <sp who="eroxene" xml:id="I04-26">
             <speaker>Éroxène</speaker>
-            <l>Nos vœux, dites-moi, seront-ils rejetés ?</l>
+            <l part="F">Nos vœux, dites-moi, seront-ils rejetés ?</l>
           </sp>
           <sp who="lycarsis" xml:id="I04-27">
             <speaker>Lycarsis</speaker>
@@ -623,11 +623,11 @@
           </sp>
           <sp who="lycarsis" xml:id="I04-30">
             <speaker>Lycarsis</speaker>
-            <l n="183" xml:id="l183">Myrtil ?</l>
+            <l n="183" xml:id="l183" part="I">Myrtil ?</l>
           </sp>
           <sp who="daphne" xml:id="I04-31">
             <speaker>Daphné</speaker>
-            <l>Oui, c’est Myrtil que de vous nous voulons.</l>
+            <l part="F">Oui, c’est Myrtil que de vous nous voulons.</l>
           </sp>
           <sp who="eroxene" xml:id="I04-32">
             <speaker>Éroxène</speaker>
@@ -672,11 +672,11 @@
           </sp>
           <sp who="eroxene" xml:id="I04-38">
             <speaker>Éroxène</speaker>
-            <l n="207" xml:id="l207">Ils pourraient bien s’aimer, et je vois...</l>
+            <l n="207" xml:id="l207" part="I">Ils pourraient bien s’aimer, et je vois…</l>
           </sp>
           <sp who="lycarsis" xml:id="I04-39">
             <speaker>Lycarsis</speaker>
-            <l>Franc abus.</l>
+            <l part="F">Franc abus.</l>
             <l n="208" xml:id="l208">Pour elle passe encore, elle a deux ans de plus,</l>
             <l n="209" xml:id="l209">Et deux ans dans son sexe est une grande avance.</l>
             <l n="210" xml:id="l210">Mais pour lui, le jeu seul l’occupe tout, je pense,</l>
@@ -704,7 +704,7 @@
             <l n="223" xml:id="l223">Et celle qu’à l’écart laissera cet arrêt,</l>
             <l n="224" xml:id="l224">Pourra pour son recours m’épouser, s’il lui plaît.</l>
             <l n="225" xml:id="l225">C’est toujours même sang et presque même chose.</l>
-            <l n="226" xml:id="l226">Mais le voici ; souffrez qu’un peu je le dispose,</l>
+            <l n="226" xml:id="l226">Mais le voici, souffrez qu’un peu je le dispose,</l>
             <l n="227" xml:id="l227">Il tient quelque moineau qu’il a pris fraîchement.</l>
             <l n="228" xml:id="l228">Et voilà ses amours et son attachement.</l>
           </sp>
@@ -715,18 +715,22 @@
           <p/>
           <sp who="myrtil" xml:id="I05-1">
             <speaker>Myrtil</speaker>
+            <lg>
             <l n="229" xml:id="l229">Innocente petite bête,</l>
             <l n="230" xml:id="l230">Qui contre ce qui vous arrête,</l>
             <l n="231" xml:id="l231">Vous débattez tant à mes yeux,</l>
             <l n="232" xml:id="l232">De votre liberté ne plaignez point la perte,</l>
             <l n="233" xml:id="l233">Votre destin est glorieux,</l>
             <l n="234" xml:id="l234">Je vous ai pris pour Mélicerte.</l>
+            </lg>
+            <lg>
             <l n="235" xml:id="l235">Elle vous baisera, vous prenant dans sa main,</l>
-            <l n="236" xml:id="l236">Et de vous mettre en son sein</l>
+            <l n="236" xml:id="l236">Et de vous mettre en son sein,</l>
             <l n="237" xml:id="l237">Elle vous fera la grâce.</l>
             <l n="238" xml:id="l238">Est-il un sort au monde et plus doux et plus beau ?</l>
             <l n="239" xml:id="l239">Et qui des Rois, hélas, heureux petit moineau,</l>
             <l n="240" xml:id="l240">Ne voudrait être en votre place ?</l>
+            </lg>
           </sp>
           <sp who="lycarsis" xml:id="I05-2">
             <speaker>Lycarsis</speaker>
@@ -739,11 +743,11 @@
           </sp>
           <sp who="myrtil" xml:id="I05-3">
             <speaker>Myrtil</speaker>
-            <l n="247" xml:id="l247">Ces Nymphes....</l>
+            <l n="247" xml:id="l247" part="I">Ces Nymphes…</l>
           </sp>
           <sp who="lycarsis" xml:id="I05-4">
             <speaker>Lycarsis</speaker>
-            <l>Oui ; des deux tu peux en choisir une ;</l>
+            <l part="F">Oui ; des deux tu peux en choisir une ;</l>
             <l n="248" xml:id="l248">Vois quel est ton bonheur, et bénis la fortune.</l>
           </sp>
           <sp who="myrtil" xml:id="I05-5">
@@ -817,7 +821,7 @@
           </sp>
           <sp who="lycarsis" xml:id="I05-16">
             <speaker>Lycarsis</speaker>
-            <l n="285" xml:id="l285">Comment donc ? Qu’est-ce ci ? Qui l’eût pu présumer ?</l>
+            <l n="285" xml:id="l285">Comment donc ? qu’est-ce ci ? qui l’eût pu présumer ?</l>
             <l n="286" xml:id="l286">Et savez-vous, morveux, ce que c’est que d’aimer ?</l>
           </sp>
           <sp who="myrtil" xml:id="I05-17">
@@ -868,17 +872,17 @@
           <sp who="lycarsis" xml:id="I05-28">
             <speaker>Lycarsis</speaker>
             <l n="299" xml:id="l299">Les Dieux… Paix, petit sot, cette philosophie</l>
-            <l n="300" xml:id="l300">Me...</l>
+            <l n="300" xml:id="l300" part="I">Me…</l>
           </sp>
           <sp who="daphne" xml:id="I05-29">
             <speaker>Daphné</speaker>
-            <l>Ne vous mettez point en courroux, je vous prie.</l>
+            <l part="F">Ne vous mettez point en courroux, je vous prie.</l>
           </sp>
           <sp who="lycarsis" xml:id="I05-30">
             <speaker>Lycarsis</speaker>
-            <l n="301" xml:id="l301">Non : je veux qu’il se donne à l’une pour époux,</l>
+            <l n="301" xml:id="l301">Non, je veux qu’il se donne à l’une pour époux,</l>
             <l n="302" xml:id="l302">Ou je vais lui donner le fouet tout devant vous :</l>
-            <l n="303" xml:id="l303">Ah ! ah ! je vous ferai sentir que je suis père.</l>
+            <l n="303" xml:id="l303">Ah, ah, je vous ferai sentir que je suis père.</l>
           </sp>
           <sp who="daphne" xml:id="I05-31">
             <speaker>Daphné</speaker>
@@ -928,6 +932,7 @@
             <l n="329" xml:id="l329">Ne vous effrayez point de tous ces vains transports,</l>
             <l n="330" xml:id="l330">Vous l’aurez pour époux, j’en réponds corps pour corps.</l>
           </sp>
+          <label rend="i">Fin du premier Acte.</label>
         </div>
       </div>
       <div>
@@ -943,20 +948,20 @@
           </sp>
           <sp who="corinne" xml:id="II01-2">
             <speaker>Corinne</speaker>
-            <l n="333" xml:id="l333">Oui.</l>
+            <l n="333" xml:id="l333" part="I">Oui.</l>
           </sp>
           <sp who="melicerte" xml:id="II01-3">
             <speaker>Mélicerte</speaker>
-            <l>Que les qualités, dont Myrtil est orné,</l>
-            <l n="334" xml:id="l334">Ont su toucher d’amour Éroxène et Daphné ?</l>
+            <l part="F">Que les qualités, dont Myrtil est orné,</l>
+            <l n="334" xml:id="l334">Ont su toucher d’amour Éroxène et Daphné.</l>
           </sp>
           <sp who="corinne" xml:id="II01-4">
             <speaker>Corinne</speaker>
-            <l n="335" xml:id="l335">Oui.</l>
+            <l n="335" xml:id="l335" part="I">Oui.</l>
           </sp>
           <sp who="melicerte" xml:id="II01-5">
             <speaker>Mélicerte</speaker>
-            <l>Que pour l’obtenir leur ardeur est si grande,</l>
+            <l part="F">Que pour l’obtenir leur ardeur est si grande,</l>
             <l n="336" xml:id="l336">Qu’ensemble elles en ont déjà fait la demande,</l>
             <l n="337" xml:id="l337">Et que dans ce débat elles ont fait dessein</l>
             <l n="338" xml:id="l338">De passer dès cette heure à recevoir sa main.</l>
@@ -983,11 +988,11 @@
           </sp>
           <sp who="corinne" xml:id="II01-10">
             <speaker>Corinne</speaker>
-            <l n="347" xml:id="l347">Comment ?</l>
+            <l n="347" xml:id="l347" part="I">Comment ?</l>
           </sp>
           <sp who="melicerte" xml:id="II01-11">
             <speaker>Mélicerte</speaker>
-            <l>Me mettre aux yeux que le sort implacable</l>
+            <l part="F">Me mettre aux yeux que le sort implacable</l>
             <l n="348" xml:id="l348">Auprès d’elles me rend trop peu considérable,</l>
             <l n="349" xml:id="l349">Et qu’à moi par leur rang on les va préférer,</l>
             <l n="350" xml:id="l350">N’est-ce pas une idée à me désespérer ?</l>
@@ -1003,16 +1008,16 @@
           </sp>
           <sp who="corinne" xml:id="II01-14">
             <speaker>Corinne</speaker>
-            <l n="354" xml:id="l354">Je ne sais.</l>
+            <l n="354" xml:id="l354" part="I">Je ne sais.</l>
           </sp>
           <sp who="melicerte" xml:id="II01-15">
             <speaker>Mélicerte</speaker>
-            <l>Et c’est là ce qu’il fallait savoir,</l>
-            <l n="355" xml:id="l355">Cruelle.</l>
+            <l part="F">Et c’est là ce qu’il fallait savoir,</l>
+            <l n="355" xml:id="l355" part="I">Cruelle.</l>
           </sp>
           <sp who="corinne" xml:id="II01-16">
             <speaker>Corinne</speaker>
-            <l>En vérité, je ne sais comment faire,</l>
+            <l part="F">En vérité, je ne sais comment faire,</l>
             <l n="356" xml:id="l356">Et de tous les côtés je trouve à vous déplaire.</l>
           </sp>
           <sp who="melicerte" xml:id="II01-17">
@@ -1030,13 +1035,13 @@
             <l n="361" xml:id="l361">Vous le voyez, mon cœur, ce que c’est que d’aimer,</l>
             <l n="362" xml:id="l362">Et Bélise avait su trop bien m’en informer.</l>
             <l n="363" xml:id="l363">Cette charmante mère avant sa destinée,</l>
-            <l n="364" xml:id="l364">Me disait une fois, sur le bord du Pénée.</l>
-            <l n="365" xml:id="l365">Ma fille, songe à toi, l’amour aux jeunes cœurs</l>
-            <l n="366" xml:id="l366">Se présente toujours entouré de douceurs.</l>
-            <l n="367" xml:id="l367">D’abord il n’offre aux yeux que choses agréables :</l>
-            <l n="368" xml:id="l368">Mais il traîne après lui des troubles effroyables.</l>
-            <l n="369" xml:id="l369">Et si tu veux passer tes jours dans quelque paix,</l>
-            <l n="370" xml:id="l370">Toujours comme d’un mal défends-toi de ses traits.</l>
+            <l n="364" xml:id="l364">Me disait une fois, sur le bord du Pénée,</l>
+            <l n="365" xml:id="l365" rend="i">Ma fille, songe à toi, l’amour aux jeunes cœurs</l>
+            <l n="366" xml:id="l366" rend="i">Se présente toujours entouré de douceurs.</l>
+            <l n="367" xml:id="l367" rend="i">D’abord il n’offre aux yeux que choses agréables :</l>
+            <l n="368" xml:id="l368" rend="i">Mais il traîne après lui des troubles effroyables.</l>
+            <l n="369" xml:id="l369" rend="i">Et si tu veux passer tes jours dans quelque paix,</l>
+            <l n="370" xml:id="l370" rend="i">Toujours comme d’un mal défends-toi de ses traits.</l>
             <l n="371" xml:id="l371">De ces leçons, mon cœur, je m’étais souvenue :</l>
             <l n="372" xml:id="l372">Et quand Myrtil venait à s’offrir à ma vue,</l>
             <l n="373" xml:id="l373">Qu’il jouait avec moi, qu’il me rendait des soins,</l>
@@ -1050,7 +1055,7 @@
             <l n="381" xml:id="l381">Et la peine mortelle où vous voilà réduit !</l>
             <l n="382" xml:id="l382">Ah, mon cœur ! ah, mon cœur ! je vous l’avais bien dit :</l>
             <l n="383" xml:id="l383">Mais tenons, s’il se peut, notre douleur couverte.</l>
-            <l n="384" xml:id="l384">Voici...</l>
+            <l n="384" xml:id="l384" part="I">Voici…</l>
           </sp>
         </div>
         <div xml:id="II03" type="scene">
@@ -1059,12 +1064,12 @@
           <p/>
           <sp who="myrtil" xml:id="II03-1">
             <speaker>Myrtil</speaker>
-            <l>J’ai fait tantôt, charmante Mélicerte,</l>
+            <l part="F">J’ai fait tantôt, charmante Mélicerte,</l>
             <l n="385" xml:id="l385">Un petit prisonnier que je garde pour vous,</l>
             <l n="386" xml:id="l386">Et dont peut-être un jour je deviendrai jaloux.</l>
             <l n="387" xml:id="l387">C’est un jeune Moineau, qu’avec un soin extrême</l>
             <l n="388" xml:id="l388">Je veux pour vous l’offrir apprivoiser moi-même.</l>
-            <l n="389" xml:id="l389">Le présent n’est pas grand : mais les divinités</l>
+            <l n="389" xml:id="l389">Le présent n’est pas grand ; mais les divinités</l>
             <l n="390" xml:id="l390">Ne jettent leurs regards que sur les volontés.</l>
             <l n="391" xml:id="l391">C’est le cœur qui fait tout, et jamais la richesse</l>
             <l n="392" xml:id="l392">Des présents que… Mais, Ciel, d’où vient cette tristesse ?</l>
@@ -1073,15 +1078,15 @@
             <l n="395" xml:id="l395">Vous ne répondez point ? et ce morne silence</l>
             <l n="396" xml:id="l396">Redouble encor ma peine et mon impatience.</l>
             <l n="397" xml:id="l397">Parlez, de quel ennui ressentez-vous les coups ?</l>
-            <l n="398" xml:id="l398">Qu’est-ce donc ?</l>
+            <l n="398" xml:id="l398" part="I">Qu’est-ce donc ?</l>
           </sp>
           <sp who="melicerte" xml:id="II03-2">
             <speaker>Mélicerte</speaker>
-            <l>Ce n’est rien.</l>
+            <l part="M">Ce n’est rien.</l>
           </sp>
           <sp who="myrtil" xml:id="II03-3">
             <speaker>Myrtil</speaker>
-            <l>Ce n’est rien, dites-vous ?</l>
+            <l part="F">Ce n’est rien, dites-vous ?</l>
             <l n="399" xml:id="l399">Et je vois cependant vos yeux couverts de larmes,</l>
             <l n="400" xml:id="l400">Cela s’accorde-t-il, beauté pleine de charmes ?</l>
             <l n="401" xml:id="l401">Ah, ne me faites point un secret dont je meurs,</l>
@@ -1110,7 +1115,7 @@
           </sp>
           <sp who="myrtil" xml:id="II03-7">
             <speaker>Myrtil</speaker>
-            <l n="415" xml:id="l415">Et vous pouvez l’avoir, cette injuste tristesse !</l>
+            <l n="415" xml:id="l415">Et vous pouvez l’avoir, cette injuste tristesse,</l>
             <l n="416" xml:id="l416">Vous pouvez soupçonner mon amour de faiblesse,</l>
             <l n="417" xml:id="l417">Et croire qu’engagé par des charmes si doux,</l>
             <l n="418" xml:id="l418">Je puisse être jamais à quelque autre qu’à vous ?</l>
@@ -1130,7 +1135,7 @@
             <l n="429" xml:id="l429">Et dans un rang pareil j’oserais espérer,</l>
             <l n="430" xml:id="l430">Que peut-être l’Amour me ferait préférer :</l>
             <l n="431" xml:id="l431">Mais l’inégalité de bien et de naissance,</l>
-            <l n="432" xml:id="l432">Qui peut d’elles à moi faire la différence....</l>
+            <l n="432" xml:id="l432">Qui peut d’elles à moi faire la différence…</l>
           </sp>
           <sp who="myrtil" xml:id="II03-9">
             <speaker>Myrtil</speaker>
@@ -1152,17 +1157,17 @@
             <l n="445" xml:id="l445">Mais ce n’est pas l’Amour dont vous suivez la voix,</l>
             <l n="446" xml:id="l446">Votre père, Myrtil, réglera votre choix,</l>
             <l n="447" xml:id="l447">Et de même qu’à vous je ne lui suis pas chère,</l>
-            <l n="448" xml:id="l448">Pour préférer à tout une simple bergère.</l>
+            <l n="448" xml:id="l448">Pour préférer à tout une simple Bergère.</l>
           </sp>
           <sp who="myrtil" xml:id="II03-11">
             <speaker>Myrtil</speaker>
             <l n="449" xml:id="l449">Non, chère Mélicerte, il n’est père ni Dieux</l>
             <l n="450" xml:id="l450">Qui me puissent forcer à quitter vos beaux yeux,</l>
-            <l n="451" xml:id="l451">Et toujours de mes vœux, Reine comme vous êtes...</l>
+            <l n="451" xml:id="l451">Et toujours de mes vœux, Reine comme vous êtes…</l>
           </sp>
           <sp who="melicerte" xml:id="II03-12">
             <speaker>Mélicerte</speaker>
-            <l n="452" xml:id="l452">Ah ! Myrtil, prenez garde à ce qu’ici vous faites,</l>
+            <l n="452" xml:id="l452">Ah, Myrtil, prenez garde à ce qu’ici vous faites,</l>
             <l n="453" xml:id="l453">N’allez point présenter un espoir à mon cœur,</l>
             <l n="454" xml:id="l454">Qu’il recevrait peut-être avec trop de douceur,</l>
             <l n="455" xml:id="l455">Et qui tombant après comme un éclair qui passe,</l>
@@ -1176,18 +1181,18 @@
             <l n="460" xml:id="l460">Et connaissez bien peu le pouvoir de vos charmes.</l>
             <l n="461" xml:id="l461">Hé bien, puisqu’il le faut, je jure par les Dieux,</l>
             <l n="462" xml:id="l462">Et si ce n’est assez, je jure par vos yeux,</l>
-            <l n="463" xml:id="l463">Qu’on me tuera plutôt que je vous abandonne ;</l>
+            <l n="463" xml:id="l463">Qu’on me tuera plutôt que je vous abandonne,</l>
             <l n="464" xml:id="l464">Recevez-en ici la foi que je vous donne,</l>
             <l n="465" xml:id="l465">Et souffrez que ma bouche avec ravissement,</l>
             <l n="466" xml:id="l466">Sur cette belle main en signe le serment.</l>
           </sp>
           <sp who="melicerte" xml:id="II03-14">
             <speaker>Mélicerte</speaker>
-            <l n="467" xml:id="l467">Ah ! Myrtil, levez-vous, de peur qu’on ne vous voie.</l>
+            <l n="467" xml:id="l467">Ah, Myrtil, levez-vous, de peur qu’on ne vous voie.</l>
           </sp>
           <sp who="myrtil" xml:id="II03-15">
             <speaker>Myrtil</speaker>
-            <l n="468" xml:id="l468">Est-il rien.… Mais, ô Ciel, on vient troubler ma joie.</l>
+            <l n="468" xml:id="l468">Est-il rien… Mais, ô Ciel, on vient troubler ma joie.</l>
           </sp>
         </div>
         <div xml:id="II04" type="scene">
@@ -1196,11 +1201,11 @@
           <p/>
           <sp who="lycarsis" xml:id="II04-1">
             <speaker>Lycarsis</speaker>
-            <l n="469" xml:id="l469">Ne vous contraignez pas pour moi.</l>
+            <l n="469" xml:id="l469" part="I">Ne vous contraignez pas pour moi.</l>
           </sp>
           <sp who="melicerte" xml:id="II04-2">
             <speaker>Mélicerte</speaker>
-            <l>Quel sort fâcheux.</l>
+            <l part="F">Quel sort fâcheux.</l>
           </sp>
           <sp who="lycarsis" xml:id="II04-3">
             <speaker>Lycarsis</speaker>
@@ -1221,7 +1226,7 @@
           </sp>
           <sp who="lycarsis" xml:id="II04-5">
             <speaker>Lycarsis</speaker>
-            <l n="481" xml:id="l481">Je veux lui parler moi, toutes ces amitiés...</l>
+            <l n="481" xml:id="l481">Je veux lui parler moi, toutes ces amitiés…</l>
           </sp>
           <sp who="myrtil" xml:id="II04-6">
             <speaker>Myrtil</speaker>
@@ -1295,7 +1300,7 @@
           </sp>
           <sp who="myrtil" xml:id="II05-5">
             <speaker>Myrtil</speaker>
-            <l n="529" xml:id="l529">Voyez ; me voulez-vous ordonner de mourir ?</l>
+            <l n="529" xml:id="l529">Voyez, me voulez-vous ordonner de mourir ?</l>
             <l n="530" xml:id="l530">Vous n’avez qu’à parler, je suis prêt d’obéir.</l>
           </sp>
           <sp who="lycarsis" xml:id="II05-6">
@@ -1312,37 +1317,37 @@
           </sp>
           <sp who="lycarsis" xml:id="II05-8">
             <speaker>Lycarsis</speaker>
-            <l n="537" xml:id="l537">Lève-toi.</l>
+            <l n="537" xml:id="l537" part="I">Lève-toi.</l>
           </sp>
           <sp who="myrtil" xml:id="II05-9">
             <speaker>Myrtil</speaker>
-            <l>Serez-vous sensible à mes soupirs ?</l>
+            <l part="F">Serez-vous sensible à mes soupirs ?</l>
           </sp>
           <sp who="lycarsis" xml:id="II05-10">
             <speaker>Lycarsis</speaker>
-            <l n="538" xml:id="l538">Oui.</l>
+            <l n="538" xml:id="l538" part="I">Oui.</l>
           </sp>
           <sp who="myrtil" xml:id="II05-11">
             <speaker>Myrtil</speaker>
-            <l>J’obtiendrai de vous l’objet de mes désirs.</l>
+            <l part="F">J’obtiendrai de vous l’objet de mes désirs ?</l>
           </sp>
           <sp who="lycarsis" xml:id="II05-12">
             <speaker>Lycarsis</speaker>
-            <l n="539" xml:id="l539">Oui.</l>
+            <l n="539" xml:id="l539" part="I">Oui.</l>
           </sp>
           <sp who="myrtil" xml:id="II05-13">
             <speaker>Myrtil</speaker>
-            <l>Vous ferez pour moi que son Oncle l’oblige</l>
-            <l n="540" xml:id="l540">À me donner sa main ?</l>
+            <l part="F">Vous ferez pour moi que son Oncle l’oblige</l>
+            <l n="540" xml:id="l540" part="I">À me donner sa main ?</l>
           </sp>
           <sp who="lycarsis" xml:id="II05-14">
             <speaker>Lycarsis</speaker>
-            <l>Oui, lève-toi, te dis-je.</l>
+            <l part="F">Oui, lève-toi, te dis-je.</l>
           </sp>
           <sp who="myrtil" xml:id="II05-15">
             <speaker>Myrtil</speaker>
             <l n="541" xml:id="l541">Ô Père, le meilleur qui jamais ait été,</l>
-            <l n="542" xml:id="l542">Que je baise vos mains après tant de bonté.</l>
+            <l n="542" xml:id="l542">Que je baise vos mains, après tant de bonté.</l>
           </sp>
           <sp who="lycarsis" xml:id="II05-16">
             <speaker>Lycarsis</speaker>
@@ -1358,23 +1363,23 @@
           </sp>
           <sp who="lycarsis" xml:id="II05-18">
             <speaker>Lycarsis</speaker>
-            <l n="549" xml:id="l549">Non.</l>
+            <l n="549" xml:id="l549" part="I">Non.</l>
           </sp>
           <sp who="myrtil" xml:id="II05-19">
             <speaker>Myrtil</speaker>
-            <l>Me permettez-vous de vous désobéir,</l>
+            <l part="F">Me permettez-vous de vous désobéir,</l>
             <l n="550" xml:id="l550">Si de ces sentiments on vous fait revenir :</l>
-            <l n="551" xml:id="l551">Prononcez le mot.</l>
+            <l n="551" xml:id="l551" part="I">Prononcez le mot.</l>
           </sp>
           <sp who="lycarsis" xml:id="II05-20">
             <speaker>Lycarsis</speaker>
-            <l>Oui. Ha, nature ! nature,</l>
+            <l part="F">Oui. Ha, nature ! nature,</l>
             <l n="552" xml:id="l552">Je m’en vais trouver Mopse, et lui faire ouverture</l>
             <l n="553" xml:id="l553">De l’amour que sa Nièce, et toi, vous vous portez.</l>
           </sp>
           <sp who="myrtil" xml:id="II05-21">
             <speaker>Myrtil</speaker>
-            <l n="554" xml:id="l554">Ah, que ne dois-je point à vos rares bontés :</l>
+            <l n="554" xml:id="l554">Ah, que ne dois-je point à vos rares bontés !</l>
             <l n="555" xml:id="l555">Quelle heureuse nouvelle à dire à Mélicerte,</l>
             <l n="556" xml:id="l556">Je n’accepterais pas une Couronne offerte,</l>
             <l n="557" xml:id="l557">Pour le plaisir que j’ai de courir lui porter,</l>
@@ -1420,11 +1425,11 @@
           </sp>
           <sp who="acante" xml:id="II06-6">
             <speaker>Acante</speaker>
-            <l n="577" xml:id="l577">Ah, Myrtil, se peut-il que deux tristes Amants...</l>
+            <l n="577" xml:id="l577">Ah, Myrtil, se peut-il que deux tristes Amants…</l>
           </sp>
           <sp who="tyrene" xml:id="II06-7">
             <speaker>Tyrène</speaker>
-            <l n="578" xml:id="l578">Est-il vrai que le Ciel sensible à nos tourments... ?</l>
+            <l n="578" xml:id="l578">Est-il vrai que le Ciel sensible à nos tourments…</l>
           </sp>
           <sp who="myrtil" xml:id="II06-8">
             <speaker>Myrtil</speaker>
@@ -1454,19 +1459,19 @@
           </sp>
           <sp who="myrtil" xml:id="II07-2">
             <speaker>Myrtil</speaker>
-            <l n="588" xml:id="l588">Comment ?</l>
+            <l n="588" xml:id="l588" part="I">Comment ?</l>
           </sp>
           <sp who="nicandre" xml:id="II07-3">
             <speaker>Nicandre</speaker>
-            <l>En diligence elle est partout cherchée.</l>
+            <l part="F">En diligence elle est partout cherchée.</l>
           </sp>
           <sp who="myrtil" xml:id="II07-4">
             <speaker>Myrtil</speaker>
-            <l n="589" xml:id="l589">Et pourquoi ?</l>
+            <l n="589" xml:id="l589" part="I">Et pourquoi ?</l>
           </sp>
           <sp who="nicandre" xml:id="II07-5">
             <speaker>Nicandre</speaker>
-            <l>Nous allons perdre cette beauté.</l>
+            <l part="F">Nous allons perdre cette beauté.</l>
             <l n="590" xml:id="l590">C’est pour elle qu’ici le Roi s’est transporté,</l>
             <l n="591" xml:id="l591">Avec un grand Seigneur on dit qu’il la marie.</l>
           </sp>
@@ -1479,7 +1484,7 @@
             <l n="593" xml:id="l593">Ce sont des incidents grands et mystérieux :</l>
             <l n="594" xml:id="l594">Oui, le Roi vient chercher Mélicerte en ces lieux ;</l>
             <l n="595" xml:id="l595">Et l’on dit qu’autrefois feu Bélise sa mère,</l>
-            <l n="596" xml:id="l596">Dont tout Tempé croyait que Mopse était le frère :</l>
+            <l n="596" xml:id="l596">Dont tout Tempé croyait que Mopse était le frère…</l>
             <l n="597" xml:id="l597">Mais je me suis chargé de la chercher partout,</l>
             <l n="598" xml:id="l598">Vous saurez tout cela tantôt de bout en bout.</l>
           </sp>
@@ -1491,8 +1496,8 @@
             <speaker>Acante</speaker>
             <l n="600" xml:id="l600">Suivons aussi ses pas, afin de tout apprendre.</l>
           </sp>
-          <stage>Fin du second Acte.</stage>
-          <stage>Cette Comédie n’a point été achevée, il n’y avaitque ces deux Actes de faits lorsque le Roi la demanda. Sa Majesté en ayant été satisfaite pour la Fête où elle fut représentée, le Sieur de Molière ne l’a point finie.</stage>
+          <label>Fin du second Acte.</label>
+          <label>Cette Comédie n’a point été achevée, il n’y avait que ces deux Actes de faits lorsque le Roi la demanda. Sa Majesté en ayant été satisfaite pour la Fête où elle fut représentée, le Sieur de Molière ne l’a point finie.</label>
         </div>
       </div>
     </body>
