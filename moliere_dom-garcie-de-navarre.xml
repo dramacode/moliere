@@ -13,7 +13,15 @@
         <edition>OBVIL</edition>
         <respStmt>
           <name>Paul Fièvre</name>
-          <resp>édition TEI</resp>
+          <resp>2011, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Amélie Canu</name>
+          <resp>2014, édition TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Oriane Morvan</name>
+          <resp>2014, édition TEI</resp>
         </respStmt>
         <respStmt>
           <name>Frédéric Glorieux</name>
@@ -22,10 +30,19 @@
       </editionStmt>
       <publicationStmt>
         <publisher>LABEX OBVIL</publisher>
-        <availability status="restricted"/>
+        <date when="2006"/>
+        <date when="2014"/>
+        <availability status="restricted">
+          <licence target="projet-Molière"/>
+        </availability>
+        <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/moliere_don-garcie-de-navarre/</idno>
+        <idno type="tei">http://svn.code.sf.net/p/theatre-classique/code/documents/moliere_don-garcie-de-navarre.xml</idno>
       </publicationStmt>
       <sourceDesc>
-        <p/>
+        <bibl>
+          <author>Molière</author>
+          <title>Don Garcie de Navarre ou Le Prince jaloux. Comédie</title>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -46,39 +63,27 @@
   <text>
     <front>
       <titlePage>
-        <label rend="center">DOM  GARCIE</label>
-        <label rend="center"/>
-        <label rend="center">DE NAVARRE</label>
-        <label rend="center"/>
-        <label rend="center">OU</label>
-        <label rend="center"/>
-        <label rend="center">LE PRINCE JALOUX</label>
-        <label rend="center"/>
-        <label rend="center i">COMÉDIE</label>
-        <label rend="center i"/>
-        <label rend="center">PAR J.B.P. MOLIÈRE</label>
-        <label rend="center"/>
-        <label rend="center i">Représentée pour la première fois, le quatrième Février 1661. Sur le Théâtre</label>
-        <label rend="center i">de la salle du Palais-Royal.</label>
-        <label rend="center i"/>
-        <label rend="center i"/>
-        <label rend="center">Par la Troupe de MONSIEUR,</label>
-        <label rend="center">Frère unique du Roi.</label>
+        <docTitle>
+          <titlePart type="main">DON GARCIE <lb/>DE NAVARRE</titlePart>
+          <titlePart type="alt">OU<lb/>LE PRINCE JALOUX,</titlePart>
+          <titlePart type="sub">COMÉDIE</titlePart>
+        </docTitle>
+        <docAuthor>PAR J. B. P. MOLIÈRE</docAuthor>
+        <docEdition><hi rend="i">Représentée pour la première fois, <lb/>le quatrième Février 1661 sur le Théâtre<lb/> de la Salle du Palais-Royal</hi><lb/>Par la Troupe de MONSIEUR, <lb/>Frère unique du Roi</docEdition>
       </titlePage>
       <div>
         <head>ACTEURS</head>
         <castList>
-          <castItem><role xml:id="dom-garcie" rend="male junior">Dom Garcie</role>, prince de Navarre, amant d’Elvire.</castItem>
-          <castItem><role xml:id="dona-elvire" rend="female junior">Elvire</role>, princesse de Léon.</castItem>
-          <castItem><role xml:id="elise" rend="female inferior">Élise</role>, confidente d'Elvire.</castItem>
-          <castItem><role xml:id="dom-alphonse" rend="male">Dom Alphonse</role>, prince de Léon, cru prince de Castille, sous le nom de Dom Sylve.</castItem>
-          <castItem><role xml:id="dona-ignes" rend="female">Ignès</role>, comtesse, amante de Dom Sylve, aimée de Mauregat, usurpateur de l’Etat de Léon.</castItem>
-          <castItem><role xml:id="dom-alvar" rend="male inferior">Dom Alvar</role>, confident de Dom Garcie, amante d’Elise.</castItem>
-          <castItem><role xml:id="dom-lope"  rend="male inferior">Dom Lope</role>, autre confident de Dom Garcie, amant rebuté d’Elise.</castItem>
-          <castItem><role xml:id="dom-pedre"  rend="male inferior">Dom Pedre</role>, écuyer d’Ignès.</castItem>
-          
+          <castItem><role xml:id="dom-garcie" rend="male junior">Don Garcie</role>, Prince de Navarre, Amant d’Elvire.</castItem>
+          <castItem><role xml:id="dona-elvire" rend="female junior">Elvire</role>, Princesse de Léon.</castItem>
+          <castItem><role xml:id="elise" rend="female inferior">Élise</role>, Confidente d'Elvire.</castItem>
+          <castItem><role xml:id="dom-alphonse" rend="male">Don Alphonse</role>, Prince de Léon, cru Prince de Castille, sous le nom de Don Sylve.</castItem>
+          <castItem><role xml:id="dona-ignes" rend="female">Ignès</role>, Comtesse, Amante de Don Sylve, aimée par Mauregat, Usurpateur de l’État de Léon.</castItem>
+          <castItem><role xml:id="dom-alvar" rend="male inferior">Don Alvar</role>, Confident de Don Garcie, Amant d’Élise.</castItem>
+          <castItem><role xml:id="dom-lope"  rend="male inferior">Don Lope</role>, autre Confident de Don Garcie, Amant rebuté d’Élise.</castItem>
+          <castItem><role xml:id="dom-pedre"  rend="male inferior">Don Pedre</role>, Écuyer d’Ignès.</castItem>
         </castList>
-        <stage>La scène est dans Astorgue, ville d’Espagne, dans le royaume de Léon.</stage>
+        <stage>La Scène est dans Astorgue, Ville d’Espagne, dans le Royaume de Léon.</stage>
       </div>
     </front>
     <body>
