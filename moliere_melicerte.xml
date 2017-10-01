@@ -45,20 +45,15 @@
   <text>
     <front>
       <titlePage>
-        <label rend="center">MÉLICERTE</label>
-        <label rend="center"/>
-        <label rend="center i">COMÉDIE</label>
-        <label rend="center i"/>
-        <label rend="center">PASTORALE HÉROÏQUE.</label>
-        <label rend="center"/>
-        <label rend="center i">Par J.B.P. de MOLIÈRE.</label>
-        <label rend="center i"/>
-        <label rend="center i"> Représentée pour la première fois à S. Germain</label>
-        <label rend="center i">en Laye pour le Roi, au Ballet des</label>
-        <label rend="center i">Muses en Décembre 1666.</label>
-        <label rend="center i"/>
-        <label rend="center i"/>
-        <label rend="center">Par la Troupe du ROI.</label>
+        <docTitle><titlePart>MÉLICERTE</titlePart>
+          <titlePart>  COMÉDIE<lb/>
+          PASTORALE HÉROÏQUE.</titlePart>
+        </docTitle>
+        <docAuthor>Par J.B.P. de MOLIÈRE.</docAuthor>
+        <titlePart> Représentée pour la première fois à S. Germain<lb/>en Laye pour le Roi, au
+          Ballet des<lb/>Muses en Décembre 1666.</titlePart>
+       
+        <titlePart>Par la Troupe du ROI.</titlePart>
       </titlePage>
       <div>
         <head>ACTEUR</head>
@@ -74,8 +69,9 @@
           <castItem><role xml:id="nicandre" rend="male">Nicandre</role>, Berger.</castItem>
           <castItem><role xml:id="mopse" rend="male">Mopse</role>, Berger, cru Oncle de Mélicerte.</castItem>
         </castList>
-        <stage location="Thessalie" country="Grèce" periode="Temps mythologiques" link="">La Scène est en Thessalie dans la Vallée de Tempé.</stage>
-      </div>
+      </div><set><p>La Scène est en Thessalie dans la Vallée de Tempé.</p></set>
+      <!--    <stage location="Thessalie" country="Grèce" periode="Temps mythologiques" link="">La Scène est en Thessalie dans la Vallée de Tempé.</stage>
+    -->  
     </front>
     <body>
       <div xml:id="I" type="act">
