@@ -4,6 +4,35 @@ Edition TEI par Oriane Morvan et Amélie Canu
 
 Les fichiers sont librement téléchargeables dans leur dernière version sur http://dramacode.github.io/Moliere/
 
-Fonctionne aussi avec un client subversion, notamment pour Oxygen
-`svn co https://github.com/dramacode/Moliere.git/trunk Moliere-svn`
-
+* [moliere_amantsmagnifiques](moliere_amantsmagnifiques.xml)
+* [moliere_amourmedecin](moliere_amourmedecin.xml)
+* [moliere_amphitryon](moliere_amphitryon.xml)
+* [moliere_avare](moliere_avare.xml)
+* [moliere_bourgeoisgentilhomme](moliere_bourgeoisgentilhomme.xml)
+* [moliere_comtesseescarbagnas](moliere_comtesseescarbagnas.xml)
+* [moliere_critiqueecoledesfemmes](moliere_critiqueecoledesfemmes.xml)
+* [moliere_depitamoureux](moliere_depitamoureux.xml)
+* [moliere_domgarciedenavarre](moliere_domgarciedenavarre.xml)
+* [moliere_ecoledesfemmes](moliere_ecoledesfemmes.xml)
+* [moliere_ecoledesmaris](moliere_ecoledesmaris.xml)
+* [moliere_etourdi](moliere_etourdi.xml)
+* [moliere_facheux](moliere_facheux.xml)
+* [moliere_femmessavantes](moliere_femmessavantes.xml)
+* [moliere_festindepierre](moliere_festindepierre.xml)
+* [moliere_fourberiesdescapin](moliere_fourberiesdescapin.xml)
+* [moliere_georgedandin](moliere_georgedandin.xml)
+* [moliere_impromptuversailles](moliere_impromptuversailles.xml)
+* [moliere_jalousiedubarbouille](moliere_jalousiedubarbouille.xml)
+* [moliere_maladeimaginaire](moliere_maladeimaginaire.xml)
+* [moliere_mariageforce](moliere_mariageforce.xml)
+* [moliere_medecinmalgrelui](moliere_medecinmalgrelui.xml)
+* [moliere_medecinvolant](moliere_medecinvolant.xml)
+* [moliere_melicerte](moliere_melicerte.xml)
+* [moliere_misanthrope](moliere_misanthrope.xml)
+* [moliere_monsieurpourceaugnac](moliere_monsieurpourceaugnac.xml)
+* [moliere_precieusesridicules](moliere_precieusesridicules.xml)
+* [moliere_princessedelide](moliere_princessedelide.xml)
+* [moliere_psyche](moliere_psyche.xml)
+* [moliere_sganarelle](moliere_sganarelle.xml)
+* [moliere_sicilien](moliere_sicilien.xml)
+* [moliere_tartuffe](moliere_tartuffe.xml)
