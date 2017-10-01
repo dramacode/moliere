@@ -2,7 +2,8 @@
 Le théâtre de Molière en XML/TEI, édition LABEX OBVIL http://obvil.paris-sorbonne.fr/corpus/moliere/moliere
 Edition TEI par Oriane Morvan et Amélie Canu
 
-Les fichiers sont librement téléchargeables dans leur dernière version sur http://dramacode.github.io/Moliere/
+Les fichiers sont librement téléchargeables à une URL pérenne sur  
+[dramacode.github.io/moliere](http://dramacode.github.io/moliere/)
 
 * [moliere_amantsmagnifiques](moliere_amantsmagnifiques.xml)
 * [moliere_amourmedecin](moliere_amourmedecin.xml)
