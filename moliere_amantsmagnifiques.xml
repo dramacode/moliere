@@ -1018,14 +1018,14 @@
         <stage>Le Théâtre est une Forêt, où la Princesse est invitée d’aller, une Nymphe lui en fait les honneurs en chantant, et pour la divertir on lui joue une petite Comédie en Musique, dont voici le sujet : un Berger se plaint à deux Bergers ses amis, des froideurs de celle qu’il aime, les deux amis le consolent ; et comme la Bergère aimée arrive, tous trois se retirent pour l’observer : après quelque plainte amoureuse elle se repose sur un gazon, et s’abandonne aux douceurs du sommeil ; l’Amant fait approcher ses amis pour contempler les grâces de sa Bergère, et invite toutes choses à contribuer à son repos. La Bergère en s’éveillant, voit son Berger à ses pieds, se plaint de sa poursuite : Mais considérant sa constance elle lui accorde sa demande, et consent d’en être aimée en présence des deux Bergers amis : Deux Satyres arrivant se plaignent de son changement, et étant touchés de cette disgrâce, cherchent leur consolation dans le vin.</stage>
         <castList>
           <head>LES PERSONNAGES de la Pastorale</head>
-          <castItem><role xml:id="nymphe">La nymphe de la vallée de Tempé</role>.</castItem>
-          <castItem><role xml:id="tircis">Tircis</role>.</castItem>
-          <castItem><role xml:id="lycaste">Lycaste</role>.</castItem>
-          <castItem><role xml:id="menandre">Ménandre</role>.</castItem>
-          <castItem><role xml:id="caliste">Caliste</role>.</castItem>
-          <castItem>Deux satyres<role xml:id="satyre1"/><role xml:id="satyre2"/>.</castItem>
-          <castItem><role xml:id="climene">Climène</role><role xml:id="tous-deux"/>.</castItem>
-          <castItem><role xml:id="philinte">Philinte</role>.</castItem>
+          <castItem><role xml:id="nymphe" rend="female">La nymphe de la vallée de Tempé</role>.</castItem>
+          <castItem><role xml:id="tircis" rend="male">Tircis</role>.</castItem>
+          <castItem><role xml:id="lycaste" rend="female">Lycaste</role>.</castItem>
+          <castItem><role xml:id="menandre" rend="male">Ménandre</role>.</castItem>
+          <castItem><role xml:id="caliste" rend="female">Caliste</role>.</castItem>
+          <castItem>Deux satyres<role xml:id="satyre1"  rend="male"/><role xml:id="satyre2"  rend="male"/>.</castItem>
+          <castItem><role xml:id="climene" rend="female">Climène</role><role xml:id="tous-deux"/>.</castItem>
+          <castItem><role xml:id="philinte" rend="male">Philinte</role>.</castItem>
           <castItem>
             <role xml:id="bergers"/>
           </castItem>
@@ -2003,7 +2003,7 @@
         <castList>
           <castItem><role xml:id="pretresse">La prêtresse</role>.</castItem>
           <castItem><role xml:id="grecque1">Trois grecques</role><role xml:id="grecque2"/><role xml:id="grecque3"/>.</castItem>
-          <castItem><role xml:id="choeur">Le chœur</role>.</castItem>
+          <castItem><role xml:id="choeur" rend="male exterior">Le chœur</role>.</castItem>
           <castItem><role xml:id="apollon">Apollon</role>.</castItem>
         </castList>
         <sp who="pretresse" xml:id="Vb-1">

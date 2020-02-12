@@ -80,10 +80,10 @@
           <castItem><role xml:id="climene" rend="male">Climène</role>, Sœur d’Adraste.</castItem>
           <castItem><role xml:id="hali" rend="male inferior">Hali</role>, Valet d’Adraste.</castItem>
           <castItem><role xml:id="le-senateur" rend="male">Le sénateur</role>.</castItem>
-          <castItem><role xml:id="musiciens">Les musiciens</role>.</castItem>
-          <castItem><role xml:id="troupe-d-esclaves">Troupe d’esclaves</role>.</castItem>
-          <castItem><role xml:id="troupe-de-maures">Troupe de maures</role>.</castItem>
-          <castItem><role xml:id="deux-laquais">Deux laquais</role>.</castItem>
+          <castItem><role xml:id="musiciens" rend="male exterior">Les musiciens</role>.</castItem>
+          <castItem><role xml:id="troupe-d-esclaves" rend="male inferior">Troupe d’esclaves</role>.</castItem>
+          <castItem><role xml:id="troupe-de-maures" rend="male inferior">Troupe de maures</role>.</castItem>
+          <castItem><role xml:id="deux-laquais" rend="male inferior">Deux laquais</role>.</castItem>
         </castList>
       </div>
     </front>

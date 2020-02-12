@@ -88,15 +88,15 @@
           <castItem><role rend="male exterior" xml:id="apothicaire">L’apothicaire</role>.</castItem>
           <castItem><role rend="male inferior" xml:id="paysan">Un paysan</role>.</castItem>
           <castItem><role rend="female inferior" xml:id="paysanne">Une paysanne</role>.</castItem>
-          <castItem><role rend="nograph" xml:id="musicien1">Premier musicien</role>.</castItem>
-          <castItem><role rend="nograph" xml:id="musicien2">Second musicien</role>.</castItem>
-          <castItem><role rend="nograph" xml:id="avocat1">Premier avocat</role>.</castItem>
-          <castItem><role rend="nograph" xml:id="avocat2">Second avocat</role>.</castItem>
-          <castItem><role rend="nograph" xml:id="suisse1">Premier suisse</role>.</castItem>
-          <castItem><role rend="nograph" xml:id="suisse2">Second suisse</role>.</castItem>
-          <castItem><role xml:id="exempt">Un exempt</role>.</castItem>
+          <castItem><role rend="male exterior nograph" xml:id="musicien1">Premier musicien</role>.</castItem>
+          <castItem><role rend="male exterior nograph" xml:id="musicien2">Second musicien</role>.</castItem>
+          <castItem><role rend="male exterior nograph" xml:id="avocat1">Premier avocat</role>.</castItem>
+          <castItem><role rend="male exterior nograph" xml:id="avocat2">Second avocat</role>.</castItem>
+          <castItem><role rend="male exterior nograph" xml:id="suisse1">Premier suisse</role>.</castItem>
+          <castItem><role rend="male exterior nograph" xml:id="suisse2">Second suisse</role>.</castItem>
+          <castItem><role xml:id="exempt" rend="male exterior exempt">Un exempt</role>.</castItem>
           <castItem><role xml:id="deux-archers">Deux archers</role>.</castItem>
-          <castItem><role xml:id="musiciens" rend="nograph">Plusieurs musiciens</role><role xml:id="musicien" rend="nograph"/><role xml:id="egyptienne" rend="nograph"/><role xml:id="egyptien" rend="nograph"/>.</castItem>
+          <castItem><role xml:id="musiciens" rend="nograph">Plusieurs musiciens</role><role xml:id="musicien" rend="nograph"/><role xml:id="egyptienne" rend="nograph female exterior "/><role xml:id="egyptien" rend="nograph male exterior "/>.</castItem>
           <castItem><role xml:id="danseurs">Joueurs d’instruments, et danseurs</role>.
             <role xml:id="enfants"/>
             <role xml:id="voix1"/>

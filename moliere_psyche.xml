@@ -69,14 +69,14 @@
           <castItem><role rend="female" xml:id="aegiale">Ægiale</role>, Grâce.</castItem>
           <castItem><role rend="female" xml:id="phaene">Phaene</role>, Grâce.</castItem>
           <castItem><role rend="male" xml:id="psyche">Psyché</role>.</castItem>
-          <castItem><role rend="male superior" xml:id="le-roi">Le Roi</role>, Père de Psyché.</castItem>
+          <castItem><role rend="male" xml:id="le-roi">Le Roi</role>, Père de Psyché.</castItem>
           <castItem><role rend="female" xml:id="aglaure">Aglaure</role>, Sœur de Psyché.</castItem>
           <castItem><role rend="male" xml:id="cidippe">Cidippe</role>, Sœur de Psyché.</castItem>
           <castItem><role rend="male" xml:id="cleomene">Cléomene</role>, Prince amant de Psyché.</castItem>
           <castItem><role rend="male" xml:id="agenor">Agénor</role>, Prince amant de Psyché.</castItem>
           <castItem><role rend="male" xml:id="zephire">Le Zéphire</role>.</castItem>
           <castItem><role rend="male" xml:id="lycas">Lycas</role>.</castItem>
-          <castItem><role rend="male" xml:id="dieu-fleuve">Le Dieu d’un fleuve</role>.<role n="Zéphyr" xml:id="zephyr"/><role n="Apollon" xml:id="apollon"/><role n="Muses" xml:id="muses"/><role n="Bacchus" xml:id="bacchus"/><role n="Mome" xml:id="mome"/><role n="Mars" xml:id="mars"/><role n="Chœur" xml:id="choeur"/><role n="Chœur des divinités" xml:id="choeur-des-divinites"/><role n="Flore" xml:id="flore"/><role n="Vertumne" xml:id="vertumne"/><role n="Palæmon" xml:id="palaemon"/></castItem>
+          <castItem><role rend="male" xml:id="dieu-fleuve">Le Dieu d’un fleuve</role>.<role n="Zéphyr" xml:id="zephyr" rend="male exterior"/><role n="Apollon" xml:id="apollon"/><role n="Muses" xml:id="muses"/><role n="Bacchus" xml:id="bacchus"/><role n="Mome" xml:id="mome"/><role n="Mars" xml:id="mars"/><role n="Chœur" xml:id="choeur"/><role n="Chœur des divinités" xml:id="choeur-des-divinites"  rend="male exterior"/><role n="Flore" xml:id="flore"/><role n="Vertumne" xml:id="vertumne"  rend="male exterior"/><role n="Palæmon" xml:id="palaemon" rend="male exterior"/></castItem>
         </castList>
       </div>
     </front>

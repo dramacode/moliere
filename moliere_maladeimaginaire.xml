@@ -371,19 +371,19 @@
         </castList>
         <castList>
           <castItem>
-            <role xml:id="flore"/>
-            <role xml:id="pan"/>
-            <role xml:id="climene"/>
-            <role xml:id="daphne"/>
-            <role xml:id="tircis"/>
-            <role xml:id="dorilas"/>
+            <role xml:id="flore" rend="female exterior"/>
+            <role xml:id="pan" rend="female exterior"/>
+            <role xml:id="climene" rend="female exterior"/>
+            <role xml:id="daphne" rend="female exterior"/>
+            <role xml:id="tircis" rend="male exterior"/>
+            <role xml:id="dorilas" rend="male exterior"/>
           </castItem>
           <castItem>
-            <role xml:id="polichinelle"/>
-            <role xml:id="vieille"/>
-            <role xml:id="violons"/>
-            <role xml:id="danseurs"/>
-            <role xml:id="archers"/>
+            <role xml:id="polichinelle" rend="male exterior"/>
+            <role xml:id="vieille" rend="female exterior"/>
+            <role xml:id="violons" rend="male exterior"/>
+            <role xml:id="danseurs" rend="male exterior"/>
+            <role xml:id="archers" rend="male exterior"/>
           </castItem>
           <castItem>
             <role xml:id="premiere-femme-maure"/>
@@ -392,9 +392,9 @@
             <role xml:id="quatrieme-femme-maure"/>
           </castItem>
           <castItem>
-            <role xml:id="praeses"/>
-            <role xml:id="bachelierus"/>
-            <role xml:id="chorus"/>
+            <role xml:id="praeses" rend="male exterior"/>
+            <role xml:id="bachelierus" rend="male junior exterior"/>
+            <role xml:id="chorus" rend="male exterior"/>
             <role xml:id="primus-doctor"/>
             <role xml:id="secundus-doctor"/>
             <role xml:id="tertius-doctor"/>
